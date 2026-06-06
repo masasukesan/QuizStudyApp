@@ -1,0 +1,841 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "properties-of-logarithms",
+  "questions": [
+    {
+      "id": "pol-001",
+      "difficulty": "basic",
+      "question": "log₂8 の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数の計算",
+        "基本"
+      ]
+    },
+    {
+      "id": "pol-002",
+      "difficulty": "basic",
+      "question": "log₁₀100 の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "常用対数"
+      ]
+    },
+    {
+      "id": "pol-003",
+      "difficulty": "basic",
+      "question": "logₐ1 の値(a>0,a≠1)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "−1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "a"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "log₁の値"
+      ]
+    },
+    {
+      "id": "pol-004",
+      "difficulty": "basic",
+      "question": "logₐa の値(a>0,a≠1)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "logₐaの値"
+      ]
+    },
+    {
+      "id": "pol-005",
+      "difficulty": "basic",
+      "question": "log₂(4×8) を計算する。正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂4+log₂8=2+3=5"
+        },
+        {
+          "label": "B",
+          "text": "log₂4+log₂8=2+8=10"
+        },
+        {
+          "label": "C",
+          "text": "log₂4×log₂8=6"
+        },
+        {
+          "label": "D",
+          "text": "log₂12"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "積の対数",
+        "log(MN)"
+      ]
+    },
+    {
+      "id": "pol-006",
+      "difficulty": "basic",
+      "question": "log₃9−log₃3 を計算する。正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₃(9−3)=log₃6"
+        },
+        {
+          "label": "B",
+          "text": "log₃6"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "log₃(9/3)=log₃3=1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "商の対数",
+        "log(M/N)"
+      ]
+    },
+    {
+      "id": "pol-007",
+      "difficulty": "basic",
+      "question": "log₂8³ を計算する。正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3log₂8=3×3=9"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "(log₂8)³=27"
+        },
+        {
+          "label": "D",
+          "text": "log₂(8³)=log₂8+3=6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "べき乗の対数",
+        "nlogM"
+      ]
+    },
+    {
+      "id": "pol-008",
+      "difficulty": "basic",
+      "question": "対数の性質 log(M×N)=logM+logN が成立するための条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "M>0 のみでよい"
+        },
+        {
+          "label": "B",
+          "text": "M と N は任意の実数"
+        },
+        {
+          "label": "C",
+          "text": "M≠0 かつ N≠0"
+        },
+        {
+          "label": "D",
+          "text": "M>0 かつ N>0"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "対数の定義域"
+      ]
+    },
+    {
+      "id": "pol-009",
+      "difficulty": "basic",
+      "question": "log₂(1/8) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "−8"
+        },
+        {
+          "label": "B",
+          "text": "−3"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "1/3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "負の対数"
+      ]
+    },
+    {
+      "id": "pol-010",
+      "difficulty": "basic",
+      "question": "log₂4 + log₂2 の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂(4+2)=log₂6"
+        },
+        {
+          "label": "B",
+          "text": "log₂6"
+        },
+        {
+          "label": "C",
+          "text": "log₂4 × log₂2=4"
+        },
+        {
+          "label": "D",
+          "text": "log₂8=3"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "積の対数",
+        "基本計算"
+      ]
+    },
+    {
+      "id": "pol-011",
+      "difficulty": "standard",
+      "question": "底の変換公式 logₐb=logcb/logca として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "logₐb=loga/logb"
+        },
+        {
+          "label": "B",
+          "text": "log b/log a"
+        },
+        {
+          "label": "C",
+          "text": "logₐb=logₐ/logb"
+        },
+        {
+          "label": "D",
+          "text": "logₐb=logb×loga"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "底の変換公式"
+      ]
+    },
+    {
+      "id": "pol-012",
+      "difficulty": "standard",
+      "question": "log₂3 × log₃8 を計算する正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂3 × log₃8=log₅11"
+        },
+        {
+          "label": "B",
+          "text": "log₂3 × log₃8=log₂8=3"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "底の変換で log₃8=log₂8/log₂3=3/log₂3 → log₂3 × 3/log₂3=3"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "底の変換",
+        "連鎖対数"
+      ]
+    },
+    {
+      "id": "pol-013",
+      "difficulty": "standard",
+      "question": "log₂5=a とおく。log₂50 を a で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂50=a+5"
+        },
+        {
+          "label": "B",
+          "text": "log₂50=a+10"
+        },
+        {
+          "label": "C",
+          "text": "log₂50=2a"
+        },
+        {
+          "label": "D",
+          "text": "log₂50=log₂(2×25)=1+log₂25=1+2log₂5=1+2a"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "対数の変換",
+        "文字置換"
+      ]
+    },
+    {
+      "id": "pol-014",
+      "difficulty": "standard",
+      "question": "logₐb²=2logₐb が成立するための条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b は任意の実数"
+        },
+        {
+          "label": "B",
+          "text": "b>0"
+        },
+        {
+          "label": "C",
+          "text": "b>1"
+        },
+        {
+          "label": "D",
+          "text": "b≠0"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "真数の条件",
+        "べき乗"
+      ]
+    },
+    {
+      "id": "pol-015",
+      "difficulty": "standard",
+      "question": "log₁₀2=0.301 のとき log₁₀5 の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₁₀5=log₁₀(10/2)=1−log₁₀2=1−0.301=0.699"
+        },
+        {
+          "label": "B",
+          "text": "log₁₀5=0.699 は正しいが 1−0.301=0.699 という根拠を知らずに記憶している"
+        },
+        {
+          "label": "C",
+          "text": "log₁₀5=0.7"
+        },
+        {
+          "label": "D",
+          "text": "log₁₀5=0.301"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "常用対数",
+        "log₁₀5"
+      ]
+    },
+    {
+      "id": "pol-016",
+      "difficulty": "standard",
+      "question": "2^(log₂3) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "log₂3"
+        },
+        {
+          "label": "D",
+          "text": "2×3=6"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "aˡᵒᵍN=N"
+      ]
+    },
+    {
+      "id": "pol-017",
+      "difficulty": "standard",
+      "question": "log₂6=log₂2+log₂3 で log₂3=a とおく。log₂12 を a で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂12=log₂(4×3)=2+a"
+        },
+        {
+          "label": "B",
+          "text": "log₂12=2a"
+        },
+        {
+          "label": "C",
+          "text": "log₂12=3+a"
+        },
+        {
+          "label": "D",
+          "text": "log₂12=a+log₂4=a+4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "積の対数",
+        "文字置換"
+      ]
+    },
+    {
+      "id": "pol-018",
+      "difficulty": "standard",
+      "question": "log₃(2x+1)=2 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2"
+        },
+        {
+          "label": "B",
+          "text": "2x+1=6 → x=5/2"
+        },
+        {
+          "label": "C",
+          "text": "2x+1=3²=9 → 2x=8 → x=4"
+        },
+        {
+          "label": "D",
+          "text": "2x+1=3+2=5 → x=2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数方程式",
+        "底の指数化"
+      ]
+    },
+    {
+      "id": "pol-019",
+      "difficulty": "standard",
+      "question": "log₂x>3 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x>6"
+        },
+        {
+          "label": "B",
+          "text": "x<8"
+        },
+        {
+          "label": "C",
+          "text": "x>3/log₂"
+        },
+        {
+          "label": "D",
+          "text": "x>2³=8、かつ真数条件 x>0"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "対数不等式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "pol-020",
+      "difficulty": "standard",
+      "question": "logₐb×logbₐ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "logₐb²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数の積",
+        "逆数関係"
+      ]
+    },
+    {
+      "id": "pol-021",
+      "difficulty": "exam",
+      "question": "log₁₀2=0.301、log₁₀3=0.477 のとき 6¹⁰ の桁数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "10 桁"
+        },
+        {
+          "label": "B",
+          "text": "9 桁"
+        },
+        {
+          "label": "C",
+          "text": "log₁₀6¹⁰=10log₁₀6=10(log₁₀2+log₁₀3)=7.78 → 8 桁"
+        },
+        {
+          "label": "D",
+          "text": "7 桁"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "桁数",
+        "常用対数"
+      ]
+    },
+    {
+      "id": "pol-022",
+      "difficulty": "exam",
+      "question": "log₂x+log₂(x−1)=1 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2 と x=−1 の両方"
+        },
+        {
+          "label": "B",
+          "text": "x=1"
+        },
+        {
+          "label": "C",
+          "text": "log₂x(x−1)=1 → x(x−1)=2 → x²−x−2=0 → (x−2)(x+1)=0。真数条件 x>0,x>1 より x=2"
+        },
+        {
+          "label": "D",
+          "text": "x=3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数方程式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "pol-023",
+      "difficulty": "exam",
+      "question": "log₃x+log₃(x+6)=3 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x(x+6)=27 → x²+6x−27=0 → (x+9)(x−3)=0。真数条件より x=3"
+        },
+        {
+          "label": "B",
+          "text": "x=−9"
+        },
+        {
+          "label": "C",
+          "text": "x=9"
+        },
+        {
+          "label": "D",
+          "text": "x=3 と x=−9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数方程式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "pol-024",
+      "difficulty": "exam",
+      "question": "log₂x≤log₂(3−x) を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底 2>1 なので x≤3−x → x≤3/2。真数条件 x>0 かつ 3−x>0 → 0<x≤3/2"
+        },
+        {
+          "label": "B",
+          "text": "x≤3/2"
+        },
+        {
+          "label": "C",
+          "text": "x<3/2"
+        },
+        {
+          "label": "D",
+          "text": "0<x<3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数不等式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "pol-025",
+      "difficulty": "exam",
+      "question": "log₂3=a、log₂7=b のとき log₁₄12 を a,b で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a+b)/(2+a)"
+        },
+        {
+          "label": "B",
+          "text": "log₁₄12=log₂12/log₂14=(2+a)/(1+b)"
+        },
+        {
+          "label": "C",
+          "text": "(1+a)/(1+b)"
+        },
+        {
+          "label": "D",
+          "text": "(2a)/(1+b)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "底の変換",
+        "文字式"
+      ]
+    },
+    {
+      "id": "pol-026",
+      "difficulty": "exam",
+      "question": "(log₂3)²+log₂3×log₂(1/3) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "−(log₂3)²"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "(log₂3)²"
+        },
+        {
+          "label": "D",
+          "text": "a=log₂3 と置くと a²+a×(−a)=a²−a²=0"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "対数の計算",
+        "文字置換"
+      ]
+    },
+    {
+      "id": "pol-027",
+      "difficulty": "exam",
+      "question": "log₁₀2=0.301 のとき 2⁴⁰ の桁数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12 桁"
+        },
+        {
+          "label": "B",
+          "text": "log₁₀(2⁴⁰)=40×0.301=12.04 → 13 桁"
+        },
+        {
+          "label": "C",
+          "text": "14 桁"
+        },
+        {
+          "label": "D",
+          "text": "11 桁"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "桁数",
+        "常用対数"
+      ]
+    },
+    {
+      "id": "pol-028",
+      "difficulty": "exam",
+      "question": "logₐb=2、logbₐ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "logbₐ=1/logₐb=1/2"
+        },
+        {
+          "label": "B",
+          "text": "logbₐ=2"
+        },
+        {
+          "label": "C",
+          "text": "logbₐ=−2"
+        },
+        {
+          "label": "D",
+          "text": "logbₐ=4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数の逆数",
+        "底の変換"
+      ]
+    },
+    {
+      "id": "pol-029",
+      "difficulty": "exam",
+      "question": "log₄8 を最も簡単な値に変換すると正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₄8=3"
+        },
+        {
+          "label": "B",
+          "text": "log₄8=log₂8/log₂4=3/2"
+        },
+        {
+          "label": "C",
+          "text": "log₄8=1"
+        },
+        {
+          "label": "D",
+          "text": "log₄8=2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "底の変換",
+        "分数対数"
+      ]
+    },
+    {
+      "id": "pol-030",
+      "difficulty": "exam",
+      "question": "方程式 (log₂x)²−log₂x−2=0 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2 のみ"
+        },
+        {
+          "label": "B",
+          "text": "t=log₂x と置くと t²−t−2=0 → (t−2)(t+1)=0 → t=2 または t=−1 → x=4 または x=1/2"
+        },
+        {
+          "label": "C",
+          "text": "x=4 のみ"
+        },
+        {
+          "label": "D",
+          "text": "x=2 または x=−1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "置換",
+        "対数方程式"
+      ]
+    }
+  ]
+}

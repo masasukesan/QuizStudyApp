@@ -1,0 +1,786 @@
+{
+  "subject": "数学C",
+  "unit": "ベクトルの基本",
+  "questions": [
+    {
+      "id": "vb-001",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "ベクトルの「大きさと向きが同じ」とき、始点の位置に関わらず「等しいベクトル」という。この定義として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "向きと大きさが等しければ始点によらず等しい"
+        },
+        {
+          "label": "B",
+          "text": "始点が同じで大きさが等しければ等しい"
+        },
+        {
+          "label": "C",
+          "text": "向きが等しければ大きさによらず等しい"
+        },
+        {
+          "label": "D",
+          "text": "同じ直線上にあれば等しい"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-002",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "ベクトル a の逆ベクトル -a の特徴として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a と大きさが同じで向きが逆"
+        },
+        {
+          "label": "B",
+          "text": "a と大きさが 2 倍で向きが逆"
+        },
+        {
+          "label": "C",
+          "text": "a と大きさが同じで向きも同じ"
+        },
+        {
+          "label": "D",
+          "text": "大きさが 0 のベクトル"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-003",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "ゼロベクトル 0 の性質として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "大きさが 0 で向きが定まらない"
+        },
+        {
+          "label": "B",
+          "text": "大きさが 1 で向きが定まらない"
+        },
+        {
+          "label": "C",
+          "text": "大きさが 0 で向きは正の x 軸方向"
+        },
+        {
+          "label": "D",
+          "text": "大きさが定まらず向きも定まらない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-004",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "三角形 OAB において AB = OB - OA として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AB = OB - OA(終点の位置ベクトル - 始点の位置ベクトル)"
+        },
+        {
+          "label": "B",
+          "text": "AB = OA - OB"
+        },
+        {
+          "label": "C",
+          "text": "AB = OA + OB"
+        },
+        {
+          "label": "D",
+          "text": "AB = -(OA + OB)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-005",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "ベクトルの加法 a + b を三角形の法則で求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a の終点に b の始点を置き、a の始点から b の終点へのベクトルが a + b"
+        },
+        {
+          "label": "B",
+          "text": "a と b を平行四辺形の対角として結んだベクトルが a + b"
+        },
+        {
+          "label": "C",
+          "text": "a の始点と b の終点を結んだベクトルが a + b(位置不問)"
+        },
+        {
+          "label": "D",
+          "text": "a と b を足した後に 2 で割る"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-006",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "実数 k > 0 のとき、ka の向きとして正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a と同じ向き"
+        },
+        {
+          "label": "B",
+          "text": "a と逆の向き"
+        },
+        {
+          "label": "C",
+          "text": "a に垂直な向き"
+        },
+        {
+          "label": "D",
+          "text": "向きは定まらない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-007",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "実数 k < 0 のとき、ka の大きさとして正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|k| × |a|"
+        },
+        {
+          "label": "B",
+          "text": "k × |a|(負になりうる)"
+        },
+        {
+          "label": "C",
+          "text": "|a|(スカラー倍は大きさに影響しない)"
+        },
+        {
+          "label": "D",
+          "text": "k² × |a|"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-008",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "a + 0 = a が成り立つ理由として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 は大きさ 0 のベクトルなので a に加えても変化しない"
+        },
+        {
+          "label": "B",
+          "text": "0 は 1 倍のスカラーと同じ"
+        },
+        {
+          "label": "C",
+          "text": "0 は a の逆ベクトルと定義されている"
+        },
+        {
+          "label": "D",
+          "text": "加法の交換法則から導かれる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-009",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "a - b を「ベクトルの加法」で表すと正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a + (-b)(b の逆ベクトルを加える)"
+        },
+        {
+          "label": "B",
+          "text": "-a + b"
+        },
+        {
+          "label": "C",
+          "text": "a + b を反転したもの"
+        },
+        {
+          "label": "D",
+          "text": "b - a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-010",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "basic",
+      "question": "(k + l)a = ka + la が成り立つ性質の名前として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "スカラーの分配法則"
+        },
+        {
+          "label": "B",
+          "text": "ベクトルの結合法則"
+        },
+        {
+          "label": "C",
+          "text": "ベクトルの交換法則"
+        },
+        {
+          "label": "D",
+          "text": "スカラーの交換法則"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-011",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "a = OA、b = OB とおく。AB を a と b で表す途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AB = OB - OA = b - a"
+        },
+        {
+          "label": "B",
+          "text": "AB = OA - OB = a - b"
+        },
+        {
+          "label": "C",
+          "text": "AB = OA + OB = a + b"
+        },
+        {
+          "label": "D",
+          "text": "AB は OA と同じ向きと誤解して a とする"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-012",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "三角形 ABC で、BC の中点を M とする。AM を AB = c、AC = b を用いて表す途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AM = AB + BM = c + (b - c)/2 = (b + c)/2"
+        },
+        {
+          "label": "B",
+          "text": "AM = (b+c)/2 で計算し、同じ結果になる方法"
+        },
+        {
+          "label": "C",
+          "text": "AM = AB - AC = c - b"
+        },
+        {
+          "label": "D",
+          "text": "AM = b/4 + c/4 (誤って4で割る)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-013",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "b = 3a となるとき a と b の関係として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b は a と平行で大きさが 3 倍・同じ向き"
+        },
+        {
+          "label": "B",
+          "text": "b は a と垂直で大きさが 3 倍"
+        },
+        {
+          "label": "C",
+          "text": "b は a と平行で大きさが 1/3 倍"
+        },
+        {
+          "label": "D",
+          "text": "b は a の逆ベクトルで大きさが 3 倍"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-014",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "a ≠ 0 かつ b = ka のとき「a // b(平行)」と言える。この「k が実数全体」の条件で見落としやすい例外として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 0 のとき b = 0 となり、ゼロベクトルは向きが定まらない"
+        },
+        {
+          "label": "B",
+          "text": "k < 0 のとき b と a は垂直になる"
+        },
+        {
+          "label": "C",
+          "text": "k = 1 のとき a と b は等しいベクトルになる"
+        },
+        {
+          "label": "D",
+          "text": "実数 k なら例外はなく常に a // b"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-015",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "OA = a、OC = 3a のとき、A、O、C の位置関係を調べる途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OC = 3×OA なので O、A、C は同一直線上にある(平行条件)"
+        },
+        {
+          "label": "B",
+          "text": "OC = 3a なので C は A の 3 倍の位置(O が中点)"
+        },
+        {
+          "label": "C",
+          "text": "OA と OC が平行なので A と C は同じ点"
+        },
+        {
+          "label": "D",
+          "text": "3a = a + 2a より三角形を形成する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-016",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "a + b + c = 0 のとき c を a と b で表す途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c = -a - b"
+        },
+        {
+          "label": "B",
+          "text": "c = a + b"
+        },
+        {
+          "label": "C",
+          "text": "c = a - b"
+        },
+        {
+          "label": "D",
+          "text": "c = -(a - b) = b - a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-017",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "2a - 3b と a + b のどちらが大きいか比較するとき、大きさを直接比べる正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|2a - 3b| と |a + b| をそれぞれ計算して比較(a·b の値が必要)"
+        },
+        {
+          "label": "B",
+          "text": "係数の和 2-3=-1 と 1+1=2 を比べる"
+        },
+        {
+          "label": "C",
+          "text": "ベクトルの大きさは係数だけで決まる"
+        },
+        {
+          "label": "D",
+          "text": "成分なしでは比較できないので答えは不定"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-018",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "a = 2b - c において c を a と b で表す途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c = 2b - a"
+        },
+        {
+          "label": "B",
+          "text": "c = a - 2b"
+        },
+        {
+          "label": "C",
+          "text": "c = -a + 2b(同じだが符号を明示)"
+        },
+        {
+          "label": "D",
+          "text": "符号を見落として c が a と同じ正方向になると考える誤り"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-019",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "平行四辺形 ABCD で AB = p、AD = q のとき対角線 AC を p と q で表す途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AC = AB + AD = p + q"
+        },
+        {
+          "label": "B",
+          "text": "AC は AD の方向のみで q だけとする誤り"
+        },
+        {
+          "label": "C",
+          "text": "AC = AD - AB = q - p"
+        },
+        {
+          "label": "D",
+          "text": "AC = AB + BC = p + p = 2p"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-020",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "standard",
+      "question": "平行四辺形 ABCD の対角線の交点 M について OM を OA = a、OB = b、OC = c として表す途中式として正しいのはどれか。(O は任意の点)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "M は AC の中点なので OM = (OA + OC)/2 = (a + c)/2"
+        },
+        {
+          "label": "B",
+          "text": "OM = (OA + OB + OC + OD)/4"
+        },
+        {
+          "label": "C",
+          "text": "OM = OB = b(対角線の交点は B に一致)"
+        },
+        {
+          "label": "D",
+          "text": "OM = (OB + OD)/2 ≠ (OA + OC)/2(等しくない)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-021",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "ベクトルの加法の交換法則 a + b = b + a を証明する。三角形の法則を用いたとき、正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a の終点に b を置いた a + b も、b の終点に a を置いた b + a も同じ対角線ベクトルになる(平行四辺形の法則)"
+        },
+        {
+          "label": "B",
+          "text": "数の足し算と同じなので証明不要"
+        },
+        {
+          "label": "C",
+          "text": "a + b の始点と終点を入れ替えると b + a になる"
+        },
+        {
+          "label": "D",
+          "text": "a と b が平行なときだけ成立する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-022",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "(a + b) + c = a + (b + c) の結合法則を証明するとき、三角形の法則を繰り返し使う。正しい論証の流れはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a + b) + c: a の終点→b→c と進む経路と、a + (b + c): a→(b の終点→c と進む経路) が同じ始点・終点になることを確認"
+        },
+        {
+          "label": "B",
+          "text": "数の足し算の結合法則が成立するので自明"
+        },
+        {
+          "label": "C",
+          "text": "3つのベクトルが平行な場合のみ成立する"
+        },
+        {
+          "label": "D",
+          "text": "成分表示に変換してから証明する(一般の場合)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-023",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "k(a + b) = ka + kb を証明する(スカラーのベクトルへの分配法則)。正しい証明の鍵となる操作はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a + b の有向線分全体を k 倍することと、各有向線分を k 倍してから合成することが同値であることを三角形の相似で示す"
+        },
+        {
+          "label": "B",
+          "text": "数の分配法則がそのまま適用できる"
+        },
+        {
+          "label": "C",
+          "text": "成分が与えられている場合のみ証明できる"
+        },
+        {
+          "label": "D",
+          "text": "k > 0 の場合のみ成立し、k < 0 では別途確認が必要"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-024",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "a ≠ 0 かつ b ≠ 0 のとき「a と b が平行 ⟺ b = ka となる実数 k が存在する」の逆向き(十分条件)を証明する。正しい証明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b = ka とおくと b は a を k 倍したベクトルなので、向きが同じ(k > 0)か逆(k < 0)かのいずれかで平行"
+        },
+        {
+          "label": "B",
+          "text": "k が実数なら b は常に a と垂直"
+        },
+        {
+          "label": "C",
+          "text": "b = ka ならば |b| = |a| が必要"
+        },
+        {
+          "label": "D",
+          "text": "k = 0 の場合 b = 0 なので a // b が成立する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-025",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "「a ≠ 0、b ≠ 0 かつ a と b が平行でない」とき、xa + yb = 0 ならば x = y = 0 であることを証明する。証明の核心はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x ≠ 0 と仮定すると b = -(y/x)a となり b は a の実数倍 → a と b が平行という矛盾"
+        },
+        {
+          "label": "B",
+          "text": "x = 0 とおいて y を求めればよい"
+        },
+        {
+          "label": "C",
+          "text": "a と b の内積が 0 のときのみ成立する"
+        },
+        {
+          "label": "D",
+          "text": "成分表示を使わないと証明できない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-026",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "|a + b|² = |a|² + 2a·b + |b|² を展開・証明する途中で、(a + b)·(a + b) を展開したとき正しい途中式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·a + a·b + b·a + b·b = |a|² + 2a·b + |b|²(内積の交換法則 a·b = b·a を使用)"
+        },
+        {
+          "label": "B",
+          "text": "a·a + (a + b)·b = |a|² + |b|²(交差項を落とした誤り)"
+        },
+        {
+          "label": "C",
+          "text": "|a|² + |b|² のみ(内積の積和を無視)"
+        },
+        {
+          "label": "D",
+          "text": "(a + b)² = a² + b²(スカラーと同じと誤解)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-027",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "|a - b|² = |a|² - 2a·b + |b|² を利用して |a - b| を計算する場合の証明の出発点として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a - b)·(a - b) = a·a - a·b - b·a + b·b = |a|² - 2a·b + |b|²"
+        },
+        {
+          "label": "B",
+          "text": "|a - b| = |a| - |b|(三角不等式の等号版)"
+        },
+        {
+          "label": "C",
+          "text": "a·(-b) = a·b(符号を落とした誤り)"
+        },
+        {
+          "label": "D",
+          "text": "|a-b|^2 = |a|^2 - |b|^2 (2乗を誤解)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-028",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "三角不等式 |a + b| ≦ |a| + |b| を証明するとき、|a + b|² ≦ (|a| + |b|)² を示す。正しい不等式の使い方はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|a + b|² = |a|² + 2a·b + |b|² ≦ |a|² + 2|a||b| + |b|²(a·b ≦ |a||b| を使用)"
+        },
+        {
+          "label": "B",
+          "text": "|a+b|^2 = |a|^2 + |b|^2 のみ (a·b 項なし、直交ケースのみ)"
+        },
+        {
+          "label": "C",
+          "text": "a·b ≧ |a||b| を使って |a + b|² を大きく評価"
+        },
+        {
+          "label": "D",
+          "text": "|a| + |b| を 2 乗しても |a + b|² との関係は不明"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-029",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "a ≠ 0、b ≠ 0 のとき「a + b = 0 ならば b = -a」を証明する。正しい証明のステップはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a + b = 0 の両辺に -a を加えると b = -a が得られる(ベクトルの加法と逆ベクトルの定義を使用)"
+        },
+        {
+          "label": "B",
+          "text": "a ≠ 0 なので b = a"
+        },
+        {
+          "label": "C",
+          "text": "a + b = 0 は a = 0 のときしか成立しない"
+        },
+        {
+          "label": "D",
+          "text": "スカラー倍の定義から直接示す"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vb-030",
+      "subject": "数学C",
+      "unit": "ベクトルの基本",
+      "difficulty": "exam",
+      "question": "1次独立の定義「a ≠ 0、b ≠ 0 で a と b が平行でないとき、xa + yb = x'a + y'b ならば x = x'、y = y'」を証明する。正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x - x')a + (y - y')b = 0 → a と b は平行でないので x - x' = 0 かつ y - y' = 0(vb-025 の結果を使用)"
+        },
+        {
+          "label": "B",
+          "text": "成分を仮定してから比較する"
+        },
+        {
+          "label": "C",
+          "text": "xa = x'a より x = x'、yb = y'b より y = y' と直接結論"
+        },
+        {
+          "label": "D",
+          "text": "a と b が直交する場合のみ証明できる"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

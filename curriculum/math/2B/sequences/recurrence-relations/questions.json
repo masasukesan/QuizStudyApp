@@ -1,0 +1,906 @@
+{
+  "subject": "math",
+  "unit": "漸化式",
+  "questions": [
+    {
+      "id": "rr-001",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=aₙ+5、a₁=3 の等差型漸化式の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "公差 d=5、初項 a₁=3 → aₙ=3+(n−1)×5=5n−2"
+        },
+        {
+          "label": "B",
+          "text": "公比 r=5、初項 a₁=3 → aₙ=3×5^(n−1)"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=aₙ₋₁+5 の両辺を足し合わせ → aₙ=3+5n"
+        },
+        {
+          "label": "D",
+          "text": "公差 d=5、一般項 aₙ=a₁+nd=3+5n"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "等差型漸化式",
+        "公差d=5",
+        "aₙ=a₁+(n−1)d"
+      ]
+    },
+    {
+      "id": "rr-002",
+      "pattern_id": "p02",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=3aₙ、a₁=2 の等比型漸化式の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "公比 r=3、初項 a₁=2 → aₙ=2×3^(n−1)"
+        },
+        {
+          "label": "B",
+          "text": "公差 d=3−1=2 と考えて等差数列 aₙ=2+(n−1)×2=2n"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=2×3^n"
+        },
+        {
+          "label": "D",
+          "text": "公比 r=3、aₙ=a₁+rⁿ=2+3ⁿ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "等比型漸化式",
+        "公比r=3",
+        "aₙ=a₁×r^(n−1)"
+      ]
+    },
+    {
+      "id": "rr-003",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=aₙ+2n、a₁=1 のとき一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aₙ=a₁+Σ(k=1 →n−1) 2k=1+2×(n−1)n/2=1+n(n−1)=n²−n+1。n=1 も確認 ✓"
+        },
+        {
+          "label": "B",
+          "text": "aₙ=a₁+2n=1+2n"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=1+Σ(k=1 →n) 2k=1+n(n+1)"
+        },
+        {
+          "label": "D",
+          "text": "aₙ=aₙ₋₁+2n を解いて aₙ=n²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "aₙ₊₁−aₙ=f(n)型",
+        "Σk=n−1まで",
+        "n²−n+1"
+      ]
+    },
+    {
+      "id": "rr-004",
+      "pattern_id": "p05",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=2aₙ+3 の特性方程式を解いて固定点 α を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "α=2α+3 → α−2α=3 → −α=3 → α=−3"
+        },
+        {
+          "label": "B",
+          "text": "α=a₁+3=初項+3"
+        },
+        {
+          "label": "C",
+          "text": "α=2×3=6"
+        },
+        {
+          "label": "D",
+          "text": "α=3/(2−1)=3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特性方程式α=pα+q",
+        "α=−3",
+        "固定点の求め方"
+      ]
+    },
+    {
+      "id": "rr-005",
+      "pattern_id": "p04",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=2aₙ+3、a₁=1 のとき bₙ=aₙ+3 と置いた後の手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b_{n+1}=a_{n+1}+3=(2aₙ+3)+3=2aₙ+6=2(aₙ+3)=2bₙ。等比数列 b₁=a₁+3=4、公比2 → bₙ=4×2^(n−1)=2^(n+1)"
+        },
+        {
+          "label": "B",
+          "text": "bₙ=aₙ+3 なので bₙ₊₁=bₙ+3"
+        },
+        {
+          "label": "C",
+          "text": "b₁=a₁−3=−2"
+        },
+        {
+          "label": "D",
+          "text": "bₙ=aₙ−3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "bₙ=aₙ−α",
+        "bₙ₊₁=2bₙの等比数列",
+        "初項b₁=4=a₁+3"
+      ]
+    },
+    {
+      "id": "rr-006",
+      "pattern_id": "p04",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=2aₙ+3、a₁=1 の一般項を求めたとき最終的な aₙ の式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "bₙ=aₙ+3=2^(n+1) → aₙ=2^(n+1)−3"
+        },
+        {
+          "label": "B",
+          "text": "aₙ=2^(n+1)"
+        },
+        {
+          "label": "C",
+          "text": "b₁=a₁+3=4 なので bₙ=4+3(n−1)=3n+1 と等差と誤解。aₙ=bₙ−3=3n−2"
+        },
+        {
+          "label": "D",
+          "text": "不動点方程式 α=2α+3 → α=3。bₙ=aₙ−3 → b₁=−2。bₙ=−2×2^(n−1)=−2ⁿ。aₙ=3−2ⁿ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "bₙ=aₙ+3を逆変換",
+        "aₙ=bₙ−3=2^(n+1)−3",
+        "n=1確認"
+      ]
+    },
+    {
+      "id": "rr-007",
+      "pattern_id": "p06",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=3aₙ−4、a₁=3 のとき特性方程式の解を求め一般項を導く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "α=3α−4 → α=2。bₙ=aₙ−2、b₁=1、b_{n+1}=3bₙ → bₙ=3^(n−1)。aₙ=3^(n−1)+2"
+        },
+        {
+          "label": "B",
+          "text": "α=3−4=−1"
+        },
+        {
+          "label": "C",
+          "text": "α=3α−4 → −2α=−4 → α=2。bₙ=aₙ+2"
+        },
+        {
+          "label": "D",
+          "text": "aₙ=3^(n−1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特性方程式α=2",
+        "bₙ=aₙ−2で等比数列",
+        "aₙ=3^(n−1)+2"
+      ]
+    },
+    {
+      "id": "rr-008",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=aₙ+3n²、a₁=0 のとき一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aₙ=Σ(k=1 →n−1) 3k²=3×(n−1)n(2n−1)/6=(n−1)n(2n−1)/2。n=1：a₁=0 ✓"
+        },
+        {
+          "label": "B",
+          "text": "aₙ=3n²"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=Σ(k=1 →n) 3k²=n(n+1)(2n+1)/2"
+        },
+        {
+          "label": "D",
+          "text": "aₙ=3×n²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "階差数列Σk²",
+        "Σ(k=1→n−1)3k²",
+        "(n−1)n(2n−1)/2"
+      ]
+    },
+    {
+      "id": "rr-009",
+      "pattern_id": "p08",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=aₙ/(2aₙ+1)、a₁=1 のとき bₙ=1/aₙ と置いた後の手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b_{n+1}=1/a_{n+1}=(2aₙ+1)/aₙ=2+1/aₙ=2+bₙ → bₙ₊₁=bₙ+2。b₁=1、公差2 → bₙ=2n−1。aₙ=1/(2n−1)"
+        },
+        {
+          "label": "B",
+          "text": "bₙ₊₁=bₙ×2 → bₙ=2^(n−1) → aₙ=1/2^(n−1)"
+        },
+        {
+          "label": "C",
+          "text": "b_{n+1}=2bₙ+1"
+        },
+        {
+          "label": "D",
+          "text": "b₁=a₁=1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "逆数置換bₙ=1/aₙ",
+        "bₙ₊₁=bₙ+2の等差型",
+        "aₙ=1/(2n−1)"
+      ]
+    },
+    {
+      "id": "rr-010",
+      "pattern_id": "p09",
+      "difficulty": "basic",
+      "question": "aₙ₊₁=4aₙ−6、a₁=4 の一般項を求めてから n=1 で検算する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "α=4α−6 → α=2。bₙ=aₙ−2、b₁=2、公比4 → bₙ=2×4^(n−1)。aₙ=2×4^(n−1)+2。n=1：2×1+2=4=a₁ ✓"
+        },
+        {
+          "label": "B",
+          "text": "aₙ=4ⁿ−2。n=1：4−2=2≠4"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=2×4^(n−1)"
+        },
+        {
+          "label": "D",
+          "text": "α=4×(−6)=−24"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特性方程式α=2",
+        "n=1での検算",
+        "aₙ=2×4^(n−1)+2"
+      ]
+    },
+    {
+      "id": "rr-012",
+      "pattern_id": "p10",
+      "difficulty": "standard",
+      "question": "aₙ₊₂=3aₙ₊₁−2aₙ、a₁=1、a₂=3 の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特性根 α=1、β=2。aₙ=A×1ⁿ+B×2ⁿ=A+B×2ⁿ。a₁=A+2B=1、a₂=A+4B=3 → B=1、A=−1。aₙ=2ⁿ−1"
+        },
+        {
+          "label": "B",
+          "text": "特性根 α=1, β=2 を重根と誤解。aₙ=A+B×n×2ⁿ とした。a₁=A+2B=1、a₂=A+8B=3 → B=1/3、A=1/3。aₙ=1/3+n×2ⁿ/3"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=(α+β)n−αβ=3n−2"
+        },
+        {
+          "label": "D",
+          "text": "aₙ=1ⁿ+2ⁿ=1+2ⁿ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "一般解aₙ=A+B×2ⁿ",
+        "初期条件から連立",
+        "aₙ=2ⁿ−1"
+      ]
+    },
+    {
+      "id": "rr-013",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=2aₙ+n、a₁=1 の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "まず同次解 A×2ⁿ を求め、特解 aₙ=pn+q と置いて漸化式に代入：p(n+1)+q=2(pn+q)+n → p=−1、q=−1。一般解 aₙ=A×2ⁿ−n−1。a₁=2A−2=1 → A=3/2 → aₙ=3×2^(n−1)−n−1"
+        },
+        {
+          "label": "B",
+          "text": "aₙ=2^n−n"
+        },
+        {
+          "label": "C",
+          "text": "aₙ₊₁=2aₙ+n の両辺を 2ⁿ で割って cₙ=aₙ/2ⁿ と置く"
+        },
+        {
+          "label": "D",
+          "text": "特性方程式 α=2α+n → α=−n"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特解aₙ=pn+qを仮定",
+        "係数比較でp=−1,q=−1",
+        "初期条件で定数決定"
+      ]
+    },
+    {
+      "id": "rr-015",
+      "pattern_id": "p11",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=2aₙ+3ⁿ、a₁=1 の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特解 aₙ=c×3ⁿ を仮定：c×3^(n+1)=2c×3ⁿ+3ⁿ → 3c=2c+1 → c=1。一般解 aₙ=A×2ⁿ+3ⁿ。a₁=2A+3=1 → A=−1 → aₙ=3ⁿ−2ⁿ"
+        },
+        {
+          "label": "B",
+          "text": "特解 aₙ=cⁿ"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=3ⁿ−2^(n+1)"
+        },
+        {
+          "label": "D",
+          "text": "aₙ=A×2ⁿ+1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特解aₙ=c×3ⁿを仮定",
+        "c=1を決定",
+        "aₙ=3ⁿ−2ⁿ"
+      ]
+    },
+    {
+      "id": "rr-016",
+      "pattern_id": "p12",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=2aₙ+bₙ、bₙ₊₁=aₙ+2bₙ（a₁=2、b₁=0）の連立漸化式において aₙ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sₙ=aₙ+bₙ とすると s_{n+1}=3sₙ。dₙ=aₙ−bₙ とすると d_{n+1}=dₙ。s₁=2、d₁=2 → sₙ=2×3^(n−1)、dₙ=2 → aₙ=(sₙ+dₙ)/2=3^(n−1)+1"
+        },
+        {
+          "label": "B",
+          "text": "s_{n+1}=2sₙ と誤計算。s₁=2 → sₙ=2ⁿ。d₁=2 → dₙ=2 → aₙ=(2ⁿ+2)/2=2^(n−1)+1"
+        },
+        {
+          "label": "C",
+          "text": "d₁=0 と誤記。sₙ=2×3^(n−1)、dₙ=0 → aₙ=sₙ/2=3^(n−1)"
+        },
+        {
+          "label": "D",
+          "text": "aₙ₊₂=4aₙ₊₁−3aₙ と変換し特性根1・3を正しく求めるが初期条件から A=1/2、B=1/2 → aₙ=(3ⁿ+1)/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sₙ=aₙ+bₙとdₙ=aₙ−bₙの変換",
+        "それぞれが等比・定数型",
+        "aₙとbₙを逆算"
+      ]
+    },
+    {
+      "id": "rr-017",
+      "pattern_id": "p13",
+      "difficulty": "standard",
+      "question": "aₙ₊₂=4aₙ₊₁−4aₙ、a₁=1、a₂=4 の特性方程式と一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²=4x−4 → x²−4x+4=0 → (x−2)²=0 → x=2。aₙ=(An+B)×2ⁿ。a₁=(A+B)×2=1、a₂=(2A+B)×4=4 → A=1/2、B=0 → aₙ=n×2^(n−1)"
+        },
+        {
+          "label": "B",
+          "text": "重解 x=2 のとき aₙ=A×2ⁿ"
+        },
+        {
+          "label": "C",
+          "text": "x²−4x+4=0 → x=2 → aₙ=A×2ⁿ+B×n×2ⁿ"
+        },
+        {
+          "label": "D",
+          "text": "x=4、x=−4 と解いた誤り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重解x=2",
+        "一般解aₙ=(An+B)×2ⁿ",
+        "初期条件でA,B決定"
+      ]
+    },
+    {
+      "id": "rr-018",
+      "pattern_id": "p11",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=3aₙ+2ⁿ、a₁=1 の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特解 aₙ=c×2ⁿ を代入：c×2^(n+1)=3c×2ⁿ+2ⁿ → 2c=3c+1 → c=−1。aₙ=A×3ⁿ−2ⁿ。a₁=3A−2=1 → A=1 → aₙ=3ⁿ−2ⁿ"
+        },
+        {
+          "label": "B",
+          "text": "特解 aₙ=cと仮定：c=3c+2ⁿ"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=3ⁿ+2ⁿ"
+        },
+        {
+          "label": "D",
+          "text": "qₙ=2ⁿ なので同次解の底と同じ → 特解は n×2ⁿ の形"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特解c×2ⁿを代入",
+        "2c=3c+1でc=−1",
+        "初期条件でA=1"
+      ]
+    },
+    {
+      "id": "rr-019",
+      "pattern_id": "p04",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=−aₙ+6、a₁=2 のとき特性方程式の解と一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "α=−α+6 → 2α=6 → α=3。bₙ=aₙ−3。b_{n+1}=a_{n+1}−3=−aₙ+6−3=−aₙ+3=−(aₙ−3)=−bₙ。公比−1、b₁=−1 → bₙ=(−1)ⁿ。aₙ=(−1)ⁿ+3"
+        },
+        {
+          "label": "B",
+          "text": "α=6"
+        },
+        {
+          "label": "C",
+          "text": "公比が−1なので数列が振動 → 一般項は存在しない"
+        },
+        {
+          "label": "D",
+          "text": "bₙ=aₙ+3 → b_{n+1}=−bₙ+6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特性方程式α=3",
+        "公比−1の等比数列",
+        "aₙ=(−1)ⁿ+3"
+      ]
+    },
+    {
+      "id": "rr-020",
+      "pattern_id": "p14",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=(n+1)/n×aₙ、a₁=1 の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aₙ=a₁×(a₂/a₁)×(a₃/a₂)×…×(aₙ/aₙ₋₁)=1×(2/1)×(3/2)×…×(n/(n−1))=n"
+        },
+        {
+          "label": "B",
+          "text": "公比 r=(n+1)/n で n によって変わるので等比数列でない → 一般項不明"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=(n+1)/n"
+        },
+        {
+          "label": "D",
+          "text": "aₙ=n!"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "aₙ=a₁×Π(k=1 to n−1)(k+1)/k",
+        "telescoping積",
+        "aₙ=n"
+      ]
+    },
+    {
+      "id": "rr-022",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=2aₙ+n²、a₁=0 の一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特解 aₙ=an²+bn+c を仮定して代入整理：a=−1、b=−2、c=−3。一般解 aₙ=A×2ⁿ−n²−2n−3。a₁=2A−6=0 → A=3 → aₙ=3×2ⁿ−n²−2n−3"
+        },
+        {
+          "label": "B",
+          "text": "特解 aₙ=cn²と仮定"
+        },
+        {
+          "label": "C",
+          "text": "aₙ=2^(n+1)−n²−2n−3"
+        },
+        {
+          "label": "D",
+          "text": "qₙ=n² は等差数列なので特解も等差数列 aₙ=dn+e"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特解an²+bn+cを仮定",
+        "係数比較でa,b,cを決定",
+        "初期条件でAを決定"
+      ]
+    },
+    {
+      "id": "rr-023",
+      "pattern_id": "p04",
+      "difficulty": "standard",
+      "question": "aₙ₊₁=(1/2)aₙ+4、a₁=2 の特性方程式と一般項を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "α=(1/2)α+4 → (1/2)α=4 → α=8。bₙ=aₙ−8。b_{n+1}=(1/2)bₙ。b₁=−6 → bₙ=−6×(1/2)^(n−1)。aₙ=8−6×(1/2)^(n−1)=8−3×2^(2−n)"
+        },
+        {
+          "label": "B",
+          "text": "α=1/2×4=2"
+        },
+        {
+          "label": "C",
+          "text": "公比1/2 < 1 なので n →∞ で aₙ →収束値=α=8"
+        },
+        {
+          "label": "D",
+          "text": "bₙ=aₙ+8"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特性方程式α=8",
+        "公比1/2の等比数列",
+        "aₙ=8−6×(1/2)^(n−1)"
+      ]
+    },
+    {
+      "id": "rr-024",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₁ = (2n−1)/(2n+1)×aₙ、a₁=1 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "望遠鏡積で分子・分母が消え → aₙ = 1/(2n−1)"
+        },
+        {
+          "label": "B",
+          "text": "公比の分子・分母が消えずに残る → aₙ = (2n−1)/(2n+1)"
+        },
+        {
+          "label": "C",
+          "text": "各因子を平均して → aₙ = 1/n"
+        },
+        {
+          "label": "D",
+          "text": "公比が定数 1/3 とみなし → aₙ = (1/3)^(n−1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "望遠鏡積",
+        "分子分母の消し合い"
+      ]
+    },
+    {
+      "id": "rr-025",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₂ = 5aₙ₊₁ − 6aₙ、a₁=1、a₂=5 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²−5x+6=0 → x=2,3。連立 2A+3B=1, 4A+9B=5 → A=−1, B=1 → aₙ = 3ⁿ − 2ⁿ"
+        },
+        {
+          "label": "B",
+          "text": "x²-5x+6=(x-1)(x-6) と因数分解ミス → x=1,6 → aₙ=A+B×6ⁿ"
+        },
+        {
+          "label": "C",
+          "text": "x=2,3 は合っているが連立から A=-1 B=1 でなく A=1 B=-1 と逆に設定"
+        },
+        {
+          "label": "D",
+          "text": "特性方程式を x²=5x+6 と立式ミス → x=6,−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特性方程式",
+        "初期条件からA,Bを決定"
+      ]
+    },
+    {
+      "id": "rr-026",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₁ = 3aₙ + 4ⁿ、a₁=2 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特解 c×4ⁿ：4c=3c+1 → c=1。A×3ⁿ+4ⁿ、3A+4=2 → A=−2/3 → aₙ = 4ⁿ − 2×3^(n−1)"
+        },
+        {
+          "label": "B",
+          "text": "特解を c×3ⁿ と設定"
+        },
+        {
+          "label": "C",
+          "text": "c=1 は正しいが初期条件から A=2/3 と計算 → aₙ = (2/3)×3ⁿ + 4ⁿ"
+        },
+        {
+          "label": "D",
+          "text": "特解を cn×3ⁿ(重解型)と誤設定"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "非斉次漸化式の特解",
+        "一般解の決定"
+      ]
+    },
+    {
+      "id": "rr-027",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₂ = 6aₙ₊₁ − 9aₙ、a₁=0、a₂=3 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x−3)²=0 → 重解 x=3。(An+B)×3ⁿ、連立 → A=1/3, B=−1/3 → aₙ = (n−1)×3^(n−1)"
+        },
+        {
+          "label": "B",
+          "text": "重解でも一般解を A×3ⁿ と設定"
+        },
+        {
+          "label": "C",
+          "text": "係数計算ミス → aₙ = n×3^(n−1)"
+        },
+        {
+          "label": "D",
+          "text": "(A+Bn)×3ⁿ と正しく設定するが初期条件代入ミス → aₙ = (n/3)×3^(n−1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重解の一般解 (An+B)rⁿ",
+        "初期条件の代入"
+      ]
+    },
+    {
+      "id": "rr-028",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₁ = 2aₙ + 2n − 1、a₁=1 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特解 pn+q：p=−2, q=−1。A×2ⁿ−2n−1、a₁=2A−3=1 → A=2 → aₙ = 2^(n+1) − 2n − 1"
+        },
+        {
+          "label": "B",
+          "text": "特解を pn と設定 → 解が定まらない"
+        },
+        {
+          "label": "C",
+          "text": "定数比較で q=1 と誤計算 → A×2ⁿ−2n+1、2A−1=1 → A=1 → aₙ=2ⁿ−2n+1"
+        },
+        {
+          "label": "D",
+          "text": "特性方程式を n 含みで立式ミス → 解不能"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "非斉次漸化式の特解（一次式）",
+        "A×2ⁿとの合成"
+      ]
+    },
+    {
+      "id": "rr-029",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₁ = n×aₙ/(n+1)、a₁=2 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "望遠鏡積 2×(1/2)×(2/3)×...×((n−1)/n) → aₙ = 2/n"
+        },
+        {
+          "label": "B",
+          "text": "公比が n 依存 → 等比数列として解けないと誤判断"
+        },
+        {
+          "label": "C",
+          "text": "分子分母のずれを誤解 → aₙ = 2/(n+1)"
+        },
+        {
+          "label": "D",
+          "text": "各因子の積を n! と混同 → aₙ = 2/n!"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "望遠鏡積",
+        "分子・分母の消し合い"
+      ]
+    },
+    {
+      "id": "rr-030",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₂ = aₙ₊₁ + aₙ（フィボナッチ型）の特性方程式の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²−x−1=0 → x = (1±√5)/2"
+        },
+        {
+          "label": "B",
+          "text": "x²=x+1 → x = (1±√4)/2 = 1 または 0"
+        },
+        {
+          "label": "C",
+          "text": "x²−x+1=0 → 虚数解"
+        },
+        {
+          "label": "D",
+          "text": "正の解のみ x=(1+√5)/2(負の解を見落とし)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "フィボナッチの特性方程式",
+        "x=(1±√5)/2"
+      ]
+    },
+    {
+      "id": "rr-031",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₁ = aₙ/2 + 3、a₁=2 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "固定点 α=6 で bₙ=aₙ−6 とすると bₙ₊₁=bₙ/2 → bₙ=−4×(1/2)^(n−1) → aₙ = 6−(1/2)^(n−3)"
+        },
+        {
+          "label": "B",
+          "text": "aₙ₊₁=aₙ/2+3 を等比と誤解 → aₙ = 2×(1/2)^(n−1)"
+        },
+        {
+          "label": "C",
+          "text": "固定点 α=3 と誤計算 → aₙ = 3−(1/2)^(n−1)"
+        },
+        {
+          "label": "D",
+          "text": "固定点 α=6、bₙ₊₁=bₙ/2 で a₁代入ミス → aₙ = 6+(1/2)^(n−3)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "固定点による等比への変換",
+        "aₙ₊₁=raₙ+p型"
+      ]
+    },
+    {
+      "id": "rr-032",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "aₙ₊₁ = −aₙ + 4、a₁=1 のとき、aₙ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "固定点 α=2。bₙ=aₙ−2 → bₙ₊₁=−bₙ → bₙ=(−1)^(n−1)×(−1) → aₙ = 2+(−1)ⁿ"
+        },
+        {
+          "label": "B",
+          "text": "aₙ=(−1)^(n−1)×1+4×n"
+        },
+        {
+          "label": "C",
+          "text": "固定点 α=4、bₙ₊₁=−bₙ → aₙ = 4+(−1)^(n−1)×(−3)"
+        },
+        {
+          "label": "D",
+          "text": "公比 −1 の等比数列のみ → aₙ = (−1)^(n−1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "固定点 α=2",
+        "bₙ₊₁=−bₙ の等比"
+      ]
+    },
+    {
+      "id": "rr-033",
+      "subject": "math",
+      "unit": "漸化式",
+      "difficulty": "exam",
+      "question": "3項間漸化式 aₙ₊₂ − 4aₙ₊₁ + 4aₙ = 0、a₁=1、a₂=4 のとき、a₅ はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x−2)²=0 → 重解 x=2。(An+B)×2ⁿ。a₁=(A+B)×2=1、a₂=(2A+B)×4=4 → A=1/2、B=0 → aₙ=n×2^(n−1)。a₅=80"
+        },
+        {
+          "label": "B",
+          "text": "aₙ=A×2ⁿ と設定 → A=1/2 → a₅=16"
+        },
+        {
+          "label": "C",
+          "text": "a₃=8, a₄=16, a₅=32"
+        },
+        {
+          "label": "D",
+          "text": "(A+Bn)×2ⁿ で B=1, A=0 と誤計算 → a₅=5×32=160"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重解の一般形",
+        "a₅=80"
+      ]
+    }
+  ]
+}

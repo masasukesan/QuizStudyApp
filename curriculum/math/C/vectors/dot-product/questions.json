@@ -1,0 +1,786 @@
+{
+  "subject": "数学C",
+  "unit": "内積",
+  "questions": [
+    {
+      "id": "dp-001",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "|a| = 3、|b| = 4、なす角 θ = 60° のとき a·b の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3×4×cos60° = 12×(1/2) = 6"
+        },
+        {
+          "label": "B",
+          "text": "3×4×sin60° = 12×(√3/2) = 6√3"
+        },
+        {
+          "label": "C",
+          "text": "3+4 = 7"
+        },
+        {
+          "label": "D",
+          "text": "3×4 = 12"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-002",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "a = (2, 3)、b = (1, -2) のとき a·b の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2×1 + 3×(-2) = 2-6 = -4"
+        },
+        {
+          "label": "B",
+          "text": "2×(-2) + 3×1 = -4+3 = -1"
+        },
+        {
+          "label": "C",
+          "text": "2+1 + 3+(-2) = 4"
+        },
+        {
+          "label": "D",
+          "text": "(2+3)×(1-2) = -5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-003",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "a·b = 0 のとき a と b の関係として正しいのはどれか。(a ≠ 0、b ≠ 0)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a ⊥ b(互いに垂直)"
+        },
+        {
+          "label": "B",
+          "text": "a // b(互いに平行)"
+        },
+        {
+          "label": "C",
+          "text": "a = b(等しい)"
+        },
+        {
+          "label": "D",
+          "text": "a = -b(逆ベクトル)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-004",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "a·a = |a|² の意味として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "自分自身との内積はなす角 θ = 0° なので |a||a|cos0° = |a|²"
+        },
+        {
+          "label": "B",
+          "text": "a·a = 2|a|(2倍の誤り)"
+        },
+        {
+          "label": "C",
+          "text": "a·a = 0(垂直条件の誤適用)"
+        },
+        {
+          "label": "D",
+          "text": "a·a = |a|(ルートの誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-005",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "|a| = 2、|b| = 3、a·b = 3 のとき a と b のなす角 θ の cosθ として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosθ = 3/(2×3) = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "cosθ = 3/(2+3) = 3/5"
+        },
+        {
+          "label": "C",
+          "text": "cosθ = (2×3)/3 = 2"
+        },
+        {
+          "label": "D",
+          "text": "cosθ = 3²/(2×3) = 3/2(計算ミス)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-006",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "a = (1, 0)、b = (0, 1) のとき a·b の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0(x 軸と y 軸の単位ベクトルは垂直)"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "-1"
+        },
+        {
+          "label": "D",
+          "text": "√2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-007",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "内積の公式 a·b = |a||b|cosθ で θ の範囲として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0° ≦ θ ≦ 180°"
+        },
+        {
+          "label": "B",
+          "text": "0° < θ < 90°"
+        },
+        {
+          "label": "C",
+          "text": "0° ≦ θ < 360°"
+        },
+        {
+          "label": "D",
+          "text": "-90° ≦ θ ≦ 90°"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-008",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "a·b > 0 のとき、なす角 θ の範囲として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0° ≦ θ < 90°(鋭角)"
+        },
+        {
+          "label": "B",
+          "text": "90° < θ ≦ 180°(鈍角)"
+        },
+        {
+          "label": "C",
+          "text": "θ = 90°"
+        },
+        {
+          "label": "D",
+          "text": "θ = 0°(平行)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-009",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "a = (2, -1)、b = (-4, 2) のとき a·b を計算して a と b の関係を確認する式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·b = 2×(-4)+(-1)×2 = -8-2 = -10(b = -2a なので平行)"
+        },
+        {
+          "label": "B",
+          "text": "a·b = 0(垂直)"
+        },
+        {
+          "label": "C",
+          "text": "a·b = 2(正なので鋭角)"
+        },
+        {
+          "label": "D",
+          "text": "b = (1/2)a なので平行、内積は 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-010",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "basic",
+      "question": "a·(b + c) = a·b + a·c の性質の名称として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内積の分配法則"
+        },
+        {
+          "label": "B",
+          "text": "内積の交換法則"
+        },
+        {
+          "label": "C",
+          "text": "内積の結合法則"
+        },
+        {
+          "label": "D",
+          "text": "内積の単位元"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-011",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "a = (2, 1)、b = (1, k) が垂直になる k を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·b = 2×1 + 1×k = 2+k = 0 → k = -2"
+        },
+        {
+          "label": "B",
+          "text": "a·b = 2k + 1 = 0 → k = -1/2(成分の対応誤り)"
+        },
+        {
+          "label": "C",
+          "text": "|a| = |b| → √5 = √(1+k²) → k = ±2(大きさの条件と混同)"
+        },
+        {
+          "label": "D",
+          "text": "k = -1/2(傾きの条件を使った誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-012",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "a = (3, 4)、b = (4, -3) について a·b を計算してなす角を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·b = 12-12 = 0 → θ = 90°(垂直)"
+        },
+        {
+          "label": "B",
+          "text": "a·b = 12+12 = 24 → cosθ = 24/25"
+        },
+        {
+          "label": "C",
+          "text": "a·b = -12+12 = 0(符号誤り、結果は同じ)"
+        },
+        {
+          "label": "D",
+          "text": "|a|=|b|=5 なので θ = 60°"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-013",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "(a + b)·(a - b) を展開した途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·a - a·b + b·a - b·b = |a|² - |b|²(内積の交換法則で ±a·b が消える)"
+        },
+        {
+          "label": "B",
+          "text": "|a|² - 2a·b - |b|²(符号誤り)"
+        },
+        {
+          "label": "C",
+          "text": "|a|² + |b|²"
+        },
+        {
+          "label": "D",
+          "text": "|a|² - |b|² + 2a·b"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-014",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "|a| = 2、|b| = 3、|a + b| = 4 のとき a·b を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|a+b|² = 16 = 4 + 2a·b + 9 → 2a·b = 3 → a·b = 3/2"
+        },
+        {
+          "label": "B",
+          "text": "a·b = |a+b| - |a| - |b| = 4-2-3 = -1"
+        },
+        {
+          "label": "C",
+          "text": "|a+b|² = |a|² + |b|² = 13(a·b 項なし)"
+        },
+        {
+          "label": "D",
+          "text": "a·b = (|a+b|² - |a|² - |b|²)/2 = (16-4-9)/2 = 3/2(同じ)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-015",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "三角形 ABC で AB = b、AC = c、∠A = 60° のとき BC² を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BC² = |c - b|² = |b|² - 2b·c + |c|² = |b|²-2|b||c|cos60°+|c|² = |b|²-|b||c|+|c|²"
+        },
+        {
+          "label": "B",
+          "text": "BC² = |b|² + |c|²(余弦定理を誤解)"
+        },
+        {
+          "label": "C",
+          "text": "BC² = (|b|+|c|)² - 2|b||c|(展開ミス)"
+        },
+        {
+          "label": "D",
+          "text": "BC = b·c = |b||c|cos60°(ベクトルと大きさを混同)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-016",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "a = (1, √3)、b = (2, 0) のとき a と b のなす角 θ を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·b=2、|a|=2、|b|=2 → cosθ=2/4=1/2 → θ=60°"
+        },
+        {
+          "label": "B",
+          "text": "cosθ = (1+√3)/(2+2) = (1+√3)/4(成分の和で計算する誤り)"
+        },
+        {
+          "label": "C",
+          "text": "|a|=1+√3 → cosθ=2/(2(1+√3))(大きさの計算ミス)"
+        },
+        {
+          "label": "D",
+          "text": "θ = 30°(arctan(√3) と混同)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-017",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "a への b の正射影(b の a 方向成分)を求める式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a·b)/|a|(a 方向の成分 = 内積 ÷ a の大きさ)"
+        },
+        {
+          "label": "B",
+          "text": "a·b(内積そのものが射影)"
+        },
+        {
+          "label": "C",
+          "text": "(a·b)/|b|(分母を誤る)"
+        },
+        {
+          "label": "D",
+          "text": "|a||b|cosθ/|a| = |b|cosθ(a を単位ベクトルとした場合)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-018",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "a = (3, 4)、b = (4, -3) について a への b の射影ベクトルを求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·b = 0 なので射影 = 0(b は a に垂直)"
+        },
+        {
+          "label": "B",
+          "text": "射影 = (a·b/|a|²)a = (24/25)(3,4)(a·b の計算が誤り)"
+        },
+        {
+          "label": "C",
+          "text": "射影 = |b|cosθ a/|a| = 5×0 = 0(同じ結果だが理由は垂直)"
+        },
+        {
+          "label": "D",
+          "text": "射影 = a·b = 0 なので a 方向成分はない(射影ベクトルは 0 ベクトル)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-019",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "|2a - b|² を |a| = 3、|b| = 2、a·b = 1 で計算する途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4|a|²-4a·b+|b|² = 4×9-4×1+4 = 36"
+        },
+        {
+          "label": "B",
+          "text": "4|a|²+|b|² = 36+4 = 40(内積項忘れ)"
+        },
+        {
+          "label": "C",
+          "text": "4|a|²-2a·b+|b|² = 36-2+4 = 38(係数誤り)"
+        },
+        {
+          "label": "D",
+          "text": "|2a-b|² = (2|a|-|b|)² = (6-2)² = 16(大きさの差で誤計算)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-020",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "standard",
+      "question": "△OAB で OA = a、OB = b のとき、重心 G から各頂点へのベクトルの内積和 GA·GB + GB·GC + GC·GA(A=O,B,C として3辺)を計算する。OG = (a+b)/3 を使うとき、正しい方針はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "GA = OA - OG = a - (a+b)/3 = (2a-b)/3 などと求めて各内積を計算"
+        },
+        {
+          "label": "B",
+          "text": "重心の性質から全ての内積が等しい"
+        },
+        {
+          "label": "C",
+          "text": "GA·GB = |GA||GB|cos∠AGB で角度を求める"
+        },
+        {
+          "label": "D",
+          "text": "GA + GB + GC = 0 を使って直接 0 になる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-021",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "内積の交換法則 a·b = b·a を証明するとき、定義 a·b = |a||b|cosθ を使う。正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a から b のなす角も b から a のなす角も同じ θ なので a·b = |a||b|cosθ = b·a"
+        },
+        {
+          "label": "B",
+          "text": "成分では a₁b₁+a₂b₂ = b₁a₁+b₂a₂ は乗法の交換則から自明(別の証明)"
+        },
+        {
+          "label": "C",
+          "text": "a·b が常に正なので交換可能"
+        },
+        {
+          "label": "D",
+          "text": "ベクトルの積は順序によらず定義される"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-022",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "内積の分配法則 a·(b + c) = a·b + a·c を成分を用いて証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=(a₁,a₂)、b=(b₁,b₂)、c=(c₁,c₂) とし、a·(b+c)=a₁(b₁+c₁)+a₂(b₂+c₂)=a₁b₁+a₁c₁+a₂b₂+a₂c₂=a·b+a·c"
+        },
+        {
+          "label": "B",
+          "text": "三角形の法則で b+c を一つのベクトルと見て内積を取る"
+        },
+        {
+          "label": "C",
+          "text": "数の分配法則と同じで自明"
+        },
+        {
+          "label": "D",
+          "text": "a が単位ベクトルのとき成立する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-023",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "「a ⊥ b かつ a ⊥ c ならば a ⊥ (sb + tc)」を証明するとき、正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a·(sb+tc) = s(a·b) + t(a·c) = s×0 + t×0 = 0(分配法則と a·b=0、a·c=0 を使用)"
+        },
+        {
+          "label": "B",
+          "text": "sb+tc は b と c の合成なので b と c に垂直な a は sb+tc にも垂直"
+        },
+        {
+          "label": "C",
+          "text": "s = t = 0 のときのみ成立"
+        },
+        {
+          "label": "D",
+          "text": "a が単位ベクトルの場合のみ証明できる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-024",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "△ABC で a = BC、b = CA のとき、∠C = 90° ⟺ a·b = 0 を証明するとき、正しい論証の出発点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠C = 90° ↔ CA ⊥ CB ↔ b·(-a) = 0 ↔ b·a = 0 ↔ a·b = 0(交換法則を使用)"
+        },
+        {
+          "label": "B",
+          "text": "a·b = 0 ↔ |a| = |b|(大きさの等しい条件と混同)"
+        },
+        {
+          "label": "C",
+          "text": "直角三角形の斜辺 AB は a+b で |a+b|² = |a|²+|b|² から導く"
+        },
+        {
+          "label": "D",
+          "text": "余弦定理 a² = b²+c²-2bc cosA に代入する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-025",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "cos θ の公式 cosθ = (a·b)/(|a||b|) を余弦定理から導く証明として正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理 |a-b|² = |a|²-2|a||b|cosθ+|b|² と、成分展開 |a-b|² = |a|²-2a·b+|b|² を比較して a·b = |a||b|cosθ を得る"
+        },
+        {
+          "label": "B",
+          "text": "定義から直接導けるので余弦定理は不要"
+        },
+        {
+          "label": "C",
+          "text": "sinθ = √(1-cos²θ) から逆算する"
+        },
+        {
+          "label": "D",
+          "text": "内積の成分定義 a₁b₁+a₂b₂ と角度の関係を仮定する(循環論法)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-026",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "シュワルツの不等式 |a·b| ≦ |a||b| の等号が成立する条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a と b が平行(b = ka となる実数 k が存在)のとき等号 |cosθ| = 1"
+        },
+        {
+          "label": "B",
+          "text": "a·b = 0 のとき(垂直条件)"
+        },
+        {
+          "label": "C",
+          "text": "|a| = |b| のとき(大きさが等しいとき)"
+        },
+        {
+          "label": "D",
+          "text": "等号は常に成立しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-027",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "|a + b|² + |a - b|² = 2(|a|² + |b|²) (平行四辺形の法則)を証明する手順として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|a+b|² = |a|²+2a·b+|b|²、|a-b|² = |a|²-2a·b+|b|² → 足すと 2|a|²+2|b|²"
+        },
+        {
+          "label": "B",
+          "text": "平行四辺形の対角線の長さの関係から自明(幾何的証明)"
+        },
+        {
+          "label": "C",
+          "text": "|a+b| + |a-b| = 2|a| を使う(誤った式)"
+        },
+        {
+          "label": "D",
+          "text": "a·b = 0 の場合のみ成立する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-028",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "三角形の余弦定理 c² = a² + b² - 2ab cosC をベクトルの内積を使って証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c² = |AB|² = |OB-OA|² = |a|²-2OA·OB+|b|² を余弦定理と対比して OA·OB = |a||b|cosC を使う"
+        },
+        {
+          "label": "B",
+          "text": "成分を使って数値計算で確認する"
+        },
+        {
+          "label": "C",
+          "text": "三平方の定理を拡張する(直角の場合のみ)"
+        },
+        {
+          "label": "D",
+          "text": "正弦定理から c = 2R sinC を使う(別証明)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-029",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "「a と b が平行でなく a ≠ 0、b ≠ 0 のとき、a·b の値だけからはなす角 θ を一意に決められない」理由として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosθ = a·b/(|a||b|) なので |a| と |b| も必要。a·b の値が同じでも |a|、|b| が変われば θ が変わる"
+        },
+        {
+          "label": "B",
+          "text": "a·b が負のとき θ は定まらない"
+        },
+        {
+          "label": "C",
+          "text": "一意に決まる。a·b だけで θ は決定される"
+        },
+        {
+          "label": "D",
+          "text": "a と b の成分も必要で、内積だけでは不十分(成分が必要)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "dp-030",
+      "subject": "数学C",
+      "unit": "内積",
+      "difficulty": "exam",
+      "question": "三角形の3辺が a = |BC|、b = |CA|、c = |AB| のとき、ベクトル的に △ABC が正三角形 ↔ AB·BC = BC·CA = CA·AB = -a²/2 を確認する証明として正しい出発点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正三角形では a=b=c かつ各角=60°、AB·BC = |AB||BC|cos(180°-60°) = a²×(-1/2) = -a²/2"
+        },
+        {
+          "label": "B",
+          "text": "全ての内積が 0 → 正三角形(垂直条件の誤適用)"
+        },
+        {
+          "label": "C",
+          "text": "AB+BC+CA = 0 から AB·BC = a²/2(符号誤り)"
+        },
+        {
+          "label": "D",
+          "text": "AB·BC = |AB||BC|cos60° = a²/2(なす角の誤り)"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

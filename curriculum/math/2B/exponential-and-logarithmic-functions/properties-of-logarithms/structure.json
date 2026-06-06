@@ -1,0 +1,66 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "properties-of-logarithms",
+  "name": "対数の性質",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "log-laws",
+      "description": "対数の加法・減法・スカラー倍公式の適用",
+      "thinking_process": [
+        "logₐ(MN)=logₐM+logₐN",
+        "logₐ(M/N)=logₐM−logₐN",
+        "logₐMⁿ=n logₐM"
+      ],
+      "common_mistakes": [
+        "logₐ(M+N)=logₐM+logₐN と誤る",
+        "真数の条件（M>0,N>0）を確認しない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "change-of-base",
+      "description": "底の変換公式 logₐb=logcb/logca を使う",
+      "thinking_process": [
+        "底を常用対数（log₁₀）または自然対数に揃える",
+        "logₐb×logbₐ=1 を活用する",
+        "連続した底の変換（log₂3×log₃5=log₂5）"
+      ],
+      "common_mistakes": [
+        "分子と分母を逆にする",
+        "底変換後に log の省略で計算ミスをする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "log-equation",
+      "description": "対数方程式を解く（真数条件を忘れずに確認）",
+      "thinking_process": [
+        "logₐ f(x)=k → f(x)=aᵏ に変換",
+        "複数の対数を1つにまとめてから指数化",
+        "解が真数条件（真数>0）を満たすか確認"
+      ],
+      "common_mistakes": [
+        "真数条件を確認せずに外れた解を採用",
+        "logₐf(x)=logₐg(x) → f(x)=g(x) だけで解く（真数条件を忘れる）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "digit-count",
+      "description": "常用対数を使って桁数・最高位の数字を求める",
+      "thinking_process": [
+        "n 桁 ↔ 10ⁿ⁻¹≤N<10ⁿ ↔ n−1≤log₁₀N<n",
+        "log₁₀N の整数部分が n−1 なら n 桁",
+        "小数部分で最高位の数字を判断"
+      ],
+      "common_mistakes": [
+        "log₁₀N が整数部分 n なら n+1 桁（ずれ）",
+        "小数部分 0.301→最高位が 2（log₁₀2=0.301 を逆に使う）"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

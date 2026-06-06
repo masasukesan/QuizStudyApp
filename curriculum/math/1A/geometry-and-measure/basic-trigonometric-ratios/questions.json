@@ -1,0 +1,876 @@
+{
+  "subject": "数学",
+  "unit": "三角比の基本",
+  "questions": [
+    {
+      "id": "btr-001",
+      "difficulty": "basic",
+      "question": "斜辺5、底辺3、高さ4の直角三角形で、θが底辺と斜辺のなす角のとき、sin θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ = 対辺 ÷ 斜辺 = 4 ÷ 5 = 4/5(θに対する対辺は高さ4)"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = 底辺 ÷ 斜辺 = 3 ÷ 5 = 3/5"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = 対辺 ÷ 底辺 = 4 ÷ 3 = 4/3"
+        },
+        {
+          "label": "D",
+          "text": "sin θ = 斜辺 ÷ 対辺 = 5 ÷ 4(分子と分母が逆)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin の定義",
+        "対辺と斜辺",
+        "直角三角形"
+      ]
+    },
+    {
+      "id": "btr-002",
+      "difficulty": "basic",
+      "question": "同じ直角三角形(斜辺5、底辺3、高さ4、θは底辺と斜辺のなす角)で、cos θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos θ = 隣辺 ÷ 斜辺 = 3 ÷ 5 = 3/5(θに隣接する辺は底辺3)"
+        },
+        {
+          "label": "B",
+          "text": "cos θ = 対辺 ÷ 斜辺 = 4 ÷ 5 = 4/5"
+        },
+        {
+          "label": "C",
+          "text": "cos θ = 斜辺 ÷ 隣辺 = 5 ÷ 3(分子と分母が逆)"
+        },
+        {
+          "label": "D",
+          "text": "cos θ = 対辺 ÷ 隣辺 = 4 ÷ 3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos の定義",
+        "隣辺と斜辺",
+        "直角三角形"
+      ]
+    },
+    {
+      "id": "btr-003",
+      "difficulty": "basic",
+      "question": "同じ直角三角形(斜辺5、底辺3、高さ4、θは底辺と斜辺のなす角)で、tan θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan θ = 対辺 ÷ 隣辺 = 4 ÷ 3(高さ÷底辺)"
+        },
+        {
+          "label": "B",
+          "text": "tan θ = 隣辺 ÷ 斜辺 = 3 ÷ 5 = 3/5"
+        },
+        {
+          "label": "C",
+          "text": "tan θ = 隣辺 ÷ 対辺 = 3 ÷ 4(分子と分母が逆)"
+        },
+        {
+          "label": "D",
+          "text": "tan θ = 斜辺 ÷ 対辺 = 5 ÷ 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan の定義",
+        "対辺と隣辺",
+        "直角三角形"
+      ]
+    },
+    {
+      "id": "btr-004",
+      "difficulty": "basic",
+      "question": "sin 30° の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "30-60-90の三角形で対辺:斜辺 = 1:2 → sin 30° = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "30-60-90の三角形で対辺:斜辺 = √3:2 → sin 30° = √3/2"
+        },
+        {
+          "label": "C",
+          "text": "45-45-90の三角形から sin 30° = √2/2"
+        },
+        {
+          "label": "D",
+          "text": "sin 30° = 30 ÷ 90 = 1/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特殊角",
+        "30-60-90三角形",
+        "sin 30°"
+      ]
+    },
+    {
+      "id": "btr-005",
+      "difficulty": "basic",
+      "question": "cos 60° の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "30-60-90の三角形で60°の隣辺:斜辺 = 1:2 → cos 60° = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "cos 60° = √3/2"
+        },
+        {
+          "label": "C",
+          "text": "cos 60° = 1"
+        },
+        {
+          "label": "D",
+          "text": "cos 60° = √2/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特殊角",
+        "cos 60°",
+        "30-60-90三角形"
+      ]
+    },
+    {
+      "id": "btr-006",
+      "difficulty": "basic",
+      "question": "tan 45° の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "45-45-90の三角形で対辺 = 隣辺 → tan 45° = 1÷1 = 1"
+        },
+        {
+          "label": "B",
+          "text": "tan 45° = √3"
+        },
+        {
+          "label": "C",
+          "text": "tan 45° = 1/2"
+        },
+        {
+          "label": "D",
+          "text": "tan 45° = √2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特殊角",
+        "tan 45°",
+        "45-45-90三角形"
+      ]
+    },
+    {
+      "id": "btr-007",
+      "difficulty": "basic",
+      "question": "sin²θ + cos²θ の値について正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "三平方の定理より (対辺)²+(隣辺)² = (斜辺)² → 両辺を(斜辺)²で割ると sin²θ + cos²θ = 1(常に1)"
+        },
+        {
+          "label": "B",
+          "text": "sin θ と cos θ の和なので、θの値によって変わる(0から2の間)"
+        },
+        {
+          "label": "C",
+          "text": "sin²θ + cos²θ = 2"
+        },
+        {
+          "label": "D",
+          "text": "θ=45°のときだけ sin²θ + cos²θ = 1 になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角比の相関関係",
+        "三平方の定理",
+        "恒等式"
+      ]
+    },
+    {
+      "id": "btr-008",
+      "difficulty": "basic",
+      "question": "sin θ = 3/5 のとき cos θ(0° < θ < 90°)を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin²θ + cos²θ = 1 → cos²θ = 1 - 9/25 = 16/25 → 0°<θ<90°より cos θ > 0 → cos θ = 4/5"
+        },
+        {
+          "label": "B",
+          "text": "cos θ = 1 - sin θ = 1 - 3/5 = 2/5"
+        },
+        {
+          "label": "C",
+          "text": "sin²θ + cos²θ = 1 → cos²θ = 16/25 → cos θ = -4/5"
+        },
+        {
+          "label": "D",
+          "text": "cos θ = √(1 + sin²θ) = √(1 + 9/25)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相互関係",
+        "第1象限",
+        "cos の符号"
+      ]
+    },
+    {
+      "id": "btr-009",
+      "difficulty": "basic",
+      "question": "sin θ = 1/2、cos θ = √3/2 のとき tan θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan θ = sin θ ÷ cos θ = (1/2) ÷ (√3/2) = 1/√3 = √3/3"
+        },
+        {
+          "label": "B",
+          "text": "tan θ = cos θ ÷ sin θ = (√3/2) ÷ (1/2) = √3(分子と分母が逆)"
+        },
+        {
+          "label": "C",
+          "text": "tan θ = sin θ × cos θ = (1/2)×(√3/2) = √3/4"
+        },
+        {
+          "label": "D",
+          "text": "tan θ = sin θ + cos θ = 1/2 + √3/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan = sin/cos",
+        "分数の割り算",
+        "有理化"
+      ]
+    },
+    {
+      "id": "btr-010",
+      "difficulty": "basic",
+      "question": "直角三角形で斜辺が10、θ = 30°のとき、対辺の長さを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin 30° = 対辺/斜辺 → 1/2 = 対辺/10 → 対辺 = 5"
+        },
+        {
+          "label": "B",
+          "text": "cos 30° = 対辺/斜辺 → √3/2 = 対辺/10 → 対辺 = 5√3"
+        },
+        {
+          "label": "C",
+          "text": "対辺 = 斜辺 × tan θ = 10 × (√3/3) = 10√3/3"
+        },
+        {
+          "label": "D",
+          "text": "対辺 = 斜辺 ÷ sin θ = 10 ÷ (1/2) = 20"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin の活用",
+        "辺の長さ計算",
+        "直角三角形"
+      ]
+    },
+    {
+      "id": "btr-011",
+      "difficulty": "standard",
+      "question": "tan θ = 2(0° < θ < 90°)のとき、sin θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan θ = 2 より対辺:隣辺 = 2:1 → 斜辺 = √5 → sin θ = 2/√5 = 2√5/5"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = tan θ / √(1+tan²θ) = 2/√5"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = 2"
+        },
+        {
+          "label": "D",
+          "text": "sin θ = 1/√5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan から sin",
+        "斜辺の計算",
+        "三平方の定理"
+      ]
+    },
+    {
+      "id": "btr-012",
+      "difficulty": "standard",
+      "question": "cos θ = √3/2(0° < θ < 90°)のとき、tan θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin²θ = 1 - cos²θ = 1 - 3/4 = 1/4 → sin θ = 1/2 → tan θ = sin θ/cos θ = (1/2)/(√3/2) = 1/√3 = √3/3"
+        },
+        {
+          "label": "B",
+          "text": "tan θ = 1/cos θ = 2/√3"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = 1 - cos θ = 1 - √3/2"
+        },
+        {
+          "label": "D",
+          "text": "tan θ = cos θ × 2 = √3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos から tan",
+        "相互関係の活用",
+        "有理化"
+      ]
+    },
+    {
+      "id": "btr-013",
+      "difficulty": "standard",
+      "question": "斜辺10、高さ6の直角三角形でθが斜辺と底辺のなす角のとき、cos θ と tan θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底辺 = √(10²-6²) = √64 = 8 → cos θ = 8/10 = 4/5、tan θ = 6/8 = 3/4"
+        },
+        {
+          "label": "B",
+          "text": "底辺 = √(10+6) = 4 → cos θ = 4/10 = 2/5"
+        },
+        {
+          "label": "C",
+          "text": "cos θ = 6/10 = 3/5"
+        },
+        {
+          "label": "D",
+          "text": "tan θ = 10/6 = 5/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三平方の定理",
+        "底辺計算",
+        "cos と tan"
+      ]
+    },
+    {
+      "id": "btr-014",
+      "difficulty": "standard",
+      "question": "sin θ = 5/13(0° < θ < 90°)のとき、cos θ と tan θ を正しく求めるステップはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos²θ = 1 - 25/169 = 144/169 → cos θ = 12/13 → tan θ = (5/13)÷(12/13) = 5/12"
+        },
+        {
+          "label": "B",
+          "text": "cos θ = 13/5"
+        },
+        {
+          "label": "C",
+          "text": "cos θ = 1 - 5/13 = 8/13"
+        },
+        {
+          "label": "D",
+          "text": "cos²θ = 1 + sin²θ = 1 + 25/169"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "3辺の比 5-12-13",
+        "相互関係",
+        "tan の計算"
+      ]
+    },
+    {
+      "id": "btr-015",
+      "difficulty": "standard",
+      "question": "sin θ + cos θ = √2 のとき、sin θ × cos θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(sin θ + cos θ)² = 2 → sin²θ + 2sinθcosθ + cos²θ = 2 → 1 + 2sinθcosθ = 2 → sinθcosθ = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "sin θ × cos θ = √2/2"
+        },
+        {
+          "label": "C",
+          "text": "(sin θ + cos θ)² = sin²θ + cos²θ = 1"
+        },
+        {
+          "label": "D",
+          "text": "sin θ × cos θ = sin θ + cos θ - 1 = √2 - 1(誤った変形)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "和の二乗",
+        "sinθcosθ",
+        "対称式"
+      ]
+    },
+    {
+      "id": "btr-016",
+      "difficulty": "standard",
+      "question": "高さ h の塔を仰角 45° で見た地点は、塔の根元から何メートルか。正しい立式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan 45° = h ÷ 距離 → 1 = h ÷ 距離 → 距離 = h(tanを使った正しい立式)"
+        },
+        {
+          "label": "B",
+          "text": "sin 45° = h ÷ 距離 → 距離 = h√2"
+        },
+        {
+          "label": "C",
+          "text": "cos 45° = h ÷ 距離 → 距離 = h×(2/√2)"
+        },
+        {
+          "label": "D",
+          "text": "距離 = h ÷ cos 45° = h × √2 = h√2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "仰角",
+        "tanの応用",
+        "高さと水平距離"
+      ]
+    },
+    {
+      "id": "btr-017",
+      "difficulty": "standard",
+      "question": "sin 75° を加法定理 sin(45°+30°) を使って求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(45°+30°) = sin45°cos30° + cos45°sin30° = (√2/2)(√3/2) + (√2/2)(1/2) = (√6+√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "sin 75° = sin 45° + sin 30° = √2/2 + 1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin(45°+30°) = sin45° × sin30° = √2/4"
+        },
+        {
+          "label": "D",
+          "text": "sin 75° = sin(90°-15°) = cos 15°(変換するが値が出せない)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "加法定理",
+        "sin(A+B)",
+        "特殊角の組み合わせ"
+      ]
+    },
+    {
+      "id": "btr-018",
+      "difficulty": "standard",
+      "question": "sin θ = 0.6、cos θ = 0.8 のとき、tan θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin²θ + cos²θ = 0.36 + 0.64 = 1(成立確認)→ tan θ = 0.6/0.8 = 3/4"
+        },
+        {
+          "label": "B",
+          "text": "tan θ = sin θ - cos θ = 0.6 - 0.8 = -0.2"
+        },
+        {
+          "label": "C",
+          "text": "tan θ = sin θ × cos θ = 0.48"
+        },
+        {
+          "label": "D",
+          "text": "tan θ = cos θ / sin θ = 0.8/0.6 = 4/3(分子と分母が逆)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan = sin/cos",
+        "小数の確認",
+        "3-4-5の三角形"
+      ]
+    },
+    {
+      "id": "btr-019",
+      "difficulty": "standard",
+      "question": "θ = 30° のとき、2sin²θ + cos 2θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin 30°= 1/2、cos 60° = 1/2 → 2×(1/4) + 1/2 = 1/2 + 1/2 = 1"
+        },
+        {
+          "label": "B",
+          "text": "2sin²θ + cos 2θ = 2sinθcosθ + cos 2θ"
+        },
+        {
+          "label": "C",
+          "text": "cos 60° = √3/2 として 2×(1/4)+√3/2 = 1/2+√3/2"
+        },
+        {
+          "label": "D",
+          "text": "2sin²θ + cos 2θ = 3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "倍角",
+        "特殊角代入",
+        "2sin²θ"
+      ]
+    },
+    {
+      "id": "btr-020",
+      "difficulty": "standard",
+      "question": "直角三角形でθ = 60°、斜辺 = 8 のとき、高さと底辺を正しく計算する手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "高さ = 8 × sin 60° = 8×(√3/2) = 4√3、底辺 = 8 × cos 60° = 8×(1/2) = 4"
+        },
+        {
+          "label": "B",
+          "text": "高さ = 8 × cos 60° = 4、底辺 = 4√3"
+        },
+        {
+          "label": "C",
+          "text": "高さ = 8 × tan 60° = 8√3"
+        },
+        {
+          "label": "D",
+          "text": "高さ = 8 ÷ sin 60° = 16/√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin と cos の使い分け",
+        "辺の計算",
+        "60°の三角形"
+      ]
+    },
+    {
+      "id": "btr-021",
+      "difficulty": "exam",
+      "question": "sin θ - cos θ = 1/√2 のとき、sin θ × cos θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(sin θ - cos θ)² = 1/2 → sin²θ - 2sinθcosθ + cos²θ = 1/2 → 1 - 2sinθcosθ = 1/2 → sinθcosθ = 1/4"
+        },
+        {
+          "label": "B",
+          "text": "(sin θ - cos θ)² = sin²θ + cos²θ = 1"
+        },
+        {
+          "label": "C",
+          "text": "sinθcosθ = (sin θ - cos θ)/2 = 1/(2√2)"
+        },
+        {
+          "label": "D",
+          "text": "sinθcosθ = sin²θ - cos²θ = -cos 2θ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "差の二乗",
+        "sinθcosθ",
+        "対称式の応用"
+      ]
+    },
+    {
+      "id": "btr-022",
+      "difficulty": "exam",
+      "question": "sin θ + cos θ = t とおいたとき、sin³θ + cos³θ を t を使って表す手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sinθcosθ = (t²-1)/2、sin³θ+cos³θ = (sinθ+cosθ)(sin²θ-sinθcosθ+cos²θ) = t×(1-(t²-1)/2) = t(3-t²)/2"
+        },
+        {
+          "label": "B",
+          "text": "sin³θ + cos³θ = (sinθ + cosθ)³ = t³"
+        },
+        {
+          "label": "C",
+          "text": "sin³θ + cos³θ = t - sinθcosθ(誤った分解)"
+        },
+        {
+          "label": "D",
+          "text": "因数分解 a³+b³=(a+b)(a²-ab+b²) は使えないと誤解して t³ と答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三乗の因数分解",
+        "sinθcosθの変換",
+        "対称式"
+      ]
+    },
+    {
+      "id": "btr-023",
+      "difficulty": "exam",
+      "question": "tan θ + 1/tan θ = 2 のとき、sin θ × cos θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan θ + 1/tan θ = sinθ/cosθ + cosθ/sinθ = (sin²θ+cos²θ)/(sinθcosθ) = 1/(sinθcosθ) = 2 → sinθcosθ = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "tan θ = 1"
+        },
+        {
+          "label": "C",
+          "text": "tan θ + 1/tan θ = 2tan θ(逆数を足してもtanの2倍にはならない)"
+        },
+        {
+          "label": "D",
+          "text": "sinθcosθ = 2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tanとsincos の変換",
+        "逆数の活用",
+        "恒等式"
+      ]
+    },
+    {
+      "id": "btr-024",
+      "difficulty": "exam",
+      "question": "0° < θ < 90° で sin θ > cos θ が成り立つθの範囲を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ > cos θ → √2 sin(θ - 45°) > 0 → θ - 45° > 0° → θ > 45°。よって 45° < θ < 90°"
+        },
+        {
+          "label": "B",
+          "text": "θ=45°で等しくなるので、θ<45°でsinが大きいと誤解"
+        },
+        {
+          "label": "C",
+          "text": "sinとcosの大小関係から鋭角の全域(0°より大きい範囲全体)でsinが大きいと誤解"
+        },
+        {
+          "label": "D",
+          "text": "単位円でsinは縦軸・cosは横軸なので、常にsinの方が大きいと誤解"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sinとcosの大小比較",
+        "補助角の公式",
+        "45°が境界"
+      ]
+    },
+    {
+      "id": "btr-025",
+      "difficulty": "exam",
+      "question": "sin θ + cos θ = 1(0° ≦ θ ≦ 360°)を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "両辺を二乗 → 1 + 2sinθcosθ = 1 → sinθcosθ = 0 → sinθ=0 or cosθ=0 → θ = 0°,90°,180°,270°,360°。代入確認でθ=180°,270°を除外 → θ = 0°, 90°, 360°"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = 1 - cos θ → 両辺二乗して解くが確認不足で余分な解を含める"
+        },
+        {
+          "label": "C",
+          "text": "sin θ + cos θ を √2 sin(θ+45°) に合成後、計算して θ = 45°, 315° と答える"
+        },
+        {
+          "label": "D",
+          "text": "合成後の式から θ+45° の範囲を誤って設定し、解の個数を 1 個と答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角方程式",
+        "二乗して解く",
+        "代入確認"
+      ]
+    },
+    {
+      "id": "btr-026",
+      "difficulty": "exam",
+      "question": "1/(1+sin θ) + 1/(1-sin θ) を簡単にする手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "通分 → [(1-sinθ)+(1+sinθ)] / [(1+sinθ)(1-sinθ)] = 2 / (1-sin²θ) = 2/cos²θ"
+        },
+        {
+          "label": "B",
+          "text": "分母を足してしまい 2/(1-sinθ+1+sinθ) = 2/2 = 1"
+        },
+        {
+          "label": "C",
+          "text": "分母を (1+sinθ)(1-sinθ) = 1-sinθ と計算"
+        },
+        {
+          "label": "D",
+          "text": "通分後、分子を 2sinθ と計算する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "通分",
+        "差の積公式",
+        "1-sin²θ = cos²θ"
+      ]
+    },
+    {
+      "id": "btr-027",
+      "difficulty": "exam",
+      "question": "tan θ = 3(0° < θ < 90°)のとき、sin²θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 + tan²θ = 1/cos²θ → cos²θ = 1/(1+9) = 1/10 → sin²θ = 1 - cos²θ = 9/10"
+        },
+        {
+          "label": "B",
+          "text": "sin²θ = tan²θ = 9"
+        },
+        {
+          "label": "C",
+          "text": "cos²θ = 1/(1+tan²θ) = 1/10 は正しいが、sin²θ = cos²θ = 1/10 と間違える"
+        },
+        {
+          "label": "D",
+          "text": "sin²θ = tan²θ/(1+tan²θ) = 9/10(公式は正しいが導出手順を示せない)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "1+tan²θ公式",
+        "cos²θ の計算",
+        "sin²θへの変換"
+      ]
+    },
+    {
+      "id": "btr-028",
+      "difficulty": "exam",
+      "question": "sin θ = cos 2θ(0° ≦ θ ≦ 180°)を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos 2θ = 1 - 2sin²θ → sin θ = 1 - 2sin²θ → 2sin²θ + sinθ - 1 = 0 → (2sinθ-1)(sinθ+1) = 0 → sinθ = 1/2 or -1 → θ = 30°, 150°(sinθ=-1→270°は範囲外)"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = cos 2θ → θ = 2θ → θ = 0°"
+        },
+        {
+          "label": "C",
+          "text": "cos 2θ = 2cos²θ - 1 を使って cos²θ の方程式を解くが sin θ との混在で計算"
+        },
+        {
+          "label": "D",
+          "text": "sinθ + 1 = 0 → sinθ = -1 → θ = 270° だけが解と誤解"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "倍角公式",
+        "sinθへの置換",
+        "二次方程式"
+      ]
+    },
+    {
+      "id": "btr-029",
+      "difficulty": "exam",
+      "question": "cos θ = -1/3(0° < θ < 180°)のとき、sin θ と tan θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin²θ = 1 - 1/9 = 8/9 → 0°<θ<180°より sinθ>0 → sinθ = 2√2/3 → tanθ = sinθ/cosθ = (2√2/3)/(-1/3) = -2√2"
+        },
+        {
+          "label": "B",
+          "text": "sinθ = 2√2/3 は正しいが、tanθ = sinθ×cosθ = -2√2/9"
+        },
+        {
+          "label": "C",
+          "text": "0°<θ<180°なのに sinθ = -2√2/3 と答える"
+        },
+        {
+          "label": "D",
+          "text": "cosθ = -1/3 より θは第2象限 → tanθは正と誤解(第2象限ではtanは負)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第2象限",
+        "sinとtanの符号",
+        "相互関係の計算"
+      ]
+    },
+    {
+      "id": "btr-030",
+      "difficulty": "exam",
+      "question": "3sinθ + 4cosθ の最大値と、そのときのθの条件を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3sinθ + 4cosθ = √(9+16) sin(θ+α) = 5sin(θ+α)(cosα=3/5, sinα=4/5) → 最大値は5"
+        },
+        {
+          "label": "B",
+          "text": "最大値 = 3 + 4 = 7"
+        },
+        {
+          "label": "C",
+          "text": "3sinθ + 4cosθ = 5"
+        },
+        {
+          "label": "D",
+          "text": "R = √(3²-4²) → Rが虚数になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "合成公式",
+        "√(a²+b²)",
+        "sinの最大値"
+      ]
+    }
+  ]
+}

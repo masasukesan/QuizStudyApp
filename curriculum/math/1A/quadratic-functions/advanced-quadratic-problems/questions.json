@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "2次関数の関連発展問題",
+  "questions": [
+    {
+      "id": "aq-001",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "放物線 y = 2x² - 8x + 5 の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2, -3)"
+        },
+        {
+          "label": "B",
+          "text": "(-2, -3)"
+        },
+        {
+          "label": "C",
+          "text": "(2, 3)"
+        },
+        {
+          "label": "D",
+          "text": "(4, 5)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-002",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "y = -x² + 4x - 3 の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "-3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-003",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "x² - 3x + 2 < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 < x < 2"
+        },
+        {
+          "label": "B",
+          "text": "x < 1 または x > 2"
+        },
+        {
+          "label": "C",
+          "text": "0 < x < 3"
+        },
+        {
+          "label": "D",
+          "text": "-1 < x < 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-004",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "二次方程式 x² - 4x + 4 = 0 の重解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 2"
+        },
+        {
+          "label": "B",
+          "text": "x = -2"
+        },
+        {
+          "label": "C",
+          "text": "x = 4"
+        },
+        {
+          "label": "D",
+          "text": "x = 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-005",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "y = x² - 2x + 1 の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1, 0)"
+        },
+        {
+          "label": "B",
+          "text": "(-1, 0)"
+        },
+        {
+          "label": "C",
+          "text": "(1, 1)"
+        },
+        {
+          "label": "D",
+          "text": "(0, 1)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-006",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "y = x² - 4 が x 軸より上になる範囲はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x < -2 または x > 2"
+        },
+        {
+          "label": "B",
+          "text": "-2 < x < 2"
+        },
+        {
+          "label": "C",
+          "text": "x > 4"
+        },
+        {
+          "label": "D",
+          "text": "すべての実数"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-007",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "放物線 y = x² + 2x - 3 と y = 5 の交点の x 座標はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = -4 と x = 2"
+        },
+        {
+          "label": "B",
+          "text": "x = 4 と x = -2"
+        },
+        {
+          "label": "C",
+          "text": "x = 1 と x = -3"
+        },
+        {
+          "label": "D",
+          "text": "x = 3 と x = -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-008",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "x² + 3x - 4 > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x < -4 または x > 1"
+        },
+        {
+          "label": "B",
+          "text": "-4 < x < 1"
+        },
+        {
+          "label": "C",
+          "text": "x > 4"
+        },
+        {
+          "label": "D",
+          "text": "x < -1 または x > 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-009",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "y = -2x² + 4x + 6 のグラフの軸はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 1"
+        },
+        {
+          "label": "B",
+          "text": "x = -1"
+        },
+        {
+          "label": "C",
+          "text": "x = 2"
+        },
+        {
+          "label": "D",
+          "text": "x = 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-010",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "basic",
+      "question": "x² - x - 6 = 0 の 2 解の和はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "-6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-011",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "y = x² - 4x + 3 を平方完成すると y = (x-2)² - 1 で、頂点は (2, 1) ... ではなくて頂点の y 座標は -1 となる。定義域 0 ≦ x ≦ 4 での最大値を求めるとき、端点を確認する手順として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=0 のとき y=3、x=4 のとき y=3 → 最大値は 3"
+        },
+        {
+          "label": "B",
+          "text": "x=0 のとき y=3、x=4 のとき y=7 → 最大値は 7"
+        },
+        {
+          "label": "C",
+          "text": "x=0 のとき y=0、x=4 のとき y=7 → 最大値は 7"
+        },
+        {
+          "label": "D",
+          "text": "x=0 のとき y=3、x=4 のとき y=-1 → 最大値は 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-012",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "x² - 2ax + a + 2 = 0 が重解をもつとき a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = -1 または a = 2"
+        },
+        {
+          "label": "B",
+          "text": "a = 1 または a = -2"
+        },
+        {
+          "label": "C",
+          "text": "a = 4"
+        },
+        {
+          "label": "D",
+          "text": "a = 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-013",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "x² - (a-1)x + a > 0 がすべての実数 x で成立する a の条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 - 2√2 < a < 3 + 2√2"
+        },
+        {
+          "label": "B",
+          "text": "a > 4"
+        },
+        {
+          "label": "C",
+          "text": "a < 1"
+        },
+        {
+          "label": "D",
+          "text": "1 < a < 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-014",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "x > 0 のとき、相加・相乗平均の不等式を使って x + 4/x ≧ 2√(x × 4/x) を導く。√の中を計算した式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x × 4/x = 4 → 2√4 = 4"
+        },
+        {
+          "label": "B",
+          "text": "x × 4/x = 4x → 2√(4x)"
+        },
+        {
+          "label": "C",
+          "text": "x + 4/x = 5 → 2√5"
+        },
+        {
+          "label": "D",
+          "text": "x × 4/x = 4/x² → 2√(4/x²)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-015",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "y = x² - 2x + 3 と y = -x + k が接するとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "11/4"
+        },
+        {
+          "label": "B",
+          "text": "3/4"
+        },
+        {
+          "label": "C",
+          "text": "7/4"
+        },
+        {
+          "label": "D",
+          "text": "5/4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-016",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "x + 2y = 6 より x = 6 - 2y とおいて x² + y² に代入する。(6-2y)² を展開したとき -2ab にあたる項はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-24y"
+        },
+        {
+          "label": "B",
+          "text": "-12y"
+        },
+        {
+          "label": "C",
+          "text": "-4y"
+        },
+        {
+          "label": "D",
+          "text": "-48y"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-017",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "a > 0 のとき a + 1/a ≥ 2 の等号が成立する a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 1"
+        },
+        {
+          "label": "B",
+          "text": "a = 2"
+        },
+        {
+          "label": "C",
+          "text": "a = 1/2"
+        },
+        {
+          "label": "D",
+          "text": "等号は成立しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-018",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "面積が 12 の長方形で縦を x とすると横は 12/x と表せる。縦と横の和 S = x + 12/x を最小にするとき、AM-GM 不等式 S ≧ 2√(x × 12/x) の √の中の計算として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x × 12/x = 12 → √12 = 2√3"
+        },
+        {
+          "label": "B",
+          "text": "x × 12/x = 12x → √(12x)"
+        },
+        {
+          "label": "C",
+          "text": "x + 12/x = S → √S"
+        },
+        {
+          "label": "D",
+          "text": "x × 12/x = 144/x → √(144/x)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-019",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "y = x² + (a-2)x + 1 の最小値が -3 になるとき a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 6 または a = -2"
+        },
+        {
+          "label": "B",
+          "text": "a = 4 または a = -4"
+        },
+        {
+          "label": "C",
+          "text": "a = 2 または a = 0"
+        },
+        {
+          "label": "D",
+          "text": "a = 1 または a = -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-020",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "standard",
+      "question": "f(x) = x² - 2x + 3 のとき f(x+1) - f(x) の値はどれか。f(x+1) = x² + 2 として計算せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x - 1"
+        },
+        {
+          "label": "B",
+          "text": "2x + 5"
+        },
+        {
+          "label": "C",
+          "text": "-2x + 3"
+        },
+        {
+          "label": "D",
+          "text": "4x - 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-021",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "y = x² - 4ax + 4a² - a が x 軸に接するとき a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 0"
+        },
+        {
+          "label": "B",
+          "text": "a = 1/4"
+        },
+        {
+          "label": "C",
+          "text": "a = 0 または a = 1/4"
+        },
+        {
+          "label": "D",
+          "text": "a = 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-022",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "x² - 2x + a < 0 が解をもつための a の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a < 1"
+        },
+        {
+          "label": "B",
+          "text": "a > 1"
+        },
+        {
+          "label": "C",
+          "text": "a ≤ 1"
+        },
+        {
+          "label": "D",
+          "text": "a > 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-023",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "y = x² - 2ax + a の最小値 (a - a²) が最大になる a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "-1/2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-024",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "y = ax² + bx + c について y(0)=1、y(1)=0、y(-1)=4 のとき a, b, c の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 1, b = -2, c = 1"
+        },
+        {
+          "label": "B",
+          "text": "a = 2, b = -3, c = 0"
+        },
+        {
+          "label": "C",
+          "text": "a = 2, b = 3, c = 2"
+        },
+        {
+          "label": "D",
+          "text": "a = -2, b = -3, c = 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-025",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "x² - 5x + 4 < 0 かつ x² - 2x - 3 < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 < x < 3"
+        },
+        {
+          "label": "B",
+          "text": "1 < x < 4"
+        },
+        {
+          "label": "C",
+          "text": "-1 < x < 4"
+        },
+        {
+          "label": "D",
+          "text": "解なし"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-026",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "y = x² + 2x + a が -2 ≤ x ≤ 1 で最大値 2、最小値 b をとる。a, b の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = -1, b = -2"
+        },
+        {
+          "label": "B",
+          "text": "a = 1, b = 0"
+        },
+        {
+          "label": "C",
+          "text": "a = 2, b = -1"
+        },
+        {
+          "label": "D",
+          "text": "a = -1, b = 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-027",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "y = x² - kx + k - 1 が x 軸と異なる 2 点で交わり両方の交点が x > 0 にある条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k > 4"
+        },
+        {
+          "label": "B",
+          "text": "k > 0"
+        },
+        {
+          "label": "C",
+          "text": "k > 1 かつ k ≠ 2"
+        },
+        {
+          "label": "D",
+          "text": "0 < k < 4"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "aq-028",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "x² + y² = 4 のとき x + y の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2√2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "√2"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-029",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "実数係数の二次方程式 x² + px + q = 0 の解の 1 つが -1 + 2i のとき p と q の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = 2, q = 5"
+        },
+        {
+          "label": "B",
+          "text": "p = -2, q = 3"
+        },
+        {
+          "label": "C",
+          "text": "p = 2, q = -3"
+        },
+        {
+          "label": "D",
+          "text": "p = 1, q = 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "aq-030",
+      "subject": "数学1A",
+      "unit": "2次関数の関連発展問題",
+      "difficulty": "exam",
+      "question": "二次関数 y = x² + ax + b の頂点が x = 1 にあり、グラフが点 (3, 0) を通るとき a と b の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = -2, b = -3"
+        },
+        {
+          "label": "B",
+          "text": "a = 2, b = 0"
+        },
+        {
+          "label": "C",
+          "text": "a = -2, b = 4"
+        },
+        {
+          "label": "D",
+          "text": "a = -4, b = 3"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "subject": "数学1A",
+  "unit": "基本的な平面図形",
+  "questions": [
+    {
+      "id": "bpf-001",
+      "difficulty": "basic",
+      "question": "平行線と錯角の関係：直線 l と m が平行のとき、錯角について正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "錯角は等しい。平行線に直線が交わるとき、ジグザグ状の角(交互の内角)は等しい"
+        },
+        {
+          "label": "B",
+          "text": "錯角は補角(和が180°)の関係になる"
+        },
+        {
+          "label": "C",
+          "text": "錯角は同じ側にある角で等しい"
+        },
+        {
+          "label": "D",
+          "text": "平行でなければ錯角は無意味"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "錯角",
+        "平行線の性質"
+      ]
+    },
+    {
+      "id": "bpf-002",
+      "difficulty": "basic",
+      "question": "同位角の定義と平行線との関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2直線に別の直線が交わるとき、同じ側の同じ位置にある角。平行線なら同位角は等しい"
+        },
+        {
+          "label": "B",
+          "text": "錯角と同位角は同じもの"
+        },
+        {
+          "label": "C",
+          "text": "同位角は常に90°"
+        },
+        {
+          "label": "D",
+          "text": "同位角は2直線が交わらない場合のみ定義される"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "同位角",
+        "平行線の同位角は等しい"
+      ]
+    },
+    {
+      "id": "bpf-003",
+      "difficulty": "basic",
+      "question": "多角形の内角の和の公式は？五角形の内角の和は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n角形の内角の和=(n-2)×180°。五角形: (5-2)×180°=540°"
+        },
+        {
+          "label": "B",
+          "text": "n×180°。五角形: 900°"
+        },
+        {
+          "label": "C",
+          "text": "(n-1)×180°。五角形: 720°"
+        },
+        {
+          "label": "D",
+          "text": "180°÷n。五角形: 36°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "多角形の内角の和",
+        "(n-2)×180°"
+      ]
+    },
+    {
+      "id": "bpf-004",
+      "difficulty": "basic",
+      "question": "多角形の外角の和は？正六角形の1つの外角は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "任意の凸多角形の外角の和は360°。正六角形の1つの外角=360°÷6=60°"
+        },
+        {
+          "label": "B",
+          "text": "外角の和は内角の和と等しい"
+        },
+        {
+          "label": "C",
+          "text": "外角の和は(n-2)×180°"
+        },
+        {
+          "label": "D",
+          "text": "外角の和は360°×2=720°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "外角の和=360°",
+        "正多角形の1外角"
+      ]
+    },
+    {
+      "id": "bpf-005",
+      "difficulty": "basic",
+      "question": "平行四辺形の性質を3つ挙げよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "①対辺が等しく平行 ②対角が等しい ③対角線がそれぞれの中点で交わる(互いを2等分)"
+        },
+        {
+          "label": "B",
+          "text": "①全ての辺が等しい ②全ての角が90° ③対角線が垂直に交わる(正方形の性質)"
+        },
+        {
+          "label": "C",
+          "text": "①対辺が平行 ②1組の対角が等しい ③対角線が等しい"
+        },
+        {
+          "label": "D",
+          "text": "①内角の和が360° ②対角線が等しい ③隣り合う角が等しい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "平行四辺形の性質",
+        "3つの基本性質"
+      ]
+    },
+    {
+      "id": "bpf-006",
+      "difficulty": "basic",
+      "question": "菱形(ひし形)の特別な性質は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全ての辺が等しく、対角線が垂直に交わり互いを2等分する"
+        },
+        {
+          "label": "B",
+          "text": "対角線が等しく垂直に交わる"
+        },
+        {
+          "label": "C",
+          "text": "全ての角が90°"
+        },
+        {
+          "label": "D",
+          "text": "対辺が平行なだけ(平行四辺形と同じ)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "菱形の性質",
+        "対角線が垂直"
+      ]
+    },
+    {
+      "id": "bpf-007",
+      "difficulty": "basic",
+      "question": "台形の面積公式は？上底 a、下底 b、高さ h のとき。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (a+b)×h/2(上底と下底の和×高さ÷2)"
+        },
+        {
+          "label": "B",
+          "text": "S = a×b×h"
+        },
+        {
+          "label": "C",
+          "text": "S = (a+b)×h"
+        },
+        {
+          "label": "D",
+          "text": "S = (b-a)×h/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "台形の面積",
+        "(a+b)h/2"
+      ]
+    },
+    {
+      "id": "bpf-008",
+      "difficulty": "basic",
+      "question": "2直線が交わるとき、対頂角の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対頂角は等しい。交点を挟んで向かい合う角は常に等しい"
+        },
+        {
+          "label": "B",
+          "text": "対頂角の和は180°"
+        },
+        {
+          "label": "C",
+          "text": "対頂角は直角"
+        },
+        {
+          "label": "D",
+          "text": "対頂角は補角"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対頂角",
+        "向かい合う角は等しい"
+      ]
+    },
+    {
+      "id": "bpf-009",
+      "difficulty": "basic",
+      "question": "相似な図形の性質：相似比が m:n のとき、面積比は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "相似比m:nのとき面積比はm²:n²。長さが m倍なら面積はm²倍"
+        },
+        {
+          "label": "B",
+          "text": "面積比 = m:n"
+        },
+        {
+          "label": "C",
+          "text": "面積比 = m³:n³"
+        },
+        {
+          "label": "D",
+          "text": "面積比 = 2m:2n(相似比の2倍)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相似比と面積比",
+        "m²:n²"
+      ]
+    },
+    {
+      "id": "bpf-010",
+      "difficulty": "basic",
+      "question": "三角形の中点連結定理：△ABCでBCの中点M、ACの中点NのときMNとABの関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "MN ∥ AB かつ MN = AB/2"
+        },
+        {
+          "label": "B",
+          "text": "MN = AB(長さが等しい)"
+        },
+        {
+          "label": "C",
+          "text": "MN ⊥ AB(垂直)"
+        },
+        {
+          "label": "D",
+          "text": "MN = 2AB(2倍の長さ)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中点連結定理",
+        "MN∥ABかつMN=AB/2"
+      ]
+    },
+    {
+      "id": "bpf-011",
+      "difficulty": "standard",
+      "question": "△ABCで∠A=80°、∠B=60°。辺BCの延長線上の点Dにおける∠ACDは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外角定理: ∠ACD = ∠A + ∠B = 80°+60°=140°"
+        },
+        {
+          "label": "B",
+          "text": "∠ACD = ∠B = 60°(隣接する内角1つ分)"
+        },
+        {
+          "label": "C",
+          "text": "∠ACD = ∠A = 80°(1つの内角だけ)"
+        },
+        {
+          "label": "D",
+          "text": "∠ACD = 180°-∠A-∠B = 40°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "外角定理",
+        "外角=隣接しない2内角の和"
+      ]
+    },
+    {
+      "id": "bpf-012",
+      "difficulty": "standard",
+      "question": "凸多角形の対角線の本数は？n角形のとき。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(n-3)/2本。各頂点からn-3本(自分・隣の2頂点を除く)引けて、n頂点で割って重複を避ける"
+        },
+        {
+          "label": "B",
+          "text": "C(n,2) = n(n-1)/2本(辺も含んだ全2点の組)"
+        },
+        {
+          "label": "C",
+          "text": "n-2本"
+        },
+        {
+          "label": "D",
+          "text": "n×(n-3)本(重複を除かない)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対角線の本数",
+        "n(n-3)/2"
+      ]
+    },
+    {
+      "id": "bpf-013",
+      "difficulty": "standard",
+      "question": "三角形の5心(重心・内心・外心・垂心・傍心)のうち必ず三角形の内部にあるのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "重心と内心は常に内部。外心・垂心は鈍角三角形では外部。傍心は常に外部"
+        },
+        {
+          "label": "B",
+          "text": "全ての5心は常に内部"
+        },
+        {
+          "label": "C",
+          "text": "外心のみが常に内部"
+        },
+        {
+          "label": "D",
+          "text": "垂心のみが常に内部"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "5心の位置",
+        "重心・内心は常に内部"
+      ]
+    },
+    {
+      "id": "bpf-014",
+      "difficulty": "standard",
+      "question": "平行四辺形ABCDでBD²+AC² と AB²+BC²+CD²+DA²の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AC²+BD² = AB²+BC²+CD²+DA²"
+        },
+        {
+          "label": "B",
+          "text": "AC²+BD² = (AB²+BC²+CD²+DA²)/2(辺の2乗和の半分)"
+        },
+        {
+          "label": "C",
+          "text": "AC²+BD² = AB×CD + BC×DA"
+        },
+        {
+          "label": "D",
+          "text": "AC = BD(対角線が等しい — 長方形の性質)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "平行四辺形の対角線の定理",
+        "対角線の2乗和=辺の2乗和"
+      ]
+    },
+    {
+      "id": "bpf-015",
+      "difficulty": "standard",
+      "question": "2つの三角形が相似であるための3つの条件(AA,SAS,SSS)を説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AA: 2組の角が等しい。SAS: 2辺の比が等しくその間の角が等しい。SSS: 3辺の比が全て等しい"
+        },
+        {
+          "label": "B",
+          "text": "AA: 2辺と1角が等しい"
+        },
+        {
+          "label": "C",
+          "text": "相似は面積が等しいことが条件"
+        },
+        {
+          "label": "D",
+          "text": "1組の対応する角が等しければ相似(1条件だけでは不十分)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の相似条件",
+        "AA/SAS/SSS"
+      ]
+    },
+    {
+      "id": "bpf-016",
+      "difficulty": "standard",
+      "question": "正n角形の1つの内角は？正八角形の1つの内角は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1つの内角 = (n-2)×180°/n。正八角形: (8-2)×180°/8 = 6×180°/8 = 135°"
+        },
+        {
+          "label": "B",
+          "text": "1つの内角 = 360°/n"
+        },
+        {
+          "label": "C",
+          "text": "正八角形の1つの内角 = 360°/8 = 45°(外角)"
+        },
+        {
+          "label": "D",
+          "text": "正八角形の内角 = 8×180°/(8-2) = 240°(分子分母を逆に計算)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正多角形の内角",
+        "(n-2)×180°/n"
+      ]
+    },
+    {
+      "id": "bpf-017",
+      "difficulty": "standard",
+      "question": "△ABCと△DEFが相似で相似比3:2のとき、△ABCの面積が27のとき△DEFの面積は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積比 = 3²:2² = 9:4。△DEF = 27×4/9 = 12"
+        },
+        {
+          "label": "B",
+          "text": "面積比 = 3:2。△DEF = 27×2/3 = 18"
+        },
+        {
+          "label": "C",
+          "text": "△DEF = 27/3 = 9"
+        },
+        {
+          "label": "D",
+          "text": "面積比 = 3³:2³ = 27:8。△DEF = 8"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相似比と面積比",
+        "面積比は相似比の2乗"
+      ]
+    },
+    {
+      "id": "bpf-018",
+      "difficulty": "standard",
+      "question": "△ABCで D は辺BCの中点、E は辺AC上でAE:EC=1:2。DEとABの交点をFとするとき、AF:FBは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "メネラウスの定理を適用: (AF/FB)×(BD/DC)×(CE/EA)=1 → (AF/FB)×1×2=1 → AF:FB=1:2"
+        },
+        {
+          "label": "B",
+          "text": "AF:FB = 1:3(メネラウスの比を誤計算)"
+        },
+        {
+          "label": "C",
+          "text": "AF:FB = 1:1(Dが中点だから)"
+        },
+        {
+          "label": "D",
+          "text": "AF:FB = 2:1(逆の比)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理の応用",
+        "内分点の比"
+      ]
+    },
+    {
+      "id": "bpf-019",
+      "difficulty": "standard",
+      "question": "直角三角形の射影定理：斜辺 c、斜辺上の高さ h、斜辺の2分割 p と q のとき、h² = pq が成り立つことを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2つの部分三角形は元の三角形と相似"
+        },
+        {
+          "label": "B",
+          "text": "h² = p+q"
+        },
+        {
+          "label": "C",
+          "text": "h² = (p+q)² = c²(全体の2乗)"
+        },
+        {
+          "label": "D",
+          "text": "h = (p+q)/2(平均)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "射影定理",
+        "h²=pq"
+      ]
+    },
+    {
+      "id": "bpf-020",
+      "difficulty": "standard",
+      "question": "多角形の内部の点Pから各辺への垂線の足を結んでできる多角形と元の多角形の関係は？(正多角形の場合)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正n角形の中心から等距離の点を内接円の中心とし、各辺への垂線の足を結ぶと内接した正n角形が得られる"
+        },
+        {
+          "label": "B",
+          "text": "内部の点Pをどこにとっても必ず正n角形になる"
+        },
+        {
+          "label": "C",
+          "text": "垂線の足を結ぶと常に正三角形"
+        },
+        {
+          "label": "D",
+          "text": "この操作では多角形にならない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正多角形の内接多角形",
+        "中心から等距離の点"
+      ]
+    },
+    {
+      "id": "bpf-021",
+      "difficulty": "exam",
+      "question": "凸多角形の対角線の本数の公式 n(n-3)/2 を導出せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各頂点から引ける対角線の数は(n-3)本(自分・隣接する2頂点を除く)。n頂点で合計n(n-3)本だが各対角線を2回数えているので n(n-3)/2"
+        },
+        {
+          "label": "B",
+          "text": "C(n,2) = n(n-1)/2 本がそのまま対角線の数(辺を引かない誤り)"
+        },
+        {
+          "label": "C",
+          "text": "対角線は辺と異なる特別な計算が必要"
+        },
+        {
+          "label": "D",
+          "text": "n(n-2)/2 本(隣接する頂点1つだけを除いた誤り)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対角線の本数の導出",
+        "2通りの求め方"
+      ]
+    },
+    {
+      "id": "bpf-022",
+      "difficulty": "exam",
+      "question": "平行四辺形が長方形になるための条件は何か(複数あり、代表的なものを示せ)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "①対角線が等しい ②1つの内角が90° ③全ての内角が等しい"
+        },
+        {
+          "label": "B",
+          "text": "全ての辺が等しいとき(菱形の条件)"
+        },
+        {
+          "label": "C",
+          "text": "対角線が垂直のとき(菱形の条件)"
+        },
+        {
+          "label": "D",
+          "text": "常に長方形であり条件は不要"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "平行四辺形→長方形の条件",
+        "対角線が等しい"
+      ]
+    },
+    {
+      "id": "bpf-023",
+      "difficulty": "exam",
+      "question": "三角形ABCで中線の長さを辺で表す中線定理を証明せよ(頂点AからBCの中点Mへの中線AM)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理を△ABM と △ACM に適用"
+        },
+        {
+          "label": "B",
+          "text": "ピタゴラスの定理で AM=√(AB²+AC²)/2"
+        },
+        {
+          "label": "C",
+          "text": "AM = (AB+AC)/2(辺の平均)"
+        },
+        {
+          "label": "D",
+          "text": "AM = BC/2(中点だから半分)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中線定理の証明",
+        "余弦定理の2回適用"
+      ]
+    },
+    {
+      "id": "bpf-024",
+      "difficulty": "exam",
+      "question": "△ABCで面積をS, 半周長をs=(a+b+c)/2とするとき内接円半径 r=S/s の証明は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内心IからBC,CA,ABへの距離が全てr"
+        },
+        {
+          "label": "B",
+          "text": "r = (a+b+c)/(2S)"
+        },
+        {
+          "label": "C",
+          "text": "ピタゴラスの定理で直接求める"
+        },
+        {
+          "label": "D",
+          "text": "r = S/(2(a+b+c))(分母を2倍にしてしまう誤り)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内接円半径の証明",
+        "三角形をI中心に3分割"
+      ]
+    },
+    {
+      "id": "bpf-025",
+      "difficulty": "exam",
+      "question": "相似な立体の体積比は相似比の3乗。相似比2:3の立体で小さい方の体積が16のとき大きい方の体積は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "体積比=2³:3³=8:27。大きい方=16×27/8=54"
+        },
+        {
+          "label": "B",
+          "text": "体積比=2:3。大きい方=16×3/2=24"
+        },
+        {
+          "label": "C",
+          "text": "体積比=2²:3²=4:9。大きい方=16×9/4=36"
+        },
+        {
+          "label": "D",
+          "text": "体積比=2⁴:3⁴"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相似比と体積比",
+        "体積比は相似比の3乗"
+      ]
+    },
+    {
+      "id": "bpf-026",
+      "difficulty": "exam",
+      "question": "凸多角形を三角形に分割(三角形分割)するとき、n角形はいくつの三角形に分かれるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n-2個の三角形。各分割は対角線で行われ、1頂点から出る対角線でn-2個に分割できる"
+        },
+        {
+          "label": "B",
+          "text": "n個の三角形(頂点の数と同じ)"
+        },
+        {
+          "label": "C",
+          "text": "n(n-3)/2個"
+        },
+        {
+          "label": "D",
+          "text": "2n-4個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形分割",
+        "n-2個"
+      ]
+    },
+    {
+      "id": "bpf-027",
+      "difficulty": "exam",
+      "question": "ピックの定理：格子多角形(頂点が全て格子点)の面積 S = I + B/2 - 1(I=内部格子点、B=境界格子点)を確認する例を示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "例: 頂点(0,0),(4,0),(0,3)の直角三角形"
+        },
+        {
+          "label": "B",
+          "text": "全ての多角形でI+B/2-1=S が成立する"
+        },
+        {
+          "label": "C",
+          "text": "ピックの定理は凸多角形のみ有効"
+        },
+        {
+          "label": "D",
+          "text": "S = I×B"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ピックの定理",
+        "I+B/2-1"
+      ]
+    },
+    {
+      "id": "bpf-028",
+      "difficulty": "exam",
+      "question": "ブリアンションの定理(双対として)：円に外接する六角形の対角線3本は1点で交わる。この定理の対称性を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ブリアンションの定理はパスカルの定理の射影双対"
+        },
+        {
+          "label": "B",
+          "text": "この定理は直角の場合のみ成立"
+        },
+        {
+          "label": "C",
+          "text": "ブリアンションの定理は辺の数が偶数の場合のみ"
+        },
+        {
+          "label": "D",
+          "text": "対角線が平行になることを示す定理"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ブリアンションの定理",
+        "パスカルの定理との双対性"
+      ]
+    },
+    {
+      "id": "bpf-029",
+      "difficulty": "exam",
+      "question": "n角形の外角の和が常に360°である理由を説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "多角形の1周りを歩くと合計360°向きが変わる。各頂点での外角(向きの変化量)の合計が1周の回転360°に等しいから"
+        },
+        {
+          "label": "B",
+          "text": "外角の和は正多角形の場合のみ360°で、不規則な凸多角形では成立しない"
+        },
+        {
+          "label": "C",
+          "text": "外角は内角の補角なのでn個で360°"
+        },
+        {
+          "label": "D",
+          "text": "180°×2=360°(単純な計算)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "外角の和=360°の理由",
+        "1周の回転"
+      ]
+    },
+    {
+      "id": "bpf-030",
+      "difficulty": "exam",
+      "question": "△ABCで点Pが△の内部にあり PA:PB:PC=2:3:4のとき△PBC:△PCA:△PABの面積比は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積比は PA×BC : PB×CA : PC×AB で求まり、辺の長さも必要なので距離比だけでは決まらない"
+        },
+        {
+          "label": "B",
+          "text": "面積比=2:3:4"
+        },
+        {
+          "label": "C",
+          "text": "面積比=PA²:PB²:PC²=4:9:16"
+        },
+        {
+          "label": "D",
+          "text": "面積比 = 1/(PA²) : 1/(PB²) : 1/(PC²) = 1/4:1/9:1/16"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内部点からの面積比",
+        "距離の比だけでは不十分"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "subject": "数学1A",
+  "unit": "集合の基礎",
+  "questions": [
+    {
+      "id": "st-001",
+      "difficulty": "basic",
+      "question": "集合 A={1,2,3,4,5}、B={3,4,5,6,7} のとき A∩B はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "共通要素を探す → 3,4,5が両方に含まれる → A∩B={3,4,5}"
+        },
+        {
+          "label": "B",
+          "text": "A∩B = {1,2,3,4,5,6,7}"
+        },
+        {
+          "label": "C",
+          "text": "A∩B = {4,5}"
+        },
+        {
+          "label": "D",
+          "text": "A∩B = {1,2,6,7}"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["積集合", "共通要素", "記号の意味"]
+    },
+    {
+      "id": "st-002",
+      "difficulty": "basic",
+      "question": "A={1,2,3}、B={2,3,4} のとき A∪B はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "両方の要素を重複なく集める → {1,2,3,4}"
+        },
+        {
+          "label": "B",
+          "text": "A∪B = {2,3}"
+        },
+        {
+          "label": "C",
+          "text": "A∪B = {4}"
+        },
+        {
+          "label": "D",
+          "text": "A∪B = {2,3,4}"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["和集合", "重複なし", "記号の意味"]
+    },
+    {
+      "id": "st-003",
+      "difficulty": "basic",
+      "question": "全体集合 U={1,2,3,4,5}、A={1,2,3} のとき補集合 Ā はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "U から A の要素を除く → {4,5}"
+        },
+        {
+          "label": "B",
+          "text": "Ā = {3,4,5}"
+        },
+        {
+          "label": "C",
+          "text": "Ā = ∅"
+        },
+        {
+          "label": "D",
+          "text": "Ā = {1,2,3,4,5}"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["補集合", "全体集合からの除外", "記号の意味"]
+    },
+    {
+      "id": "st-004",
+      "difficulty": "basic",
+      "question": "A⊂B の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A のすべての要素が B に含まれる"
+        },
+        {
+          "label": "B",
+          "text": "A と B の共通要素が存在する"
+        },
+        {
+          "label": "C",
+          "text": "A と B がまったく同じ集合"
+        },
+        {
+          "label": "D",
+          "text": "A の要素が B に含まれない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["部分集合の定義", "全称命題", "包含関係"]
+    },
+    {
+      "id": "st-005",
+      "difficulty": "basic",
+      "question": "n(A∪B) = n(A) + n(B) - n(A∩B) の公式を A={1,2,3,4}、B={3,4,5} に適用するとどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A)=4、n(B)=3、n(A∩B)=2 → n(A∪B)=4+3-2=5"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪B) = n(A)+n(B) = 7"
+        },
+        {
+          "label": "C",
+          "text": "n(A∪B) = n(A)+n(B)+n(A∩B) = 4+3+2 = 9"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) = n(A) = 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["包除原理", "要素数の公式", "A∩Bの重複"]
+    },
+    {
+      "id": "st-006",
+      "difficulty": "basic",
+      "question": "空集合 ∅ の性質として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∅ は任意の集合 A の部分集合"
+        },
+        {
+          "label": "B",
+          "text": "∅ は集合ではない"
+        },
+        {
+          "label": "C",
+          "text": "∅ ∩ A = A"
+        },
+        {
+          "label": "D",
+          "text": "∅ に 0 が含まれる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["空集合の性質", "全集合の部分集合", "∅の定義"]
+    },
+    {
+      "id": "st-007",
+      "difficulty": "basic",
+      "question": "A={x | x は 12 の正の約数} を列挙するとどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12の正の約数: 1,2,3,4,6,12 → A={1,2,3,4,6,12}"
+        },
+        {
+          "label": "B",
+          "text": "A={1,2,3,4}"
+        },
+        {
+          "label": "C",
+          "text": "A={1,2,3,4,8,12}"
+        },
+        {
+          "label": "D",
+          "text": "A={2,3,4,6,12}"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["内包的記法", "約数の列挙", "集合の表し方"]
+    },
+    {
+      "id": "st-008",
+      "difficulty": "basic",
+      "question": "A∩Ā（集合とその補集合の積）はどうなるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A∩Ā = ∅"
+        },
+        {
+          "label": "B",
+          "text": "A∩Ā = U"
+        },
+        {
+          "label": "C",
+          "text": "A∩Ā = A"
+        },
+        {
+          "label": "D",
+          "text": "場合によって異なる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["補集合の性質", "空集合", "A∩Ā=∅"]
+    },
+    {
+      "id": "st-009",
+      "difficulty": "basic",
+      "question": "ド・モルガンの法則として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A∪B の補集合 = Ā∩B̄"
+        },
+        {
+          "label": "B",
+          "text": "A∩B の補集合 = A∪B"
+        },
+        {
+          "label": "C",
+          "text": "Ā∪B̄ = A∩B"
+        },
+        {
+          "label": "D",
+          "text": "ド・モルガンの法則は成り立たない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["ド・モルガンの法則", "補集合の積", "和集合の補集合"]
+    },
+    {
+      "id": "st-010",
+      "difficulty": "basic",
+      "question": "n(A)=15、n(B)=12、n(A∩B)=5 のとき n(Ā∩B̄) を全体 n(U)=30 で求めるとどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B)=15+12-5=22 → n(Ā∩B̄)=30-22=8"
+        },
+        {
+          "label": "B",
+          "text": "n(Ā∩B̄)=n(U)-n(A)-n(B)=30-15-12=3"
+        },
+        {
+          "label": "C",
+          "text": "n(Ā∩B̄)=n(Ā)×n(B̄)/n(U)=15×18/30=9"
+        },
+        {
+          "label": "D",
+          "text": "n(Ā∩B̄) は直接計算できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["ド・モルガン", "包除原理", "補集合の要素数"]
+    },
+    {
+      "id": "st-011",
+      "difficulty": "standard",
+      "question": "A⊂B のとき A∩B を最も簡単に表すとどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A⊂B → A の全要素は B に含まれる → A∩B = A"
+        },
+        {
+          "label": "B",
+          "text": "A∩B = B"
+        },
+        {
+          "label": "C",
+          "text": "A∩B = ∅"
+        },
+        {
+          "label": "D",
+          "text": "A∩B は A と B の大きさによる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["部分集合と積集合", "A⊂B→A∩B=A", "包含関係"]
+    },
+    {
+      "id": "st-012",
+      "difficulty": "standard",
+      "question": "3つの集合 A, B, C に対して n(A∪B∪C) を求める公式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A)+n(B)+n(C)-n(A∩B)-n(B∩C)-n(C∩A)+n(A∩B∩C)"
+        },
+        {
+          "label": "B",
+          "text": "n(A)+n(B)+n(C)"
+        },
+        {
+          "label": "C",
+          "text": "n(A)+n(B)+n(C)-n(A∩B∩C)"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B)+n(C)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["3集合の包除原理", "3つの積集合", "公式の完全形"]
+    },
+    {
+      "id": "st-013",
+      "difficulty": "standard",
+      "question": "全体集合 U の部分集合 A, B に対して n(A∩B̄) を n(A), n(A∩B) で表す手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A = (A∩B) ∪ (A∩B̄) と分割できる → n(A∩B̄)=n(A)-n(A∩B)"
+        },
+        {
+          "label": "B",
+          "text": "n(A∩B̄)=n(A)-n(B)"
+        },
+        {
+          "label": "C",
+          "text": "n(A∩B̄)=n(Ā)+n(B̄)-n(U)"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B̄) = n(Ā)-n(A∩B)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["集合の分割", "A∩B̄の要素数", "引き算の論理"]
+    },
+    {
+      "id": "st-014",
+      "difficulty": "standard",
+      "question": "100以下の自然数で、3の倍数でも5の倍数でもないものの個数を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A=3の倍数(33個), B=5の倍数(20個), A∩B=15の倍数(6個) → A∪B=33+20-6=47 → 補集合=100-47=53"
+        },
+        {
+          "label": "B",
+          "text": "3の倍数でない67個と5の倍数でない80個を掛けて約54個"
+        },
+        {
+          "label": "C",
+          "text": "100-33-20=47個"
+        },
+        {
+          "label": "D",
+          "text": "15の倍数6個だけを除いて94個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["倍数の集合", "包除原理", "補集合の要素数"]
+    },
+    {
+      "id": "st-015",
+      "difficulty": "standard",
+      "question": "A={x∈N | x²<10} を列挙する手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²<10 を満たす自然数: x=1(1<10✓),2(4<10✓),3(9<10✓),4(16≥10×) → A={1,2,3}"
+        },
+        {
+          "label": "B",
+          "text": "x²<10 を x<10 と考えて、自然数1から9まで → 9個"
+        },
+        {
+          "label": "C",
+          "text": "A={1,2,3,4}"
+        },
+        {
+          "label": "D",
+          "text": "A={1,4,9}"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["内包的記法", "条件を満たす要素", "自然数の制限"]
+    },
+    {
+      "id": "st-016",
+      "difficulty": "standard",
+      "question": "「A⊂B かつ B⊂A」が成り立つときの結論はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A=B"
+        },
+        {
+          "label": "B",
+          "text": "A∩B=A∪B"
+        },
+        {
+          "label": "C",
+          "text": "A⊂B かつ B⊂A なら ∅ のみが成立"
+        },
+        {
+          "label": "D",
+          "text": "A=∅"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["集合の相等", "相互包含", "A=Bの条件"]
+    },
+    {
+      "id": "st-017",
+      "difficulty": "standard",
+      "question": "集合 A={1,2,3} の部分集合の個数を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各要素について「含む・含まない」の2通り → 2³=8個"
+        },
+        {
+          "label": "B",
+          "text": "空集合を除いて 2³-1=7個"
+        },
+        {
+          "label": "C",
+          "text": "A自身と空集合を除くと 2³-2=6個"
+        },
+        {
+          "label": "D",
+          "text": "3C1+3C2+3C3=3+3+1=7個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["部分集合の個数", "2のn乗", "空集合を含む"]
+    },
+    {
+      "id": "st-018",
+      "difficulty": "standard",
+      "question": "A={1,2,3,4,5,6}、B={2,4,6,8,10} のとき差集合 A-B はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A-B = Aに含まれBに含まれない要素 → {1,3,5}"
+        },
+        {
+          "label": "B",
+          "text": "A-B = {2,4,6}"
+        },
+        {
+          "label": "C",
+          "text": "A-B = {8,10}"
+        },
+        {
+          "label": "D",
+          "text": "A-B = ∅"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["差集合", "A∩B̄との同値", "一方にのみある要素"]
+    },
+    {
+      "id": "st-019",
+      "difficulty": "standard",
+      "question": "100人の学生のうち、英語が得意な人が60人、数学が得意な人が50人、どちらも得意でない人が20人いる。英語と数学の両方が得意な人は何人か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(E∪M)=100-20=80。60+50-n(E∩M)=80 → n(E∩M)=30"
+        },
+        {
+          "label": "B",
+          "text": "n(E∩M)=60+50-100=10"
+        },
+        {
+          "label": "C",
+          "text": "n(E∩M)=60+50-20=90"
+        },
+        {
+          "label": "D",
+          "text": "n(E∩M)=20"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["包除原理の応用", "補集合からn(A∪B)", "逆算でn(A∩B)"]
+    },
+    {
+      "id": "st-020",
+      "difficulty": "exam",
+      "question": "A={x|x²-5x+6≤0}、B={x|x²-4<0} のとき A∩B を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A: 2≤x≤3。B: -2<x<2。A∩B={2}"
+        },
+        {
+          "label": "B",
+          "text": "A∩B = ∅"
+        },
+        {
+          "label": "C",
+          "text": "A∩B = {x | 2≤x≤3}"
+        },
+        {
+          "label": "D",
+          "text": "A∩B = {x | -2<x≤3}"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["不等式を集合で表す", "区間の積", "端点の扱い"]
+    },
+    {
+      "id": "st-021",
+      "difficulty": "standard",
+      "question": "U={1,2,...,10}、A={1,3,5,7,9}、B={1,2,3,4,5} のとき n(Ā∩B) を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ā={2,4,6,8,10}。Ā∩B={2,4} → n=2"
+        },
+        {
+          "label": "B",
+          "text": "n(U)-n(A)-n(B)=10-5-5=0"
+        },
+        {
+          "label": "C",
+          "text": "n(Ā∩B)=n(Ā)+n(B)-n(U)=5+5-10=0"
+        },
+        {
+          "label": "D",
+          "text": "Ā={2,4,6,8,10}、B={1,2,3,4,5} → 共通は {4} → n=1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["補集合と積集合", "Ā∩B=B-A∩B", "要素の直接確認"]
+    },
+    {
+      "id": "st-022",
+      "difficulty": "exam",
+      "question": "集合 A が A = Ā（Aが自身の補集合に等しい）となるのはいつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A=Ā とすると A=U かつ A=∅ となり矛盾。そのような集合は存在しない"
+        },
+        {
+          "label": "B",
+          "text": "A=∅ のとき Ā=U なので A=Ā"
+        },
+        {
+          "label": "C",
+          "text": "|A|=|U|/2 のとき A=Ā になる"
+        },
+        {
+          "label": "D",
+          "text": "A=Ā となる条件は n(A)=n(Ā) のとき"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["補集合の性質", "矛盾による不存在", "A=Āの条件"]
+    },
+    {
+      "id": "st-023",
+      "difficulty": "exam",
+      "question": "n(A)=a、n(B)=b、n(A∩B)=c のとき、n(Ā∩B̄) を n(U) で表す手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ド・モルガン：Ā∩B̄=(A∪B)の補集合 → n=n(U)-(a+b-c)=n(U)-a-b+c"
+        },
+        {
+          "label": "B",
+          "text": "n(Ā∩B̄)=(n(U)-a)+(n(U)-b)=2n(U)-a-b"
+        },
+        {
+          "label": "C",
+          "text": "n(Ā∩B̄)=n(U)-a-b"
+        },
+        {
+          "label": "D",
+          "text": "n(Ā∩B̄)=(n(U)-a)(n(U)-b)/n(U)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["ド・モルガン", "包除原理", "補集合の組み合わせ"]
+    },
+    {
+      "id": "st-024",
+      "difficulty": "exam",
+      "question": "集合 A の部分集合で、a∈A となる部分集合の個数を |A|=n として求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a を必ず含む部分集合 → 残りの n-1 個の要素は各自由 → 2^(n-1)個"
+        },
+        {
+          "label": "B",
+          "text": "2^n - 1個"
+        },
+        {
+          "label": "C",
+          "text": "n-1個"
+        },
+        {
+          "label": "D",
+          "text": "n個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["特定要素を含む部分集合", "2のn-1乗", "固定要素の扱い"]
+    },
+    {
+      "id": "st-025",
+      "difficulty": "exam",
+      "question": "A⊂B⊂C のとき、n(A∪C) を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A⊂C → A∪C = C → n(A∪C) = n(C)"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪C) = n(A)+n(C)"
+        },
+        {
+          "label": "C",
+          "text": "n(A∪C) = n(B)"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪C) = n(A)+n(B)+n(C)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["包含関係の連鎖", "A∪C=C", "不要な条件の認識"]
+    },
+    {
+      "id": "st-026",
+      "difficulty": "exam",
+      "question": "「学生100人のうち、A科目を受けた者が70人、B科目を受けた者が60人」のとき、A∩Bの最小値と最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最小: n(A)+n(B)-n(U)=70+60-100=30。最大: min(70,60)=60 → 最小30人、最大60人"
+        },
+        {
+          "label": "B",
+          "text": "最小=0、最大=60"
+        },
+        {
+          "label": "C",
+          "text": "最小=30、最大=70+60=130"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B)=70×60/100=42"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["A∩Bの最小最大", "包除原理", "オーバーフロー"]
+    },
+    {
+      "id": "st-027",
+      "difficulty": "exam",
+      "question": "有限集合 A の2つの要素 a, b（a≠b）をともに含む部分集合の個数を |A|=n で表すとどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a, b を固定して残り n-2 個が自由 → 2^(n-2)個"
+        },
+        {
+          "label": "B",
+          "text": "2×2^(n-2) = 2^(n-1)個"
+        },
+        {
+          "label": "C",
+          "text": "2^n/4 = 2^(n-4)個"
+        },
+        {
+          "label": "D",
+          "text": "n(n-1)/2個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["2要素固定の部分集合", "2^(n-2)", "固定の計算"]
+    },
+    {
+      "id": "st-028",
+      "difficulty": "exam",
+      "question": "A={1,2,...,n} の2つの要素 a,b の和 a+b が偶数になる条件を集合で表すとどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a+b が偶数 ↔ a,b が同じ偶奇 → 奇数の集合または偶数の集合から選ぶ"
+        },
+        {
+          "label": "B",
+          "text": "a+b が偶数 → a,b の少なくとも一方が偶数"
+        },
+        {
+          "label": "C",
+          "text": "a+b が偶数 ↔ a,b がともに偶数"
+        },
+        {
+          "label": "D",
+          "text": "a+b が偶数 → a×b が奇数"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["偶奇の分類", "集合の条件分け", "和の偶奇"]
+    },
+    {
+      "id": "st-029",
+      "difficulty": "exam",
+      "question": "n(U)=100、n(A)=60、n(B)=70、n(A∩B)=50 のとき n(Ā∩B̄) を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B)=60+70-50=80 → n(Ā∩B̄)=n(U)-n(A∪B)=100-80=20"
+        },
+        {
+          "label": "B",
+          "text": "n(Ā∩B̄)=n(Ā)×n(B̄)/n(U)=40×30/100=12"
+        },
+        {
+          "label": "C",
+          "text": "n(Ā∩B̄)=n(U)-n(A)-n(B)=100-60-70=-30"
+        },
+        {
+          "label": "D",
+          "text": "n(Ā∩B̄)=n(A∩B)=50"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["ド・モルガン", "補集合の要素数", "包除原理の応用"]
+    },
+    {
+      "id": "st-030",
+      "difficulty": "exam",
+      "question": "集合 A, B, C に対して A∪(B∩C) = (A∪B)∩(A∪C) が成り立つことを証明する方針はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x の帰属で x∈A∪(B∩C) ↔ x∈(A∪B)∩(A∪C) を確認"
+        },
+        {
+          "label": "B",
+          "text": "ベン図で視覚的に確認"
+        },
+        {
+          "label": "C",
+          "text": "具体例で A={1}, B={2}, C={3} を代入して確認"
+        },
+        {
+          "label": "D",
+          "text": "両辺の要素数が等しいことを包除原理で示す"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": ["集合の分配法則", "元素による証明", "論理の同値変換"]
+    }
+  ]
+}

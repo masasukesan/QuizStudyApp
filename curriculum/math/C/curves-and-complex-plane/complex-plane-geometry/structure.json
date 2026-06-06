@@ -1,0 +1,87 @@
+{
+  "unit_id": "complex-plane-geometry",
+  "unit_name_jp": "複素数平面と図形",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "cpg-polar",
+      "description": "極形式 z = r(cosθ + i sinθ)、偏角 arg(z)",
+      "thinking_process": [
+        "r = |z|、θ = arg(z)、-π < θ ≦ π"
+      ],
+      "common_mistakes": [
+        "偏角の範囲を誤る（特に第3・4象限）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "cpg-demoivre",
+      "description": "ド・モアブルの定理 (cosθ + i sinθ)ⁿ = cos(nθ) + i sin(nθ)",
+      "thinking_process": [
+        "極形式の乗算は絶対値の積・偏角の和"
+      ],
+      "common_mistakes": [
+        "n が負の場合に誤用する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "cpg-rotation",
+      "description": "複素数の乗算による回転・拡大（i 倍は90度回転等）",
+      "thinking_process": [
+        "z に r(cosφ + i sinφ) を掛けると r 倍して φ だけ回転"
+      ],
+      "common_mistakes": [
+        "回転の方向（正負）を間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "cpg-nth-root",
+      "description": "n 乗根（1の n 乗根を含む）の複素数平面上の意味",
+      "thinking_process": [
+        "正 n 角形の頂点を描く",
+        "偏角 2kπ/n ずつずれる"
+      ],
+      "common_mistakes": [
+        "k の範囲（0 ≦ k ≦ n-1）を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "cpg-locus",
+      "description": "複素数の条件から軌跡を求める（直線・円・線分）",
+      "thinking_process": [
+        "|z - α| = |z - β| → 2点の垂直二等分線"
+      ],
+      "common_mistakes": [
+        "arg を含む条件で角度の範囲を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "cpg-proof-demoivre",
+      "description": "ド・モアブルの定理の数学的帰納法による証明",
+      "thinking_process": [
+        "n=1 は明らか",
+        "n=k で成立 → n=k+1 で成立を示す"
+      ],
+      "common_mistakes": [
+        "加法定理を間違える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "cpg-proof-root",
+      "description": "1の n 乗根が正 n 角形の頂点をなすことの証明",
+      "thinking_process": [
+        "|ωᵏ| = 1 かつ arg(ωᵏ) = 2kπ/n を示す"
+      ],
+      "common_mistakes": [
+        "ωᵏ が全て異なることの証明を省く"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

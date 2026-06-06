@@ -1,0 +1,846 @@
+{
+  "subject": "数学1A",
+  "unit": "組み合わせ",
+  "questions": [
+    {
+      "id": "comb-001",
+      "difficulty": "basic",
+      "question": "5人の中から3人を選ぶ場合の数は？（選ぶ順序は問わない）",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5C3 = 5!/(3!×2!) = 10通り"
+        },
+        {
+          "label": "B",
+          "text": "5P3 = 5×4×3 = 60通り"
+        },
+        {
+          "label": "C",
+          "text": "5×3 = 15通り"
+        },
+        {
+          "label": "D",
+          "text": "5! = 120通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "組み合わせの基本",
+        "nCr=n!/(r!(n-r)!)"
+      ]
+    },
+    {
+      "id": "comb-002",
+      "difficulty": "basic",
+      "question": "nCr と nC(n-r) の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nCr = nC(n-r)  どちらも n!/(r!(n-r)!) に等しい"
+        },
+        {
+          "label": "B",
+          "text": "nCr = nC(r-n) + r"
+        },
+        {
+          "label": "C",
+          "text": "nCr × nC(r) = n!"
+        },
+        {
+          "label": "D",
+          "text": "nCr と nC(n-r) は選び方が異なるので等しくない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "組み合わせの対称性",
+        "nCr=nC(n-r)"
+      ]
+    },
+    {
+      "id": "comb-003",
+      "difficulty": "basic",
+      "question": "10C3 の値は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "10C3 = 10×9×8 / (3×2×1) = 720/6 = 120"
+        },
+        {
+          "label": "B",
+          "text": "10P3 = 10×9×8 = 720"
+        },
+        {
+          "label": "C",
+          "text": "10+9+8 = 27"
+        },
+        {
+          "label": "D",
+          "text": "10!/3! = 604800"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "10C3の計算",
+        "分子と分母の計算"
+      ]
+    },
+    {
+      "id": "comb-004",
+      "difficulty": "basic",
+      "question": "パスカルの三角形の規則: nCr = (n-1)C(r-1) + (n-1)Cr の意味を説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特定1人を含む (n-1)C(r-1) と含まない (n-1)Cr の和"
+        },
+        {
+          "label": "B",
+          "text": "nCr を2つの小さな値に分割する計算上のテクニック"
+        },
+        {
+          "label": "C",
+          "text": "nCr は (n-1)C(r-1) と (n-1)Cr の積"
+        },
+        {
+          "label": "D",
+          "text": "r 番目の要素が n-1 番目の要素と関係しているだけ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "パスカルの三角形",
+        "特定要素を含む/含まない分類"
+      ]
+    },
+    {
+      "id": "comb-005",
+      "difficulty": "basic",
+      "question": "10人のグループから委員会（委員の順序は関係ない）5人を選ぶ場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "10C5 = 10!/(5!×5!) = 252通り"
+        },
+        {
+          "label": "B",
+          "text": "10P5 = 10×9×8×7×6 = 30240通り"
+        },
+        {
+          "label": "C",
+          "text": "10×5 = 50通り"
+        },
+        {
+          "label": "D",
+          "text": "10C5 = 10!/5! = 3024通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "組み合わせの基本応用",
+        "10C5=252"
+      ]
+    },
+    {
+      "id": "comb-006",
+      "difficulty": "basic",
+      "question": "nC0 と nCn の値はそれぞれいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nC0 = 1、nCn = 1"
+        },
+        {
+          "label": "B",
+          "text": "nC0 = 0、nCn = n!"
+        },
+        {
+          "label": "C",
+          "text": "nC0 = n、nCn = 0"
+        },
+        {
+          "label": "D",
+          "text": "nC0 = 1、nCn = n"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "nC0=nCn=1",
+        "特殊値"
+      ]
+    },
+    {
+      "id": "comb-007",
+      "difficulty": "basic",
+      "question": "8人から2人を選ぶ選び方の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "8C2 = 8×7/(2×1) = 28通り"
+        },
+        {
+          "label": "B",
+          "text": "8×7 = 56通り"
+        },
+        {
+          "label": "C",
+          "text": "8×2 = 16通り"
+        },
+        {
+          "label": "D",
+          "text": "8C2 = 8+7 = 15通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "8C2の計算",
+        "8×7/2"
+      ]
+    },
+    {
+      "id": "comb-008",
+      "difficulty": "basic",
+      "question": "直線上にある10個の点のうち、2点を選んで直線を引く場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "10C2 = 45通り"
+        },
+        {
+          "label": "B",
+          "text": "10P2 = 90通り"
+        },
+        {
+          "label": "C",
+          "text": "10 × 10 = 100通り"
+        },
+        {
+          "label": "D",
+          "text": "10通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "組み合わせの応用",
+        "直線の本数"
+      ]
+    },
+    {
+      "id": "comb-009",
+      "difficulty": "basic",
+      "question": "Σ(k=0 to n) nCk = 2ⁿ が成り立つ理由は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1+1)ⁿ=2ⁿ を展開すると Σ nCk = 2ⁿ"
+        },
+        {
+          "label": "B",
+          "text": "各 nCk が平均して 2ⁿ/n だから"
+        },
+        {
+          "label": "C",
+          "text": "nCk の最大値が 2ⁿ だから合計は 2ⁿ"
+        },
+        {
+          "label": "D",
+          "text": "帰納法で証明できる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項定理の特殊値",
+        "2ⁿ個の部分集合"
+      ]
+    },
+    {
+      "id": "comb-010",
+      "difficulty": "basic",
+      "question": "平面上に5点あり、どの3点も一直線上にないとき、3点を選んで作れる三角形は何個か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5C3 = 10個"
+        },
+        {
+          "label": "B",
+          "text": "5P3 = 60個"
+        },
+        {
+          "label": "C",
+          "text": "5! ÷ 5 = 24個"
+        },
+        {
+          "label": "D",
+          "text": "5 + 4 + 3 = 12個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の個数",
+        "5C3"
+      ]
+    },
+    {
+      "id": "comb-011",
+      "difficulty": "standard",
+      "question": "10人の中から代表3人を選ぶとき、特定の2人（AとB）が両方選ばれる場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AとBは確定で選ばれる→残り1人を8人から選ぶ: 8C1 = 8通り"
+        },
+        {
+          "label": "B",
+          "text": "10C3 = 120通り"
+        },
+        {
+          "label": "C",
+          "text": "2C2 × 8C2 = 1 × 28 = 28通り"
+        },
+        {
+          "label": "D",
+          "text": "2 × 9C2 = 2×36 = 72通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "条件付き組み合わせ",
+        "2人が確定した後の選択"
+      ]
+    },
+    {
+      "id": "comb-012",
+      "difficulty": "standard",
+      "question": "nCr = nC(r-1) × (n-r+1)/r であることを利用して 10C4 を 10C3 から求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "= 10C3 × (10-4+1)/4 = 120 × 7/4 = 210"
+        },
+        {
+          "label": "B",
+          "text": "10C4 = 10C3 + 4 = 124"
+        },
+        {
+          "label": "C",
+          "text": "10C4 = 10C3 × 4 = 480"
+        },
+        {
+          "label": "D",
+          "text": "10C4 = 10C3 / 4 = 30"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "連続する組み合わせの関係",
+        "nCr/nC(r-1)=(n-r+1)/r"
+      ]
+    },
+    {
+      "id": "comb-013",
+      "difficulty": "standard",
+      "question": "赤4個・白5個・青3個の計12個のボールから3個選ぶとき、全て同じ色の選び方は何通りか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全て赤: 4C3=4。全て白: 5C3=10。全て青: 3C3=1。合計 4+10+1=15通り"
+        },
+        {
+          "label": "B",
+          "text": "12C3 = 220通り"
+        },
+        {
+          "label": "C",
+          "text": "3×4C3 = 12通り"
+        },
+        {
+          "label": "D",
+          "text": "4C3 × 5C3 × 3C3 = 4×10×1 = 40通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "和の法則の応用",
+        "色ごとに場合分け"
+      ]
+    },
+    {
+      "id": "comb-014",
+      "difficulty": "standard",
+      "question": "二項定理 (a+b)⁷ の展開式で a⁴b³ の係数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a+b)⁷ の a⁴b³ の係数は 7C4 = 7C3 = 35"
+        },
+        {
+          "label": "B",
+          "text": "4×3 = 12"
+        },
+        {
+          "label": "C",
+          "text": "7P4 = 7×6×5×4 = 840"
+        },
+        {
+          "label": "D",
+          "text": "7 ÷ 4 = 1.75"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項定理の係数",
+        "nCrが係数"
+      ]
+    },
+    {
+      "id": "comb-015",
+      "difficulty": "standard",
+      "question": "6点のうち4点が一直線上にある場合、3点で作れる三角形は何個か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "三角形の数: 20-4=16個"
+        },
+        {
+          "label": "B",
+          "text": "6C3 = 20個"
+        },
+        {
+          "label": "C",
+          "text": "2C1 × 4C2 = 2×6=12個"
+        },
+        {
+          "label": "D",
+          "text": "4C3 = 4個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の個数",
+        "一直線上の点の除外"
+      ]
+    },
+    {
+      "id": "comb-016",
+      "difficulty": "standard",
+      "question": "重複組み合わせ H(n,r) の公式は？n=4, r=2 のとき H(4,2) の値は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "H(n,r) = (n+r-1)C(r)。H(4,2) = (4+2-1)C(2) = 5C2 = 10通り"
+        },
+        {
+          "label": "B",
+          "text": "H(4,2) = 4C2 = 6通り"
+        },
+        {
+          "label": "C",
+          "text": "H(4,2) = 4² = 16通り"
+        },
+        {
+          "label": "D",
+          "text": "H(4,2) = 4P2 = 12通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重複組み合わせ",
+        "H(n,r)=(n+r-1)Cr"
+      ]
+    },
+    {
+      "id": "comb-017",
+      "difficulty": "standard",
+      "question": "x₁ + x₂ + x₃ = 10 の非負整数解の個数は？（重複組み合わせを使え）",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3+10-1)C(10) = 12C10 = 12C2 = 66個"
+        },
+        {
+          "label": "B",
+          "text": "10³ = 1000個"
+        },
+        {
+          "label": "C",
+          "text": "10C2 = 45個"
+        },
+        {
+          "label": "D",
+          "text": "3¹⁰ = 59049個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重複組み合わせの応用",
+        "整数解の個数=H(n,r)"
+      ]
+    },
+    {
+      "id": "comb-018",
+      "difficulty": "standard",
+      "question": "(2n)Cn は nC0² + nC1² + ... + nCn² に等しいことを示す考え方は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2nCn = Σ nCk² を二項定理で導く"
+        },
+        {
+          "label": "B",
+          "text": "帰納法で n について証明する"
+        },
+        {
+          "label": "C",
+          "text": "両辺を直接計算して一致を確認する"
+        },
+        {
+          "label": "D",
+          "text": "Σ nCk² = 2ⁿ を二項定理の x=1 代入から直接導けるので、(2n)Cn = 2ⁿ になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "バンダーモンドの恒等式",
+        "係数比較の方法"
+      ]
+    },
+    {
+      "id": "comb-019",
+      "difficulty": "standard",
+      "question": "4種類のキャンディーが無限にあるとき、5個選ぶ場合の数は？（重複を許す）",
+      "choices": [
+        {
+          "label": "A",
+          "text": "H(4,5) = (4+5-1)C(5) = 8C5 = 8C3 = 56通り"
+        },
+        {
+          "label": "B",
+          "text": "4⁵ = 1024通り"
+        },
+        {
+          "label": "C",
+          "text": "4C5 = 0通り"
+        },
+        {
+          "label": "D",
+          "text": "4×5 = 20通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重複組み合わせ",
+        "H(4,5)=8C3"
+      ]
+    },
+    {
+      "id": "comb-020",
+      "difficulty": "standard",
+      "question": "男子6人・女子4人から男子2人以上・女子1人以上を含む5人委員会の選び方は何通りか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "合計240通り"
+        },
+        {
+          "label": "B",
+          "text": "10C5 = 252通り"
+        },
+        {
+          "label": "C",
+          "text": "6C2 × 4C1 = 15×4=60通り"
+        },
+        {
+          "label": "D",
+          "text": "252 - (男5女0) - (男0女5) = 252-6-0=246通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "複数条件の組み合わせ",
+        "場合分けで合算"
+      ]
+    },
+    {
+      "id": "comb-021",
+      "difficulty": "exam",
+      "question": "nCr×r! = nPr の恒等式を組み合わせ的に解釈せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nCr × r! = nPr  まず選んで(nCr)、次に並べる(r!)"
+        },
+        {
+          "label": "B",
+          "text": "選ぶ段階と並べる段階は独立でないので積にならない"
+        },
+        {
+          "label": "C",
+          "text": "nPr と nCr の差が r! であることを示す恒等式"
+        },
+        {
+          "label": "D",
+          "text": "nCr と nPr は常に等しい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "nPr=nCr×r!の意味",
+        "2段階の考え方"
+      ]
+    },
+    {
+      "id": "comb-022",
+      "difficulty": "exam",
+      "question": "Σ(k=0 to n) k×nCk = n×2^(n-1) を示す方法として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k×nCk=n×(n-1)C(k-1) より Σ = n×2^(n-1)"
+        },
+        {
+          "label": "B",
+          "text": "Σ(k=0 to n) k×nCk = n × (n-1) × 2^(n-2)"
+        },
+        {
+          "label": "C",
+          "text": "各項を計算して足せば n×2^(n-1) になる"
+        },
+        {
+          "label": "D",
+          "text": "k×nCk = nCk/k"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "恒等式の証明",
+        "k×nCk=n×(n-1)C(k-1)"
+      ]
+    },
+    {
+      "id": "comb-023",
+      "difficulty": "exam",
+      "question": "n 個の異なる球を、空のグループを許さずに k 個のグループに分ける（各グループに1個以上）場合の数（スターリング数 S(n,k)）。S(4,2) を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S(4,2) = 7通り  スターリング数S(n,k)で求める"
+        },
+        {
+          "label": "B",
+          "text": "4C2 = 6通り"
+        },
+        {
+          "label": "C",
+          "text": "2⁴/2 = 8通り"
+        },
+        {
+          "label": "D",
+          "text": "4!/2 = 12通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "スターリング数",
+        "集合の分割"
+      ]
+    },
+    {
+      "id": "comb-024",
+      "difficulty": "exam",
+      "question": "(x+y+z)⁵ の展開式で x²y²z の係数は？（多項定理）",
+      "choices": [
+        {
+          "label": "A",
+          "text": "多項係数 5!/(2!×2!×1!) = 120/4 = 30"
+        },
+        {
+          "label": "B",
+          "text": "5! / (2! + 2! + 1!) = 120 ÷ 5 = 24"
+        },
+        {
+          "label": "C",
+          "text": "5×2×2 = 20"
+        },
+        {
+          "label": "D",
+          "text": "5C2 = 10"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "多項定理",
+        "多項係数n!/(r₁!r₂!r₃!)"
+      ]
+    },
+    {
+      "id": "comb-025",
+      "difficulty": "exam",
+      "question": "10個の○と仕切り棒2本（つまり3グループへの分配）で仕切り法を説明せよ。x₁+x₂+x₃=10（x_i≥0）の解の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "C(12,2) = (10+3-1)C(3-1) = 12C2 = 66通り"
+        },
+        {
+          "label": "B",
+          "text": "3¹⁰ = 59049通り"
+        },
+        {
+          "label": "C",
+          "text": "10C2 = 45通り"
+        },
+        {
+          "label": "D",
+          "text": "10×9×8/6 = 120通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "仕切り法（stars and bars）",
+        "(n+k-1)C(k-1)"
+      ]
+    },
+    {
+      "id": "comb-026",
+      "difficulty": "exam",
+      "question": "n 個の点を円上に配置したとき、対角線の総数（辺を除く）は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対角線: nC2 - n = n(n-1)/2 - n = n(n-3)/2"
+        },
+        {
+          "label": "B",
+          "text": "nC2 = n(n-1)/2"
+        },
+        {
+          "label": "C",
+          "text": "n(n-2)/2"
+        },
+        {
+          "label": "D",
+          "text": "n² - n = n(n-1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対角線の本数",
+        "nC2-n=n(n-3)/2"
+      ]
+    },
+    {
+      "id": "comb-027",
+      "difficulty": "exam",
+      "question": "nC0 + nC1 + ... + nCn = 2ⁿ と nC0 - nC1 + nC2 - ... + (-1)ⁿC(n,n) = 0 の2式を使って偶数インデックスの和と奇数インデックスの和をそれぞれ求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "偶数の和 = 奇数の和 = 2^(n-1)"
+        },
+        {
+          "label": "B",
+          "text": "偶数の和 = 2ⁿ、奇数の和 = 0"
+        },
+        {
+          "label": "C",
+          "text": "偶数の和 = 2^n、奇数の和 = 2^n"
+        },
+        {
+          "label": "D",
+          "text": "計算できないので直接求める必要がある"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "偶数・奇数インデックスのC(n,k)の和",
+        "2式を足し引き"
+      ]
+    },
+    {
+      "id": "comb-028",
+      "difficulty": "exam",
+      "question": "(m+n)Cr = Σ(k=0 to r) (m)Ck×nC(r-k)（バンダーモンドの恒等式）の組み合わせ的証明を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(m+n)Cr = Σ mCk × nC(r-k)  組み合わせ的証明"
+        },
+        {
+          "label": "B",
+          "text": "(1+x)^(m+n) = (1+x)^m × (1+x)^n の x^r の係数比較"
+        },
+        {
+          "label": "C",
+          "text": "帰納法でm, nに関して証明する"
+        },
+        {
+          "label": "D",
+          "text": "直接 (m+n)Cr を展開して各項と比較する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "バンダーモンドの恒等式",
+        "組み合わせ的証明"
+      ]
+    },
+    {
+      "id": "comb-029",
+      "difficulty": "exam",
+      "question": "n 個の異なるボールを3つの区別できる箱に入れる（箱が空でもよい）場合の数は？各ボールを1つの箱に入れるとする。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各ボールに対して3つの箱のどれかを選ぶ。3ⁿ通り。n=5なら 3⁵=243通り"
+        },
+        {
+          "label": "B",
+          "text": "(n+3-1)C(3-1) = (n+2)C(2)"
+        },
+        {
+          "label": "C",
+          "text": "n! / 3"
+        },
+        {
+          "label": "D",
+          "text": "nC3 × 3!"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "区別できる箱への分配",
+        "3ⁿ通り"
+      ]
+    },
+    {
+      "id": "comb-030",
+      "difficulty": "exam",
+      "question": "n 人から r 人を選ぶとき、特定の人 A が選ばれる確率と、A が選ばれない確率を組み合わせを使って表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(A選ばれる)=r/n、P(A選ばれない)=(n-r)/n"
+        },
+        {
+          "label": "B",
+          "text": "P(A選ばれる) = 1/r。P(A選ばれない) = 1 - 1/r"
+        },
+        {
+          "label": "C",
+          "text": "P(A選ばれる) = 1/n"
+        },
+        {
+          "label": "D",
+          "text": "P(A選ばれる) = nCr/n"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "組み合わせと確率の関係",
+        "(n-1)C(r-1)/nCr=r/n"
+      ]
+    }
+  ]
+}

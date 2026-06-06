@@ -1,0 +1,846 @@
+{
+  "subject": "数学1A",
+  "unit": "集合の要素の個数",
+  "questions": [
+    {
+      "id": "ce-001",
+      "difficulty": "basic",
+      "question": "集合 A = {1, 2, 3, 4, 5}、B = {3, 4, 5, 6, 7} のとき n(A∪B) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A∪B = {1,2,3,4,5,6,7}。要素を数えると 7個。n(A∪B)=7"
+        },
+        {
+          "label": "B",
+          "text": "n(A) + n(B) = 5 + 5 = 10"
+        },
+        {
+          "label": "C",
+          "text": "n(A∩B) = n({4,5}) = 2。n(A∪B) = 5+5-2 = 8"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) = max(n(A), n(B)) = 5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "和集合の要素数",
+        "包除原理"
+      ]
+    },
+    {
+      "id": "ce-002",
+      "difficulty": "basic",
+      "question": "n(A) = 10, n(B) = 7, n(A∩B) = 3 のとき n(A∪B) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B) = n(A) + n(B) - n(A∩B) = 10 + 7 - 3 = 14"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪B) = n(A) + n(B) = 17"
+        },
+        {
+          "label": "C",
+          "text": "n(A∪B) = n(A) × n(B) = 70"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) = n(A∩B) = 3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理の公式",
+        "n(A∪B)=n(A)+n(B)-n(A∩B)"
+      ]
+    },
+    {
+      "id": "ce-003",
+      "difficulty": "basic",
+      "question": "全体集合 U の要素が20個、A の要素が12個のとき、A の補集合 Āの要素数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(Ā) = n(U) - n(A) = 20 - 12 = 8"
+        },
+        {
+          "label": "B",
+          "text": "n(Ā) = n(A) = 12"
+        },
+        {
+          "label": "C",
+          "text": "n(Ā) = n(U) + n(A) = 32"
+        },
+        {
+          "label": "D",
+          "text": "n(Ā) = n(U) / n(A) = 20/12"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "補集合の要素数",
+        "n(Ā)=n(U)-n(A)"
+      ]
+    },
+    {
+      "id": "ce-004",
+      "difficulty": "basic",
+      "question": "あるクラス30人で、数学が好きな人18人、英語が好きな人15人、両方好きな人8人。数学も英語も好きでない人は何人か？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "どちらでもない: 30-25=5人"
+        },
+        {
+          "label": "B",
+          "text": "18+15-30=3人"
+        },
+        {
+          "label": "C",
+          "text": "30-18-15=-3人"
+        },
+        {
+          "label": "D",
+          "text": "30-(18+15)=−3人"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理の応用",
+        "どちらでもない人数"
+      ]
+    },
+    {
+      "id": "ce-005",
+      "difficulty": "basic",
+      "question": "n(A) = 8, n(A∪B) = 15, n(A∩B) = 3 のとき n(B) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(B) = n(A∪B)-n(A)+n(A∩B) = 15-8+3 = 10"
+        },
+        {
+          "label": "B",
+          "text": "n(B) = n(A∪B) - n(A) = 15-8 = 7"
+        },
+        {
+          "label": "C",
+          "text": "n(B) = n(A∩B) = 3"
+        },
+        {
+          "label": "D",
+          "text": "n(B) = n(A∪B) - n(A) - n(A∩B) = 15-8-3 = 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理の逆算",
+        "n(B)を求める"
+      ]
+    },
+    {
+      "id": "ce-006",
+      "difficulty": "basic",
+      "question": "A ⊂ B のとき n(A∩B) と n(A∪B) はそれぞれどうなるか？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A⊂B → A∩B=A なので n(A∩B)=n(A)。A∪B=B なので n(A∪B)=n(B)"
+        },
+        {
+          "label": "B",
+          "text": "n(A∩B) = n(A) × n(B)、n(A∪B) = n(A) + n(B)"
+        },
+        {
+          "label": "C",
+          "text": "n(A∩B) = 0"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B) = n(B)、n(A∪B) = n(A)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "部分集合の場合",
+        "A⊂BならA∩B=A,A∪B=B"
+      ]
+    },
+    {
+      "id": "ce-007",
+      "difficulty": "basic",
+      "question": "100人のうち40人が赤、30人が青、20人が両方を持つ。赤も青も持たない人は何人か？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "赤または青: 40+30-20=50人。どちらも持たない: 100-50=50人"
+        },
+        {
+          "label": "B",
+          "text": "40+30+20 = 90人が何かを持つ。持たない: 100-90 = 10人"
+        },
+        {
+          "label": "C",
+          "text": "100-40-30=30人"
+        },
+        {
+          "label": "D",
+          "text": "100-20=80人"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理の応用",
+        "ベン図で整理"
+      ]
+    },
+    {
+      "id": "ce-008",
+      "difficulty": "basic",
+      "question": "n(A-B)（A に属するが B に属さない要素の数）を n(A)、n(A∩B) を用いて表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A を A∩B と A-B に分割できるから n(A-B) = n(A) - n(A∩B)"
+        },
+        {
+          "label": "B",
+          "text": "n(A-B) = n(A∪B) - n(B)"
+        },
+        {
+          "label": "C",
+          "text": "n(A-B) = n(A∩B) - n(B)"
+        },
+        {
+          "label": "D",
+          "text": "n(A-B) = n(B) - n(A∩B)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "差集合の要素数",
+        "n(A-B)=n(A)-n(A∩B)"
+      ]
+    },
+    {
+      "id": "ce-009",
+      "difficulty": "basic",
+      "question": "全体集合U=100、n(A)=60、n(B)=50、n(Ā∩B̄)=10のとき n(A∩B) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ā∩B̄ = (A∪B)の補集合より n(A∪B)=100-10=90。n(A∩B) = 60+50-90=20"
+        },
+        {
+          "label": "B",
+          "text": "n(A∩B) = n(A) + n(B) - n(U) = 60+50-100=10"
+        },
+        {
+          "label": "C",
+          "text": "n(A∩B) = n(Ā∩B̄) = 10"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B) = n(U) - n(Ā∩B̄) = 90"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ド・モルガンの法則",
+        "Ā∩B̄=(A∪B)の補集合"
+      ]
+    },
+    {
+      "id": "ce-010",
+      "difficulty": "basic",
+      "question": "A と B が互いに素（A∩B=∅）のとき n(A∪B) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∩B) = 0 なので n(A∪B) = n(A)+n(B)-0 = n(A)+n(B)"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪B) = n(A) × n(B)"
+        },
+        {
+          "label": "C",
+          "text": "n(A∪B) = max(n(A), n(B))"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) = n(A) + n(B) - 2n(A∩B)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "互いに素の場合",
+        "A∩B=∅のときの和集合"
+      ]
+    },
+    {
+      "id": "ce-011",
+      "difficulty": "standard",
+      "question": "3つの集合A, B, Cについての包除原理: n(A∪B∪C) の公式を正しく述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B∪C) = n(A)+n(B)+n(C) - n(A∩B) - n(B∩C) - n(A∩C) + n(A∩B∩C)"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪B∪C) = n(A)+n(B)+n(C)-n(A∩B∩C)"
+        },
+        {
+          "label": "C",
+          "text": "3つの集合を重複を無視してそのまま足す"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B∪C) = n(A)+n(B)+n(C)-n(A∩B)-n(B∩C)-n(A∩C)-n(A∩B∩C)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "3集合の包除原理",
+        "交互に足し引き"
+      ]
+    },
+    {
+      "id": "ce-012",
+      "difficulty": "standard",
+      "question": "100人の調査で、A商品を買った人50人、B商品を買った人40人、C商品を買った人30人。AB両方15人、BC両方10人、AC両方5人、ABC全て3人。誰も買わなかった人は何人か？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "50+40+30-15-10-5+3=93。誰も買わなかった: 100-93=7人"
+        },
+        {
+          "label": "B",
+          "text": "50+40+30-15-10-5=90。誰も買わなかった: 100-90=10人"
+        },
+        {
+          "label": "C",
+          "text": "100-(50+40+30)=-20人"
+        },
+        {
+          "label": "D",
+          "text": "100-50=50人(Aだけを引いた)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理の3集合",
+        "矛盾の検出"
+      ]
+    },
+    {
+      "id": "ce-013",
+      "difficulty": "standard",
+      "question": "n(A) = 25, n(B) = 20, n(A∪B) = 35 のとき、Aのみに属する要素の数（A∩B̄の要素数）は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∩B) = n(A)+n(B)-n(A∪B) = 25+20-35=10。n(A-B) = n(A)-n(A∩B) = 25-10=15"
+        },
+        {
+          "label": "B",
+          "text": "n(A-B) = n(A∩B) = n(A)+n(B)-n(A∪B) = 25+20-35 = 10"
+        },
+        {
+          "label": "C",
+          "text": "n(A-B) = n(A) - n(B) = 25-20=5"
+        },
+        {
+          "label": "D",
+          "text": "n(A-B) = n(A) = 25"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Aのみの要素数",
+        "n(A-B)=n(A)-n(A∩B)"
+      ]
+    },
+    {
+      "id": "ce-014",
+      "difficulty": "standard",
+      "question": "40人のクラスで英語が得意な人30人、数学が得意な人25人、どちらも得意でない人は5人。両方得意な人は何人か？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(英∩数)=55-35=20人"
+        },
+        {
+          "label": "B",
+          "text": "30+25 = 55人だから両方得意は 55-40=15人"
+        },
+        {
+          "label": "C",
+          "text": "n(英∩数) = min(30,25) = 25人"
+        },
+        {
+          "label": "D",
+          "text": "n(英∩数) = (30+25-40)/2 = 7.5人"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理の逆算",
+        "どちらでもない人数から和集合を求める"
+      ]
+    },
+    {
+      "id": "ce-015",
+      "difficulty": "standard",
+      "question": "n(A∩B̄) = 8, n(Ā∩B) = 6, n(A∩B) = 4 のとき n(A∪B) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B) = n(Aのみ) + n(Bのみ) + n(A∩B) = 8 + 6 + 4 = 18"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪B) = n(A∩B̄) + n(Ā∩B) = 8+6=14"
+        },
+        {
+          "label": "C",
+          "text": "n(A∪B) = n(A∩B̄) + n(Ā∩B) + 2n(A∩B) = 8+6+8 = 22"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) = 8 × 6 × 4 = 192"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ベン図の領域分け",
+        "3領域の合計"
+      ]
+    },
+    {
+      "id": "ce-016",
+      "difficulty": "standard",
+      "question": "1から200の整数のうち、3の倍数でも4の倍数でもない数の個数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "どちらでもない: 200-100=100個"
+        },
+        {
+          "label": "B",
+          "text": "200-66-50=84個"
+        },
+        {
+          "label": "C",
+          "text": "200×(1-1/3)×(1-1/4) = 200×(2/3)×(4/5) ≈ 107個"
+        },
+        {
+          "label": "D",
+          "text": "200÷12=16個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理",
+        "倍数の個数"
+      ]
+    },
+    {
+      "id": "ce-017",
+      "difficulty": "standard",
+      "question": "n(U) = 50、n(Ā∩B̄) = 12 のとき n(A∪B) は？ド・モルガンの法則を使え。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B) = n(U) - n(Ā∩B̄) = 50-12=38"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪B) = n(Ā∩B̄) = 12"
+        },
+        {
+          "label": "C",
+          "text": "n(A∪B) = n(A) + n(B) - n(Ā∩B̄)"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) = n(U) + n(Ā∩B̄) = 62"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ド・モルガンの法則",
+        "補集合と和集合の関係"
+      ]
+    },
+    {
+      "id": "ce-018",
+      "difficulty": "standard",
+      "question": "A と B の対称差 A△B = (A-B)∪(B-A) の要素数を n(A), n(B), n(A∩B) で表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A△B) = [n(A)-n(A∩B)]+[n(B)-n(A∩B)] = n(A)+n(B)-2n(A∩B)"
+        },
+        {
+          "label": "B",
+          "text": "n(A△B) = n(A∪B) = n(A)+n(B)-n(A∩B)"
+        },
+        {
+          "label": "C",
+          "text": "n(A△B) = n(A) + n(B)"
+        },
+        {
+          "label": "D",
+          "text": "n(A△B) = n(A∩B)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対称差の要素数",
+        "n(A)+n(B)-2n(A∩B)"
+      ]
+    },
+    {
+      "id": "ce-019",
+      "difficulty": "standard",
+      "question": "n(A∪B∪C) = 50、n(A) = 30、n(B) = 20、n(C) = 25、n(A∩B) = 10、n(B∩C) = 8、n(A∩C) = 7 のとき n(A∩B∩C) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "包除公式: 50 = 30+20+25-10-8-7+n(A∩B∩C) = 50+n(A∩B∩C)。n(A∩B∩C)=0"
+        },
+        {
+          "label": "B",
+          "text": "n(A∩B∩C) = n(A)+n(B)+n(C) - n(A∪B∪C) = 30+20+25-50 = 25"
+        },
+        {
+          "label": "C",
+          "text": "n(A∩B∩C) = n(A∩B) + n(B∩C) + n(A∩C) - n(A∪B∪C) = 25-50"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B∩C) = min(10,8,7) = 7"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "3集合の包除原理の逆算",
+        "n(A∩B∩C)を求める"
+      ]
+    },
+    {
+      "id": "ce-020",
+      "difficulty": "standard",
+      "question": "n(A) ≤ n(A∪B) かつ n(A∩B) ≤ n(B) を説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A⊂A∪B → n(A)≤n(A∪B)、A∩B⊂B → n(A∩B)≤n(B)"
+        },
+        {
+          "label": "B",
+          "text": "n(A∪B) = n(A)+n(B)-n(A∩B) ≥ n(A)はn(B)≥n(A∩B)が条件"
+        },
+        {
+          "label": "C",
+          "text": "等号は A=B のときのみ成立"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B) ≤ n(A) も成り立つ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "集合の包含関係",
+        "要素数の不等式"
+      ]
+    },
+    {
+      "id": "ce-021",
+      "difficulty": "exam",
+      "question": "100人を対象に3科目（国語・数学・英語）の得意不得意を調べた。国語50人、数学60人、英語55人、国語と数学の両方25人、数学と英語の両方30人、国語と英語の両方20人、全科目得意10人。3科目のいずれも得意でない人は何人か？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(国∪数∪英) = 50+60+55-25-30-20+10=100。どれも得意でない: 100-100=0人"
+        },
+        {
+          "label": "B",
+          "text": "50+60+55-25-30-20 = 90人。どれも得意でない: 100-90=10人"
+        },
+        {
+          "label": "C",
+          "text": "国語が得意でない50人のうち数学英語も得意でない人を求める"
+        },
+        {
+          "label": "D",
+          "text": "50+60+55-25-30-20-10=80人が得意。どれも得意でない: 100-80=20人"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "3集合の包除原理の計算",
+        "結果の確認"
+      ]
+    },
+    {
+      "id": "ce-022",
+      "difficulty": "exam",
+      "question": "A, B, C の3つの集合があり、n(A) = n(B) = n(C) = 20、どの2集合の共通部分も n = 5、3集合の共通部分 n = 2 とする。n(A∪B∪C) を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B∪C) = 20+20+20 - 5-5-5 + 2 = 60-15+2 = 47"
+        },
+        {
+          "label": "B",
+          "text": "20×3 - 5×3 = 45"
+        },
+        {
+          "label": "C",
+          "text": "20×3 = 60"
+        },
+        {
+          "label": "D",
+          "text": "60-15+2×3 = 51"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対称な3集合の包除",
+        "公式の適用"
+      ]
+    },
+    {
+      "id": "ce-023",
+      "difficulty": "exam",
+      "question": "n(A∩B) の取り得る範囲を n(A)=30, n(B)=40, n(U)=80 とした場合で示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 ≤ n(A∩B) ≤ 30　下限は0、上限はmin(n(A),n(B))=min(30,40)=30"
+        },
+        {
+          "label": "B",
+          "text": "n(A∩B) は必ず 30+40-80=−10 より大きいから 0以上"
+        },
+        {
+          "label": "C",
+          "text": "n(A∩B) は任意で 0 ≤ n(A∩B) ≤ 80"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B) = n(A)×n(B)/n(U) = 15"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "共通部分の範囲",
+        "min(n(A),n(B))が上限"
+      ]
+    },
+    {
+      "id": "ce-024",
+      "difficulty": "exam",
+      "question": "150人に対するアンケートで、Aに賛成80人、Bに賛成70人、Cに賛成60人、A∩Bに賛成35人、B∩Cに賛成25人、A∩Cに賛成20人、全てに賛成10人。A, B, Cいずれも反対の人数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A∪B∪C) = 80+70+60-35-25-20+10=140。反対: 150-140=10人"
+        },
+        {
+          "label": "B",
+          "text": "80+70+60-35-25-20 = 130人が賛成。反対: 150-130=20人"
+        },
+        {
+          "label": "C",
+          "text": "全体から各賛成を引く: 150-80-70-60 = -60人"
+        },
+        {
+          "label": "D",
+          "text": "80+70+60-35-25-20+10×3 = 210-80+30 = 160人が賛成。反対: 150-160 = -10人"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "3集合の包除原理の応用",
+        "全員から和集合を引く"
+      ]
+    },
+    {
+      "id": "ce-025",
+      "difficulty": "exam",
+      "question": "n(A∪B) = n(A) + n(B) が成立する必要十分条件は何か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "等式が成立 ↔ n(A∩B) = 0 ↔ A∩B = ∅"
+        },
+        {
+          "label": "B",
+          "text": "n(A) = n(B) のとき"
+        },
+        {
+          "label": "C",
+          "text": "A ⊂ B または B ⊂ A のとき"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) = n(U) のとき"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "互いに素の条件",
+        "n(A∩B)=0との等価"
+      ]
+    },
+    {
+      "id": "ce-026",
+      "difficulty": "exam",
+      "question": "n(A∩B∩C) を n(A∪B∪C), n(A), n(B), n(C), n(A∩B), n(B∩C), n(A∩C) を使って表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "包除原理を変形: n(A∩B∩C) = n(A∪B∪C) - n(A) - n(B) - n(C) + n(A∩B) + n(B∩C) + n(A∩C)"
+        },
+        {
+          "label": "B",
+          "text": "n(A∩B∩C) = n(A) + n(B) + n(C) - n(A∪B∪C)"
+        },
+        {
+          "label": "C",
+          "text": "n(A∩B∩C) = min(n(A),n(B),n(C))"
+        },
+        {
+          "label": "D",
+          "text": "n(A∩B∩C) = n(A∩B) + n(B∩C) + n(A∩C) - n(A∪B∪C)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "包除原理の変形",
+        "3重共通部分の逆算"
+      ]
+    },
+    {
+      "id": "ce-027",
+      "difficulty": "exam",
+      "question": "n(A) = a, n(B) = b, n(A∩B) = c とする。A, B の非対称な包含関係 n(A-B) > n(B-A) が成り立つ条件は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n(A-B) > n(B-A) ↔ n(A) > n(B)"
+        },
+        {
+          "label": "B",
+          "text": "c > 0"
+        },
+        {
+          "label": "C",
+          "text": "a > 2b"
+        },
+        {
+          "label": "D",
+          "text": "a - b > c"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "差集合の大小比較",
+        "n(A)>n(B)が条件"
+      ]
+    },
+    {
+      "id": "ce-028",
+      "difficulty": "exam",
+      "question": "k個の集合 A₁, A₂, ..., Aₖ が全て等しい大きさ n で、どの2集合の共通部分の大きさも m、どの3集合以上の共通部分は空のとき、n(A₁∪...∪Aₖ) を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "kn - kC2m = kn - k(k-1)m/2"
+        },
+        {
+          "label": "B",
+          "text": "kn - km"
+        },
+        {
+          "label": "C",
+          "text": "kn"
+        },
+        {
+          "label": "D",
+          "text": "kn − kC3m"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "一般化された包除原理",
+        "k集合の和集合"
+      ]
+    },
+    {
+      "id": "ce-029",
+      "difficulty": "exam",
+      "question": "べき集合（power set）P(A) の要素数は？A = {1, 2, 3} のとき n(P(A)) は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "べき集合は A の全ての部分集合の集合。n 要素の集合の部分集合は 2ⁿ個。n=3: 2³=8個"
+        },
+        {
+          "label": "B",
+          "text": "n(P(A)) = n(A)! = 3! = 6個"
+        },
+        {
+          "label": "C",
+          "text": "n(P(A)) = n(A) + 1 = 3+1 = 4個"
+        },
+        {
+          "label": "D",
+          "text": "n(P(A)) = n(A) = 3個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "べき集合の要素数",
+        "2ⁿ個"
+      ]
+    },
+    {
+      "id": "ce-030",
+      "difficulty": "exam",
+      "question": "n(A∪B) の最大値と最小値を n(A)=p, n(B)=q, n(U)=N とした場合で求めよ（p ≤ q と仮定）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "q ≤ n(A∪B) ≤ min(p+q, N)"
+        },
+        {
+          "label": "B",
+          "text": "最大: N。最小: 0"
+        },
+        {
+          "label": "C",
+          "text": "最大: p+q。最小: p"
+        },
+        {
+          "label": "D",
+          "text": "n(A∪B) は固定されていて一意に決まる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "和集合の範囲",
+        "最大・最小の条件"
+      ]
+    }
+  ]
+}

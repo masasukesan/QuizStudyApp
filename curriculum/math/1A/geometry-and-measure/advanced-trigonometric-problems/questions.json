@@ -1,0 +1,876 @@
+{
+  "subject": "数学",
+  "unit": "図形と計量の総合問題",
+  "questions": [
+    {
+      "id": "atp-001",
+      "difficulty": "basic",
+      "question": "三角形 ABC で a = 4√3、A = 60°、B = 75° のとき、辺 b を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "C = 180°-60°-75° = 45°。正弦定理 a/sinA = b/sinB → b = a sinB/sinA = 4√3×sin75°/sin60° = 4√3×(√6+√2)/4/(√3/2) = 2(√6+√2)"
+        },
+        {
+          "label": "B",
+          "text": "b = a sinA/sinB"
+        },
+        {
+          "label": "C",
+          "text": "C = 180°-60°-75° = 55°"
+        },
+        {
+          "label": "D",
+          "text": "sin75° = sin45° = √2/2(75°≠45°)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理",
+        "sin75°の計算",
+        "三角形の角の和"
+      ]
+    },
+    {
+      "id": "atp-002",
+      "difficulty": "basic",
+      "question": "三角形 ABC で a = 6、b = 6、C = 120° のとき、c と三角形の面積 S を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c² = a²+b²-2ab cosC = 36+36-2×6×6×(-1/2) = 72+36 = 108 → c = 6√3。S = (1/2)×6×6×sin120° = 18×(√3/2) = 9√3"
+        },
+        {
+          "label": "B",
+          "text": "cos120° = 1/2 → c² = 72-36 = 36 → c = 6"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×6×6×cos120° = -9"
+        },
+        {
+          "label": "D",
+          "text": "c² = 108 まで正しいが c = √108 を 3√12"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos120° = -1/2",
+        "余弦定理と面積",
+        "√108 = 6√3"
+      ]
+    },
+    {
+      "id": "atp-003",
+      "difficulty": "basic",
+      "question": "三角形 ABC の外接円の半径 R = 3√2、内接円の半径 r = 1、面積 S = 9 のとき、a+b+c を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = rs → 9 = 1×s → s = 9 → a+b+c = 2s = 18"
+        },
+        {
+          "label": "B",
+          "text": "a+b+c = S/r = 9/1 = 9"
+        },
+        {
+          "label": "C",
+          "text": "abc = 4RS = 4×3√2×9 = 108√2"
+        },
+        {
+          "label": "D",
+          "text": "a+b+c = 2R = 6√2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S = rs",
+        "半周長から全周長",
+        "r と R の使い分け"
+      ]
+    },
+    {
+      "id": "atp-004",
+      "difficulty": "basic",
+      "question": "sin θ < 0 かつ tan θ > 0 であるθの範囲を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin < 0 → 第3・4象限。tan > 0 → 第1・3象限。共通は第3象限 → 180° < θ < 270°"
+        },
+        {
+          "label": "B",
+          "text": "sin < 0 かつ tan > 0 → 第4象限"
+        },
+        {
+          "label": "C",
+          "text": "sin < 0 → 第3・4象限のみ考え、tan > 0の条件で第3象限を除いて第4象限に"
+        },
+        {
+          "label": "D",
+          "text": "条件を満たす象限は存在しないと思う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "象限の判定",
+        "sin と tan の符号",
+        "共通範囲"
+      ]
+    },
+    {
+      "id": "atp-005",
+      "difficulty": "basic",
+      "question": "sin 15° の値を sin(45°-30°) の加法定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(45°-30°) = sin45°cos30° - cos45°sin30° = (√2/2)(√3/2)-(√2/2)(1/2) = (√6-√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "sin(45°-30°) = sin45° - sin30° = √2/2 - 1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin(45°-30°) = sin45°cos30° + cos45°sin30°"
+        },
+        {
+          "label": "D",
+          "text": "sin15° = sin(60°-45°) = sin60° - cos45° = √3/2 - √2/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "加法定理",
+        "sin(A-B)",
+        "sin 15°の計算"
+      ]
+    },
+    {
+      "id": "atp-006",
+      "difficulty": "basic",
+      "question": "tan θ = -1/2(90° < θ < 180°)のとき、sin θ と cos θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1+tan²θ = 1/cos²θ → 5/4 = 1/cos²θ → cos²θ = 4/5 → 第2象限なので cosθ<0 → cosθ = -2/√5。sinθ = tanθ×cosθ = (-1/2)×(-2/√5) = 1/√5"
+        },
+        {
+          "label": "B",
+          "text": "sinθ = -1/√5、cosθ = 2/√5"
+        },
+        {
+          "label": "C",
+          "text": "cosθ = 1/√(1+tan²θ) = 2/√5"
+        },
+        {
+          "label": "D",
+          "text": "tanθ = sinθ/cosθ = -1/2 として sinθ = -1, cosθ = 2 とする"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "1+tan²θの公式",
+        "第2象限の符号",
+        "sin = tan × cos"
+      ]
+    },
+    {
+      "id": "atp-007",
+      "difficulty": "basic",
+      "question": "三角形 ABC で B = 30°、C = 45°、b = 2 のとき、外接円の半径 R を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理より b/sinB = 2R → 2/sin30° = 2R → 2/(1/2) = 4 = 2R → R = 2"
+        },
+        {
+          "label": "B",
+          "text": "2R = b/sinB = 2/sin30° = 4 は正しいが R = 4 としてしまう"
+        },
+        {
+          "label": "C",
+          "text": "c/sinC = 2R も使えるが、c が未知のため b/sinB を使うべきところを間違える"
+        },
+        {
+          "label": "D",
+          "text": "R = b × sinB = 2×(1/2) = 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理と外接円",
+        "2R = b/sinB",
+        "R の計算"
+      ]
+    },
+    {
+      "id": "atp-008",
+      "difficulty": "basic",
+      "question": "海岸線 AB = 500 m の2地点から灯台 L を見て、∠LAB = 60°、∠LBA = 45° のとき、AL を正弦定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠ALB = 180°-60°-45° = 75°。正弦定理 AL/sin(∠LBA) = AB/sin(∠ALB) → AL = 500×sin45°/sin75° = 500×(√2/2)/((√6+√2)/4) = 500√2/(√6+√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "AL = AB × sin60° = 500×(√3/2) = 250√3"
+        },
+        {
+          "label": "C",
+          "text": "∠ALB = 75° は正しいが、AL に対する角が B の 45° であることを使わずに計算"
+        },
+        {
+          "label": "D",
+          "text": "∠ALB = 180°-60°-45° = 85°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理の応用",
+        "対角の設定",
+        "測量問題"
+      ]
+    },
+    {
+      "id": "atp-009",
+      "difficulty": "basic",
+      "question": "三角形の3辺が a = 5、b = 7、c = 8 のとき、余弦定理で最小角(最小辺に対する角)を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最小辺は a=5 → 最小角 A。cos A = (b²+c²-a²)/(2bc) = (49+64-25)/(112) = 88/112 = 11/14 > 0 → Aは鋭角"
+        },
+        {
+          "label": "B",
+          "text": "最大辺 c=8 に対する角 C を求めて cos C = (25+49-64)/(70) = 10/70 = 1/7"
+        },
+        {
+          "label": "C",
+          "text": "cos A = (a²+b²-c²)/(2ab)"
+        },
+        {
+          "label": "D",
+          "text": "最小辺が最小角に対応することを忘れ、最大辺から計算"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "最小辺と最小角",
+        "余弦定理",
+        "鋭角の判定"
+      ]
+    },
+    {
+      "id": "atp-010",
+      "difficulty": "basic",
+      "question": "sin θ = 3/5 かつ cos θ = -4/5 のとき、θが属する象限と tan θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin > 0 かつ cos < 0 → 第2象限。tan θ = sin θ/cos θ = (3/5)/(-4/5) = -3/4"
+        },
+        {
+          "label": "B",
+          "text": "sin > 0 → 第1・2象限、cos < 0 → 第2・3象限と正しく識別せず第3象限と答える"
+        },
+        {
+          "label": "C",
+          "text": "tan θ = cos θ/sin θ = -4/3"
+        },
+        {
+          "label": "D",
+          "text": "sin²θ + cos²θ = 9/25+16/25 = 1 の確認は正しいが、象限の判定を省く"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "象限の判定",
+        "sinとcosの符号",
+        "tan = sin/cos"
+      ]
+    },
+    {
+      "id": "atp-011",
+      "difficulty": "standard",
+      "question": "三角形 ABC の3辺が a = 7、b = 5、c = 3 のとき、最大角 A を求め、鈍角三角形かどうか判定する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos A = (25+9-49)/(2×5×3) = -15/30 = -1/2 → A = 120°(鈍角)→ 最大角が鈍角なので鈍角三角形"
+        },
+        {
+          "label": "B",
+          "text": "cos A = (b²+c²-a²)/(2bc) = -1/2 → A = 60°"
+        },
+        {
+          "label": "C",
+          "text": "cos A < 0 だから鈍角三角形は正しいが、cos A = -1/2 → A = 150°(cos150° = -√3/2)"
+        },
+        {
+          "label": "D",
+          "text": "a > b+c かどうかで鈍角を判定しよう"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余弦定理",
+        "cos A = -1/2 → A=120°",
+        "鈍角三角形の判定"
+      ]
+    },
+    {
+      "id": "atp-012",
+      "difficulty": "standard",
+      "question": "三角形 ABC で a = b cos C + c cos B が成り立つことを余弦定理で示す手順として正しいものはどれか(射影公式)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理 b² = a²+c²-2ac cosB より 2ac cosB = a²+c²-b²。c² = a²+b²-2ab cosC より 2ab cosC = a²+b²-c²。足すと 2a(b cosC + c cosB) = 2a² → b cosC + c cosB = a"
+        },
+        {
+          "label": "B",
+          "text": "正弦定理のみを使って射影公式を導こうとするが、cos が出てこないため"
+        },
+        {
+          "label": "C",
+          "text": "b cosC + c cosB = b×(cosの公式)+c×(cosの公式) と展開するが整理の途中で符号"
+        },
+        {
+          "label": "D",
+          "text": "射影公式は覚えるべき公式で証明不要と判断する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "射影公式の証明",
+        "余弦定理の2式を足す",
+        "a = b cosC + c cosB"
+      ]
+    },
+    {
+      "id": "atp-013",
+      "difficulty": "standard",
+      "question": "三角形 ABC で tan A = 2、tan B = 3 のとき、tan C を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A+B+C = 180° → tan C = -tan(A+B) = -(tanA+tanB)/(1-tanA tanB) = -(2+3)/(1-6) = -5/(-5) = 1 → C = 45°"
+        },
+        {
+          "label": "B",
+          "text": "tan C = tan A + tan B = 2+3 = 5"
+        },
+        {
+          "label": "C",
+          "text": "tan(A+B) = (2+3)/(1-6) = -1 → A+B = 135° → C = 45°(tan C = -tan(A+B) の変換を確認)"
+        },
+        {
+          "label": "D",
+          "text": "tan A × tan B = 6 だから tan C = 1/6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan C = -tan(A+B)",
+        "加法定理",
+        "A+B+C=180°"
+      ]
+    },
+    {
+      "id": "atp-014",
+      "difficulty": "standard",
+      "question": "二等辺三角形で頂角 A = 40°、等辺の長さ b = c = 6 のとき、底辺 a と面積 S を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理 a² = b²+c²-2bc cosA = 72(1-cos40°)。S = (1/2)bc sinA = (1/2)×36×sin40° = 18sin40°"
+        },
+        {
+          "label": "B",
+          "text": "底辺 a = 2b sin(A/2) = 12sin20°(頂角の半分で求める別解)"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×a×h で h を余弦定理から求めようとするが手順が複雑になる"
+        },
+        {
+          "label": "D",
+          "text": "a = b+c-頂角 = 12-40°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二等辺三角形",
+        "余弦定理と面積",
+        "cos40°の処理"
+      ]
+    },
+    {
+      "id": "atp-015",
+      "difficulty": "standard",
+      "question": "三角形 ABC で A = 45°、B = 60°、c = √6 のとき、面積 S を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "C = 75°。S = (1/2)c² sinA sinB/sinC = (1/2)×6×(√2/2)×(√3/2)/sin75° = (3√6/4)/((√6+√2)/4) = 3√6/(√6+√2) = 3√6(√6-√2)/4 = (18-3√12)/4 = (18-6√3)/4 = (9-3√3)/2"
+        },
+        {
+          "label": "B",
+          "text": "C = 180°-45°-60° = 85°"
+        },
+        {
+          "label": "C",
+          "text": "面積公式 S = (1/2)c² sinA sinB/sinC を使う(正しい方針)"
+        },
+        {
+          "label": "D",
+          "text": "面積 = (1/2)×c×b"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "3角と1辺から面積",
+        "S = c²sinAsinB/(2sinC)",
+        "sin75°の計算"
+      ]
+    },
+    {
+      "id": "atp-016",
+      "difficulty": "standard",
+      "question": "三角形 ABC で 3a = 4b = 6c のとき、最大角を余弦定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3a=4b=6c = k とおく → a=k/3, b=k/4, c=k/6 → a:b:c = 4:3:2。最大辺 a → cos A = (9+4-16)/(2×3×2) = -3/12 = -1/4 → Aは鈍角"
+        },
+        {
+          "label": "B",
+          "text": "3a=4b → a:b = 4:3、4b=6c → b:c = 3:2 は正しいが余弦定理で cos A を計算せずに判断"
+        },
+        {
+          "label": "C",
+          "text": "a:b:c = 4:3:2 として cos A = (9+4-16)/(2×3×2) = -1/4 → A は鈍角(正しい計算)"
+        },
+        {
+          "label": "D",
+          "text": "k を設定せず 3a=4b=6c から直接 a,b,c を実数値と決めよう"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "辺の比の設定",
+        "余弦定理での最大角",
+        "cos A < 0"
+      ]
+    },
+    {
+      "id": "atp-017",
+      "difficulty": "standard",
+      "question": "三角形 ABC で内接円の中心 I について、∠BIC = 90° + A/2 となる理由を説明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内接円の中心 I は各角の二等分線の交点 → ∠IBC = B/2、∠ICB = C/2。△BIC で ∠BIC = 180°-(B/2)-(C/2) = 180°-(B+C)/2 = 180°-(180°-A)/2 = 90°+A/2"
+        },
+        {
+          "label": "B",
+          "text": "∠BIC = A"
+        },
+        {
+          "label": "C",
+          "text": "∠BIC = 180°-A"
+        },
+        {
+          "label": "D",
+          "text": "内接円の中心から各辺への距離が等しいだけで、角の二等分線との関係を使わない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内接円の中心",
+        "角の二等分線",
+        "∠BIC = 90° + A/2"
+      ]
+    },
+    {
+      "id": "atp-018",
+      "difficulty": "standard",
+      "question": "三角形の角 A が鈍角である必要十分条件を余弦定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理 cos A = (b²+c²-a²)/(2bc)。A が鈍角 ↔ cos A < 0 ↔ b²+c²-a² < 0(2bc > 0 より)↔ b²+c² < a²"
+        },
+        {
+          "label": "B",
+          "text": "A が鈍角 ↔ a > b かつ a > c(最大辺の条件は必要だが十分ではない)"
+        },
+        {
+          "label": "C",
+          "text": "A が鈍角 ↔ sin A < 0"
+        },
+        {
+          "label": "D",
+          "text": "A が鈍角 ↔ A > 90° の定義のみで、辺の条件に変換しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "鈍角の条件",
+        "b²+c² < a²",
+        "余弦定理の活用"
+      ]
+    },
+    {
+      "id": "atp-019",
+      "difficulty": "standard",
+      "question": "一辺 6 の正方形の対角線の長さを三角比を使って求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対角線 d = √(6²+6²) = √72 = 6√2。対角線は90°で交わる(正方形の対角線は直交)"
+        },
+        {
+          "label": "B",
+          "text": "対角線 d = 6+6 = 12"
+        },
+        {
+          "label": "C",
+          "text": "余弦定理で c² = 36+36-2×36×cos45° = 72-36√2 → c = √(72-36√2)"
+        },
+        {
+          "label": "D",
+          "text": "対角線の交角を tan45° = 1 → 45°と答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正方形の対角線",
+        "三平方の定理",
+        "対角線の交角"
+      ]
+    },
+    {
+      "id": "atp-020",
+      "difficulty": "standard",
+      "question": "三角形 ABC で a² + b² = c² + ab のとき、角 C を余弦定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理 c² = a²+b²-2ab cosC に代入 → a²+b²-ab = a²+b²-2ab cosC → -ab = -2ab cosC → cosC = 1/2 → C = 60°"
+        },
+        {
+          "label": "B",
+          "text": "a²+b²-c² = ab → 余弦定理の係数を2abでなくabとして cosC = 1 → C = 0° と答える"
+        },
+        {
+          "label": "C",
+          "text": "a²+b²-c² = ab → ab = 1"
+        },
+        {
+          "label": "D",
+          "text": "c² = a²+b²-ab が成立 → c = √(a²+b²-ab) だけを計算し、C を求めない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "条件式と余弦定理",
+        "cosC = 1/2 → C=60°",
+        "移項の整理"
+      ]
+    },
+    {
+      "id": "atp-021",
+      "difficulty": "exam",
+      "question": "三角形 ABC で sin A/a = sin B/b = sin C/c = k とおくとき、k の値が何を表すかを説明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理 a/sinA = 2R より sinA/a = 1/(2R)。ゆえに k = 1/(2R)(Rは外接円の半径)。3つの比がすべて等しいのは正弦定理から当然"
+        },
+        {
+          "label": "B",
+          "text": "k = sinA+sinB+sinC/(a+b+c)"
+        },
+        {
+          "label": "C",
+          "text": "k = sinA/a = sinB/b が成り立つのは正三角形のときのみ(一般の三角形でも成り立つ)"
+        },
+        {
+          "label": "D",
+          "text": "k = 1/R"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理",
+        "k = 1/(2R)",
+        "外接円半径との関係"
+      ]
+    },
+    {
+      "id": "atp-022",
+      "difficulty": "exam",
+      "question": "三角形 ABC の面積 S、内接円半径 r、外接円半径 R について S = r×s = abc/(4R) の関係を確認し、r/R を a,b,c で表す手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r = S/s、R = abc/(4S)。r/R = (S/s)/(abc/(4S)) = 4S²/(s×abc)"
+        },
+        {
+          "label": "B",
+          "text": "r/R = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "r = S/s と R = abc/(4S) を個別に求めるところまで正しいが、r/R の計算で除算を誤る"
+        },
+        {
+          "label": "D",
+          "text": "r/R = s/abc × 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S = rs と abc = 4RS",
+        "r/R の表現",
+        "分数の除算"
+      ]
+    },
+    {
+      "id": "atp-023",
+      "difficulty": "exam",
+      "question": "三角形 ABC で外接円半径 R = 5、内接円半径 r = 2、面積 S = 24 のとき、a+b+c と abc を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = rs → 24 = 2s → s = 12 → a+b+c = 24。abc = 4RS = 4×5×24 = 480"
+        },
+        {
+          "label": "B",
+          "text": "a+b+c = S/r = 24/2 = 12"
+        },
+        {
+          "label": "C",
+          "text": "abc = RS = 5×24 = 120"
+        },
+        {
+          "label": "D",
+          "text": "a+b+c = 24 は正しいが abc = 2RS = 240"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S = rs",
+        "abc = 4RS",
+        "R と r の活用"
+      ]
+    },
+    {
+      "id": "atp-024",
+      "difficulty": "exam",
+      "question": "三角形 ABC で sin²A + sin²B + sin²C = 2(1+cos A cos B cos C) を確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A+B+C=π より cos A = -cos(B+C)。sin²A = 1-cos²A を利用。各項を展開して整理すると恒等式が成立することを確認(A+B+C=πが本質)"
+        },
+        {
+          "label": "B",
+          "text": "sin²A + sin²B + sin²C = 3/2"
+        },
+        {
+          "label": "C",
+          "text": "A+B+C=π を使わずに恒等式として証明しようとする"
+        },
+        {
+          "label": "D",
+          "text": "正三角形(A=B=C=60°)で代入確認するだけで一般的な証明を省く"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角恒等式の証明",
+        "A+B+C=πの活用",
+        "cos A = -cos(B+C)"
+      ]
+    },
+    {
+      "id": "atp-025",
+      "difficulty": "exam",
+      "question": "座標平面上の原点 O と2点 A(3,0)、B(0,4) を頂点とする三角形 OAB の外接円の方程式を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠AOB=90° → 外接円の直径=AB=5 → 中心(3/2, 2)、半径5/2 → (x-3/2)²+(y-2)²=25/4"
+        },
+        {
+          "label": "B",
+          "text": "外接円の中心を (a,b) として3点への距離が等しい連立方程式を解く"
+        },
+        {
+          "label": "C",
+          "text": "3-4-5直角三角形なので R = 5/2 は正しいが、中心を原点 (0,0)"
+        },
+        {
+          "label": "D",
+          "text": "外接円の半径を斜辺の長さと同じ R=5 と計算する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "直角三角形の外接円",
+        "斜辺が直径",
+        "中点が中心"
+      ]
+    },
+    {
+      "id": "atp-026",
+      "difficulty": "exam",
+      "question": "三角形 ABC で角の二等分線 AD の長さ(D は BC 上)を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BD/DC = AB/AC = c/b(角の二等分線定理)→ BD = ac/(b+c)。△ABD に余弦定理を使い AD² = bc[1-(a/(b+c))²](二等分線の長さの公式)"
+        },
+        {
+          "label": "B",
+          "text": "AD = (b+c)/2"
+        },
+        {
+          "label": "C",
+          "text": "角の二等分線定理 BD/DC = c/b は正しいが、AD を求めるためには△ABD か△ACD に余弦定理を使う必要があると気づかない"
+        },
+        {
+          "label": "D",
+          "text": "AD² = bc - BD×DC"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "角の二等分線の長さ",
+        "二等分線定理",
+        "余弦定理の適用"
+      ]
+    },
+    {
+      "id": "atp-027",
+      "difficulty": "exam",
+      "question": "三角形 ABC で B = 2C かつ b = 2c が成り立つとき、A の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理 b/sinB = c/sinC → 2c/sin2C = c/sinC → 2/sin2C = 1/sinC → 2sinC = sin2C = 2sinC cosC → cosC = 1(C=0°は不適) → 別の考え方でA = 60°を導出"
+        },
+        {
+          "label": "B",
+          "text": "B = 2C より B-C = C → A+B+C = 180° で A = 180°-3C。b = 2c と正弦定理で sin2C/sinC = 2 → 2cosC = 2 → cosC = 1 → 矛盾 → 条件の見直しが必要"
+        },
+        {
+          "label": "C",
+          "text": "b = 2c → sin B = 2 sin C → sin 2C = 2 sin C → 2sinCcosC = 2sinC → cosC = 1(不適) → このアプローチは矛盾を示す"
+        },
+        {
+          "label": "D",
+          "text": "B+C = 180°-A、B = 2C より 3C = 180°-A → A = 180°-3C。正弦定理条件と合わせて A = 60° を導く"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "B=2C と正弦定理",
+        "倍角の活用",
+        "Aの決定"
+      ]
+    },
+    {
+      "id": "atp-028",
+      "difficulty": "exam",
+      "question": "三角形 ABC の面積が √3 で、a + b + c = 4+2√3 のとき、内接円の半径 r を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = r×s(s = 半周長 = (a+b+c)/2 = (4+2√3)/2 = 2+√3)→ √3 = r×(2+√3) → r = √3/(2+√3) = √3(2-√3)/((4-3)) = 2√3-3"
+        },
+        {
+          "label": "B",
+          "text": "r = S/(a+b+c) = √3/(4+2√3)"
+        },
+        {
+          "label": "C",
+          "text": "r = √3/(2+√3) まで正しいが有理化を忘れて √3/(2+√3) のまま答える"
+        },
+        {
+          "label": "D",
+          "text": "s = a+b+c = 4+2√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S = rs",
+        "r の有理化",
+        "半周長の計算"
+      ]
+    },
+    {
+      "id": "atp-029",
+      "difficulty": "exam",
+      "question": "平面上の4点 A、B、C、D が一つの円上にある(円に内接する四角形 ABCD)とき、対角の和 ∠A + ∠C = 180° となる理由を説明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "円周角の定理：弧 BCD に対する円周角 ∠A と、弧 BAD に対する円周角 ∠C は、それぞれ中心角の 1/2。弧 BCD + 弧 BAD = 全周(360°)→ 対応する中心角の和 = 360° → ∠A + ∠C = 180°"
+        },
+        {
+          "label": "B",
+          "text": "四角形の内角の和が 360° だから、対角の和が 180° とは限らない"
+        },
+        {
+          "label": "C",
+          "text": "正弦定理で ∠A と ∠C の対辺を使って証明しようとするが、4点が共円である条件に戻せない"
+        },
+        {
+          "label": "D",
+          "text": "半円に対する円周角が90°という定理から ∠A=∠C=90° と結論する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円に内接する四角形",
+        "円周角の定理",
+        "対角の和=180°"
+      ]
+    },
+    {
+      "id": "atp-030",
+      "difficulty": "exam",
+      "question": "三角形 ABC で a cos B = b cos A が成り立つとき、三角形の形状を判定する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理で cos A, cos B を代入 → a×(a²+c²-b²)/(2ac) = b×(b²+c²-a²)/(2bc) → (a²+c²-b²)/2c = (b²+c²-a²)/2c → a²-b² = b²-a² → 2a² = 2b² → a = b → 二等辺三角形"
+        },
+        {
+          "label": "B",
+          "text": "a cos B = b cos A → a/b = cos A/cos B → 正弦定理で a/b = sin A/sin B → tan A = tan B(正しい別解)"
+        },
+        {
+          "label": "C",
+          "text": "a cos B = b cos A から直角三角形"
+        },
+        {
+          "label": "D",
+          "text": "計算が複雑で判断できないと思う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "条件式と余弦定理",
+        "二等辺三角形の証明",
+        "a = b"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "因数分解",
+  "questions": [
+    {
+      "id": "fact-001",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "2x² + 8x を完全に因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x(x + 4)"
+        },
+        {
+          "label": "B",
+          "text": "2(x² + 4x)"
+        },
+        {
+          "label": "C",
+          "text": "x(2x + 8)"
+        },
+        {
+          "label": "D",
+          "text": "2x(x + 8)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-002",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "x² + 9x + 18 を因数分解するとき、積が 18 で和が 9 になる 2 数の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 と 6"
+        },
+        {
+          "label": "B",
+          "text": "2 と 9"
+        },
+        {
+          "label": "C",
+          "text": "1 と 18"
+        },
+        {
+          "label": "D",
+          "text": "3 と 9"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-003",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "x² - 49 を因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x - 7)²"
+        },
+        {
+          "label": "B",
+          "text": "(x + 7)(x - 7)"
+        },
+        {
+          "label": "C",
+          "text": "(x + 7)²"
+        },
+        {
+          "label": "D",
+          "text": "(x - 1)(x + 49)"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fact-004",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "x² + 12x + 36 が完全平方式 (x + a)² に等しいとき、a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fact-005",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "x² - 10x + 25 を因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x - 5)(x + 5)"
+        },
+        {
+          "label": "B",
+          "text": "(x + 5)²"
+        },
+        {
+          "label": "C",
+          "text": "(x - 5)²"
+        },
+        {
+          "label": "D",
+          "text": "(x - 10)(x + 1)"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "fact-006",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "x² + 2x - 15 を因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + 3)(x - 5)"
+        },
+        {
+          "label": "B",
+          "text": "(x - 3)(x + 5)"
+        },
+        {
+          "label": "C",
+          "text": "(x + 1)(x + 15)"
+        },
+        {
+          "label": "D",
+          "text": "(x + 1)(x - 15)"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fact-007",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "9x² - 4 を因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3x - 2)²"
+        },
+        {
+          "label": "B",
+          "text": "(9x - 2)(x + 2)"
+        },
+        {
+          "label": "C",
+          "text": "(3x + 2)(3x - 2)"
+        },
+        {
+          "label": "D",
+          "text": "(3x - 4)(3x + 1)"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "fact-008",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "5x² - 20 を完全に因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5(x² - 4)"
+        },
+        {
+          "label": "B",
+          "text": "5(x + 2)(x - 2)"
+        },
+        {
+          "label": "C",
+          "text": "(5x + 4)(x - 5)"
+        },
+        {
+          "label": "D",
+          "text": "(5x - 2)(x + 2)"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fact-009",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "x² - 7x + 12 を因数分解するとき、積が 12 で和が -7 になる 2 数の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-2 と -6"
+        },
+        {
+          "label": "B",
+          "text": "-3 と -4"
+        },
+        {
+          "label": "C",
+          "text": "3 と -4"
+        },
+        {
+          "label": "D",
+          "text": "-1 と -12"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fact-010",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "basic",
+      "question": "6ab² - 9ab を完全に因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3ab(2b - 3)"
+        },
+        {
+          "label": "B",
+          "text": "3a(2b - 3)"
+        },
+        {
+          "label": "C",
+          "text": "3b(2ab - 9a)"
+        },
+        {
+          "label": "D",
+          "text": "6ab(b - 9)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-011",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "2x² + 7x + 3 を (2x + p)(x + q) の形に因数分解するとき、正しい (p, q) の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = 1, q = 3"
+        },
+        {
+          "label": "B",
+          "text": "p = 3, q = 1"
+        },
+        {
+          "label": "C",
+          "text": "p = 5, q = 2"
+        },
+        {
+          "label": "D",
+          "text": "p = 1, q = -3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-012",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "3x² - 8x + 4 を (3x + p)(x + q) の形に因数分解するとき、正しい (p, q) の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = -2, q = -2"
+        },
+        {
+          "label": "B",
+          "text": "p = 2, q = -4"
+        },
+        {
+          "label": "C",
+          "text": "p = -4, q = -1"
+        },
+        {
+          "label": "D",
+          "text": "p = -1, q = 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-013",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "(x + 3)² + 4(x + 3) + 4 を u = x + 3 と置き換えて因数分解し、u を元の式に戻した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + 3)(x + 7)"
+        },
+        {
+          "label": "B",
+          "text": "(x + 5)²"
+        },
+        {
+          "label": "C",
+          "text": "(x + 3)²"
+        },
+        {
+          "label": "D",
+          "text": "(x + 1)(x + 7)"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fact-014",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "x⁴ - 13x² + 36 を u = x² と置くと u² - 13u + 36 になる。これを u で因数分解したとき、正しい結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(u - 4)(u - 9)"
+        },
+        {
+          "label": "B",
+          "text": "(u - 3)(u - 12)"
+        },
+        {
+          "label": "C",
+          "text": "(u - 6)(u - 7)"
+        },
+        {
+          "label": "D",
+          "text": "(u + 4)(u - 9)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-015",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "xy + x + y + 1 をグループに分けて因数分解するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x(y + 1) + (y + 1) とまとめて (x + 1)(y + 1) とする"
+        },
+        {
+          "label": "B",
+          "text": "x(y + 1) + y とまとめて、y+1 と y は同じとして因数 y でくくる"
+        },
+        {
+          "label": "C",
+          "text": "(xy + 1) + (x + y) と分けて、共通因数 xy をくくり出す"
+        },
+        {
+          "label": "D",
+          "text": "x(y + 1) + 1 とまとめて、(x + 1)(y + 1) から 1 を引く"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-016",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "-x² + 3x + 4 を因数分解するとき、まず -(x² - 3x - 4) と変形する。x² - 3x - 4 を因数分解するための2数の条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "積が -4 で和が -3 になる2数を求める"
+        },
+        {
+          "label": "B",
+          "text": "積が -4 で和が -1 になる2数を求める"
+        },
+        {
+          "label": "C",
+          "text": "積が -3 で和が -4 になる2数を求める"
+        },
+        {
+          "label": "D",
+          "text": "積が -4 で和が 3 になる2数を求める"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-017",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "x³ - 9x を完全に因数分解する手順として、最初に行うべき変形はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "共通因数 x をくくり出して x(x² - 9) とする"
+        },
+        {
+          "label": "B",
+          "text": "差の平方公式を直接 x³ に使い (x^(3/2) + 3)(x^(3/2) - 3) とする"
+        },
+        {
+          "label": "C",
+          "text": "9x を移項して x³ = 9x とおき、両辺を x で割る"
+        },
+        {
+          "label": "D",
+          "text": "x = 3 を代入してゼロになることを先に確認してから因数を導く"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-018",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "x³ + x² - x - 1 をグループで因数分解すると (x + 1)(x² - 1) になる。さらに完全に因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + 1)²(x - 1)"
+        },
+        {
+          "label": "B",
+          "text": "(x - 1)²(x + 1)"
+        },
+        {
+          "label": "C",
+          "text": "(x + 1)(x² + 1)"
+        },
+        {
+          "label": "D",
+          "text": "(x² + 1)(x - 1)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-019",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "6x² + x - 2 を (2x + p)(3x + q) の形に因数分解するとき、正しい (p, q) の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = -1, q = 2"
+        },
+        {
+          "label": "B",
+          "text": "p = 1, q = -2"
+        },
+        {
+          "label": "C",
+          "text": "p = 2, q = -3"
+        },
+        {
+          "label": "D",
+          "text": "p = -3, q = 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-020",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "standard",
+      "question": "x² + (a - 3)x - 3a に x = 3 を代入すると 0 になることを確認する計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9 + 3(a - 3) - 3a = 9 + 3a - 9 - 3a = 0"
+        },
+        {
+          "label": "B",
+          "text": "9 - 3(a - 3) - 3a = 9 - 3a + 9 - 3a = 18 - 6a"
+        },
+        {
+          "label": "C",
+          "text": "3 + (a - 3) - 3a = 3 + a - 3 - 3a = -2a"
+        },
+        {
+          "label": "D",
+          "text": "9 + (a - 3) - 3a = 9 + a - 3 - 3a = 6 - 2a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-021",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "a² - b² = (a+b)(a-b) を証明するため (a+b)(a-b) を展開する。展開中に現れる ab の項について正しい記述はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "+ab と -ab の2項が現れ、打ち消し合って消える"
+        },
+        {
+          "label": "B",
+          "text": "+ab のみ現れ、b² と合わさって消える"
+        },
+        {
+          "label": "C",
+          "text": "ab の項は出てこず、直接 a² - b² となる"
+        },
+        {
+          "label": "D",
+          "text": "-ab と -ab の2項が現れ、合計 -2ab が残る"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-022",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "x² + 4xy + 4y² - 9 を因数分解するとき、最初の 3 項 x² + 4xy + 4y² を整理すると何になるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + 2y)²"
+        },
+        {
+          "label": "B",
+          "text": "(x + y)² + 3y²"
+        },
+        {
+          "label": "C",
+          "text": "(2x + y)²"
+        },
+        {
+          "label": "D",
+          "text": "(x + 4y)²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-023",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "(a+b)(a+b) を展開して (a+b)² = a² + 2ab + b² を証明する。中間に現れる ab と ba を合計した結果として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2ab (ab = ba なので合計 2倍になる)"
+        },
+        {
+          "label": "B",
+          "text": "a²b (ab と ba を掛け合わせてしまう)"
+        },
+        {
+          "label": "C",
+          "text": "0 (ab と ba が打ち消し合うという勘違い)"
+        },
+        {
+          "label": "D",
+          "text": "3ab (a, b, ab の3項があると数え間違い)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-024",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "x² - y² + x + y を因数分解するとき、(x + y)(x - y) + (x + y) をさらに因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + y)(x - y + 1)"
+        },
+        {
+          "label": "B",
+          "text": "(x + y + 1)(x - y)"
+        },
+        {
+          "label": "C",
+          "text": "(x + y)(x - y - 1)"
+        },
+        {
+          "label": "D",
+          "text": "(x + y)²(x - y)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-025",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "(x+3)(x-3) を分配法則で展開するとき、x の1次項の計算として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x × (-3) + 3 × x = -3x + 3x = 0 (1次項が消える)"
+        },
+        {
+          "label": "B",
+          "text": "x × 3 + 3 × x = 3x + 3x = 6x"
+        },
+        {
+          "label": "C",
+          "text": "x × (-3) - 3 × x = -3x - 3x = -6x"
+        },
+        {
+          "label": "D",
+          "text": "x × (-3) × 3 = -9x (3項をまとめて掛ける)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-026",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "101 × 99 を差の平方の公式を使って計算するとき、正しい変形と結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(100 + 1)(100 - 1) = 100² - 1² = 10000 - 1 = 9999"
+        },
+        {
+          "label": "B",
+          "text": "(100 + 1)(100 - 1) = (100 - 1)² = 99² = 9801"
+        },
+        {
+          "label": "C",
+          "text": "(101 - 99)² / 4 = 4 / 4 = 1"
+        },
+        {
+          "label": "D",
+          "text": "101² - 99 = 10201 - 99 = 10102"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-027",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "x² + 6x + k が (x + a)² の形の完全平方式になるための k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 3"
+        },
+        {
+          "label": "B",
+          "text": "k = 6"
+        },
+        {
+          "label": "C",
+          "text": "k = 9"
+        },
+        {
+          "label": "D",
+          "text": "k = 12"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "fact-028",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "因数定理「多項式 f(x) で f(a) = 0 ならば (x-a) が f(x) の因数」の根拠として正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x) を (x-a) で割ると f(x) = (x-a)q(x) + r。x=a を代入すると f(a) = r = 0 なので f(x) = (x-a)q(x)"
+        },
+        {
+          "label": "B",
+          "text": "f(a) = 0 ならば x = a が解なので、因数という用語の定義から (x-a) が因数になる"
+        },
+        {
+          "label": "C",
+          "text": "f(x) の定数項が 0 になるとき必ず (x-a) が因数になる"
+        },
+        {
+          "label": "D",
+          "text": "f(x) の最高次係数が 0 になるとき (x-a) が因数になる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fact-029",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "x³ - 3x² + 4 に x = -1 を代入すると 0 になる。このことから分かる因数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x - 1)"
+        },
+        {
+          "label": "B",
+          "text": "(x + 1)"
+        },
+        {
+          "label": "C",
+          "text": "(x - 4)"
+        },
+        {
+          "label": "D",
+          "text": "(x + 4)"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fact-030",
+      "subject": "数学1A",
+      "unit": "因数分解",
+      "difficulty": "exam",
+      "question": "x³ - 3x² + 4 を (x + 1) で割ると商は x² - 4x + 4 になる。完全に因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + 1)(x - 2)²"
+        },
+        {
+          "label": "B",
+          "text": "(x + 1)(x + 2)(x - 2)"
+        },
+        {
+          "label": "C",
+          "text": "(x + 1)(x² - 4)"
+        },
+        {
+          "label": "D",
+          "text": "(x - 1)(x + 2)²"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

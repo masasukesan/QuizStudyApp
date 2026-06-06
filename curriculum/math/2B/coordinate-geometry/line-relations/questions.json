@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "id": "lr-001",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "2直線 y=2x+1 と y=2x−3 の位置関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "同一直線"
+        },
+        {
+          "label": "B",
+          "text": "傾きが同じ(ともに2)で切片が異なるので平行"
+        },
+        {
+          "label": "C",
+          "text": "傾きの積が −1 なので垂直"
+        },
+        {
+          "label": "D",
+          "text": "交点が1つある"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "平行条件",
+        "傾きが等しい"
+      ]
+    },
+    {
+      "id": "lr-002",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "2直線 y=3x+1 と y=−x/3+2 の位置関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "傾きの積が 1 なので平行"
+        },
+        {
+          "label": "B",
+          "text": "交点が2つある"
+        },
+        {
+          "label": "C",
+          "text": "傾きの積 3×(−1/3)=−1 なので垂直"
+        },
+        {
+          "label": "D",
+          "text": "傾きが等しいので平行"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "垂直条件",
+        "傾きの積"
+      ]
+    },
+    {
+      "id": "lr-003",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "直線 y=mx+b がy軸に平行な直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=mx"
+        },
+        {
+          "label": "B",
+          "text": "x=a(y=mx+b の形では表せない垂直線)"
+        },
+        {
+          "label": "C",
+          "text": "y=0"
+        },
+        {
+          "label": "D",
+          "text": "y=b"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "垂直線",
+        "x=a"
+      ]
+    },
+    {
+      "id": "lr-004",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "直線 2x−3y+6=0 に平行な直線の傾きとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "傾き 3/2"
+        },
+        {
+          "label": "B",
+          "text": "傾き 2/3(y=2x/3+2 と変形して読む)"
+        },
+        {
+          "label": "C",
+          "text": "傾き −2/3"
+        },
+        {
+          "label": "D",
+          "text": "傾き 2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "傾きの読み取り",
+        "ax+by+c=0"
+      ]
+    },
+    {
+      "id": "lr-005",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "直線 3x+4y=12 に垂直な直線の傾きとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "傾き 3/4"
+        },
+        {
+          "label": "B",
+          "text": "傾き −3/4"
+        },
+        {
+          "label": "C",
+          "text": "傾き 4/3(元の直線の傾き −3/4 の負の逆数)"
+        },
+        {
+          "label": "D",
+          "text": "傾き −4/3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "垂直の傾き",
+        "負の逆数"
+      ]
+    },
+    {
+      "id": "lr-006",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "点 (2,3) を通り、直線 y=2x+1 に平行な直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=2x+1"
+        },
+        {
+          "label": "B",
+          "text": "y=−x/2+4"
+        },
+        {
+          "label": "C",
+          "text": "y−3=2(x−2) → y=2x−1"
+        },
+        {
+          "label": "D",
+          "text": "y=2x+3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "平行な直線",
+        "点傾き形"
+      ]
+    },
+    {
+      "id": "lr-007",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "点 (1,4) を通り、直線 y=3x−2 に垂直な直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y−4=−(1/3)(x−1) → y=−x/3+13/3"
+        },
+        {
+          "label": "B",
+          "text": "y=−3x+7"
+        },
+        {
+          "label": "C",
+          "text": "y=x/3+11/3"
+        },
+        {
+          "label": "D",
+          "text": "y=3x+1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂直な直線",
+        "負の逆数"
+      ]
+    },
+    {
+      "id": "lr-008",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "x 軸と平行な直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=kx"
+        },
+        {
+          "label": "B",
+          "text": "x=k"
+        },
+        {
+          "label": "C",
+          "text": "x+y=0"
+        },
+        {
+          "label": "D",
+          "text": "y=k(定数、傾き 0 の水平な直線)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "水平線",
+        "y=k"
+      ]
+    },
+    {
+      "id": "lr-009",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "2直線 ax+2y+1=0 と 3x+6y−5=0 が平行になる a の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=3"
+        },
+        {
+          "label": "B",
+          "text": "a=2"
+        },
+        {
+          "label": "C",
+          "text": "a/3=2/6=1/3 より a=1"
+        },
+        {
+          "label": "D",
+          "text": "a=6"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "平行条件",
+        "係数比"
+      ]
+    },
+    {
+      "id": "lr-010",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "basic",
+      "question": "2直線 y=m₁x+b₁ と y=m₂x+b₂ が一致(同一直線)する条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "m₁m₂=−1"
+        },
+        {
+          "label": "B",
+          "text": "b₁=b₂ のみ"
+        },
+        {
+          "label": "C",
+          "text": "m₁=m₂ かつ b₁=b₂(傾きと切片がともに等しい)"
+        },
+        {
+          "label": "D",
+          "text": "m₁=m₂ のみ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "同一直線",
+        "一致条件"
+      ]
+    },
+    {
+      "id": "lr-011",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "2直線 2x−y+3=0 と ax+2y+1=0 が垂直になる a の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内積=0: 2a−2=0 → a=1"
+        },
+        {
+          "label": "B",
+          "text": "a=4"
+        },
+        {
+          "label": "C",
+          "text": "a=2"
+        },
+        {
+          "label": "D",
+          "text": "a=−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂直条件",
+        "法線ベクトル"
+      ]
+    },
+    {
+      "id": "lr-012",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "2直線が平行かつ異なるとき、交点の数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "交点は1個"
+        },
+        {
+          "label": "B",
+          "text": "交点は2個"
+        },
+        {
+          "label": "C",
+          "text": "交点は無数にある"
+        },
+        {
+          "label": "D",
+          "text": "交点はない(0個)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "平行線の交点",
+        "0個"
+      ]
+    },
+    {
+      "id": "lr-013",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "3直線 l₁: y=2x+1、l₂: y=−x+4、l₃: y=2x−3 の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "l₁ ⊥ l₂"
+        },
+        {
+          "label": "B",
+          "text": "3直線すべて1点で交わる"
+        },
+        {
+          "label": "C",
+          "text": "l₁ ∥ l₃(傾き 2 同士)かつ l₁ と l₂ は交わる"
+        },
+        {
+          "label": "D",
+          "text": "3直線すべて平行"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "3直線の関係",
+        "平行と交差"
+      ]
+    },
+    {
+      "id": "lr-014",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "直線 l: 2x+y−1=0 から点 A(3,4) を l に関して対称な点 A' を求める最初の手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A の座標を l に代入する"
+        },
+        {
+          "label": "B",
+          "text": "l の傾きをそのまま使う"
+        },
+        {
+          "label": "C",
+          "text": "l の傾き −2 より垂線の傾き 1/2 を求める"
+        },
+        {
+          "label": "D",
+          "text": "l の x 切片と y 切片の平均を求める"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対称点",
+        "垂線の傾き"
+      ]
+    },
+    {
+      "id": "lr-015",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "直線 l: x−y+1=0 に関して点 A(4,3) と対称な点 A' の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A'=(1,2)"
+        },
+        {
+          "label": "B",
+          "text": "垂線の足 M=(3,4) → A'=2M−A=(2,5)"
+        },
+        {
+          "label": "C",
+          "text": "A'=(3,2)"
+        },
+        {
+          "label": "D",
+          "text": "A'=(0,1)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対称点",
+        "具体計算"
+      ]
+    },
+    {
+      "id": "lr-016",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "2直線 y=2x+1 と y=−x/2+3 の交点の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1,3)"
+        },
+        {
+          "label": "B",
+          "text": "2x+1=−x/2+3 → x=4/5、y=13/5"
+        },
+        {
+          "label": "C",
+          "text": "(4/5,18/5)"
+        },
+        {
+          "label": "D",
+          "text": "(2,5)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "交点計算",
+        "連立"
+      ]
+    },
+    {
+      "id": "lr-017",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "3直線 x+y=3、2x−y=0、3x+ay=9 が1点で交わるための a の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=1"
+        },
+        {
+          "label": "B",
+          "text": "(1,2) を 3x+ay=9 に代入 → a=3"
+        },
+        {
+          "label": "C",
+          "text": "a=2"
+        },
+        {
+          "label": "D",
+          "text": "a=−3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "3直線の共通点",
+        "代入"
+      ]
+    },
+    {
+      "id": "lr-018",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "直線 l₁: y=3x+2 と直線 l₂: y=−x/3+k が交わらないための k の条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "垂直(傾きの積=−1)なので k の値によらず常に交わる"
+        },
+        {
+          "label": "B",
+          "text": "k≠2 のとき交わらない"
+        },
+        {
+          "label": "C",
+          "text": "k=2 のとき交わらない"
+        },
+        {
+          "label": "D",
+          "text": "傾きが異なるので全ての k で交わらない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂直線の交点",
+        "必ず交わる"
+      ]
+    },
+    {
+      "id": "lr-019",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "直線 y=mx+5 が x 軸と交わる点の x 座標(x 切片)として正しいものはどれか(m≠0)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=5/m"
+        },
+        {
+          "label": "B",
+          "text": "y=0 を代入 → x=−5/m"
+        },
+        {
+          "label": "C",
+          "text": "x=5m"
+        },
+        {
+          "label": "D",
+          "text": "x=−m/5"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "x切片",
+        "y=0代入"
+      ]
+    },
+    {
+      "id": "lr-020",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "standard",
+      "question": "点 P(a,b) から直線 y=mx+n への垂線の足 H の座標を求める際に必要な条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "H は直線の中点"
+        },
+        {
+          "label": "B",
+          "text": "H は P から直線への距離が最大の点"
+        },
+        {
+          "label": "C",
+          "text": "H は直線 y=mx+n 上にあり、かつ PH ⊥ 直線"
+        },
+        {
+          "label": "D",
+          "text": "PH の傾きが m と等しい"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "垂線の足",
+        "条件"
+      ]
+    },
+    {
+      "id": "lr-021",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "直線 l: 2x−3y+6=0 に関して点 A(4,2) と対称な点 A' の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A'=(−2,6)"
+        },
+        {
+          "label": "B",
+          "text": "A'=(4/13,6/13)"
+        },
+        {
+          "label": "C",
+          "text": "A'=(2,4)"
+        },
+        {
+          "label": "D",
+          "text": "M=(36/13,50/13)、A'=(20/13,74/13)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "対称点",
+        "計算"
+      ]
+    },
+    {
+      "id": "lr-022",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "3直線 l₁: x+2y−4=0、l₂: 2x−y+1=0、l₃: ax+by=0 が1点で交わる条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=b"
+        },
+        {
+          "label": "B",
+          "text": "交点 (2/5,9/5) を l₃ に代入 → 2a+9b=0"
+        },
+        {
+          "label": "C",
+          "text": "a+b=0"
+        },
+        {
+          "label": "D",
+          "text": "2a−9b=0"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "3直線の条件",
+        "係数決定"
+      ]
+    },
+    {
+      "id": "lr-023",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "点 A(1,0) から直線 l: 3x+4y=20 に下ろした垂線の足 H の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=(4/3)(x−1) と l の交点 H=(76/25,68/25)"
+        },
+        {
+          "label": "B",
+          "text": "H=(2,14/4)"
+        },
+        {
+          "label": "C",
+          "text": "H=(5,5/4)"
+        },
+        {
+          "label": "D",
+          "text": "H=(4,2)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂線の足",
+        "具体計算"
+      ]
+    },
+    {
+      "id": "lr-024",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "2直線 y=2x+a と y=−x+b が点 (1,3) で交わるとき a と b の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=3、b=2"
+        },
+        {
+          "label": "B",
+          "text": "a=1、b=−4"
+        },
+        {
+          "label": "C",
+          "text": "a=−1、b=4"
+        },
+        {
+          "label": "D",
+          "text": "(1,3) 代入 → a=1、b=4"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "係数決定",
+        "交点条件"
+      ]
+    },
+    {
+      "id": "lr-025",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "2平行線 l₁: 3x−4y+8=0 と l₂: 3x−4y−2=0 の距離として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "距離 = |8−2|/5 = 6/5"
+        },
+        {
+          "label": "B",
+          "text": "距離 = |8+2|/(3+4) = 10/7"
+        },
+        {
+          "label": "C",
+          "text": "距離 = 10/√7"
+        },
+        {
+          "label": "D",
+          "text": "平行線間の距離 = |8−(−2)|/√(9+16) = 10/5 = 2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "平行線の距離",
+        "公式"
+      ]
+    },
+    {
+      "id": "lr-026",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "直線 l: y=x+3 に関して直線 m: y=2x−1 と対称な直線の方程式を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "m と l の交点だけを使って対称直線を決める"
+        },
+        {
+          "label": "B",
+          "text": "m の傾きを l に関して反転させるだけ"
+        },
+        {
+          "label": "C",
+          "text": "m の y 切片だけを l に関して反転させる"
+        },
+        {
+          "label": "D",
+          "text": "m 上の2点を l に関して対称移動して新しい2点を求め、その2点を通る直線の方程式を作る"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "直線の対称移動",
+        "手順"
+      ]
+    },
+    {
+      "id": "lr-027",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "4点 A(0,0)、B(4,0)、C(3,3)、D(−2,3) が平行四辺形の頂点かを確認する条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各辺の長さがすべて等しいことを確認する"
+        },
+        {
+          "label": "B",
+          "text": "AC 中点 (3/2,3/2) ≠ BD 中点 (1,3/2) → 平行四辺形でない"
+        },
+        {
+          "label": "C",
+          "text": "AB と DC の傾きが等しいだけで十分"
+        },
+        {
+          "label": "D",
+          "text": "対角線の長さが等しいことを確認する"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "平行四辺形の条件",
+        "対角線の中点"
+      ]
+    },
+    {
+      "id": "lr-028",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "原点と直線 3x+4y=25 の距離として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "距離 = 25/25 = 1"
+        },
+        {
+          "label": "B",
+          "text": "距離 = 25/(3+4) = 25/7"
+        },
+        {
+          "label": "C",
+          "text": "距離 = 25/√7"
+        },
+        {
+          "label": "D",
+          "text": "距離 = |3×0+4×0−25|/√(9+16) = 25/5 = 5"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "点と直線の距離",
+        "原点"
+      ]
+    },
+    {
+      "id": "lr-029",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "直線 l: y=ax+b が第1象限と第3象限のみを通るための条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "傾き a>0 かつ b>0"
+        },
+        {
+          "label": "B",
+          "text": "傾き a<0 かつ b=0"
+        },
+        {
+          "label": "C",
+          "text": "傾き a>0 かつ b<0"
+        },
+        {
+          "label": "D",
+          "text": "傾き a>0 かつ b=0(原点を通る右上がりの直線)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "直線の象限",
+        "条件"
+      ]
+    },
+    {
+      "id": "lr-030",
+      "subject": "math",
+      "unit": "直線の位置関係",
+      "difficulty": "exam",
+      "question": "直線の束(一点を通る直線の族)y−y₀=m(x−x₀) で、m の値が変化しても常に通る点として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "m=0 のとき y=y₀ なので常に y₀ を通るだけ"
+        },
+        {
+          "label": "B",
+          "text": "常に x₀ 軸上の点を通る"
+        },
+        {
+          "label": "C",
+          "text": "m の値によらず常に点 (x₀,y₀) を通る"
+        },
+        {
+          "label": "D",
+          "text": "常に原点 (0,0) を通る"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "直線の束",
+        "固定点"
+      ]
+    }
+  ]
+}

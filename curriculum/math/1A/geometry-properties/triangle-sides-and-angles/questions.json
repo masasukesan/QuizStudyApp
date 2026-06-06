@@ -1,0 +1,845 @@
+{
+  "subject": "数学1A",
+  "unit": "三角形の辺と角",
+  "questions": [
+    {
+      "id": "tsa-001",
+      "difficulty": "basic",
+      "question": "三角形の成立条件：辺の長さ a, b, c が三角形をなすための必要十分条件は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最も長い辺 < 他の2辺の和"
+        },
+        {
+          "label": "B",
+          "text": "a + b + c = 180°"
+        },
+        {
+          "label": "C",
+          "text": "a² + b² = c²"
+        },
+        {
+          "label": "D",
+          "text": "どんな3辺でも三角形が作れる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の成立条件",
+        "三角不等式"
+      ]
+    },
+    {
+      "id": "tsa-002",
+      "difficulty": "basic",
+      "question": "三角形の内角の和は180°である。△ABCで∠A=50°、∠B=70°のとき∠Cは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠C = 180° - 50° - 70° = 60°"
+        },
+        {
+          "label": "B",
+          "text": "∠C = 50° + 70° = 120°"
+        },
+        {
+          "label": "C",
+          "text": "∠C = 180° - 50° = 130°"
+        },
+        {
+          "label": "D",
+          "text": "∠C = 360° - 50° - 70° = 240°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内角の和=180°",
+        "残りの角の計算"
+      ]
+    },
+    {
+      "id": "tsa-003",
+      "difficulty": "basic",
+      "question": "三角形の外角は隣接しない2つの内角の和に等しい。∠A=40°、∠B=60°のとき、Cにおける外角は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外角 = ∠A + ∠B = 40° + 60° = 100°(隣接しない2内角の和)"
+        },
+        {
+          "label": "B",
+          "text": "外角 = 180° - (∠A + ∠B) = 180° - 100° = 80°"
+        },
+        {
+          "label": "C",
+          "text": "外角 = 360° - ∠C"
+        },
+        {
+          "label": "D",
+          "text": "外角 = ∠A - ∠B = -20°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "外角定理",
+        "隣接しない2内角の和"
+      ]
+    },
+    {
+      "id": "tsa-004",
+      "difficulty": "basic",
+      "question": "二等辺三角形の底角は等しい。頂角が40°のとき底角は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底角2つの和 = 180° - 40° = 140°。底角 = 140°/2 = 70°"
+        },
+        {
+          "label": "B",
+          "text": "底角 = 40°"
+        },
+        {
+          "label": "C",
+          "text": "底角 = 180° - 40° = 140°"
+        },
+        {
+          "label": "D",
+          "text": "底角 = 40°/2 = 20°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二等辺三角形の底角",
+        "底角=(180°-頂角)/2"
+      ]
+    },
+    {
+      "id": "tsa-005",
+      "difficulty": "basic",
+      "question": "直角三角形で斜辺が5、一辺が3のとき残りの辺は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ピタゴラスの定理: 3² + b² = 5²。b² = 25 - 9 = 16。b = 4"
+        },
+        {
+          "label": "B",
+          "text": "b = 5 - 3 = 2"
+        },
+        {
+          "label": "C",
+          "text": "b² = 5² + 3² = 34。b = √34"
+        },
+        {
+          "label": "D",
+          "text": "b² = 5 − 3 = 2 → b = √2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ピタゴラスの定理",
+        "3-4-5の直角三角形"
+      ]
+    },
+    {
+      "id": "tsa-006",
+      "difficulty": "basic",
+      "question": "三角形で最も長い辺の対角が最も大きい。a=3、b=4、c=5の三角形で最大の角はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大辺はc=5。最大角は∠C(辺cの対角)。また5²=3²+4²=25なので∠C=90°"
+        },
+        {
+          "label": "B",
+          "text": "最大角は∠A(辺aの対角)"
+        },
+        {
+          "label": "C",
+          "text": "三角形の最大角は常に60°"
+        },
+        {
+          "label": "D",
+          "text": "最大辺が5だから最大角は5°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "辺と対角の大小関係",
+        "最大辺の対角が最大"
+      ]
+    },
+    {
+      "id": "tsa-007",
+      "difficulty": "basic",
+      "question": "正三角形の一辺が a のとき、高さと面積の公式は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "高さ h = (√3/2)a。面積 S = (1/2)×a×h = (√3/4)a²"
+        },
+        {
+          "label": "B",
+          "text": "高さ = a、面積 = a²/2"
+        },
+        {
+          "label": "C",
+          "text": "高さ = a/2、面積 = a²/4"
+        },
+        {
+          "label": "D",
+          "text": "高さ = √3a、面積 = √3a²/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正三角形の高さと面積",
+        "(√3/4)a²"
+      ]
+    },
+    {
+      "id": "tsa-008",
+      "difficulty": "basic",
+      "question": "三角形の面積の基本公式: 底辺 a・高さ h のとき、面積 S は？また sin を使った公式は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)ah。また S = (1/2)ab sinC(2辺とその間の角を使う公式)"
+        },
+        {
+          "label": "B",
+          "text": "S = ah(高さを掛けるだけ)"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)(a+b)h"
+        },
+        {
+          "label": "D",
+          "text": "S = a x b / 4 (底辺と高さではなく2辺の積の1/4)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の面積公式",
+        "S=(1/2)absinC"
+      ]
+    },
+    {
+      "id": "tsa-009",
+      "difficulty": "basic",
+      "question": "三角形の2辺と挟む角が与えられたとき、余弦定理で残りの辺を求める式は？a=3、b=4、C=60°のとき c は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理: c² = a² + b² - 2ab cosC = 9 + 16 - 2×3×4×(1/2) = 25 - 12 = 13"
+        },
+        {
+          "label": "B",
+          "text": "c² = a² + b² = 25"
+        },
+        {
+          "label": "C",
+          "text": "c = a + b = 7"
+        },
+        {
+          "label": "D",
+          "text": "c² = a² + b² + 2ab cosC = 25 + 12 = 37"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余弦定理",
+        "c²=a²+b²-2abcosC"
+      ]
+    },
+    {
+      "id": "tsa-010",
+      "difficulty": "basic",
+      "question": "正弦定理: a/sinA = b/sinB = c/sinC = 2R の意味と使う場面は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各辺をその対角の sin で割ると等しく(=2R, Rは外接円の半径)"
+        },
+        {
+          "label": "B",
+          "text": "正弦定理は直角三角形専用の定理"
+        },
+        {
+          "label": "C",
+          "text": "a/sinA = b/sinB だから a = b"
+        },
+        {
+          "label": "D",
+          "text": "正弦定理は面積を求めるときのみ使う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理の意味",
+        "a/sinA=2R"
+      ]
+    },
+    {
+      "id": "tsa-011",
+      "difficulty": "standard",
+      "question": "a=7、b=8、c=9の三角形のCを余弦定理で求めよ(cosCを計算し、∠Cの角度の大小を判断)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosC = (a²+b²-c²)/(2ab) = (49+64-81)/112 = 2/7 > 0 → ∠C は鋭角"
+        },
+        {
+          "label": "B",
+          "text": "cosC = (a+b-c)/(2ab) = 6/112"
+        },
+        {
+          "label": "C",
+          "text": "cosC = (a²+b²+c²)/(2ab) = 194/112"
+        },
+        {
+          "label": "D",
+          "text": "c² = a² + b² だから ∠C = 90°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余弦定理でcosを求める",
+        "cosの符号から鋭角・鈍角判定"
+      ]
+    },
+    {
+      "id": "tsa-012",
+      "difficulty": "standard",
+      "question": "△ABCで∠A=30°、a=3のとき外接円の半径Rは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理: a/sinA = 2R → 3/sin30° = 3/(1/2) = 6 = 2R → R=3"
+        },
+        {
+          "label": "B",
+          "text": "R = a/2 = 3/2 = 1.5"
+        },
+        {
+          "label": "C",
+          "text": "R = a×cosA = 3×(√3/2) = 3√3/2"
+        },
+        {
+          "label": "D",
+          "text": "R = a/sinA = 3/(1/2) = 6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理と外接円の半径",
+        "R=a/(2sinA)"
+      ]
+    },
+    {
+      "id": "tsa-013",
+      "difficulty": "standard",
+      "question": "a=5、b=6、C=60°の三角形の面積Sとcを求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)ab sinC = (1/2)×5×6×(√3/2) = 15√3/2"
+        },
+        {
+          "label": "B",
+          "text": "S = (1/2)×5×6 = 15。c = √31"
+        },
+        {
+          "label": "C",
+          "text": "S = 5×6×sin60° = 30×(√3/2) = 15√3"
+        },
+        {
+          "label": "D",
+          "text": "c² = 5²+6²-5×6×cos60° = 61-15 = 46"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積と余弦定理の組み合わせ",
+        "S=(1/2)absinC"
+      ]
+    },
+    {
+      "id": "tsa-014",
+      "difficulty": "standard",
+      "question": "三角形の内接円の半径 r と面積 S・半周長 s の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = r×s(面積 = 内接円の半径 × 半周長)"
+        },
+        {
+          "label": "B",
+          "text": "r = S/(a+b+c)"
+        },
+        {
+          "label": "C",
+          "text": "r = √S"
+        },
+        {
+          "label": "D",
+          "text": "S = r×(a+b+c)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内接円の半径",
+        "r=S/s=2S/(a+b+c)"
+      ]
+    },
+    {
+      "id": "tsa-015",
+      "difficulty": "standard",
+      "question": "a=8、b=6、c=7の三角形の最大角∠Aを求めるとき、まず何を確認するか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大辺は a=8"
+        },
+        {
+          "label": "B",
+          "text": "∠A = 180° - ∠B - ∠C(他の2角を求めてから)"
+        },
+        {
+          "label": "C",
+          "text": "cosA = a²/(b²+c²) = 64/85"
+        },
+        {
+          "label": "D",
+          "text": "∠A = 90°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余弦定理で角を求める",
+        "最大辺の対角"
+      ]
+    },
+    {
+      "id": "tsa-016",
+      "difficulty": "standard",
+      "question": "ヘロンの公式: 3辺 a, b, c が与えられたとき面積 S を求める式は？a=3, b=4, c=5 のとき S は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "s=(a+b+c)/2=6。S=√(s(s-a)(s-b)(s-c))=√(6×3×2×1)=√36=6"
+        },
+        {
+          "label": "B",
+          "text": "S = (a+b+c)/4"
+        },
+        {
+          "label": "C",
+          "text": "S = √(abc/s)"
+        },
+        {
+          "label": "D",
+          "text": "s=(a+b+c)/2=6。S=√(6+3+2+1)=√12=2√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ヘロンの公式",
+        "S=√(s(s-a)(s-b)(s-c))"
+      ]
+    },
+    {
+      "id": "tsa-017",
+      "difficulty": "standard",
+      "question": "△ABCで∠A=45°、∠B=60°、a=4のとき b を正弦定理で求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a/sinA = b/sinB → b = a×sinB/sinA = 4×(√3/2)/(√2/2) = 4×(√3/√2) = 4√6/2 = 2√6"
+        },
+        {
+          "label": "B",
+          "text": "b = a × sinB = 4×(√3/2) = 2√3"
+        },
+        {
+          "label": "C",
+          "text": "b = a × sinA/sinB"
+        },
+        {
+          "label": "D",
+          "text": "b = 4×sin45°/sin60° = 4√2/√3 = 4√6/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理で辺を求める",
+        "b=a×sinB/sinA"
+      ]
+    },
+    {
+      "id": "tsa-018",
+      "difficulty": "standard",
+      "question": "鈍角三角形と直角三角形と鋭角三角形の判別法(3辺 a≤b≤c の場合)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c² < a²+b²: 鋭角三角形(全て鋭角)"
+        },
+        {
+          "label": "B",
+          "text": "最大辺が他の2辺の和に近いほど鋭角"
+        },
+        {
+          "label": "C",
+          "text": "c²とa²+b²の比較ではなく a+b と c の比較で判別"
+        },
+        {
+          "label": "D",
+          "text": "直角か鈍角かは角度を直接計算しないとわからない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の種類の判別",
+        "c²と a²+b²の比較"
+      ]
+    },
+    {
+      "id": "tsa-019",
+      "difficulty": "standard",
+      "question": "正弦定理を使って、三角形の辺が与えられていない場合でも角から辺の比を求めることができる。∠A:∠B:∠C=2:3:7 のとき a:b:c=？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠A+∠B+∠C=180°より各角: 30°:45°:105°"
+        },
+        {
+          "label": "B",
+          "text": "a:b:c = 2:3:7"
+        },
+        {
+          "label": "C",
+          "text": "a:b:c = cos30°:cos45°:cos105°"
+        },
+        {
+          "label": "D",
+          "text": "辺の比は角の比のsin: sin(2k):sin(3k):sin(7k)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理と辺の比",
+        "角度を求めてからsinを計算"
+      ]
+    },
+    {
+      "id": "tsa-020",
+      "difficulty": "standard",
+      "question": "点Pが△ABCの辺BC上にあり BP:PC=1:2 のとき、△ABPと△APCの面積比は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "高さが等しい三角形で底辺の比が1:2なら面積比も1:2"
+        },
+        {
+          "label": "B",
+          "text": "面積比 = BP²:PC² = 1:4"
+        },
+        {
+          "label": "C",
+          "text": "面積比 = 2:1(逆の比)"
+        },
+        {
+          "label": "D",
+          "text": "Pの位置によって面積比は変わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "高さが等しい三角形の面積比",
+        "底辺の比=面積の比"
+      ]
+    },
+    {
+      "id": "tsa-021",
+      "difficulty": "exam",
+      "question": "△ABCで a=7, b=8, c=9。面積Sを①ヘロンの公式②S=(1/2)absinCの2通りで確認せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "①s=12"
+        },
+        {
+          "label": "B",
+          "text": "S=√720≈26.8(ヘロンのみ、確認なし)"
+        },
+        {
+          "label": "C",
+          "text": "S=(1/2)×7×8×sin(∠C)=28sinC(∠Cの値を求めずに終わる)"
+        },
+        {
+          "label": "D",
+          "text": "2つの公式は常に一致するから確認不要"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ヘロンの公式と余弦定理の整合性確認"
+      ]
+    },
+    {
+      "id": "tsa-022",
+      "difficulty": "exam",
+      "question": "△ABCの面積Sと外接円半径Rの関係 S = abc/(4R) を導け。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理: a=2RsinA"
+        },
+        {
+          "label": "B",
+          "text": "S = R²sinAsinBsinC"
+        },
+        {
+          "label": "C",
+          "text": "S = πR²"
+        },
+        {
+          "label": "D",
+          "text": "S = abc/(2R)(分母が4Rでなく2R)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S=abc/(4R)の導出",
+        "正弦定理の応用"
+      ]
+    },
+    {
+      "id": "tsa-023",
+      "difficulty": "exam",
+      "question": "三角形の2辺と対角が与えられたとき、三角形が0個・1個・2個成立する条件は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠A、a、b既知のとき: a < b sinA のとき解なし"
+        },
+        {
+          "label": "B",
+          "text": "SSAは常に1つの三角形を定める"
+        },
+        {
+          "label": "C",
+          "text": "SSAは常に2つの三角形を定める"
+        },
+        {
+          "label": "D",
+          "text": "a と b の大小だけで判断できる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "SSAの三角形の個数",
+        "ambiguous case"
+      ]
+    },
+    {
+      "id": "tsa-024",
+      "difficulty": "exam",
+      "question": "△ABCの内接円半径 r = 2、外接円半径 R = 5 のとき、オイラーの公式 OI² = R(R-2r) = R² - 2Rr を確認せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OI² = R(R-2r) = 5×(5-2×2) = 5×1 = 5。OI = √5(外心と内心の距離)"
+        },
+        {
+          "label": "B",
+          "text": "OI = R - r = 5 - 2 = 3"
+        },
+        {
+          "label": "C",
+          "text": "OI = R + r = 7"
+        },
+        {
+          "label": "D",
+          "text": "OI = √(R²+r²) = √29"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "オイラーの公式",
+        "OI²=R(R-2r)"
+      ]
+    },
+    {
+      "id": "tsa-025",
+      "difficulty": "exam",
+      "question": "Stewart の定理：△ABCの辺BCにcevian AD(BD=m, DC=n)があるとき成り立つ関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b²m + c²n = a(d² + mn)(d=ADの長さ、a=m+n)"
+        },
+        {
+          "label": "B",
+          "text": "m/n = c/b(角の二等分線定理のみ)"
+        },
+        {
+          "label": "C",
+          "text": "d = (bm + cn)/(m+n)(内分点の位置)"
+        },
+        {
+          "label": "D",
+          "text": "d² = b² + c² - 2bc cosA"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Stewartの定理",
+        "cevianの長さの公式"
+      ]
+    },
+    {
+      "id": "tsa-026",
+      "difficulty": "exam",
+      "question": "中線定理(パラグルアムの法則)：△ABCの辺BCの中点Mにおける中線AMの長さm_aは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "m_a² = (2b² + 2c² - a²)/4"
+        },
+        {
+          "label": "B",
+          "text": "m_a = (b+c)/2(辺の平均)"
+        },
+        {
+          "label": "C",
+          "text": "m_a² = b² + c²"
+        },
+        {
+          "label": "D",
+          "text": "m_a = √(b²+c²)/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中線定理",
+        "m_a²=(2b²+2c²-a²)/4"
+      ]
+    },
+    {
+      "id": "tsa-027",
+      "difficulty": "exam",
+      "question": "△ABCで∠A=2∠Bのとき、辺a、b、cの関係式を導け。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠A=2∠Bを正弦定理に代入: a/sin2B = b/sinB → a = 2b cosB → a² = b(b+c)"
+        },
+        {
+          "label": "B",
+          "text": "∠A=2∠Bなら a=2b"
+        },
+        {
+          "label": "C",
+          "text": "sin2B = 2sinBcosB を使うが最後の整理でa² = b²+c²となる"
+        },
+        {
+          "label": "D",
+          "text": "∠A=2∠Bの条件から直接辺の関係は導けない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2倍角の条件と辺の関係",
+        "a²=b(b+c)の導出"
+      ]
+    },
+    {
+      "id": "tsa-028",
+      "difficulty": "exam",
+      "question": "△ABCで a/cosA = b/cosB = c/cosC のとき、どのような三角形か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a/cosA = 2RtanA。tanA=tanB=tanC → A=B=C=60° → 正三角形"
+        },
+        {
+          "label": "B",
+          "text": "直角三角形"
+        },
+        {
+          "label": "C",
+          "text": "二等辺三角形"
+        },
+        {
+          "label": "D",
+          "text": "鋭角三角形(全ての条件を満たす)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "辺と角の比の条件",
+        "tanA=tanB=tanCなら正三角形"
+      ]
+    },
+    {
+      "id": "tsa-029",
+      "difficulty": "exam",
+      "question": "三角形の3辺 a=p²+pq, b=pq+q², c=p²-q²+pq の場合(p>q>0)、最大角を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a+b = p²+2pq+q²=(p+q)²"
+        },
+        {
+          "label": "B",
+          "text": "最大辺の対角が最大角。各辺の大小比較が先決"
+        },
+        {
+          "label": "C",
+          "text": "c = p²-q²+pq < a,b のとき ∠C が最小角"
+        },
+        {
+          "label": "D",
+          "text": "最大角 = 120°(パターンで予測)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "文字式の三角形の角",
+        "辺の大小比較→余弦定理"
+      ]
+    },
+    {
+      "id": "tsa-030",
+      "difficulty": "exam",
+      "question": "正弦定理と余弦定理を使って、△ABCで a²+b²+c² = 4S√3 が成り立つとき、三角形の形を判定せよ(Sは面積)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)ab sinC などで S を置き換え、a²+b²+c² = 4S√3 を整理すると全ての角が60°"
+        },
+        {
+          "label": "B",
+          "text": "直角三角形"
+        },
+        {
+          "label": "C",
+          "text": "二等辺三角形"
+        },
+        {
+          "label": "D",
+          "text": "辺の2乗の和だけでは三角形の形は決まらない(面積との関係式ではない)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積と辺の関係式",
+        "正三角形の判定条件"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "unit_id": "addition-theorems",
+  "unit_name_jp": "加法定理",
+  "grade": "数学ⅡB",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "at-p01",
+      "description": "加法定理の基本公式を直接適用して sin・cos・tan の値を求める",
+      "thinking_process": [
+        "sin α・cos α（または sin β・cos β）を与えられた条件と三角関数の相互関係から求める",
+        "sin(α±β)・cos(α±β) の公式に代入する",
+        "符号に注意して計算し、値を確定する"
+      ],
+      "common_mistakes": [
+        "sin(α+β) = sin α + sin β と誤って加算してしまう",
+        "cos(α-β) の符号を cos(α+β) と混同する",
+        "象限条件を無視して cos α の符号を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "at-p02",
+      "description": "特殊角（30°・45°・60°など）の加減で構成される角の三角関数を求める",
+      "thinking_process": [
+        "与えられた角を既知の特殊角の和または差に分解する（例：75°= 45°+30°）",
+        "加法定理の公式に各特殊角の値を代入する",
+        "計算を整理して有理化や簡略化を行う"
+      ],
+      "common_mistakes": [
+        "角の分解を間違える（例：15°= 45°+30° と誤る）",
+        "√2・√3 を含む計算で通分・有理化を誤る",
+        "sin 45° = √2/2 などの特殊角の値を誤って覚えている"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "at-p03",
+      "description": "2倍角公式（sin 2α・cos 2α・tan 2α）を導出・適用して値を求める",
+      "thinking_process": [
+        "加法定理で α+α として2倍角公式を導く（または公式として直接使う）",
+        "cos 2α の3通りの変形（cos²α-sin²α、1-2sin²α、2cos²α-1）から問題に適した形を選ぶ",
+        "sin²α + cos²α = 1 を使って必要な値を補う"
+      ],
+      "common_mistakes": [
+        "cos 2α の変形形式を場面に合わせて使い分けられない",
+        "tan 2α を求める際に tan 2α = 2tan α/(1-tan²α) の分母を誤る",
+        "sin 2α = 2sin α と誤って覚えている"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "at-p04",
+      "description": "半角公式を導出・適用して sin²(α/2)・cos²(α/2) の値を求める",
+      "thinking_process": [
+        "cos 2α = 1 - 2sin²α を変形して sin²α = (1-cos 2α)/2 を導く",
+        "同様に cos²α = (1+cos 2α)/2 を導く",
+        "α/2 に対してこの公式を当てはめ、象限から正負を判断する"
+      ],
+      "common_mistakes": [
+        "sin(α/2) の符号を象限で判断せず正のまま答える",
+        "cos 2α の変形形式の選択を誤り、sin² と cos² を混同する",
+        "平方根をとる際の ± の判断を省略する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "at-p05",
+      "description": "2つの角の条件から加法定理を使って sin(A+B)・cos(A+B) を求める",
+      "thinking_process": [
+        "与えられた sin A・sin B から cos A・cos B を sin²+cos²=1 で求める",
+        "象限条件（α は第何象限など）から cos の符号を確定する",
+        "加法定理に代入して答えを求める"
+      ],
+      "common_mistakes": [
+        "象限条件から cos の符号を誤る（特に第2・3象限）",
+        "cos A を求める際に ± を正と決め打ちしてしまう",
+        "sin(A+B) と cos(A+B) の公式を取り違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "at-p06",
+      "description": "tan の加法定理を使って tan(α±β) を求める",
+      "thinking_process": [
+        "tan(α+β) = (tan α + tan β)/(1 - tan α tan β) の公式を確認する",
+        "与えられた tan α・tan β の値を代入する",
+        "分母が 0 にならないかを確認し、値を計算する"
+      ],
+      "common_mistakes": [
+        "分母の符号を (1 + tan α tan β) と誤る",
+        "tan(α-β) の分子の符号を誤る",
+        "分母が 0 になる場合（tan が定義されない）を見落とす"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "at-p07",
+      "description": "a sinθ + b cosθ を R sin(θ+φ) の形に合成する",
+      "thinking_process": [
+        "R = √(a²+b²) を計算する",
+        "cos φ = a/R・sin φ = b/R となる φ を求める",
+        "R sin(θ+φ) の形に書き換えて最大値・最小値・解を求める"
+      ],
+      "common_mistakes": [
+        "R sin(θ+φ) と R cos(θ+φ) の形の使い分けを誤る",
+        "φ の値を cos φ = b/R・sin φ = a/R と逆に設定する",
+        "合成後の最大値が R であることを忘れて a+b と答える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "at-p08",
+      "description": "合成を利用して三角方程式・不等式を解く",
+      "thinking_process": [
+        "a sinθ + b cosθ を R sin(θ+φ) に合成する",
+        "R sin(θ+φ) = k の形に変形して sin の方程式として解く",
+        "θ+φ の解の範囲を θ の範囲に変換して答えを求める"
+      ],
+      "common_mistakes": [
+        "θ の範囲と θ+φ の範囲を混同して解の変換を誤る",
+        "sin = k/R の解が2つある場合に1つを見落とす",
+        "不等式の向きを sin グラフの増減と対応づけられない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "at-p09",
+      "description": "積和公式・和積公式を導出・適用する",
+      "thinking_process": [
+        "加法定理の和と差を利用して積→和の変換式を導く",
+        "sin A + sin B = 2 sin((A+B)/2) cos((A-B)/2) などの和積公式を導く",
+        "問題の形に応じて積和・和積のどちらを使うか判断して適用する"
+      ],
+      "common_mistakes": [
+        "積和と和積の方向（どちらに変換するか）を間違える",
+        "和積公式の係数 2 や 1/2 を忘れる",
+        "sin と cos の混在する式でどの公式を使うか判断できない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "at-p10",
+      "description": "加法定理・合成を組み合わせた総合問題（最大値・最小値・個数）",
+      "thinking_process": [
+        "与えられた式を加法定理または合成で整理する",
+        "sin・cos の値域（-1≦sinθ≦1）を利用して最大値・最小値を求める",
+        "方程式の解の個数を単位円またはグラフで視覚的に判断する"
+      ],
+      "common_mistakes": [
+        "最大・最小を求める際に θ の定義域を無視する",
+        "解の個数を代数計算だけで判断し、グラフで確認しない",
+        "合成後の R の計算ミス（√の中を誤る）"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

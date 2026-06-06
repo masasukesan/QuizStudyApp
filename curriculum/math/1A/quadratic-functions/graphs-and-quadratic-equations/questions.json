@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "グラフと2次方程式",
+  "questions": [
+    {
+      "id": "gqe-001",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "y = x² - 4x + 3 が x 軸と交わる点の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-002",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "y = x² - 2x + 1 が x 軸と交わる点の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-003",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "y = x² + x + 1 が x 軸と交わる点の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-004",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "x² - 6x + k = 0 が異なる 2 実数解をもつとき k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k < 9"
+        },
+        {
+          "label": "B",
+          "text": "k > 9"
+        },
+        {
+          "label": "C",
+          "text": "k ≤ 9"
+        },
+        {
+          "label": "D",
+          "text": "k = 9"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-005",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "y = x² + 2x - 3 と x 軸の交点を正しく示したものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(-3, 0) と (1, 0)"
+        },
+        {
+          "label": "B",
+          "text": "(3, 0) と (-1, 0)"
+        },
+        {
+          "label": "C",
+          "text": "(-3, 0) のみ"
+        },
+        {
+          "label": "D",
+          "text": "(0, -3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-006",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "x² - 4x + 4 = 0 の重解点の座標はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2, 0)"
+        },
+        {
+          "label": "B",
+          "text": "(4, 0)"
+        },
+        {
+          "label": "C",
+          "text": "(0, 4)"
+        },
+        {
+          "label": "D",
+          "text": "(-2, 0)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-007",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "x² + px + 4 = 0 が実数解をもたないとき p の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-4 < p < 4"
+        },
+        {
+          "label": "B",
+          "text": "p > 4"
+        },
+        {
+          "label": "C",
+          "text": "p < -4"
+        },
+        {
+          "label": "D",
+          "text": "p = 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-008",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "y = -x² + 4 と x 軸の交点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(-2, 0) と (2, 0)"
+        },
+        {
+          "label": "B",
+          "text": "(4, 0) のみ"
+        },
+        {
+          "label": "C",
+          "text": "(0, 4) のみ"
+        },
+        {
+          "label": "D",
+          "text": "交点なし"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-009",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "y = 2x² - 3x - 2 と x 軸の交点のうち正の x 座標の交点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2, 0)"
+        },
+        {
+          "label": "B",
+          "text": "(1/2, 0)"
+        },
+        {
+          "label": "C",
+          "text": "(-1/2, 0)"
+        },
+        {
+          "label": "D",
+          "text": "(3/2, 0)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-010",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "basic",
+      "question": "y = x² - 2x - 3 と y 軸の交点の y 座標はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-3"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "-2"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-011",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² と y = 2x + 3 の交点の x 座標を求めるため x² - 2x - 3 = 0 を解く。解と係数の関係から 2つの解の積を求めたとき正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x₁x₂ = c/a = -3"
+        },
+        {
+          "label": "B",
+          "text": "x₁x₂ = -b/a = 2"
+        },
+        {
+          "label": "C",
+          "text": "x₁x₂ = b/a = -2"
+        },
+        {
+          "label": "D",
+          "text": "x₁x₂ = -c/a = 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-012",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² - 2x + 1 と y = 2x - 2 の交点の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-013",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² と y = x + k が接するとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1/4"
+        },
+        {
+          "label": "B",
+          "text": "1/4"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "-1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-014",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² - 4x + 3 と直線 y = k の交点が 2 個になるとき k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k > -1"
+        },
+        {
+          "label": "B",
+          "text": "k < -1"
+        },
+        {
+          "label": "C",
+          "text": "k ≥ -1"
+        },
+        {
+          "label": "D",
+          "text": "k = -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-015",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = -x² + 2x + 3 > 0 の解を求める。まず -x² + 2x + 3 を因数分解する途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-(x² - 2x - 3) = -(x-3)(x+1)"
+        },
+        {
+          "label": "B",
+          "text": "-(x² - 2x - 3) = -(x+3)(x-1)"
+        },
+        {
+          "label": "C",
+          "text": "-(x² + 2x - 3) = -(x+3)(x-1)"
+        },
+        {
+          "label": "D",
+          "text": "-(x² - 2x + 3) が因数分解できない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-016",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² と y = -x + 2 の交点の x 座標は x² + x - 2 = 0 の解である。解と係数の関係から x₁x₂ の値を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "解と係数の関係: x₁x₂ = c/a = -2/1 = -2"
+        },
+        {
+          "label": "B",
+          "text": "解と係数の関係: x₁x₂ = -b/a = -1/1 = -1"
+        },
+        {
+          "label": "C",
+          "text": "解と係数の関係: x₁x₂ = b/a = 1"
+        },
+        {
+          "label": "D",
+          "text": "解と係数の関係: x₁x₂ = a/c = 1/(-2)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-017",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² - 3x + 2 と y = x の 2 交点の x 座標の和はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-018",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "直線 y = mx が放物線 y = x² + 1 に接するとき m の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "m = ±2"
+        },
+        {
+          "label": "B",
+          "text": "m = ±4"
+        },
+        {
+          "label": "C",
+          "text": "m = ±1"
+        },
+        {
+          "label": "D",
+          "text": "m = 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-019",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² - 3x + 3 と y = x + k が共有点をもつとき k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k ≥ -1"
+        },
+        {
+          "label": "B",
+          "text": "k > 0"
+        },
+        {
+          "label": "C",
+          "text": "k ≥ 0"
+        },
+        {
+          "label": "D",
+          "text": "k ≥ 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-020",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "standard",
+      "question": "y = x² + bx + c が x 軸と (1, 0) と (3, 0) で交わるとき b + c の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "-3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-021",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² - 2x + a が x > 0 の範囲に少なくとも 1 つの実数解をもつとき a の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a < 1"
+        },
+        {
+          "label": "B",
+          "text": "a ≤ 1"
+        },
+        {
+          "label": "C",
+          "text": "a > 1"
+        },
+        {
+          "label": "D",
+          "text": "a ≥ 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-022",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² - 4x + k が x 軸と交わらないとき k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k > 4"
+        },
+        {
+          "label": "B",
+          "text": "k ≥ 4"
+        },
+        {
+          "label": "C",
+          "text": "k < 4"
+        },
+        {
+          "label": "D",
+          "text": "k = 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-023",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² - 2x - 3 と x 軸の 2 交点の x 座標の差の絶対値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-024",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² + px + q が点 (2, 0) を通り、軸が x = 1 のとき p と q の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = -2, q = 0"
+        },
+        {
+          "label": "B",
+          "text": "p = 2, q = 1"
+        },
+        {
+          "label": "C",
+          "text": "p = -2, q = 1"
+        },
+        {
+          "label": "D",
+          "text": "p = -1, q = 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-025",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = ax² + bx + c が x = 1 で最小値 -1 をとり x = 0 のとき y = 0 になる。a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-026",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² - kx + k が x 軸に接するとき k の値はどれか(k ≠ 0)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 4"
+        },
+        {
+          "label": "B",
+          "text": "k = 2"
+        },
+        {
+          "label": "C",
+          "text": "k = -4"
+        },
+        {
+          "label": "D",
+          "text": "k = 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-027",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "直線 y = 2x + k と y = x² が 2 交点をもち x 座標の積が -3 になるとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 3"
+        },
+        {
+          "label": "B",
+          "text": "k = -3"
+        },
+        {
+          "label": "C",
+          "text": "k = -6"
+        },
+        {
+          "label": "D",
+          "text": "k = 6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-028",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² - 4x + 3 と y = k が 0 < x < 4 の範囲内のみで 2 交点をもつとき k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 < k < 3"
+        },
+        {
+          "label": "B",
+          "text": "k > 3"
+        },
+        {
+          "label": "C",
+          "text": "k < -1"
+        },
+        {
+          "label": "D",
+          "text": "-1 ≤ k ≤ 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-029",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² - 4x + 3 の 1 ≤ x ≤ a (a > 2) での最大値が 3 になる最大の a はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gqe-030",
+      "subject": "数学1A",
+      "unit": "グラフと2次方程式",
+      "difficulty": "exam",
+      "question": "y = x² + mx + n のグラフが (-1, 0) と (3, 0) を通るとき m と n の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "m = -2, n = -3"
+        },
+        {
+          "label": "B",
+          "text": "m = 2, n = 3"
+        },
+        {
+          "label": "C",
+          "text": "m = -2, n = 3"
+        },
+        {
+          "label": "D",
+          "text": "m = 4, n = -1"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

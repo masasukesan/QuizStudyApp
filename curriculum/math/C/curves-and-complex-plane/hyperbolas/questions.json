@@ -1,0 +1,786 @@
+{
+  "subject": "数学C",
+  "unit": "双曲線",
+  "questions": [
+    {
+      "id": "hy-001",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 x²/9 - y²/4 = 1 の焦点の座標として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(±√13, 0)(c² = 9+4 = 13)"
+        },
+        {
+          "label": "B",
+          "text": "(±3, 0)(a の値)"
+        },
+        {
+          "label": "C",
+          "text": "(±√5, 0)(c² = 9-4)"
+        },
+        {
+          "label": "D",
+          "text": "(0, ±√13)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-002",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 x²/a² - y²/b² = 1(a > 0、b > 0)の漸近線として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = ±(b/a)x"
+        },
+        {
+          "label": "B",
+          "text": "y = ±(a/b)x"
+        },
+        {
+          "label": "C",
+          "text": "x = ±a"
+        },
+        {
+          "label": "D",
+          "text": "y = ±b"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-003",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線の定義「2焦点からの距離の差の絶対値が一定(2a)」で楕円と区別する特徴として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "差の絶対値 |PF₁-PF₂| = 2a が一定(楕円は和が一定)"
+        },
+        {
+          "label": "B",
+          "text": "2 焦点からの距離の和が 2a 一定は楕円の定義であり双曲線と混同している"
+        },
+        {
+          "label": "C",
+          "text": "積 PF₁×PF₂ = a² が一定"
+        },
+        {
+          "label": "D",
+          "text": "比 PF₁/PF₂ = a が一定"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-004",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 x²/4 - y²/9 = 1 の x 軸との交点として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(±2, 0)(y=0 代入 x²/4=1 → x=±2)"
+        },
+        {
+          "label": "B",
+          "text": "(±3, 0)(b の値と混同)"
+        },
+        {
+          "label": "C",
+          "text": "(±√13, 0)(焦点)"
+        },
+        {
+          "label": "D",
+          "text": "x 軸との交点なし(双曲線は x 軸と交わらない)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-005",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 x²/a² - y²/b² = 1 の離心率 e = c/a(c = √(a²+b²))の範囲として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "e > 1(楕円 0<e<1 より大きい)"
+        },
+        {
+          "label": "B",
+          "text": "0 < e < 1(楕円と同じ)"
+        },
+        {
+          "label": "C",
+          "text": "e = 1(常に)"
+        },
+        {
+          "label": "D",
+          "text": "e ≧ 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-006",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "直角双曲線 xy = k(k ≠ 0)の漸近線として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 0(y 軸)と y = 0(x 軸)"
+        },
+        {
+          "label": "B",
+          "text": "y = x と y = -x"
+        },
+        {
+          "label": "C",
+          "text": "x = k と y = k"
+        },
+        {
+          "label": "D",
+          "text": "漸近線は存在しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-007",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 y²/a² - x²/b² = 1 の頂点として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(0, ±a)(y 軸方向が主軸)"
+        },
+        {
+          "label": "B",
+          "text": "(±a, 0)"
+        },
+        {
+          "label": "C",
+          "text": "(0, ±b)"
+        },
+        {
+          "label": "D",
+          "text": "(±b, ±a)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-008",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 x²/9-y²/4=1 と x²/4-y²/9=1 の漸近線の関係として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2本ずつの漸近線が互いに垂直(直角双曲線のペア)"
+        },
+        {
+          "label": "B",
+          "text": "同じ漸近線を持つ"
+        },
+        {
+          "label": "C",
+          "text": "一方の漸近線が他方の双曲線"
+        },
+        {
+          "label": "D",
+          "text": "漸近線の傾きが等しい"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-009",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 x² - y² = 1 の漸近線 y = ±x と双曲線の関係として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "双曲線は漸近線に無限に近づくが交わらない"
+        },
+        {
+          "label": "B",
+          "text": "漸近線は双曲線の一部"
+        },
+        {
+          "label": "C",
+          "text": "双曲線と漸近線は接する"
+        },
+        {
+          "label": "D",
+          "text": "双曲線は漸近線を 2 点で交わる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-010",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "basic",
+      "question": "双曲線 x²/a²-y²/b²=1 の共役双曲線(conjugate hyperbola)の方程式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y²/b²-x²/a²=1(x と y を入れ替えた形)"
+        },
+        {
+          "label": "B",
+          "text": "x²/b²-y²/a²=1"
+        },
+        {
+          "label": "C",
+          "text": "x²/a²+y²/b²=1(楕円)"
+        },
+        {
+          "label": "D",
+          "text": "-x²/a²+y²/b²=1(同じ式)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-011",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 x²/4-y²/9=1 と直線 y = x-1 の交点を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²/4-(x-1)²/9=1 → 9x²-4(x-1)²=36 → 5x²+8x-40=0"
+        },
+        {
+          "label": "B",
+          "text": "x²/4-y²/9=1 に y=0 として x=±2(直線を無視)"
+        },
+        {
+          "label": "C",
+          "text": "y=x-1 を x に代入 (x-1)²/4-x²/9=1(順序逆)"
+        },
+        {
+          "label": "D",
+          "text": "5x²+8x-40=0 の判別式でまず確認 D=64+800=864>0 → 2交点"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-012",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 x²/9-y²/4=1 の漸近線 y=(2/3)x に平行で、点 (6, 0) を通る直線と双曲線の交点数を判別式で求めるとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=(2/3)(x-6)を代入 → 判別式を計算 → 交点の個数確認"
+        },
+        {
+          "label": "B",
+          "text": "漸近線に平行な直線は双曲線と交わらない(常に 0 点)"
+        },
+        {
+          "label": "C",
+          "text": "常に 2 交点"
+        },
+        {
+          "label": "D",
+          "text": "接する(D=0)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-013",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 x²-y²=4 上の点 (3, √5) での接線の方程式を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "公式 xx₀/a²-yy₀/b²=1 に代入: 3x/4-√5 y/4=1 → 3x-√5 y=4"
+        },
+        {
+          "label": "B",
+          "text": "微分 2x-2yy'=0 → y' = x/y = 3/√5。接線 y-√5=(3/√5)(x-3)(同じ結果)"
+        },
+        {
+          "label": "C",
+          "text": "接線の傾き = -y₀/x₀ = -√5/3(符号ミス)"
+        },
+        {
+          "label": "D",
+          "text": "3x+√5 y=4(+ が正しいと誤解)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-014",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 xy = 12 と直線 y = x + k の交点について、k = 0 のとき交点を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "xy=12、y=x → x²=12 → x=±2√3、y=±2√3。交点 (2√3, 2√3)、(-2√3, -2√3)"
+        },
+        {
+          "label": "B",
+          "text": "xy=12 と y=x を引いて xy-x=12-x → 解けない"
+        },
+        {
+          "label": "C",
+          "text": "y=0 のとき xy=0 ≠12(誤り)"
+        },
+        {
+          "label": "D",
+          "text": "x=y=√12(計算ミス)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-015",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 x²/a²-y²/b²=1 の焦点 F₁(-c,0)、F₂(c,0) と双曲線上の点 P について、P が右側の枝にある場合の |PF₁-PF₂| を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P が右側の枝 → PF₁>PF₂ → PF₁-PF₂=2a(定義より)"
+        },
+        {
+          "label": "B",
+          "text": "PF₁-PF₂=2c(焦点間距離)"
+        },
+        {
+          "label": "C",
+          "text": "P が右側なら PF₂-PF₁=2a"
+        },
+        {
+          "label": "D",
+          "text": "|PF₁-PF₂|=2b(誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-016",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 4x²-9y²=36 を標準形に変換する途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "両辺を 36 で割って x²/9-y²/4=1(a=3、b=2)"
+        },
+        {
+          "label": "B",
+          "text": "x²/4-y²/9=1(割り方を逆にした誤り)"
+        },
+        {
+          "label": "C",
+          "text": "x²-y²=36(係数の処理ミス)"
+        },
+        {
+          "label": "D",
+          "text": "x²/36-y²/36=1(等分した誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-017",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線の漸近線 y=(b/a)x と双曲線 x²/a²-y²/b²=1 の距離を確認するとき、漸近線は双曲線に「近づくが交わらない」ことの計算確認として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=bx/a を双曲線に代入 → x²/a²-x²/a²=0 ≠ 1 → 解なし(漸近線は双曲線上の点を通らない)"
+        },
+        {
+          "label": "B",
+          "text": "漸近線は双曲線の一部(特定の点で一致)"
+        },
+        {
+          "label": "C",
+          "text": "漸近線と双曲線は原点で交わる"
+        },
+        {
+          "label": "D",
+          "text": "漸近線 y=(b/a)x は双曲線に接する(D=0)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-018",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "直角双曲線 xy = k(k>0)を標準形 X²/2-Y²/2=k に変換する置換として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = (X+Y)/√2、y = (X-Y)/√2(45° 回転)→ xy = (X²-Y²)/2 = k"
+        },
+        {
+          "label": "B",
+          "text": "X = x+y、Y = x-y(スケール変換)"
+        },
+        {
+          "label": "C",
+          "text": "X = x/√k、Y = y/√k(正規化)"
+        },
+        {
+          "label": "D",
+          "text": "xy = c の形で c が定数なので変換不要という誤解"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-019",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 x²/4-y²/9=1 と漸近線で囲まれた領域について、漸近線の間(双曲線の内側)の点 P(0, 1) が双曲線の「内部」にあるか確認する式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0/4-1/9=0-1/9=-1/9 < 1 → P は双曲線の内部(内側)"
+        },
+        {
+          "label": "B",
+          "text": "0+1 = 1 なので楕円上(誤り)"
+        },
+        {
+          "label": "C",
+          "text": "P(0,1) は双曲線の外部(計算違い)"
+        },
+        {
+          "label": "D",
+          "text": "双曲線の「内部」は定義されない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-020",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "standard",
+      "question": "双曲線 x²/a²-y²/b²=1 の外部の点 (x₀, y₀) から引いた接線の本数を判定するとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外部(x₀²/a²-y₀²/b²>1)からは接線 2 本(楕円の外部と同様)"
+        },
+        {
+          "label": "B",
+          "text": "双曲線の外部からは接線 0 本"
+        },
+        {
+          "label": "C",
+          "text": "双曲線の外部からは接線は常に 1 本"
+        },
+        {
+          "label": "D",
+          "text": "2 枝があるので最大 4 本"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-021",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "双曲線の定義から標準形 x²/a²-y²/b²=1 を導く証明として正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|PF₁-PF₂|=2a として、右側 PF₁-PF₂=2a のとき √((x+c)²+y²)-√((x-c)²+y²)=2a → 移項して 2 乗 → 整理 → x²/a²-y²/(c²-a²)=1 → b²=c²-a²"
+        },
+        {
+          "label": "B",
+          "text": "楕円の式の符号を変える"
+        },
+        {
+          "label": "C",
+          "text": "直交座標から極座標変換"
+        },
+        {
+          "label": "D",
+          "text": "数学的帰納法で n 個の点から示す"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-022",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "双曲線の接線公式 xx₀/a²-yy₀/b²=1 を証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "陰関数微分 2x/a²-2yy'/b²=0 → y'=b²x/(a²y)。点 (x₀,y₀) で y-y₀=(b²x₀)/(a²y₀)(x-x₀) → 整理して xx₀/a²-yy₀/b²=1"
+        },
+        {
+          "label": "B",
+          "text": "楕円の接線公式の符号を変える(直感)"
+        },
+        {
+          "label": "C",
+          "text": "双曲線の定義から直接導く"
+        },
+        {
+          "label": "D",
+          "text": "曲線上の点なので接線方程式に代入して確認するだけで証明完了とする誤解"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-023",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "双曲線 x²/a²-y²/b²=1 の漸近線を標準形から導く証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "双曲線の方程式を y について解くと y = ±(b/a)√(x²-a²) = ±(b/a)x√(1-a²/x²)。x→∞ で √(1-a²/x²)→1 → y → ±(b/a)x"
+        },
+        {
+          "label": "B",
+          "text": "x²/a²-y²/b²=0 を解くと y=±(b/a)x(漸近線はこの零化式)"
+        },
+        {
+          "label": "C",
+          "text": "接線が極限で漸近線に収束する(接線の傾きが ±b/a)"
+        },
+        {
+          "label": "D",
+          "text": "漸近線は定義なので証明不要"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-024",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "直角双曲線 xy = c² の接線が座標軸と作る三角形の面積が一定(2c²)であることの証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "点 (ct, c/t) での接線 x/t²+y/(c/t)²×c=c... → 整理 → x切片 = 2ct、y切片 = 2c/t。面積 = (1/2)×2ct×2c/t = 2c²"
+        },
+        {
+          "label": "B",
+          "text": "全ての接線の切片の積が一定(誤り)"
+        },
+        {
+          "label": "C",
+          "text": "面積は t に依存して変わる"
+        },
+        {
+          "label": "D",
+          "text": "直角双曲線の接線は常に座標軸と平行"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-025",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "双曲線 x²/a²-y²/b²=1 の 2 本の漸近線が互いに垂直になる(直角双曲線)条件を証明するとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "漸近線 y=(b/a)x と y=-(b/a)x の傾きの積 = -(b/a)² = -1 ↔ b² = a² ↔ a = b"
+        },
+        {
+          "label": "B",
+          "text": "c = √2 × a のとき直角双曲線"
+        },
+        {
+          "label": "C",
+          "text": "常に漸近線は垂直"
+        },
+        {
+          "label": "D",
+          "text": "a が b より常に大きいため傾きは 1 以上になるという誤解"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-026",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "双曲線の焦点弦(焦点を通る弦)の性質「1/r₁+1/r₂=2a/b²」(r₁、r₂ は弦の 2 端から焦点への距離)を証明するとき、正しい出発点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "極形式 r=b²/a/(e cosθ-1)(右焦点)を用いて、θ と π-θ での r を求め和の逆数を計算"
+        },
+        {
+          "label": "B",
+          "text": "楕円の焦点弦公式と符号が逆"
+        },
+        {
+          "label": "C",
+          "text": "弦が y 軸に平行な場合のみ計算可能"
+        },
+        {
+          "label": "D",
+          "text": "焦点弦の公式は双曲線では成立しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-027",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "2 直線 y=(b/a)x+c と y=-(b/a)x+d が双曲線 x²/a²-y²/b²=1 の漸近線に平行なとき、2 直線の交点が双曲線上(または内外)にある条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "交点座標を求めて双曲線の方程式に代入 → cd/(-b²/a²)=1 などの条件が得られる"
+        },
+        {
+          "label": "B",
+          "text": "漸近線に平行な直線の交点は常に双曲線上"
+        },
+        {
+          "label": "C",
+          "text": "漸近線に平行な直線同士は交わらない"
+        },
+        {
+          "label": "D",
+          "text": "双曲線の内外判定は不可能"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-028",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "楕円 x²/a²+y²/b²=1 と双曲線 x²/a²-y²/b²=1 が直交する(各交点で接線が垂直)ことの証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "交点 (x₀,y₀) での楕円接線の傾き m₁=-b²x₀/(a²y₀)、双曲線接線の傾き m₂=b²x₀/(a²y₀)。積 m₁m₂ = -(b⁴x₀²)/(a⁴y₀²)。交点条件から x₀²/a²+y₀²/b²=1 かつ x₀²/a²-y₀²/b²=1 → y₀=0 または特定条件 → -1 を確認"
+        },
+        {
+          "label": "B",
+          "text": "楕円と双曲線の焦点が一致するとき直交する"
+        },
+        {
+          "label": "C",
+          "text": "直交は a = b のときのみ"
+        },
+        {
+          "label": "D",
+          "text": "楕円と双曲線は一般に直交しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-029",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "双曲線 x²/4-y²/9=1 の焦点 F₂(√13,0) から双曲線上の点 P への距離の最小値を求める証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P が右側の枝 → PF₁-PF₂=2a=4 → PF₂=PF₁-4。PF₁ ≧ F₁F₂-PF₂(三角不等式)が使えないので定義から PF₁=√13+PF₂のとき...。最小は F₂と頂点の距離 c-a=√13-2"
+        },
+        {
+          "label": "B",
+          "text": "最小値は b = 3"
+        },
+        {
+          "label": "C",
+          "text": "最小値は c = √13"
+        },
+        {
+          "label": "D",
+          "text": "最小値は a = 2(頂点での焦点距離)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "hy-030",
+      "subject": "数学C",
+      "unit": "双曲線",
+      "difficulty": "exam",
+      "question": "x²/a²-y²/b²=1 と x²/a²-y²/b²=k(k≠1)の関係(同じ漸近線を持つ双曲線族)の証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²/a²-y²/b²=k → X=x/a、Y=y/b と置換すると X²-Y²=k。漸近線は X=±Y → y=±(b/a)x(k に無関係)"
+        },
+        {
+          "label": "B",
+          "text": "k の値が変わると漸近線も変わる"
+        },
+        {
+          "label": "C",
+          "text": "k > 0 と k < 0 では全く異なる漸近線"
+        },
+        {
+          "label": "D",
+          "text": "k = 0 のとき漸近線は存在しない"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

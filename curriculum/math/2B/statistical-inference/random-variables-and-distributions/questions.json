@@ -1,0 +1,922 @@
+{
+  "questions": [
+    {
+      "id": "rvd-001",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "確率変数 X の期待値 E(X) の定義として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中央値"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=Σxₖ×P(X=xₖ)(各値と確率の積の総和)"
+        },
+        {
+          "label": "C",
+          "text": "最も確率が高い値"
+        },
+        {
+          "label": "D",
+          "text": "最大値と最小値の平均"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "期待値の定義"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-002",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X が 1,2,3 それぞれ確率 1/3 でとるとき E(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X)=3"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=1×(1/3)=1/3"
+        },
+        {
+          "label": "C",
+          "text": "E(X)=1×(1/3)+2×(1/3)+3×(1/3)=2"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=1+2+3=6"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "期待値の計算"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-003",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "確率変数 X の分散 V(X) の定義として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(X)=E(X)²"
+        },
+        {
+          "label": "B",
+          "text": "V(X)=E(X−μ)"
+        },
+        {
+          "label": "C",
+          "text": "V(X)=E((X−μ)²)=E(X²)−(E(X))²"
+        },
+        {
+          "label": "D",
+          "text": "V(X)=E(X²)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "分散の定義"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-004",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標準偏差 σ(X) と分散 V(X) の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "σ(X)=V(X)²"
+        },
+        {
+          "label": "B",
+          "text": "σ(X)=√V(X)(分散の正の平方根)"
+        },
+        {
+          "label": "C",
+          "text": "σ(X)=V(X)/2"
+        },
+        {
+          "label": "D",
+          "text": "σ(X)=V(X)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "標準偏差"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-005",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "E(aX+b) を a,b,E(X) で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(aX+b)=aE(X)"
+        },
+        {
+          "label": "B",
+          "text": "E(aX+b)=aE(X+b)"
+        },
+        {
+          "label": "C",
+          "text": "E(aX+b)=aE(X)+b(期待値の線形性)"
+        },
+        {
+          "label": "D",
+          "text": "E(aX+b)=a²E(X)+b"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "期待値の線形性"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-006",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "V(aX+b) を a,V(X) で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(aX+b)=a²V(X)(定数 b は分散に影響しない)"
+        },
+        {
+          "label": "B",
+          "text": "V(aX+b)=aV(X)"
+        },
+        {
+          "label": "C",
+          "text": "V(aX+b)=aV(X)+b²"
+        },
+        {
+          "label": "D",
+          "text": "V(aX+b)=a²V(X)+b"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散の変換"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-007",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "確率変数 X の確率分布表で全確率の和として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Σ P(X=xₖ)=E(X)"
+        },
+        {
+          "label": "B",
+          "text": "Σ P(X=xₖ) は任意"
+        },
+        {
+          "label": "C",
+          "text": "Σ P(X=xₖ)=1(全確率は 1)"
+        },
+        {
+          "label": "D",
+          "text": "Σ P(X=xₖ)=0"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "確率の和",
+        "1"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-008",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X=1,2 が確率 p,1−p のとき E(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X)=1×p+2×(1−p)=2−p"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=2p"
+        },
+        {
+          "label": "C",
+          "text": "E(X)=1+p"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=p"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "期待値",
+        "文字確率"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-009",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "独立な確率変数 X,Y の期待値 E(X+Y) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X+Y)=E(X)×E(Y)"
+        },
+        {
+          "label": "B",
+          "text": "E(X+Y)=E(X)+E(Y)のみ独立なら成立"
+        },
+        {
+          "label": "C",
+          "text": "E(X+Y)=E(X)−E(Y)"
+        },
+        {
+          "label": "D",
+          "text": "E(X+Y)=E(X)+E(Y)(独立に関わらず成立)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "期待値の加法性"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-010",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "独立な X,Y の V(X+Y) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(X+Y)=V(X)+V(Y)(独立のとき成立)"
+        },
+        {
+          "label": "B",
+          "text": "V(X+Y)=V(X)+V(Y)+2Cov(X,Y)"
+        },
+        {
+          "label": "C",
+          "text": "V(X+Y)=V(X)×V(Y)"
+        },
+        {
+          "label": "D",
+          "text": "V(X+Y)=(V(X)+V(Y))²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散の加法性",
+        "独立"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-011",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X の確率分布：P(X=0)=1/4、P(X=1)=1/2、P(X=2)=1/4 のとき V(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(X)=1"
+        },
+        {
+          "label": "B",
+          "text": "V(X)=3/4"
+        },
+        {
+          "label": "C",
+          "text": "V(X)=1/4"
+        },
+        {
+          "label": "D",
+          "text": "V(X)=1/2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "分散の計算"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-012",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X の期待値が 3、分散が 4 のとき Y=2X−1 の期待値と分散として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(Y)=7、V(Y)=8"
+        },
+        {
+          "label": "B",
+          "text": "E(Y)=5、V(Y)=8"
+        },
+        {
+          "label": "C",
+          "text": "E(Y)=2×3−1=5、V(Y)=4×4=16"
+        },
+        {
+          "label": "D",
+          "text": "E(Y)=5、V(Y)=4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "線形変換",
+        "期待値と分散"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-013",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "E(X²) と (E(X))² の大小関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X²)=(E(X))²"
+        },
+        {
+          "label": "B",
+          "text": "大小関係は決まらない"
+        },
+        {
+          "label": "C",
+          "text": "E(X²)≤(E(X))²"
+        },
+        {
+          "label": "D",
+          "text": "E(X²)≥(E(X))²(等号は X が定数のとき)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "分散",
+        "E(X²)≥(E(X))²"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-014",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X が 0 または 1 の値をとり P(X=1)=p のとき V(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(X)=p²"
+        },
+        {
+          "label": "B",
+          "text": "V(X)=p"
+        },
+        {
+          "label": "C",
+          "text": "V(X)=p(1−p)"
+        },
+        {
+          "label": "D",
+          "text": "V(X)=p(1−p)/2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "ベルヌーイ分布",
+        "分散"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-015",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "5 つの独立な確率変数 X₁,…,X₅ が同じ分布(E=2,V=1)のとき E(X₁+…+X₅) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E=10/5=2"
+        },
+        {
+          "label": "B",
+          "text": "E=5"
+        },
+        {
+          "label": "C",
+          "text": "E=2×5=10"
+        },
+        {
+          "label": "D",
+          "text": "E=2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "独立同分布",
+        "期待値"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-016",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X の確率分布が表で与えられ、E(X)=3 と分かっている。E(X²+2X−1) として正しいものはどれか(E(X²)=10 と仮定)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(E(X))²+2E(X)−1=9+6−1=14"
+        },
+        {
+          "label": "B",
+          "text": "E(X²)+2E(X)−1=10+6−1=15"
+        },
+        {
+          "label": "C",
+          "text": "E(X²+2X−1)=E(X)²+2=9+2=11"
+        },
+        {
+          "label": "D",
+          "text": "E(X)²−1=8"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "期待値の線形性"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-017",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "独立な X,Y で V(X−Y) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(X−Y)=(V(X)−V(Y))²"
+        },
+        {
+          "label": "B",
+          "text": "V(X−Y)=|V(X)−V(Y)|"
+        },
+        {
+          "label": "C",
+          "text": "V(X−Y)=V(X)+V(Y)(独立のとき V(−Y)=V(Y))"
+        },
+        {
+          "label": "D",
+          "text": "V(X−Y)=V(X)−V(Y)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "分散の加法性",
+        "差"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-018",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "確率 p のコインを n 回投げて表が出る回数 X の期待値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X)=np(1−p)"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=n/p"
+        },
+        {
+          "label": "C",
+          "text": "E(X)=n(1−p)"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=np(二項分布の期待値)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "二項分布",
+        "期待値"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-019",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "確率変数 X の標準化(標準化変数)Z の定義として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=X/μ"
+        },
+        {
+          "label": "B",
+          "text": "Z=X−σ"
+        },
+        {
+          "label": "C",
+          "text": "Z=(X−μ)/σ(μ=E(X)、σ=√V(X))"
+        },
+        {
+          "label": "D",
+          "text": "Z=(X−σ)/μ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "標準化",
+        "Z=(X-μ)/σ"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-020",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "標準化された変数 Z の期待値と分散として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(Z)=μ、V(Z)=σ"
+        },
+        {
+          "label": "B",
+          "text": "E(Z)=1、V(Z)=0"
+        },
+        {
+          "label": "C",
+          "text": "E(Z)=0、V(Z)=σ"
+        },
+        {
+          "label": "D",
+          "text": "E(Z)=0、V(Z)=1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "標準化後の性質"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-021",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X の分散 V(X)=2 のとき V(3X+5) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(3X+5)=6"
+        },
+        {
+          "label": "B",
+          "text": "V(3X+5)=9×2+5=23"
+        },
+        {
+          "label": "C",
+          "text": "V(3X+5)=3×2+5=11"
+        },
+        {
+          "label": "D",
+          "text": "V(3X+5)=3²×2=18"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "分散の変換",
+        "係数の2乗"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-022",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "10 回コインを投げて表が 3 回出る確率(p=1/2)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "10C3×(1/2)³×(1/2)⁷=120×(1/2)¹⁰=120/1024=15/128"
+        },
+        {
+          "label": "B",
+          "text": "10C3/10=12"
+        },
+        {
+          "label": "C",
+          "text": "(1/2)¹⁰=1/1024"
+        },
+        {
+          "label": "D",
+          "text": "3/10"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項確率",
+        "計算"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-023",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X と Y が独立でそれぞれ E(X)=2,V(X)=3、E(Y)=4,V(Y)=5 のとき V(2X−3Y) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(2X−3Y)=2V(X)+3V(Y)=21"
+        },
+        {
+          "label": "B",
+          "text": "V(2X−3Y)=(2−3)²(V(X)+V(Y))=8"
+        },
+        {
+          "label": "C",
+          "text": "V(2X−3Y)=4V(X)+9V(Y)=12+45=57"
+        },
+        {
+          "label": "D",
+          "text": "V(2X−3Y)=4×3−9×5=−33"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "分散の変換",
+        "独立"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-024",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X の分布が E(X)=μ、V(X)=σ² のとき E((X−μ)²/σ²) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E((X−μ)²/σ²)=V(X)/σ²=1"
+        },
+        {
+          "label": "B",
+          "text": "E((X−μ)²/σ²)=0"
+        },
+        {
+          "label": "C",
+          "text": "E((X−μ)²/σ²)=σ²"
+        },
+        {
+          "label": "D",
+          "text": "E((X−μ)²/σ²)=μ²/σ²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標準化",
+        "分散"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-025",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ の分布の名称と分散として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "二項分布 B(n,p)、分散 V=np(1−p)"
+        },
+        {
+          "label": "B",
+          "text": "ポアソン分布、分散 np"
+        },
+        {
+          "label": "C",
+          "text": "二項分布 B(n,p)、分散 np"
+        },
+        {
+          "label": "D",
+          "text": "正規分布、分散 np"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項分布",
+        "分散"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-026",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X の値が a=1,2,3 で P(X=1)=k、P(X=2)=2k、P(X=3)=3k のとき E(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X)=2"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=7/6"
+        },
+        {
+          "label": "C",
+          "text": "E(X)=3"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=7/3"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "確率の決定",
+        "期待値"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-027",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "独立な X,Y に対して E(XY)=E(X)E(Y) が成立するとき X,Y の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "X=Y"
+        },
+        {
+          "label": "B",
+          "text": "X と Y は相関が 0"
+        },
+        {
+          "label": "C",
+          "text": "X と Y が独立(互いに独立のとき成立)"
+        },
+        {
+          "label": "D",
+          "text": "X と Y の和が定数"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "独立と期待値の積"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-028",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X の期待値が 5、分散が 4 のとき P(1≤X≤9) の下界はチェビシェフの不等式から何か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(1≤X≤9)≥3/4"
+        },
+        {
+          "label": "B",
+          "text": "P(1≤X≤9)≥1/2"
+        },
+        {
+          "label": "C",
+          "text": "P(1≤X≤9)≥0"
+        },
+        {
+          "label": "D",
+          "text": "P(1≤X≤9)≥1/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェビシェフ不等式",
+        "P(|X-μ|≤k)≥1-V/k²"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-029",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n 個の独立同分布 X₁,…,Xₙ(期待値 μ、分散 σ²)の標本平均 X̄ の期待値と分散として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X̄)=nμ、V(X̄)=σ²/n"
+        },
+        {
+          "label": "B",
+          "text": "E(X̄)=μ/n、V(X̄)=σ²/n"
+        },
+        {
+          "label": "C",
+          "text": "E(X̄)=μ、V(X̄)=σ²/n"
+        },
+        {
+          "label": "D",
+          "text": "E(X̄)=μ、V(X̄)=σ²"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "標本平均",
+        "期待値と分散"
+      ],
+      "subunit": "random-variables-and-distributions"
+    },
+    {
+      "id": "rvd-030",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "E(X)=0、V(X)=1 の確率変数 X に対して Y=3X+2 の分散として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(Y)=3"
+        },
+        {
+          "label": "B",
+          "text": "V(Y)=3V(X)+2=5"
+        },
+        {
+          "label": "C",
+          "text": "V(Y)=3²V(X)=9"
+        },
+        {
+          "label": "D",
+          "text": "V(Y)=9+4=13"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "分散の変換"
+      ],
+      "subunit": "random-variables-and-distributions"
+    }
+  ]
+}

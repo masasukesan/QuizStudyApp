@@ -1,0 +1,106 @@
+{
+  "unit_id": "polynomial-operations",
+  "unit_name_jp": "整式の加法・減法・乗法",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "add-subtract",
+      "description": "整式の加法・減法。同類項をまとめる。",
+      "thinking_process": [
+        "同類項（次数と文字が同じ項）を識別する",
+        "係数どうしを足したり引いたりする",
+        "結果を降べきの順に整理する"
+      ],
+      "common_mistakes": [
+        "異なる次数の項を足してしまう（x² と x を足すなど）",
+        "引き算のとき括弧内の符号を全て反転し忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "multiply-monomial",
+      "description": "単項式どうし・単項式と多項式の乗法。指数法則を使う。",
+      "thinking_process": [
+        "係数どうしを掛ける",
+        "文字の指数を足す（同じ文字なら）",
+        "分配法則で括弧を展開する"
+      ],
+      "common_mistakes": [
+        "異なる文字の指数を混同して足す",
+        "分配し忘れる項がある"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "expand-formulas",
+      "description": "展開公式の適用。(a+b)² = a²+2ab+b²、(a+b)(a-b) = a²-b²、(a+b)(a+c) = a²+(b+c)a+bc など。",
+      "thinking_process": [
+        "式のパターンを識別する（完全平方か、差の平方か、それ以外か）",
+        "対応する公式を選んで代入する",
+        "展開後に同類項をまとめる"
+      ],
+      "common_mistakes": [
+        "(a+b)² = a²+b²（2ab を忘れる）",
+        "符号の扱いで (a-b)² の -2ab を +2ab にする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "expand-triple",
+      "description": "3つ以上の式の積の展開。順番に展開するか、工夫して計算量を減らす。",
+      "thinking_process": [
+        "2つずつ順番に展開する",
+        "またはかたまりを見つけて置き換えを利用する",
+        "全項が揃っているか確認する"
+      ],
+      "common_mistakes": [
+        "一部の組み合わせを展開し忘れる",
+        "途中の同類項整理でミスする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "coefficient-extraction",
+      "description": "展開後の特定の項の係数を求める。全て展開しなくても必要な項だけ計算できる。",
+      "thinking_process": [
+        "求める項が生じる組み合わせを特定する",
+        "その組み合わせの係数を計算する",
+        "全展開が必要な場合は行う"
+      ],
+      "common_mistakes": [
+        "求める次数の項を生む組み合わせを一部見落とす",
+        "係数の計算で符号を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "identity-application",
+      "description": "恒等式の考え方を使う問題。両辺の係数比較で未知数を決定する。",
+      "thinking_process": [
+        "左辺を展開して整理する",
+        "両辺の同次数の係数を等置する",
+        "連立方程式を解く"
+      ],
+      "common_mistakes": [
+        "全ての次数の係数を等置しない",
+        "係数比較の際に符号を誤る"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "advanced-expansion",
+      "description": "複雑な展開・式の変形。置き換えや公式の組み合わせを使う高度な問題。",
+      "thinking_process": [
+        "式の構造を観察してパターンを見つける",
+        "適切な置き換えや公式を選ぶ",
+        "段階的に展開・整理する"
+      ],
+      "common_mistakes": [
+        "複数回の展開で途中の項を落とす",
+        "係数の掛け忘れ"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

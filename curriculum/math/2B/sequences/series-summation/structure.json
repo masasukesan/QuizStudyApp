@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "sequences",
+  "subunit": "series-summation",
+  "name": "数列の和",
+  "en": "Series Summation",
+  "questionCount": 30,
+  "source_notes": "センター試験では数列第3問（選択）で数列の和・Σ記号が1999・2001・2004・2007・2011・2014・2017年度に出題されている。共通テスト2021〜2024年でも第3問に Σ の計算・部分分数分解・群数列が確認される。参照：電数図書館 https://www.densu.jp/",
+  "exam_occurrence": {
+    "center_test": "第3問（数列選択）で等差・等比の和の公式、Σkの計算、部分分数分解、k(k+1)型の和が頻出。群数列との融合も定番。",
+    "kyotsu_test": "2021〜2024年の第3問に Σk²・Σk³ の利用、部分分数分解 1/(k(k+1))=1/k−1/(k+1)、群数列・格子点の数え上げとの融合が含まれる。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年出題。Σの公式適用、部分分数分解、群数列、自然数の累乗和（Σk・Σk²・Σk³）が必出。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "Σ記号の定義と基本計算",
+      "description": "$\\sum_{k=1}^{n} a_k = a_1 + a_2 + \\cdots + a_n$ の定義と、Σの線形性（定数倍・和）を使った計算。",
+      "typical_question": "$\\sum_{k=1}^{n} (2k+1)$ を計算せよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "等差数列の和の公式",
+      "description": "$S_n = \\frac{n(a_1 + a_n)}{2} = \\frac{n\\{2a_1+(n-1)d\\}}{2}$ を使った和の計算。",
+      "typical_question": "初項3・公差4の等差数列の最初の20項の和を求めよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "等比数列の和の公式",
+      "description": "$S_n = \\frac{a(r^n-1)}{r-1}$（$r \\neq 1$）を使った和の計算。$r=1$ の場合は $S_n = na$。",
+      "typical_question": "初項2・公比3の等比数列の最初の5項の和を求めよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "$\\sum k$・$\\sum k^2$・$\\sum k^3$ の公式",
+      "description": "$\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$、$\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$、$\\sum_{k=1}^{n} k^3 = \\left(\\frac{n(n+1)}{2}\\right)^2$ の適用。",
+      "typical_question": "$\\sum_{k=1}^{n} k^2$ を公式で求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "部分分数分解（$1/(k(k+1))$ 型）",
+      "description": "$\\frac{1}{k(k+1)} = \\frac{1}{k} - \\frac{1}{k+1}$ に分解し、テレスコーピングで和を求める。",
+      "typical_question": "$\\sum_{k=1}^{n} \\frac{1}{k(k+1)}$ を求めよ。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "basic",
+      "title": "$k \\cdot r^{k-1}$ 型の和（等比 × 等差）",
+      "description": "$S = \\sum_{k=1}^{n} k r^{k-1}$ は $rS$ を引いてテレスコーピングする「差を取る法」で求める。",
+      "typical_question": "$\\sum_{k=1}^{n} k \\cdot 2^{k-1}$ を求めよ。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "basic",
+      "title": "末項・項数の確認",
+      "description": "等差・等比数列で「第何項まで足すか」を確定する。不等式で末項の番号を求める手順。",
+      "typical_question": "初項5・公差3の等差数列で、100以下の全項の和を求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "basic",
+      "title": "Σの上下限の変換（変数置換）",
+      "description": "$\\sum_{k=2}^{n}$ を $\\sum_{k=1}^{n}$ に変換する際の補正項の計算。$j=k-1$ の置換など。",
+      "typical_question": "$\\sum_{k=2}^{n} k(k-1)$ を $\\sum_{k=1}^{n}$ の形に直して計算せよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "basic",
+      "title": "一般項から和を求める（逆算）",
+      "description": "$S_n$ と $a_n$ の関係 $a_n = S_n - S_{n-1}$（$n \\geq 2$）と $a_1 = S_1$ を利用する。",
+      "typical_question": "$S_n = n^2 + 3n$ のとき一般項 $a_n$ を求めよ。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "basic",
+      "title": "群数列（基本）",
+      "description": "数列をグループ分けし、第 $m$ 群の先頭の通し番号・群内の和・全体の和を求める基本的な手順。",
+      "typical_question": "1, 2,3, 4,5,6, 7,8,9,10, … のように第 $m$ 群に $m$ 個並ぶ数列で、第4群の和を求めよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "standard",
+      "title": "部分分数分解（$1/(k(k+1)(k+2))$ 型）",
+      "description": "$\\frac{1}{k(k+1)(k+2)} = \\frac{1}{2}\\left(\\frac{1}{k(k+1)} - \\frac{1}{(k+1)(k+2)}\\right)$ に分解してテレスコーピング。",
+      "typical_question": "$\\sum_{k=1}^{n} \\frac{1}{k(k+1)(k+2)}$ を求めよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "standard",
+      "title": "$k^2 \\cdot r^k$ 型の和",
+      "description": "$S = \\sum k^2 r^k$ は「差を取る法」を2回適用して求める。$rS$ との差を作り、$\\sum k r^{k-1}$ に帰着。",
+      "typical_question": "$\\sum_{k=1}^{n} k^2 \\cdot 2^k$ を求めよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "standard",
+      "title": "群数列（第 $m$ 群の通し番号・逆算）",
+      "description": "第 $m$ 群末尾の通し番号 $N_m = \\frac{m(m+1)}{2}$ を使って、「第 $n$ 項が第何群の何番目か」を逆算する。",
+      "typical_question": "上の群数列で第55項が第何群の何番目かを求めよ。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "無限級数の収束・発散と和",
+      "description": "無限等比級数 $\\sum_{n=1}^{\\infty} ar^{n-1} = \\frac{a}{1-r}$（$|r|<1$）の収束条件と和の計算。発散条件も含む。",
+      "typical_question": "$\\sum_{n=1}^{\\infty} \\frac{2}{3^n}$ の和を求めよ。"
+    }
+  ]
+}

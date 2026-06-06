@@ -1,0 +1,947 @@
+{
+  "subject": "math",
+  "unit": "trigonometric-functions",
+  "subunit": "addition-theorems",
+  "questions": [
+    {
+      "id": "at-001",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "sin(α+β) の展開式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sinα cosβ + cosα sinβ"
+        },
+        {
+          "label": "B",
+          "text": "sinα cosβ - cosα sinβ"
+        },
+        {
+          "label": "C",
+          "text": "cosα cosβ - sinα sinβ"
+        },
+        {
+          "label": "D",
+          "text": "cosα cosβ + sinα sinβ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin加法定理",
+        "公式確認",
+        "sin(α+β)"
+      ]
+    },
+    {
+      "id": "at-002",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "cos(α-β) の展開式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosα cosβ - sinα sinβ"
+        },
+        {
+          "label": "B",
+          "text": "cosα cosβ + sinα sinβ"
+        },
+        {
+          "label": "C",
+          "text": "sinα cosβ + cosα sinβ"
+        },
+        {
+          "label": "D",
+          "text": "sinα sinβ - cosα cosβ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "cos加法定理",
+        "公式確認",
+        "cos(α-β)"
+      ]
+    },
+    {
+      "id": "at-003",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "tan(α+β) の展開式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(tanα + tanβ) / (1 - tanα tanβ)"
+        },
+        {
+          "label": "B",
+          "text": "(tanα - tanβ) / (1 + tanα tanβ)"
+        },
+        {
+          "label": "C",
+          "text": "(tanα + tanβ) / (1 + tanα tanβ)"
+        },
+        {
+          "label": "D",
+          "text": "tanα tanβ / (1 - tanα tanβ)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan加法定理",
+        "公式確認",
+        "tan(α+β)"
+      ]
+    },
+    {
+      "id": "at-004",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "sin75° を sin(45°+30°) の加法定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin45°cos30° + cos45°sin30° = √6/4 + √2/4 = (√6+√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "sin45° + sin30° = √2/2 + 1/2 = (√2+1)/2"
+        },
+        {
+          "label": "C",
+          "text": "sin45°cos30° - cos45°sin30° = √6/4 - √2/4 = (√6-√2)/4"
+        },
+        {
+          "label": "D",
+          "text": "cos45°cos30° = (√2/2)(√3/2) = √6/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin加法定理",
+        "sin75°",
+        "特殊角の計算"
+      ]
+    },
+    {
+      "id": "at-005",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "cos75° を cos(45°+30°) の加法定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos45°cos30° + sin45°sin30° = √6/4 + √2/4 = (√6+√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "cos45°cos30° - sin45°sin30° = √6/4 - √2/4 = (√6-√2)/4"
+        },
+        {
+          "label": "C",
+          "text": "cos45° + cos30° = √2/2 + √3/2 = (√2+√3)/2"
+        },
+        {
+          "label": "D",
+          "text": "sin45° × sin30° = (√2/2)(1/2) = √2/4"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "cos加法定理",
+        "cos75°",
+        "特殊角の計算"
+      ]
+    },
+    {
+      "id": "at-006",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "sinA = 3/5、cosB = 5/13(A, B はともに鋭角)のとき、sin(A+B) の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosA = 4/5, sinB = 12/13 として sinAcosB + cosAsinB = 15/65 + 48/65 = 63/65"
+        },
+        {
+          "label": "B",
+          "text": "sinAcosB - cosAsinB = 15/65 - 48/65 = -33/65"
+        },
+        {
+          "label": "C",
+          "text": "cosAcosB - sinAsinB = 20/65 - 36/65 = -16/65"
+        },
+        {
+          "label": "D",
+          "text": "cosAcosB + sinAsinB = 20/65 + 36/65 = 56/65"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin加法定理",
+        "余角の利用",
+        "sin(A+B)の値"
+      ]
+    },
+    {
+      "id": "at-007",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "sinA = √3/2、cosB = 1/2(A, B はともに鋭角)のとき、cos(A+B) の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosA = 1/2, sinB = √3/2 として cosAcosB - sinAsinB = 1/4 - 3/4 = -1/2"
+        },
+        {
+          "label": "B",
+          "text": "cosAcosB + sinAsinB = 1/4 + 3/4 = 1"
+        },
+        {
+          "label": "C",
+          "text": "sinAcosB + cosAsinB = √3/4 + √3/4 = √3/2"
+        },
+        {
+          "label": "D",
+          "text": "cosA - cosB = 1/2 - 1/2 = 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos加法定理",
+        "cos(A+B)の値",
+        "余角の利用"
+      ]
+    },
+    {
+      "id": "at-008",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "tan75° を tan(45°+30°) の加法定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(tan45°+tan30°)/(1-tan45°tan30°) = (1+1/√3)/(1-1/√3) = (√3+1)/(√3-1) = 2+√3"
+        },
+        {
+          "label": "B",
+          "text": "tan45° + tan30° = 1 + √3/3 = (3+√3)/3"
+        },
+        {
+          "label": "C",
+          "text": "(tan45°-tan30°)/(1+tan45°tan30°) = (1-1/√3)/(1+1/√3) = 2-√3"
+        },
+        {
+          "label": "D",
+          "text": "tan45° × tan30° = 1 × √3/3 = √3/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan加法定理",
+        "tan75°",
+        "有理化"
+      ]
+    },
+    {
+      "id": "at-009",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "sinθ = 3/5(θ は鋭角)のとき、sin2θ を倍角公式で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosθ = 4/5 として sin2θ = 2sinθcosθ = 2×(3/5)×(4/5) = 24/25"
+        },
+        {
+          "label": "B",
+          "text": "sin2θ = 2sinθ = 2×3/5 = 6/5"
+        },
+        {
+          "label": "C",
+          "text": "sin2θ = sinθcosθ = (3/5)(4/5) = 12/25"
+        },
+        {
+          "label": "D",
+          "text": "sin2θ = 2sin²θ = 2×9/25 = 18/25"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "倍角公式",
+        "sin2θ",
+        "2sinθcosθ"
+      ]
+    },
+    {
+      "id": "at-010",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "cosθ = 1/3 のとき、cos2θ を倍角公式で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos2θ = 2cos²θ = 2×1/9 = 2/9"
+        },
+        {
+          "label": "B",
+          "text": "cos2θ = 2cosθ = 2/3"
+        },
+        {
+          "label": "C",
+          "text": "cos2θ = 2cos²θ - 1 = 2/9 - 1 = -7/9"
+        },
+        {
+          "label": "D",
+          "text": "cos2θ = cos²θ = 1/9"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "倍角公式",
+        "cos2θ",
+        "2cos²θ-1"
+      ]
+    },
+    {
+      "id": "at-011",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "tanθ = 2 のとき、tan2θ を倍角公式で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan2θ = 2tanθ/(1-tan²θ) = 4/(1-4) = -4/3"
+        },
+        {
+          "label": "B",
+          "text": "tan2θ = 2tanθ = 4"
+        },
+        {
+          "label": "C",
+          "text": "tan2θ = 2tanθ/(1+tan²θ) = 4/5"
+        },
+        {
+          "label": "D",
+          "text": "tan2θ = tanθ/(1-tan²θ) = 2/(1-4) = -2/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "倍角公式",
+        "tan2θ",
+        "2tanθ/(1-tan²θ)"
+      ]
+    },
+    {
+      "id": "at-012",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "sin(π/8) を半角公式で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(π/8) = sin(π/4)/2 = √2/4"
+        },
+        {
+          "label": "B",
+          "text": "sin²(π/8) = (1+cos(π/4))/2 = (2+√2)/4 より sin(π/8) = √(2+√2)/2"
+        },
+        {
+          "label": "C",
+          "text": "sin²(π/8) = (1-cos(π/4))/2 = (2-√2)/4 より sin(π/8) = √(2-√2)/2"
+        },
+        {
+          "label": "D",
+          "text": "sin(π/8) = 1 - cos(π/4) = 1 - √2/2 = (2-√2)/2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "半角公式",
+        "sin(π/8)",
+        "sin²(θ/2)=(1-cosθ)/2"
+      ]
+    },
+    {
+      "id": "at-013",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "√3 sinθ + cosθ を r sin(θ+φ) の形に合成したとき、r と φ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r = √(3+1) = 2、tanφ = 1/√3 より φ = π/6。よって 2sin(θ+π/6)"
+        },
+        {
+          "label": "B",
+          "text": "r = √3+1 として (√3+1)sin(θ+π/6)"
+        },
+        {
+          "label": "C",
+          "text": "r = 2、tanφ = √3 より φ = π/3。よって 2sin(θ+π/3)"
+        },
+        {
+          "label": "D",
+          "text": "r = 2、tanφ = 1 より φ = π/4。よって 2sin(θ+π/4)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角関数の合成",
+        "r=√(a²+b²)",
+        "tanφ=b/a"
+      ]
+    },
+    {
+      "id": "at-014",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "sin(π/3+θ) - sin(π/3-θ) を加法定理で展開・簡略化した式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2cos(π/3)sinθ = 2×(1/2)×sinθ = sinθ"
+        },
+        {
+          "label": "B",
+          "text": "2sin(π/3)cosθ = 2×(√3/2)×cosθ = √3 cosθ"
+        },
+        {
+          "label": "C",
+          "text": "sinθ - cosθ"
+        },
+        {
+          "label": "D",
+          "text": "2×1×sinθ = 2sinθ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin加法定理",
+        "差の展開",
+        "cos(π/3)=1/2"
+      ]
+    },
+    {
+      "id": "at-015",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "cosθ cos3θ を積和公式を使って変換した式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1/2)(cos4θ + cos2θ)"
+        },
+        {
+          "label": "B",
+          "text": "(1/2)[cos4θ - cos2θ]"
+        },
+        {
+          "label": "C",
+          "text": "(1/2)[sin4θ + sin2θ]"
+        },
+        {
+          "label": "D",
+          "text": "cos4θ + cos2θ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "積和公式",
+        "cosAcosB",
+        "(1/2)[cos(A+B)+cos(A-B)]"
+      ]
+    },
+    {
+      "id": "at-021",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "cos(α+β) の展開式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosα cosβ - sinα sinβ"
+        },
+        {
+          "label": "B",
+          "text": "cosα cosβ + sinα sinβ"
+        },
+        {
+          "label": "C",
+          "text": "sinα cosβ - cosα sinβ"
+        },
+        {
+          "label": "D",
+          "text": "sinα sinβ - cosα cosβ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos加法定理",
+        "公式確認",
+        "cos(α+β)"
+      ]
+    },
+    {
+      "id": "at-022",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "sin(α-β) の展開式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sinα cosβ - cosα sinβ"
+        },
+        {
+          "label": "B",
+          "text": "sinα cosβ + cosα sinβ"
+        },
+        {
+          "label": "C",
+          "text": "cosα cosβ + sinα sinβ"
+        },
+        {
+          "label": "D",
+          "text": "cosα sinβ - sinα cosβ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin加法定理",
+        "公式確認",
+        "sin(α-β)"
+      ]
+    },
+    {
+      "id": "at-023",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "basic",
+      "question": "sin15° を sin(45°-30°) の加法定理で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin45°cos30° - cos45°sin30° = √6/4 - √2/4 = (√6-√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "sin45° - sin30° = √2/2 - 1/2 = (√2-1)/2"
+        },
+        {
+          "label": "C",
+          "text": "sin45°cos30° + cos45°sin30° = √6/4 + √2/4 = (√6+√2)/4"
+        },
+        {
+          "label": "D",
+          "text": "cos45°cos30° = (√2/2)(√3/2) = √6/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin加法定理",
+        "sin15°",
+        "特殊角の計算"
+      ]
+    },
+    {
+      "id": "at-024",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "cos(π/8) を半角公式で求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos²(π/8) = (1+cos(π/4))/2 = (2+√2)/4 より cos(π/8) = √(2+√2)/2"
+        },
+        {
+          "label": "B",
+          "text": "cos(π/8) = cos(π/4)/2 = √2/4"
+        },
+        {
+          "label": "C",
+          "text": "cos²(π/8) = (1-cos(π/4))/2 = (2-√2)/4 より cos(π/8) = √(2-√2)/2"
+        },
+        {
+          "label": "D",
+          "text": "cos(π/8) = 1 - sin(π/4) = 1 - √2/2 = (2-√2)/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "半角公式",
+        "cos(π/8)",
+        "cos²(θ/2)=(1+cosθ)/2"
+      ]
+    },
+    {
+      "id": "at-025",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "difficulty": "standard",
+      "question": "sinθ + cosθ を r sin(θ+φ) の形に合成したとき、r と φ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r = √(1²+1²) = √2、tanφ = 1 より φ = π/4。よって √2 sin(θ+π/4)"
+        },
+        {
+          "label": "B",
+          "text": "r = 1+1 = 2 として 2sin(θ+π/4)"
+        },
+        {
+          "label": "C",
+          "text": "r = √2、φ = π/6 として √2 sin(θ+π/6)"
+        },
+        {
+          "label": "D",
+          "text": "√2 sin(θ+π/3)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角関数の合成",
+        "r=√(a²+b²)",
+        "tanφ=b/a"
+      ]
+    },
+    {
+      "id": "at-016",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "sin75° × sin15° の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(45°+30°)sin(45°−30°) = sin²45°−sin²30° = 1/2−1/4 = 1/4"
+        },
+        {
+          "label": "B",
+          "text": "sin75°+sin15° = (√6+√2)/4+(√6-√2)/4 = √6/2"
+        },
+        {
+          "label": "C",
+          "text": "(sin75°−sin15°)² / 4 = (√2/2)²/4 = 1/8"
+        },
+        {
+          "label": "D",
+          "text": "sin75°×sin15° = cos(75°+15°)/2 = cos90°/2 = 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin(A+B)sin(A−B)=sin²A−sin²B",
+        "加法定理の積への応用"
+      ]
+    },
+    {
+      "id": "at-017",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "tan(α+β) = −7/11、tan α = 2 のとき、tan β として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan(α+β)=(tanα+tanβ)/(1−tanα×tanβ)=−7/11 に tanα=2 を代入 → tanβ = −3"
+        },
+        {
+          "label": "B",
+          "text": "tanβ = tan(α+β)−tanα = −7/11−2 = −29/11"
+        },
+        {
+          "label": "C",
+          "text": "tanβ = tan(α+β)/tanα = (−7/11)/2 = −7/22"
+        },
+        {
+          "label": "D",
+          "text": "tanβ = tan(α+β)×2-2 = -36/11"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "加法定理を逆算",
+        "tanβの値"
+      ]
+    },
+    {
+      "id": "at-026",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "cos(2α) を cos²α のみで表したものとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos2α = 2cos²α−1"
+        },
+        {
+          "label": "B",
+          "text": "cos2α = 1-2sin²α"
+        },
+        {
+          "label": "C",
+          "text": "cos2α = cos²α-sin²α"
+        },
+        {
+          "label": "D",
+          "text": "cos2α = 2cosα"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "倍角公式 cos2α=2cos²α−1",
+        "cos²αのみの表現"
+      ]
+    },
+    {
+      "id": "at-027",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "sin(α−β) = 3/5、cos α cos β = 4/5 のとき、tan α − tan β として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(α−β)=sinα cosβ − cosα sinβ=3/5 を cosα cosβ=4/5 で割ると tanα−tanβ=3/4"
+        },
+        {
+          "label": "B",
+          "text": "sin(α-β) + cosαcosβ = 3/5+4/5 = 7/5 より tanα-tanβ = 7/5"
+        },
+        {
+          "label": "C",
+          "text": "sinαcosβ-cosαsinβ = sin(α-β) = 3/5 より tanα-tanβ = 3/5"
+        },
+        {
+          "label": "D",
+          "text": "tanα-tanβ = 3/5-4/5 = -1/5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin(α−β)÷cosαcosβ",
+        "tanα−tanβ=3/4"
+      ]
+    },
+    {
+      "id": "at-028",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "cos3θ を cosθ のみで表したとき、正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4cos³θ-3cosθ"
+        },
+        {
+          "label": "B",
+          "text": "cos3θ = 3cosθ"
+        },
+        {
+          "label": "C",
+          "text": "cos3θ = cos²θ-sin²θ-cosθ"
+        },
+        {
+          "label": "D",
+          "text": "cos3θ=4cos³θ+3cosθ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三倍角公式",
+        "cos3θ=4cos³θ−3cosθ"
+      ]
+    },
+    {
+      "id": "at-029",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "sin15° の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(45°−30°)=sin45°cos30°−cos45°sin30°=(√6−√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "sin15° = sin45°-sin30° = √2/2-1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin15° = (√6+√2)/4"
+        },
+        {
+          "label": "D",
+          "text": "sin15° = sin30°×sin45° = (1/2)×(√2/2) = √2/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "加法定理 sin(45°−30°)",
+        "sin15°=(√6−√2)/4"
+      ]
+    },
+    {
+      "id": "at-030",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "sinα + cosα = 1/√2 のとき、sin2α の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(sinα+cosα)²=1+sin2α=1/2 → sin2α=−1/2"
+        },
+        {
+          "label": "B",
+          "text": "sin2α=2sinαcosα=(sinα+cosα)²/2=1/4"
+        },
+        {
+          "label": "C",
+          "text": "sin2α=(sinα+cosα)−1=1/√2−1"
+        },
+        {
+          "label": "D",
+          "text": "(sinα+cosα)²=1+2sin2α=1/2 → sin2α=-1/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "(sinα+cosα)²=1+sin2α",
+        "sin2α=−1/2"
+      ]
+    },
+    {
+      "id": "at-018",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "tan(α+β)=7/4 で tanβ=1/3 のとき、tanα の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(tanα+1/3)/(1−tanα/3)=7/4 → tanα=1"
+        },
+        {
+          "label": "B",
+          "text": "tanα=tan(α+β)−tanβ=7/4−1/3=17/12"
+        },
+        {
+          "label": "C",
+          "text": "tanα=tan(α+β)×tanβ=7/4×1/3=7/12"
+        },
+        {
+          "label": "D",
+          "text": "(tanα+1/3)/(1-tanα/3)=7/4 → tanα=2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "加法定理の逆算",
+        "tanα=1"
+      ]
+    },
+    {
+      "id": "at-019",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "2sin(θ + π/6) = √3 を 0 ≤ θ < 2π で解いたとき、θ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "θ = π/6, π/2"
+        },
+        {
+          "label": "B",
+          "text": "θ = π/3, 2π/3"
+        },
+        {
+          "label": "C",
+          "text": "θ = π/4, 3π/4"
+        },
+        {
+          "label": "D",
+          "text": "θ = 0, π/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "θ+π/6の範囲シフト",
+        "解θ=π/6, π/2"
+      ]
+    },
+    {
+      "id": "at-020",
+      "subject": "math",
+      "unit": "加法定理",
+      "difficulty": "exam",
+      "question": "cos2α = 1 − 2sin²α を利用して sin²(π/8) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "α=π/8 → cos(π/4)=1−2sin²(π/8) → 1/√2=1−2sin²(π/8) → sin²(π/8)=(2−√2)/4"
+        },
+        {
+          "label": "B",
+          "text": "sin²(π/8) = 1-cos²(π/8) = 1-(√2/2)² = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin(π/8) = sin(π/4)/2 = √2/4 より sin²(π/8) = 1/8"
+        },
+        {
+          "label": "D",
+          "text": "cos(π/4) = 1-2sin²(π/8) より sin²(π/8) = (1-1/√2)/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "倍角公式の逆用",
+        "sin²(π/8)=(2−√2)/4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "subject": "math",
+  "unit": "expressions-and-proofs",
+  "subunit": "polynomial-division",
+  "name": "整式の除法",
+  "source_notes": [
+    "2024共通テスト 数学II・B 第1問[2]（2024年のみ整式の除法が第1問に出題。センター試験時代含む2000年以降では唯一の出題）",
+    "センター試験・共通テスト出題歴（電数図書館 出題分野表より）：2021-2023年は三角関数・指数対数、2022年は円と直線・対数関数、2020年以前も三角関数・指数対数が第1問。整式の除法単独の出題は2024年のみ",
+    "高校数学II 教科書（数研出版・東京書籍等）：第1章 式と証明 の標準単元",
+    "全国模試（河合塾・駿台・Z会）：剰余定理・因数定理・高次方程式の解法として頻出"
+  ],
+  "exam_occurrence": {
+    "kyotsutest": "2024年のみ（センター試験時代含め最近唯一の出題）",
+    "mock_exams": "全国模試で頻繁に出題。剰余定理・因数定理は教科書標準単元として必須",
+    "coverage": "2024共通テストの出題スタイル（論証型）は今後も注目度が高い"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "type": "筆算による商・余りの計算",
+      "description": "P(x)÷A(x) の商Q(x)と余りR(x)を筆算で求める。余りの次数＜割る式の次数 を確認する思考プロセスを問う",
+      "source_year": "教科書標準・模試頻出"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "type": "除法の関係式の理解",
+      "description": "P(x)=A(x)Q(x)+R(x) という等式の意味と、各項の次数関係（余りの次数は割る式の次数より小さい）を問う",
+      "source_year": "教科書標準"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "type": "剰余定理（1次式）",
+      "description": "P(x)を(x-a)で割った余りはP(a)。代入だけで余りが求まる理由の理解を問う",
+      "source_year": "教科書標準・センター試験時代から模試頻出"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "type": "因数定理の基礎",
+      "description": "P(a)=0 ⟺ (x-a)が因数 という同値関係の理解。余りが0になる条件を問う",
+      "source_year": "教科書標準・模試頻出"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "type": "組立除法",
+      "description": "組立除法の手順を理解し、1次式で割る商・余りを素早く求める",
+      "source_year": "教科書標準"
+    },
+    {
+      "id": "p06",
+      "difficulty": "standard",
+      "type": "剰余定理（2次式で割る）",
+      "description": "P(x)を(x-a)(x-b)で割った余りをpx+qとおき、P(a)・P(b)を代入して連立方程式で係数決定",
+      "source_year": "模試頻出・教科書応用"
+    },
+    {
+      "id": "p07",
+      "difficulty": "standard",
+      "type": "係数決定（逆算）",
+      "description": "余りが与えられた場合に、元の多項式の未知係数を決定する",
+      "source_year": "模試頻出"
+    },
+    {
+      "id": "p08",
+      "difficulty": "standard",
+      "type": "x^nの剰余（パターン探し）",
+      "description": "x^nをx²+x+1などで割った余りを、低い次数から計算してパターンを見つける",
+      "source_year": "模試頻出"
+    },
+    {
+      "id": "p09",
+      "difficulty": "standard",
+      "type": "(x-α)²で割る余り",
+      "description": "重根を持つ因数で割るときの余りの求め方。P(α)=0かつP'(α)を利用する",
+      "source_year": "模試中級"
+    },
+    {
+      "id": "p10",
+      "difficulty": "exam",
+      "type": "P(α)=P(β)の双方向論証",
+      "description": "2024共通テスト：余りが定数 ⟺ P(α)=P(β) の双方向証明。x=αを代入する論証の流れと逆向きの証明を問う",
+      "source_year": "2024共通テスト"
+    },
+    {
+      "id": "p11",
+      "difficulty": "exam",
+      "type": "高次多項式の余り（パラメータ決定）",
+      "description": "x^10などの高次式をx²-x-2などで割った余りが定数になるパラメータを求める。P(α)=P(β)を活用",
+      "source_year": "2024共通テスト"
+    },
+    {
+      "id": "p12",
+      "difficulty": "exam",
+      "type": "ωを利用した余り計算",
+      "description": "1の虚数立方根ω（ω³=1, 1+ω+ω²=0）を使って高次式の余りを求める",
+      "source_year": "模試上級・教科書発展"
+    }
+  ]
+}

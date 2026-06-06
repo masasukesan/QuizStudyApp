@@ -1,0 +1,918 @@
+{
+  "questions": [
+    {
+      "id": "sm-001",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "母集団と標本の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "標本が母集団より大きい"
+        },
+        {
+          "label": "B",
+          "text": "母集団と標本は同じ"
+        },
+        {
+          "label": "C",
+          "text": "母集団は調べたい全体の集合、標本はそこから選ばれた一部"
+        },
+        {
+          "label": "D",
+          "text": "標本は常に100個"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "母集団と標本"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-002",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "全数調査(センサス)の特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "必ず 1000 人以上"
+        },
+        {
+          "label": "B",
+          "text": "標本誤差がある"
+        },
+        {
+          "label": "C",
+          "text": "費用がかからない"
+        },
+        {
+          "label": "D",
+          "text": "母集団全員を調査するので誤差がない。費用・時間がかかる"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "全数調査"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-003",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標本調査のメリットとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全数調査より正確"
+        },
+        {
+          "label": "B",
+          "text": "全員に対して調査できる"
+        },
+        {
+          "label": "C",
+          "text": "全数調査よりコストと時間が少なく済む"
+        },
+        {
+          "label": "D",
+          "text": "誤差が生じない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "標本調査のメリット"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-004",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標本平均 X̄ の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "標本の最頻値"
+        },
+        {
+          "label": "B",
+          "text": "n 個の中央値"
+        },
+        {
+          "label": "C",
+          "text": "標本(n 個のデータ)の算術平均"
+        },
+        {
+          "label": "D",
+          "text": "母集団全体の平均"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "標本平均"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-005",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "無作為抽出(ランダムサンプリング)の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "調査者が任意に選ぶ方法"
+        },
+        {
+          "label": "B",
+          "text": "一番大きい要素を選ぶ方法"
+        },
+        {
+          "label": "C",
+          "text": "特定の条件で選ぶ方法"
+        },
+        {
+          "label": "D",
+          "text": "母集団の各要素が等確率で選ばれる方法"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "無作為抽出"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-006",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標本の大きさ n を増やすと標本誤差はどうなるか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n が増えると標本誤差は小さくなる(信頼性が上がる)"
+        },
+        {
+          "label": "B",
+          "text": "n=100 以上なら誤差ゼロ"
+        },
+        {
+          "label": "C",
+          "text": "n が増えると誤差も増える"
+        },
+        {
+          "label": "D",
+          "text": "n とは無関係"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標本の大きさと誤差"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-007",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "母平均 μ の点推定として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "標本平均 X̄ を母平均の推定値として使う"
+        },
+        {
+          "label": "B",
+          "text": "標本分散"
+        },
+        {
+          "label": "C",
+          "text": "標本の中央値"
+        },
+        {
+          "label": "D",
+          "text": "標本の最大値"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点推定",
+        "X̄"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-008",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "復元抽出と非復元抽出の違いとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "母集団が大きければ区別不要"
+        },
+        {
+          "label": "B",
+          "text": "復元は戻さない、非復元は戻す"
+        },
+        {
+          "label": "C",
+          "text": "復元は取り出した後に戻す(確率一定)、非復元は戻さない(確率が変わる)"
+        },
+        {
+          "label": "D",
+          "text": "どちらも同じ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "復元と非復元"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-009",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標本比率 p̂ の定義として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "標本平均と同じ"
+        },
+        {
+          "label": "B",
+          "text": "標本中で特定の属性をもつ個体の割合(成功回数/n)"
+        },
+        {
+          "label": "C",
+          "text": "母集団中の割合"
+        },
+        {
+          "label": "D",
+          "text": "標本の標準偏差"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "標本比率"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-010",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "n=100 の標本で標本平均 X̄=50 のとき母平均の点推定値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "点推定値 μ̂=50(標本平均をそのまま使う)"
+        },
+        {
+          "label": "B",
+          "text": "μ̂=50/100=0.5"
+        },
+        {
+          "label": "C",
+          "text": "μ̂=50×100=5000"
+        },
+        {
+          "label": "D",
+          "text": "μ̂=50±1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点推定",
+        "数値"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-011",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "95% 信頼区間(母平均)の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "標本平均が正しい確率が 95%"
+        },
+        {
+          "label": "B",
+          "text": "母平均が区間内にある確率が 95%"
+        },
+        {
+          "label": "C",
+          "text": "同じ手順で 100 回調査すれば約 95 回は母平均が区間内に入ることを意味する"
+        },
+        {
+          "label": "D",
+          "text": "区間の幅の 95% の確率"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "信頼区間の意味"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-012",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "母平均の 95% 信頼区間の公式として正しいものはどれか(σ 既知)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[X̄−1.96×σ/√n、X̄+1.96×σ/√n]"
+        },
+        {
+          "label": "B",
+          "text": "[X̄−2.58×σ/√n、X̄+2.58×σ/√n]"
+        },
+        {
+          "label": "C",
+          "text": "[X̄−1.65×σ/√n、X̄+1.65×σ/√n]"
+        },
+        {
+          "label": "D",
+          "text": "[X̄−σ/n、X̄+σ/n]"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "95%信頼区間",
+        "公式"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-013",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "n=400、X̄=50、σ=20 のとき 95% 信頼区間として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "50±1.96×20=50±39.2"
+        },
+        {
+          "label": "B",
+          "text": "50±1.96×400"
+        },
+        {
+          "label": "C",
+          "text": "50±3.92"
+        },
+        {
+          "label": "D",
+          "text": "50±1.96×20/20=50±1.96 → [48.04, 51.96]"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "95%信頼区間",
+        "計算"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-014",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "信頼区間の幅を半分にするには n をどう変えるか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n を 4 倍にする"
+        },
+        {
+          "label": "B",
+          "text": "n を変えても幅は変わらない"
+        },
+        {
+          "label": "C",
+          "text": "n を 1/4 倍"
+        },
+        {
+          "label": "D",
+          "text": "n を 2 倍"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "信頼区間の幅",
+        "n"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-015",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "母比率 p の 95% 信頼区間の公式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[p̂−p̂²/n、p̂+p̂²/n]"
+        },
+        {
+          "label": "B",
+          "text": "[p̂−p̂/n、p̂+p̂/n]"
+        },
+        {
+          "label": "C",
+          "text": "[p̂−1.96p̂、p̂+1.96p̂]"
+        },
+        {
+          "label": "D",
+          "text": "[p̂−1.96√(p̂(1−p̂)/n)、p̂+1.96√(p̂(1−p̂)/n)]"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "母比率の信頼区間"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-016",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "層化抽出法の特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全員から等確率で抽出する(単純無作為抽出)"
+        },
+        {
+          "label": "B",
+          "text": "母集団をいくつかの層(グループ)に分け、各層から比例的に抽出する方法"
+        },
+        {
+          "label": "C",
+          "text": "同じ人を複数回選べる(復元抽出)"
+        },
+        {
+          "label": "D",
+          "text": "先着順で抽出する"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "層化抽出"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-017",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "系統抽出法の特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "グループを作ってグループを抽出する"
+        },
+        {
+          "label": "B",
+          "text": "全数調査する"
+        },
+        {
+          "label": "C",
+          "text": "層ごとに抽出する"
+        },
+        {
+          "label": "D",
+          "text": "リスト順に k 個おきに抽出する方法(例：5個に1個)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "系統抽出"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-018",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "n=900、p̂=0.6 のとき 95% 信頼区間として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.6±1.96"
+        },
+        {
+          "label": "B",
+          "text": "0.6±0.016"
+        },
+        {
+          "label": "C",
+          "text": "0.6±0.032×900"
+        },
+        {
+          "label": "D",
+          "text": "0.6±0.032"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "母比率",
+        "信頼区間"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-019",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "標本の大きさが大きいほど信頼区間はどうなるか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "信頼区間が広くなる"
+        },
+        {
+          "label": "B",
+          "text": "信頼区間が狭くなる(より精度が高くなる)"
+        },
+        {
+          "label": "C",
+          "text": "信頼度が下がる"
+        },
+        {
+          "label": "D",
+          "text": "変わらない"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "信頼区間",
+        "n"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-020",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "99% 信頼区間は 95% 信頼区間と比べてどうなるか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "同じ幅"
+        },
+        {
+          "label": "B",
+          "text": "より狭い区間"
+        },
+        {
+          "label": "C",
+          "text": "より広い区間になる(信頼度を上げると区間が広がる)"
+        },
+        {
+          "label": "D",
+          "text": "95% 信頼区間より精度が高い"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "信頼度と区間の幅"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-021",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=100、X̄=75、σ=10 のとき 95% 信頼区間として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "75±1.96×10/10=75±1.96 → [73.04, 76.96]"
+        },
+        {
+          "label": "B",
+          "text": "[73,77]"
+        },
+        {
+          "label": "C",
+          "text": "75±1.96×10=75±19.6"
+        },
+        {
+          "label": "D",
+          "text": "75±1.96×0.1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "95%信頼区間",
+        "計算"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-022",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "母比率の 95% 信頼区間で幅を 0.04 以内にするための最低標本数 n として正しいものはどれか(p̂=0.5 と仮定)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n≥1000"
+        },
+        {
+          "label": "B",
+          "text": "n≥2401"
+        },
+        {
+          "label": "C",
+          "text": "n≥100"
+        },
+        {
+          "label": "D",
+          "text": "n≥400"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "標本数の決定",
+        "幅"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-023",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=1600 で標本比率 p̂=0.4 のとき 95% 信頼区間として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.4±0.047"
+        },
+        {
+          "label": "B",
+          "text": "0.4±0.012"
+        },
+        {
+          "label": "C",
+          "text": "0.4±0.048"
+        },
+        {
+          "label": "D",
+          "text": "0.4±0.024 → [0.376, 0.424]"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "母比率",
+        "信頼区間",
+        "計算"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-024",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "母集団の分布が不明でも標本平均が正規分布に近似できる理由として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心極限定理により、n が大きいと X̄~N(μ,σ²/n) に近づく"
+        },
+        {
+          "label": "B",
+          "text": "n=10 以上であれば常に成立"
+        },
+        {
+          "label": "C",
+          "text": "統計的に証明できないが慣例として使う"
+        },
+        {
+          "label": "D",
+          "text": "母集団が正規分布だと仮定しているから"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中心極限定理"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-025",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "95% 信頼区間でも外れることがある。この場合の解釈として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "信頼区間が間違っていた"
+        },
+        {
+          "label": "B",
+          "text": "1回の区間が外れることはある"
+        },
+        {
+          "label": "C",
+          "text": "外れることは絶対にない"
+        },
+        {
+          "label": "D",
+          "text": "母平均が変化した"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "信頼区間の解釈"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-026",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=2500、σ=50 で信頼度 99% の信頼区間の幅として正しいものはどれか(z₀.₀₀₅=2.58)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2×2.58×50/2500=0.1032"
+        },
+        {
+          "label": "B",
+          "text": "2×2.58×50/50=2×2.58=5.16"
+        },
+        {
+          "label": "C",
+          "text": "2×1.96×50/50=3.92"
+        },
+        {
+          "label": "D",
+          "text": "2×2.58×50=258"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "99%信頼区間",
+        "幅の計算"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-027",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "標本調査で発生する誤差の種類として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "誤差は一切発生しない"
+        },
+        {
+          "label": "B",
+          "text": "標本誤差(抽出による偶然誤差)と非標本誤差(調査・記録ミスなど)がある"
+        },
+        {
+          "label": "C",
+          "text": "非標本誤差のみ"
+        },
+        {
+          "label": "D",
+          "text": "標本誤差のみ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "標本誤差",
+        "非標本誤差"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-028",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "二段抽出法の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2つの属性で層化する"
+        },
+        {
+          "label": "B",
+          "text": "まずグループ(クラスター)を抽出し、次にそのグループ内から個体を抽出する方法"
+        },
+        {
+          "label": "C",
+          "text": "2回連続で単純無作為抽出する"
+        },
+        {
+          "label": "D",
+          "text": "系統抽出を2回繰り返す"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "二段抽出法"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-029",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=100 の標本で X̄=48.5、σ=10 のとき 95% 信頼区間が [46.5,50.5] となるか確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.96×10/10=1.96 → [46.54, 50.46]"
+        },
+        {
+          "label": "B",
+          "text": "z=1.65 を使い [46.85,50.15]"
+        },
+        {
+          "label": "C",
+          "text": "1.96×10=19.6 → [28.9,68.1]"
+        },
+        {
+          "label": "D",
+          "text": "[48.5−10/√100, 48.5+10/√100]=[47.5,49.5]"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "信頼区間の確認"
+      ],
+      "subunit": "sampling-methods"
+    },
+    {
+      "id": "sm-030",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=400 の標本で p̂=0.7 のとき 95% 信頼区間の幅として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "幅≈0.090"
+        },
+        {
+          "label": "B",
+          "text": "幅=0.045"
+        },
+        {
+          "label": "C",
+          "text": "幅=0.2"
+        },
+        {
+          "label": "D",
+          "text": "幅=1.96"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "母比率",
+        "信頼区間の幅"
+      ],
+      "subunit": "sampling-methods"
+    }
+  ]
+}

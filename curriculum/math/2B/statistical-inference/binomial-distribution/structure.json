@@ -1,0 +1,52 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "statistical-inference",
+  "subunit": "binomial-distribution",
+  "name": "二項分布",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "binomial-probability",
+      "description": "P(X=k)=nCk pᵏ(1−p)ⁿ⁻ᵏ の計算",
+      "thinking_process": [
+        "k 回成功・n−k 回失敗の場合の数 nCk を計算",
+        "pᵏ×(1−p)ⁿ⁻ᵏ を計算",
+        "nCk と掛ける"
+      ],
+      "common_mistakes": [
+        "nCk の計算ミス",
+        "指数の k と n−k を逆にする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "binomial-mean-variance",
+      "description": "二項分布 B(n,p) の E(X)=np、V(X)=np(1−p)",
+      "thinking_process": [
+        "公式 E(X)=np を直接使う",
+        "V(X)=np(1−p) を直接使う",
+        "標準偏差 σ=√(np(1−p))"
+      ],
+      "common_mistakes": [
+        "V(X)=np と p(1−p) を忘れる",
+        "E(X)=np と np(1−p) を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "normal-approximation",
+      "description": "np≥5 かつ n(1−p)≥5 のとき正規分布で近似",
+      "thinking_process": [
+        "μ=np、σ²=np(1−p) を計算",
+        "Z=(X−μ)/σ で標準化",
+        "標準正規分布表で確率を求める"
+      ],
+      "common_mistakes": [
+        "n が小さいときに近似を使う",
+        "連続修正を忘れる（共通テストでは通常不要）"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

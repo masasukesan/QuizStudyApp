@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "expressions-and-proofs",
+  "subunit": "logic-and-proofs",
+  "name": "論理と証明",
+  "en": "Logic and Proofs",
+  "questionCount": 30,
+  "source_notes": "センター試験では命題・逆・裏・対偶が第1問や選択問題で頻出（1998・2001・2005・2008・2010・2013年度確認）。共通テスト2021年第1問で「必要条件・十分条件」が出題。共通テスト2022・2023年でも論理的推論を問う問題が第1問に含まれる。模試では毎年出題。参照：電数図書館 https://www.densu.jp/table/ifrcenter2.htm",
+  "exam_occurrence": {
+    "center_test": "第1問の小問として頻出。命題の真偽・逆・裏・対偶・対偶による証明・必要条件と十分条件の判定が中心。2008年は「p⇒q、q⇒p の真偽」が第1問に登場。",
+    "kyotsu_test": "2021年第1問で「必要条件・十分条件」が出題。2022・2023年も第1問に論理判断を含む小問あり。単独問題より他単元との融合が多い。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年出題。対偶による証明（背理法含む）と必要・十分条件の判定が最頻出。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "命題の逆・裏・対偶の作り方",
+      "description": "「p ⇒ q」に対して逆「q ⇒ p」・裏「¬p ⇒ ¬q」・対偶「¬q ⇒ ¬p」を正しく作る。",
+      "typical_question": "「x = 2 ならば x² = 4」の逆・裏・対偶をそれぞれ書け。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "命題の真偽の判定",
+      "description": "与えられた命題が真か偽かを判定する。偽の場合は反例を1つ示す。",
+      "typical_question": "「x > 0 かつ y > 0 ならば x + y > 0」の真偽を判定せよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "必要条件・十分条件の判定",
+      "description": "「p は q の十分条件か？必要条件か？」を p⇒q と q⇒p の真偽から判定する。",
+      "typical_question": "「x = 2」は「x² = 4」であるための必要条件か、十分条件か、あるいは同値か。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "否定命題の作り方",
+      "description": "「すべての x に対して P(x)」の否定は「ある x に対して ¬P(x)」という全称・存在量化子の扱い。",
+      "typical_question": "「すべての実数 x に対して x² ≥ 0」の否定命題を書け。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "「かつ」「または」の否定（ド・モルガン）",
+      "description": "「p かつ q」の否定は「¬p または ¬q」、「p または q」の否定は「¬p かつ ¬q」。",
+      "typical_question": "「x > 0 かつ y > 0」の否定を求めよ。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "standard",
+      "title": "対偶を利用した証明",
+      "description": "「p ⇒ q」を直接証明しにくいとき、同値な対偶「¬q ⇒ ¬p」を証明する手法。",
+      "typical_question": "「n² が偶数ならば n は偶数」を対偶を用いて証明せよ。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "standard",
+      "title": "背理法による証明",
+      "description": "結論を否定して矛盾を導く証明法。√2 が無理数であることの証明が典型。",
+      "typical_question": "√2 が無理数であることを背理法で証明せよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "standard",
+      "title": "必要十分条件と同値の判定",
+      "description": "p⇒q かつ q⇒p の両方が成立するとき「p ⟺ q」（同値・必要十分条件）。片方だけ成立するケースの区別。",
+      "typical_question": "「|x| = |y|」と「x = y または x = −y」が同値（必要十分条件）であることを確認せよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "standard",
+      "title": "反例による命題の否定",
+      "description": "命題が偽であることを示すには反例を1つ挙げれば十分。適切な反例の見つけ方。",
+      "typical_question": "「すべての整数 n に対して n² + n + 41 は素数である」が偽であることを示せ。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "standard",
+      "title": "集合と論理の対応",
+      "description": "「p ⇒ q」は集合で「P ⊆ Q」に対応する。必要・十分条件と包含関係の対応を理解する。",
+      "typical_question": "A = {x | x は 4 の倍数}、B = {x | x は 2 の倍数} のとき「x ∈ A ⇒ x ∈ B」の真偽と条件の種類を答えよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "exam",
+      "title": "複合命題の真偽と対偶の連鎖",
+      "description": "「p ⇒ q ⇒ r」の形の命題連鎖と、その逆・対偶の真偽を系統的に判定する。",
+      "typical_question": "「x = 1 ⇒ x² = 1 ⇒ |x| = 1」の各命題と逆の真偽を判定せよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "exam",
+      "title": "必要十分条件の決定（文字入り命題）",
+      "description": "「ax = b を満たす実数 x が存在する」などパラメータを含む命題の必要・十分条件を求める。",
+      "typical_question": "実数 x, y について「x² + y² = 0」と「x = 0 かつ y = 0」が必要十分条件であることを証明せよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "exam",
+      "title": "背理法と無理数・素数の証明",
+      "description": "√p（p は素数）が無理数であること、または素数が無限に存在することの背理法による証明。",
+      "typical_question": "√3 が無理数であることを背理法で証明し、証明の構造（仮定・矛盾・結論）を明確に示せ。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "論理記号と量化子を含む命題の否定",
+      "description": "「∀x ∃y P(x,y)」の否定は「∃x ∀y ¬P(x,y)」という二重量化子の扱い。",
+      "typical_question": "「すべての正の実数 x に対して、x < y を満たす正の実数 y が存在する」の否定命題を書け。"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "sequences",
+  "subunit": "recurrence-relations",
+  "name": "漸化式",
+  "en": "Recurrence Relations",
+  "questionCount": 30,
+  "source_notes": "センター試験では数列第3問（選択）で漸化式が1998・2002・2005・2008・2010・2013・2016年度に出題されている。共通テスト2021〜2024年の第3問でも漸化式・一般項の導出が確認される。模試では毎年必出。参照：電数図書館 https://www.densu.jp/",
+  "exam_occurrence": {
+    "center_test": "第3問（数列選択）で等差・等比型漸化式・aₙ₊₁=pₙaₙ+qₙ型・連立漸化式が頻出。等比数列に帰着する変換（特性方程式）が中心。",
+    "kyotsu_test": "2021〜2024年の第3問に aₙ₊₁=raₙ+f(n) 型・bₙ=aₙ₊₁/aₙ を置く型・連立型が含まれる。一般項の推測と帰納法での確認との組み合わせも多い。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年出題。等比型・1次変換型・bₙ=aₙ₊₁−aₙ（階差型）・aₙ₊₁=paₙ+qₙ型（特性方程式）が頻出。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "等差型漸化式 aₙ₊₁=aₙ+d",
+      "description": "aₙ₊₁−aₙ=d（一定）なら公差 d の等差数列。一般項 aₙ=a₁+(n−1)d。",
+      "typical_question": "aₙ₊₁=aₙ+3、a₁=2 の一般項を求めよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "等比型漸化式 aₙ₊₁=raₙ",
+      "description": "aₙ₊₁/aₙ=r（一定）なら公比 r の等比数列。一般項 aₙ=a₁×rⁿ⁻¹。",
+      "typical_question": "aₙ₊₁=3aₙ、a₁=2 の一般項を求めよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "aₙ₊₁=aₙ+f(n) 型（階差数列を使う）",
+      "description": "aₙ₊₁−aₙ=f(n) のとき、階差数列の和を使って aₙ=a₁+Σf(k)（k=1 to n−1）で一般項を求める。",
+      "typical_question": "aₙ₊₁=aₙ+2n、a₁=1 のとき一般項を求めよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "1次変換型漸化式 aₙ₊₁=paₙ+q（特性方程式）",
+      "description": "α=pα+q（特性方程式）の解 α を求め、bₙ=aₙ−α とおくと bₙ₊₁=p×bₙ（等比数列に帰着）。",
+      "typical_question": "aₙ₊₁=2aₙ+3、a₁=1 の一般項を求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "特性方程式の解の求め方",
+      "description": "α=pα+q を解いて α=q/(1−p)（p≠1）を求める手順。これが数列の収束点（固定点）になる。",
+      "typical_question": "aₙ₊₁=2aₙ+3 の特性方程式を解いて α を求めよ。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "basic",
+      "title": "bₙ=aₙ−α と置いて等比数列に変換",
+      "description": "bₙ=aₙ−α（α は特性方程式の解）と置くと bₙ₊₁=p×bₙ が導かれ、等比数列の公式で一般項を求める。",
+      "typical_question": "aₙ₊₁=2aₙ+3、a₁=1 で α=−3 と求めたあと bₙ=aₙ+3 と置いて一般項を求めよ。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "basic",
+      "title": "aₙ₊₁=raₙ+qₙ 型（qₙ が n の関数）",
+      "description": "q が定数でなく n に依存する場合。両辺を rⁿ で割って cₙ=aₙ/rⁿ と置き換える、または sum で解く。",
+      "typical_question": "aₙ₊₁=2aₙ+n、a₁=1 の一般項を求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "basic",
+      "title": "分数型漸化式 aₙ₊₁=aₙ/(aₙ+r)",
+      "description": "bₙ=1/aₙ と逆数を取ると bₙ₊₁−bₙ=r/1（等差型）または等比型に帰着する。",
+      "typical_question": "aₙ₊₁=aₙ/(aₙ+1)、a₁=1 の一般項を求めよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "basic",
+      "title": "漸化式の初項確認と一般項検算",
+      "description": "求めた一般項に n=1 を代入して初項 a₁ に一致するか確認する手順。",
+      "typical_question": "aₙ₊₁=3aₙ+2、a₁=1 で一般項を求め n=1 で検算せよ。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "basic",
+      "title": "2項漸化式 aₙ₊₂=paₙ₊₁+qaₙ（基本）",
+      "description": "特性方程式 x²=px+q を解き、2解 α, β を使って aₙ=Aαⁿ+Bβⁿ の形で一般項を求める。",
+      "typical_question": "aₙ₊₂=3aₙ₊₁−2aₙ、a₁=1、a₂=3 の一般項を求めよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "standard",
+      "title": "aₙ₊₁=paₙ+qₙ（qₙ=cn²+dn+e 型）",
+      "description": "非同次漸化式で qₙ が 2 次式の場合。aₙ=Arⁿ+Bn²+Cn+D の形で定数を決定する方法。",
+      "typical_question": "aₙ₊₁=2aₙ+n²、a₁=0 の一般項を求めよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "standard",
+      "title": "連立漸化式（2×2 型）",
+      "description": "aₙ₊₁=paₙ+qbₙ、bₙ₊₁=raₙ+sbₙ の連立型。一方を消去して1変数の漸化式に帰着する。",
+      "typical_question": "aₙ₊₁=2aₙ+bₙ、bₙ₊₁=aₙ+2bₙ、a₁=1、b₁=0 の一般項を求めよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "standard",
+      "title": "2項間漸化式（重解の場合）",
+      "description": "特性方程式が重解 α を持つとき aₙ=(An+B)αⁿ の形になる。",
+      "typical_question": "aₙ₊₂=4aₙ₊₁−4aₙ、a₁=1、a₂=2 の一般項を求めよ。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "aₙ₊₁=f(n)aₙ 型（公比が n に依存）",
+      "description": "aₙ₊₁=f(n)aₙ のとき aₙ=a₁×f(1)×f(2)×…×f(n−1)（前 n−1 個の公比の積）で求める。",
+      "typical_question": "aₙ₊₁=(n+1)/n×aₙ、a₁=1 の一般項を求めよ。"
+    }
+  ]
+}

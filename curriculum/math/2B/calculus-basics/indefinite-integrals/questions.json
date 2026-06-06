@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "id": "if-001",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫x³ dx を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫x³ dx = 3x²+C"
+        },
+        {
+          "label": "B",
+          "text": "指数に 1 足して x⁴、分母に (3+1)=4 で割る → x⁴/4+C"
+        },
+        {
+          "label": "C",
+          "text": "∫x³ dx = 4x⁴+C"
+        },
+        {
+          "label": "D",
+          "text": "∫x³ dx = x⁴+C"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-002",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫5 dx（定数の積分）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "定数 5 を積分すると 5x+C"
+        },
+        {
+          "label": "B",
+          "text": "∫5 dx = 0+C"
+        },
+        {
+          "label": "C",
+          "text": "∫5 dx = 25x+C"
+        },
+        {
+          "label": "D",
+          "text": "∫5 dx = 5+C"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-003",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫3x² dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3×x³/3+C = x³+C"
+        },
+        {
+          "label": "B",
+          "text": "3×x³+C = 3x³+C"
+        },
+        {
+          "label": "C",
+          "text": "3×3x+C = 9x+C"
+        },
+        {
+          "label": "D",
+          "text": "3×x²+C = 3x²+C"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-004",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫(2x+1) dx を計算するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫(2x+1) dx = (2x+1)²/2+C"
+        },
+        {
+          "label": "B",
+          "text": "∫(2x+1) dx = 2+C"
+        },
+        {
+          "label": "C",
+          "text": "各項を別々に積分: ∫2x dx+∫1 dx = x²+x+C"
+        },
+        {
+          "label": "D",
+          "text": "∫(2x+1) dx = 2x²+1+C"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-005",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "不定積分における積分定数 C の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "C は f(0) の値に等しい"
+        },
+        {
+          "label": "B",
+          "text": "C は任意の定数。F(x) が原始関数なら F(x)+C も原始関数であるため省略できない"
+        },
+        {
+          "label": "C",
+          "text": "C は定積分の上下限で決まる"
+        },
+        {
+          "label": "D",
+          "text": "C は必ず 0 の定数"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-006",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫x⁴ dx を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x⁵/5+C"
+        },
+        {
+          "label": "B",
+          "text": "x⁵+C"
+        },
+        {
+          "label": "C",
+          "text": "x⁵/4+C"
+        },
+        {
+          "label": "D",
+          "text": "4x³+C"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-007",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫(x²+x) dx を計算する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x³/3+x²/2+C"
+        },
+        {
+          "label": "B",
+          "text": "x³/3+x+C"
+        },
+        {
+          "label": "C",
+          "text": "x³+x²+C"
+        },
+        {
+          "label": "D",
+          "text": "2x+1+C"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-008",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫−3x dx を計算するとき、正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "−3x²+C"
+        },
+        {
+          "label": "B",
+          "text": "−3x+C"
+        },
+        {
+          "label": "C",
+          "text": "−3×x²/2+C = −3x²/2+C"
+        },
+        {
+          "label": "D",
+          "text": "−6x+C"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-009",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫(4x³−6x+5) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4x⁴−6x²+5x+C"
+        },
+        {
+          "label": "B",
+          "text": "x⁴−6x+5+C"
+        },
+        {
+          "label": "C",
+          "text": "x⁴−3x²+5x+C"
+        },
+        {
+          "label": "D",
+          "text": "x⁴−3x²+5+C"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-010",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫3x⁵ dx を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3x⁶+C"
+        },
+        {
+          "label": "B",
+          "text": "3x⁶/5+C"
+        },
+        {
+          "label": "C",
+          "text": "3×x⁶/6+C = x⁶/2+C"
+        },
+        {
+          "label": "D",
+          "text": "15x⁴+C"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-011",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "F'(x)=2x+1 かつ F(1)=4 のとき F(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F(x)=2x²+x+C → F(1)=3+C=4 → C=1"
+        },
+        {
+          "label": "B",
+          "text": "F(x)=x²+x+C として C=4 と直接代入"
+        },
+        {
+          "label": "C",
+          "text": "F(x)=x²+1+C。F(1)=4 → C=2"
+        },
+        {
+          "label": "D",
+          "text": "F(x)=∫(2x+1) dx=x²+x+C。F(1)=1+1+C=4 → C=2 → F(x)=x²+x+2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-012",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫(x+1)² dx を求めるとき、展開してから積分する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x+1)³/3+C"
+        },
+        {
+          "label": "B",
+          "text": "∫(x+1)² dx = (x+1)²/2+C"
+        },
+        {
+          "label": "C",
+          "text": "(x+1)²=x²+2x+1 → ∫(x²+2x+1) dx = x³/3+x²+x+C"
+        },
+        {
+          "label": "D",
+          "text": "∫(x+1)² dx = 2(x+1)+C"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-013",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫(3x²−2x+1) dx = x³−x²+x+C を微分で検証するとき、正しい確認はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F'(x) を求めなくてよい"
+        },
+        {
+          "label": "B",
+          "text": "(x³−x²+x+C)'=x²−x+1"
+        },
+        {
+          "label": "C",
+          "text": "x=0 を代入して f(0) と F(0) を比べる"
+        },
+        {
+          "label": "D",
+          "text": "(x³−x²+x+C)'=3x²−2x+1 → 元の被積分関数と一致する → 正しい"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-014",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫(ax²+bx+c) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ax³/3+bx²/2+cx+C"
+        },
+        {
+          "label": "B",
+          "text": "3ax+b+C"
+        },
+        {
+          "label": "C",
+          "text": "ax³/3+bx²/2+c+C"
+        },
+        {
+          "label": "D",
+          "text": "ax³+bx²+cx+C"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-015",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=f(x) の原始関数 F(x) の条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F'(x)=f(x) が成立すること"
+        },
+        {
+          "label": "B",
+          "text": "f(x) を積分すると F'(x) になること"
+        },
+        {
+          "label": "C",
+          "text": "F(x) を 2 階微分すると元の関数になること"
+        },
+        {
+          "label": "D",
+          "text": "F(x) が f(x) と等しい関数であること"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-016",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫(x−1)(x+2) dx を展開してから積分するとき、正しい結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x³/3+x²/2+2x+C"
+        },
+        {
+          "label": "B",
+          "text": "(x−1)²(x+2)²/4+C"
+        },
+        {
+          "label": "C",
+          "text": "x³+x²−2x+C"
+        },
+        {
+          "label": "D",
+          "text": "(x−1)(x+2)=x²+x−2 → x³/3+x²/2−2x+C"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-017",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫(2x+3)² dx を計算する正しい手順はどれか（展開してから積分）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2x+3)³/6+C"
+        },
+        {
+          "label": "B",
+          "text": "(2x+3)²=4x²+12x+9 → 4x³/3+6x²+9x+C"
+        },
+        {
+          "label": "C",
+          "text": "4x³+12x²+9x+C"
+        },
+        {
+          "label": "D",
+          "text": "(2x+3)³/3+C"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-018",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "F'(x)=x²−4 かつ F(2)=0 のとき F(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F(x)=x³/3−4x+C。F(2)=0 → C=0"
+        },
+        {
+          "label": "B",
+          "text": "F(x)=x³/3−4x+C。F(2)=8/3−8+C=0 → C=16/3 → F(x)=x³/3−4x+16/3"
+        },
+        {
+          "label": "C",
+          "text": "F(x)=x³−4x+C → F(2)=0 → C=0"
+        },
+        {
+          "label": "D",
+          "text": "F(x)=x³/3−4x+C → F(2)=8/3−8+C=0 → C=8/3−8 → C=−16/3 → F(x)=x³/3−4x−16/3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-019",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫f(x) dx と ∫g(x) dx が求まっているとき、∫{f(x)+g(x)} dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫f(x)g(x) dx"
+        },
+        {
+          "label": "B",
+          "text": "∫f(x) dx + ∫g(x) dx"
+        },
+        {
+          "label": "C",
+          "text": "∫{f(x)+g(x)} dx は個別に計算できない"
+        },
+        {
+          "label": "D",
+          "text": "∫f(x) dx × ∫g(x) dx"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-020",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫kf(x) dx（k は定数）の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k²∫f(x) dx"
+        },
+        {
+          "label": "B",
+          "text": "(k+1)∫f(x) dx"
+        },
+        {
+          "label": "C",
+          "text": "k∫f(x) dx"
+        },
+        {
+          "label": "D",
+          "text": "∫k dx × ∫f(x) dx = kx × F(x)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-021",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "F'(x)=3x²+2x−1 かつ F(0)=2 かつ G'(x)=F'(x)+1 かつ G(0)=1 のとき G(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "G'(x)=3x²+2x → G(x)=x³+x²+C → G(0)=2 → C=2 → G(x)=x³+x²+2"
+        },
+        {
+          "label": "B",
+          "text": "G(x)=F(x)+x+C → G(0)=2+0+C=1 → C=−1 → G(x)=x³+x²−x+1"
+        },
+        {
+          "label": "C",
+          "text": "F(x)=x³+x²−x+2。G'(x)=3x²+2x → G(x)=x³+x²+C。G(0)=1 → C=1 → G(x)=x³+x²+1"
+        },
+        {
+          "label": "D",
+          "text": "G'(x)=F'(x)+1 → G(x)=F(x)+1+C"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-022",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x) の原始関数 F(x) の全体を表すとき正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F(x)×C"
+        },
+        {
+          "label": "B",
+          "text": "F(x)+f(x)"
+        },
+        {
+          "label": "C",
+          "text": "F(x)+C。原始関数は 1 つに決まらず C の分だけ無数に存在する"
+        },
+        {
+          "label": "D",
+          "text": "F(x)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-023",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫(x²+a)(x+b) dx を展開してから積分するとき、a=2、b=−1 のとき正しい結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x³−x²+2x−2 をそのまま答える"
+        },
+        {
+          "label": "B",
+          "text": "x⁴/4−x²/2+2x²−2x+C"
+        },
+        {
+          "label": "C",
+          "text": "x⁴/4−x³/3+x²+C"
+        },
+        {
+          "label": "D",
+          "text": "(x²+2)(x−1)=x³−x²+2x−2 → x⁴/4−x³/3+x²−2x+C"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-024",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "F'(x)=2x+c かつ F(−1)=3 かつ F(1)=5 から c と積分定数を決める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F(x)=x²+cx+C。F(−1)=1−c+C=3 →①。F(1)=1+c+C=5 →②。②−①: 2c=2 → c=1。①に代入: C=3"
+        },
+        {
+          "label": "B",
+          "text": "F(x)=x²+cx+C。F(−1)+F(1)=2+2C=8 → C=3"
+        },
+        {
+          "label": "C",
+          "text": "F(x)=x+c → c と C が混在"
+        },
+        {
+          "label": "D",
+          "text": "F(x)=x²+cx+C。F(−1)=−1+c+C=3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-025",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x³−3x の全ての原始関数を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x) の原始関数は x⁴/4−3x²/2 のみで C=0 とする"
+        },
+        {
+          "label": "B",
+          "text": "∫(x³−3x) dx = x⁴/4−3x²+C"
+        },
+        {
+          "label": "C",
+          "text": "∫(x³−3x) dx = x⁴/4−3x²/2+C。これが全ての原始関数を表す"
+        },
+        {
+          "label": "D",
+          "text": "∫(x³−3x) dx = x⁴−3x²+C"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-026",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫(f(x)+f'(x)) dx の意味として正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫(f(x)+f'(x)) dx = f(x)+f''(x)+C"
+        },
+        {
+          "label": "B",
+          "text": "∫(f(x)+f'(x)) dx = F'(x)+f'(x)+C"
+        },
+        {
+          "label": "C",
+          "text": "∫(f(x)+f'(x)) dx = 2F(x)+C"
+        },
+        {
+          "label": "D",
+          "text": "∫f(x) dx + ∫f'(x) dx = F(x)+f(x)+C"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-027",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫(2x+1)³ dx を展開してから積分するとき、正しい結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2x+1)⁴/8+C"
+        },
+        {
+          "label": "B",
+          "text": "(2x+1)³=8x³+12x²+6x+1 → 2x⁴+4x³+3x²+x+C"
+        },
+        {
+          "label": "C",
+          "text": "8x³+12x²+6x+1+C"
+        },
+        {
+          "label": "D",
+          "text": "(2x+1)⁴/4+C"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-028",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=ax²+bx が f'(2)=6 かつ f(1)=3 を満たすとき a と b を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(x)=2ax+b より f'(2)=4a+b=6 ①、f(1)=a+b=3 ②。①−②: 3a=3 → a=1, b=2"
+        },
+        {
+          "label": "B",
+          "text": "f'(2)=4a+b=6 の 1 式のみから a=0, b=6 と決める"
+        },
+        {
+          "label": "C",
+          "text": "4a+b=6 と a+b=3 を足して 5a+2b=9 → a=9, b=−18"
+        },
+        {
+          "label": "D",
+          "text": "f'(2)=4a+b=6 ①、f(1)=a+b=3 ②。①−②: 3a=3 → a=1。②に代入: 1+b=3 → b=1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-029",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "原始関数の一意性について正しい記述はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x) が連続なら原始関数は存在しない"
+        },
+        {
+          "label": "B",
+          "text": "f(x) の原始関数はただ 1 つ"
+        },
+        {
+          "label": "C",
+          "text": "f(x) の原始関数同士は比例する"
+        },
+        {
+          "label": "D",
+          "text": "f(x) の原始関数は無数に存在し、どの 2 つも定数分だけ異なる"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    },
+    {
+      "id": "if-030",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫(x+1)³ dx を合成関数の積分と展開の 2 通りで求め、結果が一致することを確認するとき正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "合成関数: (x+1)⁴/4+C。展開: x³+3x²+3x+1 → x⁴/4+x³+3x²/2+x+C。(x+1)⁴/4を展開すると x⁴/4+x³+3x²/2+x+1/4。定数分だけ異なるが C に吸収されて一致"
+        },
+        {
+          "label": "B",
+          "text": "合成関数: (x+1)⁴/4+C。展開: 一致しない"
+        },
+        {
+          "label": "C",
+          "text": "合成関数の結果と展開の結果は定数以外も異なる"
+        },
+        {
+          "label": "D",
+          "text": "内側が x+1なので合成関数の積分の公式を使わない方がよい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定積分"
+      ],
+      "subunit": "indefinite-integrals"
+    }
+  ]
+}

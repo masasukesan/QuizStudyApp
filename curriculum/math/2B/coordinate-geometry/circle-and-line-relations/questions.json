@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "id": "clr-001",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円の中心から直線への距離 d と半径 r の大小関係で、直線と円が「2点で交わる」条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "d > r"
+        },
+        {
+          "label": "B",
+          "text": "d = r"
+        },
+        {
+          "label": "C",
+          "text": "d ≤ r"
+        },
+        {
+          "label": "D",
+          "text": "d < r"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "判別条件",
+        "d<r"
+      ]
+    },
+    {
+      "id": "clr-002",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円の中心から直線への距離 d と半径 r が等しいとき（d=r）、直線と円の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "直線は円の直径となる"
+        },
+        {
+          "label": "B",
+          "text": "直線は円と交わらない"
+        },
+        {
+          "label": "C",
+          "text": "直線は円に接する"
+        },
+        {
+          "label": "D",
+          "text": "直線は円と2点で交わる"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "接する条件",
+        "d=r"
+      ]
+    },
+    {
+      "id": "clr-003",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円 x²+y²=25 と直線 y=3 の関係を判定する。中心(0,0)から y=3 への距離は 3 なので正しい判定はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "d=3 = r=3 なので直線は円に接する"
+        },
+        {
+          "label": "B",
+          "text": "d=5 = r=5 なので直線は円に接する"
+        },
+        {
+          "label": "C",
+          "text": "d=3 が r より大きいと誤り、交わらないと判断"
+        },
+        {
+          "label": "D",
+          "text": "d=3 < r=5 なので直線は円と2点で交わる"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "具体例",
+        "2点交差"
+      ]
+    },
+    {
+      "id": "clr-004",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円 x²+y²=9 と直線 y=4 の位置関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心から距離 4 = r=4 なので接する"
+        },
+        {
+          "label": "B",
+          "text": "中心から距離 3 = r=3 なので接する"
+        },
+        {
+          "label": "C",
+          "text": "中心(0,0)から y=4 の距離は 4 > 3=r なので直線は円と交わらない"
+        },
+        {
+          "label": "D",
+          "text": "中心から距離 4 < r=9 なので2点で交わる"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "具体例",
+        "交わらない"
+      ]
+    },
+    {
+      "id": "clr-005",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "直線 y=k が円 x²+y²=r² に接するとき、k の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = r のみ"
+        },
+        {
+          "label": "B",
+          "text": "k = ±r²"
+        },
+        {
+          "label": "C",
+          "text": "k = 0"
+        },
+        {
+          "label": "D",
+          "text": "k = ±r"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "接する条件",
+        "y=k"
+      ]
+    },
+    {
+      "id": "clr-006",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円と直線の交点を求めるとき、最初に行う操作として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "円の中心と直線の距離を計算する"
+        },
+        {
+          "label": "B",
+          "text": "円の方程式を微分して接線の傾きを求める"
+        },
+        {
+          "label": "C",
+          "text": "直線の傾きと円の半径を比較する"
+        },
+        {
+          "label": "D",
+          "text": "直線の式を円の方程式に代入して x(または y)の2次方程式を作る"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "解法の手順",
+        "代入"
+      ]
+    },
+    {
+      "id": "clr-007",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円と直線を連立した2次方程式の判別式 D と交点数の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "D≥0 のとき2交点、D<0 のとき交点なし"
+        },
+        {
+          "label": "B",
+          "text": "D が正のとき接点1つ、ゼロのとき2交点、負のとき交点なし"
+        },
+        {
+          "label": "C",
+          "text": "D>0 のとき2交点、D=0 のとき接点(1点)、D<0 のとき交点なし"
+        },
+        {
+          "label": "D",
+          "text": "D の符号は交点数と無関係"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "判別式",
+        "交点数"
+      ]
+    },
+    {
+      "id": "clr-008",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円 x²+y²=5 と直線 y=x+k が接する条件を求めるとき、まず何をするか正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心(0,0)から直線 x-y+k=0 への距離 = √5 として k を求める"
+        },
+        {
+          "label": "B",
+          "text": "円の方程式を y について解いてから代入する"
+        },
+        {
+          "label": "C",
+          "text": "y=x+k を x²+y²=5 に代入して x の2次方程式を作り、判別式 D=0 とおく"
+        },
+        {
+          "label": "D",
+          "text": "直線の傾きが 1 なので接線公式に直接代入する"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "接する条件",
+        "判別式法"
+      ]
+    },
+    {
+      "id": "clr-009",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円の中心 O から弦 AB への垂線の足を M とする。OM と AB の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OM ⊥ AB かつ M は AB の中点"
+        },
+        {
+          "label": "B",
+          "text": "OM ⊥ AB だが M は中点とは限らない"
+        },
+        {
+          "label": "C",
+          "text": "OM は AB を外分する"
+        },
+        {
+          "label": "D",
+          "text": "OM と AB は平行"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "弦の性質",
+        "中点垂線"
+      ]
+    },
+    {
+      "id": "clr-010",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "basic",
+      "question": "円 x²+y²=r² の内部にある点 P(a,b)（a²+b²<r²）から引ける接線の本数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2本引ける"
+        },
+        {
+          "label": "B",
+          "text": "無限本引ける"
+        },
+        {
+          "label": "C",
+          "text": "内部の点からは接線を引けない"
+        },
+        {
+          "label": "D",
+          "text": "1本だけ引ける"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "接線本数",
+        "内部"
+      ]
+    },
+    {
+      "id": "clr-011",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 x²+y²=10 に直線 y=x+k が接するとき k の値を求める。判別式法で正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心(0,0)から x−y+k=0 の距離=√10 → |k|/√2=√10 → k=±√10"
+        },
+        {
+          "label": "B",
+          "text": "代入して 2x²+2kx+(k²−10)=0、D=4k²−8(k²−10)=0 → k=±√5"
+        },
+        {
+          "label": "C",
+          "text": "代入して x²+(x+k)²=10、展開後 D=0 で k=±√20"
+        },
+        {
+          "label": "D",
+          "text": "代入して 2x²+2kx+(k²−10)=0、D=4k²−8(k²−10)=0 → k²=20 → k=±2√5"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "接する条件",
+        "k値"
+      ]
+    },
+    {
+      "id": "clr-012",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 (x−2)²+(y−1)²=5 と直線 y=x+1 の交点を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=x+1 を代入して x²+(x+1)²=5 として解く"
+        },
+        {
+          "label": "B",
+          "text": "直線の傾き1と円の半径√5を比較する"
+        },
+        {
+          "label": "C",
+          "text": "中心(2,1)を直線に代入して接点を求める"
+        },
+        {
+          "label": "D",
+          "text": "y=x+1 を代入して (x−2)²+(x+1−1)²=5 → (x−2)²+x²=5 → 2x²−4x−1=0 で解く"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "交点計算",
+        "代入"
+      ]
+    },
+    {
+      "id": "clr-013",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 x²+y²=25 と直線 3x+4y=k が接する k の値を距離法で求める。正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "直線の傾き −3/4 と半径 5 から k=±25/4"
+        },
+        {
+          "label": "B",
+          "text": "中心(0,0)から距離 = |k|/√(3²+4²) = 5 → k=±25/√25=±5"
+        },
+        {
+          "label": "C",
+          "text": "中心(0,0)から 3x+4y−k=0 への距離 = |−k|/5 = 5 → k=±25"
+        },
+        {
+          "label": "D",
+          "text": "3x+4y=k を代入して判別式 D=0 とおき k=±5"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "距離法",
+        "接する条件"
+      ]
+    },
+    {
+      "id": "clr-014",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 x²+y²=r² の弦の長さを求める。中心Oから弦への距離が d のとき弦の長さとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "弦の長さ = √(r²−d²)"
+        },
+        {
+          "label": "B",
+          "text": "弦の長さ = r²−d²"
+        },
+        {
+          "label": "C",
+          "text": "弦の長さ = 2√(r²+d²)"
+        },
+        {
+          "label": "D",
+          "text": "弦の長さ = 2√(r²−d²)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "弦の長さ",
+        "ピタゴラス"
+      ]
+    },
+    {
+      "id": "clr-015",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 x²+y²=9 と直線 y=2x+k が2点で交わるための k の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心から直線 2x−y+k=0 への距離 < 3 → |k|/√5 < 3 → −3√5 < k < 3√5"
+        },
+        {
+          "label": "B",
+          "text": "中心から距離 < 3 → |k|/√5 > 3 → k < −3√5 または k > 3√5"
+        },
+        {
+          "label": "C",
+          "text": "代入して D>0 より k²<45、ただし −√45 < k < √45 ではなく −√45 ≤ k ≤ √45"
+        },
+        {
+          "label": "D",
+          "text": "中心から距離 < 3 → |k| < 3 → −3 < k < 3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "交わる範囲",
+        "不等式"
+      ]
+    },
+    {
+      "id": "clr-016",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 x²+y²=4 の接線で傾きが 1 のものの方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=x±√2"
+        },
+        {
+          "label": "B",
+          "text": "y=x±2√2"
+        },
+        {
+          "label": "C",
+          "text": "y=x±2"
+        },
+        {
+          "label": "D",
+          "text": "y=x±4"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "接線の方程式",
+        "傾き指定"
+      ]
+    },
+    {
+      "id": "clr-017",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "直線 l が円に接するとき、中心 O と接点 T を結ぶ OT と l の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OT ∥ l"
+        },
+        {
+          "label": "B",
+          "text": "OT と l のなす角は 60°"
+        },
+        {
+          "label": "C",
+          "text": "OT と l のなす角は 45°"
+        },
+        {
+          "label": "D",
+          "text": "OT ⊥ l"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "接線と半径",
+        "垂直関係"
+      ]
+    },
+    {
+      "id": "clr-018",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 x²+y²=5 と直線 x+2y=k の交点数が k の値によって変化する。交点がちょうど1つ（接する）のとき k の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = ±√5"
+        },
+        {
+          "label": "B",
+          "text": "k = ±2√5"
+        },
+        {
+          "label": "C",
+          "text": "中心(0,0)から x+2y−k=0 への距離 = |−k|/√5 = √5 → k=±5"
+        },
+        {
+          "label": "D",
+          "text": "k = ±10"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "接する条件",
+        "k値"
+      ]
+    },
+    {
+      "id": "clr-019",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円の外部の点から2本の接線を引いたとき、2つの接点と中心が作る図形の性質として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2つの接点と外部の点が作る三角形は正三角形"
+        },
+        {
+          "label": "B",
+          "text": "2本の接線は互いに平行"
+        },
+        {
+          "label": "C",
+          "text": "2つの接点を結ぶ線分は中心を通る"
+        },
+        {
+          "label": "D",
+          "text": "外部の点から2つの接点までの距離は等しい"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "接線の性質",
+        "等距離"
+      ]
+    },
+    {
+      "id": "clr-020",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "standard",
+      "question": "円 (x−1)²+(y−2)²=4 に直線 y=−x+k が接するとき k の値を求める正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心(1,2)から直線 x+y−k=0 への距離 = |1+2−k|/√2 = 2 → |3−k|=2√2 → k=3±2√2"
+        },
+        {
+          "label": "B",
+          "text": "中心から距離 = |1−2−k|/√2 = 2 → k=1±2√2"
+        },
+        {
+          "label": "C",
+          "text": "代入して 2次方程式を作り D=0 とおいて k=±2√2"
+        },
+        {
+          "label": "D",
+          "text": "中心から距離 = |3−k|/2 = 2 → k=7 または k=−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "距離法",
+        "中心(1,2)"
+      ]
+    },
+    {
+      "id": "clr-021",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 x²+y²=1 と直線 y=mx+1 の交点が1つのとき、m の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=mx+1 は (0,1) を通り (0,1) は円上なので m の値によらず交点をもつ"
+        },
+        {
+          "label": "B",
+          "text": "D=0 → m=±1"
+        },
+        {
+          "label": "C",
+          "text": "中心から距離=1 → m²=0 → m=0"
+        },
+        {
+          "label": "D",
+          "text": "代入した 2 次方程式の判別式 D=4m²≥0 より常に 2 交点以上存在する"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "接線",
+        "特殊点"
+      ]
+    },
+    {
+      "id": "clr-022",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 x²+y²=r² と直線 ax+by=c が接する条件（c の値で表す）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心(0,0)から直線への距離 = |c|/√(a²+b²) = r → c² = r²(a²+b²)"
+        },
+        {
+          "label": "B",
+          "text": "c = r√(a²+b²)"
+        },
+        {
+          "label": "C",
+          "text": "c² = r(a²+b²)"
+        },
+        {
+          "label": "D",
+          "text": "c = r(a+b)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接する条件",
+        "一般形"
+      ]
+    },
+    {
+      "id": "clr-023",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 x²+y²=5 と直線 y=2x+k の交点の中点の x 座標を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "代入して得られる方程式の解の和 = −4k/5 で中点は 4k/5"
+        },
+        {
+          "label": "B",
+          "text": "代入して 5x²+4kx+(k²−5)=0 の解の和 = −4k/5 なので中点は −4k/5"
+        },
+        {
+          "label": "C",
+          "text": "中心(0,0)の x=0 が中点"
+        },
+        {
+          "label": "D",
+          "text": "代入して 5x²+4kx+(k²−5)=0。中点の x = −4k/(2×5) = −2k/5"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "弦の中点",
+        "ビエタ"
+      ]
+    },
+    {
+      "id": "clr-024",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 C: x²+y²=4 と点 P(3,0) がある。P を通り C に接する直線の方程式を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線 y=m(x−3) と D=0 → m=±1"
+        },
+        {
+          "label": "B",
+          "text": "中心(0,0)から P(3,0) への距離 3 と半径 2 から sin θ=2/3 で求める"
+        },
+        {
+          "label": "C",
+          "text": "接線 y=m(x−3) と円 x²+y²=4 を連立し D=0 → (1+m²)(9m²−4)=4m² → 5m²=4 → m=±2/√5"
+        },
+        {
+          "label": "D",
+          "text": "接線の公式 xx₀+yy₀=r² に P(3,0) を代入して 3x=4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "外部の点からの接線",
+        "傾き法"
+      ]
+    },
+    {
+      "id": "clr-025",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "2 円 C₁: x²+y²=4 と C₂: x²+y²−6x+5=0 の共通弦の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "C₁=0 と C₂=0 を連立して x と y を求める"
+        },
+        {
+          "label": "B",
+          "text": "C₁−C₂=0 → 6x−9=0 → x=3/2"
+        },
+        {
+          "label": "C",
+          "text": "C₁−C₂=0 → −6x+5+4=0 → x=3/2+1=5/2"
+        },
+        {
+          "label": "D",
+          "text": "両円の中心を結んだ直線が共通弦"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "共通弦",
+        "方程式の差"
+      ]
+    },
+    {
+      "id": "clr-026",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 x²+y²=25 に外部から引いた接線の接点を T とするとき PT²（接線の長さの2乗）の公式として正しいものはどれか（P(a,b) は外部の点）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PT² = a²+b²+25"
+        },
+        {
+          "label": "B",
+          "text": "PT² = (a−5)²+(b−5)²"
+        },
+        {
+          "label": "C",
+          "text": "PT² = a²+b²−25"
+        },
+        {
+          "label": "D",
+          "text": "PT² = √(a²+b²)−5"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "接線の長さ",
+        "公式"
+      ]
+    },
+    {
+      "id": "clr-027",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "直線 3x+4y+c=0 が円 x²+y²=1 に接しないための c の条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接するのは d=1 のときだけなので、接しないのは d≠1 のすべて"
+        },
+        {
+          "label": "B",
+          "text": "|c|/5 < 1 → |c| < 5"
+        },
+        {
+          "label": "C",
+          "text": "|c|/5 > 1 → |c| > 5"
+        },
+        {
+          "label": "D",
+          "text": "中心(0,0)から距離 = |c|/5 ≠ 1 → c ≠ ±5"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "接しない条件",
+        "否定"
+      ]
+    },
+    {
+      "id": "clr-028",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 x²+y²=r² と直線 lx+my=1 が接するとき r と l、m の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "l²+m²=r²"
+        },
+        {
+          "label": "B",
+          "text": "l²+m²=r"
+        },
+        {
+          "label": "C",
+          "text": "中心(0,0)から距離 = 1/√(l²+m²) = r → l²+m²=1/r²"
+        },
+        {
+          "label": "D",
+          "text": "l+m=1/r"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "接する条件",
+        "一般係数"
+      ]
+    },
+    {
+      "id": "clr-029",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 x²+y²=5 の弦で、中点が (1,2) となる弦の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "弦の傾きは中心と中点を結ぶ傾き 2 なので y−2=2(x−1)"
+        },
+        {
+          "label": "B",
+          "text": "中点(1,2)を通り傾き 2 の直線 y=2x なので y=2x"
+        },
+        {
+          "label": "C",
+          "text": "中心(0,0)から弦への垂線が中点(1,2)を通る → 弦は (0,0) →(1,2) に垂直 → 傾き −1/2 → x+2y=5"
+        },
+        {
+          "label": "D",
+          "text": "中点の座標から直接 x+y=3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "弦の中点",
+        "垂直条件"
+      ]
+    },
+    {
+      "id": "clr-030",
+      "subject": "math",
+      "unit": "円と直線の位置関係",
+      "difficulty": "exam",
+      "question": "円 (x−a)²+(y−b)²=r² と直線 y=mx+n の交点数を判定するとき使うべき量として最も直接的なものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心 (a,b) から直線 mx−y+n=0 への距離 d と r の大小比較(d<r, d=r, d>r)"
+        },
+        {
+          "label": "B",
+          "text": "直線の傾き m と半径 r の積"
+        },
+        {
+          "label": "C",
+          "text": "直線の y 切片 n と半径 r の差"
+        },
+        {
+          "label": "D",
+          "text": "a²+b²−r² の符号"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "判定法",
+        "距離と半径"
+      ]
+    }
+  ]
+}

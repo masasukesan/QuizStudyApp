@@ -1,0 +1,44 @@
+{
+  "unit_id": "graphs-and-quadratic-equations",
+  "unit_name_jp": "グラフと2次方程式",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "x-axis-intersection",
+      "description": "放物線とx軸の位置関係（交点数）",
+      "thinking_process": [
+        "D>0: 2交点",
+        "D=0: 1点",
+        "D<0: なし"
+      ],
+      "common_mistakes": [
+        "D=0で交点なしと誤解"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "line-parabola",
+      "description": "直線と放物線の交点",
+      "thinking_process": [
+        "連立方程式でxの二次式に",
+        "Dで交点数判断"
+      ],
+      "common_mistakes": [
+        "連立の符号ミス"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "conditions",
+      "description": "グラフの位置条件・係数決定",
+      "thinking_process": [
+        "頂点・軸・通過点から条件を立てる"
+      ],
+      "common_mistakes": [
+        "条件の組み合わせを誤る"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

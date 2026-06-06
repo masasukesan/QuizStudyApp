@@ -1,0 +1,845 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "logarithmic-function-graphs",
+  "questions": [
+    {
+      "id": "lfg-001",
+      "difficulty": "basic",
+      "question": "y=log₂x のグラフが通る点として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2,2)"
+        },
+        {
+          "label": "B",
+          "text": "(0,1)"
+        },
+        {
+          "label": "C",
+          "text": "x=1 で y=0 を通り、x 軸に漸近しない"
+        },
+        {
+          "label": "D",
+          "text": "(1,2)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数グラフ",
+        "固定点"
+      ]
+    },
+    {
+      "id": "lfg-002",
+      "difficulty": "basic",
+      "question": "y=log₂x のグラフの特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y は常に正の値をとる"
+        },
+        {
+          "label": "B",
+          "text": "x>0 の範囲で定義され、x が増加すると y も増加する"
+        },
+        {
+          "label": "C",
+          "text": "x が増加すると y は減少する"
+        },
+        {
+          "label": "D",
+          "text": "x の全範囲で定義される"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対数関数の性質",
+        "増加"
+      ]
+    },
+    {
+      "id": "lfg-003",
+      "difficulty": "basic",
+      "question": "y=log(1/2)x のグラフの特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x が 0 のとき y=0"
+        },
+        {
+          "label": "B",
+          "text": "y は常に正"
+        },
+        {
+          "label": "C",
+          "text": "x が増加すると y も増加する"
+        },
+        {
+          "label": "D",
+          "text": "x>0 の範囲で定義され、x が増加すると y は減少する"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "対数関数",
+        "底が1未満",
+        "減少"
+      ]
+    },
+    {
+      "id": "lfg-004",
+      "difficulty": "basic",
+      "question": "y=log₂x と y=log₂(x−1) のグラフの関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y 軸に関して対称"
+        },
+        {
+          "label": "B",
+          "text": "x 軸に関して対称"
+        },
+        {
+          "label": "C",
+          "text": "y=log₂(x−1) は y=log₂x を x 軸方向に 1 だけ平行移動したグラフ"
+        },
+        {
+          "label": "D",
+          "text": "y 軸方向に 1 だけ平行移動"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの平行移動"
+      ]
+    },
+    {
+      "id": "lfg-005",
+      "difficulty": "basic",
+      "question": "y=log₂x + 3 のグラフの漸近線として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=−3"
+        },
+        {
+          "label": "B",
+          "text": "x>1 のとき y>0、0<x<1 のとき y<0"
+        },
+        {
+          "label": "C",
+          "text": "x=3"
+        },
+        {
+          "label": "D",
+          "text": "y=3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "漸近線",
+        "y軸"
+      ]
+    },
+    {
+      "id": "lfg-006",
+      "difficulty": "basic",
+      "question": "対数関数 y=logₐx(a>0,a≠1)の定義域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x 軸(y=0)に漸近する"
+        },
+        {
+          "label": "B",
+          "text": "全実数"
+        },
+        {
+          "label": "C",
+          "text": "x≥0"
+        },
+        {
+          "label": "D",
+          "text": "x≠0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定義域",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "lfg-007",
+      "difficulty": "basic",
+      "question": "y=log₂x のグラフを y 軸方向に 2 だけ平行移動したグラフの方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=2log₂x"
+        },
+        {
+          "label": "B",
+          "text": "y=log₂(x+2)"
+        },
+        {
+          "label": "C",
+          "text": "y=log₂x+2"
+        },
+        {
+          "label": "D",
+          "text": "y=log₂(2x)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの平行移動",
+        "y方向"
+      ]
+    },
+    {
+      "id": "lfg-008",
+      "difficulty": "basic",
+      "question": "y=log₂(1/x) を変形すると正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=log₂x+1"
+        },
+        {
+          "label": "B",
+          "text": "y=log₂x−1"
+        },
+        {
+          "label": "C",
+          "text": "y=−log₂x(log₂(x⁻¹)=−log₂x)"
+        },
+        {
+          "label": "D",
+          "text": "y=1/log₂x"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数の変形",
+        "負"
+      ]
+    },
+    {
+      "id": "lfg-009",
+      "difficulty": "basic",
+      "question": "y=log₂x のグラフと y=log₂(−x) のグラフの関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x 軸に関して対称"
+        },
+        {
+          "label": "B",
+          "text": "平行移動の関係"
+        },
+        {
+          "label": "C",
+          "text": "y 軸に関して対称(x を −x に置き換え)"
+        },
+        {
+          "label": "D",
+          "text": "原点に関して対称"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの対称"
+      ]
+    },
+    {
+      "id": "lfg-010",
+      "difficulty": "basic",
+      "question": "y=log₃9 の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対数の計算"
+      ]
+    },
+    {
+      "id": "lfg-011",
+      "difficulty": "standard",
+      "question": "y=log₂(x+3)−1 のグラフの漸近線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=−1"
+        },
+        {
+          "label": "B",
+          "text": "y=−1"
+        },
+        {
+          "label": "C",
+          "text": "x=−3(真数 x+3=0 より)"
+        },
+        {
+          "label": "D",
+          "text": "x=3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "漸近線",
+        "平行移動後"
+      ]
+    },
+    {
+      "id": "lfg-012",
+      "difficulty": "standard",
+      "question": "y=log₂x と y=2ˣ のグラフの関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=x に関して対称(互いに逆関数)"
+        },
+        {
+          "label": "B",
+          "text": "平行移動の関係"
+        },
+        {
+          "label": "C",
+          "text": "y 軸に関して対称"
+        },
+        {
+          "label": "D",
+          "text": "x 軸に関して対称"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "逆関数",
+        "y=xの対称"
+      ]
+    },
+    {
+      "id": "lfg-013",
+      "difficulty": "standard",
+      "question": "log₂x = 3 を解くとき、「log₂x = 3 は 2 を底として x が 2³ に等しい」という定義の適用として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂x = 3 → x = 2³ = 8"
+        },
+        {
+          "label": "B",
+          "text": "log₂x = 3 → x = 3² = 9"
+        },
+        {
+          "label": "C",
+          "text": "log₂x = 3 → 2x = 3 → x = 3/2"
+        },
+        {
+          "label": "D",
+          "text": "log₂x = 3 → x = log₂3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数方程式の基本"
+      ]
+    },
+    {
+      "id": "lfg-014",
+      "difficulty": "standard",
+      "question": "log₂3 < log₂5 の大小関係が成立する理由として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底が 1 より大きいと不等号が逆転する"
+        },
+        {
+          "label": "B",
+          "text": "底が 2>1 の対数関数は単調増加なので 3<5 が保たれる"
+        },
+        {
+          "label": "C",
+          "text": "対数は常に元の数より小さい"
+        },
+        {
+          "label": "D",
+          "text": "3 < 5 は無関係"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対数の大小比較",
+        "単調増加"
+      ]
+    },
+    {
+      "id": "lfg-015",
+      "difficulty": "standard",
+      "question": "y=log₂(4x) を変形すると正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=log₂x+4"
+        },
+        {
+          "label": "B",
+          "text": "y=4log₂x"
+        },
+        {
+          "label": "C",
+          "text": "y=log₂x+2"
+        },
+        {
+          "label": "D",
+          "text": "y=log₈x"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "積の対数",
+        "グラフの変形"
+      ]
+    },
+    {
+      "id": "lfg-016",
+      "difficulty": "standard",
+      "question": "y=2log₂x のグラフは y=log₂x と比べてどのような変換か。正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x 軸方向に 2 倍"
+        },
+        {
+          "label": "B",
+          "text": "y 軸方向に 2 だけ平行移動"
+        },
+        {
+          "label": "C",
+          "text": "同じグラフ"
+        },
+        {
+          "label": "D",
+          "text": "y 軸方向に 2 倍の拡大(縦伸縮)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフの拡大",
+        "y方向"
+      ]
+    },
+    {
+      "id": "lfg-017",
+      "difficulty": "standard",
+      "question": "log(1/3)x > log(1/3)5 のとき x の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 < x < 5"
+        },
+        {
+          "label": "B",
+          "text": "x<5(真数条件 x>0 を忘れた誤り)"
+        },
+        {
+          "label": "C",
+          "text": "x > 5"
+        },
+        {
+          "label": "D",
+          "text": "x > 0 のみ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数不等式",
+        "底が1未満"
+      ]
+    },
+    {
+      "id": "lfg-018",
+      "difficulty": "standard",
+      "question": "y=logₐx のグラフで a>1 と 0<a<1 のグラフは点 (1,0) を共有するか。正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a>1 のときは (0,1) を通る"
+        },
+        {
+          "label": "B",
+          "text": "底が 1 より大きいときだけ通る"
+        },
+        {
+          "label": "C",
+          "text": "共有する(logₐ1=0 なので底の値によらず (1,0) を通る)"
+        },
+        {
+          "label": "D",
+          "text": "共有しない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "固定点",
+        "(1,0)"
+      ]
+    },
+    {
+      "id": "lfg-019",
+      "difficulty": "standard",
+      "question": "y=log₂x² の定義域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x≠0(x²>0 となる全ての実数)"
+        },
+        {
+          "label": "B",
+          "text": "x<0 のみ"
+        },
+        {
+          "label": "C",
+          "text": "x>0 のみ"
+        },
+        {
+          "label": "D",
+          "text": "全実数"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定義域",
+        "x²の真数条件"
+      ]
+    },
+    {
+      "id": "lfg-020",
+      "difficulty": "standard",
+      "question": "log₁₀x = 0.5 を解くとき、0.5 = 1/2 を利用して x = 10^(1/2) と変形する。この途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 10^(1/2) = √10"
+        },
+        {
+          "label": "B",
+          "text": "x = 10^0.5 = 10 × 0.5 = 5"
+        },
+        {
+          "label": "C",
+          "text": "x = 10^(1/2) = 10/2 = 5"
+        },
+        {
+          "label": "D",
+          "text": "x = 10^2 = 100 (0.5 を逆数と誤解)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数方程式",
+        "常用対数"
+      ]
+    },
+    {
+      "id": "lfg-021",
+      "difficulty": "exam",
+      "question": "y=log₂|x| のグラフの特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=log|x| は x<0 で定義されない"
+        },
+        {
+          "label": "B",
+          "text": "x<0 では y<0"
+        },
+        {
+          "label": "C",
+          "text": "定義域は全実数"
+        },
+        {
+          "label": "D",
+          "text": "x>0 と x<0 で対称で、x=0 は定義外。x=±1 で y=0"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "絶対値の対数"
+      ]
+    },
+    {
+      "id": "lfg-022",
+      "difficulty": "exam",
+      "question": "y=log₂x のグラフを x 軸方向に −2、y 軸方向に 3 だけ平行移動したグラフの方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=log₂(x+2)+3"
+        },
+        {
+          "label": "B",
+          "text": "y=log₂(x−2)+3"
+        },
+        {
+          "label": "C",
+          "text": "y=log₂(x−2)−3"
+        },
+        {
+          "label": "D",
+          "text": "y=log₂(x+2)−3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの平行移動",
+        "複合"
+      ]
+    },
+    {
+      "id": "lfg-023",
+      "difficulty": "exam",
+      "question": "log₂(x²−3x+2)≥1 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "真数>0: x²−3x+2>0 → (x−1)(x−2)>0 → x<1 or x>2。log₂(x²−3x+2)≥1 → x²−3x+2≥2 → x²−3x≥0 → x≤0 or x≥3。共通部分: x<1かつx≤0 → x≤0、x>2かつx≥3 → x≥3"
+        },
+        {
+          "label": "B",
+          "text": "真数条件なし、x≤0 or x≥3"
+        },
+        {
+          "label": "C",
+          "text": "x²−3x+2≥1"
+        },
+        {
+          "label": "D",
+          "text": "x²−3x≥0 のみで答え"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数不等式",
+        "真数条件",
+        "複合"
+      ]
+    },
+    {
+      "id": "lfg-024",
+      "difficulty": "exam",
+      "question": "y=log₂x のグラフに関して、点 (4,2) を通る接線(グラフの接触方向)の傾きとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=log₂x を微分すると y'=1/(x ln2)。x=4 → 1/(4ln2)≈0.361"
+        },
+        {
+          "label": "B",
+          "text": "傾き = 1/4"
+        },
+        {
+          "label": "C",
+          "text": "傾き = 1/2"
+        },
+        {
+          "label": "D",
+          "text": "傾き = ln2/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数の微分",
+        "接線"
+      ]
+    },
+    {
+      "id": "lfg-025",
+      "difficulty": "exam",
+      "question": "f(x)=log₂x の逆関数 f⁻¹(x) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f⁻¹(x)=x²"
+        },
+        {
+          "label": "B",
+          "text": "f⁻¹(x)=2ˣ"
+        },
+        {
+          "label": "C",
+          "text": "f⁻¹(x)=log₂(−x)"
+        },
+        {
+          "label": "D",
+          "text": "f⁻¹(x)=1/log₂x"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "逆関数",
+        "指数関数"
+      ]
+    },
+    {
+      "id": "lfg-026",
+      "difficulty": "exam",
+      "question": "y=log₂x+log₂(x−3)=2 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3"
+        },
+        {
+          "label": "B",
+          "text": "log₂x+log₂(3−x)=log₂x(3−x)=1 → x(3−x)=2 → x²−3x+2=0 → x=1 または x=2"
+        },
+        {
+          "label": "C",
+          "text": "x=4 と x=−1"
+        },
+        {
+          "label": "D",
+          "text": "x=−1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対数方程式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "lfg-027",
+      "difficulty": "exam",
+      "question": "log₂x と log₄x の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₄x=log₂x"
+        },
+        {
+          "label": "B",
+          "text": "log₄x=log₂x/log₂4=log₂x/2"
+        },
+        {
+          "label": "C",
+          "text": "log₄x=2log₂x"
+        },
+        {
+          "label": "D",
+          "text": "log₄x=log₂(4x)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "底の変換",
+        "関係"
+      ]
+    },
+    {
+      "id": "lfg-028",
+      "difficulty": "exam",
+      "question": "対数グラフ y=logₐx が y 軸の左(x<0)には存在しない理由として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y が複素数になるから"
+        },
+        {
+          "label": "B",
+          "text": "定義されるが値が虚数だから"
+        },
+        {
+          "label": "C",
+          "text": "負の底を取ることができないから"
+        },
+        {
+          "label": "D",
+          "text": "対数の真数は必ず正の数でなければならない"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "定義域",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "lfg-029",
+      "difficulty": "exam",
+      "question": "x=log₂3、y=log₂5 のとき、log₂225 を x,y で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "225=9×25=3²×5² → log₂225=2x+2y"
+        },
+        {
+          "label": "B",
+          "text": "log₂225=x+y"
+        },
+        {
+          "label": "C",
+          "text": "log₂225=2(x+y)−2"
+        },
+        {
+          "label": "D",
+          "text": "log₂225=xy"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数の計算",
+        "文字置換"
+      ]
+    },
+    {
+      "id": "lfg-030",
+      "difficulty": "exam",
+      "question": "y=log₂x のグラフが y=3 の直線と交わる点の x 座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=6"
+        },
+        {
+          "label": "B",
+          "text": "x=2"
+        },
+        {
+          "label": "C",
+          "text": "x=2³=9"
+        },
+        {
+          "label": "D",
+          "text": "log₂x=3 → x=8"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフの交点",
+        "対数方程式"
+      ]
+    }
+  ]
+}

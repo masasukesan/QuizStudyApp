@@ -1,0 +1,81 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "trigonometric-functions",
+  "subunit": "radian-measure",
+  "name": "弧度法",
+  "en": "Radian Measure",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "id": "p01",
+      "name": "度→ラジアン変換",
+      "difficulty": "basic",
+      "description": "°をラジアンに変換する（× π/180）",
+      "examples": ["30° → π/6", "120° → 2π/3", "270° → 3π/2"]
+    },
+    {
+      "id": "p02",
+      "name": "ラジアン→度変換",
+      "difficulty": "basic",
+      "description": "ラジアンを°に変換する（× 180/π）",
+      "examples": ["π/4 → 45°", "5π/6 → 150°", "7π/4 → 315°"]
+    },
+    {
+      "id": "p03",
+      "name": "弧長の公式",
+      "difficulty": "basic",
+      "description": "l = rθ を使って弧長を求める",
+      "examples": ["r=3, θ=π/3 → l=π", "r=5, θ=2π/5 → l=2π"]
+    },
+    {
+      "id": "p04",
+      "name": "扇形の面積",
+      "difficulty": "basic",
+      "description": "S = (1/2)r²θ または S = (1/2)rl を使って面積を求める",
+      "examples": ["r=4, θ=π/4 → S=2π", "r=6, θ=π/3 → S=6π"]
+    },
+    {
+      "id": "p05",
+      "name": "弧長から中心角・半径を求める",
+      "difficulty": "basic",
+      "description": "l = rθ を変形して θ または r を求める",
+      "examples": ["l=2π, r=4 → θ=π/2", "l=3π, θ=π/3 → r=9"]
+    },
+    {
+      "id": "p06",
+      "name": "周長（弧＋弦）問題",
+      "difficulty": "basic",
+      "description": "扇形の周の長さ（弧長＋半径×2）を求める",
+      "examples": ["r=3, θ=π/3 → 周長=π+6"]
+    },
+    {
+      "id": "p07",
+      "name": "面積最大化（弧長一定）",
+      "difficulty": "basic",
+      "description": "弧長を固定して扇形の面積が最大になる条件（r=l/2, θ=2）",
+      "examples": ["l=4 → r=2, θ=2 → S=4"]
+    },
+    {
+      "id": "p08",
+      "name": "一般角とラジアン",
+      "difficulty": "basic",
+      "description": "負の角・2π以上の角をラジアンで扱う",
+      "examples": ["-30° → -π/6", "450° → 5π/2"]
+    },
+    {
+      "id": "p09",
+      "name": "扇形の弧長と面積の関係式",
+      "difficulty": "basic",
+      "description": "S=(1/2)rl と S=(1/2)r²θ の使い分けと等価性の確認",
+      "examples": ["l=rθ の代入で両式が一致することを示す"]
+    },
+    {
+      "id": "p10",
+      "name": "複合問題（弧長・面積・角度）",
+      "difficulty": "basic",
+      "description": "与えられた条件から弧長・面積・中心角を組み合わせて求める",
+      "examples": ["面積と弧長が与えられ半径と中心角を求める"]
+    }
+  ]
+}

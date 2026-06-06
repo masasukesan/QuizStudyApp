@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "1次不等式",
+  "questions": [
+    {
+      "id": "li-001",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "2x - 4 > 0 を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x > 2"
+        },
+        {
+          "label": "B",
+          "text": "x > -2"
+        },
+        {
+          "label": "C",
+          "text": "x < 2"
+        },
+        {
+          "label": "D",
+          "text": "x > 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-002",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "-3x + 6 ≦ 0 を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x ≧ 2"
+        },
+        {
+          "label": "B",
+          "text": "x ≧ 4"
+        },
+        {
+          "label": "C",
+          "text": "x ≧ -2"
+        },
+        {
+          "label": "D",
+          "text": "x ≦ -2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-003",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "3x + 5 < 2x + 9 を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x < 4"
+        },
+        {
+          "label": "B",
+          "text": "x < 14"
+        },
+        {
+          "label": "C",
+          "text": "x > 4"
+        },
+        {
+          "label": "D",
+          "text": "x < -4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-004",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "4x - 3 ≧ x + 6 を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x ≧ 1"
+        },
+        {
+          "label": "B",
+          "text": "x ≧ 3"
+        },
+        {
+          "label": "C",
+          "text": "x ≦ 1"
+        },
+        {
+          "label": "D",
+          "text": "x ≧ 9"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "li-005",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "-5x > 15 を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x > -3"
+        },
+        {
+          "label": "B",
+          "text": "x > 3"
+        },
+        {
+          "label": "C",
+          "text": "x < 3"
+        },
+        {
+          "label": "D",
+          "text": "x < -3"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": "li-006",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "不等式 2x - 1 < x + 3 を満たす整数 x の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "li-007",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "連立不等式 x > 1 かつ x < 5 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 < x < 5"
+        },
+        {
+          "label": "B",
+          "text": "x < 1 または x > 5"
+        },
+        {
+          "label": "C",
+          "text": "x > 5"
+        },
+        {
+          "label": "D",
+          "text": "x < 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-008",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "連立不等式 x > 3 かつ x < 2 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 < x < 3"
+        },
+        {
+          "label": "B",
+          "text": "x > 3"
+        },
+        {
+          "label": "C",
+          "text": "x < 2"
+        },
+        {
+          "label": "D",
+          "text": "解なし"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": "li-009",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "1 ≦ 2x - 3 ≦ 7 を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 ≦ x ≦ 5"
+        },
+        {
+          "label": "B",
+          "text": "-1 ≦ x ≦ 2"
+        },
+        {
+          "label": "C",
+          "text": "2 < x < 5"
+        },
+        {
+          "label": "D",
+          "text": "1 ≦ x ≦ 7"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-010",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "basic",
+      "question": "「x は 3 より大きく 8 以下」を不等式で正しく表したものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 ≦ x < 8"
+        },
+        {
+          "label": "B",
+          "text": "3 < x ≦ 8"
+        },
+        {
+          "label": "C",
+          "text": "3 < x < 8"
+        },
+        {
+          "label": "D",
+          "text": "3 ≦ x < 9"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "li-011",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "連立不等式 2x - 3 > 1 かつ x + 2 < 6 を解く。まず 2x - 3 > 1 を整理するとき、移項して得られる式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x > 4"
+        },
+        {
+          "label": "B",
+          "text": "2x > -2"
+        },
+        {
+          "label": "C",
+          "text": "2x < 4"
+        },
+        {
+          "label": "D",
+          "text": "2x > 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-012",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "(x - 2) / 3 < (x + 1) / 2 を解く。両辺に最小公倍数 6 を掛けたとき、得られる途中式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2(x - 2) < 3(x + 1)"
+        },
+        {
+          "label": "B",
+          "text": "3(x - 2) < 2(x + 1)"
+        },
+        {
+          "label": "C",
+          "text": "2(x + 2) < 3(x - 1)"
+        },
+        {
+          "label": "D",
+          "text": "6(x - 2) < 6(x + 1)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-013",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "3(x - 1) - 2(x + 2) > 0 を解く。括弧を展開したときの途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3x - 3 - 2x - 4 > 0"
+        },
+        {
+          "label": "B",
+          "text": "3x - 3 - 2x + 4 > 0"
+        },
+        {
+          "label": "C",
+          "text": "3x + 3 - 2x - 4 > 0"
+        },
+        {
+          "label": "D",
+          "text": "3x - 3 + 2x - 4 > 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-014",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "2x - 1 < x + 3 を解くとき、x を左辺に、定数を右辺に移項した途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x - x < 3 + 1"
+        },
+        {
+          "label": "B",
+          "text": "2x - x < 3 - 1"
+        },
+        {
+          "label": "C",
+          "text": "2x + x < 3 + 1"
+        },
+        {
+          "label": "D",
+          "text": "2x - x > 3 + 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-015",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "「ある数 x の 3 倍から 5 を引いた値が x の 2 倍より大きい」を不等式で正しく表したのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3x - 5 > 2x"
+        },
+        {
+          "label": "B",
+          "text": "3x + 5 > 2x"
+        },
+        {
+          "label": "C",
+          "text": "5 - 3x > 2x"
+        },
+        {
+          "label": "D",
+          "text": "3x - 5 < 2x"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-016",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "1個80円のりんごを x 個、残り (10 - x) 個をみかん（1個120円）として、合計が1000円以下になる条件を不等式で表すとき、正しい式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "80x + 120(10 - x) ≦ 1000"
+        },
+        {
+          "label": "B",
+          "text": "80x + 120(10 - x) < 1000"
+        },
+        {
+          "label": "C",
+          "text": "80x + 120x ≦ 1000"
+        },
+        {
+          "label": "D",
+          "text": "120x + 80(10 - x) ≦ 1000"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-017",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "不等式 ax > 6 の解が x > 2 であるとき、定数 a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 4"
+        },
+        {
+          "label": "B",
+          "text": "a = 3"
+        },
+        {
+          "label": "C",
+          "text": "a = 12"
+        },
+        {
+          "label": "D",
+          "text": "a = -3"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "li-018",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "連立不等式 2x + 1 ≧ 5 かつ 3x - 2 < 7 を解く。2x + 1 ≧ 5 を移項・整理したとき、正しい途中式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x ≧ 4"
+        },
+        {
+          "label": "B",
+          "text": "2x ≦ 4"
+        },
+        {
+          "label": "C",
+          "text": "2x ≧ 6"
+        },
+        {
+          "label": "D",
+          "text": "2x ≧ -4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-019",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "x/2 + 1 ≦ x/3 + 2 を解く。両辺に最小公倍数 6 を掛けたときの途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3x + 6 ≦ 2x + 12"
+        },
+        {
+          "label": "B",
+          "text": "3x + 1 ≦ 2x + 2"
+        },
+        {
+          "label": "C",
+          "text": "2x + 6 ≦ 3x + 12"
+        },
+        {
+          "label": "D",
+          "text": "3x + 6 ≧ 2x + 12"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-020",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "standard",
+      "question": "-2 < 3x + 1 < 10 を解く。各辺から 1 を引いて整理した途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-3 < 3x < 9"
+        },
+        {
+          "label": "B",
+          "text": "-1 < 3x < 11"
+        },
+        {
+          "label": "C",
+          "text": "-3 < 3x < 10"
+        },
+        {
+          "label": "D",
+          "text": "-2 < 3x < 9"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-021",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "a > 0 のとき、不等式 ax - 2 > 3a を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x > 3 + 2/a"
+        },
+        {
+          "label": "B",
+          "text": "x < 3 + 2/a"
+        },
+        {
+          "label": "C",
+          "text": "x > 3"
+        },
+        {
+          "label": "D",
+          "text": "x > 2/a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-022",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "a < 0 のとき、不等式 ax < 2a を解いた結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x > 2"
+        },
+        {
+          "label": "B",
+          "text": "x < 2"
+        },
+        {
+          "label": "C",
+          "text": "x > -2"
+        },
+        {
+          "label": "D",
+          "text": "x < -2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-023",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "不等式 2x - a < x + 1 の解が x < 3 であるとき、定数 a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = -2"
+        },
+        {
+          "label": "B",
+          "text": "a = 2"
+        },
+        {
+          "label": "C",
+          "text": "a = 4"
+        },
+        {
+          "label": "D",
+          "text": "a = -4"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "li-024",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "不等式 3x - 1 > a の解が x の不等式 x > 2 と一致するとき、定数 a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 5"
+        },
+        {
+          "label": "B",
+          "text": "a = 7"
+        },
+        {
+          "label": "C",
+          "text": "a = -5"
+        },
+        {
+          "label": "D",
+          "text": "a = 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-025",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "不等式 x - 1 > 0 の解集合が、不等式 ax - 3 > 0 の解集合に含まれるとき、定数 a の値の範囲として正しいものはどれか (a ≠ 0)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 < a ≦ 2"
+        },
+        {
+          "label": "B",
+          "text": "a ≧ 3"
+        },
+        {
+          "label": "C",
+          "text": "0 < a < 3"
+        },
+        {
+          "label": "D",
+          "text": "a ≦ 1"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "li-026",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "2 つの不等式 x > a + 1 と x > 2a - 3 の共通の解が x > 5 であるとき、定数 a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 4"
+        },
+        {
+          "label": "B",
+          "text": "a = 2"
+        },
+        {
+          "label": "C",
+          "text": "a = 6"
+        },
+        {
+          "label": "D",
+          "text": "a = 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-027",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "連立不等式 x + 1 > 0 かつ 2x - 7 < 3 の解を満たす整数の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 個"
+        },
+        {
+          "label": "B",
+          "text": "4 個"
+        },
+        {
+          "label": "C",
+          "text": "5 個"
+        },
+        {
+          "label": "D",
+          "text": "2 個"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "li-028",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "定数 a に対して、不等式 (a-1)x > a + 3 を考える。a = 1 のとき、この不等式はどうなるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "解なし(0 > 4 は成立しない)"
+        },
+        {
+          "label": "B",
+          "text": "すべての実数が解"
+        },
+        {
+          "label": "C",
+          "text": "x > 4"
+        },
+        {
+          "label": "D",
+          "text": "x > 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "li-029",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "連立不等式 3x - 1 ≧ 2 かつ 2x + 5 > 11 - x の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x ≧ 2"
+        },
+        {
+          "label": "B",
+          "text": "x > 2"
+        },
+        {
+          "label": "C",
+          "text": "x ≧ 1"
+        },
+        {
+          "label": "D",
+          "text": "1 ≦ x < 2"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "li-030",
+      "subject": "数学1A",
+      "unit": "1次不等式",
+      "difficulty": "exam",
+      "question": "x についての不等式 2x - 3a < a + x の解が x < 4 となるとき、定数 a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 1"
+        },
+        {
+          "label": "B",
+          "text": "a = 2"
+        },
+        {
+          "label": "C",
+          "text": "a = -1"
+        },
+        {
+          "label": "D",
+          "text": "a = 4"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

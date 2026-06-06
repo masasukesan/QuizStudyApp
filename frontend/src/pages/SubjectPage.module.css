@@ -1,0 +1,703 @@
+/* ══════════════════════════════════════════════════
+   SubjectPage — 重厚な闇書庫（Dark Codex）テーマ
+   ══════════════════════════════════════════════════ */
+
+.page {
+  min-height:     100dvh;
+  display:        flex;
+  flex-direction: column;
+  background:     #2a1e12;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(120, 80, 20, 0.15) 0%, transparent 60%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 60px,
+      rgba(201, 168, 106, 0.02) 60px,
+      rgba(201, 168, 106, 0.02) 61px
+    );
+  position:       relative;
+  color:          #c8b48a;
+  font-family:    var(--font-serif-jp);
+}
+
+/* ══ ヘッダー ══ */
+.header {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  padding:         16px 20px 12px;
+  border-bottom:   1px solid rgba(201, 168, 106, 0.18);
+  background:      #3a2a1a;
+  box-shadow:      0 2px 16px rgba(0,0,0,0.5);
+}
+
+/* ══ 統計バナー ══ */
+.statsBanner {
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  gap:             10px;
+  padding:         8px 20px;
+  background:      linear-gradient(90deg, #0f0903 0%, #1a0f04 50%, #0f0903 100%);
+  border-bottom:   1px solid rgba(201, 168, 106, 0.15);
+  border-top:      1px solid rgba(201, 168, 106, 0.08);
+  position:        relative;
+  overflow:        hidden;
+}
+.statsBanner::before {
+  content:    '';
+  position:   absolute;
+  bottom:     0;
+  left:       10%;
+  right:      10%;
+  height:     0.5px;
+  background: linear-gradient(90deg, transparent, rgba(201,168,106,0.4) 40%, rgba(201,168,106,0.4) 60%, transparent);
+}
+
+.statsItem {
+  font-family:    var(--font-serif-en);
+  font-style:     italic;
+  font-size:      11px;
+  letter-spacing: 1px;
+  color:          rgba(201, 168, 106, 0.5);
+}
+.statsItem em {
+  font-style:  normal;
+  font-weight: 600;
+  color:       #c9a86a;
+}
+
+.statsDot {
+  color:       rgba(201, 168, 106, 0.35);
+  font-size:   14px;
+  line-height: 1;
+}
+
+.headerLeft {
+  display:     flex;
+  align-items: center;
+  gap:         10px;
+}
+
+.headerTitle {
+  font-family:    var(--font-cinzel-deco);
+  font-size:      16px;
+  font-weight:    400;
+  color:          #d4a84b;
+  line-height:    1.1;
+  letter-spacing: 0.04em;
+  text-shadow:    0 0 20px rgba(201, 168, 106, 0.2);
+}
+
+.headerAnno {
+  font-family:    var(--font-serif-en);
+  font-style:     italic;
+  font-size:      9px;
+  letter-spacing: 3px;
+  color:          rgba(201, 168, 106, 0.35);
+  margin-top:     1px;
+}
+
+.logoutBtn {
+  padding:        6px 12px;
+  background:     transparent;
+  border:         1px solid rgba(201, 168, 106, 0.25);
+  font-family:    var(--font-serif-jp);
+  font-size:      10.5px;
+  letter-spacing: 2px;
+  color:          rgba(201, 168, 106, 0.6);
+  cursor:         pointer;
+  transition:     background 0.15s, border-color 0.15s, color 0.15s;
+}
+.logoutBtn:hover {
+  background:   rgba(201, 168, 106, 0.07);
+  border-color: rgba(201, 168, 106, 0.45);
+  color:        #c9a86a;
+}
+
+/* ══ メインコンテンツ ══ */
+.inner {
+  padding:        0 20px calc(64px + env(safe-area-inset-bottom, 0px) + 16px);
+  flex:           1;
+  display:        flex;
+  flex-direction: column;
+}
+
+/* ══ ユーザーカード ══ */
+.userCard {
+  position:    relative;
+  display:     flex;
+  align-items: center;
+  gap:         16px;
+  margin:      20px 0;
+  padding:     20px 18px;
+  background:  #3a2a1a;
+  border:      1px solid rgba(201, 168, 106, 0.28);
+  box-shadow:  0 4px 24px rgba(0,0,0,0.5), inset 0 0 40px rgba(0,0,0,0.3);
+}
+.userCard::before {
+  content:        '';
+  position:       absolute;
+  inset:          3px;
+  border:         0.5px solid rgba(201, 168, 106, 0.12);
+  pointer-events: none;
+}
+
+.userInfo {
+  flex:      1;
+  min-width: 0;
+}
+
+.userName {
+  font-family:   var(--font-serif-jp);
+  font-size:     18px;
+  font-weight:   500;
+  color:         #d4a84b;
+  white-space:   nowrap;
+  overflow:      hidden;
+  text-overflow: ellipsis;
+}
+
+.userGradus {
+  font-family:    var(--font-cinzel);
+  font-size:      11px;
+  letter-spacing: 0.08em;
+  color:          rgba(201, 168, 106, 0.4);
+  margin-top:     6px;
+  display:        flex;
+  align-items:    center;
+  gap:            8px;
+}
+
+.userLevel {
+  display:         inline-flex;
+  align-items:     center;
+  justify-content: center;
+  font-family:     var(--font-cinzel-deco);
+  font-size:       13px;
+  font-weight:     400;
+  line-height:     1;
+  color:           #c9a86a;
+  background:      linear-gradient(135deg, #1a0f04 0%, #2a1a08 45%, #1a0f04 100%);
+  border:          1px solid rgba(201, 168, 106, 0.5);
+  padding:         4px 14px;
+  letter-spacing:  0.06em;
+  position:        relative;
+  animation:       goldRibbonGlow 3s ease-in-out infinite;
+}
+.userLevel::before,
+.userLevel::after {
+  content:    '';
+  position:   absolute;
+  top:        50%;
+  width:      6px;
+  height:     6px;
+  background: #3a2a1a;
+  transform:  translateY(-50%) rotate(45deg);
+  border:     0.5px solid rgba(201, 168, 106, 0.4);
+}
+.userLevel::before { left:  -4px; }
+.userLevel::after  { right: -4px; }
+
+.expTrack {
+  position:   relative;
+  height:     8px;
+  margin-top: 8px;
+  background: #2a1e12;
+  border:     1px solid rgba(201, 168, 106, 0.3);
+  overflow:   visible;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.4);
+}
+
+.expFill {
+  height:     100%;
+  background: linear-gradient(90deg,
+    #2a1a08 0%,
+    #c9a86a 70%,
+    #e0c07a 85%,
+    #c9a86a 100%
+  );
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  animation:  expGlow 2.5s ease-in-out infinite;
+  position:   relative;
+}
+.expFill::after {
+  content:       '';
+  position:      absolute;
+  right:         -2px;
+  top:           50%;
+  transform:     translateY(-50%);
+  width:         6px;
+  height:        6px;
+  background:    #e0c07a;
+  border-radius: 50%;
+  box-shadow:    0 0 6px 2px rgba(224, 192, 122, 0.6);
+  animation:     expGlow 2.5s ease-in-out infinite;
+}
+
+.expTick {
+  position:   absolute;
+  top:        0;
+  bottom:     0;
+  width:      0.5px;
+  background: rgba(201, 168, 106, 0.2);
+  transform:  translateX(-50%);
+}
+
+.expDetails {
+  display:         flex;
+  justify-content: space-between;
+  margin-top:      5px;
+  font-family:     var(--font-serif-en);
+  font-style:      italic;
+  font-size:       11px;
+  color:           rgba(201, 168, 106, 0.35);
+}
+
+/* ══ セクションヘッダー ══ */
+.sectionHeader {
+  text-align:     center;
+  margin-bottom:  14px;
+  display:        flex;
+  flex-direction: column;
+  gap:            6px;
+}
+
+.sectionIndex {
+  font-family:    var(--font-serif-en);
+  font-style:     italic;
+  font-size:      10px;
+  letter-spacing: 4px;
+  color:          rgba(201, 168, 106, 0.3);
+}
+
+.sectionTitle {
+  font-family:    var(--font-cinzel-deco);
+  font-size:      12px;
+  font-weight:    400;
+  letter-spacing: 0.06em;
+  color:          #c9a86a;
+  position:       relative;
+  padding-bottom: 8px;
+}
+.sectionTitle::after {
+  content:    '';
+  position:   absolute;
+  bottom:     0;
+  left:       50%;
+  transform:  translateX(-50%);
+  width:      60px;
+  height:     0.5px;
+  background: linear-gradient(90deg, transparent, rgba(201,168,106,0.4), transparent);
+}
+
+/* ══ 教科リスト ══ */
+.subjectList {
+  display:        flex;
+  flex-direction: column;
+}
+
+.subjectRow {
+  display:       flex;
+  align-items:   center;
+  gap:           16px;
+  width:         100%;
+  padding:       12px;
+  background:    transparent;
+  border:        none;
+  border-bottom: 1px solid rgba(201, 168, 106, 0.1);
+  text-align:    left;
+  cursor:        pointer;
+  transition:    background 0.15s;
+  animation:     subjectIn 0.5s ease both;
+}
+.subjectRowFirst {
+  border-top: 1px solid rgba(201, 168, 106, 0.1);
+}
+.subjectRow:hover {
+  background: rgba(201, 168, 106, 0.04);
+}
+.subjectRow:hover .subjectArrow {
+  transform: translateX(3px);
+  color:     rgba(201, 168, 106, 0.7);
+}
+
+@keyframes subjectIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 銘板 */
+.crest {
+  position:        relative;
+  width:           76px;
+  height:          44px;
+  flex-shrink:     0;
+  border:          1px solid rgba(201, 168, 106, 0.35);
+  background:      #3a2a1a;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+}
+.crestInner {
+  position:       absolute;
+  inset:          3px;
+  border:         0.5px solid rgba(201, 168, 106, 0.12);
+  pointer-events: none;
+}
+.crestName {
+  font-family:    var(--font-serif-jp);
+  font-size:      17px;
+  font-weight:    500;
+  letter-spacing: 3px;
+  color:          #c9a86a;
+  padding-left:   3px;
+  position:       relative;
+  z-index:        1;
+}
+
+/* コース情報 */
+.courseInfo {
+  display:        flex;
+  flex-direction: column;
+  min-width:      0;
+}
+.courseStats {
+  font-family:    var(--font-serif-en);
+  font-style:     italic;
+  font-size:      11.5px;
+  letter-spacing: 0.5px;
+  color:          rgba(201, 168, 106, 0.35);
+  white-space:    nowrap;
+}
+
+/* 非アクティブ */
+.subjectRowDisabled {
+  opacity: 0.3;
+  cursor:  default !important;
+}
+.subjectRowDisabled:hover {
+  background: transparent !important;
+}
+.subjectRowDisabled .subjectArrow {
+  opacity: 0;
+}
+
+/* ドットリーダー */
+.dotLeader {
+  flex:       1;
+  height:     1px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(201, 168, 106, 0.12) 0 1px,
+    transparent 1px 4px
+  );
+  min-width:  12px;
+}
+
+.subjectStatus {
+  font-family:    var(--font-serif-en);
+  font-style:     italic;
+  font-size:      11px;
+  letter-spacing: 2px;
+  color:          rgba(201, 168, 106, 0.3);
+  white-space:    nowrap;
+}
+
+.subjectArrow {
+  font-family: var(--font-serif-en);
+  font-size:   18px;
+  color:       rgba(201, 168, 106, 0.2);
+  transition:  transform 0.2s ease, color 0.15s ease;
+  flex-shrink: 0;
+}
+
+/* ══ 塾導線バナー ══ */
+.eurekaBanner {
+  position:        relative;
+  display:         flex;
+  align-items:     center;
+  gap:             12px;
+  margin-top:      24px;
+  padding:         18px 18px 18px 20px;
+  background:      linear-gradient(135deg, #3a2a1a 0%, #2a1e12 60%, #201508 100%);
+  border:          1px solid rgba(201, 168, 106, 0.35);
+  box-shadow:      0 4px 24px rgba(0,0,0,0.4), inset 0 0 32px rgba(0,0,0,0.2);
+  text-decoration: none;
+  cursor:          pointer;
+  transition:      background 0.2s, border-color 0.2s;
+  overflow:        hidden;
+}
+.eurekaBanner::before {
+  content:    '';
+  position:   absolute;
+  left:       0;
+  top:        0;
+  bottom:     0;
+  width:      3px;
+  background: linear-gradient(180deg, transparent, rgba(201,168,106,0.6) 40%, rgba(201,168,106,0.6) 60%, transparent);
+}
+.eurekaBanner:hover {
+  background:    linear-gradient(135deg, #3e2e1c 0%, #2e2210 60%, #221508 100%);
+  border-color:  rgba(201, 168, 106, 0.55);
+}
+.eurekaBanner:hover .eurekaArrow {
+  transform: translateX(4px);
+  color:     rgba(201, 168, 106, 0.8);
+}
+
+.eurekaBannerInner {
+  position:       absolute;
+  inset:          4px;
+  border:         0.5px solid rgba(201, 168, 106, 0.1);
+  pointer-events: none;
+}
+
+.eurekaContent {
+  flex:           1;
+  display:        flex;
+  flex-direction: column;
+  align-items:    flex-start;
+  gap:            5px;
+}
+
+.eurekaEyebrow {
+  font-family:    var(--font-serif-en);
+  font-style:     italic;
+  font-size:      9px;
+  letter-spacing: 4px;
+  color:          rgba(201, 168, 106, 0.35);
+}
+
+.eurekaTitle {
+  font-family:    var(--font-cinzel-deco);
+  font-size:      13px;
+  font-weight:    400;
+  letter-spacing: 0.04em;
+  color:          #d4a84b;
+  text-shadow:    0 0 16px rgba(201, 168, 106, 0.2);
+}
+
+.eurekaDesc {
+  font-family:    var(--font-serif-jp);
+  font-size:      11px;
+  letter-spacing: 1.5px;
+  color:          rgba(201, 168, 106, 0.55);
+}
+
+.eurekaArrow {
+  font-family: var(--font-serif-en);
+  font-size:   22px;
+  color:       rgba(201, 168, 106, 0.25);
+  flex-shrink: 0;
+  transition:  transform 0.2s ease, color 0.15s ease;
+}
+
+/* ══ フッター ══ */
+.footer {
+  display:        flex;
+  flex-direction: column;
+  align-items:    center;
+  gap:            6px;
+  margin-top:     28px;
+}
+
+.footerLatin {
+  font-family:    var(--font-cinzel);
+  font-size:      10px;
+  letter-spacing: 2px;
+  color:          rgba(201, 168, 106, 0.3);
+  position:       relative;
+  padding:        6px 16px;
+}
+.footerLatin::before {
+  content:    '';
+  position:   absolute;
+  bottom:     0;
+  left:       0;
+  right:      0;
+  height:     0.5px;
+  background: linear-gradient(90deg, transparent, rgba(201,168,106,0.25) 40%, rgba(201,168,106,0.25) 60%, transparent);
+}
+
+.footerJp {
+  font-family:    var(--font-serif-jp);
+  font-size:      9.5px;
+  letter-spacing: 3px;
+  color:          rgba(201, 168, 106, 0.2);
+}
+
+/* ══ 復元コードモーダル ══ */
+.modalOverlay {
+  position:        fixed;
+  inset:           0;
+  z-index:         100;
+  background:      rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(3px);
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  padding:         24px 20px;
+  animation:       modalIn 0.4s ease;
+}
+@keyframes modalIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.modalCard {
+  position:   relative;
+  width:       100%;
+  max-width:   320px;
+  background:  #3a2a1a;
+  padding:     28px 24px 24px;
+  border:      1px solid rgba(201, 168, 106, 0.35);
+  box-shadow:  0 24px 64px rgba(0,0,0,0.7);
+  animation:   modalCardIn 0.4s ease;
+}
+@keyframes modalCardIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.modalFrameOuter {
+  position:       absolute;
+  inset:          6px;
+  border:         0.75px solid rgba(201, 168, 106, 0.2);
+  pointer-events: none;
+}
+.modalFrameInner {
+  position:       absolute;
+  inset:          10px;
+  border:         0.5px solid rgba(201, 168, 106, 0.08);
+  pointer-events: none;
+}
+
+.modalContent {
+  position:        relative;
+  z-index:         1;
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  gap:             12px;
+  text-align:      center;
+}
+
+.modalBienvenue {
+  font-family:    var(--font-cinzel);
+  font-size:      10px;
+  letter-spacing: 5px;
+  color:          rgba(201, 168, 106, 0.5);
+}
+
+.modalTitle {
+  font-family:  var(--font-cinzel-deco);
+  font-size:    22px;
+  font-weight:  400;
+  color:        #d4a84b;
+  margin:       0;
+}
+
+.modalDesc {
+  font-family:    var(--font-serif-jp);
+  font-size:      11.5px;
+  letter-spacing: 1px;
+  line-height:    1.7;
+  color:          #c8b48a;
+}
+
+.modalEmph {
+  color: #c9a86a;
+}
+
+.keyCard {
+  position:        relative;
+  width:           100%;
+  background:      #2a1e12;
+  border:          1px solid rgba(201, 168, 106, 0.35);
+  padding:         16px 20px;
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  gap:             8px;
+}
+
+.keyCardLabel {
+  font-family:    var(--font-cinzel);
+  font-size:      10px;
+  letter-spacing: 4px;
+  color:          rgba(201, 168, 106, 0.45);
+}
+
+.keyCode {
+  font-family:    var(--font-cinzel);
+  font-size:      28px;
+  font-weight:    500;
+  letter-spacing: 5px;
+  color:          #d4a84b;
+}
+
+.copyBtn {
+  background:     transparent;
+  border:         1px solid rgba(201, 168, 106, 0.25);
+  padding:        5px 16px;
+  font-family:    var(--font-serif-jp);
+  font-size:      10.5px;
+  letter-spacing: 3px;
+  color:          rgba(201, 168, 106, 0.6);
+  cursor:         pointer;
+  transition:     background 0.15s, color 0.15s;
+}
+.copyBtn:hover {
+  background: rgba(201, 168, 106, 0.08);
+  color:      #c9a86a;
+}
+
+.modalWarning {
+  font-family:    var(--font-cinzel);
+  font-size:      10px;
+  color:          rgba(201, 168, 106, 0.45);
+  line-height:    1.6;
+}
+
+.modalConfirmBtn {
+  position:        relative;
+  width:           100%;
+  height:          48px;
+  background:      linear-gradient(180deg, #3e2810 0%, #2e1e0c 60%, #241808 100%);
+  border:          1px solid rgba(201, 168, 106, 0.45);
+  font-family:     var(--font-cinzel);
+  font-size:       12px;
+  font-weight:     500;
+  letter-spacing:  5px;
+  color:           #c9a86a;
+  cursor:          pointer;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  text-shadow:     0 0 12px rgba(201, 168, 106, 0.3);
+  box-shadow:      0 4px 20px rgba(0,0,0,0.5);
+  transition:      background 0.2s, color 0.2s;
+}
+.modalConfirmBtn:hover {
+  background: linear-gradient(180deg, #3a2510 0%, #251508 60%, #170f05 100%);
+  color:      #e0c07a;
+}
+
+.submitInner {
+  position:       absolute;
+  inset:          3px;
+  border:         0.5px solid rgba(201, 168, 106, 0.15);
+  pointer-events: none;
+}
+
+@keyframes goldRibbonGlow {
+  0%, 100% { box-shadow: 0 0 8px rgba(201, 168, 106, 0.2); }
+  50%      { box-shadow: 0 0 16px rgba(201, 168, 106, 0.4); }
+}
+
+@keyframes expGlow {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.8; }
+}

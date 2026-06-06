@@ -1,0 +1,52 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "statistical-inference",
+  "subunit": "estimation-and-hypothesis-testing",
+  "name": "推定と仮説検定",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "z-test",
+      "description": "母平均・母比率の Z 検定の手順",
+      "thinking_process": [
+        "H₀ を設定（μ=μ₀ など）",
+        "Z=(X̄−μ₀)/(σ/√n) を計算",
+        "有意水準に対応する棄却域と比較"
+      ],
+      "common_mistakes": [
+        "σ/√n の計算でσをそのまま使う",
+        "両側と片側で棄却域を間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "ci-and-test",
+      "description": "信頼区間と仮説検定の関係（表裏一体）を使う",
+      "thinking_process": [
+        "95% CI が μ₀ を含まない ↔ α=5% で H₀: μ=μ₀ を棄却",
+        "区間推定と検定のどちらでも同じ結論が得られる",
+        "CI の幅から検定力を把握できる"
+      ],
+      "common_mistakes": [
+        "信頼区間と棄却域を別々のものと考える",
+        "α=5% と 95% CI の対応関係を知らない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "error-types",
+      "description": "第一種・第二種の過誤とそのトレードオフを理解する",
+      "thinking_process": [
+        "α（第一種）を下げると β（第二種）が上がる",
+        "n を増やすと両方を抑えられる",
+        "検出力 = 1−β"
+      ],
+      "common_mistakes": [
+        "第一種と第二種の定義を混同する",
+        "α を下げれば全ての誤りが減ると考える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "statistical-inference",
+  "subunit": "random-variables-and-distributions",
+  "name": "確率変数と分布",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "expected-value",
+      "description": "確率分布表から期待値を計算する",
+      "thinking_process": [
+        "E(X)=Σxₖ P(X=xₖ)",
+        "各値と確率の積を全て足す",
+        "全確率の和=1を確認"
+      ],
+      "common_mistakes": [
+        "確率を足すだけ（値を掛け忘れる）",
+        "全確率の和が1でない分布表を使う"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "variance-calculation",
+      "description": "E(X²)−(E(X))² で分散を求める",
+      "thinking_process": [
+        "E(X)を先に求める",
+        "E(X²)=Σxₖ²P(X=xₖ)を計算",
+        "V(X)=E(X²)−(E(X))²"
+      ],
+      "common_mistakes": [
+        "E(X²)と(E(X))²を混同する",
+        "標準偏差まで求めてしまい分散を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "linear-transform",
+      "description": "aX+b の期待値と分散を求める",
+      "thinking_process": [
+        "E(aX+b)=aE(X)+b",
+        "V(aX+b)=a²V(X)（定数 b は消える）",
+        "σ(aX+b)=|a|σ(X)"
+      ],
+      "common_mistakes": [
+        "V(aX+b)=a²V(X)+b と b を足してしまう",
+        "a が負のとき V の符号を間違える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

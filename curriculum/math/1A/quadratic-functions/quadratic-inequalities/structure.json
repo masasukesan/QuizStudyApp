@@ -1,0 +1,58 @@
+{
+  "unit_id": "quadratic-inequalities",
+  "unit_name_jp": "2次不等式",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "factored-inequality",
+      "description": "因数分解で解く二次不等式",
+      "thinking_process": [
+        "因数分解して根を求める",
+        "根の大小関係で解の範囲を決める",
+        "a>0: α<x<β（<なら内側）、x<α or x>β（>なら外側）"
+      ],
+      "common_mistakes": [
+        "a>0 と a<0 の場合の解の向きを逆にする",
+        "等号含む・含まないのミス"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "discriminant-cases",
+      "description": "判別式による場合分け（D>0,=0,<0）",
+      "thinking_process": [
+        "D>0: 2根で分割",
+        "D=0: 重解",
+        "D<0: 解なし or 全実数"
+      ],
+      "common_mistakes": [
+        "D<0 のとき解の範囲を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "simultaneous-inequalities",
+      "description": "連立二次不等式",
+      "thinking_process": [
+        "各不等式を個別に解く",
+        "解の共通部分または和集合を取る"
+      ],
+      "common_mistakes": [
+        "共通部分と和集合を混同"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "parameter-inequality",
+      "description": "パラメータを含む二次不等式",
+      "thinking_process": [
+        "係数の符号や判別式の条件で場合分け"
+      ],
+      "common_mistakes": [
+        "場合分けが不十分"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

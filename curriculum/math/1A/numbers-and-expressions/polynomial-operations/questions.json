@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "整式の加法・減法・乗法",
+  "questions": [
+    {
+      "id": "po-001",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(2x² + 3x - 1) + (x² - 2x + 4) を整理した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3x² + x + 3"
+        },
+        {
+          "label": "B",
+          "text": "3x² + 5x + 3"
+        },
+        {
+          "label": "C",
+          "text": "3x² + x - 5"
+        },
+        {
+          "label": "D",
+          "text": "2x² + x + 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-002",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(3x² - 2x + 5) - (x² + 3x - 2) を整理した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x² - 5x + 7"
+        },
+        {
+          "label": "B",
+          "text": "2x² - 5x + 3"
+        },
+        {
+          "label": "C",
+          "text": "2x² + x + 7"
+        },
+        {
+          "label": "D",
+          "text": "4x² + x + 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-003",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "3x²(2x - 5) を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6x³ - 15x²"
+        },
+        {
+          "label": "B",
+          "text": "6x³ - 5x²"
+        },
+        {
+          "label": "C",
+          "text": "6x² - 15x"
+        },
+        {
+          "label": "D",
+          "text": "5x³ - 15x²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-004",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(x + 5)² を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x² + 25"
+        },
+        {
+          "label": "B",
+          "text": "x² + 10x + 25"
+        },
+        {
+          "label": "C",
+          "text": "x² + 5x + 25"
+        },
+        {
+          "label": "D",
+          "text": "x² - 10x + 25"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-005",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(x - 3)(x + 3) を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x² - 9"
+        },
+        {
+          "label": "B",
+          "text": "x² + 9"
+        },
+        {
+          "label": "C",
+          "text": "x² - 6x + 9"
+        },
+        {
+          "label": "D",
+          "text": "x² - 6x - 9"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-006",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(x + 2)(x - 7) を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x² - 5x - 14"
+        },
+        {
+          "label": "B",
+          "text": "x² + 5x - 14"
+        },
+        {
+          "label": "C",
+          "text": "x² - 5x + 14"
+        },
+        {
+          "label": "D",
+          "text": "x² - 9x - 14"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-007",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(2x - 3)² を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4x² - 12x + 9"
+        },
+        {
+          "label": "B",
+          "text": "4x² + 12x + 9"
+        },
+        {
+          "label": "C",
+          "text": "4x² - 9"
+        },
+        {
+          "label": "D",
+          "text": "4x² - 6x + 9"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-008",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(3x + 1)(3x - 1) を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9x² + 1"
+        },
+        {
+          "label": "B",
+          "text": "9x² - 1"
+        },
+        {
+          "label": "C",
+          "text": "9x² - 6x - 1"
+        },
+        {
+          "label": "D",
+          "text": "9x² + 6x - 1"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-009",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(x + 3)(x² - 3x + 9) を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x³ + 27"
+        },
+        {
+          "label": "B",
+          "text": "x³ - 27"
+        },
+        {
+          "label": "C",
+          "text": "x³ + 6x² + 27"
+        },
+        {
+          "label": "D",
+          "text": "x³ - 6x + 27"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-010",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "basic",
+      "question": "(-2x²y)(3xy²) を計算した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-6x³y³"
+        },
+        {
+          "label": "B",
+          "text": "6x³y³"
+        },
+        {
+          "label": "C",
+          "text": "-6x²y²"
+        },
+        {
+          "label": "D",
+          "text": "-5x³y³"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-011",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(x + 1)(x + 2)(x + 3) を展開したとき、x の係数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-012",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(x + y + z)² を展開したとき、xy の係数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-013",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(2x - 1)(3x² + x - 2) を展開したとき、x² の係数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-5"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "-1"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": "po-014",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(x² + x - 1)(x² - x + 1) を展開したとき、x² の係数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-015",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(a+b)³ を証明する。(a+b)² = a²+2ab+b² に (a+b) を掛けるとき、a²×(a+b) の展開として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a³ + a²b"
+        },
+        {
+          "label": "B",
+          "text": "a² + a²b"
+        },
+        {
+          "label": "C",
+          "text": "a³ + 2a²b"
+        },
+        {
+          "label": "D",
+          "text": "a³b + a²b"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-016",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "99² を (100-1)² = 100²-2×100×1+1² の公式で計算する。2×100×1 の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "200"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "400"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-017",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(x+2)² - (x-2)² を計算する。(x+2)² = x²+4x+4、(x-2)² = x²-4x+4 として引き算したとき、正しい途中式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²+4x+4 - x²+4x-4 = 8x"
+        },
+        {
+          "label": "B",
+          "text": "x²+4x+4 - x²-4x-4 = 0"
+        },
+        {
+          "label": "C",
+          "text": "x²+4x+4 - x²+4x+4 = 8x+8"
+        },
+        {
+          "label": "D",
+          "text": "x²+4x+4 + x²-4x+4 = 2x²+8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-018",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(x + a)(x + b)(x + c) を展開したとき、x の係数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a + b + c"
+        },
+        {
+          "label": "B",
+          "text": "abc"
+        },
+        {
+          "label": "C",
+          "text": "ab + bc + ca"
+        },
+        {
+          "label": "D",
+          "text": "a² + b² + c²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "po-019",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "(2x+3y)² を (a+b)² = a²+2ab+b² の公式で展開するとき、2ab にあたる項はどれか。a=2x, b=3y として計算せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12xy"
+        },
+        {
+          "label": "B",
+          "text": "6xy"
+        },
+        {
+          "label": "C",
+          "text": "24xy"
+        },
+        {
+          "label": "D",
+          "text": "6x²y"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-020",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "standard",
+      "question": "x² + y² = 10、xy = 3 のとき (x + y)² の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "13"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-021",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "(x + 1)⁴ を展開したとき、x² の係数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-022",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "x - 1/x = 3 のとき、x² + 1/x² の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "po-023",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "等式 x³ + ax² + bx + c = (x - 1)(x² - x + 2) + 3 が x についての恒等式のとき、a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = -2"
+        },
+        {
+          "label": "B",
+          "text": "a = 0"
+        },
+        {
+          "label": "C",
+          "text": "a = 1"
+        },
+        {
+          "label": "D",
+          "text": "a = -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-024",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "a + b + c = 2、ab + bc + ca = -1 のとき、a² + b² + c² の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-025",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "(x - 1)(x + 1)(x² + 1)(x⁴ + 1) を展開した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x⁸ - 1"
+        },
+        {
+          "label": "B",
+          "text": "x⁸ + 1"
+        },
+        {
+          "label": "C",
+          "text": "x⁷ - 1"
+        },
+        {
+          "label": "D",
+          "text": "x⁴ - 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-026",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "等式 2x² + 3x - 1 = a(x-1)² + b(x-1) + c が x の恒等式のとき、c の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c = 4"
+        },
+        {
+          "label": "B",
+          "text": "c = -1"
+        },
+        {
+          "label": "C",
+          "text": "c = 1"
+        },
+        {
+          "label": "D",
+          "text": "c = 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-027",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "x = 2 + √3 のとき、x² - 4x + 1 の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "-2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-028",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "(a + b + c)(ab + bc + ca) - abc を a, b, c の対称式として整理すると正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a²b + ab² + b²c + bc² + c²a + ca²"
+        },
+        {
+          "label": "B",
+          "text": "a²b + ab² + b²c + bc² + c²a + ca² + 2abc"
+        },
+        {
+          "label": "C",
+          "text": "a³ + b³ + c³"
+        },
+        {
+          "label": "D",
+          "text": "a²b + ab² + b²c + bc² - abc"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "po-029",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "x = √5 + √3、y = √5 - √3 のとき、x² + y² の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "po-030",
+      "subject": "数学1A",
+      "unit": "整式の加法・減法・乗法",
+      "difficulty": "exam",
+      "question": "3x² + 5xy + 2y² を因数分解した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3x + 2y)(x + y)"
+        },
+        {
+          "label": "B",
+          "text": "(3x + y)(x + 2y)"
+        },
+        {
+          "label": "C",
+          "text": "(3x - y)(x + 2y)"
+        },
+        {
+          "label": "D",
+          "text": "(x + 2y)²"
+        }
+      ],
+      "correct": "B"
+    }
+  ]
+}

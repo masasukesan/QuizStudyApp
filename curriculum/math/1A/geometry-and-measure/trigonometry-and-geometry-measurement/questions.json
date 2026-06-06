@@ -1,0 +1,876 @@
+{
+  "subject": "数学",
+  "unit": "三角形の計量への応用",
+  "questions": [
+    {
+      "id": "tgm-001",
+      "difficulty": "basic",
+      "question": "三角形 ABC で b = 4、c = 6、A = 30° のとき、三角形の面積 S を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)×b×c×sin A = (1/2)×4×6×sin 30° = 12×(1/2) = 6"
+        },
+        {
+          "label": "B",
+          "text": "S = b×c×sin A = 4×6×(1/2) = 12"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×b×c = (1/2)×4×6 = 12"
+        },
+        {
+          "label": "D",
+          "text": "S = (1/2)×b×c×cos A = 12×(√3/2) = 6√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の面積公式",
+        "S = (1/2)bc sinA",
+        "sin 30° = 1/2"
+      ]
+    },
+    {
+      "id": "tgm-002",
+      "difficulty": "basic",
+      "question": "三角形 ABC で a = 5、b = 8、C = 60° のとき、面積 S を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)×a×b×sin C = (1/2)×5×8×sin 60° = 20×(√3/2) = 10√3"
+        },
+        {
+          "label": "B",
+          "text": "S = (1/2)×a×b×sin C = (1/2)×5×8×(1/2) = 10"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×5×8×sin 60° = 20×(√3/2) は正しいが 10√2 と計算"
+        },
+        {
+          "label": "D",
+          "text": "Cはab間の角ではないとして面積を求められないと思う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積公式",
+        "sin 60° = √3/2",
+        "挟まれた角"
+      ]
+    },
+    {
+      "id": "tgm-003",
+      "difficulty": "basic",
+      "question": "底辺 10、斜辺 6、底辺と斜辺のなす角 45° の三角形の面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)×10×6×sin 45° = 30×(√2/2) = 15√2"
+        },
+        {
+          "label": "B",
+          "text": "S = (1/2)×底辺×高さ = (1/2)×10×6 = 30(高さが6ではなく、6 sin 45°が高さ)"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×10×6×sin 45° = 30×(1/2) = 15"
+        },
+        {
+          "label": "D",
+          "text": "S = 10×6×cos 45° = 30√2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積公式",
+        "sin 45° = √2/2",
+        "高さとsinの関係"
+      ]
+    },
+    {
+      "id": "tgm-004",
+      "difficulty": "basic",
+      "question": "面積 S = 12√3、b = 6、sin A = √3/2 のとき、c の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)×b×c×sin A → 12√3 = (1/2)×6×c×(√3/2) = (3√3/2)c → c = 12√3×2/(3√3) = 8"
+        },
+        {
+          "label": "B",
+          "text": "c = S/(b × sin A) = 12√3/(6 × √3/2) = 4"
+        },
+        {
+          "label": "C",
+          "text": "c = S×2/(b×sin A) = 24√3/6 = 4√3"
+        },
+        {
+          "label": "D",
+          "text": "c = S/b = 12√3/6 = 2√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積公式の逆算",
+        "c の計算",
+        "√3の約分"
+      ]
+    },
+    {
+      "id": "tgm-005",
+      "difficulty": "basic",
+      "question": "正三角形で一辺の長さが 4 のとき、面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正三角形の内角は 60° → S = (1/2)×4×4×sin 60° = 8×(√3/2) = 4√3"
+        },
+        {
+          "label": "B",
+          "text": "S = (1/2)×底辺×高さ = (1/2)×4×4 = 8(高さが4ではなく、高さ = 4sin60° = 2√3)"
+        },
+        {
+          "label": "C",
+          "text": "S = 4² × (√3/4) = 4√3(別の正三角形の公式、正しいが手順として確認できない)"
+        },
+        {
+          "label": "D",
+          "text": "S = (1/2)×4×4×cos 60° = 8×(1/2) = 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正三角形の面積",
+        "sin 60°",
+        "面積公式の適用"
+      ]
+    },
+    {
+      "id": "tgm-006",
+      "difficulty": "basic",
+      "question": "直角三角形で斜辺 c = 10、一つの鋭角 θ = 30° のとき、三角形の面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = c sin θ = 10×(1/2) = 5(対辺)、b = c cos θ = 10×(√3/2) = 5√3(底辺)→ S = (1/2)×5×5√3 = 25√3/2"
+        },
+        {
+          "label": "B",
+          "text": "S = (1/2)×c×c×sin 90° = (1/2)×100×1 = 50"
+        },
+        {
+          "label": "C",
+          "text": "a = 5、b = 5√3 は正しいが S = a×b = 25√3"
+        },
+        {
+          "label": "D",
+          "text": "S = (1/2)×底辺×高さ に sin を掛けてしまい二重にsinを使う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "直角三角形の辺計算",
+        "面積の計算",
+        "sin と cos"
+      ]
+    },
+    {
+      "id": "tgm-007",
+      "difficulty": "basic",
+      "question": "三角形 ABH で AB = 8、角 B = 60°、角 H = 90° のとき、高さ AH を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin B = AH/AB → AH = 8 × sin 60° = 8 × (√3/2) = 4√3"
+        },
+        {
+          "label": "B",
+          "text": "cos B = AH/AB → AH = 8 × cos 60° = 8 × (1/2) = 4"
+        },
+        {
+          "label": "C",
+          "text": "tan B = AH/AB → AH = 8 × tan 60° = 8√3"
+        },
+        {
+          "label": "D",
+          "text": "AH = AB ÷ sin B = 8 ÷ (√3/2) = 16/√3 = 16√3/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "高さとsin",
+        "h = c sinB",
+        "直角三角形の利用"
+      ]
+    },
+    {
+      "id": "tgm-008",
+      "difficulty": "basic",
+      "question": "外接円の半径 R = 5 の三角形で、辺 a = 8 のとき対角 A を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理 a = 2R sin A → 8 = 10 sin A → sin A = 4/5(sin の値が 1 未満なので鋭角・鈍角の2解がある)"
+        },
+        {
+          "label": "B",
+          "text": "sin A = R/a = 5/8"
+        },
+        {
+          "label": "C",
+          "text": "a = 2R sin A → sin A = a/(2R) = 8/10 = 4/5 → A = 53.1°のみ"
+        },
+        {
+          "label": "D",
+          "text": "a = R sin A = 5 sin A → sin A = 8/5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理の逆用",
+        "外接円と対角",
+        "2解の可能性"
+      ]
+    },
+    {
+      "id": "tgm-009",
+      "difficulty": "basic",
+      "question": "平行四辺形で隣り合う2辺が 5 と 8、その間の角が 60° のとき、面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "平行四辺形の面積 = a×b×sin θ = 5×8×sin 60° = 40×(√3/2) = 20√3"
+        },
+        {
+          "label": "B",
+          "text": "5 × 8 × sin 30° = 40 × (1/2) = 20"
+        },
+        {
+          "label": "C",
+          "text": "S = 5×8×cos 60° = 40×(1/2) = 20"
+        },
+        {
+          "label": "D",
+          "text": "S = (1/2)×5×8×sin 60° = 10√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "平行四辺形の面積",
+        "S = ab sinθ",
+        "三角形の2倍"
+      ]
+    },
+    {
+      "id": "tgm-010",
+      "difficulty": "basic",
+      "question": "水平距離 200m の地点から仰角 30° で山頂を見るとき、山の高さ h を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan 30° = h/200 → h = 200 × tan 30° = 200 × (1/√3) = 200√3/3 m"
+        },
+        {
+          "label": "B",
+          "text": "sin 30° = h/200 → h = 200 × sin 30° = 100 m"
+        },
+        {
+          "label": "C",
+          "text": "cos 30° = h/200 → h = 200 × cos 30° = 100√3 m(cosは隣辺÷斜辺なので水平距離に使えない)"
+        },
+        {
+          "label": "D",
+          "text": "h = 200 ÷ tan 30° = 200 × √3 = 200√3 m"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "仰角とtan",
+        "h = d tanθ",
+        "水平距離と高さ"
+      ]
+    },
+    {
+      "id": "tgm-011",
+      "difficulty": "standard",
+      "question": "点 A から池の反対側の点 B までの距離を測るため、A から C まで 80 m 歩き、∠BAC = 50°、∠BCA = 70° を測った。AB を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠ABC = 180°-50°-70° = 60°。正弦定理より AB/sin C = AC/sin B → AB = 80×sin 70°/sin 60° = 80sin70°/(√3/2) = 160sin70°/√3"
+        },
+        {
+          "label": "B",
+          "text": "余弦定理を使おうとするが辺が2本わかっていないため使えない"
+        },
+        {
+          "label": "C",
+          "text": "∠ABC = 60° は正しいが、AC に対する角が B=60°なので AB/sin70° = AC/sin60° と正しく設定する"
+        },
+        {
+          "label": "D",
+          "text": "AB = AC × sin 50° = 80 sin 50°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理の応用",
+        "対角の設定",
+        "測量問題"
+      ]
+    },
+    {
+      "id": "tgm-012",
+      "difficulty": "standard",
+      "question": "2地点 A、B から建物の頂上 C を見上げたとき、∠CAB = 60°、∠CBA = 45°、AB = 100 m のとき、建物の高さ h を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠ACB = 180°-60°-45° = 75°。AC/sin45° = 100/sin75° → AC = 100sin45°/sin75°。h = AC×sin60°(Aから頂上への距離と仰角で高さを計算)"
+        },
+        {
+          "label": "B",
+          "text": "h = AB×tan60° = 100√3"
+        },
+        {
+          "label": "C",
+          "text": "正弦定理で AC を求め h = AC sin 60° は正しいが sin75°の計算を誤る"
+        },
+        {
+          "label": "D",
+          "text": "∠ACB = 75°に気づかず、∠C = 180°-60°-45°の計算を省く"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "測量と正弦定理",
+        "2地点からの観測",
+        "高さの計算"
+      ]
+    },
+    {
+      "id": "tgm-013",
+      "difficulty": "standard",
+      "question": "三角形 ABC で a = 6、b = 5、c = 7 のとき、ヘロンの公式を使って面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "s = (6+5+7)/2 = 9 → S = √(s(s-a)(s-b)(s-c)) = √(9×3×4×2) = √216 = 6√6"
+        },
+        {
+          "label": "B",
+          "text": "s = 6+5+7 = 18 → S = √(18×12×13×11)(誤った値)"
+        },
+        {
+          "label": "C",
+          "text": "√(9×3×4×2) = √(9+3+4+2) = √18 = 3√2"
+        },
+        {
+          "label": "D",
+          "text": "ヘロンの公式は S = s×(s-a)×(s-b)×(s-c)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ヘロンの公式",
+        "半周長s",
+        "√216 = 6√6"
+      ]
+    },
+    {
+      "id": "tgm-014",
+      "difficulty": "standard",
+      "question": "三角形 ABC で面積 S = 15、a = 10、外接円の半径 R = 13/2 のとき、sin A を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理より sin A = a/(2R) = 10/13。面積 S = (1/2)bc sin A から bc = 2S/sin A = 2×15/(10/13) = 39(検算)"
+        },
+        {
+          "label": "B",
+          "text": "sin A = a/R = 10/(13/2) = 20/13"
+        },
+        {
+          "label": "C",
+          "text": "sin A = 2S/a = 2×15/10 = 3"
+        },
+        {
+          "label": "D",
+          "text": "sin A = R/a = (13/2)/10 = 13/20"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理と面積の組み合わせ",
+        "sin A = a/2R",
+        "検算"
+      ]
+    },
+    {
+      "id": "tgm-015",
+      "difficulty": "standard",
+      "question": "三角形 ABC で B = 30°、C = 45°、b = 2 のとき、面積 S を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A = 180°-30°-45° = 105°。正弦定理で a/sinA = b/sinB から a を求め、S = (1/2)ab sinC で計算"
+        },
+        {
+          "label": "B",
+          "text": "A=105°まで正しいが、S = (1/2)×a×b×sinA を使う"
+        },
+        {
+          "label": "C",
+          "text": "面積公式 S = c²sinAsinB/(2sinC) を使う方法(正しい別解)"
+        },
+        {
+          "label": "D",
+          "text": "A = 180°-30°-45° = 55°で間違った角を使う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "3角から面積",
+        "面積公式の選択",
+        "sin105°の計算"
+      ]
+    },
+    {
+      "id": "tgm-016",
+      "difficulty": "standard",
+      "question": "菱形の対角線が 6 と 8 のとき、面積と一辺の長さを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積 = (1/2)×d₁×d₂ = (1/2)×6×8 = 24。一辺 = √((d₁/2)²+(d₂/2)²) = √(9+16) = 5"
+        },
+        {
+          "label": "B",
+          "text": "面積 = 6×8 = 48"
+        },
+        {
+          "label": "C",
+          "text": "一辺 = (d₁+d₂)/2 = 7"
+        },
+        {
+          "label": "D",
+          "text": "一辺 = d₁/2 = 3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "菱形の面積",
+        "対角線と辺の関係",
+        "三平方の定理"
+      ]
+    },
+    {
+      "id": "tgm-017",
+      "difficulty": "standard",
+      "question": "三角形 ABC で内接円の半径 r = 2、面積 S = 18 のとき、周の長さを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = r×s(sは半周長)→ 18 = 2×s → s = 9 → 周の長さ = 2s = 18"
+        },
+        {
+          "label": "B",
+          "text": "S = r×(a+b+c) → 18 = 2×(a+b+c) → a+b+c = 9"
+        },
+        {
+          "label": "C",
+          "text": "r = S/(a+b+c) → a+b+c = 9"
+        },
+        {
+          "label": "D",
+          "text": "S = πr² → 18 = 4π(矛盾)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S = rs",
+        "内接円と面積",
+        "周の長さの計算"
+      ]
+    },
+    {
+      "id": "tgm-018",
+      "difficulty": "standard",
+      "question": "正六角形の一辺が 4 のとき、面積を三角形の面積公式を使って求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正六角形は正三角形6つ → 1つの正三角形の面積 = (1/2)×4×4×sin60° = 8×(√3/2) = 4√3 → 全体 = 4√3×6 = 24√3"
+        },
+        {
+          "label": "B",
+          "text": "正六角形の面積 = 6×4 = 24"
+        },
+        {
+          "label": "C",
+          "text": "正三角形1つの面積 = (1/2)×4×4 = 8 → 全体 = 48"
+        },
+        {
+          "label": "D",
+          "text": "正六角形を長方形2つに分けようとする"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正六角形の面積",
+        "正三角形6つ",
+        "sin 60°の利用"
+      ]
+    },
+    {
+      "id": "tgm-019",
+      "difficulty": "standard",
+      "question": "三角形 OAB で OA = 3、OB = 4、∠AOB = 60° のとき、AB の長さと三角形の面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AB² = OA²+OB²-2×OA×OB×cos60° = 9+16-24×(1/2) = 25-12 = 13 → AB = √13。S = (1/2)×3×4×sin60° = 6×(√3/2) = 3√3"
+        },
+        {
+          "label": "B",
+          "text": "AB² = OA²+OB² = 9+16 = 25 → AB = 5"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×AB×高さ"
+        },
+        {
+          "label": "D",
+          "text": "AB = OA+OB = 7"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余弦定理と面積の組み合わせ",
+        "AB²の計算",
+        "S = (1/2)bc sinA"
+      ]
+    },
+    {
+      "id": "tgm-020",
+      "difficulty": "standard",
+      "question": "三角形 ABC で a = 4、b = 3、c = 5 のとき、面積を余弦定理と面積公式の両方で求め一致を確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "①余弦定理で cos C = (16+9-25)/(24) = 0 → C = 90° → S = (1/2)×4×3 = 6。②面積公式 S = (1/2)ab sinC = (1/2)×4×3×1 = 6(一致)"
+        },
+        {
+          "label": "B",
+          "text": "cos C = 0 を正しく求めても C = 0°(cos0°=1、cos90°=0)"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×a×b = (1/2)×4×3 = 6 は正しいが、直角三角形であることの確認を省く"
+        },
+        {
+          "label": "D",
+          "text": "ヘロンの公式で s=6、S=√(6×2×3×1)=6(正しい別解)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余弦定理と面積",
+        "3-4-5直角三角形",
+        "2つの方法での確認"
+      ]
+    },
+    {
+      "id": "tgm-021",
+      "difficulty": "exam",
+      "question": "三角形 ABC で a = √3、b = 1、A = 60° のとき、三角形の個数と各三角形の面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin B = b sinA/a = 1×(√3/2)/√3 = 1/2 → B = 30° または 150°。A+B≦180°より：B=30°→C=90°成立、B=150°→C=-30°不可。三角形は1つ。S=(1/2)×√3×1×sin90°=√3/2"
+        },
+        {
+          "label": "B",
+          "text": "sin B = 1/2 → B = 30° のみ → 三角形は1つだけ"
+        },
+        {
+          "label": "C",
+          "text": "B = 30° と 150° の両方が三角形を作れると誤解してS を2つ計算する"
+        },
+        {
+          "label": "D",
+          "text": "sinB = b/a = 1/√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角形の個数判定",
+        "2解の確認",
+        "面積計算"
+      ]
+    },
+    {
+      "id": "tgm-022",
+      "difficulty": "exam",
+      "question": "四角形 ABCD で AB = 5、BC = 4、CD = 3、DA = 2、∠ABC = 90° のとき、四角形の面積を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABC: ∠B=90°なので S₁=(1/2)×5×4=10、AC=√(25+16)=√41。△ACD: 3辺 AC=√41,CD=3,DA=2 → ヘロン公式か余弦定理で S₂ を計算 → 総面積 = S₁+S₂"
+        },
+        {
+          "label": "B",
+          "text": "四角形の面積 = (1/2)×(AB+CD)×高さ"
+        },
+        {
+          "label": "C",
+          "text": "四角形を対角線 AC で2分割して S₁+S₂ を求める方針は正しいが、△ACD の面積計算でヘロン公式の使い方を誤る"
+        },
+        {
+          "label": "D",
+          "text": "S = AB×DA = 5×2 = 10"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "四角形を三角形に分割",
+        "余弦定理の活用",
+        "面積の加算"
+      ]
+    },
+    {
+      "id": "tgm-023",
+      "difficulty": "exam",
+      "question": "三角形 ABC の外接円半径 R、内接円半径 r、面積 S、半周長 s について、r × R = abc/(4s) を確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r = S/s、R = abc/(4S)。r × R = (S/s) × (abc/(4S)) = abc/(4s)(正しく導出)"
+        },
+        {
+          "label": "B",
+          "text": "r × R = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "r = S/s と R = abc/(4S) を個別に求めるところまで正しいが、積の計算で S を消去するのを忘れる"
+        },
+        {
+          "label": "D",
+          "text": "r/R = s/abc × 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S = rs と abc = 4RS",
+        "r × R の表現",
+        "分数の除算"
+      ]
+    },
+    {
+      "id": "tgm-024",
+      "difficulty": "exam",
+      "question": "三角形 ABC で外接円半径 R = 5、内接円半径 r = 2、面積 S = 24 のとき、a+b+c と abc を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = rs より 24 = 2s → s = 12 → a+b+c = 2s = 24。abc = 4RS = 4×5×24 = 480"
+        },
+        {
+          "label": "B",
+          "text": "a+b+c = S/r = 24/2 = 12"
+        },
+        {
+          "label": "C",
+          "text": "abc = RS = 5×24 = 120"
+        },
+        {
+          "label": "D",
+          "text": "a+b+c = 2s = 24 は正しいが abc = 2RS = 240"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "S = rs",
+        "abc = 4RS",
+        "R と r の活用"
+      ]
+    },
+    {
+      "id": "tgm-025",
+      "difficulty": "exam",
+      "question": "三角形 ABC で cos(B-C) = (b²+c²)/(2bc) が成り立つとき、この条件はどのような三角形かを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos(B-C) = cosB cosC + sinB sinC。b=cのとき cos(B-C) = cos0°=1、(b²+c²)/(2bc) = 2b²/(2b²) = 1(成立)。逆に等式が成立するとb=cと示せる → 二等辺三角形"
+        },
+        {
+          "label": "B",
+          "text": "B = C のとき b = c で cos(B-C) = cos0 = 1 = (b²+c²)/(2b²) は一般に 1 でないから成立しない"
+        },
+        {
+          "label": "C",
+          "text": "cos(B-C) = 1 のとき B = C で等辺三角形、(b²+c²)/(2bc) = 1 は b=c のとき成立 → B = C(正しい別解)"
+        },
+        {
+          "label": "D",
+          "text": "正弦定理・余弦定理を使わず、B-Cの値から直接 cos を計算しよう"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos(B-C)の条件",
+        "b=cのとき成立",
+        "等辺三角形"
+      ]
+    },
+    {
+      "id": "tgm-026",
+      "difficulty": "exam",
+      "question": "三角形 ABC で辺 BC の中点を M とするとき、AM² を余弦定理を使って表す手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABM で BM = a/2 → AM² = c²+(a/2)²-2c(a/2)cosB。余弦定理より cos B = (a²+c²-b²)/(2ac)。代入整理すると AM² = (2b²+2c²-a²)/4(中線定理)"
+        },
+        {
+          "label": "B",
+          "text": "AM = (b+c)/2"
+        },
+        {
+          "label": "C",
+          "text": "△ABM に余弦定理を使う方針は正しいが BM = a"
+        },
+        {
+          "label": "D",
+          "text": "中線定理 AM² = (2b²+2c²-a²)/4 を知っているが、余弦定理から導出"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中線定理の導出",
+        "余弦定理の2回利用",
+        "AM²の表現"
+      ]
+    },
+    {
+      "id": "tgm-027",
+      "difficulty": "exam",
+      "question": "点 P が三角形 ABC の内部にあり、PA = 3、PB = 4、∠APB = 90° のとき、△APB の面積と AB の長さを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "S = (1/2)×PA×PB×sin(∠APB) = (1/2)×3×4×sin90° = 6。AB = √(PA²+PB²) = √(9+16) = 5(∠APB=90°より三平方の定理)"
+        },
+        {
+          "label": "B",
+          "text": "AB = PA+PB = 7"
+        },
+        {
+          "label": "C",
+          "text": "S = (1/2)×PA×PB = 6 は正しいが sin90° = 0(sin90° = 1)"
+        },
+        {
+          "label": "D",
+          "text": "余弦定理で AB² = PA²+PB²-2×PA×PB×cos90° = 25-0 = 25 → AB = 5(正しい別解)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin90° = 1",
+        "三平方の定理",
+        "面積と辺の計算"
+      ]
+    },
+    {
+      "id": "tgm-028",
+      "difficulty": "exam",
+      "question": "三角形 ABC で∠A = 2∠B のとき、正弦定理と倍角公式を組み合わせて辺の関係を導く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理 a/sinA = b/sinB → a/sin2B = b/sinB → a/(2sinBcosB) = b/sinB → a = 2b cosB。余弦定理 cosB = (a²+c²-b²)/(2ac) を代入して整理 → a² = b(b+c) が導ける"
+        },
+        {
+          "label": "B",
+          "text": "∠A = 2∠B より A-B = B → 余弦定理で直接角を消去できると思う"
+        },
+        {
+          "label": "C",
+          "text": "sin 2B = 2sinBcosB に気づかずに a/sin2B = a/(2sinB)"
+        },
+        {
+          "label": "D",
+          "text": "∠A = 2∠B → a = 2b"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "倍角と正弦定理",
+        "a = 2b cosB",
+        "辺の条件"
+      ]
+    },
+    {
+      "id": "tgm-029",
+      "difficulty": "exam",
+      "question": "三角形 ABC で a/cos A = b/cos B = c/cos C のとき、三角形の形状を判定する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理より a = 2R sinA → a/cosA = 2R sinA/cosA = 2R tanA。同様に b/cosB = 2R tanB。等しいから tanA = tanB = tanC → A = B = C = 60° → 正三角形"
+        },
+        {
+          "label": "B",
+          "text": "a/cosA = b/cosB より a/b = cosA/cosB、正弦定理より a/b = sinA/sinB → tanA = tanB → A = B"
+        },
+        {
+          "label": "C",
+          "text": "a = b = c(正三角形)のとき cosA=cosB=cosC より自明とするだけで証明を省く"
+        },
+        {
+          "label": "D",
+          "text": "tanA = tanB = tanC から A,B,C が等しいと言えるには過剰な確認が必要と心配する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理の活用",
+        "tan A = tan B = tan C",
+        "正三角形の判定"
+      ]
+    },
+    {
+      "id": "tgm-030",
+      "difficulty": "exam",
+      "question": "三角形 ABC で面積 S、外接円半径 R、内接円半径 r を用いて sinA+sinB+sinC = S/(Rr) と表せることを確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正弦定理より a=2RsinA, b=2RsinB, c=2RsinC → sinA+sinB+sinC = (a+b+c)/(2R) = 2s/(2R) = s/R。S = rs より s = S/r → sinA+sinB+sinC = S/(Rr)"
+        },
+        {
+          "label": "B",
+          "text": "sin A + sin B + sin C = (a+b+c)/(2R) は正しいが、それ以上の式変形をせずに終わる"
+        },
+        {
+          "label": "C",
+          "text": "S = 2R²(sinA + sinB + sinC) として立式した結果"
+        },
+        {
+          "label": "D",
+          "text": "sinA+sinB+sinC は三角関数の和で簡単に計算できないとして諦める"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正弦定理の統合的活用",
+        "sin和の関係式",
+        "R と r の組み合わせ"
+      ]
+    }
+  ]
+}

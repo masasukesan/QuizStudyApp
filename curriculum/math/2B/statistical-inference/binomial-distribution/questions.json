@@ -1,0 +1,927 @@
+{
+  "questions": [
+    {
+      "id": "bd-001",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "二項分布 B(n,p) の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "平均が n で分散が p の分布"
+        },
+        {
+          "label": "B",
+          "text": "n 種類の事象が等確率で起こる分布"
+        },
+        {
+          "label": "C",
+          "text": "確率 p の試行を n 回繰り返したとき成功回数 X の分布"
+        },
+        {
+          "label": "D",
+          "text": "n 個のデータの平均の分布"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "二項分布の定義"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-002",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~B(5,1/3) のとき E(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X)=1/3"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=5×(1/3)×(2/3)=10/9"
+        },
+        {
+          "label": "C",
+          "text": "E(X)=5"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=5×(1/3)=5/3"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "二項分布",
+        "期待値"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-003",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~B(4,1/2) のとき V(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(X)=1/4"
+        },
+        {
+          "label": "B",
+          "text": "V(X)=4×(1/2)=2"
+        },
+        {
+          "label": "C",
+          "text": "V(X)=4"
+        },
+        {
+          "label": "D",
+          "text": "V(X)=4×(1/2)×(1/2)=1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "二項分布",
+        "分散"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-004",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "コインを 3 回投げて表が 2 回出る確率として正しいものはどれか(p=1/2)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/4"
+        },
+        {
+          "label": "B",
+          "text": "1/8"
+        },
+        {
+          "label": "C",
+          "text": "3/4"
+        },
+        {
+          "label": "D",
+          "text": "3C2×(1/2)²×(1/2)¹=3/8"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "二項確率",
+        "3C2"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-005",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~B(n,p) の確率式 P(X=k) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(X=k)=pᵏ"
+        },
+        {
+          "label": "B",
+          "text": "P(X=k)=n!/(k!)×pᵏ"
+        },
+        {
+          "label": "C",
+          "text": "P(X=k)=nCk×pᵏ×(1−p)ⁿ⁻ᵏ"
+        },
+        {
+          "label": "D",
+          "text": "P(X=k)=nCk×p×(1−p)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "二項分布",
+        "確率式"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-006",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~B(10,0.3) の期待値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X)=10×0.3=3"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=10"
+        },
+        {
+          "label": "C",
+          "text": "E(X)=10×0.3×0.7=2.1"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=0.3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項分布",
+        "期待値"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-007",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~B(n,p) で n が大きく p が小さいとき近似される分布として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ポアソン分布(np=λ が一定のとき)"
+        },
+        {
+          "label": "B",
+          "text": "一様分布"
+        },
+        {
+          "label": "C",
+          "text": "正規分布"
+        },
+        {
+          "label": "D",
+          "text": "指数分布"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ポアソン近似"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-008",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~B(6,2/3) の E(X) と V(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E=4、V=4"
+        },
+        {
+          "label": "B",
+          "text": "E=4、V=8/3"
+        },
+        {
+          "label": "C",
+          "text": "E=2、V=4/3"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=4、V(X)=4/3"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "二項分布",
+        "計算"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-009",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "ベルヌーイ試行の特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各試行が独立で成功確率 p が一定"
+        },
+        {
+          "label": "B",
+          "text": "各試行が依存し合う"
+        },
+        {
+          "label": "C",
+          "text": "試行は必ず 2 回のみ"
+        },
+        {
+          "label": "D",
+          "text": "成功確率が毎回変わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ベルヌーイ試行"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-010",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~B(n,p) のとき n が増えると分布の形として正しいものはどれか(p=1/2 の場合)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "一様分布に近づく"
+        },
+        {
+          "label": "B",
+          "text": "n が増えると離散性が増す"
+        },
+        {
+          "label": "C",
+          "text": "n が大きくなるほど正規分布に近づく(中心極限定理)"
+        },
+        {
+          "label": "D",
+          "text": "形は変わらない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "正規分布への収束"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-011",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "P(X=2) を X~B(5,0.4) で計算する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5C2×0.4²×0.6³=10×0.16×0.216=0.3456"
+        },
+        {
+          "label": "B",
+          "text": "0.4²=0.16"
+        },
+        {
+          "label": "C",
+          "text": "5C2×0.4³×0.6²=0.2304"
+        },
+        {
+          "label": "D",
+          "text": "5C2×0.4²×0.6²=0.4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項確率",
+        "計算"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-012",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~B(4,p) で E(X)=1 のとき p として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p=3/4"
+        },
+        {
+          "label": "B",
+          "text": "p=1"
+        },
+        {
+          "label": "C",
+          "text": "p=4"
+        },
+        {
+          "label": "D",
+          "text": "4p=1 → p=1/4"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "二項分布",
+        "p決定"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-013",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~B(n,1/4) で V(X)=3 のとき n として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n=9"
+        },
+        {
+          "label": "B",
+          "text": "3n/16=3 → n=16"
+        },
+        {
+          "label": "C",
+          "text": "n=4"
+        },
+        {
+          "label": "D",
+          "text": "n=12"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "二項分布",
+        "n決定"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-014",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X が B(20,0.5) に従うとき P(X=10) が最大になる理由として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "二項分布の最頻値は np=(n+1)p の付近なので X=10 付近で最大"
+        },
+        {
+          "label": "B",
+          "text": "p=0.5 なので分布は左右対称で、端点 X=0 や X=20 で確率が最大になる"
+        },
+        {
+          "label": "C",
+          "text": "P(X=10)=0.5 だから"
+        },
+        {
+          "label": "D",
+          "text": "確率関数は単調減少するため、X が最小のとき確率が最大になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "最頻値",
+        "二項分布"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-015",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "サイコロを 12 回振って 1 の目が 3 回以上出る確率を求める際、余事象を使う理由として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(X=0)+P(X=1)+P(X=2)=1 だから"
+        },
+        {
+          "label": "B",
+          "text": "余事象は常に使うべきだから"
+        },
+        {
+          "label": "C",
+          "text": "3 以上は計算できないから"
+        },
+        {
+          "label": "D",
+          "text": "3〜12 回の合計より 0,1,2 回の確率を計算して 1 から引く方が計算量が少ない"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "余事象",
+        "二項分布"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-016",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~B(100,0.1) の正規近似(n が大)で使う値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "μ=1、σ=3"
+        },
+        {
+          "label": "B",
+          "text": "μ=10、σ=√10"
+        },
+        {
+          "label": "C",
+          "text": "μ=10、σ²=9 → σ=3 → Z=(X−10)/3 に変換"
+        },
+        {
+          "label": "D",
+          "text": "μ=100、σ=10"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "二項分布の正規近似"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-017",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~B(8,1/3) のとき P(X≥7) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(X=7)=(1/3)⁷"
+        },
+        {
+          "label": "B",
+          "text": "P(X=7)+P(X=8)=8C7×(1/3)⁷×(2/3)¹+8C8×(1/3)⁸=16/3⁸+1/3⁸=17/6561"
+        },
+        {
+          "label": "C",
+          "text": "P(X≥7)=2/8=1/4"
+        },
+        {
+          "label": "D",
+          "text": "P(X=8)=1/3⁸"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "二項確率",
+        "加法"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-018",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~B(n,p) で V(X) が最大になる p の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "V(X)=np(1−p) は p=1/2 のとき最大(n/4 が最大値)"
+        },
+        {
+          "label": "B",
+          "text": "p が大きいほど大きい"
+        },
+        {
+          "label": "C",
+          "text": "p=1"
+        },
+        {
+          "label": "D",
+          "text": "p=0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散の最大",
+        "p=1/2"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-019",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "当たりが 1/10 のくじを 20 回引く。当たりの期待回数と標準偏差として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E=2、σ=1.8"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=2、V(X)=1.8、σ=√1.8≈1.34"
+        },
+        {
+          "label": "C",
+          "text": "E=2、σ=√2"
+        },
+        {
+          "label": "D",
+          "text": "E=20、σ=2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "二項分布",
+        "具体計算"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-020",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "ボールを1袋から取り出し戻す試行(復元抽出)で 赤球5個/白球5個の中から赤を引く確率として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "確率 p=1/2 が一定 → 二項分布を適用できる"
+        },
+        {
+          "label": "B",
+          "text": "正規分布を使う"
+        },
+        {
+          "label": "C",
+          "text": "非復元なので二項分布は使えない"
+        },
+        {
+          "label": "D",
+          "text": "確率が変わるので使えない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "復元抽出",
+        "二項分布"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-021",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~B(10,0.4) のとき E(3X²−2X+1) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X²)=2.4+16=18.4 → 3×18.4−8+1=46.2"
+        },
+        {
+          "label": "B",
+          "text": "E(3X²−2X+1)=49"
+        },
+        {
+          "label": "C",
+          "text": "3(E(X))²−2E(X)+1=41"
+        },
+        {
+          "label": "D",
+          "text": "E(X²)=E(X)=4(平均をそのまま代入)→ 3×4−8+1=5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "期待値の計算",
+        "E(X²)"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-022",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~B(n,p) のとき最頻値(mode)を求める条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mode=np(整数に丸める)"
+        },
+        {
+          "label": "B",
+          "text": "(n+1)p が整数でない場合 mode=⌊(n+1)p⌋。整数の場合は (n+1)p と (n+1)p−1 の2つ"
+        },
+        {
+          "label": "C",
+          "text": "mode は常に n/2"
+        },
+        {
+          "label": "D",
+          "text": "mode は常に E(X)=np"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "最頻値",
+        "二項分布"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-023",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "連続 10 試合で勝率 p=0.6 のチームが 7 勝以上する確率を計算するとき最も適切な方法はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "X~B(10,0.6)。P(X≥7)=P(X=7)+P(X=8)+P(X=9)+P(X=10) を直接計算"
+        },
+        {
+          "label": "B",
+          "text": "正規分布に近似して P(Z≥7) を計算"
+        },
+        {
+          "label": "C",
+          "text": "P(X=7)×3 で計算"
+        },
+        {
+          "label": "D",
+          "text": "P(X≥7)=1−P(X≤6) で余事象(計算量は同じ)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項確率",
+        "P(X≥k)"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-024",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~B(200,0.03) を正規近似する。μ と σ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "μ=200、σ=√6"
+        },
+        {
+          "label": "B",
+          "text": "μ=200×0.03=6、σ²=200×0.03×0.97=5.82、σ=√5.82≈2.41"
+        },
+        {
+          "label": "C",
+          "text": "μ=6、σ=0.97"
+        },
+        {
+          "label": "D",
+          "text": "μ=6、σ=6"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "二項分布の正規近似"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-025",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "P(X=k+1)/P(X=k) > 1 となる条件(最頻値の条件)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(n−k)p/((k+1)(1−p))>1 → k < (n+1)p−1 → モードの求め方"
+        },
+        {
+          "label": "B",
+          "text": "常に P(X=k+1)>P(X=k)"
+        },
+        {
+          "label": "C",
+          "text": "P(X=k+1)>P(X=k) は成立しない"
+        },
+        {
+          "label": "D",
+          "text": "k<np"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "最頻値",
+        "確率の比"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-026",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~B(8,1/2) のとき P(X≥5) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(X≥5)=P(X=5)+P(X=6)+P(X=7)+P(X=8)=(56+28+8+1)/256=93/256"
+        },
+        {
+          "label": "B",
+          "text": "P(X≥5)=5/8"
+        },
+        {
+          "label": "C",
+          "text": "P(X≥5)=93/128"
+        },
+        {
+          "label": "D",
+          "text": "P(X≥5)=1/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項確率",
+        "計算"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-027",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=20、p=1/4 の二項分布で、X が 10 以上になる確率を正規近似で求める際の標準化として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=(10−5)/5=1"
+        },
+        {
+          "label": "B",
+          "text": "Z=(10−5)/√5"
+        },
+        {
+          "label": "C",
+          "text": "μ=5、σ=√(20×1/4×3/4)=√(15/4)=√3.75。Z=(10−5)/√3.75≈2.58"
+        },
+        {
+          "label": "D",
+          "text": "Z=(10−5)/3.75"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "正規近似",
+        "標準化"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-028",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "P(X=0)=(1−p)ⁿ の値が小さくなる条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n が増えても，1度も成功しない確率は変化しない"
+        },
+        {
+          "label": "B",
+          "text": "p=1/2 のとき最小"
+        },
+        {
+          "label": "C",
+          "text": "n が大きいほど，また p が大きいほど 1度も成功しない確率は小さくなる"
+        },
+        {
+          "label": "D",
+          "text": "p が大きいほど 1度も成功しない確率は大きくなる"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "P(X=0)",
+        "二項分布"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-029",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~B(n,p) と Y~B(m,p) が独立のとき X+Y の分布として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "X+Y~B(n+m,p)(同じ p の二項分布の和は二項分布)"
+        },
+        {
+          "label": "B",
+          "text": "X+Y の分布は計算不可"
+        },
+        {
+          "label": "C",
+          "text": "X+Y~B(n+m,2p)"
+        },
+        {
+          "label": "D",
+          "text": "X+Y は二項分布でない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項分布の再生性"
+      ],
+      "subunit": "binomial-distribution"
+    },
+    {
+      "id": "bd-030",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~B(5,0.2) のとき P(X=2) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5C2×0.2²×0.8³=10×0.04×0.512=0.2048"
+        },
+        {
+          "label": "B",
+          "text": "0.4096"
+        },
+        {
+          "label": "C",
+          "text": "0.1024"
+        },
+        {
+          "label": "D",
+          "text": "0.04"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項確率",
+        "具体計算"
+      ],
+      "subunit": "binomial-distribution"
+    }
+  ]
+}

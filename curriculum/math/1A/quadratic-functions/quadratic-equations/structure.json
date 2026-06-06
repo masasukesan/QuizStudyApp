@@ -1,0 +1,118 @@
+{
+  "unit_id": "quadratic-equations",
+  "unit_name_jp": "二次方程式",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "factoring-method",
+      "description": "因数分解による二次方程式の解。ax²+bx+c=0 を (x-p)(x-q)=0 の形に。",
+      "thinking_process": [
+        "ax²+bx+c を因数分解する",
+        "各因数=0 とおく",
+        "解を求める"
+      ],
+      "common_mistakes": [
+        "因数分解の符号ミス",
+        "(x-p)=0 から x=-p とする誤り（符号反転を忘れる）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "square-root-method",
+      "description": "x²=k 型や (x-a)²=k 型の解。平方根を取る。",
+      "thinking_process": [
+        "(x-a)²=k の形に変形する",
+        "x-a=±√k",
+        "x=a±√k"
+      ],
+      "common_mistakes": [
+        "±を忘れて1解のみ",
+        "k<0 のとき実数解なし"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "quadratic-formula",
+      "description": "解の公式 x=(-b±√(b²-4ac))/(2a) による解法。",
+      "thinking_process": [
+        "a, b, c の値を確認する",
+        "判別式 D=b²-4ac を計算する",
+        "D>0:2実数解、D=0:重解、D<0:実数解なし"
+      ],
+      "common_mistakes": [
+        "b と -b の符号を間違える",
+        "分母の 2a を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "discriminant",
+      "description": "判別式 D=b²-4ac による解の個数の判定。",
+      "thinking_process": [
+        "D>0:異なる2実数解",
+        "D=0:重解",
+        "D<0:実数解なし"
+      ],
+      "common_mistakes": [
+        "D≥0 と D>0 の条件を混同する",
+        "解の個数条件を「解の値」と混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "vieta",
+      "description": "解と係数の関係（ビエタの定理）。α+β=-b/a、αβ=c/a。",
+      "thinking_process": [
+        "(x-α)(x-β)=x²-(α+β)x+αβ を展開して係数比較",
+        "α+β=-b/a、αβ=c/a を使う"
+      ],
+      "common_mistakes": [
+        "和と積の符号を逆にする",
+        "a≠1 のとき a で割ることを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "completing-square",
+      "description": "平方完成による解法と変形。",
+      "thinking_process": [
+        "x²+bx = (x+b/2)²-(b/2)²",
+        "ax²+bx+c=0 を a(x+b/2a)²+...=0 の形に"
+      ],
+      "common_mistakes": [
+        "(b/2)² の符号処理を誤る",
+        "a≠1 のとき a で割らずに平方完成する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "parameter-equation",
+      "description": "パラメータを含む二次方程式。解の条件からパラメータを決定する。",
+      "thinking_process": [
+        "解の条件（重解・正負・整数など）を方程式に変換する",
+        "D=0（重解条件）、解の公式から条件を設定",
+        "パラメータについての方程式を解く"
+      ],
+      "common_mistakes": [
+        "D=0 以外の条件を見落とす",
+        "代入後の符号を誤る"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "application",
+      "description": "文章題・図形問題から二次方程式を立式する。",
+      "thinking_process": [
+        "未知数を x とおく",
+        "条件を二次方程式で表す",
+        "解の検証（問題の条件に適するか確認）"
+      ],
+      "common_mistakes": [
+        "方程式を立てるとき条件を誤解する",
+        "解の検証をしないで不適切な解を答える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

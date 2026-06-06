@@ -1,0 +1,145 @@
+{
+  "unit_id": "linear-inequalities",
+  "unit_name_jp": "1次不等式",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "basic-solve-positive",
+      "description": "正の係数の1次不等式を解く。ax + b > c の形で、a > 0 のとき不等号の向きは変わらない。",
+      "thinking_process": [
+        "定数項を移項して ax > d の形にする",
+        "両辺を正の数 a で割る（不等号の向きは変わらない）",
+        "解 x > d/a を確認"
+      ],
+      "common_mistakes": [
+        "移項で符号を変え忘れる",
+        "正の数で割っても不等号が反転すると誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "basic-solve-negative",
+      "description": "負の係数の1次不等式を解く。a < 0 のとき両辺を a で割ると不等号の向きが逆になる。",
+      "thinking_process": [
+        "定数項を移項する",
+        "両辺を負の数で割る（不等号の向きが逆になる）",
+        "解を確認"
+      ],
+      "common_mistakes": [
+        "負で割るときに不等号を反転させ忘れる",
+        "両辺を移項後の符号を間違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "compound-inequality",
+      "description": "連立不等式（A かつ B）を解く。各不等式を解いてから共通部分（積集合）を求める。",
+      "thinking_process": [
+        "各不等式を個別に解く",
+        "2 つの解の共通部分を求める（数直線を使うと視覚的に分かりやすい）"
+      ],
+      "common_mistakes": [
+        "和集合と共通部分を混同する",
+        "片方の不等式しか解かずに答えを出す"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "no-solution-all",
+      "description": "解なし・すべての実数が解になるケース。連立不等式で共通部分が空のとき、または常に成立するとき。",
+      "thinking_process": [
+        "各不等式を解く",
+        "共通部分が空集合かどうか判断する",
+        "全実数が解になる場合も確認"
+      ],
+      "common_mistakes": [
+        "共通部分が空のときに「解なし」と判断できない",
+        "どちらの不等式も成立する領域を正しく特定できない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "integer-solutions",
+      "description": "不等式を満たす整数の個数・最大値・最小値を求める。",
+      "thinking_process": [
+        "不等式を解いて解の範囲を求める",
+        "その範囲に含まれる整数を列挙する"
+      ],
+      "common_mistakes": [
+        "端点が含まれるかどうか（≤ か < か）を確認しない",
+        "境界付近の整数を見落とす"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "parameter-inequality",
+      "description": "パラメータ（文字係数）を含む不等式。a > 0、a = 0、a < 0 で場合分けが必要。",
+      "thinking_process": [
+        "係数 a の符号で場合分けする（a > 0、a = 0、a < 0）",
+        "各場合で不等式を解く",
+        "a = 0 のときは不等式が成立するか別途判断する"
+      ],
+      "common_mistakes": [
+        "a = 0 の場合を見落とす",
+        "a < 0 のときに不等号を反転させ忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "fraction-inequality",
+      "description": "分数を含む不等式。両辺に分母の最小公倍数を掛けて整数係数に変換してから解く。",
+      "thinking_process": [
+        "分母の最小公倍数を求める",
+        "両辺に LCM を掛けて分数を消す（正の数を掛けるので不等号は変わらない）",
+        "整数係数の不等式として解く"
+      ],
+      "common_mistakes": [
+        "分母を払うとき一部の項にしか掛けない",
+        "負の分母を掛ける場合に不等号の向きを間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "set-containment",
+      "description": "A の解集合が B の解集合に含まれるための条件を求める（A ⊂ B の問題）。",
+      "thinking_process": [
+        "A, B それぞれの解集合を求める",
+        "A ⊂ B となるパラメータの条件を数直線で確認する"
+      ],
+      "common_mistakes": [
+        "A ⊂ B と A = B を区別しない",
+        "不等号の向きに応じた境界条件の不等号方向を間違える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "application-word",
+      "description": "文章題で不等式を立式する。条件を不等号で表現し、解から問題の答えを求める。",
+      "thinking_process": [
+        "未知数を x とおく",
+        "条件を不等式で表す",
+        "不等式を解いて問題の問いに答える"
+      ],
+      "common_mistakes": [
+        "「以上」「以下」「より大きい」「未満」の区別を間違える",
+        "求めた解の範囲から問題の答えを読み取るときにミスする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "advanced-combined",
+      "description": "絶対値・平方・複合条件を含む発展的な不等式。場合分けが必要になる問題。",
+      "thinking_process": [
+        "場合分けの条件を特定する",
+        "各場合で不等式を解く",
+        "解を合わせて最終的な解集合を求める"
+      ],
+      "common_mistakes": [
+        "場合分けを見落とす",
+        "各場合の解を正しく合算しない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "2次関数の最大・最小",
+  "questions": [
+    {
+      "id": "mm-001",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = x² - 4x + 1 の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-3"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "-1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-002",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = -2x² + 8x - 5 の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "-5"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-003",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = x² + 2x - 3 の最小値を与える x の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = -1"
+        },
+        {
+          "label": "B",
+          "text": "x = 1"
+        },
+        {
+          "label": "C",
+          "text": "x = 3"
+        },
+        {
+          "label": "D",
+          "text": "x = -3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-004",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = 3(x - 2)² - 1 の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-005",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = -x² + 6x の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "-9"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-006",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = 2x² - 4x + 3 の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "-1"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-007",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = x² + 4x + 7 の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "-3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-008",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = -3x² + 12x - 8 の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "-8"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-009",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = 2x² - 12x + 20 の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "-2"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-010",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "basic",
+      "question": "y = -(x+1)² + 4 の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "-4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-011",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = (x-1)² + 2 の定義域 0 ≦ x ≦ 3 で最大値を求める。端点 x=3 での y 値を計算するとき、正しい式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3-1)² + 2 = 4 + 2 = 6"
+        },
+        {
+          "label": "B",
+          "text": "(3-1)² + 2 = 2 + 2 = 4"
+        },
+        {
+          "label": "C",
+          "text": "(3)² + 2 = 9 + 2 = 11"
+        },
+        {
+          "label": "D",
+          "text": "(3-1)² - 2 = 4 - 2 = 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-012",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = (x-1)² + 2 で頂点 x=1 が定義域 0 ≦ x ≦ 3 に含まれるか確認するとき、正しい判断はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 ≦ 1 ≦ 3 なので頂点は定義域内 → 最小値は頂点の y = 2"
+        },
+        {
+          "label": "B",
+          "text": "頂点 x=1 は定義域の左端なので x=0 が最小点"
+        },
+        {
+          "label": "C",
+          "text": "頂点 x=1 は定義域外なので端点 x=0 の値 3 が最小値"
+        },
+        {
+          "label": "D",
+          "text": "定義域の中点 x=1.5 での値 y=2.25 が最小値"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-013",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = -x² + 4x = -(x-2)² + 4 で頂点は (2, 4)。定義域 -1 ≦ x ≦ 3 で頂点が定義域内にあるかを確認するとき、正しい判断はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 ≦ 2 ≦ 3 なので頂点が定義域内 → 最大値は頂点の y = 4"
+        },
+        {
+          "label": "B",
+          "text": "下に凸なので端点 x=-1 か x=3 で最大 → x=3 のとき y=3"
+        },
+        {
+          "label": "C",
+          "text": "頂点が定義域外なので端点で最大 → x=-1 のとき y=-5"
+        },
+        {
+          "label": "D",
+          "text": "-1 ≦ 2 ≦ 3 なので頂点が定義域内 → 最大値は頂点の y = 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-014",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = -(x-2)² + 4 は上に凸。定義域 -1 ≦ x ≦ 3 での最小値を求めるため、両端点での値を計算するとき正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=-1: y=-(-3)²+4=-5、x=3: y=-(1)²+4=3 → 小さい方は -5"
+        },
+        {
+          "label": "B",
+          "text": "x=-1: y=5、x=3: y=-3 → 小さい方は -3"
+        },
+        {
+          "label": "C",
+          "text": "x=-1: y=-5、x=3: y=-3 → 小さい方は -5"
+        },
+        {
+          "label": "D",
+          "text": "x=-1: y=-1、x=3: y=3 → 小さい方は -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-015",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = x² - 6x + 5 = (x-3)² - 4 で頂点は (3, -4)。定義域 1 ≦ x ≦ 5 で頂点が含まれるか確認するとき、正しい判断はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 ≦ 3 ≦ 5 なので頂点が定義域内 → 最小値は頂点の y = -4"
+        },
+        {
+          "label": "B",
+          "text": "頂点 x=3 は定義域外なので端点で最小 → x=1 のとき y=0"
+        },
+        {
+          "label": "C",
+          "text": "1 ≦ 3 ≦ 5 なので頂点が定義域内 → 最小値は頂点の y = 4"
+        },
+        {
+          "label": "D",
+          "text": "定義域の中点 x=3 での y=4 が最小値"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-016",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = 2x² - 8x + 6 = 2(x-2)² - 2 で頂点は (2, -2)。定義域 -1 ≦ x ≦ 4 での最大値を求めるため端点を計算するとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=-1: y=2+8+6=16、x=4: y=32-32+6=6 → 最大は 16"
+        },
+        {
+          "label": "B",
+          "text": "x=-1: y=6、x=4: y=16 → 最大は 16"
+        },
+        {
+          "label": "C",
+          "text": "x=-1: y=16、x=4: y=16 → 最大は 16"
+        },
+        {
+          "label": "D",
+          "text": "x=-1: y=8、x=4: y=6 → 最大は 8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-017",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = x² - 4x + k が -1 ≤ x ≤ 5 で最大値 21 になるとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-018",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = -x² + 2x + m が 0 ≤ x ≤ 3 で最大値 4 をとるとき m の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "-3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-019",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = x² + 2x + 3 (a ≤ x ≤ a+2) の最小値が 2 になるとき a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "-4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-020",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "standard",
+      "question": "y = x² - 4x + 5 の 1 ≤ x ≤ t での最大値が 5 になる最大の t の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "mm-021",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "y = x² - 2ax + a の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a - a²"
+        },
+        {
+          "label": "B",
+          "text": "a²"
+        },
+        {
+          "label": "C",
+          "text": "-a"
+        },
+        {
+          "label": "D",
+          "text": "a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-022",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "x + y = 4、x ≥ 0、y ≥ 0 のとき x² + y² の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-023",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "y = 2x² - 4ax + a² + 2a の最小値（頂点の y 座標）はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2a - a²"
+        },
+        {
+          "label": "B",
+          "text": "2a"
+        },
+        {
+          "label": "C",
+          "text": "a²"
+        },
+        {
+          "label": "D",
+          "text": "-a² + 2a"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": "mm-024",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "y = x² - 2x + 3 (-1 ≤ x ≤ 4) の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-025",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "x > 0、y > 0、xy = 1 のとき x² + 4y² の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-026",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "x² + y² = 1 のとき 2x + y の最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√5"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "√3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-027",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "y = x² - 4x + 3 の -1 ≤ x ≤ a で最大値が 8 になる最大の a の値はどれか（a > 2）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-028",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "y = x² + 2x + k (-3 ≤ x ≤ 1) の最大値が 8 になるとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "mm-029",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "y = -x² + 2ax (a > 0) の 0 ≤ x ≤ 3 での最大値。a > 3 のとき最大値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-9 + 6a"
+        },
+        {
+          "label": "B",
+          "text": "a²"
+        },
+        {
+          "label": "C",
+          "text": "6a"
+        },
+        {
+          "label": "D",
+          "text": "3a - 9"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "mm-030",
+      "subject": "数学1A",
+      "unit": "2次関数の最大・最小",
+      "difficulty": "exam",
+      "question": "y = x² - 2x + 1 + k の最小値が 3 のとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

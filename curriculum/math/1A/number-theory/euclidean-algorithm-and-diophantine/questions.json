@@ -1,0 +1,847 @@
+{
+  "subject": "math",
+  "unit": "number-theory",
+  "subunit": "euclidean-algorithm-and-diophantine",
+  "questions": [
+    {
+      "id": "nt-ead-001",
+      "difficulty": "basic",
+      "question": "ユークリッド互除法で gcd(48,18) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "48=18×2+12 → 18=12×1+6 → 12=6×2+0。最後に割り切れた数は 12 なので gcd=12"
+        },
+        {
+          "label": "B",
+          "text": "48÷18=2.66...、割り切れないので gcd は存在しない"
+        },
+        {
+          "label": "C",
+          "text": "48=18×2+12 → 18=12×1+6 → 12=6×2+0。余りが 0 になったときの除数が gcd。gcd=6"
+        },
+        {
+          "label": "D",
+          "text": "gcd は必ず 48 か 18 のどちらかなので gcd=18"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "ユークリッドの互除法",
+        "除法型と減算型の比較"
+      ]
+    },
+    {
+      "id": "nt-ead-002",
+      "difficulty": "basic",
+      "question": "gcd(a,b)=gcd(b, a mod b) が成り立つ理由はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=bq+r より a-bq=r。d | a かつ d | b ⟹ d | r。逆に d | b かつ d | r ⟹ d | a。公約数が一致するので gcd も一致"
+        },
+        {
+          "label": "B",
+          "text": "余りは小さくなるので gcd が変わらない"
+        },
+        {
+          "label": "C",
+          "text": "両辺を計算すると等しくなる(結果から逆算)"
+        },
+        {
+          "label": "D",
+          "text": "ユークリッドの定理として証明なしに使う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "gcd の不変性の証明",
+        "公約数と除法の関係"
+      ]
+    },
+    {
+      "id": "nt-ead-003",
+      "difficulty": "basic",
+      "question": "2x + 3y = 1 の整数解を一組求める最初のステップはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2, y=0 を試す：2×2+3×0=4≠1。解でない"
+        },
+        {
+          "label": "B",
+          "text": "x=1, y=0 を試す：2×1+3×0=2≠1。不正解"
+        },
+        {
+          "label": "C",
+          "text": "x=-1, y=1 を試す：2×(-1)+3×1=-2+3=1✓。一組の解 (-1,1) が見つかった"
+        },
+        {
+          "label": "D",
+          "text": "2x+3y=1 の整数解は存在しない(偶数+奇数=1 は不可能)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不定方程式の特殊解",
+        "代入による確認"
+      ]
+    },
+    {
+      "id": "nt-ead-004",
+      "difficulty": "basic",
+      "question": "ax + by = c の整数解が存在する条件はどれか（a,b,c は整数）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gcd(a,b) が c を割り切る(gcd(a,b) | c)"
+        },
+        {
+          "label": "B",
+          "text": "c が a と b の両方の倍数"
+        },
+        {
+          "label": "C",
+          "text": "a と b が互いに素(gcd=1)"
+        },
+        {
+          "label": "D",
+          "text": "c が a+b の倍数"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定方程式の解の存在条件",
+        "gcd と割り切れの関係"
+      ]
+    },
+    {
+      "id": "nt-ead-005",
+      "difficulty": "basic",
+      "question": "3x + 5y = 1 の一般解を求める手順の第一段階はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特殊解を一組見つける：x=2, y=-1(3×2+5×(-1)=1)。次に一般解は x=2+5t, y=-1-3t(t は整数)"
+        },
+        {
+          "label": "B",
+          "text": "x を消去して y について解く：y=(1-3x)/5。x=2 のとき y=-1"
+        },
+        {
+          "label": "C",
+          "text": "特殊解：x=1,y=0(3×1+5×0=3≠1)。解を確認できないため一般解は存在しない"
+        },
+        {
+          "label": "D",
+          "text": "gcd(3,5)=1 ≠ 0 なので 3x+5y=1 の整数解は存在しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定方程式の一般解",
+        "特殊解から一般解へ"
+      ]
+    },
+    {
+      "id": "nt-ead-006",
+      "difficulty": "basic",
+      "question": "ユークリッド互除法で gcd(gcd(a,b), c) = gcd(a, gcd(b,c)) が成り立つ（結合則）。これを使って gcd(12,18,24) を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gcd(12,18)=6、gcd(6,24)=6。よって gcd(12,18,24)=6"
+        },
+        {
+          "label": "B",
+          "text": "gcd(18,24)=2、gcd(12,2)=2。よって gcd(12,18,24)=2"
+        },
+        {
+          "label": "C",
+          "text": "gcd の結合則は成り立たない。計算順序によって異なる答えになる"
+        },
+        {
+          "label": "D",
+          "text": "3 数の gcd は定義されない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "gcd の結合則",
+        "3数の gcd の計算"
+      ]
+    },
+    {
+      "id": "nt-ead-007",
+      "difficulty": "basic",
+      "question": "拡張ユークリッド互除法で gcd(35,13) を求め、35x+13y=gcd(35,13) を満たす整数 x,y を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "35=13×2+9, 13=9×1+4, 9=4×2+1。gcd=1。逆代入で 1=3×35-8×13。x=3,y=-8"
+        },
+        {
+          "label": "B",
+          "text": "gcd(35,13)=1。x=2,y=-5"
+        },
+        {
+          "label": "C",
+          "text": "拡張互除法は gcd が 1 のときのみ使える"
+        },
+        {
+          "label": "D",
+          "text": "gcd(35,13)=7"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "拡張ユークリッド互除法",
+        "ベズーの等式"
+      ]
+    },
+    {
+      "id": "nt-ead-008",
+      "difficulty": "basic",
+      "question": "ベズーの等式とは何か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "整数 a,b に対し gcd(a,b)=d とすると、ax+by=d を満たす整数 x,y が必ず存在する"
+        },
+        {
+          "label": "B",
+          "text": "a と b が互いに素なら ax+by=0 の解は x=y=0 のみ"
+        },
+        {
+          "label": "C",
+          "text": "任意の整数 c について ax+by=c が必ず解を持つ"
+        },
+        {
+          "label": "D",
+          "text": "gcd(a,b)=ab÷lcm(a,b) という関係式"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ベズーの等式",
+        "gcd の線形結合表現"
+      ]
+    },
+    {
+      "id": "nt-ead-009",
+      "difficulty": "basic",
+      "question": "4x + 6y = 2 の整数解はあるか。あるなら一組求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gcd(4,6)=2 が 2 を割り切るので解あり。4x+6y=2 を 2 で割ると 2x+3y=1。特殊解：x=2,y=-1。元の式の解も x=2,y=-1"
+        },
+        {
+          "label": "B",
+          "text": "4 と 6 がともに偶数なので 2 は奇数の場合のみ解がある"
+        },
+        {
+          "label": "C",
+          "text": "gcd(4,6)=2 なので解なし"
+        },
+        {
+          "label": "D",
+          "text": "x=0, y=1/3 が解(整数解なし)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定方程式の整約",
+        "gcd と解の存在"
+      ]
+    },
+    {
+      "id": "nt-ead-010",
+      "difficulty": "basic",
+      "question": "3x + 7y = 1 の一般整数解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "特殊解：3×5+7×(-2)=15-14=1。x=5,y=-2。一般解：x=5+7t, y=-2-3t(t は任意整数)"
+        },
+        {
+          "label": "B",
+          "text": "特殊解：x=-2,y=1(3×(-2)+7×1=1)。一般解：x=-2+3t, y=1-7t"
+        },
+        {
+          "label": "C",
+          "text": "3x+7y=1 の一般整数解は x=5+t, y=-2-t の形"
+        },
+        {
+          "label": "D",
+          "text": "3 と 7 が互いに素でないので解なし"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定方程式の一般解",
+        "特殊解の選び方と一般解の同値性"
+      ]
+    },
+    {
+      "id": "nt-ead-011",
+      "difficulty": "standard",
+      "question": "ユークリッド互除法で gcd(1071, 462) を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1071=462×2+147 → 462=147×3+21 → 147=21×7+0。gcd=21"
+        },
+        {
+          "label": "B",
+          "text": "1071=9×7×17, 462=2×3×7×11。共通因数は 7 のみなので gcd=7"
+        },
+        {
+          "label": "C",
+          "text": "A と B はどちらも正しい。A は互除法、B は素因数分解による計算"
+        },
+        {
+          "label": "D",
+          "text": "1071 と 462 を素因数分解すると共通因数は 3 だけなので gcd=3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ユークリッド互除法の計算",
+        "素因数分解との比較"
+      ]
+    },
+    {
+      "id": "nt-ead-012",
+      "difficulty": "standard",
+      "question": "52x - 33y = 1 の整数解（x,y）をユークリッド互除法で求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "52=33+19, 33=19+14, 19=14+5, 14=5×2+4, 5=4+1。逆代入で 1=7×52-11×33。x=7,y=11"
+        },
+        {
+          "label": "B",
+          "text": "x=2,y=3"
+        },
+        {
+          "label": "C",
+          "text": "52 と 33 が互いに素でないので解なし"
+        },
+        {
+          "label": "D",
+          "text": "拡張互除法は負の係数には使えない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "拡張ユークリッド互除法",
+        "負の係数の不定方程式"
+      ]
+    },
+    {
+      "id": "nt-ead-013",
+      "difficulty": "standard",
+      "question": "自然数の解（x>0,y>0）を持つ不定方程式 3x+5y=100 の解の個数を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "一般解：x=5t, y=20-3t(t は整数)。x>0 より t≥1、y>0 より t≤6。よって 6 組"
+        },
+        {
+          "label": "B",
+          "text": "3 と 5 が互いに素なので解は無限にある"
+        },
+        {
+          "label": "C",
+          "text": "x=5(2t+1), y=20-3(2t+1) の形を解く"
+        },
+        {
+          "label": "D",
+          "text": "自然数解は存在しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定方程式の自然数解",
+        "一般解と範囲制限"
+      ]
+    },
+    {
+      "id": "nt-ead-014",
+      "difficulty": "standard",
+      "question": "ユークリッド互除法の計算量は最悪でも O(log(min(a,b))) 回の割り算で終わることが知られる。この理由に近いものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各ステップで余りが指数的に小さくなる。具体的には 2 ステップで余りが半分以下になるため O(log) 回で 0 に達する"
+        },
+        {
+          "label": "B",
+          "text": "余りは毎回 1 ずつ小さくなる"
+        },
+        {
+          "label": "C",
+          "text": "フィボナッチ数列が最悪ケースを与える。gcd(F(n+1),F(n)) に対して n/2 回の割り算が必要"
+        },
+        {
+          "label": "D",
+          "text": "余りは毎ステップ正確に半分になるため、最悪でも log₂(a) 回の割り算で終わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ユークリッド互除法の計算量",
+        "フィボナッチ数と最悪ケース"
+      ]
+    },
+    {
+      "id": "nt-ead-015",
+      "difficulty": "standard",
+      "question": "a と b が互いに素（gcd=1）のとき、ab 以下の正の整数は a の倍数でも b の倍数でもないものが (a-1)(b-1) 個ある。これを使ってフロベニウス数（ax+by=N の非負整数解がない最大の N）を求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "フロベニウス数(コイン問題の答え)= ab-a-b = (a-1)(b-1)-1。a=3,b=5 なら最大は 7"
+        },
+        {
+          "label": "B",
+          "text": "ax+by=N の非負整数解がない N は無限に存在するため、最大値は定義されない"
+        },
+        {
+          "label": "C",
+          "text": "a と b が互いに素でないとフロベニウス数は定義されない"
+        },
+        {
+          "label": "D",
+          "text": "フロベニウス数 = a+b-1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "フロベニウス数（コイン問題）",
+        "互いに素な2数の線形結合"
+      ]
+    },
+    {
+      "id": "nt-ead-016",
+      "difficulty": "standard",
+      "question": "gcd(a,b)=1 を ax ≡ 1(mod b) が整数解を持つことの同値条件として使え。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ax≡1(mod b)⟺ ax+by=1 の整数解が存在 ⟺ gcd(a,b) | 1 ⟺ gcd(a,b)=1"
+        },
+        {
+          "label": "B",
+          "text": "a が素数であること"
+        },
+        {
+          "label": "C",
+          "text": "b が素数であること"
+        },
+        {
+          "label": "D",
+          "text": "a < b であること"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "逆元の存在条件",
+        "合同方程式と不定方程式の同値"
+      ]
+    },
+    {
+      "id": "nt-ead-017",
+      "difficulty": "standard",
+      "question": "17x ≡ 5(mod 29) を解け。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "逆元: 29=17+12, 17=12+5, 12=2×5+2, 5=2×2+1。逆代入で 17×12≡1(mod29)。x≡12×5=60≡2(mod29)"
+        },
+        {
+          "label": "B",
+          "text": "x=5/17(分数なので整数解なし)"
+        },
+        {
+          "label": "C",
+          "text": "x=0 を代入：17×0=0≢5。代入を繰り返す"
+        },
+        {
+          "label": "D",
+          "text": "17 と 29 が互いに素でないので解なし"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "合同方程式の解法",
+        "拡張互除法による逆元"
+      ]
+    },
+    {
+      "id": "nt-ead-018",
+      "difficulty": "standard",
+      "question": "3 つの整数 a,b,c について gcd(a,b,c) を求めるアルゴリズムはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gcd(gcd(a,b),c) を計算。gcd の結合則による"
+        },
+        {
+          "label": "B",
+          "text": "a,b,c の最小公倍数を求め、a×b×c で割る"
+        },
+        {
+          "label": "C",
+          "text": "素因数分解して共通の最大冪の積を取る"
+        },
+        {
+          "label": "D",
+          "text": "A の方法のみが正確。B と C は誤った定義に基づく"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "3数の gcd",
+        "複数アプローチの等価性"
+      ]
+    },
+    {
+      "id": "nt-ead-019",
+      "difficulty": "standard",
+      "question": "ユークリッド互除法を使って、17 の mod 100 における逆元を求めよ（17x ≡ 1(mod 100)）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "100=5×17+15, 17=1×15+2, 15=7×2+1。逆代入: 1=8×100+47×17。x=47"
+        },
+        {
+          "label": "B",
+          "text": "17×6=102≡2(mod100)。逆元は 100-6=94。x=94"
+        },
+        {
+          "label": "C",
+          "text": "gcd(17,100)=1 なので逆元は存在する。17×7=119≡19(mod100)。x=7"
+        },
+        {
+          "label": "D",
+          "text": "逆代入: 1=8×100-47×17。-47≡53(mod100)。x=53"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "逆元の計算",
+        "拡張ユークリッド互除法の逆代入"
+      ]
+    },
+    {
+      "id": "nt-ead-020",
+      "difficulty": "standard",
+      "question": "ax + by = c（gcd(a,b)=1）の一般整数解で、x の係数の符号が正になる一般解はどれか（特殊解 (x₀,y₀) から）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = x₀ + bt, y = y₀ - at(t は任意整数)。差 (x,y)-(x₀,y₀) = (bt,-at) は ax+by=0 の解"
+        },
+        {
+          "label": "B",
+          "text": "x = x₀ - bt, y = y₀ + at"
+        },
+        {
+          "label": "C",
+          "text": "x = x₀ + at, y = y₀ + bt"
+        },
+        {
+          "label": "D",
+          "text": "x = x₀ + t, y = y₀ - t"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不定方程式の一般解",
+        "同次解の加法による一般解"
+      ]
+    },
+    {
+      "id": "nt-ead-021",
+      "difficulty": "exam",
+      "question": "連立合同方程式（中国剰余定理）を不定方程式で解け：x≡2(mod3), x≡3(mod5)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3k+2 を第2式に代入：3k+2≡3(mod5) →3k≡1(mod5) →k≡2(mod5)(3の逆元は2:3×2=6≡1)。k=5m+2 より x=3(5m+2)+2=15m+8。x≡8(mod15)"
+        },
+        {
+          "label": "B",
+          "text": "x=3k+2 を第2式に代入：3k≡1(mod5) →k≡3(mod5)(3の逆元は3:3×3=9≡4)。k=5m+3 より x=3(5m+3)+2=15m+11。x≡11(mod15)"
+        },
+        {
+          "label": "C",
+          "text": "中国剰余定理は mod が互いに素でない場合のみ適用可能。gcd(3,5)=1 なので解なし"
+        },
+        {
+          "label": "D",
+          "text": "中国剰余定理の公式を適用すると x≡6(mod15)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中国剰余定理と不定方程式",
+        "代入法と公式の比較"
+      ]
+    },
+    {
+      "id": "nt-ead-022",
+      "difficulty": "exam",
+      "question": "gcd(a,b)=d のとき ax+by=c の整数解が存在する条件と一般解を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "解の存在条件：d | c。一般解：x=x₀+(b/d)t, y=y₀-(a/d)t(特殊解(x₀,y₀)から)"
+        },
+        {
+          "label": "B",
+          "text": "解の存在条件：gcd(a,b,c)=1"
+        },
+        {
+          "label": "C",
+          "text": "常に解が存在し、一般解は x=ct+y₀, y=-ct+x₀"
+        },
+        {
+          "label": "D",
+          "text": "解の存在条件：a | c かつ b | c"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "一般化不定方程式",
+        "gcd と解の存在・一般解"
+      ]
+    },
+    {
+      "id": "nt-ead-023",
+      "difficulty": "exam",
+      "question": "整数係数の二変数二次不定方程式 x²-2y²=1（ペル方程式）の正の整数解を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "小さい値から試す：y=1:x²=3(非整数)、y=2:x²=9,x=3。基本解(3,2)。次の解は漸化式 x_{n+1}=3x_n+4y_n, y_{n+1}=2x_n+3y_n で生成"
+        },
+        {
+          "label": "B",
+          "text": "ペル方程式には解が存在しない(D=2 が完全平方数でないから)"
+        },
+        {
+          "label": "C",
+          "text": "連分数展開 √2=[2;1,1,1,…] の収束分子・分母が解を与える"
+        },
+        {
+          "label": "D",
+          "text": "ペル方程式 x²-2y²=1 は整数解を持たない。√2 が無理数であるため x,y の比が収束しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ペル方程式",
+        "連分数と基本解の生成"
+      ]
+    },
+    {
+      "id": "nt-ead-024",
+      "difficulty": "exam",
+      "question": "ユークリッド互除法は gcd(a,b) を O(log(min(a,b))) 時間で求める。もし gcd(F(n+1),F(n))（フィボナッチ数列）を互除法で求めると何回の割り算が必要か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n 回。F(n+1)=F(n)×1+F(n-1) なのでステップごとに 1 を引く形になり、F(2)=1 まで n ステップかかる(最悪ケース)"
+        },
+        {
+          "label": "B",
+          "text": "F(n+1) と F(n) は同じ素因数を持つため、O(log n) 回の割り算で gcd が求まる"
+        },
+        {
+          "label": "C",
+          "text": "n/2 回"
+        },
+        {
+          "label": "D",
+          "text": "O(n²) 回"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "フィボナッチ数列と互除法",
+        "最悪ケースの計算量"
+      ]
+    },
+    {
+      "id": "nt-ead-025",
+      "difficulty": "exam",
+      "question": "整数を係数とする多項式 f(x)=ax²+bx+c について、f(n) がすべての整数 n で m の倍数になる条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(0)=c, f(1)-f(0)=a+b, f(2)-2f(1)+f(0)=2a。m | c かつ m | a+b かつ m | 2a の 3 条件が必要十分"
+        },
+        {
+          "label": "B",
+          "text": "m | a かつ m | b かつ m | c"
+        },
+        {
+          "label": "C",
+          "text": "m | gcd(a,b,c)"
+        },
+        {
+          "label": "D",
+          "text": "m が a,b,c の最大公約数の倍数"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "差分と多項式の整除",
+        "整数値多項式の倍数条件"
+      ]
+    },
+    {
+      "id": "nt-ead-026",
+      "difficulty": "exam",
+      "question": "拡張ユークリッド互除法で gcd(a,b) と共に ax+by=gcd(a,b) の解 (x,y) を返すアルゴリズムの時間計算量はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "O(log(min(a,b)))。各ステップの逆代入は O(1) で完了するため、全体で O(log) 回のステップを要する"
+        },
+        {
+          "label": "B",
+          "text": "O(min(a,b))。逆代入で全ステップをたどるため線形時間"
+        },
+        {
+          "label": "C",
+          "text": "O(log²(min(a,b)))"
+        },
+        {
+          "label": "D",
+          "text": "O(1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "拡張ユークリッドの計算量",
+        "アルゴリズムの効率性"
+      ]
+    },
+    {
+      "id": "nt-ead-027",
+      "difficulty": "exam",
+      "question": "3x ≡ 7(mod 11) の解を求め、10 以下の正の整数解を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3の逆元: 3×8=24≡2(mod11)。x≡8×7=56≡1(mod11). x=1"
+        },
+        {
+          "label": "B",
+          "text": "x=7/3(分数なので整数解なし)"
+        },
+        {
+          "label": "C",
+          "text": "x=0,...,10 を試す。3×5=15≡4。3×7=21≡10。代入では解が見つからない"
+        },
+        {
+          "label": "D",
+          "text": "3の逆元: 3×4=12≡1(mod11)。x≡4×7=28≡6(mod11)。10 以下の正の整数解は x=6"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "合同方程式の複数解法",
+        "逆元法と代入法"
+      ]
+    },
+    {
+      "id": "nt-ead-028",
+      "difficulty": "exam",
+      "question": "不定方程式 12x + 15y = 9 の整数解の一般形はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gcd(12,15)=3 が 9 を割り切るので解あり。3で割ると 4x+5y=3。特殊解：x=2,y=-1(4×2+5×(-1)=3)。一般解：x=2+5t, y=-1-4t(t は任意整数)"
+        },
+        {
+          "label": "B",
+          "text": "gcd(12,15)=3 かつ gcd≠9 なので解なし"
+        },
+        {
+          "label": "C",
+          "text": "x=0, y=3/5(整数でないので解なし)"
+        },
+        {
+          "label": "D",
+          "text": "特殊解 x=-3,y=3。一般解 x=-3+4t, y=3-5t(t は任意整数)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "gcd による整約",
+        "不定方程式の一般解"
+      ]
+    },
+    {
+      "id": "nt-ead-029",
+      "difficulty": "exam",
+      "question": "p と q が異なる奇素数のとき、φ(pq) = (p-1)(q-1) を使って、ax ≡ 1(mod pq)(gcd(a,pq)=1) の逆元が a^((p-1)(q-1)-1) mod pq であることを示す方針はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "オイラーの定理：a^φ(n)≡1(mod n)(gcd(a,n)=1)。φ(pq)=(p-1)(q-1) なので a^((p-1)(q-1))≡1(mod pq)。両辺に a^(-1) を掛けると a^((p-1)(q-1)-1)≡a^(-1)(mod pq)"
+        },
+        {
+          "label": "B",
+          "text": "フェルマーの小定理を pq に直接適用する"
+        },
+        {
+          "label": "C",
+          "text": "拡張ユークリッド互除法は実用的だが、オイラーの定理より精度が低い"
+        },
+        {
+          "label": "D",
+          "text": "A の方法は n=pq が素数のときのみ使える。pq は合成数なので適用不可"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "オイラーの定理と逆元",
+        "RSA の核心概念"
+      ]
+    },
+    {
+      "id": "nt-ead-030",
+      "difficulty": "exam",
+      "question": "連立不定方程式 x+y=15, x²+y²=125 を整数の範囲で解け。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x+y)²=x²+2xy+y²。225=125+2xy より xy=50。t²-15t+50=0 → (t-5)(t-10)=0 → x=5,y=10 または x=10,y=5"
+        },
+        {
+          "label": "B",
+          "text": "x=7.5+√(7.5²-50)=7.5+√6.25 は無理数なので整数解なし"
+        },
+        {
+          "label": "C",
+          "text": "代入法：y=15-x → 2x²-30x+225=125 → x²-15x+100=0 → 判別式: 225-400<0 → 整数解なし"
+        },
+        {
+          "label": "D",
+          "text": "x+y=15, x²+y²=125 を満たす整数の組は存在しない。125=5³ は完全平方数でないから"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対称式による整数解",
+        "二次方程式への変換"
+      ]
+    }
+  ]
+}

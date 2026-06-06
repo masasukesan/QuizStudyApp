@@ -1,0 +1,151 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "laws-of-exponents",
+  "name": "指数法則",
+  "en": "Laws of Exponents",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "p01",
+      "description": "同じ底の積：aᵐ × aⁿ = aᵐ⁺ⁿ を使った計算",
+      "thinking_process": [
+        "底が同じかどうかを確認する",
+        "指数どうしを足し合わせる",
+        "結果を計算または整理する"
+      ],
+      "common_mistakes": [
+        "指数を掛けてしまう（(aᵐ)ⁿ と混同）",
+        "底どうしも掛けてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "p02",
+      "description": "同じ底の商：aᵐ ÷ aⁿ = aᵐ⁻ⁿ を使った計算",
+      "thinking_process": [
+        "底が同じかどうかを確認する",
+        "分子の指数から分母の指数を引く",
+        "結果を整理する"
+      ],
+      "common_mistakes": [
+        "指数を割ってしまう（6÷2=3と同じ感覚で適用）",
+        "引く順番を逆にしてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "p03",
+      "description": "指数の指数：(aᵐ)ⁿ = aᵐⁿ を使った計算",
+      "thinking_process": [
+        "括弧の内側の指数と外側の指数を確認する",
+        "2つの指数を掛け合わせる",
+        "結果を整理する"
+      ],
+      "common_mistakes": [
+        "指数を足してしまう（aᵐ × aⁿ と混同）",
+        "外側の指数が負のとき符号の処理を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "p04",
+      "description": "積の指数：(ab)ⁿ = aⁿbⁿ を使った展開",
+      "thinking_process": [
+        "括弧の中が積になっていることを確認する",
+        "各因数に指数を分配する",
+        "係数（数字）にも指数を適用することを忘れない"
+      ],
+      "common_mistakes": [
+        "係数（数字の部分）に指数を適用し忘れる",
+        "指数を足してしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "p05",
+      "description": "ゼロ乗・負の指数：a⁰ = 1、a⁻ⁿ = 1/aⁿ の変換",
+      "thinking_process": [
+        "指数がゼロまたは負かどうかを確認する",
+        "a⁰ = 1（a ≠ 0）の定義を適用する / a⁻ⁿ は底を分母に移して正の指数に変換する",
+        "最終的な値または分数の形に整理する"
+      ],
+      "common_mistakes": [
+        "a⁰ = 0 と誤解する",
+        "a⁻ⁿ = −aⁿ（負の符号が結果に移ると誤解）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "p06",
+      "description": "分数指数（有理数指数）：a^(1/n) = ⁿ√a、a^(m/n) = ⁿ√(aᵐ) の変換と計算",
+      "thinking_process": [
+        "分母が根号の次数、分子がべきを表すことを確認する",
+        "根号の形に直すか、整数乗が計算しやすい方を選ぶ",
+        "整数値が得られるか確認して答える"
+      ],
+      "common_mistakes": [
+        "分子と分母を逆にする（a^(m/n) を a^(n/m) と誤解）",
+        "a^(m/n) を a × (m/n) の掛け算と誤解する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "p07",
+      "description": "負の指数・逆数の組み合わせ：(a/b)⁻ⁿ = (b/a)ⁿ 等の変換",
+      "thinking_process": [
+        "分数の底に負の指数がついている場合、分子分母を入れ替えて正の指数にする",
+        "指数を分配して計算する",
+        "最終的な値に整理する"
+      ],
+      "common_mistakes": [
+        "底の符号を変えてしまう（(1/3)⁻² = (−1/3)² と誤解）",
+        "指数の絶対値だけとって底はそのまま（(1/3)⁻² = (1/3)² と誤解）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "p08",
+      "description": "複数の法則の組み合わせ：積・商・べき乗を混合した文字式の整理",
+      "thinking_process": [
+        "まず括弧内のべき乗を処理する（(aᵐ)ⁿ の法則）",
+        "次に積や商の指数法則を適用する",
+        "文字ごとに指数をまとめて最終的な形に整理する"
+      ],
+      "common_mistakes": [
+        "べき乗処理のとき加算と乗算を混同する",
+        "積・商の処理のとき指数の足し引きを誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "p09",
+      "description": "分数指数の加減計算：x^(p/q) × x^(r/s) などで通分が必要な指数の計算",
+      "thinking_process": [
+        "底が同じかを確認して積の法則を適用する",
+        "分数どうしの加法（通分）で指数を計算する",
+        "結果を最も簡単な形の指数に整理する"
+      ],
+      "common_mistakes": [
+        "分数の指数を足すとき通分せず分子だけ足す",
+        "指数を掛けてしまう（積の法則と指数のべき乗を混同）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "p10",
+      "description": "条件式から指数の値を求める：a^x = k を利用して別の指数式を計算する",
+      "thinking_process": [
+        "与えられた条件を指数法則で変形する",
+        "求めたい式が条件式の何乗や何倍になっているかを見極める",
+        "代入して最終的な値を求める"
+      ],
+      "common_mistakes": [
+        "条件から底を別の底に変換するステップを飛ばす",
+        "指数の整理中に乗法と加法を混同する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

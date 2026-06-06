@@ -1,0 +1,786 @@
+{
+  "subject": "数学C",
+  "unit": "放物線",
+  "questions": [
+    {
+      "id": "pb-001",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "放物線 y² = 8x の焦点の座標として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2, 0)(y² = 4px で p = 2)"
+        },
+        {
+          "label": "B",
+          "text": "(8, 0)"
+        },
+        {
+          "label": "C",
+          "text": "(0, 2)"
+        },
+        {
+          "label": "D",
+          "text": "(-2, 0)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-002",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "放物線 y² = 4px(p > 0)の準線の方程式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = -p"
+        },
+        {
+          "label": "B",
+          "text": "x = p"
+        },
+        {
+          "label": "C",
+          "text": "y 軸対称の放物線と混同して y 方向の準線と誤解する"
+        },
+        {
+          "label": "D",
+          "text": "y = p"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-003",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "放物線の定義「焦点 F からの距離と準線 l からの距離が等しい点の軌跡」で、頂点(原点)での確認として正しいのはどれか。(y² = 4px、F=(p,0)、l: x=-p)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "頂点 (0,0) から F への距離 p = (0,0) から l への距離 p ✓"
+        },
+        {
+          "label": "B",
+          "text": "頂点では焦点との距離が 0"
+        },
+        {
+          "label": "C",
+          "text": "頂点は準線上にある"
+        },
+        {
+          "label": "D",
+          "text": "頂点では条件を満たさない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-004",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "放物線 x² = 12y の焦点と準線として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "焦点 (0, 3)、準線 y = -3(x² = 4py で p = 3)"
+        },
+        {
+          "label": "B",
+          "text": "焦点 (3, 0)、準線 x = -3"
+        },
+        {
+          "label": "C",
+          "text": "焦点 (0, 12)、準線 y = -12"
+        },
+        {
+          "label": "D",
+          "text": "焦点 (0, -3)、準線 y = 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-005",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "y² = -4x のグラフの特徴として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x 軸対称、左方向に開く(p = 1、焦点 (-1,0))"
+        },
+        {
+          "label": "B",
+          "text": "y 軸対称、下方向に開く"
+        },
+        {
+          "label": "C",
+          "text": "x 軸対称、右方向に開く"
+        },
+        {
+          "label": "D",
+          "text": "原点対称"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-006",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "y² = 4x 上の点 (1, 2) での接線の方程式として正しいのはどれか。(公式: ty = x + t² で t を点の y 座標に対応させる)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2y = x + 1 × 1²(点(1,2)なので 2t=2 → t=1)→ y = (x+1)/2"
+        },
+        {
+          "label": "B",
+          "text": "y = 2x + 2(傾き 2)"
+        },
+        {
+          "label": "C",
+          "text": "2y = x + 4"
+        },
+        {
+          "label": "D",
+          "text": "y = x + 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-007",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "焦点が (3, 0)、頂点が原点の放物線の方程式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y² = 12x(p = 3 なので 4p = 12)"
+        },
+        {
+          "label": "B",
+          "text": "y² = 3x"
+        },
+        {
+          "label": "C",
+          "text": "x² = 12y"
+        },
+        {
+          "label": "D",
+          "text": "y² = 6x"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-008",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "放物線 y² = 4x と直線 y = x - 1 の交点の個数を判別式で判定するとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = y+1 を代入 y² = 4(y+1) → y²-4y-4=0 → D = 16+16 = 32 > 0 → 2交点"
+        },
+        {
+          "label": "B",
+          "text": "直線が放物線の軸に平行なので交点 1 個"
+        },
+        {
+          "label": "C",
+          "text": "D = 0 → 接する"
+        },
+        {
+          "label": "D",
+          "text": "D < 0 → 交点なし"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-009",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "放物線 y² = 4px 上の点 P(at², 2at)(パラメータ t)での焦点 F(p,0) との距離として正しいのはどれか。(at = t²/(4p) を参照)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PF = t² + p(焦点距離 = x 座標 + p = at² + p)"
+        },
+        {
+          "label": "B",
+          "text": "PF = 2at(y 座標)"
+        },
+        {
+          "label": "C",
+          "text": "PF = at²(x 座標のみ)"
+        },
+        {
+          "label": "D",
+          "text": "PF = √(at²² + 4a²t²)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-010",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "basic",
+      "question": "放物線の焦点距離(放物線上の点から焦点までの距離)の最小値として正しいのはどれか。(y² = 4px)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p(頂点での焦点距離)"
+        },
+        {
+          "label": "B",
+          "text": "0(焦点は放物線上にある)"
+        },
+        {
+          "label": "C",
+          "text": "2p"
+        },
+        {
+          "label": "D",
+          "text": "焦点距離に最小値はない(無限)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-011",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "y² = 4x と直線 y = x - 3 の交点を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = y+3 を代入 → y² = 4y+12 → y²-4y-12=0 → (y-6)(y+2)=0 → y=6, -2"
+        },
+        {
+          "label": "B",
+          "text": "y² = 4x と y = x-3 を引き算 → y²-y = x の変形(誤り)"
+        },
+        {
+          "label": "C",
+          "text": "y = x-3 を y に代入 → (x-3)² = 4x → x²-10x+9=0(x と y を入れ替えた誤り)"
+        },
+        {
+          "label": "D",
+          "text": "y=0 とおいて交点を求める(誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-012",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "y² = 8x に点 P(2, 4) から引いた接線の方程式を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接点 (2t², 4t) での接線 ty = x+2t²。これが P(2,4) を通る → 4t = 2+2t² → t²-2t+1=0 → t=1 → 接線 y = x+2"
+        },
+        {
+          "label": "B",
+          "text": "y = 2x(傾きのみで決める)"
+        },
+        {
+          "label": "C",
+          "text": "y - 4 = (1/2)(x - 2)(法線と混同)"
+        },
+        {
+          "label": "D",
+          "text": "直接 P が放物線上の点なので接線 ty = x+2t² に代入のみ"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-013",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "放物線 y² = 4x 上の 2 点 A(t₁², 2t₁)、B(t₂², 2t₂) を結ぶ弦が焦点 F(1, 0) を通るとき、t₁t₂ の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "t₁t₂ = -1(焦点を通る弦の性質)"
+        },
+        {
+          "label": "B",
+          "text": "t₁t₂ = 1"
+        },
+        {
+          "label": "C",
+          "text": "t₁t₂ = 0"
+        },
+        {
+          "label": "D",
+          "text": "t₁t₂ = -4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-014",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "準線 x = -2 と焦点 F(2, 0) を持つ放物線の方程式を定義から求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PF = P から x=-2 への距離 → √((x-2)²+y²) = x+2 → 両辺 2 乗 → y² = 8x"
+        },
+        {
+          "label": "B",
+          "text": "p = 2 なので y² = 4×2×x = 8x(公式直接)"
+        },
+        {
+          "label": "C",
+          "text": "焦点が (2,0) なので y² = 2x(2倍のミス)"
+        },
+        {
+          "label": "D",
+          "text": "√((x-2)²+y²) = x-2 → y² = 0(等号条件の誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-015",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "放物線 x² = 4y 上の点 (2, 1) での法線の傾きを求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = x²/4 → y' = x/2。x=2 で接線の傾き = 1 → 法線の傾き = -1"
+        },
+        {
+          "label": "B",
+          "text": "接線の傾き = 2 → 法線の傾き = -1/2"
+        },
+        {
+          "label": "C",
+          "text": "法線の傾き = y/x = 1/2"
+        },
+        {
+          "label": "D",
+          "text": "接線の傾き = 4/x = 2 → 法線 = -1/2(誤計算)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-016",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "放物線 y² = 4x 上の弦の中点の軌跡を求める。2 点 (s², 2s)、(t², 2t) の中点 M のとき、正しい x = f(y) の導出はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x_M = (s²+t²)/2、y_M = s+t。(s+t)²=s²+2st+t² → x_M = ((s+t)²-2st)/2 = y_M²/2 - st。追加条件なしでは軌跡は確定しない"
+        },
+        {
+          "label": "B",
+          "text": "x_M = y_M²/4(放物線と同じ形)"
+        },
+        {
+          "label": "C",
+          "text": "x_M = y_M/2(線形関係)"
+        },
+        {
+          "label": "D",
+          "text": "中点の軌跡は直線 y = 2x"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-017",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "放物線 y = ax² の焦点を y² = 4px の形に変換するとき、正しい変形はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = ax² → x² = y/a → x² = 4×(1/(4a))×y。焦点 (0, 1/(4a))"
+        },
+        {
+          "label": "B",
+          "text": "焦点 (0, a)(係数をそのまま使う誤り)"
+        },
+        {
+          "label": "C",
+          "text": "y = ax² は x² = 4py 形でないので焦点が定義できない"
+        },
+        {
+          "label": "D",
+          "text": "焦点 (0, 1/(2a))(係数 4 を無視)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-018",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "放物線 y² = 4x 上の点 P(a², 2a) での焦点距離 PF を求めるとき、準線 x = -1 を用いた計算として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PF = P から準線までの距離 = a² + 1(定義より)"
+        },
+        {
+          "label": "B",
+          "text": "PF = √((a²-1)² + 4a²)(直接計算)= a²+1(同じ結果)"
+        },
+        {
+          "label": "C",
+          "text": "PF = 2a(y 座標)"
+        },
+        {
+          "label": "D",
+          "text": "PF = a²(x 座標のみ)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-019",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "放物線 y² = 4x に外部の点 (3, 0) から引いた接線の本数と傾きを求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線 y = m(x-3)(傾き m)を代入 → 判別式 = 0 の条件 → m = ±1/√3(2本)"
+        },
+        {
+          "label": "B",
+          "text": "点が放物線の外部なので接線は 1 本"
+        },
+        {
+          "label": "C",
+          "text": "y = m(x-3) を y² = 4x に代入 m²(x-3)² = 4x → (m²x-4x)の判別式 = 0 → m = ±1/√3"
+        },
+        {
+          "label": "D",
+          "text": "接線の本数は常に 2 本"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-020",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "standard",
+      "question": "放物線 y² = 4x の焦点通る弦(焦点弦)の長さの最小値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最小 = 4p = 4(正焦弦、y 軸に平行な焦点弦)"
+        },
+        {
+          "label": "B",
+          "text": "焦点弦の長さに最小値はない"
+        },
+        {
+          "label": "C",
+          "text": "最小 = 2p = 2"
+        },
+        {
+          "label": "D",
+          "text": "最小 = p = 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-021",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線の定義から標準形 y² = 4px を導く証明として正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(x,y)、F(p,0)、準線 x=-p。PF² = (x-p)²+y²、準線までの距離 = (x+p)²。PF = x+p より 2 乗 → (x-p)²+y² = (x+p)² → y² = 4px"
+        },
+        {
+          "label": "B",
+          "text": "y = ax² の形から変換"
+        },
+        {
+          "label": "C",
+          "text": "焦点と頂点の距離を p と定義して公式化"
+        },
+        {
+          "label": "D",
+          "text": "楕円の極限(一方の焦点を無限遠)から導く"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-022",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線 y² = 4px の接線 ty = x + pt²(パラメータ t)の証明として正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(pt², 2pt) での y² = 4px の微分 2yy' = 4p より y' = 2p/y = 2p/(2pt) = 1/t。接線 y-2pt = (1/t)(x-pt²) → ty = x+pt²"
+        },
+        {
+          "label": "B",
+          "text": "t = 0 のときの接線"
+        },
+        {
+          "label": "C",
+          "text": "t を消去して直線の一般形に変換"
+        },
+        {
+          "label": "D",
+          "text": "接線の公式は暗記するもの(証明不要)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-023",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線の反射性(入射光が焦点に収束する)の証明として正しい考え方はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "点 P での接線に対し、FP と P から準線への垂線 PH が接線に関して等角(PF = PH より二等辺三角形の対称性)→ 法線が ∠FPH を二等分"
+        },
+        {
+          "label": "B",
+          "text": "焦点からの距離 = 準線からの距離の定義のみで自明"
+        },
+        {
+          "label": "C",
+          "text": "波動方程式を解く(物理的証明)"
+        },
+        {
+          "label": "D",
+          "text": "全ての放物線が反射性を持つとは限らない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-024",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線の焦点弦(焦点 F を通る弦 AB)の性質「1/FA + 1/FB = 1/p」を証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "FA = a² + p、FB = b² + p(準線からの距離)。a²b² の関係 t₁t₂ = -1 より (a²+p)(b²+p) を計算して証明"
+        },
+        {
+          "label": "B",
+          "text": "チェバの定理を使う"
+        },
+        {
+          "label": "C",
+          "text": "FA + FB が最小になる条件から導く"
+        },
+        {
+          "label": "D",
+          "text": "この公式は放物線では成立しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-025",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線 y² = 4px の外部の点から引いた 2 本の接線の接点を結ぶ直線(極線)の方程式が yy₀ = 2p(x+x₀)(外部の点 (x₀,y₀))になることの証明として正しい出発点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線 ty = x+pt² が点 (x₀,y₀) を通る条件: ty₀ = x₀+pt² → pt²-ty₀+x₀=0。根と係数の関係で t₁+t₂ = y₀/p、t₁t₂ = x₀/p。接点を結ぶ直線を t₁、t₂ で表す"
+        },
+        {
+          "label": "B",
+          "text": "外部の点を原点に移動してから計算"
+        },
+        {
+          "label": "C",
+          "text": "「極線」は証明なしに公式を使う"
+        },
+        {
+          "label": "D",
+          "text": "放物線の接線は外部の点から 1 本しか引けない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-026",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線の頂点形式 y = a(x-h)² + k を標準形(焦点・準線付き)に変換するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "X = x-h、Y = y-k と置き換えると Y = aX² → X² = Y/a = 4×(1/(4a))×Y。焦点は X=0、Y=1/(4a) → 元の座標系で (h, k+1/(4a))"
+        },
+        {
+          "label": "B",
+          "text": "y = ax²+bx+c の形に展開してから変換"
+        },
+        {
+          "label": "C",
+          "text": "a > 0 のとき焦点が (h, k+a)"
+        },
+        {
+          "label": "D",
+          "text": "頂点形式と標準形は全く異なる曲線"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-027",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "2 放物線 y² = 4x と y² = -4(x-a)(a > 0)の共通接線が存在する条件を求めるとき、正しい方針はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各放物線の接線の傾きと切片を表し、両方の放物線の接線として成立する条件(連立)を解く"
+        },
+        {
+          "label": "B",
+          "text": "2 放物線の交点から接線を引く"
+        },
+        {
+          "label": "C",
+          "text": "a = 0 のとき常に共通接線が存在"
+        },
+        {
+          "label": "D",
+          "text": "向きが反対の放物線に共通接線は存在しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-028",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線の焦点 F と曲線上の 2 点 A、B について「∠AFB = 90°(直角)のとき 1/FA + 1/FB = 1/p」が成立することを利用する。FA = p/sin²α とおいたとき(α = ∠FAx)、正しい変形はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "FA = p/sin²α、FB = p/cos²α(∠AFB = 90° より ∠FBx = π/2-α)→ 1/FA+1/FB = sin²α/p+cos²α/p = 1/p ✓"
+        },
+        {
+          "label": "B",
+          "text": "FA = p sinα、FB = p cosα(誤った表現)"
+        },
+        {
+          "label": "C",
+          "text": "1/FA + 1/FB の式は直角弦でのみ成立"
+        },
+        {
+          "label": "D",
+          "text": "焦点角を使わなくても計算できる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-029",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "放物線 y² = 4x の 2 接線 t₁y = x+t₁² と t₂y = x+t₂² の交点の軌跡として、2 接線が直交(t₁t₂ = -1)するとき正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "交点の x 座標 = t₁t₂ = -1 → 交点の軌跡は直線 x = -1(準線)"
+        },
+        {
+          "label": "B",
+          "text": "交点の軌跡は焦点 (1, 0)"
+        },
+        {
+          "label": "C",
+          "text": "交点の軌跡は放物線 y² = 4x 自身"
+        },
+        {
+          "label": "D",
+          "text": "直交する接線の交点の軌跡は円"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pb-030",
+      "subject": "数学C",
+      "unit": "放物線",
+      "difficulty": "exam",
+      "question": "解析幾何と放物線の関係で「y = ax² の形の放物線は全て相似」であることの証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = ax² を X = √a x、Y = ay で置換すると Y = X²(標準形)になる。スケール変換で全て Y = X² に帰着するので相似"
+        },
+        {
+          "label": "B",
+          "text": "全て y = x² に移動できる(平行移動のみ)"
+        },
+        {
+          "label": "C",
+          "text": "a の値が異なれば相似でない"
+        },
+        {
+          "label": "D",
+          "text": "放物線の相似は定義されない"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

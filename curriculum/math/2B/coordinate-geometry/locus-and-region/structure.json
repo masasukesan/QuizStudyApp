@@ -1,0 +1,67 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "coordinate-geometry",
+  "subunit": "locus-and-region",
+  "name": "軌跡と領域",
+  "en": "Locus and Region",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "locus-from-condition",
+      "description": "点 P(x,y) が満たす条件を方程式に変換して軌跡を求める",
+      "thinking_process": [
+        "条件を x,y の式で表す",
+        "整理して既知の曲線（直線・円・放物線）の形にする",
+        "媒介変数がある場合は消去する"
+      ],
+      "common_mistakes": [
+        "条件を立てる前に答えを仮定する",
+        "範囲制限（定義域）を確認しない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "region-from-inequality",
+      "description": "不等式の表す領域を判定する（境界の上下・内外）",
+      "thinking_process": [
+        "境界の方程式（等号）を図示する",
+        "テスト点（簡単な座標）を代入して不等式が成立するか確認",
+        "成立する側が求める領域"
+      ],
+      "common_mistakes": [
+        "テスト点が境界上にある点を使う",
+        "不等号の向きを反転して覚える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "linear-programming",
+      "description": "線形計画法：連立不等式の領域内で線形式の最大・最小を求める",
+      "thinking_process": [
+        "連立不等式の領域の頂点を全て求める",
+        "各頂点で目的関数を計算する",
+        "最大・最小を選ぶ"
+      ],
+      "common_mistakes": [
+        "頂点を全て列挙しない",
+        "目的関数の計算ミス"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "parametric-locus",
+      "description": "媒介変数で表された点の軌跡を求める",
+      "thinking_process": [
+        "媒介変数を消去する",
+        "三角関数の場合は cos²θ+sin²θ=1 を使う",
+        "軌跡の範囲制限を確認する"
+      ],
+      "common_mistakes": [
+        "cos²θ+sin²θ=1 の使い方を誤る",
+        "範囲制限を確認せずに全曲線を答えにする"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

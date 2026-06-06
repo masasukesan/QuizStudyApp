@@ -1,0 +1,87 @@
+{
+  "unit_id": "position-vectors-and-geometry",
+  "unit_name_jp": "位置ベクトルと図形",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "pv-def",
+      "description": "位置ベクトルの定義・内分点・外分点の公式",
+      "thinking_process": [
+        "原点 O から各点への位置ベクトル",
+        "内分点 P: OP = (na + mb)/(m+n)"
+      ],
+      "common_mistakes": [
+        "内分比を m:n としたとき分子の順序を間違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "pv-midpoint",
+      "description": "中点の位置ベクトル M = (a + b)/2",
+      "thinking_process": [
+        "内分比 1:1 の場合"
+      ],
+      "common_mistakes": [
+        "2で割るのを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "pv-centroid",
+      "description": "三角形の重心 G = (a + b + c)/3",
+      "thinking_process": [
+        "3頂点の位置ベクトルの平均"
+      ],
+      "common_mistakes": [
+        "3で割るのを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "pv-collinear",
+      "description": "3点が共線の条件：AC = tAB となる実数 t が存在",
+      "thinking_process": [
+        "AC = kAB とおいて成分比較"
+      ],
+      "common_mistakes": [
+        "t の値を求めず共線と結論する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "pv-midline",
+      "description": "線分の中点連結定理をベクトルで証明する途中式",
+      "thinking_process": [
+        "中点の位置ベクトルを求める",
+        "MN = (b + c)/2 - (a + b)/2 = (c - a)/2"
+      ],
+      "common_mistakes": [
+        "MN と AC の関係を逆にする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "pv-proof-div",
+      "description": "内分点の公式の証明",
+      "thinking_process": [
+        "OP = OA + t×AB で AP:PB = t:(1-t) と対応させる"
+      ],
+      "common_mistakes": [
+        "外分と内分の符号を混同"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "pv-proof-centroid",
+      "description": "三角形の中線が一点で交わること（重心の存在）をベクトルで証明",
+      "thinking_process": [
+        "2つの中線の交点が一致することを示す"
+      ],
+      "common_mistakes": [
+        "面積比の方法と混同"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

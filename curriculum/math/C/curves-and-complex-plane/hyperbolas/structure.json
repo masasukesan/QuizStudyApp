@@ -1,0 +1,74 @@
+{
+  "unit_id": "hyperbolas",
+  "unit_name_jp": "双曲線",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "hy-def",
+      "description": "双曲線の定義（2焦点からの距離の差の絶対値が一定）",
+      "thinking_process": [
+        "|PF₁ - PF₂| = 2a (定数)"
+      ],
+      "common_mistakes": [
+        "和と差を混同（楕円と混同）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "hy-std",
+      "description": "標準形 x²/a² - y²/b² = 1 の焦点・漸近線・頂点の読み取り",
+      "thinking_process": [
+        "c² = a² + b²、漸近線 y = ±(b/a)x"
+      ],
+      "common_mistakes": [
+        "楕円の公式 c² = a² - b² と混同"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "hy-asymptote",
+      "description": "漸近線の方程式と双曲線の関係を確認する途中式",
+      "thinking_process": [
+        "x²/a² - y²/b² = 0 → (x/a + y/b)(x/a - y/b) = 0"
+      ],
+      "common_mistakes": [
+        "漸近線は双曲線上にあると誤解"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "hy-tangent",
+      "description": "双曲線上の点での接線の方程式 x·x₀/a² - y·y₀/b² = 1",
+      "thinking_process": [
+        "楕円の接線公式の符号を変える"
+      ],
+      "common_mistakes": [
+        "符号（- の向き）を楕円の接線と混同"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "hy-proof-def",
+      "description": "定義から標準形 x²/a² - y²/b² = 1 を導く証明",
+      "thinking_process": [
+        "|PF₁ - PF₂| = 2a → 整理 → 2乗 → 標準形"
+      ],
+      "common_mistakes": [
+        "絶対値の扱いで場合分けを忘れる"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "hy-proof-rect",
+      "description": "直角双曲線 xy = k の性質（漸近線が座標軸）の証明",
+      "thinking_process": [
+        "x = u+v, y = u-v と変換して標準形に帰着"
+      ],
+      "common_mistakes": [
+        "回転変換の係数を間違える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "expressions-and-proofs",
+  "subunit": "equation-and-inequality-proofs",
+  "name": "等式・不等式の証明",
+  "en": "Equation and Inequality Proofs",
+  "questionCount": 0,
+  "source_notes": "センター試験では等式の証明は選択問題（第4問・第5問）として登場。不等式の証明（相加・相乗平均の不等式など）は1998年・2003年・2009年・2012年の第2問に登場（電数図書館確認）。共通テスト2021〜2024では単独出題はないが、微積分・数列・2次関数の問題内で式変形・不等式評価の技術が問われる。模試では毎年必出。参照：https://www.densu.jp/table/ifrcenter2.htm",
+  "exam_occurrence": {
+    "center_test": "等式の証明：第4問・第5問の選択問題。不等式の証明：第2問（2次関数・数と式）との融合で 1998・2003・2009・2012年度に出題。相加・相乗平均不等式、絶対値不等式が頻出。",
+    "kyotsu_test": "2021〜2024年度は単独問題なし。ただし各大問での式評価・不等式条件の導出に証明技術が必要。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年出題。等式の証明は「差が 0」証明法、不等式は相加・相乗平均と差の符号確認が中心。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "等式証明：左辺を変形して右辺に一致させる",
+      "description": "左辺から出発し、因数分解・展開・通分などで右辺の形に変形する最も基本的な証明法。",
+      "typical_question": "(a+b)²−(a−b)² = 4ab を証明せよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "等式証明：両辺の差が 0 になることを示す",
+      "description": "左辺 − 右辺 = 0 を示す方法。因数分解できるときに特に有効。",
+      "typical_question": "a³+b³+c³−3abc = (a+b+c)(a²+b²+c²−ab−bc−ca) を確認し a=b=c のとき等号が成立することを示せ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "不等式証明：差の符号を調べる（A − B ≥ 0）",
+      "description": "A ≥ B を示すには A−B を計算し、それが ≥ 0 であることを示す。平方完成や因数分解を利用する。",
+      "typical_question": "a² + b² ≥ 2ab を A−B ≥ 0 の方法で証明せよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "相加・相乗平均の不等式（2数）",
+      "description": "a > 0, b > 0 のとき (a+b)/2 ≥ √(ab)、すなわち a+b ≥ 2√(ab) が成立する。等号条件 a=b に注意。",
+      "typical_question": "a > 0, b > 0 のとき a+b ≥ 2√(ab) を証明し、等号が成立する条件を求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "絶対値を含む不等式（三角不等式）",
+      "description": "|a+b| ≤ |a|+|b| の証明。両辺を2乗して比較する方法が基本。",
+      "typical_question": "|a+b| ≤ |a|+|b| を証明せよ。（ヒント：両辺を2乗して差を取る）"
+    },
+    {
+      "id": "p06",
+      "difficulty": "standard",
+      "title": "条件付き等式の証明（a+b+c=0 のとき）",
+      "description": "a+b+c=0 などの条件を使って文字を置き換え、等式を変形する。",
+      "typical_question": "a+b+c=0 のとき a³+b³+c³=3abc を証明せよ。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "standard",
+      "title": "相加・相乗平均の応用（最小値の決定）",
+      "description": "x > 0 のとき x + k/x ≥ 2√k の最小値を求め、等号条件（x = √k）を明示する。",
+      "typical_question": "x > 0 のとき x + 4/x の最小値を相加・相乗平均の不等式を使って求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "standard",
+      "title": "コーシー・シュワルツの不等式",
+      "description": "(a²+b²)(c²+d²) ≥ (ac+bd)² を証明し、具体値に適用する。",
+      "typical_question": "(a²+b²)(c²+d²) ≥ (ac+bd)² を証明し、等号条件を求めよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "standard",
+      "title": "3数の相加・相乗平均",
+      "description": "a, b, c > 0 のとき (a+b+c)/3 ≥ (abc)^(1/3) を使った不等式。等号条件 a=b=c。",
+      "typical_question": "a, b, c > 0 のとき a+b+c ≥ 3(abc)^(1/3) を利用して具体的な最小値問題を解け。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "standard",
+      "title": "絶対値不等式の応用",
+      "description": "|x−a| < δ のような絶対値の不等式を証明・変形する。",
+      "typical_question": "|a|−|b| ≤ |a−b| を証明せよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "exam",
+      "title": "等式の恒等変換と文字消去",
+      "description": "2つ以上の等式から1つの文字を消去し、新しい等式を証明する。",
+      "typical_question": "a/b = c/d = k とおいたとき (a+c)/(b+d) = k が成立することを証明せよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "exam",
+      "title": "複雑な不等式の証明（平方和の評価）",
+      "description": "展開・平方完成・相加相乗平均を組み合わせた多段階の不等式証明。",
+      "typical_question": "a²+b²+c²≥ab+bc+ca を証明し、等号条件を求めよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "exam",
+      "title": "不等式の最大・最小への応用（制約条件付き）",
+      "description": "a+b=1 のような制約のもとで ab の最大値などを不等式の等号条件から求める。",
+      "typical_question": "a+b=2 (a,b>0) のとき ab の最大値を、相加・相乗平均の等号条件を使って求めよ。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "数学的帰納法を利用した不等式の証明",
+      "description": "n ≥ 1 のすべての自然数に対して成立する不等式を、帰納法で証明する。",
+      "typical_question": "すべての自然数 n に対して 2ⁿ > n が成立することを数学的帰納法で証明せよ。"
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "subject": "数学",
+  "unit": "三角比の拡張",
+  "questions": [
+    {
+      "id": "etr-001",
+      "difficulty": "basic",
+      "question": "単位円上で角 θ に対応する点の座標を (x, y) とするとき、sin θ の定義として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ = y(単位円の点の縦座標がsin θ)"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = x"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = y/x(y÷x はtan θ の定義)"
+        },
+        {
+          "label": "D",
+          "text": "sin θ = x²+y²(点の原点からの距離の二乗＝半径²=1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "単位円",
+        "sin の定義",
+        "座標"
+      ]
+    },
+    {
+      "id": "etr-002",
+      "difficulty": "basic",
+      "question": "単位円上で cos θ は点の座標 (x, y) のどれで定義されるか。正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos θ = x(単位円の点の横座標がcos θ)"
+        },
+        {
+          "label": "B",
+          "text": "cos θ = y"
+        },
+        {
+          "label": "C",
+          "text": "cos θ = x/y(x÷y は 1/tan θ)"
+        },
+        {
+          "label": "D",
+          "text": "cos θ = √(x²+y²) = 1(半径はcos ではない)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "単位円",
+        "cos の定義",
+        "x座標"
+      ]
+    },
+    {
+      "id": "etr-003",
+      "difficulty": "basic",
+      "question": "sin 150° の値を単位円で考える手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "150° は第2象限。参照角は 180°-150° = 30° → sin 150° = sin 30° = 1/2(第2象限では sin > 0)"
+        },
+        {
+          "label": "B",
+          "text": "sin 150° = -sin 30° = -1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin 150° = cos 30° = √3/2"
+        },
+        {
+          "label": "D",
+          "text": "sin 150° は計算機なしには求められない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "鈍角のsin",
+        "第2象限",
+        "参照角"
+      ]
+    },
+    {
+      "id": "etr-004",
+      "difficulty": "basic",
+      "question": "cos 120° の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "120° は第2象限。参照角 = 60° → cos 120° = -cos 60° = -1/2(第2象限では cos < 0)"
+        },
+        {
+          "label": "B",
+          "text": "cos 120° = cos 60° = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "cos 120° = -sin 60° = -√3/2"
+        },
+        {
+          "label": "D",
+          "text": "cos 120° = 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "鈍角のcos",
+        "第2象限",
+        "符号の決まり"
+      ]
+    },
+    {
+      "id": "etr-005",
+      "difficulty": "basic",
+      "question": "tan 135° の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "135° は第2象限。参照角 = 45° → tan 135° = -tan 45° = -1(第2象限では tan < 0)"
+        },
+        {
+          "label": "B",
+          "text": "tan 135° = tan 45° = 1"
+        },
+        {
+          "label": "C",
+          "text": "tan 135° = -√3"
+        },
+        {
+          "label": "D",
+          "text": "tan 135° = 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "鈍角のtan",
+        "第2象限",
+        "tan の符号"
+      ]
+    },
+    {
+      "id": "etr-006",
+      "difficulty": "basic",
+      "question": "sin(180°-θ) = sin θ という性質を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "単位円でθの点が(cosθ, sinθ)なら、180°-θの点は(-cosθ, sinθ)→ y座標は等しい → sin(180°-θ) = sinθ"
+        },
+        {
+          "label": "B",
+          "text": "sin(180°-θ) = sin 180° - sin θ = 0 - sinθ = -sinθ"
+        },
+        {
+          "label": "C",
+          "text": "180°-θを計算するだけで sin は変わらないから"
+        },
+        {
+          "label": "D",
+          "text": "sin(180°-θ) = cos θ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin(180°-θ)",
+        "単位円の対称性",
+        "y座標"
+      ]
+    },
+    {
+      "id": "etr-007",
+      "difficulty": "basic",
+      "question": "cos(180°-θ) の値について正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "単位円でθの点が(cosθ, sinθ)、180°-θの点は(-cosθ, sinθ) → x座標の符号が逆 → cos(180°-θ) = -cosθ"
+        },
+        {
+          "label": "B",
+          "text": "cos(180°-θ) = cosθ"
+        },
+        {
+          "label": "C",
+          "text": "cos(180°-θ) = cos 180° - cosθ = -1 - cosθ"
+        },
+        {
+          "label": "D",
+          "text": "cos(180°-θ) = sinθ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos(180°-θ)",
+        "x座標の変化",
+        "符号の変化"
+      ]
+    },
+    {
+      "id": "etr-008",
+      "difficulty": "basic",
+      "question": "sin θ = 0.5 を満たす θ(0° ≦ θ ≦ 180°)をすべて求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin 30° = 0.5 → θ = 30° が1つ。sin(180°-30°) = sin 30° より θ = 150° も解 → θ = 30°, 150°"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = 0.5 → θ = 150° のみ"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = 0.5 → θ = 60°"
+        },
+        {
+          "label": "D",
+          "text": "0°から180°以内は1つしかないと誤解"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角方程式",
+        "sin θ = k の解",
+        "180°の対称性"
+      ]
+    },
+    {
+      "id": "etr-009",
+      "difficulty": "basic",
+      "question": "第2象限の角 θ で tan θ の符号はどうなるか。理由を含めて正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第2象限では x<0、y>0 → tan θ = y/x < 0(負)"
+        },
+        {
+          "label": "B",
+          "text": "第2象限では sin>0、cos<0 → tan=sin/cos < 0"
+        },
+        {
+          "label": "C",
+          "text": "第2象限では tan > 0"
+        },
+        {
+          "label": "D",
+          "text": "第2象限では tan θ は定義されない(90°では不定義だがそれ以外では定義される)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第2象限",
+        "tan の符号",
+        "x座標とy座標"
+      ]
+    },
+    {
+      "id": "etr-010",
+      "difficulty": "basic",
+      "question": "θ が第3象限の角のとき、sin θ、cos θ、tan θ の符号について正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第3象限は x<0、y<0 → sinθ = y < 0、cosθ = x < 0、tanθ = y/x > 0(負÷負=正)"
+        },
+        {
+          "label": "B",
+          "text": "第3象限はすべて負"
+        },
+        {
+          "label": "C",
+          "text": "第3象限では sin<0、cos>0、tan<0"
+        },
+        {
+          "label": "D",
+          "text": "第3象限では sin>0、cos<0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第3象限の符号",
+        "sin cos tan",
+        "座標の符号"
+      ]
+    },
+    {
+      "id": "etr-011",
+      "difficulty": "standard",
+      "question": "sin θ = -√3/2(90° < θ < 270°)を満たすθを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ = -√3/2 → 参照角 = 60° → sin < 0 は第3、4象限。90°<θ<270°の範囲なら第3象限のみ → θ = 180°+60° = 240°"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = -√3/2 → 範囲条件を無視して θ = 300° のみと答える"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = √3/2 の場合の 60°, 120° に単純に負の符号をつけて -60°, -120° と答える"
+        },
+        {
+          "label": "D",
+          "text": "参照角が 30° だと思い θ = 210° と答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角方程式",
+        "範囲条件",
+        "第3象限"
+      ]
+    },
+    {
+      "id": "etr-012",
+      "difficulty": "standard",
+      "question": "cos θ = -1/2(0° ≦ θ ≦ 360°)を満たすすべてのθを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos θ = -1/2 → 参照角 = 60° → cos < 0 は第2、3象限 → θ = 120°, 240°"
+        },
+        {
+          "label": "B",
+          "text": "cos θ = -1/2 → 符号を無視して θ = 60°, 300°"
+        },
+        {
+          "label": "C",
+          "text": "cos θ = -1/2 → 参照角 = 30° → θ = 150°, 210°"
+        },
+        {
+          "label": "D",
+          "text": "cos θ = -1/2 → θ = 60°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos θ = k の解",
+        "第2・3象限",
+        "参照角60°"
+      ]
+    },
+    {
+      "id": "etr-013",
+      "difficulty": "standard",
+      "question": "sin θ > 0 かつ tan θ < 0 となるθの範囲を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin > 0 は第1・2象限、tan < 0 は第2・4象限 → 共通部分は第2象限 → 90° < θ < 180°"
+        },
+        {
+          "label": "B",
+          "text": "sin > 0 かつ tan < 0 → 第3象限"
+        },
+        {
+          "label": "C",
+          "text": "sin > 0 かつ tan < 0 → 第4象限"
+        },
+        {
+          "label": "D",
+          "text": "両条件が同時に成立しないと思う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "象限の条件",
+        "sin > 0 と tan < 0",
+        "共通部分"
+      ]
+    },
+    {
+      "id": "etr-014",
+      "difficulty": "standard",
+      "question": "θ = 210° のとき、sin θ、cos θ、tan θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "210° = 180°+30° → 第3象限、参照角30° → sinθ = -1/2、cosθ = -√3/2、tanθ = 1/√3 = √3/3"
+        },
+        {
+          "label": "B",
+          "text": "sin 210° = sin 30° = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "cos 210° = cos 30° = √3/2"
+        },
+        {
+          "label": "D",
+          "text": "tan 210° = -√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "210°",
+        "第3象限",
+        "各三角比の値"
+      ]
+    },
+    {
+      "id": "etr-015",
+      "difficulty": "standard",
+      "question": "θ = 315° のとき、sin θ と cos θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "315° = 360°-45° → 第4象限、参照角45° → sinθ = -√2/2、cosθ = √2/2(第4象限はsin<0、cos>0)"
+        },
+        {
+          "label": "B",
+          "text": "sin 315° = sin 45° = √2/2"
+        },
+        {
+          "label": "C",
+          "text": "315° は第3象限と思い sin、cos ともに負に"
+        },
+        {
+          "label": "D",
+          "text": "315° の参照角を 315°-270° = 45° と求めることはできるが象限を第3と誤解"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "315°",
+        "第4象限",
+        "参照角45°"
+      ]
+    },
+    {
+      "id": "etr-016",
+      "difficulty": "standard",
+      "question": "sin(90°+θ) の値を単位円を使って求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "90°+θ の点の座標は(-sinθ, cosθ) → sin(90°+θ) = y座標 = cosθ"
+        },
+        {
+          "label": "B",
+          "text": "sin(90°+θ) = sin 90° + sinθ = 1 + sinθ"
+        },
+        {
+          "label": "C",
+          "text": "sin(90°+θ) = sinθ"
+        },
+        {
+          "label": "D",
+          "text": "sin(90°+θ) = -sinθ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin(90°+θ) = cosθ",
+        "単位円の回転",
+        "補角の公式"
+      ]
+    },
+    {
+      "id": "etr-017",
+      "difficulty": "standard",
+      "question": "cos(90°+θ) の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "90°+θ の点の座標は(-sinθ, cosθ) → cos(90°+θ) = x座標 = -sinθ"
+        },
+        {
+          "label": "B",
+          "text": "cos(90°+θ) = cosθ"
+        },
+        {
+          "label": "C",
+          "text": "cos(90°+θ) = sinθ"
+        },
+        {
+          "label": "D",
+          "text": "cos(90°+θ) = -cosθ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos(90°+θ) = -sinθ",
+        "単位円の回転",
+        "x座標"
+      ]
+    },
+    {
+      "id": "etr-018",
+      "difficulty": "standard",
+      "question": "θ が第2象限で sin θ = 2/3 のとき、cos θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos²θ = 1 - sin²θ = 1 - 4/9 = 5/9 → 第2象限なので cosθ < 0 → cosθ = -√5/3"
+        },
+        {
+          "label": "B",
+          "text": "cosθ = √5/3"
+        },
+        {
+          "label": "C",
+          "text": "cos²θ = 1 + sin²θ = 13/9"
+        },
+        {
+          "label": "D",
+          "text": "cosθ = 1 - sinθ = 1 - 2/3 = 1/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第2象限",
+        "cosθの符号",
+        "相互関係"
+      ]
+    },
+    {
+      "id": "etr-019",
+      "difficulty": "standard",
+      "question": "tan θ < 0 かつ cos θ < 0 を満たすθの範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos < 0 は第2・3象限。tan < 0 は第2・4象限 → 共通は第2象限 → 90° < θ < 180°"
+        },
+        {
+          "label": "B",
+          "text": "cos < 0 は第2・3象限、tan < 0 は第2・4象限の共通が第4象限と誤解"
+        },
+        {
+          "label": "C",
+          "text": "tan < 0 かつ cos < 0 → 第3象限"
+        },
+        {
+          "label": "D",
+          "text": "条件を満たすθは存在しないと思う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "象限の判定",
+        "cos と tan の符号",
+        "共通範囲"
+      ]
+    },
+    {
+      "id": "etr-020",
+      "difficulty": "standard",
+      "question": "sin θ = -0.6、θ が第3象限のとき tan θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos²θ = 1 - 0.36 = 0.64 → 第3象限なので cosθ < 0 → cosθ = -0.8 → tanθ = (-0.6)/(-0.8) = 3/4(正)"
+        },
+        {
+          "label": "B",
+          "text": "第3象限でtanは負と誤解して tanθ = -3/4"
+        },
+        {
+          "label": "C",
+          "text": "cosθ = 0.8 → tanθ = cosθ/sinθ = 0.8/(-0.6) = -4/3"
+        },
+        {
+          "label": "D",
+          "text": "tanθ = sinθ × cosθ = 0.48"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第3象限",
+        "tan > 0",
+        "3-4-5比"
+      ]
+    },
+    {
+      "id": "etr-021",
+      "difficulty": "exam",
+      "question": "sin θ + cos θ = 1/√2(0° ≦ θ ≦ 360°)を満たすθをすべて求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√2 sin(θ+45°) = 1/√2 → sin(θ+45°) = 1/2 → θ+45°の範囲は45°～405° → θ+45° = 30°(範囲外), 150°, 390° → θ = 105°, 345°"
+        },
+        {
+          "label": "B",
+          "text": "sinθ + cosθ = 1/√2 → 両辺二乗して解くが確認を忘れて余分な解を含める"
+        },
+        {
+          "label": "C",
+          "text": "√2 sin(θ+45°) = 1/√2 の変形まで正しいが、θ+45°の範囲設定を 45°〜405°と設定し忘れて解を1つ落とす"
+        },
+        {
+          "label": "D",
+          "text": "sin(θ+45°) = 1/2 → θ+45° = 30° のみ → θ = -15°(範囲外)だけで解なしと誤解"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "合成",
+        "sin(θ+α)=k",
+        "範囲の変換"
+      ]
+    },
+    {
+      "id": "etr-022",
+      "difficulty": "exam",
+      "question": "f(θ) = 2sin²θ - 3cos θ - 1(0° ≦ θ ≦ 180°)の最大値・最小値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin²θ = 1-cos²θ で置換 → f = -2cos²θ-3cosθ+1。t=cosθ(-1≦t≦1)でg(t)=-2t²-3t+1。軸t=-3/4で最大値g(-3/4)、端点で最小値を比較する"
+        },
+        {
+          "label": "B",
+          "text": "sin²θ を sinθ のまま扱い、sinとcosが混在した式を解こう"
+        },
+        {
+          "label": "C",
+          "text": "cos θ = t とおく置換はするが、t の範囲を 0 ≦ t ≦ 1 と狭くする"
+        },
+        {
+          "label": "D",
+          "text": "f(θ)を微分して極値を求めようとする(共通テストでは微分は不要)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin²θ = 1-cos²θ",
+        "tの置換",
+        "二次関数の最大最小"
+      ]
+    },
+    {
+      "id": "etr-023",
+      "difficulty": "exam",
+      "question": "方程式 2cos²θ + sin θ - 1 = 0(0° ≦ θ ≦ 360°)を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos²θ = 1-sin²θ → 2(1-sin²θ)+sinθ-1=0 → 2sin²θ-sinθ-1=0 → (2sinθ+1)(sinθ-1)=0 → sinθ=-1/2 or 1 → θ=90°,210°,330°"
+        },
+        {
+          "label": "B",
+          "text": "cos²θ=1-sin²θの置換はするが因数分解が不完全で sinθ=1/2のみ解く"
+        },
+        {
+          "label": "C",
+          "text": "cos²θのまま解こうとして、cosとsinが混在した方程式を解けない"
+        },
+        {
+          "label": "D",
+          "text": "sinθ=-1/2の解 210°,330° を忘れて θ=90°のみ答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos²θ=1-sin²θ",
+        "因数分解",
+        "全解の列挙"
+      ]
+    },
+    {
+      "id": "etr-024",
+      "difficulty": "exam",
+      "question": "sin θ - cos θ > 0(0° ≦ θ ≦ 360°)を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√2 sin(θ-45°) > 0 → sin(θ-45°) > 0 → θ-45°の範囲は-45°〜315° → 0°<θ-45°<180° → 45°<θ<225°"
+        },
+        {
+          "label": "B",
+          "text": "sin θ > cos θ → tanθ > 1 → θ > 45°(tanを使う方法は90°付近で符号の扱いが必要)"
+        },
+        {
+          "label": "C",
+          "text": "合成して √2 sin(θ-45°) > 0 は正しいが、θ-45°の範囲設定を 0°〜360°と"
+        },
+        {
+          "label": "D",
+          "text": "sin θ - cos θ > 0 のみ考え、θ の範囲を 45°<θ<180° と不完全に答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "合成",
+        "不等式",
+        "sin(θ-α)>0の解法"
+      ]
+    },
+    {
+      "id": "etr-025",
+      "difficulty": "exam",
+      "question": "tan θ = -√3(90° < θ < 270°)を満たすθを求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "参照角 = 60°(tan 60° = √3)→ tan < 0 は第2・4象限 → 90°<θ<270°の範囲内で第2象限のみ → θ = 180°-60° = 120°"
+        },
+        {
+          "label": "B",
+          "text": "tan θ = -√3 → 範囲条件を忘れて θ = 300° のみと答える"
+        },
+        {
+          "label": "C",
+          "text": "参照角を 30° と誤解して θ = 150° と答える"
+        },
+        {
+          "label": "D",
+          "text": "tan < 0 の象限を第1・3象限と誤解"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan の方程式",
+        "参照角60°",
+        "範囲条件"
+      ]
+    },
+    {
+      "id": "etr-026",
+      "difficulty": "exam",
+      "question": "0° ≦ θ ≦ 180° で sin θ > √3 cos θ を満たすθの範囲を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ - √3 cos θ > 0 → 2sin(θ-60°) > 0 → sin(θ-60°) > 0 → θ-60°の範囲は-60°〜120° → 0° < θ-60° < 120° → 60° < θ < 180°"
+        },
+        {
+          "label": "B",
+          "text": "cosθが負になる場合の不等号反転を忘れ、tanθ > √3 から 0° < θ < 90° のみと答える"
+        },
+        {
+          "label": "C",
+          "text": "合成して 2sin(θ-60°)>0 は正しいが、θ-60°の範囲を 0°〜180°"
+        },
+        {
+          "label": "D",
+          "text": "sin θ > √3 cos θ → θ > 60°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "合成",
+        "三角不等式",
+        "範囲の変換"
+      ]
+    },
+    {
+      "id": "etr-027",
+      "difficulty": "exam",
+      "question": "sin θ cos θ < 0 かつ sin θ < cos θ(0° ≦ θ ≦ 360°)を同時に満たすθの範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sinθcosθ<0は第2・4象限、sinθ<cosθはθ<45°またはθ>225° → 共通は 270°<θ<360°(第4象限の一部)"
+        },
+        {
+          "label": "B",
+          "text": "sinθcosθ<0 → sinθと cosθが異符号 → 第2・4象限は正しいが、sinθ<cosθの範囲計算を誤る"
+        },
+        {
+          "label": "C",
+          "text": "2つの条件を別々に解いて共通部分を求める手順は正しいが、sinθ<cosθを 45°<θ<225°と逆に解く"
+        },
+        {
+          "label": "D",
+          "text": "sinθcosθ = sin2θ/2 < 0 → sin2θ < 0 として解く方法(正しいが複雑)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "複合条件",
+        "象限",
+        "sin < cos の範囲"
+      ]
+    },
+    {
+      "id": "etr-028",
+      "difficulty": "exam",
+      "question": "a = sin θ + cos θ とおくと、sin θ cos θ を a で表す手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a² = sin²θ + 2sinθcosθ + cos²θ = 1 + 2sinθcosθ → sinθcosθ = (a²-1)/2"
+        },
+        {
+          "label": "B",
+          "text": "sinθcosθ = a/2"
+        },
+        {
+          "label": "C",
+          "text": "a² = sin²θ + cos²θ = 1"
+        },
+        {
+          "label": "D",
+          "text": "sinθcosθ = a² - 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "a=sinθ+cosθの置換",
+        "和の二乗展開",
+        "sinθcosθの表現"
+      ]
+    },
+    {
+      "id": "etr-029",
+      "difficulty": "exam",
+      "question": "0° ≦ θ ≦ 360° で 2sin²θ - sin θ - 1 ≦ 0 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "t = sinθ と置換 → 2t²-t-1 ≦ 0 → (2t+1)(t-1) ≦ 0 → -1/2 ≦ t ≦ 1。sinθ = -1/2 → θ=210°,330°; sinθ=1 → θ=90°。この範囲内のθを求めて答えとする"
+        },
+        {
+          "label": "B",
+          "text": "2sin²θ - sinθ - 1 = 0 の解 θ=90°,210°,330° をそのまま不等式の解"
+        },
+        {
+          "label": "C",
+          "text": "t = sinθ の置換は正しいが、t の値域 -1≦t≦1 を考慮せず全実数で解く"
+        },
+        {
+          "label": "D",
+          "text": "-1/2 ≦ sinθ ≦ 1 を正しく求めても、θの範囲に変換するとき 210°〜330°の外側を選び逆に"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角不等式",
+        "t=sinθの置換",
+        "範囲の変換"
+      ]
+    },
+    {
+      "id": "etr-030",
+      "difficulty": "exam",
+      "question": "f(θ) = sin⁴θ + cos⁴θ を sin θ cos θ を使って簡単にする手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin⁴θ+cos⁴θ = (sin²θ+cos²θ)²-2sin²θcos²θ = 1-2sin²θcos²θ = 1-(sin2θ)²/2"
+        },
+        {
+          "label": "B",
+          "text": "sin⁴θ+cos⁴θ = (sinθ+cosθ)⁴"
+        },
+        {
+          "label": "C",
+          "text": "sin⁴θ+cos⁴θ = 1"
+        },
+        {
+          "label": "D",
+          "text": "(sin²θ+cos²θ)²-2sin²θcos²θ → 1+2sin²θcos²θ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "四乗の変形",
+        "a²+b²=(a+b)²-2ab",
+        "sin2θの活用"
+      ]
+    }
+  ]
+}

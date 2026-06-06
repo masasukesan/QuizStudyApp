@@ -1,0 +1,927 @@
+{
+  "questions": [
+    {
+      "id": "drv-001",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=x² を微分の定義(極限)を用いて微分するとき、途中の展開と極限の操作として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lim[h →0] {f(x)+f(h)}/h の極限値として f'(x) を定義し、f(x)=x² のとき 2xh を h で割ると 2x"
+        },
+        {
+          "label": "B",
+          "text": "lim[h →0] {f(x+h)−f(x)}/h を用いるが、(x+h)²=x²+h² と誤り、分子 h² を h で割ると h → 0"
+        },
+        {
+          "label": "C",
+          "text": "lim[h →0] {f(x+h)−f(x)}/h の極限値として f'(x) を定義し、f(x)=x² のとき分子を展開すると x²+h² となり、h で割ると x+h → x"
+        },
+        {
+          "label": "D",
+          "text": "lim[h →0] {f(x+h)−f(x)}/h の極限値として f'(x) を定義し、f(x)=x² のとき分子を展開すると 2xh+h² となり、h で割ると 2x+h → 2x"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "微分の定義",
+        "展開",
+        "h→0の極限"
+      ]
+    },
+    {
+      "id": "drv-002",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=x³ の導関数 f'(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x³ → f'(x)=3x²"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x³ → f'(x)=3"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x³ → f'(x)=x²"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x³ → f'(x)=3x³"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "べき乗則",
+        "(xⁿ)'=nxⁿ⁻¹"
+      ]
+    },
+    {
+      "id": "drv-003",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=5(定数関数)の導関数 f'(x) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=5 → f'(x)=0"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=5 → f'(x)=5"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=5 → f'(x)=1"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=5 → f'(x)=−5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定数の微分",
+        "微分の基本"
+      ]
+    },
+    {
+      "id": "drv-004",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=4x³ の導関数 f'(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=4x³ → f'(x)=12x³"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=4x³ → f'(x)=3x²"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=4x³ → f'(x)=12x²"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=4x³ → f'(x)=4x²"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定数倍の微分",
+        "べき乗則",
+        "係数の扱い"
+      ]
+    },
+    {
+      "id": "drv-005",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=3x²+2x−5 の導関数 f'(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=3x²+2x−5 → f'(x)=6x²+2"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=3x²+2x−5 → f'(x)=3x+2"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=3x²+2x−5 → f'(x)=6x+2−5"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=3x²+2x−5 → f'(x)=6x+2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "和の微分",
+        "定数項の微分",
+        "各項ごとに微分"
+      ]
+    },
+    {
+      "id": "drv-006",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=x⁴ の導関数 f'(x) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x⁴ → f'(x)=x³"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x⁴ → f'(x)=4x⁴"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x⁴ → f'(x)=4x³"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x⁴ → f'(x)=4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "べき乗則",
+        "(xⁿ)'=nxⁿ⁻¹"
+      ]
+    },
+    {
+      "id": "drv-007",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=2x³−x+3 の導関数 f'(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=2x³−x+3 → f'(x)=2x²−1"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=2x³−x+3 → f'(x)=6x²−1+3"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=2x³−x+3 → f'(x)=6x²−1"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=2x³−x+3 → f'(x)=6x²+1"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "和の微分",
+        "各項の微分",
+        "符号の扱い"
+      ]
+    },
+    {
+      "id": "drv-008",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=x³ を微分の定義(極限)で求めるとき、分子の展開と極限の結果として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x³ を定義で微分すると分子は (x+h)³−x³ = 3x²h+3xh²+h³ → h で割って h →0 → 3x²"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x³ を定義で微分すると分子は (x+h)³−x³ = x²h+h³ と誤り、h で割って h→0 → x²"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x³ を定義で微分すると分子は (x+h)³−x³ = 3xh+h³ → h で割って h →0 → 3x"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x³ を定義で微分すると分子は x³+h³−x³ = h³ → h で割って h →0 → 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "微分の定義",
+        "三項展開",
+        "h→0の極限"
+      ]
+    },
+    {
+      "id": "drv-009",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=(1/3)x³+x² の導関数 f'(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=(1/3)x³+x² → f'(x)=(1/3)x²+2x"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=(1/3)x³+x² → f'(x)=x²+2x"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=(1/3)x³+x² → f'(x)=x²+x"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=(1/3)x³+x² → f'(x)=3x²+2x"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "分数係数の微分",
+        "べき乗則"
+      ]
+    },
+    {
+      "id": "drv-010",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "basic",
+      "question": "f(x)=5x の導関数 f'(x) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=5x → f'(x)=0"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=5x → f'(x)=5x"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=5x → f'(x)=5"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=5x → f'(x)=x"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "1次式の微分",
+        "べき乗則"
+      ]
+    },
+    {
+      "id": "drv-011",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=x²(x+1) を積の微分公式を用いて求めるとき、正しい計算手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x²(x+1) を積の微分で求めると f'(x)=2x×1=2x²+2x"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x²(x+1) を積の微分で求めると f'(x)=2x(x+1)+x²×1=2x²+2x+x²=3x²+2x"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x²(x+1) を積の微分で求めると f'(x)=2x×1=2x"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x²(x+1) を積の微分で求めると f'(x)=2x(x+1)=2x²+2x"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "積の微分",
+        "公式の適用",
+        "展開との比較"
+      ]
+    },
+    {
+      "id": "drv-012",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=x³−3x において x=2 での微分係数 f'(2) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x³−3x → f'(x)=3x²−3x → f'(2)=12−6=6"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x³−3x → f(2)=8−6=2 を微分係数と誤る → 2"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x³−3x → f'(x)=3x²−3 → f'(2)=3×4−3=9"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x³−3x → f'(x)=3x²−3 → f'(2)=3×2−3=3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "微分係数",
+        "点での微分",
+        "代入"
+      ]
+    },
+    {
+      "id": "drv-013",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=(2x+1)(x²+3) を積の微分公式で求めるとき、正しい計算手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=(2x+1)(x²+3) → f'(x)=2(x²+3)+(2x+1)×2x=2x²+6+4x²+2x=6x²+2x+6"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=(2x+1)(x²+3) → f'(x)=2x²+6+2x+3=2x²+2x+9"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=(2x+1)(x²+3) → f'(x)=2×2x=4x"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=(2x+1)(x²+3) → f'(x)=2(x²+3)=2x²+6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "積の微分",
+        "2項の微分",
+        "整理"
+      ]
+    },
+    {
+      "id": "drv-014",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=x⁴−2x² の 2 階導関数 f''(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x⁴−2x² → f'(x)=4x³−2x → f''(x)=12x²−2"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x⁴−2x² → f''(x)=12x²−4x"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x⁴−2x² → f'(x)=4x³−4x → f''(x)=4x²−4"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x⁴−2x² → f'(x)=4x³−4x → f''(x)=12x²−4"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "2階微分",
+        "微分を2回繰り返す"
+      ]
+    },
+    {
+      "id": "drv-015",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=(x²+1)³ を合成関数の微分で求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=(x²+1)³ → f'(x)=6x(x²+1)³"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=(x²+1)³ → f'(x)=3(2x)²=12x²"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=(x²+1)³ → f'(x)=3(x²+1)²"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=(x²+1)³ → 外側 u³ の微分 3u²、内側 x²+1 の微分 2x → f'(x)=3(x²+1)²×2x=6x(x²+1)²"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "合成関数の微分",
+        "内側×外側",
+        "チェーンルール"
+      ]
+    },
+    {
+      "id": "drv-016",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=(3x−2)⁴ を合成関数の微分で求めるとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=(3x−2)⁴ → 外側を微分 4(3x−2)³、内側 3x−2 の微分 3 → f'(x)=4(3x−2)³×3=12(3x−2)³"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=(3x−2)⁴ → f'(x)=4(3x−2)³"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=(3x−2)⁴ → f'(x)=12(3x−2)⁴"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=(3x−2)⁴ → f'(x)=4×3(x−2)³=12(x−2)³"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "合成関数の微分",
+        "線形内側関数",
+        "チェーンルール"
+      ]
+    },
+    {
+      "id": "drv-017",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f'(a)=0 が成立するとき、その意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(a)=0 は x=a での接線が水平であることを意味し、極値の候補だが f' の符号変化を確認する → 極値候補"
+        },
+        {
+          "label": "B",
+          "text": "f'(a)=0 は必ず極値をとることを意味し、増減表による確認は不要 → 増減表不要"
+        },
+        {
+          "label": "C",
+          "text": "f'(a)=0 は f(a)=0 を意味する。グラフが x=a で x 軸を横切る"
+        },
+        {
+          "label": "D",
+          "text": "f'(a)=0 は x=a で関数が不連続であることを意味する → 不連続点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "微分の意味",
+        "傾き=0",
+        "極値との関係"
+      ]
+    },
+    {
+      "id": "drv-018",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=x²/x(x≠0)の導関数を商の微分公式で求めたとき、正しい結果と検証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x²/x のとき商の公式で f'(x)={2x×x+x²×1}/x²=3x²/x²=3"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x²/x のとき f'(x)=2x/x=2"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x²/x のとき f'(x)=2x/1=2x"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x²/x=xのとき、直接簡単にすると f'(x)=1。商の公式で求めると {2x×x−x²×1}/x²=(x²)/x²=1 で一致する"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "商の微分",
+        "簡単化との整合性確認"
+      ]
+    },
+    {
+      "id": "drv-019",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=x³+x において 2 階導関数 f''(x) を求め、x=2 での値 f''(2) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x³+x → f''(x)=3x → f''(2)=6"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x³+x → f'(2)=13 を 2 階微分と誤る → 13"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x³+x → f'(x)=3x²+1 → f''(x)=6x → f''(2)=12"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x³+x → f'(x)=3x²+1 → f''(x)=6x+1 → f''(2)=13"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "2階微分",
+        "点での値",
+        "順序の確認"
+      ]
+    },
+    {
+      "id": "drv-020",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "standard",
+      "question": "f(x)=x(x+1)(x−1) の導関数 f'(x) を求めるとき、最も確実な手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x(x+1)(x−1) → f'(x)=1×1×1=1"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x(x+1)(x−1)=x(x²−1)=x³−x → f'(x)=3x²−1"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x(x+1)(x−1) → f'(x)=1×(x+1)×(x−1)=x²−1"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x(x+1)(x−1) → f'(x)=3x²+x−1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "3因数の積",
+        "展開してから微分",
+        "積の微分の連続適用"
+      ]
+    },
+    {
+      "id": "drv-021",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "f(x)=x³+ax²+b について f'(1)=0 となるとき、a の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x³+ax²+b で f(1)=0 → 1+a+b=0 を使う → a=−1−b"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x³+ax²+b で f'(x)=3x²+2ax+b → f'(1)=0 → 3+2a+b=0"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x³+ax²+b で f'(1)=0 → f'(x)=3x²+2ax → 3+2a=0 → a=−3/2、答: a=−3/2"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x³+ax²+b で f'(x)=3x²+2ax → x=1 でなく x=−1 を代入してしまい f'(−1)=3−2a=0 → a=3/2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "係数決定",
+        "f'(a)=0条件",
+        "微分して代入"
+      ]
+    },
+    {
+      "id": "drv-022",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "f(x)=ax²+bx について f'(2)=6 かつ f(1)=3 が成立するとき、a と b の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=ax²+bx で f'(2)=6 かつ f(1)=3 → f'(x)=2ax+b → f'(2)=4a+b=6、f(1)=a+b=3 → 連立: 3a=3 → a=1、b=2、答: a=1、b=2"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=ax²+bx で f'(2)=6 かつ f(1)=3 → f'(x)=2ax+b → f'(2)=4a+b=6、f'(1)=2a+b=3 → 2a=3 → a=3/2"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=ax²+bx で f(2)=4a+2b=6 と f(1)=a+b=3 を連立(f'(2)の代わりにf(2)を使用) → 2a=0 → a=0"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=ax²+bx で f'(2)=6 かつ f(1)=3 → a=6、b=3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "連立方程式",
+        "f(a)とf'(a)の条件",
+        "係数決定"
+      ]
+    },
+    {
+      "id": "drv-023",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "f(x)=x²+2x の x=1 における接線の方程式を求めるとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x²+2x で x=1 での接線: f'(x)=2x+2 → f'(1)=4、f(1)=3 → 接線 y−3=4(x−1) → y=4x−1"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x²+2x で x=1 での接線: f(1)=3 を傾きと誤り y=3x+c として計算 → y=3x"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x²+2x で x=1 での接線: f'(x)=2x → f'(1)=2 → y=2x+1"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x²+2x で x=1 での接線: f'(x)=2x+2 → f'(1)=4 → y=4x+3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接線の方程式",
+        "微分係数=傾き",
+        "点と傾きから直線"
+      ]
+    },
+    {
+      "id": "drv-024",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "f(x)=x²(x+1)³ を積の微分と合成関数の微分を組み合わせて求めるとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x²(x+1)³ → 積の微分: f'(x)=2x(x+1)³+x²×3(x+1)²=x(x+1)²{2(x+1)+3x}=x(x+1)²(5x+2)"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x²(x+1)³ → f'(x)=2x×3(x+1)²=6x(x+1)²"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x²(x+1)³ → f'(x)=x²×3(x+1)²=3x²(x+1)²"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x²(x+1)³ → f'(x)=2x(x+1)³"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "積×合成の組み合わせ",
+        "因数でまとめる",
+        "f'gとfg'の足し算"
+      ]
+    },
+    {
+      "id": "drv-025",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "f(x)=x³+ax+b が x=−1 で極値をもつとき、a の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x³+ax+b が x=−1 で極値をもつ → f'(x)=3x²+a → f'(−1)=−3+a=0 → a=3"
+        },
+        {
+          "label": "B",
+          "text": "f'(x)=3x²+a → f'(−1)=3×(−1)²+a=3+a=0 → a=−3"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x³+ax+b が x=−1 で極値をもつ → f(−1)=0 として −1−a+b=0"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x³+ax+b が x=−1 で極値をもつ → f'(x)=x²+a → f'(−1)=1+a=0 → a=−1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "極値の条件",
+        "f'(a)=0",
+        "係数決定"
+      ]
+    },
+    {
+      "id": "drv-026",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "微分可能性と連続性の関係について、正しい記述はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=|x| は微分可能であり、f'(0)=1 が成立する"
+        },
+        {
+          "label": "B",
+          "text": "「微分可能 → 連続」は常に成立するが、「連続 → 微分可能」は成立しない。f(x)=|x| は x=0 で連続だが、左右の微分係数が異なり微分不可能"
+        },
+        {
+          "label": "C",
+          "text": "「連続 → 微分可能」も成立する。連続であれば必ず左右の微分係数が一致する"
+        },
+        {
+          "label": "D",
+          "text": "「微分可能 → 連続」は成立しない場合がある。微分可能でも不連続な点が存在しうる"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "微分可能性",
+        "連続性",
+        "f(x)=|x|の反例"
+      ]
+    },
+    {
+      "id": "drv-027",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "y=x² と y=x³−x が x=a(同一点)で共通接線をもつとき、接点を求めるために必要な条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=x² と y=x³−x が共通接線をもつ → f(a)=g(a) だけを解けばよい → a=0 または a=√2"
+        },
+        {
+          "label": "B",
+          "text": "y=x² と y=x³−x が共通接線をもつ → 傾きが同じ 2a=3a²−1 だけを解けばよい → a=1 または a=−1/3"
+        },
+        {
+          "label": "C",
+          "text": "y=x² と y=x³−x が共通接線をもつ → f''(a)=g''(a) が条件 → 2=6a → a=1/3"
+        },
+        {
+          "label": "D",
+          "text": "y=x² と y=x³−x が x=a で共通接線をもつ → 接点が同じ: a²=a³−a → a²−a³+a=0 → a(1+a−a²)=0、傾きが同じ: 2a=3a²−1 → 3a²−2a−1=0 → (3a+1)(a−1)=0 → a=1 が共通解"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "共通接線",
+        "傾きが等しい",
+        "点が一致する条件を連立"
+      ]
+    },
+    {
+      "id": "drv-028",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "f'(x)=6x²−4x+1 となる f(x) の一般形を求めるとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(x)=6x²−4x+1 → f(x)=12x−4"
+        },
+        {
+          "label": "B",
+          "text": "f'(x)=6x²−4x+1 → 積分して f(x)=2x³−2x²+x+C"
+        },
+        {
+          "label": "C",
+          "text": "f'(x)=6x²−4x+1 → f(x)=3x³−2x²+x+C"
+        },
+        {
+          "label": "D",
+          "text": "f'(x)=6x²−4x+1 → f(x)=6x³−4x²+x+C"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "逆微分",
+        "積分の基礎",
+        "定数項"
+      ]
+    },
+    {
+      "id": "drv-029",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "f(x)=(x²+1)² の 2 階導関数 f''(x) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=(x²+1)² を展開すると x⁴+2x²+1 → f'(x)=4x³+4x → f''(x)=12x²+4"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=(x²+1)² → f'(x)=2(x²+1)×2x=4x(x²+1) → f''(x)=4(x²+1)=4x²+4"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=(x²+1)² → f'(x)=2(2x)=4x → f''(x)=4"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=(x²+1)² → 展開すると x⁴+2x²+1 → f'(x)=4x³+4x → f''(x)=12x³+4x"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "合成関数の2階微分",
+        "展開との比較",
+        "積の微分の適用"
+      ]
+    },
+    {
+      "id": "drv-030",
+      "subject": "数学",
+      "unit": "導関数と微分の基本公式",
+      "difficulty": "exam",
+      "question": "曲線 y=x³ 上の点 (a, a³) における接線を求め、その接線が原点を通る条件を立式する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "曲線 y=x³ 上の点 (a, a³) における接線 y−a³=3a²(x−a) が原点 (0,0) を通る → 0−a³=3a²(0−a) → −a³=−3a³ → 2a³=0 → a=0または a を別の点での条件で求める: 接線が (1,−2) を通るなら a³+3a²(1−a)=−2 → a=−1"
+        },
+        {
+          "label": "B",
+          "text": "曲線 y=x³ 上の点 (a, a³) における接線が原点を通る → 傾き a³/a=a² かつ 3a²=a² → 2a²=0 → a=0"
+        },
+        {
+          "label": "C",
+          "text": "曲線 y=x³ 上の点 (a, a³) における接線が原点を通る → a³=3a²×a → a=3a → 2a=0"
+        },
+        {
+          "label": "D",
+          "text": "曲線 y=x³ 上の点 (a, a³) における接線が原点を通る → f'(0)=0 なので原点が接点 → 接線 y=0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接線が特定点を通る",
+        "条件の立式",
+        "連立"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+/* ══════════════════════════════════════════════════
+   LoginPage — 重厚な闇書庫（Dark Codex）テーマ
+   ══════════════════════════════════════════════════ */
+
+/* ── ページ背景 ── */
+.page {
+  min-height: 100dvh;
+  background: #2a1e12;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(180, 120, 40, 0.2) 0%, transparent 65%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 60px,
+      rgba(201, 168, 106, 0.03) 60px,
+      rgba(201, 168, 106, 0.03) 61px
+    );
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* ══ 二重罫線フレーム ══ */
+.frame {
+  position:   relative;
+  margin:     56px 18px 48px;
+  border:     1px solid rgba(201, 168, 106, 0.45);
+  padding:    52px 36px 50px;
+  background: #3a2a1a;
+  animation:  frameIn 0.7s ease both;
+  box-shadow:
+    0 0 0 4px rgba(201, 168, 106, 0.07),
+    0 8px 48px rgba(0, 0, 0, 0.7),
+    inset 0 0 60px rgba(0, 0, 0, 0.4);
+}
+
+/* 内側の細い罫線 */
+.frame::before {
+  content:        '';
+  position:       absolute;
+  inset:          5px;
+  border:         0.5px solid rgba(201, 168, 106, 0.18);
+  pointer-events: none;
+}
+
+@keyframes frameIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ══ ヘッダー ══ */
+.header {
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  gap:             10px;
+  margin-bottom:   28px;
+  text-align:      center;
+}
+
+.anno {
+  font-family:    var(--font-cinzel);
+  font-style:     normal;
+  font-size:      9px;
+  letter-spacing: 6px;
+  color:          rgba(201, 168, 106, 0.55);
+  text-transform: uppercase;
+}
+
+.title {
+  font-family:    var(--font-cinzel-deco);
+  font-size:      30px;
+  font-weight:    400;
+  letter-spacing: 0.06em;
+  color:          #d4a84b;
+  text-shadow:
+    0 0 30px rgba(201, 168, 106, 0.25),
+    0 2px 4px rgba(0, 0, 0, 0.6);
+  line-height:    1.15;
+  margin:         0;
+  position:       relative;
+}
+
+.subtitle {
+  font-family:    var(--font-serif-jp);
+  font-size:      11px;
+  font-weight:    400;
+  letter-spacing: 4px;
+  color:          rgba(201, 168, 106, 0.45);
+  margin-top:     6px;
+}
+
+/* ══ タブ ══ */
+.tabs {
+  display:          flex;
+  justify-content:  center;
+  gap:              28px;
+  margin-bottom:    24px;
+}
+
+.tab {
+  background:      transparent;
+  border:          none;
+  border-bottom:   1px solid transparent;
+  padding:         4px 2px 6px;
+  font-family:     var(--font-serif-jp);
+  font-size:       14px;
+  letter-spacing:  4px;
+  color:           rgba(201, 168, 106, 0.4);
+  cursor:          pointer;
+  transition:      color 0.15s ease, border-color 0.15s ease;
+}
+
+.tab:hover {
+  color: rgba(201, 168, 106, 0.75);
+}
+
+.tabActive {
+  color:        rgba(201, 168, 106, 0.9) !important;
+  border-color: rgba(201, 168, 106, 0.5) !important;
+}
+
+/* ══ エラー帯 ══ */
+.errorBar {
+  display:       flex;
+  align-items:   center;
+  gap:           10px;
+  padding:       10px 14px;
+  margin-bottom: 18px;
+  background:    rgba(123, 46, 46, 0.15);
+  border-left:   2px solid #7b2e2e;
+  border-right:  0.5px solid rgba(123, 46, 46, 0.3);
+}
+
+.errorDiamond {
+  display:     block;
+  width:       5px;
+  height:      5px;
+  background:  #9b4040;
+  transform:   rotate(45deg);
+  flex-shrink: 0;
+}
+
+.errorText {
+  font-family: var(--font-serif-jp);
+  font-size:   12.5px;
+  color:       #c47070;
+  line-height: 1.5;
+}
+
+/* ══ フォーム ══ */
+.form {
+  display:        flex;
+  flex-direction: column;
+  gap:            18px;
+}
+
+/* ── 入力フィールド ── */
+.fieldWrap {
+  display:        flex;
+  flex-direction: column;
+  gap:            6px;
+}
+
+.fieldLabelRow {
+  display:         flex;
+  align-items:     baseline;
+  justify-content: space-between;
+}
+
+.fieldLabel {
+  font-family:    var(--font-serif-en);
+  font-style:     italic;
+  font-size:      14px;
+  font-weight:    500;
+  color:          #c9a86a;
+  cursor:         pointer;
+}
+
+.fieldSublabel {
+  font-family:    var(--font-serif-jp);
+  font-size:      10px;
+  font-weight:    300;
+  color:          rgba(201, 168, 106, 0.4);
+}
+
+.input {
+  width:          100%;
+  padding:        12px 14px;
+  background:     #2a1e12;
+  border:         0.75px solid rgba(201, 168, 106, 0.3);
+  border-radius:  0;
+  font-family:    var(--font-serif-jp);
+  font-size:      16px;
+  font-weight:    400;
+  color:          #e8d8b0;
+  outline:        none;
+  transition:     border-color 0.15s ease, box-shadow 0.15s ease;
+  -webkit-appearance: none;
+}
+
+.input::placeholder {
+  color:      rgba(201, 168, 106, 0.22);
+  font-style: italic;
+}
+
+.input:focus {
+  border-color: rgba(201, 168, 106, 0.65);
+  box-shadow:   inset 0 0 0 1px rgba(201, 168, 106, 0.2),
+                0 0 12px rgba(201, 168, 106, 0.06);
+}
+
+/* パスワードフィールドの字間 */
+.inputPassword:not(:placeholder-shown) {
+  letter-spacing: 4px;
+}
+
+/* ── 送信ボタン ── */
+.submitBtn {
+  position:        relative;
+  width:           100%;
+  height:          52px;
+  margin-top:      8px;
+  background:      linear-gradient(180deg, #3e2810 0%, #2e1e0c 60%, #241808 100%);
+  border:          1px solid rgba(201, 168, 106, 0.45);
+  border-radius:   0;
+  font-family:     var(--font-cinzel);
+  font-size:       12px;
+  font-weight:     500;
+  letter-spacing:  5px;
+  color:           #c9a86a;
+  cursor:          pointer;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  gap:             8px;
+  text-shadow:     0 0 12px rgba(201, 168, 106, 0.4);
+  box-shadow:      0 4px 20px rgba(0, 0, 0, 0.5),
+                   inset 0 1px 0 rgba(201, 168, 106, 0.12);
+  transition:      background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background:  linear-gradient(180deg, #3a2510 0%, #251508 60%, #170f05 100%);
+  box-shadow:  0 6px 28px rgba(0, 0, 0, 0.6),
+               0 0 20px rgba(201, 168, 106, 0.12),
+               inset 0 1px 0 rgba(201, 168, 106, 0.2);
+  color:       #e0c07a;
+}
+
+.submitBtn:disabled {
+  opacity: 0.5;
+  cursor:  not-allowed;
+}
+
+/* スピナー */
+.spinner {
+  display:       inline-block;
+  width:         12px;
+  height:        12px;
+  border:        1.5px solid rgba(201, 168, 106, 0.3);
+  border-top:    1.5px solid #c9a86a;
+  border-radius: 50%;
+  animation:     spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* submitInner は装飾なし */
+.submitInner { display: none; }

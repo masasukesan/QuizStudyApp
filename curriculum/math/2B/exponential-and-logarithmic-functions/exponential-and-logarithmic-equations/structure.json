@@ -1,0 +1,66 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "exponential-and-logarithmic-equations",
+  "name": "指数・対数方程式",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "exponential-eq-same-base",
+      "description": "底を揃えて指数を比較する",
+      "thinking_process": [
+        "左辺・右辺を同じ底の累乗に変換",
+        "指数部分の方程式を解く",
+        "不等式は底の大小で不等号の向きに注意"
+      ],
+      "common_mistakes": [
+        "底が異なるのにそのまま比較",
+        "不等式で底が 1 未満のとき不等号を逆転しない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "substitution-t",
+      "description": "2ˣ=t や aˣ=t と置いて2次方程式に変換する",
+      "thinking_process": [
+        "t=2ˣ（t>0）と置く",
+        "t の2次方程式を解く",
+        "t>0 の条件から t を選び、2ˣ=t を解く"
+      ],
+      "common_mistakes": [
+        "t<0 の解も採用する",
+        "t=2ˣ から x を解くときに対数を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "log-eq-true-value",
+      "description": "対数方程式を解くとき真数条件を必ず確認する",
+      "thinking_process": [
+        "logₐf(x)=k → f(x)=aᵏ に変換",
+        "解が f(x)>0 を満たすか確認",
+        "複数の対数がある場合は全ての真数条件を確認"
+      ],
+      "common_mistakes": [
+        "真数条件なしで全ての解を採用",
+        "真数条件を計算後でなく計算前に確認する（確認は解の後）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "log-both-sides",
+      "description": "底が異なる指数方程式・不等式を対数に変換して解く",
+      "thinking_process": [
+        "両辺の常用対数（または自然対数）を取る",
+        "不等式では対数を取った後の正負に注意",
+        "log₁₀2、log₁₀3 などの値を使って計算"
+      ],
+      "common_mistakes": [
+        "対数を取るときに不等号の向きを変えてしまう",
+        "負の数の対数を計算しようとする"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "unit_id": "parabolas",
+  "unit_name_jp": "放物線",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "pb-def",
+      "description": "放物線の定義（焦点と準線からの等距離）",
+      "thinking_process": [
+        "焦点 F と準線 l からの距離が等しい点の軌跡"
+      ],
+      "common_mistakes": [
+        "焦点と頂点を混同"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "pb-std",
+      "description": "標準形 y² = 4px (p > 0) の焦点・準線・頂点の読み取り",
+      "thinking_process": [
+        "焦点 (p, 0)、準線 x = -p、頂点 (0, 0)"
+      ],
+      "common_mistakes": [
+        "p の符号の正負で焦点の位置が変わる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "pb-tangent",
+      "description": "放物線上の点 (at², 2at) での接線の方程式 ty = x + at²",
+      "thinking_process": [
+        "パラメータ表示から接線の傾きを求める"
+      ],
+      "common_mistakes": [
+        "微分の計算ミス"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "pb-line",
+      "description": "放物線と直線の交点・弦の中点の座標を求める途中式",
+      "thinking_process": [
+        "連立して2次方程式に帰着",
+        "解と係数の関係を使う"
+      ],
+      "common_mistakes": [
+        "y の2次方程式を直接解かずに x で解く"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "pb-proof-def",
+      "description": "定義から標準形 y² = 4px を導く証明",
+      "thinking_process": [
+        "PF = PH の式を立てる",
+        "√を外すために2乗する"
+      ],
+      "common_mistakes": [
+        "2乗の展開でミスする"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "pb-proof-focal",
+      "description": "放物線の焦点性質（反射性）の証明",
+      "thinking_process": [
+        "入射角 = 反射角を法線ベクトルで示す"
+      ],
+      "common_mistakes": [
+        "法線ベクトルの計算ミス"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

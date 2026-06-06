@@ -1,0 +1,957 @@
+{
+  "subject": "math",
+  "unit": "trigonometric-functions",
+  "subunit": "trigonometric-definitions-and-properties",
+  "questions": [
+    {
+      "id": "td-001",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "単位円において、角 θ に対応する点の座標が (1/2, √3/2) であるとき、tan θ の値として正しい変形はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan θ = cos θ/sin θ = 1/2/√3/2 = 1/√3"
+        },
+        {
+          "label": "B",
+          "text": "tan θ = sin θ/cos θ = √3/2/1/2 = √3"
+        },
+        {
+          "label": "C",
+          "text": "tan θ = sin θ × cos θ = √3/2 × 1/2 = √3/4"
+        },
+        {
+          "label": "D",
+          "text": "tan θ = sin θ + cos θ = √3/2 + 1/2 = √3+1/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "tan の定義",
+        "単位円の座標読み取り",
+        "分数の割り算"
+      ]
+    },
+    {
+      "id": "td-002",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "sin π/4、cos π/4、tan π/4 の値の組み合わせとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin π/4 = 1/2、cos π/4 = √3/2、tan π/4 = 1/√3"
+        },
+        {
+          "label": "B",
+          "text": "sin π/4 = √3/2、cos π/4 = 1/2、tan π/4 = √3"
+        },
+        {
+          "label": "C",
+          "text": "sin π/4 = √2/2、cos π/4 = √2/2、tan π/4 = 1"
+        },
+        {
+          "label": "D",
+          "text": "sin π/4 = √2/2、cos π/4 = 1/2、tan π/4 = √2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "特殊角",
+        "π/4=45°の三角関数値",
+        "1:1:√2 の直角二等辺三角形"
+      ]
+    },
+    {
+      "id": "td-003",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "cos θ = -4/5（θ は第3象限の角）のとき、sin θ を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin² θ = 1 - cos² θ = 1 - 16/25 = 9/25、第3象限より sin θ = -3/5"
+        },
+        {
+          "label": "B",
+          "text": "sin² θ = 1 - cos² θ = 1 - 16/25 = 9/25、第3象限より sin θ = 3/5"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = 1/cos θ = -5/4、第3象限より sin θ = -5/4"
+        },
+        {
+          "label": "D",
+          "text": "sin² θ = 1 + cos² θ = 1 + 16/25 = 41/25、sin θ = -√41/5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相互関係",
+        "象限による符号決定",
+        "sin²θ+cos²θ=1"
+      ]
+    },
+    {
+      "id": "td-004",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "cos ( -π/3 ) の値を求める変形として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos(-θ) = -cos θ より cos(-π/3) = -cos π/3 = -1/2"
+        },
+        {
+          "label": "B",
+          "text": "cos(-θ) = sin θ より cos(-π/3) = sin π/3 = √3/2"
+        },
+        {
+          "label": "C",
+          "text": "cos(-θ) = -sin θ より cos(-π/3) = -sin π/3 = -√3/2"
+        },
+        {
+          "label": "D",
+          "text": "cos(-θ) = cos θ より cos(-π/3) = cos π/3 = 1/2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "負の角の公式",
+        "cos は偶関数",
+        "余弦の符号"
+      ]
+    },
+    {
+      "id": "td-005",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "sin ( π + π/6 ) の値を求める変形として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(π + θ) = sin θ より sin(π + π/6) = sin π/6 = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "sin(π + θ) = -sin θ より sin(π + π/6) = -sin π/6 = -1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin(π + θ) = cos θ より sin(π + π/6) = cos π/6 = √3/2"
+        },
+        {
+          "label": "D",
+          "text": "sin(π + θ) = -cos θ より sin(π + π/6) = -cos π/6 = -√3/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "π+θ の変換",
+        "sin は符号が反転",
+        "特殊角の値の確認"
+      ]
+    },
+    {
+      "id": "td-006",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "sin ( π/2 - θ ) を別の三角関数で表すとき、正しい変形はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(π/2 - θ) = cos θ、余角の公式で sin と cos が入れ替わる"
+        },
+        {
+          "label": "B",
+          "text": "sin(π/2 - θ) = -cos θ、π/2 との差は符号が反転する"
+        },
+        {
+          "label": "C",
+          "text": "sin(π/2 - θ) = sin θ、π/2 を引いても sin は変わらない"
+        },
+        {
+          "label": "D",
+          "text": "sin(π/2 - θ) = -sin θ、π/2 との差は符号が変わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "π/2-θ の変換",
+        "余角の公式",
+        "sin↔cos の入れ替え"
+      ]
+    },
+    {
+      "id": "td-007",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "sin θ < 0 かつ tan θ > 0 であるとき、θ が存在する象限の判定として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ < 0 より第3・4象限、tan θ > 0 より第2・4象限、共通は第4象限"
+        },
+        {
+          "label": "B",
+          "text": "sin θ < 0 より第1・4象限、tan θ > 0 より第1・3象限、共通は第1象限"
+        },
+        {
+          "label": "C",
+          "text": "sin θ < 0 より第3・4象限、tan θ > 0 より第1・3象限、共通は第3象限"
+        },
+        {
+          "label": "D",
+          "text": "sin θ < 0 より第3・4象限、tan θ > 0 より第1・2象限、共通は存在しない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "象限の判定",
+        "各象限での符号",
+        "条件の共通部分"
+      ]
+    },
+    {
+      "id": "td-008",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "tan θ = 2（θ は第1象限の角）のとき、sin θ と cos θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ = 2cos θ を代入して 5cos² θ = 1、第1象限より cos θ = -1/√5、sin θ = -2/√5"
+        },
+        {
+          "label": "B",
+          "text": "tan² θ = 4 より sin² θ = 4cos² θ、代入して 5cos² θ = 1、cos θ = 1/5 と計算する"
+        },
+        {
+          "label": "C",
+          "text": "sin θ = tan θ = 2、cos θ = 1 として確認すると sin² θ + cos² θ = 5 ≠ 1 で矛盾"
+        },
+        {
+          "label": "D",
+          "text": "sin θ = 2cos θ を sin² θ + cos² θ = 1 に代入して 5cos² θ = 1、第1象限より cos θ = 1/√5、sin θ = 2/√5"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "相互関係の応用",
+        "tan から sin・cos を求める",
+        "象限による符号決定"
+      ]
+    },
+    {
+      "id": "td-009",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "sin θ の値域と周期について、正しく述べているものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "値域は -1 ≦ sin θ ≦ 1、周期は π でsin(θ + π) = sin θ が成り立つ"
+        },
+        {
+          "label": "B",
+          "text": "値域は -1 ≦ sin θ ≦ 1、周期は 2π でsin(θ + 2π) = sin θ が成り立つ"
+        },
+        {
+          "label": "C",
+          "text": "値域はすべての実数、周期は 2π でsin(θ + 2π) = sin θ が成り立つ"
+        },
+        {
+          "label": "D",
+          "text": "値域は 0 ≦ sin θ ≦ 1、周期は 2π でsin(θ + 2π) = sin θ が成り立つ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "三角関数の値域",
+        "周期の定義",
+        "単位円との対応"
+      ]
+    },
+    {
+      "id": "td-010",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "basic",
+      "question": "sin(π - θ) × cos(-θ) を簡単にする手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin(π - θ) = sin θ を変換せず π と θ を別々に計算して sin π × cos θ = 0"
+        },
+        {
+          "label": "B",
+          "text": "sin(π - θ) = sin θ、cos(-θ) = -cos θ より sin θ × (-cos θ) = -sin θ cos θ"
+        },
+        {
+          "label": "C",
+          "text": "sin(π - θ) = sin θ、cos(-θ) = cos θ より sin θ × cos θ"
+        },
+        {
+          "label": "D",
+          "text": "sin(π - θ) = cos θ、cos(-θ) = cos θ より cos² θ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "複数の変換公式の組み合わせ",
+        "sin(π-θ)=sinθ",
+        "cos(-θ)=cosθ"
+      ]
+    },
+    {
+      "id": "td-011",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "sin θ + cos θ = √2/2 のとき、sin θ · cos θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ + cos θ = √2/2 を2乗して 1 + 2sin θ cos θ = 1/2、よって sin θ cos θ = -1/4"
+        },
+        {
+          "label": "B",
+          "text": "sin θ + cos θ = √2/2 を2乗して 1 + 2sin θ cos θ = 2、よって sin θ cos θ = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin θ + cos θ = √2/2 を2乗すると sin²θ + cos²θ = 1/4 になるので sin θ cos θ = 1/4"
+        },
+        {
+          "label": "D",
+          "text": "sin θ + cos θ = √2/2 なので sin θ - cos θ も同じ値 √2/2 になり sin θ cos θ = 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin θ+cos θ の2乗展開",
+        "sin²θ+cos²θ=1 の代入",
+        "sin θ cos θ の導出"
+      ]
+    },
+    {
+      "id": "td-012",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "tan θ + 1/tan θ の値を sin θ と cos θ で表したとき、正しい変形はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan θ + 1/tan θ = sin θ/cos θ + cos θ/sin θ = (sin² θ + cos² θ)/(sin θ cos θ) = 1/(sin θ cos θ)"
+        },
+        {
+          "label": "B",
+          "text": "tan θ + 1/tan θ = sin θ/cos θ + cos θ/sin θ = (sin θ + cos θ)/(sin θ cos θ)"
+        },
+        {
+          "label": "C",
+          "text": "tan θ + 1/tan θ = (1 + tan² θ)/tan θ = (1/cos² θ)÷(sin θ/cos θ) = cos θ/(sin θ cos² θ)"
+        },
+        {
+          "label": "D",
+          "text": "tan θ + 1/tan θ = sin θ cos θ + 1/(sin θ cos θ)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan θ = sin θ/cos θ",
+        "通分と分子の整理",
+        "sin²θ+cos²θ=1"
+      ]
+    },
+    {
+      "id": "td-013",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "sin θ · cos θ = 1/3 のとき、2sin θ · cos θ の値と sin 2θ との関係を正しく述べているのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ cos θ = 1/3 より 2sin θ cos θ = 2/3 であり、これは sin 2θ の値に等しい"
+        },
+        {
+          "label": "B",
+          "text": "sin θ cos θ = 1/3 なので 2sin θ cos θ = 1/3 × 2 = 1/6 と計算する"
+        },
+        {
+          "label": "C",
+          "text": "2sin θ cos θ = (sin θ cos θ)² = 1/9"
+        },
+        {
+          "label": "D",
+          "text": "2sin θ cos θ = sin θ + cos θ であり cos 2θ の値に等しい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2sin θ cos θ = sin 2θ の確認",
+        "相互関係の拡張",
+        "2倍角公式の予備的理解"
+      ]
+    },
+    {
+      "id": "td-014",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "sin θ > 0 かつ sin θ · cos θ < 0 のとき、θ が存在する象限として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ > 0 より第1・2象限、sin θ cos θ < 0 より cos θ < 0、よって第2象限"
+        },
+        {
+          "label": "B",
+          "text": "sin θ > 0 より第1・2象限、sin θ cos θ < 0 より tan θ < 0、よって第1象限"
+        },
+        {
+          "label": "C",
+          "text": "sin θ > 0 より第3・4象限、sin θ cos θ < 0 より第2象限"
+        },
+        {
+          "label": "D",
+          "text": "sin θ > 0 より第1・2象限、sin θ cos θ < 0 より cos θ > 0、よって第1象限"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin θ > 0 の象限",
+        "積の符号から cos θ の符号を決定",
+        "複数条件の共通部分"
+      ]
+    },
+    {
+      "id": "td-015",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "sin(π/2 + θ) · sin(π - θ) · cos(-θ) を θ だけの式に変換する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos θ · sin θ · cos θ = sin θ cos² θ"
+        },
+        {
+          "label": "B",
+          "text": "sin θ · sin θ · cos θ = sin² θ cos θ"
+        },
+        {
+          "label": "C",
+          "text": "-cos θ · sin θ · cos θ = -sin θ cos² θ"
+        },
+        {
+          "label": "D",
+          "text": "(-sin θ) · sin θ · cos θ = -sin² θ cos θ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin(π/2+θ)=cos θ",
+        "sin(π-θ)=sin θ",
+        "cos(-θ)=cos θ"
+      ]
+    },
+    {
+      "id": "td-016",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "2cos²θ - 3sin θ - 1 を sin θ のみの式に変換し、t = sin θ とおいたときの式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos²θ = 1 - sin²θ を代入して 2(1 - t²) - 3t - 1 = -2t² - 3t + 1"
+        },
+        {
+          "label": "B",
+          "text": "cos²θ = 1 + sin²θ を代入して 2(1 + t²) - 3t - 1 = 2t² - 3t + 1"
+        },
+        {
+          "label": "C",
+          "text": "cos²θ = sin²θ を代入して 2t² - 3t - 1"
+        },
+        {
+          "label": "D",
+          "text": "cos²θ = 1 - sin²θ を代入するとき、2 を括弧に分配せず 2 - t² - 3t - 1 = -t² - 3t + 1 と計算してしまう"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos²θ = 1 - sin²θ の代入",
+        "t への置換",
+        "整理後の2次式の係数確認"
+      ]
+    },
+    {
+      "id": "td-017",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "(sin θ + cos θ)² を展開したとき、正しい結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin²θ + cos²θ + 2sin θ cos θ = 1 + 2sin θ cos θ"
+        },
+        {
+          "label": "B",
+          "text": "(sin θ + cos θ)² = 2sin θ × 2cos θ = 4sin θ cos θ と計算する"
+        },
+        {
+          "label": "C",
+          "text": "展開するとsin²θ + 2sin θ cos θ だけが残り、cos²θ は相殺されて 2sin θ cos θ になる"
+        },
+        {
+          "label": "D",
+          "text": "2sin²θ + 2cos²θ = 2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2乗の展開",
+        "sin²θ+cos²θ=1",
+        "2sin θ cos θ の項の正確な生成"
+      ]
+    },
+    {
+      "id": "td-018",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "sin θ + cos θ = 1/2（第2象限）のとき、sin θ - cos θ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(sin θ + cos θ)² + (sin θ - cos θ)² = 2 より (sin θ - cos θ)² = 2 - 1/4 = 7/4、第2象限では sin θ > 0, cos θ < 0 より sin θ - cos θ > 0、よって sin θ - cos θ = √7/2"
+        },
+        {
+          "label": "B",
+          "text": "(sin θ - cos θ)² = (sin θ + cos θ)² = 1/4、よって sin θ - cos θ = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "sin θ - cos θ = 2(sin θ + cos θ) - 1 = 0"
+        },
+        {
+          "label": "D",
+          "text": "(sin θ - cos θ)² = (sin θ + cos θ)² - 4sin θ cos θ だが sin θ cos θ が未知なので確定できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "(sin θ + cos θ)² + (sin θ - cos θ)² = 2",
+        "第2象限での符号確認",
+        "平方根の正負の決定"
+      ]
+    },
+    {
+      "id": "td-019",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "sin θ + cos θ = √3/2 のとき、sin³θ + cos³θ の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin³θ+cos³θ = (sin θ+cos θ)³ = (√3/2)³ = 3√3/8"
+        },
+        {
+          "label": "B",
+          "text": "sin θ cos θ = (3/4 - 1)/2 = -1/8、sin³θ+cos³θ = (sin θ+cos θ)³ - 3sin θ cos θ(sin θ+cos θ) = 3√3/8 + 3√3/16 = 9√3/16"
+        },
+        {
+          "label": "C",
+          "text": "sin θ cos θ = -1/8、sin³θ+cos³θ = (sin θ+cos θ)(sin²θ+cos²θ) = √3/2 × 1 = √3/2"
+        },
+        {
+          "label": "D",
+          "text": "sin θ cos θ = -1/8 より 3sin θ cos θ(sin θ+cos θ) = 3×(-1/8)×√3/2 = -3√3/16"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "a³+b³ = (a+b)³ - 3ab(a+b)",
+        "sin θ cos θ の計算",
+        "段階的な代入と計算"
+      ]
+    },
+    {
+      "id": "td-020",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "difficulty": "standard",
+      "question": "sin θ > cos θ の条件があるとき、(sin θ - cos θ)² の平方根の正負を決定する根拠として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ > cos θ より sin θ - cos θ > 0 が直接わかるので、√((sin θ - cos θ)²) = sin θ - cos θ と正の値を採用する"
+        },
+        {
+          "label": "B",
+          "text": "sin θ + cos θ > 0 なので sin θ - cos θ も正と決まる"
+        },
+        {
+          "label": "C",
+          "text": "sin²θ + cos²θ = 1 より sin θ - cos θ = 0 に収束する"
+        },
+        {
+          "label": "D",
+          "text": "sin θ - cos θ の符号は象限だけで決まり、条件 sin θ > cos θ は使わない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "条件 sin θ > cos θ から sin θ - cos θ > 0",
+        "平方根の正の値を採用",
+        "符号確定の論理"
+      ]
+    },
+    {
+      "id": "tdp-030",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "sin θ + cos θ = √2 sin(θ + π/4) と合成できるとき、振幅 R と位相 φ の組として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "R = √(1²+1²) = √2、φ = π/4 → √2 sin(θ+π/4)"
+        },
+        {
+          "label": "B",
+          "text": "R = 1+1 = 2 → 2sin(θ+π/4)"
+        },
+        {
+          "label": "C",
+          "text": "R = √2、φ = π/6"
+        },
+        {
+          "label": "D",
+          "text": "R = √2、φ = −π/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角関数の合成",
+        "R=√(a²+b²)、cosφ=a/R かつ sinφ=b/R を満たす φ"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-031",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "sin θ = −√3/2（π ≤ θ ≤ 2π）のとき、θ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第3象限と第4象限。θ=π+π/3=4π/3, 2π−π/3=5π/3"
+        },
+        {
+          "label": "B",
+          "text": "θ=π/3, 2π/3"
+        },
+        {
+          "label": "C",
+          "text": "θ=4π/3 のみ"
+        },
+        {
+          "label": "D",
+          "text": "θ=2π/3, 4π/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第3・4象限のsin<0",
+        "θ=4π/3, 5π/3"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-032",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "cos θ = −1/2（0 ≤ θ < 2π）のとき、θ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第2・3象限。θ=2π/3, 4π/3"
+        },
+        {
+          "label": "B",
+          "text": "θ=π/3, 5π/3"
+        },
+        {
+          "label": "C",
+          "text": "θ=5π/3 のみ"
+        },
+        {
+          "label": "D",
+          "text": "θ=π/2, 3π/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第2・3象限のcos<0",
+        "θ=2π/3, 4π/3"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-033",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "y = 2sin(3x − π/4) の周期として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期 = 2π/3"
+        },
+        {
+          "label": "B",
+          "text": "周期 = 2π"
+        },
+        {
+          "label": "C",
+          "text": "周期 = 4π/3"
+        },
+        {
+          "label": "D",
+          "text": "周期 = 6π"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "y=sin(bx+c)の周期",
+        "周期=2π/|b|=2π/3"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-034",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "y = cos2x + 1 のグラフを描くとき、最大値と最小値の組として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos2x の範囲 [−1,1] → y の範囲 [0,2]。最大2、最小0"
+        },
+        {
+          "label": "B",
+          "text": "最大2、最小−1"
+        },
+        {
+          "label": "C",
+          "text": "最大3、最小1"
+        },
+        {
+          "label": "D",
+          "text": "最大1、最小−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "振幅と垂直移動",
+        "最大2・最小0"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-035",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "sin²θ + cos²θ = 1 を用いて sinθ = 3/5（0 < θ < π/2）のとき cosθ を求めたものとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosθ = √(1−9/25) = √(16/25) = 4/5"
+        },
+        {
+          "label": "B",
+          "text": "cosθ = 1−3/5 = 2/5"
+        },
+        {
+          "label": "C",
+          "text": "cosθ = ±4/5"
+        },
+        {
+          "label": "D",
+          "text": "cosθ = 3/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos²θ=1−sin²θ",
+        "第1象限でcos>0 → 4/5"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-036",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "tanθ = 2（0 < θ < π/2）のとき sinθ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin²θ/(1−sin²θ)=4 → sin²θ=4/5 → sinθ=2/√5"
+        },
+        {
+          "label": "B",
+          "text": "sinθ=1/√5"
+        },
+        {
+          "label": "C",
+          "text": "sinθ=2/5"
+        },
+        {
+          "label": "D",
+          "text": "sinθ=2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan²θ+1=sec²θの利用",
+        "sinθ=2/√5"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-037",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "y = 3sin(x/2 + π/3) の振幅・周期・位相（初期位相）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "振幅3、周期4π、位相 x=−2π/3 で y=0"
+        },
+        {
+          "label": "B",
+          "text": "振幅3、周期π"
+        },
+        {
+          "label": "C",
+          "text": "振幅3、周期4π、初期位相 +π/3"
+        },
+        {
+          "label": "D",
+          "text": "振幅1/3、周期4π"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "振幅・周期・位相のセット",
+        "位相シフト x=−2π/3"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-038",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "f(x) = sinx + sin(x + 2π/3) + sin(x + 4π/3) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "加法定理で展開して整理 → 0"
+        },
+        {
+          "label": "B",
+          "text": "3sinx"
+        },
+        {
+          "label": "C",
+          "text": "sin(3x)"
+        },
+        {
+          "label": "D",
+          "text": "3sin(x + 2π/3)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三相対称の和=0",
+        "展開して整理"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    },
+    {
+      "id": "tdp-039",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "asinθ + bcosθ = √(a²+b²) sin(θ + φ) と合成するとき、φ の正しい定義はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cosφ = a/√(a²+b²), sinφ = b/√(a²+b²) となるφ"
+        },
+        {
+          "label": "B",
+          "text": "tanφ = a/b"
+        },
+        {
+          "label": "C",
+          "text": "cosφ = b/√(a²+b²), sinφ = a/√(a²+b²)"
+        },
+        {
+          "label": "D",
+          "text": "φ = π/6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角関数の合成公式",
+        "cosφ=a/R, sinφ=b/R"
+      ],
+      "subunit": "trigonometric-definitions-and-properties"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "_shared/schemas/explanation.schema.json",
+  "title": "Explanation",
+  "description": "解説制作部が出力する1問分の解説JSON仕様。explanations.json は items が30問のこのオブジェクト配列。",
+  "type": "object",
+  "required": ["id", "explanation"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "対応する問題のID（question.id と一致させる）"
+    },
+    "explanation": {
+      "type": "string",
+      "description": "問題の解説本文（完全オリジナル）"
+    },
+    "steps": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "思考プロセスのステップ"
+    },
+    "common_mistakes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "典型的なミス・誤解"
+    },
+    "tips": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "覚えておくべきポイント・次に似た問題が出たときの対処法"
+    }
+  }
+}

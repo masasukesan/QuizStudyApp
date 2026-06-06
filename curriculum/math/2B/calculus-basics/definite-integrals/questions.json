@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "id": "di-001",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "定積分 ∫₁³ x dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x²/2]₁³ = 9/2−1/2 = 4"
+        },
+        {
+          "label": "B",
+          "text": "[x²]₁³ = 9−1 = 8"
+        },
+        {
+          "label": "C",
+          "text": "[x²/2]₁³ = 9/2+1/2 = 5"
+        },
+        {
+          "label": "D",
+          "text": "[x/2]₁³ = 3/2−1/2 = 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-002",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫₀² 3x² dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[3x³]₀² = 24"
+        },
+        {
+          "label": "B",
+          "text": "[3x²]₀² = 12"
+        },
+        {
+          "label": "C",
+          "text": "[x³]₀² = 0−8 = −8"
+        },
+        {
+          "label": "D",
+          "text": "[x³]₀² = 8−0 = 8"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-003",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "定積分の意味（基本）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫ₐᵇ f(x) dx = F(b)×F(a)"
+        },
+        {
+          "label": "B",
+          "text": "∫ₐᵇ f(x) dx = F'(b)−F'(a)"
+        },
+        {
+          "label": "C",
+          "text": "∫ₐᵇ f(x) dx = F(a)−F(b)"
+        },
+        {
+          "label": "D",
+          "text": "∫ₐᵇ f(x) dx = [F(x)]ₐᵇ = F(b)−F(a) (F は f の原始関数)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-004",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫₀¹ (x²+1) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x³/3+x]₀¹ = (1/3+1)−(0) = 4/3"
+        },
+        {
+          "label": "B",
+          "text": "[x²+1]₀¹ = 2−1 = 1"
+        },
+        {
+          "label": "C",
+          "text": "[x³+x]₀¹ = 1+1 = 2"
+        },
+        {
+          "label": "D",
+          "text": "[x³/3+x]₀² = 8/3+2 = 14/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-005",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫₋₁¹ x³ dx の結果として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 × ∫₀¹ x³ dx = 2 × 1/4 = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "[x³/3]₋₁¹ = 1/3−(−1/3) = 2/3"
+        },
+        {
+          "label": "C",
+          "text": "[x⁴/4]₋₁¹ = 1/4−1/4 = 0"
+        },
+        {
+          "label": "D",
+          "text": "[x⁴/4]₋₁¹ = 1/4−1 = −3/4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-006",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫₁⁴ 2 dx（定数の定積分）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x]₁⁴ = 3"
+        },
+        {
+          "label": "B",
+          "text": "[2]₁⁴ = 2"
+        },
+        {
+          "label": "C",
+          "text": "[2x]₁⁴ = 8−2 = 6"
+        },
+        {
+          "label": "D",
+          "text": "[2x]₀⁴ = 8−0 = 8"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-007",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫ₐᵃ f(x) dx（上下限が同じ）の結果として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2F(a)"
+        },
+        {
+          "label": "B",
+          "text": "積分できないので定義されない"
+        },
+        {
+          "label": "C",
+          "text": "F(a)−F(a)=0"
+        },
+        {
+          "label": "D",
+          "text": "f(a)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-008",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫₀² x² dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x³/3]₀² = 8/3"
+        },
+        {
+          "label": "B",
+          "text": "[x²/2]₀² = 2"
+        },
+        {
+          "label": "C",
+          "text": "[x³]₀² = 8"
+        },
+        {
+          "label": "D",
+          "text": "[x³/2]₀² = 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-009",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "∫₋₂² x dx（奇関数の対称積分）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x³/3]₋₂² = 8/3+8/3 = 16/3"
+        },
+        {
+          "label": "B",
+          "text": "[x²/2]₋₂² = 4"
+        },
+        {
+          "label": "C",
+          "text": "∫₀² x dx = [x²/2]₀² = 2"
+        },
+        {
+          "label": "D",
+          "text": "[x²/2]₋₂² = 2−2 = 0"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-010",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "定積分 ∫₂¹ f(x) dx と ∫₁² f(x) dx の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₂¹ f(x) dx = −∫₁² f(x) dx"
+        },
+        {
+          "label": "B",
+          "text": "∫₂¹ f(x) dx は定義されない"
+        },
+        {
+          "label": "C",
+          "text": "∫₂¹ f(x) dx = ∫₁² f(x) dx"
+        },
+        {
+          "label": "D",
+          "text": "∫₂¹ f(x) dx = 2×∫₁² f(x) dx"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-011",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫₀² (x²−2x+1) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x³/3−x²]₀² = 8/3−4 = −4/3"
+        },
+        {
+          "label": "B",
+          "text": "[x³/3−x²+x]₀² = (8/3−4+2)−0 = 2/3"
+        },
+        {
+          "label": "C",
+          "text": "[x³−x²+x]₀² = 8−4+2 = 6"
+        },
+        {
+          "label": "D",
+          "text": "[x³/3−2x+1]₀² = 8/3−4+1 = −1/3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-012",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫₋₁³ |x| dx の計算として正しいものはどれか（絶対値の定積分）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₋₁³ x dx = [x²/2]₋₁³ = 9/2−1/2 = 4"
+        },
+        {
+          "label": "B",
+          "text": "∫₋₁⁰ (−x) dx + ∫₀³ x dx = [−x²/2]₋₁⁰+[x²/2]₀³ = (0−(−1/2))+(9/2−0) = 1/2+9/2 = 5"
+        },
+        {
+          "label": "C",
+          "text": "∫₋₁³ |x| dx = ∫₋₁³ x² dx = [x³/3]₋₁³ = 9+1/3 = 28/3"
+        },
+        {
+          "label": "D",
+          "text": "∫₋₁³ |x| dx = ∫₀³ x dx = 9/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-013",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫₀² f(x) dx=3 かつ ∫₀² g(x) dx=−1 のとき ∫₀² {2f(x)+g(x)} dx として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2×3+(−1)=5"
+        },
+        {
+          "label": "B",
+          "text": "2×3+1=7"
+        },
+        {
+          "label": "C",
+          "text": "2×(3+(−1))=4"
+        },
+        {
+          "label": "D",
+          "text": "2×3×(−1)=−6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-014",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫₀¹ x(x+1)(x−1) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x³/3−x]₀¹ = 1/3−1 = −2/3"
+        },
+        {
+          "label": "B",
+          "text": "x(x²−1)=x³−x → [x⁴/4−x²/2]₀¹ = 1/4−1/2 = −1/4"
+        },
+        {
+          "label": "C",
+          "text": "[x⁴/4−x²/2]₀¹ = 1/4+1/2 = 3/4"
+        },
+        {
+          "label": "D",
+          "text": "∫₀¹ x(x+1)(x−1) dx = ∫₀¹ x dx × ∫₀¹ (x+1) dx × ∫₀¹ (x−1) dx"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-015",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫ₐᵇ f(x) dx + ∫ᵇᶜ f(x) dx の性質として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫ₐᵇ f(x) dx + ∫ᵇᶜ f(x) dx は計算できない"
+        },
+        {
+          "label": "B",
+          "text": "∫ₐᵇ f(x) dx × ∫ᵇᶜ f(x) dx"
+        },
+        {
+          "label": "C",
+          "text": "∫ₐᶜ f(x) dx"
+        },
+        {
+          "label": "D",
+          "text": "∫ₐᵇ f(x) dx + ∫ᵇᶜ f(x) dx = ∫ₐᶜ {f(x)}² dx"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-016",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫₀² (3x²+2x) dx を計算するとき正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[3x³+2x²]₀² = 24+8 = 32"
+        },
+        {
+          "label": "B",
+          "text": "[x³+x²]₀² = 8−4 = 4"
+        },
+        {
+          "label": "C",
+          "text": "[x³+x²]₀² = 8+4 = 12"
+        },
+        {
+          "label": "D",
+          "text": "[x³+x]₀² = 8+2 = 10"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-017",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "f(x) が連続で ∫₀⁴ f(x) dx=5、∫₀² f(x) dx=2 のとき ∫₂⁴ f(x) dx として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₂⁴=5×2=10"
+        },
+        {
+          "label": "B",
+          "text": "∫₂⁴=5/2=2.5"
+        },
+        {
+          "label": "C",
+          "text": "∫₀⁴=∫₀²+∫₂⁴ → ∫₂⁴=5−2=3"
+        },
+        {
+          "label": "D",
+          "text": "∫₂⁴=5+2=7"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-018",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "奇関数 f(x) の ∫₋ₐᵃ f(x) dx の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2∫₀ᵃ f(x) dx"
+        },
+        {
+          "label": "B",
+          "text": "奇関数か偶関数かに関係なく計算が必要"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "∫₀ᵃ f(x) dx"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-019",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "偶関数 f(x) の ∫₋ₐᵃ f(x) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2∫₀ᵃ f(x) dx"
+        },
+        {
+          "label": "B",
+          "text": "−2∫₀ᵃ f(x) dx"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "∫₀ᵃ f(x) dx"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-020",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "∫₀³ (x−1)² dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[(x−1)³/3]₀³ = 8/3−1/3 = 7/3"
+        },
+        {
+          "label": "B",
+          "text": "展開: x²−2x+1 → [x³/3−x²+x]₀³=(9−9+3)−0=3"
+        },
+        {
+          "label": "C",
+          "text": "展開: x²−2x+1 → [x³/3−x+1]₀³=(9−3+1)=7"
+        },
+        {
+          "label": "D",
+          "text": "[(x−1)³/3]₀³=8/3−(1/3)=7/3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-021",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫₀¹ x²(x+1) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀¹ x²(x+1) dx = ∫₀¹ x² dx × ∫₀¹ (x+1) dx"
+        },
+        {
+          "label": "B",
+          "text": "[x³/3+x²/2]₀¹ = 1/3+1/2 = 5/6"
+        },
+        {
+          "label": "C",
+          "text": "展開: x³+x² → [x⁴/4+x³/3]₀¹=1/4+1/3=7/12"
+        },
+        {
+          "label": "D",
+          "text": "[x⁴+x³]₀¹=2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-022",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫ₐᵇ f(x) dx の値が負になる場合の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "定積分の値が負のとき、グラフが x 軸より下にある部分の面積の方が上にある部分より大きい"
+        },
+        {
+          "label": "B",
+          "text": "定積分が負 → 面積も負"
+        },
+        {
+          "label": "C",
+          "text": "定積分が負 → 計算ミスがある"
+        },
+        {
+          "label": "D",
+          "text": "定積分が負 → f(x) が区間で常に負"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-023",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫₀¹ f(x) dx=2、∫₀¹ g(x) dx=3 のとき ∫₀¹ f(x)g(x) dx の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "積分の積は分離できないので ∫₀¹ f(x)g(x) dx の値は一般には確定できない"
+        },
+        {
+          "label": "B",
+          "text": "∫₀¹ f(x)g(x) dx = 6 が成立する場合もある"
+        },
+        {
+          "label": "C",
+          "text": "∫₀¹ f(x)g(x) dx = (2+3)/2 = 5/2"
+        },
+        {
+          "label": "D",
+          "text": "∫₀¹ f(x)g(x) dx = 2+3 = 5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-024",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫₁² (2x+1)(x−1) dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₁²(2x+1) dx × ∫₁²(x−1) dx"
+        },
+        {
+          "label": "B",
+          "text": "展開: 2x²−x−1 → [2x³/3−x²/2−x]₁² = (4/3)−(−5/6) = 8/6+5/6 = 13/6"
+        },
+        {
+          "label": "C",
+          "text": "展開: 2x²−x−1 → x=2 代入を 16/3−2−2=10/3 と誤計算 → 25/6"
+        },
+        {
+          "label": "D",
+          "text": "[2x²−x−1]₁²=(8−2−1)−(2−1−1)=5"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-025",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "積分区間 [0,2] を [0,1] と [1,2] に分割して計算する場合の性質として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀² f(x) dx = ∫₀¹ f(x) dx + ∫₁² f(x) dx"
+        },
+        {
+          "label": "B",
+          "text": "分割した積分の和は元の積分より常に小さい"
+        },
+        {
+          "label": "C",
+          "text": "積分は区間で分けると積になる: ∫₀¹ f(x) dx × ∫₁² f(x) dx"
+        },
+        {
+          "label": "D",
+          "text": "区間の分割は計算の近似値を得るためのみ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-026",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫₀² |x²−1| dx の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=1 で分けて ∫₀¹ (1−x²) dx = [x−x³/3]₀¹ = 2/3 のみ"
+        },
+        {
+          "label": "B",
+          "text": "∫₀² (x²−1) dx = [x³/3−x]₀²=8/3−2=2/3"
+        },
+        {
+          "label": "C",
+          "text": "x²−1=0 → x=1 で区間内。∫₀¹ (1−x²) dx + ∫₁² (x²−1) dx = [x−x³/3]₀¹+[x³/3−x]₁² = (1−1/3)+(8/3−2−1/3+1) = 2/3+4/3 = 2"
+        },
+        {
+          "label": "D",
+          "text": "x²−1=0 の解を x=±1 と正しく取り ∫₋₁¹ (1−x²) dx + ∫₁² (x²−1) dx = 4/3+4/3 = 8/3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-027",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "F(x)=∫₀ˣ t² dt を x で微分した結果として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F'(x)=x² (微積分の基本定理: d/dx ∫₀ˣ f(t) dt = f(x))"
+        },
+        {
+          "label": "B",
+          "text": "F'(x)=2x"
+        },
+        {
+          "label": "C",
+          "text": "F'(x)=x³/3"
+        },
+        {
+          "label": "D",
+          "text": "F'(x)=0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-028",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫₀¹ (x−a)² dx の値が最小となる a の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[x³/3−ax²+a²x]₀¹=1/3−a+a²。これを a で微分: −1+2a=0 → a=1/2"
+        },
+        {
+          "label": "B",
+          "text": "∫₀¹ (x−a)² dx の最小値は a=0 のとき"
+        },
+        {
+          "label": "C",
+          "text": "a²−a+1/3 の微分で 1/3 の定数項も含め 1/3−1+2a=0 → a=1/3"
+        },
+        {
+          "label": "D",
+          "text": "a²−a+1/3 = (a−1)²+(1/3−1) と解釈し a=1 が最小と判断"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-029",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫₀π sin²x dx（三角関数の定積分）として、半角公式 sin²x=(1−cos2x)/2 を使った計算の正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀π sin²x dx = [−sinx cosx]₀π = 0"
+        },
+        {
+          "label": "B",
+          "text": "∫₀π (1−cos2x)/2 dx = [x/2−sin2x/4]₀π = π/2−0 = π/2"
+        },
+        {
+          "label": "C",
+          "text": "∫₀π sin²x dx = π"
+        },
+        {
+          "label": "D",
+          "text": "∫₀π sin²x dx = 1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    },
+    {
+      "id": "di-030",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "∫ₐᵇ f'(x) dx の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "F(b)−F(a) (F は f の原始関数)"
+        },
+        {
+          "label": "B",
+          "text": "f'(b)−f'(a)"
+        },
+        {
+          "label": "C",
+          "text": "f(b)+f(a)"
+        },
+        {
+          "label": "D",
+          "text": "[f(x)]ₐᵇ = f(b)−f(a) (微積分の基本定理)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "定積分"
+      ],
+      "subunit": "definite-integrals"
+    }
+  ]
+}

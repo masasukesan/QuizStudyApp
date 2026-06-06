@@ -1,0 +1,929 @@
+{
+  "questions": [
+    {
+      "id": "nd-001",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標準正規分布 N(0,1) の特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "平均 0、分散(標準偏差)1 の釣り鐘型の対称な分布"
+        },
+        {
+          "label": "B",
+          "text": "左右非対称"
+        },
+        {
+          "label": "C",
+          "text": "平均と中央値が異なる"
+        },
+        {
+          "label": "D",
+          "text": "平均 1、分散 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標準正規分布"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-002",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "正規分布 N(μ,σ²) を標準化する変換として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=(X−μ)/σ"
+        },
+        {
+          "label": "B",
+          "text": "Z=X−μ×σ"
+        },
+        {
+          "label": "C",
+          "text": "Z=X/σ−μ"
+        },
+        {
+          "label": "D",
+          "text": "Z=(X−σ)/μ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標準化",
+        "Z=(X-μ)/σ"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-003",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標準正規分布で P(−1≤Z≤1) の近似値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "約 0.9973"
+        },
+        {
+          "label": "B",
+          "text": "約 0.6827(約 68%)"
+        },
+        {
+          "label": "C",
+          "text": "約 0.5"
+        },
+        {
+          "label": "D",
+          "text": "約 0.9545(95%)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "正規分布",
+        "1σ範囲"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-004",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標準正規分布で P(−2≤Z≤2) の近似値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "約 0.6827"
+        },
+        {
+          "label": "B",
+          "text": "約 0.9545(約 95%)"
+        },
+        {
+          "label": "C",
+          "text": "約 0.9973"
+        },
+        {
+          "label": "D",
+          "text": "約 0.99"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "正規分布",
+        "2σ範囲"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-005",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "正規分布のグラフの形として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "左右対称の釣り鐘型で平均の点を頂点とする"
+        },
+        {
+          "label": "B",
+          "text": "U字型"
+        },
+        {
+          "label": "C",
+          "text": "階段状の離散分布"
+        },
+        {
+          "label": "D",
+          "text": "右に歪んだ山型"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正規分布のグラフ"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-006",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~N(10,4) のとき E(X) と σ(X) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "E(X)=10、σ(X)=√4=2"
+        },
+        {
+          "label": "B",
+          "text": "E(X)=10、σ(X)=4"
+        },
+        {
+          "label": "C",
+          "text": "E(X)=4、σ(X)=10"
+        },
+        {
+          "label": "D",
+          "text": "E(X)=10、σ(X)=2/√2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正規分布の読み取り"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-007",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "標準正規分布表で P(0≤Z≤1.96) ≈ 0.475 のとき P(Z≥1.96) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(Z≥1.96)=0.95"
+        },
+        {
+          "label": "B",
+          "text": "P(Z≥1.96)=0.475"
+        },
+        {
+          "label": "C",
+          "text": "P(Z≥1.96)=0.5−0.475=0.025"
+        },
+        {
+          "label": "D",
+          "text": "P(Z≥1.96)=0.05"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "正規分布表",
+        "確率計算"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-008",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "正規分布の対称性から P(Z≤−a)=? として正しいものはどれか(a>0)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(Z≤−a)=0"
+        },
+        {
+          "label": "B",
+          "text": "P(Z≤−a)=P(Z≤a)"
+        },
+        {
+          "label": "C",
+          "text": "P(Z≤−a)=P(Z≥a)=1−P(Z≤a)"
+        },
+        {
+          "label": "D",
+          "text": "P(Z≤−a)=P(Z≥0)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対称性",
+        "確率"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-009",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "X~N(50,100) で P(40≤X≤60) として正しいものはどれか(P(−1≤Z≤1)≈0.68)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P≈0.68"
+        },
+        {
+          "label": "B",
+          "text": "P=0.4"
+        },
+        {
+          "label": "C",
+          "text": "P=0.95"
+        },
+        {
+          "label": "D",
+          "text": "P=0.5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正規分布",
+        "確率計算"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-010",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "正規分布は連続型確率分布であることの意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(X=k) は 1/σ に等しい"
+        },
+        {
+          "label": "B",
+          "text": "P(X=k) は正の値をもつ"
+        },
+        {
+          "label": "C",
+          "text": "P(X=k)=0(特定の1点の確率は 0、区間の確率のみが正の値)"
+        },
+        {
+          "label": "D",
+          "text": "確率は離散値で定義される"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "連続分布",
+        "1点の確率"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-011",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(60,25) で P(X≤65) を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=65/60≈1.08"
+        },
+        {
+          "label": "B",
+          "text": "P(X≤65)=65/60"
+        },
+        {
+          "label": "C",
+          "text": "Z=(65−60)/25=0.2 → P(Z≤0.2)"
+        },
+        {
+          "label": "D",
+          "text": "Z=(65−60)/5=1 → P(Z≤1)≈0.8413"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "正規分布",
+        "確率計算"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-012",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(μ,σ²) で P(X≤a)=P(X≥b) のとき a と b の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=−b"
+        },
+        {
+          "label": "B",
+          "text": "a と b が平均 μ に関して対称(a+b=2μ)"
+        },
+        {
+          "label": "C",
+          "text": "a=b"
+        },
+        {
+          "label": "D",
+          "text": "a+b=0"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対称性",
+        "正規分布"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-013",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(100,225) のとき P(85≤X≤115) として正しいものはどれか(P(−1≤Z≤1)≈0.68)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P=0.95"
+        },
+        {
+          "label": "B",
+          "text": "P=0.99"
+        },
+        {
+          "label": "C",
+          "text": "P≈0.68"
+        },
+        {
+          "label": "D",
+          "text": "P=0.5"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "正規分布",
+        "1σ区間"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-014",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "標準正規分布表で P(0≤Z≤z₀)=0.4750 のとき z₀ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₀=2.58"
+        },
+        {
+          "label": "B",
+          "text": "z₀=1.65"
+        },
+        {
+          "label": "C",
+          "text": "z₀=2.00"
+        },
+        {
+          "label": "D",
+          "text": "z₀=1.96(表で 0.4750 に対応する z)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "正規分布表",
+        "z値"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-015",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(5,4) のとき標準化した Z で P(X>7) を表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(Z>(7−5)/2)=P(Z>1)"
+        },
+        {
+          "label": "B",
+          "text": "P(Z>(7−5)/4)=P(Z>0.5)"
+        },
+        {
+          "label": "C",
+          "text": "P(Z>7)"
+        },
+        {
+          "label": "D",
+          "text": "P(Z>7/5)=P(Z>1.4)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標準化",
+        "確率"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-016",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(0,1) のとき P(|Z|≤1.96) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P=0.99"
+        },
+        {
+          "label": "B",
+          "text": "P=0.975"
+        },
+        {
+          "label": "C",
+          "text": "P=0.68"
+        },
+        {
+          "label": "D",
+          "text": "P(|Z|≤1.96)=2P(0≤Z≤1.96)≈2×0.475=0.95"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "絶対値不等式",
+        "P(|Z|≤z)"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-017",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X が正規分布に従い P(X≤a)=0.9 のとき、P(X≥a) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(X≥a)=0.5"
+        },
+        {
+          "label": "B",
+          "text": "P(X≥a)=0.9"
+        },
+        {
+          "label": "C",
+          "text": "P(X≥a)=0.9−0.5=0.4"
+        },
+        {
+          "label": "D",
+          "text": "P(X≥a)=1−P(X≤a)=1−0.9=0.1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "確率の補事象"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-018",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(μ,σ²) で μ を増やすとグラフはどう変化するか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "グラフが広がる"
+        },
+        {
+          "label": "B",
+          "text": "グラフ全体が右に平行移動(形は変わらない)"
+        },
+        {
+          "label": "C",
+          "text": "グラフが高くなる"
+        },
+        {
+          "label": "D",
+          "text": "グラフは変わらない"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "正規分布のグラフ",
+        "平均の変化"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-019",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(μ,σ²) で σ を大きくするとグラフはどう変化するか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "グラフが右に移動"
+        },
+        {
+          "label": "B",
+          "text": "グラフが平べったく横に広がる(ピークが低くなる)"
+        },
+        {
+          "label": "C",
+          "text": "グラフは変わらない"
+        },
+        {
+          "label": "D",
+          "text": "グラフが高くなる"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "正規分布のグラフ",
+        "分散の変化"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-020",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "X~N(70,100) で P(70≤X≤90) として正しいものはどれか(P(0≤Z≤2)≈0.4772)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P=0.9544"
+        },
+        {
+          "label": "B",
+          "text": "P(0≤Z≤2)≈0.4772"
+        },
+        {
+          "label": "C",
+          "text": "P=0.5"
+        },
+        {
+          "label": "D",
+          "text": "P=0.4"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "正規分布",
+        "半区間"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-021",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "中心極限定理の内容として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "独立同分布の n 個の標本平均 X̄ は n →∞ のとき正規分布 N(μ,σ²/n) に近づく"
+        },
+        {
+          "label": "B",
+          "text": "n が小さくても成立する"
+        },
+        {
+          "label": "C",
+          "text": "標本の分布が正規分布のときのみ成立"
+        },
+        {
+          "label": "D",
+          "text": "どんな分布でも n が大きければ正規分布と同じ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中心極限定理"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-022",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~N(50,16) のとき P(X≤46) を標準化すると正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=(46−50)/16=−0.25"
+        },
+        {
+          "label": "B",
+          "text": "Z=(46−50)/√16=−1 → P≈0.3085"
+        },
+        {
+          "label": "C",
+          "text": "Z=(46−50)/4=−1 → P(X≤46)=P(Z≤−1)=P(Z≥1)≈0.1587"
+        },
+        {
+          "label": "D",
+          "text": "P(X≤46)=0.5"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "標準化",
+        "確率"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-023",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~N(μ,σ²) で P(X≤a)=0.975 のとき (a−μ)/σ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a−μ)/σ=1.65"
+        },
+        {
+          "label": "B",
+          "text": "(a−μ)/σ=2.58"
+        },
+        {
+          "label": "C",
+          "text": "P(Z≤1.96)≈0.975 なので (a−μ)/σ=1.96"
+        },
+        {
+          "label": "D",
+          "text": "(a−μ)/σ=2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "正規分布表",
+        "z値"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-024",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~N(0,1) で P(|Z|>z₀)=0.05 のとき z₀ として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₀=2.00"
+        },
+        {
+          "label": "B",
+          "text": "z₀=2.58"
+        },
+        {
+          "label": "C",
+          "text": "z₀=1.96"
+        },
+        {
+          "label": "D",
+          "text": "z₀=1.65"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "両側確率",
+        "z₀=1.96"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-025",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~N(μ,σ²) の中央 95% の区間として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[μ−2σ、μ+2σ]"
+        },
+        {
+          "label": "B",
+          "text": "[μ−2.58σ、μ+2.58σ]"
+        },
+        {
+          "label": "C",
+          "text": "[μ−σ、μ+σ]"
+        },
+        {
+          "label": "D",
+          "text": "[μ−1.96σ、μ+1.96σ]"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "95%区間",
+        "1.96"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-026",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "標準正規分布で P(Z≥2.58)≈0.005 のとき P(−2.58≤Z≤2.58) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.99×2=1.98"
+        },
+        {
+          "label": "B",
+          "text": "0.995×2=1.99"
+        },
+        {
+          "label": "C",
+          "text": "0.995"
+        },
+        {
+          "label": "D",
+          "text": "P(−2.58≤Z≤2.58)=1−2×0.005=0.99"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "正規分布",
+        "両側"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-027",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~N(50,25) のとき P(X>60) として正しいものはどれか(P(Z>2)≈0.023)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P≈0.046"
+        },
+        {
+          "label": "B",
+          "text": "Z=(60−50)/5=2 → P(X>60)≈0.023"
+        },
+        {
+          "label": "C",
+          "text": "P≈0.16"
+        },
+        {
+          "label": "D",
+          "text": "P=0.5"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "正規分布",
+        "上側確率"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-028",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=100 の標本平均 X̄ が N(μ,σ²/100) に従うとき、X̄ の標準偏差として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "σ"
+        },
+        {
+          "label": "B",
+          "text": "σ/100"
+        },
+        {
+          "label": "C",
+          "text": "σ/10(標準誤差 = σ/√n = σ/10)"
+        },
+        {
+          "label": "D",
+          "text": "10σ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "標準誤差",
+        "σ/√n"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-029",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "正規分布に従う X で P(X≤c)=0.5 のとき c として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c=0"
+        },
+        {
+          "label": "B",
+          "text": "c=σ"
+        },
+        {
+          "label": "C",
+          "text": "c=μ(平均と中央値が一致する)"
+        },
+        {
+          "label": "D",
+          "text": "c=μ+σ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "中央値",
+        "正規分布"
+      ],
+      "subunit": "normal-distribution"
+    },
+    {
+      "id": "nd-030",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "X~N(10,9) と Y~N(5,4) が独立のとき X+Y の分布として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "X+Y~N(15,6)"
+        },
+        {
+          "label": "B",
+          "text": "X+Y~N(15,13)(E=10+5=15、V=9+4=13)"
+        },
+        {
+          "label": "C",
+          "text": "X+Y~N(15,36)"
+        },
+        {
+          "label": "D",
+          "text": "X+Y~N(50,13)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "正規分布の再生性",
+        "独立"
+      ],
+      "subunit": "normal-distribution"
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "実数",
+  "questions": [
+    {
+      "id": "rn-001",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "√49 の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "±7"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "2401"
+        },
+        {
+          "label": "D",
+          "text": "98"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-002",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "a < 0 のとき、√(a²) の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a"
+        },
+        {
+          "label": "B",
+          "text": "-a"
+        },
+        {
+          "label": "C",
+          "text": "a²"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-003",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "次のうち無理数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√9"
+        },
+        {
+          "label": "B",
+          "text": "0.333...(循環小数)"
+        },
+        {
+          "label": "C",
+          "text": "√7"
+        },
+        {
+          "label": "D",
+          "text": "3/4"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "rn-004",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "√3 × √12 の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3√4"
+        },
+        {
+          "label": "B",
+          "text": "√15"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "4√3"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "rn-005",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "1/√2 を有理化した結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√2/2"
+        },
+        {
+          "label": "B",
+          "text": "2√2"
+        },
+        {
+          "label": "C",
+          "text": "√2"
+        },
+        {
+          "label": "D",
+          "text": "1/2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-006",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "2√3 + 5√3 の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7√6"
+        },
+        {
+          "label": "B",
+          "text": "7√3"
+        },
+        {
+          "label": "C",
+          "text": "10√3"
+        },
+        {
+          "label": "D",
+          "text": "7√9"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-007",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "√8 を簡単にした結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4√2"
+        },
+        {
+          "label": "B",
+          "text": "2√2"
+        },
+        {
+          "label": "C",
+          "text": "√4 × √2"
+        },
+        {
+          "label": "D",
+          "text": "8√1"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-008",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "|-5| + |3| の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-2"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "-8"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "rn-009",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "次のうち有理数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√2"
+        },
+        {
+          "label": "B",
+          "text": "π"
+        },
+        {
+          "label": "C",
+          "text": "√5"
+        },
+        {
+          "label": "D",
+          "text": "0.25"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": "rn-010",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "basic",
+      "question": "√18 ÷ √2 の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "√6"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-011",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "√75 - 2√12 + √27 を計算する。まず √75 を簡単にするとき、正しい途中式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√75 = √(25×3) = 5√3"
+        },
+        {
+          "label": "B",
+          "text": "√75 = √(15×5) = 5√15"
+        },
+        {
+          "label": "C",
+          "text": "√75 = √(25×3) = 25√3"
+        },
+        {
+          "label": "D",
+          "text": "√75 = √(9×8) = 3√8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-012",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "(√6+√2)(√6-√2) を計算する。公式 (a+b)(a-b) = a²-b² で a=√6, b=√2 として代入したとき、a²-b² の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(√6)² - (√2)² = 6 - 2 = 4"
+        },
+        {
+          "label": "B",
+          "text": "(√6)² + (√2)² = 6 + 2 = 8"
+        },
+        {
+          "label": "C",
+          "text": "√6 × √2 = √12"
+        },
+        {
+          "label": "D",
+          "text": "(√6 - √2)² = 6 - 2√12 + 2 = 8 - 2√12"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-013",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "(√3+1)² を展開するとき、2ab にあたる項の計算として正しいのはどれか。a=√3, b=1 として計算せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2√3"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "4√3"
+        },
+        {
+          "label": "D",
+          "text": "√3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-014",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "1/(√3-1) を有理化するとき、分母・分子に掛けるべき式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√3+1 を掛ける (共役な式)"
+        },
+        {
+          "label": "B",
+          "text": "√3-1 を掛ける (分母と同じ式)"
+        },
+        {
+          "label": "C",
+          "text": "√3 を掛ける (無理数だけ消す)"
+        },
+        {
+          "label": "D",
+          "text": "1/(√3+1) を掛ける (逆数)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-015",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "√(7+4√3) を √p + √q の形に変形する。7+4√3 = (√p+√q)² とおくと、p+q と 2√(pq) の条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p+q = 7 かつ 2√(pq) = 4√3、つまり pq = 12"
+        },
+        {
+          "label": "B",
+          "text": "p+q = 4 かつ 2√(pq) = 7"
+        },
+        {
+          "label": "C",
+          "text": "p+q = 7 かつ pq = 4"
+        },
+        {
+          "label": "D",
+          "text": "p+q = 4√3 かつ pq = 7"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-016",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "a = √2 + 1 のとき a - 1/a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√2"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "√2 - 1"
+        },
+        {
+          "label": "D",
+          "text": "2√2"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-017",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "x = 2√3 のとき x² + 4 の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "4√3 + 4"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-018",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "x = √5 + √3、y = √5 - √3 のとき x² + y² の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-019",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "2/(√5+√3) を有理化するとき、分母・分子に掛けるべき式と、掛けた後の分母として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√5-√3 を掛ける → 分母は (√5)²-(√3)² = 2"
+        },
+        {
+          "label": "B",
+          "text": "√5+√3 を掛ける → 分母は (√5+√3)² = 8+2√15"
+        },
+        {
+          "label": "C",
+          "text": "√5-√3 を掛ける → 分母は (√5)²+(√3)² = 8"
+        },
+        {
+          "label": "D",
+          "text": "√5×√3 を掛ける → 分母は (√5+√3)×√15"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-020",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "standard",
+      "question": "√2 の整数部分を n とするとき、n の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-021",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "x = √2 + 1 のとき x + 1/x の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√2"
+        },
+        {
+          "label": "B",
+          "text": "2√2"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "√2 + 2"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-022",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "√3 の小数部分を a とするとき、a(a + 2) の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "√3"
+        },
+        {
+          "label": "C",
+          "text": "2√3 - 2"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-023",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "x = 2 + √3 のとき x - 1/x の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2√3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "√3"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-024",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "√(8 - 2√7) を簡単にした結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√7 - 1"
+        },
+        {
+          "label": "B",
+          "text": "1 - √7"
+        },
+        {
+          "label": "C",
+          "text": "2√7 - 2"
+        },
+        {
+          "label": "D",
+          "text": "√7 + 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-025",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "a = (√5 + 1)/2 のとき a² - a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "(√5 - 1)/2"
+        },
+        {
+          "label": "D",
+          "text": "√5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-026",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "x = √3 + √2、y = √3 - √2 のとき x³y + xy³ の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": "rn-027",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "a と b が有理数で a + b√2 = 3 + √2 のとき、a と b の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 3, b = 1"
+        },
+        {
+          "label": "B",
+          "text": "a = 1, b = 3"
+        },
+        {
+          "label": "C",
+          "text": "a = 3 + √2, b = 0"
+        },
+        {
+          "label": "D",
+          "text": "a = 0, b = 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "rn-028",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "4 < √n < 5 を満たす正の整数 n の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-029",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "x = 1/(√3 + √2) のとき x² + 2√2 x の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 - 2√6"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "-1"
+        },
+        {
+          "label": "D",
+          "text": "3 + 2√6"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "rn-030",
+      "subject": "数学1A",
+      "unit": "実数",
+      "difficulty": "exam",
+      "question": "n を自然数とするとき、√(n² + n) が自然数になることはあるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ない。n² < n² + n < (n+1)² より常に n と n+1 の間にある"
+        },
+        {
+          "label": "B",
+          "text": "n = 0 のとき √0 = 0 になる"
+        },
+        {
+          "label": "C",
+          "text": "n が偶数のとき"
+        },
+        {
+          "label": "D",
+          "text": "n が完全平方数のとき"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

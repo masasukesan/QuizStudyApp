@@ -1,0 +1,151 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "calculus-basics",
+  "subunit": "derivatives-and-basic-rules",
+  "name": "導関数と微分の基本公式",
+  "en": "Derivatives and Basic Rules",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "def-of-derivative",
+      "description": "微分の定義（極限）を使って導関数を求める手順",
+      "thinking_process": [
+        "f'(x) = lim[h→0] {f(x+h)-f(x)}/h の形を書く",
+        "f(x+h) を展開して f(x) を引く",
+        "h で割って h→0 の極限を取る"
+      ],
+      "common_mistakes": [
+        "f(x+h) の展開でhの二乗以上の項を落とす",
+        "h→0 を取る前に h を消し忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "power-rule",
+      "description": "べき乗の微分公式 (xⁿ)' = nxⁿ⁻¹ の適用",
+      "thinking_process": [
+        "xⁿ の形を確認する",
+        "指数を係数に下ろして n×xⁿ⁻¹ にする",
+        "指数を 1 減らす"
+      ],
+      "common_mistakes": [
+        "指数を減らし忘れて nxⁿ にする",
+        "係数が既にある場合に掛け算を忘れる（例：3x² → 6x でなく 3x にする）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sum-difference-rule",
+      "description": "和・差の微分（各項を個別に微分する）",
+      "thinking_process": [
+        "多項式を項ごとに分ける",
+        "各項に (xⁿ)' = nxⁿ⁻¹ を適用する",
+        "定数項の微分は 0 になることを確認する"
+      ],
+      "common_mistakes": [
+        "定数項を残してしまう",
+        "係数の掛け算を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "constant-multiple-rule",
+      "description": "定数倍の微分 {cf(x)}' = cf'(x) の適用",
+      "thinking_process": [
+        "係数 c を外に出す",
+        "f(x) だけを微分する",
+        "c と f'(x) を掛ける"
+      ],
+      "common_mistakes": [
+        "係数 c も一緒に微分してしまう（c を消す）",
+        "係数の掛け算結果を計算ミスする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "product-rule",
+      "description": "積の微分公式 {f(x)g(x)}' = f'(x)g(x) + f(x)g'(x) の適用",
+      "thinking_process": [
+        "f(x) と g(x) を識別する",
+        "f'(x)g(x) の部分を求める",
+        "f(x)g'(x) の部分を求めて足す"
+      ],
+      "common_mistakes": [
+        "f'(x)g'(x) と誤って両方微分する",
+        "2項の足し算でなく掛け算にする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "chain-rule-basic",
+      "description": "合成関数の微分（基本的な場合）{f(g(x))}' = f'(g(x))×g'(x)",
+      "thinking_process": [
+        "外側の関数 f と内側の関数 g を識別する",
+        "外側を g(x) のまま微分する",
+        "内側 g(x) の導関数を掛ける"
+      ],
+      "common_mistakes": [
+        "内側の微分 g'(x) を掛けるのを忘れる",
+        "外側の微分で内側を変数として扱わない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "derivative-at-point",
+      "description": "特定の点での微分係数を求める（接線の傾きとしての f'(a)）",
+      "thinking_process": [
+        "f'(x) を公式で求める",
+        "x=a を代入する",
+        "微分係数 f'(a) が接線の傾きであることを確認する"
+      ],
+      "common_mistakes": [
+        "f'(x) を求めてから代入せず、最初に x=a を代入してから微分する",
+        "f(a) と f'(a) を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "higher-order-derivative",
+      "description": "2階導関数 f''(x) を求める（微分を2回繰り返す）",
+      "thinking_process": [
+        "まず f'(x) を求める",
+        "f'(x) をもう一度微分して f''(x) を得る",
+        "各ステップで公式を正しく適用する"
+      ],
+      "common_mistakes": [
+        "1回だけ微分して終わりにする",
+        "f''(x) を f(x)² と混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "derivative-of-polynomial-application",
+      "description": "導関数を利用して方程式・不等式の条件を満たす係数を求める",
+      "thinking_process": [
+        "f'(x) を計算する",
+        "f'(a)=0 など与えられた条件を立てる",
+        "係数について方程式を解く"
+      ],
+      "common_mistakes": [
+        "f(a) の条件と f'(a) の条件を混同する",
+        "複数の条件を連立しないで1つだけ使う"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "differentiability-and-continuity",
+      "description": "微分可能性と連続性の関係を論理的に判断する",
+      "thinking_process": [
+        "「微分可能 → 連続」は成立するが逆は成立しない",
+        "左微分係数と右微分係数が等しいかを確認する",
+        "連続でも微分不可能な点（角点）の例を挙げられるか"
+      ],
+      "common_mistakes": [
+        "連続ならば微分可能と誤解する",
+        "左右の微分係数の一致確認を忘れる"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

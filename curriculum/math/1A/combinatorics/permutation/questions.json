@@ -1,0 +1,847 @@
+{
+  "subject": "数学1A",
+  "unit": "順列",
+  "questions": [
+    {
+      "id": "perm-001",
+      "difficulty": "basic",
+      "question": "5人の中から3人を選んで1列に並べる場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5P3 = 5×4×3 = 60通り"
+        },
+        {
+          "label": "B",
+          "text": "5! = 120通り"
+        },
+        {
+          "label": "C",
+          "text": "5C3 = 10通り"
+        },
+        {
+          "label": "D",
+          "text": "5×3 = 15通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "順列nPrの基本",
+        "n×(n-1)×...×(n-r+1)"
+      ]
+    },
+    {
+      "id": "perm-002",
+      "difficulty": "basic",
+      "question": "nPr = n! / (n-r)! の意味を説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n個からr個を選んで並べる場合の数: n×(n-1)×...×(n-r+1)"
+        },
+        {
+          "label": "B",
+          "text": "n個から r個選ぶ組み合わせの数"
+        },
+        {
+          "label": "C",
+          "text": "n! を r! で割った値"
+        },
+        {
+          "label": "D",
+          "text": "n個の全順列 n! を (n-r) で割ったもの"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "順列の定義",
+        "nPrの導出"
+      ]
+    },
+    {
+      "id": "perm-003",
+      "difficulty": "basic",
+      "question": "4人の中から2人を選んで、1つの役職（代表）と1つの役職（書記）に1人ずつ割り当てる場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4P2 = 4×3 = 12通り"
+        },
+        {
+          "label": "B",
+          "text": "4C2 = 6通り"
+        },
+        {
+          "label": "C",
+          "text": "4! = 24通り"
+        },
+        {
+          "label": "D",
+          "text": "4×2 = 8通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "順列の応用",
+        "役職がある場合"
+      ]
+    },
+    {
+      "id": "perm-004",
+      "difficulty": "basic",
+      "question": "A, B, C, D, Eの5文字を1列に並べる場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5! = 5×4×3×2×1 = 120通り"
+        },
+        {
+          "label": "B",
+          "text": "5P2 = 20通り"
+        },
+        {
+          "label": "C",
+          "text": "5^5 = 3125通り"
+        },
+        {
+          "label": "D",
+          "text": "5C5 = 1通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "n個の全順列",
+        "n!の計算"
+      ]
+    },
+    {
+      "id": "perm-005",
+      "difficulty": "basic",
+      "question": "6P0 の値は何か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6P0 = 6!/(6-0)! = 6!/6! = 1"
+        },
+        {
+          "label": "B",
+          "text": "6P0 = 0"
+        },
+        {
+          "label": "C",
+          "text": "6P0 = 6"
+        },
+        {
+          "label": "D",
+          "text": "6P0 は未定義"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "nP0=1",
+        "0個選ぶ特殊ケース"
+      ]
+    },
+    {
+      "id": "perm-006",
+      "difficulty": "basic",
+      "question": "1〜9の数字を使って、重複なしで2桁の整数を作る場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9P2 = 9×8 = 72通り"
+        },
+        {
+          "label": "B",
+          "text": "9×9 = 81通り"
+        },
+        {
+          "label": "C",
+          "text": "9C2 = 36通り"
+        },
+        {
+          "label": "D",
+          "text": "9! = 362880通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2桁の整数の個数",
+        "9P2"
+      ]
+    },
+    {
+      "id": "perm-007",
+      "difficulty": "basic",
+      "question": "男子3人・女子3人の計6人を1列に並べる場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6! = 720通り"
+        },
+        {
+          "label": "B",
+          "text": "3! × 3! = 36通り"
+        },
+        {
+          "label": "C",
+          "text": "6C3 × 3! = 120通り"
+        },
+        {
+          "label": "D",
+          "text": "6^6 = 46656通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "n個の全順列",
+        "制約なしの並べ方"
+      ]
+    },
+    {
+      "id": "perm-008",
+      "difficulty": "basic",
+      "question": "6人が1列に並ぶとき、特定の1人（A）が左端に来る並べ方は何通りか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5! = 120通り"
+        },
+        {
+          "label": "B",
+          "text": "6P2 = 6×5 = 30通り"
+        },
+        {
+          "label": "C",
+          "text": "6! = 720通り"
+        },
+        {
+          "label": "D",
+          "text": "5!/5 = 24通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特定の人の位置を固定",
+        "残りを並べる"
+      ]
+    },
+    {
+      "id": "perm-009",
+      "difficulty": "basic",
+      "question": "同じものを含む順列: R, E, P, E, A, Tの6文字を並べる場合の数は？(Eが2回登場)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6!/2! = 720/2 = 360通り"
+        },
+        {
+          "label": "B",
+          "text": "6! = 720通り"
+        },
+        {
+          "label": "C",
+          "text": "5! = 120通り"
+        },
+        {
+          "label": "D",
+          "text": "6! ÷ 3 = 240通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "同じものを含む順列",
+        "6!/2!"
+      ]
+    },
+    {
+      "id": "perm-010",
+      "difficulty": "basic",
+      "question": "A, A, A, B, B, C, C, Cの8文字を1列に並べる場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "8!/(3!×2!×3!) = 40320/72 = 560通り"
+        },
+        {
+          "label": "B",
+          "text": "8! = 40320通り"
+        },
+        {
+          "label": "C",
+          "text": "8! / (3! × 3!) = 1120通り"
+        },
+        {
+          "label": "D",
+          "text": "3! × 2! × 3! = 72通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "同じものを含む順列",
+        "n!/(r₁!r₂!r₃!)"
+      ]
+    },
+    {
+      "id": "perm-011",
+      "difficulty": "standard",
+      "question": "5人を1列に並べるとき、AはBより左に来る並べ方は何通りか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AがBより左の場合とAがBより右の場合は対称で等しい数だから 120/2=60通り"
+        },
+        {
+          "label": "B",
+          "text": "5P2 = 5×4 = 20通り"
+        },
+        {
+          "label": "C",
+          "text": "5C2 = 10通り"
+        },
+        {
+          "label": "D",
+          "text": "4! = 24通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対称性の利用",
+        "AがBより左の順列"
+      ]
+    },
+    {
+      "id": "perm-012",
+      "difficulty": "standard",
+      "question": "1, 2, 3, 4, 5 の5桁の整数（重複なし）を小さい順に並べると、23451は何番目か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "34番目"
+        },
+        {
+          "label": "B",
+          "text": "32番目"
+        },
+        {
+          "label": "C",
+          "text": "25番目"
+        },
+        {
+          "label": "D",
+          "text": "20番目"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "辞書式順序",
+        "何番目かの計算"
+      ]
+    },
+    {
+      "id": "perm-013",
+      "difficulty": "standard",
+      "question": "男子4人・女子4人の計8人が1列に並ぶとき、男女が交互になる並べ方は何通りか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2×4!×4! = 1152通り"
+        },
+        {
+          "label": "B",
+          "text": "4! × 4! = 576通り"
+        },
+        {
+          "label": "C",
+          "text": "8! / 2 = 20160通り"
+        },
+        {
+          "label": "D",
+          "text": "8C4 × 4! = 1680通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "男女交互",
+        "2つの並び順パターン"
+      ]
+    },
+    {
+      "id": "perm-014",
+      "difficulty": "standard",
+      "question": "MATHEMATICS の11文字を1列に並べる場合の数は？（M:2個、A:2個、T:2個、その他:1個）",
+      "choices": [
+        {
+          "label": "A",
+          "text": "11!/(2!×2!×2!) = 39916800/8 = 4989600通り"
+        },
+        {
+          "label": "B",
+          "text": "11! = 39916800通り"
+        },
+        {
+          "label": "C",
+          "text": "11! / (2!+2!+2!) = 39916800/6 = 6652800通り"
+        },
+        {
+          "label": "D",
+          "text": "8! × 2! × 2! × 2! = 322560通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "同じものを含む順列",
+        "各文字の個数で割る"
+      ]
+    },
+    {
+      "id": "perm-015",
+      "difficulty": "standard",
+      "question": "6人が1列に並ぶとき、A, B, Cの3人が特定の順序（AはBより左、BはCより左）になる場合の数は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6!/3! = 120通り"
+        },
+        {
+          "label": "B",
+          "text": "6C3 = 20通り"
+        },
+        {
+          "label": "C",
+          "text": "3! × 3! = 36通り"
+        },
+        {
+          "label": "D",
+          "text": "6! ÷ (3!×2) = 60通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特定の順序条件",
+        "全体を順序の数で割る"
+      ]
+    },
+    {
+      "id": "perm-016",
+      "difficulty": "standard",
+      "question": "0, 1, 2, 3, 4の5つの数字を使い、重複なしで4桁の整数を作るとき、3000以上の整数は何通りか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "48通り"
+        },
+        {
+          "label": "B",
+          "text": "72通り"
+        },
+        {
+          "label": "C",
+          "text": "60通り"
+        },
+        {
+          "label": "D",
+          "text": "36通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "条件付き4桁の整数",
+        "千の位の制約"
+      ]
+    },
+    {
+      "id": "perm-017",
+      "difficulty": "standard",
+      "question": "7文字 A, B, C, D, E, F, G を並べるとき、A と B の間にちょうど2文字が入る並べ方は何通りか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "960通り"
+        },
+        {
+          "label": "B",
+          "text": "5040通り"
+        },
+        {
+          "label": "C",
+          "text": "720通り"
+        },
+        {
+          "label": "D",
+          "text": "480通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "間の文字数の条件",
+        "A,Bの位置と中の文字"
+      ]
+    },
+    {
+      "id": "perm-018",
+      "difficulty": "standard",
+      "question": "n 人が1列に並ぶとき、特定の2人A, BがK番目とL番目（K<L）に来る確率は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2/(n(n-1))"
+        },
+        {
+          "label": "B",
+          "text": "1/(n(n-1))"
+        },
+        {
+          "label": "C",
+          "text": "2/n²"
+        },
+        {
+          "label": "D",
+          "text": "1/n²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "特定の位置に来る確率",
+        "順列と確率"
+      ]
+    },
+    {
+      "id": "perm-019",
+      "difficulty": "standard",
+      "question": "0〜9の10数字から4つを選んで並べる4桁の整数（重複なし）は何通りか。ただし先頭は0でない。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9×9×8×7 = 4536通り"
+        },
+        {
+          "label": "B",
+          "text": "10P4 = 5040通り"
+        },
+        {
+          "label": "C",
+          "text": "10P4 - 9P3 = 4320通り"
+        },
+        {
+          "label": "D",
+          "text": "9×8×7×6 = 3024通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "0を含む場合の4桁整数",
+        "先頭0の除外"
+      ]
+    },
+    {
+      "id": "perm-020",
+      "difficulty": "standard",
+      "question": "n 人が1列に並ぶとき、A が B の隣に来ない並べ方の数を求める一般式は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n! - 2(n-1)! = (n-2)×(n-1)!"
+        },
+        {
+          "label": "B",
+          "text": "n! - (n-1)!"
+        },
+        {
+          "label": "C",
+          "text": "(n-2)! × (n-1)"
+        },
+        {
+          "label": "D",
+          "text": "n!/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "隣り合わない条件の一般式",
+        "余事象の計算"
+      ]
+    },
+    {
+      "id": "perm-021",
+      "difficulty": "exam",
+      "question": "辞書式順序で a, b, c, d, eの5文字から作られる5桁の文字列を並べると、ceabd は何番目か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "67番目"
+        },
+        {
+          "label": "B",
+          "text": "70番目"
+        },
+        {
+          "label": "C",
+          "text": "75番目"
+        },
+        {
+          "label": "D",
+          "text": "80番目"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "辞書式順序の番号計算",
+        "桁ごとに小さい文字の数を計算"
+      ]
+    },
+    {
+      "id": "perm-022",
+      "difficulty": "exam",
+      "question": "n 個の異なるものの円順列の数が (n-1)! になる理由を説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "回転を無視して全員を並べるので n! 通り"
+        },
+        {
+          "label": "B",
+          "text": "n!を2で割って(n-1)!になる"
+        },
+        {
+          "label": "C",
+          "text": "1人を固定すると回転で同じ配置がn通りあるので n!/n = (n-1)!"
+        },
+        {
+          "label": "D",
+          "text": "円形に並べた後裏返しも同一視するから (n-1)!/2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円順列の導出",
+        "1個固定の理由"
+      ]
+    },
+    {
+      "id": "perm-023",
+      "difficulty": "exam",
+      "question": "6人を2つの円卓（3人ずつ）に分けて座らせる場合の数は？（各円卓は円順列）",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6C3×(3-1)!×(3-1)! = 20×2×2 = 80通り"
+        },
+        {
+          "label": "B",
+          "text": "6!/(3!×3!) = 20通り"
+        },
+        {
+          "label": "C",
+          "text": "(6-1)! = 120通り"
+        },
+        {
+          "label": "D",
+          "text": "6C3 × 3! × 3! = 720通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "複数円卓の場合の数",
+        "nCk×円順列"
+      ]
+    },
+    {
+      "id": "perm-024",
+      "difficulty": "exam",
+      "question": "数字 0, 1, 2, 3, 4, 5 の6桁の数字（重複なし）で作られる6桁の整数の総和を求める方針として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "先頭桁と残り桁を分けて各桁の寄与を計算し合算する"
+        },
+        {
+          "label": "B",
+          "text": "全6桁整数の個数に平均値を掛けて求める"
+        },
+        {
+          "label": "C",
+          "text": "0〜5を均等に扱い (0+1+2+3+4+5)×5!×111111 で求める"
+        },
+        {
+          "label": "D",
+          "text": "先頭に0が来る場合だけ除外して 6!×(0+1+…+5) を計算する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "整数の総和",
+        "各桁の寄与の計算方針"
+      ]
+    },
+    {
+      "id": "perm-025",
+      "difficulty": "exam",
+      "question": "n 人を k 個の区別できる席に座らせる場合の数（n ≥ k）を nPk とする。n=8, k=5 のとき 8P5 の値は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "8P5 = 8×7×6×5×4 = 6720"
+        },
+        {
+          "label": "B",
+          "text": "8C5 = 56"
+        },
+        {
+          "label": "C",
+          "text": "8! = 40320"
+        },
+        {
+          "label": "D",
+          "text": "8^5 = 32768"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "nPkの計算",
+        "8×7×6×5×4"
+      ]
+    },
+    {
+      "id": "perm-026",
+      "difficulty": "exam",
+      "question": "n 文字を1列に並べるとき、禁止された隣り合わせ（特定のペア）を避ける並べ方を包除原理で求める一般手順は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|A₁∪A₂∪...| = Σ|Aᵢ| - Σ|Aᵢ∩Aⱼ| + ... を計算する"
+        },
+        {
+          "label": "B",
+          "text": "禁止ペアの数だけ n! を割る"
+        },
+        {
+          "label": "C",
+          "text": "禁止ペアを除いた文字を先に並べ、後で禁止ペアを挿入する"
+        },
+        {
+          "label": "D",
+          "text": "禁止ペアをひとかたまりにして並べた後、そのかたまりを分解する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "禁止条件の包除原理",
+        "余事象と包除の組み合わせ"
+      ]
+    },
+    {
+      "id": "perm-027",
+      "difficulty": "exam",
+      "question": "5人の学生がいて、それぞれ異なる席に座る。席番号が学生番号と一致しない（誰も自分の席に座らない）場合の数（撹乱順列D₅）は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "D₅ = 44通り"
+        },
+        {
+          "label": "B",
+          "text": "D₅ = 5! - 5 = 115通り"
+        },
+        {
+          "label": "C",
+          "text": "D₅ = 4! = 24通り"
+        },
+        {
+          "label": "D",
+          "text": "D₅ = D₄ + D₃ = 9+2 = 11通り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "撹乱順列",
+        "D₅=44",
+        "包除原理の完全適用"
+      ]
+    },
+    {
+      "id": "perm-028",
+      "difficulty": "exam",
+      "question": "n 文字の中で特定の k 文字が全て隣り合う配置の数と、k 文字のうち少なくとも2文字が隣り合う配置の数の求め方の違いは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全て隣り合う配置はひとかたまり法で求まるが、少なくとも2文字は余事象(全体 - 誰も隣り合わない)で求める"
+        },
+        {
+          "label": "B",
+          "text": "どちらも同じひとかたまり法で計算できる"
+        },
+        {
+          "label": "C",
+          "text": "少なくとも2文字隣り合う = 全て隣り合う + 一部隣り合う"
+        },
+        {
+          "label": "D",
+          "text": "n!から余事象を引けばどちらも一貫した方法で計算できる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "隣り合う条件の種類",
+        "ひとかたまり法の適用範囲"
+      ]
+    },
+    {
+      "id": "perm-029",
+      "difficulty": "exam",
+      "question": "二項定理 (x+y)ⁿ の展開式で x^r y^(n-r) の係数が nCr になる理由を順列の観点から説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n個の因数からr個のxを選ぶ選び方がnCr通りあるため"
+        },
+        {
+          "label": "B",
+          "text": "x^r の係数は r 番目の項だから係数は r"
+        },
+        {
+          "label": "C",
+          "text": "nPr = n!/(n-r)! が係数になる"
+        },
+        {
+          "label": "D",
+          "text": "n個からr個を並べる順列の数 n!/(n-r)! を r! で割った値"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "二項定理の組み合わせ的解釈",
+        "nCrの意味"
+      ]
+    },
+    {
+      "id": "perm-030",
+      "difficulty": "exam",
+      "question": "nPr について (n+1)P(r) = nPr + r×(n)P(r-1) が成り立つことを説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "新要素(n+1)番目を含む/含まないで場合分けすると nPr + r×nP(r-1) = (n+1)Pr が成立する"
+        },
+        {
+          "label": "B",
+          "text": "(n+1)P(r) = (n+1)×(n)P(r-1)"
+        },
+        {
+          "label": "C",
+          "text": "(n+1)P(r) = nPr × r"
+        },
+        {
+          "label": "D",
+          "text": "この等式は成立しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "順列の漸化式",
+        "新要素を含む/含まないの場合分け"
+      ]
+    }
+  ]
+}

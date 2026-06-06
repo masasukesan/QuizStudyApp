@@ -1,0 +1,786 @@
+{
+  "subject": "数学C",
+  "unit": "複素数平面の基礎",
+  "questions": [
+    {
+      "id": "cpb-001",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "複素数 z = 3 - 4i を複素数平面上の点として表すとき、座標として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3, -4)(実部が x 座標、虚部が y 座標)"
+        },
+        {
+          "label": "B",
+          "text": "(-4, 3)(順序逆)"
+        },
+        {
+          "label": "C",
+          "text": "(3, 4)(符号忘れ)"
+        },
+        {
+          "label": "D",
+          "text": "(3-4, i)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-002",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "z = 3 - 4i の絶対値 |z| として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√(3² + 4²) = √25 = 5"
+        },
+        {
+          "label": "B",
+          "text": "3 - 4 = -1"
+        },
+        {
+          "label": "C",
+          "text": "√(3² - 4²) = 1(差の二乗)"
+        },
+        {
+          "label": "D",
+          "text": "3 + 4 = 7"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-003",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "z = 2 + 3i の共役複素数 z̄ として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 - 3i(虚部の符号を変える)"
+        },
+        {
+          "label": "B",
+          "text": "-2 - 3i(実部と虚部の両方を変える)"
+        },
+        {
+          "label": "C",
+          "text": "-2 + 3i(実部のみ変える)"
+        },
+        {
+          "label": "D",
+          "text": "3 + 2i(実部と虚部を入れ替える)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-004",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "z = a + bi のとき z × z̄ の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a² + b²(= |z|²)"
+        },
+        {
+          "label": "B",
+          "text": "a² - b²"
+        },
+        {
+          "label": "C",
+          "text": "2a(実部のみ)"
+        },
+        {
+          "label": "D",
+          "text": "0(積は常に 0)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-005",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "z₁ = 2 + i、z₂ = 1 - 2i のとき z₁ + z₂ として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 - i"
+        },
+        {
+          "label": "B",
+          "text": "3 + i"
+        },
+        {
+          "label": "C",
+          "text": "1 + 3i"
+        },
+        {
+          "label": "D",
+          "text": "1 - 3i"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-006",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "z₁ = 1 + 2i、z₂ = 3 - i のとき z₁ × z₂ として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1)(3)+(1)(-i)+(2i)(3)+(2i)(-i) = 3-i+6i+2 = 5+5i"
+        },
+        {
+          "label": "B",
+          "text": "3-2i(実部と虚部の積)"
+        },
+        {
+          "label": "C",
+          "text": "3+2i²=1(i²=-1 の誤適用)"
+        },
+        {
+          "label": "D",
+          "text": "4+i(成分の和)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-007",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "z = 1 + i のとき 1/z を計算する際、分母の有理化として正しい操作はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "分母と分子に z̄ = 1-i を掛ける → (1-i)/((1+i)(1-i)) = (1-i)/2"
+        },
+        {
+          "label": "B",
+          "text": "分母と分子に z = 1+i を掛ける"
+        },
+        {
+          "label": "C",
+          "text": "1/z = z̄(共役と逆数は等しい)"
+        },
+        {
+          "label": "D",
+          "text": "1/(1+i) = 1-i(直接変換)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-008",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "|z₁z₂| = |z₁||z₂| の性質を確認する。z₁ = 2+i、z₂ = 1-i で検証するとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁z₂ = (2+i)(1-i) = 3-i、|z₁z₂|=√10。|z₁|=√5、|z₂|=√2、|z₁||z₂|=√10 ✓"
+        },
+        {
+          "label": "B",
+          "text": "|z₁+z₂| = |z₁|+|z₂|(三角不等式の等号)"
+        },
+        {
+          "label": "C",
+          "text": "|z₁||z₂| = √(5×2) = √7(積の誤り)"
+        },
+        {
+          "label": "D",
+          "text": "|z₁z₂| = |z₁|+|z₂|(加法と乗法の混同)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-009",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "複素数 z = x + yi が実数になる条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = 0(虚部が 0)"
+        },
+        {
+          "label": "B",
+          "text": "x = 0(実部が 0 → 純虚数)"
+        },
+        {
+          "label": "C",
+          "text": "x = y"
+        },
+        {
+          "label": "D",
+          "text": "|z| = 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-010",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "basic",
+      "question": "複素数平面上で |z - 2| = 3 の意味として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "点 2(= 2+0i)を中心とする半径 3 の円"
+        },
+        {
+          "label": "B",
+          "text": "点 3 を中心とする半径 2 の円"
+        },
+        {
+          "label": "C",
+          "text": "実軸上の 2 点 -1 と 5 の 2 点"
+        },
+        {
+          "label": "D",
+          "text": "z = 2 のみ(方程式の解)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-011",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "z = (2+i)/(1-2i) を計算する途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "分子・分母に (1+2i) を掛ける: (2+i)(1+2i)/((1-2i)(1+2i)) = (2+4i+i+2i²)/(1+4) = (0+5i)/5 = i"
+        },
+        {
+          "label": "B",
+          "text": "実部/実部 + 虚部/虚部 = 2/1 + i/(-2i) = 2 + 1/2(誤り)"
+        },
+        {
+          "label": "C",
+          "text": "分母の有理化で (1+2i) の代わりに (1-2i) を掛ける(誤り)"
+        },
+        {
+          "label": "D",
+          "text": "z = 2i/(-4i) = -1/2(係数だけ計算)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-012",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "|z₁/z₂| = |z₁|/|z₂| を成分を使って証明するとき、正しい途中式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁/z₂ = z₁z̄₂/|z₂|² → |z₁/z₂| = |z₁z̄₂|/|z₂|² = |z₁||z̄₂|/|z₂|² = |z₁|/|z₂|(|z̄₂| = |z₂|)"
+        },
+        {
+          "label": "B",
+          "text": "|z₁|/|z₂| の計算のみ(証明なし)"
+        },
+        {
+          "label": "C",
+          "text": "z₁/z₂ = |z₁|/|z₂|(絶対値と商を混同)"
+        },
+        {
+          "label": "D",
+          "text": "成分で直接 (a₁b₁+a₂b₂)/(b₁²+b₂²) を計算"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-013",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "z と z̄ の和と積の関係を利用して z + z̄ と z × z̄ を求める。z = 3-2i のとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z+z̄ = (3-2i)+(3+2i) = 6(実数)、z×z̄ = 9+4 = 13(実数)"
+        },
+        {
+          "label": "B",
+          "text": "z+z̄ = 0(和が常に 0)"
+        },
+        {
+          "label": "C",
+          "text": "z×z̄ = 3²-(-2)² = 5(差の公式誤り)"
+        },
+        {
+          "label": "D",
+          "text": "z+z̄ = 2×3i = 6i(虚数)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-014",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "複素数平面上で点 z = 2+3i と w = -1+i の中点として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(z+w)/2 = (1+4i)/2 = 1/2+2i"
+        },
+        {
+          "label": "B",
+          "text": "z × w = -5 + i(積)"
+        },
+        {
+          "label": "C",
+          "text": "|z - w| = √(9+4) = √13(距離)"
+        },
+        {
+          "label": "D",
+          "text": "(z+w)/2 = (2-1)/2 + (3+1)i/2 = 1/2+2i(同じ)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-015",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "|z₁ + z₂|² = |z₁|² + 2Re(z₁z̄₂) + |z₂|² を展開して示すとき、Re(z₁z̄₂) の意味として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁z̄₂ の実部(内積 a₁b₁+a₂b₂ に対応)"
+        },
+        {
+          "label": "B",
+          "text": "|z₁||z₂|(絶対値の積)"
+        },
+        {
+          "label": "C",
+          "text": "z₁×z₂(積そのもの)"
+        },
+        {
+          "label": "D",
+          "text": "Im(z₁z₂) と等しい(虚部)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-016",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "複素数平面上で |z - 1| = |z + 1| を満たす点の軌跡として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "虚軸(x = 0)：2 点 1 と -1 から等距離なので垂直二等分線"
+        },
+        {
+          "label": "B",
+          "text": "実軸(y = 0)"
+        },
+        {
+          "label": "C",
+          "text": "原点を中心とする円"
+        },
+        {
+          "label": "D",
+          "text": "直線 y = x"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-017",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "z² = -4 を解く途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z² = -4 → z = ±√(-4) = ±2i"
+        },
+        {
+          "label": "B",
+          "text": "z = ±2(負号を無視)"
+        },
+        {
+          "label": "C",
+          "text": "z² = -4 は解なし(実数解がないので)"
+        },
+        {
+          "label": "D",
+          "text": "z = ±√4 × i = ±2i(同じ結果だが √(-4) の計算過程が明示的)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-018",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "z = 2(cos60° + i sin60°) の絶対値と偏角として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|z| = 2、arg(z) = 60°"
+        },
+        {
+          "label": "B",
+          "text": "|z| = 1、arg(z) = 60°(係数 2 を無視)"
+        },
+        {
+          "label": "C",
+          "text": "|z| = 2、arg(z) = 30°"
+        },
+        {
+          "label": "D",
+          "text": "|z| = 4、arg(z) = 120°"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-019",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "三角不等式 |z₁ + z₂| ≦ |z₁| + |z₂| の等号成立条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁ と z₂ が同じ偏角(z₂ = tz₁、t > 0 となる正実数 t が存在)"
+        },
+        {
+          "label": "B",
+          "text": "|z₁| = |z₂|(大きさが等しい)"
+        },
+        {
+          "label": "C",
+          "text": "z₁ + z₂ = 0(逆向き)"
+        },
+        {
+          "label": "D",
+          "text": "等号は成立しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-020",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "standard",
+      "question": "複素数平面で |z - z₀| = r の条件を展開して直交座標の方程式に変換するとき、正しい手順はどれか。(z₀ = a+bi)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|z-z₀|² = r² → (x-a)²+(y-b)² = r²(z = x+yi として計算)"
+        },
+        {
+          "label": "B",
+          "text": "z₀² - r² = 0(誤り)"
+        },
+        {
+          "label": "C",
+          "text": "|(x+yi)-(a+bi)| = r → |x-a|+|y-b| = r(絶対値の和)"
+        },
+        {
+          "label": "D",
+          "text": "直交座標への変換は不可能"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-021",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "|z₁z₂| = |z₁||z₂| を成分計算で証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁ = a+bi、z₂ = c+di として z₁z₂ = (ac-bd)+(ad+bc)i → |z₁z₂|² = (ac-bd)²+(ad+bc)² = (a²+b²)(c²+d²) = |z₁|²|z₂|²"
+        },
+        {
+          "label": "B",
+          "text": "絶対値の定義から直接示す(証明なし)"
+        },
+        {
+          "label": "C",
+          "text": "(a+b)(c+d) = ac+bd(誤展開)"
+        },
+        {
+          "label": "D",
+          "text": "|z₁|²|z₂|² = (ac)²+(bd)²(クロス項を落とした誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-022",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "三角不等式 |z₁+z₂| ≦ |z₁|+|z₂| を証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|z₁+z₂|² = |z₁|²+2Re(z₁z̄₂)+|z₂|² ≦ |z₁|²+2|z₁z̄₂|+|z₂|² = (|z₁|+|z₂|)²(Re(w) ≦ |w| を使用)"
+        },
+        {
+          "label": "B",
+          "text": "ベクトルの三角不等式と同じ(証明の流用)"
+        },
+        {
+          "label": "C",
+          "text": "|z₁+z₂|² = |z₁|²+|z₂|²(直交するとき)"
+        },
+        {
+          "label": "D",
+          "text": "Re(z₁z̄₂) = |z₁||z₂| を使う(等号条件のみ)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-023",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "z + z̄ = 2Re(z) と z - z̄ = 2i×Im(z) を証明するとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z = a+bi、z̄ = a-bi → z+z̄ = 2a = 2Re(z)、z-z̄ = 2bi = 2i×Im(z)(Im(z) = b)"
+        },
+        {
+          "label": "B",
+          "text": "z+z̄ = 0(共役の和は常に 0)"
+        },
+        {
+          "label": "C",
+          "text": "z-z̄ = 2b(i を忘れた)"
+        },
+        {
+          "label": "D",
+          "text": "z+z̄ = |z|(絶対値と混同)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-024",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "複素数の除法 z₁/z₂ = z₁z̄₂/|z₂|² の証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁/z₂ × (z̄₂/z̄₂) = z₁z̄₂/(z₂z̄₂) = z₁z̄₂/|z₂|²(z₂z̄₂ = |z₂|² を使用)"
+        },
+        {
+          "label": "B",
+          "text": "分子に z₂ を掛けると |z₂|² が分子に来る(逆)"
+        },
+        {
+          "label": "C",
+          "text": "z₁/z₂ = z̄₁/z̄₂(共役を取っただけ)"
+        },
+        {
+          "label": "D",
+          "text": "z₁/z₂ の有理化は実部と虚部を個別に割る"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-025",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "「z₁ と z₂ が共役(z₂ = z̄₁)ならば z₁z₂ = |z₁|²(実数)」の証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₂ = z̄₁ より z₁z₂ = z₁z̄₁ = |z₁|²(z×z̄ = |z|² の性質を使用)"
+        },
+        {
+          "label": "B",
+          "text": "z₁+z₂ = 0 より z₁z₂ = 実数"
+        },
+        {
+          "label": "C",
+          "text": "z₁とz₂の実部が等しいとき積が実数"
+        },
+        {
+          "label": "D",
+          "text": "2つの共役複素数の積は常に 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-026",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "n 次方程式の実数係数の場合「虚数解は共役なペアで現れる」の証明として正しい出発点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "実係数多項式 P(z) について P(z̄) = P̄(z)(係数が実数なので)→ P(α) = 0 → P(ᾱ) = P̄(α) = 0̄ = 0"
+        },
+        {
+          "label": "B",
+          "text": "虚数解は必ず i を含む"
+        },
+        {
+          "label": "C",
+          "text": "実数係数なら複素数解は存在しない"
+        },
+        {
+          "label": "D",
+          "text": "2 次方程式の場合のみ証明できる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-027",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "アルガン図(複素数平面)で加法 z₁+z₂ が「ベクトルの和」に対応することを証明するとき、正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁ = (a₁,b₁)、z₂ = (a₂,b₂) とすると z₁+z₂ = (a₁+a₂, b₁+b₂)(ベクトルの成分加法と一致)"
+        },
+        {
+          "label": "B",
+          "text": "複素数の加法は乗法と異なる性質を持つ(対応しない)"
+        },
+        {
+          "label": "C",
+          "text": "z₁+z₂ の絶対値がベクトルの和の大きさと一致することを示すだけで十分"
+        },
+        {
+          "label": "D",
+          "text": "複素数平面での幾何的解釈は証明できない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-028",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "「z = x+yi が純虚数(実部が 0)⟺ z + z̄ = 0 かつ z ≠ 0」の証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z+z̄ = 2Re(z) = 0 ↔ Re(z) = 0 ↔ z = bi(b ≠ 0 なら純虚数)。z ≠ 0 は b ≠ 0 を保証"
+        },
+        {
+          "label": "B",
+          "text": "z + z̄ = 0 ならば常に純虚数"
+        },
+        {
+          "label": "C",
+          "text": "純虚数の条件は z = i"
+        },
+        {
+          "label": "D",
+          "text": "z - z̄ = 0 が純虚数の条件"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-029",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "コーシー・シュワルツの不等式の複素数版 |z₁w̄₁+z₂w̄₂|² ≦ (|z₁|²+|z₂|²)(|w₁|²+|w₂|²) を証明するとき、正しい方針はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "実数版と同様に 0 ≦ |z₁w₂-z₂w₁|² を展開して右辺-左辺 ≧ 0 を示す"
+        },
+        {
+          "label": "B",
+          "text": "複素数にコーシー・シュワルツは適用できない"
+        },
+        {
+          "label": "C",
+          "text": "絶対値の三角不等式から直接導く"
+        },
+        {
+          "label": "D",
+          "text": "実部と虚部を分けて証明する(4つの実数の場合)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "cpb-030",
+      "subject": "数学C",
+      "unit": "複素数平面の基礎",
+      "difficulty": "exam",
+      "question": "複素数の乗法 z₁z₂ の「絶対値が積、偏角が和」という性質を成分計算と極形式の両方で確認するとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z₁=r₁(cosα+i sinα)、z₂=r₂(cosβ+i sinβ) → z₁z₂=r₁r₂(cos(α+β)+i sin(α+β))(加法定理)→ |z₁z₂|=r₁r₂=|z₁||z₂|、arg(z₁z₂)=α+β"
+        },
+        {
+          "label": "B",
+          "text": "偏角の和は mod 2π で等しい(同じ結果だが注釈が必要)"
+        },
+        {
+          "label": "C",
+          "text": "成分計算のみで「偏角が和」を示すのは困難(arctanが必要)"
+        },
+        {
+          "label": "D",
+          "text": "z₁z₂ の偏角 = arg(z₁) × arg(z₂)(積)"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

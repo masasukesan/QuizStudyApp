@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "二次方程式",
+  "questions": [
+    {
+      "id": "qe-001",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "x² - 5x + 6 = 0 を因数分解で解いたとき、解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 2 または x = 3"
+        },
+        {
+          "label": "B",
+          "text": "x = -2 または x = -3"
+        },
+        {
+          "label": "C",
+          "text": "x = 1 または x = 6"
+        },
+        {
+          "label": "D",
+          "text": "x = 5 または x = -6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-002",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "x² = 16 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 4"
+        },
+        {
+          "label": "B",
+          "text": "x = 16"
+        },
+        {
+          "label": "C",
+          "text": "x = 4 または x = -4"
+        },
+        {
+          "label": "D",
+          "text": "x = ±√16"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "qe-003",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "x² + 4x + 4 = 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 2"
+        },
+        {
+          "label": "B",
+          "text": "x = -2"
+        },
+        {
+          "label": "C",
+          "text": "x = 0 または x = -4"
+        },
+        {
+          "label": "D",
+          "text": "x = 2 のみ(重解)"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "qe-004",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "2x² - 3x - 2 = 0 を因数分解で解いたとき、解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 2 または x = -1/2"
+        },
+        {
+          "label": "B",
+          "text": "x = -2 または x = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "x = 1 または x = -1"
+        },
+        {
+          "label": "D",
+          "text": "x = 3/2 または x = -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-005",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "(x - 3)² = 7 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 3 ± √7"
+        },
+        {
+          "label": "B",
+          "text": "x = ±√7 - 3"
+        },
+        {
+          "label": "C",
+          "text": "x = √7"
+        },
+        {
+          "label": "D",
+          "text": "x = -√7"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-006",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "x² - 2x - 1 = 0 を解の公式で解いたとき、解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 1 ± √2"
+        },
+        {
+          "label": "B",
+          "text": "x = -1 ± √2"
+        },
+        {
+          "label": "C",
+          "text": "x = ±√3"
+        },
+        {
+          "label": "D",
+          "text": "x = 2 ± √3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-007",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "3x² - 6x + 3 = 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 1 (重解)"
+        },
+        {
+          "label": "B",
+          "text": "x = 1 または x = 3"
+        },
+        {
+          "label": "C",
+          "text": "x = -1 (重解)"
+        },
+        {
+          "label": "D",
+          "text": "x = 0 または x = 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-008",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "x² + x + 1 = 0 の実数解について正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = -1/2 ± √3/2"
+        },
+        {
+          "label": "B",
+          "text": "x = -1 (重解)"
+        },
+        {
+          "label": "C",
+          "text": "実数解なし"
+        },
+        {
+          "label": "D",
+          "text": "x = 0 または x = -1"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "qe-009",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "x² - 6x + 5 = 0 の 2 解の和はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "-6"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-010",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "basic",
+      "question": "x² - 6x + 5 = 0 の 2 解の積はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "-5"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "qe-011",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "二次方程式 x² + px + 3 = 0 が重解をもつとき、p の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = ±2√3"
+        },
+        {
+          "label": "B",
+          "text": "p = ±√3"
+        },
+        {
+          "label": "C",
+          "text": "p = 6"
+        },
+        {
+          "label": "D",
+          "text": "p = ±12"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-012",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "x² - 5x + k = 0 が実数解をもつための k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k ≤ 25/4"
+        },
+        {
+          "label": "B",
+          "text": "k < 25/4"
+        },
+        {
+          "label": "C",
+          "text": "k >= 0"
+        },
+        {
+          "label": "D",
+          "text": "k <= 5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-013",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "2 解が α, β のとき α + β = 3、αβ = -4 を満たす。x²-(α+β)x+αβ = 0 の 1 次の係数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-3"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "-4"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-014",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "x² - 4x + 1 = 0 の解を α, β とするとき α² + β² の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "14"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-015",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "x² - 3x + 1 = 0 の解を α, β とするとき 1/α + 1/β の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "-3"
+        },
+        {
+          "label": "C",
+          "text": "1/3"
+        },
+        {
+          "label": "D",
+          "text": "-1/3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-016",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "x² - (a+2)x + 2a = 0 を因数分解する途中で、x について整理すると x²-(a+2)x+2a = (x-a)(x-?) の形になる。? に入る値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "a"
+        },
+        {
+          "label": "C",
+          "text": "-2"
+        },
+        {
+          "label": "D",
+          "text": "a+2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-017",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "x² + bx + c = 0 の 2 解が 3 と -1 であるとき b と c の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b = -2, c = -3"
+        },
+        {
+          "label": "B",
+          "text": "b = 2, c = 3"
+        },
+        {
+          "label": "C",
+          "text": "b = -2, c = 3"
+        },
+        {
+          "label": "D",
+          "text": "b = 4, c = -4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-018",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "2x² - 5x + k = 0 の判別式が 0 になるとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 25/8"
+        },
+        {
+          "label": "B",
+          "text": "k = 5/2"
+        },
+        {
+          "label": "C",
+          "text": "k = 5"
+        },
+        {
+          "label": "D",
+          "text": "k = 25/4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-019",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "x² - 2kx + 4 = 0 が異なる 2 つの実数解をもつとき k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k < -2 または k > 2"
+        },
+        {
+          "label": "B",
+          "text": "-2 < k < 2"
+        },
+        {
+          "label": "C",
+          "text": "k ≤ -2 または k ≥ 2"
+        },
+        {
+          "label": "D",
+          "text": "k > 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-020",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "standard",
+      "question": "x² - x - 6 = 0 の解を α, β とする。|α-β|² = (α+β)² - 4αβ を計算する途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(α+β)² - 4αβ = 1² - 4×(-6) = 1 + 24 = 25"
+        },
+        {
+          "label": "B",
+          "text": "(α+β)² - 4αβ = (-1)² - 4×6 = 1 - 24 = -23"
+        },
+        {
+          "label": "C",
+          "text": "(α+β)² - 4αβ = 1² - 4×6 = 1 - 24 = -23"
+        },
+        {
+          "label": "D",
+          "text": "(α+β)² - 4αβ = 1² + 4×(-6) = 1 - 24 = -23"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-021",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "x² - (2k+1)x + k² + k - 2 = 0 の 2 解がともに正の整数になるとき k の値はどれか（整数 k）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 1"
+        },
+        {
+          "label": "B",
+          "text": "k = 0"
+        },
+        {
+          "label": "C",
+          "text": "k = -1"
+        },
+        {
+          "label": "D",
+          "text": "k = 2"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": "qe-022",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "整数係数の二次方程式 x² + bx + c = 0 の解の 1 つが 2 + √3 のとき、もう 1 つの解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 - √3"
+        },
+        {
+          "label": "B",
+          "text": "-2 + √3"
+        },
+        {
+          "label": "C",
+          "text": "√3 - 2"
+        },
+        {
+          "label": "D",
+          "text": "2 + √3 (重解)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-023",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "x² + px + q = 0 の 2 解の差が 4 で積が 3 のとき、|p| の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2√7"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "√7"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-024",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "二次方程式 x² - 6x + k = 0 の大きい方の解が小さい方の解の 2 倍になるとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 8"
+        },
+        {
+          "label": "B",
+          "text": "k = 9"
+        },
+        {
+          "label": "C",
+          "text": "k = 4"
+        },
+        {
+          "label": "D",
+          "text": "k = 6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-025",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "x について x² - (a+b)x + ab = 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = a または x = b"
+        },
+        {
+          "label": "B",
+          "text": "x = a+b または x = ab"
+        },
+        {
+          "label": "C",
+          "text": "x = -a または x = -b"
+        },
+        {
+          "label": "D",
+          "text": "x = ab または x = 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-026",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "二次方程式 kx² - 2x + k = 0 が実数解をもつための k の条件はどれか（k ≠ 0）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 ≤ k ≤ 1 かつ k ≠ 0"
+        },
+        {
+          "label": "B",
+          "text": "k <= -1 または k >= 2"
+        },
+        {
+          "label": "C",
+          "text": "k < 0"
+        },
+        {
+          "label": "D",
+          "text": "k = ±1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-027",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "x² - 4x + 1 = 0 の解を α, β とするとき α³ + β³ の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "52"
+        },
+        {
+          "label": "B",
+          "text": "64"
+        },
+        {
+          "label": "C",
+          "text": "56"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-028",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "解の公式を証明する。ax²+bx+c=0 を ax²+bx=-c と変形し、両辺を a で割ると x²+(b/a)x=-c/a になる。次に (b/2a)² を両辺に加えたとき、左辺を完全平方に変形した式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + b/(2a))²"
+        },
+        {
+          "label": "B",
+          "text": "(x + b/a)²"
+        },
+        {
+          "label": "C",
+          "text": "(x + b/2)²"
+        },
+        {
+          "label": "D",
+          "text": "(x - b/(2a))²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-029",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "解の公式の証明で、x² + (b/a)x = -c/a に (b/2a)² を両辺に加えて平方完成する。左辺を完全平方に変形した式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x + b/2a)² = b²/(4a²) - c/a"
+        },
+        {
+          "label": "B",
+          "text": "(x + b/2a)² = -b²/(4a²) + c/a"
+        },
+        {
+          "label": "C",
+          "text": "(x + b/a)² = b²/a² - c/a"
+        },
+        {
+          "label": "D",
+          "text": "(x + b/2a)² = b²/(4a) - c/a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qe-030",
+      "subject": "数学1A",
+      "unit": "二次方程式",
+      "difficulty": "exam",
+      "question": "二次方程式 x² - 5x + m = 0 の 2 解がともに正になる m の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 < m ≤ 25/4"
+        },
+        {
+          "label": "B",
+          "text": "m < 25/4"
+        },
+        {
+          "label": "C",
+          "text": "m > 0"
+        },
+        {
+          "label": "D",
+          "text": "0 < m < 25/4"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

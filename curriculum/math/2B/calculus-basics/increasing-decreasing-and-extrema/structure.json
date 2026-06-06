@@ -1,0 +1,151 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "calculus-basics",
+  "subunit": "increasing-decreasing-and-extrema",
+  "name": "関数の増減・極値",
+  "en": "Increasing, Decreasing and Extrema",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "sign-of-derivative",
+      "description": "f'(x) の符号で増減を判断する（f'>0 なら増加、f'<0 なら減少）",
+      "thinking_process": [
+        "f'(x) を求める",
+        "f'(x)=0 を解いて x 座標を求める",
+        "各区間で f'(x) の符号を調べる"
+      ],
+      "common_mistakes": [
+        "f'(x)>0 が減少と逆に覚える",
+        "f'(x)=0 の点で増減が変わるかどうかを確認しない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "increasing-decreasing-table",
+      "description": "増減表（f'の符号・↑↓矢印）を作成してグラフの概形を把握する",
+      "thinking_process": [
+        "f'(x)=0 の解を求める",
+        "各区間で f'(x) の符号を数直線に書く",
+        "↑（増加）↓（減少）を記入する"
+      ],
+      "common_mistakes": [
+        "f'(x)=0 の解を区間の端点と混同する",
+        "符号の変化がない点も極値があると誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "local-max-min-definition",
+      "description": "極大・極小の定義：f'が正→負に変わる点が極大、負→正が極小",
+      "thinking_process": [
+        "増減表で f' の符号変化を確認する",
+        "+→− の変化点が極大、−→+ が極小",
+        "f' が 0 でも符号が変わらない点は極値なし"
+      ],
+      "common_mistakes": [
+        "f'(a)=0 ならば必ず極値と誤解する",
+        "極大値と最大値を混同する（極大値は局所的）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "find-extrema-polynomial",
+      "description": "3 次多項式の極値を求める：f'=0 の解を求め、増減表で確認する",
+      "thinking_process": [
+        "f'(x) を計算して 0 になる x を求める",
+        "増減表を作成する",
+        "極大・極小の x に対応する f の値（極大値・極小値）を求める"
+      ],
+      "common_mistakes": [
+        "f'(x)=0 の解が虚数の場合、極値がないことを見落とす",
+        "極値の座標（x）と極大値・極小値（y）を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "condition-for-extrema-exist",
+      "description": "3 次関数が極値をもつための条件（f'=0 が異なる 2 実数解をもつ条件）",
+      "thinking_process": [
+        "f'(x) を計算する（2次式になる）",
+        "判別式 D>0 の条件を立てる",
+        "係数の範囲を求める"
+      ],
+      "common_mistakes": [
+        "D=0 でも極値がないことを見落とす（重解の場合）",
+        "D の計算でルートの中を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "max-min-on-closed-interval",
+      "description": "閉区間 [a,b] での最大値・最小値：端点と極値の y 値を比較する",
+      "thinking_process": [
+        "極値の x を求める",
+        "端点 x=a、x=b と極値の点での f の値を全て計算する",
+        "その中で最大・最小を選ぶ"
+      ],
+      "common_mistakes": [
+        "端点の値を忘れて極値だけで最大最小を決める",
+        "定義域外の極値点を使ってしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "graph-sketching-from-table",
+      "description": "増減表とグラフの概形の対応を読み取る",
+      "thinking_process": [
+        "増減表の↑↓を読む",
+        "極大点・極小点の座標をプロットする",
+        "両端の挙動（x→±∞）と合わせてグラフを描く"
+      ],
+      "common_mistakes": [
+        "極大点を山の頂点でなく谷として描く",
+        "増減表の符号と矢印の方向を逆に解釈する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "extrema-coefficient-determination",
+      "description": "「x=a で極値をとる」という条件から係数を決定する",
+      "thinking_process": [
+        "f'(a)=0 の条件を立てる",
+        "極値の値が与えられていれば f(a)=c の条件も立てる",
+        "連立方程式を解く"
+      ],
+      "common_mistakes": [
+        "f(a)=0 と f'(a)=0 の条件を混同する",
+        "連立方程式で一方の条件だけを使う"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "number-of-real-solutions-from-graph",
+      "description": "y=f(x) のグラフを描いて y=k との交点数（= 方程式 f(x)=k の実数解の個数）を判断する",
+      "thinking_process": [
+        "f(x) の増減表・極値を求める",
+        "y=k の直線との交点数を増減表と極値の y 値を使って場合分けする",
+        "k の値の範囲ごとに解の個数を答える"
+      ],
+      "common_mistakes": [
+        "極大値と極小値の大小を誤る",
+        "k が極大値や極小値と等しい場合を別に扱わない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "second-derivative-test",
+      "description": "f''(a) の符号で極大・極小を判定する（f''<0 なら極大、f''>0 なら極小）",
+      "thinking_process": [
+        "f'(a)=0 となる点 a を求める",
+        "f''(a) を計算する",
+        "f''(a)<0 なら極大、f''(a)>0 なら極小、f''(a)=0 は判定不能"
+      ],
+      "common_mistakes": [
+        "f''(a)<0 が極小（逆）と覚える",
+        "f''(a)=0 でも極値があると結論づける"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

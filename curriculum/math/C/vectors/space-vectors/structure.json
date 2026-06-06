@@ -1,0 +1,88 @@
+{
+  "unit_id": "space-vectors",
+  "unit_name_jp": "空間ベクトル",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "sv-def",
+      "description": "空間ベクトルの成分表示 a = (a₁, a₂, a₃) と大きさ",
+      "thinking_process": [
+        "|a| = √(a₁² + a₂² + a₃²)"
+      ],
+      "common_mistakes": [
+        "3成分のうち1つを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sv-dot",
+      "description": "空間内の内積 a·b = a₁b₁ + a₂b₂ + a₃b₃",
+      "thinking_process": [
+        "平面の場合を3成分に拡張"
+      ],
+      "common_mistakes": [
+        "平面の内積と同じと思い2成分で計算する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sv-angle",
+      "description": "空間ベクトルのなす角の計算",
+      "thinking_process": [
+        "cosθ = (a·b)/(|a||b|) を計算",
+        "0° ≦ θ ≦ 180°"
+      ],
+      "common_mistakes": [
+        "3成分を扱う際に計算ミスが増える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sv-plane",
+      "description": "平面の方程式 ax + by + cz = d の法線ベクトルとの関係",
+      "thinking_process": [
+        "法線ベクトル n = (a, b, c)",
+        "n·(P - P₀) = 0 から方程式を導く"
+      ],
+      "common_mistakes": [
+        "法線ベクトルと平面上のベクトルを混同"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sv-sphere",
+      "description": "球の方程式 |p - c| = r の標準形と展開形",
+      "thinking_process": [
+        "(x-a)² + (y-b)² + (z-c)² = r²"
+      ],
+      "common_mistakes": [
+        "3次元なのに2次元の円の式を使う"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sv-proof-ortho",
+      "description": "互いに垂直な3つの単位ベクトルが基底をなすことの証明",
+      "thinking_process": [
+        "任意のベクトルを3つの成分で表せることを示す"
+      ],
+      "common_mistakes": [
+        "2次元と3次元の基底を混同"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "sv-proof-dist",
+      "description": "点と平面の距離公式の証明",
+      "thinking_process": [
+        "法線方向への射影を計算",
+        "d = |n·(P - P₀)|/|n|"
+      ],
+      "common_mistakes": [
+        "分母に |n| が必要なことを忘れる"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

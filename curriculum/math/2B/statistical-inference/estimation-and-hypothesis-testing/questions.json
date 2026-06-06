@@ -1,0 +1,920 @@
+{
+  "questions": [
+    {
+      "id": "eht-001",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "点推定の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "検定で仮説を棄却する方法"
+        },
+        {
+          "label": "B",
+          "text": "区間で推定する方法"
+        },
+        {
+          "label": "C",
+          "text": "標本から得た1つの値(標本平均など)で母数を推定する方法"
+        },
+        {
+          "label": "D",
+          "text": "誤差がゼロの推定"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点推定"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-002",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "区間推定の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全数調査による推定"
+        },
+        {
+          "label": "B",
+          "text": "1つの値で推定する方法"
+        },
+        {
+          "label": "C",
+          "text": "ある信頼度のもとで母数を含む区間を示す推定方法"
+        },
+        {
+          "label": "D",
+          "text": "誤差のない推定"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "区間推定"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-003",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "仮説検定の「帰無仮説 H₀」の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "否定したい仮説(棄却することで対立仮説を支持する仮説)"
+        },
+        {
+          "label": "B",
+          "text": "常に正しいとされる仮説"
+        },
+        {
+          "label": "C",
+          "text": "証明したい仮説"
+        },
+        {
+          "label": "D",
+          "text": "データから自動的に決まる仮説"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "帰無仮説"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-004",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "仮説検定の「対立仮説 H₁」の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "棄却される仮説"
+        },
+        {
+          "label": "B",
+          "text": "帰無仮説が棄却されたときに採用される仮説(研究者が証明したい内容)"
+        },
+        {
+          "label": "C",
+          "text": "帰無仮説が採択された後に登場する仮説"
+        },
+        {
+          "label": "D",
+          "text": "常に μ>0 の形をもつ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対立仮説"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-005",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "有意水準 α=0.05 の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "帰無仮説が正しいときに誤って棄却してしまう確率の上限が 5%"
+        },
+        {
+          "label": "B",
+          "text": "信頼度 95% と全く同じ意味"
+        },
+        {
+          "label": "C",
+          "text": "標本平均の誤差が 5% 以内"
+        },
+        {
+          "label": "D",
+          "text": "正しい仮説を棄却しない確率が 5%"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "有意水準"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-006",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "第一種の過誤(α エラー)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "帰無仮説が真のとき、誤って棄却してしまう誤り"
+        },
+        {
+          "label": "B",
+          "text": "対立仮説が正しいのに棄却する誤り"
+        },
+        {
+          "label": "C",
+          "text": "検定に誤った公式を使う誤り"
+        },
+        {
+          "label": "D",
+          "text": "帰無仮説が偽のとき採択してしまう誤り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "第一種の過誤"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-007",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "棄却域の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "H₀ を採択する領域"
+        },
+        {
+          "label": "B",
+          "text": "検定統計量の値がこの領域に入れば H₀ を棄却する"
+        },
+        {
+          "label": "C",
+          "text": "p 値が 1 になる領域"
+        },
+        {
+          "label": "D",
+          "text": "全ての統計量が入る領域"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "棄却域"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-008",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "p 値の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "帰無仮説が正しいとき、観測された検定統計量以上に極端な値が出る確率"
+        },
+        {
+          "label": "B",
+          "text": "信頼区間の幅"
+        },
+        {
+          "label": "C",
+          "text": "対立仮説が正しい確率"
+        },
+        {
+          "label": "D",
+          "text": "標本誤差の大きさ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "p値"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-009",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "p 値 < α のとき行う判断として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "帰無仮説を棄却し、有意差ありと判断する"
+        },
+        {
+          "label": "B",
+          "text": "帰無仮説を採択する"
+        },
+        {
+          "label": "C",
+          "text": "対立仮説を棄却する"
+        },
+        {
+          "label": "D",
+          "text": "結論は出ない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "p値と棄却"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-010",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "basic",
+      "question": "両側検定と片側検定の使い分けとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "常に片側検定を使う"
+        },
+        {
+          "label": "B",
+          "text": "方向性がある(大きい・小さいのどちらか)場合は片側検定、方向不明なら両側検定"
+        },
+        {
+          "label": "C",
+          "text": "常に両側検定を使う"
+        },
+        {
+          "label": "D",
+          "text": "p 値が小さい方を選ぶ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "両側・片側検定"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-011",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "母平均の検定(Z 検定)で H₀: μ=50、σ=10、n=100、X̄=52 のとき検定統計量 Z として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=(52−50)/100=0.02"
+        },
+        {
+          "label": "B",
+          "text": "Z=(52−50)/(10/10)=2"
+        },
+        {
+          "label": "C",
+          "text": "Z=52×10/50=10.4"
+        },
+        {
+          "label": "D",
+          "text": "Z=(52−50)/10=0.2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "Z検定",
+        "検定統計量"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-012",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "有意水準 5% の両側検定で棄却域として正しいものはどれか(Z₀.₀₂₅=1.96)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|Z|>1.65"
+        },
+        {
+          "label": "B",
+          "text": "|Z|>2.58"
+        },
+        {
+          "label": "C",
+          "text": "|Z|>1.96(両側それぞれ 2.5% ずつ)"
+        },
+        {
+          "label": "D",
+          "text": "Z>1.96 のみ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "棄却域",
+        "両側検定"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-013",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "H₀: μ=50 に対してZ=2.0(両側検定、α=0.05)のとき判断として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|Z|=2.0>1.96 なので H₀ を棄却(有意差あり)"
+        },
+        {
+          "label": "B",
+          "text": "判断できない"
+        },
+        {
+          "label": "C",
+          "text": "Z=2.0 > 0 なので片側検定で判断"
+        },
+        {
+          "label": "D",
+          "text": "|Z|=2.0<2.58 なので H₀ を採択"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Z検定",
+        "判断"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-014",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "片側検定(右側)で有意水準 5% の棄却域として正しいものはどれか(Z₀.₀₅=1.65)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z>1.96"
+        },
+        {
+          "label": "B",
+          "text": "Z>1.65"
+        },
+        {
+          "label": "C",
+          "text": "|Z|>1.65"
+        },
+        {
+          "label": "D",
+          "text": "Z<−1.65"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "片側検定",
+        "棄却域"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-015",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "仮説検定で「有意差なし」の結論は何を意味するか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "H₁ が成立した"
+        },
+        {
+          "label": "B",
+          "text": "帰無仮説を棄却できなかった(H₀ が正しいと証明したわけではない)"
+        },
+        {
+          "label": "C",
+          "text": "H₀ が正しいと証明された"
+        },
+        {
+          "label": "D",
+          "text": "標本が間違っていた"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "有意差なし",
+        "解釈"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-016",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "第二種の過誤(β エラー)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "帰無仮説が真のとき棄却する誤り"
+        },
+        {
+          "label": "B",
+          "text": "計算ミスによる誤り"
+        },
+        {
+          "label": "C",
+          "text": "有意水準を超えた誤り"
+        },
+        {
+          "label": "D",
+          "text": "帰無仮説が偽のとき、誤って採択してしまう誤り"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "第二種の過誤"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-017",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "母比率の検定で H₀: p=0.5、n=100、p̂=0.6 のとき検定統計量として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=(0.6−0.5)×100=10"
+        },
+        {
+          "label": "B",
+          "text": "Z=0.6/0.5=1.2"
+        },
+        {
+          "label": "C",
+          "text": "Z=(0.6−0.5)/0.5=0.2"
+        },
+        {
+          "label": "D",
+          "text": "Z=(0.6−0.5)/√(0.5×0.5/100)=(0.1)/(0.05)=2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "母比率の検定",
+        "Z統計量"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-018",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "n が大きいほど仮説検定の検出力はどうなるか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n と検出力は無関係"
+        },
+        {
+          "label": "B",
+          "text": "n が大きいほど小さな差でも検出できる(検出力が上がる)"
+        },
+        {
+          "label": "C",
+          "text": "n=100 以上なら検出力は 1"
+        },
+        {
+          "label": "D",
+          "text": "n が大きいと検出力が下がる"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "検出力",
+        "n"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-019",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "検定の有意水準 α を厳しくする(α を小さくする)と何が起きるか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第二種の過誤が下がる"
+        },
+        {
+          "label": "B",
+          "text": "両方の過誤が下がる"
+        },
+        {
+          "label": "C",
+          "text": "第一種の過誤の確率が下がるが、第二種の過誤の確率が上がる"
+        },
+        {
+          "label": "D",
+          "text": "棄却されやすくなる"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "α と過誤のトレードオフ"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-020",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "standard",
+      "question": "「有意水準 5%(=0.05)」と「信頼度 95%」の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1−α=0.95 の関係があり、信頼区間と仮説検定は表裏の関係にある"
+        },
+        {
+          "label": "B",
+          "text": "同じ数字だが意味は正反対"
+        },
+        {
+          "label": "C",
+          "text": "全く無関係"
+        },
+        {
+          "label": "D",
+          "text": "信頼度 95% は有意水準と無関係"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "有意水準と信頼度の関係"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-021",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "σ=15、n=225、X̄=52 で H₀: μ=50 を両側 5% で検定する。Z と判断として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z=(52−50)/(15/225)=30 で棄却"
+        },
+        {
+          "label": "B",
+          "text": "Z=(52−50)/(15/15)=2>1.96 なので H₀ 棄却"
+        },
+        {
+          "label": "C",
+          "text": "Z=2/15≈0.13 < 1.96 で採択"
+        },
+        {
+          "label": "D",
+          "text": "Z=2 < 2.58 なので 5% では棄却できない"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "Z検定",
+        "具体計算"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-022",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "n=400 でコインを投げ表が 220 回。p=0.5 の両側 5% 検定の手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p̂=0.55、Z=(0.55−0.5)/√(0.5×0.5/400)=0.05/0.025=2>1.96 → 棄却"
+        },
+        {
+          "label": "B",
+          "text": "Z=2 < 2.58 なので 5% では棄却できない"
+        },
+        {
+          "label": "C",
+          "text": "Z=(220−200)/400=0.05 で採択"
+        },
+        {
+          "label": "D",
+          "text": "Z=220/400=0.55 > 1.96 で棄却"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "母比率の検定",
+        "コイン"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-023",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "同じデータで両側検定と片側検定(同じ方向)を比べたとき、棄却されやすいのはどちらか正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "片側検定の方が棄却されやすい(臨界値が低い)"
+        },
+        {
+          "label": "B",
+          "text": "データ次第で変わる"
+        },
+        {
+          "label": "C",
+          "text": "どちらも同じ"
+        },
+        {
+          "label": "D",
+          "text": "両側検定の方が棄却されやすい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "片側vs両側検定",
+        "棄却のしやすさ"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-024",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "p 値=0.03 のとき α=0.05 および α=0.01 での判断として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "両方棄却"
+        },
+        {
+          "label": "B",
+          "text": "α=0.05 では採択、α=0.01 では棄却"
+        },
+        {
+          "label": "C",
+          "text": "両方採択"
+        },
+        {
+          "label": "D",
+          "text": "α=0.05: p=0.03<0.05 なので棄却。α=0.01: p=0.03>0.01 なので採択"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "p値",
+        "有意水準の比較"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-025",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "Z=1.8(両側検定、α=0.05)のとき p 値(両側)の近似として正しいものはどれか(P(|Z|>1.8)≈0.072)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p 値=0.05−0.072=−0.022 なので棄却"
+        },
+        {
+          "label": "B",
+          "text": "p 値=0.036 なので棄却"
+        },
+        {
+          "label": "C",
+          "text": "p 値≈0.072 > 0.05 なので H₀ を棄却できない"
+        },
+        {
+          "label": "D",
+          "text": "p 値=1.8/1.96≈0.92 < 1 なので棄却"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "p値の計算",
+        "判断"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-026",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "仮説検定で検出力(1−β)を上げる方法として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n を増やして検出力を高める"
+        },
+        {
+          "label": "B",
+          "text": "対立仮説の形を変える"
+        },
+        {
+          "label": "C",
+          "text": "有意水準を厳しくする"
+        },
+        {
+          "label": "D",
+          "text": "n を減らして標準誤差を大きくする"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "検出力",
+        "n"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-027",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "母平均が 50 か 55 かを検定(α=0.05)する。H₀: μ=50、H₁: μ=55 のとき β(第二種の過誤)を減らすには何が必要か正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "α を 0.1 に増やす"
+        },
+        {
+          "label": "B",
+          "text": "H₀ を変える"
+        },
+        {
+          "label": "C",
+          "text": "標本分散を下げる"
+        },
+        {
+          "label": "D",
+          "text": "n を増やして検定統計量の標準誤差を小さくする"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "第二種の過誤",
+        "β減少"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-028",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "「仮説検定で帰無仮説を採択した」とき言えることとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "H₁ が確実に間違い"
+        },
+        {
+          "label": "B",
+          "text": "H₀ が確実に正しい"
+        },
+        {
+          "label": "C",
+          "text": "実際の差はゼロ"
+        },
+        {
+          "label": "D",
+          "text": "H₀ を棄却するには証拠不十分(H₀ の正しさが証明されたわけではない)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "採択の意味",
+        "検定の論理"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-029",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "同じデータで有意水準を 5% から 1% に変えた場合のZ検定の臨界値の変化として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1.96 から 1.65 に減少"
+        },
+        {
+          "label": "B",
+          "text": "2.58 から 1.96 に減少"
+        },
+        {
+          "label": "C",
+          "text": "1.96(5%)から 2.58(1%)に増加(厳しくなる)"
+        },
+        {
+          "label": "D",
+          "text": "変わらない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "臨界値",
+        "有意水準"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    },
+    {
+      "id": "eht-030",
+      "subject": "math",
+      "unit": "statistical-inference",
+      "difficulty": "exam",
+      "question": "大数の法則の内容として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "n が増えると分布は正規分布になる"
+        },
+        {
+          "label": "B",
+          "text": "n が小さいほど X̄ は μ に近い"
+        },
+        {
+          "label": "C",
+          "text": "n が増えると必ず X̄=μ になる"
+        },
+        {
+          "label": "D",
+          "text": "n が増えるにつれて標本平均 X̄ は母平均 μ に近づく(確率収束)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "大数の法則"
+      ],
+      "subunit": "estimation-and-hypothesis-testing"
+    }
+  ]
+}

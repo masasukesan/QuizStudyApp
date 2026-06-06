@@ -1,0 +1,1786 @@
+{
+  "subject": "math",
+  "entries": [
+    {
+      "path": "1A/numbers-and-expressions/polynomial-operations",
+      "course": "1A",
+      "unit": "numbers-and-expressions",
+      "subunit": "polynomial-operations",
+      "name": "整式の加法・減法・乗法",
+      "en": "Polynomial Operations",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/numbers-and-expressions/real-numbers",
+      "course": "1A",
+      "unit": "numbers-and-expressions",
+      "subunit": "real-numbers",
+      "name": "実数",
+      "en": "Real Numbers",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/numbers-and-expressions/factorization",
+      "course": "1A",
+      "unit": "numbers-and-expressions",
+      "subunit": "factorization",
+      "name": "因数分解",
+      "en": "Factorization",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/numbers-and-expressions/linear-inequalities",
+      "course": "1A",
+      "unit": "numbers-and-expressions",
+      "subunit": "linear-inequalities",
+      "name": "1次不等式",
+      "en": "Linear Inequalities",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/logic-and-sets/set-theory-basics",
+      "course": "1A",
+      "unit": "logic-and-sets",
+      "subunit": "set-theory-basics",
+      "name": "集合",
+      "en": "Set Theory Basics",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/logic-and-sets/propositions-and-conditions",
+      "course": "1A",
+      "unit": "logic-and-sets",
+      "subunit": "propositions-and-conditions",
+      "name": "命題と条件",
+      "en": "Propositions and Conditions",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/logic-and-sets/propositions-and-proofs",
+      "course": "1A",
+      "unit": "logic-and-sets",
+      "subunit": "propositions-and-proofs",
+      "name": "命題と証明",
+      "en": "Propositions and Proofs",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/quadratic-functions/functions-and-graphs",
+      "course": "1A",
+      "unit": "quadratic-functions",
+      "subunit": "functions-and-graphs",
+      "name": "関数とグラフ",
+      "en": "Functions and Graphs",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/quadratic-functions/quadratic-graphs-and-transformations",
+      "course": "1A",
+      "unit": "quadratic-functions",
+      "subunit": "quadratic-graphs-and-transformations",
+      "name": "2次関数のグラフとその移動",
+      "en": "Quadratic Graphs and Transformations",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/quadratic-functions/quadratic-maxima-and-minima",
+      "course": "1A",
+      "unit": "quadratic-functions",
+      "subunit": "quadratic-maxima-and-minima",
+      "name": "2次関数の最大・最小と決定",
+      "en": "Quadratic Maxima, Minima and Determination",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/quadratic-functions/quadratic-equations",
+      "course": "1A",
+      "unit": "quadratic-functions",
+      "subunit": "quadratic-equations",
+      "name": "2次方程式",
+      "en": "Quadratic Equations",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/quadratic-functions/graphs-and-quadratic-equations",
+      "course": "1A",
+      "unit": "quadratic-functions",
+      "subunit": "graphs-and-quadratic-equations",
+      "name": "グラフと2次方程式",
+      "en": "Graphs and Quadratic Equations",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/quadratic-functions/quadratic-inequalities",
+      "course": "1A",
+      "unit": "quadratic-functions",
+      "subunit": "quadratic-inequalities",
+      "name": "2次不等式",
+      "en": "Quadratic Inequalities",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/quadratic-functions/advanced-quadratic-problems",
+      "course": "1A",
+      "unit": "quadratic-functions",
+      "subunit": "advanced-quadratic-problems",
+      "name": "2次関数の関連発展問題",
+      "en": "Advanced Quadratic Problems",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-and-measure/basic-trigonometric-ratios",
+      "course": "1A",
+      "unit": "geometry-and-measure",
+      "subunit": "basic-trigonometric-ratios",
+      "name": "三角比の基本",
+      "en": "Basic Trigonometric Ratios",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-and-measure/extended-trigonometric-ratios",
+      "course": "1A",
+      "unit": "geometry-and-measure",
+      "subunit": "extended-trigonometric-ratios",
+      "name": "三角比の拡張",
+      "en": "Extended Trigonometric Ratios",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-and-measure/sine-and-cosine-laws",
+      "course": "1A",
+      "unit": "geometry-and-measure",
+      "subunit": "sine-and-cosine-laws",
+      "name": "正弦定理と余弦定理",
+      "en": "Sine and Cosine Laws",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-and-measure/trigonometry-and-geometry-measurement",
+      "course": "1A",
+      "unit": "geometry-and-measure",
+      "subunit": "trigonometry-and-geometry-measurement",
+      "name": "三角比と図形の計量",
+      "en": "Trigonometry and Geometry Measurement",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-and-measure/advanced-trigonometric-problems",
+      "course": "1A",
+      "unit": "geometry-and-measure",
+      "subunit": "advanced-trigonometric-problems",
+      "name": "三角比の関連発展問題",
+      "en": "Advanced Trigonometric Problems",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/data-analysis/central-dispersion",
+      "course": "1A",
+      "unit": "data-analysis",
+      "subunit": "central-dispersion",
+      "name": "データの代表値と散らばり",
+      "en": "Central Tendency & Dispersion",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/data-analysis/variance-stddev-correlation",
+      "course": "1A",
+      "unit": "data-analysis",
+      "subunit": "variance-stddev-correlation",
+      "name": "分散・標準偏差・相関係数",
+      "en": "Variance, Std Dev & Correlation",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/combinatorics/basic-counting",
+      "course": "1A",
+      "unit": "combinatorics",
+      "subunit": "basic-counting",
+      "name": "場合の数",
+      "en": "Basic Counting",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/combinatorics/count-elements",
+      "course": "1A",
+      "unit": "combinatorics",
+      "subunit": "count-elements",
+      "name": "集合の要素の個数",
+      "en": "Counting Set Elements",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/combinatorics/permutation",
+      "course": "1A",
+      "unit": "combinatorics",
+      "subunit": "permutation",
+      "name": "順列",
+      "en": "Permutation",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/combinatorics/circular-and-multiset-permutation",
+      "course": "1A",
+      "unit": "combinatorics",
+      "subunit": "circular-and-multiset-permutation",
+      "name": "円順列・重複順列",
+      "en": "Circular & Multiset Permutation",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/combinatorics/combination",
+      "course": "1A",
+      "unit": "combinatorics",
+      "subunit": "combination",
+      "name": "組み合わせ",
+      "en": "Combination",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/probability/events-and-probability",
+      "course": "1A",
+      "unit": "probability",
+      "subunit": "events-and-probability",
+      "name": "事象と確率",
+      "en": "Events and Probability",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/probability/probability-properties",
+      "course": "1A",
+      "unit": "probability",
+      "subunit": "probability-properties",
+      "name": "確率の基本性質",
+      "en": "Basic Properties of Probability",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/probability/independent-and-repeated-trials",
+      "course": "1A",
+      "unit": "probability",
+      "subunit": "independent-and-repeated-trials",
+      "name": "独立な試行・反復試行の確率",
+      "en": "Independent and Repeated Trials",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/probability/conditional-probability",
+      "course": "1A",
+      "unit": "probability",
+      "subunit": "conditional-probability",
+      "name": "条件付き確率",
+      "en": "Conditional Probability",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/basic-plane-figures",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "basic-plane-figures",
+      "name": "平面図形の基本",
+      "en": "Basic Plane Figures",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/triangle-sides-and-angles",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "triangle-sides-and-angles",
+      "name": "三角形の辺と角",
+      "en": "Triangle Sides and Angles",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/triangle-ratios-and-centers",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "triangle-ratios-and-centers",
+      "name": "三角形の辺の比、五心",
+      "en": "Triangle Ratios and Centers",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/ceva-and-menelaus-theorems",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "ceva-and-menelaus-theorems",
+      "name": "チェバの定理、メネラウスの定理",
+      "en": "Ceva and Menelaus Theorems",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/circles-lines-and-circle-relations",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "circles-lines-and-circle-relations",
+      "name": "円と直線、2つの円の位置関係",
+      "en": "Circles, Lines and Circle Relations",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/cyclic-quadrilaterals",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "cyclic-quadrilaterals",
+      "name": "円に内接する四角形",
+      "en": "Cyclic Quadrilaterals",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/geometric-construction",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "geometric-construction",
+      "name": "作図",
+      "en": "Geometric Construction",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/geometry-properties/solid-geometry",
+      "course": "1A",
+      "unit": "geometry-properties",
+      "subunit": "solid-geometry",
+      "name": "空間図形",
+      "en": "Solid Geometry",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/number-theory/divisors-and-multiples",
+      "course": "1A",
+      "unit": "number-theory",
+      "subunit": "divisors-and-multiples",
+      "name": "約数と倍数、最大公約数と最小公倍数",
+      "en": "Divisors, Multiples, GCD and LCM",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/number-theory/integer-division-and-remainder",
+      "course": "1A",
+      "unit": "number-theory",
+      "subunit": "integer-division-and-remainder",
+      "name": "整数の割り算と商および余り",
+      "en": "Integer Division and Remainder",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/number-theory/fractions-decimals-and-bases",
+      "course": "1A",
+      "unit": "number-theory",
+      "subunit": "fractions-decimals-and-bases",
+      "name": "分数と小数、n進法",
+      "en": "Fractions, Decimals and Number Bases",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/number-theory/euclidean-algorithm-and-diophantine",
+      "course": "1A",
+      "unit": "number-theory",
+      "subunit": "euclidean-algorithm-and-diophantine",
+      "name": "ユークリッドの互除法と1次不定方程式",
+      "en": "Euclidean Algorithm and Diophantine Equations",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/number-theory/congruences",
+      "course": "1A",
+      "unit": "number-theory",
+      "subunit": "congruences",
+      "name": "合同式",
+      "en": "Congruences",
+      "questionCount": 30
+    },
+    {
+      "path": "1A/number-theory/integer-solution-problems",
+      "course": "1A",
+      "unit": "number-theory",
+      "subunit": "integer-solution-problems",
+      "name": "関連発展問題（方程式の整数解）",
+      "en": "Integer Solution Problems",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/expressions-and-proofs/polynomial-division",
+      "course": "2B",
+      "unit": "expressions-and-proofs",
+      "subunit": "polynomial-division",
+      "name": "整式の除法",
+      "en": "Polynomial Division",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/expressions-and-proofs/factor-and-remainder-theorems",
+      "course": "2B",
+      "unit": "expressions-and-proofs",
+      "subunit": "factor-and-remainder-theorems",
+      "name": "因数定理・剰余定理",
+      "en": "Factor and Remainder Theorems",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/expressions-and-proofs/relations-between-roots-and-coefficients",
+      "course": "2B",
+      "unit": "expressions-and-proofs",
+      "subunit": "relations-between-roots-and-coefficients",
+      "name": "解と係数の関係",
+      "en": "Relations Between Roots and Coefficients",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/expressions-and-proofs/equation-and-inequality-proofs",
+      "course": "2B",
+      "unit": "expressions-and-proofs",
+      "subunit": "equation-and-inequality-proofs",
+      "name": "等式・不等式の証明",
+      "en": "Equation and Inequality Proofs",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/expressions-and-proofs/logic-and-proofs",
+      "course": "2B",
+      "unit": "expressions-and-proofs",
+      "subunit": "logic-and-proofs",
+      "name": "論理と証明",
+      "en": "Logic and Proofs",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/coordinate-geometry/points-and-lines",
+      "course": "2B",
+      "unit": "coordinate-geometry",
+      "subunit": "points-and-lines",
+      "name": "点と直線の方程式",
+      "en": "Points and Lines",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/coordinate-geometry/line-relations",
+      "course": "2B",
+      "unit": "coordinate-geometry",
+      "subunit": "line-relations",
+      "name": "直線の位置関係",
+      "en": "Line Relations",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/coordinate-geometry/equation-of-a-circle",
+      "course": "2B",
+      "unit": "coordinate-geometry",
+      "subunit": "equation-of-a-circle",
+      "name": "円の方程式",
+      "en": "Equation of a Circle",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/coordinate-geometry/circle-and-line-relations",
+      "course": "2B",
+      "unit": "coordinate-geometry",
+      "subunit": "circle-and-line-relations",
+      "name": "円と直線の位置関係",
+      "en": "Circle and Line Relations",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/coordinate-geometry/locus-and-region",
+      "course": "2B",
+      "unit": "coordinate-geometry",
+      "subunit": "locus-and-region",
+      "name": "軌跡と領域",
+      "en": "Locus and Region",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/exponential-and-logarithmic-functions/laws-of-exponents",
+      "course": "2B",
+      "unit": "exponential-and-logarithmic-functions",
+      "subunit": "laws-of-exponents",
+      "name": "指数法則",
+      "en": "Laws of Exponents",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/exponential-and-logarithmic-functions/properties-of-exponential-functions",
+      "course": "2B",
+      "unit": "exponential-and-logarithmic-functions",
+      "subunit": "properties-of-exponential-functions",
+      "name": "指数関数の性質",
+      "en": "Properties of Exponential Functions",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/exponential-and-logarithmic-functions/properties-of-logarithms",
+      "course": "2B",
+      "unit": "exponential-and-logarithmic-functions",
+      "subunit": "properties-of-logarithms",
+      "name": "対数の性質",
+      "en": "Properties of Logarithms",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/exponential-and-logarithmic-functions/logarithmic-function-graphs",
+      "course": "2B",
+      "unit": "exponential-and-logarithmic-functions",
+      "subunit": "logarithmic-function-graphs",
+      "name": "対数関数のグラフ",
+      "en": "Logarithmic Function Graphs",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/exponential-and-logarithmic-functions/exponential-and-logarithmic-equations",
+      "course": "2B",
+      "unit": "exponential-and-logarithmic-functions",
+      "subunit": "exponential-and-logarithmic-equations",
+      "name": "指数・対数方程式",
+      "en": "Exponential and Logarithmic Equations",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/trigonometric-functions/radian-measure",
+      "course": "2B",
+      "unit": "trigonometric-functions",
+      "subunit": "radian-measure",
+      "name": "弧度法",
+      "en": "Radian Measure",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/trigonometric-functions/trigonometric-definitions-and-properties",
+      "course": "2B",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-definitions-and-properties",
+      "name": "三角関数の定義と性質",
+      "en": "Trigonometric Definitions and Properties",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/trigonometric-functions/trigonometric-graphs",
+      "course": "2B",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "name": "三角関数のグラフ",
+      "en": "Trigonometric Graphs",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/trigonometric-functions/trigonometric-equations-and-inequalities",
+      "course": "2B",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-equations-and-inequalities",
+      "name": "三角方程式・三角不等式",
+      "en": "Trigonometric Equations and Inequalities",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/trigonometric-functions/addition-theorems",
+      "course": "2B",
+      "unit": "trigonometric-functions",
+      "subunit": "addition-theorems",
+      "name": "加法定理",
+      "en": "Addition Theorems",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/calculus-basics/derivatives-and-basic-rules",
+      "course": "2B",
+      "unit": "calculus-basics",
+      "subunit": "derivatives-and-basic-rules",
+      "name": "導関数と微分の基本公式",
+      "en": "Derivatives and Basic Rules",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/calculus-basics/tangent-lines",
+      "course": "2B",
+      "unit": "calculus-basics",
+      "subunit": "tangent-lines",
+      "name": "接線の方程式",
+      "en": "Tangent Lines",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/calculus-basics/increasing-decreasing-and-extrema",
+      "course": "2B",
+      "unit": "calculus-basics",
+      "subunit": "increasing-decreasing-and-extrema",
+      "name": "関数の増減・極値",
+      "en": "Increasing, Decreasing and Extrema",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/calculus-basics/graph-sketching",
+      "course": "2B",
+      "unit": "calculus-basics",
+      "subunit": "graph-sketching",
+      "name": "グラフの概形",
+      "en": "Graph Sketching",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/calculus-basics/indefinite-integrals",
+      "course": "2B",
+      "unit": "calculus-basics",
+      "subunit": "indefinite-integrals",
+      "name": "不定積分",
+      "en": "Indefinite Integrals",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/calculus-basics/definite-integrals",
+      "course": "2B",
+      "unit": "calculus-basics",
+      "subunit": "definite-integrals",
+      "name": "定積分",
+      "en": "Definite Integrals",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/calculus-basics/area-by-integration",
+      "course": "2B",
+      "unit": "calculus-basics",
+      "subunit": "area-by-integration",
+      "name": "面積",
+      "en": "Area by Integration",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/sequences/arithmetic-sequences",
+      "course": "2B",
+      "unit": "sequences",
+      "subunit": "arithmetic-sequences",
+      "name": "等差数列",
+      "en": "Arithmetic Sequences",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/sequences/geometric-sequences",
+      "course": "2B",
+      "unit": "sequences",
+      "subunit": "geometric-sequences",
+      "name": "等比数列",
+      "en": "Geometric Sequences",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/sequences/series-summation",
+      "course": "2B",
+      "unit": "sequences",
+      "subunit": "series-summation",
+      "name": "数列の和",
+      "en": "Series Summation",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/sequences/difference-sequences",
+      "course": "2B",
+      "unit": "sequences",
+      "subunit": "difference-sequences",
+      "name": "階差数列",
+      "en": "Difference Sequences",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/sequences/recurrence-relations",
+      "course": "2B",
+      "unit": "sequences",
+      "subunit": "recurrence-relations",
+      "name": "漸化式",
+      "en": "Recurrence Relations",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/sequences/mathematical-induction",
+      "course": "2B",
+      "unit": "sequences",
+      "subunit": "mathematical-induction",
+      "name": "数学的帰納法",
+      "en": "Mathematical Induction",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/statistical-inference/random-variables-and-distributions",
+      "course": "2B",
+      "unit": "statistical-inference",
+      "subunit": "random-variables-and-distributions",
+      "name": "確率変数と確率分布",
+      "en": "Random Variables and Distributions",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/statistical-inference/binomial-distribution",
+      "course": "2B",
+      "unit": "statistical-inference",
+      "subunit": "binomial-distribution",
+      "name": "二項分布",
+      "en": "Binomial Distribution",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/statistical-inference/normal-distribution",
+      "course": "2B",
+      "unit": "statistical-inference",
+      "subunit": "normal-distribution",
+      "name": "正規分布",
+      "en": "Normal Distribution",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/statistical-inference/sampling-methods",
+      "course": "2B",
+      "unit": "statistical-inference",
+      "subunit": "sampling-methods",
+      "name": "標本調査",
+      "en": "Sampling Methods",
+      "questionCount": 30
+    },
+    {
+      "path": "2B/statistical-inference/estimation-and-hypothesis-testing",
+      "course": "2B",
+      "unit": "statistical-inference",
+      "subunit": "estimation-and-hypothesis-testing",
+      "name": "推定と検定",
+      "en": "Estimation and Hypothesis Testing",
+      "questionCount": 30
+    },
+    {
+      "path": "C/vectors/vector-basics",
+      "course": "C",
+      "unit": "vectors",
+      "subunit": "vector-basics",
+      "name": "ベクトルの基本",
+      "en": "Vector Basics",
+      "questionCount": 30
+    },
+    {
+      "path": "C/vectors/vector-components",
+      "course": "C",
+      "unit": "vectors",
+      "subunit": "vector-components",
+      "name": "ベクトルの成分表示",
+      "en": "Vector Components",
+      "questionCount": 30
+    },
+    {
+      "path": "C/vectors/dot-product",
+      "course": "C",
+      "unit": "vectors",
+      "subunit": "dot-product",
+      "name": "内積",
+      "en": "Dot Product",
+      "questionCount": 30
+    },
+    {
+      "path": "C/vectors/applications-of-plane-vectors",
+      "course": "C",
+      "unit": "vectors",
+      "subunit": "applications-of-plane-vectors",
+      "name": "平面ベクトルの応用",
+      "en": "Applications of Plane Vectors",
+      "questionCount": 30
+    },
+    {
+      "path": "C/vectors/position-vectors-and-geometry",
+      "course": "C",
+      "unit": "vectors",
+      "subunit": "position-vectors-and-geometry",
+      "name": "位置ベクトルと図形",
+      "en": "Position Vectors and Geometry",
+      "questionCount": 30
+    },
+    {
+      "path": "C/vectors/space-vectors",
+      "course": "C",
+      "unit": "vectors",
+      "subunit": "space-vectors",
+      "name": "空間ベクトル",
+      "en": "Space Vectors",
+      "questionCount": 30
+    },
+    {
+      "path": "C/curves-and-complex-plane/parabolas",
+      "course": "C",
+      "unit": "curves-and-complex-plane",
+      "subunit": "parabolas",
+      "name": "放物線",
+      "en": "Parabolas",
+      "questionCount": 30
+    },
+    {
+      "path": "C/curves-and-complex-plane/ellipses",
+      "course": "C",
+      "unit": "curves-and-complex-plane",
+      "subunit": "ellipses",
+      "name": "楕円",
+      "en": "Ellipses",
+      "questionCount": 30
+    },
+    {
+      "path": "C/curves-and-complex-plane/hyperbolas",
+      "course": "C",
+      "unit": "curves-and-complex-plane",
+      "subunit": "hyperbolas",
+      "name": "双曲線",
+      "en": "Hyperbolas",
+      "questionCount": 30
+    },
+    {
+      "path": "C/curves-and-complex-plane/complex-plane-basics",
+      "course": "C",
+      "unit": "curves-and-complex-plane",
+      "subunit": "complex-plane-basics",
+      "name": "複素数平面の基礎",
+      "en": "Complex Plane Basics",
+      "questionCount": 30
+    },
+    {
+      "path": "C/curves-and-complex-plane/complex-plane-geometry",
+      "course": "C",
+      "unit": "curves-and-complex-plane",
+      "subunit": "complex-plane-geometry",
+      "name": "複素数平面と図形",
+      "en": "Complex Plane and Geometry",
+      "questionCount": 30
+    }
+  ],
+  "tree": [
+    {
+      "course": "1A",
+      "units": [
+        {
+          "unit": "numbers-and-expressions",
+          "subunits": [
+            {
+              "path": "1A/numbers-and-expressions/polynomial-operations",
+              "course": "1A",
+              "unit": "numbers-and-expressions",
+              "subunit": "polynomial-operations",
+              "name": "整式の加法・減法・乗法",
+              "en": "Polynomial Operations",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/numbers-and-expressions/real-numbers",
+              "course": "1A",
+              "unit": "numbers-and-expressions",
+              "subunit": "real-numbers",
+              "name": "実数",
+              "en": "Real Numbers",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/numbers-and-expressions/factorization",
+              "course": "1A",
+              "unit": "numbers-and-expressions",
+              "subunit": "factorization",
+              "name": "因数分解",
+              "en": "Factorization",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/numbers-and-expressions/linear-inequalities",
+              "course": "1A",
+              "unit": "numbers-and-expressions",
+              "subunit": "linear-inequalities",
+              "name": "1次不等式",
+              "en": "Linear Inequalities",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "logic-and-sets",
+          "subunits": [
+            {
+              "path": "1A/logic-and-sets/set-theory-basics",
+              "course": "1A",
+              "unit": "logic-and-sets",
+              "subunit": "set-theory-basics",
+              "name": "集合",
+              "en": "Set Theory Basics",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/logic-and-sets/propositions-and-conditions",
+              "course": "1A",
+              "unit": "logic-and-sets",
+              "subunit": "propositions-and-conditions",
+              "name": "命題と条件",
+              "en": "Propositions and Conditions",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/logic-and-sets/propositions-and-proofs",
+              "course": "1A",
+              "unit": "logic-and-sets",
+              "subunit": "propositions-and-proofs",
+              "name": "命題と証明",
+              "en": "Propositions and Proofs",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "quadratic-functions",
+          "subunits": [
+            {
+              "path": "1A/quadratic-functions/functions-and-graphs",
+              "course": "1A",
+              "unit": "quadratic-functions",
+              "subunit": "functions-and-graphs",
+              "name": "関数とグラフ",
+              "en": "Functions and Graphs",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/quadratic-functions/quadratic-graphs-and-transformations",
+              "course": "1A",
+              "unit": "quadratic-functions",
+              "subunit": "quadratic-graphs-and-transformations",
+              "name": "2次関数のグラフとその移動",
+              "en": "Quadratic Graphs and Transformations",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/quadratic-functions/quadratic-maxima-and-minima",
+              "course": "1A",
+              "unit": "quadratic-functions",
+              "subunit": "quadratic-maxima-and-minima",
+              "name": "2次関数の最大・最小と決定",
+              "en": "Quadratic Maxima, Minima and Determination",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/quadratic-functions/quadratic-equations",
+              "course": "1A",
+              "unit": "quadratic-functions",
+              "subunit": "quadratic-equations",
+              "name": "2次方程式",
+              "en": "Quadratic Equations",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/quadratic-functions/graphs-and-quadratic-equations",
+              "course": "1A",
+              "unit": "quadratic-functions",
+              "subunit": "graphs-and-quadratic-equations",
+              "name": "グラフと2次方程式",
+              "en": "Graphs and Quadratic Equations",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/quadratic-functions/quadratic-inequalities",
+              "course": "1A",
+              "unit": "quadratic-functions",
+              "subunit": "quadratic-inequalities",
+              "name": "2次不等式",
+              "en": "Quadratic Inequalities",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/quadratic-functions/advanced-quadratic-problems",
+              "course": "1A",
+              "unit": "quadratic-functions",
+              "subunit": "advanced-quadratic-problems",
+              "name": "2次関数の関連発展問題",
+              "en": "Advanced Quadratic Problems",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "geometry-and-measure",
+          "subunits": [
+            {
+              "path": "1A/geometry-and-measure/basic-trigonometric-ratios",
+              "course": "1A",
+              "unit": "geometry-and-measure",
+              "subunit": "basic-trigonometric-ratios",
+              "name": "三角比の基本",
+              "en": "Basic Trigonometric Ratios",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-and-measure/extended-trigonometric-ratios",
+              "course": "1A",
+              "unit": "geometry-and-measure",
+              "subunit": "extended-trigonometric-ratios",
+              "name": "三角比の拡張",
+              "en": "Extended Trigonometric Ratios",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-and-measure/sine-and-cosine-laws",
+              "course": "1A",
+              "unit": "geometry-and-measure",
+              "subunit": "sine-and-cosine-laws",
+              "name": "正弦定理と余弦定理",
+              "en": "Sine and Cosine Laws",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-and-measure/trigonometry-and-geometry-measurement",
+              "course": "1A",
+              "unit": "geometry-and-measure",
+              "subunit": "trigonometry-and-geometry-measurement",
+              "name": "三角比と図形の計量",
+              "en": "Trigonometry and Geometry Measurement",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-and-measure/advanced-trigonometric-problems",
+              "course": "1A",
+              "unit": "geometry-and-measure",
+              "subunit": "advanced-trigonometric-problems",
+              "name": "三角比の関連発展問題",
+              "en": "Advanced Trigonometric Problems",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "data-analysis",
+          "subunits": [
+            {
+              "path": "1A/data-analysis/central-dispersion",
+              "course": "1A",
+              "unit": "data-analysis",
+              "subunit": "central-dispersion",
+              "name": "データの代表値と散らばり",
+              "en": "Central Tendency & Dispersion",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/data-analysis/variance-stddev-correlation",
+              "course": "1A",
+              "unit": "data-analysis",
+              "subunit": "variance-stddev-correlation",
+              "name": "分散・標準偏差・相関係数",
+              "en": "Variance, Std Dev & Correlation",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "combinatorics",
+          "subunits": [
+            {
+              "path": "1A/combinatorics/basic-counting",
+              "course": "1A",
+              "unit": "combinatorics",
+              "subunit": "basic-counting",
+              "name": "場合の数",
+              "en": "Basic Counting",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/combinatorics/count-elements",
+              "course": "1A",
+              "unit": "combinatorics",
+              "subunit": "count-elements",
+              "name": "集合の要素の個数",
+              "en": "Counting Set Elements",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/combinatorics/permutation",
+              "course": "1A",
+              "unit": "combinatorics",
+              "subunit": "permutation",
+              "name": "順列",
+              "en": "Permutation",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/combinatorics/circular-and-multiset-permutation",
+              "course": "1A",
+              "unit": "combinatorics",
+              "subunit": "circular-and-multiset-permutation",
+              "name": "円順列・重複順列",
+              "en": "Circular & Multiset Permutation",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/combinatorics/combination",
+              "course": "1A",
+              "unit": "combinatorics",
+              "subunit": "combination",
+              "name": "組み合わせ",
+              "en": "Combination",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "probability",
+          "subunits": [
+            {
+              "path": "1A/probability/events-and-probability",
+              "course": "1A",
+              "unit": "probability",
+              "subunit": "events-and-probability",
+              "name": "事象と確率",
+              "en": "Events and Probability",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/probability/probability-properties",
+              "course": "1A",
+              "unit": "probability",
+              "subunit": "probability-properties",
+              "name": "確率の基本性質",
+              "en": "Basic Properties of Probability",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/probability/independent-and-repeated-trials",
+              "course": "1A",
+              "unit": "probability",
+              "subunit": "independent-and-repeated-trials",
+              "name": "独立な試行・反復試行の確率",
+              "en": "Independent and Repeated Trials",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/probability/conditional-probability",
+              "course": "1A",
+              "unit": "probability",
+              "subunit": "conditional-probability",
+              "name": "条件付き確率",
+              "en": "Conditional Probability",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "geometry-properties",
+          "subunits": [
+            {
+              "path": "1A/geometry-properties/basic-plane-figures",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "basic-plane-figures",
+              "name": "平面図形の基本",
+              "en": "Basic Plane Figures",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-properties/triangle-sides-and-angles",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "triangle-sides-and-angles",
+              "name": "三角形の辺と角",
+              "en": "Triangle Sides and Angles",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-properties/triangle-ratios-and-centers",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "triangle-ratios-and-centers",
+              "name": "三角形の辺の比、五心",
+              "en": "Triangle Ratios and Centers",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-properties/ceva-and-menelaus-theorems",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "ceva-and-menelaus-theorems",
+              "name": "チェバの定理、メネラウスの定理",
+              "en": "Ceva and Menelaus Theorems",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-properties/circles-lines-and-circle-relations",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "circles-lines-and-circle-relations",
+              "name": "円と直線、2つの円の位置関係",
+              "en": "Circles, Lines and Circle Relations",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-properties/cyclic-quadrilaterals",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "cyclic-quadrilaterals",
+              "name": "円に内接する四角形",
+              "en": "Cyclic Quadrilaterals",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-properties/geometric-construction",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "geometric-construction",
+              "name": "作図",
+              "en": "Geometric Construction",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/geometry-properties/solid-geometry",
+              "course": "1A",
+              "unit": "geometry-properties",
+              "subunit": "solid-geometry",
+              "name": "空間図形",
+              "en": "Solid Geometry",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "number-theory",
+          "subunits": [
+            {
+              "path": "1A/number-theory/divisors-and-multiples",
+              "course": "1A",
+              "unit": "number-theory",
+              "subunit": "divisors-and-multiples",
+              "name": "約数と倍数、最大公約数と最小公倍数",
+              "en": "Divisors, Multiples, GCD and LCM",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/number-theory/integer-division-and-remainder",
+              "course": "1A",
+              "unit": "number-theory",
+              "subunit": "integer-division-and-remainder",
+              "name": "整数の割り算と商および余り",
+              "en": "Integer Division and Remainder",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/number-theory/fractions-decimals-and-bases",
+              "course": "1A",
+              "unit": "number-theory",
+              "subunit": "fractions-decimals-and-bases",
+              "name": "分数と小数、n進法",
+              "en": "Fractions, Decimals and Number Bases",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/number-theory/euclidean-algorithm-and-diophantine",
+              "course": "1A",
+              "unit": "number-theory",
+              "subunit": "euclidean-algorithm-and-diophantine",
+              "name": "ユークリッドの互除法と1次不定方程式",
+              "en": "Euclidean Algorithm and Diophantine Equations",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/number-theory/congruences",
+              "course": "1A",
+              "unit": "number-theory",
+              "subunit": "congruences",
+              "name": "合同式",
+              "en": "Congruences",
+              "questionCount": 30
+            },
+            {
+              "path": "1A/number-theory/integer-solution-problems",
+              "course": "1A",
+              "unit": "number-theory",
+              "subunit": "integer-solution-problems",
+              "name": "関連発展問題（方程式の整数解）",
+              "en": "Integer Solution Problems",
+              "questionCount": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "2B",
+      "units": [
+        {
+          "unit": "expressions-and-proofs",
+          "subunits": [
+            {
+              "path": "2B/expressions-and-proofs/polynomial-division",
+              "course": "2B",
+              "unit": "expressions-and-proofs",
+              "subunit": "polynomial-division",
+              "name": "整式の除法",
+              "en": "Polynomial Division",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/expressions-and-proofs/factor-and-remainder-theorems",
+              "course": "2B",
+              "unit": "expressions-and-proofs",
+              "subunit": "factor-and-remainder-theorems",
+              "name": "因数定理・剰余定理",
+              "en": "Factor and Remainder Theorems",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/expressions-and-proofs/relations-between-roots-and-coefficients",
+              "course": "2B",
+              "unit": "expressions-and-proofs",
+              "subunit": "relations-between-roots-and-coefficients",
+              "name": "解と係数の関係",
+              "en": "Relations Between Roots and Coefficients",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/expressions-and-proofs/equation-and-inequality-proofs",
+              "course": "2B",
+              "unit": "expressions-and-proofs",
+              "subunit": "equation-and-inequality-proofs",
+              "name": "等式・不等式の証明",
+              "en": "Equation and Inequality Proofs",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/expressions-and-proofs/logic-and-proofs",
+              "course": "2B",
+              "unit": "expressions-and-proofs",
+              "subunit": "logic-and-proofs",
+              "name": "論理と証明",
+              "en": "Logic and Proofs",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "coordinate-geometry",
+          "subunits": [
+            {
+              "path": "2B/coordinate-geometry/points-and-lines",
+              "course": "2B",
+              "unit": "coordinate-geometry",
+              "subunit": "points-and-lines",
+              "name": "点と直線の方程式",
+              "en": "Points and Lines",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/coordinate-geometry/line-relations",
+              "course": "2B",
+              "unit": "coordinate-geometry",
+              "subunit": "line-relations",
+              "name": "直線の位置関係",
+              "en": "Line Relations",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/coordinate-geometry/equation-of-a-circle",
+              "course": "2B",
+              "unit": "coordinate-geometry",
+              "subunit": "equation-of-a-circle",
+              "name": "円の方程式",
+              "en": "Equation of a Circle",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/coordinate-geometry/circle-and-line-relations",
+              "course": "2B",
+              "unit": "coordinate-geometry",
+              "subunit": "circle-and-line-relations",
+              "name": "円と直線の位置関係",
+              "en": "Circle and Line Relations",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/coordinate-geometry/locus-and-region",
+              "course": "2B",
+              "unit": "coordinate-geometry",
+              "subunit": "locus-and-region",
+              "name": "軌跡と領域",
+              "en": "Locus and Region",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "exponential-and-logarithmic-functions",
+          "subunits": [
+            {
+              "path": "2B/exponential-and-logarithmic-functions/laws-of-exponents",
+              "course": "2B",
+              "unit": "exponential-and-logarithmic-functions",
+              "subunit": "laws-of-exponents",
+              "name": "指数法則",
+              "en": "Laws of Exponents",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/exponential-and-logarithmic-functions/properties-of-exponential-functions",
+              "course": "2B",
+              "unit": "exponential-and-logarithmic-functions",
+              "subunit": "properties-of-exponential-functions",
+              "name": "指数関数の性質",
+              "en": "Properties of Exponential Functions",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/exponential-and-logarithmic-functions/properties-of-logarithms",
+              "course": "2B",
+              "unit": "exponential-and-logarithmic-functions",
+              "subunit": "properties-of-logarithms",
+              "name": "対数の性質",
+              "en": "Properties of Logarithms",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/exponential-and-logarithmic-functions/logarithmic-function-graphs",
+              "course": "2B",
+              "unit": "exponential-and-logarithmic-functions",
+              "subunit": "logarithmic-function-graphs",
+              "name": "対数関数のグラフ",
+              "en": "Logarithmic Function Graphs",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/exponential-and-logarithmic-functions/exponential-and-logarithmic-equations",
+              "course": "2B",
+              "unit": "exponential-and-logarithmic-functions",
+              "subunit": "exponential-and-logarithmic-equations",
+              "name": "指数・対数方程式",
+              "en": "Exponential and Logarithmic Equations",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "trigonometric-functions",
+          "subunits": [
+            {
+              "path": "2B/trigonometric-functions/radian-measure",
+              "course": "2B",
+              "unit": "trigonometric-functions",
+              "subunit": "radian-measure",
+              "name": "弧度法",
+              "en": "Radian Measure",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/trigonometric-functions/trigonometric-definitions-and-properties",
+              "course": "2B",
+              "unit": "trigonometric-functions",
+              "subunit": "trigonometric-definitions-and-properties",
+              "name": "三角関数の定義と性質",
+              "en": "Trigonometric Definitions and Properties",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/trigonometric-functions/trigonometric-graphs",
+              "course": "2B",
+              "unit": "trigonometric-functions",
+              "subunit": "trigonometric-graphs",
+              "name": "三角関数のグラフ",
+              "en": "Trigonometric Graphs",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/trigonometric-functions/trigonometric-equations-and-inequalities",
+              "course": "2B",
+              "unit": "trigonometric-functions",
+              "subunit": "trigonometric-equations-and-inequalities",
+              "name": "三角方程式・三角不等式",
+              "en": "Trigonometric Equations and Inequalities",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/trigonometric-functions/addition-theorems",
+              "course": "2B",
+              "unit": "trigonometric-functions",
+              "subunit": "addition-theorems",
+              "name": "加法定理",
+              "en": "Addition Theorems",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "calculus-basics",
+          "subunits": [
+            {
+              "path": "2B/calculus-basics/derivatives-and-basic-rules",
+              "course": "2B",
+              "unit": "calculus-basics",
+              "subunit": "derivatives-and-basic-rules",
+              "name": "導関数と微分の基本公式",
+              "en": "Derivatives and Basic Rules",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/calculus-basics/tangent-lines",
+              "course": "2B",
+              "unit": "calculus-basics",
+              "subunit": "tangent-lines",
+              "name": "接線の方程式",
+              "en": "Tangent Lines",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/calculus-basics/increasing-decreasing-and-extrema",
+              "course": "2B",
+              "unit": "calculus-basics",
+              "subunit": "increasing-decreasing-and-extrema",
+              "name": "関数の増減・極値",
+              "en": "Increasing, Decreasing and Extrema",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/calculus-basics/graph-sketching",
+              "course": "2B",
+              "unit": "calculus-basics",
+              "subunit": "graph-sketching",
+              "name": "グラフの概形",
+              "en": "Graph Sketching",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/calculus-basics/indefinite-integrals",
+              "course": "2B",
+              "unit": "calculus-basics",
+              "subunit": "indefinite-integrals",
+              "name": "不定積分",
+              "en": "Indefinite Integrals",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/calculus-basics/definite-integrals",
+              "course": "2B",
+              "unit": "calculus-basics",
+              "subunit": "definite-integrals",
+              "name": "定積分",
+              "en": "Definite Integrals",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/calculus-basics/area-by-integration",
+              "course": "2B",
+              "unit": "calculus-basics",
+              "subunit": "area-by-integration",
+              "name": "面積",
+              "en": "Area by Integration",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "sequences",
+          "subunits": [
+            {
+              "path": "2B/sequences/arithmetic-sequences",
+              "course": "2B",
+              "unit": "sequences",
+              "subunit": "arithmetic-sequences",
+              "name": "等差数列",
+              "en": "Arithmetic Sequences",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/sequences/geometric-sequences",
+              "course": "2B",
+              "unit": "sequences",
+              "subunit": "geometric-sequences",
+              "name": "等比数列",
+              "en": "Geometric Sequences",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/sequences/series-summation",
+              "course": "2B",
+              "unit": "sequences",
+              "subunit": "series-summation",
+              "name": "数列の和",
+              "en": "Series Summation",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/sequences/difference-sequences",
+              "course": "2B",
+              "unit": "sequences",
+              "subunit": "difference-sequences",
+              "name": "階差数列",
+              "en": "Difference Sequences",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/sequences/recurrence-relations",
+              "course": "2B",
+              "unit": "sequences",
+              "subunit": "recurrence-relations",
+              "name": "漸化式",
+              "en": "Recurrence Relations",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/sequences/mathematical-induction",
+              "course": "2B",
+              "unit": "sequences",
+              "subunit": "mathematical-induction",
+              "name": "数学的帰納法",
+              "en": "Mathematical Induction",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "statistical-inference",
+          "subunits": [
+            {
+              "path": "2B/statistical-inference/random-variables-and-distributions",
+              "course": "2B",
+              "unit": "statistical-inference",
+              "subunit": "random-variables-and-distributions",
+              "name": "確率変数と確率分布",
+              "en": "Random Variables and Distributions",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/statistical-inference/binomial-distribution",
+              "course": "2B",
+              "unit": "statistical-inference",
+              "subunit": "binomial-distribution",
+              "name": "二項分布",
+              "en": "Binomial Distribution",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/statistical-inference/normal-distribution",
+              "course": "2B",
+              "unit": "statistical-inference",
+              "subunit": "normal-distribution",
+              "name": "正規分布",
+              "en": "Normal Distribution",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/statistical-inference/sampling-methods",
+              "course": "2B",
+              "unit": "statistical-inference",
+              "subunit": "sampling-methods",
+              "name": "標本調査",
+              "en": "Sampling Methods",
+              "questionCount": 30
+            },
+            {
+              "path": "2B/statistical-inference/estimation-and-hypothesis-testing",
+              "course": "2B",
+              "unit": "statistical-inference",
+              "subunit": "estimation-and-hypothesis-testing",
+              "name": "推定と検定",
+              "en": "Estimation and Hypothesis Testing",
+              "questionCount": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "C",
+      "units": [
+        {
+          "unit": "vectors",
+          "subunits": [
+            {
+              "path": "C/vectors/vector-basics",
+              "course": "C",
+              "unit": "vectors",
+              "subunit": "vector-basics",
+              "name": "ベクトルの基本",
+              "en": "Vector Basics",
+              "questionCount": 30
+            },
+            {
+              "path": "C/vectors/vector-components",
+              "course": "C",
+              "unit": "vectors",
+              "subunit": "vector-components",
+              "name": "ベクトルの成分表示",
+              "en": "Vector Components",
+              "questionCount": 30
+            },
+            {
+              "path": "C/vectors/dot-product",
+              "course": "C",
+              "unit": "vectors",
+              "subunit": "dot-product",
+              "name": "内積",
+              "en": "Dot Product",
+              "questionCount": 30
+            },
+            {
+              "path": "C/vectors/applications-of-plane-vectors",
+              "course": "C",
+              "unit": "vectors",
+              "subunit": "applications-of-plane-vectors",
+              "name": "平面ベクトルの応用",
+              "en": "Applications of Plane Vectors",
+              "questionCount": 30
+            },
+            {
+              "path": "C/vectors/position-vectors-and-geometry",
+              "course": "C",
+              "unit": "vectors",
+              "subunit": "position-vectors-and-geometry",
+              "name": "位置ベクトルと図形",
+              "en": "Position Vectors and Geometry",
+              "questionCount": 30
+            },
+            {
+              "path": "C/vectors/space-vectors",
+              "course": "C",
+              "unit": "vectors",
+              "subunit": "space-vectors",
+              "name": "空間ベクトル",
+              "en": "Space Vectors",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "curves-and-complex-plane",
+          "subunits": [
+            {
+              "path": "C/curves-and-complex-plane/parabolas",
+              "course": "C",
+              "unit": "curves-and-complex-plane",
+              "subunit": "parabolas",
+              "name": "放物線",
+              "en": "Parabolas",
+              "questionCount": 30
+            },
+            {
+              "path": "C/curves-and-complex-plane/ellipses",
+              "course": "C",
+              "unit": "curves-and-complex-plane",
+              "subunit": "ellipses",
+              "name": "楕円",
+              "en": "Ellipses",
+              "questionCount": 30
+            },
+            {
+              "path": "C/curves-and-complex-plane/hyperbolas",
+              "course": "C",
+              "unit": "curves-and-complex-plane",
+              "subunit": "hyperbolas",
+              "name": "双曲線",
+              "en": "Hyperbolas",
+              "questionCount": 30
+            },
+            {
+              "path": "C/curves-and-complex-plane/complex-plane-basics",
+              "course": "C",
+              "unit": "curves-and-complex-plane",
+              "subunit": "complex-plane-basics",
+              "name": "複素数平面の基礎",
+              "en": "Complex Plane Basics",
+              "questionCount": 30
+            },
+            {
+              "path": "C/curves-and-complex-plane/complex-plane-geometry",
+              "course": "C",
+              "unit": "curves-and-complex-plane",
+              "subunit": "complex-plane-geometry",
+              "name": "複素数平面と図形",
+              "en": "Complex Plane and Geometry",
+              "questionCount": 30
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

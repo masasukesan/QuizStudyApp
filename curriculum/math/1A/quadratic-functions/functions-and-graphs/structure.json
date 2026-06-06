@@ -1,0 +1,60 @@
+{
+  "unit_id": "functions-and-graphs",
+  "unit_name_jp": "関数とグラフ",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "vertex-form",
+      "description": "y=a(x-p)²+q の頂点・軸・形の読み取り",
+      "thinking_process": [
+        "頂点(p,q)",
+        "軸 x=p",
+        "a>0:下に凸、a<0:上に凸"
+      ],
+      "common_mistakes": [
+        "頂点の符号ミス",
+        "軸と頂点のx座標を混同"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "standard-to-vertex",
+      "description": "y=ax²+bx+c を平方完成して頂点形式に変換",
+      "thinking_process": [
+        "ax²+bx = a(x+b/2a)² - b²/4a",
+        "頂点(-b/2a, c-b²/4a)"
+      ],
+      "common_mistakes": [
+        "a≠1 のとき a で割らずに平方完成",
+        "符号ミス"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "graph-features",
+      "description": "グラフの交点・通過点・値の読み取り",
+      "thinking_process": [
+        "x=0 で y 切片",
+        "y=0 で x 軸との交点",
+        "与えた x で y の値を計算"
+      ],
+      "common_mistakes": [
+        "交点の座標の読み違い"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "coefficient-from-graph",
+      "description": "グラフや条件から係数を決定",
+      "thinking_process": [
+        "頂点・通過点・軸の方程式から係数を求める",
+        "連立方程式を立てる"
+      ],
+      "common_mistakes": [
+        "条件の過不足を確認しない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

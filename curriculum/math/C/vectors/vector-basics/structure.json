@@ -1,0 +1,94 @@
+{
+  "unit_id": "vector-basics",
+  "unit_name_jp": "ベクトルの基本",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "vb-def",
+      "description": "ベクトルの定義・表記・等しいベクトルの確認",
+      "thinking_process": [
+        "有向線分の向きと大きさを確認",
+        "始点が異なっても向きと大きさが同じなら等しい"
+      ],
+      "common_mistakes": [
+        "位置が違うと等しくないと誤解"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "vb-add",
+      "description": "ベクトルの加法・減法（三角形の法則・平行四辺形の法則）",
+      "thinking_process": [
+        "終点と始点をつなぐ",
+        "AB + BC = AC"
+      ],
+      "common_mistakes": [
+        "向きを逆にする",
+        "引き算を足し算と混同"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "vb-scalar",
+      "description": "スカラー倍・逆ベクトルの定義と計算",
+      "thinking_process": [
+        "k > 0 なら同方向",
+        "k < 0 なら逆方向",
+        "大きさは |k| 倍"
+      ],
+      "common_mistakes": [
+        "k < 0 のとき方向が逆になることを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "vb-parallel",
+      "description": "平行条件 b = ka の確認と k の決定",
+      "thinking_process": [
+        "b = ka とおく",
+        "成分比較で k を求める"
+      ],
+      "common_mistakes": [
+        "ゼロベクトルは全ベクトルと平行という誤解"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "vb-triangle",
+      "description": "三角形 OAB でベクトルを用いた点・辺の表現",
+      "thinking_process": [
+        "OA = a、OB = b とおく",
+        "AB = OB - OA = b - a"
+      ],
+      "common_mistakes": [
+        "AB = a - b と逆にする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "vb-proof-add",
+      "description": "ベクトルの加法交換法則・結合法則の証明",
+      "thinking_process": [
+        "有向線分の性質から導く",
+        "三角形の法則を適用"
+      ],
+      "common_mistakes": [
+        "数の計算と混同し証明を省略"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "vb-proof-scalar",
+      "description": "スカラー倍の分配法則 k(a + b) = ka + kb の証明",
+      "thinking_process": [
+        "有向線分を k 倍する操作",
+        "分配法則を図形的に確認"
+      ],
+      "common_mistakes": [
+        "代入だけで証明したと思う"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

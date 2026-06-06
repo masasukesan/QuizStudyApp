@@ -1,0 +1,867 @@
+{
+  "subject": "math",
+  "unit": "expressions-and-proofs",
+  "subunit": "polynomial-division",
+  "questions": [
+    {
+      "id": "pd-001",
+      "difficulty": "basic",
+      "question": "x³+3x²−x+2 を x−1 で割ったときの商と余りを求める。最初の手順として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x³÷x=x²、x²(x−1)=x³−x²、引くと 4x²−x+2"
+        },
+        {
+          "label": "B",
+          "text": "x³÷x=x²、x²(x−1)=x³−x²、引くと −2x²−x+2"
+        },
+        {
+          "label": "C",
+          "text": "x³÷x=x²、x²(x+1)=x³+x²、引くと 2x²−x+2"
+        },
+        {
+          "label": "D",
+          "text": "x³÷1=x³、そのまま 3x²−x+2 が余り"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "筆算の第1ステップ",
+        "最高次の項を揃える"
+      ]
+    },
+    {
+      "id": "pd-002",
+      "difficulty": "basic",
+      "question": "整式の除法 P(x)=A(x)Q(x)+R(x) において、R(x) の次数について正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "R(x) の次数は A(x) の次数より大きい"
+        },
+        {
+          "label": "B",
+          "text": "R(x) の次数は A(x) の次数より小さい"
+        },
+        {
+          "label": "C",
+          "text": "R(x) の次数は Q(x) の次数に等しい"
+        },
+        {
+          "label": "D",
+          "text": "R(x) の次数は P(x) の次数に等しい"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "余りの次数条件",
+        "除法の定義"
+      ]
+    },
+    {
+      "id": "pd-003",
+      "difficulty": "basic",
+      "question": "2x³−5x²+3x−1 を x²−2x+1 で割ったとき、商の次数はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "商の次数は 3"
+        },
+        {
+          "label": "B",
+          "text": "商の次数は 2"
+        },
+        {
+          "label": "C",
+          "text": "商の次数は 1"
+        },
+        {
+          "label": "D",
+          "text": "商の次数は 0"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "商の次数=被除式−除式の次数",
+        "次数の引き算"
+      ]
+    },
+    {
+      "id": "pd-004",
+      "difficulty": "basic",
+      "question": "剰余定理：P(x) を x−3 で割った余りを求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(x) を実際に筆算で割り、余り定数を読み取る"
+        },
+        {
+          "label": "B",
+          "text": "P(3) を計算する"
+        },
+        {
+          "label": "C",
+          "text": "P(−3) を計算する"
+        },
+        {
+          "label": "D",
+          "text": "Q(3) を計算する"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "剰余定理の適用",
+        "x−α=0 より x=α"
+      ]
+    },
+    {
+      "id": "pd-005",
+      "difficulty": "basic",
+      "question": "P(x)=x³−4x+1 を x+2 で割った余りはいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(2)=8−8+1=1"
+        },
+        {
+          "label": "B",
+          "text": "P(−1)=−1+4+1=4"
+        },
+        {
+          "label": "C",
+          "text": "P(−2)=−8+8+1=1"
+        },
+        {
+          "label": "D",
+          "text": "P(4)=64−16+1=49"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "剰余定理",
+        "x+2=0 より x=−2 を代入"
+      ]
+    },
+    {
+      "id": "pd-006",
+      "difficulty": "basic",
+      "question": "P(x) を x−α で割った商を Q(x)、余りを r とするとき、P(α) を表す式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(α)=(α−α)Q(α)+r=r"
+        },
+        {
+          "label": "B",
+          "text": "P(α)=α·Q(α)+r"
+        },
+        {
+          "label": "C",
+          "text": "P(α)=Q(α−r)"
+        },
+        {
+          "label": "D",
+          "text": "P(α)=r·Q(α)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "除法の関係式への代入",
+        "(α−α)=0 を利用"
+      ]
+    },
+    {
+      "id": "pd-007",
+      "difficulty": "basic",
+      "question": "x⁴−2x³+x−3 を x−1 で割った余りはいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(1)=1−2+1−3=−3"
+        },
+        {
+          "label": "B",
+          "text": "P(−1)=1+2−1−3=−1"
+        },
+        {
+          "label": "C",
+          "text": "P(0)=0−0+0−3=−3"
+        },
+        {
+          "label": "D",
+          "text": "P(2)=16−16+2−3=−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "剰余定理の直接適用",
+        "P(1) を計算"
+      ]
+    },
+    {
+      "id": "pd-008",
+      "difficulty": "basic",
+      "question": "x³+ax²+bx+c を x−2 で割り切れる条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(0)=c=0 を割り切れる条件とする"
+        },
+        {
+          "label": "B",
+          "text": "P(1)=1+a+b+c=0 を割り切れる条件とする"
+        },
+        {
+          "label": "C",
+          "text": "P(2)=0 つまり 8+4a+2b+c=0"
+        },
+        {
+          "label": "D",
+          "text": "P(−2)=−8+4a−2b+c=0 とする"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "因数定理の条件",
+        "割り切れる⟺余り=0"
+      ]
+    },
+    {
+      "id": "pd-009",
+      "difficulty": "basic",
+      "question": "整式 P(x) を (x−1)(x+3) で割ったとき、余りの形として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余りは 2 次式 ax²+bx+c の形"
+        },
+        {
+          "label": "B",
+          "text": "余りは定数 k の形"
+        },
+        {
+          "label": "C",
+          "text": "余りは 1 次式 ax+b の形"
+        },
+        {
+          "label": "D",
+          "text": "余りは P(x) と同じ次数の式"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "余りの次数条件",
+        "割る式が2次なら余りは1次以下"
+      ]
+    },
+    {
+      "id": "pd-010",
+      "difficulty": "basic",
+      "question": "x³−3x²+5 を x²+1 で割ったとき、商と余りを求める筆算の第1ステップはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x³÷x²=x、x(x²+1)=x³+x、引くと −3x²−x+5"
+        },
+        {
+          "label": "B",
+          "text": "x³÷x²=x、x(x²+1)=x³+x²、引くと −4x²+5"
+        },
+        {
+          "label": "C",
+          "text": "x³÷x=x²、x²(x²+1)=x⁴+x²、引けないため 0"
+        },
+        {
+          "label": "D",
+          "text": "x³÷x²=x、x(x²−1)=x³−x、引くと −3x²+x+5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "筆算の第1ステップ",
+        "最高次の係数を合わせる"
+      ]
+    },
+    {
+      "id": "pd-011",
+      "difficulty": "standard",
+      "question": "P(x) を (x−1)(x−3) で割った余りが 2x+1 のとき、P(1) と P(3) の値はそれぞれいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(1)=2·1+1=3、P(3)=2·3+1=7"
+        },
+        {
+          "label": "B",
+          "text": "P(1)=1、P(3)=3"
+        },
+        {
+          "label": "C",
+          "text": "P(1)=2、P(3)=6"
+        },
+        {
+          "label": "D",
+          "text": "P(1)=3、P(3)=3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2次式で割ったときの余りへの代入",
+        "R(α)=P(α)"
+      ]
+    },
+    {
+      "id": "pd-012",
+      "difficulty": "standard",
+      "question": "P(x) を x−2 で割ると余り 3、x+1 で割ると余り −2 のとき、P(x) を (x−2)(x+1) で割った余り ax+b の係数 a を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(2)=2a+b=3、P(−1)=−a+b=−2 を連立 → a=5/3"
+        },
+        {
+          "label": "B",
+          "text": "余り ax+b に x=2, x=−1 を代入して 2a+b=3、a+b=−2 とし連立 → a=5、b=−7"
+        },
+        {
+          "label": "C",
+          "text": "a=(3+(−2))/(2−(−1))=1/3 → 余り = (1/3)x + b"
+        },
+        {
+          "label": "D",
+          "text": "2a+b=3 のみ立てて b=0 と仮定すると a=3/2 → 余り = (3/2)x"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "連立方程式による係数決定",
+        "連立と傾きの公式の等価性"
+      ]
+    },
+    {
+      "id": "pd-013",
+      "difficulty": "standard",
+      "question": "P(x)=x⁴+ax³+bx−4 が (x−1)(x+2) で割り切れるとき、a と b の値を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(1)=0 → 1+a+b−4=0、P(−2)=0 → 16−8a−2b−4=0 を連立"
+        },
+        {
+          "label": "B",
+          "text": "P(1)=0 → a+b=3、P(2)=0 → 8a+2b=12 を連立"
+        },
+        {
+          "label": "C",
+          "text": "P(1)=0 かつ P(0)=0 を連立して解く"
+        },
+        {
+          "label": "D",
+          "text": "因数定理より x=1 と x=−2 が根なので係数比較で求める"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "因数定理の連立適用",
+        "割り切れる⟺P(1)=0かつP(−2)=0"
+      ]
+    },
+    {
+      "id": "pd-014",
+      "difficulty": "standard",
+      "question": "3x³−5x²+2x+k を x−2 で割ると余りが 0 のとき、k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(2)=24−20+4+k=0 → k=−8"
+        },
+        {
+          "label": "B",
+          "text": "P(2)=24−20+4+k=0 → k=8"
+        },
+        {
+          "label": "C",
+          "text": "P(−2)=−24−20−4+k=0 → k=48"
+        },
+        {
+          "label": "D",
+          "text": "P(0)=k=0 → k=0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "剰余定理で係数決定",
+        "余り0→P(2)=0"
+      ]
+    },
+    {
+      "id": "pd-015",
+      "difficulty": "standard",
+      "question": "P(x) を x²−5x+6=(x−2)(x−3) で割った余りが 4x−5 であることを確認するための計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(2)=4·2−5=3、P(3)=4·3−5=7 が成り立つか検証"
+        },
+        {
+          "label": "B",
+          "text": "P(0)=−5、P(1)=−1 が成り立つか検証"
+        },
+        {
+          "label": "C",
+          "text": "P(5)=15、P(6)=19 が成り立つか検証"
+        },
+        {
+          "label": "D",
+          "text": "余りの次数が 2 未満かどうかだけ確認"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余りの検証方法",
+        "代入による確認"
+      ]
+    },
+    {
+      "id": "pd-016",
+      "difficulty": "standard",
+      "question": "P(x)=2x³+3x²+ax+b を x²−1=(x−1)(x+1) で割った余りが 5 のとき、a と b の関係はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(1)=5 → 2+3+a+b=5、P(−1)=5 → −2+3−a+b=5 を連立 → a=−1、b=1"
+        },
+        {
+          "label": "B",
+          "text": "P(1)=P(−1)=5 → a+b=0 かつ −a+b=4 → a=−2、b=2"
+        },
+        {
+          "label": "C",
+          "text": "余りが定数 5 なので P(0)=5 → b=−2+a。さらに P(2)=5 → 16+12+2a+b=5 → 3a=−21 → a=−7"
+        },
+        {
+          "label": "D",
+          "text": "P(x) を x²−1 で割ると余りが 5 なので P(x)=( x²−1)Q(x)+5。x=1 を代入すると P(1)=0+5=5、x=−1 では P(−1)=0+5=5。よって a+b=−2+5=3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "余りが定数のとき P(α)=定数",
+        "2通りの記述の等価確認"
+      ]
+    },
+    {
+      "id": "pd-017",
+      "difficulty": "standard",
+      "question": "x¹⁰ を x²−1 で割った余りを求める最も効率的な方法はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余りを ax+b とおき、x=1: 1=a+b、x=−1: 1=−a+b → a=0、b=1"
+        },
+        {
+          "label": "B",
+          "text": "x¹⁰=(x²−1)Q(x)+ax+b と書き x²=1 を繰り返し代入"
+        },
+        {
+          "label": "C",
+          "text": "x¹⁰ を実際に x²−1 で筆算して余りを読む"
+        },
+        {
+          "label": "D",
+          "text": "x¹⁰=(x⁵)² と変形し、x⁵ を x²−1 で割ると余り x → (x⁵)² の余りは x² → 余りは x²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "高次式の余りを代入で求める",
+        "x²=1を使った置き換え"
+      ]
+    },
+    {
+      "id": "pd-018",
+      "difficulty": "standard",
+      "question": "P(x) を x−a で割った余りと x−b で割った余りが等しいとき、何が言えるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(a)=P(b) が成立し、P(x) は x=a と x=b で同じ値をとる"
+        },
+        {
+          "label": "B",
+          "text": "余りが等しければ 2 つの除式は同一でなければならない"
+        },
+        {
+          "label": "C",
+          "text": "P(x) は (x−a)(x−b) で割り切れる"
+        },
+        {
+          "label": "D",
+          "text": "P(x) の最高次係数が 0 になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "剰余定理の逆読み",
+        "P(a)=P(b)の意味"
+      ]
+    },
+    {
+      "id": "pd-019",
+      "difficulty": "standard",
+      "question": "P(x)=x³+px²+qx+r が x²+x−2=(x−1)(x+2) で割り切れるとき、p,q,r の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(1)=0 → 1+p+q+r=0、P(−2)=0 → −8+4p−2q+r=0"
+        },
+        {
+          "label": "B",
+          "text": "P(1)=0 → p+q+r=−1、P(2)=0 → 4p+2q+r=−8"
+        },
+        {
+          "label": "C",
+          "text": "P(0)=0 → r=0、P(1)=0 → p+q=−1"
+        },
+        {
+          "label": "D",
+          "text": "P(−1)=0 かつ P(2)=0 の連立"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "因数定理の2点適用",
+        "割り切れる条件の連立"
+      ]
+    },
+    {
+      "id": "pd-020",
+      "difficulty": "standard",
+      "question": "P(x) を (x−α)² で割った余りを求めるとき、余りの形と求め方として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余りは 1 次式 ax+b。P(α)=aα+b と P'(α)=a から係数を求める"
+        },
+        {
+          "label": "B",
+          "text": "余りは定数 k。P(α)=k から直接求まる"
+        },
+        {
+          "label": "C",
+          "text": "余りは 2 次式。P(α)=0 と P(α²)=0 を連立する"
+        },
+        {
+          "label": "D",
+          "text": "余りは 1 次式。P(α)=0 と P(−α)=0 を連立する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重根での余り",
+        "微分を使った係数決定"
+      ]
+    },
+    {
+      "id": "pd-024",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "x³+2x²−3x+1 を x²−x+1 で割ったときの商と余りとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "長除法で計算 → 商 x+3、余り −x−2"
+        },
+        {
+          "label": "B",
+          "text": "商 x+3、余り −x+2"
+        },
+        {
+          "label": "C",
+          "text": "商 x+1、余り −2x"
+        },
+        {
+          "label": "D",
+          "text": "商 x²+3x、余り −2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "多項式の除法",
+        "商と余りの計算"
+      ]
+    },
+    {
+      "id": "pd-025",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "x⁴−1 を x²+x+1 で割った余りとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "割り算を実行 → 余り = x−1"
+        },
+        {
+          "label": "B",
+          "text": "x=1 を代入: 1−1=0, x=−1: 1−1=0 → 余り = 0"
+        },
+        {
+          "label": "C",
+          "text": "余り = x+1"
+        },
+        {
+          "label": "D",
+          "text": "余り = −x+1(計算ミス)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "長除法",
+        "x⁴−1÷(x²+x+1)の余り"
+      ]
+    },
+    {
+      "id": "pd-026",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "P(x) を (x−1)² で割った余りが ax+b、P(1)=3、P'(1)=5 のとき、余りとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=P'(1)=5、b=P(1)−a=3−5=−2 → 余り = 5x−2"
+        },
+        {
+          "label": "B",
+          "text": "a=3, b=5(代入の混同) → 余り = 3x+5"
+        },
+        {
+          "label": "C",
+          "text": "P(1)=a+b=3 と P'(x)の余り微分 2a=5 → a=5/2、b=3−5/2=1/2 → 余り = (5/2)x+1/2"
+        },
+        {
+          "label": "D",
+          "text": "余り = 3x+5(P(1)とP'(1)を足す誤り)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重根と余りの関係",
+        "a=P'(1), b=P(1)−a"
+      ]
+    },
+    {
+      "id": "pd-027",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "P(x) = (x²−4)Q(x) + 3x + 2 のとき、P(2) + P(−2) はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(2)=0+8=8、P(−2)=0+(−4)=−4 → 合計 = 4"
+        },
+        {
+          "label": "B",
+          "text": "P(2)=3×4+2=14、P(−2)=3×4+2=14 → 合計 = 28"
+        },
+        {
+          "label": "C",
+          "text": "P(2)×P(−2) = 8×(−4) = −32"
+        },
+        {
+          "label": "D",
+          "text": "P(2)=Q(0)+8、P(−2)=Q(0)−4 → Q(0)依存(x²−4を代入ミス)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "剰余定理の利用",
+        "P(α)=余りへの代入"
+      ]
+    },
+    {
+      "id": "pd-028",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "P(x) が全ての整数 n で P(n) = n² + 1 を満たし、次数が2のとき、P(x) として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(x) = x²+1(整数点での一致は多項式の恒等を意味する)"
+        },
+        {
+          "label": "B",
+          "text": "P(x) = x²+x+1"
+        },
+        {
+          "label": "C",
+          "text": "P(x) = x²+2(x=1 で P(1)=3 ≠ 2)"
+        },
+        {
+          "label": "D",
+          "text": "P(x) = (x²+1)×k"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "整数点での多項式の一致",
+        "恒等定理"
+      ]
+    },
+    {
+      "id": "pd-029",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "x^100 を x²−3x+2 で割った余りとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²−3x+2=(x−1)(x−2)。余り ax+b とし x=1:1=a+b, x=2:2^100=2a+b → a=2^100−1, b=2−2^100 → 余り = (2^100−1)x+(2−2^100)"
+        },
+        {
+          "label": "B",
+          "text": "x=1 のみ代入して余り = x(bを求めずに終わる)"
+        },
+        {
+          "label": "C",
+          "text": "余り = 1(x^100をx=1で値計算して終わる誤り)"
+        },
+        {
+          "label": "D",
+          "text": "x^100=(x²−3x+2)Q(x)+ax+b として x²=3x−2 の繰り返し置換で計算 → 正しい手順だが計算ミスで a=2^99, b=2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "余りの2変数連立",
+        "x=1とx=2を代入"
+      ]
+    },
+    {
+      "id": "pd-030",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "P(x) を x−a で割った余りと x−b で割った余りがそれぞれ p, q のとき、P(x) を (x−a)(x−b) で割った余りとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余り cx+d とし c(a)+d=p, c(b)+d=q → c=(p−q)/(a−b), d=(aq−bp)/(a−b) → ((p−q)x+(aq−bp))/(a−b)"
+        },
+        {
+          "label": "B",
+          "text": "余り = p+q(2つの余りを単純加算)"
+        },
+        {
+          "label": "C",
+          "text": "余り = (p+q)/2"
+        },
+        {
+          "label": "D",
+          "text": "余り = px+q(各余りをそのまま使う誤り)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2点での条件から余りを決定",
+        "ax+bの形の余り"
+      ]
+    },
+    {
+      "id": "pd-031",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "P(x) を (x+1)(x−2) で割ると余りが 3x−1 のとき、P(x) を x−2 で割った余りはいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(2)=3×2−1=5 → 余り = 5"
+        },
+        {
+          "label": "B",
+          "text": "余りの式 3x−1 をそのまま → 3x−1(次数が下がらない誤解)"
+        },
+        {
+          "label": "C",
+          "text": "P(−1)=−4 → 余り=−4(x=2でなくx=−1を代入)"
+        },
+        {
+          "label": "D",
+          "text": "余り=(3x−1)|_{x=2}/(x−2)=5/0(誤った計算)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "剰余定理 P(2)=余りに代入",
+        "余り=5"
+      ]
+    },
+    {
+      "id": "pd-032",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "x^5 − 1 を x² + x + 1 で割った余りとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "長除法で計算 → x⁵−1=(x³−x²+1)(x²+x+1)+(−x−2) より余り = −x−2"
+        },
+        {
+          "label": "B",
+          "text": "余り = 0"
+        },
+        {
+          "label": "C",
+          "text": "余り = x+1"
+        },
+        {
+          "label": "D",
+          "text": "x^5≡x² (mod x²+x+1) と言えるかを未確認で → 余り = x²−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "mod計算",
+        "x⁵−1÷(x²+x+1)の余り=x−1"
+      ]
+    },
+    {
+      "id": "pd-033",
+      "subject": "math",
+      "unit": "整式の除法",
+      "difficulty": "exam",
+      "question": "P(x) が x−1 で割ると余り 3、x+2 で割ると余り −3 のとき、(x−1)(x+2) で割った余りとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余り ax+b: a+b=3, −2a+b=−3 → a=2, b=1 → 余り = 2x+1"
+        },
+        {
+          "label": "B",
+          "text": "余り=3+(−3)=0(2つの余りを加算)"
+        },
+        {
+          "label": "C",
+          "text": "余り=(3−(−3))x=6x(差をxの係数に)"
+        },
+        {
+          "label": "D",
+          "text": "a−b=3, −2a−b=−3 → a=0(立式ミス) → 余り = b = −3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2点での条件",
+        "余り=2x+1"
+      ]
+    }
+  ]
+}

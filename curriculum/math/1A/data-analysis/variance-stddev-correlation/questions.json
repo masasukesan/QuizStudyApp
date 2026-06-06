@@ -1,0 +1,848 @@
+{
+  "subject": "数学1A",
+  "unit": "分散・標準偏差・相関",
+  "questions": [
+    {
+      "id": "vsc-001",
+      "difficulty": "basic",
+      "question": "分散の定義を述べよ。データ {2, 4, 6, 8, 10} の分散は？（平均=6）",
+      "choices": [
+        {
+          "label": "A",
+          "text": "偏差²の平均=(16+4+0+4+16)/5=40/5=8"
+        },
+        {
+          "label": "B",
+          "text": "分散 = 偏差の平均 = 0"
+        },
+        {
+          "label": "C",
+          "text": "分散 = 範囲² = (10-2)² = 64"
+        },
+        {
+          "label": "D",
+          "text": "分散 = 各データの²の平均 = (4+16+36+64+100)/5 = 44"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散の定義",
+        "偏差の2乗の平均"
+      ]
+    },
+    {
+      "id": "vsc-002",
+      "difficulty": "basic",
+      "question": "標準偏差の定義と分散との関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "標準偏差 = √分散。データと同じ単位に戻すため平方根をとる"
+        },
+        {
+          "label": "B",
+          "text": "標準偏差 = 分散/2"
+        },
+        {
+          "label": "C",
+          "text": "標準偏差 = 分散²"
+        },
+        {
+          "label": "D",
+          "text": "標準偏差 = 分散"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標準偏差=√分散",
+        "単位の一致"
+      ]
+    },
+    {
+      "id": "vsc-003",
+      "difficulty": "basic",
+      "question": "データ {4, 4, 4, 4, 4} の分散と標準偏差は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全データが同じ値→偏差は全て0→分散=0、標準偏差=0"
+        },
+        {
+          "label": "B",
+          "text": "データが5個あるから分散=5"
+        },
+        {
+          "label": "C",
+          "text": "分散=4"
+        },
+        {
+          "label": "D",
+          "text": "分散=1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散=0の意味",
+        "全データ同値のとき散らばりなし"
+      ]
+    },
+    {
+      "id": "vsc-004",
+      "difficulty": "basic",
+      "question": "分散の計算式 σ² = (1/n)Σ(xᵢ - x̄)² を展開すると σ² = x²の平均 - (平均)² となる。これを確認せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1/n)Σ(xᵢ-x̄)²を展開するとx²の平均-(x̄)²になる"
+        },
+        {
+          "label": "B",
+          "text": "展開すると σ² = (1/n)Σxᵢ² + x̄²"
+        },
+        {
+          "label": "C",
+          "text": "展開できず元の式のまま使う"
+        },
+        {
+          "label": "D",
+          "text": "σ² = (Σxᵢ)²/n - x̄²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散の別公式",
+        "σ²=x²平均-(x平均)²"
+      ]
+    },
+    {
+      "id": "vsc-005",
+      "difficulty": "basic",
+      "question": "相関係数 r の範囲は？r = 1 と r = -1 はそれぞれ何を意味するか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1≤r≤1。r=1は完全正相関、r=-1は完全負相関"
+        },
+        {
+          "label": "B",
+          "text": "0 ≤ r ≤ 1"
+        },
+        {
+          "label": "C",
+          "text": "-∞ < r < ∞"
+        },
+        {
+          "label": "D",
+          "text": "-1 ≤ r ≤ 1。r=1は全データが同じ値、r=-1は全データが逆順"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相関係数の範囲",
+        "r=1/-1の意味"
+      ]
+    },
+    {
+      "id": "vsc-006",
+      "difficulty": "basic",
+      "question": "共分散の定義は？2変数 x と y の共分散 sxy の式を書け。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sxy = (1/n)Σ(xᵢ-x̄)(yᵢ-ȳ)。x の偏差と y の偏差の積の平均"
+        },
+        {
+          "label": "B",
+          "text": "sxy = (1/n)Σ(xᵢ+yᵢ)²"
+        },
+        {
+          "label": "C",
+          "text": "sxy = Σxᵢ × Σyᵢ / n²"
+        },
+        {
+          "label": "D",
+          "text": "sxy = (sx + sy)/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "共分散の定義",
+        "(1/n)Σ(x-x̄)(y-ȳ)"
+      ]
+    },
+    {
+      "id": "vsc-007",
+      "difficulty": "basic",
+      "question": "相関係数 r の公式を共分散と標準偏差で表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r = sxy / (sx × sy)。共分散を x と y の標準偏差の積で割る"
+        },
+        {
+          "label": "B",
+          "text": "r = sx × sy"
+        },
+        {
+          "label": "C",
+          "text": "r = sxy²"
+        },
+        {
+          "label": "D",
+          "text": "r = (sx + sy) / 2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相関係数の公式",
+        "r=sxy/(sx×sy)"
+      ]
+    },
+    {
+      "id": "vsc-008",
+      "difficulty": "basic",
+      "question": "散布図で点が右上がりに集まっているとき、相関係数 r の値はどうなるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "右上がり → x が大きいと y も大きい → 正の相関 → r > 0"
+        },
+        {
+          "label": "B",
+          "text": "右上がりの散布図は負の相関を示す"
+        },
+        {
+          "label": "C",
+          "text": "右上がりでも r = 0"
+        },
+        {
+          "label": "D",
+          "text": "r = 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正の相関と相関係数",
+        "r>0の意味"
+      ]
+    },
+    {
+      "id": "vsc-009",
+      "difficulty": "basic",
+      "question": "データ全体に定数 c を加えたとき、分散と標準偏差はどう変わるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "分散・標準偏差は変わらない"
+        },
+        {
+          "label": "B",
+          "text": "分散が c² だけ増える"
+        },
+        {
+          "label": "C",
+          "text": "標準偏差が c だけ増える"
+        },
+        {
+          "label": "D",
+          "text": "分散も標準偏差も c 倍になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定数加算と分散",
+        "偏差はc加算で変わらない"
+      ]
+    },
+    {
+      "id": "vsc-010",
+      "difficulty": "basic",
+      "question": "データ全体を定数 k（k > 0）倍したとき、分散と標準偏差はどう変わるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "分散はk²倍、標準偏差はk倍になる"
+        },
+        {
+          "label": "B",
+          "text": "分散も標準偏差も k 倍になる"
+        },
+        {
+          "label": "C",
+          "text": "分散は k 倍、標準偏差は k² 倍"
+        },
+        {
+          "label": "D",
+          "text": "分散・標準偏差は変わらない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "定数倍と分散",
+        "分散はk²倍、標準偏差はk倍"
+      ]
+    },
+    {
+      "id": "vsc-011",
+      "difficulty": "standard",
+      "question": "データ {3, 5, 7, 9, 11} の分散と標準偏差を計算せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "偏差²の平均=8、標準偏差=√8=2√2≈2.83"
+        },
+        {
+          "label": "B",
+          "text": "分散=(11-3)²/5=64/5=12.8"
+        },
+        {
+          "label": "C",
+          "text": "標準偏差=範囲/4=8/4=2"
+        },
+        {
+          "label": "D",
+          "text": "分散=8、標準偏差=8"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散・標準偏差の計算",
+        "偏差の2乗の平均"
+      ]
+    },
+    {
+      "id": "vsc-012",
+      "difficulty": "standard",
+      "question": "相関係数が r ≈ 0 のとき何を意味するか。また「相関がない」と「因果関係がない」の違いは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r≈0は線形相関の欠如を示す。非線形関係や擬似相関の可能性は残る"
+        },
+        {
+          "label": "B",
+          "text": "r=0は x と y が完全に無関係であることを意味し、因果関係もないと言える"
+        },
+        {
+          "label": "C",
+          "text": "r=0なら相関も因果もなく、2変数は独立"
+        },
+        {
+          "label": "D",
+          "text": "r≈0は測定誤差を示し、データを増やせば相関が現れる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相関係数=0の意味",
+        "相関と因果関係の違い"
+      ]
+    },
+    {
+      "id": "vsc-013",
+      "difficulty": "standard",
+      "question": "次のデータ(x,y)の相関係数を求める手順: (1,2),(2,4),(3,6),(4,8),(5,10)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sxy=4、sx=√2、sy=2√2 → r=4/(√2×2√2)=1"
+        },
+        {
+          "label": "B",
+          "text": "y=2x の関係があるから r=2"
+        },
+        {
+          "label": "C",
+          "text": "r = Σxᵢyᵢ / (Σxᵢ×Σyᵢ)"
+        },
+        {
+          "label": "D",
+          "text": "r = sxy / (sx + sy) = 4/(3√2) ≈ 0.94"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相関係数の計算手順",
+        "完全線形関係でr=1"
+      ]
+    },
+    {
+      "id": "vsc-014",
+      "difficulty": "standard",
+      "question": "偏差値の定義式と意味を述べよ。元のデータから偏差値を計算する手順は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "偏差値=50+10×(個人値-平均)÷標準偏差"
+        },
+        {
+          "label": "B",
+          "text": "偏差値 = (個人値 / 平均) × 50"
+        },
+        {
+          "label": "C",
+          "text": "偏差値 = 個人値 - 平均"
+        },
+        {
+          "label": "D",
+          "text": "偏差値 = 100 - (最高点 - 個人値)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "偏差値の定義",
+        "50+10×Z得点"
+      ]
+    },
+    {
+      "id": "vsc-015",
+      "difficulty": "standard",
+      "question": "平均80、標準偏差10の試験で得点90点の偏差値は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Z = (90-80)/10 = 1。偏差値 = 50 + 10×1 = 60"
+        },
+        {
+          "label": "B",
+          "text": "偏差値 = 90 - 80 = 10"
+        },
+        {
+          "label": "C",
+          "text": "偏差値 = 90/80 × 50 = 56.25"
+        },
+        {
+          "label": "D",
+          "text": "偏差値 = 80 + (90-80)/10 × 10 = 90"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "偏差値の計算",
+        "Z=(x-μ)/σ"
+      ]
+    },
+    {
+      "id": "vsc-016",
+      "difficulty": "standard",
+      "question": "2組A・Bの成績を比較する。A: 平均70・標準偏差15、B: 平均65・標準偏差5。A組で80点の生徒とB組で70点の生徒は相対的にどちらが優れているか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A組Z≈0.67、B組Z=1.0 → B組の70点が相対的に優れている"
+        },
+        {
+          "label": "B",
+          "text": "絶対点数が高いA組の80点の方が優れている"
+        },
+        {
+          "label": "C",
+          "text": "平均より10点高いのはどちらも同じだから同等"
+        },
+        {
+          "label": "D",
+          "text": "標準偏差が大きいA組の方が信頼性が高い"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Z得点による比較",
+        "標準偏差が異なる集団の比較"
+      ]
+    },
+    {
+      "id": "vsc-017",
+      "difficulty": "standard",
+      "question": "共分散が正・負・0のとき、それぞれ x と y の関係はどうなっているか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sxy>0→正の共変動、sxy<0→負の共変動、sxy=0→無相関"
+        },
+        {
+          "label": "B",
+          "text": "共分散は常に正の値"
+        },
+        {
+          "label": "C",
+          "text": "sxy=0のとき x と y は必ず独立"
+        },
+        {
+          "label": "D",
+          "text": "共分散の符号は x の単位によって変わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "共分散の符号の意味",
+        "正・負・0の解釈"
+      ]
+    },
+    {
+      "id": "vsc-018",
+      "difficulty": "standard",
+      "question": "分散 σ² を計算する「x²の平均 - (x平均)²」の公式が「偏差の2乗の平均」と等しいことを代数的に確認せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1/n)Σ(xᵢ-x̄)²を展開するとx²の平均-(x̄)²になる"
+        },
+        {
+          "label": "B",
+          "text": "二つの公式は等しくなく、場合によって使い分ける"
+        },
+        {
+          "label": "C",
+          "text": "(x²の平均) - (x̄)² = (x平均)² - x̄²"
+        },
+        {
+          "label": "D",
+          "text": "代数的証明はできないが数値的に確認できる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散の公式の等価性",
+        "代数的証明"
+      ]
+    },
+    {
+      "id": "vsc-019",
+      "difficulty": "standard",
+      "question": "標準化（z-スコア変換）を行うと平均と標準偏差はどうなるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "z変換後: 平均=0、標準偏差=1"
+        },
+        {
+          "label": "B",
+          "text": "平均は0になるが標準偏差は変わらない"
+        },
+        {
+          "label": "C",
+          "text": "平均も標準偏差も変わらない"
+        },
+        {
+          "label": "D",
+          "text": "平均は1になり標準偏差は0になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標準化変換",
+        "平均0・標準偏差1"
+      ]
+    },
+    {
+      "id": "vsc-020",
+      "difficulty": "standard",
+      "question": "相関係数は x・y の単位変換（スケール変換）に影響されないのはなぜか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rは分子・分母の単位がキャンセルされるため単位変換後も不変"
+        },
+        {
+          "label": "B",
+          "text": "相関係数は単位に依存するから変換すると変わる"
+        },
+        {
+          "label": "C",
+          "text": "共分散は単位に依存するが相関係数は偶然単位不変になる"
+        },
+        {
+          "label": "D",
+          "text": "単位変換すると r の符号だけが変わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相関係数の単位不変性",
+        "スケール変換の影響"
+      ]
+    },
+    {
+      "id": "vsc-021",
+      "difficulty": "exam",
+      "question": "x の分散 σx² = 4、y の分散 σy² = 9、x と y の共分散 sxy = 3 のとき相関係数 r は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "σx=2、σy=3 → r=sxy/(σx×σy)=3/(2×3)=0.5"
+        },
+        {
+          "label": "B",
+          "text": "r = sxy = 3"
+        },
+        {
+          "label": "C",
+          "text": "r = sxy/(σx²×σy²) = 3/36"
+        },
+        {
+          "label": "D",
+          "text": "r = √(sxy/(σx×σy)) = √(0.5) ≈ 0.71"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相関係数の計算",
+        "標準偏差=√分散"
+      ]
+    },
+    {
+      "id": "vsc-022",
+      "difficulty": "exam",
+      "question": "「擬似相関」とはどのような状況か。例を挙げて説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "共通の第3変数が原因で相関が生じるが直接の因果はない状況"
+        },
+        {
+          "label": "B",
+          "text": "相関係数が1に近いが実際には逆の因果関係がある状況"
+        },
+        {
+          "label": "C",
+          "text": "サンプルサイズが小さいときに偶然生じる相関"
+        },
+        {
+          "label": "D",
+          "text": "2変数が全く無関係のときに計算上現れる数値誤差"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "擬似相関",
+        "交絡変数",
+        "相関≠因果"
+      ]
+    },
+    {
+      "id": "vsc-023",
+      "difficulty": "exam",
+      "question": "n個のデータの分散を σ² とする。データ全体を a 倍して b を加えた新データ y = ax + b の分散と標準偏差は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y の分散 = a²σ²。y の標準偏差 = |a|σ"
+        },
+        {
+          "label": "B",
+          "text": "y の分散 = a²σ² + b²"
+        },
+        {
+          "label": "C",
+          "text": "y の分散 = (a+b)²σ²"
+        },
+        {
+          "label": "D",
+          "text": "y の分散 = aσ² + b"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "線形変換と分散",
+        "y=ax+bのとき分散はa²倍"
+      ]
+    },
+    {
+      "id": "vsc-024",
+      "difficulty": "exam",
+      "question": "2変数 x, y について Var(x+y) = Var(x) + Var(y) + 2Cov(x,y) が成り立つことを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Var(x+y)=Var(x)+2Cov(x,y)+Var(y)"
+        },
+        {
+          "label": "B",
+          "text": "2つの分散の和 σx² + σy² のみ"
+        },
+        {
+          "label": "C",
+          "text": "2つの分散の積 σx² × σy²"
+        },
+        {
+          "label": "D",
+          "text": "Var(x+y) = √(Var(x)² + Var(y)²)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分散の加法公式",
+        "Var(x+y)の展開"
+      ]
+    },
+    {
+      "id": "vsc-025",
+      "difficulty": "exam",
+      "question": "標本分散（n-1 で割る）と母分散（n で割る）の使い分けを説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nで割る=母分散、n-1で割る=標本分散"
+        },
+        {
+          "label": "B",
+          "text": "n が大きいときは n-1 で割り、小さいときは n で割る"
+        },
+        {
+          "label": "C",
+          "text": "標本分散と母分散は全く同じもので、どちらも n で割る"
+        },
+        {
+          "label": "D",
+          "text": "n-1 で割るのは外れ値の影響を減らすためで、統計的な理由はない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "不偏分散",
+        "ベッセル補正",
+        "n-1の理由"
+      ]
+    },
+    {
+      "id": "vsc-026",
+      "difficulty": "exam",
+      "question": "相関係数 r = 0.8 のとき、決定係数 R² はいくつか。何を意味するか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "R²=r²=0.64"
+        },
+        {
+          "label": "B",
+          "text": "R² = r = 0.8"
+        },
+        {
+          "label": "C",
+          "text": "R² = 2r = 1.6"
+        },
+        {
+          "label": "D",
+          "text": "R² = √r ≈ 0.89"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "決定係数R²=r²",
+        "説明できる変動の割合"
+      ]
+    },
+    {
+      "id": "vsc-027",
+      "difficulty": "exam",
+      "question": "チェビシェフの不等式: P(|X - μ| ≥ kσ) ≤ 1/k² を使って、k=2 のとき少なくとも何%のデータが μ±2σ 内に含まれるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(|X-μ|<2σ)≥75%。分布不問で少なくとも75%"
+        },
+        {
+          "label": "B",
+          "text": "正規分布では95%"
+        },
+        {
+          "label": "C",
+          "text": "P(|X-μ| ≥ 2σ) ≤ 1/2 なので少なくとも50%"
+        },
+        {
+          "label": "D",
+          "text": "チェビシェフの不等式では k=2 のとき100%"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェビシェフの不等式",
+        "分布不問の確率の下限"
+      ]
+    },
+    {
+      "id": "vsc-028",
+      "difficulty": "exam",
+      "question": "相関係数が高い2変数でも回帰係数（回帰直線の傾き）は全く異なる場合がある。なぜか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b=r×(sy/sx)なのでrが同じでもsy/sx次第で傾きは変わる"
+        },
+        {
+          "label": "B",
+          "text": "相関係数と回帰係数は常に同じ値"
+        },
+        {
+          "label": "C",
+          "text": "回帰係数は相関係数の2倍"
+        },
+        {
+          "label": "D",
+          "text": "単位が違うだけで実質的に同じ情報"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "回帰係数と相関係数の関係",
+        "b=r×(sy/sx)"
+      ]
+    },
+    {
+      "id": "vsc-029",
+      "difficulty": "exam",
+      "question": "n個のデータの平均が m、分散が σ² のとき、(n+1) 個目に値 a を追加したときの新しい平均と分散を求める更新式は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "新平均=(nm+a)/(n+1)、新分散=[nσ²+n(m-m')²+(a-m')²]/(n+1)"
+        },
+        {
+          "label": "B",
+          "text": "新平均 = (m+a)/2、新分散 = (σ²+a²)/2"
+        },
+        {
+          "label": "C",
+          "text": "新平均は計算できるが分散の更新式は存在しない"
+        },
+        {
+          "label": "D",
+          "text": "新分散 = σ² + (a-m)²/(n+1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "オンライン統計更新",
+        "平均・分散の逐次更新"
+      ]
+    },
+    {
+      "id": "vsc-030",
+      "difficulty": "exam",
+      "question": "データを対数変換（log変換）すると分散が変わる。元データが右歪み分布のとき log 変換の効果は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "右歪みのlog変換で大きな値が圧縮され分散が小さくなる"
+        },
+        {
+          "label": "B",
+          "text": "log 変換すると分散は変わらない"
+        },
+        {
+          "label": "C",
+          "text": "log 変換すると左歪みが強まる"
+        },
+        {
+          "label": "D",
+          "text": "log 変換は平均のみを変え分散には影響しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数変換の効果",
+        "右歪み分布の対称化"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "関数とグラフ",
+  "questions": [
+    {
+      "id": "fg-001",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = 2(x - 3)² + 1 の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3, 1)"
+        },
+        {
+          "label": "B",
+          "text": "(-3, 1)"
+        },
+        {
+          "label": "C",
+          "text": "(3, -1)"
+        },
+        {
+          "label": "D",
+          "text": "(1, 3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-002",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = -3(x + 2)² - 4 の軸はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = -2"
+        },
+        {
+          "label": "B",
+          "text": "x = 2"
+        },
+        {
+          "label": "C",
+          "text": "x = -4"
+        },
+        {
+          "label": "D",
+          "text": "x = 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-003",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = (x - 1)² + 2 の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fg-004",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = -2(x - 4)² + 5 は上に凸か下に凸か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "下に凸"
+        },
+        {
+          "label": "B",
+          "text": "上に凸"
+        },
+        {
+          "label": "C",
+          "text": "直線"
+        },
+        {
+          "label": "D",
+          "text": "右上がり"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "fg-005",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = x² - 4x + 3 のグラフが x 軸と交わる点の x 座標はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 1 と x = 3"
+        },
+        {
+          "label": "B",
+          "text": "x = -1 と x = -3"
+        },
+        {
+          "label": "C",
+          "text": "x = 4 と x = -1"
+        },
+        {
+          "label": "D",
+          "text": "x = 2 のみ"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-006",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = x² + 2x - 3 の y 切片（x=0 での値）はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-3"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "-2"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-007",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = 2x² - 8x + 6 の頂点の x 座標はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "-2"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "-4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-008",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "放物線 y = x² を x 軸方向に 2、y 軸方向に -3 だけ平行移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x - 2)² - 3"
+        },
+        {
+          "label": "B",
+          "text": "y = x² + 2x - 3"
+        },
+        {
+          "label": "C",
+          "text": "y = x² - 4x + 1"
+        },
+        {
+          "label": "D",
+          "text": "y = x² - 4x + 7"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-009",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = -x² + 6x - 5 を標準形に変換すると頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3, 4)"
+        },
+        {
+          "label": "B",
+          "text": "(-3, 4)"
+        },
+        {
+          "label": "C",
+          "text": "(3, -4)"
+        },
+        {
+          "label": "D",
+          "text": "(6, -5)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-010",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "basic",
+      "question": "y = x² - 2x + 5 の最小値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-011",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = 2x² - 12x + 10 を y = 2(x-p)² + q に変形したとき p と q の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = 3, q = -8"
+        },
+        {
+          "label": "B",
+          "text": "p = 3, q = 8"
+        },
+        {
+          "label": "C",
+          "text": "p = -3, q = 4"
+        },
+        {
+          "label": "D",
+          "text": "p = 6, q = 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-012",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "頂点が (2, -1) で点 (0, 3) を通る二次関数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x - 2)² - 1"
+        },
+        {
+          "label": "B",
+          "text": "y = x² - 4x + 3"
+        },
+        {
+          "label": "C",
+          "text": "y = -(x - 2)² - 1"
+        },
+        {
+          "label": "D",
+          "text": "y = 2(x - 2)² - 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-013",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = 3x² + 6x - 1 を平方完成する。3x² + 6x = 3(x+1)² - 3 を利用して定数項を整理するとき、正しい結果はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3(x+1)² - 4 (頂点: (-1, -4))"
+        },
+        {
+          "label": "B",
+          "text": "3(x+1)² + 2 (頂点: (-1, 2))"
+        },
+        {
+          "label": "C",
+          "text": "3(x+2)² - 13 (頂点: (-2, -13))"
+        },
+        {
+          "label": "D",
+          "text": "3(x+1)² - 1 (-3 補正を忘れた形)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-014",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = x² - 4x + k のグラフが x 軸に接するとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 4"
+        },
+        {
+          "label": "B",
+          "text": "k = -4"
+        },
+        {
+          "label": "C",
+          "text": "k = 2"
+        },
+        {
+          "label": "D",
+          "text": "k = 8"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-015",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = x² を x 軸対称移動する。x 軸対称は y を -y に置換する変換。-y = x² から y を求めた式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = -x²"
+        },
+        {
+          "label": "B",
+          "text": "y = x² (変化なし)"
+        },
+        {
+          "label": "C",
+          "text": "y = (-x)²"
+        },
+        {
+          "label": "D",
+          "text": "y = x² + 1 (定数がずれる)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-016",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = (x-1)(x-5) の軸はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 3"
+        },
+        {
+          "label": "B",
+          "text": "x = -3"
+        },
+        {
+          "label": "C",
+          "text": "x = 1"
+        },
+        {
+          "label": "D",
+          "text": "x = 6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-017",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = x² + bx + c の頂点が (2, -3) のとき c の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "-3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-018",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = -x² + 4x を平方完成して -(x-2)² + 4 と変形する。定数項の計算として -(-2)² を補正するとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-(-2)² を加えると -(-4) = +4 になる"
+        },
+        {
+          "label": "B",
+          "text": "-(-2)² を加えると -4 になる"
+        },
+        {
+          "label": "C",
+          "text": "-2² = -4 を加えるので定数は -4"
+        },
+        {
+          "label": "D",
+          "text": "-(-2)² = +2 になる"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-019",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = ax² + bx + c が点 (-1, 0), (3, 0), (0, -6) を通るとき a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "-2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "-3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-020",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "standard",
+      "question": "y = 2(x-1)² - 3 に x = 0 を代入して y軸との交点を求める。代入後の計算途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2(0-1)² - 3 = 2×1 - 3 = -1"
+        },
+        {
+          "label": "B",
+          "text": "2(0-1)² - 3 = 2×0 - 3 = -3"
+        },
+        {
+          "label": "C",
+          "text": "2(0-1)² - 3 = 2×(-1) - 3 = -5"
+        },
+        {
+          "label": "D",
+          "text": "2(0-1) - 3 = -2 - 3 = -5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-021",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "y = x² - 2ax + a + 2 の頂点の y 座標が常に正になるための a の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 < a < 2"
+        },
+        {
+          "label": "B",
+          "text": "a > 0"
+        },
+        {
+          "label": "C",
+          "text": "a < -1 または a > 2"
+        },
+        {
+          "label": "D",
+          "text": "-2 < a < 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-022",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "二次関数 y = ax² + bx + c の軸が x = 2、頂点が (2, -1)、かつ y(0) = 3 のとき a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-023",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "y = x² - 2x + k のグラフが x 軸と異なる 2 点で交わるとき k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k < 1"
+        },
+        {
+          "label": "B",
+          "text": "k > 1"
+        },
+        {
+          "label": "C",
+          "text": "k ≤ 1"
+        },
+        {
+          "label": "D",
+          "text": "k < -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-024",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "放物線 y = x² - 4x + 3 を y 軸に関して対称移動した放物線の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(-2, -1)"
+        },
+        {
+          "label": "B",
+          "text": "(2, -1)"
+        },
+        {
+          "label": "C",
+          "text": "(-2, 1)"
+        },
+        {
+          "label": "D",
+          "text": "(4, 3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-025",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "y = x² + 2x - 3 のグラフを x 軸方向に -1、y 軸方向に 2 だけ移動した放物線の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(-2, -2)"
+        },
+        {
+          "label": "B",
+          "text": "(0, -2)"
+        },
+        {
+          "label": "C",
+          "text": "(-2, 0)"
+        },
+        {
+          "label": "D",
+          "text": "(-1, -4)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-026",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "二次関数 y = ax² + bx + c が x = 1 で最大値 4 をとり、点 (3, 0) を通るとき a の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "-2"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-027",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "y = x² - 2kx + 2k² - k + 1 の頂点の y 座標が最小になる k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k = 1/2"
+        },
+        {
+          "label": "B",
+          "text": "k = 0"
+        },
+        {
+          "label": "C",
+          "text": "k = 1"
+        },
+        {
+          "label": "D",
+          "text": "k = -1/2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-028",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "y = -x² + 2ax - a を平方完成すると頂点の y 座標は a² - a になる。a = 2 のとき頂点の y 座標はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "-2"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-029",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "放物線 y = x² - 6x + 5 の頂点を原点に移動した放物線の式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = x²"
+        },
+        {
+          "label": "B",
+          "text": "y = (x-3)² + 4"
+        },
+        {
+          "label": "C",
+          "text": "y = (x - 3)²"
+        },
+        {
+          "label": "D",
+          "text": "y = (x + 3)² - 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "fg-030",
+      "subject": "数学1A",
+      "unit": "関数とグラフ",
+      "difficulty": "exam",
+      "question": "軸が x = 2、2 点 (0, 5) と (4, 5) を通る二次関数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x - 2)² + 1"
+        },
+        {
+          "label": "B",
+          "text": "y = x² - 4x + 5"
+        },
+        {
+          "label": "C",
+          "text": "y = 2(x - 2)² + 1"
+        },
+        {
+          "label": "D",
+          "text": "y = x² - 4x - 3"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

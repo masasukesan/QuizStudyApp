@@ -1,0 +1,846 @@
+{
+  "subject": "数学1A",
+  "unit": "円に内接する四角形",
+  "questions": [
+    {
+      "id": "cyc-001",
+      "difficulty": "basic",
+      "question": "円に内接する四角形の対角の和は何度か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠A+∠C = 180° かつ ∠B+∠D = 180°(対角の和=180°が2組)"
+        },
+        {
+          "label": "B",
+          "text": "∠A+∠C = 360°"
+        },
+        {
+          "label": "C",
+          "text": "∠A+∠C = 90°"
+        },
+        {
+          "label": "D",
+          "text": "対角は等しい(∠A=∠C)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円に内接する四角形",
+        "対角の和=180°"
+      ]
+    },
+    {
+      "id": "cyc-002",
+      "difficulty": "basic",
+      "question": "四角形ABCDが円に内接するための必要十分条件は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対角の和が180°であること(∠A+∠C=180°かつ∠B+∠D=180°)"
+        },
+        {
+          "label": "B",
+          "text": "全ての辺が等しいこと"
+        },
+        {
+          "label": "C",
+          "text": "対角線が等しいこと"
+        },
+        {
+          "label": "D",
+          "text": "1組の対角が等しいこと"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円に内接する条件",
+        "対角の和=180°が条件"
+      ]
+    },
+    {
+      "id": "cyc-003",
+      "difficulty": "basic",
+      "question": "長方形は円に内接できるか。理由も述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内接できる"
+        },
+        {
+          "label": "B",
+          "text": "長方形は平行四辺形だから内接できない"
+        },
+        {
+          "label": "C",
+          "text": "長方形の辺が全て等しくないと内接できない"
+        },
+        {
+          "label": "D",
+          "text": "長方形は直角があるので内接できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "長方形と円の内接",
+        "対角の和=180°の確認"
+      ]
+    },
+    {
+      "id": "cyc-004",
+      "difficulty": "basic",
+      "question": "正方形は円に内接できるか。外接円の半径は一辺が a のとき？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内接できる。外接円R=a√2/2(対角線a√2の半分)"
+        },
+        {
+          "label": "B",
+          "text": "正方形は内接できない"
+        },
+        {
+          "label": "C",
+          "text": "R = a(一辺が半径)"
+        },
+        {
+          "label": "D",
+          "text": "R = a/2(一辺の半分)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正方形の外接円",
+        "R=a√2/2"
+      ]
+    },
+    {
+      "id": "cyc-005",
+      "difficulty": "basic",
+      "question": "菱形は一般に円に内接できるか。内接するための条件は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "一般には内接できない"
+        },
+        {
+          "label": "B",
+          "text": "全ての菱形が円に内接できる"
+        },
+        {
+          "label": "C",
+          "text": "全辺が等しければ内接できる"
+        },
+        {
+          "label": "D",
+          "text": "対角線が等しいとき内接できる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "菱形の内接条件",
+        "正方形のみ内接"
+      ]
+    },
+    {
+      "id": "cyc-006",
+      "difficulty": "basic",
+      "question": "四角形ABCDが円に内接し∠A=95°、∠B=85°のとき∠Cと∠Dは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠C=180°-∠A=85°。∠D=180°-∠B=95°"
+        },
+        {
+          "label": "B",
+          "text": "∠C=∠A=95°"
+        },
+        {
+          "label": "C",
+          "text": "∠C=360°-∠A-∠B-∠D(情報不足)"
+        },
+        {
+          "label": "D",
+          "text": "∠C=90°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円に内接する四角形の角の計算",
+        "対角の和=180°"
+      ]
+    },
+    {
+      "id": "cyc-007",
+      "difficulty": "basic",
+      "question": "トレミーの定理：円に内接する四角形ABCDにおいて対角線の積と辺の積の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AC×BD = AB×CD + AD×BC(対角線の積=対辺の積の和)"
+        },
+        {
+          "label": "B",
+          "text": "AC×BD = AB×BC(隣辺の積)"
+        },
+        {
+          "label": "C",
+          "text": "AC+BD = AB+BC+CD+DA(対角線の和=周長)"
+        },
+        {
+          "label": "D",
+          "text": "AC×BD = AC²+BD²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "トレミーの定理",
+        "AC×BD=AB×CD+AD×BC"
+      ]
+    },
+    {
+      "id": "cyc-008",
+      "difficulty": "basic",
+      "question": "円に内接する四角形の面積公式(ブラーマグプタの公式)を述べよ(4辺がa,b,c,d)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "s=(a+b+c+d)/2 として S=√((s-a)(s-b)(s-c)(s-d))"
+        },
+        {
+          "label": "B",
+          "text": "S=(a×c)+(b×d)(対辺の積の和)"
+        },
+        {
+          "label": "C",
+          "text": "S=√(abcd)(4辺の積の平方根)"
+        },
+        {
+          "label": "D",
+          "text": "S=(a+b+c+d)×r(内接円の半径との積)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ブラーマグプタの公式",
+        "円に内接する四角形の面積"
+      ]
+    },
+    {
+      "id": "cyc-009",
+      "difficulty": "basic",
+      "question": "円に内接する四角形と外接円の関係：4頂点が円上にある四角形で∠BAD=70°のとき、弧BCD(∠BADが見る弧)に対する中心角は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "円周角の定理: 中心角=円周角×2=70°×2=140°。弧BCDに対する中心角は140°"
+        },
+        {
+          "label": "B",
+          "text": "中心角=70°"
+        },
+        {
+          "label": "C",
+          "text": "中心角=180°-70°=110°"
+        },
+        {
+          "label": "D",
+          "text": "中心角=360°-70°=290°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円周角と中心角の関係",
+        "中心角=2×円周角"
+      ]
+    },
+    {
+      "id": "cyc-010",
+      "difficulty": "basic",
+      "question": "円に内接する四角形で1組の辺が平行(等脚台形)のとき、何か特別な性質があるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "等脚台形(等しい脚を持つ台形)は常に円に内接できる。底角が等しいから対角の和=180°が成立"
+        },
+        {
+          "label": "B",
+          "text": "台形は円に内接できない"
+        },
+        {
+          "label": "C",
+          "text": "平行四辺形のみ円に内接できる"
+        },
+        {
+          "label": "D",
+          "text": "台形が円に内接するには追加条件が必要で等脚台形でも不可"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "等脚台形と円の内接",
+        "底角が等しい→内接"
+      ]
+    },
+    {
+      "id": "cyc-011",
+      "difficulty": "standard",
+      "question": "円に内接する四角形ABCDでAB=3、BC=4、CD=5、DA=6のとき面積Sは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "s=9, S=√(6×5×4×3)=√360=6√10≈18.97"
+        },
+        {
+          "label": "B",
+          "text": "S=(3×5)+(4×6)=15+24=39"
+        },
+        {
+          "label": "C",
+          "text": "S=3×4×5×6/4=90"
+        },
+        {
+          "label": "D",
+          "text": "S=(3+5)×(4+6)/2=40"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ブラーマグプタの公式の計算",
+        "√((s-a)(s-b)(s-c)(s-d))"
+      ]
+    },
+    {
+      "id": "cyc-012",
+      "difficulty": "standard",
+      "question": "正五角形の頂点は円上にある。一辺が a のとき外接円の半径Rは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心角=72°, 正弦定理よりR=a/(2sin36°)≈0.851a"
+        },
+        {
+          "label": "B",
+          "text": "R=a"
+        },
+        {
+          "label": "C",
+          "text": "R=a/(2cos36°)≈0.618a"
+        },
+        {
+          "label": "D",
+          "text": "R=a/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正五角形の外接円",
+        "中心角72°と余弦定理"
+      ]
+    },
+    {
+      "id": "cyc-013",
+      "difficulty": "standard",
+      "question": "円に内接する四角形ABCDでAB=7、BC=5、CD=3、DA=3のとき面積Sは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "s=9, S=√(2×4×6×6)=√288=12√2≈17.0"
+        },
+        {
+          "label": "B",
+          "text": "S=(7×3)+(5×3)=36"
+        },
+        {
+          "label": "C",
+          "text": "S=7×5=35"
+        },
+        {
+          "label": "D",
+          "text": "S=√(7×5×3×3)=3√35≈17.7"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ブラーマグプタの公式の計算",
+        "√((s-a)(s-b)(s-c)(s-d))"
+      ]
+    },
+    {
+      "id": "cyc-014",
+      "difficulty": "standard",
+      "question": "円に内接する四角形で対角線が直交するとき、面積はどう表せるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対角線 p,q が直交するとき S = (1/2)×p×q"
+        },
+        {
+          "label": "B",
+          "text": "S = p×q"
+        },
+        {
+          "label": "C",
+          "text": "S = p²+q²"
+        },
+        {
+          "label": "D",
+          "text": "S = (p+q)/2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対角線が直交する四角形の面積",
+        "S=(1/2)pq"
+      ]
+    },
+    {
+      "id": "cyc-015",
+      "difficulty": "standard",
+      "question": "円に外接する四角形(各辺が円に接する)の辺の和の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AB+CD = BC+DA(対辺の和が等しい)。これは各辺からの接線の長さが等しいことから導ける"
+        },
+        {
+          "label": "B",
+          "text": "AB×CD = BC×DA(対辺の積が等しい)"
+        },
+        {
+          "label": "C",
+          "text": "AB+BC+CD+DA = 4r(内接円の半径の4倍)"
+        },
+        {
+          "label": "D",
+          "text": "AB=BC=CD=DA(全辺が等しい)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円に外接する四角形",
+        "対辺の和が等しい"
+      ]
+    },
+    {
+      "id": "cyc-016",
+      "difficulty": "standard",
+      "question": "パスカルの定理：円に内接する六角形ABCDEF において対辺の交点3点は共線(パスカル線)。これを四角形(六角形のうち2点が一致した退化)に適用すると何になるか？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "六角形ABBCCDで2頂点が一致するとき接線が絡む"
+        },
+        {
+          "label": "B",
+          "text": "パスカルの定理は六角形専用で四角形には使えない"
+        },
+        {
+          "label": "C",
+          "text": "四角形に退化するとパスカル線が円の中心を通る"
+        },
+        {
+          "label": "D",
+          "text": "パスカルの定理と四角形は無関係"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "パスカルの定理の退化",
+        "接線を含むケース"
+      ]
+    },
+    {
+      "id": "cyc-017",
+      "difficulty": "standard",
+      "question": "円に内接する四角形ABCDでAC⊥BDのとき、AB²+CD²=AD²+BC²が成立する。証明の出発点は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AC⊥BDの交点をPとする"
+        },
+        {
+          "label": "B",
+          "text": "余弦定理を4辺すべてに適用"
+        },
+        {
+          "label": "C",
+          "text": "対角線の方べきを使う"
+        },
+        {
+          "label": "D",
+          "text": "面積を使って間接的に証明"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "直交対角線を持つ四角形",
+        "ピタゴラスの応用"
+      ]
+    },
+    {
+      "id": "cyc-018",
+      "difficulty": "exam",
+      "question": "ブラーマグプタの公式 S=√((s-a)(s-b)(s-c)(s-d)) を導出する考え方を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対角の和=180°を使い、四角形を2つの三角形に分けてヘロンの公式を拡張"
+        },
+        {
+          "label": "B",
+          "text": "4辺の積の平方根から定数を掛けて導出"
+        },
+        {
+          "label": "C",
+          "text": "パスカルの定理から導出"
+        },
+        {
+          "label": "D",
+          "text": "直接計算では導出できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ブラーマグプタの公式の導出",
+        "ヘロンの公式の拡張"
+      ]
+    },
+    {
+      "id": "cyc-019",
+      "difficulty": "exam",
+      "question": "円に内接する四角形でAB=a, BC=b, CD=c, DA=dのとき対角線AC,BDをトレミーと余弦定理で求める手順は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "①余弦定理でACを求める(∠BAD から △ABD)"
+        },
+        {
+          "label": "B",
+          "text": "直接トレミーのみで対角線を求める"
+        },
+        {
+          "label": "C",
+          "text": "対角線は辺の比から求まる"
+        },
+        {
+          "label": "D",
+          "text": "対角線は一意に決まらない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対角線の計算手順",
+        "余弦定理とトレミーの組み合わせ"
+      ]
+    },
+    {
+      "id": "cyc-020",
+      "difficulty": "standard",
+      "question": "正n角形が円に内接するとき、対角線の本数と辺の比・内角を n で表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対角線本数=n(n-3)/2"
+        },
+        {
+          "label": "B",
+          "text": "全対角線の長さは等しい"
+        },
+        {
+          "label": "C",
+          "text": "対角線は全て直径"
+        },
+        {
+          "label": "D",
+          "text": "内角=360°/n"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正n角形の対角線",
+        "d_k=2Rsin(kπ/n)"
+      ]
+    },
+    {
+      "id": "cyc-021",
+      "difficulty": "exam",
+      "question": "円に内接する四角形ABCDの4辺と外接円半径Rの関係(拡張正弦定理の応用)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABCで正弦定理: AC/sin∠ABC = 2R"
+        },
+        {
+          "label": "B",
+          "text": "R = (a+b+c+d)/4(周長の1/4)"
+        },
+        {
+          "label": "C",
+          "text": "R = AB×CD/(2×AC)"
+        },
+        {
+          "label": "D",
+          "text": "Rは4辺から一意に決まらない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "拡張正弦定理の四角形への応用",
+        "対角の和と半径"
+      ]
+    },
+    {
+      "id": "cyc-022",
+      "difficulty": "exam",
+      "question": "プトレマイオスの不等式：任意の4点A,B,C,Dについて AC×BD ≤ AB×CD+AD×BC が成立し、等号は4点が円上で順序が一致するときのみ。この不等式の意味は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "トレミーの定理は4点が円上の等号条件"
+        },
+        {
+          "label": "B",
+          "text": "4点は常に等号が成立"
+        },
+        {
+          "label": "C",
+          "text": "不等式の向きが逆(≥)"
+        },
+        {
+          "label": "D",
+          "text": "等号は正方形のときのみ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "プトレマイオスの不等式",
+        "円上配置での等号"
+      ]
+    },
+    {
+      "id": "cyc-023",
+      "difficulty": "standard",
+      "question": "円に内接する四角形と外接四角形の面積の比を内接円半径 r と外接円半径 R で表せる場合は？(正方形の場合)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正方形: 内接円半径r=a/2、外接円半径R=a√2/2"
+        },
+        {
+          "label": "B",
+          "text": "面積比 = R²/r²= 2"
+        },
+        {
+          "label": "C",
+          "text": "面積比 = π(円の面積が関係)"
+        },
+        {
+          "label": "D",
+          "text": "面積比は正方形では計算できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正方形での内接・外接円",
+        "R/r=√2"
+      ]
+    },
+    {
+      "id": "cyc-024",
+      "difficulty": "exam",
+      "question": "円に内接する多角形の中で、同じ周長を持つ多角形のうち面積が最大のものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周長が等しいとき、円に内接する正多角形が最大面積を持つ"
+        },
+        {
+          "label": "B",
+          "text": "長方形が最大面積"
+        },
+        {
+          "label": "C",
+          "text": "三角形が最大面積"
+        },
+        {
+          "label": "D",
+          "text": "周長と面積は無関係"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "等周問題",
+        "正多角形が最大面積"
+      ]
+    },
+    {
+      "id": "cyc-025",
+      "difficulty": "exam",
+      "question": "四角形ABCDが円に内接するための条件として対角の和=180°が必要十分であることを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "必要性: 円周角の定理から ∠A+∠C=180°が成立し、十分性も証明できる"
+        },
+        {
+          "label": "B",
+          "text": "必要性のみ証明できる"
+        },
+        {
+          "label": "C",
+          "text": "十分性は自明"
+        },
+        {
+          "label": "D",
+          "text": "対角の和=180°は必要だが十分でない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内接条件の必要十分性の証明",
+        "円周角の定理の逆"
+      ]
+    },
+    {
+      "id": "cyc-026",
+      "difficulty": "exam",
+      "question": "正n角形の隣接しないk番目の頂点を結ぶ対角線の長さと正弦定理の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k番目の頂点への対角線は中心角2kπ/n に対応"
+        },
+        {
+          "label": "B",
+          "text": "長さ = R(全ての対角線が半径)"
+        },
+        {
+          "label": "C",
+          "text": "長さ = 2Rcos(kπ/n)"
+        },
+        {
+          "label": "D",
+          "text": "k番目の対角線の長さは一意に決まらない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正多角形の対角線の長さ",
+        "2Rsin(kπ/n)"
+      ]
+    },
+    {
+      "id": "cyc-027",
+      "difficulty": "standard",
+      "question": "等脚台形ABCD(AB∥CD、AD=BC)が円に内接するとき、面積Sを2底辺a=AB、c=CD と脚の長さ l で表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "高さ h=√(l²-((a-c)/2)²)。S=(a+c)h/2=(a+c)√(l²-((a-c)/2)²)/2"
+        },
+        {
+          "label": "B",
+          "text": "S=l×(a+c)/2"
+        },
+        {
+          "label": "C",
+          "text": "S=a×c"
+        },
+        {
+          "label": "D",
+          "text": "S=(a+c)×l/2(脚を高さとして使う誤り)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "等脚台形の面積",
+        "高さを脚と底辺の差から計算"
+      ]
+    },
+    {
+      "id": "cyc-028",
+      "difficulty": "exam",
+      "question": "円に内接する四角形でブラーマグプタ公式の退化(e.g., d=0)はヘロンの公式と一致するか確認せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "d=0のとき s=(a+b+c)/2, S=√((s-a)(s-b)(s-c)×s)となりヘロンの公式と一致する"
+        },
+        {
+          "label": "B",
+          "text": "d=0では公式が成立しない"
+        },
+        {
+          "label": "C",
+          "text": "d=0でも S=0(面積がなくなる)"
+        },
+        {
+          "label": "D",
+          "text": "ヘロンの公式とは異なる結果になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ブラーマグプタとヘロンの関係",
+        "d=0での退化"
+      ]
+    },
+    {
+      "id": "cyc-029",
+      "difficulty": "exam",
+      "question": "円に内接する多角形の外接円の半径を最大化する問題。周長が固定のn角形の中で外接円Rが最大になるのはどの多角形か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正n角形のとき外接円Rが最大(全ての辺が等しく全ての角が等しい対称性から)"
+        },
+        {
+          "label": "B",
+          "text": "長方形のとき最大"
+        },
+        {
+          "label": "C",
+          "text": "外接円Rは多角形の形によらず固定"
+        },
+        {
+          "label": "D",
+          "text": "細長い多角形のとき最大"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正n角形と外接円",
+        "R=L/(2n sin(π/n))"
+      ]
+    },
+    {
+      "id": "cyc-030",
+      "difficulty": "exam",
+      "question": "球面三角形(球の表面上の三角形)と平面の三角形の違いを述べ、球面三角形の内角の和はどうなるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "球面三角形の内角の和は180°より大きく、最大540°まで(3頂点が極のとき)"
+        },
+        {
+          "label": "B",
+          "text": "球面三角形の内角の和も180°(平面と同じ)"
+        },
+        {
+          "label": "C",
+          "text": "球面三角形の内角の和は常に270°"
+        },
+        {
+          "label": "D",
+          "text": "球面では三角形を定義できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "球面三角形",
+        "内角の和>180°"
+      ]
+    }
+  ]
+}

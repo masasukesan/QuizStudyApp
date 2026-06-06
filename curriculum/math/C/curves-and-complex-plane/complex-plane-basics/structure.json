@@ -1,0 +1,87 @@
+{
+  "unit_id": "complex-plane-basics",
+  "unit_name_jp": "複素数平面の基礎",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "cpb-def",
+      "description": "複素数 z = a + bi を複素数平面上の点 (a, b) として表す",
+      "thinking_process": [
+        "実部が x 軸、虚部が y 軸"
+      ],
+      "common_mistakes": [
+        "虚部に i を含めたまま座標とする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "cpb-abs",
+      "description": "絶対値 |z| = √(a² + b²) の計算",
+      "thinking_process": [
+        "原点からの距離"
+      ],
+      "common_mistakes": [
+        "a² + bi² = a² - b² と誤計算"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "cpb-conj",
+      "description": "共役複素数 z̄ = a - bi の性質と計算",
+      "thinking_process": [
+        "z·z̄ = |z|²",
+        "z + z̄ = 2a（実数）"
+      ],
+      "common_mistakes": [
+        "z̄ を -z と混同"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "cpb-ops",
+      "description": "複素数の加減乗除の計算と図形的意味",
+      "thinking_process": [
+        "加算はベクトルの和",
+        "乗算は回転・拡大"
+      ],
+      "common_mistakes": [
+        "除算で分子・分母に共役を掛けることを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "cpb-geo",
+      "description": "複素数平面上の図形（直線・円）の方程式",
+      "thinking_process": [
+        "|z - α| = r → 中心 α、半径 r の円"
+      ],
+      "common_mistakes": [
+        "α を実部のみで考える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "cpb-proof-abs",
+      "description": "|z₁z₂| = |z₁||z₂| の証明（成分計算で）",
+      "thinking_process": [
+        "z₁z₂ を展開して |z₁z₂|² = |z₁|²|z₂|² を示す"
+      ],
+      "common_mistakes": [
+        "途中の展開でクロス項を落とす"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "cpb-proof-tri",
+      "description": "複素数の三角不等式 |z₁ + z₂| ≦ |z₁| + |z₂| の証明",
+      "thinking_process": [
+        "|z₁ + z₂|² を展開し Re(z₁z̄₂) ≦ |z₁z₂| を利用"
+      ],
+      "common_mistakes": [
+        "等号成立条件（z₁/z₂ が正の実数）を忘れる"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

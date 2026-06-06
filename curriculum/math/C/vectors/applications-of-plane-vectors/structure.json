@@ -1,0 +1,78 @@
+{
+  "unit_id": "applications-of-plane-vectors",
+  "unit_name_jp": "平面ベクトルの応用",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "av-area",
+      "description": "ベクトルを用いた三角形の面積 S = (1/2)|a||b|sinθ",
+      "thinking_process": [
+        "|a × b| = |a||b|sinθ を利用",
+        "sin²θ = 1 - cos²θ で sinθ を求める"
+      ],
+      "common_mistakes": [
+        "cosθ の符号から sinθ の符号を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "av-line",
+      "description": "直線のベクトル方程式 p = a + td",
+      "thinking_process": [
+        "方向ベクトル d と点 a を確認",
+        "パラメータ t で直線上の点を表す"
+      ],
+      "common_mistakes": [
+        "法線ベクトルと方向ベクトルを混同"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "av-circle",
+      "description": "円のベクトル方程式 |p - c| = r",
+      "thinking_process": [
+        "中心 c、半径 r として |p - c|² = r²"
+      ],
+      "common_mistakes": [
+        "展開後に定数項を計算ミスする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "av-intersection",
+      "description": "2直線の交点をベクトルで求める途中式",
+      "thinking_process": [
+        "p = a + sd, q = b + td と表し等置",
+        "成分比較で s, t を求める"
+      ],
+      "common_mistakes": [
+        "パラメータ s, t の両方を見落とす"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "av-proof-area",
+      "description": "ベクトルを用いた三角形の面積公式の導出",
+      "thinking_process": [
+        "|a|² |b|² - (a·b)² = |a|²|b|²sin²θ を確認",
+        "S = (1/2)√(|a|²|b|² - (a·b)²)"
+      ],
+      "common_mistakes": [
+        "根号内を展開するときに符号ミス"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "av-proof-norm",
+      "description": "法線ベクトルを使った直線の方程式 n·(p - a) = 0 の証明",
+      "thinking_process": [
+        "n が法線 → n·AP = 0 を展開"
+      ],
+      "common_mistakes": [
+        "法線と方向ベクトルの役割を混同"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

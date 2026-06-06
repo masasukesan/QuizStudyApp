@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "2次不等式",
+  "questions": [
+    {
+      "id": "qi-001",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x² - 5x + 6 < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 < x < 3"
+        },
+        {
+          "label": "B",
+          "text": "x < 2 または x > 3"
+        },
+        {
+          "label": "C",
+          "text": "1 < x < 6"
+        },
+        {
+          "label": "D",
+          "text": "x < 1 または x > 6"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-002",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x² - x - 6 > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x < -2 または x > 3"
+        },
+        {
+          "label": "B",
+          "text": "-2 < x < 3"
+        },
+        {
+          "label": "C",
+          "text": "x > 3"
+        },
+        {
+          "label": "D",
+          "text": "x < -3 または x > 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-003",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x² - 4 ≤ 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-2 ≤ x ≦ 2"
+        },
+        {
+          "label": "B",
+          "text": "x ≦ -2 または x ≥ 4"
+        },
+        {
+          "label": "C",
+          "text": "-4 ≤ x ≤ 4"
+        },
+        {
+          "label": "D",
+          "text": "x ≤ 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-004",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x² - 6x + 9 > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x ≠ 3 のすべての実数"
+        },
+        {
+          "label": "B",
+          "text": "x > 3"
+        },
+        {
+          "label": "C",
+          "text": "x < 3"
+        },
+        {
+          "label": "D",
+          "text": "解なし"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-005",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x² + 2x + 3 > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "すべての実数"
+        },
+        {
+          "label": "B",
+          "text": "x > -1"
+        },
+        {
+          "label": "C",
+          "text": "解なし"
+        },
+        {
+          "label": "D",
+          "text": "x < -3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-006",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "2x² - 7x + 3 > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x < 1/2 または x > 3"
+        },
+        {
+          "label": "B",
+          "text": "1/2 < x < 3"
+        },
+        {
+          "label": "C",
+          "text": "x > 3"
+        },
+        {
+          "label": "D",
+          "text": "x < -3 または x > 1/2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-007",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x² - 4x + 4 ≤ 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = 2"
+        },
+        {
+          "label": "B",
+          "text": "x ≤ 0"
+        },
+        {
+          "label": "C",
+          "text": "x ≥ 4"
+        },
+        {
+          "label": "D",
+          "text": "解なし"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-008",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x(x - 5) < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 < x < 5"
+        },
+        {
+          "label": "B",
+          "text": "x < 0 または x > 5"
+        },
+        {
+          "label": "C",
+          "text": "-5 < x < 0"
+        },
+        {
+          "label": "D",
+          "text": "0 ≤ x ≦ 5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-009",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "-x² + 3x + 4 > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 < x < 4"
+        },
+        {
+          "label": "B",
+          "text": "x < -1 または x > 4"
+        },
+        {
+          "label": "C",
+          "text": "-4 < x < 1"
+        },
+        {
+          "label": "D",
+          "text": "x > 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-010",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "basic",
+      "question": "x² - 3x - 10 < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-2 < x < 5"
+        },
+        {
+          "label": "B",
+          "text": "x < -2 または x > 5"
+        },
+        {
+          "label": "C",
+          "text": "-5 < x < 2"
+        },
+        {
+          "label": "D",
+          "text": "x > 5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-011",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "x² - 4x + k > 0 がすべての実数 x で成立するための k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k > 4"
+        },
+        {
+          "label": "B",
+          "text": "k ≥ 4"
+        },
+        {
+          "label": "C",
+          "text": "k < 4"
+        },
+        {
+          "label": "D",
+          "text": "k ≤ 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-012",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "x² - 2x - 8 ≤ 0 かつ x² - 5x + 4 < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 < x < 4"
+        },
+        {
+          "label": "B",
+          "text": "-2 ≤ x ≤ 4"
+        },
+        {
+          "label": "C",
+          "text": "-2 ≤ x < 1"
+        },
+        {
+          "label": "D",
+          "text": "1 ≤ x ≤ 4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-013",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "x² + 4x + 4 ≧ 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "すべての実数"
+        },
+        {
+          "label": "B",
+          "text": "x = -2"
+        },
+        {
+          "label": "C",
+          "text": "x ≠ -2"
+        },
+        {
+          "label": "D",
+          "text": "x ≧ -2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-014",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "x² + 2kx + 4 > 0 がすべての実数 x で成立するための k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-2 < k < 2"
+        },
+        {
+          "label": "B",
+          "text": "k > 2"
+        },
+        {
+          "label": "C",
+          "text": "k < -2"
+        },
+        {
+          "label": "D",
+          "text": "k ≧ 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-015",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "不等式 x² - 5x + 6 < 0 を満たす整数 x の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-016",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "不等式 x² - 5x + 4 < 0 を満たす整数 x の個数はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-017",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "(x-1)(x-3) ≤ 0 かつ (x-2)(x+1) > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 < x ≦ 3"
+        },
+        {
+          "label": "B",
+          "text": "1 ≤ x ≦ 2"
+        },
+        {
+          "label": "C",
+          "text": "x > 4"
+        },
+        {
+          "label": "D",
+          "text": "1 ≤ x < 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-018",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "2x² - 5x + 2 < 0 を解く。まず 2x² - 5x + 2 を因数分解する途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "たすき掛け: (2, 1) と (1, -2) → (2x-1)(x-2)"
+        },
+        {
+          "label": "B",
+          "text": "たすき掛け: (2, 1) と (-1, 2) → (2x+1)(x-2)"
+        },
+        {
+          "label": "C",
+          "text": "たすき掛け: (2, 1) と (1, 2) → (2x+1)(x+2)"
+        },
+        {
+          "label": "D",
+          "text": "たすき掛け: (2, -1) と (1, -2) → (2x-1)(x+2)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-019",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "x² - (a+2)x + 2a < 0 の解はどれか（a > 2）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 < x < a"
+        },
+        {
+          "label": "B",
+          "text": "a < x < a+2"
+        },
+        {
+          "label": "C",
+          "text": "x < 2 または x > a"
+        },
+        {
+          "label": "D",
+          "text": "0 < x < a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-020",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "standard",
+      "question": "x² + 2x + 3 < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "解なし"
+        },
+        {
+          "label": "B",
+          "text": "すべての実数"
+        },
+        {
+          "label": "C",
+          "text": "x < -3"
+        },
+        {
+          "label": "D",
+          "text": "-3 < x < -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-021",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "x² + 2kx + k + 2 > 0 がすべての実数 x で成立するための k の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 < k < 2"
+        },
+        {
+          "label": "B",
+          "text": "k > 2"
+        },
+        {
+          "label": "C",
+          "text": "k < -1"
+        },
+        {
+          "label": "D",
+          "text": "-2 < k < 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-022",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "二次不等式 ax² + 2x + 1 > 0 の解がすべての実数になるための a の条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a > 1"
+        },
+        {
+          "label": "B",
+          "text": "0 < a < 1"
+        },
+        {
+          "label": "C",
+          "text": "a ≥ 1"
+        },
+        {
+          "label": "D",
+          "text": "a > 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-023",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "x に関する不等式 x² - 2ax + a + 2 > 0 がすべての実数 x で成立するとき a の範囲はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 < a < 2"
+        },
+        {
+          "label": "B",
+          "text": "a > 2"
+        },
+        {
+          "label": "C",
+          "text": "a < -1"
+        },
+        {
+          "label": "D",
+          "text": "-2 < a < 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-024",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "不等式 x² - 3x + 2 < 0 かつ x² - x - 6 < 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 < x < 2"
+        },
+        {
+          "label": "B",
+          "text": "-2 < x < 3"
+        },
+        {
+          "label": "C",
+          "text": "1 < x < 3"
+        },
+        {
+          "label": "D",
+          "text": "2 < x < 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-025",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "x² - x - 6 < 0 かつ x² - 4x + 3 > 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 < x < 3"
+        },
+        {
+          "label": "B",
+          "text": "-2 < x < 3"
+        },
+        {
+          "label": "C",
+          "text": "-2 < x < 1"
+        },
+        {
+          "label": "D",
+          "text": "解なし"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "qi-026",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "x² - 4x + 3 < 0 かつ x² + x - 6 ≧ 0 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "解なし"
+        },
+        {
+          "label": "B",
+          "text": "1 < x < 3"
+        },
+        {
+          "label": "C",
+          "text": "2 ≤ x < 3"
+        },
+        {
+          "label": "D",
+          "text": "x ≥ 2"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": "qi-027",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "x² - a² < 0 の解はどれか（a > 0）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-a < x < a"
+        },
+        {
+          "label": "B",
+          "text": "x < -a または x > a"
+        },
+        {
+          "label": "C",
+          "text": "x > a"
+        },
+        {
+          "label": "D",
+          "text": "-a ≤ x ≦ a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-028",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "不等式 x² < 5x - 4 の解はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1 < x < 4"
+        },
+        {
+          "label": "B",
+          "text": "x < 1 または x > 4"
+        },
+        {
+          "label": "C",
+          "text": "4 < x < 5"
+        },
+        {
+          "label": "D",
+          "text": "1 < x < 5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-029",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "すべての実数 x で x² + (k-1)x + 1 > 0 が成立するとき k の範囲はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 < k < 3"
+        },
+        {
+          "label": "B",
+          "text": "k < -1 または k > 3"
+        },
+        {
+          "label": "C",
+          "text": "-3 < k < 1"
+        },
+        {
+          "label": "D",
+          "text": "k > 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "qi-030",
+      "subject": "数学1A",
+      "unit": "2次不等式",
+      "difficulty": "exam",
+      "question": "ax² - 2x + a > 0 がすべての実数 x で成立するための a の条件はどれか（a ≠ 0）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a > 1"
+        },
+        {
+          "label": "B",
+          "text": "0 < a < 1"
+        },
+        {
+          "label": "C",
+          "text": "a ≥ 1"
+        },
+        {
+          "label": "D",
+          "text": "a > 0"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

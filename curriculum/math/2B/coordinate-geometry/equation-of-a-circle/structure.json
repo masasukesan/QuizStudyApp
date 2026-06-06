@@ -1,0 +1,151 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "coordinate-geometry",
+  "subunit": "equation-of-a-circle",
+  "name": "円の方程式",
+  "en": "Equation of a Circle",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "standard-form-of-circle",
+      "description": "中心と半径から円の方程式（標準形）を作る",
+      "thinking_process": [
+        "中心 (a,b)、半径 r の円は (x-a)²+(y-b)²=r²",
+        "中心の符号に注意して代入する",
+        "r は半径（正の値）"
+      ],
+      "common_mistakes": [
+        "(x+a)²+(y+b)²=r² と符号を逆にする",
+        "r² でなく r を右辺に書く"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "read-center-and-radius",
+      "description": "標準形から中心座標と半径を読み取る",
+      "thinking_process": [
+        "(x-a)²+(y-b)²=r² の形を確認する",
+        "中心は (a,b)（符号に注意）",
+        "r = √(右辺) が半径"
+      ],
+      "common_mistakes": [
+        "(x-3)² の場合に中心を -3 と読む",
+        "r² を r と混同する（√を取り忘れる）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "completing-the-square",
+      "description": "一般形 x²+y²+Dx+Ey+F=0 を平方完成で標準形に変形する",
+      "thinking_process": [
+        "x の項と y の項をそれぞれ平方完成する",
+        "(x+D/2)²+(y+E/2)²=D²/4+E²/4-F の形にする",
+        "右辺が正かどうか（円の存在条件）を確認する"
+      ],
+      "common_mistakes": [
+        "平方完成で定数項の移動を忘れる",
+        "右辺が負でも円と判断する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "tangent-line-at-point",
+      "description": "円上の点における接線の方程式を求める",
+      "thinking_process": [
+        "円 x²+y²=r² 上の点 (x₀,y₀) での接線は xx₀+yy₀=r²",
+        "または中心→接点の傾きを求め、垂直方向が接線",
+        "接線公式を直接適用する方が速い"
+      ],
+      "common_mistakes": [
+        "接線公式 xx₀+yy₀=r² を知らずに微分を使う",
+        "中心と接点の傾きを接線の傾きと混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "point-on-inside-outside",
+      "description": "点が円の内側・外側・上にあるかを判定する",
+      "thinking_process": [
+        "点 (x₀,y₀) を円の方程式に代入する",
+        "結果が r² より小さければ内部、大きければ外部、等しければ上",
+        "(x₀-a)²+(y₀-b)² と r² を比較する"
+      ],
+      "common_mistakes": [
+        "不等号の向きを逆にする（小さいと外部と判断）",
+        "一般形のまま代入して中心・半径と混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "circle-through-three-points",
+      "description": "3点を通る円の方程式を連立方程式で求める",
+      "thinking_process": [
+        "一般形 x²+y²+Dx+Ey+F=0 に3点を代入する",
+        "3本の方程式を D、E、F について連立する",
+        "解を代入して標準形に整理する"
+      ],
+      "common_mistakes": [
+        "3点の代入で計算ミスをする",
+        "連立の際に文字を整理せずに混乱する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "circle-with-diameter",
+      "description": "直径の両端から円の方程式を求める",
+      "thinking_process": [
+        "直径の中点が中心、半径 = 直径/2",
+        "または直径の両端 A、B に対し ∠APB=90° の条件 (x-x₁)(x-x₂)+(y-y₁)(y-y₂)=0 を使う",
+        "標準形に整理する"
+      ],
+      "common_mistakes": [
+        "中心を端点のひとつと混同する",
+        "半径を直径そのままにする（2で割り忘れ）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "condition-for-circle-existence",
+      "description": "一般形が円を表すための条件（D²+E²-4F>0）を求める",
+      "thinking_process": [
+        "一般形を平方完成して r²=D²/4+E²/4-F を求める",
+        "r²>0 の条件 D²+E²-4F>0 を立てる",
+        "係数の範囲を求める"
+      ],
+      "common_mistakes": [
+        "r²=0（点）の場合も円として扱う",
+        "判別式と混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "tangent-from-external-point",
+      "description": "外部の点から円に引いた接線の方程式・長さを求める",
+      "thinking_process": [
+        "接線 y-y₀=m(x-x₀) と円との判別式 D=0 を使う",
+        "または接線の長さ = √{(x₀-a)²+(y₀-b)²-r²}",
+        "m について方程式を解き、接線の方程式を確定する"
+      ],
+      "common_mistakes": [
+        "接点が2つある（接線は2本）ことを見落とす",
+        "D=0 でなく D>0 を使う"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "coefficient-determination-circle",
+      "description": "条件から円の方程式の係数を決定する",
+      "thinking_process": [
+        "一般形または標準形を文字係数で表す",
+        "与えられた条件（通過点・接線・中心の軌跡）を等式化する",
+        "連立して係数を決定する"
+      ],
+      "common_mistakes": [
+        "条件を1つだけ使って連立しない",
+        "接線条件と通過条件を混同する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

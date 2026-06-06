@@ -1,0 +1,874 @@
+{
+  "questions": [
+    {
+      "id": "pl-001",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "2 点 A(1,3)、B(5,7) の中点の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3,5)(各座標の平均: (1+5)/2=3、(3+7)/2=5)"
+        },
+        {
+          "label": "B",
+          "text": "(2,5)"
+        },
+        {
+          "label": "C",
+          "text": "(4,4)(差を使った)"
+        },
+        {
+          "label": "D",
+          "text": "(3,4)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-002",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "2 点 A(2,1)、B(8,5) 間の距離として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√{(8−2)²+(5−1)²}=√{36+16}=√52=2√13"
+        },
+        {
+          "label": "B",
+          "text": "√{36−16}=√20(引き算にした)"
+        },
+        {
+          "label": "C",
+          "text": "√{6+4}=√10"
+        },
+        {
+          "label": "D",
+          "text": "√{(8+2)²+(5+1)²}=√136"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-003",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "2 点 A(1,2)、B(4,8) を 1:2 に内分する点の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3,6)"
+        },
+        {
+          "label": "B",
+          "text": "(2,4)(内分点公式: x=(1×4+2×1)/3=2、y=(1×8+2×2)/3=4)"
+        },
+        {
+          "label": "C",
+          "text": "(5/2,5)"
+        },
+        {
+          "label": "D",
+          "text": "(2,5)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-004",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "直線 y=2x+1 の傾きと y 切片を正しく読み取っているものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "傾き 2、y 切片 1"
+        },
+        {
+          "label": "B",
+          "text": "傾き −2、y 切片 1"
+        },
+        {
+          "label": "C",
+          "text": "傾き 1、y 切片 2"
+        },
+        {
+          "label": "D",
+          "text": "傾き 2、y 切片 −1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-005",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "傾き 3 で点 (1,2) を通る直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=3x+1"
+        },
+        {
+          "label": "B",
+          "text": "y=2x−1"
+        },
+        {
+          "label": "C",
+          "text": "y=3x+2"
+        },
+        {
+          "label": "D",
+          "text": "y−2=3(x−1) → y=3x−1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-006",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "2 点 (2,3)、(4,7) を通る直線の傾きとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(7−3)/(4+2)=4/6=2/3"
+        },
+        {
+          "label": "B",
+          "text": "(4−2)/(7−3)=1/2"
+        },
+        {
+          "label": "C",
+          "text": "(7+3)/(4+2)=10/6=5/3"
+        },
+        {
+          "label": "D",
+          "text": "(7−3)/(4−2)=4/2=2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-007",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "直線 2x−3y+6=0 の y 切片として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y 切片=2/3(係数の比を切片とした)"
+        },
+        {
+          "label": "B",
+          "text": "y 切片=6"
+        },
+        {
+          "label": "C",
+          "text": "x=0 を代入: −3y+6=0 → y=2。y 切片は 2"
+        },
+        {
+          "label": "D",
+          "text": "y=0 を代入して x 切片を求めた: x=−3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-008",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "点 (5,3) から直線 3x−4y+2=0 への距離として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|3×5+4×3+2|/√25=|29|/5"
+        },
+        {
+          "label": "B",
+          "text": "|3×5−4×3+2|/√(9+16)=|15−12+2|/5=5/5=1"
+        },
+        {
+          "label": "C",
+          "text": "|3−4+2|/√25=1/5"
+        },
+        {
+          "label": "D",
+          "text": "|3×5−4×3+2|/√(3+4)=5/√7(分母を 3+4 にした)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-009",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "2 直線 y=2x+1 と y=−x/2+3 の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "傾きの和: 2+(−1/2)=3/2 → 特に関係なし"
+        },
+        {
+          "label": "B",
+          "text": "傾きが等しくないので平行"
+        },
+        {
+          "label": "C",
+          "text": "傾きの積: 2×(−1/2)=−1 → 垂直"
+        },
+        {
+          "label": "D",
+          "text": "傾きの積が 1 なので垂直"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-010",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "basic",
+      "question": "x 軸に平行な直線を通して正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=k(k は定数)の形をした水平線。傾きは 0"
+        },
+        {
+          "label": "B",
+          "text": "x=k の形をした直線"
+        },
+        {
+          "label": "C",
+          "text": "y=kx の形をした原点を通る直線"
+        },
+        {
+          "label": "D",
+          "text": "傾きが 1 の直線"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-011",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "3 点 A(0,0)、B(4,0)、C(1,3) の重心の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1,1)"
+        },
+        {
+          "label": "B",
+          "text": "((0+4+1)/3, (0+0+3)/3)=(5/3, 1)"
+        },
+        {
+          "label": "C",
+          "text": "(5/3,0)"
+        },
+        {
+          "label": "D",
+          "text": "(2,1)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-012",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "点 A(1,2) と点 B(5,−2) を 3:1 に内分する点の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=(3×5+1×1)/4=4、y=(3×(−2)+1×2)/4=−4/4=−1。座標 (4,−1)"
+        },
+        {
+          "label": "B",
+          "text": "x=(1×5+3×1)/(1+3)=2、y=(1×(−2)+3×2)/(1+3)=1。座標 (2,1)"
+        },
+        {
+          "label": "C",
+          "text": "(3,0)"
+        },
+        {
+          "label": "D",
+          "text": "(4,1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-013",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "直線 x+y−4=0 と x−2y+1=0 の交点を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "連立: ①x+y=4、②x−2y=−1。①−②: 3y=5 → y=5/3。x=4−5/3=7/3。交点 (7/3,5/3)"
+        },
+        {
+          "label": "B",
+          "text": "x=4、y=0"
+        },
+        {
+          "label": "C",
+          "text": "①+②: 2x=3 → x=3/2"
+        },
+        {
+          "label": "D",
+          "text": "x=y=2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-014",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "点 P(2,3) を通り、直線 y=3x+1 に平行な直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=3x+3"
+        },
+        {
+          "label": "B",
+          "text": "傾き 3(同じ傾き)、y−3=3(x−2) → y=3x−3"
+        },
+        {
+          "label": "C",
+          "text": "y=3x+1"
+        },
+        {
+          "label": "D",
+          "text": "y=−x/3+3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-015",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "点 (1,2) を通り直線 2x+y=5 に垂直な直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=2x"
+        },
+        {
+          "label": "B",
+          "text": "y=x/2+2"
+        },
+        {
+          "label": "C",
+          "text": "元の傾き −2。垂直な傾き 1/2。y−2=(1/2)(x−1) → y=x/2+3/2"
+        },
+        {
+          "label": "D",
+          "text": "y=−2x+4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-016",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "3 点 (0,0)、(4,0)、(0,3) が作る三角形の面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1/2)×5×3=15/2"
+        },
+        {
+          "label": "B",
+          "text": "(1/2)×4×3=6"
+        },
+        {
+          "label": "C",
+          "text": "(1/2)×(4+3)=7/2"
+        },
+        {
+          "label": "D",
+          "text": "4×3=12"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-017",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "直線 3x−4y+12=0 の x 切片と y 切片として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=0: 3x+12=0 → x=−4(x 切片)。x=0: −4y+12=0 → y=3(y 切片)"
+        },
+        {
+          "label": "B",
+          "text": "x 切片=3、y 切片=12"
+        },
+        {
+          "label": "C",
+          "text": "x 切片=4、y 切片=−3"
+        },
+        {
+          "label": "D",
+          "text": "x 切片=−3、y 切片=4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-018",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "2 直線 y=2x+3 と y=2x−1 の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "傾きが等しく(2=2)、y 切片が異なる(3≠−1) → 平行"
+        },
+        {
+          "label": "B",
+          "text": "一致"
+        },
+        {
+          "label": "C",
+          "text": "垂直"
+        },
+        {
+          "label": "D",
+          "text": "交点あり"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-019",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "A(1,2)、B(3,6) を 1:2 に外分する点の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(5,10)(比を間違えた)"
+        },
+        {
+          "label": "B",
+          "text": "外分点: ((1×3+2×1)/(1+2),(1×6+2×2)/(1+2))=(5/3,10/3)(外分を内分の公式で計算)"
+        },
+        {
+          "label": "C",
+          "text": "外分点は内分と同じ公式で計算できる"
+        },
+        {
+          "label": "D",
+          "text": "外分点: ((1×3−2×1)/(1−2), (1×6−2×2)/(1−2))=(1/−1,2/−1)=(−1,−2)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-020",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "standard",
+      "question": "直線 y=mx+n が 2 つの座標軸と作る三角形の面積を n と m の式で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積=n²/m(絶対値を付けない)"
+        },
+        {
+          "label": "B",
+          "text": "x 切片=−n/m、y 切片=n。面積=(1/2)|−n/m|×|n|=n²/(2|m|)"
+        },
+        {
+          "label": "C",
+          "text": "面積=mn/2"
+        },
+        {
+          "label": "D",
+          "text": "面積=n/m"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-021",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "点 A(1,2)、B(3,4) に対して PA=PB かつ P が直線 y=x+1 上にあるとき、P の座標を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PA²=PB²展開で −2x−4y+5=−6x−8y+25。定数項を移項せず 4x+4y=0 → x+y=0。y=x+1 を代入: x+(x+1)=0 → x=−1/2、y=1/2。P(−1/2,1/2)"
+        },
+        {
+          "label": "B",
+          "text": "PA=PB を満たす P は AB の垂直二等分線上。中点=(2,3)、傾き 1 より垂直二等分線は y−3=1×(x−2) → y=x+1。与えられた直線と一致するため P は無数に存在する"
+        },
+        {
+          "label": "C",
+          "text": "P は AB の垂直二等分線 y=x+2 と y=x+1 の交点を求める → 2 直線が平行で交点なし → 解なし"
+        },
+        {
+          "label": "D",
+          "text": "PA²=PB²: (x−1)²+(y−2)²=(x−3)²+(y−4)²。展開: −2x−4y+5=−6x−8y+25 → 4x+4y=20 → x+y=5。y=x+1 を代入: x+(x+1)=5 → x=2、y=3。P(2,3)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-022",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "直線 l: ax+by+c=0 と点 P(x₀,y₀) の距離が d のとき、a,b,c,d の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "d=(ax₀+by₀+c)/√(a²+b²)(絶対値なし)"
+        },
+        {
+          "label": "B",
+          "text": "d=|ax₀+by₀+c|/√(a²+b²)"
+        },
+        {
+          "label": "C",
+          "text": "d=|ax₀+by₀|/√(a²+b²)"
+        },
+        {
+          "label": "D",
+          "text": "d=|ax₀+by₀+c|/(a+b)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-023",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "3 直線 x+y=3、x−2y=0、2x+y=6 が 1 点で交わるか確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 直線の係数行列の行列式=0 ならば交わる"
+        },
+        {
+          "label": "B",
+          "text": "②x−2y=0 が y 軸を通ることと、①③の交点が存在することから、三直線は必ず一点で交わると結論する"
+        },
+        {
+          "label": "C",
+          "text": "3 本の直線の傾きが全て異なれば 1 点で交わる"
+        },
+        {
+          "label": "D",
+          "text": "まず 2 直線の交点を求め、その点が 3 本目の直線上にあるかを確認する。①②の交点: x=2、y=1。③: 2×2+1=5≠6 → 3 直線は 1 点で交わらない"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-024",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "点 P が直線 l の対称点を求める手順として正しいものはどれか(P(1,3)、l: x−y+1=0)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "l の傾きが 1 なので垂線の傾きも 1 として y−3=(x−1) → y=x+2。l: x−y+1=0 と連立すると x−(x+2)+1=−1≠0 → 解なし → P' は求められない"
+        },
+        {
+          "label": "B",
+          "text": "P の l に関する対称点は l の方程式の係数で決まる公式で求める"
+        },
+        {
+          "label": "C",
+          "text": "l の傾き=1 より垂線の傾き=−1。P(1,3) を通る垂線: y=−x+4。l: x−y+1=0 に代入: x−(−x+4)+1=0 → 2x−3=0 → x=3/2、y=5/2。P'=(2×3/2−1, 2×5/2−3)=(2,2)"
+        },
+        {
+          "label": "D",
+          "text": "対称点は直線上の最近点と等しい(対称点≠最近点)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-025",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "平行な 2 直線 3x−4y+6=0 と 3x−4y−9=0 の距離として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|6−(−9)|/√(9+16)=15/5=3"
+        },
+        {
+          "label": "B",
+          "text": "|6−9|/√(9+16)=3/5"
+        },
+        {
+          "label": "C",
+          "text": "|6−(−9)|/(9+16)=15/25=3/5"
+        },
+        {
+          "label": "D",
+          "text": "|6−(−9)|/(√9+√16)=15/(3+4)=15/7"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-026",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "4 点 A(0,0)、B(4,0)、C(5,3)、D(1,3) が平行四辺形を成すかを確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AC=BD を確認する"
+        },
+        {
+          "label": "B",
+          "text": "4 点の x 座標の和と y 座標の和が等しければ平行四辺形"
+        },
+        {
+          "label": "C",
+          "text": "AB ベクトル=(4,0)、DC ベクトル=C−D=(4,0)。AB=DC かつ AD ベクトル=(1,3)=BC ベクトル=(1,3) → 平行四辺形"
+        },
+        {
+          "label": "D",
+          "text": "対角線の長さが等しければ平行四辺形"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-027",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "直線 y=mx が 2 点 A(1,2)、B(3,6) を同じ側に見るための m の条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2−m)+(6−3m)>0 → 8−4m>0 → m<2"
+        },
+        {
+          "label": "B",
+          "text": "m<2 のとき同じ側"
+        },
+        {
+          "label": "C",
+          "text": "m=3 のときのみ同側"
+        },
+        {
+          "label": "D",
+          "text": "y−mx に A と B を代入: (2−m)(6−3m)>0(同符号) → (2−m)(6−3m)=3(2−m)²>0 → m≠2 で常に成立。m=2 のとき A が直線上"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-028",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "直線 l: y=x+1 を x 軸方向に 2、y 軸方向に −1 だけ平行移動した直線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x を x−2、y を y+1 で置換: (y+1)=(x−2)+1 → y=x−2"
+        },
+        {
+          "label": "B",
+          "text": "x を x+2、y を y−1 で置換 → y=x+4"
+        },
+        {
+          "label": "C",
+          "text": "y=x+1+2+(−1)=x+2"
+        },
+        {
+          "label": "D",
+          "text": "y=x+1×2−1=2x"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-029",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "三角形 ABC(A(0,0)、B(6,0)、C(2,4))の重心・外心・内心のうち、最も計算が簡単なものと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "重心 G=((0+6+2)/3、(0+0+4)/3)=(8/3、4/3)(各頂点の平均)"
+        },
+        {
+          "label": "B",
+          "text": "内心: 角の二等分線の交点"
+        },
+        {
+          "label": "C",
+          "text": "重心=(6/3,4/3)=(2,4/3)"
+        },
+        {
+          "label": "D",
+          "text": "外心: 垂直二等分線の交点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    },
+    {
+      "id": "pl-030",
+      "subject": "数学",
+      "unit": "点と直線",
+      "difficulty": "exam",
+      "question": "点 P(a,b) が直線 y=2x+1 に関して対称な点 P' の座標を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P' は P の x と y を入れ替えた点 (b,a)"
+        },
+        {
+          "label": "B",
+          "text": "P' は直線上の P に最も近い点"
+        },
+        {
+          "label": "C",
+          "text": "PP' の中点が直線上 → 中点 ((a+x')/2,(b+y')/2) が y=2x+1 上。PP' が直線と垂直 → (y'−b)/(x'−a)=−1/2。2 条件連立して (x',y') を求める"
+        },
+        {
+          "label": "D",
+          "text": "P' は P から直線への距離を 2 倍伸ばした方向の点"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点と直線"
+      ]
+    }
+  ]
+}

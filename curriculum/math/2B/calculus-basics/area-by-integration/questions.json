@@ -1,0 +1,934 @@
+{
+  "questions": [
+    {
+      "id": "ab-001",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "x 軸と曲線 y=f(x) で囲まれた面積を定積分で表す式として正しいものはどれか（f(x)≥0 のとき）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫ₐᵇ f(x) dx の絶対値"
+        },
+        {
+          "label": "B",
+          "text": "∫ₐᵇ f(x) dx"
+        },
+        {
+          "label": "C",
+          "text": "∫ₐᵇ f'(x) dx"
+        },
+        {
+          "label": "D",
+          "text": "f(b)−f(a)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-002",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x² と x 軸と x=0、x=2 で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀² x² dx = [x³]₀² = 8"
+        },
+        {
+          "label": "B",
+          "text": "∫₀² x² dx = [x³/3]₀² = 8/3"
+        },
+        {
+          "label": "C",
+          "text": "∫₀² 2x dx = [x²]₀² = 4"
+        },
+        {
+          "label": "D",
+          "text": "∫₀² x dx = [x²/2]₀² = 2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-003",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=f(x) が x 軸の下（f(x)≤0）のとき、面積を求める式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫ₐᵇ f(x) dx"
+        },
+        {
+          "label": "B",
+          "text": "−∫ₐᵇ f(x) dx"
+        },
+        {
+          "label": "C",
+          "text": "∫ᵇₐ f(x) dx"
+        },
+        {
+          "label": "D",
+          "text": "f(a)−f(b)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-004",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x²−1 と x 軸で囲まれた面積を求めるとき、最初にすべき手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=x²−1 を直接積分する"
+        },
+        {
+          "label": "B",
+          "text": "y=0 → x²−1=0 → x=±1"
+        },
+        {
+          "label": "C",
+          "text": "y'=2x=0 → x=0"
+        },
+        {
+          "label": "D",
+          "text": "x=0 での y 値 f(0)=−1 を面積とする"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-005",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "2 曲線 y=f(x) と y=g(x) で囲まれた面積の公式として正しいものはどれか（a≤x≤b で f≥g）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫ₐᵇ {f(x)−g(x)} dx"
+        },
+        {
+          "label": "B",
+          "text": "∫ₐᵇ g(x) dx − ∫ₐᵇ f(x) dx"
+        },
+        {
+          "label": "C",
+          "text": "∫ₐᵇ {f(x)+g(x)} dx"
+        },
+        {
+          "label": "D",
+          "text": "∫ₐᵇ f(x) dx × ∫ₐᵇ g(x) dx"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-006",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x と x 軸と x=0、x=3 で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀³ x dx = [x²/2]₀³ = 9/2"
+        },
+        {
+          "label": "B",
+          "text": "[x²]₀³ = 9"
+        },
+        {
+          "label": "C",
+          "text": "[x]₀³ = 3"
+        },
+        {
+          "label": "D",
+          "text": "∫₁³ x dx = [x²/2]₁³ = 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-007",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "面積を求めるとき絶対値が必要な場面として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "絶対値は面積計算では使わない"
+        },
+        {
+          "label": "B",
+          "text": "積分区間内で f(x) が正負に変わる場合(x 軸をまたぐとき)は区間を分割して符号を調整する"
+        },
+        {
+          "label": "C",
+          "text": "f(x)≥0 のときに絶対値が必要"
+        },
+        {
+          "label": "D",
+          "text": "常に絶対値が必要"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-008",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x³ と x 軸と x=−1、x=1 で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₋₁¹ x³ dx = [x⁴/4]₋₁¹ = 0"
+        },
+        {
+          "label": "B",
+          "text": "∫₋₁¹ x⁴ dx = [x⁵/5]₋₁¹ = 2/5"
+        },
+        {
+          "label": "C",
+          "text": "∫₀¹ x³ dx = [x⁴/4]₀¹ = 1/4"
+        },
+        {
+          "label": "D",
+          "text": "x=0 で符号が変わる → ∫₋₁⁰ (−x³) dx + ∫₀¹ x³ dx = [−x⁴/4]₋₁⁰+[x⁴/4]₀¹ = 1/4+1/4 = 1/2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-009",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=f(x) のグラフと x 軸の間の面積は定積分の値と一致するか、否かを正しく説明しているものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "定積分の値が負のときは面積も負"
+        },
+        {
+          "label": "B",
+          "text": "面積は |∫ₐᵇ f(x) dx|"
+        },
+        {
+          "label": "C",
+          "text": "常に定積分の値=面積"
+        },
+        {
+          "label": "D",
+          "text": "f(x)≥0 のとき一致する。f(x)<0 の区間がある場合は定積分の値は面積より小さくなる"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-010",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=2x−x² と x 軸で囲まれた面積を求めるとき、積分区間として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x−x²=0 → x=1,2"
+        },
+        {
+          "label": "B",
+          "text": "y が最大になる x=1 を端点にして [0,1]"
+        },
+        {
+          "label": "C",
+          "text": "積分区間は [−∞,+∞]"
+        },
+        {
+          "label": "D",
+          "text": "2x−x²=0 → x(2−x)=0 → x=0,2。積分区間 [0,2]"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-011",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=x² と y=x で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀¹ (x+x²) dx = 1/2+1/3 = 5/6"
+        },
+        {
+          "label": "B",
+          "text": "∫₀¹ (x²−x) dx = 1/3−1/2 = −1/6"
+        },
+        {
+          "label": "C",
+          "text": "∫₀¹ x² dx = 1/3"
+        },
+        {
+          "label": "D",
+          "text": "交点: x²=x → x=0,1。∫₀¹ (x−x²) dx = [x²/2−x³/3]₀¹ = 1/2−1/3 = 1/6"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-012",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=x² と y=2x の囲む面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "交点: x²=2x → x=0,2。∫₀² (2x−x²) dx = [x²−x³/3]₀² = 4−8/3 = 4/3"
+        },
+        {
+          "label": "B",
+          "text": "∫₀² x² dx = [x³/3]₀² = 8/3"
+        },
+        {
+          "label": "C",
+          "text": "∫₀² 2x dx + ∫₀² x² dx = 4+8/3 = 20/3"
+        },
+        {
+          "label": "D",
+          "text": "∫₀² (x²−2x) dx = −4/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-013",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "面積を求めるとき積分区間内で上下の曲線が入れ替わる場合の手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "上下の入れ替えは無視して一度だけ積分する"
+        },
+        {
+          "label": "B",
+          "text": "交差点の前後で符号が変わるので面積は 0 になる"
+        },
+        {
+          "label": "C",
+          "text": "交差する x を求め、その点で区間を分割して各区間で(上−下)を積分し、合計する"
+        },
+        {
+          "label": "D",
+          "text": "交差点の前後で正負が相殺するため、合計すると 0 になる"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-014",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=sin x と x 軸の x∈[0,2π] で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀π sin x dx = [−cos x]₀π = 2"
+        },
+        {
+          "label": "B",
+          "text": "∫₀²π sin²x dx = π"
+        },
+        {
+          "label": "C",
+          "text": "∫₀²π sin x dx = [−cos x]₀²π = 0"
+        },
+        {
+          "label": "D",
+          "text": "∫₀π sin x dx + |∫π²π sin x dx| = [−cos x]₀π + |[−cos x]π²π| = 2+|−2| = 4"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-015",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=x³−x と x 軸で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₋₁¹ (x³−x) dx = 0"
+        },
+        {
+          "label": "B",
+          "text": "∫₋₁⁰ (x³−x) dx = 1/4"
+        },
+        {
+          "label": "C",
+          "text": "面積 = 2∫₀¹ (x³−x) dx = 2×(−1/4) = −1/2"
+        },
+        {
+          "label": "D",
+          "text": "x³−x=x(x−1)(x+1)=0 → x=−1,0,1。[−1,0] で y≥0、[0,1] で y≤0。面積=2∫₀¹ (x−x³) dx = 2[x²/2−x⁴/4]₀¹=2×1/4=1/2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-016",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "放物線 y=x²−2x と x 軸で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²−2x=x(x−2)=0 → x=0,2。[0,2] で y≤0。面積=−∫₀² (x²−2x) dx=−[x³/3−x²]₀²=−(8/3−4)=4/3"
+        },
+        {
+          "label": "B",
+          "text": "∫₀¹ (2x−x²) dx = 1−1/3 = 2/3"
+        },
+        {
+          "label": "C",
+          "text": "∫₀² x²−2x dx = 8/3−4 = −4/3"
+        },
+        {
+          "label": "D",
+          "text": "頂点の y 座標の絶対値: |f(1)| = |1−2| = 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-017",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=√x と y=x² で囲まれた面積（0≤x≤1）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀¹ (x²−√x) dx = 1/3−2/3 = −1/3"
+        },
+        {
+          "label": "B",
+          "text": "交点: √x=x² → x=0,1。∫₀¹ (√x−x²) dx = [2x³ᐟ²/3−x³/3]₀¹ = 2/3−1/3 = 1/3"
+        },
+        {
+          "label": "C",
+          "text": "∫₀¹ (√x+x²) dx = 2/3+1/3 = 1"
+        },
+        {
+          "label": "D",
+          "text": "∫₀¹ √x dx = [2x³ᐟ²/3]₀¹ = 2/3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-018",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=x² と y=−x²+2 の囲む面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "交点: x²=−x²+2 → x²=1 → x=±1。∫₋₁¹ (−x²+2−x²) dx = ∫₋₁¹ (−2x²+2) dx = [−2x³/3+2x]₋₁¹ = (−2/3+2)−(2/3−2) = 8/3"
+        },
+        {
+          "label": "B",
+          "text": "交点: x²=1 → x=±1。∫₋₁¹ (x²+(−x²+2)) dx = ∫₋₁¹ 2 dx = 4"
+        },
+        {
+          "label": "C",
+          "text": "∫₋₁¹ (−x²+2) dx = [−x³/3+2x]₋₁¹ = (−1/3+2)−(1/3−2) = 10/3"
+        },
+        {
+          "label": "D",
+          "text": "∫₋₁¹ (x²−(−x²+2)) dx = −8/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-019",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "面積の公式 1/6×|α−β|³（2 次関数と直線が接する場合を除く）が使える状況として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "すべての 2 曲線の囲む面積に使える"
+        },
+        {
+          "label": "B",
+          "text": "3 次関数と直線が囲む面積に使える"
+        },
+        {
+          "label": "C",
+          "text": "2 次関数同士が囲む面積に使える"
+        },
+        {
+          "label": "D",
+          "text": "y=ax²+bx+c と直線 y=lx+m が x=α, x=β の 2 点で交わるとき: S=(|a|/6)|α−β|³"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-020",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=x³ と y=x で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₋₁¹ (x³−x) dx = 0"
+        },
+        {
+          "label": "B",
+          "text": "x³=x → x=−1,0,1。交点が 3 つあるため面積 = ∫₋₁¹ dx = 2"
+        },
+        {
+          "label": "C",
+          "text": "交点: x³=x → x=−1,0,1。[−1,0] で x³≥x、[0,1] で x³≤x。面積=2∫₀¹(x−x³) dx=2[x²/2−x⁴/4]₀¹=2×1/4=1/2"
+        },
+        {
+          "label": "D",
+          "text": "∫₀¹ (x−x³) dx = 1/4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-021",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "y=x³−3x と x 軸で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀^√3 (x³−3x) dx=−9/4"
+        },
+        {
+          "label": "B",
+          "text": "∫₋√3^√3 (x³−3x) dx=0"
+        },
+        {
+          "label": "C",
+          "text": "∫₀^√3 (x³−3x) dx = 9/4"
+        },
+        {
+          "label": "D",
+          "text": "x³−3x=x(x−√3)(x+√3)=0 → x=−√3,0,√3。対称性から 2∫₀^√3 |x³−3x| dx=2∫₀^√3 (3x−x³) dx=2[3x²/2−x⁴/4]₀^√3=2(9/2−9/4)=9/2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-022",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "y=x² と x=y² で囲まれた面積（x≥0,y≥0）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積=∫₀¹ x² dx+∫₀¹ √x dx=1/3+2/3=1"
+        },
+        {
+          "label": "B",
+          "text": "∫₀¹ (x²−√x) dx=−1/3"
+        },
+        {
+          "label": "C",
+          "text": "x=y² → y=√x。交点: x²=√x → x⁴=x → x=0,1。∫₀¹ (√x−x²) dx=2/3−1/3=1/3"
+        },
+        {
+          "label": "D",
+          "text": "∫₀¹ x² dy の形で積分"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-023",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "曲線 y=x³ と点 (1,1) を通る接線で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線: y=3x−2。交点: x³=3x−2 → (x−1)²(x+2)=0 → x=1(重解),−2。面積=∫₋₂¹ (3x−2−x³) dx=[3x²/2−2x−x⁴/4]₋₂¹=27/4"
+        },
+        {
+          "label": "B",
+          "text": "面積=∫₀¹ (3x−2−x³) dx"
+        },
+        {
+          "label": "C",
+          "text": "接線 y=3x−2 と x³ の交点は x=1 のみ"
+        },
+        {
+          "label": "D",
+          "text": "面積=(1/3)|1−(−2)|³=27/3=9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-024",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "y=|x²−1| と x 軸で囲まれた x∈[−2,2] での面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²−1=0 → x=±1。[−2,−1],[1,2] で x²−1≥0、[−1,1] で x²−1≤0。面積=2∫₁²(x²−1)dx+2∫₀¹(1−x²)dx=2×4/3+2×2/3=4"
+        },
+        {
+          "label": "B",
+          "text": "∫₀² |x²−1| dx = 2"
+        },
+        {
+          "label": "C",
+          "text": "∫₋₂² (x²−1) dx=[x³/3−x]₋₂²=(8/3−2)−(−8/3+2)=4/3"
+        },
+        {
+          "label": "D",
+          "text": "∫₋₂² x² dx + ∫₋₂² 1 dx = 16/3+4 = 28/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-025",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "2 直線 y=x と y=x/2 と直線 x=4 で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀⁴ (x/2−x) dx=−4"
+        },
+        {
+          "label": "B",
+          "text": "∫₀² (x−x/2) dx = [x²/4]₀² = 1"
+        },
+        {
+          "label": "C",
+          "text": "面積=∫₀⁴ x dx × ∫₀⁴ x/2 dx=8×4=32"
+        },
+        {
+          "label": "D",
+          "text": "y=x と y=x/2 は x=0 で交わる。0≤x≤4 で y=x≥y=x/2。面積=∫₀⁴ (x−x/2) dx=∫₀⁴ x/2 dx=[x²/4]₀⁴=4"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-026",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "パラメータ a を含む 2 曲線 y=x² と y=ax が囲む面積が 9/2 になる a の値として正しいものはどれか（a>0）。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積=a²/6=9/2 → a²=27 → a=3√3"
+        },
+        {
+          "label": "B",
+          "text": "交点: x²=ax → x=0,a。面積=∫₀ᵃ (ax−x²) dx=[ax²/2−x³/3]₀ᵃ=a³/2−a³/3=a³/6。a³/6=9/2 → a³=27 → a=3"
+        },
+        {
+          "label": "C",
+          "text": "面積=∫₀ᵃ ax dx = a³/2 = 9/2 → a³=9 → a=∛9"
+        },
+        {
+          "label": "D",
+          "text": "面積=∫₀ᵃ x² dx=a³/3=9/2 → a³=27/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-027",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "y=x³−3x²+2x と y=0 の囲む面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∫₀² x(x−1)(x−2) dx = [x⁴/4−x³+x²]₀² = 4−8+4 = 0"
+        },
+        {
+          "label": "B",
+          "text": "x³−3x²+2x=x(x−1)(x−2)=0 → x=0,1,2。[0,1] で y≥0、[1,2] で y≤0。面積=∫₀¹ x(x−1)(x−2) dx+|∫₁² x(x−1)(x−2) dx|=1/4+1/4=1/2"
+        },
+        {
+          "label": "C",
+          "text": "∫₀¹ x dx + ∫₁² x dx = 1/2+3/2 = 2"
+        },
+        {
+          "label": "D",
+          "text": "∫₀¹ x(x−1)(x−2) dx = 1/4"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-028",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "放物線 y=x²−4x+3=(x−1)(x−3) と x 軸で囲まれた面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "公式: (1/4)|3−1|³×1 = 8/4 = 2"
+        },
+        {
+          "label": "B",
+          "text": "交点 x=1,3。[1,3] で y≤0。面積=−∫₁³ (x²−4x+3) dx=−[x³/3−2x²+3x]₁³=−{(9−18+9)−(1/3−2+3)}=−{0−4/3}=4/3"
+        },
+        {
+          "label": "C",
+          "text": "∫₁³ (x²−4x+3) dx=−4/3"
+        },
+        {
+          "label": "D",
+          "text": "∫₁³ x² dx−[4x−3]₁³=9−8=1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-029",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "y=x²−2x と y=−x²+4x−3 の囲む面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積≈1"
+        },
+        {
+          "label": "B",
+          "text": "差: −x²+4x−3−(x²−2x)=−2x²+6x−3。交点: −2x²+6x−3=0 → x=(3±√3)/2。面積=(|−2|/6)|α−β|³=(2/6)×(√3)³=√3"
+        },
+        {
+          "label": "C",
+          "text": "差の判別式 D=36−24=12。面積=(1/6)×D=12/6=2"
+        },
+        {
+          "label": "D",
+          "text": "判別式=12 → √12=2√3。面積=(1/6)(2√3)³=4√3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    },
+    {
+      "id": "ab-030",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "面積が最小になる接線の問題: y=x³ 上の点 (a, a³) の接線と y=x³ で囲まれた面積 S(a) として正しい式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線 y=3a²x−2a³ と曲線 x³ は x=a(重解) と x=−2a で交わる。面積=∫_{−2a}^a |...| dx の形"
+        },
+        {
+          "label": "B",
+          "text": "面積=a×3a²=3a³"
+        },
+        {
+          "label": "C",
+          "text": "接線が曲線と接するだけなので囲まれた面積は 0"
+        },
+        {
+          "label": "D",
+          "text": "接線 y=3a²x−2a³ と x³ は x=a(重解) と x=−2a で交わる。∫_{−2a}^a {x³−(3a²x−2a³)} dx を計算すると S=(27/4)|a|⁴"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "面積",
+        "定積分"
+      ],
+      "subunit": "area-by-integration"
+    }
+  ]
+}

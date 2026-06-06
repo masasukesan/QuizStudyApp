@@ -1,0 +1,846 @@
+{
+  "subject": "数学1A",
+  "unit": "三角形の比と中心",
+  "questions": [
+    {
+      "id": "trc-001",
+      "difficulty": "basic",
+      "question": "重心とは何か。重心の性質を説明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3本の中線の交点。重心は各中線を頂点から2:1に内分する"
+        },
+        {
+          "label": "B",
+          "text": "3つの内角の二等分線の交点"
+        },
+        {
+          "label": "C",
+          "text": "3辺の垂直二等分線の交点"
+        },
+        {
+          "label": "D",
+          "text": "3つの頂点の中点を結ぶ線の交点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重心の定義",
+        "中線を2:1に内分"
+      ]
+    },
+    {
+      "id": "trc-002",
+      "difficulty": "basic",
+      "question": "内心とは何か。内心の最も重要な性質は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3つの内角の二等分線の交点。内心から3辺への距離(内接円の半径r)が等しい"
+        },
+        {
+          "label": "B",
+          "text": "3本の中線の交点"
+        },
+        {
+          "label": "C",
+          "text": "3辺の垂直二等分線の交点"
+        },
+        {
+          "label": "D",
+          "text": "3頂点から等距離の点(外心の性質)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内心の定義",
+        "内角の二等分線の交点"
+      ]
+    },
+    {
+      "id": "trc-003",
+      "difficulty": "basic",
+      "question": "外心とは何か。外心の最も重要な性質は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3辺の垂直二等分線の交点"
+        },
+        {
+          "label": "B",
+          "text": "3本の高さの交点"
+        },
+        {
+          "label": "C",
+          "text": "3つの内角の二等分線の交点"
+        },
+        {
+          "label": "D",
+          "text": "重心から等距離にある点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "外心の定義",
+        "垂直二等分線の交点・外接円の中心"
+      ]
+    },
+    {
+      "id": "trc-004",
+      "difficulty": "basic",
+      "question": "垂心とは何か。垂心と三角形の角度の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3本の高さ(各頂点から対辺への垂線)の交点"
+        },
+        {
+          "label": "B",
+          "text": "3辺の垂直二等分線の交点"
+        },
+        {
+          "label": "C",
+          "text": "常に三角形の内部にある"
+        },
+        {
+          "label": "D",
+          "text": "各辺の中点の交点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂心の定義",
+        "鋭角三角形では内部に位置"
+      ]
+    },
+    {
+      "id": "trc-005",
+      "difficulty": "basic",
+      "question": "角の二等分線定理：△ABCで∠Aの二等分線が辺BCと交わる点をDとするとき、BD:DCの比は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BD:DC = AB:AC = c:b(角の二等分線定理)"
+        },
+        {
+          "label": "B",
+          "text": "BD:DC = AB:BC = c:a"
+        },
+        {
+          "label": "C",
+          "text": "BD:DC = 1:1"
+        },
+        {
+          "label": "D",
+          "text": "BD:DC = sinB:sinC"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "角の二等分線定理",
+        "BD:DC=AB:AC"
+      ]
+    },
+    {
+      "id": "trc-006",
+      "difficulty": "basic",
+      "question": "メネラウスの定理の対象となる図形と条件を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABCの各辺との交点P,Q,Rで (AP/PB)(BQ/QC)(CR/RA)=1"
+        },
+        {
+          "label": "B",
+          "text": "△ABCの内部の点と3辺の交点について成り立つ"
+        },
+        {
+          "label": "C",
+          "text": "円に内接する四角形の辺の比について成り立つ"
+        },
+        {
+          "label": "D",
+          "text": "2辺の延長線上のみの点に適用できる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理の対象",
+        "直線と3辺の交点"
+      ]
+    },
+    {
+      "id": "trc-007",
+      "difficulty": "basic",
+      "question": "チェバの定理の対象となる図形と条件を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内部点Pからの3直線AD,BE,CFで (BD/DC)(CE/EA)(AF/FB)=1"
+        },
+        {
+          "label": "B",
+          "text": "△ABCの3辺上に1つずつ点をとる任意の場合に成立"
+        },
+        {
+          "label": "C",
+          "text": "4点が共線のとき成立する定理"
+        },
+        {
+          "label": "D",
+          "text": "チェバ線が互いに平行のとき成立する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの定理の対象",
+        "1点から3頂点への直線"
+      ]
+    },
+    {
+      "id": "trc-008",
+      "difficulty": "basic",
+      "question": "△ABCで AB:AC = 3:2、∠Aの二等分線がBCと点Dで交わる。BD:DCは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "角の二等分線定理: BD:DC = AB:AC = 3:2"
+        },
+        {
+          "label": "B",
+          "text": "BD:DC = AC:AB = 2:3(逆の比)"
+        },
+        {
+          "label": "C",
+          "text": "BD:DC = 1:1"
+        },
+        {
+          "label": "D",
+          "text": "BD:DC = AB²:AC² = 9:4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "角の二等分線定理の適用",
+        "BD:DC=AB:AC"
+      ]
+    },
+    {
+      "id": "trc-009",
+      "difficulty": "basic",
+      "question": "△ABCの頂点の座標が A(1,2)、B(3,6)、C(5,0) のとき、重心Gの座標は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "重心 = 3頂点の座標の平均。G=((1+3+5)/3, (2+6+0)/3) = (3, 8/3)"
+        },
+        {
+          "label": "B",
+          "text": "G = (頂点AとBの座標の平均) = ((1+3)/2, (2+6)/2) = (2, 4)"
+        },
+        {
+          "label": "C",
+          "text": "G = (1+3+5, 2+6+0) = (9,8)(平均でなく和)"
+        },
+        {
+          "label": "D",
+          "text": "G は各辺の中点の交点で複雑な計算が必要"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重心の座標",
+        "3頂点の座標の平均"
+      ]
+    },
+    {
+      "id": "trc-010",
+      "difficulty": "basic",
+      "question": "鋭角三角形・直角三角形・鈍角三角形における外心の位置はそれぞれどこか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "鋭角三角形: 三角形の内部。直角三角形: 斜辺の中点。鈍角三角形: 三角形の外部"
+        },
+        {
+          "label": "B",
+          "text": "常に三角形の内部にある"
+        },
+        {
+          "label": "C",
+          "text": "鋭角三角形: 外部。鈍角三角形: 内部"
+        },
+        {
+          "label": "D",
+          "text": "直角三角形での外心は直角の頂点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "外心の位置",
+        "三角形の種類と外心の位置"
+      ]
+    },
+    {
+      "id": "trc-011",
+      "difficulty": "standard",
+      "question": "△ABCで D は BC の中点、E は CA の中点、F は AB の中点とする。AD・BE・CF(中線)が1点で交わることをチェバの定理で示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BD/DC=CE/EA=AF/FB=1 → チェバ積=1×1×1=1 → AD,BE,CF共点"
+        },
+        {
+          "label": "B",
+          "text": "中線は定義から交わるのでチェバは不要"
+        },
+        {
+          "label": "C",
+          "text": "メネラウスの定理で示す(共線の定理)"
+        },
+        {
+          "label": "D",
+          "text": "チェバの定理の積は(1/2)×(1/2)×(1/2)=1/8"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの定理で中線の共点性を証明",
+        "各比が1:1"
+      ]
+    },
+    {
+      "id": "trc-012",
+      "difficulty": "standard",
+      "question": "△ABCでPはAB上でAP:PB=1:2、QはBC上でBQ:QC=2:1、RはCA上でCR:RA=1:1とする。P,Q,Rは共線か(メネラウスの定理を使え)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AP/PB×BQ/QC×CR/RA = (1/2)×2×1=1 → P,Q,Rは共線(メネラウス成立)"
+        },
+        {
+          "label": "B",
+          "text": "積=(1/2)×(1/2)×1=1/4≠1 → 共線でない"
+        },
+        {
+          "label": "C",
+          "text": "チェバの定理で確認すべき問題(共点条件)"
+        },
+        {
+          "label": "D",
+          "text": "(1/2)×2×1=1 だからチェバの定理が成立→共点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理の確認計算",
+        "積=1なら共線"
+      ]
+    },
+    {
+      "id": "trc-013",
+      "difficulty": "standard",
+      "question": "△ABCの重心G、外心O、垂心Hについてオイラー線が成立する。OG:GH の比は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "O・G・H は1直線(オイラー線)上にあり、OG:GH = 1:2"
+        },
+        {
+          "label": "B",
+          "text": "OG:GH = 1:1(重心が中点)"
+        },
+        {
+          "label": "C",
+          "text": "OG:GH = 2:1(重心が外心に近い)"
+        },
+        {
+          "label": "D",
+          "text": "O・G・H は一般に共線にならない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "オイラー線",
+        "OG:GH=1:2"
+      ]
+    },
+    {
+      "id": "trc-014",
+      "difficulty": "standard",
+      "question": "△ABCで∠Bの二等分線が辺ACに点Dで交わる。AB=6、BC=4、AC=7のとき、ADとDCの長さは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠Bの二等分線定理: AD:DC = AB:BC = 6:4 = 3:2"
+        },
+        {
+          "label": "B",
+          "text": "AD:DC = BC:AB = 4:6 = 2:3(逆の比)"
+        },
+        {
+          "label": "C",
+          "text": "AD = DC = 7/2"
+        },
+        {
+          "label": "D",
+          "text": "AD:DC = AB:BC だが AD=6×3/(6+4)=18/10=9/5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "角の二等分線定理の応用",
+        "辺の長さを比で分割"
+      ]
+    },
+    {
+      "id": "trc-015",
+      "difficulty": "standard",
+      "question": "直角三角形の垂心はどこにあるか。理由も述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "直角の頂点(∠C=90°の場合、頂点C)が垂心"
+        },
+        {
+          "label": "B",
+          "text": "斜辺の中点"
+        },
+        {
+          "label": "C",
+          "text": "重心と同じ点"
+        },
+        {
+          "label": "D",
+          "text": "三角形の外部にある"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "直角三角形の垂心",
+        "直角の頂点が垂心"
+      ]
+    },
+    {
+      "id": "trc-016",
+      "difficulty": "standard",
+      "question": "△ABCの内接円の半径 r を求めよ。a=5、b=6、c=7のとき r は？(面積Sを先に求めよ)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "s=9, S=6√6, r=S/s=6√6/9=2√6/3"
+        },
+        {
+          "label": "B",
+          "text": "r = (a+b+c)/(2π)"
+        },
+        {
+          "label": "C",
+          "text": "r = (b+c-a)/2 = (6+7-5)/2 = 4"
+        },
+        {
+          "label": "D",
+          "text": "r = S/(a+b+c) = 6√6/18 = √6/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内接円の半径の計算",
+        "r=S/s"
+      ]
+    },
+    {
+      "id": "trc-017",
+      "difficulty": "standard",
+      "question": "△ABCでD,E,FはそれぞれBC,CA,ABの中点。△DEFの面積はどの比率か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△DEF ∼ △ABC(相似比1:2) → 面積比1:4 → △DEF=△ABC/4"
+        },
+        {
+          "label": "B",
+          "text": "△DEF = (1/2)×△ABC(半分)"
+        },
+        {
+          "label": "C",
+          "text": "△DEF = (1/3)×△ABC"
+        },
+        {
+          "label": "D",
+          "text": "△DEFと△ABCは面積が等しい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中点三角形の面積比",
+        "相似比1:2→面積比1:4"
+      ]
+    },
+    {
+      "id": "trc-018",
+      "difficulty": "standard",
+      "question": "△ABCで内心Iからの角度の関係: ∠BIC = 90° + (∠A/2) が成り立つことを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△BICで∠IBC=∠B/2、∠ICB=∠C/2(内心は内角の二等分線の交点)"
+        },
+        {
+          "label": "B",
+          "text": "∠BIC = ∠A(内角と等しい)"
+        },
+        {
+          "label": "C",
+          "text": "∠BIC = 180° - ∠A(補角)"
+        },
+        {
+          "label": "D",
+          "text": "∠BIC = 2∠A(2倍の角)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内心の角度関係",
+        "∠BIC=90°+A/2"
+      ]
+    },
+    {
+      "id": "trc-019",
+      "difficulty": "standard",
+      "question": "△ABCの外接円上の点Pの位置によって∠BPC はどう変わるか(円周角の定理)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠BPC = ∠BAC(同じ弧に対する円周角は等しい)"
+        },
+        {
+          "label": "B",
+          "text": "Pの位置によって∠BPCは自由に変化する"
+        },
+        {
+          "label": "C",
+          "text": "∠BPC は弧BCの長さに比例する"
+        },
+        {
+          "label": "D",
+          "text": "∠BPC = 2∠BAC"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円周角の定理",
+        "同じ弧に対する円周角は等しい"
+      ]
+    },
+    {
+      "id": "trc-020",
+      "difficulty": "standard",
+      "question": "△ABCにおいてメネラウスの定理を使い、三角形の辺の比に関する問題を解く一般手順を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "①三角形と横断直線を特定 ②3辺(または延長)との交点P,Q,Rを確認"
+        },
+        {
+          "label": "B",
+          "text": "まず全長を1として各比を分数で表し足し合わせて1にする"
+        },
+        {
+          "label": "C",
+          "text": "チェバの定理と組み合わせて内積で計算"
+        },
+        {
+          "label": "D",
+          "text": "座標を設定して比を直接計算する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理の解法手順",
+        "交点と比の設定"
+      ]
+    },
+    {
+      "id": "trc-021",
+      "difficulty": "exam",
+      "question": "正三角形ABCの外心O・内心I・重心G・垂心Hについて、4点の位置関係を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正三角形では対称性から O=I=G=H(外心・内心・重心・垂心が全て一致して1点になる)"
+        },
+        {
+          "label": "B",
+          "text": "O・G・H は一致するが I だけ別の位置"
+        },
+        {
+          "label": "C",
+          "text": "4点はオイラー線上に並ぶが各々の位置は異なる"
+        },
+        {
+          "label": "D",
+          "text": "正三角形でも4点は必ず異なる位置にある"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "正三角形の4つの中心",
+        "全て同一点"
+      ]
+    },
+    {
+      "id": "trc-022",
+      "difficulty": "exam",
+      "question": "△ABCでP・Q・Rはそれぞれ辺BC・CA・ABの1/3の点(B側から1/3の位置)。△PQRの面積を△ABCの面積で表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P=(2,1), Q=(0,2), R=(1,0) → 面積3/2 = (9/2)×1/3 → △PQR=△ABC/3"
+        },
+        {
+          "label": "B",
+          "text": "△PQR = (1/3)² × △ABC = (1/9) × △ABC"
+        },
+        {
+          "label": "C",
+          "text": "△PQR = (1/6)×△ABC"
+        },
+        {
+          "label": "D",
+          "text": "△PQR = (1/4) × △ABC"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "1/3の点でできる三角形の面積",
+        "面積比の計算"
+      ]
+    },
+    {
+      "id": "trc-023",
+      "difficulty": "exam",
+      "question": "△ABCの3頂点から対辺に下ろした高さの足をD,E,FとするときのVertic (垂足三角形)DEFの角は元の三角形の角でどう表されるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "垂足三角形の各角は元の三角形の角の補角の2倍の差"
+        },
+        {
+          "label": "B",
+          "text": "垂足三角形の角は元の三角形と同じ"
+        },
+        {
+          "label": "C",
+          "text": "垂足三角形の角は元の角の2倍"
+        },
+        {
+          "label": "D",
+          "text": "垂足三角形は常に正三角形"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂足三角形の角",
+        "鋭角三角形の垂足三角形"
+      ]
+    },
+    {
+      "id": "trc-024",
+      "difficulty": "exam",
+      "question": "チェバの定理の逆：BD/DC × CE/EA × AF/FB = 1 が成り立つとき、AD・BE・CFは何を意味するか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "チェバの逆: 積=1ならば3直線は1点で交わる(共点)"
+        },
+        {
+          "label": "B",
+          "text": "積が1ならば3点D・E・Fが共線"
+        },
+        {
+          "label": "C",
+          "text": "チェバの逆は逆方向の定理ではなく別の定理"
+        },
+        {
+          "label": "D",
+          "text": "積が1ならば△ABCは正三角形"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの定理の逆",
+        "積=1で共点"
+      ]
+    },
+    {
+      "id": "trc-025",
+      "difficulty": "exam",
+      "question": "△ABCの∠Aの外角の二等分線と辺BCの延長の交点をEとするとき、BE:ECの比は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外角の二等分線と辺BCの交点: BE:EC = AB:AC = c:b"
+        },
+        {
+          "label": "B",
+          "text": "BE:EC = AC:AB = b:c"
+        },
+        {
+          "label": "C",
+          "text": "BE:EC = 1:1"
+        },
+        {
+          "label": "D",
+          "text": "外角の二等分線は辺BCと交わらない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "外角の二等分線定理",
+        "外分点の比"
+      ]
+    },
+    {
+      "id": "trc-026",
+      "difficulty": "exam",
+      "question": "△ABCの内接円と各辺の接点をP,Q,R(BCとP、CAとQ、ABとR)とする。AP=AQ、BP=BR、CQ=CRが成り立つことを証明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外部の1点から円への接線の長さは等しい"
+        },
+        {
+          "label": "B",
+          "text": "三角形の対称性から等しい"
+        },
+        {
+          "label": "C",
+          "text": "内接円の中心から各接点への距離が等しいから"
+        },
+        {
+          "label": "D",
+          "text": "角の二等分線定理から導ける"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円の接線の性質",
+        "外部点からの接線長が等しい"
+      ]
+    },
+    {
+      "id": "trc-027",
+      "difficulty": "exam",
+      "question": "△ABCで G を重心とするとき、GA + GB + GC = 0ベクトル(位置ベクトルの和)が成り立つことを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "GをO(原点)とするとGA = A-G、GB = B-G、GC = C-G"
+        },
+        {
+          "label": "B",
+          "text": "GA+GB+GC=0はベクトルの性質から自明"
+        },
+        {
+          "label": "C",
+          "text": "重心は各中線を2:1に分けるからGA=2DG(Dは中点)によって成立"
+        },
+        {
+          "label": "D",
+          "text": "成立するのは正三角形のときのみ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重心の位置ベクトル",
+        "GA+GB+GC=0の証明"
+      ]
+    },
+    {
+      "id": "trc-028",
+      "difficulty": "exam",
+      "question": "Nagel点(各辺の傍接円の接点を頂点から結ぶ直線の交点)が存在することをチェバの定理で示す考え方は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各傍接円の接点の比を計算するとチェバの積=1になることを示す"
+        },
+        {
+          "label": "B",
+          "text": "Nagel点の存在はチェバの定理とは無関係"
+        },
+        {
+          "label": "C",
+          "text": "メネラウスの定理で共線性を確認する"
+        },
+        {
+          "label": "D",
+          "text": "複素数を使って証明する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Nagel点とチェバの定理",
+        "傍接円接点の比"
+      ]
+    },
+    {
+      "id": "trc-029",
+      "difficulty": "exam",
+      "question": "△ABCの面積を重心Gで3等分できることを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△GBC=△GCA=△GAB = △ABC/3(重心で3等分)"
+        },
+        {
+          "label": "B",
+          "text": "重心から3辺までの距離が等しいから3等分"
+        },
+        {
+          "label": "C",
+          "text": "重心は中線の交点で各中線が2つの等積三角形に分割するから"
+        },
+        {
+          "label": "D",
+          "text": "正三角形でのみ3等分される"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重心による3等分",
+        "面積の証明方法"
+      ]
+    },
+    {
+      "id": "trc-030",
+      "difficulty": "exam",
+      "question": "△ABCで内心Iと頂点Aの距離 AI を内接円半径 r と角∠A で表せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△AIBで∠AIB = 90° + C/2(内心の角度関係)"
+        },
+        {
+          "label": "B",
+          "text": "AI = r(内接円の半径と等しい)"
+        },
+        {
+          "label": "C",
+          "text": "AI = 2r/sinA"
+        },
+        {
+          "label": "D",
+          "text": "AI = r×cosA"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "AI=r/sin(A/2)",
+        "内心と頂点の距離"
+      ]
+    }
+  ]
+}

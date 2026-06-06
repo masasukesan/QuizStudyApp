@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "expressions-and-proofs",
+  "subunit": "factor-and-remainder-theorems",
+  "name": "因数定理・剰余定理",
+  "en": "Factor and Remainder Theorems",
+  "questionCount": 0,
+  "source_notes": "センター試験（1999〜2014）の第4問「高次方程式・複素数平面」に因数定理・3次方程式が頻出。1999年：P(1)=0から因数分解 → 全実数解；2000年：重解条件・因数分解；2001年：実数解+虚数解の組み合わせ。共通テスト（2021〜2024）では単独出題なし（整式の除法内で関連概念は登場）。電数図書館 https://www.densu.jp/table/ifrcenter2.htm で確認。全国統一模試・河合塾・駿台では毎年頻出。",
+  "exam_occurrence": {
+    "center_test": "1999〜2014年度に第4問（選択問題）として頻出。因数定理を使った3次方程式の解法・重解条件・実数+虚数解の組み合わせが中心。",
+    "kyotsu_test": "2021〜2024年度は単独出題なし。整式の除法（polynomial-division）と合わせて関連概念は登場。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年必出。因数定理と高次方程式の融合問題が多い。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "因数定理の定義確認",
+      "description": "P(a)=0 ならば (x−a) は P(x) の因数であることを確認する問題。具体的な代入値で定理を適用する。",
+      "typical_question": "P(x) = x³ + ax² + bx + c において P(2)=0 のとき、(x−2) が因数であることを確認せよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "整数解の候補を列挙する",
+      "description": "整数解候補は（定数項の約数）÷（最高次係数の約数）であることを利用。代入して P(a)=0 を確かめる。",
+      "typical_question": "P(x) = x³ − x² − 4x + 4 の整数解の候補を列挙し、実際に代入して因数を見つけよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "P(1)・P(−1)を最初に試す",
+      "description": "P(1)=0 または P(−1)=0 を確認する最も基本的な因数定理の適用。係数の和・交互和による素早い確認法。",
+      "typical_question": "P(x) = x³ − 2x² − x + 2 が (x−1) を因数に持つか確認し、完全に因数分解せよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "組立除法で商を求める",
+      "description": "因数 (x−a) が分かった後、組立除法を用いて商（2次式）を求める手順。",
+      "typical_question": "P(x) = x³ + 2x² − x − 2 を (x−1) で割った商を組立除法で求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "3次方程式を2次式に帰着させる",
+      "description": "因数定理で1つの解を見つけ → 組立除法 → 2次方程式の解の公式 or 因数分解で残りの解を求める。",
+      "typical_question": "3次方程式 x³ − 6x² + 11x − 6 = 0 を解け。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "standard",
+      "title": "3次方程式の3つの実数解を全て求める",
+      "description": "因数定理 → 組立除法 → 2次因数の判別式 D>0 の確認 → 全解を実数で表す。センター試験頻出パターン。",
+      "typical_question": "x³ − 3x² − 4x + 12 = 0 の3つの実数解をすべて求めよ。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "standard",
+      "title": "重解条件（P(a)=0 かつ P'(a)=0）",
+      "description": "3次方程式が重解を持つための条件。P(a)=0 と P'(a)=0 を連立する。センター試験2000年型。",
+      "typical_question": "3次方程式 x³ + ax² + bx + c = 0 が x=2 を重解に持つとき、a, b の条件を求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "standard",
+      "title": "文字係数の条件決定",
+      "description": "P(a)=0 を利用して未知の係数を求め、残りの解を求める。因数定理を条件式として使うパターン。",
+      "typical_question": "P(x) = x³ + ax² + bx − 6 が x=1 と x=−2 を解に持つとき、a, b を求め全解を求めよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "standard",
+      "title": "4次方程式の置換による解法",
+      "description": "x² = t と置換して4次方程式を2次方程式に帰着させる。または因数定理を2回適用する。",
+      "typical_question": "x⁴ − 5x² + 4 = 0 を解け（x² = t と置いて解く）。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "standard",
+      "title": "実数解と虚数解の組み合わせ",
+      "description": "3次方程式が1つの実数解と2つの虚数解（複素共役）を持つ場合。D<0 の2次因数から虚数解を求める。センター試験2001年型。",
+      "typical_question": "x³ − x² + x − 1 = 0 の解をすべて（実数・虚数含め）求めよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "exam",
+      "title": "2つの方程式の共通根",
+      "description": "f(x)=0 と g(x)=0 が共通根 α を持つとき、α は f(x)−g(x)=0 の根でもある性質を利用。",
+      "typical_question": "x³ − 3x + 2 = 0 と x² + x − 2 = 0 の共通根を求め、その値を用いて各方程式の全解を求めよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "exam",
+      "title": "重根条件と係数の関係",
+      "description": "P(α)=0 かつ P'(α)=0 の連立と、解と係数の関係を組み合わせた高難度問題。",
+      "typical_question": "x³ + px + q = 0 が重解を持つための p, q の関係式を求めよ。（判別式的アプローチと微分アプローチ）"
+    },
+    {
+      "id": "p13",
+      "difficulty": "exam",
+      "title": "解と係数の関係と因数定理の融合",
+      "description": "3次方程式の3解 α, β, γ について α+β+γ, αβ+βγ+γα, αβγ を求め、対称式の値を計算する。",
+      "typical_question": "x³ − 2x² + 3x − 4 = 0 の3つの解を α, β, γ とするとき α²+β²+γ² の値を求めよ。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "1の3乗根 ω を用いた問題",
+      "description": "x³ = 1 の虚数解 ω（ω≠1）を利用。ω² + ω + 1 = 0 の性質を使った式の計算・方程式の変形。",
+      "typical_question": "x³ = 1 の1でない解を ω とするとき ω² + ω + 1 = 0 を示し、ω¹⁰⁰ の値を求めよ。"
+    }
+  ]
+}

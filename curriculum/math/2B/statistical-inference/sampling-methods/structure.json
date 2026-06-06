@@ -1,0 +1,52 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "statistical-inference",
+  "subunit": "sampling-methods",
+  "name": "標本調査法",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "confidence-interval",
+      "description": "母平均・母比率の信頼区間を計算する",
+      "thinking_process": [
+        "X̄（または p̂）と σ（または √(p̂(1−p̂)))を確認",
+        "信頼係数 z（95%→1.96、99%→2.58）を確認",
+        "[X̄−z×σ/√n、X̄+z×σ/√n] を計算"
+      ],
+      "common_mistakes": [
+        "σ/√n を σ/n と誤る",
+        "95% → z=1.96、99% → z=2.58 の値を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sample-size-determination",
+      "description": "信頼区間の幅から必要な標本数を決める",
+      "thinking_process": [
+        "幅 = 2×z×σ/√n を設定",
+        "必要な幅 E（半幅）= z×σ/√n",
+        "n≥(z×σ/E)² を計算、切り上げ"
+      ],
+      "common_mistakes": [
+        "半幅と全幅を混同する",
+        "n の切り捨てをする（切り上げが必要）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "interpretation-of-ci",
+      "description": "信頼区間の意味を正しく解釈する",
+      "thinking_process": [
+        "「95% 信頼区間」は繰り返し抽出の頻度の話",
+        "1回の区間が母平均を含む確率は 0 か 1 のどちらか",
+        "信頼度を上げると区間が広がる"
+      ],
+      "common_mistakes": [
+        "「母平均が区間内にある確率 95%」と誤解する",
+        "信頼度と精度を混同する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

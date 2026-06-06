@@ -1,0 +1,954 @@
+{
+  "questions": [
+    {
+      "id": "tei-001",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、sin θ = √3/2 を解くと解が存在する象限の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第1象限と第2象限"
+        },
+        {
+          "label": "B",
+          "text": "第1象限のみ"
+        },
+        {
+          "label": "C",
+          "text": "第1象限と第4象限"
+        },
+        {
+          "label": "D",
+          "text": "第3象限と第4象限"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "単位円",
+        "sin の対称性",
+        "象限"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-002",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、cos θ = -1/2 を解くと解が存在する象限の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第1象限と第2象限"
+        },
+        {
+          "label": "B",
+          "text": "第2象限のみ"
+        },
+        {
+          "label": "C",
+          "text": "第3象限と第4象限"
+        },
+        {
+          "label": "D",
+          "text": "第2象限と第3象限"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "単位円",
+        "cos の対称性",
+        "象限"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-003",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、tan θ = -1 を解くと解が存在する象限の組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第1象限と第3象限"
+        },
+        {
+          "label": "B",
+          "text": "第2象限と第4象限"
+        },
+        {
+          "label": "C",
+          "text": "第2象限のみ"
+        },
+        {
+          "label": "D",
+          "text": "第3象限と第4象限"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "単位円",
+        "tan の符号",
+        "象限"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-004",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、sin θ = 1/2 の解の個数として正しいものを選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "解は 1 個"
+        },
+        {
+          "label": "B",
+          "text": "解は 3 個"
+        },
+        {
+          "label": "C",
+          "text": "解は 4 個"
+        },
+        {
+          "label": "D",
+          "text": "解は 2 個"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "単位円",
+        "sin の対称性",
+        "解の個数"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-005",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、sin θ > 1/2 の解の範囲について正しい説明を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "単位円の上半円全体 0 < θ < π の部分が解の範囲になる"
+        },
+        {
+          "label": "B",
+          "text": "sin θ = 1/2 の解が 2 個あるので、不等式の解も必ず 2 つの独立した点になる"
+        },
+        {
+          "label": "C",
+          "text": "y 座標が 1/2 より大きい弧に対応し、1 つの連続した区間が解の範囲になる"
+        },
+        {
+          "label": "D",
+          "text": "sin の値域は -1 ≤ sin θ ≤ 1 なので sin θ > 1/2 を満たす θ は存在しない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "単位円",
+        "sin の不等式",
+        "上半円"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-006",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、cos θ ≤ 1/2 の解の範囲について正しい説明を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x 座標が 1/2 以上の部分、つまり右側の弧が解の範囲になる"
+        },
+        {
+          "label": "B",
+          "text": "x 座標が 1/2 以下の弧全体が解になり、1 つの連続した広い区間を形成する"
+        },
+        {
+          "label": "C",
+          "text": "cos θ ≤ 1/2 の解は sin θ ≥ 0 の条件と組み合わせて初めて特定できる"
+        },
+        {
+          "label": "D",
+          "text": "cos の値域が -1 ≤ cos θ ≤ 1 なので cos θ ≤ 1/2 は常に成立し、全区間が解になる"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "単位円",
+        "cos の不等式",
+        "左半円"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-007",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、cos θ = 0 の解について正しいものを選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ の零点と cos θ の零点は一致するため、同じ解になる"
+        },
+        {
+          "label": "B",
+          "text": "cos が 0 になる点は単位円上に 1 箇所しかないため、解は 1 個になる"
+        },
+        {
+          "label": "C",
+          "text": "cos θ = 0 の解は x 軸上の点に対応するため θ = 0 と θ = π が解になる"
+        },
+        {
+          "label": "D",
+          "text": "cos θ = 0 は単位円の y 軸上の 2 点に対応し、解は 2 個ある"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "単位円",
+        "cos = 0",
+        "y 軸上"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-008",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、tan θ > √3 を解く際に特に注意すべき点として正しいものを選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tan の周期は 2π なので、解は必ず 1 つの連続した区間にまとまる"
+        },
+        {
+          "label": "B",
+          "text": "tan グラフは θ = π/2 と θ = 3π/2 で不連続になるため、各区間で別々に不等式を確認する必要がある"
+        },
+        {
+          "label": "C",
+          "text": "tan > 0 となるのは第1・第3象限だけなので、その 2 区間内で大小を比較すればよい"
+        },
+        {
+          "label": "D",
+          "text": "tan θ > √3 は sin θ > √3 cos θ と同値なので、合成公式をそのまま適用できる"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "tan の不等式",
+        "漸近線",
+        "区間の確認"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-009",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、sin θ = -√2/2 の解が存在する象限の組み合わせとして正しいものを選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第1象限と第2象限"
+        },
+        {
+          "label": "B",
+          "text": "第2象限と第3象限"
+        },
+        {
+          "label": "C",
+          "text": "第1象限と第4象限"
+        },
+        {
+          "label": "D",
+          "text": "第3象限と第4象限"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "単位円",
+        "sin 負の値",
+        "象限"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-010",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "basic",
+      "question": "0 ≤ θ < 2π のとき、sin θ < -1/2 の解の範囲について正しい説明を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin が負になる下半円全体 π < θ < 2π の部分が解の範囲になる"
+        },
+        {
+          "label": "B",
+          "text": "y 座標が -1/2 より小さい弧、下半円の底付近が解になり、1 つの区間を形成する"
+        },
+        {
+          "label": "C",
+          "text": "sin θ < -1/2 の解の範囲は sin θ > 1/2 の解の範囲を上下反転したものなので 2 区間になる"
+        },
+        {
+          "label": "D",
+          "text": "sin θ < 0 かつ cos θ < 0 の条件が重なる第3象限のみに解がある"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "単位円",
+        "sin の不等式",
+        "下半円"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-011",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "2cos²θ + cos θ - 1 = 0 を t = cos θ と置いたとき、2t² + t - 1 = 0 の解として正しいものを選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "t = -1/2 と t = 1"
+        },
+        {
+          "label": "B",
+          "text": "t = 1/2 と t = -1"
+        },
+        {
+          "label": "C",
+          "text": "t = 1 と t = 0"
+        },
+        {
+          "label": "D",
+          "text": "t = -1/2 と t = 1/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "変数置換",
+        "二次方程式の因数分解",
+        "cos の置換"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-012",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "2sin²θ - sin θ - 1 = 0 を t = sin θ と置いたとき、2t² - t - 1 の正しい因数分解と解の組を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2t² - t - 1 = (2t + 1)(t - 1) = 0 → 解は t = -1/2 と t = 1 の 2 値"
+        },
+        {
+          "label": "B",
+          "text": "2t² - t - 1 = (2t - 1)(t + 1) = 0 → 解は t = 1/2 と t = -1 の 2 値"
+        },
+        {
+          "label": "C",
+          "text": "2t² - t - 1 = (2t + 1)(t - 1) = 0 → t = -1/2 は sin の値域外として除外 → 有効な解は t = 0 のみ"
+        },
+        {
+          "label": "D",
+          "text": "2t² - t - 1 = (t - 1)(t + 1/2) = 0 → 解は t = 1 と t = -1/2 の 2 値"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "変数置換",
+        "因数分解",
+        "sin の置換"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-013",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ < 2π のとき、sin 2θ = sin θ を解く。2倍角公式 sin 2θ = 2sin θ cos θ を使った場合、正しい変形と解を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2sin θ cos θ - sin θ = 0 → sin θ(2cos θ - 1) = 0 → θ = 0, π, π/3, 5π/3"
+        },
+        {
+          "label": "B",
+          "text": "両辺を sin θ で割って 2cos θ = 1 → θ = π/3, 5π/3"
+        },
+        {
+          "label": "C",
+          "text": "2sin θ cos θ - sin θ = 0 → sin θ = 0 または cos θ = 1/2 と正しく分解できるが、sin θ = 0 の解を全て除き cos θ = 1/2 のみから θ = 5π/3 だけを答える"
+        },
+        {
+          "label": "D",
+          "text": "sin 2θ を sin θ cos θ + cos θ sin θ と書いてから整理する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2倍角公式",
+        "因数分解",
+        "sin θ = 0 の解を含む"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-014",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ < 2π のとき、cos 2θ + cos θ = 0 を解く。cos 2θ = 2cos²θ - 1 を使う方法として、正しい変形を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2cos²θ - 1 + cos θ = 0 → (2cos θ - 1)(cos θ + 1) = 0 → θ = π/3, 5π/3, π"
+        },
+        {
+          "label": "B",
+          "text": "(cos θ - 1)(2cos θ + 1) = 0 → θ = 0, 2π/3, 4π/3"
+        },
+        {
+          "label": "C",
+          "text": "cos 2θ = 1 - 2sin²θ を代入して sin θ の方程式にしてから解く"
+        },
+        {
+          "label": "D",
+          "text": "2cos²θ - 1 + cos θ = 0 → (2cos θ - 1)(cos θ + 1) = 0 から cos θ = -1 の解のみを考えて θ = 5π/3 だけを答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2倍角公式",
+        "因数分解",
+        "cos の解"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-015",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ < 2π のとき、sin θ + cos θ = 1 を解く。両辺を 2 乗して解く手順として正しいものを選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "両辺を 2 乗 → 1 + 2sin θ cos θ = 1 → sin 2θ = 0 → 2θ = 0, π, 2π, 3π → θ = 0, π/2, π, 3π/2。元の式に代入して確認し θ = 0, π/2 を答える"
+        },
+        {
+          "label": "B",
+          "text": "両辺を 2 乗 → sin 2θ = 0 → 増根確認を行わず θ = π/2, 3π/2 のみを答える"
+        },
+        {
+          "label": "C",
+          "text": "2sinθ(sinθ-1) = 0 → sinθ = 0 または 1。π/2 は元の式を代入すると成立するが除外し θ = π のみ答える"
+        },
+        {
+          "label": "D",
+          "text": "cos θ = 1 - sin θ として cos²θ に代入し sin θ の 2 次方程式にする"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2乗による変換",
+        "増根確認",
+        "sin 2θ"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-016",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ < 2π のとき、sin 2θ > √3/2 を解く。2θ の範囲に注意して正しい解を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "π/6 < θ < π/3 または 7π/6 < θ < 4π/3"
+        },
+        {
+          "label": "B",
+          "text": "π/3 < θ < 5π/6 または 4π/3 < θ < 11π/6"
+        },
+        {
+          "label": "C",
+          "text": "π/6 < θ < π/3 のみ"
+        },
+        {
+          "label": "D",
+          "text": "0 < θ < π/3 または π < θ < 4π/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2倍角",
+        "範囲の変換",
+        "0≤2θ<4π"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-017",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ < 2π のとき、2cos²θ ≥ 1 + sin θ を解く。cos²θ = 1 - sin²θ を代入した後の正しい変形を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2(1 - sin²θ) ≥ 1 + sin θ → 2sin²θ + sin θ - 1 ≤ 0 → (2sin θ - 1)(sin θ + 1) ≤ 0 → -1 ≤ sin θ ≤ 1/2 → θ の範囲を特定"
+        },
+        {
+          "label": "B",
+          "text": "2cos²θ - sin θ - 1 ≥ 0 を因数分解して直接 θ を求める"
+        },
+        {
+          "label": "C",
+          "text": "2(1 - sin²θ) ≥ 1 + sin θ → 2sin²θ + sin θ - 1 ≥ 0 → (2sin θ - 1)(sin θ + 1) ≥ 0 → sin θ ≥ 1/2 または sin θ ≤ -1"
+        },
+        {
+          "label": "D",
+          "text": "cos²θ = (1 + cos 2θ)/2 を使って cos 2θ の不等式にする"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos²θ = 1 - sin²θ",
+        "二次不等式",
+        "sin の範囲"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-018",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ ≤ π のとき、sin θ = cos 2θ を解く。cos 2θ = 1 - 2sin²θ を使う場合の正しい変形と解を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2sin²θ + sinθ - 1 = 0 → (2sinθ - 1)(sinθ + 1) = 0 → sinθ = 1/2 または -1。0 ≤ θ ≤ π より θ = π/6, 5π/6"
+        },
+        {
+          "label": "B",
+          "text": "cos 2θ = 2cos²θ - 1 を代入して cos の方程式にし、2cos²θ + cos θ = 0 を得て θ = π/2, 2π/3, 4π/3 を答える"
+        },
+        {
+          "label": "C",
+          "text": "cos 2θ = 2cos²θ - 1 を使って cos の方程式にしてから解く"
+        },
+        {
+          "label": "D",
+          "text": "sin θ = cos 2θ を合成して √2 sin(θ - π/4) = cos 2θ と変形し、方程式を解いて θ = π/4, 5π/4 を答える"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2倍角公式",
+        "範囲の絞り込み",
+        "0≤θ≤π"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-019",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ < 2π のとき、cos 2θ ≤ cos θ を解く。cos 2θ = 2cos²θ - 1 を代入した後、正しい不等式の変形を選べ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2cos²θ - 1 ≤ cos θ → 2cos²θ - cos θ - 1 ≤ 0 → (2cos θ + 1)(cos θ - 1) ≤ 0 → -1/2 ≤ cos θ ≤ 1 → θ の範囲を特定"
+        },
+        {
+          "label": "B",
+          "text": "2cos²θ - cos θ - 1 ≤ 0 → (2cos θ - 1)(cos θ + 1) ≤ 0 → -1 ≤ cos θ ≤ 1/2"
+        },
+        {
+          "label": "C",
+          "text": "cos 2θ - cos θ ≤ 0 は因数分解できないため、グラフで解く"
+        },
+        {
+          "label": "D",
+          "text": "2cos²θ - 1 ≤ cos θ → 2cos²θ - cos θ - 1 ≤ 0 → (2cos θ + 1)(cos θ - 1) ≤ 0 → cos θ ≤ -1/2 または cos θ ≥ 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2倍角公式",
+        "二次不等式",
+        "cos の範囲"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-020",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "standard",
+      "question": "0 ≤ θ < 2π のとき、sin θ + √3 cos θ = 1 を両辺 2 乗で解く場合の正しい方針はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin θ = 1 - √3 cos θ として両辺を 2 乗し、cos θ の方程式に帰着させて解き、増根を除く"
+        },
+        {
+          "label": "B",
+          "text": "√3 cos θ = -sin θ + 1 として tan の方程式に帰着させる"
+        },
+        {
+          "label": "C",
+          "text": "sin θ + √3 cos θ を積の形に因数分解して解く"
+        },
+        {
+          "label": "D",
+          "text": "両辺を √(1 + 3) = 2 で割ってから解く"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "両辺の2乗",
+        "増根確認",
+        "cos の方程式"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-025",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で 2cos²θ + cosθ − 1 = 0 を解いたとき、解の個数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2cosθ−1)(cosθ+1)=0 → cosθ=1/2 (θ=π/3,5π/3) またはcosθ=−1 (θ=π) → 3個"
+        },
+        {
+          "label": "B",
+          "text": "cosθ=1/2 のみ考慮 → 2個"
+        },
+        {
+          "label": "C",
+          "text": "2cos²θ + cosθ - 1 = 0 の判別式 D = 1 - 4×2×(-1) = -7 < 0 と誤計算し実数解なし → 0個"
+        },
+        {
+          "label": "D",
+          "text": "(2cosθ+1)(cosθ−1)=0 と因数分解ミス → cosθ=1 のみ → 1個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "因数分解",
+        "cosθの解の個数"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-026",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で sinθ > cosθ が成立する θ の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sinθ−cosθ > 0 → √2 sin(θ−π/4) > 0 → π/4 < θ < 5π/4"
+        },
+        {
+          "label": "B",
+          "text": "sinθ > cosθ → tanθ > 1 の範囲として θ ∈ (π/4, π/2) ∪ (5π/4, 3π/2)"
+        },
+        {
+          "label": "C",
+          "text": "θ=π/4 の前後で符号比較 → 0 < θ < π/4"
+        },
+        {
+          "label": "D",
+          "text": "sinθ > cosθ を単位円の上半分の条件と誤解して 0 < θ < π のみ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角不等式の合成",
+        "√2 sin(θ−π/4)>0"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-027",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で sin2θ = sinθ を解いたとき、解の個数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sin2θ−sinθ=0 → sinθ(2cosθ−1)=0 → θ=0,π,π/3,5π/3 → 4個"
+        },
+        {
+          "label": "B",
+          "text": "2θ=θ → θ=0 の1個のみ"
+        },
+        {
+          "label": "C",
+          "text": "2cosθ - 1 = 0 → cosθ = 1/2 → θ = π/3, 5π/3 の 2個のみ"
+        },
+        {
+          "label": "D",
+          "text": "sin2θ=sinθ → 2θ=θ+2nπ または 2θ=π−θ+2nπ として5個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin2θ=2sinθcosθ",
+        "因数分解と解の個数"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-028",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で 2sin²θ − 3sinθ + 1 = 0 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2sinθ−1)(sinθ−1)=0 → sinθ=1/2 (π/6,5π/6) またはsinθ=1 (π/2) → θ=π/6, π/2, 5π/6"
+        },
+        {
+          "label": "B",
+          "text": "sinθ = 1/2 を sinθ = √3/2 と混同して θ = π/3, 2π/3"
+        },
+        {
+          "label": "C",
+          "text": "(2sinθ+1)(sinθ−1)=0 と因数分解ミス → sinθ=−1/2 または 1 → θ=7π/6, 11π/6, π/2"
+        },
+        {
+          "label": "D",
+          "text": "sinθ=1 のみ考慮 → θ=π/2 のみ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2次方程式の因数分解",
+        "sinθの解の個数"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-029",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で tan θ = −√3 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tanθ<0 は第2・4象限。θ=π−π/3=2π/3, 2π−π/3=5π/3"
+        },
+        {
+          "label": "B",
+          "text": "θ = π/3, 4π/3"
+        },
+        {
+          "label": "C",
+          "text": "θ = 2π/3 のみ"
+        },
+        {
+          "label": "D",
+          "text": "θ = 5π/6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tanの符号と象限",
+        "θ=2π/3, 5π/3"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-030",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で sinθ ≥ −1/2 の解の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0 ≤ θ ≤ 7π/6 かつ 11π/6 ≤ θ < 2π"
+        },
+        {
+          "label": "B",
+          "text": "0 ≤ θ ≤ 7π/6"
+        },
+        {
+          "label": "C",
+          "text": "π/6 ≤ θ ≤ 5π/6"
+        },
+        {
+          "label": "D",
+          "text": "7π/6 ≤ θ ≤ 11π/6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin不等式の補集合",
+        "0≤θ≤7π/6かつ11π/6≤θ<2π"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-031",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で cos2θ = cosθ を解いたとき、解の個数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2cosθ+1)(cosθ-1) = 0 → cosθ = 1(θ=0) または -1/2(θ = 2π/3, 4π/3) → 3個"
+        },
+        {
+          "label": "B",
+          "text": "2θ=θ → θ=0 の1個のみ"
+        },
+        {
+          "label": "C",
+          "text": "2cos²θ - cosθ - 1 = 0 の判別式 D = 1 - 4×2×(-1) = -7 < 0 と誤計算し実数解なし → 0個"
+        },
+        {
+          "label": "D",
+          "text": "(2cosθ+1)(cosθ-1) = 0 は正しいが cosθ = 1 の θ = 0 を除外 → 2個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "cos2θ=2cos²θ−1",
+        "因数分解で3解"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-032",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で 2cos²θ − cosθ − 1 > 0 の解の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2cosθ+1)(cosθ−1)>0 → cosθ<−1/2 or cosθ>1(不可) → 2π/3<θ<4π/3"
+        },
+        {
+          "label": "B",
+          "text": "cosθ > 1/2 の範囲 0 ≤ θ < π/3 または 5π/3 < θ < 2π"
+        },
+        {
+          "label": "C",
+          "text": "(cosθ+1)(2cosθ−1)>0 と誤因数分解 → cosθ>1/2"
+        },
+        {
+          "label": "D",
+          "text": "2cos²θ > cosθ + 1 → 2π/3 ≤ θ ≤ 4π/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "因数分解と不等号",
+        "cosθ<−1/2の範囲"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-033",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で √3 sinθ − cosθ < 1 の解の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2sin(θ−π/6)<1 → sin(θ−π/6)<1/2。θ−π/6の範囲で解を特定 → 0≤θ<π/2 or 5π/6<θ<2π"
+        },
+        {
+          "label": "B",
+          "text": "√3 sinθ < 1+cosθ → θ=π/6で計算 → 0≤θ<π/3"
+        },
+        {
+          "label": "C",
+          "text": "2sin(θ-π/6) < 1 → θ-π/6 < π/6 として θ < π/3 のみ"
+        },
+        {
+          "label": "D",
+          "text": "2sin(θ+π/6) < 1 → sin(θ+π/6) < 1/2 → π/6 < θ < 5π/6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角不等式の合成",
+        "0≤θ<π/2 or 5π/6<θ<2π"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    },
+    {
+      "id": "tei-034",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "difficulty": "exam",
+      "question": "0 ≤ θ < 2π で sin2θ + sinθ = 0 の解の個数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sinθ(2cosθ+1)=0 → sinθ=0(θ=0,π) or cosθ=−1/2(θ=2π/3,4π/3) → 4個"
+        },
+        {
+          "label": "B",
+          "text": "sin2θ=−sinθ → 2θ=π+θ → θ=π のみ → 1個"
+        },
+        {
+          "label": "C",
+          "text": "sinθ=0 のみ → θ=0,π の2個"
+        },
+        {
+          "label": "D",
+          "text": "2cosθ+1=0 のみ → 2個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin2θ=2sinθcosθ",
+        "因数分解で4解"
+      ],
+      "subunit": "trigonometric-equations-and-inequalities"
+    }
+  ]
+}

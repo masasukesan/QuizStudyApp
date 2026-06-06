@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "sequences",
+  "subunit": "geometric-sequences",
+  "name": "等比数列",
+  "en": "Geometric Sequences",
+  "questionCount": 30,
+  "source_notes": "センター試験では数列第3問（選択）で等比数列の一般項・和・等比中項が1997・2000・2002・2004・2008・2011・2014年度に出題されている。共通テスト2021〜2023年の第3問でも等比数列の性質を用いる問題が確認される。模試では毎年必出。参照：電数図書館 https://www.densu.jp/",
+  "exam_occurrence": {
+    "center_test": "第3問（数列選択）の冒頭や中盤に登場。一般項 aₙ=arⁿ⁻¹、等比中項 b²=ac、和の公式 Sₙ=a(rⁿ−1)/(r−1)（r≠1）の計算が中心。2008年は無限等比級数との組み合わせ問題。",
+    "kyotsu_test": "2021〜2023年の第3問に等比数列の一般項・和を利用する設定が含まれる。漸化式との融合、整数問題との複合も多い。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年出題。初項・公比の決定、積の条件（等比中項）、和の最大最小、無限等比級数の収束条件が頻出。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "等比数列の一般項",
+      "description": "初項 a、公比 r の等比数列の一般項は aₙ = a × rⁿ⁻¹ を使う。",
+      "typical_question": "初項 3、公比 2 の等比数列の第 n 項を求めよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "初項・公比の決定（2項から）",
+      "description": "第 m 項と第 n 項の値から rⁿ⁻ᵐ = aₙ/aₘ を立て公比を求め、続いて初項を決定する。",
+      "typical_question": "第2項が 6、第5項が 48 の等比数列の初項と公比を求めよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "等比中項",
+      "description": "3数 a, b, c が等差数列をなす条件は b² = ac（b は a と c の幾何平均）。",
+      "typical_question": "2, x, 18 が等比数列をなすとき x の値を求めよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "等比数列の和（公式の直接適用）",
+      "description": "Sₙ = a(rⁿ−1)/(r−1)（r≠1）または Sₙ = na（r=1）を状況に応じて使い分ける。",
+      "typical_question": "初項 1、公比 3 の等比数列の最初の 5 項の和を求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "等比数列か確認・判定",
+      "description": "隣接比（aₙ₊₁/aₙ）が一定かを確認して等比数列と判定する。",
+      "typical_question": "数列 4, −8, 16, −32, ... が等比数列であることを確認し一般項を求めよ。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "basic",
+      "title": "特定の項が第何番目か",
+      "description": "aₙ = 値 の等式から rⁿ⁻¹ = 値/初項 を解いて n を求める（対数を使う場合も）。",
+      "typical_question": "初項 2、公比 3 の等比数列で 486 は第何項か。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "basic",
+      "title": "等比数列の積（Π）",
+      "description": "等比数列の最初の n 項の積は aⁿ × r^{n(n−1)/2} の形になる（対数を使うとΣに帰着）。",
+      "typical_question": "初項 2、公比 2 の等比数列の最初の 5 項の積を求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "basic",
+      "title": "公比が負の等比数列",
+      "description": "公比が負のとき奇数項と偶数項で符号が交互に変わる。一般項の符号に注意して計算する。",
+      "typical_question": "初項 1、公比 −2 の等比数列の第 6 項と最初の 6 項の和を求めよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "basic",
+      "title": "等差と等比の組み合わせ（基本）",
+      "description": "3数が等差かつ別の3数が等比という条件から連立方程式を立てて解く。",
+      "typical_question": "a, b, c が等差数列をなし、a+3, b+3, c+9 が等比数列をなすとき a, b, c を求めよ。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "basic",
+      "title": "等比数列の和の Sₙ から一般項",
+      "description": "Sₙ が与えられた等比数列の一般項を aₙ = Sₙ − Sₙ₋₁（n≥2）と a₁=S₁ で求める。",
+      "typical_question": "Sₙ = 3ⁿ − 1 のとき等比数列の一般項を求めよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "standard",
+      "title": "無限等比級数の収束・発散",
+      "description": "|r| < 1 のとき Σaᵢ = a/(1−r) に収束。|r| ≥ 1 のとき発散。収束条件の確認が必須。",
+      "typical_question": "初項 4、公比 1/3 の無限等比級数の和を求めよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "standard",
+      "title": "等比数列と不等式（n番目の大小関係）",
+      "description": "aₙ > M や Sₙ > M といった不等式を解いて n の範囲を求める（対数を使う）。",
+      "typical_question": "初項 1、公比 2 の等比数列の和 Sₙ が 1000 を超える最小の n を求めよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "standard",
+      "title": "等比数列の性質（対称性・積の関係）",
+      "description": "等比数列の m番目と n番目の積 aₘ×aₙ = aₚ×aₒ（m+n=p+q）などの対称性を利用する。",
+      "typical_question": "等比数列で a₃×a₇ = a₅² であることを証明せよ。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "無限等比級数の応用（図形・繰り返し問題）",
+      "description": "繰り返し縮小する図形（フラクタル的）の面積や長さの総和を無限等比級数で求める。",
+      "typical_question": "1辺1の正三角形の各辺の中点を結んで内接三角形を作り続けるとき、すべての三角形の面積の和を求めよ。"
+    }
+  ]
+}

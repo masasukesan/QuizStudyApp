@@ -1,0 +1,898 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "laws-of-exponents",
+  "questions": [
+    {
+      "id": "loe-001",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "2³ × 2⁴ を計算するとき、指数法則の使い方として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底が同じなので指数を足す → 2³⁺⁴ = 2⁷ = 128"
+        },
+        {
+          "label": "B",
+          "text": "底が同じなので指数を掛ける → 2¹² = 4096"
+        },
+        {
+          "label": "C",
+          "text": "底どうしも掛けて指数どうしも足す → 4⁷ = 16384"
+        },
+        {
+          "label": "D",
+          "text": "指数はそのまま → 2³ × 2⁴ = 24"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "aᵐ×aⁿ=aᵐ⁺ⁿ",
+        "底が同じなら指数を足す",
+        "底の混同に注意"
+      ]
+    },
+    {
+      "id": "loe-002",
+      "pattern_id": "p02",
+      "difficulty": "basic",
+      "question": "3⁶ ÷ 3² を指数法則で計算するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "指数を割る → 3^(6÷2) = 3³ = 27"
+        },
+        {
+          "label": "B",
+          "text": "指数を足す → 3⁶⁺² = 3⁸"
+        },
+        {
+          "label": "C",
+          "text": "指数を引く → 3⁶⁻² = 3⁴ = 81"
+        },
+        {
+          "label": "D",
+          "text": "指数はそのまま → 3⁶ = 729"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "aᵐ÷aⁿ=aᵐ⁻ⁿ",
+        "割り算は指数を引く",
+        "指数を割る誤りに注意"
+      ]
+    },
+    {
+      "id": "loe-003",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "(2³)⁴ を計算するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "指数を足す → 2³⁺⁴ = 2⁷ = 128"
+        },
+        {
+          "label": "B",
+          "text": "内側の底と指数を外側の指数で掛ける → (2×3)⁴ = 6⁴ = 1296"
+        },
+        {
+          "label": "C",
+          "text": "外側の指数を内側の底に掛ける → (2×4)³ = 8³ = 512"
+        },
+        {
+          "label": "D",
+          "text": "内側と外側の指数を掛ける → 2³×⁴ = 2¹² = 4096"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "(aᵐ)ⁿ=aᵐⁿ",
+        "指数の指数は掛ける",
+        "積の法則との混同に注意"
+      ]
+    },
+    {
+      "id": "loe-004",
+      "pattern_id": "p04",
+      "difficulty": "basic",
+      "question": "(3a)⁴ を展開するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "係数の3には指数を適用しない → 3 × a⁴ = 3a⁴"
+        },
+        {
+          "label": "B",
+          "text": "係数も含めた各因数に⁴乗を分配 → 3⁴ × a⁴ = 81a⁴"
+        },
+        {
+          "label": "C",
+          "text": "係数と指数を掛けて → (3×4)a⁴ = 12a⁴"
+        },
+        {
+          "label": "D",
+          "text": "括弧の中の指数に4を足す → 3⁰⁺⁴ × a¹⁺⁴ = 81a⁵"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "(ab)ⁿ=aⁿbⁿ",
+        "係数にも指数を分配する",
+        "係数の扱いに注意"
+      ]
+    },
+    {
+      "id": "loe-005",
+      "pattern_id": "p05",
+      "difficulty": "basic",
+      "question": "7⁰ の値を求めるとき、正しい考え方はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7⁰ = 1/7"
+        },
+        {
+          "label": "B",
+          "text": "aⁿ ÷ aⁿ = a⁰ = 1 という定義から 7⁰ = 1"
+        },
+        {
+          "label": "C",
+          "text": "底の7と指数の0を掛けて → 7 × 0 = 0"
+        },
+        {
+          "label": "D",
+          "text": "a⁰ = a と定義されているので 7⁰ = 7"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "a⁰=1の定義",
+        "ゼロ乗の意味",
+        "「0個掛ける」誤解に注意"
+      ]
+    },
+    {
+      "id": "loe-006",
+      "pattern_id": "p05",
+      "difficulty": "basic",
+      "question": "2⁻³ の値を求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "負の指数なので符号を変えて → −2³ = −8"
+        },
+        {
+          "label": "B",
+          "text": "負の指数なので底を分母に移す → 1/2³ = 1/8"
+        },
+        {
+          "label": "C",
+          "text": "負の指数なので結果を負にして → −(1/2³) = −1/8"
+        },
+        {
+          "label": "D",
+          "text": "指数の絶対値を分子に置く → 3/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "a⁻ⁿ=1/aⁿ",
+        "負の指数は逆数",
+        "−aⁿとの混同に注意"
+      ]
+    },
+    {
+      "id": "loe-007",
+      "pattern_id": "p06",
+      "difficulty": "basic",
+      "question": "25¹/² の値を求めるとき、正しい考え方はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a¹/² = √a なので √25 = 5"
+        },
+        {
+          "label": "B",
+          "text": "25 × (1/2) = 12.5"
+        },
+        {
+          "label": "C",
+          "text": "指数が分数なので 1/25² = 1/625"
+        },
+        {
+          "label": "D",
+          "text": "1/2乗は底を2倍するので 25 × 2 = 50"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "a¹/²=√a",
+        "1/2乗は平方根",
+        "掛け算との混同に注意"
+      ]
+    },
+    {
+      "id": "loe-008",
+      "pattern_id": "p06",
+      "difficulty": "basic",
+      "question": "8¹/³ の値を求めるとき、正しい考え方はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a¹/³ = ∛a なので ∛8 = 2"
+        },
+        {
+          "label": "B",
+          "text": "8¹/³ = ∛(1/8) = 1/2"
+        },
+        {
+          "label": "C",
+          "text": "8 × (1/3) = 8/3"
+        },
+        {
+          "label": "D",
+          "text": "1/8³ = 1/512"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "a¹/³=∛a",
+        "1/3乗は立方根",
+        "逆数との混同に注意"
+      ]
+    },
+    {
+      "id": "loe-009",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "a² × a⁵ を aⁿ の形で表すとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "指数を掛ける → a²×⁵ = a¹⁰"
+        },
+        {
+          "label": "B",
+          "text": "指数を引く → a²⁻⁵ = a⁻³"
+        },
+        {
+          "label": "C",
+          "text": "指数を足す → a²⁺⁵ = a⁷"
+        },
+        {
+          "label": "D",
+          "text": "係数として足す → 2a⁷"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "aᵐ×aⁿ=aᵐ⁺ⁿ",
+        "文字式への適用",
+        "掛ける誤りに注意"
+      ]
+    },
+    {
+      "id": "loe-010",
+      "pattern_id": "p04",
+      "difficulty": "basic",
+      "question": "(a²b³)³ を展開するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各因数の指数に3を足す → a²⁺³ × b³⁺³ = a⁵b⁶"
+        },
+        {
+          "label": "B",
+          "text": "各因数に³乗を分配 → a⁶ × b⁹ = a⁶b⁹"
+        },
+        {
+          "label": "C",
+          "text": "aとbをまとめて (ab)⁵×³ = (ab)¹⁵"
+        },
+        {
+          "label": "D",
+          "text": "展開すると a⁶ と b⁹ を足す形になる → a⁶ + b⁹"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "(aᵐ)ⁿ=aᵐⁿを各因数に",
+        "足す誤りに注意",
+        "項の和と積の混同に注意"
+      ]
+    },
+    {
+      "id": "loe-011",
+      "pattern_id": "p06",
+      "difficulty": "standard",
+      "question": "8²/³ の値を求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a^(m/n) = (ⁿ√a)ᵐ の定義を使う → (∛8)² = 2² = 4"
+        },
+        {
+          "label": "B",
+          "text": "8²/³ = 8² × (1/3) = 64/3"
+        },
+        {
+          "label": "C",
+          "text": "分子と分母を入れ替えて 8³/² = (√8)³ = (2√2)³ ≒ 22.6"
+        },
+        {
+          "label": "D",
+          "text": "8 × (2/3) = 16/3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "a^(m/n)=(ⁿ√a)ᵐ",
+        "(∛8)²=2²=4",
+        "掛け算・分母逆転の誤りに注意"
+      ]
+    },
+    {
+      "id": "loe-012",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "(1/3)⁻² の値を求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底を逆数にして正の指数に変換 → 3² = 9"
+        },
+        {
+          "label": "B",
+          "text": "指数の絶対値だけとって底はそのまま → (1/3)² = 1/9"
+        },
+        {
+          "label": "C",
+          "text": "底の符号を変えて → −(1/3)² = −1/9"
+        },
+        {
+          "label": "D",
+          "text": "1 − (1/3)² = 1 − 1/9 = 8/9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "(a/b)⁻ⁿ=(b/a)ⁿ",
+        "逆数にして正の指数に変換",
+        "符号の扱いに注意"
+      ]
+    },
+    {
+      "id": "loe-013",
+      "pattern_id": "p06",
+      "difficulty": "standard",
+      "question": "√(a³) を分数の指数を用いて表すとき、正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a³/²"
+        },
+        {
+          "label": "B",
+          "text": "a²/³"
+        },
+        {
+          "label": "C",
+          "text": "3a¹/²"
+        },
+        {
+          "label": "D",
+          "text": "a^6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ⁿ√(aᵐ)=a^(m/n)",
+        "根号を分数指数に変換",
+        "分子分母の逆転に注意"
+      ]
+    },
+    {
+      "id": "loe-014",
+      "pattern_id": "p09",
+      "difficulty": "standard",
+      "question": "2¹/² × 2³/² を計算するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "指数を掛ける → 2^(¹/² × ³/²) = 2³/⁴"
+        },
+        {
+          "label": "B",
+          "text": "指数を足す → 2^(¹/² + ³/²) = 2⁴/² = 2² = 4"
+        },
+        {
+          "label": "C",
+          "text": "分数の足し算は分子・分母それぞれ足す → 2^((1+3)/(2+2)) = 2^1 = 2"
+        },
+        {
+          "label": "D",
+          "text": "指数を引く → 2^(¹/² − ³/²) = 2^(−1) = 1/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "aᵐ×aⁿ=aᵐ⁺ⁿ（分数指数）",
+        "1/2+3/2=2",
+        "分母同士を足す誤りに注意"
+      ]
+    },
+    {
+      "id": "loe-015",
+      "pattern_id": "p03",
+      "difficulty": "standard",
+      "question": "(3²)⁻¹ を計算するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内側と外側の指数を掛ける → 3^(2×(−1)) = 3⁻² = 1/9"
+        },
+        {
+          "label": "B",
+          "text": "内側と外側の指数を足す → 3^(2+(−1)) = 3¹ = 3"
+        },
+        {
+          "label": "C",
+          "text": "外側の−1は結果に符号をかけるので → −(3²) = −9"
+        },
+        {
+          "label": "D",
+          "text": "負の指数は底を負にするので → (−3)² = 9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "(aᵐ)ⁿ=aᵐⁿ（n が負の場合）",
+        "2×(−1)=−2",
+        "足し算との混同に注意"
+      ]
+    },
+    {
+      "id": "loe-016",
+      "pattern_id": "p08",
+      "difficulty": "standard",
+      "question": "(a³)² ÷ a⁴ を簡単にするとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a³)² = a⁵として a⁵ ÷ a⁴ = a"
+        },
+        {
+          "label": "B",
+          "text": "(a³)² = a⁶ として a⁶ ÷ a⁴ = a^(6÷4) = a³/²"
+        },
+        {
+          "label": "C",
+          "text": "(a³)² = a⁶ として a⁶ ÷ a⁴ = a⁶⁻⁴ = a²"
+        },
+        {
+          "label": "D",
+          "text": "(a³)² の ² を無視して a³ ÷ a⁴ = a⁻¹ = 1/a"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "べき乗→商の順に適用",
+        "(a³)²=a⁶→÷a⁴=a²",
+        "各法則を順番に適用する"
+      ]
+    },
+    {
+      "id": "loe-017",
+      "pattern_id": "p06",
+      "difficulty": "standard",
+      "question": "4³/² の値を求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4¹/² = 2 を求め、それを3乗 → 2³ = 8"
+        },
+        {
+          "label": "B",
+          "text": "4³ = 64 を求め、(1/2)を掛ける → 64 × (1/2) = 32"
+        },
+        {
+          "label": "C",
+          "text": "4 × (3/2) = 6"
+        },
+        {
+          "label": "D",
+          "text": "分子と分母を入れ替えて 4²/³ = ∛(4²) = ∛16"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "a^(m/n)=(a^(1/n))ᵐ",
+        "4³/²=(√4)³=8",
+        "掛け算との混同に注意"
+      ]
+    },
+    {
+      "id": "loe-018",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "27^(−¹/³) の値を求めるとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "27¹/³ = ∛27 = 3 を求め、逆数にする → 1/3"
+        },
+        {
+          "label": "B",
+          "text": "27¹/³ = 3 を求め、負をかけて → −3"
+        },
+        {
+          "label": "C",
+          "text": "27 × (−1/3) = −9"
+        },
+        {
+          "label": "D",
+          "text": "1/(27 × (1/3)) = 1/9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "a^(−m/n)=1/(ⁿ√(aᵐ))",
+        "負の分数指数は逆数",
+        "符号を結果に移す誤りに注意"
+      ]
+    },
+    {
+      "id": "loe-019",
+      "pattern_id": "p04",
+      "difficulty": "standard",
+      "question": "(2a²b)³ を展開するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "係数の2には³を適用せず → 2 × a⁶ × b³ = 2a⁶b³"
+        },
+        {
+          "label": "B",
+          "text": "各因数の指数に3を足す → 2³ × a²⁺³ × b¹⁺³ = 8a⁵b⁴"
+        },
+        {
+          "label": "C",
+          "text": "外側の3を係数に掛けて → 6a⁶b³"
+        },
+        {
+          "label": "D",
+          "text": "各因数に³乗を分配 → 2³ × (a²)³ × b³ = 8a⁶b³"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "(abc)ⁿ=aⁿbⁿcⁿ",
+        "係数にも指数を適用",
+        "足す誤り・係数の扱いに注意"
+      ]
+    },
+    {
+      "id": "loe-020",
+      "pattern_id": "p08",
+      "difficulty": "standard",
+      "question": "(a³b²)² ÷ (a²b) を簡単にするとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a³b²)² = a⁶b⁴ として a⁶b⁴ ÷ a²b = a⁶⁻²b⁴⁻¹ = a⁴b³"
+        },
+        {
+          "label": "B",
+          "text": "(a³b²)² = a⁵b³として a⁵b³ ÷ a²b = a³b²"
+        },
+        {
+          "label": "C",
+          "text": "(a³b²)² = a⁶b⁴ として ÷ を × と混同して a⁶b⁴ × a²b = a⁸b⁵"
+        },
+        {
+          "label": "D",
+          "text": "(a³b²)² の ² は a だけにかかるとして a⁶b² ÷ a²b = a⁴b"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "べき乗→商の順に適用",
+        "(a³b²)²=a⁶b⁴→÷a²b=a⁴b³",
+        "各ステップを丁寧に"
+      ]
+    },
+    {
+      "id": "loe-021",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "4^x = 5 のとき、2^(4x+1) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4^x=(2²)^x=2^(2x)=5 → 2^(4x+1)=(2^(2x))²×2=5²×2=50"
+        },
+        {
+          "label": "B",
+          "text": "2^x=5/4 と誤解 → 2^(4x+1)=(5/4)⁴×2=625/128"
+        },
+        {
+          "label": "C",
+          "text": "2^(4x+1)=2×(4x+1)=2×(4×log₂5+1) と誤計算"
+        },
+        {
+          "label": "D",
+          "text": "4^x=5 → 2^(4x)=25 → 2^(4x+1)=25+2=27"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数の変換",
+        "4^x=2^(2x)の利用"
+      ]
+    },
+    {
+      "id": "loe-022",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "9^x − 4×3^x + 3 = 0 を t = 3^x と置いたとき、t の方程式と解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "t²−4t+3=0 → (t−1)(t−3)=0 → t=1,3 → 3^x=1 (x=0), 3^x=3 (x=1)"
+        },
+        {
+          "label": "B",
+          "text": "t²−4t+3=0 → (t−1)(t−3)=0 → t>0 だが t=3 を根拠なく棄却 → t=1のみ → x=0のみ"
+        },
+        {
+          "label": "C",
+          "text": "9^x=(3^x)^2=t² と置かずに 9^x=2t と誤解 → 2t−4t+3=0 → t=3/2"
+        },
+        {
+          "label": "D",
+          "text": "t=3^x で 9^x=t² は正しいが因数分解を (t−2)(t−2)=0 と誤解 → t=2 のみ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "置換 t=3^x",
+        "9^x=t²への変換"
+      ]
+    },
+    {
+      "id": "loe-023",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "2^x × 4^(x+1) = 8^(x−1) を満たす x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2^x×2^(2x+2)=2^(3x−3) → 2^(3x+2)=2^(3x−3) → 3x+2=3x−3(矛盾) → 解なし"
+        },
+        {
+          "label": "B",
+          "text": "指数を足して x+(x+1)=x−1 → x=−2"
+        },
+        {
+          "label": "C",
+          "text": "底をすべて 2 に揃えずに解こうとして x=1"
+        },
+        {
+          "label": "D",
+          "text": "4^(x+1)=8^(x−1) のみに着目して 2^(2x+2)=2^(3x−3) → 2x+2=3x−3 → x=5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "底をすべて2に統一",
+        "指数の比較"
+      ]
+    },
+    {
+      "id": "loe-024",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "x^(2/3) = 4 のとき、x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x^(2/3)=4 → x=(4^(3/2))=(√4)³=2³=8"
+        },
+        {
+          "label": "B",
+          "text": "x=4×(3/2)=6"
+        },
+        {
+          "label": "C",
+          "text": "x=4²/³=2²/³"
+        },
+        {
+          "label": "D",
+          "text": "x^(2/3)=4 → x=4^(2/3)=(√4)²=4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "有理数指数の逆算",
+        "x=(4)^(3/2)=8"
+      ]
+    },
+    {
+      "id": "loe-025",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "a > 0, b > 0 で a^(1/2) × b^(1/3) = 6 かつ a = b² のとき、a の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=b² を代入 → b×b^(1/3)=b^(4/3)=6 → b=6^(3/4) → a=6^(3/2)=6√6"
+        },
+        {
+          "label": "B",
+          "text": "a^(1/2)=6/b^(1/3) として a=36/b^(2/3)、a=b² から b^(8/3)=36 → a=36^(3/4)"
+        },
+        {
+          "label": "C",
+          "text": "a^(1/2)×b^(1/3)=6 → (ab)^(1/3)=6 と誤解 → ab=216"
+        },
+        {
+          "label": "D",
+          "text": "a=4, b=2 と整数解を推測"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "置換と有理数指数",
+        "b^(4/3)=6からbを求める"
+      ]
+    },
+    {
+      "id": "loe-026",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "2^x + 2^(−x) = 3 のとき、4^x + 4^(−x) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2^x+2^(−x))²=4^x+2+4^(−x)=9 → 4^x+4^(−x)=7"
+        },
+        {
+          "label": "B",
+          "text": "4^x+4^(−x)=(2^x+2^(−x))²=9"
+        },
+        {
+          "label": "C",
+          "text": "4^x=(2^x)²=(3−2^(−x))² で代入計算 → 9−6×2^(−x)+4^(−x)"
+        },
+        {
+          "label": "D",
+          "text": "4^x+4^(−x)=2(2^x+2^(−x))=6"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "(2^x+2^(−x))²の展開",
+        "4^x+4^(−x)=7"
+      ]
+    },
+    {
+      "id": "loe-027",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "3^x = 5 のとき、27^x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "27^x=(3³)^x=(3^x)³=5³=125"
+        },
+        {
+          "label": "B",
+          "text": "27^x=27×3^(x−1)=27×5/3=45"
+        },
+        {
+          "label": "C",
+          "text": "27^x=3×3^x=3×5=15"
+        },
+        {
+          "label": "D",
+          "text": "27^x=3^(x+3)=3^x×3³=5×27=135"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "27^x=(3^x)³",
+        "125"
+      ]
+    },
+    {
+      "id": "loe-028",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "2^a = 3 かつ 2^b = 5 のとき、2^(2a−b) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2^(2a−b)=2^(2a)/2^b=(2^a)²/2^b=9/5"
+        },
+        {
+          "label": "B",
+          "text": "2^(2a−b)=2×2a−2b=2×(6−5)=2"
+        },
+        {
+          "label": "C",
+          "text": "2^(2a−b)=2^(2a)−2^b=9−5=4"
+        },
+        {
+          "label": "D",
+          "text": "2^(2a−b)=(2a−b)=2×a−b と誤解 → 計算不能"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数の分割",
+        "(2^a)²/2^b=9/5"
+      ]
+    },
+    {
+      "id": "loe-029",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "3^x > 9^(x−1) を解いたとき、正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3^x>3^(2x−2) → x>2x−2 → x<2"
+        },
+        {
+          "label": "B",
+          "text": "3^x>9^(x−1) → x>x−1 → 常に成立"
+        },
+        {
+          "label": "C",
+          "text": "底を揃えず 3x>2(x−1) → x>−2"
+        },
+        {
+          "label": "D",
+          "text": "3^x>3^(2x−2) → x<2x−2 → x>2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "底を3に統一",
+        "指数不等式 x<2"
+      ]
+    },
+    {
+      "id": "loe-030",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "指数方程式 4^x − 6×2^x + 8 = 0 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "t=2^x とすると t²−6t+8=0 → (t−2)(t−4)=0 → t=2(x=1), t=4(x=2)"
+        },
+        {
+          "label": "B",
+          "text": "t=4^x とすると t−6t^(1/2)+8=0 → 解けない"
+        },
+        {
+          "label": "C",
+          "text": "t=2^x → t²−6t+8=0 → (t+2)(t−4)=0 → t=4 → x=2のみ"
+        },
+        {
+          "label": "D",
+          "text": "t=2^x → t²−6t+8=0 → t=1,8 → x=0, 3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "t=2^x の置換",
+        "t²−6t+8=0 → x=1,2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+/* MagicCircle.module.css */
+
+.wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 360px;
+  pointer-events: none;
+  z-index: 0;
+  animation: magicRotate 180s linear infinite;
+}
+
+@keyframes magicRotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

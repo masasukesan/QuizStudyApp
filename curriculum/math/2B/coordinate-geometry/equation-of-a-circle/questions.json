@@ -1,0 +1,874 @@
+{
+  "questions": [
+    {
+      "id": "ec-001",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "中心 (2,3)、半径 4 の円の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x−2)+(y−3)=4"
+        },
+        {
+          "label": "B",
+          "text": "(x−2)²+(y−3)²=16"
+        },
+        {
+          "label": "C",
+          "text": "(x−2)²+(y−3)²=4"
+        },
+        {
+          "label": "D",
+          "text": "(x+2)²+(y+3)²=8"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-002",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "(x−1)²+(y+2)²=9 の中心と半径を正しく読み取っているものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心 (1,−2)、半径 9"
+        },
+        {
+          "label": "B",
+          "text": "中心 (−1,2)、半径 9"
+        },
+        {
+          "label": "C",
+          "text": "中心 (1,−2)、半径 3"
+        },
+        {
+          "label": "D",
+          "text": "中心 (1,2)、半径 3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-003",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "原点を中心、半径 5 の円の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x−5)²+(y−5)²=10"
+        },
+        {
+          "label": "B",
+          "text": "x²+y²=25"
+        },
+        {
+          "label": "C",
+          "text": "x²+y²=5"
+        },
+        {
+          "label": "D",
+          "text": "x+y=5"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-004",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "x²+y²−4x+6y+9=0 を標準形に変形する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x−2)²+(y+3)²=22"
+        },
+        {
+          "label": "B",
+          "text": "(x−2)²+(y+3)²=4"
+        },
+        {
+          "label": "C",
+          "text": "(x+2)²+(y−3)²=9"
+        },
+        {
+          "label": "D",
+          "text": "(x−2)²+(y+3)²=13"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-005",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "円 x²+y²=r² が点 (3,4) を通るとき r の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "r²=3×4=12 → r=2√3"
+        },
+        {
+          "label": "B",
+          "text": "r=3+4=7"
+        },
+        {
+          "label": "C",
+          "text": "r=4−3=1"
+        },
+        {
+          "label": "D",
+          "text": "3²+4²=r² → r²=25 → r=5"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-006",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "2 点 (0,0)、(4,0) を直径の両端とする円の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²+y²=16"
+        },
+        {
+          "label": "B",
+          "text": "(x−2)²+(y−2)²=8"
+        },
+        {
+          "label": "C",
+          "text": "(x−2)²+y²=4"
+        },
+        {
+          "label": "D",
+          "text": "(x−2)²+y²=2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-007",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "3 点 A(0,0)、B(4,0)、C(0,3) を通る円の方程式を求める最初の手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A と B を通る直線の垂直二等分線を求めて中心を決定"
+        },
+        {
+          "label": "B",
+          "text": "円の方程式を x²+y²+Dx+Ey+F=0 と置き、A、B、C を代入して D、E、F の連立方程式を立てる"
+        },
+        {
+          "label": "C",
+          "text": "3 点の重心を中心とする"
+        },
+        {
+          "label": "D",
+          "text": "中心を (a,b) と置き OA=OB=OC として連立"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-008",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "円の中心から半径の長さを引いて、その点が円内か外かを判断する条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "d < r なら外部"
+        },
+        {
+          "label": "B",
+          "text": "点 P と中心 C の距離 d < r なら内部、d=r なら円周上、d > r なら外部"
+        },
+        {
+          "label": "C",
+          "text": "d−r=0 なら内部"
+        },
+        {
+          "label": "D",
+          "text": "d²<r なら内部"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-009",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "円 x²+y²=25 上の点 (3,4) での接線の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3x+4y=5"
+        },
+        {
+          "label": "B",
+          "text": "4x−3y=0"
+        },
+        {
+          "label": "C",
+          "text": "3x+4y=25"
+        },
+        {
+          "label": "D",
+          "text": "3x+4y=7"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-010",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "basic",
+      "question": "一般形 x²+y²+Dx+Ey+F=0 が円を表すための条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "D²+E²−4F<0"
+        },
+        {
+          "label": "B",
+          "text": "D²+E²−4F=0"
+        },
+        {
+          "label": "C",
+          "text": "D²+E²−4F>0"
+        },
+        {
+          "label": "D",
+          "text": "D+E−F>0"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-011",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "中心が (3,−1) で直線 2x−y+1=0 に接する円の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "半径 r=|2×3−(−1)+1|/√5=8/√5=8√5/5。(x−3)²+(y+1)²=64/5"
+        },
+        {
+          "label": "B",
+          "text": "半径=|2×3−1+1|/√5=6/√5=6√5/5。(x−3)²+(y+1)²=36/5"
+        },
+        {
+          "label": "C",
+          "text": "半径=8/5。(x−3)²+(y+1)²=64/25"
+        },
+        {
+          "label": "D",
+          "text": "半径=|2×3−1|/√5=5/√5=√5。r²=5。(x−3)²+(y+1)²=5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-012",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "2 点 A(1,0)、B(5,0) を直径の両端とする円と直線 y=x が交わる点を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "直線と円の交点は常に 2 点"
+        },
+        {
+          "label": "B",
+          "text": "(x−3)²+x²=4 → 2x²−6x+9=0 → 判別式=36−72<0"
+        },
+        {
+          "label": "C",
+          "text": "円: (x−3)²+y²=4。y=x を代入: (x−3)²+x²=4 → 2x²−6x+5=0 → 判別式: 36−40=−4<0 → 交点なし"
+        },
+        {
+          "label": "D",
+          "text": "(x−3)²+y²=4 に y=x を代入: (x−3)²+x²=4 → 解がある"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-013",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "円 x²+y²=10 と直線 y=x+k が接するときの k の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|k|/2=√10 → k=±2√10"
+        },
+        {
+          "label": "B",
+          "text": "中心 (0,0) から直線 x−y+k=0 への距離=半径: |k|/√2=√10 → k²/2=10 → k=±2√5"
+        },
+        {
+          "label": "C",
+          "text": "|k|/√2=10 → k=±10√2"
+        },
+        {
+          "label": "D",
+          "text": "2x²+2kx+k²=10。D=(2k)²−8k²=0 → k=0"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-014",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "3 点 (1,1)、(3,1)、(2,3) を通る円の方程式を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 点から直接円の半径=距離の式を立てる"
+        },
+        {
+          "label": "B",
+          "text": "2 点を直径の両端とし残る 1 点が直径の判定"
+        },
+        {
+          "label": "C",
+          "text": "3 点の重心 (2,5/3) を中心とする"
+        },
+        {
+          "label": "D",
+          "text": "x²+y²+Dx+Ey+F=0 に 3 点代入: 1+1+D+E+F=0①、9+1+3D+E+F=0②、4+9+2D+3E+F=0③。①②③の連立を解く"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-015",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "円 (x−2)²+(y−1)²=r² が直線 3x−4y+20=0 に接する条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心 (2,1) から直線への距離=r: |3×2−4×1+20|/√(9+16)=|22|/5=22/5=r"
+        },
+        {
+          "label": "B",
+          "text": "r=|3−4+20|/5=19/5"
+        },
+        {
+          "label": "C",
+          "text": "半径=√(9+16)=5"
+        },
+        {
+          "label": "D",
+          "text": "r=|3×2−4×1|/√(3²+4²)=2/5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-016",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "円 x²+y²=r² の外部の点 P(a,b) から引いた接線の長さの公式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a²+b²−r²"
+        },
+        {
+          "label": "B",
+          "text": "√(a²+b²−r²)"
+        },
+        {
+          "label": "C",
+          "text": "√(a²+b²+r²)"
+        },
+        {
+          "label": "D",
+          "text": "√(r²−(a²+b²))"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-017",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "2 つの円 x²+y²=4 と x²+y²−6x+5=0 の位置関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "中心間距離 3>r₁+r₂=4"
+        },
+        {
+          "label": "B",
+          "text": "中心間距離=3=r₁+r₂=4"
+        },
+        {
+          "label": "C",
+          "text": "r₁=r₂=2 なので同心円"
+        },
+        {
+          "label": "D",
+          "text": "円1: 中心 (0,0)、r₁=2。円2: (x−3)²+y²=4、中心 (3,0)、r₂=2。中心間距離=3。r₁+r₂=4>3>|r₁−r₂|=0 → 2 点で交わる"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-018",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "円 x²+y²=25 と点 P(7,1) から引いた接線の本数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(7,1) は内部なので接線なし"
+        },
+        {
+          "label": "B",
+          "text": "OP²=50=r²=25 と誤り、P は円周上と判断"
+        },
+        {
+          "label": "C",
+          "text": "接線の本数はいつも 2 本"
+        },
+        {
+          "label": "D",
+          "text": "OP²=49+1=50>25=r² → P は外部 → 接線 2 本"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-019",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "円 (x−1)²+(y−2)²=9 を x 軸方向に 3、y 軸方向に −2 平行移動した円の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x−4)²+(y−4)²=4"
+        },
+        {
+          "label": "B",
+          "text": "(x−4)²+y²=12"
+        },
+        {
+          "label": "C",
+          "text": "(x−4)²+y²=9"
+        },
+        {
+          "label": "D",
+          "text": "(x+2)²+(y+4)²=25"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-020",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "standard",
+      "question": "円の方程式 (x−a)²+(y−b)²=r² を展開したとき、一般形 x²+y²+Dx+Ey+F=0 との対応として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "D=a、E=b、F=r"
+        },
+        {
+          "label": "B",
+          "text": "D=−2a、E=−2b、F=r²"
+        },
+        {
+          "label": "C",
+          "text": "D=−2a、E=−2b、F=a²+b²−r²"
+        },
+        {
+          "label": "D",
+          "text": "D=2a、E=2b、F=r²"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-021",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "直線 y=mx+1 が円 x²+y²=1 に接するとき、m の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|1|/|m|=1 → m=±1"
+        },
+        {
+          "label": "B",
+          "text": "(1+m²)x²+2mx+1=0。D=4m²−4(1+m²)=−4<0 → 実数解なし"
+        },
+        {
+          "label": "C",
+          "text": "|1|/√(m²+1)=1 → m²+1=1 → m=0"
+        },
+        {
+          "label": "D",
+          "text": "y=mx+1 は常に点 (0,1) を通る。(0,1) は円上なので接線は常に 1 本で m は任意"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-022",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "2 つの円 x²+y²=25 と (x−7)²+y²=4 の共通接線は全部で何本あるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "円1: 中心 (0,0)、r₁=5。円2: 中心 (7,0)、r₂=2。d=7=r₁+r₂=7 → 外接 → 共通接線の本数: 3"
+        },
+        {
+          "label": "B",
+          "text": "d=7>r₁+r₂=7 → 完全外部 → 共通接線の本数: 4"
+        },
+        {
+          "label": "C",
+          "text": "d=7=r₁+r₂ → 共通接線の本数: 1"
+        },
+        {
+          "label": "D",
+          "text": "d=7<r₁+r₂=7 → 一方が他方の内部 → 共通接線の本数: 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-023",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "3 点 A(2,0)、B(0,4)、C(−2,0) を通る円の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A と C の中点は (0,0) だから中心は y 軸上"
+        },
+        {
+          "label": "B",
+          "text": "x²+y²=4"
+        },
+        {
+          "label": "C",
+          "text": "x²+(y−3/2)²=25/4"
+        },
+        {
+          "label": "D",
+          "text": "中心は AC の中点 (0,0) と AB の中点から求める"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-024",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "円 x²+y²−2x−4y+1=0 と直線 y=x−1 の交点の座標を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=1(y=0) と x=3(y=2)"
+        },
+        {
+          "label": "B",
+          "text": "y=x−1 を代入: x²−2x−4(x−1)+1=0"
+        },
+        {
+          "label": "C",
+          "text": "標準形に変換せずに一般形に直接代入"
+        },
+        {
+          "label": "D",
+          "text": "y=x−1 を一般形に代入して 2x²−4x+4=0 → 判別式<0 → 交点なし"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-025",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "2 つの円 C₁: x²+y²=1 と C₂: x²+y²−4x−2y+4=0 の根軸（共通弦）の方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "根軸=C₁とC₂の中心を結ぶ直線"
+        },
+        {
+          "label": "B",
+          "text": "C₁−C₂=0: −(−4x−2y+4)=0 → 4x+2y−4=0 → 2x+y−2=0"
+        },
+        {
+          "label": "C",
+          "text": "C₂の方程式が根軸"
+        },
+        {
+          "label": "D",
+          "text": "C₁+C₂=0 を計算"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-026",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "円 x²+y²=r² 外の点 P(a,b) から円に引いた 2 接線のなす角が 60° のとき、r と OP の関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線と OP のなす角=30°。sin30°=r/OP → r/OP=1/2 → OP=2r"
+        },
+        {
+          "label": "B",
+          "text": "sin60°=r/OP → OP=2r/√3"
+        },
+        {
+          "label": "C",
+          "text": "なす角 60° → r²=OP²×sin²60°=OP²×3/4"
+        },
+        {
+          "label": "D",
+          "text": "tan60°=r/OP → OP=r/√3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-027",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "点 (1,2) を通り円 x²+y²=5 に接する接線の方程式を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OP²=1+4=5=r² より P は円周上。法線の傾き=2/1=2 と誤り → 接線 y−2=2(x−1) → 2x−y=0"
+        },
+        {
+          "label": "B",
+          "text": "接線: x+2y=5"
+        },
+        {
+          "label": "C",
+          "text": "y−2=m(x−1) に直線を代入して判別式=0"
+        },
+        {
+          "label": "D",
+          "text": "接線は 2 本あり (1,2) が外点"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-028",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "2 点 A(1,0)、B(5,0) を通る円の全体を表す方程式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(x−3)²+y²=4"
+        },
+        {
+          "label": "B",
+          "text": "A、B を通る円は唯一"
+        },
+        {
+          "label": "C",
+          "text": "x²+y²−6x+Ey+5=0"
+        },
+        {
+          "label": "D",
+          "text": "E が任意なので無数の円が存在しない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-029",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "円 C₁: x²+y²=4 と円 C₂: (x−3)²+y²=1 の共通外接線の方程式を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外部相似中心 (6,0) から各円への距離が半径に等しくなる傾き m を求め、外接線 y=m(x−6) を特定する"
+        },
+        {
+          "label": "B",
+          "text": "外接線は 2 円の中心を結ぶ直線の延長"
+        },
+        {
+          "label": "C",
+          "text": "内分点 P=(2,0) を通る直線が共通外接線"
+        },
+        {
+          "label": "D",
+          "text": "直接 y=mx+c として 2 円への距離 r₁=r₂ とおく"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    },
+    {
+      "id": "ec-030",
+      "subject": "数学",
+      "unit": "円の方程式",
+      "difficulty": "exam",
+      "question": "円の束の方程式（2 円の 1 次結合）C₁+kC₂=0 が表すものとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k の値によらず C₁+kC₂ は同一の円を表す"
+        },
+        {
+          "label": "B",
+          "text": "C₁=0 と C₂=0 の交点(または根軸)を通る円全体を表す(k≠−1 の場合に円)"
+        },
+        {
+          "label": "C",
+          "text": "C₁ と C₂ の間の円のみを表す"
+        },
+        {
+          "label": "D",
+          "text": "k=-1 を含むどの k でも必ず円を表す"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "円の方程式"
+      ]
+    }
+  ]
+}

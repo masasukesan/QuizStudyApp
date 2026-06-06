@@ -1,0 +1,67 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "coordinate-geometry",
+  "subunit": "line-relations",
+  "name": "直線の位置関係",
+  "en": "Line Relations",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "parallel-perpendicular-conditions",
+      "description": "傾きを使って2直線の平行・垂直・交差を判定する",
+      "thinking_process": [
+        "直線を y=mx+b の形に整えて傾き m を読む",
+        "平行：m₁=m₂（切片は異なる）、垂直：m₁m₂=−1",
+        "どちらでもなければ交わる"
+      ],
+      "common_mistakes": [
+        "垂直条件を m₁=m₂ と混同する",
+        "x=a 形の直線の傾きを0と誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "symmetric-point-about-line",
+      "description": "直線に関して点の対称点を求める",
+      "thinking_process": [
+        "点から直線への垂線の傾きを求める（元の直線の傾きの負の逆数）",
+        "垂線と直線の交点（足 M）を求める",
+        "A'=2M−A で対称点を計算する"
+      ],
+      "common_mistakes": [
+        "垂線の傾きを元の傾きのままにする",
+        "M を 2 倍するだけで A を引き忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "three-lines-concurrency",
+      "description": "3直線が1点で交わる条件を代入で確認する",
+      "thinking_process": [
+        "2本の直線の交点を求める",
+        "その交点を3本目の直線に代入して成立するか確認",
+        "または行列式を使って同時に確認する"
+      ],
+      "common_mistakes": [
+        "2本だけで交点を求めて3本目への代入を忘れる",
+        "連立の計算ミス"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "distance-between-parallel-lines",
+      "description": "平行な2直線の距離を距離公式で求める",
+      "thinking_process": [
+        "ax+by+c₁=0 と ax+by+c₂=0 の形を確認",
+        "距離 = |c₁−c₂|/√(a²+b²)",
+        "係数 a,b が同じであることを確認してから計算"
+      ],
+      "common_mistakes": [
+        "係数 a,b を揃えずに c の差だけ使う",
+        "分母を a+b にする（√を忘れる）"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

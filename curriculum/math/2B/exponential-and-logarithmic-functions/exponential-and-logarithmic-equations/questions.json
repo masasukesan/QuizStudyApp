@@ -1,0 +1,846 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "exponential-and-logarithmic-equations",
+  "questions": [
+    {
+      "id": "ele-001",
+      "difficulty": "basic",
+      "question": "2ˣ=8 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=log2×8"
+        },
+        {
+          "label": "B",
+          "text": "x=2×8=16"
+        },
+        {
+          "label": "C",
+          "text": "8=2³ と変換 → x=3"
+        },
+        {
+          "label": "D",
+          "text": "x=8/2=4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数方程式",
+        "底を揃える"
+      ]
+    },
+    {
+      "id": "ele-002",
+      "difficulty": "basic",
+      "question": "3²ˣ=27 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3"
+        },
+        {
+          "label": "B",
+          "text": "27=3³ → 2x=3 → x=3/2"
+        },
+        {
+          "label": "C",
+          "text": "x=3³/3²=3"
+        },
+        {
+          "label": "D",
+          "text": "x=27/2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "指数方程式",
+        "指数部分の方程式"
+      ]
+    },
+    {
+      "id": "ele-003",
+      "difficulty": "basic",
+      "question": "log₂x=4 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2×4=8"
+        },
+        {
+          "label": "B",
+          "text": "x=2⁴=16"
+        },
+        {
+          "label": "C",
+          "text": "x=8"
+        },
+        {
+          "label": "D",
+          "text": "x=4"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対数方程式",
+        "指数変換"
+      ]
+    },
+    {
+      "id": "ele-004",
+      "difficulty": "basic",
+      "question": "log₃(x+2)=2 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3"
+        },
+        {
+          "label": "B",
+          "text": "x+2=3²=9 → x=7(真数 9>0 確認)"
+        },
+        {
+          "label": "C",
+          "text": "x=9"
+        },
+        {
+          "label": "D",
+          "text": "x+2=6 → x=4"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "対数方程式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "ele-005",
+      "difficulty": "basic",
+      "question": "4ˣ=2³ を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3/4"
+        },
+        {
+          "label": "B",
+          "text": "x=3"
+        },
+        {
+          "label": "C",
+          "text": "4ˣ=(2²)ˣ=2²ˣ=2³ → 2x=3 → x=3/2"
+        },
+        {
+          "label": "D",
+          "text": "x=2×4=8"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数方程式",
+        "底の変換"
+      ]
+    },
+    {
+      "id": "ele-006",
+      "difficulty": "basic",
+      "question": "log₅x = 0 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=5⁰=1"
+        },
+        {
+          "label": "B",
+          "text": "x=5"
+        },
+        {
+          "label": "C",
+          "text": "x=0"
+        },
+        {
+          "label": "D",
+          "text": "解なし"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数方程式",
+        "0乗"
+      ]
+    },
+    {
+      "id": "ele-007",
+      "difficulty": "basic",
+      "question": "2ˣ=1 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "解なし"
+        },
+        {
+          "label": "B",
+          "text": "x=1"
+        },
+        {
+          "label": "C",
+          "text": "x=2"
+        },
+        {
+          "label": "D",
+          "text": "x=0(2⁰=1)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "指数方程式",
+        "0乗"
+      ]
+    },
+    {
+      "id": "ele-008",
+      "difficulty": "basic",
+      "question": "9ˣ=3 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3"
+        },
+        {
+          "label": "B",
+          "text": "x=1"
+        },
+        {
+          "label": "C",
+          "text": "(3²)ˣ=3¹ → 2x=1 → x=1/2"
+        },
+        {
+          "label": "D",
+          "text": "x=1/3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数方程式",
+        "底の統一"
+      ]
+    },
+    {
+      "id": "ele-009",
+      "difficulty": "basic",
+      "question": "log₂x > 0 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x>2"
+        },
+        {
+          "label": "B",
+          "text": "x>0"
+        },
+        {
+          "label": "C",
+          "text": "x>1/2"
+        },
+        {
+          "label": "D",
+          "text": "x>1(log₂x>0 ↔ x>2⁰=1)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "対数不等式",
+        "基本"
+      ]
+    },
+    {
+      "id": "ele-010",
+      "difficulty": "basic",
+      "question": "2ˣ>4 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x<2"
+        },
+        {
+          "label": "B",
+          "text": "x>log₂4=2(正解に至る式だが途中を省略)"
+        },
+        {
+          "label": "C",
+          "text": "2ˣ>2² → 底 2>1 なので x>2"
+        },
+        {
+          "label": "D",
+          "text": "x>4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数不等式",
+        "底の比較"
+      ]
+    },
+    {
+      "id": "ele-011",
+      "difficulty": "standard",
+      "question": "4ˣ−3×2ˣ−4=0 を解く。t=2ˣ と置いたとき正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "t²−3t−4=0 → (t+1)(t−4)=0 → t=4(t>0) → x=2"
+        },
+        {
+          "label": "B",
+          "text": "t=−1 → x=−1 が答え"
+        },
+        {
+          "label": "C",
+          "text": "t=3 → x=log₂3"
+        },
+        {
+          "label": "D",
+          "text": "t=4 と t=−1 の両方で x を求めて x=2 と x=−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "置換",
+        "2ˣ=t"
+      ]
+    },
+    {
+      "id": "ele-012",
+      "difficulty": "standard",
+      "question": "log₂x+log₂(x−3)=2 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=4 と x=−1 の両方"
+        },
+        {
+          "label": "B",
+          "text": "x=−1"
+        },
+        {
+          "label": "C",
+          "text": "log₂x(x−3)=2 → x(x−3)=4 → x²−3x−4=0 → x=4(真数条件 x>0,x>3 より)"
+        },
+        {
+          "label": "D",
+          "text": "x=3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数方程式",
+        "積の対数"
+      ]
+    },
+    {
+      "id": "ele-013",
+      "difficulty": "standard",
+      "question": "(1/2)ˣ≤(1/8) を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1/2)ˣ≤(1/2)³ → 底 1/2<1 なので x≥3"
+        },
+        {
+          "label": "B",
+          "text": "x≤1/8"
+        },
+        {
+          "label": "C",
+          "text": "x≤3"
+        },
+        {
+          "label": "D",
+          "text": "x≥8"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数不等式",
+        "底が1未満"
+      ]
+    },
+    {
+      "id": "ele-014",
+      "difficulty": "standard",
+      "question": "log(1/3)x≤−2 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底 1/3<1 なので x≥(1/3)⁻²=9。真数条件 x>0 → x≥9"
+        },
+        {
+          "label": "B",
+          "text": "0<x≤9"
+        },
+        {
+          "label": "C",
+          "text": "x≤9"
+        },
+        {
+          "label": "D",
+          "text": "x≥3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数不等式",
+        "底が1未満"
+      ]
+    },
+    {
+      "id": "ele-015",
+      "difficulty": "standard",
+      "question": "9^(x+1)=27^(x−1) を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3²⁽ˣ⁺¹⁾=3³⁽ˣ⁻¹⁾ → 2x+2=3x−3 → x=5"
+        },
+        {
+          "label": "B",
+          "text": "x=−5"
+        },
+        {
+          "label": "C",
+          "text": "x=1"
+        },
+        {
+          "label": "D",
+          "text": "2x+2=3x−3 → x=−5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数方程式",
+        "底の統一"
+      ]
+    },
+    {
+      "id": "ele-016",
+      "difficulty": "standard",
+      "question": "log₂(x−1)>log₂(5−x) を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底 2>1 なので x−1>5−x → x>3。真数条件 x>1 かつ 5−x>0 → x<5。答え: 3<x<5"
+        },
+        {
+          "label": "B",
+          "text": "x>3 のみ"
+        },
+        {
+          "label": "C",
+          "text": "x>1"
+        },
+        {
+          "label": "D",
+          "text": "1<x<5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数不等式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "ele-017",
+      "difficulty": "standard",
+      "question": "2ˣ=3 の解を対数で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3/2"
+        },
+        {
+          "label": "B",
+          "text": "x=log₂3(底が 2 の対数)"
+        },
+        {
+          "label": "C",
+          "text": "x=log10 3/log10 2(底の変換後の形だが log₂3 が正しい)"
+        },
+        {
+          "label": "D",
+          "text": "x=log₃2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "指数方程式",
+        "対数での表現"
+      ]
+    },
+    {
+      "id": "ele-018",
+      "difficulty": "standard",
+      "question": "log₃x=log₃(x²−6) を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=6"
+        },
+        {
+          "label": "B",
+          "text": "x=3 と x=−2 の両方"
+        },
+        {
+          "label": "C",
+          "text": "x=x²−6 → x²−x−6=0 → (x+2)(x−3)=0 → x=3(真数条件 x>0)"
+        },
+        {
+          "label": "D",
+          "text": "x=−2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数方程式",
+        "同じ底"
+      ]
+    },
+    {
+      "id": "ele-019",
+      "difficulty": "standard",
+      "question": "log₂x+log₄x=3 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₄x=log₂x/2 → log₂x+log₂x/2=3log₂x/2=3 → log₂x=2 → x=4"
+        },
+        {
+          "label": "B",
+          "text": "x=2"
+        },
+        {
+          "label": "C",
+          "text": "x=8"
+        },
+        {
+          "label": "D",
+          "text": "x=3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "底の変換",
+        "対数方程式"
+      ]
+    },
+    {
+      "id": "ele-020",
+      "difficulty": "standard",
+      "question": "2ˣ × 3ˣ = 6 のとき x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2"
+        },
+        {
+          "label": "B",
+          "text": "x=6"
+        },
+        {
+          "label": "C",
+          "text": "(2×3)ˣ=6ˣ=6¹ → x=1"
+        },
+        {
+          "label": "D",
+          "text": "x=1/2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "積の指数",
+        "底の変換"
+      ]
+    },
+    {
+      "id": "ele-021",
+      "difficulty": "exam",
+      "question": "3^(log₃5) の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₃5"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "5(a^(logₐN)=N の公式)"
+        },
+        {
+          "label": "D",
+          "text": "3×log₃5"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "aˡᵒᵍN=N"
+      ]
+    },
+    {
+      "id": "ele-022",
+      "difficulty": "exam",
+      "question": "log₅x²−log₅x=2 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=10"
+        },
+        {
+          "label": "B",
+          "text": "x=25 と x=−25"
+        },
+        {
+          "label": "C",
+          "text": "2log₅x−log₅x=log₅x=2 → x=25(真数条件 x>0)"
+        },
+        {
+          "label": "D",
+          "text": "x=5"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数方程式",
+        "べき乗の対数"
+      ]
+    },
+    {
+      "id": "ele-023",
+      "difficulty": "exam",
+      "question": "2^(2x)−3×2^(x+1)+8=0 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2ˣ)²−6×2ˣ+8=0。t=2ˣ → t²−6t+8=0 → t=4 or t=2 → x=2 or x=1"
+        },
+        {
+          "label": "B",
+          "text": "x=4 or x=2"
+        },
+        {
+          "label": "C",
+          "text": "x=2 のみ"
+        },
+        {
+          "label": "D",
+          "text": "x=3 または x=0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "置換",
+        "2ˣ=t"
+      ]
+    },
+    {
+      "id": "ele-024",
+      "difficulty": "exam",
+      "question": "log₁₀2=0.301 を使い、3²⁰ の桁数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₁₀(3²⁰)=20log₁₀3=20×0.477=9.54 → 10 桁"
+        },
+        {
+          "label": "B",
+          "text": "11 桁"
+        },
+        {
+          "label": "C",
+          "text": "20 桁"
+        },
+        {
+          "label": "D",
+          "text": "9 桁"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "桁数",
+        "常用対数"
+      ]
+    },
+    {
+      "id": "ele-025",
+      "difficulty": "exam",
+      "question": "指数不等式 2ˣ⁺¹<3ˣ を対数を使って解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x>log3/log2"
+        },
+        {
+          "label": "B",
+          "text": "両辺の常用対数 → (x+1)log2<x log3 → x log2+log2<x log3 → x(log3−log2)>log2 → x>log2/(log3−log2)"
+        },
+        {
+          "label": "C",
+          "text": "x<log3−log2"
+        },
+        {
+          "label": "D",
+          "text": "x<log2/(log3−log2)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "指数不等式",
+        "対数で解く"
+      ]
+    },
+    {
+      "id": "ele-026",
+      "difficulty": "exam",
+      "question": "方程式 4ˣ=2ˣ⁺¹+8 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=4"
+        },
+        {
+          "label": "B",
+          "text": "x=1"
+        },
+        {
+          "label": "C",
+          "text": "t=2ˣ として t²=2t+8 → t²−2t−8=0 → (t+2)(t−4)=0 → t=4 → x=2"
+        },
+        {
+          "label": "D",
+          "text": "x=3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "置換",
+        "指数方程式"
+      ]
+    },
+    {
+      "id": "ele-027",
+      "difficulty": "exam",
+      "question": "log₂x<log₃x が成立する x の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂x<log₃x → x=1 が境界(両辺=0)。x>1 のとき log₂x>log₃x(log₂>log₃)なので x<1 で成立。0<x<1"
+        },
+        {
+          "label": "B",
+          "text": "x<0"
+        },
+        {
+          "label": "C",
+          "text": "x>0"
+        },
+        {
+          "label": "D",
+          "text": "x>1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対数の比較",
+        "底の違い"
+      ]
+    },
+    {
+      "id": "ele-028",
+      "difficulty": "exam",
+      "question": "x^(log₂x)=8 を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "log₂x=3 → x=8"
+        },
+        {
+          "label": "B",
+          "text": "x=8"
+        },
+        {
+          "label": "C",
+          "text": "x=2³=8 のみ"
+        },
+        {
+          "label": "D",
+          "text": "両辺対数 → (log₂x)²=3 → log₂x=±√3 → x=2^(√3) または x=2^(−√3)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "x^logx",
+        "両辺対数"
+      ]
+    },
+    {
+      "id": "ele-029",
+      "difficulty": "exam",
+      "question": "log₅(x+3)+log₅(x−1)=1 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=−4"
+        },
+        {
+          "label": "B",
+          "text": "x=4"
+        },
+        {
+          "label": "C",
+          "text": "(x+3)(x−1)=5 → x²+2x−8=0 → x=2(真数条件 x>1 より)"
+        },
+        {
+          "label": "D",
+          "text": "x=2 と x=−4"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "対数方程式",
+        "真数条件"
+      ]
+    },
+    {
+      "id": "ele-030",
+      "difficulty": "exam",
+      "question": "連立方程式 2ˣ×3ʸ=12、2ˣ×3^(2y)=36 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2式を割ると 3ʸ=3 → y=1。2ˣ=12/3=4 → x=2"
+        },
+        {
+          "label": "B",
+          "text": "x=3,y=2"
+        },
+        {
+          "label": "C",
+          "text": "x=1,y=2"
+        },
+        {
+          "label": "D",
+          "text": "x=2,y=2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数の連立方程式"
+      ]
+    }
+  ]
+}

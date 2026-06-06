@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "_shared/schemas/structure.schema.json",
+  "title": "Structure",
+  "description": "問題収集部が出力する小単元ごとの出題構造データ仕様。",
+  "type": "object",
+  "required": ["unit_id", "unit_name_jp", "patterns"],
+  "properties": {
+    "unit_id": {
+      "type": "string",
+      "description": "フォルダ名と一致する英語ID"
+    },
+    "unit_name_jp": {
+      "type": "string",
+      "description": "単元名の日本語表記"
+    },
+    "grade": {
+      "type": "string",
+      "description": "「数学ⅠA」「数学ⅡB」など。教科コースの日本語表記。"
+    },
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["pattern_id", "description", "difficulty"],
+        "properties": {
+          "pattern_id": {
+            "type": "string",
+            "description": "識別用ID（英語ケバブケース）"
+          },
+          "description": {
+            "type": "string",
+            "description": "出題パターンの説明（著作権に触れない抽象化）"
+          },
+          "thinking_process": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "common_mistakes": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": ["basic", "standard", "exam"]
+          }
+        }
+      }
+    }
+  }
+}

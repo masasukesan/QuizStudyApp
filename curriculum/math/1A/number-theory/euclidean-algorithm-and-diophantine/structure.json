@@ -1,0 +1,9 @@
+{
+  "subject": "math",
+  "course": "1A",
+  "unit": "number-theory",
+  "subunit": "euclidean-algorithm-and-diophantine",
+  "name": "ユークリッドの互除法と1次不定方程式",
+  "en": "Euclidean Algorithm and Diophantine Equations",
+  "questionCount": 0
+}

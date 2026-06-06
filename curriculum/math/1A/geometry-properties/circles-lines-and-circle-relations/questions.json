@@ -1,0 +1,846 @@
+{
+  "subject": "数学1A",
+  "unit": "円と直線・円の関係",
+  "questions": [
+    {
+      "id": "cir-001",
+      "difficulty": "basic",
+      "question": "円の接線とは何か。接線と半径の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線は円と1点のみで交わる直線。接点において接線は半径に垂直(接線⊥半径)"
+        },
+        {
+          "label": "B",
+          "text": "接線は円を2等分する直線"
+        },
+        {
+          "label": "C",
+          "text": "接線は円の外部にある直線"
+        },
+        {
+          "label": "D",
+          "text": "接線は半径と30°の角をなす"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接線の定義",
+        "接線⊥半径"
+      ]
+    },
+    {
+      "id": "cir-002",
+      "difficulty": "basic",
+      "question": "外部の点Pから円への接線を2本引くとき、2本の接線の長さの関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外部の点Pから円への2本の接線の長さは等しい(PからPA=PBが成立)"
+        },
+        {
+          "label": "B",
+          "text": "2本の接線の長さは円の直径と等しい"
+        },
+        {
+          "label": "C",
+          "text": "接線の長さは点Pの位置によって異なる"
+        },
+        {
+          "label": "D",
+          "text": "外部からは1本しか接線を引けない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接線の長さ",
+        "外部点からの2接線は等長"
+      ]
+    },
+    {
+      "id": "cir-003",
+      "difficulty": "basic",
+      "question": "弦と中心からの距離の関係：半径 r の円で中心から距離 d の弦の長さは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "弦の半分の長さ = √(r²-d²)"
+        },
+        {
+          "label": "B",
+          "text": "弦の長さ = r - d(引き算)"
+        },
+        {
+          "label": "C",
+          "text": "弦の長さ = r + d"
+        },
+        {
+          "label": "D",
+          "text": "弦の長さ = 2d(中心距離の2倍)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "弦の長さの公式",
+        "2√(r²-d²)"
+      ]
+    },
+    {
+      "id": "cir-004",
+      "difficulty": "basic",
+      "question": "円周角の定理：同じ弧 BC に対する円周角と中心角の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "円周角は中心角の半分。弧BCに対する中心角∠BOC = 2×∠BAC(円周角)"
+        },
+        {
+          "label": "B",
+          "text": "円周角と中心角は等しい"
+        },
+        {
+          "label": "C",
+          "text": "円周角は中心角の2倍"
+        },
+        {
+          "label": "D",
+          "text": "円周角は常に90°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円周角の定理",
+        "円周角=中心角/2"
+      ]
+    },
+    {
+      "id": "cir-005",
+      "difficulty": "basic",
+      "question": "半円の弦(直径)に対する円周角は何度か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "直径に対する円周角は90°(タレスの定理)"
+        },
+        {
+          "label": "B",
+          "text": "直径に対する円周角は60°"
+        },
+        {
+          "label": "C",
+          "text": "直径に対する円周角は45°"
+        },
+        {
+          "label": "D",
+          "text": "直径に対する円周角は180°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "タレスの定理",
+        "直径に対する円周角=90°"
+      ]
+    },
+    {
+      "id": "cir-006",
+      "difficulty": "basic",
+      "question": "2つの円が外接するとき、2つの円の中心間の距離は？(半径をr₁, r₂とする)",
+      "choices": [
+        {
+          "label": "A",
+          "text": "外接: 中心間距離 = r₁ + r₂(2円が外側で接する)"
+        },
+        {
+          "label": "B",
+          "text": "外接: 中心間距離 = |r₁ - r₂|(内接の場合)"
+        },
+        {
+          "label": "C",
+          "text": "外接: 中心間距離 = r₁² + r₂²"
+        },
+        {
+          "label": "D",
+          "text": "外接: 中心間距離 = r₁/r₂"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2円の外接条件",
+        "中心間距離=r₁+r₂"
+      ]
+    },
+    {
+      "id": "cir-007",
+      "difficulty": "basic",
+      "question": "2つの円が内接するとき(一方が他方の内側に接する)、中心間の距離は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内接: 中心間距離 = |r₁ - r₂|(大きい方から小さい方を引く)"
+        },
+        {
+          "label": "B",
+          "text": "内接: 中心間距離 = r₁ + r₂"
+        },
+        {
+          "label": "C",
+          "text": "内接: 中心間距離 = 0"
+        },
+        {
+          "label": "D",
+          "text": "内接: 中心間距離 = r₁/r₂"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2円の内接条件",
+        "中心間距離=|r₁-r₂|"
+      ]
+    },
+    {
+      "id": "cir-008",
+      "difficulty": "basic",
+      "question": "接弦定理：弦PAと接線PTのなす角∠TPA(接線弦角)は弧PAに対する円周角に等しい。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接弦定理: ∠TPA = 弧PAに対するQ点での円周角∠AQP"
+        },
+        {
+          "label": "B",
+          "text": "∠TPA = 中心角の半分"
+        },
+        {
+          "label": "C",
+          "text": "∠TPA は常に90°"
+        },
+        {
+          "label": "D",
+          "text": "接弦定理は鋭角の場合のみ成立"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接弦定理",
+        "接線と弦のなす角=対応する円周角"
+      ]
+    },
+    {
+      "id": "cir-009",
+      "difficulty": "basic",
+      "question": "方べきの定理(交差する弦)：2弦ABとCDが点Pで交わるとき成立する関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PA×PB = PC×PD(2弦の交点における方べきの定理)"
+        },
+        {
+          "label": "B",
+          "text": "PA+PB = PC+PD(和が等しい)"
+        },
+        {
+          "label": "C",
+          "text": "PA/PB = PC/PD(比が等しい)"
+        },
+        {
+          "label": "D",
+          "text": "PA²+PB² = PC²+PD²(2乗和が等しい)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "方べきの定理（弦の交点）",
+        "PA×PB=PC×PD"
+      ]
+    },
+    {
+      "id": "cir-010",
+      "difficulty": "basic",
+      "question": "方べきの定理(外部の点)：外部の点Pから引く2本の割線でPA×PB = PC×PDが成立(A,BとC,Dはそれぞれ交点)。接線の場合は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線の場合: PT² = PA×PB(接線の長さの2乗=割線の2点との積)"
+        },
+        {
+          "label": "B",
+          "text": "接線の場合: PT = PA×PB"
+        },
+        {
+          "label": "C",
+          "text": "接線の場合: PT = PA+PB"
+        },
+        {
+          "label": "D",
+          "text": "接線の場合: PT² = PA²+PB²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "方べきの定理（接線）",
+        "PT²=PA×PB"
+      ]
+    },
+    {
+      "id": "cir-011",
+      "difficulty": "standard",
+      "question": "半径5の円の中心から距離3の弦の長さは？また距離5の弦の長さは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "距離3: 弦長=2√(5²-3²)=2√16=8"
+        },
+        {
+          "label": "B",
+          "text": "距離3: 弦長=2×3=6(距離の2倍)"
+        },
+        {
+          "label": "C",
+          "text": "距離3: 弦長=5-3=2(引き算)"
+        },
+        {
+          "label": "D",
+          "text": "距離5: 弦長=2×5=10"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "弦の長さの計算",
+        "r=5,d=3での弦長"
+      ]
+    },
+    {
+      "id": "cir-012",
+      "difficulty": "standard",
+      "question": "外部の点Pから円への接線の長さを求めよ。円の半径r=6、PO=10(Oは中心)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線PT⊥OP。PT²=PO²-r²=100-36=64。PT=8"
+        },
+        {
+          "label": "B",
+          "text": "PT = PO - r = 10-6=4"
+        },
+        {
+          "label": "C",
+          "text": "PT = PO + r = 16"
+        },
+        {
+          "label": "D",
+          "text": "PT = √(PO×r) = √60"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接線の長さの公式",
+        "PT=√(PO²-r²)"
+      ]
+    },
+    {
+      "id": "cir-013",
+      "difficulty": "standard",
+      "question": "円O₁(半径3)と円O₂(半径7)で中心間距離が4のとき、2円の位置関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|r₁-r₂|=|3-7|=4=中心間距離 → 内接(一方が他方の内側に接する)"
+        },
+        {
+          "label": "B",
+          "text": "r₁+r₂=10 > 中心間距離4 → 2点で交わる(内接条件を見落とした)"
+        },
+        {
+          "label": "C",
+          "text": "中心間距離4 < r₁+r₂=10 → 2点で交わる(内接を考慮しない)"
+        },
+        {
+          "label": "D",
+          "text": "中心間距離4 > |r₁-r₂|=4 は成立しないので外接"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2円の位置関係判定",
+        "内接の条件確認"
+      ]
+    },
+    {
+      "id": "cir-014",
+      "difficulty": "standard",
+      "question": "円に内接する四角形ABCDの対角の和は180°。∠A=70°のとき∠Cは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "円に内接する四角形の対角の和=180°。∠C=180°-∠A=180°-70°=110°"
+        },
+        {
+          "label": "B",
+          "text": "∠C=∠A=70°"
+        },
+        {
+          "label": "C",
+          "text": "∠C=360°-∠A=290°"
+        },
+        {
+          "label": "D",
+          "text": "∠C=90°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "円に内接する四角形の対角",
+        "対角の和=180°"
+      ]
+    },
+    {
+      "id": "cir-015",
+      "difficulty": "standard",
+      "question": "弦ABの中点をMとするとき、OM⊥AB(中心Oから弦の中点への直線は弦と垂直)を証明せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OA=OB(半径)"
+        },
+        {
+          "label": "B",
+          "text": "中点から引いた線は常に垂直"
+        },
+        {
+          "label": "C",
+          "text": "OM⊥ABは弦の長さによる"
+        },
+        {
+          "label": "D",
+          "text": "OA=OBだけでは垂直を示せない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中心と弦の中点",
+        "OM⊥ABの証明"
+      ]
+    },
+    {
+      "id": "cir-016",
+      "difficulty": "standard",
+      "question": "直線と円の位置関係(判別)：中心O、半径r、直線までの距離d のとき、3つの場合は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "d < r: 2点交わる(割線)。d = r: 1点接する(接線)。d > r: 交わらない"
+        },
+        {
+          "label": "B",
+          "text": "d < r: 接線。d = r: 交わらない。d > r: 2点交わる"
+        },
+        {
+          "label": "C",
+          "text": "d = 0: 中心を通る(特殊ケース)。d = r: 接線"
+        },
+        {
+          "label": "D",
+          "text": "常に2点で交わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "直線と円の位置関係",
+        "d<r/d=r/d>rの3ケース"
+      ]
+    },
+    {
+      "id": "cir-017",
+      "difficulty": "standard",
+      "question": "2つの円が2点P,Qで交わるとき、PQを含む直線(根軸)の性質は何か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "根軸は2円に対して方べきが等しい点の軌跡"
+        },
+        {
+          "label": "B",
+          "text": "根軸は2円の中心を結ぶ直線"
+        },
+        {
+          "label": "C",
+          "text": "根軸は中心間の垂直二等分線"
+        },
+        {
+          "label": "D",
+          "text": "根軸は外接円の直径"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "根軸",
+        "共通弦が根軸"
+      ]
+    },
+    {
+      "id": "cir-018",
+      "difficulty": "standard",
+      "question": "接弦定理を使う：円の接線PTと弦PAがなす角∠TPA=50°のとき、弦PAに対する円周角∠PQA(Q は接線と反対側の弧上の点)は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接弦定理: ∠TPA = ∠PQA(同じ側の弧に対する円周角)= 50°"
+        },
+        {
+          "label": "B",
+          "text": "∠PQA = 90° - 50° = 40°"
+        },
+        {
+          "label": "C",
+          "text": "∠PQA = 180° - 50° = 130°(補角)"
+        },
+        {
+          "label": "D",
+          "text": "∠PQA = 2×50° = 100°(2倍)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "接弦定理の適用",
+        "∠TPA=∠PQA"
+      ]
+    },
+    {
+      "id": "cir-019",
+      "difficulty": "standard",
+      "question": "2つの円の共通外接線の本数と共通内接線の本数を中心間距離dと半径r₁,r₂(r₁≥r₂)で判定せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "d>r₁+r₂(外部): 外接線2本・内接線2本=計4本"
+        },
+        {
+          "label": "B",
+          "text": "常に4本の共通接線がある"
+        },
+        {
+          "label": "C",
+          "text": "内接するとき3本"
+        },
+        {
+          "label": "D",
+          "text": "2円が交わるとき接線は0本"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "共通接線の本数",
+        "位置関係による本数"
+      ]
+    },
+    {
+      "id": "cir-020",
+      "difficulty": "standard",
+      "question": "方べきの定理を使う問題：円内の点Pで弦AB、CDが交わり PA=3, PB=8, PC=4 のとき PD は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PA×PB = PC×PD → 3×8 = 4×PD → PD = 24/4 = 6"
+        },
+        {
+          "label": "B",
+          "text": "PD = PB - PC = 8-4 = 4"
+        },
+        {
+          "label": "C",
+          "text": "PD = PA + PB - PC = 3+8-4 = 7"
+        },
+        {
+          "label": "D",
+          "text": "PD = √(PA×PB×PC) = √96"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "方べきの定理の計算",
+        "PA×PB=PC×PD"
+      ]
+    },
+    {
+      "id": "cir-021",
+      "difficulty": "exam",
+      "question": "方べきの定理を証明せよ(内部の交点の場合)。PA×PB=PC×PDを△APCと△DPBの相似で示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠APC=∠DPB(対頂角)、∠CAP=∠BDP(同じ弧CPに対する円周角)"
+        },
+        {
+          "label": "B",
+          "text": "座標幾何で2弦の交点座標を計算して確認"
+        },
+        {
+          "label": "C",
+          "text": "面積比を使って証明"
+        },
+        {
+          "label": "D",
+          "text": "余弦定理を2回適用して証明"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "方べきの定理の証明",
+        "三角形の相似"
+      ]
+    },
+    {
+      "id": "cir-022",
+      "difficulty": "exam",
+      "question": "根軸の定理：3つの円の根軸は1点(根心)で交わる。この定理の意味を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3つの円があるとき、各2円の根軸(共通弦または方べき等しい点の線)の3本が1点で交わる"
+        },
+        {
+          "label": "B",
+          "text": "根軸は常に直交する"
+        },
+        {
+          "label": "C",
+          "text": "3つの円が共通弦を持つ場合のみ成立"
+        },
+        {
+          "label": "D",
+          "text": "根心は3つの円全てに接する点"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "根軸定理",
+        "根心の定義"
+      ]
+    },
+    {
+      "id": "cir-023",
+      "difficulty": "exam",
+      "question": "トレミーの定理：円に内接する四角形ABCDにおいて AC×BD=AB×CD+AD×BC が成立する。この定理の証明の出発点は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "対角線AC上に∠ABP=∠CBD となる点Pをとり"
+        },
+        {
+          "label": "B",
+          "text": "余弦定理を4辺すべてに適用"
+        },
+        {
+          "label": "C",
+          "text": "面積を使って証明"
+        },
+        {
+          "label": "D",
+          "text": "座標幾何で直接計算"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "トレミーの定理",
+        "証明の概略"
+      ]
+    },
+    {
+      "id": "cir-024",
+      "difficulty": "exam",
+      "question": "2円が2点P,Qで交わるとき共通弦PQの長さを2円の方程式から求める手順は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2円の方程式から引き算して共通弦の直線方程式を導き、一方の円との交点を求めてPQ間の距離を計算"
+        },
+        {
+          "label": "B",
+          "text": "共通弦は常に2円の中心を結ぶ線分の垂直二等分線"
+        },
+        {
+          "label": "C",
+          "text": "共通弦の長さ = r₁ + r₂"
+        },
+        {
+          "label": "D",
+          "text": "共通弦の長さは求められない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "共通弦の長さの求め方",
+        "2円の方程式の引き算"
+      ]
+    },
+    {
+      "id": "cir-025",
+      "difficulty": "exam",
+      "question": "インバージョン(反転)とは何か。円の半径 k を使ったインバージョンで点P は点P' にどう対応するか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "インバージョン: OP×OP'=k²を満たす点P'への写像(OPに沿って)"
+        },
+        {
+          "label": "B",
+          "text": "インバージョンは点を円周上に写す変換"
+        },
+        {
+          "label": "C",
+          "text": "インバージョンは回転変換の一種"
+        },
+        {
+          "label": "D",
+          "text": "インバージョンは全ての円を直線に写す"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "インバージョン",
+        "OP×OP'=k²"
+      ]
+    },
+    {
+      "id": "cir-026",
+      "difficulty": "exam",
+      "question": "9点円(ナイン・ポイント・サークル)とは何か。9つの点を具体的に述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABCの①各辺の中点3点 ②垂線の足3点 ③各頂点と垂心の中点3点 = 計9点が9点円上"
+        },
+        {
+          "label": "B",
+          "text": "3頂点・3辺の中点・3高さの足の9点"
+        },
+        {
+          "label": "C",
+          "text": "9点円は正三角形のみで存在"
+        },
+        {
+          "label": "D",
+          "text": "9点円の半径は内接円の半径と等しい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "9点円の構成",
+        "9点円の半径=R/2"
+      ]
+    },
+    {
+      "id": "cir-027",
+      "difficulty": "exam",
+      "question": "フォイエルバッハの定理：△ABCの9点円は内接円と内接し、3つの傍接円とは外接する。この定理の意味を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9点円と内接円は接し(内接)、9点円と3つの傍接円もそれぞれ接する(外接)"
+        },
+        {
+          "label": "B",
+          "text": "9点円は4つの内接円・傍接円の全ての外接円"
+        },
+        {
+          "label": "C",
+          "text": "フォイエルバッハ定理は正三角形のみで成立"
+        },
+        {
+          "label": "D",
+          "text": "9点円は傍接円と交わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "フォイエルバッハの定理",
+        "9点円と内接円・傍接円"
+      ]
+    },
+    {
+      "id": "cir-028",
+      "difficulty": "exam",
+      "question": "円の2本の接線が作る角(2つの接線の交点での角)と弧の長係を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠P = (大きい弧 - 小さい弧)/2"
+        },
+        {
+          "label": "B",
+          "text": "∠P = 大きい弧/2"
+        },
+        {
+          "label": "C",
+          "text": "∠P = 小さい弧"
+        },
+        {
+          "label": "D",
+          "text": "∠P は常に90°"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2接線のなす角",
+        "(大弧-小弧)/2"
+      ]
+    },
+    {
+      "id": "cir-029",
+      "difficulty": "exam",
+      "question": "円の内部の点Pを通る弦のうち最も短いものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OPに垂直な弦が最短(方べきの定理: 垂直のとき2つの長さが等しく積が最小)"
+        },
+        {
+          "label": "B",
+          "text": "Pを通る全ての弦の長さは等しい"
+        },
+        {
+          "label": "C",
+          "text": "最も長い弦はPを通る最長直線"
+        },
+        {
+          "label": "D",
+          "text": "最短の弦はPを端点とする弦"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "最短の弦",
+        "OPに垂直な弦が最短"
+      ]
+    },
+    {
+      "id": "cir-030",
+      "difficulty": "exam",
+      "question": "2つの円の共通接線の交点の軌跡(相似中心)について述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2円の共通外接線と共通内接線は、それぞれ異なる相似中心を通る"
+        },
+        {
+          "label": "B",
+          "text": "共通接線は全て1点を通る"
+        },
+        {
+          "label": "C",
+          "text": "相似中心は2円の中心の中点"
+        },
+        {
+          "label": "D",
+          "text": "相似中心は2円の外接円の中心"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相似中心",
+        "外部・内部相似中心"
+      ]
+    }
+  ]
+}

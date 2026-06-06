@@ -1,0 +1,53 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "logarithmic-function-graphs",
+  "name": "対数関数のグラフ",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "log-graph-shape",
+      "description": "logₐx のグラフの基本形状（定義域・単調性・固定点）を理解する",
+      "thinking_process": [
+        "定義域は x>0",
+        "a>1 なら単調増加、0<a<1 なら単調減少",
+        "(1,0) を常に通る",
+        "漸近線は y 軸（x=0）"
+      ],
+      "common_mistakes": [
+        "定義域を全実数と誤る",
+        "底の大小と増減の関係を逆に覚える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "log-graph-transform",
+      "description": "平行移動・対称移動・定数倍でグラフを変換する",
+      "thinking_process": [
+        "y=logₐ(x−p)+q は x 方向 p、y 方向 q の平行移動",
+        "y=logₐ(−x) は y 軸対称",
+        "y=−logₐx は x 軸対称"
+      ],
+      "common_mistakes": [
+        "x 方向移動と y 方向移動を逆にする",
+        "y=2logₐx を x 方向の変換と誤解する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "log-inequality-graph",
+      "description": "対数不等式を真数条件と底の大小で解く",
+      "thinking_process": [
+        "真数>0 の条件を先に確認",
+        "底>1 なら不等号そのまま、底<1 なら逆転",
+        "両方の条件の共通部分が答え"
+      ],
+      "common_mistakes": [
+        "真数条件を後で確認するか忘れる",
+        "底の大小で不等号が変わることを忘れる"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

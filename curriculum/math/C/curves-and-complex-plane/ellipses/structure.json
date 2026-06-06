@@ -1,0 +1,75 @@
+{
+  "unit_id": "ellipses",
+  "unit_name_jp": "楕円",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "el-def",
+      "description": "楕円の定義（2焦点からの距離の和が一定）",
+      "thinking_process": [
+        "PF₁ + PF₂ = 2a (定数)"
+      ],
+      "common_mistakes": [
+        "2焦点の距離の差と混同（双曲線）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "el-std",
+      "description": "標準形 x²/a² + y²/b² = 1 (a > b > 0) の焦点・頂点の読み取り",
+      "thinking_process": [
+        "c² = a² - b²、焦点 (±c, 0)"
+      ],
+      "common_mistakes": [
+        "a と b の大小で焦点の軸が変わる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "el-tangent",
+      "description": "楕円上の点 (x₀, y₀) での接線 x·x₀/a² + y·y₀/b² = 1",
+      "thinking_process": [
+        "陰関数微分で接線の傾きを求める",
+        "点と傾きから方程式を立てる"
+      ],
+      "common_mistakes": [
+        "公式の分母 a², b² を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "el-line",
+      "description": "楕円と直線の交点数を判別式で判定する途中式",
+      "thinking_process": [
+        "代入して2次方程式の判別式を計算"
+      ],
+      "common_mistakes": [
+        "y = mx + n を楕円に代入するとき展開ミス"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "el-proof-def",
+      "description": "定義から標準形 x²/a² + y²/b² = 1 を導く証明",
+      "thinking_process": [
+        "PF₁ + PF₂ = 2a → 整理 → 2乗 → 標準形"
+      ],
+      "common_mistakes": [
+        "2乗して整理するときに係数ミス"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "el-proof-focal",
+      "description": "楕円の焦点から接線へ下ろした垂線の足の軌跡が補助円になることの証明",
+      "thinking_process": [
+        "焦点 F と接線の距離を計算"
+      ],
+      "common_mistakes": [
+        "補助円の半径が a であることを見落とす"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

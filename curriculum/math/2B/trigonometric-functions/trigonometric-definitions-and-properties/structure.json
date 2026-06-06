@@ -1,0 +1,428 @@
+{
+  "unit_id": "trigonometric-definitions-and-properties",
+  "unit_name_jp": "三角関数の定義と性質",
+  "grade": "数学ⅡB",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "unit-circle-definition",
+      "description": "単位円上の点の座標から sin θ・cos θ・tan θ を定義に基づいて読み取り、値を求める",
+      "thinking_process": [
+        "単位円上の点を (x, y) とおき、cos θ = x・sin θ = y と対応させる",
+        "tan θ = y/x = sin θ/cos θ の定義を適用する",
+        "与えられた座標を代入して数値を計算する"
+      ],
+      "common_mistakes": [
+        "tan θ = cos θ/sin θ と分子・分母を逆にしてしまう",
+        "tan θ = sin θ × cos θ と掛け算してしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "special-angle-values",
+      "description": "0・π/6・π/4・π/3・π/2・π・3π/2・2π など特殊角の sin・cos・tan の値を正確に答える",
+      "thinking_process": [
+        "単位円の図から特殊角の座標 (cos θ, sin θ) を思い出す",
+        "sin・cos の値を確定し、tan = sin/cos を計算する",
+        "√2/2・√3/2・1/2 などの値を正確に当てはめる"
+      ],
+      "common_mistakes": [
+        "π/6 と π/3 の sin・cos を逆に覚えている",
+        "tan π/2 が定義されないことを忘れ何らかの値を答えてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "mutual-relations-basic",
+      "description": "sin²θ + cos²θ = 1 や tan θ = sin θ/cos θ を使い、1つの値と象限から他の三角関数値を求める",
+      "thinking_process": [
+        "sin²θ + cos²θ = 1 に既知の値を代入して未知の値の二乗を求める",
+        "θ の象限を確認して符号（正・負）を決定する",
+        "tan θ = sin θ/cos θ で残りの値も計算する"
+      ],
+      "common_mistakes": [
+        "象限の符号を忘れて二乗の正の平方根だけを答えてしまう",
+        "sin²θ + cos²θ = 1 を sin²θ - cos²θ = 1 と誤って覚えている"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "negative-angle-formula",
+      "description": "sin(-θ) = -sin θ・cos(-θ) = cos θ・tan(-θ) = -tan θ を使って負の角の値を求める",
+      "thinking_process": [
+        "与えられた角が「-θ」の形であることを認識する",
+        "sin は奇関数（符号が変わる）・cos は偶関数（符号が変わらない）を思い出す",
+        "変換後の角の特殊角の値を代入する"
+      ],
+      "common_mistakes": [
+        "cos(-θ) も符号が変わると思い込み -cos θ と答えてしまう",
+        "tan(-θ) の符号を間違えて tan θ そのままで答えてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "pi-plus-minus-theta",
+      "description": "sin(π ± θ)・cos(π ± θ)・tan(π ± θ) の変換公式を適用して値を求める",
+      "thinking_process": [
+        "π ± θ の形を認識し、π だけ回転すると単位円上で反対側に移動することをイメージする",
+        "sin(π + θ) = -sin θ・cos(π + θ) = -cos θ を適用する",
+        "sin(π - θ) = sin θ・cos(π - θ) = -cos θ を適用する"
+      ],
+      "common_mistakes": [
+        "π + θ と π - θ で変換結果の符号を混同する",
+        "tan(π + θ) = tan θ を -tan θ と誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "half-pi-plus-minus-theta",
+      "description": "sin(π/2 ± θ)・cos(π/2 ± θ) の変換公式（sin↔cos 入れ替え）を使う",
+      "thinking_process": [
+        "π/2 ± θ の形を認識し、90度回転すると sin と cos が入れ替わることをイメージする",
+        "sin(π/2 - θ) = cos θ・cos(π/2 - θ) = sin θ を適用する",
+        "sin(π/2 + θ) = cos θ・cos(π/2 + θ) = -sin θ を適用する"
+      ],
+      "common_mistakes": [
+        "π/2 + θ と π/2 - θ の変換後の符号を混同する",
+        "tan(π/2 - θ) = 1/tan θ を tan θ のままにしてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "quadrant-sign-determination",
+      "description": "与えられた不等式条件（sin・cos・tan の符号）からθが何象限にあるかを判定する",
+      "thinking_process": [
+        "各象限での sin・cos・tan の符号を整理する（第1全正・第2sin正・第3tan正・第4cos正）",
+        "複数条件の AND を取り条件を同時に満たす象限を絞り込む",
+        "答えの象限を確定する"
+      ],
+      "common_mistakes": [
+        "tan θ の符号と sin・cos の符号の関係を正確に把握していない",
+        "複数条件がある場合に片方だけで判断してしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "value-from-tan-with-quadrant",
+      "description": "tan θ の値と象限から sin θ・cos θ を相互関係式を使って求める",
+      "thinking_process": [
+        "1 + tan²θ = 1/cos²θ に tan θ の値を代入して cos²θ を求める",
+        "象限から cos θ の符号を決定して cos θ の値を確定する",
+        "sin θ = tan θ × cos θ で sin θ を求める"
+      ],
+      "common_mistakes": [
+        "1 + tan²θ の公式を忘れて sin²θ + cos²θ = 1 だけで連立しようとする",
+        "象限確認を忘れて cos θ の符号を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "range-and-period",
+      "description": "sin θ・cos θ・tan θ の値域・周期について正確に答える問題",
+      "thinking_process": [
+        "sin θ と cos θ の値域は -1 以上 1 以下・周期は 2π を確認する",
+        "tan θ の値域はすべての実数・周期は π を確認する",
+        "問題文の記述が正しいかどうか照合する"
+      ],
+      "common_mistakes": [
+        "tan θ の周期を 2π と間違える",
+        "sin θ の値域の端 ±1 を含むかどうかを誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "combined-conversion-formulas",
+      "description": "複数の変換公式（π±θ・π/2±θ・負の角）を組み合わせて式全体を簡単にする",
+      "thinking_process": [
+        "各因数・各項の角がどの変換公式パターンに当てはまるか識別する",
+        "各変換公式を適用して θ のみの式に変換する",
+        "変換後の式を計算・整理して最終的な値や式を求める"
+      ],
+      "common_mistakes": [
+        "複数の変換を順番に行う中で途中の符号を誤る",
+        "変換後の角が特殊角かどうか確認しないまま計算を進める"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sum-to-product",
+      "description": "sin θ + cos θ = k という条件を二乗して sin θ·cos θ を求め、各種対称式を計算する",
+      "thinking_process": [
+        "(sin θ + cos θ)² = 1 + 2sin θ·cos θ を展開する",
+        "k² = 1 + 2sin θ·cos θ より sin θ·cos θ = (k² - 1)/2 を求める",
+        "必要に応じて sin θ - cos θ や sin³θ + cos³θ などを対称式で表す"
+      ],
+      "common_mistakes": [
+        "(sin θ + cos θ)² の展開時に交差項 2sin θ·cos θ を忘れる",
+        "sin²θ + cos²θ = 1 を代入するタイミングを間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "reciprocal-tan-expression",
+      "description": "tan θ + 1/tan θ を sin・cos で変形して整理する",
+      "thinking_process": [
+        "tan θ = sin θ/cos θ・1/tan θ = cos θ/sin θ と置き換える",
+        "通分して sin²θ + cos²θ = 1 を代入する",
+        "結果を sin θ·cos θ の式で表す"
+      ],
+      "common_mistakes": [
+        "1/tan θ を tan θ のままで扱ってしまう",
+        "通分後に sin²θ + cos²θ = 1 を適用するタイミングを逃す"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "double-angle-preview",
+      "description": "sin θ·cos θ の値から 2sin θ·cos θ の値と sin 2θ との関係を確認する",
+      "thinking_process": [
+        "sin θ·cos θ = k であれば 2sin θ·cos θ = 2k であることを確認する",
+        "sin 2θ = 2sin θ·cos θ の公式を思い出す",
+        "sin 2θ = 2k として答える"
+      ],
+      "common_mistakes": [
+        "sin 2θ = sin θ × cos θ と 2 倍しないまま答える",
+        "sin 2θ = 2sin θ + 2cos θ と誤って線形に扱う"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "quadrant-from-compound-inequality",
+      "description": "sin θ と cos θ の積の符号など複合条件を組み合わせて象限を特定する",
+      "thinking_process": [
+        "各条件を sin・cos・tan の符号に翻訳する",
+        "積が負のとき「どちらが正でどちらが負か」を列挙する",
+        "全条件を同時に満たす象限を AND で絞り込む"
+      ],
+      "common_mistakes": [
+        "積が負のとき「どちらが正でどちらが負か」を一方向にしか考えない",
+        "tan θ の符号から cos θ の符号を逆算することを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "multiple-conversion-chain",
+      "description": "sin(π/2+θ)・sin(π-θ)・cos(-θ) など複数の変換を連続適用して式を簡単にする",
+      "thinking_process": [
+        "各三角関数の引数パターン（π/2+θ・π-θ・-θ）を識別する",
+        "変換公式を順番に適用して θ のみの因数に変換する",
+        "変換後の積を計算して式を整理する"
+      ],
+      "common_mistakes": [
+        "変換を1つ適用した後の符号を次の変換に引き継ぐのを忘れる",
+        "π/2 + θ の変換で sin↔cos の入れ替えをし忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "substitution-with-mutual-relation",
+      "description": "cos²θ を 1 - sin²θ で置き換えて sin θ のみの式に変換し、t = sin θ で整理する",
+      "thinking_process": [
+        "sin²θ + cos²θ = 1 より cos²θ = 1 - sin²θ と変形する",
+        "元の式に cos²θ = 1 - sin²θ を代入して sin θ だけの式にする",
+        "t = sin θ とおいて t の式として整理する"
+      ],
+      "common_mistakes": [
+        "cos²θ と cos θ を混同して置換をミスする",
+        "sin θ の範囲（-1 以上 1 以下）を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "expand-squared-sum",
+      "description": "(sin θ + cos θ)² を展開して 1 + 2sin θ·cos θ を導く",
+      "thinking_process": [
+        "(a + b)² = a² + 2ab + b² の公式を適用する",
+        "sin²θ + cos²θ = 1 を代入する",
+        "結果が 1 + 2sin θ·cos θ であることを確認する"
+      ],
+      "common_mistakes": [
+        "展開後の中間項 2sin θ·cos θ を忘れて 1 だけにしてしまう",
+        "sin²θ + cos²θ = 1 を代入するタイミングを間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "difference-from-sum",
+      "description": "sin θ + cos θ = k（象限指定あり）から sin θ - cos θ を求める",
+      "thinking_process": [
+        "(sin θ + cos θ)² = 1 + 2sin θ·cos θ から sin θ·cos θ を求める",
+        "(sin θ - cos θ)² = 1 - 2sin θ·cos θ を計算する",
+        "象限の情報から sin θ - cos θ の符号を決定して平方根をとる"
+      ],
+      "common_mistakes": [
+        "(sin θ - cos θ)² の符号を決めずに正の値だけを答えてしまう",
+        "符号決定に使う象限条件を見落とす"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "cubic-sum-from-linear",
+      "description": "sin θ + cos θ = k から sin³θ + cos³θ を因数分解公式で求める",
+      "thinking_process": [
+        "sin θ·cos θ = (k² - 1)/2 を求める",
+        "a³ + b³ = (a + b)(a² - ab + b²) を適用する",
+        "a² + b² = (a + b)² - 2ab として代入して計算する"
+      ],
+      "common_mistakes": [
+        "a³ + b³ の因数分解公式を a³ - b³ の公式と混同する",
+        "a² - ab + b² の計算で ab の符号を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sign-of-difference",
+      "description": "sin θ > cos θ などの不等式から sin θ - cos θ の符号を決定する",
+      "thinking_process": [
+        "(sin θ - cos θ)² = 1 - 2sin θ·cos θ を求める",
+        "sin θ > cos θ より sin θ - cos θ > 0 であることを確認する",
+        "符号を確定して √(sin θ - cos θ)² = sin θ - cos θ と結論する"
+      ],
+      "common_mistakes": [
+        "平方根は常に正だから符号を決定する必要はないと思い込む",
+        "sin θ > cos θ から cos θ < 0 と誤って解釈する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "large-angle-conversion",
+      "description": "5π/3・7π/4 など大きな角を変換公式で基本角に変換して値を求める",
+      "thinking_process": [
+        "5π/3 = 2π - π/3 など 2π との差・和に分解する",
+        "sin(2π - θ) = -sin θ・cos(2π - θ) = cos θ などを適用する",
+        "変換後の基本角の特殊角の値を代入する"
+      ],
+      "common_mistakes": [
+        "5π/3 を π + 2π/3 と分解して符号を誤る",
+        "変換後の角の特殊角の値を正確に思い出せない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "individual-values-from-sum",
+      "description": "sin θ + cos θ = k（象限指定あり）から sin θ・cos θ の個別の値を求める",
+      "thinking_process": [
+        "sin θ·cos θ = (k² - 1)/2 を求める",
+        "sin θ と cos θ を二つの解とする二次方程式 t² - kt + (k² - 1)/2 = 0 を立てる",
+        "解を求め象限の条件から sin θ・cos θ それぞれを確定する"
+      ],
+      "common_mistakes": [
+        "二次方程式の係数（和・積）を逆に設定する",
+        "象限の条件を使わずどちらが sin でどちらが cos か決定できないまま答える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "product-to-reciprocal-tan",
+      "description": "sin θ·cos θ = k から tan θ + 1/tan θ を相互関係式で求める",
+      "thinking_process": [
+        "tan θ + 1/tan θ = (sin²θ + cos²θ)/(sin θ·cos θ) = 1/(sin θ·cos θ) と変形する",
+        "sin θ·cos θ = k を代入する",
+        "k ≠ 0 の条件を確認して答える"
+      ],
+      "common_mistakes": [
+        "tan θ + 1/tan θ の変形で分子 sin²θ + cos²θ = 1 に気づかない",
+        "sin θ·cos θ の値が 0 のとき定義外になることを見落とす"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "fourth-power-from-sum",
+      "description": "sin θ + cos θ = s とおき、sin⁴θ + cos⁴θ を s で表す",
+      "thinking_process": [
+        "sin θ·cos θ = (s² - 1)/2 を求める",
+        "(sin²θ + cos²θ)² = sin⁴θ + cos⁴θ + 2sin²θ·cos²θ = 1 より sin⁴θ + cos⁴θ = 1 - 2(sin θ·cos θ)² と変形する",
+        "sin θ·cos θ = (s² - 1)/2 を代入して s の式に整理する"
+      ],
+      "common_mistakes": [
+        "(sin²θ + cos²θ)² の展開で交差項 2sin²θ·cos²θ を忘れる",
+        "sin θ·cos θ を二乗するタイミングを誤る"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "solve-trigonometric-equation",
+      "description": "sin θ + cos θ = k（0 以上 2π 未満）から条件を満たすθをすべて求める",
+      "thinking_process": [
+        "sin θ·cos θ = (k² - 1)/2 を求め sin θ と cos θ が満たす二次方程式を立てる",
+        "二次方程式の解をもとに (sin θ, cos θ) の候補を列挙する",
+        "0 以上 2π 未満の範囲で条件を満たす θ を単位円から求める"
+      ],
+      "common_mistakes": [
+        "複数解がある場合に1つだけ答えてしまう",
+        "元の条件 sin θ + cos θ = k に代入して検算しない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "range-of-sum",
+      "description": "t = sin θ + cos θ の取りうる値の範囲を合成の考え方で求める",
+      "thinking_process": [
+        "t = sin θ + cos θ = √2 sin(θ + π/4) と合成する",
+        "-1 以上 1 以下より -√2 以上 √2 以下を求める",
+        "端点 t = ±√2 が実際に達成されるθが存在するか確認する"
+      ],
+      "common_mistakes": [
+        "t の最大値を 2（sin θ も cos θ も最大値 1 をとれると誤解）にしてしまう",
+        "合成の係数 √2 の計算を間違える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "compound-trigonometric-inequality",
+      "description": "0 以上 2π 未満で複数の不等式（sin θ ≧ k かつ cos θ ≦ m など）を同時に満たすθの範囲を求める",
+      "thinking_process": [
+        "単位円上で各不等式が表す領域（弧）を描く",
+        "複数の不等式の共通部分（AND）を求める",
+        "共通部分に対応するθの範囲を区間で表す"
+      ],
+      "common_mistakes": [
+        "単位円上の領域を AND でなく OR で求めてしまう",
+        "不等号の向き（≧ か ≦ か）で弧の方向を誤る"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "combined-alpha-beta-conversion",
+      "description": "sin(π + α)・cos(π/2 - β) などを含む複合式を α・β で表す",
+      "thinking_process": [
+        "各因数の角を個別に変換公式で処理する",
+        "変換後の sin α・cos α・sin β・cos β をまとめる",
+        "最終的な式に整理する"
+      ],
+      "common_mistakes": [
+        "変換する順番を間違えて符号をミスする",
+        "cos(π/2 - β) = sin β を適用し忘れる"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "trigonometric-identity-proof",
+      "description": "sin²θ・cos²θ を含む等式を相互関係式を使って証明する",
+      "thinking_process": [
+        "証明したい等式の左辺または右辺を変形する方針を立てる",
+        "sin²θ + cos²θ = 1 や (a + b)² = a² + 2ab + b² を活用する",
+        "変形の各ステップが等号でつながることを確認し もう一方の辺に一致させる"
+      ],
+      "common_mistakes": [
+        "左辺と右辺を同時に変形して等号成立を確認しないまま終わる",
+        "二乗の展開計算で符号を誤る"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "comprehensive-conversion-and-mutual",
+      "description": "変換公式・相互関係式・象限条件を組み合わせて最終的な三角関数値を求める総合問題",
+      "thinking_process": [
+        "与えられた変換公式を適用して sin θ・cos θ・tan θ のいずれかを求める",
+        "象限条件（π < θ < 2π など）から符号を確定する",
+        "相互関係式を使って残りの三角関数値を計算する"
+      ],
+      "common_mistakes": [
+        "変換公式適用後の符号を象限で確定しないまま進める",
+        "π < θ < 2π の中でどの象限かを具体的に特定しない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "unit_id": "quadratic-graphs-and-transformations",
+  "unit_name_jp": "2次関数のグラフとその移動",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "translation",
+      "description": "平行移動",
+      "thinking_process": [
+        "x方向にp移動→(x-p)²",
+        "y方向にq移動→+q"
+      ],
+      "common_mistakes": [
+        "x方向の符号"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "reflection",
+      "description": "対称移動",
+      "thinking_process": [
+        "x軸対称→yを-yに",
+        "y軸対称→xを-xに",
+        "原点対称→x,-x両方"
+      ],
+      "common_mistakes": [
+        "対称軸と式の変換"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "combined",
+      "description": "複合変換",
+      "thinking_process": [
+        "操作を順番に適用"
+      ],
+      "common_mistakes": [
+        "順序の誤り"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "identification",
+      "description": "グラフの特徴から式を決定",
+      "thinking_process": [
+        "頂点・通過点・対称性から係数を決定"
+      ],
+      "common_mistakes": [
+        "符号ミス"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

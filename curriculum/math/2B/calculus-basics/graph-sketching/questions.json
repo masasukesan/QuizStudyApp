@@ -1,0 +1,944 @@
+{
+  "questions": [
+    {
+      "id": "gs-001",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "グラフの概形を描く手順として正しい順序はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "① f(x)=0 の解を求める → ② それを極値とする → ③ グラフを描く"
+        },
+        {
+          "label": "B",
+          "text": "① f'(x)=0 の解を求める → ② 増減表を作る → ③ 極値の座標を計算 → ④ x →±∞ の挙動を確認してグラフを描く"
+        },
+        {
+          "label": "C",
+          "text": "① x 切片を求める → ② y 切片を求める → ③ グラフを描く"
+        },
+        {
+          "label": "D",
+          "text": "① f''(x)=0 の解を求める → ② それを極値とする → ③ グラフを描く"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-002",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "f(x)=x³−3x+1 の y 切片として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=0 を代入: f(0)=0−0+1=1 → y 切片は (0,1)"
+        },
+        {
+          "label": "B",
+          "text": "y 切片は常に 0"
+        },
+        {
+          "label": "C",
+          "text": "f'(0)=−3 を y 切片とした"
+        },
+        {
+          "label": "D",
+          "text": "x=0: f(0)=0−0−1=−1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-003",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x³ のグラフの特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "原点を通り、x<0 で負・x>0 で正。x=0 は変曲点で極値はなく単調増加"
+        },
+        {
+          "label": "B",
+          "text": "y=x³ は x →+∞ で −∞ に向かう"
+        },
+        {
+          "label": "C",
+          "text": "y=x³ は x=1 で極大値 1、x=−1 で極小値 −1 をとる"
+        },
+        {
+          "label": "D",
+          "text": "y=x³ は x=1 で極小値 1 をとる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-004",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "f(x)=x³+3x²−9x の増減表作成のため f'(x)=0 を解く手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(x)=3x²+6x−9=3(x²+2x−3)=3(x+3)(x−1)=0 → x=−3, 1"
+        },
+        {
+          "label": "B",
+          "text": "f'(x)=3x²+6x−9=3x(x+2)−9=0 → x=0 or x=..."
+        },
+        {
+          "label": "C",
+          "text": "f'(x)=3x²+6x−9=0 → 解の公式で x=(−6±√(36+108))/6"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=0 → x³+3x²−9x=0 を解く"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-005",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x³−6x²+9x+2 において x→+∞ の挙動として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最高次項 x³ の係数が正なので x →+∞ で y →−∞"
+        },
+        {
+          "label": "B",
+          "text": "最高次項 x³ の係数が正なので x →+∞ で y →+∞"
+        },
+        {
+          "label": "C",
+          "text": "x →+∞ で y →0"
+        },
+        {
+          "label": "D",
+          "text": "3 次関数 y=x³−6x²+9x+2 は x が大きくなるにつれて y は定数項 2 に収束する"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-006",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "3 次関数 y=f(x) で極大値＞極小値 のとき、グラフの概形として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "極大値＞極小値 なら x →+∞ のとき y →−∞"
+        },
+        {
+          "label": "B",
+          "text": "左から右に上がり → 極大(山) → 下がり → 極小(谷) → 上がる、という典型的な S 字型"
+        },
+        {
+          "label": "C",
+          "text": "極大値＞極小値 なら極大点の y 座標が 0 より大きい"
+        },
+        {
+          "label": "D",
+          "text": "極大値と極小値の差が大きいほど振れ幅が大きく、極小値が最小値になる"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-007",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "f(x)=−x³+3x の増減: f'(x)=−3x²+3=0 → x=±1。正しい増減はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "正係数の3次関数と同じ増減になると誤解し、極大は −2、極小は 2 と計算"
+        },
+        {
+          "label": "B",
+          "text": "f'=−3x²+3=0 → x=0 のみ"
+        },
+        {
+          "label": "C",
+          "text": "x<−1: f'>0、−1<x<1: f'<0、x>1: f'>0"
+        },
+        {
+          "label": "D",
+          "text": "x<−1: f'<0(減少)、−1<x<1: f'>0(増加)、x>1: f'<0(減少)。x=−1 が極小、x=1 が極大"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-008",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "グラフの変曲点の定義として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x) の最小値をとる点が変曲点"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=0 となる点(x 切片)が変曲点"
+        },
+        {
+          "label": "C",
+          "text": "f''(x) の符号が変化する点(上に凸から下に凸、またはその逆に切り替わる点)"
+        },
+        {
+          "label": "D",
+          "text": "f'(x)=0 となる点がすべて変曲点"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-009",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x³ の変曲点の座標として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "変曲点は (0,1)"
+        },
+        {
+          "label": "B",
+          "text": "y=x³ の変曲点は存在しない(f の符号が変化しないと誤解)"
+        },
+        {
+          "label": "C",
+          "text": "f'(0)=0 だから変曲点は (0,0) で、かつ極値でもある"
+        },
+        {
+          "label": "D",
+          "text": "f''(x)=6x=0 → x=0。変曲点 (0,0)(f''の符号: x<0 で −、x>0 で +)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-010",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "basic",
+      "question": "y=x⁴−2x² のグラフについて、f'(x)=4x³−4x=4x(x−1)(x+1)=0 → x=−1,0,1。正しい増減はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=−1: 極小(f=−1)、x=0: 極大(f=0)、x=1: 極小(f=−1)。グラフは W 字型"
+        },
+        {
+          "label": "B",
+          "text": "x=0 は極値なし"
+        },
+        {
+          "label": "C",
+          "text": "x=−1: 極大、x=0: 極小、x=1: 極大"
+        },
+        {
+          "label": "D",
+          "text": "4 次関数だから極値は最大 2 個"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフ",
+        "増減表"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-011",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "f(x)=x³−3x²−9x+5 の極大値と極小値を求めるとき、f'(x)=0 の解と極値の計算として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(x)=3x²−6x−9=3(x+1)(x−3)=0 → x=−1,3。f(−1)=10 が極小値、f(3)=−22 が極大値"
+        },
+        {
+          "label": "B",
+          "text": "f'(x)=3x²−6x−9=3(x+1)(x−3)=0 → x=−1,3。f(−1)=−1−3+9+5=10(極大)、f(3)=27−27−27+5=−22(極小)"
+        },
+        {
+          "label": "C",
+          "text": "f'(x)=3x²−6x−9=3(x+1)(x−3)=0 → x=−1,3。f(−1)=1−3+9+5=12(計算誤り)"
+        },
+        {
+          "label": "D",
+          "text": "f'(x)=3x²−6x−9=0 → x=1,−3"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-012",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "f(x)=x³+ax²+b のグラフが x 軸と 3 点で交わるための条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3 次関数は常に x 軸と 3 点で交わる(端の挙動から必ず 3 交点があると誤解)"
+        },
+        {
+          "label": "B",
+          "text": "判別式が正ならば x 軸と 3 点で交わる"
+        },
+        {
+          "label": "C",
+          "text": "f(0)>0 かつ f'(0)<0 ならば x 軸と 3 点で交わる"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=0 が 3 つの実数解をもつ条件: 極大値＞0 かつ 極小値＜0"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-013",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=x⁴−4x² のグラフの概形(極値・変曲点・y 切片)を正しく説明しているものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'=4x³−8x=4x(x²−2)=0 → x=−√2,0,√2。極大 f(0)=0、極小 f(±√2)=−4。グラフは W 字型で y 切片 0"
+        },
+        {
+          "label": "B",
+          "text": "f'=4x³−8x=0 → x=0,±√2。x=0 が極小"
+        },
+        {
+          "label": "C",
+          "text": "y=x⁴−4x² はすべての x で f≥0"
+        },
+        {
+          "label": "D",
+          "text": "f'=4x³−8x=0 → x=0,±2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-014",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "f(x)=x³−6x²+12x−8=(x−2)³ のグラフの特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(x)=3(x−2)²≥0 で単調増加。x=2 で f'=0 だが変曲点(極値なし)。グラフは y=x³ を (2,0) に平行移動した形"
+        },
+        {
+          "label": "B",
+          "text": "(x−2)³ は x=2 で極大値 0 をとる"
+        },
+        {
+          "label": "C",
+          "text": "(x−2)³ は x=2 で極小値 0 をとる"
+        },
+        {
+          "label": "D",
+          "text": "(x−2)³ は x=2 で f'=0 だから増減が切り替わり極値がある"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-015",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=f(x) のグラフから y=f(x+2)−3 のグラフを描くとき、変換のルールとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=f(x+2)−3 は y=f(x) を拡大・縮小する変換"
+        },
+        {
+          "label": "B",
+          "text": "x+2 → x を 2 だけ左に移動、−3 → y を 3 だけ下に移動。合わせて (−2, −3) 方向に平行移動"
+        },
+        {
+          "label": "C",
+          "text": "x+2 → x を 2 だけ右に移動"
+        },
+        {
+          "label": "D",
+          "text": "y=f(x+2)−3 は y=f(x) を x 方向 +2、y 方向 −3 に移動"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-016",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "f(x)=x³−3x の増減と変曲点を正しく説明しているものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "変曲点は極大・極小の中点とは限らない"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=x³−3x の変曲点は存在しない"
+        },
+        {
+          "label": "C",
+          "text": "f''=6x=0 → x=0 が極値"
+        },
+        {
+          "label": "D",
+          "text": "f'=3x²−3=0 → x=±1(極値)。f''=6x=0 → x=0(変曲点 (0,0))。x<0 で上に凸、x>0 で下に凸"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-017",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "y=x⁴ のグラフ上の変曲点の個数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4 次関数は必ず変曲点が 2 個ある"
+        },
+        {
+          "label": "B",
+          "text": "f''(0)=0 なので x=0 が変曲点 → 変曲点 1 個"
+        },
+        {
+          "label": "C",
+          "text": "f''(x)=12x²≥0 で符号変化なし → 変曲点なし(x=0 は f''=0 だが変曲点でない)"
+        },
+        {
+          "label": "D",
+          "text": "4 次関数は必ず変曲点が 2 個ある(偶数次の対称性から 2 か所で上凸・下凸が切り替わると誤解)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-018",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "f(x)=x³−3x²+3x−1=(x−1)³ のグラフの変曲点として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=1 での微分係数がゼロなので x=1 が極大点"
+        },
+        {
+          "label": "B",
+          "text": "(x−1)³ の変曲点は原点 (0,0)"
+        },
+        {
+          "label": "C",
+          "text": "f''(x)=6x−6=0 → x=1 だが変曲点の座標は (1,f(1))=(1,0) でなく (1,1)"
+        },
+        {
+          "label": "D",
+          "text": "f''(x)=6x−6=0 → x=1。f(1)=0。変曲点 (1,0)(f'' の符号: x<1 で −、x>1 で +)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-019",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "f(x)=x³+ax が x 軸と 3 点で交わるための a の条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(x)=x(x²+a)=0 の解が 3 つ実数 → x²+a=0 が正の解をもつ → a<0"
+        },
+        {
+          "label": "B",
+          "text": "a<0 かつ a>−3 が必要"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=x(x²+a)=0 → x²=−a が実数解をもつには −a≥0 → a≤0"
+        },
+        {
+          "label": "D",
+          "text": "f(x)=x³+ax が x 軸と 3 点交わるには |a|>1(極値の大きさが十分でないと誤解)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-020",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "standard",
+      "question": "最高次係数が負の 3 次関数 f(x)=−x³+3x²−2 のグラフの x→±∞ の挙動として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最高次係数が負でも 3 次関数なので x が大きくなると y は増加し続ける"
+        },
+        {
+          "label": "B",
+          "text": "x →+∞ で y →0"
+        },
+        {
+          "label": "C",
+          "text": "最高次係数 −1<0 なので x →+∞ で y →−∞、x →−∞ で y →+∞"
+        },
+        {
+          "label": "D",
+          "text": "x →±∞ の挙動は定数項 −2 で決まる"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの概形",
+        "増減表",
+        "変曲点"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-021",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x³+ax²+b が点 (1,3) を通り x=−1 で極大をとるとき a と b を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(−1)=0 → a=3/2。f(−1)=3 → −1+3/2+b=3 → b=5/2"
+        },
+        {
+          "label": "B",
+          "text": "f'(−1)=0 → a=3/2。f(0)=3 → b=3"
+        },
+        {
+          "label": "C",
+          "text": "f'(−1)=3−2a=0 → a=3/2。f(1)=1+3/2+b=3 → b=1/2"
+        },
+        {
+          "label": "D",
+          "text": "f(−1)=0: −1+a(−1)²+b=0(通過点を (−1,0) と誤解)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-022",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "y=f(x) の増減表から方程式 f(x)=k の実数解の個数を場合分けするとき、境界値(k が極大値・極小値に等しい場合)の個数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k が極大値または極小値のとき解は常に 2 個"
+        },
+        {
+          "label": "B",
+          "text": "境界値では解の個数の変化はない"
+        },
+        {
+          "label": "C",
+          "text": "k=極大値 または k=極小値 のとき、その点で接触(重解) → 解の個数は「極値の他の解±1」"
+        },
+        {
+          "label": "D",
+          "text": "k=極大値 のとき解は 3 個"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-023",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x³−3x²+k=0 が 3 つの異なる実数解をもつ k の範囲として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "極大 f(0)=k、極小 f(2)=k−4。3 実数解 ↔ 極小値＜0＜極大値 → k−4<0 かつ k>0 → 0<k<4"
+        },
+        {
+          "label": "B",
+          "text": "f'(x)=0 の解が 2 つなら 3 実数解 → 常に 3 実数解をもつ"
+        },
+        {
+          "label": "C",
+          "text": "k−4<0 かつ k>0 → 0<k<4 は正しいが境界 k=0,4 でも 3 解"
+        },
+        {
+          "label": "D",
+          "text": "f'(x)=3x²−6x=0 → x=0,2。f(2)=k−4。k−4<0 → k<4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-024",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x³−3ax が単調増加になるための a の条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f'(x)=3x²−3a≥0 が常に成立 → 3x²≥3a → a≤x² の最小値 0 → a≤0"
+        },
+        {
+          "label": "B",
+          "text": "f'(x)=3x²−3a≥0 の判別式 D=0−12a≤0 → a≥0"
+        },
+        {
+          "label": "C",
+          "text": "f'(x)=3x²−3a>0 常に成立 → 判別式 D=−12a<0 → a>0"
+        },
+        {
+          "label": "D",
+          "text": "f'(x)=3x²−3a=0 が実数解をもたない → D<0 → −12a<0 → a>0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-025",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "y=x³+ax のグラフが変曲点以外に極値をもつとき、a の条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f''(x)=6x=0 が解をもつ → 常に x=0 で変曲点 → 極値条件は別"
+        },
+        {
+          "label": "B",
+          "text": "y=x³+ax が極値をもつには |a|>1(|a| が大きくなければ極値をもてないと誤解)"
+        },
+        {
+          "label": "C",
+          "text": "f'(x)=3x²+a=0 が 2 実数解をもつ → D=−12a>0 → a<0"
+        },
+        {
+          "label": "D",
+          "text": "f'(x)=3x²+a が 0 になる → f' 符号変化なし → 極値なし → 極値をもつには a>0"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-026",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x⁴−8x²+7=(x²−1)(x²−7) の x 切片として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x⁴−8x²+7=(x−1)²(x+1)² → x=±1 のみ"
+        },
+        {
+          "label": "B",
+          "text": "x²=1 → x=±1、x²=7 → x=±√7。4 つの x 切片: (−√7,0)、(−1,0)、(1,0)、(√7,0)"
+        },
+        {
+          "label": "C",
+          "text": "x⁴−8x²+7=0 → x=±1 のみ"
+        },
+        {
+          "label": "D",
+          "text": "x⁴−8x²+7=0 → (x²−2)(x²−6)=0 と因数分解 → x=±√2, ±√6"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-027",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x³−3x² と直線 y=ax が接するとき(接点が 1 点)の a の値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接点条件: t(2t−3)=0 → t=0(a=0)、t=3/2(a=−9/4)"
+        },
+        {
+          "label": "B",
+          "text": "f(x)=ax の重解条件: x³−3x²=ax → x³−3x²−ax=0 の判別式=0"
+        },
+        {
+          "label": "C",
+          "text": "f(x)=ax → x²(x−3)=ax → x−3=a"
+        },
+        {
+          "label": "D",
+          "text": "f'(t)=a として a を t で表し、f'(t)×t=f(t) から方程式を立てる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-028",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x³ のグラフの変曲点 (0,0) における接線の傾きとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f''(0)=6×0=0 が変曲点での接線の傾き"
+        },
+        {
+          "label": "B",
+          "text": "f'(0)=3×0²=0。変曲点での接線の傾きは 0(水平接線)"
+        },
+        {
+          "label": "C",
+          "text": "変曲点での接線の傾きは f(0)=0"
+        },
+        {
+          "label": "D",
+          "text": "変曲点での接線の傾きは 1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-029",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=ax³+bx(a>0)のグラフが原点を中心に点対称であることの理由として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "f(−x)=a(−x)³+b(−x)=−ax³−bx=−f(x) が成立する → 奇関数 → 原点対称"
+        },
+        {
+          "label": "B",
+          "text": "f(0)=0 だから原点対称"
+        },
+        {
+          "label": "C",
+          "text": "f'(0)=b が正の値なら原点対称"
+        },
+        {
+          "label": "D",
+          "text": "f(−x)=f(x) が成立するから原点対称"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    },
+    {
+      "id": "gs-030",
+      "subject": "数学",
+      "unit": "calculus-basics",
+      "difficulty": "exam",
+      "question": "f(x)=x³−3x²+3x−1 と g(x)=x³−3x²+3x+2 のグラフの関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "g(x)=f(x)+3 だが x 方向に 3 移動したグラフ"
+        },
+        {
+          "label": "B",
+          "text": "g(x)=f(x+1)"
+        },
+        {
+          "label": "C",
+          "text": "g と f は相似"
+        },
+        {
+          "label": "D",
+          "text": "g(x)−f(x)=3(定数差) → g のグラフは f のグラフを y 方向に 3 平行移動したもの"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフの概形",
+        "応用"
+      ],
+      "subunit": "graph-sketching"
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "subject": "数学1A",
+  "unit": "チェバの定理とメネラウスの定理",
+  "questions": [
+    {
+      "id": "cam-001",
+      "difficulty": "basic",
+      "question": "チェバの定理の内容を正確に述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABCの内部(または延長上)の点Pから各頂点を通る直線が対辺と交わる点をD,E,Fとするとき: BD/DC × CE/EA × AF/FB = 1"
+        },
+        {
+          "label": "B",
+          "text": "△ABCの3辺上の点D,E,Fについて BD/DC × CE/EA × AF/FB の積は点の位置によって異なる値をとる"
+        },
+        {
+          "label": "C",
+          "text": "直線と三角形の3辺の交点について積が1"
+        },
+        {
+          "label": "D",
+          "text": "4点が共線のとき積が-1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの定理",
+        "BD/DC×CE/EA×AF/FB=1"
+      ]
+    },
+    {
+      "id": "cam-002",
+      "difficulty": "basic",
+      "question": "メネラウスの定理の内容を正確に述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABCの辺BC,CA,AB(または延長線)上に直線が交わる点P,Q,Rをとるとき: BP/PC × CQ/QA × AR/RB = 1"
+        },
+        {
+          "label": "B",
+          "text": "3本のcevianが1点で交わる条件を表す"
+        },
+        {
+          "label": "C",
+          "text": "2点が円上にあるときの条件を表す"
+        },
+        {
+          "label": "D",
+          "text": "三角形の3辺の長さの間の関係式"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理",
+        "BP/PC×CQ/QA×AR/RB=1"
+      ]
+    },
+    {
+      "id": "cam-003",
+      "difficulty": "basic",
+      "question": "チェバの定理とメネラウスの定理の「使い分け」の基準は何か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "チェバ: 1つの点から出る3本の線(共点条件)"
+        },
+        {
+          "label": "B",
+          "text": "チェバは内部の点、メネラウスは外部の点に使う"
+        },
+        {
+          "label": "C",
+          "text": "チェバは辺上の点、メネラウスは延長線上の点に使う"
+        },
+        {
+          "label": "D",
+          "text": "どちらも同じ条件で使えて結果が異なるだけ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバとメネラウスの使い分け",
+        "共点 vs 共線"
+      ]
+    },
+    {
+      "id": "cam-004",
+      "difficulty": "basic",
+      "question": "△ABCでD,EはそれぞれBC,CAの中点。ADとBEの交点をPとするとき、BPはBEの何倍か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "重心の性質: 2本の中線の交点は各中線を2:1に分ける → BP:PE=2:1 → BP=(2/3)BE"
+        },
+        {
+          "label": "B",
+          "text": "BP = BE/2(半分)"
+        },
+        {
+          "label": "C",
+          "text": "BP = BE(等しい)"
+        },
+        {
+          "label": "D",
+          "text": "チェバを使わないと求められない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重心の2:1分割",
+        "中線の交点の性質"
+      ]
+    },
+    {
+      "id": "cam-005",
+      "difficulty": "basic",
+      "question": "△ABCで AD がBCを1:2に分ける(BD:DC=1:2)。BE がACを2:1に分ける(AE:EC=2:1)。CF が角の二等分線でAB=3,BC=4のとき、AD・BE・CFは1点で交わるかチェバで確認せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "チェバの積=(BD/DC)×(CE/EA)×(AF/FB)"
+        },
+        {
+          "label": "B",
+          "text": "チェバの積=1なら交わる。計算で確認"
+        },
+        {
+          "label": "C",
+          "text": "積が1かどうかは座標を使って確認"
+        },
+        {
+          "label": "D",
+          "text": "3直線は常に1点で交わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの定理で共点確認",
+        "積の計算"
+      ]
+    },
+    {
+      "id": "cam-006",
+      "difficulty": "basic",
+      "question": "△ABCで直線 l がBCとP(BP:PC=2:3)、CAとQ(CQ:QA=1:4)で交わる。ABとの交点R のAR:RBを求めよ(メネラウス)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "メネラウス: (2/3)×(1/4)×(AR/RB)=1 → AR/RB=6 → AR:RB=6:1"
+        },
+        {
+          "label": "B",
+          "text": "AR:RB = BP/PC × CQ/QA = (2/3)×(1/4) = 1/6(式の変形を逆にした)"
+        },
+        {
+          "label": "C",
+          "text": "AR:RB = BP/PC + CQ/QA = 2/3+1/4 = 11/12"
+        },
+        {
+          "label": "D",
+          "text": "AR:RB = 1(中点)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理の応用",
+        "未知の比を求める"
+      ]
+    },
+    {
+      "id": "cam-007",
+      "difficulty": "basic",
+      "question": "角の二等分線定理はチェバの定理から導けることを示す概略は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠Aの二等分線がBCとDで交わる"
+        },
+        {
+          "label": "B",
+          "text": "角の二等分線定理はチェバとは独立した定理"
+        },
+        {
+          "label": "C",
+          "text": "メネラウスの定理から導ける"
+        },
+        {
+          "label": "D",
+          "text": "角の二等分線定理の証明にはチェバは不要"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "角の二等分線とチェバの関係",
+        "BD/DC=AB/AC"
+      ]
+    },
+    {
+      "id": "cam-008",
+      "difficulty": "basic",
+      "question": "△ABCで3本の高さが1点(垂心H)で交わることをチェバの定理で示す手順は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各高さの足の位置の比を余弦で表す: BD/DC=(関係式)"
+        },
+        {
+          "label": "B",
+          "text": "垂心の存在は自明でチェバは不要"
+        },
+        {
+          "label": "C",
+          "text": "メネラウスの定理を使う"
+        },
+        {
+          "label": "D",
+          "text": "座標幾何で直接示す"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂心の共点性のチェバによる証明",
+        "cosを使った比"
+      ]
+    },
+    {
+      "id": "cam-009",
+      "difficulty": "standard",
+      "question": "△ABCで D はBCを2:3に内分、E はCAを1:2に内分する。DEの延長がBAの延長と交わる点Fについて BF:FA を求めよ(メネラウス)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABCに直線DEFを引く(FはABの延長上)"
+        },
+        {
+          "label": "B",
+          "text": "AF:FB = BD/DC × CE/EA = 2/3 × 1/2 = 1/3"
+        },
+        {
+          "label": "C",
+          "text": "AF:FB = 2:3"
+        },
+        {
+          "label": "D",
+          "text": "DEとBAは交わらない(平行)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理で外分点の比",
+        "積=1の計算"
+      ]
+    },
+    {
+      "id": "cam-010",
+      "difficulty": "standard",
+      "question": "△ABCで点G が重心。AGの延長がBCとDで交わるとき BD:DCは？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AGは中線なのでDはBCの中点。BD:DC = 1:1"
+        },
+        {
+          "label": "B",
+          "text": "重心は2:1に分割するからBD:DC = 2:1"
+        },
+        {
+          "label": "C",
+          "text": "BD:DC = 1:2"
+        },
+        {
+          "label": "D",
+          "text": "Dの位置はGの位置によって変わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "重心と中線",
+        "中線はBCの中点を通る"
+      ]
+    },
+    {
+      "id": "cam-011",
+      "difficulty": "standard",
+      "question": "△ABCで D,E,F がそれぞれ辺BC,CA,AB上の点で BD:DC=1:3、CE:EA=2:1、AF:FB=3:1のとき AD,BE,CFは1点で交わるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "チェバの積 = (1/3)×(2/1)×(3/1) = 2 ≠ 1 → AD,BE,CFは1点で交わらない"
+        },
+        {
+          "label": "B",
+          "text": "積=2なので2点で交わる"
+        },
+        {
+          "label": "C",
+          "text": "積=1のときのみ判断でき2≠1だから不明"
+        },
+        {
+          "label": "D",
+          "text": "全ての3直線は必ず1点で交わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの定理で共点判定",
+        "積≠1なら交わらない"
+      ]
+    },
+    {
+      "id": "cam-012",
+      "difficulty": "standard",
+      "question": "△ABCで∠A=60°、AB=4、AC=6。∠Aの二等分線がBCとDで交わるとき、BDとDCの長さは(BC=5とわかっているとする)？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "角の二等分線定理: BD:DC = AB:AC = 4:6 = 2:3"
+        },
+        {
+          "label": "B",
+          "text": "BD:DC = AC:AB = 6:4 = 3:2(逆の比)"
+        },
+        {
+          "label": "C",
+          "text": "BD = DC = 5/2 = 2.5"
+        },
+        {
+          "label": "D",
+          "text": "BD:DC = AB²:AC² = 16:36 = 4:9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "角の二等分線定理の応用",
+        "辺の比から長さを求める"
+      ]
+    },
+    {
+      "id": "cam-013",
+      "difficulty": "standard",
+      "question": "チェバの逆定理の内容を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABCで辺BC,CA,AB上(または延長上)の点D,E,Fについて BD/DC × CE/EA × AF/FB = 1 が成立するならば"
+        },
+        {
+          "label": "B",
+          "text": "BD/DC × CE/EA × AF/FB = 2 なら AD,BE,CF は2点で交わる"
+        },
+        {
+          "label": "C",
+          "text": "チェバの逆は存在しない"
+        },
+        {
+          "label": "D",
+          "text": "積が2のとき2点で交わる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの逆定理",
+        "積=1→共点"
+      ]
+    },
+    {
+      "id": "cam-014",
+      "difficulty": "standard",
+      "question": "△ABCで傍心Iₐ(∠Aに対する傍心)とチェバの定理の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∠Aの内角の二等分線と∠B,∠Cの外角の二等分線が交わる点が傍心Iₐ"
+        },
+        {
+          "label": "B",
+          "text": "傍心はチェバの定理と無関係"
+        },
+        {
+          "label": "C",
+          "text": "傍心は全て外部にあるのでチェバは適用できない"
+        },
+        {
+          "label": "D",
+          "text": "傍心はメネラウスの定理で求める"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "傍心とチェバの定理",
+        "外角二等分線の共点"
+      ]
+    },
+    {
+      "id": "cam-015",
+      "difficulty": "standard",
+      "question": "△ABCで D がBCの中点、E がADの中点、CE の延長が AB と交わる点Fについて AF:FBを求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AF:FB = 1:2 (座標法: A(0,2),B(-1,0),C(1,0)→交点F=(-1/3,4/3)より)"
+        },
+        {
+          "label": "B",
+          "text": "AF:FB = 1:3"
+        },
+        {
+          "label": "C",
+          "text": "AF:FB = 1:1"
+        },
+        {
+          "label": "D",
+          "text": "AF:FB = 2:1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "中点を使った内分点",
+        "座標法の確認"
+      ]
+    },
+    {
+      "id": "cam-016",
+      "difficulty": "exam",
+      "question": "チェバの定理の証明(面積を使う方法)を概説せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△ABDと△ACDで底辺BD,DCを比較"
+        },
+        {
+          "label": "B",
+          "text": "座標幾何で直接証明する"
+        },
+        {
+          "label": "C",
+          "text": "三角法を使って証明する"
+        },
+        {
+          "label": "D",
+          "text": "証明は自明で不要"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバの定理の証明",
+        "面積比を使う方法"
+      ]
+    },
+    {
+      "id": "cam-017",
+      "difficulty": "exam",
+      "question": "メネラウスの定理の証明(平行線を引く方法)を概説せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "頂点AからメネラウスのBCに平行な直線を引き、交点Sを作る"
+        },
+        {
+          "label": "B",
+          "text": "チェバと同じ面積比の方法"
+        },
+        {
+          "label": "C",
+          "text": "ベクトルを使って証明する"
+        },
+        {
+          "label": "D",
+          "text": "座標幾何でx,y軸に直線を設定"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスの定理の証明",
+        "平行線の補助線"
+      ]
+    },
+    {
+      "id": "cam-018",
+      "difficulty": "exam",
+      "question": "内接円の接点D,E,F(BCとD、CAとE、ABとF)について AD,BE,CFはチェバの定理で共点(Gergonne点)になることを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "接線の長さの等しさ: AF=AE=s-a、BF=BD=s-b、CD=CE=s-c"
+        },
+        {
+          "label": "B",
+          "text": "AD,BE,CFは平行になる"
+        },
+        {
+          "label": "C",
+          "text": "積=1以外の値になる"
+        },
+        {
+          "label": "D",
+          "text": "接点三角形の辺とは別の問題"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Gergonne点",
+        "接線の長さを使ったチェバの積"
+      ]
+    },
+    {
+      "id": "cam-019",
+      "difficulty": "exam",
+      "question": "△ABCでNagel点(傍接円の接点を結ぶ線の交点)がチェバの定理で存在することを示せ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各傍接円の接点の位置: BC上のD₁で BD₁=s-c, D₁C=s-b(傍接円の接線長)"
+        },
+        {
+          "label": "B",
+          "text": "Nagel点は内心と同じ点"
+        },
+        {
+          "label": "C",
+          "text": "積が1にならないのでNagel点は存在しない"
+        },
+        {
+          "label": "D",
+          "text": "Nagel点はメネラウスの定理で導く"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Nagel点",
+        "傍接円接点のチェバ積=1"
+      ]
+    },
+    {
+      "id": "cam-020",
+      "difficulty": "basic",
+      "question": "△ABCでBCを外分する点P(BP:PC=3:1外分)、CAを内分するQ(CQ:QA=1:2)、ABを内分するR(AR:RB=2:3)のとき、P,Q,Rは共線か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "メネラウス(有向比): (-3)×(1/2)×(2/3) = -1 → P,Q,Rは共線"
+        },
+        {
+          "label": "B",
+          "text": "積=1でないから共線でない"
+        },
+        {
+          "label": "C",
+          "text": "外分点があるので定理が適用できない"
+        },
+        {
+          "label": "D",
+          "text": "外分は内分と区別せず積を計算するだけでよい"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "メネラウスと外分点",
+        "符号付き比の積=-1"
+      ]
+    },
+    {
+      "id": "cam-021",
+      "difficulty": "exam",
+      "question": "Simsonの定理(Simsonライン)：△ABCの外接円上の点Pから各辺(または延長)に下ろした垂線の足H₁,H₂,H₃は共線である(Simsonライン)。この定理の証明の出発点は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PH₁H₂B, PH₁H₃Cなどの四角形が円に内接することを示し"
+        },
+        {
+          "label": "B",
+          "text": "メネラウスの定理を直接適用"
+        },
+        {
+          "label": "C",
+          "text": "チェバの逆定理を使う"
+        },
+        {
+          "label": "D",
+          "text": "Simsonラインは定理でなく定義"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "Simsonの定理",
+        "円に内接する四角形の角度"
+      ]
+    },
+    {
+      "id": "cam-022",
+      "difficulty": "basic",
+      "question": "チェバの定理を質量点の視点から解釈せよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各頂点に質量を配置し、cevianの交点が重心になる条件がチェバの定理の積=1と等価"
+        },
+        {
+          "label": "B",
+          "text": "チェバと質量点は無関係"
+        },
+        {
+          "label": "C",
+          "text": "質量点はメネラウスの定理の言い換え"
+        },
+        {
+          "label": "D",
+          "text": "質量点では積≠1になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "質量点とチェバの定理",
+        "質量と辺の比の関係"
+      ]
+    },
+    {
+      "id": "cam-023",
+      "difficulty": "standard",
+      "question": "△ABCでI が内心のとき、AI,BI,CI の延長がBC,CA,ABと交わる点をD,E,Fとする。BD,CE,AFをそれぞれ求めよ(a=BC,b=CA,c=AB、s=(a+b+c)/2)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "角の二等分線定理: BD/DC=c/b → BD=ac/(b+c),DC=ab/(b+c)"
+        },
+        {
+          "label": "B",
+          "text": "BD=a/2(中点)"
+        },
+        {
+          "label": "C",
+          "text": "BD:DC=a:b"
+        },
+        {
+          "label": "D",
+          "text": "角の二等分線の長さは余弦定理で求める"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内心のcevianの長さ",
+        "角の二等分線定理の応用"
+      ]
+    },
+    {
+      "id": "cam-024",
+      "difficulty": "standard",
+      "question": "△ABCにおいてP,Qがそれぞれ辺AB,BC上の点でAP:PB=1:2,BQ:QC=2:1のとき、AQ とCPの交点RについてAR:RQとCR:RPを求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AR:RQ = 3:2、CR:RP = 3:2 (A(0,0),B(3,0),C(0,3)→P=(1,0),Q=(1,2)→R=(3/5,6/5))"
+        },
+        {
+          "label": "B",
+          "text": "AR:RQ = AP:PB = 1:2"
+        },
+        {
+          "label": "C",
+          "text": "AR:RQ = BQ:QC = 2:1"
+        },
+        {
+          "label": "D",
+          "text": "計算せずに交点の比はわからない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "チェバ的問題",
+        "座標法で交点の比"
+      ]
+    },
+    {
+      "id": "cam-025",
+      "difficulty": "exam",
+      "question": "射影幾何の視点でチェバの定理とメネラウスの定理の双対性を述べよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "チェバの定理(点から線へ)とメネラウスの定理(線から点へ)は射影双対の関係にある"
+        },
+        {
+          "label": "B",
+          "text": "双対性はなく2つは独立した定理"
+        },
+        {
+          "label": "C",
+          "text": "チェバ →メネラウスの変換は回転で行える"
+        },
+        {
+          "label": "D",
+          "text": "射影幾何では両定理は同一になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "双対性",
+        "点と直線の射影双対"
+      ]
+    },
+    {
+      "id": "cam-026",
+      "difficulty": "exam",
+      "question": "△ABCの垂心HはBCに対して反対側にある△ABCの点Hを中心とした円(オルト円)と関係があるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "九点円(9点円)が存在し、各辺の中点・高さの足・各頂点と垂心の中点の計9点が同一円上にある"
+        },
+        {
+          "label": "B",
+          "text": "垂心と円は直接関係しない"
+        },
+        {
+          "label": "C",
+          "text": "垂心は外接円の中心"
+        },
+        {
+          "label": "D",
+          "text": "垂心は内接円の中心"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "九点円",
+        "垂心と関連する幾何"
+      ]
+    },
+    {
+      "id": "cam-027",
+      "difficulty": "standard",
+      "question": "△ABCでD,E,FがそれぞれBC,CA,ABの三等分点(B側から1/3)のとき△DEFの面積比を△ABCで表せ。チェバ・座標法で求めよ。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "△DEF/△ABC = 2/9 (D=(2,1),E=(0,2),F=(2,0)→△DEF面積=1, △ABC=9/2)"
+        },
+        {
+          "label": "B",
+          "text": "面積比=1/3(1/3の点だから辺比が1:3になると考えた)"
+        },
+        {
+          "label": "C",
+          "text": "面積比=1/9(1/3の2乗)"
+        },
+        {
+          "label": "D",
+          "text": "面積比=1/7"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三等分点の三角形面積比",
+        "座標法で計算"
+      ]
+    },
+    {
+      "id": "cam-028",
+      "difficulty": "exam",
+      "question": "メネラウスの符号付き版(有向比)では積が-1になる。なぜ-1か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "有向比では外分点の比が負になる"
+        },
+        {
+          "label": "B",
+          "text": "符号付きでも積は常に1"
+        },
+        {
+          "label": "C",
+          "text": "外分が偶数個のとき積は-1"
+        },
+        {
+          "label": "D",
+          "text": "-1は単なる慣例で数学的意味はない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "有向比のメネラウス",
+        "積=-1の理由"
+      ]
+    },
+    {
+      "id": "cam-029",
+      "difficulty": "exam",
+      "question": "△ABCで内心Iから出るcevianがチェバの積=1を満たすことと、内心からの3辺への距離が等しいこと(内接円)の関係は？",
+      "choices": [
+        {
+          "label": "A",
+          "text": "チェバの積=1(内角の二等分線の共点)が成立することと内接円の存在は等価"
+        },
+        {
+          "label": "B",
+          "text": "内接円の存在とチェバは無関係"
+        },
+        {
+          "label": "C",
+          "text": "チェバの積=1は外接円の存在条件"
+        },
+        {
+          "label": "D",
+          "text": "チェバの積=1は任意の三角形で成立する"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内心とチェバの等価性",
+        "内接円との関係"
+      ]
+    },
+    {
+      "id": "cam-030",
+      "difficulty": "exam",
+      "question": "△ABCで A'=BC∩直線(B+λC)、B'=CA∩直線(C+λA)、C'=AB∩直線(A+λB)のとき、AA',BB',CC'はチェバの定理で1点に交わるか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各cevianの比をλで表してチェバの積を計算"
+        },
+        {
+          "label": "B",
+          "text": "任意のλで交わらない"
+        },
+        {
+          "label": "C",
+          "text": "λ=1のときのみ交わる"
+        },
+        {
+          "label": "D",
+          "text": "この構成ではチェバは適用できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "パラメータとチェバの定理",
+        "射影変換との関係"
+      ]
+    }
+  ]
+}

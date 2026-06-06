@@ -1,0 +1,108 @@
+{
+  "unit_id": "real-numbers",
+  "unit_name_jp": "実数",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "sqrt-basic",
+      "description": "平方根の基本。√a の定義、√(a²) = |a|。",
+      "thinking_process": [
+        "a>=0 のとき √(a²)=a",
+        "a<0 のとき √(a²)=-a=|a|"
+      ],
+      "common_mistakes": [
+        "√4=±2（正の平方根は正の値のみ）",
+        "√(a²)=a（符号確認が必要）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sqrt-calc",
+      "description": "平方根の計算（有理化・乗除・加減）。",
+      "thinking_process": [
+        "同類の根号をまとめる",
+        "有理化",
+        "乗法: √a×√b=√(ab)"
+      ],
+      "common_mistakes": [
+        "√a+√b=√(a+b)と誤る",
+        "有理化で分子にも掛け忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "rational-irrational",
+      "description": "有理数・無理数の判定と性質。",
+      "thinking_process": [
+        "有理数: p/q で表せる",
+        "無理数: 循環しない無限小数"
+      ],
+      "common_mistakes": [
+        "√4=2 は有理数（整数）",
+        "0×√2=0 は有理数"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "absolute-value",
+      "description": "絶対値の定義と計算。",
+      "thinking_process": [
+        "a の符号で場合分け"
+      ],
+      "common_mistakes": [
+        "負の数の絶対値で符号変換を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sqrt-simplify",
+      "description": "根号の整理・有理化。",
+      "thinking_process": [
+        "完全平方因子を外に出す",
+        "分母の有理化"
+      ],
+      "common_mistakes": [
+        "√(a+b)=√a+√b と誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "nested-sqrt",
+      "description": "二重根号の整理。",
+      "thinking_process": [
+        "(√c±√d)²=a±2√b と対応",
+        "c+d=a、cd=b となる c, d を探す"
+      ],
+      "common_mistakes": [
+        "符号の決定に不注意"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "integer-decimal-part",
+      "description": "整数部分と小数部分の利用。",
+      "thinking_process": [
+        "n²<a<(n+1)² で整数部分 n を特定",
+        "小数部分=全体-整数部分"
+      ],
+      "common_mistakes": [
+        "整数部分と小数部分を入れ替える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "sqrt-formula",
+      "description": "根号を含む式の値の計算。共役の利用。",
+      "thinking_process": [
+        "1/x を共役で有理化",
+        "x±1/x の形を活用"
+      ],
+      "common_mistakes": [
+        "有理化し忘れる",
+        "二乗で中間項を忘れる"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

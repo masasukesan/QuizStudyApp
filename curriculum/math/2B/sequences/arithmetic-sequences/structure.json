@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "sequences",
+  "subunit": "arithmetic-sequences",
+  "name": "等差数列",
+  "en": "Arithmetic Sequences",
+  "questionCount": 30,
+  "source_notes": "センター試験では数列全体が第3問（選択）として頻出。等差数列単体は1997・2000・2002・2006・2009・2012年度に基本問題として出題（一般項・和の公式が中心）。共通テスト2021年第3問・2022年第3問でも等差数列の性質を利用する問題が含まれる。模試では毎年必出。参照：電数図書館 https://www.densu.jp/",
+  "exam_occurrence": {
+    "center_test": "第3問（数列選択）の冒頭小問として毎回登場。一般項 aₙ = a + (n−1)d の公式適用、等差中項、和 Sₙ = n(a+l)/2 の計算が中心。2006年は Sₙ の最大値問題（初項正・公差負）が出題。",
+    "kyotsu_test": "2021・2022年第3問に等差数列の一般項・部分和を利用する設定が含まれる。他単元（整数・確率）との融合問題の素材として登場することも多い。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年第3問冒頭として出題。初項・公差の決定、和の最大・最小、等差数列の応用（等差×等比の混合）が頻出。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "一般項の求め方",
+      "description": "初項 a・公差 d が与えられたとき、一般項 aₙ = a + (n−1)d を求める。",
+      "typical_question": "初項 3、公差 4 の等差数列の一般項を求めよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "初項・公差の決定（2項から）",
+      "description": "第 m 項と第 n 項の値から連立方程式を立てて初項と公差を求める。",
+      "typical_question": "第3項が 11、第7項が 27 である等差数列の初項と公差を求めよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "等差中項",
+      "description": "3数 a, b, c が等差数列をなすための条件は「b − a = c − b」、すなわち「2b = a + c」。",
+      "typical_question": "3, x, 11 が等差数列をなすとき x の値を求めよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "等差数列の和（公式の直接適用）",
+      "description": "初項 a、末項 l、項数 n の等差数列の和 Sₙ = n(a + l)/2 または Sₙ = n{2a + (n−1)d}/2 を使う。",
+      "typical_question": "初項 2、公差 3 の等差数列の最初の 20 項の和を求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "Sₙ から一般項を逆算",
+      "description": "和 Sₙ が与えられたとき、aₙ = Sₙ − Sₙ₋₁（n ≥ 2）および a₁ = S₁ を使って一般項を求める。",
+      "typical_question": "Sₙ = n² + 3n のとき、等差数列の一般項 aₙ を求めよ。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "basic",
+      "title": "特定の項が何番目か",
+      "description": "aₙ = 値 を設定し、n について解くことで何番目の項かを求める。",
+      "typical_question": "初項 5、公差 3 の等差数列で 77 は第何項か。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "basic",
+      "title": "等差数列かどうかの判定",
+      "description": "隣接2項の差が一定かどうかを確認して等差数列であると判定する。",
+      "typical_question": "数列 2, 5, 8, 11, ... が等差数列であることを確認し、第 n 項を求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "basic",
+      "title": "整数列の和（連続整数の和）",
+      "description": "1 から n までの整数の和 n(n+1)/2、または a から b までの等差数列の和。",
+      "typical_question": "1 から 50 までの奇数の和を求めよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "basic",
+      "title": "2つの等差数列の共通項",
+      "description": "2つの等差数列の共通項は新たな等差数列をなす。初項と公差を最小公倍数などで求める。",
+      "typical_question": "3, 7, 11, ... と 4, 7, 10, ... の最初の 3 つの共通項を求めよ。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "basic",
+      "title": "文字を含む等差数列の条件設定",
+      "description": "「3数が等差数列をなす」条件を使って文字の方程式を立てる。",
+      "typical_question": "a, a+d, a+2d の3数の和が 24、積が 480 のとき a と d を求めよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "standard",
+      "title": "和 Sₙ の最大値（初項正・公差負）",
+      "description": "各項が正から負に変わる境界を求め、その付近で和の最大値を決定する。",
+      "typical_question": "初項 20、公差 −3 の等差数列の和 Sₙ の最大値を求めよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "standard",
+      "title": "等差数列と整数・倍数の問題",
+      "description": "k の倍数である項が何番目かを求め、それらの和を計算する。",
+      "typical_question": "1 以上 100 以下の整数のうち 3 の倍数の総和を求めよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "standard",
+      "title": "等差×等比の混合（群数列の前段階）",
+      "description": "aₙ = （等差）×（等比）の形の数列の和を求める（部分分数分解・シグマ利用）。",
+      "typical_question": "数列 {nrⁿ} の和 Σnrⁿ を求めよ（r ≠ 1）。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "等差数列の応用（パラメータ決定・最大最小の融合）",
+      "description": "初項・公差を文字で表し、条件から値を決定したうえで、和の最大・最小問題を解く複合問題。",
+      "typical_question": "初項 a、公差 d の等差数列で S₁₀ = 100、第 k 項が最大となる条件と最大値を求めよ。"
+    }
+  ]
+}

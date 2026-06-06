@@ -1,0 +1,876 @@
+{
+  "subject": "数学1A",
+  "unit": "確率の性質",
+  "questions": [
+    {
+      "id": "pp2-001",
+      "difficulty": "basic",
+      "question": "確率の公理「0≤P(A)≤1」の意味はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "確率は必ず0以上1以下(0%以上100%以下)"
+        },
+        {
+          "label": "B",
+          "text": "確率は常に1/2前後"
+        },
+        {
+          "label": "C",
+          "text": "確率は自然数である"
+        },
+        {
+          "label": "D",
+          "text": "確率は負にもなれる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "確率の公理",
+        "0と1の間",
+        "確率の定義"
+      ]
+    },
+    {
+      "id": "pp2-002",
+      "difficulty": "basic",
+      "question": "全事象 U の確率 P(U) はいくらか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(U)=1(全事象は必ず起きる)"
+        },
+        {
+          "label": "B",
+          "text": "P(U)=0"
+        },
+        {
+          "label": "C",
+          "text": "P(U)=1/2"
+        },
+        {
+          "label": "D",
+          "text": "P(U) は事象の数による"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "全事象の確率",
+        "P(U)=1",
+        "確率の公理"
+      ]
+    },
+    {
+      "id": "pp2-003",
+      "difficulty": "basic",
+      "question": "空事象 ∅ の確率 P(∅) はいくらか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(∅)=0(空事象は起こり得ない)"
+        },
+        {
+          "label": "B",
+          "text": "P(∅)=1"
+        },
+        {
+          "label": "C",
+          "text": "P(∅)=1/2"
+        },
+        {
+          "label": "D",
+          "text": "P(∅) は定義されない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "空事象の確率",
+        "P(∅)=0",
+        "不可能事象"
+      ]
+    },
+    {
+      "id": "pp2-004",
+      "difficulty": "basic",
+      "question": "P(Ā)=1-P(A) の公式が成り立つ理由はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(A)+P(Ā)=P(U)=1"
+        },
+        {
+          "label": "B",
+          "text": "Ā の定義から自明"
+        },
+        {
+          "label": "C",
+          "text": "P(Ā)=P(A)"
+        },
+        {
+          "label": "D",
+          "text": "P(Ā) は計算できない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "補事象の確率",
+        "排反と全事象",
+        "P(A)+P(Ā)=1"
+      ]
+    },
+    {
+      "id": "pp2-005",
+      "difficulty": "basic",
+      "question": "A⊂B のとき P(A) ≤ P(B) が成り立つ理由はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(B)=P(A)+P(B∩Ā)≥P(A)"
+        },
+        {
+          "label": "B",
+          "text": "A が B より小さい集合だから"
+        },
+        {
+          "label": "C",
+          "text": "P(A)=P(B)(部分集合なら等しい)"
+        },
+        {
+          "label": "D",
+          "text": "成り立たない場合もある"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "単調性",
+        "A⊂B→P(A)≤P(B)",
+        "分解の論理"
+      ]
+    },
+    {
+      "id": "pp2-006",
+      "difficulty": "basic",
+      "question": "「A と B が互いに排反」の意味はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A∩B=∅(同時に起こらない)"
+        },
+        {
+          "label": "B",
+          "text": "A∪B=U(合わせると全体)"
+        },
+        {
+          "label": "C",
+          "text": "P(A)=P(B)(確率が等しい)"
+        },
+        {
+          "label": "D",
+          "text": "A と B が独立"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "互いに排反",
+        "A∩B=∅",
+        "同時に起こらない"
+      ]
+    },
+    {
+      "id": "pp2-007",
+      "difficulty": "basic",
+      "question": "互いに排反な A, B, C に対して P(A∪B∪C) はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(A)+P(B)+P(C)(排反なら単純に和)"
+        },
+        {
+          "label": "B",
+          "text": "P(A∩B∪B∩C∪C∩A)(三つの共通部分を足す)"
+        },
+        {
+          "label": "C",
+          "text": "P(A)×P(B)×P(C)(積は独立の場合)"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "排反事象の和",
+        "加法公理",
+        "交差項がゼロ"
+      ]
+    },
+    {
+      "id": "pp2-008",
+      "difficulty": "basic",
+      "question": "「A または B が起きる」と「A かつ B が起きる」の確率の関係はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(A∪B)=P(A)+P(B)-P(A∩B) より P(A∪B)≥P(A∩B)"
+        },
+        {
+          "label": "B",
+          "text": "P(A∪B)≤P(A∩B)"
+        },
+        {
+          "label": "C",
+          "text": "常に等しい"
+        },
+        {
+          "label": "D",
+          "text": "関係は事象によって異なる(一般に P(A∪B)≥P(A∩B))"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "和事象と積事象",
+        "P(A∪B)≥P(A∩B)",
+        "包含関係"
+      ]
+    },
+    {
+      "id": "pp2-009",
+      "difficulty": "basic",
+      "question": "P(A)=0.4、P(B)=0.3、P(A∩B)=0.1 のとき P(A∪B) はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.4+0.3-0.1=0.6(加法公式)"
+        },
+        {
+          "label": "B",
+          "text": "0.4×0.3=0.12"
+        },
+        {
+          "label": "C",
+          "text": "0.4+0.3=0.7"
+        },
+        {
+          "label": "D",
+          "text": "1-0.1=0.9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "加法公式",
+        "P(A∪B)の計算",
+        "重複分を引く"
+      ]
+    },
+    {
+      "id": "pp2-010",
+      "difficulty": "basic",
+      "question": "「コインを1回投げて表か裏」の標本空間はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ω={表, 裏}(起こりうる全結果の集合)"
+        },
+        {
+          "label": "B",
+          "text": "Ω={表}(有利な事象のみ)"
+        },
+        {
+          "label": "C",
+          "text": "Ω={1, 2}(数値で表した場合)"
+        },
+        {
+          "label": "D",
+          "text": "Ω=∅"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "標本空間",
+        "全結果の列挙",
+        "確率の定義"
+      ]
+    },
+    {
+      "id": "pp2-011",
+      "difficulty": "standard",
+      "question": "P(A)=0.5、P(B)=0.4、P(A∪B)=0.7 のとき P(A∩B) と P(Ā∩B) を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(A∩B)=P(A)+P(B)-P(A∪B)=0.5+0.4-0.7=0.2。P(Ā∩B)=P(B)-P(A∩B)=0.4-0.2=0.2"
+        },
+        {
+          "label": "B",
+          "text": "P(A∩B)=P(A)×P(B)=0.2(独立と仮定)"
+        },
+        {
+          "label": "C",
+          "text": "P(Ā∩B)=P(B̄)=0.6"
+        },
+        {
+          "label": "D",
+          "text": "P(Ā∩B)=1-P(A∪B)=1-0.7=0.3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "逆算でP(A∩B)",
+        "B=A∩B ∪ Ā∩B の分解",
+        "P(Ā∩B)"
+      ]
+    },
+    {
+      "id": "pp2-012",
+      "difficulty": "standard",
+      "question": "P(A∪B)=P(A)+P(B) が成り立つ条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A と B が互いに排反(A∩B=∅) → P(A∩B)=0 → P(A∪B)=P(A)+P(B)"
+        },
+        {
+          "label": "B",
+          "text": "A と B が独立(P(A∩B)=P(A)P(B)≠0 の可能性)"
+        },
+        {
+          "label": "C",
+          "text": "P(A)=P(B) のとき"
+        },
+        {
+          "label": "D",
+          "text": "常に成り立つ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "加法公式の成立条件",
+        "排反の定義",
+        "独立と排反の違い"
+      ]
+    },
+    {
+      "id": "pp2-013",
+      "difficulty": "standard",
+      "question": "確率の乗法定理 P(A∩B)=P(A)P(B|A) を使う場面はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "非復元抽出など A が起きたときに B の確率が変わる場合"
+        },
+        {
+          "label": "B",
+          "text": "A と B が独立のとき(P(B|A)=P(B) なので P(A∩B)=P(A)P(B))"
+        },
+        {
+          "label": "C",
+          "text": "A と B が互いに排反のとき(P(A∩B)=0 なので乗法定理は P(A)P(B|A)=0)"
+        },
+        {
+          "label": "D",
+          "text": "複合事象の確率を計算するすべての場合"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "乗法定理",
+        "条件付き確率",
+        "非復元抽出"
+      ]
+    },
+    {
+      "id": "pp2-014",
+      "difficulty": "standard",
+      "question": "P(A)=1/4、P(B|A)=1/3、P(B|Ā)=1/6 のとき P(A|B) を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "全確率の法則でP(B)=5/24。ベイズの定理でP(A|B)=(1/12)/(5/24)=2/5"
+        },
+        {
+          "label": "B",
+          "text": "P(A|B)=P(B|A)=1/3"
+        },
+        {
+          "label": "C",
+          "text": "P(A|B)=P(A)/P(B)=(1/4)/(5/24)=6/5"
+        },
+        {
+          "label": "D",
+          "text": "P(A|B)=P(A)=1/4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ベイズの定理",
+        "全確率の法則",
+        "逆確率の計算"
+      ]
+    },
+    {
+      "id": "pp2-015",
+      "difficulty": "standard",
+      "question": "独立事象 A, B に対して Ā と B̄ も独立か確認する手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(Ā∩B̄)=P(A∪B の補)=1-P(A∪B)=1-P(A)-P(B)+P(A)P(B)=(1-P(A))(1-P(B))=P(Ā)P(B̄) → 独立"
+        },
+        {
+          "label": "B",
+          "text": "A と B が独立なら補集合も必ず独立(公理)"
+        },
+        {
+          "label": "C",
+          "text": "対ごと独立なら必ず互いに独立"
+        },
+        {
+          "label": "D",
+          "text": "独立の定義を補集合にも適用可能かどうかは状況による"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "独立性の保存",
+        "補集合の独立性",
+        "計算による確認"
+      ]
+    },
+    {
+      "id": "pp2-016",
+      "difficulty": "standard",
+      "question": "3つの事象が「対ごとに独立」でも「互いに独立」でない例を示す手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A「1回目表」B「2回目表」C「同じ回数」→対ごと独立だが P(A∩B∩C)≠P(A)P(B)P(C)"
+        },
+        {
+          "label": "B",
+          "text": "対ごと独立なら必ず互いに独立"
+        },
+        {
+          "label": "C",
+          "text": "互いに独立の定義に「対ごと+3事象積の条件」が必要な例"
+        },
+        {
+          "label": "D",
+          "text": "そのような例は存在しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対ごとの独立と互いの独立の違い",
+        "3事象の独立",
+        "反例の構成"
+      ]
+    },
+    {
+      "id": "pp2-017",
+      "difficulty": "standard",
+      "question": "5試行の反復試行で「ちょうど3回成功」の確率(成功確率 p)を求める式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "₅C₃×p³×(1-p)² (二項確率公式)"
+        },
+        {
+          "label": "B",
+          "text": "p³×(1-p)²"
+        },
+        {
+          "label": "C",
+          "text": "5×p³×(1-p)²"
+        },
+        {
+          "label": "D",
+          "text": "p³/(1-p)²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "反復試行",
+        "二項確率",
+        "₅C₃の意味"
+      ]
+    },
+    {
+      "id": "pp2-018",
+      "difficulty": "standard",
+      "question": "P(A)=2/3、P(B)=1/2、A と B が独立のとき P(Ā∩B) を求める手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ā と B も独立(前問と同様)→ P(Ā∩B)=P(Ā)P(B)=(1/3)(1/2)=1/6"
+        },
+        {
+          "label": "B",
+          "text": "P(Ā∩B)=P(Ā)+P(B)-1"
+        },
+        {
+          "label": "C",
+          "text": "P(Ā∩B)=P(Ā)+P(B)=1/3+1/2=5/6"
+        },
+        {
+          "label": "D",
+          "text": "P(Ā∩B)=1-P(A∪B̄)... 別の計算"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "補集合の独立性",
+        "P(Ā)=1/3",
+        "独立条件の利用"
+      ]
+    },
+    {
+      "id": "pp2-019",
+      "difficulty": "standard",
+      "question": "確率の公理から「P(A∪B)≤P(A)+P(B)(サブ加法性)」を導く手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(A∩B)≥0 → P(A∪B)≤P(A)+P(B)"
+        },
+        {
+          "label": "B",
+          "text": "A∪B⊂A×B(誤った包含関係)"
+        },
+        {
+          "label": "C",
+          "text": "三角不等式のアナロジー(直接証明が必要)"
+        },
+        {
+          "label": "D",
+          "text": "加法公式の特殊ケース(等号は排反のとき)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "サブ加法性",
+        "P(A∩B)≥0",
+        "不等式の導出"
+      ]
+    },
+    {
+      "id": "pp2-020",
+      "difficulty": "exam",
+      "question": "無限に続けるコイン投げで「いつかは表が出る」確率はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(いつかは表)=1-0=1"
+        },
+        {
+          "label": "B",
+          "text": "P=1/2(毎回1/2の確率が続く)"
+        },
+        {
+          "label": "C",
+          "text": "P<1(永遠に裏が続く可能性があるため)"
+        },
+        {
+          "label": "D",
+          "text": "P=∞(無限回試行するから)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "無限試行の確率",
+        "極限の利用",
+        "確率1の事象"
+      ]
+    },
+    {
+      "id": "pp2-021",
+      "difficulty": "exam",
+      "question": "P(A)=p、P(B)=q として、「A と B が互いに排反のとき独立でないことを示す」手順はどれか(p,q>0)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "互いに排反なら独立でない"
+        },
+        {
+          "label": "B",
+          "text": "排反と独立は定義が異なるので一方が他方を含意しない"
+        },
+        {
+          "label": "C",
+          "text": "p=0 または q=0 なら排反かつ独立が可能(周辺的なケース)"
+        },
+        {
+          "label": "D",
+          "text": "排反と独立は同じ意味"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "排反と独立の関係",
+        "P(A∩B)=0 vs pq",
+        "矛盾の導出"
+      ]
+    },
+    {
+      "id": "pp2-022",
+      "difficulty": "standard",
+      "question": "「箱 A に赤3白2、箱 B に赤1白4。箱を等確率で選んで1個取る」とき赤が出る確率はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(赤)=P(A)P(赤|A)+P(B)P(赤|B)=1/2×3/5+1/2×1/5=3/10+1/10=4/10=2/5"
+        },
+        {
+          "label": "B",
+          "text": "P(赤|A)×P(赤|B)=3/5×1/5=3/25"
+        },
+        {
+          "label": "C",
+          "text": "P(赤|A)+P(赤|B)=3/5+1/5=4/5"
+        },
+        {
+          "label": "D",
+          "text": "3/5(箱 A の赤の確率のみ)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "全確率の法則",
+        "条件付き確率",
+        "箱の選択"
+      ]
+    },
+    {
+      "id": "pp2-023",
+      "difficulty": "exam",
+      "question": "病気の検査で陽性反応が出る確率: 病気あり→95%、病気なし→10%。病気の有病率1%。陽性反応が出たとき実際に病気の確率(的中率)はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.0095/(0.95×0.01+0.10×0.99)=0.0095/0.1085≈8.8%"
+        },
+        {
+          "label": "B",
+          "text": "P(病気|陽性)=0.95(感度と混同)"
+        },
+        {
+          "label": "C",
+          "text": "P(病気|陽性)=1-0.10=0.90(特異度の補数と混同)"
+        },
+        {
+          "label": "D",
+          "text": "P(病気|陽性)=0.01(有病率をそのまま使う)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "ベイズの定理",
+        "事前確率と事後確率",
+        "偽陽性の影響"
+      ]
+    },
+    {
+      "id": "pp2-024",
+      "difficulty": "exam",
+      "question": "n 人が輪になって立ち、1人ずつ確率 p で「当たり」のくじを引くゲームで、1番目の人が当たる確率はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1番目が当たる確率は p(引く順番に関わらず各人の確率は p：対称性または条件付き確率で証明)"
+        },
+        {
+          "label": "B",
+          "text": "p^n(全員が当たる確率)"
+        },
+        {
+          "label": "C",
+          "text": "1-(1-p)^n(誰かが当たる確率)"
+        },
+        {
+          "label": "D",
+          "text": "p×(1-p)^(n-1)(1番目のみ当たり残り全員外れる確率)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "くじ引きの公平性",
+        "順番によらない確率",
+        "対称性の論理"
+      ]
+    },
+    {
+      "id": "pp2-025",
+      "difficulty": "exam",
+      "question": "確率 1/4 で「あたり」のくじを3本以上引くまで繰り返すゲームで、ちょうど5回引いて終わる確率はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "₄C₂×(1/4)²×(3/4)²×(1/4) = 54/1024 ≈ 0.0527"
+        },
+        {
+          "label": "B",
+          "text": "₅C₃×(1/4)³×(3/4)²(ちょうど5回引くという条件を満たさない)"
+        },
+        {
+          "label": "C",
+          "text": "(1/4)³×(3/4)²(3当たり2外れだが順番の組み合わせを忘れる)"
+        },
+        {
+          "label": "D",
+          "text": "₄C₂×(1/4)³×(3/4)²(最後が当たりという条件を含めていない)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "負の二項分布的問題",
+        "最後が当たりの条件",
+        "5回目が3本目の当たり"
+      ]
+    },
+    {
+      "id": "pp2-026",
+      "difficulty": "exam",
+      "question": "「不良品率10%の工場。3個検査して少なくとも1個不良品が見つかれば生産停止」の生産停止確率はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1-(0.9)³=1-0.729=0.271"
+        },
+        {
+          "label": "B",
+          "text": "3×0.1=0.3"
+        },
+        {
+          "label": "C",
+          "text": "₃C₁×0.1×(0.9)²=0.243(ちょうど1個不良品の確率、少なくとも1個でない)"
+        },
+        {
+          "label": "D",
+          "text": "0.1³=0.001(全部不良品の確率)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "補集合法",
+        "(0.9)^3",
+        "生産停止の確率"
+      ]
+    },
+    {
+      "id": "pp2-027",
+      "difficulty": "exam",
+      "question": "「独立な試行で A が起きる確率 p。n 回目に初めて A が起きる確率」の一般式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(n回目に初めて)=(1-p)^(n-1)×p(幾何分布)"
+        },
+        {
+          "label": "B",
+          "text": "p^n(n回全部Aが起きる確率)"
+        },
+        {
+          "label": "C",
+          "text": "p×(1-p)^n"
+        },
+        {
+          "label": "D",
+          "text": "n×p×(1-p)^(n-1)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "幾何分布",
+        "初めてのタイミング",
+        "(1-p)^(n-1)×p"
+      ]
+    },
+    {
+      "id": "pp2-028",
+      "difficulty": "exam",
+      "question": "A と B が独立のとき P(A∪B)=1-P(Ā)P(B̄) が成り立つことを示す手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "P(A∪B)=1-P(Ā∩B̄)=1-P(Ā)P(B̄)(独立なら Ā,B̄ も独立)"
+        },
+        {
+          "label": "B",
+          "text": "P(A∪B)=P(A)+P(B)(独立なら交差項ゼロと誤る)"
+        },
+        {
+          "label": "C",
+          "text": "ド・モルガンと独立性の組み合わせで導出"
+        },
+        {
+          "label": "D",
+          "text": "AとBが独立なら P(A∪B)=1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "独立とド・モルガン",
+        "補集合の積",
+        "1-P(Ā)P(B̄)"
+      ]
+    },
+    {
+      "id": "pp2-029",
+      "difficulty": "exam",
+      "question": "確率変数の「期待値の線形性 E[aX+b]=aE[X]+b」が示す直感的意味はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "定数 a 倍すると期待値も a 倍、定数 b を足すと期待値も b だけシフト(線形性)"
+        },
+        {
+          "label": "B",
+          "text": "X と Y が独立なら E[X+Y]=E[X]+E[Y]"
+        },
+        {
+          "label": "C",
+          "text": "分散も同様に E[aX+b]=aE[X]+b(分散は aX+b で a²Var[X] に変わる)"
+        },
+        {
+          "label": "D",
+          "text": "非線形変換 E[X²]=E[X]²"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "期待値の線形性",
+        "スケールと平行移動",
+        "定数の扱い"
+      ]
+    },
+    {
+      "id": "pp2-030",
+      "difficulty": "exam",
+      "question": "「n 回のコイン投げで表の出る回数 X の期待値」を確率の公理から導く手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各回独立に表が出る確率 1/2。E[X]=E[X₁+...+Xₙ]=E[X₁]+...+E[Xₙ]=n×(1/2)=n/2(線形性)"
+        },
+        {
+          "label": "B",
+          "text": "X の分散 V[X]=n/4 を期待値と混同して n/4"
+        },
+        {
+          "label": "C",
+          "text": "E[X]=Σk×P(X=k) の計算でE[X]=n×(1/4)=n/4(計算誤り)"
+        },
+        {
+          "label": "D",
+          "text": "n²/4(期待値の2乗と混同)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "期待値の線形性",
+        "ベルヌーイ試行",
+        "E[X]=n/2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+/* =============================================
+   EUREKA 夏期講習 LP — style.css
+   モバイルファースト
+   ============================================= */
+
+/* ── リセット & 基本 ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --orange: #ff6b00;
+  --orange-lt: #ff9a3c;
+  --yellow: #ffd600;
+  --navy: #3060da;
+  --navy-lt: #678cdb;
+  --sky: #e8f4ff;
+  --white: #ffffff;
+  --gray: #f5f6fa;
+  --text: #222222;
+  --text-sub: #555555;
+  --radius: 12px;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.75;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+
+/* ── セクション共通 ── */
+.section {
+  padding: 64px 0;
+}
+.section-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ── fadein アニメーション ── */
+.fadein {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.6s var(--transition),
+    transform 0.6s var(--transition);
+}
+.fadein.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── ボタン ── */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  letter-spacing: 0.04em;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--orange), var(--orange-lt));
+  color: var(--white);
+  box-shadow: 0 4px 14px rgba(255, 107, 0, 0.35);
+}
+.btn-secondary {
+  background: linear-gradient(135deg, var(--navy), var(--navy-lt));
+  color: var(--white);
+  box-shadow: 0 4px 14px rgba(13, 27, 62, 0.3);
+}
+
+.btn-area {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  margin-top: 28px;
+}
+
+/* ── バッジ ── */
+.badge {
+  display: inline-block;
+  background: var(--yellow);
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  letter-spacing: 0.06em;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 214, 0, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(255, 214, 0, 0);
+  }
+}
+
+/* ── ファーストビュー ── */
+.fv {
+  background: linear-gradient(
+    150deg,
+    var(--navy) 0%,
+    #1e3a6e 55%,
+    #0d3b6e 100%
+  );
+  color: var(--white);
+  text-align: center;
+  padding: 80px 0 72px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 背景の装飾円 */
+.fv::before,
+.fv::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.08;
+  pointer-events: none;
+}
+.fv::before {
+  width: 480px;
+  height: 480px;
+  background: var(--yellow);
+  top: -160px;
+  right: -120px;
+}
+.fv::after {
+  width: 320px;
+  height: 320px;
+  background: var(--orange);
+  bottom: -100px;
+  left: -80px;
+}
+
+.fv-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.fv-title {
+  font-size: clamp(28px, 7vw, 46px);
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, #fff 30%, var(--yellow));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.fv-subtitle {
+  font-size: 16px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* カウントダウン */
+.countdown-wrap {
+  margin: 28px auto 0;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius);
+  padding: 14px 24px;
+  backdrop-filter: blur(6px);
+}
+.countdown-label {
+  font-size: 12px;
+  color: var(--yellow);
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.countdown-digits {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.cd-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cd-num {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  min-width: 48px;
+  text-align: center;
+}
+.cd-unit {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 2px;
+}
+.cd-sep {
+  font-size: 26px;
+  color: var(--orange-lt);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* ── セクションタイトル ── */
+.section-title {
+  font-size: clamp(20px, 5vw, 28px);
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 32px;
+  position: relative;
+  padding-bottom: 16px;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* ── ブロックタイトル ── */
+.block-title {
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+/* ── テキスト ── */
+.text {
+  color: var(--text-sub);
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+/* ── リスト ── */
+.list {
+  margin-bottom: 18px;
+}
+.list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  color: var(--text);
+  font-size: 15px;
+}
+.list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* ── section-block ── */
+.section-block {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid transparent;
+}
+
+/* ── CTA ── */
+.section-cta {
+  text-align: center;
+  margin-top: 28px;
+}
+
+/* =============================================
+   中学生セクション — オレンジ系
+   ============================================= */
+.section-junior {
+  background: #fff8f2;
+}
+
+.section-junior .section-title::after {
+  background: var(--orange);
+}
+.section-junior .section-block {
+  border-left-color: var(--orange);
+}
+.section-junior .list li::before {
+  background: var(--orange);
+}
+.section-junior .block-title {
+  color: var(--orange);
+}
+
+/* =============================================
+   高校生セクション — ネイビー系
+   ============================================= */
+.section-senior {
+  background: var(--sky);
+}
+
+.section-senior .section-title::after {
+  background: var(--navy);
+}
+.section-senior .section-block {
+  border-left-color: var(--navy);
+}
+.section-senior .list li::before {
+  background: var(--navy);
+}
+.section-senior .block-title {
+  color: var(--navy);
+}
+
+/* =============================================
+   強みセクション（三つの特長）
+   ============================================= */
+#features {
+  background: var(--white);
+}
+
+#features .section-title::after {
+  background: var(--orange);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.feature-card {
+  background: var(--gray);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform var(--transition);
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+.feature-card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--navy);
+}
+.feature-card p {
+  font-size: 14px;
+  color: var(--text-sub);
+  line-height: 1.75;
+}
+
+/* =============================================
+   講師紹介
+   ============================================= */
+#teacher {
+  background: var(--gray);
+}
+#teacher .section-title::after {
+  background: var(--navy);
+}
+
+.teacher-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.teacher-avatar {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--orange), var(--yellow));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+.teacher-info h3 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 4px;
+  color: var(--navy);
+}
+.teacher-info p {
+  font-size: 14px;
+  color: var(--text-sub);
+  line-height: 1.8;
+}
+
+/* =============================================
+   料金テーブル
+   ============================================= */
+#price {
+  background: var(--white);
+}
+#price .section-title::after {
+  background: var(--orange);
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 14px;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.price-table th {
+  background: var(--navy);
+  color: var(--white);
+  padding: 12px 14px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+}
+.price-table td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  color: var(--text);
+}
+.price-table tr:last-child td {
+  border-bottom: none;
+}
+.price-table tr:nth-child(even) td {
+  background: var(--gray);
+}
+
+/* =============================================
+   お問い合わせ
+   ============================================= */
+#contact {
+  background: linear-gradient(135deg, var(--navy), #1e3a6e);
+  color: var(--white);
+}
+
+#contact .section-title {
+  color: var(--white);
+  text-align: center;
+}
+#contact .section-title::after {
+  background: var(--yellow);
+  left: 50%;
+  transform: translateX(-50%);
+}
+#contact .text {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.btn-line {
+  background: #06c755;
+  color: var(--white);
+  box-shadow: 0 4px 14px rgba(6, 199, 85, 0.35);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.btn-line:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(6, 199, 85, 0.45);
+}
+.btn-line svg {
+  width: 22px;
+  height: 22px;
+  fill: var(--white);
+}
+
+/* =============================================
+   フッター
+   ============================================= */
+.footer {
+  background: #0a1428;
+  padding: 24px 0;
+  text-align: center;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 13px;
+}
+
+/* =============================================
+   フローティングCTA（スマホ下部）
+   ============================================= */
+.floating-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 12px 16px;
+  background: rgba(13, 27, 62, 0.95);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
+}
+.floating-cta .btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: var(--radius);
+}
+
+/* =============================================
+   レスポンシブ — タブレット以上
+   ============================================= */
+@media (min-width: 600px) {
+  .btn-area {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .floating-cta {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .section {
+    padding: 80px 0;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 16px 36px;
+  }
+}

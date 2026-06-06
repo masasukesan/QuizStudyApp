@@ -1,0 +1,43 @@
+{
+  "unit_id": "quadratic-maxima-and-minima",
+  "unit_name_jp": "2次関数の最大・最小",
+  "grade": "数学IA",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "vertex-extremum",
+      "description": "頂点が最大・最小を与える",
+      "thinking_process": [
+        "a>0: 最小値=頂点y",
+        "a<0: 最大値=頂点y"
+      ],
+      "common_mistakes": [
+        "最大・最小の区別ミス"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "restricted-domain",
+      "description": "定義域制限ありの最大・最小",
+      "thinking_process": [
+        "頂点が範囲内か確認",
+        "範囲外なら端点で最大・最小"
+      ],
+      "common_mistakes": [
+        "端点確認の忘れ"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "parameter-max-min",
+      "description": "パラメータ含む最大・最小",
+      "thinking_process": [
+        "頂点と定義域の位置関係で場合分け"
+      ],
+      "common_mistakes": [
+        "場合分けが不十分"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

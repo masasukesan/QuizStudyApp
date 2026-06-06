@@ -1,0 +1,786 @@
+{
+  "subject": "数学C",
+  "unit": "ベクトルの成分表示",
+  "questions": [
+    {
+      "id": "vc-001",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (3, 4) の大きさ |a| を求めるとき、正しい計算はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√(3²+4²) = √25 = 5"
+        },
+        {
+          "label": "B",
+          "text": "3+4 = 7"
+        },
+        {
+          "label": "C",
+          "text": "√(3+4) = √7"
+        },
+        {
+          "label": "D",
+          "text": "3²+4² = 25(ルートを忘れた)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-002",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (2, -1)、b = (3, 4) のとき a + b の成分として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(5, 3)"
+        },
+        {
+          "label": "B",
+          "text": "(5, -5)"
+        },
+        {
+          "label": "C",
+          "text": "(6, -4)"
+        },
+        {
+          "label": "D",
+          "text": "(1, 5)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-003",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (6, 4) のとき 3a の成分として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(18, 12)"
+        },
+        {
+          "label": "B",
+          "text": "(9, 7)"
+        },
+        {
+          "label": "C",
+          "text": "(6, 12)"
+        },
+        {
+          "label": "D",
+          "text": "(18, 4)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-004",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (1, 2) の単位ベクトルを求めるとき、|a| の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√5"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "√3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-005",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "A(1, 3)、B(4, 7) のとき AB の成分として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3, 4)"
+        },
+        {
+          "label": "B",
+          "text": "(-3, -4)"
+        },
+        {
+          "label": "C",
+          "text": "(5, 10)"
+        },
+        {
+          "label": "D",
+          "text": "(4, 7)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-006",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (2, -3)、b = (1, 5) のとき a - b の成分として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1, -8)"
+        },
+        {
+          "label": "B",
+          "text": "(3, 2)"
+        },
+        {
+          "label": "C",
+          "text": "(1, 8)"
+        },
+        {
+          "label": "D",
+          "text": "(-1, 8)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-007",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (0, 5) の大きさ |a| として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "√5"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-008",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (3, 4) の単位ベクトル a/|a| の成分として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3/5, 4/5)"
+        },
+        {
+          "label": "B",
+          "text": "(3/7, 4/7)"
+        },
+        {
+          "label": "C",
+          "text": "(3/25, 4/25)"
+        },
+        {
+          "label": "D",
+          "text": "(1, 4/3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-009",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (a₁, a₂)、b = (b₁, b₂) が等しい条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a₁ = b₁ かつ a₂ = b₂"
+        },
+        {
+          "label": "B",
+          "text": "a₁ + a₂ = b₁ + b₂"
+        },
+        {
+          "label": "C",
+          "text": "|a| = |b|"
+        },
+        {
+          "label": "D",
+          "text": "a₁ = b₂ かつ a₂ = b₁"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-010",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "basic",
+      "question": "a = (-4, 3) の大きさ |a| として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "√7"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-011",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "a = (2, t) のとき |a| = √13 となる t を求める。途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4 + t² = 13 → t² = 9 → t = ±3"
+        },
+        {
+          "label": "B",
+          "text": "2 + t = 13 → t = 11"
+        },
+        {
+          "label": "C",
+          "text": "4 + t = 13 → t = 9"
+        },
+        {
+          "label": "D",
+          "text": "√(4 + t²) = 13 → 4 + t² = 169"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-012",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "a = (3, -1)、b = (1, 2) のとき 2a - 3b の成分を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2(3,-1) - 3(1,2) = (6,-2) - (3,6) = (3,-8)"
+        },
+        {
+          "label": "B",
+          "text": "(2+3, -1+2) = (5,1) (係数を無視した誤り)"
+        },
+        {
+          "label": "C",
+          "text": "(2+3, -1+2) = (5, 1)(係数を無視)"
+        },
+        {
+          "label": "D",
+          "text": "(6-1, -2+2) = (5, 0)(成分の対応を誤る)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-013",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "A(2, 5)、B(x, 1) で |AB| = 5 となる x を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AB = (x-2, -4)、|AB|² = (x-2)² + 16 = 25 → (x-2)² = 9 → x = 5 または x = -1"
+        },
+        {
+          "label": "B",
+          "text": "(x-2)² + 4² = 5 → (x-2)² = -11(解なし)"
+        },
+        {
+          "label": "C",
+          "text": "|x-2| + 4 = 5 → |x-2| = 1 → x = 3 または x = 1"
+        },
+        {
+          "label": "D",
+          "text": "(x-2)² + 16 = 5(5を2乗し忘れた)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-014",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "a = (2, 1)、b = (1, -3) が平行になる条件(b = ka)の途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b = ka → (1,-3) = k(2,1) → k=1/2 かつ -3=k → 矛盾 → 平行でない"
+        },
+        {
+          "label": "B",
+          "text": "2×(-3) = 1×1 → -6 ≠ 1 なので平行でない(行列式が 0 でない)"
+        },
+        {
+          "label": "C",
+          "text": "a·b = 0 なら平行(垂直と混同)"
+        },
+        {
+          "label": "D",
+          "text": "2+1 = 1-3 → 3 ≠ -2 なので平行でない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-015",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "a = (3, 4)、b = (6, k) が平行になる k の値を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b = 2a より k = 2×4 = 8"
+        },
+        {
+          "label": "B",
+          "text": "a·b = 0 より 18 + 4k = 0 → k = -9/2"
+        },
+        {
+          "label": "C",
+          "text": "|b| = 2|a| より k = 8(大きさだけで判断)"
+        },
+        {
+          "label": "D",
+          "text": "k = 3×4/6 = 2(成分を逆にした)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-016",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "a = (p, 2)、b = (3, q) で a = b となる p と q の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = 3 かつ q = 2(各成分が等しい)"
+        },
+        {
+          "label": "B",
+          "text": "p + q = 5(成分の和が等しい)"
+        },
+        {
+          "label": "C",
+          "text": "p² + 4 = 9 + q²(大きさが等しい条件)"
+        },
+        {
+          "label": "D",
+          "text": "p = q(どちらか一方が等しければよい)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-017",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "xa + yb = c(a=(1,2)、b=(3,1)、c=(5,4))の x, y を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x + 3y = 5 かつ 2x + y = 4 → 連立解: x = 1, y = 4/3(行列表示等価)"
+        },
+        {
+          "label": "B",
+          "text": "x = 5, y = 4(c の成分を直接代入)"
+        },
+        {
+          "label": "C",
+          "text": "x + 3y = 5 のみ(y 軸成分を無視)"
+        },
+        {
+          "label": "D",
+          "text": "x/1 = y/3 = 5(比例式に誤適用)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-018",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "a = (cos θ, sin θ) の大きさ |a| を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√(cos²θ + sin²θ) = √1 = 1(三角関数の基本関係)"
+        },
+        {
+          "label": "B",
+          "text": "cosθ + sinθ(成分の和)"
+        },
+        {
+          "label": "C",
+          "text": "√(cosθ + sinθ)"
+        },
+        {
+          "label": "D",
+          "text": "1 のみの場合もある(θ によって変化すると誤解)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-019",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "a = (2, 1) と垂直な単位ベクトルを求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "垂直ベクトル = (-1, 2)(成分を入れ替えて一方を変符号)、|(-1,2)| = √5 → 単位ベクトル = (-1/√5, 2/√5)"
+        },
+        {
+          "label": "B",
+          "text": "a を 90° 回転: (1, -2)/√5"
+        },
+        {
+          "label": "C",
+          "text": "垂直 = (1/2, 1)(逆数を取る)"
+        },
+        {
+          "label": "D",
+          "text": "a そのものが単位ベクトルでないと垂直単位ベクトルは求められない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-020",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "standard",
+      "question": "A(1,2)、B(4,6) の中点 M の位置ベクトルを成分で求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OM = (OA + OB)/2 = ((1,2)+(4,6))/2 = (5,8)/2 = (5/2, 4)"
+        },
+        {
+          "label": "B",
+          "text": "OM = OB - OA = (3, 4)"
+        },
+        {
+          "label": "C",
+          "text": "OM = (OA + OB) = (5, 8)(2で割り忘れ)"
+        },
+        {
+          "label": "D",
+          "text": "OM = OA×OB = (4, 12)(成分の積)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-021",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "|ka| = |k||a| を成分を用いて証明するとき、正しい手順はどれか。a = (a₁, a₂)、k を実数とする。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ka = (ka₁, ka₂) → |ka| = √(k²a₁² + k²a₂²) = √(k²(a₁²+a₂²)) = |k|√(a₁²+a₂²) = |k||a|"
+        },
+        {
+          "label": "B",
+          "text": "|ka| = k|a|(k の符号を考慮しない誤り)"
+        },
+        {
+          "label": "C",
+          "text": "|ka|² = k²a₁² + k²a₂² = k²(a₁+a₂)² (展開ミス)"
+        },
+        {
+          "label": "D",
+          "text": "|ka| = k²|a|(2乗の誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-022",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "三角不等式 |a + b| ≦ |a| + |b| を証明するとき、|a + b|² ≦ (|a| + |b|)² を示す手順の核心はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|a + b|² = |a|² + 2a·b + |b|² ≦ |a|² + 2|a||b| + |b|² = (|a|+|b|)²(コーシー・シュワルツ a·b ≦ |a||b| を使用)"
+        },
+        {
+          "label": "B",
+          "text": "|a|² + |b|² ≦ (|a|+|b|)² なので成立"
+        },
+        {
+          "label": "C",
+          "text": "a·b = 0 のときのみ等号が成立"
+        },
+        {
+          "label": "D",
+          "text": "|a + b|² = |a|² + |b|²(直交のときのみ成立)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-023",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "コーシー・シュワルツの不等式 (a·b)² ≦ |a|²|b|² を成分で証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a₁b₁+a₂b₂)² ≦ (a₁²+a₂²)(b₁²+b₂²) を展開して (a₁b₂-a₂b₁)² ≧ 0 に帰着"
+        },
+        {
+          "label": "B",
+          "text": "a·b = |a||b|cosθ より cos²θ ≦ 1 を使う(別証明)"
+        },
+        {
+          "label": "C",
+          "text": "成分が正の場合のみ証明できる"
+        },
+        {
+          "label": "D",
+          "text": "(a₁b₁+a₂b₂)² = (a₁+a₂)²(b₁+b₂)² と展開(誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-024",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "「a⊥b ⟺ a·b = 0」の証明で、「⇒ 方向」(垂直ならば内積 = 0)の根拠はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a⊥b → θ = 90° → cosθ = 0 → a·b = |a||b|cos90° = 0"
+        },
+        {
+          "label": "B",
+          "text": "成分の積和が 0 になる定義から直接示す"
+        },
+        {
+          "label": "C",
+          "text": "a⊥b → a·b = 1 (絶対値の誤解)"
+        },
+        {
+          "label": "D",
+          "text": "垂直ならば |a + b|² = |a|² + |b|² から導く(間接的)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-025",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "x 軸正方向と角 θ をなす単位ベクトルが (cosθ, sinθ) であることを成分で証明するとき、正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "単位ベクトルは |e| = 1 かつ x 軸との角が θ なので e = (cosθ, sinθ) と成分表示できる。|(cosθ,sinθ)| = √(cos²θ+sin²θ) = 1 を確認"
+        },
+        {
+          "label": "B",
+          "text": "全ての単位ベクトルは (1, 0) か (0, 1) のみ"
+        },
+        {
+          "label": "C",
+          "text": "(cosθ, sinθ) の大きさは θ によって変わる"
+        },
+        {
+          "label": "D",
+          "text": "成分と角度の関係は証明不要(定義による)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-026",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "2つのベクトル a = (a₁, a₂)、b = (b₁, b₂) が平行 ⟺ a₁b₂ - a₂b₁ = 0 を証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "b = ka より b₁ = ka₁、b₂ = ka₂ → a₁b₂ - a₂b₁ = a₁(ka₂) - a₂(ka₁) = 0。逆に a₁b₂ = a₂b₁ から b = (b₁/a₁)a(a₁≠0 の場合)を示す"
+        },
+        {
+          "label": "B",
+          "text": "行列式が 0 ⟺ 列が線形従属(行列の言葉を使う)"
+        },
+        {
+          "label": "C",
+          "text": "a₁ + b₂ = a₂ + b₁ を示す(誤った条件)"
+        },
+        {
+          "label": "D",
+          "text": "a·b = 0 ならば平行(垂直条件と混同)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-027",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "2次元の成分ベクトルで (1, 0) と (0, 1) が基底をなすことを証明するとき、正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "任意のベクトル (a, b) = a(1,0) + b(0,1) と一意に表せるので (1,0) と (0,1) は基底"
+        },
+        {
+          "label": "B",
+          "text": "|(1,0)| = |(0,1)| = 1 なので直交基底(単位ベクトルが条件)"
+        },
+        {
+          "label": "C",
+          "text": "2次元では基底は必ず (1,0) と (0,1) のみ(他の基底は存在しない)"
+        },
+        {
+          "label": "D",
+          "text": "(1,0)·(0,1) = 0 なので平行でないが基底になるとは限らない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-028",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "a = (a₁, a₂) が a ≠ 0 のとき、a と垂直な単位ベクトルが 2 つ存在することを証明するとき、正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "垂直ベクトル (-a₂, a₁) と (a₂, -a₁) は両方 a·v = 0 を満たし、|v| = |a| なので単位化すると 2 つの単位ベクトルが得られる"
+        },
+        {
+          "label": "B",
+          "text": "a が単位ベクトルのときだけ垂直単位ベクトルが 2 つ存在する"
+        },
+        {
+          "label": "C",
+          "text": "垂直なベクトルは無限にあるが、単位ベクトルは 1 つだけ"
+        },
+        {
+          "label": "D",
+          "text": "a₂ = 0 のとき垂直単位ベクトルは存在しない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-029",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "成分で表したベクトルの内積 a·b = a₁b₁ + a₂b₂ が定義 a·b = |a||b|cosθ と一致することを証明するとき、正しいアプローチはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "余弦定理 |a-b|² = |a|² - 2|a||b|cosθ + |b|² と成分展開 |a-b|² = (a₁-b₁)² + (a₂-b₂)² を比較して a₁b₁+a₂b₂ = |a||b|cosθ を導く"
+        },
+        {
+          "label": "B",
+          "text": "cosθ = a₁b₁+a₂b₂ を角度の定義とする(循環論法)"
+        },
+        {
+          "label": "C",
+          "text": "a と b が単位ベクトルの場合のみ証明できる"
+        },
+        {
+          "label": "D",
+          "text": "直接的な証明は不可能で数値計算で確認する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "vc-030",
+      "subject": "数学C",
+      "unit": "ベクトルの成分表示",
+      "difficulty": "exam",
+      "question": "a = (a₁, a₂)、b = (b₁, b₂) のとき「|a| = |b| ならば a = b または a = -b」は正しいか？反例を用いた証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = (3, 4)、b = (4, 3) は |a| = |b| = 5 だが a ≠ b かつ a ≠ -b → 命題は偽"
+        },
+        {
+          "label": "B",
+          "text": "大きさが等しければ向きも等しいか逆なので真"
+        },
+        {
+          "label": "C",
+          "text": "|a| = |b| かつ a·b > 0 のとき a = b が成立"
+        },
+        {
+          "label": "D",
+          "text": "成分が実数の場合は a = b または a = -b となる(真)"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

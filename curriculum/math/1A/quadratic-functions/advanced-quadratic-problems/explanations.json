@@ -1,0 +1,279 @@
+{
+  "aq-001": {
+    "lead": "2(x-2)²-3。頂点(2,-3)。",
+    "steps": [
+      "平方完成して頂点読み取り"
+    ],
+    "common_mistakes": [
+      "(-2,-3)"
+    ]
+  },
+  "aq-002": {
+    "lead": "-(x-2)²+1。最大=1。",
+    "steps": [
+      "頂点y=1"
+    ],
+    "common_mistakes": [
+      "4: 頂点x座標"
+    ]
+  },
+  "aq-003": {
+    "lead": "(x-1)(x-2)<0: 1<x<2。",
+    "steps": [
+      "内側"
+    ],
+    "common_mistakes": [
+      "外側"
+    ]
+  },
+  "aq-004": {
+    "lead": "(x-2)²=0: x=2。",
+    "steps": [
+      "重解x=2"
+    ],
+    "common_mistakes": [
+      "x=-2"
+    ]
+  },
+  "aq-005": {
+    "lead": "(x-1)²: 頂点(1,0)。",
+    "steps": [
+      "頂点(1,0)"
+    ],
+    "common_mistakes": [
+      "(-1,0)"
+    ]
+  },
+  "aq-006": {
+    "lead": "(x-2)(x+2)>0: x<-2 or x>2。",
+    "steps": [
+      "外側"
+    ],
+    "common_mistakes": [
+      "内側"
+    ]
+  },
+  "aq-007": {
+    "lead": "x²+2x-8=(x+4)(x-2)=0: x=-4,2。",
+    "steps": [
+      "x=-4,2"
+    ],
+    "common_mistakes": [
+      "符号ミス"
+    ]
+  },
+  "aq-008": {
+    "lead": "(x+4)(x-1)>0: x<-4 or x>1。",
+    "steps": [
+      "外側"
+    ],
+    "common_mistakes": [
+      "内側"
+    ]
+  },
+  "aq-009": {
+    "lead": "軸=-4/(-4)=1。",
+    "steps": [
+      "x=-b/2a=4/(-4)=1... wait -4/2(-2)=1"
+    ],
+    "common_mistakes": [
+      "x=2"
+    ]
+  },
+  "aq-010": {
+    "lead": "和=1（解と係数の関係）。",
+    "steps": [
+      "和=-(-1)/1=1"
+    ],
+    "common_mistakes": [
+      "-1"
+    ]
+  },
+  "aq-011": {
+    "lead": "頂点(2,-1)。端点y(0)=3,y(4)=3。最大=3。",
+    "steps": [
+      "max=y(0)=y(4)=3"
+    ],
+    "common_mistakes": [
+      "4: 端点xを答えた"
+    ]
+  },
+  "aq-012": {
+    "lead": "D=4a²-4(a+2)=4(a-2)(a+1)=0: a=-1,2。",
+    "steps": [
+      "D=4(a-2)(a+1)=0",
+      "a=-1,2"
+    ],
+    "common_mistakes": [
+      "a=1,-2"
+    ]
+  },
+  "aq-013": {
+    "lead": "D=(a-1)²-4a<0: a²-6a+1<0: (3-2√2)<a<(3+2√2)。",
+    "steps": [
+      "a²-6a+1<0",
+      "roots=3±2√2"
+    ],
+    "common_mistakes": [
+      "1<a<4: 計算ミス"
+    ]
+  },
+  "aq-014": {
+    "lead": "AM-GM: x+4/x≥2√4=4。等号x=2。",
+    "steps": [
+      "AM-GM→min=4"
+    ],
+    "common_mistakes": [
+      "2"
+    ]
+  },
+  "aq-015": {
+    "lead": "x²-x+(3-k)=0。D=1-4(3-k)=4k-11=0: k=11/4。",
+    "steps": [
+      "D=4k-11=0",
+      "k=11/4"
+    ],
+    "common_mistakes": [
+      "3/4"
+    ]
+  },
+  "aq-016": {
+    "lead": "x=6-2y。(6-2y)²+y²=5y²-24y+36。min=36-144/10×... min at y=12/5: 36/5。",
+    "steps": [
+      "x=6-2y代入",
+      "5y²-24y+36の最小=36/5"
+    ],
+    "common_mistakes": [
+      "6"
+    ]
+  },
+  "aq-017": {
+    "lead": "(√a-1/√a)²≥0 → a+1/a≥2。等号√a=1/√a→a=1。",
+    "steps": [
+      "等号a=1"
+    ],
+    "common_mistakes": [
+      "a=2"
+    ]
+  },
+  "aq-018": {
+    "lead": "縦x,横12/x。x+12/x≥2√12=4√3。等号x=√12=2√3。",
+    "steps": [
+      "AM-GMより縦=2√3"
+    ],
+    "common_mistakes": [
+      "4"
+    ]
+  },
+  "aq-019": {
+    "lead": "最小=1-(a-2)²/4=-3→(a-2)²=16→a=6,-2。",
+    "steps": [
+      "(a-2)²=16",
+      "a=6,-2"
+    ],
+    "common_mistakes": [
+      "a=4,-4"
+    ]
+  },
+  "aq-020": {
+    "lead": "f(x+1)=x²+2。f(x+1)-f(x)=2x-1。",
+    "steps": [
+      "f(x+1)=x²+2",
+      "差=2x-1"
+    ],
+    "common_mistakes": [
+      "2x: 定数項の差を忘れた"
+    ]
+  },
+  "aq-021": {
+    "lead": "D=4a=0→a=0。",
+    "steps": [
+      "D=4a=0"
+    ],
+    "common_mistakes": [
+      "a=1/4"
+    ]
+  },
+  "aq-022": {
+    "lead": "D=4-4a>0: a<1。",
+    "steps": [
+      "D>0→a<1"
+    ],
+    "common_mistakes": [
+      "a>1"
+    ]
+  },
+  "aq-023": {
+    "lead": "a-a²=-(a-1/2)²+1/4。max at a=1/2。",
+    "steps": [
+      "min=-a²+a=(1/2)² - (a-1/2)²...max at a=1/2"
+    ],
+    "common_mistakes": [
+      "a=1"
+    ]
+  },
+  "aq-024": {
+    "lead": "c=1,a+b=-1,a-b=3→a=1,b=-2。",
+    "steps": [
+      "c=1",
+      "連立→a=1,b=-2"
+    ],
+    "common_mistakes": [
+      "a=2,b=-3"
+    ]
+  },
+  "aq-025": {
+    "lead": "第1: 1<x<4。第2: -1<x<3。共通: 1<x<3。",
+    "steps": [
+      "1<x<4 AND -1<x<3 = 1<x<3"
+    ],
+    "common_mistakes": [
+      "1<x<4"
+    ]
+  },
+  "aq-026": {
+    "lead": "max=y(1)=1+2+a=a+3=2→a=-1。min=y(-1)=1-2+a=a-1=-2=b。",
+    "steps": [
+      "a=-1,b=-2"
+    ],
+    "common_mistakes": [
+      "a=1"
+    ]
+  },
+  "aq-027": {
+    "lead": "D=(k-2)²>0(k≠2)。和=k>0,積=k-1>0→k>1。条件: k>1かつk≠2。",
+    "steps": [
+      "k>1 AND k≠2"
+    ],
+    "common_mistakes": [
+      "k>4"
+    ]
+  },
+  "aq-028": {
+    "lead": "コーシー・シュワルツ: (x+y)²≤2(x²+y²)=8: max=2√2。",
+    "steps": [
+      "max=2√2"
+    ],
+    "common_mistakes": [
+      "4"
+    ]
+  },
+  "aq-029": {
+    "lead": "共役根: -1-2i。和=-2=-p→p=2。積=5=q。",
+    "steps": [
+      "p=2,q=5"
+    ],
+    "common_mistakes": [
+      "p=-2"
+    ]
+  },
+  "aq-030": {
+    "lead": "軸x=1→a=-2。y(3)=9-6+b=3+b=0→b=-3。",
+    "steps": [
+      "a=-2,b=-3"
+    ],
+    "common_mistakes": [
+      "b=0"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "expressions-and-proofs",
+  "subunit": "relations-between-roots-and-coefficients",
+  "name": "解と係数の関係",
+  "en": "Relations Between Roots and Coefficients",
+  "questionCount": 0,
+  "source_notes": "センター試験（1990年代〜2014）では第2問の2次方程式・判別式の絡みで頻出。解と係数の関係そのものが出題の主軸となったのは2003年・2006年・2008年・2011年（電数図書館確認）。共通テスト2022年第2問で α²+β² の計算が出題。模試（河合・駿台・進研）では毎年必出。参照：電数図書館 https://www.densu.jp/table/ifrcenter2.htm",
+  "exam_occurrence": {
+    "center_test": "2003・2006・2008・2011年度に解と係数の関係を核とした問題が第2問に登場。αβ, α+β を使った対称式の値や新しい方程式の作成が中心。",
+    "kyotsu_test": "2022年第2問で α²+β² の計算（Vieta 公式の活用）が出題。単独の大問ではなく2次関数・方程式と融合した形が多い。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年出題。対称式・新方程式・3次方程式との融合が頻出パターン。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "Vieta の公式（2次方程式）",
+      "description": "ax²+bx+c=0 の2解 α, β について α+β=−b/a、αβ=c/a を正確に覚える問題。",
+      "typical_question": "x²−5x+6=0 の2解の和と積を、解かずに求めよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "基本対称式の計算",
+      "description": "α+β と αβ の値から α²+β² や α³+β³ などを計算する。",
+      "typical_question": "α+β=3、αβ=1 のとき α²+β² の値を求めよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "1/α + 1/β の計算",
+      "description": "逆数の和を (α+β)/(αβ) と変形して求める。αβ≠0 の確認が必要。",
+      "typical_question": "α+β=4、αβ=2 のとき 1/α + 1/β の値を求めよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "(α−β)² の計算",
+      "description": "(α−β)² = (α+β)² − 4αβ を利用して判別式との関係を確認する。",
+      "typical_question": "x²+3x+1=0 の2解 α, β について (α−β)² を求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "係数を求める逆問題",
+      "description": "2解の和と積が与えられたとき、それを解に持つ2次方程式を作る。",
+      "typical_question": "和が5、積が−3 である2解を持つ2次方程式（最高次係数1）を求めよ。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "standard",
+      "title": "新しい方程式の作成（線形変換）",
+      "description": "2解 α, β から k·α, k·β や α+k, β+k を解に持つ方程式を求める。",
+      "typical_question": "x²−3x+2=0 の2解 α, β に対し、2α, 2β を解に持つ2次方程式を求めよ。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "standard",
+      "title": "新しい方程式の作成（2乗変換）",
+      "description": "α², β² を解に持つ方程式を Vieta の公式と (α²+β²)、α²β² から構成する。",
+      "typical_question": "x²−5x+3=0 の2解 α, β に対し、α², β² を解に持つ2次方程式を求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "standard",
+      "title": "文字係数の条件決定",
+      "description": "解の条件（両方正・一方正他方負・両方整数など）からパラメータの範囲を決める。",
+      "typical_question": "x²−(k+1)x+k=0 が2つの正の実数解を持つ k の範囲を求めよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "standard",
+      "title": "α²+β² の計算と共通テスト型",
+      "description": "α²+β² = (α+β)²−2αβ を使う計算。共通テスト2022年型。",
+      "typical_question": "x²+px+q=0 の2解 α, β について α²+β²=5、αβ=−2 のとき p, q を求めよ。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "standard",
+      "title": "α³+β³ の計算",
+      "description": "α³+β³ = (α+β)³−3αβ(α+β) を利用した計算。",
+      "typical_question": "α+β=2、αβ=−1 のとき α³+β³ の値を求めよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "exam",
+      "title": "3次方程式の解と係数の関係",
+      "description": "x³+px²+qx+r=0 の3解 α, β, γ について α+β+γ=−p, αβ+βγ+γα=q, αβγ=−r を使った計算。",
+      "typical_question": "x³−2x²+3x−4=0 の3解 α,β,γ について α²+β²+γ² を求めよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "exam",
+      "title": "解の差の絶対値と判別式",
+      "description": "|α−β| = √((α−β)²) = √((α+β)²−4αβ)。判別式 D=(α+β)²−4αβ との関係を理解する。",
+      "typical_question": "x²+bx+c=0 の2解の差の絶対値が 4 のとき、b, c の満たす条件を求めよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "exam",
+      "title": "対称式の高次化（α⁴+β⁴ 等）",
+      "description": "α²+β² から漸化式的に α⁴+β⁴ = (α²+β²)²−2(αβ)² を導く高次計算。",
+      "typical_question": "α+β=1、αβ=−1 のとき α⁴+β⁴ の値を求めよ。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "新方程式の作成（逆数・α+1/α型）",
+      "description": "α+1/α、β+1/β を解に持つ方程式を、元の方程式の Vieta 公式から構成する高難度問題。",
+      "typical_question": "x²−3x+1=0 の2解 α, β に対し α+1/α, β+1/β を解に持つ2次方程式を求めよ。"
+    }
+  ]
+}

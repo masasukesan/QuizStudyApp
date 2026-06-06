@@ -1,0 +1,52 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "statistical-inference",
+  "subunit": "normal-distribution",
+  "name": "正規分布",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "standardization",
+      "description": "Z=(X−μ)/σ で標準化して正規分布表を使う",
+      "thinking_process": [
+        "μ と σ を確認（N(μ,σ²) の σ² から σ=√σ² を計算）",
+        "Z=(X−μ)/σ で標準化",
+        "P(a≤X≤b)=P((a−μ)/σ≤Z≤(b−μ)/σ) として表を引く"
+      ],
+      "common_mistakes": [
+        "σ² を σ と混同する",
+        "負の z での対称性を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "normal-table-reading",
+      "description": "標準正規分布表の読み方と確率の計算",
+      "thinking_process": [
+        "表は P(0≤Z≤z) の形で値が掲載",
+        "P(Z≤a)=0.5+P(0≤Z≤a) (a>0)",
+        "両側確率 P(|Z|≤a)=2P(0≤Z≤a)"
+      ],
+      "common_mistakes": [
+        "表の値が P(0≤Z≤z) か P(Z≤z) かを間違える",
+        "対称性を使った計算で符号を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "clt-and-sampling",
+      "description": "中心極限定理を使って標本平均の分布を求める",
+      "thinking_process": [
+        "標本平均 X̄~N(μ,σ²/n)",
+        "標準誤差 = σ/√n",
+        "Z=(X̄−μ)/(σ/√n) で標準化"
+      ],
+      "common_mistakes": [
+        "n でなく n² で割る",
+        "個々の X の分布と X̄ の分布を混同する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+/* ══════════════════════════════════════════════════
+   ProfilePage — 中世学術書（Dark Codex）テーマ
+   ══════════════════════════════════════════════════ */
+
+.page {
+  height: 100dvh;
+  overflow-y: auto;
+  background: #2a1e12;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(120, 80, 20, 0.15) 0%, transparent 60%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 60px,
+      rgba(201, 168, 106, 0.02) 60px,
+      rgba(201, 168, 106, 0.02) 61px
+    );
+  padding: 0 0 calc(64px + env(safe-area-inset-bottom, 0px) + 32px);
+  font-family: var(--font-serif-jp);
+  color: #c8b48a;
+}
+
+/* ── ヘッダー ── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 20px 12px;
+  position: sticky;
+  top: 0;
+  background: #3a2a1a;
+  border-bottom: 1px solid rgba(201, 168, 106, 0.18);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.title {
+  font-family: var(--font-cinzel-deco);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #d4a84b;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 20px rgba(201, 168, 106, 0.3);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.backBtn,
+.rankBtn {
+  font-family: var(--font-serif-jp);
+  font-size: 0.8rem;
+  color: rgba(201, 168, 106, 0.7);
+  background: none;
+  border: 1px solid rgba(201, 168, 106, 0.25);
+  border-radius: 0;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.backBtn:hover,
+.rankBtn:hover {
+  background: rgba(201, 168, 106, 0.08);
+  border-color: rgba(201, 168, 106, 0.5);
+  color: #c9a86a;
+}
+.backBtn:active,
+.rankBtn:active {
+  background: rgba(201, 168, 106, 0.14);
+}
+
+/* ── プロフィールカード ── */
+.profileCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 16px 16px 12px;
+  background: linear-gradient(135deg, #3a2a1a 0%, #2e2010 100%);
+  border: 1px solid rgba(201, 168, 106, 0.3);
+  border-radius: 0;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+.profileCard::before {
+  content: '';
+  position: absolute;
+  top: 4px; left: 4px; right: 4px; bottom: 4px;
+  border: 1px solid rgba(201, 168, 106, 0.1);
+  pointer-events: none;
+}
+
+
+.profileInfo {
+  flex: 1;
+}
+
+.username {
+  margin: 0 0 6px;
+  font-family: var(--font-serif-jp);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e8d5a8;
+}
+
+.levelBadge {
+  margin: 0;
+  display: inline-block;
+  background: rgba(201, 168, 106, 0.12);
+  border: 1px solid rgba(201, 168, 106, 0.4);
+  color: #c9a86a;
+  padding: 2px 12px;
+  font-family: var(--font-serif-en);
+  font-size: 0.82rem;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+/* 称号バッジ（カード右側） */
+.titleBadge {
+  margin: 0;
+  flex-shrink: 0;
+  align-self: center;
+  font-family: var(--font-serif-jp);
+  font-size: 0.78rem;
+  color: #e8d5a8;
+  background: rgba(201, 168, 106, 0.08);
+  border: 1px solid rgba(201, 168, 106, 0.35);
+  padding: 4px 12px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* ── 汎用カード ── */
+.card {
+  margin: 0 16px 12px;
+  background: rgba(58, 42, 26, 0.8);
+  border: 1px solid rgba(201, 168, 106, 0.2);
+  border-radius: 0;
+  padding: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cardLabel {
+  margin: 0 0 12px;
+  font-family: var(--font-serif-en);
+  font-size: 0.72rem;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(201, 168, 106, 0.55);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(201, 168, 106, 0.15);
+  padding-bottom: 8px;
+}
+
+/* ── EXP バー ── */
+.expTrack {
+  position: relative;
+  height: 8px;
+  margin-top: 8px;
+  background: #2a1e12;
+  border: 1px solid rgba(201, 168, 106, 0.3);
+  overflow: visible;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.expFill {
+  height: 100%;
+  background: linear-gradient(90deg,
+    #2a1a08 0%,
+    #c9a86a 70%,
+    #e0c07a 85%,
+    #c9a86a 100%
+  );
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: expGlow 2.5s ease-in-out infinite;
+  position: relative;
+}
+.expFill::after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #e0c07a;
+  border-radius: 50%;
+  box-shadow: 0 0 6px 2px rgba(224, 192, 122, 0.6);
+  animation: expGlow 2.5s ease-in-out infinite;
+}
+
+.expTick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background: rgba(201, 168, 106, 0.2);
+  transform: translateX(-50%);
+}
+
+.expDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-family: var(--font-serif-en);
+  font-style: italic;
+  font-size: 0.7rem;
+  color: rgba(201, 168, 106, 0.4);
+}
+
+@keyframes expGlow {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.8; }
+}
+
+/* ── 総合成績グリッド ── */
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  text-align: center;
+}
+
+.statBox {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(201, 168, 106, 0.15);
+  padding: 10px 4px;
+}
+
+.statNum {
+  margin: 0 0 2px;
+  font-family: var(--font-serif-en);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #c9a86a;
+}
+
+.statCaption {
+  margin: 0;
+  font-size: 0.62rem;
+  color: rgba(201, 168, 106, 0.45);
+}
+
+/* ── 色クラス ── */
+.good { color: #5ab87a; }
+.mid  { color: #c9a86a; }
+.bad  { color: #c05050; }
+
+/* ── 教科別正答率 ── */
+.subjectRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.subjectRow:last-child { margin-bottom: 0; }
+
+.subjectName {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #c8b48a;
+  min-width: 52px;
+}
+
+.subjectBarWrap {
+  flex: 1;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(201, 168, 106, 0.15);
+  overflow: hidden;
+}
+
+.subjectBar {
+  height: 100%;
+  transition: width 0.6s ease;
+}
+.barGood { background: linear-gradient(90deg, #3d8a5f, #5ab87a); }
+.barMid  { background: linear-gradient(90deg, #9a7840, #c9a86a); }
+.barBad  { background: linear-gradient(90deg, #8a3d3d, #c05050); }
+
+.subjectRate {
+  margin: 0;
+  font-family: var(--font-serif-en);
+  font-size: 0.78rem;
+  font-style: italic;
+  min-width: 36px;
+  text-align: right;
+  color: #c8b48a;
+}
+
+/* ── 苦手単元 ── */
+.weakRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(201, 168, 106, 0.1);
+}
+.weakRow:last-child { border-bottom: none; }
+
+.weakSubunit {
+  margin: 0 0 3px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #e8d5a8;
+}
+
+.weakMeta {
+  margin: 0;
+  font-size: 0.7rem;
+  color: rgba(201, 168, 106, 0.4);
+}
+
+.weakRate {
+  margin: 0;
+  font-family: var(--font-serif-en);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #c05050;
+  font-style: italic;
+}
+
+/* ── アドバイス ── */
+.adviceCard {
+  background: rgba(42, 30, 18, 0.9);
+  border: 1px solid rgba(201, 168, 106, 0.3);
+  border-left: 3px solid rgba(201, 168, 106, 0.5);
+}
+
+.adviceTip {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #c8b48a;
+}
+.adviceTip:last-child { margin-bottom: 0; }
+
+/* ── 最近の学習 ── */
+.recentRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(201, 168, 106, 0.1);
+}
+.recentRow:last-child { border-bottom: none; }
+
+.recentSubunit {
+  margin: 0 0 3px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #e8d5a8;
+}
+
+.recentMeta {
+  margin: 0;
+  font-size: 0.7rem;
+  color: rgba(201, 168, 106, 0.4);
+}
+
+.recentRight {
+  text-align: right;
+}
+
+.recentRate {
+  margin: 0 0 2px;
+  font-family: var(--font-serif-en);
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.recentAttempts {
+  margin: 0;
+  font-size: 0.7rem;
+  color: rgba(201, 168, 106, 0.4);
+}
+
+/* ── その他 ── */
+.loadingWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background: #2a1e12;
+}
+
+.error {
+  text-align: center;
+  padding: 40px;
+  color: #c05050;
+}
+
+.bottomSpacer {
+  height: 32px;
+}
+
+/* ── チャレンジモード ── */
+.challengeCard {
+  border-color: rgba(201, 168, 106, 0.35);
+}
+
+.challengeRow {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.challengeBtn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(201, 168, 106, 0.3);
+  background: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  min-height: 44px;
+}
+
+.challengeBtn:hover:not(:disabled) {
+  background: rgba(201, 168, 106, 0.1);
+  border-color: rgba(201, 168, 106, 0.5);
+}
+
+.challengeBtn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.challengeBtn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.challengeBtnWeak {
+  border-color: rgba(248, 113, 113, 0.4);
+}
+
+.challengeBtnWeak:hover:not(:disabled) {
+  background: rgba(248, 113, 113, 0.1);
+  border-color: rgba(248, 113, 113, 0.6);
+}
+
+.challengeBtnMini {
+  border-color: rgba(96, 165, 250, 0.4);
+}
+
+.challengeBtnMini:hover:not(:disabled) {
+  background: rgba(96, 165, 250, 0.1);
+  border-color: rgba(96, 165, 250, 0.6);
+}
+
+.challengeIcon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.challengeBtnLabel {
+  font-family: var(--font-serif-jp, var(--font-rounded));
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #e8d5a8;
+  letter-spacing: 0.02em;
+}
+
+.challengeBtnSub {
+  font-size: 0.68rem;
+  color: rgba(201, 168, 106, 0.55);
+}
+
+.challengeSpinner {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(201, 168, 106, 0.3);
+  border-top-color: #d4a84b;
+  border-radius: 50%;
+  animation: challengeSpin 0.7s linear infinite;
+}
+
+@keyframes challengeSpin {
+  to { transform: rotate(360deg); }
+}
+
+.challengeError {
+  margin: 10px 0 0;
+  font-size: 0.75rem;
+  color: #f87171;
+  text-align: center;
+  line-height: 1.5;
+}

@@ -1,0 +1,946 @@
+{
+  "subject": "math",
+  "unit": "trigonometric-functions",
+  "subunit": "trigonometric-graphs",
+  "questions": [
+    {
+      "id": "tg-001",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = sin x のグラフの周期はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期は π である"
+        },
+        {
+          "label": "B",
+          "text": "周期は 2π である"
+        },
+        {
+          "label": "C",
+          "text": "周期は π/2 である"
+        },
+        {
+          "label": "D",
+          "text": "周期は 4π である"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "sin グラフの周期",
+        "基本周期 2π"
+      ]
+    },
+    {
+      "id": "tg-002",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = cos x のグラフの最大値と最小値の組み合わせとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大値 = 2、最小値 = -2"
+        },
+        {
+          "label": "B",
+          "text": "最大値 = 1、最小値 = 0"
+        },
+        {
+          "label": "C",
+          "text": "最大値 = 1、最小値 = -1"
+        },
+        {
+          "label": "D",
+          "text": "最大値 = 2、最小値 = 0"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "cos の値域",
+        "振幅 1"
+      ]
+    },
+    {
+      "id": "tg-003",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = tan x のグラフの周期はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期は 2π である"
+        },
+        {
+          "label": "B",
+          "text": "周期は π/2 である"
+        },
+        {
+          "label": "C",
+          "text": "周期は π である"
+        },
+        {
+          "label": "D",
+          "text": "周期は π/4 である"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "tan グラフの周期",
+        "π ごとに繰り返す"
+      ]
+    },
+    {
+      "id": "tg-004",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = 2sin x のグラフの振幅はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "振幅は 1 である"
+        },
+        {
+          "label": "B",
+          "text": "振幅は 4 である"
+        },
+        {
+          "label": "C",
+          "text": "振幅は π である"
+        },
+        {
+          "label": "D",
+          "text": "振幅は 2 である"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "振幅の定義",
+        "係数が振幅"
+      ]
+    },
+    {
+      "id": "tg-005",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = sin(2x) のグラフの周期はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期 = 2π"
+        },
+        {
+          "label": "B",
+          "text": "周期 = 4π"
+        },
+        {
+          "label": "C",
+          "text": "周期 = π/2"
+        },
+        {
+          "label": "D",
+          "text": "周期 = π"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "周期の求め方",
+        "2π を係数で割る"
+      ]
+    },
+    {
+      "id": "tg-006",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = cos x のグラフについて、正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "原点について対称であり、周期は 2π である"
+        },
+        {
+          "label": "B",
+          "text": "y 軸について対称であり、周期は π である"
+        },
+        {
+          "label": "C",
+          "text": "原点について対称であり、周期は π である"
+        },
+        {
+          "label": "D",
+          "text": "y 軸について対称であり、周期は 2π である"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "cos は偶関数",
+        "y 軸対称",
+        "周期 2π"
+      ]
+    },
+    {
+      "id": "tg-007",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = sin x のグラフについて、正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y 軸について対称であり、最大値は 1 である"
+        },
+        {
+          "label": "B",
+          "text": "原点について対称であり、最大値は 2 である"
+        },
+        {
+          "label": "C",
+          "text": "y 軸について対称であり、最大値は 2 である"
+        },
+        {
+          "label": "D",
+          "text": "原点について対称であり、最大値は 1 である"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "sin は奇関数",
+        "原点対称",
+        "最大値 1"
+      ]
+    },
+    {
+      "id": "tg-008",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = sin x + 1 のグラフの最大値はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大値 = 1"
+        },
+        {
+          "label": "B",
+          "text": "最大値 = 3"
+        },
+        {
+          "label": "C",
+          "text": "最大値 = √2"
+        },
+        {
+          "label": "D",
+          "text": "最大値 = 2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "y 軸方向の平行移動",
+        "sin の最大値 1 に定数 1 を加える"
+      ]
+    },
+    {
+      "id": "tg-009",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = cos x において x = π のとき、cos π の値はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos π = 1"
+        },
+        {
+          "label": "B",
+          "text": "cos π = 0"
+        },
+        {
+          "label": "C",
+          "text": "cos π = √3/2"
+        },
+        {
+          "label": "D",
+          "text": "cos π = -1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "cos π の値",
+        "単位円で x = π は点 (-1, 0)"
+      ]
+    },
+    {
+      "id": "tg-010",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "basic",
+      "question": "y = sin x のグラフが 0 ≤ x ≤ 2π の範囲で x 軸と交わる x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = π/2 のみ"
+        },
+        {
+          "label": "B",
+          "text": "x = π/4、x = 3π/4、x = 5π/4、x = 7π/4"
+        },
+        {
+          "label": "C",
+          "text": "x = π/2、x = 3π/2"
+        },
+        {
+          "label": "D",
+          "text": "x = 0、x = π、x = 2π"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "sin のゼロ点",
+        "sin = 0 となる x の値"
+      ]
+    },
+    {
+      "id": "tg-011",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = 3sin(2x) の振幅・周期を求めるとき、y = A sin(Bx) の A と B の読み取りとして正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A = 3(振幅=3)、B = 2(周期 = 2π/2 = π)"
+        },
+        {
+          "label": "B",
+          "text": "A = 2(振幅=2)、B = 3(周期 = 2π/3)"
+        },
+        {
+          "label": "C",
+          "text": "A = 3(振幅=3)、B = 2(周期 = π/2)"
+        },
+        {
+          "label": "D",
+          "text": "A = 6(振幅=6)、B = 1(周期 = 2π)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "振幅と最大値",
+        "x の係数は周期に影響し最大値には無関係"
+      ]
+    },
+    {
+      "id": "tg-012",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = sin(2x + π/3) を y = sin(2(x + k)) に変形するとき、k の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2x + π/3 = 2(x + π/6) → k = π/6"
+        },
+        {
+          "label": "B",
+          "text": "2x + π/3 = 2(x + π/3) → k = π/3"
+        },
+        {
+          "label": "C",
+          "text": "2x + π/3 = 2(x + 2π/3) → k = 2π/3"
+        },
+        {
+          "label": "D",
+          "text": "2x + π/3 = 2(x + π/12) → k = π/12"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "位相シフト",
+        "y = sin(2(x + π/6)) と変形する"
+      ]
+    },
+    {
+      "id": "tg-013",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = 2cos x - 1 の振幅・上下シフトを読み取るとき、y = A cos x + B の A と B として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A = 2(振幅=2)、B = -1(上下シフト -1)"
+        },
+        {
+          "label": "B",
+          "text": "A = -1(振幅=-1)、B = 2"
+        },
+        {
+          "label": "C",
+          "text": "A = 2(振幅=2)、B = 1"
+        },
+        {
+          "label": "D",
+          "text": "A = 1(振幅=1)、B = -2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "最小値の求め方",
+        "cos の最小値 -1 を代入",
+        "2×(-1)-1=-3"
+      ]
+    },
+    {
+      "id": "tg-014",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = sin(x + π/6) は y = sin x を x 軸方向に移動したグラフ。x + π/6 = x - (-π/6) と見ると移動量として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x 軸方向に -π/6 だけ移動(左に π/6)"
+        },
+        {
+          "label": "B",
+          "text": "x 軸方向に +π/6 だけ移動(右に π/6)"
+        },
+        {
+          "label": "C",
+          "text": "y 軸方向に π/6 だけ移動"
+        },
+        {
+          "label": "D",
+          "text": "x 軸方向に -π/3 だけ移動"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "x 軸方向の平行移動",
+        "x + c はグラフを左へ c だけ移動"
+      ]
+    },
+    {
+      "id": "tg-015",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = cos(x/2) の周期を求めるとき、y = cos(Bx) の周期 = 2π/B の公式を適用する手順として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "B = 1/2 なので 周期 = 2π ÷ (1/2) = 4π"
+        },
+        {
+          "label": "B",
+          "text": "B = 1/2 なので 周期 = 2π × (1/2) = π"
+        },
+        {
+          "label": "C",
+          "text": "B = 2 なので 周期 = 2π ÷ 2 = π"
+        },
+        {
+          "label": "D",
+          "text": "B = 1/2 なので 周期 = π ÷ (1/2) = 2π"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "周期の公式",
+        "2π ÷ (1/2) = 4π"
+      ]
+    },
+    {
+      "id": "tg-016",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = -2sin x の振幅と最大値・最小値を求めるとき、A = -2 の符号の影響として正しい説明はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "振幅は |A| = 2。sin x の上下を反転するので最大値は 2、最小値は -2"
+        },
+        {
+          "label": "B",
+          "text": "振幅は A = -2。最大値は -2、最小値は 2"
+        },
+        {
+          "label": "C",
+          "text": "A が負なので振幅は A = -2 のまま。最大値は 0、最小値は -4"
+        },
+        {
+          "label": "D",
+          "text": "A が負なので振幅は 0、グラフは x 軸上"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "負の係数",
+        "x 軸対称移動",
+        "振幅は絶対値"
+      ]
+    },
+    {
+      "id": "tg-017",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = tan(2x) の周期を求めるとき、y = tan(Bx) の周期 = π/B の公式を適用する手順として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "B = 2 なので 周期 = π ÷ 2 = π/2"
+        },
+        {
+          "label": "B",
+          "text": "B = 2 なので 周期 = 2π ÷ 2 = π"
+        },
+        {
+          "label": "C",
+          "text": "B = 2 なので 周期 = π × 2 = 2π"
+        },
+        {
+          "label": "D",
+          "text": "B = 1/2 なので 周期 = π × 2 = 2π"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "tan の周期公式",
+        "π ÷ 2 = π/2"
+      ]
+    },
+    {
+      "id": "tg-018",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "0 ≦ x ≦ 2π で sin x = cos x を tan x = 1 に帰着させる。この変形が有効な前提条件として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cos x ≠ 0 を確認した上で両辺を cos x で割ると tan x = 1 が得られる"
+        },
+        {
+          "label": "B",
+          "text": "sin x = 0 のときのみ両辺をゼロで割らずに変形できるため、そのときだけ有効"
+        },
+        {
+          "label": "C",
+          "text": "sin x = cos x は常に成立しないので変形は無意味"
+        },
+        {
+          "label": "D",
+          "text": "両辺に cos x を掛けると sin x cos x = cos²x となり tan x = cos x になる"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "sin = cos の解",
+        "tan x = 1 → x = π/4 + nπ"
+      ]
+    },
+    {
+      "id": "tg-019",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = 2sin x + 1 の値域を求めるとき、sin x の取りうる範囲から変換する手順として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -1 ≦ 2sin x+1 ≦ 3"
+        },
+        {
+          "label": "B",
+          "text": "0 ≦ sin x ≦ 1 → 0 ≦ 2sin x ≦ 2 → 1 ≦ 2sin x+1 ≦ 3"
+        },
+        {
+          "label": "C",
+          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x+1 ≦ 3 (途中 +1 を先に加算する誤り)"
+        },
+        {
+          "label": "D",
+          "text": "-1 ≦ sin x ≦ 1 → -1 ≦ 2sin x ≦ 1 → 0 ≦ 2sin x+1 ≦ 2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "値域の求め方",
+        "振幅 2 に定数 1 を加えた範囲"
+      ]
+    },
+    {
+      "id": "tg-020",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "standard",
+      "question": "y = 2sin x - 1 の値域を求めるとき、sin x の範囲から各辺を変換する手順として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -3 ≦ 2sin x-1 ≦ 1"
+        },
+        {
+          "label": "B",
+          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -1 ≦ 2sin x-1 ≦ 3"
+        },
+        {
+          "label": "C",
+          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -1 ≦ 2sin x - 1 ≦ 1 (1引くのを忘れた)"
+        },
+        {
+          "label": "D",
+          "text": "0 ≦ sin x ≦ 1 → -1 ≦ 2sin x-1 ≦ 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "値域の求め方",
+        "最小値 2×(-1)-1=-3、最大値 2×1-1=1"
+      ]
+    },
+    {
+      "id": "tg-021",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "振幅が 3、周期が π の sin グラフの式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = 3sin(πx)"
+        },
+        {
+          "label": "B",
+          "text": "y = 2sin(3x)"
+        },
+        {
+          "label": "C",
+          "text": "y = 3sin(x/2)"
+        },
+        {
+          "label": "D",
+          "text": "y = 3sin(2x)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "周期と振幅から式を作る",
+        "周期 π → 係数 2π/π = 2"
+      ]
+    },
+    {
+      "id": "tg-022",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = sin(x - π/4) が 0 ≤ x ≤ 2π で最大値をとる x の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x = π/4"
+        },
+        {
+          "label": "B",
+          "text": "x = π/2"
+        },
+        {
+          "label": "C",
+          "text": "x = 5π/4"
+        },
+        {
+          "label": "D",
+          "text": "x = 3π/4"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "最大値を取る x の求め方",
+        "x - π/4 = π/2 → x = 3π/4"
+      ]
+    },
+    {
+      "id": "tg-023",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = 3sin(2x + π/3) の周期と振幅の組み合わせとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期 = 2π、振幅 = 4"
+        },
+        {
+          "label": "B",
+          "text": "周期 = π/2、振幅 = 2"
+        },
+        {
+          "label": "C",
+          "text": "周期 = π、振幅 = 6"
+        },
+        {
+          "label": "D",
+          "text": "周期 = π、振幅 = 3"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "周期 = 2π/2 = π",
+        "振幅は sin の係数 3",
+        "位相 π/3 は周期・振幅に影響しない"
+      ]
+    },
+    {
+      "id": "tg-024",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = sin x + cos x の最大値はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大値 = 1"
+        },
+        {
+          "label": "B",
+          "text": "最大値 = √3"
+        },
+        {
+          "label": "C",
+          "text": "最大値 = 2"
+        },
+        {
+          "label": "D",
+          "text": "最大値 = √2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "三角関数の合成",
+        "√2 sin(x + π/4) と変形",
+        "√(1²+1²) = √2"
+      ]
+    },
+    {
+      "id": "tg-025",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = sin²x のグラフの周期はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期 = 4π"
+        },
+        {
+          "label": "B",
+          "text": "周期 = 2π"
+        },
+        {
+          "label": "C",
+          "text": "周期 = π/2"
+        },
+        {
+          "label": "D",
+          "text": "周期 = π"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "半角公式",
+        "sin²x = (1 - cos 2x)/2",
+        "cos(2x) の周期は π"
+      ]
+    },
+    {
+      "id": "tg-026",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = |sin x| のグラフの周期はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期 = π/4"
+        },
+        {
+          "label": "B",
+          "text": "周期 = π/2"
+        },
+        {
+          "label": "C",
+          "text": "周期 = 2π"
+        },
+        {
+          "label": "D",
+          "text": "周期 = π"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "絶対値と周期",
+        "負の部分が折り返され周期が半分に短縮"
+      ]
+    },
+    {
+      "id": "tg-027",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = A sin(Bx) のグラフで振幅が 4、周期が π/3 であるとき、A と B の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A = 4、B = 3"
+        },
+        {
+          "label": "B",
+          "text": "A = 3、B = 4"
+        },
+        {
+          "label": "C",
+          "text": "A = 4、B = π/3"
+        },
+        {
+          "label": "D",
+          "text": "A = 4、B = 6"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "振幅 = A = 4",
+        "周期 = 2π/B = π/3 → B = 6"
+      ]
+    },
+    {
+      "id": "tg-028",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = sin(πx) のグラフの周期はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "周期 = π"
+        },
+        {
+          "label": "B",
+          "text": "周期 = 2π"
+        },
+        {
+          "label": "C",
+          "text": "周期 = 1"
+        },
+        {
+          "label": "D",
+          "text": "周期 = 2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "周期公式 2π/B",
+        "B = π のとき 2π/π = 2"
+      ]
+    },
+    {
+      "id": "tg-029",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = sin x - cos x の最大値はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大値 = 0"
+        },
+        {
+          "label": "B",
+          "text": "最大値 = 1"
+        },
+        {
+          "label": "C",
+          "text": "最大値 = 2"
+        },
+        {
+          "label": "D",
+          "text": "最大値 = √2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "三角関数の合成",
+        "sin x - cos x = √2 sin(x - π/4)",
+        "振幅 √(1²+1²) = √2"
+      ]
+    },
+    {
+      "id": "tg-030",
+      "subject": "math",
+      "unit": "trigonometric-functions",
+      "subunit": "trigonometric-graphs",
+      "difficulty": "exam",
+      "question": "y = cos²x - sin²x の最大値はいくつか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大値 = 2"
+        },
+        {
+          "label": "B",
+          "text": "最大値 = 0"
+        },
+        {
+          "label": "C",
+          "text": "最大値 = √2"
+        },
+        {
+          "label": "D",
+          "text": "最大値 = 1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "2倍角の公式",
+        "cos²x - sin²x = cos(2x)",
+        "cos(2x) の最大値は 1"
+      ]
+    }
+  ]
+}

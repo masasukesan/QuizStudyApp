@@ -1,0 +1,786 @@
+{
+  "subject": "数学C",
+  "unit": "位置ベクトルと図形",
+  "questions": [
+    {
+      "id": "pv-001",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "点 A の位置ベクトル OA = a = (2, 3)、点 B の位置ベクトル OB = b = (6, 1) のとき、AB を a と b で表すとどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AB = b - a = (4, -2)"
+        },
+        {
+          "label": "B",
+          "text": "AB = a - b = (-4, 2)"
+        },
+        {
+          "label": "C",
+          "text": "AB = a + b = (8, 4)"
+        },
+        {
+          "label": "D",
+          "text": "AB = b/a(成分の比)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-002",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "A(1, 2)、B(5, 6) の中点 M の位置ベクトルとして正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a + b)/2 = (3, 4)"
+        },
+        {
+          "label": "B",
+          "text": "a - b = (-4, -4)"
+        },
+        {
+          "label": "C",
+          "text": "a + b = (6, 8)"
+        },
+        {
+          "label": "D",
+          "text": "(a - b)/2 = (-2, -2)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-003",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "OA = a、OB = b のとき、AB を m:n に内分する点 P の位置ベクトル OP として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(na + mb)/(m + n)"
+        },
+        {
+          "label": "B",
+          "text": "(ma + nb)/(m + n)"
+        },
+        {
+          "label": "C",
+          "text": "(a + b)×m/(m+n)"
+        },
+        {
+          "label": "D",
+          "text": "m×a + n×b"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-004",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "△OAB の重心 G の位置ベクトルとして正しいのはどれか。OA = a、OB = b。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a + b)/3(O も含めた3頂点の平均)"
+        },
+        {
+          "label": "B",
+          "text": "(a + b)/2(中点)"
+        },
+        {
+          "label": "C",
+          "text": "a + b"
+        },
+        {
+          "label": "D",
+          "text": "(OA + OB + OO)/3 = (a + b + 0)/3 = (a + b)/3(同じ)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-005",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "OA = a、OB = b のとき、AB を 2:1 に内分する点 P の OP として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1×a + 2×b)/(2+1) = (a + 2b)/3"
+        },
+        {
+          "label": "B",
+          "text": "(2a + b)/3"
+        },
+        {
+          "label": "C",
+          "text": "2a + b"
+        },
+        {
+          "label": "D",
+          "text": "a + 2b"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-006",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "AB を 1:2 に外分する点 Q の OQ として正しいのはどれか。OA = a、OB = b。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(-1×a + 1×2×b)/(2-1) = -a + 2b = 2b - a"
+        },
+        {
+          "label": "B",
+          "text": "(a + 2b)/3"
+        },
+        {
+          "label": "C",
+          "text": "2a - b"
+        },
+        {
+          "label": "D",
+          "text": "(2a - b)/3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-007",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "△ABC の重心 G の位置ベクトル OG として正しいのはどれか。OA = a、OB = b、OC = c。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a + b + c)/3"
+        },
+        {
+          "label": "B",
+          "text": "(a + b)/2(C を含まない誤り)"
+        },
+        {
+          "label": "C",
+          "text": "a + b + c"
+        },
+        {
+          "label": "D",
+          "text": "(2a + b + c)/4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-008",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "OA = a、AB = b のとき OB として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OB = OA + AB = a + b"
+        },
+        {
+          "label": "B",
+          "text": "OB = AB - OA = b - a"
+        },
+        {
+          "label": "C",
+          "text": "OB には AB の情報のみで b だけとする誤り"
+        },
+        {
+          "label": "D",
+          "text": "OB = b(AB の向きと同じ)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-009",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "点 P が線分 AB の中点のとき、AP = PB が成立する。この関係式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OP - OA = OB - OP → 2OP = OA + OB"
+        },
+        {
+          "label": "B",
+          "text": "2OP = OB (中点の式から B のみ残す誤り)"
+        },
+        {
+          "label": "C",
+          "text": "OA-OB = OA-OB (変形できていない)"
+        },
+        {
+          "label": "D",
+          "text": "2OP = OA-OB (符号の誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-010",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "basic",
+      "question": "OA = (2, 0)、OB = (0, 4) のとき △OAB の重心 G の座標として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2/3, 4/3)"
+        },
+        {
+          "label": "B",
+          "text": "(1, 2)(中点)"
+        },
+        {
+          "label": "C",
+          "text": "(2, 4)(頂点の和)"
+        },
+        {
+          "label": "D",
+          "text": "(2/3, 2/3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-011",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "OA = a、OB = b のとき、線分 AB を 3:1 に内分する点 P と 3:1 に外分する点 Q を求める。OP と OQ の正しい組み合わせはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OP = (a+3b)/4、OQ = (-a+3b)/2"
+        },
+        {
+          "label": "B",
+          "text": "OP = (3a+b)/4、OQ = (3a-b)/2"
+        },
+        {
+          "label": "C",
+          "text": "OP = (a+3b)/4、OQ = (3a-b)/2"
+        },
+        {
+          "label": "D",
+          "text": "OP=(a+3b)/4, OQ=(3a-b)/2 (内分と外分を取り違え)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-012",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "△ABC で M は BC の中点、G は △ABC の重心。AG と AM の関係を示す途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OG = (a+b+c)/3、OM = (b+c)/2 → OG = a/3 + (b+c)/3 = a/3 + 2OM/3 → AG = (2/3)AM"
+        },
+        {
+          "label": "B",
+          "text": "AG = AM(重心と中線の端点は一致)"
+        },
+        {
+          "label": "C",
+          "text": "AG = (1/3)AM"
+        },
+        {
+          "label": "D",
+          "text": "OG = (a+b)/3(C を含まない誤り)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-013",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "3点 A、B、C が共線であるための条件を確認する。AB = OB - OA = b - a、AC = c - a として正しい共線条件はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AC = tAB となる実数 t が存在する → c - a = t(b - a)"
+        },
+        {
+          "label": "B",
+          "text": "AB·AC = 0(垂直条件と混同)"
+        },
+        {
+          "label": "C",
+          "text": "|AB| = |AC|(等距離条件)"
+        },
+        {
+          "label": "D",
+          "text": "OA + OB + OC = 0"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-014",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "△ABC で ∠A の二等分線が BC と交わる点 D の位置ベクトルを求める。|AB| = c、|AC| = b のとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BD:DC = c:b(角の二等分線定理)→ OD = (b×OB + c×OC)/(b+c)"
+        },
+        {
+          "label": "B",
+          "text": "OD = (OB + OC)/2(中点と誤解)"
+        },
+        {
+          "label": "C",
+          "text": "BD:DC = b:c(比が逆)"
+        },
+        {
+          "label": "D",
+          "text": "OD = (OB × OC)/|OB||OC|(積の誤適用)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-015",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "平行四辺形 ABCD で OA = a、OB = b、OC = c のとき OD を求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ABCD が平行四辺形 → AB = DC → OB - OA = OC - OD → OD = OA + OC - OB = a + c - b"
+        },
+        {
+          "label": "B",
+          "text": "OD = b + c - a (頂点の対応を誤る)"
+        },
+        {
+          "label": "C",
+          "text": "OD = (a + b + c)/2"
+        },
+        {
+          "label": "D",
+          "text": "OD = b + c - a"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-016",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "△OAB で点 P が OA を 2:1 に内分、点 Q が OB を 1:2 に内分するとき、PQ の中点 M の位置ベクトルを求める途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OP = 2a/3、OQ = b/3 → OM = (OP+OQ)/2 = (2a/3+b/3)/2 = a/3+b/6"
+        },
+        {
+          "label": "B",
+          "text": "OM = (a + b)/4"
+        },
+        {
+          "label": "C",
+          "text": "OM = (2a+b)/6(分母誤り)"
+        },
+        {
+          "label": "D",
+          "text": "OM = a/3 + b/3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-017",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "点 P が △ABC 内にあり OP = sa + tb + uc(s+t+u=1、s,t,u>0)と表されるとき、s、t、u の意味として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "s、t、u は △PBC、△PCA、△PAB の面積比(重心座標)"
+        },
+        {
+          "label": "B",
+          "text": "s、t、u は P から各辺への距離の比"
+        },
+        {
+          "label": "C",
+          "text": "s+t+u = 1 は P が △ABC 上(内部を含む)にある条件"
+        },
+        {
+          "label": "D",
+          "text": "s = t = u = 1/3 のとき P は常に重心"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-018",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "△ABC の外心 O を位置ベクトルで求めるとき、OA² = OB² = OC²(外接円の半径が等しい)の条件を使った途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|a|² = |b|² → (a+b)·(a-b) = 0 → a·a - b·b = 0 → 外心 O の条件を立てる"
+        },
+        {
+          "label": "B",
+          "text": "外心 = 重心なので (a+b+c)/3"
+        },
+        {
+          "label": "C",
+          "text": "各辺の垂直二等分線の交点を連立方程式で求める(別の方法)"
+        },
+        {
+          "label": "D",
+          "text": "外心は常に三角形の内部にある"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-019",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "OA = a、OB = b のとき、線分 AB 上の点 P は OP = (1-t)a + tb(0≦t≦1)と表される。t の幾何的意味として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AP:PB = t:(1-t)、つまり t = AP/AB(A から P までの割合)"
+        },
+        {
+          "label": "B",
+          "text": "t = PB/AB(P から B までの割合)"
+        },
+        {
+          "label": "C",
+          "text": "t は P が A か B に近い方を示す指数"
+        },
+        {
+          "label": "D",
+          "text": "t の値に幾何的意味はない(パラメータ表示のみ)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-020",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "standard",
+      "question": "△ABC で G が重心のとき GA + GB + GC = 0 を確認する途中式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "GA + GB + GC = (OA-OG) + (OB-OG) + (OC-OG) = (a+b+c) - 3×(a+b+c)/3 = 0"
+        },
+        {
+          "label": "B",
+          "text": "重心の定義から直接 0(証明不要)"
+        },
+        {
+          "label": "C",
+          "text": "GA + GB = -GC から導く(片方だけの誤り)"
+        },
+        {
+          "label": "D",
+          "text": "(a+b+c)/3 = 0 より a+b+c = 0(O が重心と混同)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-021",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "内分点の公式 OP = (na + mb)/(m+n) を証明するとき、正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AP = (m/(m+n))AB より OP = OA + (m/(m+n))AB = a + (m/(m+n))(b-a) = (na+mb)/(m+n)"
+        },
+        {
+          "label": "B",
+          "text": "三角形の面積比から導く"
+        },
+        {
+          "label": "C",
+          "text": "座標で計算して確認する(数値例)"
+        },
+        {
+          "label": "D",
+          "text": "m:n = 1:1 の場合(中点)で確認して一般化する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-022",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "△ABC の中線定理( AM² = (AB² + AC²)/2 - BC²/4)をベクトルで証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "M は BC の中点 → OM = (b+c)/2 → AM = OM - OA = (b+c)/2 - a → |AM|² を展開"
+        },
+        {
+          "label": "B",
+          "text": "余弦定理を 2 回使って AM を求める(別証明)"
+        },
+        {
+          "label": "C",
+          "text": "|AM|² = |AB|²/4(誤った公式)"
+        },
+        {
+          "label": "D",
+          "text": "A を原点として AB = p、AC = q とおく(別の方法)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-023",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "△ABC の3本の中線が一点(重心)で交わることをベクトルで証明するとき、正しい論証はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "BC の中点 M₁ での中線 AM₁ と CA の中点 M₂ での中線 BM₂ の交点が共に (a+b+c)/3 になることを示す"
+        },
+        {
+          "label": "B",
+          "text": "重心は各中線を 1:1 に内分する(誤り: 2:1)"
+        },
+        {
+          "label": "C",
+          "text": "3本の中線の長さが等しいから一点で交わる"
+        },
+        {
+          "label": "D",
+          "text": "面積を 3 等分する点が一つしかないから"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-024",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "チェバの定理(△ABC の内部の点 P から各辺への直線が辺と交わる比の積 = 1)をベクトルを使って証明する出発点として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "OP = sa + tb + uc(s+t+u=1、重心座標)とおき、各辺の交点をパラメータで表す"
+        },
+        {
+          "label": "B",
+          "text": "各辺を垂直二等分する点を使う"
+        },
+        {
+          "label": "C",
+          "text": "面積の比を用いた純粋幾何的証明のみ可能"
+        },
+        {
+          "label": "D",
+          "text": "外分点に適用できないのでチェバの定理はベクトルで証明できない"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-025",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "△ABC で重心 G が「各頂点からの距離の 2 乗の和が最小になる点」であることを証明するとき、正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "任意の点 P について |PA|²+|PB|²+|PC|² = 3|PG|² + |GA|²+|GB|²+|GC|² を示す(展開して PG の係数が 0 になる)"
+        },
+        {
+          "label": "B",
+          "text": "P = G のとき距離の和が 0 になる"
+        },
+        {
+          "label": "C",
+          "text": "重心の定義から自明"
+        },
+        {
+          "label": "D",
+          "text": "最小化は微分が必要で幾何的証明は不可能"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-026",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "外接円の中心(外心)O が「3頂点からの距離が等しい点」であることをベクトルで特徴付けるとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|OA|² = |OB|² = |OC|² = R²(外接円半径)となる O が外心"
+        },
+        {
+          "label": "B",
+          "text": "OA + OB + OC = 0 となる点が外心(重心と混同)"
+        },
+        {
+          "label": "C",
+          "text": "各辺の垂直二等分線の交点を位置ベクトルで求め、外心 = 重心"
+        },
+        {
+          "label": "D",
+          "text": "外心は常に三角形の重心と一致する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-027",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "内接円の中心(内心)I の位置ベクトルが I = (a×OA + b×OB + c×OC)/(a+b+c)(a, b, c は辺 BC, CA, AB の長さ)であることの証明の核心はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "内心から各辺への距離が等しい条件と、角の二等分線が辺と交わる点の比(角の二等分線定理)を組み合わせる"
+        },
+        {
+          "label": "B",
+          "text": "3辺の長さが等しい正三角形のみで証明できる"
+        },
+        {
+          "label": "C",
+          "text": "内心 = 重心 = (a+b+c)/3"
+        },
+        {
+          "label": "D",
+          "text": "内心の公式は証明なしに使ってよい(公理)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-028",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "メネラウスの定理をベクトルを使って証明するとき、△ABC と直線 l が辺 BC、CA、AB の延長と交わる点を D、E、F とする。正しい出発点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "D、E、F を位置ベクトルで表し、DE と DF が同一方向(共線)であることから積 = -1 の条件を導く"
+        },
+        {
+          "label": "B",
+          "text": "チェバの定理の否定形として定義する"
+        },
+        {
+          "label": "C",
+          "text": "各交点の内分比を全て正の実数と置いて計算する(外分の場合を無視)"
+        },
+        {
+          "label": "D",
+          "text": "座標系を設定して代数的に計算する(別方法)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-029",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "4点 A、B、C、D が同一平面上にある条件を位置ベクトルで表すとき、正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AD = sAB + tAC となる実数 s、t が存在する(AD が AB と AC の線形結合)"
+        },
+        {
+          "label": "B",
+          "text": "4点の位置ベクトルの和が 0"
+        },
+        {
+          "label": "C",
+          "text": "AB·CD = 0(内積条件)"
+        },
+        {
+          "label": "D",
+          "text": "|AB| × |CD| = |AC| × |BD|(トレミーの定理)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "pv-030",
+      "subject": "数学C",
+      "unit": "位置ベクトルと図形",
+      "difficulty": "exam",
+      "question": "重心 G の座標が「GA + GB + GC = 0 を満たす唯一の点」であることを証明するとき、一意性の証明として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "G' も同じ条件を満たすとすると GA + GB + GC = G'A + G'B + G'C = 0 → 引き算して 3(G'G) = 0 → G' = G"
+        },
+        {
+          "label": "B",
+          "text": "存在だけ示せば一意性は自動的に従う"
+        },
+        {
+          "label": "C",
+          "text": "G = (a+b+c)/3 を代入して確認するだけ(一意性の証明にならない)"
+        },
+        {
+          "label": "D",
+          "text": "一意性の証明は線形代数が必要で高校レベルでは不可能"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

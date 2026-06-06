@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "id": "lar-001",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "点 P(x,y) が原点から距離 3 にある点の集合(軌跡)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²+y²=3"
+        },
+        {
+          "label": "B",
+          "text": "x+y=3"
+        },
+        {
+          "label": "C",
+          "text": "x²+y²≤9"
+        },
+        {
+          "label": "D",
+          "text": "x²+y²=9(原点中心、半径 3 の円)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "軌跡の方程式",
+        "円"
+      ]
+    },
+    {
+      "id": "lar-002",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "不等式 y>2x+1 の表す領域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "直線 y=2x+1 より下側の領域"
+        },
+        {
+          "label": "B",
+          "text": "直線 y=2x+1 そのもの"
+        },
+        {
+          "label": "C",
+          "text": "直線より上側(境界の直線を含まない領域)"
+        },
+        {
+          "label": "D",
+          "text": "直線 y=2x+1 より上側の領域(直線を含む)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "不等式と領域",
+        "y>ax+b"
+      ]
+    },
+    {
+      "id": "lar-003",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "不等式 x²+y²≤4 の表す領域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "原点を中心とする半径 2 の円の内部(境界含まない)"
+        },
+        {
+          "label": "B",
+          "text": "原点を中心とする半径 4 の円の内部(境界含む)"
+        },
+        {
+          "label": "C",
+          "text": "原点を中心とする半径 2 の円の内部(境界含む)"
+        },
+        {
+          "label": "D",
+          "text": "原点を中心とする半径 2 の円の外部"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の不等式",
+        "内部"
+      ]
+    },
+    {
+      "id": "lar-004",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "不等式の表す領域で、境界線を含む場合の不等号として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "≤ または ≥(等号を含む不等号)"
+        },
+        {
+          "label": "B",
+          "text": "< または >(等号を含まない)"
+        },
+        {
+          "label": "C",
+          "text": "= のみ"
+        },
+        {
+          "label": "D",
+          "text": "≠"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "境界の含む含まない",
+        "不等号"
+      ]
+    },
+    {
+      "id": "lar-005",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "点 P が 2 点 A(1,0)、B(−1,0) から等距離にあるとき P の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "PA=PB → 2点の垂直二等分線 x=0(y 軸)"
+        },
+        {
+          "label": "B",
+          "text": "y=0(x 軸)"
+        },
+        {
+          "label": "C",
+          "text": "x²+y²=1"
+        },
+        {
+          "label": "D",
+          "text": "x+y=0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "垂直二等分線",
+        "軌跡"
+      ]
+    },
+    {
+      "id": "lar-006",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "領域 x>0 かつ y>0 はどの象限を表すか。正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第1象限(x>0, y>0 の部分)"
+        },
+        {
+          "label": "B",
+          "text": "第2象限"
+        },
+        {
+          "label": "C",
+          "text": "第4象限"
+        },
+        {
+          "label": "D",
+          "text": "第3象限"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "象限と領域",
+        "基本"
+      ]
+    },
+    {
+      "id": "lar-007",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "y<x² の表す領域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "放物線 y=x² そのもの"
+        },
+        {
+          "label": "B",
+          "text": "放物線 y=x² より上側"
+        },
+        {
+          "label": "C",
+          "text": "放物線 y=x² の内部"
+        },
+        {
+          "label": "D",
+          "text": "放物線より下側(境界の放物線を含まない)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "2次不等式の領域",
+        "放物線"
+      ]
+    },
+    {
+      "id": "lar-008",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "2つの不等式 x≥0 かつ y≥0 の共通領域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "第1象限(境界を含まない)"
+        },
+        {
+          "label": "B",
+          "text": "全平面"
+        },
+        {
+          "label": "C",
+          "text": "x 軸と y 軸の上の部分のみ"
+        },
+        {
+          "label": "D",
+          "text": "第1象限(境界の x 軸・y 軸を含む)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "連立不等式の領域",
+        "共通部分"
+      ]
+    },
+    {
+      "id": "lar-009",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "点 (2,3) が不等式 y<2x+1 の領域に含まれるかを確認する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2 だけを代入して y を求める"
+        },
+        {
+          "label": "B",
+          "text": "直線 y=2x+1 を描いてから目視で判断"
+        },
+        {
+          "label": "C",
+          "text": "x=2,y=3 を代入：3<2×2+1=5。3<5 は真なので点は領域内"
+        },
+        {
+          "label": "D",
+          "text": "2+3 と 2×2+1 を比較する"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "点の判定",
+        "代入"
+      ]
+    },
+    {
+      "id": "lar-010",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "basic",
+      "question": "x²+y²>1 の表す領域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "単位円の内部(境界含まない)"
+        },
+        {
+          "label": "B",
+          "text": "単位円の外部(境界含む)"
+        },
+        {
+          "label": "C",
+          "text": "単位円の外部(境界の円を含まない)"
+        },
+        {
+          "label": "D",
+          "text": "単位円上のみ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円の外部",
+        "境界含まない"
+      ]
+    },
+    {
+      "id": "lar-011",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "点 A(2,0)、B(−2,0) に対して PA:PB=1:2 を満たす点 P の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²+y²=4"
+        },
+        {
+          "label": "B",
+          "text": "x=2/3"
+        },
+        {
+          "label": "C",
+          "text": "アポロニウスの円：(x−10/3)²+y²=(8/3)²"
+        },
+        {
+          "label": "D",
+          "text": "(x−2/3)²+y²=(4/3)²"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "アポロニウスの円",
+        "軌跡"
+      ]
+    },
+    {
+      "id": "lar-012",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "2つの不等式 y≤x+2 と y≥−x の共通領域を求めるとき、共通領域の頂点（境界の交点）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(1,3)"
+        },
+        {
+          "label": "B",
+          "text": "(−1,1)"
+        },
+        {
+          "label": "C",
+          "text": "(−2,0)"
+        },
+        {
+          "label": "D",
+          "text": "(0,2)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "連立不等式",
+        "交点"
+      ]
+    },
+    {
+      "id": "lar-013",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "点 P(x,y) が直線 y=−1 と点 F(0,1) から等距離にある軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y²=4x"
+        },
+        {
+          "label": "B",
+          "text": "放物線 x²=4y(焦点 F(0,1)、準線 y=−1)"
+        },
+        {
+          "label": "C",
+          "text": "x²=2y"
+        },
+        {
+          "label": "D",
+          "text": "x²=−4y"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "放物線の定義",
+        "軌跡"
+      ]
+    },
+    {
+      "id": "lar-014",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "3つの不等式 x≥0、y≥0、x+y≤3 の共通領域の面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積 = 6"
+        },
+        {
+          "label": "B",
+          "text": "面積 = 3"
+        },
+        {
+          "label": "C",
+          "text": "面積 = 9"
+        },
+        {
+          "label": "D",
+          "text": "直角三角形(頂点 (0,0)、(3,0)、(0,3))の面積 = 9/2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "領域の面積",
+        "三角形"
+      ]
+    },
+    {
+      "id": "lar-015",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "点 P(x,y) が x²+y²≤1 かつ y≥x の領域にあるとき、その領域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "単位円の内部のうち y<x の部分"
+        },
+        {
+          "label": "B",
+          "text": "単位円の内部(境界含む)のうち y≥x の半分"
+        },
+        {
+          "label": "C",
+          "text": "単位円の外部のうち y≥x の部分"
+        },
+        {
+          "label": "D",
+          "text": "y≥x の全領域"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "複合領域",
+        "交差"
+      ]
+    },
+    {
+      "id": "lar-016",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "媒介変数 t を使って x=t+1、y=t²−1 と表された点の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=(x+1)²−1"
+        },
+        {
+          "label": "B",
+          "text": "y=x²−2x"
+        },
+        {
+          "label": "C",
+          "text": "y=x²−1"
+        },
+        {
+          "label": "D",
+          "text": "y=x²+1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "媒介変数",
+        "軌跡"
+      ]
+    },
+    {
+      "id": "lar-017",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "x+2y≥4、x−y≤1 の連立不等式の領域の頂点（交点）として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(4,0)"
+        },
+        {
+          "label": "B",
+          "text": "(0,2)"
+        },
+        {
+          "label": "C",
+          "text": "(2,1)"
+        },
+        {
+          "label": "D",
+          "text": "(1,2)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "連立不等式の頂点",
+        "計算"
+      ]
+    },
+    {
+      "id": "lar-018",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "軌跡を求めるとき、求めた方程式の範囲（変数の制限）を確認する必要がある。その理由として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "確認するのは係数が整数のときだけ"
+        },
+        {
+          "label": "B",
+          "text": "媒介変数の定義域によっては方程式の一部しか軌跡に対応しない場合がある"
+        },
+        {
+          "label": "C",
+          "text": "円の方程式のみ範囲確認が必要"
+        },
+        {
+          "label": "D",
+          "text": "方程式は常に全ての点を含むので確認不要"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "軌跡の範囲",
+        "注意点"
+      ]
+    },
+    {
+      "id": "lar-019",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "点 P(x,y) が x=a+b、y=a−b（a²+b²=1）を満たすとき P の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x²+y²=1"
+        },
+        {
+          "label": "B",
+          "text": "x²+y²=2"
+        },
+        {
+          "label": "C",
+          "text": "x²+y²=4"
+        },
+        {
+          "label": "D",
+          "text": "x+y=1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "置換と軌跡",
+        "円"
+      ]
+    },
+    {
+      "id": "lar-020",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "standard",
+      "question": "領域 y≥|x| を不等式で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y≤x かつ y≤−x"
+        },
+        {
+          "label": "B",
+          "text": "y≥x かつ y≥−x(絶対値を外した2条件の共通部分)"
+        },
+        {
+          "label": "C",
+          "text": "y≥x または y≥−x"
+        },
+        {
+          "label": "D",
+          "text": "y≥x かつ y≤−x"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "絶対値の領域",
+        "場合分け"
+      ]
+    },
+    {
+      "id": "lar-021",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "点 A(1,2) と動点 P(x,y) に対して、AP の中点 M が直線 y=x+1 上を動くとき P の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=x+3"
+        },
+        {
+          "label": "B",
+          "text": "y=x+1"
+        },
+        {
+          "label": "C",
+          "text": "y=x−1"
+        },
+        {
+          "label": "D",
+          "text": "y=2x+1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "中点と軌跡",
+        "直線"
+      ]
+    },
+    {
+      "id": "lar-022",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "線形計画法：x≥0、y≥0、x+y≤4、2x+y≤6 の領域で z=x+2y の最大値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大 z=9"
+        },
+        {
+          "label": "B",
+          "text": "最大 z=6(頂点(2,2))"
+        },
+        {
+          "label": "C",
+          "text": "最大 z=8(頂点 (0,4))"
+        },
+        {
+          "label": "D",
+          "text": "最大 z=7"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "線形計画法",
+        "最大値"
+      ]
+    },
+    {
+      "id": "lar-023",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "点 P が円 x²+y²=1 上を動くとき Q=2P+A（A=(1,0)）の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(X−1)²+Y²=4"
+        },
+        {
+          "label": "B",
+          "text": "(X+1)²+Y²=2"
+        },
+        {
+          "label": "C",
+          "text": "(X−1)²+Y²=1"
+        },
+        {
+          "label": "D",
+          "text": "X²+Y²=9"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "軌跡の変換",
+        "拡大移動"
+      ]
+    },
+    {
+      "id": "lar-024",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "連立不等式 x²+y²≤9、y≥x+1 の共通領域の境界の交点として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=±√8"
+        },
+        {
+          "label": "B",
+          "text": "x=0、x=2"
+        },
+        {
+          "label": "C",
+          "text": "x=(-1±√17)/2"
+        },
+        {
+          "label": "D",
+          "text": "x=1、x=−3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "円と直線の交点",
+        "共通領域"
+      ]
+    },
+    {
+      "id": "lar-025",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "線形計画法：x≥1、y≥1、x+y≤5 の領域で z=3x+2y の最大値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "最大 z=14(頂点 (4,1))"
+        },
+        {
+          "label": "B",
+          "text": "最大 z=15"
+        },
+        {
+          "label": "C",
+          "text": "最大 z=11(頂点 (1,4))"
+        },
+        {
+          "label": "D",
+          "text": "最大 z=10"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "線形計画法",
+        "最大値"
+      ]
+    },
+    {
+      "id": "lar-026",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "点 P(cosθ,sinθ) から Q=(3cosθ+1,3sinθ+2) の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(X−1)²+(Y−2)²=1"
+        },
+        {
+          "label": "B",
+          "text": "X²+Y²=4"
+        },
+        {
+          "label": "C",
+          "text": "(X+1)²+(Y+2)²=4"
+        },
+        {
+          "label": "D",
+          "text": "(X−1)²+(Y−2)²=9"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "媒介変数と軌跡",
+        "三角関数"
+      ]
+    },
+    {
+      "id": "lar-027",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "不等式 |x|+|y|≤1 の表す領域として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "4頂点 (1,1)、(−1,1)、(−1,−1)、(1,−1) の正方形"
+        },
+        {
+          "label": "B",
+          "text": "原点を中心とする半径 1 の円の内部"
+        },
+        {
+          "label": "C",
+          "text": "4頂点 (1,0)、(0,1)、(−1,0)、(0,−1) を結ぶ正方形(ひし形)の内部(境界含む)"
+        },
+        {
+          "label": "D",
+          "text": "x²+y²≤1 と同じ領域"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "絶対値の領域",
+        "ひし形"
+      ]
+    },
+    {
+      "id": "lar-028",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "a,b が a+b=1 を満たすとき、ax+by の最大値（x²+y²≤4 の領域内）を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "コーシー・シュワルツより最大値 = 2√(a²+b²)"
+        },
+        {
+          "label": "B",
+          "text": "a=1,b=0 または a=0,b=1 のとき最大"
+        },
+        {
+          "label": "C",
+          "text": "最大値は a²+b² で決まらない"
+        },
+        {
+          "label": "D",
+          "text": "a+b=1 なので ax+by ≤ x+y の最大値 = 2√2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "コーシーシュワルツ",
+        "最大値"
+      ]
+    },
+    {
+      "id": "lar-029",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "点 P(x,y) が原点から x 軸と y 軸の両方から等距離にあるとき P の軌跡として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x+y=0 のみ"
+        },
+        {
+          "label": "B",
+          "text": "|y|=|x| → y=x または y=−x(2本の直線)"
+        },
+        {
+          "label": "C",
+          "text": "x²+y²=1"
+        },
+        {
+          "label": "D",
+          "text": "y=x のみ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "等距離の軌跡",
+        "直線2本"
+      ]
+    },
+    {
+      "id": "lar-030",
+      "subject": "math",
+      "unit": "軌跡と領域",
+      "difficulty": "exam",
+      "question": "領域を表す連立不等式 y≥x²−1 かつ y≤1 の領域の面積として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "面積 = 4"
+        },
+        {
+          "label": "B",
+          "text": "面積 = 4√2/3"
+        },
+        {
+          "label": "C",
+          "text": "面積 = 8√2/3"
+        },
+        {
+          "label": "D",
+          "text": "面積 = 2√2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "領域の面積",
+        "積分"
+      ]
+    }
+  ]
+}

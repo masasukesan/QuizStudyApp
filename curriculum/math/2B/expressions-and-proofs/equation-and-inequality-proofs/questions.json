@@ -1,0 +1,906 @@
+{
+  "subject": "math",
+  "unit": "等式・不等式の証明",
+  "questions": [
+    {
+      "id": "ep-001",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "(a+b)²−(a−b)² = 4ab を証明する最初のステップとして正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "左辺を展開：(a²+2ab+b²)−(a²−2ab+b²) = 4ab"
+        },
+        {
+          "label": "B",
+          "text": "右辺を変形：4ab = (a+b)²−(a−b)² と書けるか確認"
+        },
+        {
+          "label": "C",
+          "text": "a=1, b=1 を代入して (2)²−(0)²=4=4×1×1=4 と数値確認のみ行う"
+        },
+        {
+          "label": "D",
+          "text": "(a+b)-(a-b)=2b と (a+b)+(a-b)=2a を使って積を求めることで証明できると考えるが、差の積は (a+b)²-(a-b)² の計算とは別物"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "等式証明の方向",
+        "展開による変形",
+        "左辺→右辺"
+      ]
+    },
+    {
+      "id": "ep-002",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "a³−b³ = (a−b)(a²+ab+b²) を左辺から変形して証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "右辺を展開：(a−b)(a²+ab+b²) = a³+a²b+ab²−a²b−ab²−b³ = a³−b³ ← 右辺 →左辺の確認"
+        },
+        {
+          "label": "B",
+          "text": "左辺 a³−b³ に a²b−a²b を加えて：a³−a²b+a²b−ab²+ab²−b³ = a(a²−ab)+(a²b−ab²)+(ab²−b³) = (a−b)(a²+ab+b²)"
+        },
+        {
+          "label": "C",
+          "text": "両辺を (a−b) で割ると a²+ab+b² = a²+ab+b² が得られる"
+        },
+        {
+          "label": "D",
+          "text": "a=2, b=1 を代入：8−1=7、(2−1)(4+2+1)=7 で数値確認のみ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "左辺を変形する方向",
+        "加えて引く変形",
+        "因数分解の誘導"
+      ]
+    },
+    {
+      "id": "ep-003",
+      "pattern_id": "p02",
+      "difficulty": "basic",
+      "question": "a²+b² ≥ 2ab を「差の符号を調べる」方法で証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "左辺−右辺 = a²+b²−2ab = (a−b)² ≥ 0 → よって a²+b² ≥ 2ab"
+        },
+        {
+          "label": "B",
+          "text": "両辺を ab で割ると a/b + b/a ≥ 2 となり、相加・相乗平均より成立"
+        },
+        {
+          "label": "C",
+          "text": "a=b=1 で等号成立、a=2, b=1 で 5 ≥ 4 を確認"
+        },
+        {
+          "label": "D",
+          "text": "左辺−右辺 = a²−2ab+b² = (a+b)²−4ab ≥ 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "A−B≥0を示す",
+        "(a−b)²≥0の利用",
+        "等号条件a=b"
+      ]
+    },
+    {
+      "id": "ep-004",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "a > 0, b > 0 のとき a+b ≥ 2√(ab) を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a+b−2√(ab) = (√a)²−2√a√b+(√b)² = (√a−√b)² ≥ 0 → よって a+b ≥ 2√(ab)"
+        },
+        {
+          "label": "B",
+          "text": "a+b ≥ 2√(ab) の両辺を2乗：(a+b)² ≥ 4ab → a²+2ab+b² ≥ 4ab → (a−b)² ≥ 0"
+        },
+        {
+          "label": "C",
+          "text": "a=4, b=1 で 5 ≥ 4、a=b=1 で 2 ≥ 2 を確認"
+        },
+        {
+          "label": "D",
+          "text": "a+b−2√(ab) = (√a+√b)²−4√(ab) ≥ 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "√を使った変形",
+        "(√a−√b)²≥0",
+        "等号条件a=b"
+      ]
+    },
+    {
+      "id": "ep-005",
+      "pattern_id": "p04",
+      "difficulty": "basic",
+      "question": "相加・相乗平均の不等式で等号が成立する条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a+b ≥ 2√(ab) で等号成立は a = b"
+        },
+        {
+          "label": "B",
+          "text": "a+b ≥ 2√(ab) で等号成立は a = 0 または b = 0"
+        },
+        {
+          "label": "C",
+          "text": "a+b ≥ 2√(ab) で等号成立は a + b = 0"
+        },
+        {
+          "label": "D",
+          "text": "a+b ≥ 2√(ab) では等号は決して成立しない"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "等号条件の理解",
+        "a=bのとき等号",
+        "証明の等号条件"
+      ]
+    },
+    {
+      "id": "ep-006",
+      "pattern_id": "p05",
+      "difficulty": "basic",
+      "question": "|a+b| ≤ |a|+|b| を証明するために両辺を2乗して比較する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|a+b|² = (a+b)² = a²+2ab+b²、(|a|+|b|)² = a²+2|ab|+b²。2ab ≤ 2|ab| より |a+b|² ≤ (|a|+|b|)²、両辺 ≥ 0 なので |a+b| ≤ |a|+|b|"
+        },
+        {
+          "label": "B",
+          "text": "a ≥ 0, b ≥ 0 のとき |a+b|=a+b=|a|+|b|。a < 0 または b < 0 のとき |a+b| < |a|+|b|"
+        },
+        {
+          "label": "C",
+          "text": "|a+b|² ≤ (|a|+|b|)² の両辺の √ を取ると |a+b| ≤ |a|+|b| になる"
+        },
+        {
+          "label": "D",
+          "text": "a=3, b=−1 で |2|=2 ≤ |3|+|−1|=4 を確認"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2乗して比較",
+        "2ab≤2|ab|の根拠",
+        "√の単調性で元に戻す"
+      ]
+    },
+    {
+      "id": "ep-007",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "a/b = c/d = k とおいたとき a+c = k(b+d) を示す手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=kb, c=kd とおくと a+c = kb+kd = k(b+d)"
+        },
+        {
+          "label": "B",
+          "text": "a/b = c/d より ad = bc → a+c = b+d は成立しない"
+        },
+        {
+          "label": "C",
+          "text": "a+c と b+d を別々に計算して比を取ると (a+c)/(b+d) = k になる"
+        },
+        {
+          "label": "D",
+          "text": "k = a/b = c/d より k² = (ac)/(bd) を使って a+c を表す"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "k=a/b=c/dの置き換え",
+        "a=kb,c=kdと置く",
+        "代入による等式証明"
+      ]
+    },
+    {
+      "id": "ep-008",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "x > 0 のとき x + 9/x ≥ 6 を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x > 0, 9/x > 0 より相加・相乗平均：x + 9/x ≥ 2√(x×9/x) = 2√9 = 6、等号は x=9/x → x=3 のとき"
+        },
+        {
+          "label": "B",
+          "text": "x + 9/x − 6 = (x²+6x+9)/x = (x+3)²/x ≥ 0 → よって x + 9/x ≥ 6"
+        },
+        {
+          "label": "C",
+          "text": "x = 3 のとき x + 9/x = 6"
+        },
+        {
+          "label": "D",
+          "text": "x + 9/x ≥ 6 の両辺に x を掛けると x² + 9 ≥ 6x → (x−3)² ≥ 0"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相加・相乗平均の直接適用",
+        "等号条件x=3",
+        "2√(積)の計算"
+      ]
+    },
+    {
+      "id": "ep-009",
+      "pattern_id": "p02",
+      "difficulty": "basic",
+      "question": "a ≥ 0, b ≥ 0 のとき √(a+b) ≤ √a + √b を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "両辺 ≥ 0 なので2乗して比較：a+b ≤ a+2√(ab)+b → 0 ≤ 2√(ab) → √(ab) ≥ 0"
+        },
+        {
+          "label": "B",
+          "text": "a=9, b=16 で √25=5 ≤ 3+4=7 を確認"
+        },
+        {
+          "label": "C",
+          "text": "√(a+b) ≤ √a + √b の両辺を a+b で割って証明する"
+        },
+        {
+          "label": "D",
+          "text": "(√a+√b)²−(a+b) = 2√(ab) ≥ 0 より √(a+b) ≥ √a+√b (不等号の向きが逆)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "両辺≥0なら2乗して比較可能",
+        "0≤2√(ab)は自明",
+        "等号条件ab=0"
+      ]
+    },
+    {
+      "id": "ep-010",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "x > 0, y > 0, x + y = 4 のとき xy の最大値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "相加・相乗平均：(x+y)/2 ≥ √(xy) → 2 ≥ √(xy) → xy ≤ 4。等号は x=y=2 のとき"
+        },
+        {
+          "label": "B",
+          "text": "y = 4−x として xy = x(4−x) = −x²+4x = −(x−2)²+4 ≤ 4"
+        },
+        {
+          "label": "C",
+          "text": "AM-GM より (x+y)/2 ≥ √(xy)。x+y=4 を代入して 2 ≥ √(xy) → xy ≥ 4"
+        },
+        {
+          "label": "D",
+          "text": "xy を微分して 0 とおき極値を求める"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "制約条件下の最大値",
+        "相加・相乗平均の等号条件",
+        "等号成立の確認"
+      ]
+    },
+    {
+      "id": "ep-011",
+      "pattern_id": "p06",
+      "difficulty": "standard",
+      "question": "a + b + c = 0 のとき a³ + b³ + c³ = 3abc を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "c = −(a+b) と置き代入。a³+b³−(a+b)³ を展開すると −3a²b−3ab² = −3ab(a+b) = −3abc → よって a³+b³+c³ = −3abc"
+        },
+        {
+          "label": "B",
+          "text": "立方和の因数分解：a³+b³+c³−3abc = (a+b+c)(a²+b²+c²−ab−bc−ca)。a+b+c=0 を代入して右辺=0 → a³+b³+c³=3abc"
+        },
+        {
+          "label": "C",
+          "text": "a=1, b=−1, c=0 を代入：1+(−1)+0=3(1)(−1)(0)=0 で数値確認"
+        },
+        {
+          "label": "D",
+          "text": "a³+b³=(a+b)(a²−ab+b²)=(−c)(a²−ab+b²) と変形し c³ を加えて整理する"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "因数分解公式の活用",
+        "a+b+c=0の代入",
+        "結論を導く手順"
+      ]
+    },
+    {
+      "id": "ep-012",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "x > 0 のとき x + 4/x の最小値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x > 0, 4/x > 0 より相加・相乗平均：x + 4/x ≥ 2√(x·4/x) = 2×2 = 4。等号は x=4/x → x=2 のとき"
+        },
+        {
+          "label": "B",
+          "text": "x + 4/x を微分して 0：1 − 4/x² = 0 → x = 2"
+        },
+        {
+          "label": "C",
+          "text": "x + 4/x = (x−2)² と変形できるので最小値は 0"
+        },
+        {
+          "label": "D",
+          "text": "x=1 のとき x+4/x=5、x=2 のとき 4、x=4 のとき 5。最小値は 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "相加・相乗平均の適用条件",
+        "2√(積)の計算",
+        "等号条件の明示"
+      ]
+    },
+    {
+      "id": "ep-013",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "a > 0 のとき (a + 1/a)² の最小値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a + 1/a ≥ 2√(a·1/a) = 2 → (a+1/a)² ≥ 4。最小値は 4、a=1 のとき"
+        },
+        {
+          "label": "B",
+          "text": "(a+1/a)² を展開：a²+2+1/a² ≥ 2+2 = 4"
+        },
+        {
+          "label": "C",
+          "text": "a=1 のとき (1+1)²=4、a=2 のとき (5/2)²=25/4 > 4。最小値は 4 と推測"
+        },
+        {
+          "label": "D",
+          "text": "a + 1/a ≥ 2 なので (a+1/a)² の最小値は 2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "内側の最小値を先に求める",
+        "単調増加関数の合成",
+        "等号条件の確認"
+      ]
+    },
+    {
+      "id": "ep-014",
+      "pattern_id": "p08",
+      "difficulty": "standard",
+      "question": "(a²+b²)(c²+d²) ≥ (ac+bd)² を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "左辺−右辺 = a²c²+a²d²+b²c²+b²d²−a²c²−2abcd−b²d² = a²d²−2abcd+b²c² = (ad−bc)² ≥ 0"
+        },
+        {
+          "label": "B",
+          "text": "(a²+b²)(c²+d²)−(ac+bd)² = (ab−cd)² ≥ 0"
+        },
+        {
+          "label": "C",
+          "text": "a=1, b=0, c=1, d=0 で (1)(1) ≥ (1)² を確認"
+        },
+        {
+          "label": "D",
+          "text": "相加・相乗平均：a²c²+b²d² ≥ 2abcd を使い左辺 ≥ (ac+bd)² を示す"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "左辺−右辺を展開",
+        "(ad−bc)²≥0に帰着",
+        "等号条件ad=bc"
+      ]
+    },
+    {
+      "id": "ep-015",
+      "pattern_id": "p12",
+      "difficulty": "standard",
+      "question": "a²+b²+c² ≥ ab+bc+ca を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2(a²+b²+c²)−2(ab+bc+ca) = (a−b)²+(b−c)²+(c−a)² ≥ 0 → 両辺を 2 で割って証明"
+        },
+        {
+          "label": "B",
+          "text": "a²−ab = a(a−b) は a, b の符号によっては 0 未満になる場合があり証明できない"
+        },
+        {
+          "label": "C",
+          "text": "a=b=c=1 で等号成立を確認"
+        },
+        {
+          "label": "D",
+          "text": "2(a²+b²+c²)−2(ab+bc+ca) = (a+b)²+(b+c)²+(c+a)²−2(a²+b²+c²) ≥ 0 → 証明完了"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2倍して証明",
+        "(a−b)²+(b−c)²+(c−a)²≥0",
+        "等号条件a=b=c"
+      ]
+    },
+    {
+      "id": "ep-016",
+      "pattern_id": "p06",
+      "difficulty": "standard",
+      "question": "a/x = b/y = c/z のとき (a+b+c)/(x+y+z) = a/x が成立することを証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a/x = b/y = c/z = k とおくと a=kx, b=ky, c=kz → a+b+c = k(x+y+z) → (a+b+c)/(x+y+z) = k = a/x"
+        },
+        {
+          "label": "B",
+          "text": "分子どうし・分母どうしをそれぞれ足せば比が等しくなると主張するが、これは一般に成立しない"
+        },
+        {
+          "label": "C",
+          "text": "a/x = b/y より ay = bx、b/y = c/z より bz = cy から a+b+c を求める"
+        },
+        {
+          "label": "D",
+          "text": "a+b+c = a+b+c と x+y+z = x+y+z なので比は当然成立"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "比例式はkとおく",
+        "全体をk(x+y+z)と表す",
+        "比の合成の証明"
+      ]
+    },
+    {
+      "id": "ep-017",
+      "pattern_id": "p09",
+      "difficulty": "standard",
+      "question": "a, b, c > 0 のとき (a+b)(b+c)(c+a) ≥ 8abc を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "各因数に相加・相乗平均：a+b ≥ 2√(ab), b+c ≥ 2√(bc), c+a ≥ 2√(ca) → 掛け合わせると (a+b)(b+c)(c+a) ≥ 8√(ab)√(bc)√(ca) = 8abc"
+        },
+        {
+          "label": "B",
+          "text": "展開：(a+b)(b+c)(c+a) = a²b+a²c+ab²+b²c+ac²+bc²+2abc。各項 ≥ abc を示す"
+        },
+        {
+          "label": "C",
+          "text": "a=b=c=1 のとき両辺とも 8 で等号成立"
+        },
+        {
+          "label": "D",
+          "text": "a+b+c ≥ 3(abc)^(1/3)を使う"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "各因数に相加・相乗平均を適用",
+        "3つの不等式を掛け合わせる",
+        "等号条件a=b=c"
+      ]
+    },
+    {
+      "id": "ep-018",
+      "pattern_id": "p10",
+      "difficulty": "standard",
+      "question": "|a|−|b| ≤ |a−b| を証明する手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "|a| = |(a−b)+b| ≤ |a−b|+|b| → |a|−|b| ≤ |a−b|"
+        },
+        {
+          "label": "B",
+          "text": "両辺を2乗：(|a|−|b|)² = a²−2|ab|+b²、|a−b|² = a²−2ab+b²。−2|ab| ≤ −2ab より成立"
+        },
+        {
+          "label": "C",
+          "text": "a=3, b=1 で |3|−|1|=2 ≤ |2|=2 を確認"
+        },
+        {
+          "label": "D",
+          "text": "|b| = |b−a+a| ≤ |b−a|+|a| より |a|−|b| ≥ −|a−b|"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "三角不等式を利用",
+        "|a|=|(a−b)+b|と分解",
+        "移項して結論"
+      ]
+    },
+    {
+      "id": "ep-019",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "x > 0, y > 0, x + y = 1 のとき 1/x + 1/y の最小値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1/x+1/y = (x+y)/(xy) = 1/(xy)。xy ≤ (x+y)²/4 = 1/4 より 1/(xy) ≥ 4。等号は x=y=1/2"
+        },
+        {
+          "label": "B",
+          "text": "1/x+1/y の相加・相乗平均：1/x+1/y ≥ 2√(1/(xy)) ≥ 2×2=4"
+        },
+        {
+          "label": "C",
+          "text": "y=1−x として 1/x+1/(1−x) = 1/(x(1−x))。x(1−x) の最大値は 1/4 より 最小値は 1/4"
+        },
+        {
+          "label": "D",
+          "text": "1/x ≥ 4x と 1/y ≥ 4y を足して 1/x+1/y ≥ 4(x+y)=4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "(x+y)/(xy)への変形",
+        "xy≤1/4の根拠",
+        "最小値と等号条件"
+      ]
+    },
+    {
+      "id": "ep-020",
+      "pattern_id": "p11",
+      "difficulty": "standard",
+      "question": "a, b, c が実数で a² + b² + c² = 1 のとき ab + bc + ca の最大値・最小値を求める手順として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a+b+c)²=a²+b²+c²+2(ab+bc+ca)=1+2(ab+bc+ca) ≥ 0 → ab+bc+ca ≥ −1/2。上界は a²+b²+c²≥ab+bc+ca から ab+bc+ca ≤ 1"
+        },
+        {
+          "label": "B",
+          "text": "ab+bc+ca の最大値は a=b=c=1/√3 のとき 1"
+        },
+        {
+          "label": "C",
+          "text": "ab+bc+ca ≤ (a²+b²+c²)/2+1/2=1 の不等式を使う"
+        },
+        {
+          "label": "D",
+          "text": "(a−b)²+(b−c)²+(c−a)²=2(a²+b²+c²)−2(ab+bc+ca)=2−2(ab+bc+ca)≥0 → ab+bc+ca≤1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "(a+b+c)²≥0を利用",
+        "下界の評価",
+        "上界はa²+b²+c²≥ab+bc+caから"
+      ]
+    },
+    {
+      "id": "eip-024",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "a > 0, b > 0 のとき、(a+b)(1/a+1/b) ≥ 4 を証明する際の核心式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(a+b)(1/a+1/b)=2+(b/a)+(a/b)≥2+2=4(相加・相乗平均)"
+        },
+        {
+          "label": "B",
+          "text": "(a+b)(1/a+1/b)=(a+b)²/(ab)≥4(コーシー・シュワルツ)"
+        },
+        {
+          "label": "C",
+          "text": "(a+b)≥2√(ab)かつ(1/a+1/b)≥2/√(ab) を別々に使い積 ≥ 4"
+        },
+        {
+          "label": "D",
+          "text": "a=b=1 を代入して 4=4 を示す(一般性なし)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "展開後に b/a+a/b≥2 を適用",
+        "相加・相乗平均"
+      ]
+    },
+    {
+      "id": "eip-025",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "実数 a, b に対して a²+b²≥2ab を直接証明するとき、核心式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a²+b²−2ab=(a−b)²≥0 → a²+b²≥2ab(等号 a=b)"
+        },
+        {
+          "label": "B",
+          "text": "AM-GM より (a²+b²)/2≥√(a²b²)=|ab|≥ab → a²+b²≥2ab"
+        },
+        {
+          "label": "C",
+          "text": "a=b のとき等号成立 → 一般の場合は証明なし"
+        },
+        {
+          "label": "D",
+          "text": "両辺を b² で割って (a/b)²+1≥2(a/b) と変換(b=0 を排除できない)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "差の二乗≥0",
+        "等号条件 a=b"
+      ]
+    },
+    {
+      "id": "eip-026",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "|a+b| ≤ |a| + |b| を場合分けで証明するとき、考えるべき場合の数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a+b≥0 と a+b<0 の2場合で |a+b| を定義通り展開 → 2場合"
+        },
+        {
+          "label": "B",
+          "text": "a≥0,b≥0 / a≥0,b<0 / a<0,b≥0 / a<0,b<0 の4場合"
+        },
+        {
+          "label": "C",
+          "text": "|a+b|²≤(|a|+|b|)² を示せば十分(平方で場合分け不要) → 1通り"
+        },
+        {
+          "label": "D",
+          "text": "a>0,b>0 のみ示せば十分(正の場合のみ)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "絶対値の三角不等式",
+        "a+bの符号で2場合"
+      ]
+    },
+    {
+      "id": "eip-027",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "a+b+c=1 のとき、a²+b²+c²≥1/3 を証明する際に使う不等式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "コーシー・シュワルツ：(a²+b²+c²)(1+1+1)≥(a+b+c)²=1 → a²+b²+c²≥1/3"
+        },
+        {
+          "label": "B",
+          "text": "AM-GM：(a²+b²+c²)/3≥(a²b²c²)^(1/3)(abc条件なし)"
+        },
+        {
+          "label": "C",
+          "text": "a=b=c=1/3 のとき等号 → 一般証明なし"
+        },
+        {
+          "label": "D",
+          "text": "(a+b+c)²=a²+b²+c²+2(ab+bc+ca)=1 → ab+bc+ca≤1/3 だが a²+b²+c²≥1/3 は別途証明が必要"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "コーシー・シュワルツの活用",
+        "(1+1+1)との積"
+      ]
+    },
+    {
+      "id": "eip-028",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "x > 0 のとき、x + 1/x ≥ 2 を証明した後、等号成立条件として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x−2+1/x=(√x−1/√x)²≥0、等号は √x=1/√x → x=1"
+        },
+        {
+          "label": "B",
+          "text": "AM-GM より x+1/x≥2√(x×1/x)=2、等号は x=2"
+        },
+        {
+          "label": "C",
+          "text": "等号は x=0(x>0の条件外)"
+        },
+        {
+          "label": "D",
+          "text": "等号は x=4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "x+1/x≥2の等号条件",
+        "x=1"
+      ]
+    },
+    {
+      "id": "eip-029",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "背理法で「√2 は無理数」を証明する際の仮定と矛盾の導き方として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√2=p/q(既約分数)と仮定 → p²=2q² → p は偶数 → q も偶数 → 既約に矛盾"
+        },
+        {
+          "label": "B",
+          "text": "√2 が有理数と仮定 → √2=p/q → p²=2q² → p は奇数(偶奇の判断ミス)"
+        },
+        {
+          "label": "C",
+          "text": "√2 が無理数でないと仮定 → √2 は整数 → √2=1 または 2 → いずれも 1.41...≠ → 矛盾"
+        },
+        {
+          "label": "D",
+          "text": "p²=2q² で p=2k とおくと 4k²=2q² → q²=2k² → q=2m → q/k=2(比が整数 → 矛盾とする誤り)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "背理法",
+        "√2の無理数証明"
+      ]
+    },
+    {
+      "id": "eip-030",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "a, b > 0 で a+b=1 のとき、√a+√b の最大値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(√a+√b)²=a+b+2√(ab)=1+2√(ab)≤1+2×(a+b)/2=2 → 最大 √2(等号 a=b=1/2)"
+        },
+        {
+          "label": "B",
+          "text": "a=b=1/2 のとき √(1/2)+√(1/2)=√2(具体値の確認のみ)"
+        },
+        {
+          "label": "C",
+          "text": "AM-GM で √a+√b≤(a+b)/2+1=3/2(不等号方向のミス)"
+        },
+        {
+          "label": "D",
+          "text": "√a+√b ≤ a+b = 1 より最大値は 1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "2乗して上界を求める",
+        "AM-GMの応用"
+      ]
+    },
+    {
+      "id": "eip-031",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "数学的帰納法で 1+2+3+...+n = n(n+1)/2 を証明するとき、帰納段階（n=k→n=k+1）の核心式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "k(k+1)/2+(k+1)=(k+1)(k+2)/2 が成立することを確認"
+        },
+        {
+          "label": "B",
+          "text": "n=k+1 のとき直接 (k+1)(k+2)/2 と計算する(帰納仮定を使わない)"
+        },
+        {
+          "label": "C",
+          "text": "1+2+...+k=k(k+1)/2 を仮定して 1+2+...+(k+1)=k(k+1)/2+(k+1) と書くだけで終わる"
+        },
+        {
+          "label": "D",
+          "text": "k(k+1)/2+(k+1)=k(k+3)/2+1/2(展開ミス)"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "帰納段階の核心",
+        "帰納仮定+次の項=目標式"
+      ]
+    },
+    {
+      "id": "eip-032",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "正の実数 x, y で xy = 1 のとき、x + y の最小値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "AM-GM: x+y ≥ 2√(xy) = 2、等号は x=y=1 → 最小値 = 2"
+        },
+        {
+          "label": "B",
+          "text": "x+y = xy+1 = 2(xy=1 を直接代入) → 最小値2(根拠が不完全)"
+        },
+        {
+          "label": "C",
+          "text": "x+y > 2(等号なし) → 最小値なし"
+        },
+        {
+          "label": "D",
+          "text": "x=0.5, y=2 → x+y=2.5 → 最小は 2 以下の値がある"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "AM-GM不等式",
+        "最小値=2（等号x=y=1）"
+      ]
+    },
+    {
+      "id": "eip-033",
+      "subject": "math",
+      "unit": "等式・不等式の証明",
+      "difficulty": "exam",
+      "question": "(a−b)² + (b−c)² + (c−a)² ≥ 0 を利用して a²+b²+c² ≥ ab+bc+ca を示すとき、核心式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "展開すると 2(a²+b²+c²−ab−bc−ca) ≥ 0 → a²+b²+c² ≥ ab+bc+ca"
+        },
+        {
+          "label": "B",
+          "text": "各二乗が非負なので右辺 ≥ 0(左辺との関係を示していない)"
+        },
+        {
+          "label": "C",
+          "text": "(a−b)²≥0 のみ使用 → a²+b²≥2ab(c を含まない)"
+        },
+        {
+          "label": "D",
+          "text": "展開して 2a²+2b²+2c²−2ab−2bc−2ca ≥ 0 → 係数 2 で割らず a²+b²+c²≥ab+bc+ca×2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "展開の核心式",
+        "2(a²+b²+c²−ab−bc−ca)≥0"
+      ]
+    }
+  ]
+}

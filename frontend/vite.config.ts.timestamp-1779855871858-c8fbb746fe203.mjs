@@ -1,0 +1,55 @@
+// vite.config.ts
+import { defineConfig } from "file:///sessions/nice-gallant-hawking/mnt/QuizStudyApp/frontend/node_modules/vite/dist/node/index.js";
+import react from "file:///sessions/nice-gallant-hawking/mnt/QuizStudyApp/frontend/node_modules/@vitejs/plugin-react/dist/index.js";
+import path from "path";
+import {
+  createReadStream,
+  existsSync,
+  statSync,
+  readdirSync,
+  mkdirSync,
+  copyFileSync
+} from "fs";
+var __vite_injected_original_dirname = "/sessions/nice-gallant-hawking/mnt/QuizStudyApp/frontend";
+var CURRICULUM_SRC = path.resolve(__vite_injected_original_dirname, "../curriculum");
+var CURRICULUM_DEST = path.resolve(__vite_injected_original_dirname, "dist/curriculum");
+function copyDirRecursive(src, dest) {
+  mkdirSync(dest, { recursive: true });
+  for (const entry of readdirSync(src)) {
+    const srcPath = path.join(src, entry);
+    const destPath = path.join(dest, entry);
+    if (statSync(srcPath).isDirectory()) {
+      copyDirRecursive(srcPath, destPath);
+    } else {
+      copyFileSync(srcPath, destPath);
+    }
+  }
+}
+var curriculumPlugin = {
+  name: "vite-plugin-curriculum",
+  configureServer(server) {
+    server.middlewares.use("/curriculum", (req, res, next) => {
+      const filePath = path.join(CURRICULUM_SRC, req.url ?? "");
+      if (existsSync(filePath) && statSync(filePath).isFile()) {
+        res.setHeader("Content-Type", "application/json; charset=utf-8");
+        res.setHeader("Cache-Control", "no-cache");
+        createReadStream(filePath).pipe(res);
+      } else {
+        next();
+      }
+    });
+  },
+  closeBundle() {
+    if (existsSync(CURRICULUM_SRC)) {
+      copyDirRecursive(CURRICULUM_SRC, CURRICULUM_DEST);
+      console.log("[curriculum] copy done -> dist/curriculum/");
+    }
+  }
+};
+var vite_config_default = defineConfig({
+  plugins: [react(), curriculumPlugin]
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvc2Vzc2lvbnMvbmljZS1nYWxsYW50LWhhd2tpbmcvbW50L1F1aXpTdHVkeUFwcC9mcm9udGVuZFwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiL3Nlc3Npb25zL25pY2UtZ2FsbGFudC1oYXdraW5nL21udC9RdWl6U3R1ZHlBcHAvZnJvbnRlbmQvdml0ZS5jb25maWcudHNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL3Nlc3Npb25zL25pY2UtZ2FsbGFudC1oYXdraW5nL21udC9RdWl6U3R1ZHlBcHAvZnJvbnRlbmQvdml0ZS5jb25maWcudHNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcsIHR5cGUgUGx1Z2luIH0gZnJvbSAndml0ZSdcbmltcG9ydCB0eXBlIHsgVml0ZURldlNlcnZlciB9IGZyb20gJ3ZpdGUnXG5pbXBvcnQgcmVhY3QgZnJvbSAnQHZpdGVqcy9wbHVnaW4tcmVhY3QnXG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJ1xuaW1wb3J0IHtcbiAgY3JlYXRlUmVhZFN0cmVhbSxcbiAgZXhpc3RzU3luYyxcbiAgc3RhdFN5bmMsXG4gIHJlYWRkaXJTeW5jLFxuICBta2RpclN5bmMsXG4gIGNvcHlGaWxlU3luYyxcbn0gZnJvbSAnZnMnXG5cbmNvbnN0IENVUlJJQ1VMVU1fU1JDID0gcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJy4uL2N1cnJpY3VsdW0nKVxuY29uc3QgQ1VSUklDVUxVTV9ERVNUID0gcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJ2Rpc3QvY3VycmljdWx1bScpXG5cbmZ1bmN0aW9uIGNvcHlEaXJSZWN1cnNpdmUoc3JjOiBzdHJpbmcsIGRlc3Q6IHN0cmluZykge1xuICBta2RpclN5bmMoZGVzdCwgeyByZWN1cnNpdmU6IHRydWUgfSlcbiAgZm9yIChjb25zdCBlbnRyeSBvZiByZWFkZGlyU3luYyhzcmMpKSB7XG4gICAgY29uc3Qgc3JjUGF0aCAgPSBwYXRoLmpvaW4oc3JjLCBlbnRyeSlcbiAgICBjb25zdCBkZXN0UGF0aCA9IHBhdGguam9pbihkZXN0LCBlbnRyeSlcbiAgICBpZiAoc3RhdFN5bmMoc3JjUGF0aCkuaXNEaXJlY3RvcnkoKSkge1xuICAgICAgY29weURpclJlY3Vyc2l2ZShzcmNQYXRoLCBkZXN0UGF0aClcbiAgICB9IGVsc2Uge1xuICAgICAgY29weUZpbGVTeW5jKHNyY1BhdGgsIGRlc3RQYXRoKVxuICAgIH1cbiAgfVxufVxuXG5jb25zdCBjdXJyaWN1bHVtUGx1Z2luOiBQbHVnaW4gPSB7XG4gIG5hbWU6ICd2aXRlLXBsdWdpbi1jdXJyaWN1bHVtJyxcblxuICBjb25maWd1cmVTZXJ2ZXIoc2VydmVyOiBWaXRlRGV2U2VydmVyKSB7XG4gICAgc2VydmVyLm1pZGRsZXdhcmVzLnVzZSgnL2N1cnJpY3VsdW0nLCAocmVxLCByZXMsIG5leHQpID0+IHtcbiAgICAgIGNvbnN0IGZpbGVQYXRoID0gcGF0aC5qb2luKENVUlJJQ1VMVU1fU1JDLCByZXEudXJsID8/ICcnKVxuICAgICAgaWYgKGV4aXN0c1N5bmMoZmlsZVBhdGgpICYmIHN0YXRTeW5jKGZpbGVQYXRoKS5pc0ZpbGUoKSkge1xuICAgICAgICByZXMuc2V0SGVhZGVyKCdDb250ZW50LVR5cGUnLCAnYXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOCcpXG4gICAgICAgIHJlcy5zZXRIZWFkZXIoJ0NhY2hlLUNvbnRyb2wnLCAnbm8tY2FjaGUnKVxuICAgICAgICBjcmVhdGVSZWFkU3RyZWFtKGZpbGVQYXRoKS5waXBlKHJlcylcbiAgICAgIH0gZWxzZSB7XG4gICAgICAgIG5leHQoKVxuICAgICAgfVxuICAgIH0pXG4gIH0sXG5cbiAgY2xvc2VCdW5kbGUoKSB7XG4gICAgaWYgKGV4aXN0c1N5bmMoQ1VSUklDVUxVTV9TUkMpKSB7XG4gICAgICBjb3B5RGlyUmVjdXJzaXZlKENVUlJJQ1VMVU1fU1JDLCBDVVJSSUNVTFVNX0RFU1QpXG4gICAgICBjb25zb2xlLmxvZygnW2N1cnJpY3VsdW1dIGNvcHkgZG9uZSAtPiBkaXN0L2N1cnJpY3VsdW0vJylcbiAgICB9XG4gIH0sXG59XG5cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG4gIHBsdWdpbnM6IFtyZWFjdCgpLCBjdXJyaWN1bHVtUGx1Z2luXSxcbn0pXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQTBWLFNBQVMsb0JBQWlDO0FBRXBZLE9BQU8sV0FBVztBQUNsQixPQUFPLFVBQVU7QUFDakI7QUFBQSxFQUNFO0FBQUEsRUFDQTtBQUFBLEVBQ0E7QUFBQSxFQUNBO0FBQUEsRUFDQTtBQUFBLEVBQ0E7QUFBQSxPQUNLO0FBWFAsSUFBTSxtQ0FBbUM7QUFhekMsSUFBTSxpQkFBaUIsS0FBSyxRQUFRLGtDQUFXLGVBQWU7QUFDOUQsSUFBTSxrQkFBa0IsS0FBSyxRQUFRLGtDQUFXLGlCQUFpQjtBQUVqRSxTQUFTLGlCQUFpQixLQUFhLE1BQWM7QUFDbkQsWUFBVSxNQUFNLEVBQUUsV0FBVyxLQUFLLENBQUM7QUFDbkMsYUFBVyxTQUFTLFlBQVksR0FBRyxHQUFHO0FBQ3BDLFVBQU0sVUFBVyxLQUFLLEtBQUssS0FBSyxLQUFLO0FBQ3JDLFVBQU0sV0FBVyxLQUFLLEtBQUssTUFBTSxLQUFLO0FBQ3RDLFFBQUksU0FBUyxPQUFPLEVBQUUsWUFBWSxHQUFHO0FBQ25DLHVCQUFpQixTQUFTLFFBQVE7QUFBQSxJQUNwQyxPQUFPO0FBQ0wsbUJBQWEsU0FBUyxRQUFRO0FBQUEsSUFDaEM7QUFBQSxFQUNGO0FBQ0Y7QUFFQSxJQUFNLG1CQUEyQjtBQUFBLEVBQy9CLE1BQU07QUFBQSxFQUVOLGdCQUFnQixRQUF1QjtBQUNyQyxXQUFPLFlBQVksSUFBSSxlQUFlLENBQUMsS0FBSyxLQUFLLFNBQVM7QUFDeEQsWUFBTSxXQUFXLEtBQUssS0FBSyxnQkFBZ0IsSUFBSSxPQUFPLEVBQUU7QUFDeEQsVUFBSSxXQUFXLFFBQVEsS0FBSyxTQUFTLFFBQVEsRUFBRSxPQUFPLEdBQUc7QUFDdkQsWUFBSSxVQUFVLGdCQUFnQixpQ0FBaUM7QUFDL0QsWUFBSSxVQUFVLGlCQUFpQixVQUFVO0FBQ3pDLHlCQUFpQixRQUFRLEVBQUUsS0FBSyxHQUFHO0FBQUEsTUFDckMsT0FBTztBQUNMLGFBQUs7QUFBQSxNQUNQO0FBQUEsSUFDRixDQUFDO0FBQUEsRUFDSDtBQUFBLEVBRUEsY0FBYztBQUNaLFFBQUksV0FBVyxjQUFjLEdBQUc7QUFDOUIsdUJBQWlCLGdCQUFnQixlQUFlO0FBQ2hELGNBQVEsSUFBSSw0Q0FBNEM7QUFBQSxJQUMxRDtBQUFBLEVBQ0Y7QUFDRjtBQUVBLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVMsQ0FBQyxNQUFNLEdBQUcsZ0JBQWdCO0FBQ3JDLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==

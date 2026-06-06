@@ -1,0 +1,66 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "properties-of-exponential-functions",
+  "name": "指数関数の性質",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "exponent-laws",
+      "description": "指数法則（積・商・累乗の累乗）の適用",
+      "thinking_process": [
+        "aᵐ×aⁿ=aᵐ⁺ⁿ を確認",
+        "(aᵐ)ⁿ=aᵐⁿ を確認",
+        "底が同じか確認してから計算"
+      ],
+      "common_mistakes": [
+        "指数を掛けてしまう（aˣ×aʸ=aˣʸ と誤る）",
+        "底が異なる場合は法則が使えない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "fractional-exponent",
+      "description": "分数指数 a^(m/n) = (ⁿ√a)ᵐ の計算",
+      "thinking_process": [
+        "n乗根（ⁿ√a）を先に計算",
+        "得られた値を m 乗する",
+        "分母が根号、分子が指数"
+      ],
+      "common_mistakes": [
+        "m と n を逆に使う",
+        "a^(1/2) = a/2 と誤解"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "exponential-equation",
+      "description": "指数方程式を解く（底を揃えて指数を比較）",
+      "thinking_process": [
+        "左辺・右辺を同じ底の累乗に変換",
+        "指数部分の方程式を解く",
+        "解が定義域を満たすか確認"
+      ],
+      "common_mistakes": [
+        "底が異なるのにそのまま比較する",
+        "2ˣ=t の置換後に t>0 の条件を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "exponential-inequality",
+      "description": "指数不等式を解く（底の大小で不等号の向きが変わる）",
+      "thinking_process": [
+        "底が 1 より大きい場合は不等号そのまま",
+        "底が 1 より小さい場合は不等号が逆転",
+        "底を 1 より大きい数に揃えてから比較"
+      ],
+      "common_mistakes": [
+        "底が 1 未満のとき不等号を逆転しない",
+        "log を使うべき場面で指数のまま比較する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

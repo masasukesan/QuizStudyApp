@@ -1,0 +1,137 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "trigonometric-functions",
+  "subunit": "trigonometric-graphs",
+  "name": "三角関数のグラフ",
+  "en": "Trigonometric Graphs",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "basic-graph-properties",
+      "description": "sin・cos・tan の基本グラフの周期・振幅・値域を読み取る",
+      "thinking_process": [
+        "y = sin x / cos x の周期は 2π、tan x の周期は π を確認する",
+        "振幅（グラフの山の高さ）は係数の絶対値と一致することを確認する",
+        "値域 -1 ≤ y ≤ 1（sin/cos）や実数全体（tan）を確認する"
+      ],
+      "common_mistakes": [
+        "sin と tan の周期を混同して周期 2π と π を逆に答える",
+        "振幅と周期の定義を混同して係数を周期に代入してしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "graph-transformation-amplitude-period",
+      "description": "y = A sin(Bx) 型の振幅・周期を求める変換問題",
+      "thinking_process": [
+        "振幅 = |A|（y 軸方向の伸縮）を求める",
+        "周期 = 2π/|B|（x 軸方向の伸縮）を計算する",
+        "B が分数の場合は逆数をとって計算する（例：B=1/2 → 周期=4π）"
+      ],
+      "common_mistakes": [
+        "周期を 2π×B と計算してしまう（正しくは 2π/B）",
+        "B の係数を振幅と間違える（A が振幅、B は周期に関係）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "graph-shift-vertical-horizontal",
+      "description": "y = sin x + k や y = sin(x + c) のグラフの平行移動を判断する",
+      "thinking_process": [
+        "y = f(x) + k は y 軸方向に k だけ平行移動",
+        "y = f(x + c) は x 軸方向に -c だけ平行移動（符号に注意）",
+        "移動後の最大値・最小値・値域を再計算する"
+      ],
+      "common_mistakes": [
+        "y = sin(x + c) を「+c 方向」に移動と勘違いする（実際は -c 方向）",
+        "y = sin(Bx + c) で位相シフトを c と混同する（正しくは c/B）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "graph-transformation-combined",
+      "description": "振幅・周期・平行移動が複合した y = A sin(Bx + C) + D 型の特徴を読み取る",
+      "thinking_process": [
+        "y = A sin(Bx + C) + D の形に整理する",
+        "振幅 = |A|、周期 = 2π/|B|、x 軸シフト = -C/B、y 軸シフト = D を求める",
+        "値域 D - |A| ≤ y ≤ D + |A| を確認する"
+      ],
+      "common_mistakes": [
+        "y = A sin(Bx + C) + D の C/B を位相シフトと間違えて符号を誤る",
+        "振幅と y 軸シフトを混同して最大値・最小値の計算を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "graph-symmetry-even-odd",
+      "description": "sin・cos・tan の偶関数・奇関数の性質とグラフの対称性を判断する",
+      "thinking_process": [
+        "偶関数（cos）は y 軸対称、奇関数（sin, tan）は原点対称を確認する",
+        "f(-x) = f(x) なら偶関数、f(-x) = -f(x) なら奇関数と判定する",
+        "グラフで対称軸・対称点を視覚的に確認する"
+      ],
+      "common_mistakes": [
+        "sin を偶関数・cos を奇関数と逆に覚えてしまう",
+        "対称の種類（軸対称と点対称）を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "graph-intersection-zero",
+      "description": "三角関数のグラフが x 軸・他の三角関数グラフと交わる点を求める",
+      "thinking_process": [
+        "y = 0 となる x の値を求める（sin x = 0 → x = nπ など）",
+        "2つのグラフの交点は方程式として立て sin = cos → tan x = 1 などに変形する",
+        "指定区間内の解を列挙する"
+      ],
+      "common_mistakes": [
+        "sin x = cos x を tan x = 1 に変形せず個別に解こうとする",
+        "sin の零点を π/2 と間違える（正しくは 0, π, 2π...）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "trigonometric-synthesis",
+      "description": "a sin x + b cos x を R sin(x + α) の形に合成して最大値・最小値を求める",
+      "thinking_process": [
+        "R = √(a² + b²) を計算する",
+        "tan α = b/a から α の値を求める（第1象限か確認）",
+        "R sin(x + α) の最大値 R・最小値 -R を読み取る"
+      ],
+      "common_mistakes": [
+        "R を a + b と計算してしまう（正しくは √(a²+b²)）",
+        "合成後の式の位相 α の符号を誤る"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "double-angle-half-angle-graph",
+      "description": "2倍角・半角公式を使ってグラフの周期や最大値を変形して求める",
+      "thinking_process": [
+        "sin²x = (1 - cos 2x)/2 などの半角公式で式を変形する",
+        "変形後の cos(2x) などの周期を求める",
+        "y 軸シフトや振幅を変形後の式から読み取る"
+      ],
+      "common_mistakes": [
+        "sin²x の周期を 2π と答えてしまう（変形すれば π になる）",
+        "半角公式の符号（±）を間違える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "absolute-value-and-inverse-graph",
+      "description": "|sin x| や逆三角関数的変形グラフの周期・形状を判断する",
+      "thinking_process": [
+        "y = |sin x| は負の部分が折り返され、周期が元の半分になることを確認する",
+        "折り返し後の形状（すべて正の山が続く）をイメージする",
+        "グラフの最大値・最小値・零点を新しい周期で計算する"
+      ],
+      "common_mistakes": [
+        "絶対値を取っても周期が変わらないと思い込む",
+        "y = |sin x| の最小値を -1 と答える（正しくは 0）"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

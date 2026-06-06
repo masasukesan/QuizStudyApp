@@ -1,0 +1,151 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "coordinate-geometry",
+  "subunit": "points-and-lines",
+  "name": "点と直線の方程式",
+  "en": "Points and Lines",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "midpoint-and-distance",
+      "description": "2点間の距離・中点公式を使って座標を求める",
+      "thinking_process": [
+        "2点 (x₁,y₁)、(x₂,y₂) の中点は ((x₁+x₂)/2, (y₁+y₂)/2)",
+        "2点間の距離は √{(x₂-x₁)²+(y₂-y₁)²}",
+        "問われた値を公式に代入して計算する"
+      ],
+      "common_mistakes": [
+        "中点公式で平均でなく差を使う",
+        "距離公式で√の中の計算順序を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "internal-external-division",
+      "description": "内分・外分点の座標を求める",
+      "thinking_process": [
+        "内分点 m:n は ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))",
+        "外分点 m:n は ((mx₂-nx₁)/(m-n), (my₂-ny₁)/(m-n))",
+        "m と n の値を公式に正しく代入する"
+      ],
+      "common_mistakes": [
+        "内分と外分の公式を混同する",
+        "分子の順序（mx₂+nx₁）を逆にする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "equation-of-line",
+      "description": "傾きと通過点から直線の方程式を作る",
+      "thinking_process": [
+        "y-y₁ = m(x-x₁) の点傾き形を使う",
+        "2点が与えられたら先に傾き m = (y₂-y₁)/(x₂-x₁) を求める",
+        "方程式を整理して一般形や傾き切片形にする"
+      ],
+      "common_mistakes": [
+        "y₁ を引くのを忘れて y = m(x-x₁) にする",
+        "傾きの計算で分子分母を逆にする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "distance-from-point-to-line",
+      "description": "点から直線への距離公式を使う",
+      "thinking_process": [
+        "直線を ax+by+c=0 の形に整える",
+        "距離 = |ax₀+by₀+c| / √(a²+b²) を適用する",
+        "絶対値と分母の√を正しく計算する"
+      ],
+      "common_mistakes": [
+        "分母を a²+b² にして√を忘れる",
+        "絶対値を外して符号を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "parallel-and-perpendicular",
+      "description": "2直線の平行・垂直条件を傾きで判定する",
+      "thinking_process": [
+        "平行：傾きが等しい（m₁=m₂、切片は異なる）",
+        "垂直：傾きの積が -1（m₁m₂=-1）",
+        "直線を y=mx+b の形に変形して傾きを読む"
+      ],
+      "common_mistakes": [
+        "垂直条件を m₁=m₂ と混同する",
+        "傾きが 0 や未定義のときの例外を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "intersection-of-lines",
+      "description": "2直線の交点を連立方程式で求める",
+      "thinking_process": [
+        "2本の方程式を連立する",
+        "代入法または加減法で x を求める",
+        "x を一方の式に代入して y を求める"
+      ],
+      "common_mistakes": [
+        "代入時に符号を誤る",
+        "平行な直線は交点なし（交点を誤って計算する）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "line-through-intersection",
+      "description": "2直線の交点を通る直線を k 利用で表す",
+      "thinking_process": [
+        "2直線 f(x,y)=0、g(x,y)=0 の交点を通る直線は f+kg=0 の形",
+        "追加条件（通過点など）で k を決める",
+        "k を代入して整理する"
+      ],
+      "common_mistakes": [
+        "k=0 の場合（元の直線）を候補から外してしまう",
+        "kの値を求めずに交点の座標を別計算してしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "condition-for-collinearity",
+      "description": "3点が一直線上にある条件を求める",
+      "thinking_process": [
+        "2点を結ぶ直線の方程式を求める",
+        "3点目をその方程式に代入して成立するか確認する",
+        "または3点で作る三角形の面積=0 を使う"
+      ],
+      "common_mistakes": [
+        "3点の傾きを別々に計算して等しいかを確認しない",
+        "分母が0になる場合（縦線）を見落とす"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "coefficient-determination-from-conditions",
+      "description": "直線が与えられた条件を満たす係数を決定する",
+      "thinking_process": [
+        "直線の方程式を未知係数を含む形で表す",
+        "条件（通過点・平行・垂直など）を等式にする",
+        "方程式を解いて係数を求める"
+      ],
+      "common_mistakes": [
+        "条件を1つだけ使って係数を1つしか決めない",
+        "連立した式の計算ミス"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "distance-inequality-and-region",
+      "description": "点と直線の距離を不等式で表す領域を求める",
+      "thinking_process": [
+        "距離公式 d = |ax+by+c|/√(a²+b²) を整理する",
+        "d < r（または d ≤ r）の条件を立てる",
+        "絶対値を外して領域を図示する"
+      ],
+      "common_mistakes": [
+        "絶対値を外すときに2つのケースを書かない",
+        "√(a²+b²) の値を計算ミスする"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

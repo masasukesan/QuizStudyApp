@@ -1,0 +1,77 @@
+{
+  "unit_id": "dot-product",
+  "unit_name_jp": "内積",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "dp-def",
+      "description": "内積の定義 a·b = |a||b|cosθ と成分表示 a₁b₁ + a₂b₂",
+      "thinking_process": [
+        "なす角 θ を求める",
+        "cos θ を計算"
+      ],
+      "common_mistakes": [
+        "θ の範囲が 0° ≦ θ ≦ 180° であることを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "dp-perp",
+      "description": "垂直条件 a·b = 0 の確認と応用",
+      "thinking_process": [
+        "a·b = 0 ↔ cosθ = 0 ↔ θ = 90°"
+      ],
+      "common_mistakes": [
+        "a·b = 0 でもゼロベクトルの場合は θ が定まらない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "dp-angle",
+      "description": "なす角 θ の計算（内積と大きさから）",
+      "thinking_process": [
+        "cosθ = (a·b)/(|a||b|) を計算",
+        "0° ≦ θ ≦ 180° の範囲で θ を求める"
+      ],
+      "common_mistakes": [
+        "θ を鋭角とは限らないのに鋭角のみ答える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "dp-expand",
+      "description": "|a + b|² = |a|² + 2a·b + |b|² の展開途中式",
+      "thinking_process": [
+        "|a + b|² = (a + b)·(a + b) を展開",
+        "a·a = |a|²"
+      ],
+      "common_mistakes": [
+        "a·b を 2 倍し忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "dp-proof-comm",
+      "description": "内積の交換法則 a·b = b·a の証明",
+      "thinking_process": [
+        "定義から a·b = |a||b|cosθ = b·a"
+      ],
+      "common_mistakes": [
+        "内積が交換可能かどうか自明と思い証明を省く"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "dp-proof-dist",
+      "description": "内積の分配法則 a·(b + c) = a·b + a·c の証明（成分を使って）",
+      "thinking_process": [
+        "成分展開で両辺が一致することを示す"
+      ],
+      "common_mistakes": [
+        "外積と混同"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

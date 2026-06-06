@@ -1,0 +1,866 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "exponential-and-logarithmic-functions",
+  "subunit": "properties-of-exponential-functions",
+  "questions": [
+    {
+      "id": "pef-001",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "2³ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "累乗計算"
+      ]
+    },
+    {
+      "id": "pef-002",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "a⁰ の値(a≠0)として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "a"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "a⁰ は定義されない"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "0乗"
+      ]
+    },
+    {
+      "id": "pef-003",
+      "pattern_id": "p01",
+      "difficulty": "basic",
+      "question": "a⁻ⁿ の意味として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aⁿ"
+        },
+        {
+          "label": "B",
+          "text": "a/n"
+        },
+        {
+          "label": "C",
+          "text": "1/aⁿ"
+        },
+        {
+          "label": "D",
+          "text": "−aⁿ"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "負の指数"
+      ]
+    },
+    {
+      "id": "pef-004",
+      "pattern_id": "p02",
+      "difficulty": "basic",
+      "question": "2⁴ × 2³ を計算した結果として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2⁷ ではなく 2¹"
+        },
+        {
+          "label": "B",
+          "text": "4⁷"
+        },
+        {
+          "label": "C",
+          "text": "2⁷=128"
+        },
+        {
+          "label": "D",
+          "text": "2¹²=4096"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数法則",
+        "積"
+      ]
+    },
+    {
+      "id": "pef-005",
+      "pattern_id": "p02",
+      "difficulty": "basic",
+      "question": "(2³)² を計算した結果として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2⁵=32"
+        },
+        {
+          "label": "B",
+          "text": "2⁹=512"
+        },
+        {
+          "label": "C",
+          "text": "4⁶"
+        },
+        {
+          "label": "D",
+          "text": "2⁶=64"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "指数法則",
+        "累乗の累乗"
+      ]
+    },
+    {
+      "id": "pef-006",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "y=2ˣ のグラフの特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x が増加するにつれて y も増加し、常に y>0"
+        },
+        {
+          "label": "B",
+          "text": "x が増加すると y は減少する"
+        },
+        {
+          "label": "C",
+          "text": "y は負の値をとることもある"
+        },
+        {
+          "label": "D",
+          "text": "x=0 で y=0 を通る"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数関数のグラフ",
+        "単調増加"
+      ]
+    },
+    {
+      "id": "pef-007",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "y=(1/2)ˣ のグラフの特徴として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "底が 1 より大きいので増加する"
+        },
+        {
+          "label": "B",
+          "text": "x が増加するにつれて y は減少し、常に y>0"
+        },
+        {
+          "label": "C",
+          "text": "y は x=0 で 0"
+        },
+        {
+          "label": "D",
+          "text": "x が増加すると y も増加する"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "指数関数",
+        "単調減少"
+      ]
+    },
+    {
+      "id": "pef-008",
+      "pattern_id": "p03",
+      "difficulty": "basic",
+      "question": "指数関数 y=aˣ(a>0,a≠1)はどの点を必ず通るか。正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "点 (0,0)"
+        },
+        {
+          "label": "B",
+          "text": "点 (1,0)"
+        },
+        {
+          "label": "C",
+          "text": "点 (1,a²)"
+        },
+        {
+          "label": "D",
+          "text": "点 (0,1)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "固定点",
+        "(0,1)"
+      ]
+    },
+    {
+      "id": "pef-009",
+      "pattern_id": "p04",
+      "difficulty": "basic",
+      "question": "2ˣ=8 のとき x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=4"
+        },
+        {
+          "label": "B",
+          "text": "x=6"
+        },
+        {
+          "label": "C",
+          "text": "x=3"
+        },
+        {
+          "label": "D",
+          "text": "x=2"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数方程式の基本"
+      ]
+    },
+    {
+      "id": "pef-010",
+      "pattern_id": "p02",
+      "difficulty": "basic",
+      "question": "指数の除法公式 aˣ÷aʸ=? として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aˣ⁻ʸ"
+        },
+        {
+          "label": "B",
+          "text": "(a/a)ˣ"
+        },
+        {
+          "label": "C",
+          "text": "aˣ⁺ʸ"
+        },
+        {
+          "label": "D",
+          "text": "aˣ/ʸ"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数法則",
+        "割り算"
+      ]
+    },
+    {
+      "id": "pef-011",
+      "pattern_id": "p05",
+      "difficulty": "standard",
+      "question": "4^(3/2) を計算するとき、a^(m/n) = (a^m)^(1/n) = (ⁿ√a)^m の公式を適用する。4^(3/2) = (√4)^3 の変形として正しい途中式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "√4 = 2 なので (√4)³ = 2³ = 8"
+        },
+        {
+          "label": "B",
+          "text": "√4 = 4 なので (√4)³ = 4³ = 64"
+        },
+        {
+          "label": "C",
+          "text": "4^(3/2) = 4^3 × 4^(1/2) = 64 × 2 = 128"
+        },
+        {
+          "label": "D",
+          "text": "√4 = 2 なので (√4)³ = 2² = 4"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分数指数"
+      ]
+    },
+    {
+      "id": "pef-012",
+      "pattern_id": "p05",
+      "difficulty": "standard",
+      "question": "8^(2/3) を計算するとき、8^(2/3) = (∛8)² として変形する。∛8 の値として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "∛8 = 2(なぜなら 2³ = 8)"
+        },
+        {
+          "label": "B",
+          "text": "∛8 = 4(なぜなら 4² = 8 に近い)"
+        },
+        {
+          "label": "C",
+          "text": "∛8 = 3(なぜなら 3³ = 27 に近い)"
+        },
+        {
+          "label": "D",
+          "text": "∛8 = √8 = 2√2"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分数指数"
+      ]
+    },
+    {
+      "id": "pef-013",
+      "pattern_id": "p06",
+      "difficulty": "standard",
+      "question": "y=2ˣ のグラフを x 軸方向に 2 平行移動した式として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=2ˣ−2"
+        },
+        {
+          "label": "B",
+          "text": "y=2ˣ⁺²"
+        },
+        {
+          "label": "C",
+          "text": "y=4×2ˣ"
+        },
+        {
+          "label": "D",
+          "text": "y=2ˣ⁻²"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "グラフの平行移動"
+      ]
+    },
+    {
+      "id": "pef-014",
+      "pattern_id": "p06",
+      "difficulty": "standard",
+      "question": "y=3ˣ と y=3⁻ˣ のグラフの関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "平行移動の関係"
+        },
+        {
+          "label": "B",
+          "text": "原点に関して対称"
+        },
+        {
+          "label": "C",
+          "text": "y 軸に関して対称"
+        },
+        {
+          "label": "D",
+          "text": "x 軸に関して対称"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "グラフの対称"
+      ]
+    },
+    {
+      "id": "pef-015",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "2ˣ < 2³ のとき x の範囲として正しいものはどれか(底 2>1)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x > 3"
+        },
+        {
+          "label": "B",
+          "text": "x ≤ 3"
+        },
+        {
+          "label": "C",
+          "text": "x < 3"
+        },
+        {
+          "label": "D",
+          "text": "x > −3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数不等式",
+        "単調増加"
+      ]
+    },
+    {
+      "id": "pef-016",
+      "pattern_id": "p07",
+      "difficulty": "standard",
+      "question": "(1/3)ˣ < (1/3)² のとき x の範囲として正しいものはどれか(底 1/3<1)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x < 2"
+        },
+        {
+          "label": "B",
+          "text": "x > 2"
+        },
+        {
+          "label": "C",
+          "text": "x > −2"
+        },
+        {
+          "label": "D",
+          "text": "x < −2"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "指数不等式",
+        "単調減少"
+      ]
+    },
+    {
+      "id": "pef-017",
+      "pattern_id": "p04",
+      "difficulty": "standard",
+      "question": "4ˣ=2 のとき x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=1/2"
+        },
+        {
+          "label": "B",
+          "text": "x=1/4"
+        },
+        {
+          "label": "C",
+          "text": "x=2"
+        },
+        {
+          "label": "D",
+          "text": "x=8"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "分数指数方程式"
+      ]
+    },
+    {
+      "id": "pef-018",
+      "pattern_id": "p03",
+      "difficulty": "standard",
+      "question": "y=2ˣ⁺¹ と y=2ˣ の大小関係として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=2ˣ⁺¹ は 2ˣ より 1 大きい"
+        },
+        {
+          "label": "B",
+          "text": "y=2ˣ⁺¹ は y=2ˣ の 2 倍"
+        },
+        {
+          "label": "C",
+          "text": "グラフを左に 1 平行移動するだけなので大小は比較できない"
+        },
+        {
+          "label": "D",
+          "text": "同じグラフ"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "指数の比較"
+      ]
+    },
+    {
+      "id": "pef-019",
+      "pattern_id": "p05",
+      "difficulty": "standard",
+      "question": "√2 × ∜2 を 2 の指数で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2^(3/8)"
+        },
+        {
+          "label": "B",
+          "text": "2^(1/8)"
+        },
+        {
+          "label": "C",
+          "text": "2^(3/4)"
+        },
+        {
+          "label": "D",
+          "text": "2^(1/2)"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "分数指数の計算"
+      ]
+    },
+    {
+      "id": "pef-020",
+      "pattern_id": "p04",
+      "difficulty": "standard",
+      "question": "9^x=27 のとき x の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=3/2"
+        },
+        {
+          "label": "B",
+          "text": "x=4/3"
+        },
+        {
+          "label": "C",
+          "text": "x=2"
+        },
+        {
+          "label": "D",
+          "text": "x=3"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数方程式",
+        "底を揃える"
+      ]
+    },
+    {
+      "id": "pef-021",
+      "pattern_id": "p08",
+      "difficulty": "exam",
+      "question": "2ˣ+2⁻ˣ=3 のとき 4ˣ+4⁻ˣ の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2ˣ+2⁻ˣ)²=4ˣ+2+4⁻ˣ=9 → 4ˣ+4⁻ˣ=7"
+        },
+        {
+          "label": "B",
+          "text": "4ˣ+4⁻ˣ=8"
+        },
+        {
+          "label": "C",
+          "text": "4ˣ+4⁻ˣ=9"
+        },
+        {
+          "label": "D",
+          "text": "4ˣ+4⁻ˣ=5"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "対称式",
+        "置換"
+      ]
+    },
+    {
+      "id": "pef-022",
+      "pattern_id": "p08",
+      "difficulty": "exam",
+      "question": "4ˣ−3×2ˣ−4=0 を解く。2ˣ=t と置いたとき正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "t=4 → x=4"
+        },
+        {
+          "label": "B",
+          "text": "t²−3t−4=0 → (t−4)(t+1)=0 → t=4(t>0) → 2ˣ=4 → x=2"
+        },
+        {
+          "label": "C",
+          "text": "t²−3t−4=0 の解 t=4 と t=−1 をそのまま x の値とする"
+        },
+        {
+          "label": "D",
+          "text": "t=−1 も採用して x=−1"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "置換",
+        "2ˣ=t"
+      ]
+    },
+    {
+      "id": "pef-023",
+      "pattern_id": "p09",
+      "difficulty": "exam",
+      "question": "4ˣ > 2ˣ⁺³ を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x>3/2"
+        },
+        {
+          "label": "B",
+          "text": "2ˣ>x+3 → 数値代入で解く"
+        },
+        {
+          "label": "C",
+          "text": "2²ˣ > 2ˣ⁺³ → 底 2>1 なので 2x>x+3 → x>3"
+        },
+        {
+          "label": "D",
+          "text": "2x<x+3 → x<3"
+        }
+      ],
+      "correct": "C",
+      "reasoning_tags": [
+        "指数不等式",
+        "底を揃える"
+      ]
+    },
+    {
+      "id": "pef-024",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "y=a×2ˣ+b のグラフが (0,3) と (1,5) を通るとき a と b の値として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a=3、b=0"
+        },
+        {
+          "label": "B",
+          "text": "a=1、b=2"
+        },
+        {
+          "label": "C",
+          "text": "a=5、b=−2"
+        },
+        {
+          "label": "D",
+          "text": "(0,3): a+b=3、(1,5): 2a+b=5 → a=2、b=1"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "係数決定",
+        "連立"
+      ]
+    },
+    {
+      "id": "pef-025",
+      "pattern_id": "p08",
+      "difficulty": "exam",
+      "question": "2^(2x)−5×2ˣ+4=0 の解として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=2 または x=4"
+        },
+        {
+          "label": "B",
+          "text": "x=1 または x=4"
+        },
+        {
+          "label": "C",
+          "text": "x=0 または x=1"
+        },
+        {
+          "label": "D",
+          "text": "t=2ˣ として t²−5t+4=0 → t=1 または t=4 → x=0 または x=2"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "置換",
+        "2ˣ=t"
+      ]
+    },
+    {
+      "id": "pef-026",
+      "pattern_id": "p03",
+      "difficulty": "exam",
+      "question": "指数関数 y=2ˣ の逆関数として正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y=x/2"
+        },
+        {
+          "label": "B",
+          "text": "y=2⁻ˣ"
+        },
+        {
+          "label": "C",
+          "text": "y=x²"
+        },
+        {
+          "label": "D",
+          "text": "y=log₂x"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "逆関数",
+        "対数"
+      ]
+    },
+    {
+      "id": "pef-027",
+      "pattern_id": "p05",
+      "difficulty": "exam",
+      "question": "√8÷2^(1/3) を 2 の指数で表すと正しいものはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2^(1/6)"
+        },
+        {
+          "label": "B",
+          "text": "2^(7/6)"
+        },
+        {
+          "label": "C",
+          "text": "2^(7/3)"
+        },
+        {
+          "label": "D",
+          "text": "2^(5/6)"
+        }
+      ],
+      "correct": "B",
+      "reasoning_tags": [
+        "分数指数の計算"
+      ]
+    },
+    {
+      "id": "pef-028",
+      "pattern_id": "p09",
+      "difficulty": "exam",
+      "question": "a>0,a≠1 で y=aˣ が y=a⁻ˣ より大きくなる x の条件として正しいものはどれか(a>1 の場合)。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x>1"
+        },
+        {
+          "label": "B",
+          "text": "常に成立"
+        },
+        {
+          "label": "C",
+          "text": "x<0"
+        },
+        {
+          "label": "D",
+          "text": "aˣ>a⁻ˣ → a>1 より x>−x → x>0"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "指数の比較",
+        "不等式"
+      ]
+    },
+    {
+      "id": "pef-029",
+      "pattern_id": "p09",
+      "difficulty": "exam",
+      "question": "9^x≤3^(x+2) を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3²ˣ≤3ˣ⁺² → 底 3>1 なので 2x≤x+2 → x≤2"
+        },
+        {
+          "label": "B",
+          "text": "x≤3"
+        },
+        {
+          "label": "C",
+          "text": "2x≥x+2 → x≥2"
+        },
+        {
+          "label": "D",
+          "text": "x≤1"
+        }
+      ],
+      "correct": "A",
+      "reasoning_tags": [
+        "指数不等式",
+        "底を揃える"
+      ]
+    },
+    {
+      "id": "pef-030",
+      "pattern_id": "p10",
+      "difficulty": "exam",
+      "question": "2ˣ=3ˣ⁻¹ を解く正しい手順はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x=log3/log2"
+        },
+        {
+          "label": "B",
+          "text": "x=3−2=1"
+        },
+        {
+          "label": "C",
+          "text": "x=1"
+        },
+        {
+          "label": "D",
+          "text": "両辺の対数 → x log2=(x−1)log3 → x(log3−log2)=log3 → x=log3/(log3−log2)"
+        }
+      ],
+      "correct": "D",
+      "reasoning_tags": [
+        "指数方程式",
+        "対数を使う"
+      ]
+    }
+  ]
+}

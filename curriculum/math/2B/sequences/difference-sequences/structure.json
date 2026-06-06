@@ -1,0 +1,115 @@
+{
+  "subject": "math",
+  "course": "2B",
+  "unit": "sequences",
+  "subunit": "difference-sequences",
+  "name": "階差数列",
+  "en": "Difference Sequences",
+  "questionCount": 30,
+  "source_notes": "センター試験では数列第3問（選択）で階差数列を利用して一般項を求める問題が1998・2001・2003・2007・2011年度に確認されている。共通テスト2021・2022年でも階差数列の考え方を使う問題が含まれる。模試では等差・等比に次いで頻出の数列テーマ。参照：電数図書館 https://www.densu.jp/",
+  "exam_occurrence": {
+    "center_test": "第3問（数列選択）で「aₙ₊₁ − aₙ の列が等差・等比」のタイプが頻出。Σ記号と組み合わせた形で、aₙ = a₁ + Σbₖ（k=1,n−1）の公式を使う問題が中心。",
+    "kyotsu_test": "2021・2022年第3問に階差を利用するパターンが含まれる。整数列・図形の個数など具体的な設定のなかで階差の考え方を使う問題が多い。",
+    "mock_exams": "河合塾・駿台・進研模試で毎年出題。「隣接差が等比数列」のタイプと「二重階差（階差の階差）」が頻出。一般項の公式適用とΣ計算の精度が問われる。"
+  },
+  "patterns": [
+    {
+      "id": "p01",
+      "difficulty": "basic",
+      "title": "階差数列の定義と一般項の公式",
+      "description": "数列 {aₙ} の階差数列 {bₙ}（bₙ = aₙ₊₁ − aₙ）が与えられたとき、aₙ = a₁ + Σ[k=1,n−1] bₖ（n ≥ 2）を使う。",
+      "typical_question": "数列 {aₙ} の階差数列が bₙ = 2n のとき、一般項を求めよ。"
+    },
+    {
+      "id": "p02",
+      "difficulty": "basic",
+      "title": "階差数列が等差数列のとき",
+      "description": "bₙ = αn + β（等差数列）のとき、aₙ = a₁ + Σ(αk+β) [k=1,n−1] を計算して整理する。",
+      "typical_question": "a₁=1、隣接差 bₙ=2n−1 の数列の一般項を求めよ。"
+    },
+    {
+      "id": "p03",
+      "difficulty": "basic",
+      "title": "数列の具体的な差から階差数列を見抜く",
+      "description": "与えられた数列の隣接差を計算して「階差数列が等差または等比」かを判断し、公式を適用する。",
+      "typical_question": "数列 1, 2, 5, 10, 17, 26, ... の一般項を求めよ。"
+    },
+    {
+      "id": "p04",
+      "difficulty": "basic",
+      "title": "階差数列が等比数列のとき（基本）",
+      "description": "bₙ = r^(n−1)（等比数列）のとき、aₙ = a₁ + Σrᵏ⁻¹ [k=1,n−1] = a₁ + r(rⁿ⁻¹−1)/(r−1) を計算する。",
+      "typical_question": "a₁=2、隣接差 bₙ=3^(n−1) の数列の一般項を求めよ。"
+    },
+    {
+      "id": "p05",
+      "difficulty": "basic",
+      "title": "n=1 の場合の確認",
+      "description": "aₙ の公式を n≥2 で導いたあと、n=1 で公式が成立するかを確認する手順。",
+      "typical_question": "階差を利用して求めた一般項が n=1 でも成立するか確認せよ。"
+    },
+    {
+      "id": "p06",
+      "difficulty": "basic",
+      "title": "図形の個数問題と階差数列",
+      "description": "n 番目の図形を作るときに追加する個数が階差数列をなす設定。aₙ を階差で求める。",
+      "typical_question": "正三角形を 1 段、2 段、... と積み上げるとき、n 段のときの三角形の総数を求めよ。"
+    },
+    {
+      "id": "p07",
+      "difficulty": "basic",
+      "title": "隣接差の計算（数列の規則発見）",
+      "description": "与えられた具体的な数列から隣接差を計算し、等差・等比・その他のパターンを発見する。",
+      "typical_question": "数列 2, 6, 12, 20, 30, ... の一般項を求めよ。"
+    },
+    {
+      "id": "p08",
+      "difficulty": "basic",
+      "title": "Σ記号を使った和の計算",
+      "description": "aₙ = a₁ + Σbₖ のΣを具体的に計算する。Σk, Σk², Σrᵏ の公式を正しく適用する。",
+      "typical_question": "bₙ = n² のとき Σ[k=1,n−1] bₖ = Σ[k=1,n−1] k² を計算せよ。"
+    },
+    {
+      "id": "p09",
+      "difficulty": "basic",
+      "title": "二重階差数列（階差の階差）",
+      "description": "数列の階差数列の階差数列が既知のとき、逆算で元の数列の一般項を求める。",
+      "typical_question": "数列 1, 3, 7, 13, 21, ... の一般項を求めよ（階差が 2, 4, 6, 8, ...）。"
+    },
+    {
+      "id": "p10",
+      "difficulty": "basic",
+      "title": "与えられた数列が階差数列になるか確認",
+      "description": "特定の数列が別の数列の階差数列になっているかを確認する逆の問いかけ。",
+      "typical_question": "数列 {aₙ} が 3, 7, 13, 21, ... のとき、階差数列 {bₙ} を求め、bₙ の一般項を答えよ。"
+    },
+    {
+      "id": "p11",
+      "difficulty": "standard",
+      "title": "隣接差が等比数列（公比が整数でない場合）",
+      "description": "bₙ = c×rⁿ⁻¹（r は分数や無理数）のとき Σ を等比数列の和公式で計算する。",
+      "typical_question": "a₁=1、bₙ=(1/2)^(n−1) の数列の一般項を求めよ。"
+    },
+    {
+      "id": "p12",
+      "difficulty": "standard",
+      "title": "隣接差が n の多項式（次数が高い場合）",
+      "description": "bₙ = n² や bₙ = n(n+1) の場合、Σk² や Σk(k+1) の公式を使って求める。",
+      "typical_question": "a₁=0、bₙ=n² の数列の一般項を求めよ。"
+    },
+    {
+      "id": "p13",
+      "difficulty": "standard",
+      "title": "漸化式から階差数列を導く",
+      "description": "aₙ₊₁ = aₙ + f(n) の形の漸化式は階差数列 bₙ = f(n) として解く。",
+      "typical_question": "aₙ₊₁ = aₙ + 2n+1（a₁=1）を解け。"
+    },
+    {
+      "id": "p14",
+      "difficulty": "exam",
+      "title": "等差×等比型の階差数列（応用）",
+      "description": "bₙ = (αn+β)×rⁿ⁻¹ の形の階差数列を持つ場合、Σ(αn+β)rⁿ⁻¹ をずらし差分法で計算する。",
+      "typical_question": "a₁=1、bₙ = n×2ⁿ⁻¹ の数列 {aₙ} の一般項を求めよ。"
+    }
+  ]
+}

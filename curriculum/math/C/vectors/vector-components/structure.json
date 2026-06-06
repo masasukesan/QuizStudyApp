@@ -1,0 +1,89 @@
+{
+  "unit_id": "vector-components",
+  "unit_name_jp": "ベクトルの成分表示",
+  "grade": "数学C",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "vc-def",
+      "description": "成分表示 a = (a₁, a₂) の定義と演算",
+      "thinking_process": [
+        "x 成分・y 成分を分けて計算"
+      ],
+      "common_mistakes": [
+        "成分の順序を入れ違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "vc-magnitude",
+      "description": "大きさ |a| = √(a₁² + a₂²) の計算",
+      "thinking_process": [
+        "ピタゴラスの定理を適用"
+      ],
+      "common_mistakes": [
+        "√の計算ミス、2乗を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "vc-unit",
+      "description": "単位ベクトルの求め方 a/|a|",
+      "thinking_process": [
+        "大きさを計算",
+        "各成分を大きさで割る"
+      ],
+      "common_mistakes": [
+        "大きさの計算ミス"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "vc-ops",
+      "description": "成分での加減算・スカラー倍の途中式",
+      "thinking_process": [
+        "成分ごとに計算",
+        "スカラー倍は全成分に掛ける"
+      ],
+      "common_mistakes": [
+        "異なる成分を足してしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "vc-equal",
+      "description": "成分が等しい条件から連立方程式を設定",
+      "thinking_process": [
+        "x 成分同士、y 成分同士を比較"
+      ],
+      "common_mistakes": [
+        "片方の成分だけ見て判断する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "vc-proof-mag",
+      "description": "|ka| = |k||a| の証明（成分を用いて）",
+      "thinking_process": [
+        "ka の各成分は (ka₁, ka₂)",
+        "|ka| = √(k²a₁² + k²a₂²) = |k|√(a₁² + a₂²)"
+      ],
+      "common_mistakes": [
+        "√の外に k を出す際の符号"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "vc-proof-tri",
+      "description": "三角不等式 |a + b| ≦ |a| + |b| の証明",
+      "thinking_process": [
+        "|a + b|² = a·a + 2a·b + b·b を展開",
+        "コーシー・シュワルツの不等式を適用"
+      ],
+      "common_mistakes": [
+        "|a + b| = |a| + |b| と思い込む"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+  "subject": "数学1A",
+  "unit": "2次関数のグラフとその移動",
+  "questions": [
+    {
+      "id": "gt-001",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = x² を x 軸方向に 3 平行移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x-3)²"
+        },
+        {
+          "label": "B",
+          "text": "y = (x+3)²"
+        },
+        {
+          "label": "C",
+          "text": "y = x² + 3"
+        },
+        {
+          "label": "D",
+          "text": "y = x² - 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-002",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = x² を y 軸方向に -2 平行移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = x² - 2"
+        },
+        {
+          "label": "B",
+          "text": "y = x + 4"
+        },
+        {
+          "label": "C",
+          "text": "y = (x-2)²"
+        },
+        {
+          "label": "D",
+          "text": "y = (x+2)²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-003",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = (x-1)² + 3 を x 軸方向に -1、y 軸方向に 2 移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = x² + 5"
+        },
+        {
+          "label": "B",
+          "text": "y = (x-2)² + 5"
+        },
+        {
+          "label": "C",
+          "text": "y = (x+1)² + 1"
+        },
+        {
+          "label": "D",
+          "text": "y = x + 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-004",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = x² を x 軸に関して対称移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = -x²"
+        },
+        {
+          "label": "B",
+          "text": "y = x²"
+        },
+        {
+          "label": "C",
+          "text": "y = x² + 1"
+        },
+        {
+          "label": "D",
+          "text": "y = 1 - x²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-005",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = (x-2)² - 1 を y 軸に関して対称移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x+2)² - 1"
+        },
+        {
+          "label": "B",
+          "text": "y = (x-2)² + 1"
+        },
+        {
+          "label": "C",
+          "text": "y = -(x-2)² - 1"
+        },
+        {
+          "label": "D",
+          "text": "y = -(x+2)² + 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-006",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = 2(x-3)² + 1 の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(3, 1)"
+        },
+        {
+          "label": "B",
+          "text": "(-3, 1)"
+        },
+        {
+          "label": "C",
+          "text": "(3, -1)"
+        },
+        {
+          "label": "D",
+          "text": "(1, 3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-007",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = x² を x 軸方向に 2、y 軸方向に -3 移動した放物線の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(2, -3)"
+        },
+        {
+          "label": "B",
+          "text": "(-2, -3)"
+        },
+        {
+          "label": "C",
+          "text": "(2, 3)"
+        },
+        {
+          "label": "D",
+          "text": "(-2, 3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-008",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = -(x+1)² + 4 を原点に関して対称移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = -(x-1)² + 4"
+        },
+        {
+          "label": "B",
+          "text": "y = (x-1)² - 4"
+        },
+        {
+          "label": "C",
+          "text": "y = -(x-1)² - 4"
+        },
+        {
+          "label": "D",
+          "text": "y = (x+1)² + 4"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "gt-009",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = x² + 4x + 3 の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(-2, -1)"
+        },
+        {
+          "label": "B",
+          "text": "(2, -1)"
+        },
+        {
+          "label": "C",
+          "text": "(-2, 1)"
+        },
+        {
+          "label": "D",
+          "text": "(4, 3)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-010",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "basic",
+      "question": "y = x² を y 軸方向に 5 移動してから x 軸方向に -3 移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x+3)² + 5"
+        },
+        {
+          "label": "B",
+          "text": "y = (x-3)² + 5"
+        },
+        {
+          "label": "C",
+          "text": "y = (x-3)² - 5"
+        },
+        {
+          "label": "D",
+          "text": "y = x² + 5 - 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-011",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = a(x-p)² + q を x 軸に関して対称移動するとき、y に -1 を掛けて得られる式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = -a(x-p)² - q"
+        },
+        {
+          "label": "B",
+          "text": "y = a(x-p)² - q"
+        },
+        {
+          "label": "C",
+          "text": "y = -a(x+p)² + q"
+        },
+        {
+          "label": "D",
+          "text": "y = a(x+p)² - q"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-012",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = (x-1)² + 2 を x 軸に関して対称移動したとき、得られる式として正しいのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = -(x-1)² - 2"
+        },
+        {
+          "label": "B",
+          "text": "y = (x-1)² - 2"
+        },
+        {
+          "label": "C",
+          "text": "y = -(x+1)² - 2"
+        },
+        {
+          "label": "D",
+          "text": "y = (x+1)² - 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-013",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = x² - 6x + 5 の頂点と同じ y 座標をもち、軸が x = 2 の下に凸の放物線の式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x-2)² - 4"
+        },
+        {
+          "label": "B",
+          "text": "y = (x+2)² - 4"
+        },
+        {
+          "label": "C",
+          "text": "y = (x-3)² - 4"
+        },
+        {
+          "label": "D",
+          "text": "y = (x+2)² + 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-014",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = 3x² を x 軸方向に a、y 軸方向に b 移動すると y = 3(x-2)² + 1 になる。a と b の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 2, b = 1"
+        },
+        {
+          "label": "B",
+          "text": "a = -2, b = 3"
+        },
+        {
+          "label": "C",
+          "text": "a = 2, b = -1"
+        },
+        {
+          "label": "D",
+          "text": "a = -2, b = -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-015",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "放物線 y = -(x+3)² + 5 と軸・頂点が同じで、下に凸の放物線の式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x+3)² + 5"
+        },
+        {
+          "label": "B",
+          "text": "y = (x-3)² + 5"
+        },
+        {
+          "label": "C",
+          "text": "y = (x-3)² - 5"
+        },
+        {
+          "label": "D",
+          "text": "y = -(x-3)² + 5"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-016",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = -2(x-1)² + 3 を x 軸方向に -1 移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = -2x² + 3"
+        },
+        {
+          "label": "B",
+          "text": "y = -2(x-2)² + 3"
+        },
+        {
+          "label": "C",
+          "text": "y = -3x² + 3"
+        },
+        {
+          "label": "D",
+          "text": "y = -2(x+1)² + 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-017",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "頂点が (-1, 2) で点 (1, 6) を通る放物線の式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = (x+1)² + 2"
+        },
+        {
+          "label": "B",
+          "text": "y = 2(x+1)² + 2"
+        },
+        {
+          "label": "C",
+          "text": "y = (x-1)² + 2"
+        },
+        {
+          "label": "D",
+          "text": "y = -(x+1)² + 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-018",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = x² を x 軸方向に p 移動した後 y 軸に関して対称移動すると y = (x+2)² になった。p の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "p = -2"
+        },
+        {
+          "label": "B",
+          "text": "p = 2"
+        },
+        {
+          "label": "C",
+          "text": "p = 1"
+        },
+        {
+          "label": "D",
+          "text": "p = -1"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": "gt-019",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = (x-3)² + 1 と y = (x+1)² - 3 は、ある平行移動で重なる。その移動量は何か。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "x 方向に -4、y 方向に -4"
+        },
+        {
+          "label": "B",
+          "text": "x 方向に 4、y 方向に 4"
+        },
+        {
+          "label": "C",
+          "text": "x 方向に -4、y 方向に 4"
+        },
+        {
+          "label": "D",
+          "text": "x 方向に 4、y 方向に -4"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-020",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "standard",
+      "question": "y = 2x² を x 軸方向に 1、y 軸方向に -2 移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = 2(x-1)² - 2"
+        },
+        {
+          "label": "B",
+          "text": "y = 2(x+1)² - 2"
+        },
+        {
+          "label": "C",
+          "text": "y = 3(x-1)² - 2"
+        },
+        {
+          "label": "D",
+          "text": "y = 2x² - 2"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-021",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "y = f(x) を x 軸方向に 2、y 軸方向に 3 移動した曲線の式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = f(x-2) + 3"
+        },
+        {
+          "label": "B",
+          "text": "y = f(x+2) + 3"
+        },
+        {
+          "label": "C",
+          "text": "y = f(x-3) + 2"
+        },
+        {
+          "label": "D",
+          "text": "y = f(x+2) - 3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-022",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "y = x² - 4x + 5 を原点に関して対称移動した放物線の頂点はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(-2, -1)"
+        },
+        {
+          "label": "B",
+          "text": "(2, 1)"
+        },
+        {
+          "label": "C",
+          "text": "(2, -1)"
+        },
+        {
+          "label": "D",
+          "text": "(-2, 1)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-023",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "放物線 y = x² + 2x - 3 を x 軸に関して対称移動し、さらに y 軸方向に 4 移動した式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "y = -x² - 2x + 7"
+        },
+        {
+          "label": "B",
+          "text": "y = x² - 2x + 1"
+        },
+        {
+          "label": "C",
+          "text": "y = x² + 2x + 1"
+        },
+        {
+          "label": "D",
+          "text": "y = x² - 2x + 7"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-024",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "放物線 y = (x-a)² + b が点 (3, 5) と (1, 1) を通るとき a と b の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a = 1, b = 1"
+        },
+        {
+          "label": "B",
+          "text": "a = 2, b = 3"
+        },
+        {
+          "label": "C",
+          "text": "a = 3, b = 0"
+        },
+        {
+          "label": "D",
+          "text": "a = 2, b = -1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-025",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "y = x² の頂点を (2, 3) に移動したとき、(0, 7) を通るかどうか確認する式はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(0-2)² + 3 = 4 + 3 = 7"
+        },
+        {
+          "label": "B",
+          "text": "0 - 2 + 3 = 1"
+        },
+        {
+          "label": "C",
+          "text": "(0-2) + 3 = 1"
+        },
+        {
+          "label": "D",
+          "text": "0² - 2 + 3 = 1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-026",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "y = x² + 2x + 1 を y 軸に関して対称移動した放物線の y 切片はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "-3"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-027",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "y = x² - 2x + 3 と y = x² + 2x + k が x 軸方向の移動で重なるとき k の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "-1"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-028",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "放物線 y = ax² + bx + c を x 軸方向に m 移動した放物線が元の放物線と同じになるのはどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "m = 0 のみ"
+        },
+        {
+          "label": "B",
+          "text": "m = 1 のとき"
+        },
+        {
+          "label": "C",
+          "text": "a = 1 のとき必ず重なる"
+        },
+        {
+          "label": "D",
+          "text": "m = 2 のとき"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-029",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "y = (x-1)² + 2 を x 軸対称・y 軸対称の順で移動した式と、y 軸対称・x 軸対称の順で移動した式は等しいかどうか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "等しい"
+        },
+        {
+          "label": "B",
+          "text": "等しくない"
+        },
+        {
+          "label": "C",
+          "text": "x軸対称だけ順序に依存する"
+        },
+        {
+          "label": "D",
+          "text": "y軸対称だけ順序に依存する"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": "gt-030",
+      "subject": "数学1A",
+      "unit": "2次関数のグラフとその移動",
+      "difficulty": "exam",
+      "question": "y = 2(x-3)² - 1 を x 軸方向に p 移動し y 軸方向に q 移動すると y = 2(x+1)² + 3 になる。p + q の値はどれか。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "-4"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}
