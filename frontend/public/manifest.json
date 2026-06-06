@@ -4,8 +4,8 @@
   "description": "数学Ⅰ・A／Ⅱ・Bを徹底演習。共通テスト対策に特化した数学専門クイズアプリ。",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1c1008",
-  "theme_color": "#7b2e2e",
+  "background_color": "#f8f3e7",
+  "theme_color": "#f8f3e7",
   "orientation": "portrait",
   "icons": [
     {
