@@ -1,0 +1,55 @@
+{
+  "unit": "square-root-basics",
+  "title": "平方根",
+  "grade": "中3",
+  "patterns": [
+    {
+      "id": "sqrt-definition",
+      "title": "平方根の定義と√の意味",
+      "difficulty": "basic",
+      "description": "2乗してaになる数が±√a。√9=3など整数になるケース。√の中の数の大小比較",
+      "typical_mistakes": ["√9=±3と両方書く（√9は正の値のみ）", "√は常に正（負の平方根は -√a）"],
+      "steps": ["2乗してaになる数を求める", "√の記号の意味確認", "±の使い方"]
+    },
+    {
+      "id": "sqrt-simplification",
+      "title": "根号の計算（有理化・簡略化）",
+      "difficulty": "basic",
+      "description": "√a×√b=√ab、√(a/b)=√a/√b、有理化 a/√b = a√b/b",
+      "typical_mistakes": ["√2+√3=√5と足し算する（誤り）", "有理化の分母分子を混同する"],
+      "steps": ["積・商の公式適用", "√の中を素因数分解して簡略化", "有理化手順"]
+    },
+    {
+      "id": "sqrt-addition-subtraction",
+      "title": "根号を含む加減計算",
+      "difficulty": "basic",
+      "description": "同じ√の中の数同士だけ足し引き可能。√12=2√3のように変形してから計算",
+      "typical_mistakes": ["√5+2√5=3√5を√8にする", "√12を√12のまま計算する"],
+      "steps": ["各項を簡略化", "同類項をまとめる"]
+    },
+    {
+      "id": "sqrt-multiplication",
+      "title": "根号を含む乗除計算",
+      "difficulty": "standard",
+      "description": "√a×√b、(√a+√b)(√a-√b)=a-b、(√a+√b)²=a+2√ab+b",
+      "typical_mistakes": ["(√3)²=9と2乗を正しく計算しない", "展開公式を文字式と同様に適用しない"],
+      "steps": ["展開公式を適用", "整数部分と根号部分を分けて計算"]
+    },
+    {
+      "id": "sqrt-rationalization",
+      "title": "有理化と分母の整理",
+      "difficulty": "standard",
+      "description": "分母に√がある式を有理化する。(a+√b)(a-√b)=a²-b を利用した分母有理化",
+      "typical_mistakes": ["分母に√a+√bがある場合に√aだけかける", "有理化後の分子を正確に展開しない"],
+      "steps": ["共役な式を分母分子にかける", "分母の√を消す", "分子を展開して整理"]
+    },
+    {
+      "id": "sqrt-application",
+      "title": "平方根の応用・式の値",
+      "difficulty": "exam",
+      "description": "x=√a+b形のときの式の値。整数部分・小数部分の問題。√を含む方程式・不等式",
+      "typical_mistakes": ["(√5+1)²=6と計算しない（6+2√5が正解）", "整数部分の定義を誤解する"],
+      "steps": ["整数部分・小数部分の分離", "式を変形してから代入", "根号を含む方程式の解法"]
+    }
+  ]
+}

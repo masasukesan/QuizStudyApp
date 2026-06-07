@@ -1,0 +1,13 @@
+{
+  "unit": "circle-theorems",
+  "title": "円",
+  "grade": "中3",
+  "patterns": [
+    {"id":"central-inscribed-angle","title":"円周角と中心角","difficulty":"basic","description":"円周角=中心角÷2。同一弧に対する円周角は等しい","typical_mistakes":["円周角=中心角と2倍を忘れる","弧の対応を間違える"],"steps":["中心角を確認","円周角=中心角/2"]},
+    {"id":"semicircle-angle","title":"半円の弧に対する円周角","difficulty":"basic","description":"半円の弧に対する円周角は90°（直径を弦とする円周角）","typical_mistakes":["90°ではなく45°と思う","直径がどの弧に対応するか分からない"],"steps":["直径を確認","半円の弧→円周角=90°"]},
+    {"id":"cyclic-quadrilateral","title":"円に内接する四角形","difficulty":"standard","description":"対角の和=180°","typical_mistakes":["対角の和=90°","隣り合う角の和=180°と混同"],"steps":["対角の組を確認","∠A+∠C=180°, ∠B+∠D=180°"]},
+    {"id":"tangent-properties","title":"接線の性質","difficulty":"standard","description":"接線は接点で半径と垂直。外部の点から引いた2本の接線の長さは等しい","typical_mistakes":["接線と弦を混同する","2接線の長さが等しいことを知らない"],"steps":["接点と中心の関係","外部点からの2接線=等長"]},
+    {"id":"chord-angle","title":"弦と円周角の関係","difficulty":"standard","description":"同一弧に対する円周角は等しい。接線と弦のなす角=弦に対する円周角","typical_mistakes":["接弦角の定理を知らない"],"steps":["接弦角=対応する弧の円周角"]},
+    {"id":"power-of-point","title":"円と直線・方べきの定理","difficulty":"exam","description":"交差する弦：PA×PB=PC×PD。割線：PA×PB=PC²（接線）","typical_mistakes":["積の対応を間違える"],"steps":["交差点Pを確認","方べきの公式を適用"]}
+  ]
+}

@@ -270,3 +270,110 @@
 
 /* submitInner は装飾なし */
 .submitInner { display: none; }
+
+/* ══════════════════════════════════════════════════
+   学校種別選択ステップ
+   ══════════════════════════════════════════════════ */
+.schoolSelectWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  animation: frameIn 0.35s ease both;
+}
+
+.schoolHeading {
+  font-family: var(--font-cinzel, 'Cinzel Decorative', serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #d4a84b;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-shadow: 0 0 20px rgba(201, 168, 106, 0.3);
+}
+
+.schoolSub {
+  font-size: 0.72rem;
+  color: rgba(200, 180, 138, 0.65);
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.schoolCardRow {
+  display: flex;
+  gap: 14px;
+  width: 100%;
+}
+
+.schoolCard {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 22px 10px 18px;
+  background: rgba(30, 20, 10, 0.6);
+  border: 1px solid rgba(201, 168, 106, 0.2);
+  border-radius: 0;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+
+.schoolCard:hover {
+  background: rgba(201, 168, 106, 0.06);
+  border-color: rgba(201, 168, 106, 0.4);
+}
+
+.schoolCardActive {
+  background: rgba(30, 20, 10, 0.8);
+  border-color: var(--sc-border);
+  box-shadow:
+    0 0 18px var(--sc-glow),
+    inset 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.schoolEmoji {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.schoolLabel {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--sc-color, #c8b48a);
+  letter-spacing: 0.05em;
+}
+
+.schoolNote {
+  font-size: 0.7rem;
+  color: rgba(200, 180, 138, 0.55);
+}
+
+.schoolCheck {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  font-size: 0.75rem;
+  color: var(--sc-color, #c8b48a);
+  font-weight: 700;
+}
+
+.backLink {
+  background: none;
+  border: none;
+  color: rgba(201, 168, 106, 0.55);
+  font-family: var(--font-serif-jp, 'M PLUS Rounded 1c', serif);
+  font-size: 0.78rem;
+  cursor: pointer;
+  padding: 4px 0;
+  letter-spacing: 0.05em;
+  transition: color 0.15s;
+}
+
+.backLink:hover {
+  color: rgba(201, 168, 106, 0.85);
+}

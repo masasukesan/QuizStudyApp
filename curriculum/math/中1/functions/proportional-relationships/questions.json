@@ -1,0 +1,902 @@
+[
+  {
+    "id": "pi-001",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "y は x に比例し、x=2 のとき y=6 である。比例定数 a を求める正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = ax に x=2, y=6 を代入して 6 = 2a → a = 3"
+      },
+      {
+        "label": "B",
+        "text": "a = x × y = 2 × 6 = 12"
+      },
+      {
+        "label": "C",
+        "text": "a = x / y = 2 / 6 = 1/3"
+      },
+      {
+        "label": "D",
+        "text": "y = ax に y=2, x=6 を代入して 2 = 6a → a = 1/3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例の定義",
+      "比例定数の求め方"
+    ]
+  },
+  {
+    "id": "pi-002",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "y は x に比例し、x=3 のとき y=-9 である。y を x の式で表したとき正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = -3x"
+      },
+      {
+        "label": "B",
+        "text": "y = 3x"
+      },
+      {
+        "label": "C",
+        "text": "y = -9/x"
+      },
+      {
+        "label": "D",
+        "text": "y = -27x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例の式",
+      "負の比例定数"
+    ]
+  },
+  {
+    "id": "pi-003",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "y は x に反比例し、x=4 のとき y=3 である。比例定数 a を求める正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a = x × y = 4 × 3 = 12"
+      },
+      {
+        "label": "B",
+        "text": "a = y / x = 3 / 4"
+      },
+      {
+        "label": "C",
+        "text": "a = x / y = 4 / 3"
+      },
+      {
+        "label": "D",
+        "text": "y = ax に x=4, y=3 を代入して a = 3/4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の定義",
+      "xy=a"
+    ]
+  },
+  {
+    "id": "pi-004",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "y は x に反比例し、x=2 のとき y=6 である。x=3 のときの y の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "xy = 12 より y = 12/3 = 4"
+      },
+      {
+        "label": "B",
+        "text": "y/x が一定なので y = 6×(3/2) = 9"
+      },
+      {
+        "label": "C",
+        "text": "x が 2 から 3 に増えたので y も同じ割合で増えて y = 6 × (3/2) = 9"
+      },
+      {
+        "label": "D",
+        "text": "xy = 12 より x=3 のとき y = 12 - 3 = 9"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の計算",
+      "xy=定数の利用"
+    ]
+  },
+  {
+    "id": "pi-005",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "次の表で y が x に比例するのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x: 1, 2, 3, 4 / y: 2, 4, 6, 8 (y/x = 2 で一定)"
+      },
+      {
+        "label": "B",
+        "text": "x: 1, 2, 3, 4 / y: 3, 5, 7, 9 (y/x が一定でない)"
+      },
+      {
+        "label": "C",
+        "text": "x: 1, 2, 3, 4 / y: 4, 2, 4/3, 1 (xy = 4 で一定)"
+      },
+      {
+        "label": "D",
+        "text": "x: 1, 2, 3, 4 / y: 1, 4, 9, 16 (y/x が一定でない)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例の判定",
+      "y/x が一定"
+    ]
+  },
+  {
+    "id": "pi-006",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "比例 y = 2x のグラフの特徴として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "原点を通り、右上がりの直線"
+      },
+      {
+        "label": "B",
+        "text": "y 切片が 2 の右上がりの直線"
+      },
+      {
+        "label": "C",
+        "text": "原点を通り、右下がりの直線"
+      },
+      {
+        "label": "D",
+        "text": "第 1・第 3 象限を通る曲線"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例のグラフ",
+      "原点通過"
+    ]
+  },
+  {
+    "id": "pi-007",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "比例 y = -3x のグラフはどの象限を通るか。正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "第 2 象限と第 4 象限を通る"
+      },
+      {
+        "label": "B",
+        "text": "第 1 象限と第 3 象限を通る"
+      },
+      {
+        "label": "C",
+        "text": "第 1 象限と第 2 象限と第 3 象限を通る"
+      },
+      {
+        "label": "D",
+        "text": "第 1 象限のみを通る"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例のグラフ",
+      "負の傾き"
+    ]
+  },
+  {
+    "id": "pi-008",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "反比例 y = 6/x のグラフの特徴として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "第 1・第 3 象限を通るなめらかな曲線"
+      },
+      {
+        "label": "B",
+        "text": "第 2・第 4 象限を通るなめらかな曲線"
+      },
+      {
+        "label": "C",
+        "text": "原点を通る右上がりの直線"
+      },
+      {
+        "label": "D",
+        "text": "y 軸と交わる曲線"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例のグラフ",
+      "正の比例定数の象限"
+    ]
+  },
+  {
+    "id": "pi-009",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "グラフが原点を通り (1, -4) を通る直線である関数はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = -4x"
+      },
+      {
+        "label": "B",
+        "text": "y = 4x"
+      },
+      {
+        "label": "C",
+        "text": "y = -4/x"
+      },
+      {
+        "label": "D",
+        "text": "y = x - 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例の式を求める",
+      "グラフから式へ"
+    ]
+  },
+  {
+    "id": "pi-010",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "basic",
+    "question": "y = 3x のグラフ上の点として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "(2, 6)"
+      },
+      {
+        "label": "B",
+        "text": "(2, 5)"
+      },
+      {
+        "label": "C",
+        "text": "(3, 6)"
+      },
+      {
+        "label": "D",
+        "text": "(1, 4)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "グラフ上の点の確認",
+      "代入"
+    ]
+  },
+  {
+    "id": "pi-011",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "グラフが (2, 5) を通る反比例の式として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 10/x"
+      },
+      {
+        "label": "B",
+        "text": "y = 2.5x"
+      },
+      {
+        "label": "C",
+        "text": "y = 5/x"
+      },
+      {
+        "label": "D",
+        "text": "y = 7/x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の式",
+      "グラフから式へ"
+    ]
+  },
+  {
+    "id": "pi-012",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "y が x に比例し x = -2 のとき y = 8 である。x = 5 のときの y の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a = 8/(-2) = -4 より y = -4x、x=5 で y = -20"
+      },
+      {
+        "label": "B",
+        "text": "a = 8/2 = 4 より y = 4x、x=5 で y = 20"
+      },
+      {
+        "label": "C",
+        "text": "a = (-2)/8 = -1/4 より y = (-1/4)x、x=5 で y = -5/4"
+      },
+      {
+        "label": "D",
+        "text": "a = 8/(-2) = -4 より y = -4x、x=5 で y = -9"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例定数の計算",
+      "負の x 値"
+    ]
+  },
+  {
+    "id": "pi-013",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "反比例 y = -12/x について、x = 3 のときの y の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = -12/3 = -4"
+      },
+      {
+        "label": "B",
+        "text": "y = -12 × 3 = -36"
+      },
+      {
+        "label": "C",
+        "text": "y = 12/3 = 4"
+      },
+      {
+        "label": "D",
+        "text": "y = -12/(-3) = 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の計算",
+      "負の比例定数"
+    ]
+  },
+  {
+    "id": "pi-014",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "反比例 y = a/x のグラフが点 (-3, 4) を通るとき、a の値と y = a/x の式として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a = (-3) × 4 = -12 より y = -12/x"
+      },
+      {
+        "label": "B",
+        "text": "a = 4/(-3) = -4/3 より y = (-4/3)/x"
+      },
+      {
+        "label": "C",
+        "text": "a = (-3)/4 = -3/4 より y = (-3/4)/x"
+      },
+      {
+        "label": "D",
+        "text": "a = -3 + 4 = 1 より y = 1/x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の比例定数",
+      "xy=a"
+    ]
+  },
+  {
+    "id": "pi-015",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "比例 y = ax のグラフが点 (3, -6) を通るとき、x = -1 のときの y の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a = -6/3 = -2 より y = -2x、x=-1 で y = 2"
+      },
+      {
+        "label": "B",
+        "text": "a = 3/(-6) = -1/2 より y = (-1/2)x、x=-1 で y = 1/2"
+      },
+      {
+        "label": "C",
+        "text": "a = -6/3 = -2 より y = -2x、x=-1 で y = -2"
+      },
+      {
+        "label": "D",
+        "text": "a = -2 より y = 2x(符号を落として)、x=-1 で y = -2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例定数の利用",
+      "負の x 代入"
+    ]
+  },
+  {
+    "id": "pi-016",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "x の範囲が 1 ≦ x ≦ 3 のとき、y = 4x の y の変域として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4 ≦ y ≦ 12"
+      },
+      {
+        "label": "B",
+        "text": "1 ≦ y ≦ 3"
+      },
+      {
+        "label": "C",
+        "text": "4 ≦ y ≦ 3"
+      },
+      {
+        "label": "D",
+        "text": "4 < y < 12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変域",
+      "比例の範囲"
+    ]
+  },
+  {
+    "id": "pi-017",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "x の範囲が -2 ≦ x ≦ -1 のとき、y = 6/x の y の変域として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-6 ≦ y ≦ -3"
+      },
+      {
+        "label": "B",
+        "text": "-3 ≦ y ≦ -6"
+      },
+      {
+        "label": "C",
+        "text": "3 ≦ y ≦ 6"
+      },
+      {
+        "label": "D",
+        "text": "-6 ≦ y ≦ 6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変域",
+      "反比例の範囲"
+    ]
+  },
+  {
+    "id": "pi-018",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "下の表は y が x に反比例する関係を示している。空欄 □ の値として正しいのはどれか。x: 2, 3, □ / y: 6, 4, 3。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "xy = 12 より □ = 12 ÷ 3 = 4"
+      },
+      {
+        "label": "B",
+        "text": "y が 4 から 3 に減少しているので □ = 3 + 1 = 4(等差で求める)"
+      },
+      {
+        "label": "C",
+        "text": "xy = 12 より □ = 12 - 3 = 9"
+      },
+      {
+        "label": "D",
+        "text": "xy = 12 より □ = 12 × 3 = 36"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の表",
+      "xy=定数"
+    ]
+  },
+  {
+    "id": "pi-019",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "比例 y = ax で x が 2 から 6 に増加するとき、y の増加量が 8 だった。a の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x の増加量 = 4、y の増加量 = 8 なので a = 8/4 = 2"
+      },
+      {
+        "label": "B",
+        "text": "a = 8/2 = 4(y の増加量を x の始点で割る)"
+      },
+      {
+        "label": "C",
+        "text": "a = 8/6 = 4/3(y の増加量を x の終点で割る)"
+      },
+      {
+        "label": "D",
+        "text": "a = 8/(6+2) = 1(y の増加量を x の和で割る)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "増加量の比",
+      "比例定数の計算"
+    ]
+  },
+  {
+    "id": "pi-020",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "standard",
+    "question": "比例のグラフで、a の絶対値が大きいほどグラフがどうなるかとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y 軸に近く(傾きが急に)なる"
+      },
+      {
+        "label": "B",
+        "text": "x 軸に近く(傾きがゆるやかに)なる"
+      },
+      {
+        "label": "C",
+        "text": "グラフが x 軸方向に平行移動する"
+      },
+      {
+        "label": "D",
+        "text": "グラフの形は変わらず通過する象限だけが変わる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例定数と傾き",
+      "グラフの形状"
+    ]
+  },
+  {
+    "id": "pi-021",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "速さ一定で走る車が 2 時間で 90 km 進んだ。x 時間で進む距離 y km を比例の式で表し、5 時間での走行距離として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a = 90/2 = 45 より y = 45x、x=5 で y = 225 km"
+      },
+      {
+        "label": "B",
+        "text": "a = 2/90 = 1/45 より y = x/45、x=5 で y = 1/9 km"
+      },
+      {
+        "label": "C",
+        "text": "2 時間で 90 km なので 5 時間は 90 × 5 = 450 km"
+      },
+      {
+        "label": "D",
+        "text": "a = 90/2 = 45 より y = 45x、x=5 で y = 50 km"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "速さと比例",
+      "比例の文章題"
+    ]
+  },
+  {
+    "id": "pi-022",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "面積が 24 cm² の長方形で、縦の長さ x cm と横の長さ y cm の関係式を立て、縦が 8 cm のときの横の長さとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "xy = 24(反比例)なので y = 24/x、x=8 で y = 3 cm"
+      },
+      {
+        "label": "B",
+        "text": "x + y = 24(比例)なので y = 24 - x、x=8 で y = 16 cm"
+      },
+      {
+        "label": "C",
+        "text": "y = 24x(比例)なので x=8 で y = 192 cm"
+      },
+      {
+        "label": "D",
+        "text": "xy = 24 なので y = 24/x、x=8 で y = 24/8 = 4 cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "面積と反比例",
+      "反比例の文章題"
+    ]
+  },
+  {
+    "id": "pi-023",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "水が毎分 3 L 流れる蛇口で、x 分間に y L の水が貯まる関係がある。この関係が比例であることを示し、20 分後の水量として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y/x = 3(一定)なので y = 3x(比例)、x=20 で y = 60 L"
+      },
+      {
+        "label": "B",
+        "text": "xy = 3(一定)なので反比例。x=20 で y = 3/20 = 0.15 L"
+      },
+      {
+        "label": "C",
+        "text": "y = 3x なので y/x = 3。x=20 で y = 3 × 20² = 1200 L"
+      },
+      {
+        "label": "D",
+        "text": "y = 3x(比例)、x=20 で y = 3 + 20 = 23 L"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "単位量と比例",
+      "比例の確認"
+    ]
+  },
+  {
+    "id": "pi-024",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "x 人で分担して y 日かかる仕事がある。1 人でやると 24 日かかる。この関係式と、6 人でかかる日数として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "xy = 24(反比例)なので y = 24/x、x=6 で y = 4 日"
+      },
+      {
+        "label": "B",
+        "text": "y = 24x(比例)なので x=6 で y = 144 日"
+      },
+      {
+        "label": "C",
+        "text": "xy = 24 なので y = 24/x、x=6 で y = 24 - 6 = 18 日"
+      },
+      {
+        "label": "D",
+        "text": "y/x = 24 なので y = 24x、x=6 で y = 144 日"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "人数と日数の反比例",
+      "仕事の文章題"
+    ]
+  },
+  {
+    "id": "pi-025",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "比例 y = 2x と反比例 y = 8/x の交点の座標として正しいのはどれか。ただし x > 0 とする。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2x = 8/x → 2x² = 8 → x = 2 (x>0)、y = 4 より座標は (2, 4)"
+      },
+      {
+        "label": "B",
+        "text": "2x = 8/x → 2x = 8 → x = 4、y = 8 より座標は (4, 8)"
+      },
+      {
+        "label": "C",
+        "text": "y が等しいので 2x + 8/x = 0 → x = -2(x>0 を満たさず不成立)"
+      },
+      {
+        "label": "D",
+        "text": "2x = 8/x → x = 8/2 = 4、y = 8 より座標は (4, 8)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例と反比例の交点",
+      "連立方程式"
+    ]
+  },
+  {
+    "id": "pi-026",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "比例 y = ax のグラフが反比例 y = 18/x のグラフと第 1 象限で交わり、交点の x 座標が 3 であるとき、a の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "交点の y = 18/3 = 6、y = ax に x=3, y=6 を代入して a = 2"
+      },
+      {
+        "label": "B",
+        "text": "a = 18/3 = 6"
+      },
+      {
+        "label": "C",
+        "text": "a = 3/18 = 1/6"
+      },
+      {
+        "label": "D",
+        "text": "交点 y = 18/3 = 6、a = 6/3² = 2/3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "交点のy座標",
+      "比例定数の逆算"
+    ]
+  },
+  {
+    "id": "pi-027",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "反比例 y = a/x のグラフが点 (2, 3) を通るとき、y = 1 になるときの x の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a = 2×3 = 6 より y = 6/x、1 = 6/x → x = 6"
+      },
+      {
+        "label": "B",
+        "text": "a = 6 より y = 6/x、1 = 6/x → x = 6(手順は A と同じ)"
+      },
+      {
+        "label": "C",
+        "text": "a = 2×3 = 6、y = 1 のとき x = 6/1 - 1 = 5"
+      },
+      {
+        "label": "D",
+        "text": "a = 6 より y = 6x、1 = 6x → x = 1/6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の応用",
+      "逆算"
+    ]
+  },
+  {
+    "id": "pi-028",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "y = 12/x で x が 2 から 4 に増加するとき、y の変化量として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=2 で y=6、x=4 で y=3。変化量 = 3-6 = -3"
+      },
+      {
+        "label": "B",
+        "text": "x=2 で y=6、x=4 で y=3。変化量 = 6-3 = 3"
+      },
+      {
+        "label": "C",
+        "text": "y = 12/x は比例でないので変化量は定義できない"
+      },
+      {
+        "label": "D",
+        "text": "x=2 で y=6、x=4 で y=3。変化量 = 3+6 = 9"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "反比例の変化量",
+      "増加・減少"
+    ]
+  },
+  {
+    "id": "pi-029",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "比例 y = 3x で x が a から a+2 に増加するとき y の増加量として正しいのはどれか（a は定数）。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "増加量 = 3×(a+2) - 3a = 6(a によらず一定)"
+      },
+      {
+        "label": "B",
+        "text": "増加量 = 3×(a+2) - 3a = 6a"
+      },
+      {
+        "label": "C",
+        "text": "x の増加量は 2 なので y の増加量 = 2/3"
+      },
+      {
+        "label": "D",
+        "text": "増加量 = 3 × 2 = 6(比例定数 × x の増加量だが答えが a 依存になる)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例の増加量",
+      "一般的な変化"
+    ]
+  },
+  {
+    "id": "pi-030",
+    "subject": "math",
+    "unit": "比例と反比例",
+    "difficulty": "exam",
+    "question": "「ギアの歯数 x と回転数 y は反比例し、歯数 20 のギアが毎分 30 回転する。」歯数 12 のギアの回転数として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "xy = 600 より y = 600/12 = 50 回転"
+      },
+      {
+        "label": "B",
+        "text": "y/x = 30/20 = 1.5 で比例として y = 1.5×12 = 18 回転"
+      },
+      {
+        "label": "C",
+        "text": "xy が一定で x が減ると y が増えるので 30 × (20-12) = 240 回転"
+      },
+      {
+        "label": "D",
+        "text": "xy = 600 より y = 600 - 12 = 588 回転"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "歯車と反比例",
+      "実用的な反比例"
+    ]
+  }
+]

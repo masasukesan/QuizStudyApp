@@ -1,0 +1,13 @@
+{
+  "unit": "solving-quadratics",
+  "title": "二次方程式",
+  "grade": "中3",
+  "patterns": [
+    {"id":"factoring-solution","title":"因数分解による解法","difficulty":"basic","description":"x²+bx+c=0 を (x+p)(x+q)=0 と因数分解して解く","typical_mistakes":["x=p,q と符号を反転しない","因数分解の組み合わせを間違える"],"steps":["左辺を因数分解","各因数=0 とおく","x を求める"]},
+    {"id":"sqrt-solution","title":"平方根による解法","difficulty":"basic","description":"x²=a の形に変形して x=±√a","typical_mistakes":["±を忘れて一解のみ","√a の簡略化を忘れる"],"steps":["x²=a の形に","x=±√a","必要なら簡略化"]},
+    {"id":"completing-square","title":"平方完成による解法","difficulty":"standard","description":"ax²+bx+c=0 を (x+p)²=q の形に変形","typical_mistakes":["係数aで割り忘れる","p=(b/2)² の計算ミス"],"steps":["係数1に統一","(x+b/2)²の形に","±√で解く"]},
+    {"id":"quadratic-formula","title":"解の公式","difficulty":"standard","description":"x = (-b±√(b²-4ac))/(2a) の適用","typical_mistakes":["判別式 b²-4ac の符号ミス","2a で割るのを b だけに適用"],"steps":["a,b,c を確認","公式に代入","根号を簡略化"]},
+    {"id":"applied-problems","title":"二次方程式の応用（数・図形）","difficulty":"exam","description":"連続する整数の積・長方形の面積などを方程式に立式して解く","typical_mistakes":["負の解を捨てる条件を忘れる","立式ミス"],"steps":["文章を式に","二次方程式を解く","条件に合う解を選ぶ"]},
+    {"id":"discriminant","title":"解の性質・判別式","difficulty":"exam","description":"判別式 D=b²-4ac の符号で実数解の個数判定","typical_mistakes":["D=0 が重解（2解同値）","D<0 を解なしと表現"],"steps":["判別式を計算","D>0:2解, D=0:重解, D<0:実数解なし","条件を満たす文字値を求める"]}
+  ]
+}

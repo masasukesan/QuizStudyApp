@@ -1,0 +1,97 @@
+{
+  "unit_id": "proportional-inverse",
+  "unit_name_jp": "比例と反比例",
+  "grade": "中学1年",
+  "patterns": [
+    {
+      "pattern_id": "proportional-definition",
+      "description": "比例の定義と式（y = ax）の確認・比例定数を求める",
+      "thinking_process": [
+        "x が 2 倍・3 倍になると y も 2 倍・3 倍になる関係が比例",
+        "比例の式は y = ax（a は比例定数）",
+        "1 組の x, y の値を代入して a を求める"
+      ],
+      "common_mistakes": [
+        "y/x の値が一定でないと比例でないが、x=0 のときだけ 0/0 になることに気づかない",
+        "比例定数を a = y × x と積で求めてしまう（正しくは a = y/x）",
+        "比例と反比例の式を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "inverse-definition",
+      "description": "反比例の定義と式（y = a/x）の確認・比例定数を求める",
+      "thinking_process": [
+        "x が 2 倍・3 倍になると y が 1/2・1/3 になる関係が反比例",
+        "反比例の式は y = a/x（a は比例定数）",
+        "xy の積が一定であることを確認し、a = xy で求める"
+      ],
+      "common_mistakes": [
+        "xy の値が一定かどうかでなく y/x の値で判定してしまう（比例と逆）",
+        "y = a/x を y = ax と書いてしまう",
+        "a = y/x と比例定数の求め方を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "graph-of-proportional",
+      "description": "比例 y = ax のグラフの特徴（原点を通る直線）",
+      "thinking_process": [
+        "比例のグラフは必ず原点 (0, 0) を通る",
+        "a > 0 なら右上がり、a < 0 なら右下がりの直線",
+        "グラフ上の点の座標を代入して a の値を確認する"
+      ],
+      "common_mistakes": [
+        "y 切片が 0 でない直線も比例のグラフと思う",
+        "a の符号とグラフの傾きの関係を逆に覚える",
+        "原点以外の 1 点を通ることだけで a を決める計算ミス"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "graph-of-inverse",
+      "description": "反比例 y = a/x のグラフの特徴（双曲線）",
+      "thinking_process": [
+        "反比例のグラフは双曲線（なめらかな曲線が 2 本）",
+        "a > 0 なら第 1・第 3 象限、a < 0 なら第 2・第 4 象限",
+        "グラフは x 軸・y 軸に近づくが絶対に交わらない（漸近線）"
+      ],
+      "common_mistakes": [
+        "反比例のグラフを直線と思う",
+        "a の符号と象限の関係を逆に覚える（a>0 → 第1・3象限）",
+        "双曲線が軸と交わると思う"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "reading-coordinates",
+      "description": "グラフや表から比例・反比例の式を求める",
+      "thinking_process": [
+        "グラフ上の点や表の値を読み取る",
+        "読み取った x, y の値を y = ax または y = a/x に代入する",
+        "a の値を計算して式を完成させる"
+      ],
+      "common_mistakes": [
+        "グラフの目盛りを 1 ずれて読み取る",
+        "比例か反比例かを判断せずに式を立てる",
+        "a を求めた後に式を y = ax（定数を代入済み）にする作業を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "application-word-problems",
+      "description": "比例・反比例の関係を使った文章題（速さ・面積・単価など）",
+      "thinking_process": [
+        "2 量の関係が比例か反比例かを問題文から判断する",
+        "比例定数 a を求めて式を立てる",
+        "求めたい値を代入して答えを出す"
+      ],
+      "common_mistakes": [
+        "速さ一定のとき「時間と距離」が比例なのに反比例と判断する",
+        "面積一定のとき「縦と横」が反比例なのに比例と判断する",
+        "式は立てられても代入する変数を x と y の逆にする"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

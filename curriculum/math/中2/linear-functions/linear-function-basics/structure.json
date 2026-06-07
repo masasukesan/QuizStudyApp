@@ -1,0 +1,95 @@
+{
+  "unit_id": "linear-function-basics",
+  "unit_name_jp": "一次関数",
+  "grade": "中学2年",
+  "patterns": [
+    {
+      "pattern_id": "slope-intercept",
+      "description": "一次関数 y=ax+b の傾きと切片の意味",
+      "thinking_process": [
+        "y=ax+b の a が傾き（x が1増えると y が a 増える）",
+        "b が y 切片（x=0 のときの y の値）",
+        "グラフは直線で、傾き a の符号で右上がり・右下がりが決まる"
+      ],
+      "common_mistakes": [
+        "傾きと切片を逆にする（a が切片、b が傾きと思う）",
+        "傾きが負のとき右上がりと誤解する",
+        "y 切片を「y=0 のときの x の値」と混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "table-to-formula",
+      "description": "変化の表・2点から一次関数の式を求める",
+      "thinking_process": [
+        "傾き a = y の増加量 ÷ x の増加量",
+        "a を求めたら y=ax+b に1点を代入して b を求める",
+        "または連立方程式で a, b を求める"
+      ],
+      "common_mistakes": [
+        "傾きを x の増加量 ÷ y の増加量 と逆にする",
+        "傾きを求めた後に b を求め忘れる",
+        "2点の座標を逆に読む"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "graph-reading",
+      "description": "一次関数のグラフの読み取りと描き方",
+      "thinking_process": [
+        "y 切片から (0, b) を打つ",
+        "傾き a から x が1増えたとき y が a 増える点を打つ",
+        "2点を直線で結ぶ"
+      ],
+      "common_mistakes": [
+        "傾きを「点の座標」と誤解する",
+        "グラフの傾きの計算で Δx と Δy を逆にする",
+        "切片を x 軸との交点と混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "x-intercept",
+      "description": "x 切片・交点の座標を求める",
+      "thinking_process": [
+        "x 切片：y=0 として x を求める",
+        "2直線の交点：連立方程式で解く",
+        "x 軸との交点 = x 切片"
+      ],
+      "common_mistakes": [
+        "x 切片を y=0 でなく x=0 で求める（y 切片と混同）",
+        "交点を求めるとき y=ax+b の b を x 切片と間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "rate-of-change",
+      "description": "変化の割合（傾き）と一次関数の増減",
+      "thinking_process": [
+        "変化の割合 = y の増加量 / x の増加量 = 傾き a（一定）",
+        "a > 0 なら x が増えると y も増える（右上がり）",
+        "a < 0 なら x が増えると y は減る（右下がり）"
+      ],
+      "common_mistakes": [
+        "変化の割合が x の値によって変わると思う（一次関数では一定）",
+        "増加量の符号を無視する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "linear-function-application",
+      "description": "一次関数の応用（料金・距離・時間の問題）",
+      "thinking_process": [
+        "問題文から y=ax+b の a と b を読み取る",
+        "初期費用が b、1単位あたりの増加が a",
+        "グラフの交点が2つの条件が等しくなる点"
+      ],
+      "common_mistakes": [
+        "初期費用と増加量を逆にする",
+        "グラフの交点の意味（2条件が一致する点）を理解しない",
+        "単位の変換を忘れる（分と時間など）"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ls-001",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 x + y = 7、x - y = 3 を加減法で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 5, y = 2"
+      },
+      {
+        "label": "B",
+        "text": "x = 4, y = 3"
+      },
+      {
+        "label": "C",
+        "text": "x = 3, y = 4"
+      },
+      {
+        "label": "D",
+        "text": "x = 6, y = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加減法",
+      "足して消去"
+    ]
+  },
+  {
+    "id": "ls-002",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 2x + y = 8、x + y = 5 を加減法で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 3, y = 2"
+      },
+      {
+        "label": "B",
+        "text": "x = 2, y = 3"
+      },
+      {
+        "label": "C",
+        "text": "x = 4, y = 0"
+      },
+      {
+        "label": "D",
+        "text": "x = 1, y = 6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加減法",
+      "引いて消去"
+    ]
+  },
+  {
+    "id": "ls-003",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 y = 2x - 1、x + y = 8 を代入法で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 3, y = 5"
+      },
+      {
+        "label": "B",
+        "text": "x = 4, y = 7"
+      },
+      {
+        "label": "C",
+        "text": "x = 2, y = 3"
+      },
+      {
+        "label": "D",
+        "text": "x = 5, y = 3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代入法",
+      "y=の形を代入"
+    ]
+  },
+  {
+    "id": "ls-004",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 3x + 2y = 12、x = 2 のとき y の値は？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 3"
+      },
+      {
+        "label": "B",
+        "text": "y = 4"
+      },
+      {
+        "label": "C",
+        "text": "y = 6"
+      },
+      {
+        "label": "D",
+        "text": "y = 2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代入法",
+      "値の代入"
+    ]
+  },
+  {
+    "id": "ls-005",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 x + 2y = 10、3x + 2y = 18 を加減法で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 4, y = 3"
+      },
+      {
+        "label": "B",
+        "text": "x = 3, y = 4"
+      },
+      {
+        "label": "C",
+        "text": "x = 6, y = 2"
+      },
+      {
+        "label": "D",
+        "text": "x = 2, y = 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加減法",
+      "係数が同じ項を消去"
+    ]
+  },
+  {
+    "id": "ls-006",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 2x - y = 1、x + y = 5 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 2, y = 3"
+      },
+      {
+        "label": "B",
+        "text": "x = 3, y = 2"
+      },
+      {
+        "label": "C",
+        "text": "x = 1, y = 4"
+      },
+      {
+        "label": "D",
+        "text": "x = 4, y = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加減法",
+      "y を消去"
+    ]
+  },
+  {
+    "id": "ls-007",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 x = 3y、x + y = 8 を代入法で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 6, y = 2"
+      },
+      {
+        "label": "B",
+        "text": "x = 9, y = 3"
+      },
+      {
+        "label": "C",
+        "text": "x = 4, y = 4"
+      },
+      {
+        "label": "D",
+        "text": "x = 3, y = 5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代入法",
+      "x=の形を代入"
+    ]
+  },
+  {
+    "id": "ls-008",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 4x + 3y = 18、2x + 3y = 12 を加減法で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 3, y = 2"
+      },
+      {
+        "label": "B",
+        "text": "x = 2, y = 3"
+      },
+      {
+        "label": "C",
+        "text": "x = 6, y = -2"
+      },
+      {
+        "label": "D",
+        "text": "x = 1, y = 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加減法",
+      "y消去"
+    ]
+  },
+  {
+    "id": "ls-009",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 y = x + 4、2x + y = 13 を代入法で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 3, y = 7"
+      },
+      {
+        "label": "B",
+        "text": "x = 4, y = 8"
+      },
+      {
+        "label": "C",
+        "text": "x = 5, y = 9"
+      },
+      {
+        "label": "D",
+        "text": "x = 2, y = 6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代入法",
+      "整理して解く"
+    ]
+  },
+  {
+    "id": "ls-010",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "basic",
+    "question": "連立方程式 5x + y = 17、3x + y = 11 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 3, y = 2"
+      },
+      {
+        "label": "B",
+        "text": "x = 2, y = 7"
+      },
+      {
+        "label": "C",
+        "text": "x = 4, y = -3"
+      },
+      {
+        "label": "D",
+        "text": "x = 1, y = 12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加減法",
+      "y消去"
+    ]
+  },
+  {
+    "id": "ls-011",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "連立方程式 2x + 3y = 11、3x - 2y = -1 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 1, y = 3"
+      },
+      {
+        "label": "B",
+        "text": "x = 2, y = 1"
+      },
+      {
+        "label": "C",
+        "text": "x = 3, y = -1"
+      },
+      {
+        "label": "D",
+        "text": "x = -1, y = 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加減法",
+      "係数をそろえる"
+    ]
+  },
+  {
+    "id": "ls-012",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "連立方程式 (x/2) + y = 4、x - y = 2 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 4, y = 2"
+      },
+      {
+        "label": "B",
+        "text": "x = 2, y = 3"
+      },
+      {
+        "label": "C",
+        "text": "x = 6, y = 4"
+      },
+      {
+        "label": "D",
+        "text": "x = 3, y = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分数係数",
+      "分母払い"
+    ]
+  },
+  {
+    "id": "ls-013",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "連立方程式 0.3x + 0.2y = 1.4、x + y = 6 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 2, y = 4"
+      },
+      {
+        "label": "B",
+        "text": "x = 4, y = 2"
+      },
+      {
+        "label": "C",
+        "text": "x = 3, y = 3"
+      },
+      {
+        "label": "D",
+        "text": "x = 1, y = 5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "小数係数",
+      "10倍して整数化"
+    ]
+  },
+  {
+    "id": "ls-014",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "連立方程式 2(x + y) = 10、3x - y = 5 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 2, y = 3"
+      },
+      {
+        "label": "B",
+        "text": "x = 3, y = 2"
+      },
+      {
+        "label": "C",
+        "text": "x = 4, y = 1"
+      },
+      {
+        "label": "D",
+        "text": "x = 1, y = 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "かっこを展開",
+      "加減法"
+    ]
+  },
+  {
+    "id": "ls-015",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "りんご2個とみかん3個の代金が530円、りんご1個とみかん2個の代金が320円。りんご1個の値段はいくらか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "110円"
+      },
+      {
+        "label": "B",
+        "text": "130円"
+      },
+      {
+        "label": "C",
+        "text": "90円"
+      },
+      {
+        "label": "D",
+        "text": "150円"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文章題",
+      "2変数の連立"
+    ]
+  },
+  {
+    "id": "ls-016",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "合計50枚の硬貨が10円玉と50円玉で、合計金額は1500円。10円玉は何枚か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "25枚"
+      },
+      {
+        "label": "B",
+        "text": "30枚"
+      },
+      {
+        "label": "C",
+        "text": "20枚"
+      },
+      {
+        "label": "D",
+        "text": "15枚"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文章題",
+      "枚数と金額の連立"
+    ]
+  },
+  {
+    "id": "ls-017",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "連立方程式 3(x - y) = 6、x + 2y = 9 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 3, y = 3"
+      },
+      {
+        "label": "B",
+        "text": "x = 5, y = 2"
+      },
+      {
+        "label": "C",
+        "text": "x = 4, y = 2"
+      },
+      {
+        "label": "D",
+        "text": "x = 6, y = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "かっこ展開",
+      "代入法"
+    ]
+  },
+  {
+    "id": "ls-018",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "連立方程式 (x+y)/2 = 4、x - y = 2 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 5, y = 3"
+      },
+      {
+        "label": "B",
+        "text": "x = 4, y = 2"
+      },
+      {
+        "label": "C",
+        "text": "x = 6, y = 4"
+      },
+      {
+        "label": "D",
+        "text": "x = 3, y = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分数係数",
+      "両辺2倍"
+    ]
+  },
+  {
+    "id": "ls-019",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "大人2人と子ども3人の入場料は2400円、大人1人と子ども2人は1500円。子ども1人の入場料はいくらか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "300円"
+      },
+      {
+        "label": "B",
+        "text": "400円"
+      },
+      {
+        "label": "C",
+        "text": "600円"
+      },
+      {
+        "label": "D",
+        "text": "200円"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文章題",
+      "大人と子どもの連立"
+    ]
+  },
+  {
+    "id": "ls-020",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "standard",
+    "question": "連立方程式 4x + 3y = 13、2x - y = -1 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x = 1, y = 3"
+      },
+      {
+        "label": "B",
+        "text": "x = 2, y = -1"
+      },
+      {
+        "label": "C",
+        "text": "x = 3, y = 5"
+      },
+      {
+        "label": "D",
+        "text": "x = 0, y = 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "係数をそろえる",
+      "加減法"
+    ]
+  },
+  {
+    "id": "ls-021",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "A地からB地まで行きは時速4km、帰りは時速6kmで歩いた。往復の合計時間は2時間30分。A地からB地の距離は何kmか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6km"
+      },
+      {
+        "label": "B",
+        "text": "5km"
+      },
+      {
+        "label": "C",
+        "text": "4km"
+      },
+      {
+        "label": "D",
+        "text": "8km"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "速さの文章題",
+      "時間の連立"
+    ]
+  },
+  {
+    "id": "ls-022",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "濃度6%の食塩水と10%の食塩水を混ぜて、濃度8%の食塩水を200g作りたい。6%の食塩水は何g必要か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "100g"
+      },
+      {
+        "label": "B",
+        "text": "80g"
+      },
+      {
+        "label": "C",
+        "text": "120g"
+      },
+      {
+        "label": "D",
+        "text": "60g"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "食塩水の問題",
+      "濃度の連立"
+    ]
+  },
+  {
+    "id": "ls-023",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "2桁の整数がある。十の位と一の位の和は8、十の位と一の位を入れ替えた数は元の数より18大きい。元の整数はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "35"
+      },
+      {
+        "label": "B",
+        "text": "53"
+      },
+      {
+        "label": "C",
+        "text": "26"
+      },
+      {
+        "label": "D",
+        "text": "62"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "整数の文章題",
+      "2桁の整数"
+    ]
+  },
+  {
+    "id": "ls-024",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "兄と弟の現在の年齢の和は30歳。5年後に兄の年齢が弟の年齢の2倍になる。現在の弟の年齢は何歳か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5歳"
+      },
+      {
+        "label": "B",
+        "text": "8歳"
+      },
+      {
+        "label": "C",
+        "text": "10歳"
+      },
+      {
+        "label": "D",
+        "text": "3歳"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "年齢問題",
+      "2変数連立"
+    ]
+  },
+  {
+    "id": "ls-025",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "x = 2, y = -1 が連立方程式 ax + by = 8、bx + ay = 1 の解のとき、a, b の値は？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a = 3, b = -2"
+      },
+      {
+        "label": "B",
+        "text": "a = 2, b = -3"
+      },
+      {
+        "label": "C",
+        "text": "a = 4, b = 0"
+      },
+      {
+        "label": "D",
+        "text": "a = -1, b = 5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "係数の決定",
+      "値の代入"
+    ]
+  },
+  {
+    "id": "ls-026",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "周の長さが26cmの長方形がある。縦の長さが横の長さの2倍より3cm短い。縦の長さは何cmか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "7cm"
+      },
+      {
+        "label": "B",
+        "text": "6cm"
+      },
+      {
+        "label": "C",
+        "text": "9cm"
+      },
+      {
+        "label": "D",
+        "text": "10cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "長方形の問題",
+      "連立方程式"
+    ]
+  },
+  {
+    "id": "ls-027",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "100円のノートと150円のペンを合わせて12個買ったら1450円だった。ノートは何冊買ったか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "7冊"
+      },
+      {
+        "label": "B",
+        "text": "5冊"
+      },
+      {
+        "label": "C",
+        "text": "8冊"
+      },
+      {
+        "label": "D",
+        "text": "3冊"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "金額の文章題",
+      "個数の連立"
+    ]
+  },
+  {
+    "id": "ls-028",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "A中学校の昨年の生徒数は450人。今年は男子が10%増え、女子が5%減り、合計で454人になった。昨年の男子は何人か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "200人"
+      },
+      {
+        "label": "B",
+        "text": "250人"
+      },
+      {
+        "label": "C",
+        "text": "180人"
+      },
+      {
+        "label": "D",
+        "text": "220人"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "割合の文章題",
+      "増減の連立"
+    ]
+  },
+  {
+    "id": "ls-029",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "連立方程式 x + y = k、2x - y = 2k-3 の解が x = y であるとき k の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "条件付き連立",
+      "係数決定"
+    ]
+  },
+  {
+    "id": "ls-030",
+    "subject": "math",
+    "unit": "linear-systems",
+    "difficulty": "exam",
+    "question": "電車とバスを使って60kmの距離を移動した。電車は時速80km、バスは時速40km、合計1時間かかった。バスに乗った時間は何分か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "30分"
+      },
+      {
+        "label": "B",
+        "text": "20分"
+      },
+      {
+        "label": "C",
+        "text": "15分"
+      },
+      {
+        "label": "D",
+        "text": "45分"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "速さの文章題",
+      "距離と時間"
+    ]
+  }
+]

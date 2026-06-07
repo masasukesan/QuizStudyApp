@@ -1,0 +1,902 @@
+[
+  {
+    "id": "le-001",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "a × b × a を文字式の表記ルールに従って正しく表しているのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a²b"
+      },
+      {
+        "label": "B",
+        "text": "aab"
+      },
+      {
+        "label": "C",
+        "text": "a × b × a"
+      },
+      {
+        "label": "D",
+        "text": "ba²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文字式の表記",
+      "累乗"
+    ]
+  },
+  {
+    "id": "le-002",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "x ÷ 4 を文字式の表記ルールに従って正しく表しているのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x/4"
+      },
+      {
+        "label": "B",
+        "text": "4/x"
+      },
+      {
+        "label": "C",
+        "text": "x ÷ 4"
+      },
+      {
+        "label": "D",
+        "text": "4x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "除法の表記",
+      "分数形式"
+    ]
+  },
+  {
+    "id": "le-003",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "1 × x を文字式の表記ルールに従って正しく表しているのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x"
+      },
+      {
+        "label": "B",
+        "text": "1x"
+      },
+      {
+        "label": "C",
+        "text": "x1"
+      },
+      {
+        "label": "D",
+        "text": "1×x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "1の省略",
+      "文字式の規則"
+    ]
+  },
+  {
+    "id": "le-004",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "(-3) × a を文字式の表記ルールに従って正しく表しているのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-3a"
+      },
+      {
+        "label": "B",
+        "text": "a(-3)"
+      },
+      {
+        "label": "C",
+        "text": "-a3"
+      },
+      {
+        "label": "D",
+        "text": "3a"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の係数",
+      "数を文字の前に"
+    ]
+  },
+  {
+    "id": "le-005",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "a = 3 のとき、2a + 5 の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2×3+5=11"
+      },
+      {
+        "label": "B",
+        "text": "2+3+5=10"
+      },
+      {
+        "label": "C",
+        "text": "2×3+5=16"
+      },
+      {
+        "label": "D",
+        "text": "2×(3+5)=16"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代入",
+      "計算順序"
+    ]
+  },
+  {
+    "id": "le-006",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "a = -2 のとき、a² の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "(-2)²=4"
+      },
+      {
+        "label": "B",
+        "text": "(-2)²=-4"
+      },
+      {
+        "label": "C",
+        "text": "a=-2 を代入してかっこなしで計算すると -2² = -(2²) = -4 なので答えは -4"
+      },
+      {
+        "label": "D",
+        "text": "(-2)² は (-2)+(−2) = -4 と計算するので答えは -4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の数の代入",
+      "累乗の符号"
+    ]
+  },
+  {
+    "id": "le-007",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "3x と 5x を足す計算として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "係数を足して (3+5)x = 8x"
+      },
+      {
+        "label": "B",
+        "text": "3x × 5x = 15x²"
+      },
+      {
+        "label": "C",
+        "text": "x 部分も足して 8x²"
+      },
+      {
+        "label": "D",
+        "text": "3 と 5 だけ足して 8(文字は落とす)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同類項",
+      "係数の計算"
+    ]
+  },
+  {
+    "id": "le-008",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "4x + 3 - x + 2 を整理する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x の項をまとめ (4-1)x=3x、定数項をまとめ 3+2=5。答えは 3x+5"
+      },
+      {
+        "label": "B",
+        "text": "すべて足して 4x+3-x+2=5x+5"
+      },
+      {
+        "label": "C",
+        "text": "x の項をまとめ (4+1)x=5x、定数項 3-2=1。答えは 5x+1"
+      },
+      {
+        "label": "D",
+        "text": "x の項は 4x のみ。答えは 4x+5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同類項のまとめ",
+      "定数項"
+    ]
+  },
+  {
+    "id": "le-009",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "3(2x - 1) を展開する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "分配法則で 3×2x - 3×1 = 6x - 3"
+      },
+      {
+        "label": "B",
+        "text": "3×2x のみ計算して 6x - 1"
+      },
+      {
+        "label": "C",
+        "text": "3+2x - 1 = 2x+2"
+      },
+      {
+        "label": "D",
+        "text": "3 に (2x-1) を足す計算として 3+2x-1 = 2x+2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分配法則",
+      "かっこの展開"
+    ]
+  },
+  {
+    "id": "le-010",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "basic",
+    "question": "6a ÷ 2 を計算する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6÷2=3 なので答えは 3a"
+      },
+      {
+        "label": "B",
+        "text": "a も 2 で割って 3"
+      },
+      {
+        "label": "C",
+        "text": "2÷6=1/3 なので答えは a/3"
+      },
+      {
+        "label": "D",
+        "text": "6a÷2 = 6a/2 = 4a"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "一次式の除法",
+      "係数のみを割る"
+    ]
+  },
+  {
+    "id": "le-011",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "x = -3 のとき、-2x + 7 の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-2×(-3)+7 = 6+7 = 13"
+      },
+      {
+        "label": "B",
+        "text": "-2×(-3)+7 = -6+7 = 1"
+      },
+      {
+        "label": "C",
+        "text": "-2×3+7 = -6+7 = 1"
+      },
+      {
+        "label": "D",
+        "text": "-2×(-3)+7 = 6-7 = -1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の数の代入",
+      "符号処理"
+    ]
+  },
+  {
+    "id": "le-012",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "a = 2、b = -3 のとき、3a - 2b の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3×2 - 2×(-3) = 6+6 = 12"
+      },
+      {
+        "label": "B",
+        "text": "3×2 - 2×(-3) = 6-6 = 0"
+      },
+      {
+        "label": "C",
+        "text": "3×2 - 2×3 = 6-6 = 0"
+      },
+      {
+        "label": "D",
+        "text": "3×2 + 2×(-3) = 6-6 = 0"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "2変数の代入",
+      "符号の扱い"
+    ]
+  },
+  {
+    "id": "le-013",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "(5x + 3) + (2x - 7) を整理する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x の項 5x+2x=7x、定数項 3+(-7)=-4。答えは 7x-4"
+      },
+      {
+        "label": "B",
+        "text": "x の項 5x+2x=7x、定数項 3+7=10。答えは 7x+10"
+      },
+      {
+        "label": "C",
+        "text": "かっこをはずすと 5x+3+2x-7 → 3x-4"
+      },
+      {
+        "label": "D",
+        "text": "かっこをはずすと 5x+3-2x+7 → 3x+10"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "一次式の加法",
+      "同類項"
+    ]
+  },
+  {
+    "id": "le-014",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "(5x + 3) - (2x - 7) を整理する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "引く式の符号を逆にする：5x+3-2x+7 = 3x+10"
+      },
+      {
+        "label": "B",
+        "text": "そのままひいて 5x+3-2x-7 = 3x-4"
+      },
+      {
+        "label": "C",
+        "text": "引く式の符号を逆にする：5x+3+2x-7 = 7x-4"
+      },
+      {
+        "label": "D",
+        "text": "引く式の符号を逆にする：5x+3-2x+7 = 3x-4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "一次式の減法",
+      "かっこの符号変換"
+    ]
+  },
+  {
+    "id": "le-015",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "-4(3x - 2) を展開する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-4×3x=-12x かつ -4×(-2)=+8 なので -12x+8"
+      },
+      {
+        "label": "B",
+        "text": "(-4) を両項に分配するが +4×3x=12x、+4×(-2)=-8 で 12x-8"
+      },
+      {
+        "label": "C",
+        "text": "-4×3x=-12x は正しいが -4×(-2) を -8 とするミスで -12x-8"
+      },
+      {
+        "label": "D",
+        "text": "-4 を (-2) にだけかけて 3x はそのままで 3x+8"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の数の分配法則",
+      "符号"
+    ]
+  },
+  {
+    "id": "le-016",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "2(x + 3) - 3(x - 1) を展開・整理する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2x+6-3x+3 = -x+9"
+      },
+      {
+        "label": "B",
+        "text": "2x+6-3x-3 = -x+3"
+      },
+      {
+        "label": "C",
+        "text": "2x+6+3x-3 = 5x+3"
+      },
+      {
+        "label": "D",
+        "text": "2x+3-3x+1 = -x+4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分配法則",
+      "同類項の整理"
+    ]
+  },
+  {
+    "id": "le-017",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "1 本 x 円のペンを 3 本と、1 個 y 円の消しゴムを 2 個買ったときの合計金額を式で表すと正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3x + 2y 円"
+      },
+      {
+        "label": "B",
+        "text": "3x × 2y 円"
+      },
+      {
+        "label": "C",
+        "text": "(x + y) × 5 円"
+      },
+      {
+        "label": "D",
+        "text": "2x + 3y 円"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文章題と文字式",
+      "合計金額"
+    ]
+  },
+  {
+    "id": "le-018",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "「a の 3 倍から b を引いた値は 10 以上」を不等式で正しく表しているのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3a - b ≧ 10"
+      },
+      {
+        "label": "B",
+        "text": "3a - b > 10"
+      },
+      {
+        "label": "C",
+        "text": "3a - b ≦ 10"
+      },
+      {
+        "label": "D",
+        "text": "b - 3a ≧ 10"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "不等式の表現",
+      "以上の意味"
+    ]
+  },
+  {
+    "id": "le-019",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "12x ÷ (-4) を計算する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "12÷(-4)=-3 なので答えは -3x"
+      },
+      {
+        "label": "B",
+        "text": "符号を無視して 12÷4=3 と計算し、答えは 3x"
+      },
+      {
+        "label": "C",
+        "text": "(-4)÷12=-1/3 なので答えは -x/3"
+      },
+      {
+        "label": "D",
+        "text": "符号は無視して 12÷4=3 なので答えは 3x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の数による除法",
+      "係数の符号"
+    ]
+  },
+  {
+    "id": "le-020",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "standard",
+    "question": "x = 4 のとき、(x/2) + 3 の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4/2+3 = 2+3 = 5"
+      },
+      {
+        "label": "B",
+        "text": "4/(2+3) = 4/5"
+      },
+      {
+        "label": "C",
+        "text": "4/2+3 = 4/5"
+      },
+      {
+        "label": "D",
+        "text": "(4+3)/2 = 7/2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分数式への代入",
+      "計算順序"
+    ]
+  },
+  {
+    "id": "le-021",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "a = -1/2 のとき、4a² - 2a の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4×(1/4) - 2×(-1/2) = 1+1 = 2"
+      },
+      {
+        "label": "B",
+        "text": "4×(-1/4) - 2×(-1/2) = -1+1 = 0"
+      },
+      {
+        "label": "C",
+        "text": "a²=(-1/2)²=-1/4 として 4×(-1/4)-2×(-1/2) = -1+1 = 0"
+      },
+      {
+        "label": "D",
+        "text": "-2a に a=-1/2 を代入して 1 を得るが a² の計算を省いて答えは 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分数の代入",
+      "累乗と符号"
+    ]
+  },
+  {
+    "id": "le-022",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "3(2x - 1) - 2(x + 4) を整理した結果として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6x-3-2x-8 = 4x-11"
+      },
+      {
+        "label": "B",
+        "text": "6x-3-2x+8 = 4x+5"
+      },
+      {
+        "label": "C",
+        "text": "6x-1-2x-4 = 4x-5"
+      },
+      {
+        "label": "D",
+        "text": "6x-3+2x-8 = 8x-11"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "2式の展開と整理",
+      "分配法則"
+    ]
+  },
+  {
+    "id": "le-023",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "「x を 3 で割った商に 2 を加えた数」が「x から 5 を引いた数の 2 倍」より小さい、という関係を不等式で正しく表しているのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x/3 + 2 < 2(x - 5)"
+      },
+      {
+        "label": "B",
+        "text": "x/3 + 2 > 2(x - 5)"
+      },
+      {
+        "label": "C",
+        "text": "x/3 + 2 < 2x - 5"
+      },
+      {
+        "label": "D",
+        "text": "3/x + 2 < 2(x - 5)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文章の不等式化",
+      "より小さい"
+    ]
+  },
+  {
+    "id": "le-024",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "1 辺が a cm の正方形の周の長さを式で表すと 4a cm である。a = 7.5 のとき周の長さとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4×7.5 = 30 cm"
+      },
+      {
+        "label": "B",
+        "text": "4+7.5 = 11.5 cm"
+      },
+      {
+        "label": "C",
+        "text": "7.5² = 56.25 cm"
+      },
+      {
+        "label": "D",
+        "text": "4×7.5 = 28 cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文字式の応用",
+      "図形の周の長さ"
+    ]
+  },
+  {
+    "id": "le-025",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "a = 3、b = -2 のとき、a² + b² の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3²+(-2)² = 9+4 = 13"
+      },
+      {
+        "label": "B",
+        "text": "3²+(-2)² = 9-4 = 5"
+      },
+      {
+        "label": "C",
+        "text": "3²+(-2)² = 9+(-4) = 5"
+      },
+      {
+        "label": "D",
+        "text": "(3+(-2))² = 1² = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "2乗の代入",
+      "負の数の2乗は正"
+    ]
+  },
+  {
+    "id": "le-026",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "式 5x - 3 に x = a + 2 を代入して整理する正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5(a+2)-3 = 5a+10-3 = 5a+7"
+      },
+      {
+        "label": "B",
+        "text": "5a+2-3 = 5a-1"
+      },
+      {
+        "label": "C",
+        "text": "5(a+2)-3 = 5a+2-3 = 5a-1"
+      },
+      {
+        "label": "D",
+        "text": "5(a+2)-3 = 5a+10+3 = 5a+13"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "式への式の代入",
+      "分配法則"
+    ]
+  },
+  {
+    "id": "le-027",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "「速さ v km/h で t 時間走ったときの道のり」を文字式で表すと正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "vt km"
+      },
+      {
+        "label": "B",
+        "text": "v + t km"
+      },
+      {
+        "label": "C",
+        "text": "v/t km"
+      },
+      {
+        "label": "D",
+        "text": "t/v km"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "速さ・時間・道のり",
+      "文字式の立式"
+    ]
+  },
+  {
+    "id": "le-028",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "x = 2 のとき、3x² - 5x + 1 の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3×4 - 5×2 + 1 = 12-10+1 = 3"
+      },
+      {
+        "label": "B",
+        "text": "3×4 - 5×2 + 1 = 12-10-1 = 1"
+      },
+      {
+        "label": "C",
+        "text": "(3×2)² - 5×2 + 1 = 36-10+1 = 27"
+      },
+      {
+        "label": "D",
+        "text": "3×2 - 5×2 + 1 = 6-10+1 = -3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "2乗の代入",
+      "計算順序"
+    ]
+  },
+  {
+    "id": "le-029",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "「ある数 x を 2 倍して 3 を引いた値が、x に 7 を加えた値と等しい」から等式を立てて x を求めたとき、正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2x-3=x+7 と立式し x=10"
+      },
+      {
+        "label": "B",
+        "text": "2x+3=x+7 と立式し x=4"
+      },
+      {
+        "label": "C",
+        "text": "2x-3=x-7 と立式し x=-4"
+      },
+      {
+        "label": "D",
+        "text": "2(x-3)=x+7 と立式し x=13"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "等式の立式",
+      "文章の数量関係"
+    ]
+  },
+  {
+    "id": "le-030",
+    "subject": "math",
+    "unit": "文字と式",
+    "difficulty": "exam",
+    "question": "4(x - 2) - (3x - 5) を整理した結果として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4x-8-3x+5 = x-3"
+      },
+      {
+        "label": "B",
+        "text": "4x-8-3x-5 = x-13"
+      },
+      {
+        "label": "C",
+        "text": "4x-2-3x+5 = x+3"
+      },
+      {
+        "label": "D",
+        "text": "4x-8+3x-5 = 7x-13"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "かっこを含む展開",
+      "符号の管理"
+    ]
+  }
+]

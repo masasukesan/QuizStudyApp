@@ -837,6 +837,204 @@
       "name": "複素数平面と図形",
       "en": "Complex Plane and Geometry",
       "questionCount": 30
+    },
+    {
+      "path": "中1/numbers/positive-negative-numbers",
+      "course": "中1",
+      "unit": "numbers",
+      "subunit": "positive-negative-numbers",
+      "name": "正の数・負の数",
+      "en": "Positive and Negative Numbers",
+      "questionCount": 30
+    },
+    {
+      "path": "中1/letters-and-expressions/letter-expressions",
+      "course": "中1",
+      "unit": "letters-and-expressions",
+      "subunit": "letter-expressions",
+      "name": "文字と式",
+      "en": "Letters and Expressions",
+      "questionCount": 30
+    },
+    {
+      "path": "中1/equations/linear-equations",
+      "course": "中1",
+      "unit": "equations",
+      "subunit": "linear-equations",
+      "name": "一次方程式",
+      "en": "Linear Equations",
+      "questionCount": 30
+    },
+    {
+      "path": "中1/functions/proportional-relationships",
+      "course": "中1",
+      "unit": "functions",
+      "subunit": "proportional-relationships",
+      "name": "比例と反比例",
+      "en": "Proportional Relationships",
+      "questionCount": 30
+    },
+    {
+      "path": "中1/plane-geometry/basic-plane-figures",
+      "course": "中1",
+      "unit": "plane-geometry",
+      "subunit": "basic-plane-figures",
+      "name": "平面図形",
+      "en": "Plane Geometry",
+      "questionCount": 30
+    },
+    {
+      "path": "中1/solid-geometry/basic-solid-figures",
+      "course": "中1",
+      "unit": "solid-geometry",
+      "subunit": "basic-solid-figures",
+      "name": "空間図形",
+      "en": "Solid Geometry",
+      "questionCount": 30
+    },
+    {
+      "path": "中1/data-utilization/data-basics",
+      "course": "中1",
+      "unit": "data-utilization",
+      "subunit": "data-basics",
+      "name": "データの活用",
+      "en": "Data Utilization",
+      "questionCount": 30
+    },
+    {
+      "path": "中2/polynomial-calculations/polynomial-calc",
+      "course": "中2",
+      "unit": "polynomial-calculations",
+      "subunit": "polynomial-calc",
+      "name": "式の計算",
+      "en": "Polynomial Calculations",
+      "questionCount": 30
+    },
+    {
+      "path": "中2/simultaneous-equations/linear-systems",
+      "course": "中2",
+      "unit": "simultaneous-equations",
+      "subunit": "linear-systems",
+      "name": "連立方程式",
+      "en": "Simultaneous Equations",
+      "questionCount": 30
+    },
+    {
+      "path": "中2/linear-functions/linear-function-basics",
+      "course": "中2",
+      "unit": "linear-functions",
+      "subunit": "linear-function-basics",
+      "name": "一次関数",
+      "en": "Linear Functions",
+      "questionCount": 30
+    },
+    {
+      "path": "中2/parallel-and-congruence/parallel-lines",
+      "course": "中2",
+      "unit": "parallel-and-congruence",
+      "subunit": "parallel-lines",
+      "name": "平行と合同",
+      "en": "Parallel Lines and Congruence",
+      "questionCount": 30
+    },
+    {
+      "path": "中2/triangles-quadrilaterals/triangle-properties",
+      "course": "中2",
+      "unit": "triangles-quadrilaterals",
+      "subunit": "triangle-properties",
+      "name": "三角形と四角形",
+      "en": "Triangles and Quadrilaterals",
+      "questionCount": 30
+    },
+    {
+      "path": "中2/probability-jr/basic-probability",
+      "course": "中2",
+      "unit": "probability-jr",
+      "subunit": "basic-probability",
+      "name": "確率",
+      "en": "Probability",
+      "questionCount": 30
+    },
+    {
+      "path": "中2/data-utilization/data-jr2",
+      "course": "中2",
+      "unit": "data-utilization",
+      "subunit": "data-jr2",
+      "name": "データの活用（箱ひげ図）",
+      "en": "Data Utilization (Box Plots)",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/polynomials/expansion-factoring",
+      "course": "中3",
+      "unit": "polynomials",
+      "subunit": "expansion-factoring",
+      "name": "多項式の展開と因数分解",
+      "en": "Expansion and Factoring",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/square-roots/square-root-basics",
+      "course": "中3",
+      "unit": "square-roots",
+      "subunit": "square-root-basics",
+      "name": "平方根",
+      "en": "Square Roots",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/quadratic-equations/solving-quadratics",
+      "course": "中3",
+      "unit": "quadratic-equations",
+      "subunit": "solving-quadratics",
+      "name": "二次方程式",
+      "en": "Quadratic Equations",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/quadratic-functions-jr/quadratic-function-ax2",
+      "course": "中3",
+      "unit": "quadratic-functions-jr",
+      "subunit": "quadratic-function-ax2",
+      "name": "関数y=ax²",
+      "en": "Quadratic Function y=ax2",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/similar-figures/similarity-basics",
+      "course": "中3",
+      "unit": "similar-figures",
+      "subunit": "similarity-basics",
+      "name": "図形の相似",
+      "en": "Similar Figures",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/circles/circle-theorems",
+      "course": "中3",
+      "unit": "circles",
+      "subunit": "circle-theorems",
+      "name": "円",
+      "en": "Circles",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/pythagorean-theorem/pythagorean-basics",
+      "course": "中3",
+      "unit": "pythagorean-theorem",
+      "subunit": "pythagorean-basics",
+      "name": "三平方の定理",
+      "en": "Pythagorean Theorem",
+      "questionCount": 30
+    },
+    {
+      "path": "中3/sampling/sampling-survey",
+      "course": "中3",
+      "unit": "sampling",
+      "subunit": "sampling-survey",
+      "name": "標本調査",
+      "en": "Sampling Surveys",
+      "questionCount": 30
     }
   ],
   "tree": [
@@ -1776,6 +1974,329 @@
               "subunit": "complex-plane-geometry",
               "name": "複素数平面と図形",
               "en": "Complex Plane and Geometry",
+              "questionCount": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "中1",
+      "units": [
+        {
+          "unit": "numbers",
+          "subunits": [
+            {
+              "path": "中1/numbers/positive-negative-numbers",
+              "course": "中1",
+              "unit": "numbers",
+              "subunit": "positive-negative-numbers",
+              "name": "正の数・負の数",
+              "en": "Positive and Negative Numbers",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "letters-and-expressions",
+          "subunits": [
+            {
+              "path": "中1/letters-and-expressions/letter-expressions",
+              "course": "中1",
+              "unit": "letters-and-expressions",
+              "subunit": "letter-expressions",
+              "name": "文字と式",
+              "en": "Letters and Expressions",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "equations",
+          "subunits": [
+            {
+              "path": "中1/equations/linear-equations",
+              "course": "中1",
+              "unit": "equations",
+              "subunit": "linear-equations",
+              "name": "一次方程式",
+              "en": "Linear Equations",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "functions",
+          "subunits": [
+            {
+              "path": "中1/functions/proportional-relationships",
+              "course": "中1",
+              "unit": "functions",
+              "subunit": "proportional-relationships",
+              "name": "比例と反比例",
+              "en": "Proportional Relationships",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "plane-geometry",
+          "subunits": [
+            {
+              "path": "中1/plane-geometry/basic-plane-figures",
+              "course": "中1",
+              "unit": "plane-geometry",
+              "subunit": "basic-plane-figures",
+              "name": "平面図形",
+              "en": "Plane Geometry",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "solid-geometry",
+          "subunits": [
+            {
+              "path": "中1/solid-geometry/basic-solid-figures",
+              "course": "中1",
+              "unit": "solid-geometry",
+              "subunit": "basic-solid-figures",
+              "name": "空間図形",
+              "en": "Solid Geometry",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "data-utilization",
+          "subunits": [
+            {
+              "path": "中1/data-utilization/data-basics",
+              "course": "中1",
+              "unit": "data-utilization",
+              "subunit": "data-basics",
+              "name": "データの活用",
+              "en": "Data Utilization",
+              "questionCount": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "中2",
+      "units": [
+        {
+          "unit": "polynomial-calculations",
+          "subunits": [
+            {
+              "path": "中2/polynomial-calculations/polynomial-calc",
+              "course": "中2",
+              "unit": "polynomial-calculations",
+              "subunit": "polynomial-calc",
+              "name": "式の計算",
+              "en": "Polynomial Calculations",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "simultaneous-equations",
+          "subunits": [
+            {
+              "path": "中2/simultaneous-equations/linear-systems",
+              "course": "中2",
+              "unit": "simultaneous-equations",
+              "subunit": "linear-systems",
+              "name": "連立方程式",
+              "en": "Simultaneous Equations",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "linear-functions",
+          "subunits": [
+            {
+              "path": "中2/linear-functions/linear-function-basics",
+              "course": "中2",
+              "unit": "linear-functions",
+              "subunit": "linear-function-basics",
+              "name": "一次関数",
+              "en": "Linear Functions",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "parallel-and-congruence",
+          "subunits": [
+            {
+              "path": "中2/parallel-and-congruence/parallel-lines",
+              "course": "中2",
+              "unit": "parallel-and-congruence",
+              "subunit": "parallel-lines",
+              "name": "平行と合同",
+              "en": "Parallel Lines and Congruence",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "triangles-quadrilaterals",
+          "subunits": [
+            {
+              "path": "中2/triangles-quadrilaterals/triangle-properties",
+              "course": "中2",
+              "unit": "triangles-quadrilaterals",
+              "subunit": "triangle-properties",
+              "name": "三角形と四角形",
+              "en": "Triangles and Quadrilaterals",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "probability-jr",
+          "subunits": [
+            {
+              "path": "中2/probability-jr/basic-probability",
+              "course": "中2",
+              "unit": "probability-jr",
+              "subunit": "basic-probability",
+              "name": "確率",
+              "en": "Probability",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "data-utilization",
+          "subunits": [
+            {
+              "path": "中2/data-utilization/data-jr2",
+              "course": "中2",
+              "unit": "data-utilization",
+              "subunit": "data-jr2",
+              "name": "データの活用（箱ひげ図）",
+              "en": "Data Utilization (Box Plots)",
+              "questionCount": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "中3",
+      "units": [
+        {
+          "unit": "polynomials",
+          "subunits": [
+            {
+              "path": "中3/polynomials/expansion-factoring",
+              "course": "中3",
+              "unit": "polynomials",
+              "subunit": "expansion-factoring",
+              "name": "多項式の展開と因数分解",
+              "en": "Expansion and Factoring",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "square-roots",
+          "subunits": [
+            {
+              "path": "中3/square-roots/square-root-basics",
+              "course": "中3",
+              "unit": "square-roots",
+              "subunit": "square-root-basics",
+              "name": "平方根",
+              "en": "Square Roots",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "quadratic-equations",
+          "subunits": [
+            {
+              "path": "中3/quadratic-equations/solving-quadratics",
+              "course": "中3",
+              "unit": "quadratic-equations",
+              "subunit": "solving-quadratics",
+              "name": "二次方程式",
+              "en": "Quadratic Equations",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "quadratic-functions-jr",
+          "subunits": [
+            {
+              "path": "中3/quadratic-functions-jr/quadratic-function-ax2",
+              "course": "中3",
+              "unit": "quadratic-functions-jr",
+              "subunit": "quadratic-function-ax2",
+              "name": "関数y=ax²",
+              "en": "Quadratic Function y=ax2",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "similar-figures",
+          "subunits": [
+            {
+              "path": "中3/similar-figures/similarity-basics",
+              "course": "中3",
+              "unit": "similar-figures",
+              "subunit": "similarity-basics",
+              "name": "図形の相似",
+              "en": "Similar Figures",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "circles",
+          "subunits": [
+            {
+              "path": "中3/circles/circle-theorems",
+              "course": "中3",
+              "unit": "circles",
+              "subunit": "circle-theorems",
+              "name": "円",
+              "en": "Circles",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "pythagorean-theorem",
+          "subunits": [
+            {
+              "path": "中3/pythagorean-theorem/pythagorean-basics",
+              "course": "中3",
+              "unit": "pythagorean-theorem",
+              "subunit": "pythagorean-basics",
+              "name": "三平方の定理",
+              "en": "Pythagorean Theorem",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
+          "unit": "sampling",
+          "subunits": [
+            {
+              "path": "中3/sampling/sampling-survey",
+              "course": "中3",
+              "unit": "sampling",
+              "subunit": "sampling-survey",
+              "name": "標本調査",
+              "en": "Sampling Surveys",
               "questionCount": 30
             }
           ]

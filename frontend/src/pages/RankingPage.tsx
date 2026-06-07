@@ -1,5 +1,5 @@
 /**
- * RankingPage — 全国順位・偏差値の表示
+ * RankingPage — 全国順位・偏差値の表示（中学生/高校生 独立）
  */
 import { useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
@@ -18,9 +18,9 @@ function getDeviationLabel(score: number) {
   return { label: 'D', color: 'rgba(201,168,106,0.4)', bg: 'transparent' }
 }
 
-/* 順位の表示 */
-function rankDisplay(rank: number) {
-  return `${rank}位`
+const SCHOOL_LABEL: Record<string, string> = {
+  junior_high: '中学生',
+  high_school: '高校生',
 }
 
 export default function RankingPage() {
@@ -28,15 +28,19 @@ export default function RankingPage() {
   const { user }  = useAuth()
   const { data: profile, isLoading: profileLoading } = useProfile(user?.id)
 
-  /* 最新の全国統計を取得 */
+  const schoolType = profile?.school_type ?? null
+
+  /* school_type に応じた全国統計を取得 */
   const { data: nationalStats } = useQuery<NationalStats[]>({
-    queryKey: ['nationalStats'],
+    queryKey: ['nationalStats', schoolType],
     staleTime: 60 * 60_000, // 1時間キャッシュ
+    enabled: !!schoolType,
     queryFn: async () => {
       const { data, error } = await supabase
         .from('national_stats')
         .select('*')
         .eq('subject', 'all')
+        .eq('school_type', schoolType!)
         .order('calculated_at', { ascending: false })
         .limit(10)
       if (error) throw error
@@ -60,12 +64,11 @@ export default function RankingPage() {
   const rank     = profile.national_rank
   const devInfo  = devScore != null ? getDeviationLabel(devScore) : null
 
-  /* 最新の全国統計（全教科合計）を取得 */
-  const latestStat = nationalStats && nationalStats.length > 0 ? nationalStats[0] : null
+  const latestStat   = nationalStats && nationalStats.length > 0 ? nationalStats[0] : null
+  const phase        = latestStat?.calculation_phase ?? 1
+  const isReference  = phase < 3
 
-  /* フェーズ判定: 1/2 は参考値期間（<100人）*/
-  const phase       = latestStat?.calculation_phase ?? 1
-  const isReference = phase < 3
+  const schoolLabel = schoolType ? SCHOOL_LABEL[schoolType] ?? '' : ''
 
   return (
     <div className={styles.page}>
@@ -77,6 +80,13 @@ export default function RankingPage() {
         <h1 className={styles.title}>全国ランキング</h1>
         <div style={{ width: 60 }} />
       </header>
+
+      {/* 学校種別バッジ */}
+      {schoolLabel && (
+        <div className={styles.schoolBadgeWrap}>
+          <span className={styles.schoolBadge}>{schoolLabel}ランキング</span>
+        </div>
+      )}
 
       {/* 偏差値カード */}
       <section className={styles.heroCard}>
@@ -108,10 +118,10 @@ export default function RankingPage() {
 
       {/* 全国順位カード */}
       <section className={styles.card}>
-        <p className={styles.cardLabel}>全国順位</p>
+        <p className={styles.cardLabel}>{schoolLabel ? `${schoolLabel}内` : '全国'}順位</p>
         {!isReference && rank != null ? (
           <div className={styles.rankWrap}>
-            <p className={styles.rankDisplay}>{rankDisplay(rank)}</p>
+            <p className={styles.rankDisplay}>{rank}位</p>
             {latestStat && (
               <p className={styles.rankSub}>全{latestStat.total_users.toLocaleString()}人中</p>
             )}
@@ -126,7 +136,7 @@ export default function RankingPage() {
       {/* 全国統計サマリー */}
       {latestStat && (
         <section className={styles.card}>
-          <p className={styles.cardLabel}>全国平均</p>
+          <p className={styles.cardLabel}>{schoolLabel}全国平均</p>
           <div className={styles.nationalGrid}>
             <div className={styles.nationalBox}>
               <p className={styles.nationalNum}>{latestStat.total_users.toLocaleString()}</p>
@@ -158,34 +168,4 @@ export default function RankingPage() {
             { grade: 'A', range: '65〜69', color: '#5ab87a', note: '上位6.7%' },
             { grade: 'B', range: '55〜64', color: '#7090b0', note: '上位31%' },
             { grade: 'C', range: '45〜54', color: '#a890c8', note: '平均帯' },
-            { grade: 'D', range: '44以下', color: 'rgba(201,168,106,0.4)', note: '要復習' },
-          ].map(g => (
-            <div key={g.grade} className={styles.gradeRow}>
-              <span className={styles.gradeTag} style={{ color: g.color }}>
-                {g.grade}
-              </span>
-              <span className={styles.gradeRange}>{g.range}</span>
-              <span className={styles.gradeNote}>{g.note}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 更新タイミングの説明 */}
-      <section className={`${styles.card} ${styles.infoCard}`}>
-        <p className={styles.infoText}>
-          偏差値・順位は毎日 0:00 に自動更新されます。<br/>
-          問題を解くほど集計に反映され、より正確な偏差値が算出されます。
-        </p>
-        {isReference && (
-          <p className={styles.infoText} style={{ marginTop: '0.5rem', opacity: 0.7 }}>
-            ※ 現在は参加者が少ないため、偏差値は仮の参考値です。<br/>
-            全国のデータが集まるにつれて、より正確な値になります。
-          </p>
-        )}
-      </section>
-
-      <div className={styles.bottomSpacer} />
-    </div>
-  )
-}
+            { grade: 'D', range: '44以下', color: 'rgba(201,168,106,0

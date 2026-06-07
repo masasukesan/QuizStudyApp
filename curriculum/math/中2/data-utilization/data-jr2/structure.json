@@ -1,0 +1,92 @@
+{
+  "unit_id": "data-jr2",
+  "unit_name_jp": "データの活用（箱ひげ図）",
+  "grade": "中学2年",
+  "patterns": [
+    {
+      "pattern_id": "quartile",
+      "description": "四分位数の求め方（第1・第2・第3四分位数）",
+      "thinking_process": [
+        "データを小さい順に並べる",
+        "第2四分位数（中央値）Q2を求める",
+        "前半のデータの中央値がQ1、後半のデータの中央値がQ3"
+      ],
+      "common_mistakes": [
+        "Q2を計算に含めてからQ1・Q3を求める（含めない）",
+        "偶数個データのQ2の求め方を誤る（中央2値の平均）",
+        "Q1とQ3の位置を逆にする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "box-plot-reading",
+      "description": "箱ひげ図の読み取り（最小・最大・四分位数）",
+      "thinking_process": [
+        "箱ひげ図：左ひげ=最小値、左箱端=Q1、箱中=Q2、右箱端=Q3、右ひげ=最大値",
+        "箱の幅=四分位範囲（IQR）=Q3-Q1",
+        "データの散らばりは箱の幅で判断"
+      ],
+      "common_mistakes": [
+        "箱の中央線がQ1またはQ3と混同する（中央線はQ2=中央値）",
+        "ひげの長さをデータ数と混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "iqr-range",
+      "description": "四分位範囲・範囲の計算と比較",
+      "thinking_process": [
+        "四分位範囲IQR = Q3 - Q1",
+        "範囲 = 最大値 - 最小値",
+        "IQRは外れ値の影響を受けにくい散らばりの指標"
+      ],
+      "common_mistakes": [
+        "IQR と範囲を混同する",
+        "IQR = Q3 - Q2 など計算式を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "box-plot-comparison",
+      "description": "2つの箱ひげ図の比較と解釈",
+      "thinking_process": [
+        "中央値（Q2）の位置を比較する",
+        "箱の幅（IQR）でデータの散らばりを比較する",
+        "ひげの長さで外れ値や端の分布を確認する"
+      ],
+      "common_mistakes": [
+        "箱の幅が大きい = データが多いと誤解する（データ数ではなく散らばり）",
+        "中央値の比較と平均の比較を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "data-summary-statistics",
+      "description": "代表値と散布度の総合理解（平均・中央値・四分位数）",
+      "thinking_process": [
+        "平均値は外れ値の影響を受けやすい",
+        "中央値は順序に基づき外れ値の影響を受けにくい",
+        "四分位数は中央50%のデータの広がりを示す"
+      ],
+      "common_mistakes": [
+        "外れ値があるとき平均が最適な代表値と思う",
+        "四分位範囲と標準偏差の意味を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "box-plot-application",
+      "description": "箱ひげ図の作成と読解の応用（実際のデータ分析）",
+      "thinking_process": [
+        "生データから四分位数を計算して箱ひげ図を作成する",
+        "2つのデータセットを箱ひげ図で比較し特徴を述べる",
+        "外れ値の定義（Q1-1.5×IQR以下またはQ3+1.5×IQR以上）"
+      ],
+      "common_mistakes": [
+        "四分位数の計算手順を誤る（Q2を含めてQ1・Q3を計算するミス）",
+        "比較の際に「散らばり」と「中心」を別々に評価しない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

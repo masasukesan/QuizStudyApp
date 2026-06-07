@@ -22,9 +22,11 @@ type Difficulty = 'basic' | 'standard' | 'exam'
 const COURSE_LABEL: Record<string, string> = {
   '1A': '数学1A', '2B': '数学2B',
   '3': '数学3', 'C': '数学C', '_': '全単元',
+  '中1': '中学1年', '中2': '中学2年', '中3': '中学3年',
 }
 
 const UNIT_JP: Record<string, string> = {
+  // 高校数学
   'quadratic-functions': '二次関数',
   'combinatorics': '場合の数と確率',
   'data-analysis': 'データの分析',
@@ -51,6 +53,28 @@ const UNIT_JP: Record<string, string> = {
   'modern-reading': '現代文',
   'classical': '古典文法',
   'kanbun': '漢文',
+  // 中学数学
+  'numbers': '数と計算',
+  'letters-and-expressions': '文字と式',
+  'equations': '方程式',
+  'functions': '関数',
+  'plane-geometry': '平面図形',
+  'solid-geometry': '空間図形',
+  'data-utilization': 'データの活用',
+  'polynomial-calculations': '式の計算',
+  'simultaneous-equations': '連立方程式',
+  'linear-functions': '一次関数',
+  'parallel-and-congruence': '平行と合同',
+  'triangles-quadrilaterals': '三角形と四角形',
+  'probability-jr': '確率',
+  'polynomials': '多項式',
+  'square-roots': '平方根',
+  'quadratic-equations': '二次方程式',
+  'quadratic-functions-jr': '関数y=ax²',
+  'similar-figures': '図形の相似',
+  'circles': '円',
+  'pythagorean-theorem': '三平方の定理',
+  'sampling': '標本調査',
 }
 
 const DIFFICULTY_META: Record<Difficulty, { jp: string; desc: string }> = {
@@ -264,29 +288,4 @@ export default function CoursePage() {
                           key={d}
                           className={styles.diffBtn + (difficulty === d ? ' ' + styles.diffBtnActive : '')}
                           onClick={() => setDifficulty(d)}
-                        >
-                          <span className={styles.diffJp}>{DIFFICULTY_META[d].jp}</span>
-                          <span className={styles.diffDesc}>{DIFFICULTY_META[d].desc}</span>
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                  <button
-                    className={styles.startBtn + (!canStart ? ' ' + styles.startBtnDisabled : '')}
-                    onClick={handleStart}
-                    disabled={!canStart}
-                  >
-                    {'学習を始める　›'}
-                  </button>
-                  {!canStart && (
-                    <p className={styles.notReadyNote}>{'この単元はまだ準備中です'}</p>
-                  )}
-                </div>
-              </div>
-            )}
-          </div>
-        )}
-      </div>
-    </div>
-  )
-}
+ 

@@ -1,0 +1,894 @@
+[
+  {
+    "id": "ss-001",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "全数調査が適切なのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "国勢調査(全国民の人口調査)"
+      },
+      {
+        "label": "B",
+        "text": "電球の寿命検査"
+      },
+      {
+        "label": "C",
+        "text": "川の水質調査"
+      },
+      {
+        "label": "D",
+        "text": "視聴率調査"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "全数調査",
+      "全員調査が可能"
+    ]
+  },
+  {
+    "id": "ss-002",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "標本調査が適切なのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "電球の寿命検査"
+      },
+      {
+        "label": "B",
+        "text": "学校の生徒全員の身長測定"
+      },
+      {
+        "label": "C",
+        "text": "クラス全員の出席確認"
+      },
+      {
+        "label": "D",
+        "text": "病院の全患者の血液検査"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本調査",
+      "破壊検査"
+    ]
+  },
+  {
+    "id": "ss-003",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "調査の対象となる集団全体のことを何というか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "母集団"
+      },
+      {
+        "label": "B",
+        "text": "標本"
+      },
+      {
+        "label": "C",
+        "text": "全数"
+      },
+      {
+        "label": "D",
+        "text": "サンプル"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "母集団の定義"
+    ]
+  },
+  {
+    "id": "ss-004",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "母集団から取り出した一部のことを何というか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "標本"
+      },
+      {
+        "label": "B",
+        "text": "母集団"
+      },
+      {
+        "label": "C",
+        "text": "全体"
+      },
+      {
+        "label": "D",
+        "text": "推定値"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本の定義"
+    ]
+  },
+  {
+    "id": "ss-005",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "無作為抽出の説明として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "偏りなく選ぶこと"
+      },
+      {
+        "label": "B",
+        "text": "多く選ぶこと"
+      },
+      {
+        "label": "C",
+        "text": "目立つものを選ぶこと"
+      },
+      {
+        "label": "D",
+        "text": "少ないものを集中して選ぶこと"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "無作為抽出の定義"
+    ]
+  },
+  {
+    "id": "ss-006",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "1000個の製品から50個を無作為に抽出したとき、標本の大きさはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "50"
+      },
+      {
+        "label": "B",
+        "text": "1000"
+      },
+      {
+        "label": "C",
+        "text": "950"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本の大きさ",
+      "抽出数"
+    ]
+  },
+  {
+    "id": "ss-007",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "標本調査で全数調査より精度が低くなる理由はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "一部のデータしか使わないため"
+      },
+      {
+        "label": "B",
+        "text": "測定器が不正確なため"
+      },
+      {
+        "label": "C",
+        "text": "標本が多すぎるため"
+      },
+      {
+        "label": "D",
+        "text": "母集団が小さすぎるため"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本調査の精度",
+      "サンプリング誤差"
+    ]
+  },
+  {
+    "id": "ss-008",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "標本の大きさが大きくなると推定の精度はどうなるか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "上がる"
+      },
+      {
+        "label": "B",
+        "text": "下がる"
+      },
+      {
+        "label": "C",
+        "text": "変わらない"
+      },
+      {
+        "label": "D",
+        "text": "一定以上は意味がなくなる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本の大きさと精度"
+    ]
+  },
+  {
+    "id": "ss-009",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "500人の生徒から50人を抽出して調査した。母集団の大きさはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "500"
+      },
+      {
+        "label": "B",
+        "text": "50"
+      },
+      {
+        "label": "C",
+        "text": "450"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "母集団の大きさ"
+    ]
+  },
+  {
+    "id": "ss-010",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "basic",
+    "question": "次のうち無作為抽出の方法として適切なのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "乱数表を使って番号を選ぶ"
+      },
+      {
+        "label": "B",
+        "text": "成績の良い順に上位50人を選ぶ"
+      },
+      {
+        "label": "C",
+        "text": "担任が気に入った生徒を選ぶ"
+      },
+      {
+        "label": "D",
+        "text": "出席番号の奇数だけを選ぶ"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "無作為抽出の方法",
+      "乱数表"
+    ]
+  },
+  {
+    "id": "ss-011",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "1000個の製品から100個を検査したら4個不良品だった。全体の不良品数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "40個"
+      },
+      {
+        "label": "B",
+        "text": "4個"
+      },
+      {
+        "label": "C",
+        "text": "400個"
+      },
+      {
+        "label": "D",
+        "text": "100個"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本から母集団を推定",
+      "比例式"
+    ]
+  },
+  {
+    "id": "ss-012",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "500人の生徒から50人を調査したら30人がゲームをしていた。全体のゲームをしている生徒数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "300人"
+      },
+      {
+        "label": "B",
+        "text": "30人"
+      },
+      {
+        "label": "C",
+        "text": "150人"
+      },
+      {
+        "label": "D",
+        "text": "600人"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本比率で推定",
+      "50:30=500:x"
+    ]
+  },
+  {
+    "id": "ss-013",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "池の魚を200匹捕獲して標識をつけて放流した。後日300匹捕獲したら標識のある魚が15匹だった。池の魚の総数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4000匹"
+      },
+      {
+        "label": "B",
+        "text": "3000匹"
+      },
+      {
+        "label": "C",
+        "text": "1000匹"
+      },
+      {
+        "label": "D",
+        "text": "6000匹"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標識法",
+      "N=200×300/15"
+    ]
+  },
+  {
+    "id": "ss-014",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "2000個のビー玉の中から100個取り出したら赤が20個だった。赤いビー玉の総数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "400個"
+      },
+      {
+        "label": "B",
+        "text": "200個"
+      },
+      {
+        "label": "C",
+        "text": "2000個"
+      },
+      {
+        "label": "D",
+        "text": "40個"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比率による推定",
+      "20/100×2000"
+    ]
+  },
+  {
+    "id": "ss-015",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "標本調査の結果から母集団の値を求めることを何というか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "推定"
+      },
+      {
+        "label": "B",
+        "text": "全数調査"
+      },
+      {
+        "label": "C",
+        "text": "計測"
+      },
+      {
+        "label": "D",
+        "text": "検定"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "推定の定義"
+    ]
+  },
+  {
+    "id": "ss-016",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "400人の町の住民から40人を調査したら、8人が図書館を月1回以上利用していた。月1回以上利用する住民数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "80人"
+      },
+      {
+        "label": "B",
+        "text": "8人"
+      },
+      {
+        "label": "C",
+        "text": "160人"
+      },
+      {
+        "label": "D",
+        "text": "40人"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "推定",
+      "8/40×400=80"
+    ]
+  },
+  {
+    "id": "ss-017",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "工場で1日に5000個の製品を作る。50個を検査したら2個が不良品だった。1日の不良品数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "200個"
+      },
+      {
+        "label": "B",
+        "text": "2個"
+      },
+      {
+        "label": "C",
+        "text": "500個"
+      },
+      {
+        "label": "D",
+        "text": "100個"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本比率",
+      "2/50×5000=200"
+    ]
+  },
+  {
+    "id": "ss-018",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "「標本の大きさを2倍にすると推定精度はほぼ2倍になる」この文は正しいか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "正しくない。精度は約√2倍程度"
+      },
+      {
+        "label": "B",
+        "text": "正しい"
+      },
+      {
+        "label": "C",
+        "text": "正しくない。精度は4倍にはならない"
+      },
+      {
+        "label": "D",
+        "text": "正しくない。精度は上がる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本の大きさと精度",
+      "√関係"
+    ]
+  },
+  {
+    "id": "ss-019",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "次のうち標本調査の欠点はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "標本誤差が生じる"
+      },
+      {
+        "label": "B",
+        "text": "費用がかかりすぎる"
+      },
+      {
+        "label": "C",
+        "text": "全員を調査できる"
+      },
+      {
+        "label": "D",
+        "text": "時間がかからない"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標本調査の欠点"
+    ]
+  },
+  {
+    "id": "ss-020",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "standard",
+    "question": "「乱数表を使う」と「コンピュータの乱数機能を使う」はどちらも何に該当するか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "無作為抽出"
+      },
+      {
+        "label": "B",
+        "text": "系統抽出"
+      },
+      {
+        "label": "C",
+        "text": "全数調査"
+      },
+      {
+        "label": "D",
+        "text": "偏った抽出"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "無作為抽出の方法"
+    ]
+  },
+  {
+    "id": "ss-021",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "川の魚を調査するため、100匹捕獲して標識をつけて放流した。10日後に150匹捕獲したら標識のある魚が10匹だった。川の魚の総数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1500匹"
+      },
+      {
+        "label": "B",
+        "text": "1000匹"
+      },
+      {
+        "label": "C",
+        "text": "500匹"
+      },
+      {
+        "label": "D",
+        "text": "2000匹"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標識法",
+      "N=100×150/10"
+    ]
+  },
+  {
+    "id": "ss-022",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "ある農場のイチゴ3000個から120個を無作為抽出したら、18個が規格外だった。規格外のイチゴの総数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "450個"
+      },
+      {
+        "label": "B",
+        "text": "18個"
+      },
+      {
+        "label": "C",
+        "text": "360個"
+      },
+      {
+        "label": "D",
+        "text": "900個"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比率推定",
+      "18/120×3000=450"
+    ]
+  },
+  {
+    "id": "ss-023",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "5000世帯の町で200世帯を調査したら24世帯がペットを飼っていた。ペットを飼っている世帯数を推定するといくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "600世帯"
+      },
+      {
+        "label": "B",
+        "text": "24世帯"
+      },
+      {
+        "label": "C",
+        "text": "240世帯"
+      },
+      {
+        "label": "D",
+        "text": "1200世帯"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比率推定",
+      "24/200×5000=600"
+    ]
+  },
+  {
+    "id": "ss-024",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "池に標識を付けた魚 n₁ 匹を放流。後日 n₂ 匹を捕獲したらm匹が標識あり。総数Nの推定式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "N=n₁×n₂/m"
+      },
+      {
+        "label": "B",
+        "text": "N=n₂×m/n₁"
+      },
+      {
+        "label": "C",
+        "text": "N=n₁×m/n₂"
+      },
+      {
+        "label": "D",
+        "text": "N=m×n₂"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "標識法の公式",
+      "比例式"
+    ]
+  },
+  {
+    "id": "ss-025",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "標本調査で「偏りのある標本」が生じる原因として最も問題なのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "抽出方法が無作為でない"
+      },
+      {
+        "label": "B",
+        "text": "標本の大きさが大きい"
+      },
+      {
+        "label": "C",
+        "text": "調査項目が多い"
+      },
+      {
+        "label": "D",
+        "text": "母集団が大きい"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "偏りの原因",
+      "無作為抽出の重要性"
+    ]
+  },
+  {
+    "id": "ss-026",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "A市10000人からアンケートを取る。標本100人の結果、スポーツ施設を「週1回以上利用」が35人。市全体の利用者数の推定はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3500人"
+      },
+      {
+        "label": "B",
+        "text": "350人"
+      },
+      {
+        "label": "C",
+        "text": "35人"
+      },
+      {
+        "label": "D",
+        "text": "7000人"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比率推定",
+      "35/100×10000"
+    ]
+  },
+  {
+    "id": "ss-027",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "次のうち全数調査でなければならないのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "輸入食品の安全基準検査(破壊検査を含む全量確認が義務)"
+      },
+      {
+        "label": "B",
+        "text": "大規模な視聴率調査"
+      },
+      {
+        "label": "C",
+        "text": "工場の製品抜き取り検査"
+      },
+      {
+        "label": "D",
+        "text": "湖の水質汚染調査"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "全数調査の必要性",
+      "法律・義務"
+    ]
+  },
+  {
+    "id": "ss-028",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "標本比率 0.15(15%)、母集団 2000 のとき母集団で該当する人数の推定値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "300人"
+      },
+      {
+        "label": "B",
+        "text": "150人"
+      },
+      {
+        "label": "C",
+        "text": "30人"
+      },
+      {
+        "label": "D",
+        "text": "600人"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比率から推定",
+      "0.15×2000=300"
+    ]
+  },
+  {
+    "id": "ss-029",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "標本の結果から母集団を推定するとき、推定値に幅を持たせる(例：「400±30」)のはなぜか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "標本誤差があるため"
+      },
+      {
+        "label": "B",
+        "text": "計算が難しいため"
+      },
+      {
+        "label": "C",
+        "text": "母集団が変化するため"
+      },
+      {
+        "label": "D",
+        "text": "標本が小さすぎるため"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "推定の幅",
+      "標本誤差"
+    ]
+  },
+  {
+    "id": "ss-030",
+    "subject": "math",
+    "unit": "sampling-survey",
+    "difficulty": "exam",
+    "question": "標本調査の結果、母集団の1割が欠陥品と推定された。母集団が4000個のとき欠陥品の推定個数と標本の大きさ200個のときの欠陥品数はそれぞれいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "推定400個、標本20個"
+      },
+      {
+        "label": "B",
+        "text": "推定40個、標本2個"
+      },
+      {
+        "label": "C",
+        "text": "推定4000個、標本200個"
+      },
+      {
+        "label": "D",
+        "text": "推定200個、標本10個"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比率推定",
+      "1/10×4000と1/10×200"
+    ]
+  }
+]

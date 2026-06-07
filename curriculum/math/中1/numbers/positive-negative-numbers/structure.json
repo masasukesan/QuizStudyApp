@@ -1,0 +1,95 @@
+{
+  "unit_id": "positive-negative-numbers",
+  "unit_name_jp": "正の数・負の数",
+  "grade": "中学1年",
+  "patterns": [
+    {
+      "pattern_id": "meaning-of-signed-numbers",
+      "description": "正の数・負の数の意味と数直線上の位置を理解する",
+      "thinking_process": [
+        "0を基準として、正の方向・負の方向を確認する",
+        "絶対値（0からの距離）を求める",
+        "数直線上の位置関係（大小）を判断する"
+      ],
+      "common_mistakes": [
+        "負の数の大小を混同する（-5 > -3 と誤る）",
+        "絶対値と符号を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "addition-subtraction-signed",
+      "description": "正の数・負の数の加法・減法（符号の操作）",
+      "thinking_process": [
+        "符号を確認し、同符号なら絶対値を足して共通の符号をつける",
+        "異符号なら絶対値の差を求め、絶対値が大きい方の符号をつける",
+        "減法は加法に直す（引く数の符号を逆にして加える）"
+      ],
+      "common_mistakes": [
+        "減法を加法に変換する際に符号を逆にし忘れる",
+        "異符号の加法で絶対値を足してしまう",
+        "連続した加減算で符号の管理を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "multiplication-division-signed",
+      "description": "正の数・負の数の乗法・除法（符号の決定）",
+      "thinking_process": [
+        "負の数の個数を数える（奇数個なら積・商は負、偶数個なら正）",
+        "絶対値どうしで計算する",
+        "符号と絶対値を組み合わせて答えを出す"
+      ],
+      "common_mistakes": [
+        "負の数が奇数個か偶数個かを誤る",
+        "(-a)² と -a² の違いを混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "mixed-operations-order",
+      "description": "四則混合計算（累乗・かっこを含む計算順序）",
+      "thinking_process": [
+        "累乗を最初に計算する",
+        "かっこ内を優先して計算する",
+        "乗除 → 加減 の順序で計算する"
+      ],
+      "common_mistakes": [
+        "累乗を後回しにして加減から計算してしまう",
+        "かっこ外しの際に符号を誤る",
+        "除算より加算を先に行う"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "absolute-value-comparison",
+      "description": "絶対値を用いた大小比較と数の分類",
+      "thinking_process": [
+        "絶対値は0からの距離なので必ず0以上であることを確認する",
+        "正の数・負の数・0の大小関係を数直線で整理する",
+        "整数・自然数・有理数の分類を判断する"
+      ],
+      "common_mistakes": [
+        "「絶対値が大きい＝数が大きい」と誤解する（負の数の場合は逆）",
+        "0は正でも負でもないことを忘れる",
+        "自然数に0を含めてしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "application-signed-numbers",
+      "description": "正の数・負の数を用いた文章題（基準からの差・平均）",
+      "thinking_process": [
+        "基準を0と設定し、基準より多い・少ないを正・負で表す",
+        "各値の差（基準との偏差）を整理する",
+        "偏差の合計を求め、基準に加えて平均を求める"
+      ],
+      "common_mistakes": [
+        "基準の設定を誤り符号が逆になる",
+        "偏差の平均を求める際に個数で割り忘れる",
+        "平均の求め方で「基準＋偏差の平均」を「偏差の合計」のままにする"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

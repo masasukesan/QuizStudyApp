@@ -1,0 +1,97 @@
+{
+  "unit_id": "basic-solid-figures",
+  "unit_name_jp": "空間図形",
+  "grade": "中学1年",
+  "patterns": [
+    {
+      "pattern_id": "solid-names-and-elements",
+      "description": "立体の種類（柱体・錐体・球）と面・辺・頂点の数",
+      "thinking_process": [
+        "角柱：底面が多角形、側面が長方形",
+        "角錐：底面が多角形、側面が三角形、頂点が 1 つ",
+        "球：全ての点が中心から等距離"
+      ],
+      "common_mistakes": [
+        "柱体と錐体の面・辺・頂点の数を混同する",
+        "円柱・円錐の「面の数」（底面と側面）を正確に数えられない",
+        "オイラーの公式 V - E + F = 2 を使いこなせない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "views-and-nets",
+      "description": "投影図（正面・側面・真上）と展開図の読み取り",
+      "thinking_process": [
+        "正面図・側面図・平面図の 3 つで立体を表す",
+        "展開図を折り曲げたときにどの面がどこにくるかを考える",
+        "円柱の展開図：底面が円 2 枚 + 側面が長方形"
+      ],
+      "common_mistakes": [
+        "投影図から立体を復元するとき奥行きを見落とす",
+        "円柱の側面の展開図が長方形であることを忘れる",
+        "展開図で辺の長さの対応関係を誤る（底面の周 = 側面の幅）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "surface-area-prisms",
+      "description": "角柱・円柱の表面積（底面積 × 2 + 側面積）",
+      "thinking_process": [
+        "表面積 = 底面積 × 2 + 側面積",
+        "角柱の側面積 = 底面の周 × 高さ",
+        "円柱の側面積 = 2πr × h（底面周 × 高さ）"
+      ],
+      "common_mistakes": [
+        "底面積を 1 枚しか数えない（上面・下面の 2 枚必要）",
+        "円柱の側面積に πr² を使う（側面は長方形）",
+        "高さと底面の辺を逆に使う"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "surface-area-pyramids",
+      "description": "角錐・円錐の表面積（底面積 + 側面積）",
+      "thinking_process": [
+        "角錐の側面積 = 三角形の面積の合計",
+        "円錐の側面積 = πrl（r = 底面の半径、l = 母線の長さ）",
+        "円錐の展開図の側面はおうぎ形"
+      ],
+      "common_mistakes": [
+        "円錐の側面積を πr²（底面の面積）で計算する",
+        "母線と高さを混同する",
+        "おうぎ形の中心角を求めずに面積を計算しようとする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "volume-prisms-cylinders",
+      "description": "角柱・円柱の体積（底面積 × 高さ）",
+      "thinking_process": [
+        "体積 = 底面積 × 高さ",
+        "円柱の底面積 = πr²",
+        "単位に注意（cm² × cm = cm³）"
+      ],
+      "common_mistakes": [
+        "底面積の計算に 2πr（周）を使ってしまう",
+        "高さと底面の辺を取り違える",
+        "単位を cm² のまま答える（体積は cm³）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "volume-pyramids-spheres",
+      "description": "角錐・円錐の体積（底面積 × 高さ × 1/3）と球の体積・表面積",
+      "thinking_process": [
+        "錐体の体積 = (1/3) × 底面積 × 高さ",
+        "球の体積 = (4/3)πr³",
+        "球の表面積 = 4πr²"
+      ],
+      "common_mistakes": [
+        "(1/3) を忘れて柱体と同じ式を使う",
+        "球の体積と表面積の式を混同する（体積は r³、表面積は r²）",
+        "円錐の高さを母線と間違える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "unit_id": "parallel-lines",
+  "unit_name_jp": "平行と合同",
+  "grade": "中学2年",
+  "patterns": [
+    {
+      "pattern_id": "parallel-angle-properties",
+      "description": "平行線と角（同位角・錯角・同側内角）",
+      "thinking_process": [
+        "平行線の同位角は等しい（F字型）",
+        "平行線の錯角は等しい（Z字型）",
+        "平行線の同側内角の和は180°（C字型）"
+      ],
+      "common_mistakes": [
+        "同位角と錯角を混同する",
+        "同側内角が等しいと思う（正しくは補角=180°）",
+        "錯角が等しい条件を確認しない（平行でないと等しくない）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "triangle-exterior-angle",
+      "description": "三角形の外角の性質（外角＝2つの内角の和）",
+      "thinking_process": [
+        "三角形の外角はそれと隣り合わない2つの内角の和に等しい",
+        "外角と内角の和は180°（直線上）",
+        "三角形の内角の和は180°"
+      ],
+      "common_mistakes": [
+        "外角を隣接する内角と等しいと思う",
+        "外角＝180°-（隣の内角）と1つの内角しか引かない",
+        "「隣り合わない2つの内角」の選び方を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "congruence-conditions",
+      "description": "三角形の合同条件（3つの条件）",
+      "thinking_process": [
+        "SSS：3辺が等しい",
+        "SAS：2辺とその間の角が等しい",
+        "ASA：1辺とその両端の角が等しい"
+      ],
+      "common_mistakes": [
+        "SSA（2辺と1角）は合同条件でないのに使う",
+        "SAS の「間の角」が重要なのに端の角を使う",
+        "ASA の「間の辺」が重要なのに端の辺を使う"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "parallel-proof",
+      "description": "平行線の証明（同位角・錯角が等しければ平行）",
+      "thinking_process": [
+        "2直線が平行 ⟺ 同位角が等しい",
+        "2直線が平行 ⟺ 錯角が等しい",
+        "逆の証明：角が等しいことから平行を導く"
+      ],
+      "common_mistakes": [
+        "「平行ならば」と「平行ならば（逆）」を混同する",
+        "証明の根拠（定理名）を記載しない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "congruence-proof",
+      "description": "三角形の合同の証明（根拠を明示して記述）",
+      "thinking_process": [
+        "等しい辺・角を順番に整理する",
+        "使う合同条件を選ぶ（SSS・SAS・ASA）",
+        "∴△ABC≅△DEF（合同条件）の形で結論を書く"
+      ],
+      "common_mistakes": [
+        "等しい要素の根拠を省く",
+        "合同条件の名称を誤る",
+        "結論の三角形の頂点の順序を誤る（対応する頂点の順に書く）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "angle-calculation",
+      "description": "平行線・多角形の角度計算（複合問題）",
+      "thinking_process": [
+        "補助線を引いて平行線の性質を適用する",
+        "多角形の内角の和（n角形：180(n-2)°）を利用",
+        "外角の定理と組み合わせる"
+      ],
+      "common_mistakes": [
+        "補助線を引かずに行き詰まる",
+        "n 角形の内角の和を 180n° と誤る",
+        "外角と内角を混同して計算する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

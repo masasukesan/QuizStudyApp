@@ -1,0 +1,13 @@
+{
+  "unit": "similarity-basics",
+  "title": "図形の相似",
+  "grade": "中3",
+  "patterns": [
+    {"id":"similar-conditions","title":"三角形の相似条件","difficulty":"basic","description":"3組の辺の比が等しい・2組の辺の比と夾角が等しい・2組の角が等しい","typical_mistakes":["2辺比だけで相似と判断（夾角が必要）","角の対応順を誤る"],"steps":["3条件を確認","対応する辺・角を揃える"]},
+    {"id":"similar-ratio","title":"相似比と辺の長さ","difficulty":"basic","description":"相似比m:nから辺の長さ・周の長さを求める","typical_mistakes":["相似比と辺の比を逆に使う","対応する辺の組み合わせを間違える"],"steps":["相似比を設定","比例式を立てる","解く"]},
+    {"id":"area-ratio","title":"相似比と面積比","difficulty":"standard","description":"相似比m:nのとき面積比はm²:n²","typical_mistakes":["面積比=相似比と思う","面積比m:nから相似比を求めるとき√をとる"],"steps":["相似比を確認","面積比=相似比の2乗"]},
+    {"id":"volume-ratio","title":"相似比と体積比","difficulty":"standard","description":"相似比m:nのとき体積比はm³:n³","typical_mistakes":["体積比=相似比²と2乗にする"],"steps":["相似比を確認","体積比=相似比の3乗"]},
+    {"id":"parallel-lines-ratio","title":"平行線と線分の比","difficulty":"standard","description":"三角形の平行線の定理：AB//CD → PA:PB=PC:PD","typical_mistakes":["比の対応する辺を間違える","内分と外分の混同"],"steps":["平行線を確認","比例関係を設定","解く"]},
+    {"id":"midpoint-theorem","title":"中点連結定理の応用","difficulty":"exam","description":"中点連結定理：M,NがAB,ACの中点 → MN//BC, MN=BC/2","typical_mistakes":["MN=BC（1/2を忘れる）","中点でない場合に適用する"],"steps":["中点を確認","平行と長さの関係を適用"]}
+  ]
+}

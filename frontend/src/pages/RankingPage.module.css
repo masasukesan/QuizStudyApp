@@ -305,3 +305,21 @@
 .bottomSpacer {
   height: 16px;
 }
+
+/* ── 学校種別バッジ ── */
+.schoolBadgeWrap {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px 0;
+}
+
+.schoolBadge {
+  display: inline-block;
+  padding: 4px 18px;
+  border: 1px solid rgba(201, 168, 106, 0.35);
+  font-family: var(--font-serif-jp, 'M PLUS Rounded 1c', serif);
+  font-size: 0.75rem;
+  color: rgba(201, 168, 106, 0.8);
+  letter-spacing: 0.12em;
+  background: rgba(201, 168, 106, 0.05);
+}

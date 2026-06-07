@@ -1,0 +1,901 @@
+[
+  {
+    "id": "pl-001",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "平行な2直線に1本の直線が交わるとき、同位角の関係にある角は等しい。同位角を表すアルファベットの形はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "F字型"
+      },
+      {
+        "label": "B",
+        "text": "Z字型"
+      },
+      {
+        "label": "C",
+        "text": "C字型"
+      },
+      {
+        "label": "D",
+        "text": "X字型"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同位角",
+      "平行線の角"
+    ]
+  },
+  {
+    "id": "pl-002",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "平行線の錯角について正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "錯角は等しい"
+      },
+      {
+        "label": "B",
+        "text": "錯角の和は180°"
+      },
+      {
+        "label": "C",
+        "text": "錯角は補角になる"
+      },
+      {
+        "label": "D",
+        "text": "錯角は同位角の2倍"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "錯角",
+      "平行線の性質"
+    ]
+  },
+  {
+    "id": "pl-003",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "三角形の1つの外角は、それと隣り合わない2つの内角の和に等しい。△ABC で辺 BC を延長した点を D とするとき、外角 ∠ACD と等しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "∠BAC + ∠ABC"
+      },
+      {
+        "label": "B",
+        "text": "∠BAC + ∠ACB"
+      },
+      {
+        "label": "C",
+        "text": "∠ABC + ∠ACB"
+      },
+      {
+        "label": "D",
+        "text": "∠BAC のみ"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外角の定理",
+      "隣り合わない内角"
+    ]
+  },
+  {
+    "id": "pl-004",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "△ABC で ∠A = 50°、∠B = 70° のとき、辺 BC 延長上の外角 ∠ACD の大きさはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "120°"
+      },
+      {
+        "label": "B",
+        "text": "60°"
+      },
+      {
+        "label": "C",
+        "text": "130°"
+      },
+      {
+        "label": "D",
+        "text": "180°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外角の計算",
+      "内角の和"
+    ]
+  },
+  {
+    "id": "pl-005",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "三角形の合同条件「2辺とその間の角が等しい」を何というか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SAS"
+      },
+      {
+        "label": "B",
+        "text": "SSS"
+      },
+      {
+        "label": "C",
+        "text": "ASA"
+      },
+      {
+        "label": "D",
+        "text": "SSA"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同条件",
+      "SAS"
+    ]
+  },
+  {
+    "id": "pl-006",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "平行線の同側内角（平行線と切り線でできる同じ側の内角）の和はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180°"
+      },
+      {
+        "label": "B",
+        "text": "90°"
+      },
+      {
+        "label": "C",
+        "text": "等しい"
+      },
+      {
+        "label": "D",
+        "text": "360°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同側内角",
+      "補角"
+    ]
+  },
+  {
+    "id": "pl-007",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "2直線 l, m に直線 n が交わり、錯角が等しいとき、l と m の関係は？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "l // m"
+      },
+      {
+        "label": "B",
+        "text": "l ⊥ m"
+      },
+      {
+        "label": "C",
+        "text": "l = m"
+      },
+      {
+        "label": "D",
+        "text": "交わっている"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行の条件",
+      "錯角から平行"
+    ]
+  },
+  {
+    "id": "pl-008",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "△ABC ≅ △DEF のとき、対応する辺 AB に等しい辺はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "DE"
+      },
+      {
+        "label": "B",
+        "text": "EF"
+      },
+      {
+        "label": "C",
+        "text": "DF"
+      },
+      {
+        "label": "D",
+        "text": "FE"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同",
+      "対応する辺"
+    ]
+  },
+  {
+    "id": "pl-009",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "三角形の合同条件「3辺がすべて等しい」を何というか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SSS"
+      },
+      {
+        "label": "B",
+        "text": "SAS"
+      },
+      {
+        "label": "C",
+        "text": "ASA"
+      },
+      {
+        "label": "D",
+        "text": "AAS"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同条件",
+      "SSS"
+    ]
+  },
+  {
+    "id": "pl-010",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "basic",
+    "question": "平行線と角度について。l // m で、切り線 n が交わる角が、l 側で 65° のとき、m 側の同位角はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "65°"
+      },
+      {
+        "label": "B",
+        "text": "115°"
+      },
+      {
+        "label": "C",
+        "text": "90°"
+      },
+      {
+        "label": "D",
+        "text": "130°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同位角",
+      "平行線"
+    ]
+  },
+  {
+    "id": "pl-011",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "l // m で、切り線と l のなす角が 70°。m との錯角の位置にある角はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "70°"
+      },
+      {
+        "label": "B",
+        "text": "110°"
+      },
+      {
+        "label": "C",
+        "text": "140°"
+      },
+      {
+        "label": "D",
+        "text": "35°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "錯角",
+      "角度計算"
+    ]
+  },
+  {
+    "id": "pl-012",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "△ABC で ∠A = 40°、BC の延長上の外角 ∠ACD = 105°。∠B はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "65°"
+      },
+      {
+        "label": "B",
+        "text": "75°"
+      },
+      {
+        "label": "C",
+        "text": "40°"
+      },
+      {
+        "label": "D",
+        "text": "35°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外角の定理",
+      "逆算"
+    ]
+  },
+  {
+    "id": "pl-013",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "次の合同条件の中で、三角形の合同を確定できないのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2辺と1角(SSA)"
+      },
+      {
+        "label": "B",
+        "text": "3辺(SSS)"
+      },
+      {
+        "label": "C",
+        "text": "2辺とその間の角(SAS)"
+      },
+      {
+        "label": "D",
+        "text": "1辺とその両端の角(ASA)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同条件",
+      "SSAは不十分"
+    ]
+  },
+  {
+    "id": "pl-014",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "△ABC で AB=AC、∠B=65° のとき ∠A はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "50°"
+      },
+      {
+        "label": "B",
+        "text": "65°"
+      },
+      {
+        "label": "C",
+        "text": "70°"
+      },
+      {
+        "label": "D",
+        "text": "130°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形",
+      "底角から頂角"
+    ]
+  },
+  {
+    "id": "pl-015",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "合同の証明で「共通な辺」を根拠に使うとき、何と書くか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "共通"
+      },
+      {
+        "label": "B",
+        "text": "定義"
+      },
+      {
+        "label": "C",
+        "text": "仮定"
+      },
+      {
+        "label": "D",
+        "text": "対称"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同の証明",
+      "根拠の記述"
+    ]
+  },
+  {
+    "id": "pl-016",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "△ABC と △DBC で AB=DB、∠ABC=∠DBC のとき、使える合同条件はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SAS(BC 共通、AB=DB、∠ABC=∠DBC)"
+      },
+      {
+        "label": "B",
+        "text": "SSS"
+      },
+      {
+        "label": "C",
+        "text": "ASA"
+      },
+      {
+        "label": "D",
+        "text": "AAS"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "SAS",
+      "共通辺"
+    ]
+  },
+  {
+    "id": "pl-017",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "l // m で、l 側の角が 55°、m 側の同側内角はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "125°"
+      },
+      {
+        "label": "B",
+        "text": "55°"
+      },
+      {
+        "label": "C",
+        "text": "90°"
+      },
+      {
+        "label": "D",
+        "text": "110°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同側内角",
+      "補角の計算"
+    ]
+  },
+  {
+    "id": "pl-018",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "△ABC≅△DEF のとき ∠C に対応する角はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "∠F"
+      },
+      {
+        "label": "B",
+        "text": "∠D"
+      },
+      {
+        "label": "C",
+        "text": "∠E"
+      },
+      {
+        "label": "D",
+        "text": "∠DEF"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同",
+      "対応する角"
+    ]
+  },
+  {
+    "id": "pl-019",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "△ABCで ∠A=∠B=55° のとき ∠C はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "70°"
+      },
+      {
+        "label": "B",
+        "text": "55°"
+      },
+      {
+        "label": "C",
+        "text": "110°"
+      },
+      {
+        "label": "D",
+        "text": "90°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "三角形の内角の和"
+    ]
+  },
+  {
+    "id": "pl-020",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "standard",
+    "question": "平行線と錯角の関係で正しい記述はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "l // m ならば錯角は等しい。逆に錯角が等しければ l // m"
+      },
+      {
+        "label": "B",
+        "text": "l // m ならば錯角の和は 180°"
+      },
+      {
+        "label": "C",
+        "text": "錯角が等しくても平行とは限らない"
+      },
+      {
+        "label": "D",
+        "text": "錯角は同位角の補角"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行の条件",
+      "錯角の逆"
+    ]
+  },
+  {
+    "id": "pl-021",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "右図のように l // m で、点 P が l と m の間にある。∠APl = 40°、∠BPm = 35° のとき ∠APB はいくつか（P を通る l の平行線を引いて考える）。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "75°"
+      },
+      {
+        "label": "B",
+        "text": "105°"
+      },
+      {
+        "label": "C",
+        "text": "40°"
+      },
+      {
+        "label": "D",
+        "text": "45°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "補助線",
+      "平行線の角度"
+    ]
+  },
+  {
+    "id": "pl-022",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "五角形の内角の和はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "540°"
+      },
+      {
+        "label": "B",
+        "text": "360°"
+      },
+      {
+        "label": "C",
+        "text": "720°"
+      },
+      {
+        "label": "D",
+        "text": "900°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "多角形の内角の和",
+      "n角形"
+    ]
+  },
+  {
+    "id": "pl-023",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "△ABCの頂点 A から BC に垂線 AH を引く。AB=5cm、BH=4cm のとき AC はいくつか（三平方の定理は使わず角度の関係で考える場合、BC=6cm のとき）。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5cm"
+      },
+      {
+        "label": "B",
+        "text": "4cm"
+      },
+      {
+        "label": "C",
+        "text": "6cm"
+      },
+      {
+        "label": "D",
+        "text": "3cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同の応用",
+      "垂線"
+    ]
+  },
+  {
+    "id": "pl-024",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "正六角形の1つの内角はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "120°"
+      },
+      {
+        "label": "B",
+        "text": "60°"
+      },
+      {
+        "label": "C",
+        "text": "108°"
+      },
+      {
+        "label": "D",
+        "text": "90°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "正多角形の内角",
+      "計算"
+    ]
+  },
+  {
+    "id": "pl-025",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "△ABCと△ADCで、AB=AD、CB=CD のとき、合同の証明で使う条件はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SSS(AC 共通より3辺一致)"
+      },
+      {
+        "label": "B",
+        "text": "SAS"
+      },
+      {
+        "label": "C",
+        "text": "ASA"
+      },
+      {
+        "label": "D",
+        "text": "AAS"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "SSS合同",
+      "共通辺の利用"
+    ]
+  },
+  {
+    "id": "pl-026",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "n 角形の内角の和の公式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180(n-2)°"
+      },
+      {
+        "label": "B",
+        "text": "180n°"
+      },
+      {
+        "label": "C",
+        "text": "360(n-2)°"
+      },
+      {
+        "label": "D",
+        "text": "90n°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "多角形の内角の和",
+      "公式"
+    ]
+  },
+  {
+    "id": "pl-027",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "l // m で、l 上の点 A、m 上の点 B があり、切り線が l と 80°、m と交わる角が x° のとき、l と m が平行なら x はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "80°"
+      },
+      {
+        "label": "B",
+        "text": "100°"
+      },
+      {
+        "label": "C",
+        "text": "40°"
+      },
+      {
+        "label": "D",
+        "text": "160°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同位角",
+      "平行線の角度"
+    ]
+  },
+  {
+    "id": "pl-028",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "合同な三角形で、対応する辺の長さ・角の大きさはどうなるか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "対応する辺の長さはすべて等しく、対応する角の大きさもすべて等しい"
+      },
+      {
+        "label": "B",
+        "text": "辺のみ等しく、角は異なる場合がある"
+      },
+      {
+        "label": "C",
+        "text": "角のみ等しく、辺は異なる場合がある"
+      },
+      {
+        "label": "D",
+        "text": "面積のみ等しい"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "合同の定義",
+      "対応する要素"
+    ]
+  },
+  {
+    "id": "pl-029",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "多角形の外角の和は常にいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "360°"
+      },
+      {
+        "label": "B",
+        "text": "180°"
+      },
+      {
+        "label": "C",
+        "text": "内角の和と等しい"
+      },
+      {
+        "label": "D",
+        "text": "n × 60°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外角の和",
+      "多角形"
+    ]
+  },
+  {
+    "id": "pl-030",
+    "subject": "math",
+    "unit": "parallel-lines",
+    "difficulty": "exam",
+    "question": "正八角形の1つの外角はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "45°"
+      },
+      {
+        "label": "B",
+        "text": "135°"
+      },
+      {
+        "label": "C",
+        "text": "60°"
+      },
+      {
+        "label": "D",
+        "text": "30°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "正多角形の外角",
+      "360÷n"
+    ]
+  }
+]

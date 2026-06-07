@@ -1,0 +1,90 @@
+{
+  "unit_id": "triangle-properties",
+  "unit_name_jp": "三角形と四角形",
+  "grade": "中学2年",
+  "patterns": [
+    {
+      "pattern_id": "isosceles-triangle",
+      "description": "二等辺三角形の性質と定理（底角が等しい）",
+      "thinking_process": [
+        "二等辺三角形：2辺が等しい三角形",
+        "底角（等しい2辺に挟まれていない角）は等しい",
+        "頂角の二等分線は底辺の垂直二等分線になる"
+      ],
+      "common_mistakes": [
+        "頂角と底角を混同する",
+        "底角が等しいだけでなく垂直二等分の性質も忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "equilateral-triangle",
+      "description": "正三角形の性質（3辺・3角が等しい、各角60°）",
+      "thinking_process": [
+        "正三角形：3辺がすべて等しい三角形",
+        "3つの内角はすべて60°",
+        "正三角形は二等辺三角形でもある"
+      ],
+      "common_mistakes": [
+        "正三角形の角度を90°と思う",
+        "二等辺三角形の特殊な場合と気づかない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "parallelogram-properties",
+      "description": "平行四辺形の性質（対辺・対角・対角線）",
+      "thinking_process": [
+        "対辺が平行かつ等しい",
+        "対角が等しい",
+        "対角線がそれぞれの中点で交わる"
+      ],
+      "common_mistakes": [
+        "対角線が等しいと思う（等しくなるのは長方形）",
+        "対角線が垂直に交わると思う（垂直になるのはひし形）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "parallelogram-proof",
+      "description": "平行四辺形の証明（逆の条件）",
+      "thinking_process": [
+        "平行四辺形の条件：①対辺が平行、②対辺が等しい、③対角が等しい、④対角線が中点で交わる、⑤1組の対辺が平行かつ等しい",
+        "これらの条件のいずれかを示せば平行四辺形と証明できる"
+      ],
+      "common_mistakes": [
+        "対辺が等しいだけで平行四辺形と結論する（等しい+平行が必要な場合もある）",
+        "5つの条件のどれを使うか選べない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "special-quadrilaterals",
+      "description": "特別な平行四辺形（長方形・ひし形・正方形）の性質",
+      "thinking_process": [
+        "長方形：平行四辺形+4角が90°+対角線が等しい",
+        "ひし形：平行四辺形+4辺が等しい+対角線が垂直に交わる",
+        "正方形：長方形+ひし形（両方の性質を持つ）"
+      ],
+      "common_mistakes": [
+        "ひし形の対角線が等しいと思う（等しいのは長方形）",
+        "長方形の対角線が垂直と思う（垂直なのはひし形）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "midpoint-theorem",
+      "description": "中点連結定理とその応用",
+      "thinking_process": [
+        "三角形の2辺の中点を結ぶ線分は第3辺に平行で、長さは半分",
+        "中点連結定理を使って辺の長さや角度を求める",
+        "台形の中点連結定理への応用"
+      ],
+      "common_mistakes": [
+        "中点連結定理を2辺の中点でなく任意の点に適用する",
+        "長さが「第3辺の半分」でなく「2辺の中点を結ぶ線分の半分」と誤解する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

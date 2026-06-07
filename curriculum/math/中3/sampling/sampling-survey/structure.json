@@ -1,0 +1,13 @@
+{
+  "unit": "sampling-survey",
+  "title": "標本調査",
+  "grade": "中3",
+  "patterns": [
+    {"id":"census-vs-sample","title":"全数調査と標本調査の違い","difficulty":"basic","description":"全数調査（全員）と標本調査（一部）の使い分け。標本調査が適切な場面","typical_mistakes":["標本調査は精度が低いと思う","全数調査が常に良いと思う"],"steps":["調査の目的を確認","全数調査/標本調査の適不適を判断"]},
+    {"id":"sampling-terminology","title":"母集団・標本・標本の大きさ","difficulty":"basic","description":"母集団=調査対象全体、標本=取り出した一部、標本の大きさ=標本の個数","typical_mistakes":["標本の大きさと母集団の大きさを混同する"],"steps":["母集団の定義","標本の特定","標本の大きさを確認"]},
+    {"id":"estimation","title":"標本から母集団を推定","difficulty":"standard","description":"標本の割合を母集団に当てはめて推定する","typical_mistakes":["標本の割合=母集団の割合として計算ミス","比例式の設定を間違える"],"steps":["標本内の比率を求める","母集団の総数に掛ける","整数で答える"]},
+    {"id":"random-sampling","title":"無作為抽出の意味","difficulty":"standard","description":"無作為抽出=偏りなく選ぶ。乱数表・くじなどを使う","typical_mistakes":["無作為=ランダムに選べばよい（方法論が重要）"],"steps":["無作為の定義","適切な抽出法を選ぶ"]},
+    {"id":"sample-size-accuracy","title":"標本の大きさと精度","difficulty":"standard","description":"標本が大きいほど推定精度が上がる","typical_mistakes":["標本が大きすぎると逆に誤差が増えると思う"],"steps":["標本が大きい→母集団の特性をよく反映"]},
+    {"id":"applied-estimation","title":"標本調査の応用（池の魚など）","difficulty":"exam","description":"捕獲再放流法（標識法）：n₁匹に標識→放流→n₂匹捕獲→うちm匹が標識あり→総数N=n₁×n₂/m","typical_mistakes":["比例式のN×m=n₁×n₂を立てる順序を間違える","標識のある割合=m/n₂=n₁/N"],"steps":["比例式を設定","N=n₁×n₂/m"]}
+  ]
+}

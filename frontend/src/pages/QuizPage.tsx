@@ -923,14 +923,4 @@ export default function QuizPage() {
               <button className={styles.expCloseBtn} onClick={() => setPhase('reviewed')}>
                 問題に戻る
               </button>
-              <button className={styles.nextBtn} onClick={handleNextQuestion}>
-                {currentIndex + 1 >= totalQ ? '結果を見る' : '次の問題へ'}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-    </div>
-  )
-}
+              <button className={styles.nextBtn} onClic

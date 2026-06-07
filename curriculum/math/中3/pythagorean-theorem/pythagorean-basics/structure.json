@@ -1,0 +1,13 @@
+{
+  "unit": "pythagorean-basics",
+  "title": "三平方の定理",
+  "grade": "中3",
+  "patterns": [
+    {"id":"basic-theorem","title":"三平方の定理の基本","difficulty":"basic","description":"直角三角形でa²+b²=c²（cは斜辺）。辺の長さを求める","typical_mistakes":["斜辺でない辺にcを使う","c²=a²-b²と引き算"],"steps":["直角を確認","斜辺cを確認","a²+b²=c²に代入"]},
+    {"id":"special-triangles","title":"特別な直角三角形","difficulty":"basic","description":"30-60-90：1:√3:2。45-45-90：1:1:√2","typical_mistakes":["30-60-90で√3と2を逆にする","45-45-90で√2の位置を間違える"],"steps":["角度を確認","辺の比を適用","求める辺を計算"]},
+    {"id":"pythagorean-triples","title":"ピタゴラス数","difficulty":"basic","description":"3:4:5、5:12:13、8:15:17。これらの倍数も成立","typical_mistakes":["3:4:5の倍数を認識しない","5²=3²+4²の確認を怠る"],"steps":["既知のピタゴラス数と比較","倍率を求める"]},
+    {"id":"plane-geometry","title":"平面図形への応用","difficulty":"standard","description":"正方形・長方形・菱形の対角線、正三角形の高さ","typical_mistakes":["対角線が直角でないと思う","正三角形の高さを底辺の半分と思う"],"steps":["直角三角形を見つける","三平方を適用"]},
+    {"id":"solid-geometry","title":"空間図形への応用","difficulty":"standard","description":"直方体の対角線、円柱・円錐の高さ","typical_mistakes":["3次元の対角線を一段階で求めようとする","底面の対角線を先に求める必要がある"],"steps":["底面の対角線を計算","底面の対角線と高さで三平方"]},
+    {"id":"coordinate-distance","title":"座標と距離","difficulty":"exam","description":"2点間の距離=√((x₂-x₁)²+(y₂-y₁)²)","typical_mistakes":["差の2乗を展開ミス","√内を素直に計算しない"],"steps":["Δx,Δyを計算","√(Δx²+Δy²)"]}
+  ]
+}

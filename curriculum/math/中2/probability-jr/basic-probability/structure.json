@@ -1,0 +1,92 @@
+{
+  "unit_id": "basic-probability",
+  "unit_name_jp": "確率",
+  "grade": "中学2年",
+  "patterns": [
+    {
+      "pattern_id": "probability-definition",
+      "description": "確率の定義と計算（起こりやすさを数値化）",
+      "thinking_process": [
+        "確率 = 求める事象の起こる場合の数 ÷ 全体の場合の数",
+        "確率の値は 0 以上 1 以下",
+        "同様に確からしい（等確率）の前提を確認する"
+      ],
+      "common_mistakes": [
+        "分母を求める事象の数にしてしまう",
+        "確率を百分率（%）と混同する",
+        "0 ≦ P ≦ 1 の範囲を超えた値を出す"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "counting-by-tree",
+      "description": "樹形図を使った場合の数の列挙",
+      "thinking_process": [
+        "1つ目の選択肢を書いてから2つ目を枝分かれさせる",
+        "各経路が1つの場合に対応する",
+        "順序ある場合（順列）と順序ない場合（組合せ）を区別"
+      ],
+      "common_mistakes": [
+        "同じ組み合わせを重複カウントする",
+        "条件（同じものを選ばないなど）を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "complementary-probability",
+      "description": "余事象を使った確率計算（1 から引く）",
+      "thinking_process": [
+        "「少なくとも1つ」「〜でない」→ 余事象を使う",
+        "P(A) = 1 - P(余事象)",
+        "直接計算より余事象の方が簡単な場合に使う"
+      ],
+      "common_mistakes": [
+        "余事象を使わずに全ての場合を列挙しようとする",
+        "P(A) + P(余事象) = 1 の式が成り立つことを確認しない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "dice-probability",
+      "description": "サイコロを使った確率（1個・2個）",
+      "thinking_process": [
+        "1つのサイコロ：全6通り",
+        "2つのサイコロ：全36通り（独立な試行）",
+        "求める事象を正確に列挙する"
+      ],
+      "common_mistakes": [
+        "2つのサイコロの全体を6×2=12通りとする（正しくは6×6=36通り）",
+        "「和が7」の場合を全て列挙できない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "card-probability",
+      "description": "カードを引く確率（順列・組合せの考え方）",
+      "thinking_process": [
+        "1枚引く：全体の枚数を分母にする",
+        "2枚以上引く：順序あり（順列）か順序なし（組合せ）かを判断",
+        "条件付き確率（引いたカードを戻さない場合）"
+      ],
+      "common_mistakes": [
+        "カードを戻す場合と戻さない場合を区別しない",
+        "順序ある・なしの区別を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "probability-application",
+      "description": "確率の応用（当たりくじ・コイン・複合問題）",
+      "thinking_process": [
+        "試行を繰り返すときは独立性を確認",
+        "コインは表・裏の2通り（各1/2）",
+        "確率の加法定理：互いに排反な場合は和"
+      ],
+      "common_mistakes": [
+        "独立な試行の確率を足す（積が正しい）",
+        "「かつ」と「または」の確率計算を混同する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+[
+  {
+    "id": "db-001",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "次の度数分布表で、度数が最も多い階級はどれか。\n階級(点) | 度数\n 40以上50未満 | 3\n 50以上60未満 | 8\n 60以上70未満 | 12\n 70以上80未満 | 7",
+    "choices": [
+      {
+        "label": "A",
+        "text": "60以上70未満"
+      },
+      {
+        "label": "B",
+        "text": "50以上60未満"
+      },
+      {
+        "label": "C",
+        "text": "70以上80未満"
+      },
+      {
+        "label": "D",
+        "text": "40以上50未満"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "度数分布表",
+      "最頻階級"
+    ]
+  },
+  {
+    "id": "db-002",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "10人のテストの点数：52, 68, 73, 45, 81, 60, 77, 55, 90, 49。この平均値は何点か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "65点"
+      },
+      {
+        "label": "B",
+        "text": "63点"
+      },
+      {
+        "label": "C",
+        "text": "68点"
+      },
+      {
+        "label": "D",
+        "text": "60点"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平均値",
+      "生データ"
+    ]
+  },
+  {
+    "id": "db-003",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "7つのデータ：3, 7, 2, 9, 5, 8, 4 を小さい順に並べたとき、中央値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中央値",
+      "奇数個"
+    ]
+  },
+  {
+    "id": "db-004",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "度数分布表の階級「60以上70未満」の階級値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "65"
+      },
+      {
+        "label": "B",
+        "text": "60"
+      },
+      {
+        "label": "C",
+        "text": "70"
+      },
+      {
+        "label": "D",
+        "text": "64"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "階級値",
+      "中点"
+    ]
+  },
+  {
+    "id": "db-005",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "次のデータの最頻値（モード）はどれか。\nデータ：4, 7, 3, 7, 5, 2, 7, 4, 3, 7",
+    "choices": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "最頻値",
+      "モード"
+    ]
+  },
+  {
+    "id": "db-006",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "6つのデータ：4, 6, 8, 10, 12, 14 の中央値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中央値",
+      "偶数個"
+    ]
+  },
+  {
+    "id": "db-007",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "データ：12, 5, 8, 20, 3, 15 の範囲（レンジ）はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "17"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "範囲",
+      "最大値-最小値"
+    ]
+  },
+  {
+    "id": "db-008",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "30人のクラスで身長の度数分布表を作った。160以上165未満の度数が9人のとき、この階級の相対度数はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.30"
+      },
+      {
+        "label": "B",
+        "text": "0.09"
+      },
+      {
+        "label": "C",
+        "text": "0.20"
+      },
+      {
+        "label": "D",
+        "text": "0.33"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相対度数",
+      "計算"
+    ]
+  },
+  {
+    "id": "db-009",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "5人の点数：60, 70, 80, 90, 100 の平均値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "80点"
+      },
+      {
+        "label": "B",
+        "text": "75点"
+      },
+      {
+        "label": "C",
+        "text": "85点"
+      },
+      {
+        "label": "D",
+        "text": "70点"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平均値",
+      "等差"
+    ]
+  },
+  {
+    "id": "db-010",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "basic",
+    "question": "ヒストグラムで、縦軸が表すものは何か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "度数"
+      },
+      {
+        "label": "B",
+        "text": "階級値"
+      },
+      {
+        "label": "C",
+        "text": "相対度数"
+      },
+      {
+        "label": "D",
+        "text": "累積度数"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "ヒストグラム",
+      "軸の意味"
+    ]
+  },
+  {
+    "id": "db-011",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "度数分布表から平均値を求める。\n階級(点) | 階級値 | 度数\n 10以上20未満 | 15 | 2\n 20以上30未満 | 25 | 6\n 30以上40未満 | 35 | 4\n 40以上50未満 | 45 | 8\n合計20人。この平均値は何点か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "33点"
+      },
+      {
+        "label": "B",
+        "text": "35点"
+      },
+      {
+        "label": "C",
+        "text": "30点"
+      },
+      {
+        "label": "D",
+        "text": "28点"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "度数分布表",
+      "平均値計算"
+    ]
+  },
+  {
+    "id": "db-012",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "度数分布表で累積度数を求める。\n30未満: 5人、30以上40未満: 8人、40以上50未満: 7人のとき、50未満の累積度数は何人か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "20人"
+      },
+      {
+        "label": "B",
+        "text": "15人"
+      },
+      {
+        "label": "C",
+        "text": "13人"
+      },
+      {
+        "label": "D",
+        "text": "8人"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "累積度数",
+      "合計"
+    ]
+  },
+  {
+    "id": "db-013",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "8つのデータ：5, 9, 3, 7, 6, 4, 8, 2 を小さい順に並べて中央値を求めると何か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5.5"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "4.5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中央値",
+      "偶数個",
+      "2数の平均"
+    ]
+  },
+  {
+    "id": "db-014",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "度数分布表の相対度数の合計は必ずいくつになるか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "総度数と同じ"
+      },
+      {
+        "label": "C",
+        "text": "100"
+      },
+      {
+        "label": "D",
+        "text": "階級の数と同じ"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相対度数",
+      "合計の性質"
+    ]
+  },
+  {
+    "id": "db-015",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "5人のデータ：10, 20, 30, 40, 100。外れ値100を除いた4人の平均は25点。全5人の平均は何点か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "40点"
+      },
+      {
+        "label": "B",
+        "text": "25点"
+      },
+      {
+        "label": "C",
+        "text": "30点"
+      },
+      {
+        "label": "D",
+        "text": "50点"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外れ値",
+      "平均への影響"
+    ]
+  },
+  {
+    "id": "db-016",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "20人のクラスのテスト。中央値を求めるには小さい順に並べて何番目と何番目の平均を取るか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10番目と11番目の平均"
+      },
+      {
+        "label": "B",
+        "text": "10番目の値"
+      },
+      {
+        "label": "C",
+        "text": "11番目の値"
+      },
+      {
+        "label": "D",
+        "text": "9番目と10番目の平均"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中央値",
+      "偶数個",
+      "位置"
+    ]
+  },
+  {
+    "id": "db-017",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "4つのデータ：a, 6, 8, 10 の平均が8のとき、a の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平均から逆算",
+      "未知数"
+    ]
+  },
+  {
+    "id": "db-018",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "度数分布表で「20以上30未満」の累積相対度数が0.40、「30以上40未満」の相対度数が0.25のとき、「40未満」の累積相対度数はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.65"
+      },
+      {
+        "label": "B",
+        "text": "0.25"
+      },
+      {
+        "label": "C",
+        "text": "0.40"
+      },
+      {
+        "label": "D",
+        "text": "0.50"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "累積相対度数",
+      "加算"
+    ]
+  },
+  {
+    "id": "db-019",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "2つのクラスの平均点が同じ70点。A組は点数が60〜80点に集中、B組は40〜100点に広がっている。2つのクラスで異なるのは何か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "範囲(データの広がり)"
+      },
+      {
+        "label": "B",
+        "text": "平均値"
+      },
+      {
+        "label": "C",
+        "text": "中央値"
+      },
+      {
+        "label": "D",
+        "text": "最頻値"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "範囲",
+      "分布の比較"
+    ]
+  },
+  {
+    "id": "db-020",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "standard",
+    "question": "25人のクラスのテストで「60点以上70点未満」の階級の度数が10人のとき、この階級の相対度数はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.40"
+      },
+      {
+        "label": "B",
+        "text": "0.10"
+      },
+      {
+        "label": "C",
+        "text": "0.25"
+      },
+      {
+        "label": "D",
+        "text": "0.50"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相対度数",
+      "計算"
+    ]
+  },
+  {
+    "id": "db-021",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "あるクラスのテスト（40人）の度数分布表。\n50以上60未満：8人、60以上70未満：12人、70以上80未満：14人、80以上90未満：6人。\n最頻値（モード）として最も適切な値はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "75点(70以上80未満の階級値)"
+      },
+      {
+        "label": "B",
+        "text": "70点"
+      },
+      {
+        "label": "C",
+        "text": "80点"
+      },
+      {
+        "label": "D",
+        "text": "65点(60以上70未満の階級値)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "最頻値",
+      "度数最大階級",
+      "階級値"
+    ]
+  },
+  {
+    "id": "db-022",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "度数分布表から中央値の属する階級を求める。\n40人のデータ：40以上50未満 4人、50以上60未満 10人、60以上70未満 18人、70以上80未満 8人。\n中央値はどの階級に属するか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "60以上70未満"
+      },
+      {
+        "label": "B",
+        "text": "50以上60未満"
+      },
+      {
+        "label": "C",
+        "text": "70以上80未満"
+      },
+      {
+        "label": "D",
+        "text": "40以上50未満"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中央値の階級",
+      "累積度数"
+    ]
+  },
+  {
+    "id": "db-023",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "平均値、中央値、最頻値の中で、外れ値（極端に大きい・小さい値）の影響を最も受けやすいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "平均値"
+      },
+      {
+        "label": "B",
+        "text": "中央値"
+      },
+      {
+        "label": "C",
+        "text": "最頻値"
+      },
+      {
+        "label": "D",
+        "text": "3つとも同じ程度影響を受ける"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外れ値",
+      "代表値の性質"
+    ]
+  },
+  {
+    "id": "db-024",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "A, B 2組それぞれ20人のテスト結果。A組の平均：65点、B組の平均：70点。2組合わせた40人全体の平均は何点か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "67.5点"
+      },
+      {
+        "label": "B",
+        "text": "70点"
+      },
+      {
+        "label": "C",
+        "text": "65点"
+      },
+      {
+        "label": "D",
+        "text": "72点"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "加重平均",
+      "合計から計算"
+    ]
+  },
+  {
+    "id": "db-025",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "データの分布が右に偏っている（高い値に偏っている）とき、平均値と中央値の大小関係として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "平均値 > 中央値"
+      },
+      {
+        "label": "B",
+        "text": "平均値 < 中央値"
+      },
+      {
+        "label": "C",
+        "text": "平均値 = 中央値"
+      },
+      {
+        "label": "D",
+        "text": "どちらが大きいかは常に不定"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分布の偏り",
+      "平均と中央値の関係"
+    ]
+  },
+  {
+    "id": "db-026",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "ある学校の50人のテスト結果（度数分布表）から、相対度数を計算した。「70以上80未満」の度数が15人のとき、この階級の累積相対度数が0.70だった。「70未満」の累積相対度数はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.40"
+      },
+      {
+        "label": "B",
+        "text": "0.30"
+      },
+      {
+        "label": "C",
+        "text": "0.70"
+      },
+      {
+        "label": "D",
+        "text": "0.60"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "累積相対度数",
+      "引き算"
+    ]
+  },
+  {
+    "id": "db-027",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "5人の点数：30, 40, 50, 60, 120。この5つのデータの代表値のうち、このクラスの「典型的な成績」を最もよく表すのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "中央値(50点)"
+      },
+      {
+        "label": "B",
+        "text": "平均値(60点)"
+      },
+      {
+        "label": "C",
+        "text": "最頻値(定義できない)"
+      },
+      {
+        "label": "D",
+        "text": "最大値(120点)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代表値の選択",
+      "外れ値の影響"
+    ]
+  },
+  {
+    "id": "db-028",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "度数分布表で「30以上40未満」の階級の度数が不明で、表全体の総度数が40、他の階級の度数の合計が34のとき、不明の度数はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "34"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "度数の逆算",
+      "合計"
+    ]
+  },
+  {
+    "id": "db-029",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "ある調査で回答数を2倍にした（同じ比率の分布のまま）。各階級の相対度数はどうなるか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "変わらない"
+      },
+      {
+        "label": "B",
+        "text": "2倍になる"
+      },
+      {
+        "label": "C",
+        "text": "半分になる"
+      },
+      {
+        "label": "D",
+        "text": "階級によって異なる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相対度数の性質",
+      "標本サイズ"
+    ]
+  },
+  {
+    "id": "db-030",
+    "subject": "math",
+    "unit": "data-basics",
+    "difficulty": "exam",
+    "question": "度数分布表だけから分かることとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "各階級に何人いるかは分かるが、個々のデータの正確な値は分からない"
+      },
+      {
+        "label": "B",
+        "text": "全ての個々のデータの正確な値が分かる"
+      },
+      {
+        "label": "C",
+        "text": "元のデータの個数が分からない"
+      },
+      {
+        "label": "D",
+        "text": "平均値は計算できない"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "度数分布表の限界",
+      "情報の損失"
+    ]
+  }
+]

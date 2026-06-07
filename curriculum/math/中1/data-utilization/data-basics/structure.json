@@ -1,0 +1,96 @@
+{
+  "unit_id": "data-basics",
+  "unit_name_jp": "データの活用",
+  "grade": "中学1年",
+  "patterns": [
+    {
+      "pattern_id": "frequency-distribution",
+      "description": "度数分布表・ヒストグラムの読み取りと作成",
+      "thinking_process": [
+        "各階級の度数と累積度数を確認する",
+        "ヒストグラムは横軸が階級、縦軸が度数",
+        "相対度数 = 度数 ÷ 総度数"
+      ],
+      "common_mistakes": [
+        "階級の幅と度数を混同する",
+        "累積度数の計算で加算を誤る",
+        "相対度数の合計が1にならない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "mean-calculation",
+      "description": "平均値の計算（生データ・度数分布表から）",
+      "thinking_process": [
+        "平均値 = 合計 ÷ 個数",
+        "度数分布表から：各階級の階級値×度数の合計 ÷ 総度数",
+        "階級値 = （下限 + 上限）÷ 2"
+      ],
+      "common_mistakes": [
+        "度数を無視して階級値の平均を取る",
+        "階級値を上限値や下限値にしてしまう",
+        "合計を個数で割り忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "median-mode",
+      "description": "中央値・最頻値の求め方",
+      "thinking_process": [
+        "中央値：データを小さい順に並べて真ん中の値（偶数個なら2つの平均）",
+        "最頻値：度数最大の階級の階級値",
+        "階級値 = （下限 + 上限）÷ 2"
+      ],
+      "common_mistakes": [
+        "中央値をデータを並べずに真ん中の番号のデータにする",
+        "最頻値を最大値と混同する",
+        "偶数個のデータで中央の2値の平均を取り忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "relative-frequency",
+      "description": "相対度数・累積相対度数の計算と解釈",
+      "thinking_process": [
+        "相対度数 = 度数 ÷ 総度数",
+        "累積相対度数は下の階級から累積していく",
+        "全相対度数の合計 = 1"
+      ],
+      "common_mistakes": [
+        "相対度数を百分率（%）と混同して100で割り忘れる",
+        "累積相対度数を各階級の相対度数そのままにする",
+        "総度数が変わっても相対度数を同じと思う"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "range-and-distribution",
+      "description": "範囲・分布の偏りの読み取りと比較",
+      "thinking_process": [
+        "範囲 = 最大値 - 最小値",
+        "ヒストグラムの形から分布の偏りを読む",
+        "2つのデータを比較する際は平均・範囲・分布の形を見る"
+      ],
+      "common_mistakes": [
+        "範囲を最大値と最小値の区間の幅と誤る",
+        "平均が同じでも分布の広がりは違う可能性を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "data-interpretation",
+      "description": "データを総合的に読み取り、問題解決に活用する",
+      "thinking_process": [
+        "問題に応じて適切な代表値（平均・中央値・最頻値）を選ぶ",
+        "度数分布表から推測・判断する",
+        "外れ値が平均に影響することを考慮する"
+      ],
+      "common_mistakes": [
+        "外れ値があっても平均が最適な代表値と思う",
+        "度数分布表から元のデータを復元できると思う（できない）",
+        "サンプル数が少ないデータを過信する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "pg-001",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "「2 点 A, B を端点とし、その間の部分」を何というか。正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "線分 AB"
+      },
+      {
+        "label": "B",
+        "text": "直線 AB"
+      },
+      {
+        "label": "C",
+        "text": "半直線 AB"
+      },
+      {
+        "label": "D",
+        "text": "弧 AB"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "線分の定義",
+      "直線・線分・半直線の区別"
+    ]
+  },
+  {
+    "id": "pg-002",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "角の大きさが 135° であるとき、この角の種類として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "鈍角(90° より大きく 180° より小さい)"
+      },
+      {
+        "label": "B",
+        "text": "鋭角(0° より大きく 90° より小さい)"
+      },
+      {
+        "label": "C",
+        "text": "直角(ちょうど 90°)"
+      },
+      {
+        "label": "D",
+        "text": "平角(ちょうど 180°)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "角の種類",
+      "鈍角の範囲"
+    ]
+  },
+  {
+    "id": "pg-003",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "下の図で直線 l と直線 m が平行のとき、角 a と等しい角の種類として正しいのはどれか。ただし直線 n が l と m を横切っているとする。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "同位角(l と m の同じ側の位置にある角)が等しい"
+      },
+      {
+        "label": "B",
+        "text": "同側内角(l と m の内側にある同じ側の角)が等しい"
+      },
+      {
+        "label": "C",
+        "text": "同位角の和が 180° になる"
+      },
+      {
+        "label": "D",
+        "text": "錯角の和が 180° になる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線と同位角",
+      "錯角との区別"
+    ]
+  },
+  {
+    "id": "pg-004",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "2 直線が平行のとき、錯角の関係として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "錯角は等しい"
+      },
+      {
+        "label": "B",
+        "text": "錯角の和は 180° になる"
+      },
+      {
+        "label": "C",
+        "text": "錯角は補角の関係にある"
+      },
+      {
+        "label": "D",
+        "text": "錯角は同位角と常に等しくなる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線と錯角",
+      "同位角・錯角・同側内角"
+    ]
+  },
+  {
+    "id": "pg-005",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "円の半径が 5 cm のとき、円周の長さとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2π × 5 = 10π cm"
+      },
+      {
+        "label": "B",
+        "text": "π × 5² = 25π cm"
+      },
+      {
+        "label": "C",
+        "text": "π × 5 = 5π cm"
+      },
+      {
+        "label": "D",
+        "text": "2 × 5 = 10 cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "円周の公式",
+      "2πr と πr² の区別"
+    ]
+  },
+  {
+    "id": "pg-006",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "円の半径が 4 cm のとき、円の面積として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "π × 4² = 16π cm²"
+      },
+      {
+        "label": "B",
+        "text": "2π × 4 = 8π cm²"
+      },
+      {
+        "label": "C",
+        "text": "π × 4 = 4π cm²"
+      },
+      {
+        "label": "D",
+        "text": "4² = 16 cm²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "円の面積",
+      "πr² の計算"
+    ]
+  },
+  {
+    "id": "pg-007",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "三角形の内角の和として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180°"
+      },
+      {
+        "label": "B",
+        "text": "360°"
+      },
+      {
+        "label": "C",
+        "text": "270°"
+      },
+      {
+        "label": "D",
+        "text": "辺の長さによって変わる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "三角形の内角の和",
+      "180°"
+    ]
+  },
+  {
+    "id": "pg-008",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "四角形の内角の和として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "360°"
+      },
+      {
+        "label": "B",
+        "text": "180°"
+      },
+      {
+        "label": "C",
+        "text": "540°"
+      },
+      {
+        "label": "D",
+        "text": "180° × 4 = 720°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "四角形の内角の和",
+      "n角形の公式"
+    ]
+  },
+  {
+    "id": "pg-009",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "三角形の 2 つの角が 50° と 70° のとき、残りの 1 つの角の大きさとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180 - 50 - 70 = 60°"
+      },
+      {
+        "label": "B",
+        "text": "360 - 50 - 70 = 240°"
+      },
+      {
+        "label": "C",
+        "text": "50 + 70 = 120°"
+      },
+      {
+        "label": "D",
+        "text": "180 - (50 + 70)/2 = 120°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "三角形の内角",
+      "残り1角の計算"
+    ]
+  },
+  {
+    "id": "pg-010",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "basic",
+    "question": "直線 l 上の点 P から直線 l に垂直に下ろした線を何というか。正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "垂線"
+      },
+      {
+        "label": "B",
+        "text": "垂直二等分線"
+      },
+      {
+        "label": "C",
+        "text": "対称軸"
+      },
+      {
+        "label": "D",
+        "text": "平行線"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "垂線の定義",
+      "用語の区別"
+    ]
+  },
+  {
+    "id": "pg-011",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "半径 6 cm、中心角 60° のおうぎ形の弧の長さとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2π × 6 × (60/360) = 2π cm"
+      },
+      {
+        "label": "B",
+        "text": "π × 6² × (60/360) = 6π cm"
+      },
+      {
+        "label": "C",
+        "text": "2π × 6 × (60/180) = 4π cm"
+      },
+      {
+        "label": "D",
+        "text": "2π × 6 = 12π cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "おうぎ形の弧長",
+      "中心角の割合"
+    ]
+  },
+  {
+    "id": "pg-012",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "半径 4 cm、中心角 90° のおうぎ形の面積として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "π × 4² × (90/360) = 4π cm²"
+      },
+      {
+        "label": "B",
+        "text": "2π × 4 × (90/360) = 2π cm²"
+      },
+      {
+        "label": "C",
+        "text": "π × 4² × (90/180) = 8π cm²"
+      },
+      {
+        "label": "D",
+        "text": "π × 4² = 16π cm²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "おうぎ形の面積",
+      "中心角の割合"
+    ]
+  },
+  {
+    "id": "pg-013",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "五角形の内角の和として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180 × (5-2) = 540°"
+      },
+      {
+        "label": "B",
+        "text": "180 × 5 = 900°"
+      },
+      {
+        "label": "C",
+        "text": "360°"
+      },
+      {
+        "label": "D",
+        "text": "180 × (5-1) = 720°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "多角形の内角の和",
+      "公式 180×(n-2)"
+    ]
+  },
+  {
+    "id": "pg-014",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "多角形の外角の和として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "何角形でも外角の和は常に 360°"
+      },
+      {
+        "label": "B",
+        "text": "三角形だけ外角の和が 360°"
+      },
+      {
+        "label": "C",
+        "text": "n 角形の外角の和 = 180° × (n-2)"
+      },
+      {
+        "label": "D",
+        "text": "正多角形のみ外角の和が 360°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外角の和",
+      "360°の普遍性"
+    ]
+  },
+  {
+    "id": "pg-015",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "正六角形の 1 つの内角の大きさとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180 × (6-2) / 6 = 120°"
+      },
+      {
+        "label": "B",
+        "text": "360 / 6 = 60°"
+      },
+      {
+        "label": "C",
+        "text": "180 × 6 / 6 = 180°"
+      },
+      {
+        "label": "D",
+        "text": "180 × (6-2) = 720°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "正多角形の内角",
+      "内角の和を辺数で割る"
+    ]
+  },
+  {
+    "id": "pg-016",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "垂直二等分線の作図でコンパスを使う正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両端点 A, B から同じ半径で円弧を描き、2 つの交点を直線で結ぶ"
+      },
+      {
+        "label": "B",
+        "text": "端点 A からだけ円弧を描いて中点を決める"
+      },
+      {
+        "label": "C",
+        "text": "まず中点を分度器で測ってから垂線を引く"
+      },
+      {
+        "label": "D",
+        "text": "A, B から異なる半径で円弧を描き交点を結ぶ"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "垂直二等分線の作図",
+      "コンパスの使い方"
+    ]
+  },
+  {
+    "id": "pg-017",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "点 P を通り直線 l に平行な直線を作図するとき、正しい方法はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "l 上の任意の点 Q を定め、∠PQl と等しい角を P 側で作図する"
+      },
+      {
+        "label": "B",
+        "text": "P から l に垂線を下ろして、その垂線に垂直な線を引く"
+      },
+      {
+        "label": "C",
+        "text": "P から l までの距離を定規で測り、その長さを平行移動させる"
+      },
+      {
+        "label": "D",
+        "text": "分度器で l の傾きを測り、P から同じ傾きの線を引く"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "平行線の作図",
+      "垂線の垂線"
+    ]
+  },
+  {
+    "id": "pg-018",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "おうぎ形の弧の長さが 4π cm、半径が 6 cm のとき、中心角として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4π = 2π×6×(x/360) → x = 120°"
+      },
+      {
+        "label": "B",
+        "text": "4π = 2π×6×(x/180) → x = 60°"
+      },
+      {
+        "label": "C",
+        "text": "4π = π×6²×(x/360) → x = 80°"
+      },
+      {
+        "label": "D",
+        "text": "4π = 2π×6 → x = 360°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "おうぎ形の中心角逆算",
+      "弧長の式"
+    ]
+  },
+  {
+    "id": "pg-019",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "図形を線対称と点対称の両方の性質を持つ図形として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "正方形(対称軸 4 本、かつ点対称)"
+      },
+      {
+        "label": "B",
+        "text": "正三角形(対称軸 3 本あるが点対称でない)"
+      },
+      {
+        "label": "C",
+        "text": "平行四辺形(点対称だが線対称でない)"
+      },
+      {
+        "label": "D",
+        "text": "二等辺三角形(対称軸 1 本あるが点対称でない)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "線対称と点対称の両立",
+      "正方形の対称性"
+    ]
+  },
+  {
+    "id": "pg-020",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "standard",
+    "question": "平行線と直線が交わるとき、同側内角の和として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "同側内角の和は 180°"
+      },
+      {
+        "label": "B",
+        "text": "同側内角は等しい"
+      },
+      {
+        "label": "C",
+        "text": "同側内角の和は 90°"
+      },
+      {
+        "label": "D",
+        "text": "同側内角の和は 360°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "同側内角",
+      "平行線と角の関係"
+    ]
+  },
+  {
+    "id": "pg-021",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "三角形の 1 つの外角は、その外角に隣り合わない 2 つの内角の和に等しい。この性質を使って、∠A = 40°、∠B = 65° の三角形で、∠C の外角の大きさとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "∠C の外角 = ∠A + ∠B = 40 + 65 = 105°"
+      },
+      {
+        "label": "B",
+        "text": "∠C の外角 = 180 - (∠A + ∠B) = 180 - 105 = 75°(外角と内角を混同)"
+      },
+      {
+        "label": "C",
+        "text": "∠C の外角 = 180 - (40 + 65) = 75°"
+      },
+      {
+        "label": "D",
+        "text": "∠C の外角 = 360 - 40 - 65 = 255°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "三角形の外角",
+      "外角 = 非隣接内角の和"
+    ]
+  },
+  {
+    "id": "pg-022",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "正八角形の 1 つの内角の大きさとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180 × (8-2) / 8 = 135°"
+      },
+      {
+        "label": "B",
+        "text": "180 × 8 / 8 = 180°"
+      },
+      {
+        "label": "C",
+        "text": "360 / 8 = 45°"
+      },
+      {
+        "label": "D",
+        "text": "180 × (8-2) = 1080°(これは内角の和)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "正多角形の内角",
+      "正八角形"
+    ]
+  },
+  {
+    "id": "pg-023",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "半径 3 cm、中心角 120° のおうぎ形の面積と弧の長さの組として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "面積 = 3π cm²、弧の長さ = 2π cm"
+      },
+      {
+        "label": "B",
+        "text": "面積 = 6π cm²、弧の長さ = 4π cm"
+      },
+      {
+        "label": "C",
+        "text": "面積 = 2π cm²、弧の長さ = 3π cm"
+      },
+      {
+        "label": "D",
+        "text": "面積 = 9π cm²、弧の長さ = 6π cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "おうぎ形の面積と弧長",
+      "両方同時に計算"
+    ]
+  },
+  {
+    "id": "pg-024",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "内角の和が 1260° の多角形は何角形か。正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "180 × (n-2) = 1260 → n = 9 なので九角形"
+      },
+      {
+        "label": "B",
+        "text": "180 × n = 1260 → n = 7 なので七角形"
+      },
+      {
+        "label": "C",
+        "text": "360 × n = 1260 → n = 3.5(非整数)"
+      },
+      {
+        "label": "D",
+        "text": "180 × (n-2) = 1260 → n = 8 なので八角形"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "内角の和からn角形を求める",
+      "逆算"
+    ]
+  },
+  {
+    "id": "pg-025",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "正多角形の 1 つの外角が 30° のとき、この正多角形の辺の数として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "外角の和 360° を 1 つの外角 30° で割って 360/30 = 12 辺"
+      },
+      {
+        "label": "B",
+        "text": "内角 = 180 - 30 = 150°、内角の和 = 150n = 180(n-2) → n = 6 辺"
+      },
+      {
+        "label": "C",
+        "text": "180/30 = 6 辺"
+      },
+      {
+        "label": "D",
+        "text": "外角の和 180° を 1 つの外角 30° で割って 180/30 = 6 辺"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "外角から辺数を求める",
+      "360°÷外角"
+    ]
+  },
+  {
+    "id": "pg-026",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "平行線 l, m の間に点 P があり、l の角が 55°、m の角が 45° のとき、P における折れ線の角として正しいのはどれか。（P から l に補助線を引いて解く。）",
+    "choices": [
+      {
+        "label": "A",
+        "text": "P で l に平行な補助線を引くと、錯角の性質から 55 + 45 = 100°"
+      },
+      {
+        "label": "B",
+        "text": "55 - 45 = 10°"
+      },
+      {
+        "label": "C",
+        "text": "180 - 55 - 45 = 80°"
+      },
+      {
+        "label": "D",
+        "text": "(55 + 45)/2 = 50°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線と折れ線の角",
+      "補助線の利用"
+    ]
+  },
+  {
+    "id": "pg-027",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "円に内接する四角形の向かい合う角の和として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "向かい合う角の和は 180°"
+      },
+      {
+        "label": "B",
+        "text": "向かい合う角は等しい"
+      },
+      {
+        "label": "C",
+        "text": "向かい合う角の和は 360°"
+      },
+      {
+        "label": "D",
+        "text": "向かい合う角の和は 90°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "円に内接する四角形",
+      "対角の和"
+    ]
+  },
+  {
+    "id": "pg-028",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "おうぎ形の半径を 2 倍にして中心角を半分にすると、弧の長さはどうなるか。正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "弧長 = 2π×(2r)×(θ/2)/360 = 2π×r×θ/360 となり元と同じ"
+      },
+      {
+        "label": "B",
+        "text": "半径が 2 倍なので弧長は 2 倍になる"
+      },
+      {
+        "label": "C",
+        "text": "中心角が半分なので弧長は半分になる"
+      },
+      {
+        "label": "D",
+        "text": "半径 2 倍・中心角半分 → 弧長は 4 倍になる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "おうぎ形の変形",
+      "比例的な変化"
+    ]
+  },
+  {
+    "id": "pg-029",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "五角形の内角の和が 540° であることを三角形への分割で証明するとき、正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1 つの頂点から対角線を引くと 3 つの三角形に分かれ、3×180° = 540°"
+      },
+      {
+        "label": "B",
+        "text": "対角線をすべて引くと 5 つの三角形に分かれ、5×180° = 900° から外角分を引く"
+      },
+      {
+        "label": "C",
+        "text": "五角形を 2 つの三角形に分けて 2×180° = 360° とする"
+      },
+      {
+        "label": "D",
+        "text": "中心点をとって 5 つの三角形に分け 5×180° = 900°(中心角 360° を引き忘れ)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "内角の和の証明",
+      "三角形分割"
+    ]
+  },
+  {
+    "id": "pg-030",
+    "subject": "math",
+    "unit": "平面図形",
+    "difficulty": "exam",
+    "question": "おうぎ形の面積が 6π cm²、半径が 6 cm のとき、中心角として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6π = π×6²×(x/360) → 6π = 36π×(x/360) → x = 60°"
+      },
+      {
+        "label": "B",
+        "text": "6π = 2π×6×(x/360) → x = 180°"
+      },
+      {
+        "label": "C",
+        "text": "6π = π×6×(x/360) → x = 360°"
+      },
+      {
+        "label": "D",
+        "text": "6π = π×6²×(x/360) → x = 6°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "おうぎ形の中心角逆算",
+      "面積から角度"
+    ]
+  }
+]

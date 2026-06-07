@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { supabase } from '../lib/supabase'
 import { Monogram, CornerDiamonds } from '../components/LibraryUI'
+import type { SchoolType } from '../components/SchoolTypeSelector'
 import styles from './LoginPage.module.css'
 
-type Step = 'login' | 'signup'
+type Step = 'login' | 'signup' | 'school_select'
 
 /* sessionStorage のキー（SubjectPage と共有） */
 export const RECOVERY_CODE_KEY = 'sq_new_recovery_code'
@@ -54,17 +55,17 @@ function translateError(message: string): string {
    サブコンポーネント：入力フィールド
    ══════════════════════════════════════════════════ */
 interface LibFieldProps {
-  id:          string
-  label:       string
-  sublabel?:   string
-  type:        'text' | 'password'
-  value:       string
-  onChange:    (v: string) => void
+  id:           string
+  label:        string
+  sublabel?:    string
+  type:         'text' | 'password'
+  value:        string
+  onChange:     (v: string) => void
   placeholder?: string
-  minLength?:  number
-  maxLength?:  number
+  minLength?:   number
+  maxLength?:   number
   autoComplete?: string
-  required?:   boolean
+  required?:    boolean
 }
 
 function LibField({
@@ -107,9 +108,9 @@ function ErrorBar({ message }: { message: string }) {
 /* ══════════════════════════════════════════════════
    サブコンポーネント：送信ボタン
    ══════════════════════════════════════════════════ */
-function SubmitButton({ loading, label }: { loading: boolean; label: string }) {
+function SubmitButton({ loading, label, disabled }: { loading: boolean; label: string; disabled?: boolean }) {
   return (
-    <button className={styles.submitBtn} type="submit" disabled={loading}>
+    <button className={styles.submitBtn} type="submit" disabled={loading || disabled}>
       <span className={styles.submitInner} />
       {loading
         ? <><Spinner />処　理　中</>
@@ -123,21 +124,107 @@ function Spinner() {
 }
 
 /* ══════════════════════════════════════════════════
+   サブコンポーネント：学校種別カード
+   ══════════════════════════════════════════════════ */
+const SCHOOL_CARDS = [
+  {
+    type:   'junior_high' as SchoolType,
+    emoji:  '📚',
+    label:  '中学生',
+    note:   '中1〜中3',
+    color:  '#7090b0',
+    glow:   'rgba(112, 144, 176, 0.35)',
+    border: 'rgba(112, 144, 176, 0.6)',
+  },
+  {
+    type:   'high_school' as SchoolType,
+    emoji:  '🎓',
+    label:  '高校生',
+    note:   '高1〜高3',
+    color:  '#e0c07a',
+    glow:   'rgba(224, 192, 122, 0.35)',
+    border: 'rgba(224, 192, 122, 0.6)',
+  },
+] as const
+
+interface SchoolSelectProps {
+  selected:  SchoolType | null
+  onSelect:  (t: SchoolType) => void
+  onBack:    () => void
+  onConfirm: () => void
+  loading:   boolean
+  error:     string | null
+}
+
+function SchoolSelect({ selected, onSelect, onBack, onConfirm, loading, error }: SchoolSelectProps) {
+  return (
+    <div className={styles.schoolSelectWrap}>
+      <p className={styles.schoolHeading}>あなたは？</p>
+      <p className={styles.schoolSub}>ランキングは中学生・高校生で<br />独立して集計されます</p>
+
+      <div className={styles.schoolCardRow}>
+        {SCHOOL_CARDS.map(c => {
+          const active = selected === c.type
+          return (
+            <button
+              key={c.type}
+              type="button"
+              className={`${styles.schoolCard} ${active ? styles.schoolCardActive : ''}`}
+              style={{
+                '--sc-color':  c.color,
+                '--sc-glow':   c.glow,
+                '--sc-border': c.border,
+              } as React.CSSProperties}
+              onClick={() => onSelect(c.type)}
+            >
+              <span className={styles.schoolEmoji}>{c.emoji}</span>
+              <span className={styles.schoolLabel}>{c.label}</span>
+              <span className={styles.schoolNote}>{c.note}</span>
+              {active && <span className={styles.schoolCheck} aria-hidden="true">✓</span>}
+            </button>
+          )
+        })}
+      </div>
+
+      {error && <ErrorBar message={error} />}
+
+      <button
+        type="button"
+        className={styles.submitBtn}
+        disabled={!selected || loading}
+        onClick={onConfirm}
+      >
+        <span className={styles.submitInner} />
+        {loading
+          ? <><Spinner />登　録　中</>
+          : selected ? '学　籍　を　得　る' : '選択してください'}
+      </button>
+
+      <button type="button" className={styles.backLink} onClick={onBack}>
+        ← もどる
+      </button>
+    </div>
+  )
+}
+
+/* ══════════════════════════════════════════════════
    LoginPage コンポーネント
    ══════════════════════════════════════════════════ */
 export default function LoginPage() {
-  const [step,     setStep]     = useState<Step>('login')
-  const [username, setUsername] = useState('')
-  const [password, setPassword] = useState('')
-  const [loading,  setLoading]  = useState(false)
-  const [error,    setError]    = useState<string | null>(null)
+  const [step,       setStep]       = useState<Step>('login')
+  const [username,   setUsername]   = useState('')
+  const [password,   setPassword]   = useState('')
+  const [schoolType, setSchoolType] = useState<SchoolType | null>(null)
+  const [loading,    setLoading]    = useState(false)
+  const [error,      setError]      = useState<string | null>(null)
 
-  /* ── モード切り替え ── */
-  function switchStep(next: Step) {
+  /* ── タブ切り替え ── */
+  function switchTab(next: 'login' | 'signup') {
     setStep(next)
     setError(null)
     setUsername('')
     setPassword('')
+    setSchoolType(null)
   }
 
   /* ── ログイン処理 ── */
@@ -152,13 +239,18 @@ export default function LoginPage() {
     if (error) setError(translateError(error.message))
   }
 
-  /* ── 新規登録処理 ── */
-  async function handleSignup(e: React.FormEvent) {
+  /* ── 新規登録フォーム → 学校種別選択へ進む ── */
+  function handleSignupNext(e: React.FormEvent) {
     e.preventDefault()
-    if (username.trim().length < 2) {
-      setError('ユーザーネームは2文字以上にしてください')
-      return
-    }
+    if (username.trim().length < 2) { setError('ユーザーネームは2文字以上にしてください'); return }
+    if (password.length < 6)        { setError('パスワードは6文字以上にしてください'); return }
+    setError(null)
+    setStep('school_select')
+  }
+
+  /* ── 学校種別確定 → 実際の登録処理 ── */
+  async function handleSignupConfirm() {
+    if (!schoolType) return
     setError(null)
     setLoading(true)
     const internalEmail = await usernameToInternalEmail(username)
@@ -168,100 +260,4 @@ export default function LoginPage() {
     if (signupError) { setError(translateError(signupError.message)); setLoading(false); return }
     if (!data.user)  { setError('登録に失敗しました。もう一度お試しください'); setLoading(false); return }
 
-    const { error: profileError } = await supabase
-      .from('user_profiles')
-      .insert({ id: data.user.id, username: username.trim(), avatar_id: 'cat', recovery_code: code })
-
-    if (profileError) {
-      if (profileError.code === '23505') {
-        setError('このユーザーネームはすでに使われています')
-        await supabase.auth.admin?.deleteUser(data.user.id).catch(() => null)
-      } else {
-        setError('プロフィールの作成に失敗しました: ' + profileError.message)
-      }
-      setLoading(false)
-      return
-    }
-
-    sessionStorage.setItem(RECOVERY_CODE_KEY, code)
-    setLoading(false)
-  }
-
-  /* ══════════════════════════════════════════════════
-     レンダリング
-  ══════════════════════════════════════════════════ */
-  return (
-    <div className={styles.page}>
-
-      {/* ── 二重罫線フレーム ── */}
-      <div className={styles.frame}>
-        <CornerDiamonds size={6} inset={-3} />
-
-        {/* ── ヘッダー ── */}
-        <div className={styles.header}>
-          <span className={styles.anno}>Est.  2026</span>
-          <Monogram size={62} glyph="MA" italic />
-          <h1 className={styles.title}>MATHACA</h1>
-          <p className={styles.subtitle}>共通テスト　攻略の書</p>
-        </div>
-
-        {/* ── タブ ── */}
-        <div className={styles.tabs}>
-          <button
-            type="button"
-            className={`${styles.tab} ${step === 'login' ? styles.tabActive : ''}`}
-            onClick={() => switchStep('login')}
-          >
-            ログイン
-          </button>
-          <button
-            type="button"
-            className={`${styles.tab} ${step === 'signup' ? styles.tabActive : ''}`}
-            onClick={() => switchStep('signup')}
-          >
-            新規登録
-          </button>
-        </div>
-
-        {/* ── エラー帯 ── */}
-        {error && <ErrorBar message={error} />}
-
-        {/* ── フォーム ── */}
-        <form
-          className={styles.form}
-          onSubmit={step === 'login' ? handleLogin : handleSignup}
-        >
-          <LibField
-            id="username"
-            label="ユーザーネーム"
-            sublabel={step === 'signup' ? '2文字以上・後で変更可' : undefined}
-            type="text"
-            value={username}
-            onChange={setUsername}
-            placeholder={step === 'login' ? 'まなびくん' : '例：まなびくん'}
-            maxLength={20}
-            autoComplete="username"
-            required
-          />
-          <LibField
-            id="password"
-            label="パスワード"
-            sublabel={step === 'signup' ? '6文字以上' : undefined}
-            type="password"
-            value={password}
-            onChange={setPassword}
-            placeholder="••••••••"
-            minLength={step === 'signup' ? 6 : undefined}
-            autoComplete={step === 'login' ? 'current-password' : 'new-password'}
-            required
-          />
-          <SubmitButton
-            loading={loading}
-            label={step === 'login' ? '入　門' : '学　籍　を　得　る'}
-          />
-        </form>
-
-      </div>
-    </div>
-  )
-}
+    const { error: prof

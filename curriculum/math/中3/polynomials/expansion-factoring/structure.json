@@ -1,0 +1,94 @@
+{
+  "unit_id": "expansion-factoring",
+  "unit_name_jp": "多項式の展開と因数分解",
+  "grade": "中学3年",
+  "patterns": [
+    {
+      "pattern_id": "expansion-formulas",
+      "description": "乗法公式を使った展開（4つの公式）",
+      "thinking_process": [
+        "(a+b)²=a²+2ab+b²",
+        "(a-b)²=a²-2ab+b²",
+        "(a+b)(a-b)=a²-b²",
+        "(x+a)(x+b)=x²+(a+b)x+ab"
+      ],
+      "common_mistakes": [
+        "(a+b)²=a²+b² と中間項 2ab を忘れる",
+        "(a+b)(a-b) の結果に ab 項が残ると思う",
+        "公式を逆向き（因数分解方向）に使う"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "factoring-common-factor",
+      "description": "共通因数による因数分解",
+      "thinking_process": [
+        "全ての項に共通する因数を見つける",
+        "共通因数を括り出す",
+        "括り出した後の式を確認する"
+      ],
+      "common_mistakes": [
+        "共通因数を一部しか括り出さない",
+        "係数だけ、または文字だけを括り出す"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "factoring-by-formulas",
+      "description": "乗法公式を逆に使う因数分解",
+      "thinking_process": [
+        "a²+2ab+b²=(a+b)²、a²-2ab+b²=(a-b)²",
+        "a²-b²=(a+b)(a-b)",
+        "x²+(a+b)x+ab=(x+a)(x+b)"
+      ],
+      "common_mistakes": [
+        "a²-b² を (a-b)² と間違える",
+        "x²+(a+b)x+ab の a と b の組み合わせを誤る（積がab・和がa+b）",
+        "2乗の形を見落���す"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "complex-factoring",
+      "description": "複合的な因数分解（共通因数＋公式の組み合わせ）",
+      "thinking_process": [
+        "まず共通因数があれば括り出す",
+        "次に残った式に公式を適用する",
+        "完全に因数分解されているか確認する"
+      ],
+      "common_mistakes": [
+        "共通因数を括り出す前に公式を適用しようとする",
+        "2段階の因数分解の2段目を忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "expansion-calculation-trick",
+      "description": "展開を利用した計算の工夫",
+      "thinking_process": [
+        "数値計算に乗法公式を活用する（例：99²=(100-1)²）",
+        "式の展開で計算を単純化する",
+        "因数分解で数の掛け算を簡略化する"
+      ],
+      "common_mistakes": [
+        "工夫が必要な場面で普通に計算してしまう",
+        "公式のどれを使うか判断できない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "proof-with-expansion",
+      "description": "展開・因数分解を使った証明（整数の性質など）",
+      "thinking_process": [
+        "整数を文字で表す（n, n+1, 2n, 2n+1 など）",
+        "式を展開・因数分解して結論を導く",
+        "結論が整数・偶数・奇数などであることを示す"
+      ],
+      "common_mistakes": [
+        "文字で表す部分を誤る（連続整数の表し方など）",
+        "最終的に「整数の倍数」であることの確認を省く"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

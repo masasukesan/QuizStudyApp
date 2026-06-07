@@ -1,0 +1,901 @@
+[
+  {
+    "id": "lf-001",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "一次関数 y = 3x - 2 の傾きと y 切片を答えよ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "傾き 3、y 切片 -2"
+      },
+      {
+        "label": "B",
+        "text": "傾き -2、y 切片 3"
+      },
+      {
+        "label": "C",
+        "text": "傾き 3、y 切片 2"
+      },
+      {
+        "label": "D",
+        "text": "傾き -3、y 切片 -2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "傾き",
+      "y切片"
+    ]
+  },
+  {
+    "id": "lf-002",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "x = 2 のとき y = 5、x が 1 増えると y が 2 増える一次関数の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 2x + 1"
+      },
+      {
+        "label": "B",
+        "text": "y = 3x - 1"
+      },
+      {
+        "label": "C",
+        "text": "y = 5x + 2"
+      },
+      {
+        "label": "D",
+        "text": "y = x + 3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "傾きから式を求める"
+    ]
+  },
+  {
+    "id": "lf-003",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "2点 (1, 5) と (3, 11) を通る一次関数の傾きはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "傾き",
+      "2点から計算"
+    ]
+  },
+  {
+    "id": "lf-004",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "一次関数 y = -2x + 6 のグラフの y 切片（y 軸との交点の y 座標）はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "-2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "-6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "y切片",
+      "グラフ"
+    ]
+  },
+  {
+    "id": "lf-005",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "一次関数 y = 4x - 8 で x = 3 のときの y の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代入",
+      "値の計算"
+    ]
+  },
+  {
+    "id": "lf-006",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "傾きが 2、y 切片が -3 の一次関数の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 2x - 3"
+      },
+      {
+        "label": "B",
+        "text": "y = -3x + 2"
+      },
+      {
+        "label": "C",
+        "text": "y = 4x - 3"
+      },
+      {
+        "label": "D",
+        "text": "y = 3x - 2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "式の構成",
+      "y=ax+b"
+    ]
+  },
+  {
+    "id": "lf-007",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "一次関数 y = -x + 4 のグラフの形として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "右下がりの直線、y 切片は 4"
+      },
+      {
+        "label": "B",
+        "text": "右上がりの直線、y 切片は 4"
+      },
+      {
+        "label": "C",
+        "text": "右下がりの直線、y 切片は -1"
+      },
+      {
+        "label": "D",
+        "text": "水平な直線"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "グラフの形",
+      "傾きの符号"
+    ]
+  },
+  {
+    "id": "lf-008",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "一次関数 y = 3x + 6 の x 切片（x 軸との交点の x 座標）はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-2"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "-6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "x切片",
+      "y=0で解く"
+    ]
+  },
+  {
+    "id": "lf-009",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "2点 (0, 3) と (2, 7) を通る一次関数の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 2x + 3"
+      },
+      {
+        "label": "B",
+        "text": "y = 3x + 2"
+      },
+      {
+        "label": "C",
+        "text": "y = 3x + 3"
+      },
+      {
+        "label": "D",
+        "text": "y = 4x + 3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "2点から式",
+      "y切片が既知"
+    ]
+  },
+  {
+    "id": "lf-010",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "basic",
+    "question": "一次関数で x の値が 2 から 5 に増えるとき y の値が 6 から 15 に増えた。変化の割合はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合",
+      "Δy/Δx"
+    ]
+  },
+  {
+    "id": "lf-011",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "2点 (1, 2) と (4, 11) を通る一次関数の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 3x - 1"
+      },
+      {
+        "label": "B",
+        "text": "y = 2x + 1"
+      },
+      {
+        "label": "C",
+        "text": "y = 4x - 1"
+      },
+      {
+        "label": "D",
+        "text": "y = 4x - 2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "2点から式",
+      "切片計算"
+    ]
+  },
+  {
+    "id": "lf-012",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "一次関数 y = 2x - 4 と y = -x + 5 の交点の x 座標はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "交点",
+      "連立方程式"
+    ]
+  },
+  {
+    "id": "lf-013",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "一次関数 y = ax + 5 が点 (2, 1) を通るとき、a の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-2"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "-3"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "傾きを求める",
+      "代入"
+    ]
+  },
+  {
+    "id": "lf-014",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "x の変域が -1 ≦ x ≦ 3 のとき、y = 2x - 1 の y の変域はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-3 ≦ y ≦ 5"
+      },
+      {
+        "label": "B",
+        "text": "-1 ≦ y ≦ 5"
+      },
+      {
+        "label": "C",
+        "text": "-3 ≦ y ≦ 3"
+      },
+      {
+        "label": "D",
+        "text": "1 ≦ y ≦ 5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変域",
+      "端点の計算"
+    ]
+  },
+  {
+    "id": "lf-015",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "一次関数 y = -3x + b が点 (-1, 7) を通るとき、b の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "-4"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "切片を求める",
+      "代入"
+    ]
+  },
+  {
+    "id": "lf-016",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "傾きが 2 で点 (3, 8) を通る一次関数の y 切片はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "-2"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "y切片",
+      "代入で求める"
+    ]
+  },
+  {
+    "id": "lf-017",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "2直線 y = x + 3 と y = -2x + 9 の交点の座標はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "(2, 5)"
+      },
+      {
+        "label": "B",
+        "text": "(3, 6)"
+      },
+      {
+        "label": "C",
+        "text": "(1, 4)"
+      },
+      {
+        "label": "D",
+        "text": "(4, 7)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "交点",
+      "連立方程式"
+    ]
+  },
+  {
+    "id": "lf-018",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "一次関数 y = -2x + 8 で、y = 2 となる x の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "x値を求める",
+      "逆算"
+    ]
+  },
+  {
+    "id": "lf-019",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "変化の割合が -3、点 (1, 2) を通る一次関数の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = -3x + 5"
+      },
+      {
+        "label": "B",
+        "text": "y = -5x + 5"
+      },
+      {
+        "label": "C",
+        "text": "y = 3x + 5"
+      },
+      {
+        "label": "D",
+        "text": "y = -x + 5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "傾きと1点から式",
+      "切片計算"
+    ]
+  },
+  {
+    "id": "lf-020",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "standard",
+    "question": "x の変域が 0 ≦ x ≦ 4 のとき y = -x + 5 の y の最小値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変域",
+      "傾き負の最小値"
+    ]
+  },
+  {
+    "id": "lf-021",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "水道料金が使用量 0〜10m³ の基本料金 500 円、10m³ を超えた分は 1m³ あたり 80 円。使用量 x m³（x > 10）のとき料金 y 円を表す式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 80x - 300"
+      },
+      {
+        "label": "B",
+        "text": "y = 500x + 80"
+      },
+      {
+        "label": "C",
+        "text": "y = 300x + 80"
+      },
+      {
+        "label": "D",
+        "text": "y = 80(x-10) + 80"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "料金の一次関数",
+      "実生活応用"
+    ]
+  },
+  {
+    "id": "lf-022",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "A 地点から B 地点まで時速 4km で歩く。A を出発して x 時間後に A からの距離が y km。A-B 間の距離は 12km。B に着くまでの時間と、出発から x 時間後の y の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 4x(0 ≦ x ≦ 3)"
+      },
+      {
+        "label": "B",
+        "text": "y = 4x + 12"
+      },
+      {
+        "label": "C",
+        "text": "y = 12x(0 ≦ x ≦ 4)"
+      },
+      {
+        "label": "D",
+        "text": "y = x + 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "速さと距離の一次関数",
+      "変域"
+    ]
+  },
+  {
+    "id": "lf-023",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "ばねの自然長は 10cm、おもりを 1g つるすごとに 0.5cm 伸びる。おもり x g をつるしたときのばねの長さ y cm はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 0.5x + 10"
+      },
+      {
+        "label": "B",
+        "text": "y = 10x + 0.5"
+      },
+      {
+        "label": "C",
+        "text": "y = 2x + 10"
+      },
+      {
+        "label": "D",
+        "text": "y = 10x - 0.5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例の応用",
+      "切片の意味"
+    ]
+  },
+  {
+    "id": "lf-024",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "2直線 y = 2x - 1 と y = -x + 5 の交点と原点を通る直線の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 2x"
+      },
+      {
+        "label": "B",
+        "text": "y = 4x"
+      },
+      {
+        "label": "C",
+        "text": "y = 3x"
+      },
+      {
+        "label": "D",
+        "text": "y = x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "交点",
+      "原点を通る直線"
+    ]
+  },
+  {
+    "id": "lf-025",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "一次関数 y = 3x + a と y = -x + b のグラフが点 (2, 7) で交わるとき、a + b の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "交点条件",
+      "係数決定"
+    ]
+  },
+  {
+    "id": "lf-026",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "一次関数 y = 2x + 1 のグラフと x 軸・y 軸で囲まれた三角形の面積はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1/4"
+      },
+      {
+        "label": "B",
+        "text": "1/2"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "三角形の面積",
+      "x切片y切片"
+    ]
+  },
+  {
+    "id": "lf-027",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "一次関数のグラフが x 切片 -2、y 切片 4 のとき、この直線の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 2x + 4"
+      },
+      {
+        "label": "B",
+        "text": "y = 4x + 2"
+      },
+      {
+        "label": "C",
+        "text": "y = -2x + 4"
+      },
+      {
+        "label": "D",
+        "text": "y = -4x + 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "x切片y切片から式",
+      "傾き計算"
+    ]
+  },
+  {
+    "id": "lf-028",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "兄は家から 3km 先の公園に向かって毎分 60m で歩く。弟は 6 分後に同じ道を毎分 100m で追いかける。弟が兄に追いつくのは弟が出発してから何分後か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9分後"
+      },
+      {
+        "label": "B",
+        "text": "6分後"
+      },
+      {
+        "label": "C",
+        "text": "12分後"
+      },
+      {
+        "label": "D",
+        "text": "15分後"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "速さの応用",
+      "一次関数のグラフ"
+    ]
+  },
+  {
+    "id": "lf-029",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "点 A(1, 4) と点 B(3, 8) を通る直線を l とする。直線 l と平行で点 C(0, -1) を通る直線の式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y = 2x - 1"
+      },
+      {
+        "label": "B",
+        "text": "y = 4x + 4"
+      },
+      {
+        "label": "C",
+        "text": "y = -2x - 1"
+      },
+      {
+        "label": "D",
+        "text": "y = 4x - 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行な直線",
+      "同じ傾き"
+    ]
+  },
+  {
+    "id": "lf-030",
+    "subject": "math",
+    "unit": "linear-function-basics",
+    "difficulty": "exam",
+    "question": "タクシーの料金は最初の 1km まで 700 円、以後 0.25km ごとに 90 円加算される。5km 乗ったときの料金はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2140円"
+      },
+      {
+        "label": "B",
+        "text": "1980円"
+      },
+      {
+        "label": "C",
+        "text": "2300円"
+      },
+      {
+        "label": "D",
+        "text": "1700円"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "料金の計算",
+      "一次関数の応用"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "unit_id": "letter-expressions",
+  "unit_name_jp": "文字と式",
+  "grade": "中学1年",
+  "patterns": [
+    {
+      "pattern_id": "writing-expressions",
+      "description": "数量を文字式で表す（積・商の表記ルール）",
+      "thinking_process": [
+        "文字と数の積では×を省略し、数を文字の前に書く",
+        "同じ文字の積は累乗（a×a→a²）で表す",
+        "除法は分数の形で表す"
+      ],
+      "common_mistakes": [
+        "1×a を 1a と書いてしまう（1a でなく a と書く）",
+        "文字を数より前に書く（3a ではなく a3 と書く）",
+        "a÷b を a/b でなく b/a と逆にする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "evaluating-expressions",
+      "description": "文字に数を代入して式の値を求める",
+      "thinking_process": [
+        "代入する値を文字に置き換える",
+        "負の数を代入するときはかっこをつける",
+        "計算順序（乗除→加減）に従って計算する"
+      ],
+      "common_mistakes": [
+        "負の数を代入するときかっこをつけずに符号ミスをする",
+        "2a に a=3 を代入して 2+3=5 と足し算してしまう（2×3=6）",
+        "a² に a=-2 を代入して (-2)²=-4 とする（正しくは +4）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "adding-subtracting-expressions",
+      "description": "一次式の加法・減法（同類項をまとめる）",
+      "thinking_process": [
+        "文字部分が同じ項（同類項）を見つける",
+        "同類項の係数どうしを足し引きする",
+        "数の項（定数項）どうしも別にまとめる"
+      ],
+      "common_mistakes": [
+        "文字部分が違う項（3x と 3y）を同類項と間違えてまとめる",
+        "係数だけを計算して文字を落とす（3x+2x=5 と書く）",
+        "減法で括弧を外す際に符号を誤る"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "multiplying-dividing-expressions",
+      "description": "一次式と数の乗法・除法",
+      "thinking_process": [
+        "乗法：数どうしをかけて文字をつける",
+        "除法：分数に直して約分する、または逆数をかける",
+        "かっこのある式では分配法則を使う"
+      ],
+      "common_mistakes": [
+        "3×(2x+1) の計算で 3×2x のみを計算して +1 を忘れる",
+        "除法で分子分母を逆にする",
+        "6x÷3 で x も 3 で割って 2 にしてしまう（6÷3=2 なので 2x が正解）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "expression-to-formula",
+      "description": "数量の関係を文字式で表す（等式・不等式）",
+      "thinking_process": [
+        "問題文の数量関係（～より大きい、等しい等）を確認する",
+        "左辺・右辺に何を置くか決める",
+        "単位を揃えて式を組み立てる"
+      ],
+      "common_mistakes": [
+        "不等号の向きを逆にする（a より大きい → a < の向き誤り）",
+        "単位が異なるまま式を作る（km と m を混在させるなど）",
+        "「a の 2 倍より 3 少ない」を 2a-3 でなく 2a+3 と書く"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "linear-expression-application",
+      "description": "一次式を使った文章題・関係式の解釈",
+      "thinking_process": [
+        "問題文から等式・不等式を設定する",
+        "文字が表す数量を確認する",
+        "式の変形（係数・移項）で答えを求める"
+      ],
+      "common_mistakes": [
+        "文字の意味を途中で変えてしまう",
+        "等式の両辺に異なる操作をする",
+        "分配法則の展開漏れ"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

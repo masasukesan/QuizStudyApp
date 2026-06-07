@@ -1,0 +1,97 @@
+{
+  "unit_id": "polynomial-calculations",
+  "unit_name_jp": "式の計算",
+  "grade": "中学2年",
+  "patterns": [
+    {
+      "pattern_id": "polynomial-addition-subtraction",
+      "description": "多項式の加法・減法（同類項をまとめる）",
+      "thinking_process": [
+        "同類項（文字の種類と次数が同じ項）を見つける",
+        "係数どうしを足し引きする",
+        "減法はかっこをはずして符号を変えてから計算する"
+      ],
+      "common_mistakes": [
+        "x² と x を同類項と間違える",
+        "減法でかっこをはずす際に符号を全項に適用しない",
+        "xy と x²y を同類項と間違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "polynomial-multiplication",
+      "description": "単項式×多項式・多項式×単項式（分配法則）",
+      "thinking_process": [
+        "単項式を多項式の各項に分配してかける",
+        "係数どうし・文字どうしをそれぞれ計算する",
+        "同類項があればまとめる"
+      ],
+      "common_mistakes": [
+        "分配し忘れる項がある（最後の定数項を忘れる）",
+        "指数の計算で a×a²=a³ を a²+a=a³ と混同する",
+        "-(a+b) の展開で -a+b としてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "polynomial-division",
+      "description": "多項式÷単項式（各項を単項式で割る）",
+      "thinking_process": [
+        "多項式の各項を単項式で割る",
+        "係数は約分、文字は指数法則で処理",
+        "マイナスの符号に注意"
+      ],
+      "common_mistakes": [
+        "全ての項を割らずに一部だけ割る",
+        "分数の除法を乗法に直すのを忘れる",
+        "符号のミス（負÷負=正を忘れる）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "power-rules",
+      "description": "指数法則（累乗の積・商・累乗の累乗）",
+      "thinking_process": [
+        "a^m × a^n = a^(m+n)（底が同じなら指数を足す）",
+        "a^m ÷ a^n = a^(m-n)（底が同じなら指数を引く）",
+        "(a^m)^n = a^(mn)（指数同士をかける）"
+      ],
+      "common_mistakes": [
+        "a^m × a^n = a^(mn) と指数をかけてしまう",
+        "(a^m)^n = a^(m+n) と指数を足してしまう",
+        "底が違う項を一緒に計算する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "expression-substitution",
+      "description": "多項式への代入（文字に値や式を代入して計算）",
+      "thinking_process": [
+        "文字を括弧付きで代入する",
+        "計算順序（累乗→乗除→加減）に従う",
+        "負の数・分数は特に丁寧に計算する"
+      ],
+      "common_mistakes": [
+        "負の数の代入で括弧をつけずに符号ミスをする",
+        "累乗の計算を先にしない（a²に-2を代入→(-2)²=4）",
+        "式の値を求める問題で代入前に因数分解・工夫ができる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "expression-application",
+      "description": "式を使った数量関係の証明・説明（連続する整数など）",
+      "thinking_process": [
+        "連続する整数を n, n+1, n+2 などで表す",
+        "偶数を 2n、奇数を 2n+1 で表す",
+        "式を変形して結論（〜は必ず整数など）を示す"
+      ],
+      "common_mistakes": [
+        "連続する偶数を 2n, 2n+1 と表す（正しくは 2n, 2n+2）",
+        "証明の結論に達したことを確認しない",
+        "整数かどうかの確認を省く"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

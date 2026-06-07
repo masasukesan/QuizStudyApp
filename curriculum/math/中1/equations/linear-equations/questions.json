@@ -1,0 +1,902 @@
+[
+  {
+    "id": "eq-001",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "x + 7 = 12 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺から 7 を引いて x = 12 - 7 = 5"
+      },
+      {
+        "label": "B",
+        "text": "両辺に 7 を足して x = 12 + 7 = 19"
+      },
+      {
+        "label": "C",
+        "text": "12 を左辺に移項して x + 7 + 12 = 0 → x = -19"
+      },
+      {
+        "label": "D",
+        "text": "7 を右辺に移項して符号はそのまま x = 12 + 7 = 19"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "逆演算",
+      "移項の符号"
+    ]
+  },
+  {
+    "id": "eq-002",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "3x = 18 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺に 3 をかけて x = 18 × 3 = 54"
+      },
+      {
+        "label": "B",
+        "text": "両辺を 3 で割って x = 18 ÷ 3 = 6"
+      },
+      {
+        "label": "C",
+        "text": "3 を右辺に移項して x = 18 - 3 = 15"
+      },
+      {
+        "label": "D",
+        "text": "18 から 3 を引いて x = 15"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "係数で割る",
+      "除法の逆演算"
+    ]
+  },
+  {
+    "id": "eq-003",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "x - 4 = 9 を解くとき、移項の操作として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-4 を右辺に移項すると符号が変わり x = 9 + 4 = 13"
+      },
+      {
+        "label": "B",
+        "text": "-4 を右辺に移項しても符号は変わらず x = 9 - 4 = 5"
+      },
+      {
+        "label": "C",
+        "text": "9 を左辺に移項して x - 4 + 9 = 0 → x = -5"
+      },
+      {
+        "label": "D",
+        "text": "両辺に 4 をかけて x = 9 × 4 = 36"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "移項の符号変化",
+      "一ステップ方程式"
+    ]
+  },
+  {
+    "id": "eq-004",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "5x = -20 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺を 5 で割って x = -20 ÷ 5 = -4"
+      },
+      {
+        "label": "B",
+        "text": "両辺を 5 で割って x = -20 ÷ 5 = 4"
+      },
+      {
+        "label": "C",
+        "text": "5 を右辺に移項して x = -20 - 5 = -25"
+      },
+      {
+        "label": "D",
+        "text": "両辺に 5 をかけて x = -20 × 5 = -100"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の係数",
+      "符号を保つ除法"
+    ]
+  },
+  {
+    "id": "eq-005",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "x/3 = 4 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺に 3 をかけて x = 4 × 3 = 12"
+      },
+      {
+        "label": "B",
+        "text": "両辺を 3 で割って x = 4 ÷ 3 = 4/3"
+      },
+      {
+        "label": "C",
+        "text": "3 を右辺に移項して x = 4 + 3 = 7"
+      },
+      {
+        "label": "D",
+        "text": "両辺から 3 を引いて x = 4 - 3 = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分数の方程式",
+      "両辺に分母をかける"
+    ]
+  },
+  {
+    "id": "eq-006",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "2x + 3 = 11 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3 を移項して 2x = 11 - 3 = 8、次に 2 で割って x = 4"
+      },
+      {
+        "label": "B",
+        "text": "3 を移項して 2x = 11 + 3 = 14、次に 2 で割って x = 7"
+      },
+      {
+        "label": "C",
+        "text": "2x = 11 として先に割ると x = 5.5、後から 3 を引いて x = 2.5"
+      },
+      {
+        "label": "D",
+        "text": "2x = 11 として x = 11/2 = 5.5、その後 3 を引いて x = 2.5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "移項の順序",
+      "定数項の移項"
+    ]
+  },
+  {
+    "id": "eq-007",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "4x - 5 = 7 を解いたとき x の値として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4x = 7 + 5 = 12 → x = 3"
+      },
+      {
+        "label": "B",
+        "text": "4x = 7 - 5 = 2 → x = 0.5"
+      },
+      {
+        "label": "C",
+        "text": "4x = 7 → x = 7/4"
+      },
+      {
+        "label": "D",
+        "text": "4x = 12 → x = 48"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "移項の符号",
+      "係数で割る"
+    ]
+  },
+  {
+    "id": "eq-008",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "方程式 x + 5 = 2 の解として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5 を右辺に移項すると x = 2 - 5 = -3"
+      },
+      {
+        "label": "B",
+        "text": "5 を右辺に移項すると x = 2 + 5 = 7"
+      },
+      {
+        "label": "C",
+        "text": "2 を左辺に移項すると x = -5 - 2 = -7"
+      },
+      {
+        "label": "D",
+        "text": "5 を左辺に移項して x + 5 + 5 = 2 → x = 2 - 10 = -8"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の解",
+      "移項の符号変化"
+    ]
+  },
+  {
+    "id": "eq-009",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "-x = 6 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺を -1 で割って x = 6 ÷ (-1) = -6"
+      },
+      {
+        "label": "B",
+        "text": "両辺に -1 をかけて x = 6 × 1 = 6(符号は変わらない)"
+      },
+      {
+        "label": "C",
+        "text": "x = 6 のままでよい(符号は無視してよい)"
+      },
+      {
+        "label": "D",
+        "text": "6 を左辺に移項して -x - 6 = 0 → x = 6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "-x の扱い",
+      "係数 -1"
+    ]
+  },
+  {
+    "id": "eq-010",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "basic",
+    "question": "方程式 6 = 2x - 4 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-4 を左辺に移項して 6 + 4 = 2x → 2x = 10 → x = 5"
+      },
+      {
+        "label": "B",
+        "text": "-4 を左辺に移項して 6 - 4 = 2x → 2x = 2 → x = 1"
+      },
+      {
+        "label": "C",
+        "text": "6 を右辺に移項して 2x = 4 - 6 = -2 → x = -1"
+      },
+      {
+        "label": "D",
+        "text": "両辺に 4 を足して 10 = 2x、次に x = 20"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "右辺が式",
+      "移項の方向"
+    ]
+  },
+  {
+    "id": "eq-011",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "5x - 3 = 2x + 9 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2x を左辺に移項して 5x - 2x = 9 + 3 → 3x = 12 → x = 4"
+      },
+      {
+        "label": "B",
+        "text": "2x を左辺に移項して 5x - 2x = 9 - 3 → 3x = 6 → x = 2"
+      },
+      {
+        "label": "C",
+        "text": "5x を右辺に移項して -3 = 2x - 5x + 9 → -3x = 6 → x = -2"
+      },
+      {
+        "label": "D",
+        "text": "両辺から 2x を引くと 3x - 3 = 9 → 3x = 6 → x = 2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文字項の移項",
+      "定数項の移項"
+    ]
+  },
+  {
+    "id": "eq-012",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "3(x + 2) = 15 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "分配法則で 3x + 6 = 15 → 3x = 9 → x = 3"
+      },
+      {
+        "label": "B",
+        "text": "分配法則で 3x + 2 = 15 → 3x = 13 → x = 13/3"
+      },
+      {
+        "label": "C",
+        "text": "両辺を 3 で割ると x + 2/3 = 5 として x = 5 - 2/3 = 13/3"
+      },
+      {
+        "label": "D",
+        "text": "分配法則で 3x + 6 = 15 → 3x = 21 → x = 7"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分配法則",
+      "かっこの展開"
+    ]
+  },
+  {
+    "id": "eq-013",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "-(2x - 4) を展開したとき正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-2x + 4"
+      },
+      {
+        "label": "B",
+        "text": "-2x - 4"
+      },
+      {
+        "label": "C",
+        "text": "2x - 4"
+      },
+      {
+        "label": "D",
+        "text": "2x + 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負のかっこ展開",
+      "符号の変化"
+    ]
+  },
+  {
+    "id": "eq-014",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "2(x - 3) = 4x + 2 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "展開して 2x - 6 = 4x + 2 → -2x = 8 → x = -4"
+      },
+      {
+        "label": "B",
+        "text": "展開して 2x - 6 = 4x + 2 → 2x = 8 → x = 4"
+      },
+      {
+        "label": "C",
+        "text": "展開して 2x - 3 = 4x + 2 → -2x = 5 → x = -5/2"
+      },
+      {
+        "label": "D",
+        "text": "展開して 2x - 6 = 4x + 2 → -2x = -4 → x = 2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "展開後の移項",
+      "両辺に文字項"
+    ]
+  },
+  {
+    "id": "eq-015",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "0.2x + 1 = 0.6x - 3 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺を 10 倍して 2x + 10 = 6x - 30 → -4x = -40 → x = 10"
+      },
+      {
+        "label": "B",
+        "text": "両辺を 10 倍して 2x + 1 = 6x - 3 → -4x = -4 → x = 1"
+      },
+      {
+        "label": "C",
+        "text": "両辺を 10 倍すると 2x + 1 = 6x - 3 と定数は 10 倍せず → -4x = -4 → x = 1"
+      },
+      {
+        "label": "D",
+        "text": "両辺を 10 倍して 2x + 10 = 6x - 30 → 4x = 40 → x = -10"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "小数を整数に",
+      "全項に10倍"
+    ]
+  },
+  {
+    "id": "eq-016",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "x/2 + 1 = x/3 + 3 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺に 6 をかけて 3x + 6 = 2x + 18 → x = 12"
+      },
+      {
+        "label": "B",
+        "text": "両辺に 6 をかけて 3x + 1 = 2x + 3 → x = 2"
+      },
+      {
+        "label": "C",
+        "text": "両辺に 6 をかけて 6x + 6 = 6x + 18 → x 項が消えて 6 = 18 となり不成立"
+      },
+      {
+        "label": "D",
+        "text": "両辺に 6 をかけて 3x + 6 = 2x + 18 → x = -12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分母の最小公倍数",
+      "分数方程式"
+    ]
+  },
+  {
+    "id": "eq-017",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "3x + 2 = 5(x - 2) を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "展開して 3x + 2 = 5x - 10 → -2x = -12 → x = 6"
+      },
+      {
+        "label": "B",
+        "text": "展開して 3x + 2 = 5x - 2 → -2x = -4 → x = 2"
+      },
+      {
+        "label": "C",
+        "text": "展開して 3x + 2 = 5x - 10 → 2x = 12 → x = -6"
+      },
+      {
+        "label": "D",
+        "text": "展開して 3x + 2 = 5x - 10 → -2x = -8 → x = 4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "片辺のかっこ展開",
+      "移項の計算"
+    ]
+  },
+  {
+    "id": "eq-018",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "(x + 4)/2 = 3 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "両辺に 2 をかけて x + 4 = 6 → x = 2"
+      },
+      {
+        "label": "B",
+        "text": "両辺に 2 をかけて x + 8 = 6 → x = -2"
+      },
+      {
+        "label": "C",
+        "text": "両辺に 2 をかけて x + 4 = 6 → x = 10"
+      },
+      {
+        "label": "D",
+        "text": "両辺から 4 を引いて x/2 = 3 - 4 = -1 → x = -2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "分数の消去",
+      "分子全体に2をかける"
+    ]
+  },
+  {
+    "id": "eq-019",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "比例式 x : 6 = 4 : 3 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "外項の積 = 内項の積より x × 3 = 6 × 4 → 3x = 24 → x = 8"
+      },
+      {
+        "label": "B",
+        "text": "外項の積 = 内項の積より 6 × 3 = x × 4 → 4x = 18 → x = 4.5"
+      },
+      {
+        "label": "C",
+        "text": "x/6 = 3/4 として x = 6 × 3/4 = 4.5"
+      },
+      {
+        "label": "D",
+        "text": "x + 3 = 4 + 6 として x = 7"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例式",
+      "内項の積 = 外項の積"
+    ]
+  },
+  {
+    "id": "eq-020",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "standard",
+    "question": "-3(x - 1) + 2x = 10 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "展開して -3x + 3 + 2x = 10 → -x = 7 → x = -7"
+      },
+      {
+        "label": "B",
+        "text": "展開して -3x - 3 + 2x = 10 → -x = 13 → x = -13"
+      },
+      {
+        "label": "C",
+        "text": "展開して -3x + 3 + 2x = 10 → -x = 13 → x = -13"
+      },
+      {
+        "label": "D",
+        "text": "展開して -3x + 1 + 2x = 10 → -x = 9 → x = -9"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負のかっこ展開",
+      "同類項のまとめ"
+    ]
+  },
+  {
+    "id": "eq-021",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「ある数 x の 3 倍から 5 を引いた値は、x の 2 倍に 7 を足した値と等しい。」この問題の等式と解として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3x - 5 = 2x + 7 を立式し x = 12"
+      },
+      {
+        "label": "B",
+        "text": "3x + 5 = 2x + 7 を立式し x = 2"
+      },
+      {
+        "label": "C",
+        "text": "3x - 5 = 2(x + 7) を立式し x = 19"
+      },
+      {
+        "label": "D",
+        "text": "3(x - 5) = 2x + 7 を立式し x = 22"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "文章題の立式",
+      "等しい関係"
+    ]
+  },
+  {
+    "id": "eq-022",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「1 本 80 円の鉛筆を x 本と、1 冊 120 円のノートを 3 冊買ったら合計 600 円だった。」x を求める正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "80x + 120 × 3 = 600 → 80x = 240 → x = 3"
+      },
+      {
+        "label": "B",
+        "text": "80x + 120 × 3 = 600 → 80x = 360 → x = 4.5"
+      },
+      {
+        "label": "C",
+        "text": "80x = 600 として x = 7.5(ノートの金額を引き忘れ)"
+      },
+      {
+        "label": "D",
+        "text": "80x + 120 = 600 → 80x = 480 → x = 6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "代金の文章題",
+      "合計金額の等式"
+    ]
+  },
+  {
+    "id": "eq-023",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「現在、父の年齢は子の年齢の 4 倍で、8 年後には 2 倍になる。」子の現在の年齢 x を求める正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4x + 8 = 2(x + 8) と立式し x = 4"
+      },
+      {
+        "label": "B",
+        "text": "4x + 8 = 2x + 8 と立式し x = 0"
+      },
+      {
+        "label": "C",
+        "text": "4(x + 8) = 2(x + 8) と立式し x = 0"
+      },
+      {
+        "label": "D",
+        "text": "4x = 2(x + 8) と立式し x = 8"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "年齢の文章題",
+      "8年後の条件"
+    ]
+  },
+  {
+    "id": "eq-024",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「兄と弟の所持金の合計は 2400 円。兄の所持金は弟の 3 倍より 200 円少ない。」弟の所持金 x 円を求める正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "(3x - 200) + x = 2400 と立式し x = 650"
+      },
+      {
+        "label": "B",
+        "text": "(3x + 200) + x = 2400 と立式し x = 550"
+      },
+      {
+        "label": "C",
+        "text": "3x - 200 = 2400 と立式し x = 2600/3"
+      },
+      {
+        "label": "D",
+        "text": "x + (3x - 200) = 2400 と立式し 4x = 2200 → x = 550"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "所持金の文章題",
+      "関係式の立て方"
+    ]
+  },
+  {
+    "id": "eq-025",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「長さ 120 cm のリボンを A と B の 2 本に切り分けた。A は B より 20 cm 長い。」B の長さ x cm を求める正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x + (x + 20) = 120 と立式し x = 50"
+      },
+      {
+        "label": "B",
+        "text": "x + (x - 20) = 120 と立式し x = 70"
+      },
+      {
+        "label": "C",
+        "text": "x + 20 = 120 と立式し x = 100"
+      },
+      {
+        "label": "D",
+        "text": "(x + 20) - x = 120 と立式し x = 100"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "長さの文章題",
+      "合計の等式"
+    ]
+  },
+  {
+    "id": "eq-026",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「速さ 60 km/h で走る車が、出発から x 時間で 195 km 進むとき x を求めよ。」正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "60x = 195 と立式し x = 3.25 時間(3 時間 15 分)"
+      },
+      {
+        "label": "B",
+        "text": "60 + x = 195 と立式し x = 135"
+      },
+      {
+        "label": "C",
+        "text": "x = 195 × 60 = 11700 と立式(掛け算と割り算を逆にする)"
+      },
+      {
+        "label": "D",
+        "text": "60x = 195 と立式し x = 3 時間(端数を切り捨て)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "速さの文章題",
+      "距離 = 速さ × 時間"
+    ]
+  },
+  {
+    "id": "eq-027",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "比例式 (x + 2) : 3 = 4 : 2 を解く正しい手順はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "外項×外項 = 内項×内項より (x+2)×2 = 3×4 → 2x+4 = 12 → x = 4"
+      },
+      {
+        "label": "B",
+        "text": "内項と外項を逆に計算して (x+2)×4 = 3×2 → 4x+8 = 6 → x = -1/2"
+      },
+      {
+        "label": "C",
+        "text": "x+2 = 4 と 3 = 2 と読んで x = 2"
+      },
+      {
+        "label": "D",
+        "text": "(x+2)+3 = 4+2 として x+5 = 6 → x = 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例式の応用",
+      "x>0 の条件"
+    ]
+  },
+  {
+    "id": "eq-028",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「生徒を長椅子に座らせると、4 人掛けでは 3 人余り、5 人掛けでは最後の 1 脚が 2 人になる。」長椅子の脚数を x として正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4x + 3 = 5(x - 1) + 2 と立式し x = 6、生徒数 = 27 人"
+      },
+      {
+        "label": "B",
+        "text": "4x + 3 = 5x + 2 と立式し x = 1、生徒数 = 7 人"
+      },
+      {
+        "label": "C",
+        "text": "4x - 3 = 5(x - 1) + 2 と立式し x = 0"
+      },
+      {
+        "label": "D",
+        "text": "4x + 3 = 5x - 2 と立式し x = 5、生徒数 = 23 人"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "過不足の文章題",
+      "2通りの表現で等式を立てる"
+    ]
+  },
+  {
+    "id": "eq-029",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「周の長さが 32 cm の長方形で、縦は横より 4 cm 短い。」横の長さ x cm を求める正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2(x + x - 4) = 32 と立式し x = 10"
+      },
+      {
+        "label": "B",
+        "text": "2(x + x + 4) = 32 と立式し x = 6"
+      },
+      {
+        "label": "C",
+        "text": "x + (x - 4) = 32 と立式し x = 18"
+      },
+      {
+        "label": "D",
+        "text": "2x + (x - 4) = 32 と立式し x = 12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "長方形の周",
+      "縦と横の関係"
+    ]
+  },
+  {
+    "id": "eq-030",
+    "subject": "math",
+    "unit": "一次方程式",
+    "difficulty": "exam",
+    "question": "「ある中学校の今年の生徒数は昨年より 5% 増えて 630 人だった。」昨年の生徒数 x を求める正しい立式と解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x × (1 + 0.05) = 630 と立式し x = 600"
+      },
+      {
+        "label": "B",
+        "text": "x + 5 = 630 と立式し x = 625"
+      },
+      {
+        "label": "C",
+        "text": "x × 0.05 = 630 と立式し x = 12600"
+      },
+      {
+        "label": "D",
+        "text": "630 × 0.05 = 31.5 を増加分として 630 - 31.5 = 598.5 を昨年の生徒数とする"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "割合の文章題",
+      "増加後の人数"
+    ]
+  }
+]

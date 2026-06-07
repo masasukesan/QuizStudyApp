@@ -1,0 +1,452 @@
+[
+  {
+    "id": "pc-001",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "3x + 2y - x + 5y を計算すると？",
+    "choices": [
+      {"label": "A", "text": "2x + 7y"},
+      {"label": "B", "text": "4x + 7y"},
+      {"label": "C", "text": "2x + 3y"},
+      {"label": "D", "text": "3x + 5y"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["同類項", "多項式の加法"]
+  },
+  {
+    "id": "pc-002",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "(5a - 3b) - (2a + b) を計算すると？",
+    "choices": [
+      {"label": "A", "text": "3a - 4b"},
+      {"label": "B", "text": "3a - 2b"},
+      {"label": "C", "text": "7a - 2b"},
+      {"label": "D", "text": "7a - 4b"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["多項式の減法", "かっこを外す"]
+  },
+  {
+    "id": "pc-003",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "3(2x - 4) を計算すると？",
+    "choices": [
+      {"label": "A", "text": "6x - 12"},
+      {"label": "B", "text": "6x - 4"},
+      {"label": "C", "text": "5x - 12"},
+      {"label": "D", "text": "6x + 12"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["分配法則", "単項式×多項式"]
+  },
+  {
+    "id": "pc-004",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "(6x + 9) ÷ 3 を計算すると？",
+    "choices": [
+      {"label": "A", "text": "2x + 3"},
+      {"label": "B", "text": "3x + 9"},
+      {"label": "C", "text": "6x + 3"},
+      {"label": "D", "text": "2x + 9"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["多項式÷単項式", "各項を割る"]
+  },
+  {
+    "id": "pc-005",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "a² × a³ を計算すると？",
+    "choices": [
+      {"label": "A", "text": "a⁵"},
+      {"label": "B", "text": "a⁶"},
+      {"label": "C", "text": "2a⁵"},
+      {"label": "D", "text": "a²"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["指数法則", "積の累乗"]
+  },
+  {
+    "id": "pc-006",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "4x - 3y + 2x + y を計算すると？",
+    "choices": [
+      {"label": "A", "text": "6x - 2y"},
+      {"label": "B", "text": "6x + 2y"},
+      {"label": "C", "text": "2x - 2y"},
+      {"label": "D", "text": "6x - 4y"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["同類項まとめ", "多項式の加法"]
+  },
+  {
+    "id": "pc-007",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "-(3x - 5) を計算すると？",
+    "choices": [
+      {"label": "A", "text": "-3x + 5"},
+      {"label": "B", "text": "-3x - 5"},
+      {"label": "C", "text": "3x + 5"},
+      {"label": "D", "text": "3x - 5"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["符号の分配", "かっこを外す"]
+  },
+  {
+    "id": "pc-008",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "2a × 3b を計算すると？",
+    "choices": [
+      {"label": "A", "text": "6ab"},
+      {"label": "B", "text": "5ab"},
+      {"label": "C", "text": "6a + 6b"},
+      {"label": "D", "text": "6a²b"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["単項式の乗法", "係数と文字"]
+  },
+  {
+    "id": "pc-009",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "12x²y ÷ 4x を計算すると？",
+    "choices": [
+      {"label": "A", "text": "3xy"},
+      {"label": "B", "text": "3x²"},
+      {"label": "C", "text": "8xy"},
+      {"label": "D", "text": "3x²y"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["単項式の除法", "約分"]
+  },
+  {
+    "id": "pc-010",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "basic",
+    "question": "(a³)² を計算すると？",
+    "choices": [
+      {"label": "A", "text": "a⁶"},
+      {"label": "B", "text": "a⁵"},
+      {"label": "C", "text": "2a³"},
+      {"label": "D", "text": "a⁹"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["累乗の累乗", "指数の乗法"]
+  },
+  {
+    "id": "pc-011",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "2(3x - 1) + 3(x + 2) を計算すると？",
+    "choices": [
+      {"label": "A", "text": "9x + 4"},
+      {"label": "B", "text": "9x - 4"},
+      {"label": "C", "text": "6x + 4"},
+      {"label": "D", "text": "9x + 2"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["分配法則", "同類項まとめ"]
+  },
+  {
+    "id": "pc-012",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "3(2a - b) - 2(a - 3b) を計算すると？",
+    "choices": [
+      {"label": "A", "text": "4a + 3b"},
+      {"label": "B", "text": "4a - 3b"},
+      {"label": "C", "text": "8a + 3b"},
+      {"label": "D", "text": "4a - 7b"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["2つのかっこ", "符号に注意"]
+  },
+  {
+    "id": "pc-013",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "(-2x)³ を計算すると？",
+    "choices": [
+      {"label": "A", "text": "-8x³"},
+      {"label": "B", "text": "8x³"},
+      {"label": "C", "text": "-6x³"},
+      {"label": "D", "text": "-2x³"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["単項式の累乗", "符号"]
+  },
+  {
+    "id": "pc-014",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "a⁸ ÷ a⁵ を計算すると？",
+    "choices": [
+      {"label": "A", "text": "a³"},
+      {"label": "B", "text": "a¹³"},
+      {"label": "C", "text": "a⁴"},
+      {"label": "D", "text": "1"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["指数法則", "商の累乗"]
+  },
+  {
+    "id": "pc-015",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "x = 3, y = -2 のとき、2x - 3y の値を求めよ。",
+    "choices": [
+      {"label": "A", "text": "12"},
+      {"label": "B", "text": "0"},
+      {"label": "C", "text": "6"},
+      {"label": "D", "text": "-12"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["式の値", "代入"]
+  },
+  {
+    "id": "pc-016",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "4x²y ÷ 2x × 3y を計算すると？",
+    "choices": [
+      {"label": "A", "text": "6xy²"},
+      {"label": "B", "text": "6x²y²"},
+      {"label": "C", "text": "6xy"},
+      {"label": "D", "text": "12xy"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["乗除混合", "左から順に計算"]
+  },
+  {
+    "id": "pc-017",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "x = -3 のとき、x² + 5x + 6 の値を求めよ。",
+    "choices": [
+      {"label": "A", "text": "0"},
+      {"label": "B", "text": "6"},
+      {"label": "C", "text": "-6"},
+      {"label": "D", "text": "9"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["代入", "二次式の値"]
+  },
+  {
+    "id": "pc-018",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "5(a + 2b) - 2(3a - b) を計算すると？",
+    "choices": [
+      {"label": "A", "text": "-a + 12b"},
+      {"label": "B", "text": "-a - 12b"},
+      {"label": "C", "text": "11a + 12b"},
+      {"label": "D", "text": "-a + 8b"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["分配法則", "2かっこ展開"]
+  },
+  {
+    "id": "pc-019",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "(2a)² × 3a を計算すると？",
+    "choices": [
+      {"label": "A", "text": "12a³"},
+      {"label": "B", "text": "6a³"},
+      {"label": "C", "text": "12a²"},
+      {"label": "D", "text": "4a³"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["累乗の計算", "順序"]
+  },
+  {
+    "id": "pc-020",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "standard",
+    "question": "a = 2, b = -1 のとき、a² - 2ab + b² の値を求めよ。",
+    "choices": [
+      {"label": "A", "text": "9"},
+      {"label": "B", "text": "1"},
+      {"label": "C", "text": "5"},
+      {"label": "D", "text": "7"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["代入", "工夫して計算"]
+  },
+  {
+    "id": "pc-021",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "連続する3つの整数の和は3の倍数になることを証明する。整数を n-1, n, n+1 と表したとき、和を整理した式はどれか。",
+    "choices": [
+      {"label": "A", "text": "3n"},
+      {"label": "B", "text": "3n + 3"},
+      {"label": "C", "text": "3n - 1"},
+      {"label": "D", "text": "n + 3"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["整数の証明", "文字式"]
+  },
+  {
+    "id": "pc-022",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "奇数 + 奇数 = 偶数になることを証明する。2つの奇数を 2m+1, 2n+1 と表したとき、和はどの形になるか。",
+    "choices": [
+      {"label": "A", "text": "2(m + n + 1)"},
+      {"label": "B", "text": "2m + 2n + 1"},
+      {"label": "C", "text": "2(m + n) + 1"},
+      {"label": "D", "text": "4mn + 2"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["偶奇の証明", "一般式"]
+  },
+  {
+    "id": "pc-023",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "連続する2つの偶数の差の2乗を求める。2つの偶数を 2n, 2n+2 と表したとき、差の2乗はいくつか。",
+    "choices": [
+      {"label": "A", "text": "4"},
+      {"label": "B", "text": "2"},
+      {"label": "C", "text": "8"},
+      {"label": "D", "text": "16"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["連続偶数", "差の計算"]
+  },
+  {
+    "id": "pc-024",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "2つの奇数の積が奇数になることの証明。2m+1 と 2n+1 の積を展開すると？",
+    "choices": [
+      {"label": "A", "text": "4mn + 2m + 2n + 1"},
+      {"label": "B", "text": "4mn + 2mn + 1"},
+      {"label": "C", "text": "2mn + 2m + 2n + 1"},
+      {"label": "D", "text": "4mn + m + n + 1"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["奇数の積", "多項式の展開"]
+  },
+  {
+    "id": "pc-025",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "x + y = 5, xy = 3 のとき、x² + y² の値を求めよ。",
+    "choices": [
+      {"label": "A", "text": "19"},
+      {"label": "B", "text": "25"},
+      {"label": "C", "text": "22"},
+      {"label": "D", "text": "16"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["対称式", "式の工夫"]
+  },
+  {
+    "id": "pc-026",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "3桁の整数 ABC（百の位:a、十の位:b、一の位:c）を式で表すと 100a+10b+c。BA - AB の計算結果が9の倍数になることを示す。BA - AB を整理すると？",
+    "choices": [
+      {"label": "A", "text": "9(a - b)"},
+      {"label": "B", "text": "9a - b"},
+      {"label": "C", "text": "9ab"},
+      {"label": "D", "text": "9(a + b)"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["整数の性質", "文字式の証明"]
+  },
+  {
+    "id": "pc-027",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "x = 101 のとき、x² - 2x + 1 の値を工夫して求めよ。",
+    "choices": [
+      {"label": "A", "text": "10000"},
+      {"label": "B", "text": "10201"},
+      {"label": "C", "text": "9801"},
+      {"label": "D", "text": "10100"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["式の値の工夫", "因数分解的発想"]
+  },
+  {
+    "id": "pc-028",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "n が整数のとき、n(n+1) は必ず偶数になる。その理由として正しいのはどれか。",
+    "choices": [
+      {"label": "A", "text": "n と n+1 は連続する整数なので、一方は必ず偶数"},
+      {"label": "B", "text": "n が偶数のとき n(n+1) は偶数になる"},
+      {"label": "C", "text": "n+1 が偶数のとき n(n+1) は偶数になる"},
+      {"label": "D", "text": "n が整数ならば n(n+1) は常に整数"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["整数の証明", "連続整数の偶奇"]
+  },
+  {
+    "id": "pc-029",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "a - b = 4, a² - b² = 20 のとき、a + b の値を求めよ。",
+    "choices": [
+      {"label": "A", "text": "5"},
+      {"label": "B", "text": "4"},
+      {"label": "C", "text": "16"},
+      {"label": "D", "text": "10"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["因数分解的発想", "条件代入"]
+  },
+  {
+    "id": "pc-030",
+    "subject": "math",
+    "unit": "polynomial-calculations",
+    "difficulty": "exam",
+    "question": "2桁の自然数がある。十の位の数と一の位の数を入れ替えた数との差は常に9の倍数。十の位をa、一の位をbとして差を計算すると？",
+    "choices": [
+      {"label": "A", "text": "9(a - b)"},
+      {"label": "B", "text": "9a + 9b"},
+      {"label": "C", "text": "9ab"},
+      {"label": "D", "text": "9(a + b)"}
+    ],
+    "correct": "A",
+    "reasoning_tags": ["整数の性質証明", "位の表現"]
+  }
+]

@@ -19,6 +19,7 @@ export type Database = {
           deviation_score: number | null
           recovery_code: string | null
           last_login_date: string | null
+          school_type: 'junior_high' | 'high_school' | null
           created_at: string
           updated_at: string
         }
@@ -32,6 +33,7 @@ export type Database = {
           national_rank?: number | null
           recovery_code?: string | null
           deviation_score?: number | null
+          school_type?: 'junior_high' | 'high_school' | null
         }
         Update: {
           username?: string
@@ -42,6 +44,7 @@ export type Database = {
           national_rank?: number | null
           deviation_score?: number | null
           last_login_date?: string | null
+          school_type?: 'junior_high' | 'high_school' | null
           updated_at?: string
         }
         Relationships: []
@@ -108,6 +111,7 @@ export type Database = {
         Row: {
           id: string
           subject: string
+          school_type: 'junior_high' | 'high_school' | null
           calculated_at: string
           total_users: number
           mean_score: number

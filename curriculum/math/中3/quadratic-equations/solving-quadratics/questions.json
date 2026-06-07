@@ -1,0 +1,902 @@
+[
+  {
+    "id": "qe-001",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²-5x+6=0 を因数分解して解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=2, 3"
+      },
+      {
+        "label": "B",
+        "text": "x=-2, -3"
+      },
+      {
+        "label": "C",
+        "text": "x=-4, -1"
+      },
+      {
+        "label": "D",
+        "text": "x=1, 6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "因数分解",
+      "たすきがけ"
+    ]
+  },
+  {
+    "id": "qe-002",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²-9=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=±3"
+      },
+      {
+        "label": "B",
+        "text": "x=3"
+      },
+      {
+        "label": "C",
+        "text": "x=±√9"
+      },
+      {
+        "label": "D",
+        "text": "x=9"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平方根の解法",
+      "差の平方"
+    ]
+  },
+  {
+    "id": "qe-003",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²+4x+4=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=-2"
+      },
+      {
+        "label": "B",
+        "text": "x=2"
+      },
+      {
+        "label": "C",
+        "text": "x=±2"
+      },
+      {
+        "label": "D",
+        "text": "x=-4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "完全平方式",
+      "重解"
+    ]
+  },
+  {
+    "id": "qe-004",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²=5 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=±√5"
+      },
+      {
+        "label": "B",
+        "text": "x=√5"
+      },
+      {
+        "label": "C",
+        "text": "x=±5"
+      },
+      {
+        "label": "D",
+        "text": "x=2.5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平方根の解法",
+      "±忘れ注意"
+    ]
+  },
+  {
+    "id": "qe-005",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "(x-3)(x+1)=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=3, -1"
+      },
+      {
+        "label": "B",
+        "text": "x=-3, 1"
+      },
+      {
+        "label": "C",
+        "text": "x=4, 1"
+      },
+      {
+        "label": "D",
+        "text": "x=-3, -1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "零因子の定理",
+      "符号注意"
+    ]
+  },
+  {
+    "id": "qe-006",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²+7x+12=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=-3, -4"
+      },
+      {
+        "label": "B",
+        "text": "x=3, 4"
+      },
+      {
+        "label": "C",
+        "text": "x=1, 5"
+      },
+      {
+        "label": "D",
+        "text": "x=3, -4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "因数分解",
+      "両方負"
+    ]
+  },
+  {
+    "id": "qe-007",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²-8x=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=0, 8"
+      },
+      {
+        "label": "B",
+        "text": "x=8"
+      },
+      {
+        "label": "C",
+        "text": "x=4, -4"
+      },
+      {
+        "label": "D",
+        "text": "x=4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "共通因数による解法",
+      "x=0を忘れない"
+    ]
+  },
+  {
+    "id": "qe-008",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "(x+2)²=16 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=2, -6"
+      },
+      {
+        "label": "B",
+        "text": "x=4, -4"
+      },
+      {
+        "label": "C",
+        "text": "x=-4, -8"
+      },
+      {
+        "label": "D",
+        "text": "x=14, -18"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平方根の解法",
+      "両辺のルートを取る"
+    ]
+  },
+  {
+    "id": "qe-009",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²-6x+9=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=3"
+      },
+      {
+        "label": "B",
+        "text": "x=-3"
+      },
+      {
+        "label": "C",
+        "text": "x=±3"
+      },
+      {
+        "label": "D",
+        "text": "x=9, -9"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "完全平方式",
+      "重解"
+    ]
+  },
+  {
+    "id": "qe-010",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "basic",
+    "question": "x²+3x-10=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=2, -5"
+      },
+      {
+        "label": "B",
+        "text": "x=-2, 5"
+      },
+      {
+        "label": "C",
+        "text": "x=-4, -1"
+      },
+      {
+        "label": "D",
+        "text": "x=-2, -5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "因数分解",
+      "符号混在"
+    ]
+  },
+  {
+    "id": "qe-011",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "x²+4x+1=0 を平方完成して解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=-2±√3"
+      },
+      {
+        "label": "B",
+        "text": "x=2±√3"
+      },
+      {
+        "label": "C",
+        "text": "x=-2±√5"
+      },
+      {
+        "label": "D",
+        "text": "x=4±√3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平方完成",
+      "(x+2)²-3=0"
+    ]
+  },
+  {
+    "id": "qe-012",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "解の公式を使って x²-6x+7=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=3±√2"
+      },
+      {
+        "label": "B",
+        "text": "x=-3±√2"
+      },
+      {
+        "label": "C",
+        "text": "x=3±√11"
+      },
+      {
+        "label": "D",
+        "text": "x=6±√2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解の公式",
+      "a=1,b=-6,c=7"
+    ]
+  },
+  {
+    "id": "qe-013",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "2x²-5x+2=0 を解の公式で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=2, 1/2"
+      },
+      {
+        "label": "B",
+        "text": "x=-2, -1/2"
+      },
+      {
+        "label": "C",
+        "text": "x=-1/2, -4"
+      },
+      {
+        "label": "D",
+        "text": "x=5/2, 1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解の公式",
+      "a=2の場合"
+    ]
+  },
+  {
+    "id": "qe-014",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "x²+2x-4=0 を解の公式で解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=-1±√5"
+      },
+      {
+        "label": "B",
+        "text": "x=1±√5"
+      },
+      {
+        "label": "C",
+        "text": "x=-1±√3"
+      },
+      {
+        "label": "D",
+        "text": "x=-2±√5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解の公式",
+      "判別式=20"
+    ]
+  },
+  {
+    "id": "qe-015",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "3x²-12x+9=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=1, 3"
+      },
+      {
+        "label": "B",
+        "text": "x=-1, -3"
+      },
+      {
+        "label": "C",
+        "text": "x=3"
+      },
+      {
+        "label": "D",
+        "text": "x=4±√7"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "共通因数で割ってから",
+      "因数分解"
+    ]
+  },
+  {
+    "id": "qe-016",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "x²+5x+5=0 の解はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=(-5±√5)/2"
+      },
+      {
+        "label": "B",
+        "text": "x=(5±√5)/2"
+      },
+      {
+        "label": "C",
+        "text": "x=(-5±√25)/2"
+      },
+      {
+        "label": "D",
+        "text": "x=-5±√5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解の公式",
+      "D=5"
+    ]
+  },
+  {
+    "id": "qe-017",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "x²-10x+25=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=5"
+      },
+      {
+        "label": "B",
+        "text": "x=-5"
+      },
+      {
+        "label": "C",
+        "text": "x=±5"
+      },
+      {
+        "label": "D",
+        "text": "x=4, -4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "完全平方式",
+      "重解x=5"
+    ]
+  },
+  {
+    "id": "qe-018",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "(x-1)(x+3)=5 を整理して解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=2, -4"
+      },
+      {
+        "label": "B",
+        "text": "x=1, -3"
+      },
+      {
+        "label": "C",
+        "text": "x=-2, 4"
+      },
+      {
+        "label": "D",
+        "text": "x=-1, -8"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "展開して整理",
+      "x²+2x-8=0"
+    ]
+  },
+  {
+    "id": "qe-019",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "2x²+3x-2=0 を解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=1/2, -2"
+      },
+      {
+        "label": "B",
+        "text": "x=-1/2, 2"
+      },
+      {
+        "label": "C",
+        "text": "x=2, -1/2"
+      },
+      {
+        "label": "D",
+        "text": "x=3/2, -1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解の公式",
+      "a=2,b=3,c=-2"
+    ]
+  },
+  {
+    "id": "qe-020",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "standard",
+    "question": "x²=3x+4 を整理して解くと？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=4, -1"
+      },
+      {
+        "label": "B",
+        "text": "x=-4, 1"
+      },
+      {
+        "label": "C",
+        "text": "x=3, -2"
+      },
+      {
+        "label": "D",
+        "text": "x=-4, -1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "移項して整理",
+      "x²-3x-4=0"
+    ]
+  },
+  {
+    "id": "qe-021",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "連続する2つの整数があり、その積が56である。小さい方の整数はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "-8"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "応用問題",
+      "n(n+1)=56"
+    ]
+  },
+  {
+    "id": "qe-022",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "縦が横より3cm長い長方形の面積が40cm²のとき、横の長さはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5cm"
+      },
+      {
+        "label": "B",
+        "text": "8cm"
+      },
+      {
+        "label": "C",
+        "text": "4cm"
+      },
+      {
+        "label": "D",
+        "text": "10cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "応用問題",
+      "x(x+3)=40"
+    ]
+  },
+  {
+    "id": "qe-023",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "x²+kx+9=0 が重解を持つとき、k の値として正のものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "判別式=0",
+      "重解条件"
+    ]
+  },
+  {
+    "id": "qe-024",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "x²-2kx+k+2=0 が実数解を持つ条件を満たす最小の整数 k はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-1"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "判別式≧0",
+      "kの範囲"
+    ]
+  },
+  {
+    "id": "qe-025",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "あるクラスの人数は n 人で、全員が互いに一度ずつ握手すると、全部で120回になる。n はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "組み合わせの応用",
+      "n(n-1)/2=120"
+    ]
+  },
+  {
+    "id": "qe-026",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "正の数 x から4を引いた値の2乗が x と等しい。x の値はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "立式",
+      "(x-4)²=x"
+    ]
+  },
+  {
+    "id": "qe-027",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "x²-4x+m=0 が解 x=1 を持つとき m はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "-3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "-5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解の代入",
+      "係数決定"
+    ]
+  },
+  {
+    "id": "qe-028",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "x²+6x+a=0 の2つの解の積が5のとき a はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "-5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "-6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解と係数の関係",
+      "積=c/a"
+    ]
+  },
+  {
+    "id": "qe-029",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "一辺が x cm の正方形から四隅に一辺1cmの正方形を切り取り、折り上げると底面積が9cm²の箱になる。x はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "図形の応用",
+      "(x-2)²=9"
+    ]
+  },
+  {
+    "id": "qe-030",
+    "subject": "math",
+    "unit": "solving-quadratics",
+    "difficulty": "exam",
+    "question": "x²-3x-10=0 の2つの解の差（大きい方から小さい方を引いた値）はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "√69"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "解の差",
+      "x=5,-2"
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+/* ══════════════════════════════════════════════════
+   SchoolTypeSelector — Dark Codex テーマ
+   ══════════════════════════════════════════════════ */
+
+/* ── フルスクリーンオーバーレイ ── */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(20, 14, 6, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.3s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── モーダル枠 ── */
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  background: #3a2a1a;
+  border: 1px solid rgba(201, 168, 106, 0.45);
+  padding: 40px 28px 36px;
+  box-shadow:
+    0 0 0 4px rgba(201, 168, 106, 0.07),
+    0 8px 48px rgba(0, 0, 0, 0.8);
+  animation: slideUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.modal::before {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 0.5px solid rgba(201, 168, 106, 0.18);
+  pointer-events: none;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.modalDeco {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: rgba(201, 168, 106, 0.4);
+  letter-spacing: 2px;
+}
+
+/* ── 共通インナー ── */
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.heading {
+  font-family: var(--font-cinzel, 'Cinzel Decorative', serif);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #d4a84b;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-shadow: 0 0 20px rgba(201, 168, 106, 0.3);
+}
+
+.sub {
+  font-family: var(--font-serif-jp, 'M PLUS Rounded 1c', serif);
+  font-size: 0.72rem;
+  color: rgba(200, 180, 138, 0.65);
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* ── カード行 ── */
+.cardRow {
+  display: flex;
+  gap: 14px;
+  width: 100%;
+  margin-top: 4px;
+}
+
+/* ── 選択カード ── */
+.card {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 22px 10px 18px;
+  background: rgba(30, 20, 10, 0.6);
+  border: 1px solid rgba(201, 168, 106, 0.2);
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  font-family: inherit;
+}
+
+.card:hover {
+  background: rgba(201, 168, 106, 0.06);
+  border-color: rgba(201, 168, 106, 0.4);
+}
+
+.cardActive {
+  background: rgba(30, 20, 10, 0.8);
+  border-color: var(--card-border);
+  box-shadow:
+    0 0 18px var(--card-glow),
+    inset 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.cardEmoji {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.cardLabel {
+  font-family: var(--font-serif-jp, 'M PLUS Rounded 1c', serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--card-color, #c8b48a);
+  letter-spacing: 0.05em;
+}
+
+.cardNote {
+  font-family: var(--font-serif-jp, 'M PLUS Rounded 1c', serif);
+  font-size: 0.7rem;
+  color: rgba(200, 180, 138, 0.55);
+}
+
+.cardCheck {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  font-size: 0.75rem;
+  color: var(--card-color, #c8b48a);
+  font-weight: 700;
+}
+
+/* ── エラー ── */
+.error {
+  font-family: var(--font-serif-jp, 'M PLUS Rounded 1c', serif);
+  font-size: 0.78rem;
+  color: #e07070;
+  margin: 0;
+  text-align: center;
+}
+
+/* ── 決定ボタン ── */
+.confirmBtn {
+  width: 100%;
+  padding: 14px 0;
+  background: linear-gradient(135deg, #8b6914 0%, #c9a84c 50%, #8b6914 100%);
+  border: none;
+  color: #1a1008;
+  font-family: var(--font-serif-jp, 'M PLUS Rounded 1c', serif);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+  margin-top: 4px;
+}
+
+.confirmBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.confirmBtn:not(:disabled):hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}

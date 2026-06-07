@@ -1,0 +1,900 @@
+[
+  {
+    "id": "sf-001",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "三角形の相似条件として正しくないものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2組の辺の比が等しい"
+      },
+      {
+        "label": "B",
+        "text": "3組の辺の比が等しい"
+      },
+      {
+        "label": "C",
+        "text": "2組の角が等しい"
+      },
+      {
+        "label": "D",
+        "text": "2組の辺の比とその間の角が等しい"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似条件",
+      "必要条件の確認"
+    ]
+  },
+  {
+    "id": "sf-002",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "△ABC∽△DEF で相似比が 2:3 のとき、BC=6cm なら EF はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9cm"
+      },
+      {
+        "label": "B",
+        "text": "4cm"
+      },
+      {
+        "label": "C",
+        "text": "3cm"
+      },
+      {
+        "label": "D",
+        "text": "12cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似比と辺の長さ",
+      "比例式"
+    ]
+  },
+  {
+    "id": "sf-003",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "△ABC∽△DEF で相似比が 3:1 のとき、面積比 S△ABC:S△DEF はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9:1"
+      },
+      {
+        "label": "B",
+        "text": "3:1"
+      },
+      {
+        "label": "C",
+        "text": "6:2"
+      },
+      {
+        "label": "D",
+        "text": "27:1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "面積比=相似比の2乗"
+    ]
+  },
+  {
+    "id": "sf-004",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "相似な2つの三角形の面積比が 4:9 のとき相似比はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2:3"
+      },
+      {
+        "label": "B",
+        "text": "4:9"
+      },
+      {
+        "label": "C",
+        "text": "8:27"
+      },
+      {
+        "label": "D",
+        "text": "16:81"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "面積比から相似比",
+      "√をとる"
+    ]
+  },
+  {
+    "id": "sf-005",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "△ABCと△DEFが2組の角∠A=∠D, ∠B=∠E によって相似のとき、残りの角の関係はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "∠C=∠F"
+      },
+      {
+        "label": "B",
+        "text": "∠C=∠D"
+      },
+      {
+        "label": "C",
+        "text": "∠C+∠F=180°"
+      },
+      {
+        "label": "D",
+        "text": "無関係"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "三角形の内角の和",
+      "相似な角"
+    ]
+  },
+  {
+    "id": "sf-006",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "△ABCで M, N がそれぞれ AB, AC の中点のとき MN の長さと BC の関係はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "MN=BC/2"
+      },
+      {
+        "label": "B",
+        "text": "MN=BC"
+      },
+      {
+        "label": "C",
+        "text": "MN=2BC"
+      },
+      {
+        "label": "D",
+        "text": "MN=BC/3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中点連結定理",
+      "MN=BC/2"
+    ]
+  },
+  {
+    "id": "sf-007",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "相似比が 1:2 の2つの立体の体積比はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:8"
+      },
+      {
+        "label": "B",
+        "text": "1:2"
+      },
+      {
+        "label": "C",
+        "text": "1:4"
+      },
+      {
+        "label": "D",
+        "text": "1:6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "体積比=相似比の3乗"
+    ]
+  },
+  {
+    "id": "sf-008",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "△ABCで DE//BC のとき AD:DB=2:3 なら AE:EC はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2:3"
+      },
+      {
+        "label": "B",
+        "text": "3:2"
+      },
+      {
+        "label": "C",
+        "text": "2:5"
+      },
+      {
+        "label": "D",
+        "text": "1:2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線と線分比",
+      "AD:DB=AE:EC"
+    ]
+  },
+  {
+    "id": "sf-009",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "△ABCと△DEFが相似で AB=6, DE=9 のとき相似比はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2:3"
+      },
+      {
+        "label": "B",
+        "text": "3:2"
+      },
+      {
+        "label": "C",
+        "text": "6:9"
+      },
+      {
+        "label": "D",
+        "text": "9:6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似比の求め方",
+      "既約分数"
+    ]
+  },
+  {
+    "id": "sf-010",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "basic",
+    "question": "△ABC∽△DEF で AB:DE=3:4, AB=9cm のとき DE はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "12cm"
+      },
+      {
+        "label": "B",
+        "text": "6cm"
+      },
+      {
+        "label": "C",
+        "text": "16cm"
+      },
+      {
+        "label": "D",
+        "text": "9cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "比例式",
+      "3:4=9:x"
+    ]
+  },
+  {
+    "id": "sf-011",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "△ABCの面積が 18cm²、△DEFと相似で面積比が 2:9 のとき △DEF の面積はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "81cm²"
+      },
+      {
+        "label": "B",
+        "text": "4cm²"
+      },
+      {
+        "label": "C",
+        "text": "36cm²"
+      },
+      {
+        "label": "D",
+        "text": "9cm²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "面積比から面積計算",
+      "2:9で△ABC=18"
+    ]
+  },
+  {
+    "id": "sf-012",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "相似比 2:3 の立体の体積比と表面積比の組み合わせとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "体積比8:27、表面積比4:9"
+      },
+      {
+        "label": "B",
+        "text": "体積比4:9、表面積比8:27"
+      },
+      {
+        "label": "C",
+        "text": "体積比2:3、表面積比4:9"
+      },
+      {
+        "label": "D",
+        "text": "体積比8:27、表面積比2:3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似比・面積比・体積比",
+      "まとめ"
+    ]
+  },
+  {
+    "id": "sf-013",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "△ABCで DE//BC, AD=4, DB=2, DE=6 のとき BC はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線と相似",
+      "AD:AB=DE:BC"
+    ]
+  },
+  {
+    "id": "sf-014",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "△ABCで M, N が AB, AC の中点のとき △AMN の面積は △ABC の面積の何倍か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1/4"
+      },
+      {
+        "label": "B",
+        "text": "1/2"
+      },
+      {
+        "label": "C",
+        "text": "1/3"
+      },
+      {
+        "label": "D",
+        "text": "1/8"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中点連結定理",
+      "相似比1:2"
+    ]
+  },
+  {
+    "id": "sf-015",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "高さが等しい2つの三角形の底辺の比が 3:5 のとき面積比はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3:5"
+      },
+      {
+        "label": "B",
+        "text": "9:25"
+      },
+      {
+        "label": "C",
+        "text": "27:125"
+      },
+      {
+        "label": "D",
+        "text": "6:10"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "等高三角形",
+      "面積比=底辺の比"
+    ]
+  },
+  {
+    "id": "sf-016",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "△ABCで D は辺 BC 上の点で BD:DC=1:2 のとき、△ABD:△ADC はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:2"
+      },
+      {
+        "label": "B",
+        "text": "2:1"
+      },
+      {
+        "label": "C",
+        "text": "1:4"
+      },
+      {
+        "label": "D",
+        "text": "1:3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "等高三角形",
+      "底辺の比=面積比"
+    ]
+  },
+  {
+    "id": "sf-017",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "平行な2直線 ℓ, m に三角形の頂点と辺の中点から平行線が引かれ、切り取られた線分の比が 3:2 のとき、相似な三角形の辺の比はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3:2"
+      },
+      {
+        "label": "B",
+        "text": "2:3"
+      },
+      {
+        "label": "C",
+        "text": "9:4"
+      },
+      {
+        "label": "D",
+        "text": "6:4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線の比",
+      "対応する比"
+    ]
+  },
+  {
+    "id": "sf-018",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "相似比が 3:5 の2つの球の体積比はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "27:125"
+      },
+      {
+        "label": "B",
+        "text": "9:25"
+      },
+      {
+        "label": "C",
+        "text": "3:5"
+      },
+      {
+        "label": "D",
+        "text": "6:10"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "球の体積比",
+      "相似比の3乗"
+    ]
+  },
+  {
+    "id": "sf-019",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "△ABCで P が辺 BC 上にあり BP:PC=2:3 のとき、△ABP の面積が 12cm² なら △APC の面積はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "18cm²"
+      },
+      {
+        "label": "B",
+        "text": "8cm²"
+      },
+      {
+        "label": "C",
+        "text": "30cm²"
+      },
+      {
+        "label": "D",
+        "text": "6cm²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "等高三角形の面積比",
+      "2:3"
+    ]
+  },
+  {
+    "id": "sf-020",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "standard",
+    "question": "△ABCと△APQ が AA相似で AP:AB=1:3 のとき △APQ:△ABC の面積比はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:9"
+      },
+      {
+        "label": "B",
+        "text": "1:3"
+      },
+      {
+        "label": "C",
+        "text": "1:6"
+      },
+      {
+        "label": "D",
+        "text": "2:9"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似比1:3",
+      "面積比1:9"
+    ]
+  },
+  {
+    "id": "sf-021",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "△ABCと△EBD が相似(∠B共通, ∠BAC=∠BED)のとき、BA:BE=BC:BD であることを示す。正しい対応はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "△ABC∽△EBD(対応する辺はBA:BE=BC:BD)"
+      },
+      {
+        "label": "B",
+        "text": "△ABC∽△DBE(対応する辺はAB:DB=BC:BE)"
+      },
+      {
+        "label": "C",
+        "text": "△ABC∽△BED(対応する辺はBC:BE=AC:ED)"
+      },
+      {
+        "label": "D",
+        "text": "△ABC∽△BDE(対応する辺はAB:BD=AC:DE)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似の対応",
+      "頂点の順序"
+    ]
+  },
+  {
+    "id": "sf-022",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "△ABCで DE//BC, AD:AB=2:5 のとき △ADE:△ABC はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4:25"
+      },
+      {
+        "label": "B",
+        "text": "2:5"
+      },
+      {
+        "label": "C",
+        "text": "4:5"
+      },
+      {
+        "label": "D",
+        "text": "8:125"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線と相似",
+      "面積比=(相似比)²"
+    ]
+  },
+  {
+    "id": "sf-023",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "正方形の内部に相似比 1:2 の相似な正方形が描かれている。大きい正方形の面積が 36cm² のとき小さい正方形の面積はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9cm²"
+      },
+      {
+        "label": "B",
+        "text": "18cm²"
+      },
+      {
+        "label": "C",
+        "text": "6cm²"
+      },
+      {
+        "label": "D",
+        "text": "12cm²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似比1:2",
+      "面積比1:4"
+    ]
+  },
+  {
+    "id": "sf-024",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "△ABCの重心 G を通る直線で △ABC を2つに分割したとき、G はそれぞれの中線を何対何に内分するか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2:1"
+      },
+      {
+        "label": "B",
+        "text": "1:2"
+      },
+      {
+        "label": "C",
+        "text": "1:1"
+      },
+      {
+        "label": "D",
+        "text": "3:1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "重心の性質",
+      "2:1内分"
+    ]
+  },
+  {
+    "id": "sf-025",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "△ABCの辺 AB, AC 上に D, E があり DE//BC。DE=4, BC=6 のとき AD:AB はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2:3"
+      },
+      {
+        "label": "B",
+        "text": "4:6"
+      },
+      {
+        "label": "C",
+        "text": "3:2"
+      },
+      {
+        "label": "D",
+        "text": "1:2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行線と相似比",
+      "DE:BC=AD:AB"
+    ]
+  },
+  {
+    "id": "sf-026",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "相似比 2:5 の2つの円柱の側面積の比はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4:25"
+      },
+      {
+        "label": "B",
+        "text": "2:5"
+      },
+      {
+        "label": "C",
+        "text": "8:125"
+      },
+      {
+        "label": "D",
+        "text": "4:5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "表面積比=相似比の2乗",
+      "円柱"
+    ]
+  },
+  {
+    "id": "sf-027",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "△ABCで BM=MC(M は BC の中点)のとき AM は △ABC の面積を2等分する。△ABM:△ACM はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:1"
+      },
+      {
+        "label": "B",
+        "text": "1:2"
+      },
+      {
+        "label": "C",
+        "text": "2:1"
+      },
+      {
+        "label": "D",
+        "text": "1:3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中線による面積二等分",
+      "等高三角形"
+    ]
+  },
+  {
+    "id": "sf-028",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "△ABCで D は辺 AB を AD:DB=1:2 に内分する点。E は辺 AC の中点。DE の長さと BC の比 DE:BC はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:3"
+      },
+      {
+        "label": "B",
+        "text": "1:2"
+      },
+      {
+        "label": "C",
+        "text": "2:3"
+      },
+      {
+        "label": "D",
+        "text": "1:4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "内分点と平行線",
+      "DE:BC"
+    ]
+  },
+  {
+    "id": "sf-029",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "2つの相似な三角形の面積比が 25:16 のとき周の長さの比はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5:4"
+      },
+      {
+        "label": "B",
+        "text": "25:16"
+      },
+      {
+        "label": "C",
+        "text": "125:64"
+      },
+      {
+        "label": "D",
+        "text": "10:8"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "面積比から相似比",
+      "周の比=相似比"
+    ]
+  },
+  {
+    "id": "sf-030",
+    "subject": "math",
+    "unit": "similarity-basics",
+    "difficulty": "exam",
+    "question": "△ABC∽△DEF で相似比 3:2、△ABCの周の長さが 30cm のとき △DEF の周の長さはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "20cm"
+      },
+      {
+        "label": "B",
+        "text": "45cm"
+      },
+      {
+        "label": "C",
+        "text": "15cm"
+      },
+      {
+        "label": "D",
+        "text": "60cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "相似比と周の長さ",
+      "比例式"
+    ]
+  }
+]

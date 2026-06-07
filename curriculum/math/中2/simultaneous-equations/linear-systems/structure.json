@@ -1,0 +1,96 @@
+{
+  "unit_id": "linear-systems",
+  "unit_name_jp": "連立方程式",
+  "grade": "中学2年",
+  "patterns": [
+    {
+      "pattern_id": "addition-subtraction-method",
+      "description": "加減法（係数を揃えて足し引きして文字を消去）",
+      "thinking_process": [
+        "消したい文字の係数の絶対値を揃える",
+        "係数が同符号なら引く、異符号なら足す",
+        "1つの文字の方程式を解いて代入"
+      ],
+      "common_mistakes": [
+        "係数が同じなのに足してしまう（引くのが正しい）",
+        "係数を揃えるとき一方の式だけ整数倍する",
+        "求めた値を元の式に代入して検算しない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "substitution-method",
+      "description": "代入法（一方の式を他方に代入して解く）",
+      "thinking_process": [
+        "どちらかの式を y = ... または x = ... の形に変形",
+        "その式をもう一方に代入",
+        "1変数の方程式を解く"
+      ],
+      "common_mistakes": [
+        "代入後に元の式に戻って計算する（代入した式に再代入しない）",
+        "代入時に括弧をつけずに符号ミスをする",
+        "x を求めた後に y への代入を忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "fraction-coefficient",
+      "description": "係数に分数・小数を含む連立方程式",
+      "thinking_process": [
+        "分数係数：両辺に分母の LCM をかけて整数係数にする",
+        "小数係数：両辺に 10 や 100 をかけて整数にする",
+        "整数係数にしてから加減法・代入法を適用"
+      ],
+      "common_mistakes": [
+        "分母払いで一部の項だけをかける",
+        "小数を分数に変換する際に誤る",
+        "両辺をかけ忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "parenthesis-in-system",
+      "description": "かっこを含む連立方程式",
+      "thinking_process": [
+        "まずかっこを展開する",
+        "同類項をまとめて整理する",
+        "加減法または代入法で解く"
+      ],
+      "common_mistakes": [
+        "かっこを展開する際の符号ミス",
+        "展開後の同類項をまとめ忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "word-problem-setup",
+      "description": "連立方程式を使った文章題（2つの数量・速さ・割合など）",
+      "thinking_process": [
+        "未知数を x, y と設定する",
+        "問題文から2つの等式を立てる",
+        "解いた x, y が問題の条件を満たすか確認"
+      ],
+      "common_mistakes": [
+        "1つの関係式しか立てない",
+        "単位を揃えないまま式を立てる（km と m を混在）",
+        "答えが整数にならないときに式の設定ミスを疑わない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "advanced-word-problem",
+      "description": "連立方程式の応用（速さ・食塩水・整数の問題）",
+      "thinking_process": [
+        "速さ問題：距離=速さ×時間 の関係で2式を立てる",
+        "食塩水：食塩の量＝濃度×重さ で2式を立てる",
+        "整数問題：十の位と一の位を x, y と置く"
+      ],
+      "common_mistakes": [
+        "速さ問題で「行き」と「帰り」の時間・距離を混同",
+        "濃度の式で食塩量でなく水の量で立ててしまう",
+        "2桁の整数の表し方 10x+y を忘れる"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

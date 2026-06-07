@@ -1,0 +1,902 @@
+[
+  {
+    "id": "qa-001",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=2x² のグラフの特徴として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "原点を頂点とし上に開く"
+      },
+      {
+        "label": "B",
+        "text": "原点を頂点とし下に開く"
+      },
+      {
+        "label": "C",
+        "text": "y軸を軸として左に開く"
+      },
+      {
+        "label": "D",
+        "text": "頂点は(2,0)で上に開く"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "a>0のグラフ",
+      "原点が頂点"
+    ]
+  },
+  {
+    "id": "qa-002",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=-3x² のグラフはどのような形か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "原点を頂点とし下に開く放物線"
+      },
+      {
+        "label": "B",
+        "text": "原点を頂点とし上に開く放物線"
+      },
+      {
+        "label": "C",
+        "text": "x軸を軸とする放物線"
+      },
+      {
+        "label": "D",
+        "text": "頂点が(-3,0)の放物線"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "a<0のグラフ",
+      "下に開く"
+    ]
+  },
+  {
+    "id": "qa-003",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=3x² に x=2 を代入したときの y の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "値の計算",
+      "代入"
+    ]
+  },
+  {
+    "id": "qa-004",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=2x² に x=-3 を代入したときの y の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "-18"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "-12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負のx代入",
+      "(-3)²=9"
+    ]
+  },
+  {
+    "id": "qa-005",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=ax² のグラフが点(2, 8) を通るとき、a の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "点からaを求める",
+      "代入"
+    ]
+  },
+  {
+    "id": "qa-006",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=ax² のグラフが点(-3, 9) を通るとき、a の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "-1"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "-3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の点からaを求める",
+      "(-3)²=9"
+    ]
+  },
+  {
+    "id": "qa-007",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=½x² のグラフと y=2x² のグラフを比べると？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "y=½x² の方が開いている"
+      },
+      {
+        "label": "B",
+        "text": "y=2x² の方が開いている"
+      },
+      {
+        "label": "C",
+        "text": "2つのグラフは同じ形"
+      },
+      {
+        "label": "D",
+        "text": "y=2x² の方が下に開く"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "グラフの比較",
+      "|a|小=開く"
+    ]
+  },
+  {
+    "id": "qa-008",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=x² で x が 0 から 3 まで増加するとき、y の増加量はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "y増加量の計算",
+      "y変化量"
+    ]
+  },
+  {
+    "id": "qa-009",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=-x² で x=0 のときの y の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "-1"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "-x"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "頂点の値",
+      "x=0代入"
+    ]
+  },
+  {
+    "id": "qa-010",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "basic",
+    "question": "y=3x² で x=-2 のときの y の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "-12"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "-6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負の代入",
+      "y=3×4=12"
+    ]
+  },
+  {
+    "id": "qa-011",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=x² で x が 1 から 4 まで増加するときの変化の割合はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合",
+      "(16-1)/(4-1)"
+    ]
+  },
+  {
+    "id": "qa-012",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=2x² で x が -2 から 2 まで増加するときの変化の割合はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "-4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合=0",
+      "対称な区間"
+    ]
+  },
+  {
+    "id": "qa-013",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=x² で -2≦x≦3 のときの値域はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0≦y≦9"
+      },
+      {
+        "label": "B",
+        "text": "4≦y≦9"
+      },
+      {
+        "label": "C",
+        "text": "-4≦y≦9"
+      },
+      {
+        "label": "D",
+        "text": "0≦y≦4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "値域",
+      "頂点x=0を含む"
+    ]
+  },
+  {
+    "id": "qa-014",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=-x² で -2≦x≦3 のときの y の最大値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "-4"
+      },
+      {
+        "label": "C",
+        "text": "-9"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "a<0の最大値",
+      "頂点が最大"
+    ]
+  },
+  {
+    "id": "qa-015",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=2x² で 1≦x≦3 のときの y の最小値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "a>0の最小値",
+      "区間に原点なし"
+    ]
+  },
+  {
+    "id": "qa-016",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=3x² で x が 2 から 5 まで増加するときの変化の割合はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "21"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "63"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合",
+      "(75-12)/3"
+    ]
+  },
+  {
+    "id": "qa-017",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=ax² のグラフが点(3, -18) を通るとき、a の値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-2"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "-6"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "負のaを求める",
+      "-18=a×9"
+    ]
+  },
+  {
+    "id": "qa-018",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=-2x² で -3≦x≦2 のときの y の最小値はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-18"
+      },
+      {
+        "label": "B",
+        "text": "-8"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "-12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "a<0の最小値",
+      "両端を比較"
+    ]
+  },
+  {
+    "id": "qa-019",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=x² と y=-x+6 のグラフの交点の x 座標を求めよ（正の方）。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "連立方程式",
+      "x²=-x+6"
+    ]
+  },
+  {
+    "id": "qa-020",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "standard",
+    "question": "y=½x² で x が -4 から 0 まで増加するときの変化の割合はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-2"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "-4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合",
+      "(0-8)/(0-(-4))"
+    ]
+  },
+  {
+    "id": "qa-021",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=ax² で x が p から p+1 まで増加するときの変化の割合が 2ap+a に等しいことを確認する式はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a(p+1)²-ap²=a(2p+1)"
+      },
+      {
+        "label": "B",
+        "text": "a(p+1)-ap=a"
+      },
+      {
+        "label": "C",
+        "text": "a(p²+1)-ap²=a"
+      },
+      {
+        "label": "D",
+        "text": "a(p+1)²-ap²=a(p+1)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合の公式証明",
+      "展開"
+    ]
+  },
+  {
+    "id": "qa-022",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=x² のグラフ上の点 A(2,4) と B(-3,9) を結ぶ直線の傾きはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-1"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "-5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "2点を通る直線の傾き",
+      "変化の割合"
+    ]
+  },
+  {
+    "id": "qa-023",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=2x² と直線 y=4x+6 の交点の x 座標のうち正の方はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "交点の座標",
+      "連立方程式"
+    ]
+  },
+  {
+    "id": "qa-024",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=x² と x 軸と直線 x=3 で囲まれた面積（大まかな評価として三角形近似）は何か。実際にはy=x²上の点(3,9)と原点を用いて 変化の割合は？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合の応用",
+      "(9-0)/(3-0)=3"
+    ]
+  },
+  {
+    "id": "qa-025",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=3x² で x が -1 から 3 まで変化するときの変化の割合はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合",
+      "(27-3)/(3-(-1))"
+    ]
+  },
+  {
+    "id": "qa-026",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=-x² で 1≦x≦4 のときの値域はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "-16≦y≦-1"
+      },
+      {
+        "label": "B",
+        "text": "-1≦y≦-16"
+      },
+      {
+        "label": "C",
+        "text": "-4≦y≦-1"
+      },
+      {
+        "label": "D",
+        "text": "-16≦y≦0"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "a<0の値域",
+      "区間に原点なし"
+    ]
+  },
+  {
+    "id": "qa-027",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=ax² と y=bx² のグラフで、y=ax² の方が細い（狭い）とき、a と b の関係はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "|a|>|b|"
+      },
+      {
+        "label": "B",
+        "text": "|a|<|b|"
+      },
+      {
+        "label": "C",
+        "text": "a>b"
+      },
+      {
+        "label": "D",
+        "text": "a<b"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "グラフの細さとa",
+      "|a|大=細い"
+    ]
+  },
+  {
+    "id": "qa-028",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=2x² と y=-2x² の2つのグラフの関係はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x軸に関して対称"
+      },
+      {
+        "label": "B",
+        "text": "y軸に関して対称"
+      },
+      {
+        "label": "C",
+        "text": "原点に関して対称"
+      },
+      {
+        "label": "D",
+        "text": "一致する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "a と -aのグラフ",
+      "x軸対称"
+    ]
+  },
+  {
+    "id": "qa-029",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=x² のグラフ上の点で y 座標が 25 のときの x 座標の組み合わせはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=5, -5"
+      },
+      {
+        "label": "B",
+        "text": "x=25, -25"
+      },
+      {
+        "label": "C",
+        "text": "x=25"
+      },
+      {
+        "label": "D",
+        "text": "x=12.5"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "y値からxを求める",
+      "x²=25"
+    ]
+  },
+  {
+    "id": "qa-030",
+    "subject": "math",
+    "unit": "quadratic-function-ax2",
+    "difficulty": "exam",
+    "question": "y=ax² で、x が 2 から 4 まで増加するときの変化の割合が 12 のとき、a はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "変化の割合からaを求める",
+      "a(4²-2²)/(4-2)=12"
+    ]
+  }
+]

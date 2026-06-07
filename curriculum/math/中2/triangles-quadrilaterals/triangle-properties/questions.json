@@ -1,0 +1,902 @@
+[
+  {
+    "id": "tp-001",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "二等辺三角形 ABC で AB=AC、∠A=40° のとき、底角 ∠B はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "70°"
+      },
+      {
+        "label": "B",
+        "text": "40°"
+      },
+      {
+        "label": "C",
+        "text": "80°"
+      },
+      {
+        "label": "D",
+        "text": "50°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形",
+      "底角"
+    ]
+  },
+  {
+    "id": "tp-002",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "正三角形の1つの内角はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "60°"
+      },
+      {
+        "label": "B",
+        "text": "90°"
+      },
+      {
+        "label": "C",
+        "text": "45°"
+      },
+      {
+        "label": "D",
+        "text": "120°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "正三角形",
+      "内角"
+    ]
+  },
+  {
+    "id": "tp-003",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "平行四辺形 ABCD で AB=6cm、BC=4cm のとき、CD はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6cm"
+      },
+      {
+        "label": "B",
+        "text": "4cm"
+      },
+      {
+        "label": "C",
+        "text": "10cm"
+      },
+      {
+        "label": "D",
+        "text": "12cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形",
+      "対辺"
+    ]
+  },
+  {
+    "id": "tp-004",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "平行四辺形の対角について正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "対角は等しい"
+      },
+      {
+        "label": "B",
+        "text": "対角の和は180°"
+      },
+      {
+        "label": "C",
+        "text": "対角は補角になる"
+      },
+      {
+        "label": "D",
+        "text": "対角は必ず90°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形",
+      "対角"
+    ]
+  },
+  {
+    "id": "tp-005",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "平行四辺形 ABCD の対角線 AC と BD の交点を O とする。AO=5cm のとき OC はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5cm"
+      },
+      {
+        "label": "B",
+        "text": "10cm"
+      },
+      {
+        "label": "C",
+        "text": "2.5cm"
+      },
+      {
+        "label": "D",
+        "text": "0cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形",
+      "対角線の中点"
+    ]
+  },
+  {
+    "id": "tp-006",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "二等辺三角形の底辺の垂直二等分線はどこを通るか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "頂角の頂点"
+      },
+      {
+        "label": "B",
+        "text": "底角の頂点"
+      },
+      {
+        "label": "C",
+        "text": "底辺の端点"
+      },
+      {
+        "label": "D",
+        "text": "外部の点"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形",
+      "垂直二等分線"
+    ]
+  },
+  {
+    "id": "tp-007",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "長方形について正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "対角線の長さが等しい"
+      },
+      {
+        "label": "B",
+        "text": "対角線が垂直に交わる"
+      },
+      {
+        "label": "C",
+        "text": "4辺の長さが等しい"
+      },
+      {
+        "label": "D",
+        "text": "隣り合う辺が等しい"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "長方形",
+      "対角線"
+    ]
+  },
+  {
+    "id": "tp-008",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "ひし形の対角線の関係として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "垂直に交わる"
+      },
+      {
+        "label": "B",
+        "text": "長さが等しい"
+      },
+      {
+        "label": "C",
+        "text": "平行である"
+      },
+      {
+        "label": "D",
+        "text": "交わらない"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "ひし形",
+      "対角線"
+    ]
+  },
+  {
+    "id": "tp-009",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "二等辺三角形 ABC で ∠B=∠C=75° のとき ∠A はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "30°"
+      },
+      {
+        "label": "B",
+        "text": "75°"
+      },
+      {
+        "label": "C",
+        "text": "15°"
+      },
+      {
+        "label": "D",
+        "text": "105°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形",
+      "頂角計算"
+    ]
+  },
+  {
+    "id": "tp-010",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "basic",
+    "question": "正方形が持つ性質として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "対角線が等しく、かつ垂直に交わる"
+      },
+      {
+        "label": "B",
+        "text": "対角線が垂直に交わるが、長さは等しくない"
+      },
+      {
+        "label": "C",
+        "text": "対角線の長さが等しいが、垂直ではない"
+      },
+      {
+        "label": "D",
+        "text": "対角線の性質は長方形と同じ"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "正方形",
+      "対角線の性質"
+    ]
+  },
+  {
+    "id": "tp-011",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "平行四辺形 ABCD で ∠A=65° のとき ∠B はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "115°"
+      },
+      {
+        "label": "B",
+        "text": "65°"
+      },
+      {
+        "label": "C",
+        "text": "90°"
+      },
+      {
+        "label": "D",
+        "text": "130°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形",
+      "隣り合う角"
+    ]
+  },
+  {
+    "id": "tp-012",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "平行四辺形であることを証明するために必要な条件はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "対角線が互いに中点で交わる"
+      },
+      {
+        "label": "B",
+        "text": "対角線の長さが等しい"
+      },
+      {
+        "label": "C",
+        "text": "1組の対辺が等しい"
+      },
+      {
+        "label": "D",
+        "text": "内角の和が360°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形の条件",
+      "証明"
+    ]
+  },
+  {
+    "id": "tp-013",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "△ABC で AB=AC、M が BC の中点のとき △ABM と △ACM の合同条件はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SSS"
+      },
+      {
+        "label": "B",
+        "text": "SAS"
+      },
+      {
+        "label": "C",
+        "text": "ASA"
+      },
+      {
+        "label": "D",
+        "text": "AAS"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形の証明",
+      "SSS"
+    ]
+  },
+  {
+    "id": "tp-014",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "中点連結定理：△ABC の辺 AB、AC の中点をそれぞれ M、N とするとき MN の長さは BC のどのくらいか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "BC の半分"
+      },
+      {
+        "label": "B",
+        "text": "BC と等しい"
+      },
+      {
+        "label": "C",
+        "text": "BC の2倍"
+      },
+      {
+        "label": "D",
+        "text": "BC の1/3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中点連結定理",
+      "長さ"
+    ]
+  },
+  {
+    "id": "tp-015",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "ひし形の面積を対角線 p, q を使って表すとどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "pq/2"
+      },
+      {
+        "label": "B",
+        "text": "pq"
+      },
+      {
+        "label": "C",
+        "text": "(p+q)/2"
+      },
+      {
+        "label": "D",
+        "text": "2pq"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "ひし形の面積",
+      "対角線"
+    ]
+  },
+  {
+    "id": "tp-016",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "台形 ABCD で AB // CD、AB=8cm、CD=4cm、高さ=5cm のとき面積はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "30cm²"
+      },
+      {
+        "label": "B",
+        "text": "40cm²"
+      },
+      {
+        "label": "C",
+        "text": "20cm²"
+      },
+      {
+        "label": "D",
+        "text": "60cm²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "台形の面積",
+      "公式"
+    ]
+  },
+  {
+    "id": "tp-017",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "平行四辺形の面積を底辺と高さで表すとどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "底辺 × 高さ"
+      },
+      {
+        "label": "B",
+        "text": "底辺 × 高さ ÷ 2"
+      },
+      {
+        "label": "C",
+        "text": "底辺² ÷ 4"
+      },
+      {
+        "label": "D",
+        "text": "対角線 × 対角線 ÷ 2"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形の面積",
+      "公式"
+    ]
+  },
+  {
+    "id": "tp-018",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "△ABC で AB=AC=5cm、BC=6cm。頂点 A から BC への垂線の長さはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4cm"
+      },
+      {
+        "label": "B",
+        "text": "3cm"
+      },
+      {
+        "label": "C",
+        "text": "5cm"
+      },
+      {
+        "label": "D",
+        "text": "6cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形",
+      "高さの計算"
+    ]
+  },
+  {
+    "id": "tp-019",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "中点連結定理で MN // BC のとき MN と BC の関係として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "MN // BC かつ MN = BC/2"
+      },
+      {
+        "label": "B",
+        "text": "MN // BC かつ MN = BC"
+      },
+      {
+        "label": "C",
+        "text": "MN ⊥ BC かつ MN = 2BC"
+      },
+      {
+        "label": "D",
+        "text": "MN = 2BC"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中点連結定理",
+      "平行と長さ"
+    ]
+  },
+  {
+    "id": "tp-020",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "standard",
+    "question": "△ABC の角の二等分線と辺 BC の交点を D とし AD=BD のとき、△ABD はどんな三角形か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "二等辺三角形"
+      },
+      {
+        "label": "B",
+        "text": "正三角形"
+      },
+      {
+        "label": "C",
+        "text": "直角三角形"
+      },
+      {
+        "label": "D",
+        "text": "鈍角三角形"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形の判定",
+      "辺の等しさ"
+    ]
+  },
+  {
+    "id": "tp-021",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "平行四辺形 ABCD の対角線の交点を O とし、BO 上に点 E をとると △AOE ≅ △COE となる。このとき使う合同条件はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SAS"
+      },
+      {
+        "label": "B",
+        "text": "SSS"
+      },
+      {
+        "label": "C",
+        "text": "ASA"
+      },
+      {
+        "label": "D",
+        "text": "AAS"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形",
+      "対角線の合同証明"
+    ]
+  },
+  {
+    "id": "tp-022",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "△ABC の辺 BC の中点 M を通り AC に平行な直線が AB と交わる点を N とする。BN:NA はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:1"
+      },
+      {
+        "label": "B",
+        "text": "1:2"
+      },
+      {
+        "label": "C",
+        "text": "2:1"
+      },
+      {
+        "label": "D",
+        "text": "1:3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中点連結定理の逆",
+      "中点"
+    ]
+  },
+  {
+    "id": "tp-023",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "ひし形の対角線の長さが 6cm と 8cm のとき、面積はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "24cm²"
+      },
+      {
+        "label": "B",
+        "text": "48cm²"
+      },
+      {
+        "label": "C",
+        "text": "12cm²"
+      },
+      {
+        "label": "D",
+        "text": "28cm²"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "ひし形の面積",
+      "対角線の積÷2"
+    ]
+  },
+  {
+    "id": "tp-024",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "平行四辺形 ABCD で ∠A:∠B = 2:3 のとき ∠A はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "72°"
+      },
+      {
+        "label": "B",
+        "text": "108°"
+      },
+      {
+        "label": "C",
+        "text": "60°"
+      },
+      {
+        "label": "D",
+        "text": "90°"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形",
+      "角の比"
+    ]
+  },
+  {
+    "id": "tp-025",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "長方形の対角線の長さが 10cm、一辺が 6cm のとき、もう一辺の長さはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "8cm"
+      },
+      {
+        "label": "B",
+        "text": "4cm"
+      },
+      {
+        "label": "C",
+        "text": "6cm"
+      },
+      {
+        "label": "D",
+        "text": "10cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "長方形",
+      "三平方の定理的な関係"
+    ]
+  },
+  {
+    "id": "tp-026",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "△ABC の辺 AB、BC、CA の中点をそれぞれ D、E、F とするとき △DEF の周の長さが 12cm なら △ABC の周の長さはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "24cm"
+      },
+      {
+        "label": "B",
+        "text": "12cm"
+      },
+      {
+        "label": "C",
+        "text": "6cm"
+      },
+      {
+        "label": "D",
+        "text": "36cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中点連結定理",
+      "周の長さ"
+    ]
+  },
+  {
+    "id": "tp-027",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "四角形 ABCD で AB=CD、AB // CD のとき、この四角形はどのような図形か。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "平行四辺形"
+      },
+      {
+        "label": "B",
+        "text": "台形"
+      },
+      {
+        "label": "C",
+        "text": "ひし形"
+      },
+      {
+        "label": "D",
+        "text": "長方形"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形の条件",
+      "1組の対辺"
+    ]
+  },
+  {
+    "id": "tp-028",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "二等辺三角形の頂角の二等分線によって2つの三角形に分かれる。この2つの三角形の合同を示す条件はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SAS"
+      },
+      {
+        "label": "B",
+        "text": "SSS"
+      },
+      {
+        "label": "C",
+        "text": "ASA"
+      },
+      {
+        "label": "D",
+        "text": "AAS"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "二等辺三角形の証明",
+      "頂角の二等分"
+    ]
+  },
+  {
+    "id": "tp-029",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "平行四辺形の面積が 30cm²、底辺が 6cm のとき高さはいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5cm"
+      },
+      {
+        "label": "B",
+        "text": "10cm"
+      },
+      {
+        "label": "C",
+        "text": "3cm"
+      },
+      {
+        "label": "D",
+        "text": "4cm"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "平行四辺形の面積",
+      "逆算"
+    ]
+  },
+  {
+    "id": "tp-030",
+    "subject": "math",
+    "unit": "triangle-properties",
+    "difficulty": "exam",
+    "question": "△ABC の辺 BC の中点を M、AM の中点を N とする。BN を延長した直線は AC と交わる。その交点を P とするとき AP:PC はいくつか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:1"
+      },
+      {
+        "label": "B",
+        "text": "1:2"
+      },
+      {
+        "label": "C",
+        "text": "2:1"
+      },
+      {
+        "label": "D",
+        "text": "1:3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "中点",
+      "図形的推論"
+    ]
+  }
+]
