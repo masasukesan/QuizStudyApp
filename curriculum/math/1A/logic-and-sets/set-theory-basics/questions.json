@@ -484,11 +484,11 @@
       "choices": [
         {
           "label": "A",
-          "text": "A: 2≤x≤3。B: -2<x<2。A∩B={2}"
+          "text": "A: 2≤x≤3。B: -2<x<2。端点 x=2 は A に含まれるので A∩B={2}"
         },
         {
           "label": "B",
-          "text": "A∩B = ∅"
+          "text": "A: 2≤x≤3。B: -2<x<2。B は開区間で x=2 を含まないので A∩B=∅"
         },
         {
           "label": "C",
@@ -499,7 +499,7 @@
           "text": "A∩B = {x | -2<x≤3}"
         }
       ],
-      "correct": "A",
+      "correct": "B",
       "reasoning_tags": ["不等式を集合で表す", "区間の積", "端点の扱い"]
     },
     {

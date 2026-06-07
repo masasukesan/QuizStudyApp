@@ -825,9 +825,14 @@ export default function QuizPage() {
       {/* ── 問題に戻った後の「次の問題へ」ボタン ── */}
       {phase === 'reviewed' && (
         <div className={styles.reviewedNextRow}>
-          <button className={styles.nextBtn} onClick={handleNextQuestion}>
-            {currentIndex + 1 >= totalQ ? '結果を見る' : '次の問題へ →'}
-          </button>
+          <div className={styles.expBtnRow}>
+            <button className={styles.expCloseBtn} onClick={() => setPhase('explaining')}>
+              解説を見る
+            </button>
+            <button className={styles.nextBtn} onClick={handleNextQuestion}>
+              {currentIndex + 1 >= totalQ ? '結果を見る' : '次の問題へ →'}
+            </button>
+          </div>
         </div>
       )}
 
