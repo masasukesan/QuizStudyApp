@@ -3,7 +3,11 @@ import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Flourish, CornerDiamonds } from '../components/LibraryUI'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../hooks/useAuth'
+import { useProfile } from '../hooks/useProfile'
 import styles from './CoursePage.module.css'
+
+const JUNIOR_HIGH_COURSES = ['中1', '中2', '中3']
+const HIGH_SCHOOL_COURSES  = ['1A', '2B', '3', 'C']
 
 interface SubunitEntry {
   path: string
@@ -93,6 +97,7 @@ export default function CoursePage() {
   const [searchParams] = useSearchParams()
   const navigate = useNavigate()
   const { user } = useAuth()
+  const { data: profile } = useProfile(user?.id)
 
   const [manifest,      setManifest]      = useState<Manifest | null>(null)
   const [loading,       setLoading]       = useState(true)
@@ -116,7 +121,18 @@ export default function CoursePage() {
         setManifest(data)
         const requested = searchParams.get('course')
         const matched = requested && data.tree.find(c => c.course === requested)
-        setActiveCourse(matched ? requested : data.tree[0]?.course ?? null)
+        if (matched) {
+          setActiveCourse(requested)
+        } else {
+          // school_type に応じてデフォルトコースを決定
+          const schoolType = profile?.school_type
+          const preferred = schoolType === 'junior_high'
+            ? data.tree.find(c => JUNIOR_HIGH_COURSES.includes(c.course))
+            : schoolType === 'high_school'
+              ? data.tree.find(c => HIGH_SCHOOL_COURSES.includes(c.course))
+              : null
+          setActiveCourse(preferred?.course ?? data.tree[0]?.course ?? null)
+        }
       })
       .catch(e => setError(String(e)))
       .finally(() => setLoading(false))
@@ -138,9 +154,33 @@ export default function CoursePage() {
       })
   }, [user, subject])
 
-  const activeTree = manifest?.tree.find(c => c.course === activeCourse)
+  // school_type に応じてコースをフィルタ（未設定の場合は全表示）
+  const visibleTree = manifest?.tree.filter(cg => {
+    const st = profile?.school_type
+    if (!st) return true
+    if (st === 'junior_high') return JUNIOR_HIGH_COURSES.includes(cg.course)
+    if (st === 'high_school') return HIGH_SCHOOL_COURSES.includes(cg.course)
+    return true
+  }) ?? []
+
+  const activeTree = visibleTree.find(c => c.course === activeCourse)
 
   useEffect(() => { setOpenUnit(null) }, [activeCourse])
+
+  // profile が後から取得された場合に activeCourse を再補正する
+  useEffect(() => {
+    if (!manifest || !profile?.school_type) return
+    setActiveCourse(prev => {
+      const st = profile.school_type
+      const isJunior = st === 'junior_high'
+      const isHigh   = st === 'high_school'
+      // 現在のコースがこの school_type で表示可能なら変更しない
+      const allowed = isJunior ? JUNIOR_HIGH_COURSES : isHigh ? HIGH_SCHOOL_COURSES : null
+      if (!allowed || (prev && allowed.includes(prev))) return prev
+      // デフォルトコースに切り替え
+      return manifest.tree.find(c => allowed.includes(c.course))?.course ?? prev
+    })
+  }, [profile?.school_type, manifest])
 
   const toggleUnit = useCallback((unit: string) => {
     setOpenUnit(prev => (prev === unit ? null : unit))
@@ -206,9 +246,9 @@ export default function CoursePage() {
             <div className={styles.treePane}>
               <CornerDiamonds size={4} inset={-2} />
               <p className={styles.treePaneTitle}>{'目次 · Index'}</p>
-              {manifest.tree.length > 1 && (
+              {visibleTree.length > 1 && (
                 <div className={styles.courseTabs}>
-                  {manifest.tree.map(cg => (
+                  {visibleTree.map(cg => (
                     <button
                       key={cg.course}
                       className={styles.courseTab + (cg.course === activeCourse ? ' ' + styles.courseTabActive : '')}
@@ -288,4 +328,29 @@ export default function CoursePage() {
                           key={d}
                           className={styles.diffBtn + (difficulty === d ? ' ' + styles.diffBtnActive : '')}
                           onClick={() => setDifficulty(d)}
- 
+                        >
+                          <span className={styles.diffJp}>{DIFFICULTY_META[d].jp}</span>
+                          <span className={styles.diffDesc}>{DIFFICULTY_META[d].desc}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                  <button
+                    className={styles.startBtn + (!canStart ? ' ' + styles.startBtnDisabled : '')}
+                    onClick={handleStart}
+                    disabled={!canStart}
+                  >
+                    {'学習を始める　›'}
+                  </button>
+                  {!canStart && (
+                    <p className={styles.notReadyNote}>{'この単元はまだ準備中です'}</p>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}

@@ -168,4 +168,34 @@ export default function RankingPage() {
             { grade: 'A', range: '65〜69', color: '#5ab87a', note: '上位6.7%' },
             { grade: 'B', range: '55〜64', color: '#7090b0', note: '上位31%' },
             { grade: 'C', range: '45〜54', color: '#a890c8', note: '平均帯' },
-            { grade: 'D', range: '44以下', color: 'rgba(201,168,106,0
+            { grade: 'D', range: '44以下', color: 'rgba(201,168,106,0.4)', note: '要復習' },
+          ].map(g => (
+            <div key={g.grade} className={styles.gradeRow}>
+              <span className={styles.gradeTag} style={{ color: g.color }}>
+                {g.grade}
+              </span>
+              <span className={styles.gradeRange}>{g.range}</span>
+              <span className={styles.gradeNote}>{g.note}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 更新タイミングの説明 */}
+      <section className={`${styles.card} ${styles.infoCard}`}>
+        <p className={styles.infoText}>
+          偏差値・順位は毎日 0:00 に自動更新されます。<br/>
+          問題を解くほど集計に反映され、より正確な偏差値が算出されます。
+        </p>
+        {isReference && (
+          <p className={styles.infoText} style={{ marginTop: '0.5rem', opacity: 0.7 }}>
+            ※ 現在は参加者が少ないため、偏差値は仮の参考値です。<br/>
+            全国のデータが集まるにつれて、より正確な値になります。
+          </p>
+        )}
+      </section>
+
+      <div className={styles.bottomSpacer} />
+    </div>
+  )
+}

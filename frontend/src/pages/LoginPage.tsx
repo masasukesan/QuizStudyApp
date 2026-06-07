@@ -260,4 +260,253 @@ export default function LoginPage() {
     if (signupError) { setError(translateError(signupError.message)); setLoading(false); return }
     if (!data.user)  { setError('登録に失敗しました。もう一度お試しください'); setLoading(false); return }
 
-    const { error: prof
+    const { error: profileError } = await supabase
+      .from('user_profiles')
+      .insert({
+        id:          data.user.id,
+        username:    username.trim(),
+        avatar_id:   'cat',
+        recovery_code: code,
+        school_type: schoolType,
+      })
+
+    if (profileError) {
+      if (profileError.code === '23505') {
+        setError('このユーザーネームはすでに使われています')
+        await supabase.auth.admin?.deleteUser(data.user.id).catch(() => null)
+      } else {
+        setError('プロフィールの作成に失敗しました: ' + profileError.message)
+      }
+      setLoading(false)
+      return
+    }
+
+    sessionStorage.setItem(RECOVERY_CODE_KEY, code)
+    setLoading(false)
+  }
+
+  /* ══════════════════════════════════════════════════
+     レンダリング
+  ══════════════════════════════════════════════════ */
+  return (
+    <div className={styles.page}>
+
+      {/* ── 二重罫線フレーム ── */}
+      <div className={styles.frame}>
+        <CornerDiamonds size={6} inset={-3} />
+
+        {/* ── ヘッダー ── */}
+        <div className={styles.header}>
+          <span className={styles.anno}>Est.  2026</span>
+          <Monogram size={62} glyph="MA" italic />
+          <h1 className={styles.title}>MATHACA</h1>
+          <p className={styles.subtitle}>共通テスト　攻略の書</p>
+        </div>
+
+        {/* ── タブ（学校選択ステップでは非表示） ── */}
+        {step !== 'school_select' && (
+          <div className={styles.tabs}>
+            <button
+              type="button"
+              className={`${styles.tab} ${step === 'login' ? styles.tabActive : ''}`}
+              onClick={() => switchTab('login')}
+            >
+              ログイン
+            </button>
+            <button
+              type="button"
+              className={`${styles.tab} ${step === 'signup' ? styles.tabActive : ''}`}
+              onClick={() => switchTab('signup')}
+            >
+              新規登録
+            </button>
+          </div>
+        )}
+
+        {/* ── 学校種別選択ステップ ── */}
+        {step === 'school_select' && (
+          <SchoolSelect
+            selected={schoolType}
+            onSelect={setSchoolType}
+            onBack={() => { setStep('signup'); setError(null) }}
+            onConfirm={handleSignupConfirm}
+            loading={loading}
+            error={error}
+          />
+        )}
+
+        {/* ── ログイン / 新規登録フォーム ── */}
+        {step !== 'school_select' && (
+          <>
+            {error && <ErrorBar message={error} />}
+            <form
+              className={styles.form}
+              onSubmit={step === 'login' ? handleLogin : handleSignupNext}
+            >
+              <LibField
+                id="username"
+                label="ユーザーネーム"
+                sublabel={step === 'signup' ? '2文字以上・後で変更可' : undefined}
+                type="text"
+                value={username}
+                onChange={setUsername}
+                placeholder={step === 'login' ? 'まなびくん' : '例：まなびくん'}
+                maxLength={20}
+                autoComplete="username"
+                required
+              />
+              <LibField
+                id="password"
+                label="パスワード"
+                sublabel={step === 'signup' ? '6文字以上' : undefined}
+                type="password"
+                value={password}
+                onChange={setPassword}
+                placeholder="••••••••"
+                minLength={step === 'signup' ? 6 : undefined}
+                autoComplete={step === 'login' ? 'current-password' : 'new-password'}
+                required
+              />
+              <SubmitButton
+                loading={loading}
+                label={step === 'login' ? '入　門' : '次　へ　→'}
+              />
+            </form>
+          </>
+        )}
+
+      </div>
+    </div>
+  )
+}
+ileError } = await supabase
+      .from('user_profiles')
+      .insert({
+        id:            data.user.id,
+        username:      username.trim(),
+        avatar_id:     'cat',
+        recovery_code: code,
+        school_type:   schoolType,
+      })
+
+    if (profileError) {
+      if (profileError.code === '23505') {
+        setError('このユーザーネームはすでに使われています')
+        await supabase.auth.admin?.deleteUser(data.user.id).catch(() => null)
+      } else {
+        setError('プロフィールの作成に失敗しました: ' + profileError.message)
+      }
+      setLoading(false)
+      return
+    }
+
+    sessionStorage.setItem(RECOVERY_CODE_KEY, code)
+    setLoading(false)
+  }
+
+  return (
+    <div className={styles.page}>
+      <div className={styles.frame}>
+        <CornerDiamonds size={6} inset={-3} />
+
+        <div className={styles.header}>
+          <span className={styles.anno}>Est.  2026</span>
+          <Monogram size={62} glyph="MA" italic />
+          <h1 className={styles.title}>MATHACA</h1>
+          <p className={styles.subtitle}>共通テスト　攻略の書</p>
+        </div>
+
+        {step !== 'school_select' && (
+          <div className={styles.tabs}>
+            <button
+              type="button"
+              className={`${styles.tab} ${step === 'login' ? styles.tabActive : ''}`}
+              onClick={() => switchTab('login')}
+            >
+              ログイン
+            </button>
+            <button
+              type="button"
+              className={`${styles.tab} ${step === 'signup' ? styles.tabActive : ''}`}
+              onClick={() => switchTab('signup')}
+            >
+              新規登録
+            </button>
+          </div>
+        )}
+
+        {step === 'school_select' && (
+          <SchoolSelect
+            selected={schoolType}
+            onSelect={setSchoolType}
+            onBack={() => { setStep('signup'); setError(null) }}
+            onConfirm={handleSignupConfirm}
+            loading={loading}
+            error={error}
+          />
+        )}
+
+        {step !== 'school_select' && (
+          <>
+            {error && <ErrorBar message={error} />}
+            <form
+              className={styles.form}
+              onSubmit={step === 'login' ? handleLogin : handleSignupNext}
+            >
+              <LibField
+                id="username"
+                label="ユーザーネーム"
+                sublabel={step === 'signup' ? '2文字以上・後で変更可' : undefined}
+                type="text"
+                value={username}
+                onChange={setUsername}
+                placeholder={step === 'login' ? 'まなびくん' : '例：まなびくん'}
+                maxLength={20}
+                autoComplete="username"
+                required
+              />
+              <LibField
+                id="password"
+                label="パスワード"
+                sublabel={step === 'signup' ? '6文字以上' : undefined}
+                type="password"
+                value={password}
+                onChange={setPassword}
+                placeholder="••••••••"
+                minLength={step === 'signup' ? 6 : undefined}
+                autoComplete={step === 'login' ? 'current-password' : 'new-password'}
+                required
+              />
+              <SubmitButton
+                loading={loading}
+                label={step === 'login' ? '入　門' : '次　へ　→'}
+              />
+            </form>
+          </>
+        )}
+
+      </div>
+    </div>
+  )
+}
+                sublabel={step === 'signup' ? '6文字以上' : undefined}
+                type="password"
+                value={password}
+                onChange={setPassword}
+                placeholder="••••••••"
+                minLength={step === 'signup' ? 6 : undefined}
+                autoComplete={step === 'login' ? 'current-password' : 'new-password'}
+                required
+              />
+              <SubmitButton
+                loading={loading}
+                label={step === 'login' ? '入　門' : '次　へ　→'}
+              />
+            </form>
+          </>
+        )}
+
+      </div>
+    </div>
+  )
+}

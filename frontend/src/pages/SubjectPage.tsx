@@ -13,14 +13,20 @@ type CourseStatus = 'active' | 'preparing'
 
 const MATH_COURSES: {
   id: string
-  label: string        // 数学Ⅰ・A
+  label: string
   units: number
   questions: number
   status: CourseStatus
+  schoolType: 'junior_high' | 'high_school'
 }[] = [
-  { id: '1A', label: '数学Ⅰ・A', units: 44, questions: 1320, status: 'active'    },
-  { id: '2B', label: '数学Ⅱ・B', units: 38, questions: 1140, status: 'active'    },
-  { id: 'C',  label: '数学Ｃ',   units: 11, questions: 330,  status: 'active'    },
+  /* ── 高校数学 ── */
+  { id: '1A', label: '数学Ⅰ・A', units: 44, questions: 1320, status: 'active', schoolType: 'high_school' },
+  { id: '2B', label: '数学Ⅱ・B', units: 38, questions: 1140, status: 'active', schoolType: 'high_school' },
+  { id: 'C',  label: '数学Ｃ',   units: 11, questions: 330,  status: 'active', schoolType: 'high_school' },
+  /* ── 中学数学 ── */
+  { id: '中1', label: '中学1年',  units: 7,  questions: 210,  status: 'active', schoolType: 'junior_high' },
+  { id: '中2', label: '中学2年',  units: 7,  questions: 210,  status: 'active', schoolType: 'junior_high' },
+  { id: '中3', label: '中学3年',  units: 8,  questions: 240,  status: 'active', schoolType: 'junior_high' },
 ]
 
 /* ── EXP テーブル ── */
@@ -180,6 +186,11 @@ export default function SubjectPage() {
   const expRemain   = Math.max(0, nextLvExp - currentExp)
   const initial     = profile?.username?.[0]?.toUpperCase() ?? 'S'
 
+  /* ── school_type でコースを絞り込む ── */
+  const visibleCourses = profile?.school_type
+    ? MATH_COURSES.filter(c => c.schoolType === profile.school_type)
+    : MATH_COURSES
+
   return (
     <div className={styles.page}>
 
@@ -239,7 +250,7 @@ export default function SubjectPage() {
 
         {/* ══ コースリスト ══ */}
         <div className={styles.subjectList}>
-          {MATH_COURSES.map((course, i) => {
+          {visibleCourses.map((course, i) => {
             const isActive = course.status === 'active'
             return (
               <button
