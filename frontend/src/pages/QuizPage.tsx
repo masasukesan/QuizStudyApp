@@ -714,6 +714,11 @@ export default function QuizPage() {
         <button className={styles.backIcon} onClick={() => navigate(challengeMode ? '/profile' : (curriculumPath ? `/course/${subject}` : '/subject'))}>
           ‹ Back
         </button>
+        {combo >= 2 && phase === 'playing' && (
+          <div className={`${styles.comboBadge} ${showComboPop ? styles.comboPop : ''}`}>
+            🔥 {combo} Combo
+          </div>
+        )}
         <span className={styles.subjectLabel}>
           {{
             math: '数学', english: 'English', japanese: '国語',
@@ -742,12 +747,6 @@ export default function QuizPage() {
         ))}
       </div>
 
-      {/* ── コンボバッジ ── */}
-      {combo >= 2 && phase === 'playing' && (
-        <div className={`${styles.comboBadge} ${showComboPop ? styles.comboPop : ''}`}>
-          🔥 {combo} Combo
-        </div>
-      )}
 
       {/* ── 問題カード ── */}
       <div className={`${styles.questionCard} ${phase === 'answered' && !isCorrect ? styles.questionShake : ''}`}>
@@ -926,17 +925,4 @@ export default function QuizPage() {
 
             {/* ボタン群 */}
             <div className={styles.expBtnRow}>
-              <button className={styles.expCloseBtn} onClick={() => setPhase('reviewed')}>
-                問題に戻る
-              </button>
-              <button className={styles.nextBtn} onClick={handleNextQuestion}>
-                {currentIndex + 1 >= totalQ ? '結果を見る' : '次の問題へ'}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-    </div>
-  )
-}
+              <button className={styles.expCloseBtn} onClick={() => setPhase('reviewed
