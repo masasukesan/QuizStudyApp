@@ -5,7 +5,7 @@ import { supabase } from '../lib/supabase'
 import { useAuth } from '../hooks/useAuth'
 import { RECOVERY_CODE_KEY } from './LoginPage'
 import { Flourish, Monogram, CornerDiamonds } from '../components/LibraryUI'
-import SchoolTypeSelector from '../components/SchoolTypeSelector'
+import { useQueryClient } from '@tanstack/react-query'
 import type { UserProfile } from '../types/database'
 import styles from './SubjectPage.module.css'
 
@@ -177,9 +177,33 @@ export default function SubjectPage() {
     retryDelay: 800,
   })
 
+  const queryClient = useQueryClient()
+
   /* ── ログアウト ── */
   async function handleLogout() {
     await supabase.auth.signOut()
+  }
+
+  /* ── 学校種別の選択（インライン） ── */
+  const [selectingSchool, setSelectingSchool] = useState(false)
+  const [schoolSaving, setSchoolSaving] = useState(false)
+
+  async function handleSchoolSelect(type: 'junior_high' | 'high_school') {
+    if (!user) return
+    setSchoolSaving(true)
+    const { error, count } = await supabase
+      .from('user_profiles')
+      .update({ school_type: type })
+      .eq('id', user.id)
+      .select('id', { count: 'exact', head: true })
+    if (!error && count === 0) {
+      await supabase.from('user_profiles').insert({
+        id: user.id, username: 'ユーザー', avatar_id: 'cat', school_type: type,
+      })
+    }
+    await queryClient.invalidateQueries({ queryKey: ['profile', user.id] })
+    setSelectingSchool(false)
+    setSchoolSaving(false)
   }
 
   const expProgress = profile ? getExpProgress(profile) : 0
@@ -189,14 +213,13 @@ export default function SubjectPage() {
   const expRemain   = Math.max(0, nextLvExp - currentExp)
   const initial     = profile?.username?.[0]?.toUpperCase() ?? 'S'
 
-  /* ── 学校種別変更モーダル ── */
-  const [showSchoolSelector, setShowSchoolSelector] = useState(false)
-
   /* ── school_type でコースを絞り込む ── */
   const visibleCourses = profile?.school_type
     ? MATH_COURSES.filter(c => c.schoolType === profile.school_type)
-    : MATH_COURSES
+    : []
 
+  /* school_type が未設定かどうか（ロード完了後に判定） */
+  const needsSchoolType = !profileLoading && (profileError || !profile?.school_type)
   const schoolTypeLabel = profile?.school_type === 'junior_high' ? '中学生' : profile?.school_type === 'high_school' ? '高校生' : null
 
   return (
@@ -215,7 +238,7 @@ export default function SubjectPage() {
           {schoolTypeLabel && (
             <button
               className={styles.logoutBtn}
-              onClick={() => setShowSchoolSelector(true)}
+              onClick={() => setSelectingSchool(true)}
               style={{ fontSize: '0.75rem', opacity: 0.7 }}
             >
               {schoolTypeLabel}
@@ -264,43 +287,79 @@ export default function SubjectPage() {
         <div className={styles.sectionHeader}>
           <p className={styles.sectionIndex}>MATHEMATICS  ·  数学</p>
           <Flourish width={70} thickness={0.4} diamondSize={4} color="var(--sq-burgundy-hair)" />
-          <p className={styles.sectionTitle}>コースを選ぶ</p>
+          <p className={styles.sectionTitle}>
+            {needsSchoolType || selectingSchool ? 'あなたは？' : 'コースを選ぶ'}
+          </p>
         </div>
 
-        {/* ══ コースリスト ══ */}
-        <div className={styles.subjectList}>
-          {visibleCourses.map((course, i) => {
-            const isActive = course.status === 'active'
-            return (
+        {/* ══ 学校種別インライン選択（未設定 or 変更中） ══ */}
+        {(needsSchoolType || selectingSchool) && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
+            <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'rgba(200,180,138,0.6)', margin: 0 }}>
+              ランキングは中学生・高校生で独立して集計されます
+            </p>
+            {[
+              { type: 'junior_high' as const, label: '中学生', note: '中1〜中3', emoji: '📚' },
+              { type: 'high_school' as const, label: '高校生', note: '高1〜高3', emoji: '🎓' },
+            ].map(opt => (
               <button
-                key={course.id}
-                className={[
-                  styles.subjectRow,
-                  i === 0 ? styles.subjectRowFirst : '',
-                  !isActive ? styles.subjectRowDisabled : '',
-                ].join(' ')}
-                style={{ animationDelay: `${i * 0.08}s` }}
-                onClick={() => isActive && navigate('/course/math?course=' + course.id)}
-                disabled={!isActive}
+                key={opt.type}
+                disabled={schoolSaving}
+                onClick={() => handleSchoolSelect(opt.type)}
+                style={{
+                  display: 'flex', alignItems: 'center', gap: '16px',
+                  padding: '20px 20px', background: 'rgba(30,20,10,0.7)',
+                  border: '1px solid rgba(201,168,106,0.3)', cursor: 'pointer',
+                  color: '#c8b48a', fontFamily: 'inherit', textAlign: 'left',
+                  fontSize: '1rem', letterSpacing: '0.05em',
+                  opacity: schoolSaving ? 0.5 : 1,
+                }}
               >
-                <CourseBadge label={course.label} />
-                <div className={styles.courseInfo}>
-                  {isActive
-                    ? <span className={styles.courseStats}>{course.units}単元 · {course.questions.toLocaleString()}問</span>
-                    : <span className={styles.courseStats}>準備中</span>
-                  }
-                </div>
-                <div className={styles.dotLeader} />
-                <span className={styles.subjectStatus}>
-                  {isActive ? '学習可能' : '準備中'}
-                </span>
-                <span className={styles.subjectArrow}>
-                  {isActive ? '›' : ''}
-                </span>
+                <span style={{ fontSize: '1.8rem' }}>{opt.emoji}</span>
+                <span style={{ fontWeight: 700 }}>{opt.label}</span>
+                <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)', marginLeft: 4 }}>{opt.note}</span>
+                <span style={{ marginLeft: 'auto' }}>›</span>
               </button>
-            )
-          })}
-        </div>
+            ))}
+          </div>
+        )}
+
+        {/* ══ コースリスト（school_type 設定済み） ══ */}
+        {!needsSchoolType && !selectingSchool && (
+          <div className={styles.subjectList}>
+            {visibleCourses.map((course, i) => {
+              const isActive = course.status === 'active'
+              return (
+                <button
+                  key={course.id}
+                  className={[
+                    styles.subjectRow,
+                    i === 0 ? styles.subjectRowFirst : '',
+                    !isActive ? styles.subjectRowDisabled : '',
+                  ].join(' ')}
+                  style={{ animationDelay: `${i * 0.08}s` }}
+                  onClick={() => isActive && navigate('/course/math?course=' + course.id)}
+                  disabled={!isActive}
+                >
+                  <CourseBadge label={course.label} />
+                  <div className={styles.courseInfo}>
+                    {isActive
+                      ? <span className={styles.courseStats}>{course.units}単元 · {course.questions.toLocaleString()}問</span>
+                      : <span className={styles.courseStats}>準備中</span>
+                    }
+                  </div>
+                  <div className={styles.dotLeader} />
+                  <span className={styles.subjectStatus}>
+                    {isActive ? '学習可能' : '準備中'}
+                  </span>
+                  <span className={styles.subjectArrow}>
+                    {isActive ? '›' : ''}
+                  </span>
+                </button>
+              )
+            })}
+          </div>
+        )}
 
         {/* ══ 塾導線バナー ══ */}
         <a
@@ -339,13 +398,6 @@ export default function SubjectPage() {
         />
       )}
 
-      {/* ══ 学校種別モーダル（未設定 or 変更ボタン押下） ══ */}
-      {user && !profileLoading && (profileError || profile?.school_type == null || showSchoolSelector) && (
-        <SchoolTypeSelector
-          userId={user.id}
-          onSaved={() => setShowSchoolSelector(false)}
-        />
-      )}
     </div>
   )
 }
