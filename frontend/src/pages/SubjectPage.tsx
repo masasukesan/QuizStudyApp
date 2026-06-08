@@ -161,7 +161,7 @@ export default function SubjectPage() {
   }, [])
 
   /* ── プロフィール取得 ── */
-  const { data: profile } = useQuery<UserProfile>({
+  const { data: profile, isLoading: profileLoading, isError: profileError } = useQuery<UserProfile>({
     queryKey: ['profile', user?.id],
     queryFn: async () => {
       const { data, error } = await supabase
@@ -173,6 +173,8 @@ export default function SubjectPage() {
       return data
     },
     enabled: !!user,
+    retry: 2,
+    retryDelay: 800,
   })
 
   /* ── ログアウト ── */
@@ -321,8 +323,10 @@ export default function SubjectPage() {
         />
       )}
 
-      {/* ══ 学校種別未設定モーダル ══ */}
-      {profile && profile.school_type == null && user && (
+      {/* ══ 学校種別未設定モーダル ══
+           profile が取得できた＆school_type未設定、
+           または profile が存在しない（行なし・エラー）のどちらでも表示する */}
+      {user && !profileLoading && (profileError || profile?.school_type == null) && (
         <SchoolTypeSelector userId={user.id} />
       )}
     </div>
