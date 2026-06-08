@@ -232,7 +232,7 @@ export default function SubjectPage() {
           <Monogram size={28} glyph="MA" italic />
           <div>
             <p className={styles.headerTitle}>MathAca</p>
-            <p className={styles.headerAnno}>数学専門演習アプリ</p>
+            <p className={styles.headerAnno}>数学演習アプリ</p>
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
