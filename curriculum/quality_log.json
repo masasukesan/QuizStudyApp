@@ -840,58 +840,58 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/中3/polynomials/expansion-factoring",
-    "status": "passed",
-    "checked_at": "2026-06-07",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/中3/square-roots/square-root-basics",
-    "status": "passed",
-    "checked_at": "2026-06-07",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/中3/quadratic-equations/solving-quadratics",
-    "status": "passed",
-    "checked_at": "2026-06-07",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/中3/quadratic-functions-jr/quadratic-function-ax2",
-    "status": "passed",
-    "checked_at": "2026-06-07",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/中3/similar-figures/similarity-basics",
-    "status": "passed",
-    "checked_at": "2026-06-07",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/中3/circles/circle-theorems",
     "status": "passed",
-    "checked_at": "2026-06-07",
+    "checked_at": "2026-06-08",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/中3/polynomials/expansion-factoring",
+    "status": "passed",
+    "checked_at": "2026-06-08",
     "question_count": 30,
     "notes": ""
   },
   {
     "path": "curriculum/math/中3/pythagorean-theorem/pythagorean-basics",
     "status": "passed",
-    "checked_at": "2026-06-07",
+    "checked_at": "2026-06-08",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/中3/quadratic-equations/solving-quadratics",
+    "status": "passed",
+    "checked_at": "2026-06-08",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/中3/quadratic-functions-jr/quadratic-function-ax2",
+    "status": "passed",
+    "checked_at": "2026-06-08",
     "question_count": 30,
     "notes": ""
   },
   {
     "path": "curriculum/math/中3/sampling/sampling-survey",
     "status": "passed",
-    "checked_at": "2026-06-07",
+    "checked_at": "2026-06-08",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/中3/similar-figures/similarity-basics",
+    "status": "passed",
+    "checked_at": "2026-06-08",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/中3/square-roots/square-root-basics",
+    "status": "passed",
+    "checked_at": "2026-06-08",
     "question_count": 30,
     "notes": ""
   }

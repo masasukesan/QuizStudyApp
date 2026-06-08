@@ -1,0 +1,1507 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ミクロコスモス｜将棋 × プログラミング教室</title>
+    <meta
+      name="description"
+      content="将棋 × プログラミング。思考力・論理力・問題解決力を育てるMicroCosmos（ミクロコスモス）。福岡・大野城市の将棋会館内。小学生〜大人まで・オンライン対応。"
+    />
+    <style>
+      /* ===== RESET & BASE ===== */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --wood: #c8a96e;
+        --wood-dk: #9a7a4a;
+        --navy: #1a2744;
+        --navy-lt: #253560;
+        --code: #00d4aa;
+        --code-lt: #e0fff9;
+        --accent: #e8612a;
+        --text: #2c2c2c;
+        --muted: #6b6b6b;
+        --bg: #faf8f4;
+        --card: #ffffff;
+        --border: #e8e2d8;
+        --radius: 12px;
+        --shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Meiryo", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.8;
+      }
+      img {
+        max-width: 100%;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      /* ===== UTILITY ===== */
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .section {
+        padding: 80px 0;
+      }
+      .section-alt {
+        background: #f3f0ea;
+      }
+      .section-dark {
+        background: var(--navy);
+        color: #fff;
+      }
+      .section-wood {
+        background: linear-gradient(135deg, #6b4c2a 0%, #9a7a4a 100%);
+        color: #fff;
+      }
+
+      h2.section-title {
+        font-size: clamp(1.5rem, 4vw, 2.1rem);
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 12px;
+        letter-spacing: 0.04em;
+      }
+      h2.section-title .en {
+        display: block;
+        font-size: 0.75em;
+        letter-spacing: 0.2em;
+        opacity: 0.55;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      .section-lead {
+        text-align: center;
+        color: var(--muted);
+        font-size: 1.05rem;
+        margin-bottom: 48px;
+      }
+      .section-dark .section-lead {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .section-wood .section-lead {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .section-dark h2.section-title {
+        color: #fff;
+      }
+      .section-wood h2.section-title {
+        color: #fff;
+      }
+
+      /* ===== HEADER NAV ===== */
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background: rgba(26, 39, 68, 0.95);
+        backdrop-filter: blur(8px);
+        padding: 14px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        font-size: 1.25rem;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: 0.06em;
+      }
+      .logo span {
+        color: var(--wood);
+      }
+      nav a {
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 0.9rem;
+        margin-left: 20px;
+        transition: color 0.2s;
+      }
+      nav a:hover {
+        color: var(--wood);
+      }
+
+      /* ===== HERO ===== */
+      .hero {
+        min-height: 100vh;
+        background:
+          linear-gradient(
+            160deg,
+            rgba(26, 39, 68, 0.88) 0%,
+            rgba(26, 39, 68, 0.72) 60%,
+            rgba(154, 122, 74, 0.55) 100%
+          ),
+          url("https://images.unsplash.com/photo-1611996575749-79a3a250f948?w=1600&q=80")
+            center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 120px 20px 60px;
+        position: relative;
+      }
+      .hero-inner {
+        max-width: 780px;
+      }
+      .hero-badge {
+        display: inline-block;
+        background: rgba(200, 169, 110, 0.25);
+        border: 1px solid var(--wood);
+        color: var(--wood);
+        font-size: 0.8rem;
+        letter-spacing: 0.18em;
+        padding: 5px 18px;
+        border-radius: 100px;
+        margin-bottom: 28px;
+      }
+      .hero h1 {
+        font-size: clamp(2rem, 6vw, 3.6rem);
+        font-weight: 900;
+        color: #fff;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        margin-bottom: 24px;
+      }
+      .hero h1 em {
+        font-style: normal;
+        color: var(--wood);
+      }
+      .hero h1 .code-accent {
+        color: var(--code);
+      }
+      .hero-sub {
+        font-size: clamp(1rem, 2.5vw, 1.2rem);
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 42px;
+        line-height: 1.9;
+      }
+      .hero-cta {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-block;
+        padding: 16px 38px;
+        border-radius: 100px;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition:
+          transform 0.15s,
+          box-shadow 0.15s;
+        letter-spacing: 0.06em;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      }
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+      }
+      .btn-secondary {
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        color: #fff;
+      }
+      .hero-scroll {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.8rem;
+        letter-spacing: 0.15em;
+        animation: bounce 2s infinite;
+      }
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateX(-50%) translateY(0);
+        }
+        50% {
+          transform: translateX(-50%) translateY(6px);
+        }
+      }
+
+      /* ===== ORIGIN ===== */
+      .origin-wrap {
+        max-width: 680px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .origin-text p {
+        color: var(--muted);
+        font-size: 1rem;
+        margin-bottom: 14px;
+        text-align: left;
+      }
+      .origin-text p strong {
+        color: var(--text);
+      }
+      .quote-box {
+        background: var(--navy);
+        color: #fff;
+        border-left: 4px solid var(--wood);
+        padding: 18px 22px;
+        border-radius: 0 var(--radius) var(--radius) 0;
+        margin-top: 20px;
+        font-size: 0.95rem;
+        line-height: 1.9;
+      }
+      .quote-box cite {
+        display: block;
+        margin-top: 10px;
+        font-size: 0.8rem;
+        color: var(--wood);
+        font-style: normal;
+      }
+
+      /* ===== WHY SHOGI × PROGRAMMING ===== */
+      .synergy-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      @media (max-width: 640px) {
+        .synergy-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (min-width: 641px) and (max-width: 900px) {
+        .synergy-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .synergy-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 28px 22px;
+        text-align: center;
+        box-shadow: var(--shadow);
+        transition: transform 0.2s;
+      }
+      .synergy-card:hover {
+        transform: translateY(-4px);
+      }
+      .synergy-icon {
+        font-size: 2.4rem;
+        margin-bottom: 14px;
+      }
+      .synergy-card h3 {
+        font-size: 1.05rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: var(--navy);
+      }
+      .synergy-card p {
+        font-size: 0.92rem;
+        color: var(--muted);
+        line-height: 1.75;
+      }
+
+      /* ===== FEATURES ===== */
+      .feature-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      @media (max-width: 640px) {
+        .feature-list {
+          grid-template-columns: 1fr;
+        }
+      }
+      .feature-item {
+        background: var(--card);
+        border-radius: var(--radius);
+        padding: 24px;
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+        border: 1px solid var(--border);
+      }
+      .feature-num {
+        flex-shrink: 0;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: var(--navy);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.85rem;
+        font-weight: 800;
+      }
+      .feature-item h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: var(--navy);
+      }
+      .feature-item p {
+        font-size: 0.88rem;
+        color: var(--muted);
+      }
+
+      /* ===== CURRICULUM ===== */
+      .curriculum-stages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-top: 16px;
+      }
+      @media (max-width: 640px) {
+        .curriculum-stages {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (min-width: 641px) and (max-width: 860px) {
+        .curriculum-stages {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .stage-card {
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+      }
+      .stage-header {
+        padding: 18px 20px;
+        font-weight: 800;
+        font-size: 1rem;
+        letter-spacing: 0.04em;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .stage-1 .stage-header {
+        background: #3b82f6;
+        color: #fff;
+      }
+      .stage-2 .stage-header {
+        background: #8b5cf6;
+        color: #fff;
+      }
+      .stage-3 .stage-header {
+        background: #059669;
+        color: #fff;
+      }
+      .stage-body {
+        background: var(--card);
+        padding: 20px;
+      }
+      .stage-body ul {
+        list-style: none;
+      }
+      .stage-body li {
+        padding: 8px 0;
+        border-bottom: 1px dashed var(--border);
+        font-size: 0.9rem;
+        display: flex;
+        gap: 8px;
+        align-items: flex-start;
+      }
+      .stage-body li:last-child {
+        border-bottom: none;
+      }
+      .stage-body li::before {
+        content: "▶";
+        font-size: 0.65rem;
+        color: var(--wood);
+        margin-top: 5px;
+        flex-shrink: 0;
+      }
+      .scratch-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #ff6600;
+        color: #fff;
+        padding: 8px 20px;
+        border-radius: 100px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin: 28px auto 0;
+        display: flex;
+        width: fit-content;
+      }
+
+      /* ===== TARGET ===== */
+      .target-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      @media (max-width: 640px) {
+        .target-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (min-width: 641px) and (max-width: 860px) {
+        .target-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .target-card {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: var(--radius);
+        padding: 28px 20px;
+        text-align: center;
+      }
+      .target-card .t-icon {
+        font-size: 2.8rem;
+        margin-bottom: 14px;
+      }
+      .target-card h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: var(--wood);
+      }
+      .target-card p {
+        font-size: 0.88rem;
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.75;
+      }
+
+      /* ===== STYLE ===== */
+      .style-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+      @media (max-width: 640px) {
+        .style-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .style-card {
+        background: var(--card);
+        border-radius: var(--radius);
+        padding: 30px 24px;
+        box-shadow: var(--shadow);
+        border-top: 4px solid;
+      }
+      .style-card.online {
+        border-color: var(--code);
+      }
+      .style-card.offline {
+        border-color: var(--wood);
+      }
+      .style-card h3 {
+        font-size: 1.15rem;
+        font-weight: 800;
+        margin-bottom: 12px;
+      }
+      .style-card h3 span {
+        display: inline-block;
+        margin-right: 8px;
+      }
+      .style-card ul {
+        list-style: none;
+      }
+      .style-card ul li {
+        padding: 7px 0;
+        font-size: 0.93rem;
+        display: flex;
+        gap: 10px;
+        border-bottom: 1px solid var(--border);
+      }
+      .style-card ul li:last-child {
+        border-bottom: none;
+      }
+      .check {
+        color: var(--code);
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+
+      /* ===== VENUE ===== */
+      .venue-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: center;
+      }
+      @media (max-width: 640px) {
+        .venue-wrap {
+          grid-template-columns: 1fr;
+        }
+      }
+      .venue-map {
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        height: 280px;
+        background: #ddd;
+      }
+      .venue-map iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+      .venue-info h3 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        margin-bottom: 16px;
+        color: var(--navy);
+      }
+      .venue-info p {
+        font-size: 0.95rem;
+        color: var(--muted);
+        margin-bottom: 10px;
+      }
+      .venue-info p strong {
+        color: var(--text);
+      }
+      .venue-tag {
+        display: inline-block;
+        background: var(--navy);
+        color: #fff;
+        font-size: 0.78rem;
+        padding: 3px 12px;
+        border-radius: 100px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+      }
+
+      /* ===== INSTRUCTORS ===== */
+      .instructors-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      @media (max-width: 640px) {
+        .instructors-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (min-width: 641px) and (max-width: 860px) {
+        .instructors-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .instructor-card {
+        background: var(--card);
+        border-radius: var(--radius);
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: var(--shadow);
+        border: 1px solid var(--border);
+      }
+      .instructor-avatar {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        margin: 0 auto 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+      }
+      .av-1 {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+      }
+      .av-2 {
+        background: linear-gradient(135deg, #f093fb, #f5576c);
+      }
+      .av-3 {
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+      }
+      .instructor-role {
+        display: inline-block;
+        background: var(--navy);
+        color: var(--wood);
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        padding: 3px 12px;
+        border-radius: 100px;
+        margin-bottom: 12px;
+      }
+      .instructor-card h3 {
+        font-size: 1.05rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+        color: var(--navy);
+      }
+      .instructor-card p {
+        font-size: 0.88rem;
+        color: var(--muted);
+        line-height: 1.75;
+      }
+
+      /* ===== PRICING ===== */
+      .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      @media (max-width: 640px) {
+        .pricing-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (min-width: 641px) and (max-width: 860px) {
+        .pricing-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .plan-card {
+        background: var(--card);
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        border: 2px solid var(--border);
+        transition: transform 0.2s;
+      }
+      .plan-card:hover {
+        transform: translateY(-4px);
+      }
+      .plan-card.popular {
+        border-color: var(--accent);
+        transform: scale(1.03);
+      }
+      .plan-card.popular:hover {
+        transform: scale(1.03) translateY(-4px);
+      }
+      .plan-header {
+        padding: 22px 20px;
+        text-align: center;
+      }
+      .plan-1 .plan-header {
+        background: #eff6ff;
+      }
+      .plan-2 .plan-header {
+        background: var(--navy);
+        color: #fff;
+      }
+      .plan-3 .plan-header {
+        background: #f0fdf4;
+      }
+      .popular-badge {
+        display: inline-block;
+        background: var(--accent);
+        color: #fff;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        padding: 3px 12px;
+        border-radius: 100px;
+        margin-bottom: 8px;
+      }
+      .plan-name {
+        font-size: 1.1rem;
+        font-weight: 800;
+        margin-bottom: 6px;
+      }
+      .plan-2 .plan-name {
+        color: var(--wood);
+      }
+      .plan-price {
+        font-size: 2rem;
+        font-weight: 900;
+      }
+      .plan-price sub {
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
+      .plan-2 .plan-price {
+        color: #fff;
+      }
+      .plan-note {
+        font-size: 0.8rem;
+        opacity: 0.65;
+        margin-top: 4px;
+      }
+      .plan-footer {
+        padding: 24px 20px 24px;
+        text-align: center;
+      }
+      .btn-plan {
+        display: block;
+        width: 100%;
+        padding: 13px;
+        border-radius: 100px;
+        font-size: 0.95rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: opacity 0.2s;
+        text-align: center;
+      }
+      .btn-plan:hover {
+        opacity: 0.85;
+      }
+      .plan-1 .btn-plan {
+        background: var(--navy);
+        color: #fff;
+      }
+      .plan-2 .btn-plan {
+        background: var(--accent);
+        color: #fff;
+      }
+      .plan-3 .btn-plan {
+        background: #16a34a;
+        color: #fff;
+      }
+      .pricing-note {
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.88rem;
+        margin-top: 28px;
+      }
+
+      /* ===== FAQ ===== */
+      .faq-list {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      details {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        margin-bottom: 12px;
+        overflow: hidden;
+      }
+      summary {
+        padding: 18px 22px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 0.98rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        color: var(--navy);
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      summary::after {
+        content: "＋";
+        font-size: 1.1rem;
+        color: var(--wood);
+        transition: transform 0.2s;
+      }
+      details[open] summary::after {
+        content: "－";
+      }
+      .faq-body {
+        padding: 0 22px 20px;
+        font-size: 0.93rem;
+        color: var(--muted);
+        line-height: 1.9;
+      }
+      .faq-q {
+        color: var(--accent);
+        font-weight: 700;
+        margin-right: 6px;
+      }
+
+      /* ===== CTA FOOTER ===== */
+      .cta-section {
+        background: linear-gradient(
+          135deg,
+          var(--navy) 0%,
+          #253560 60%,
+          #6b4c2a 100%
+        );
+        padding: 90px 20px;
+        text-align: center;
+      }
+      .cta-section h2 {
+        font-size: clamp(1.6rem, 4vw, 2.4rem);
+        font-weight: 900;
+        color: #fff;
+        margin-bottom: 16px;
+      }
+      .cta-section p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1.05rem;
+        margin-bottom: 36px;
+      }
+      .cta-section .btn-primary {
+        font-size: 1.1rem;
+        padding: 18px 52px;
+      }
+      .cta-detail {
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 16px;
+      }
+
+      /* ===== SITE FOOTER ===== */
+      .site-footer {
+        background: #111;
+        color: rgba(255, 255, 255, 0.55);
+        text-align: center;
+        padding: 30px 20px;
+        font-size: 0.85rem;
+      }
+      .site-footer .logo {
+        color: var(--wood);
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+      }
+
+      /* ===== RESPONSIVE NAV ===== */
+      @media (max-width: 640px) {
+        nav {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header>
+      <div class="logo">☖ Micro<span>Cosmos</span></div>
+      <nav>
+        <a href="#about">教室について</a>
+        <a href="#curriculum">カリキュラム</a>
+        <a href="#price">料金</a>
+        <a href="#faq">FAQ</a>
+        <a
+          href="#trial"
+          style="
+            background: var(--accent);
+            color: #fff;
+            padding: 7px 18px;
+            border-radius: 100px;
+            font-weight: 700;
+          "
+          >無料体験</a
+        >
+      </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-badge">将棋 × プログラミング</div>
+        <h1>
+          <em>考える力</em>が、<br />
+          <span class="code-accent">未来のコード</span>になる。
+        </h1>
+        <p class="hero-sub">
+          詰将棋の名作「ミクロコスモス」から生まれた教室。<br />
+          将棋で磨いた論理力を、プログラミングで世界に放つ。<br />
+          小学3年生から大人まで、初心者大歓迎。
+        </p>
+        <div class="hero-cta">
+          <a href="#trial" class="btn btn-primary"
+            >無料体験レッスンに申し込む</a
+          >
+          <a href="#about" class="btn btn-secondary">教室について詳しく見る</a>
+        </div>
+      </div>
+      <div class="hero-scroll">▼ SCROLL</div>
+    </section>
+
+    <!-- ===== ORIGIN ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">NAME ORIGIN</span>
+          「ミクロコスモス」の由来
+        </h2>
+        <p class="section-lead">その名は、将棋史に残る伝説の詰将棋から。</p>
+
+        <div class="origin-wrap">
+          <div class="origin-text">
+            <p>
+              <strong>「ミクロコスモス」</strong
+              >は、詰将棋作家・<strong>橋本孝治</strong>が創作した
+              1525手詰の超大作。将棋盤という小さな宇宙の中に、
+              無限の論理と美しさが宿ることを証明した不朽の名作です。
+            </p>
+            <p>
+              私たちの教室も同じ。画面やプログラムという
+              「小さな宇宙（ミクロコスモス）」の中で、
+              子どもたちが論理の美しさに気づき、創造の喜びを感じてほしい。
+              そんな想いを、この名前に込めました。
+            </p>
+            <div class="quote-box">
+              「将棋盤のマス目は81。でもその中に広がる宇宙は、無限大。」
+              <cite>― MicroCosmos 教室理念より</cite>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY SHOGI × PROGRAMMING ===== -->
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">SYNERGY</span>
+          将棋 × プログラミングの<br />相性が抜群な理由
+        </h2>
+        <p class="section-lead">
+          どちらも「先を読む力」「論理力」「問題解決力」が核心です。
+        </p>
+
+        <div class="synergy-grid">
+          <div class="synergy-card">
+            <div class="synergy-icon">🔍</div>
+            <h3>先読み ＝ アルゴリズム思考</h3>
+            <p>
+              将棋で「3手先を読む」感覚は、プログラムの「分岐・ループ」を設計する思考と同じ。将棋経験者はアルゴリズムを直感的に理解します。
+            </p>
+          </div>
+          <div class="synergy-card">
+            <div class="synergy-icon">🧩</div>
+            <h3>詰将棋 ＝ デバッグ力</h3>
+            <p>
+              詰将棋は「唯一の正解へ論理的にたどり着く」訓練。プログラムのバグを追う粘り強さも、この習慣から育まれます。
+            </p>
+          </div>
+          <div class="synergy-card">
+            <div class="synergy-icon">🌟</div>
+            <h3>定跡研究 ＝ コード設計力</h3>
+            <p>
+              将棋の「定跡」を学ぶように、プログラムの「設計パターン」を覚える。将棋で培った「体系的学習」がそのまま活きます。
+            </p>
+          </div>
+          <div class="synergy-card">
+            <div class="synergy-icon">🎯</div>
+            <h3>集中力・忍耐力</h3>
+            <p>
+              将棋は長考・反省・再挑戦の繰り返し。プログラミングも同じ。どちらも「諦めない力」を同時に養います。
+            </p>
+          </div>
+          <div class="synergy-card">
+            <div class="synergy-icon">🤝</div>
+            <h3>対局 ＝ ペアプログラミング</h3>
+            <p>
+              将棋で相手を読む力は、チーム開発で仲間の意図を読む力に直結。コミュニケーション能力も同時に育ちます。
+            </p>
+          </div>
+          <div class="synergy-card">
+            <div class="synergy-icon">🚀</div>
+            <h3>創造力の爆発</h3>
+            <p>
+              将棋の「新手」を生み出すように、プログラムで「新しいものを作る」喜び。論理×創造の掛け算が、無限の可能性を開きます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">FEATURES</span>
+          MicroCosmosの5つの特徴
+        </h2>
+        <p class="section-lead">
+          初心者でも安心。将棋会館ならではの環境で本物の思考力を。
+        </p>
+
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-num">01</div>
+            <div>
+              <h3>将棋会館という唯一無二の学習環境</h3>
+              <p>
+                福岡将棋会館内という、静かで集中できる特別な空間。将棋の落ち着いた空気が、深い思考をサポートします。
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">02</div>
+            <div>
+              <h3>Scratchで始めるプログラミング</h3>
+              <p>
+                ビジュアルプログラミング言語「Scratch」を使用。文字が読めなくても始められる直感的な設計で、初心者でも楽しくスタート。
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">03</div>
+            <div>
+              <h3>3分野のプロが融合した講師陣</h3>
+              <p>
+                塾講師・プログラマー・将棋指導員が連携。教え方・技術・将棋文化、すべての視点から学びをデザインします。
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">04</div>
+            <div>
+              <h3>小学生〜大人まで同じ場で学べる</h3>
+              <p>
+                年齢・レベルに合わせた個別対応カリキュラム。子どもも大人も、自分のペースで無理なく成長できます。
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">05</div>
+            <div>
+              <h3>将棋を知らなくてもOK</h3>
+              <p>
+                プログラミングだけを学びたい方も大歓迎。将棋をきっかけに出会う論理思考のエッセンスをやさしく取り入れます。
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-num">06</div>
+            <div>
+              <h3>オンライン受講対応</h3>
+              <p>
+                遠方の方もご安心ください。Zoom等を使ったオンラインレッスンで、全国どこからでも参加できます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CURRICULUM ===== -->
+    <section class="section section-alt" id="curriculum">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">CURRICULUM</span>
+          カリキュラム紹介
+        </h2>
+        <p class="section-lead">
+          Scratchを軸に、3つのステージで「作れる力」を段階的に育てます。
+        </p>
+
+        <div class="curriculum-stages">
+          <div class="stage-card stage-1">
+            <div class="stage-header">🌱 Stage 1 ／ 基本</div>
+            <div class="stage-body">
+              <ul>
+                <li>Scratchの画面を知ろう</li>
+                <li>キャラクターを動かしてみよう</li>
+                <li>くり返しと条件分岐を学ぶ</li>
+                <li>将棋の駒をプログラムで動かそう</li>
+                <li>初めての「ゲームっぽい作品」を完成させよう</li>
+              </ul>
+            </div>
+          </div>
+          <div class="stage-card stage-2">
+            <div class="stage-header">⚡ Stage 2 ／ 応用</div>
+            <div class="stage-body">
+              <ul>
+                <li>変数とスコアを使いこなす</li>
+                <li>リストとデータ構造を学ぶ</li>
+                <li>クイズゲームを作ろう</li>
+                <li>将棋×プログラミングのミニゲーム制作</li>
+                <li>友達と作品を共有・発表しよう</li>
+              </ul>
+            </div>
+          </div>
+          <div class="stage-card stage-3">
+            <div class="stage-header">🚀 Stage 3 ／ 発展</div>
+            <div class="stage-body">
+              <ul>
+                <li>オリジナルゲームを企画・設計</li>
+                <li>AIと機械学習に触れてみよう（ML4Kids）</li>
+                <li>Pythonへの入り口を体験</li>
+                <li>将棋AIの仕組みを学ぶ</li>
+                <li>作品発表会で成果を披露</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center">
+          <div class="scratch-badge">
+            🐱 全カリキュラムはScratch（無料ツール）を使用。追加費用なし！
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TARGET ===== -->
+    <section class="section section-dark">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">FOR WHOM</span>
+          こんな方に来てほしい
+        </h2>
+        <p class="section-lead">
+          将棋が好きな人も、プログラミングが気になる人も、全員大歓迎。
+        </p>
+
+        <div class="target-grid">
+          <div class="target-card">
+            <div class="t-icon">🎒</div>
+            <h3>小学3年生〜</h3>
+            <p>
+              プログラミングが初めてのお子様でも安心。将棋の楽しさを通じて論理的思考の土台を作ります。
+            </p>
+          </div>
+          <div class="target-card">
+            <div class="t-icon">📚</div>
+            <h3>中学生・高校生</h3>
+            <p>
+              受験にも役立つ論理力・数学的思考を強化。将棋部の生徒さんはさらに相性バツグンです。
+            </p>
+          </div>
+          <div class="target-card">
+            <div class="t-icon">👔</div>
+            <h3>大人の方</h3>
+            <p>
+              教養・趣味として、または副業スキルとして。将棋が趣味の方もそうでない方も、一生ものの力を身につけます。
+            </p>
+          </div>
+          <div class="target-card">
+            <div class="t-icon">♟️</div>
+            <h3>将棋が好きな人</h3>
+            <p>
+              将棋で培った「先読み力」をそのままプログラミングに活かせます。好きなことを武器にしよう。
+            </p>
+          </div>
+          <div class="target-card">
+            <div class="t-icon">💻</div>
+            <h3>プログラミングに<br />興味がある人</h3>
+            <p>
+              「難しそう…」という不安は不要。将棋的な発想で、プログラミングが直感的に理解できるカリキュラムです。
+            </p>
+          </div>
+          <div class="target-card">
+            <div class="t-icon">👨‍👩‍👦</div>
+            <h3>親子で学びたい家庭</h3>
+            <p>
+              親子で同じ教室で学べる環境。将棋もプログラミングも、共通の話題として家族の絆を深めます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STYLE ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">STUDY STYLE</span>
+          受講スタイル
+        </h2>
+        <p class="section-lead">
+          オンラインでも、会館でも。あなたに合ったスタイルで学べます。
+        </p>
+
+        <div class="style-grid">
+          <div class="style-card online">
+            <h3><span>💻</span>将棋会館で</h3>
+            <ul>
+              <li><span class="check">✓</span> 教室のPCをお使いいただけます</li>
+              <li>
+                <span class="check">✓</span>
+                将棋会館ならではの静かで集中できる環境
+              </li>
+              <li><span class="check">✓</span> スタッフがPC操作をサポート</li>
+              <li>
+                <span class="check">✓</span> 休憩時間に将棋を指すことも可能
+              </li>
+            </ul>
+          </div>
+          <div class="style-card offline">
+            <h3><span>🏯</span>ご自宅から</h3>
+            <ul>
+              <li>
+                <span class="check" style="color: var(--wood)">✓</span>
+                通学・送迎不要
+              </li>
+              <li>
+                <span class="check" style="color: var(--wood)">✓</span>
+                ご自分のPCで
+              </li>
+              <li>
+                <span class="check" style="color: var(--wood)">✓</span>
+                一番落ち着く環境で
+              </li>
+              <li>
+                <span class="check" style="color: var(--wood)">✓</span>
+                全国どこからでも参加できます
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VENUE ===== -->
+    <section class="section section-alt" id="venue">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">VENUE</span>
+          大野城 福岡将棋会館
+        </h2>
+        <p class="section-lead">
+          ミクロコスモスの拠点は、将棋文化が息づく特別な場所です。
+        </p>
+
+        <div class="venue-wrap">
+          <div class="venue-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12923.142183719356!2d130.46217497114043!3d33.5415588558949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541909d3e1829eb%3A0x64fbbf5f2e7f2de3!2z56aP5bKh5bCG5qOL5Lya6aSo!5e0!3m2!1sja!2sjp!4v1778733298972!5m2!1sja!2sjp"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="venue-info">
+            <h3>福岡将棋会館</h3>
+            <p><strong>住所：</strong>福岡県大野城市栄町1丁目3-13</p>
+            <p><strong>アクセス：</strong>西鉄桜並木駅、春日原駅より徒歩圏内</p>
+            <p>
+              <strong>駐車場：</strong
+              >3台あります。空いていない場合は、近隣コインパーキングをご利用ください
+            </p>
+            <p style="margin-top: 16px">
+              将棋会館ならではの落ち着いた雰囲気の中で、プログラミングを学べます。盤・駒・棋書に囲まれた環境が、論理的思考をさらに高めてくれます。
+            </p>
+            <div style="margin-top: 16px">
+              <span class="venue-tag">将棋会館内</span>
+              <span class="venue-tag">集中できる環境</span>
+              <span class="venue-tag">将棋体験も可</span>
+              <span class="venue-tag">初心者歓迎</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSTRUCTORS ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">INSTRUCTORS</span>
+          講師紹介
+        </h2>
+        <p class="section-lead">
+          3つの専門性が融合。それがMicroCosmosの強みです。
+        </p>
+
+        <div class="instructors-grid">
+          <div class="instructor-card">
+            <div class="instructor-avatar av-1">📖</div>
+            <div class="instructor-role">塾講師</div>
+            <h3>わかりやすく、ていねいに</h3>
+            <p>
+              長年の学習指導経験を持つ塾講師が担当。
+              受講生の「わからない」を見逃さず、
+              一人ひとりのペースに合わせて進めます。
+              学習習慣の作り方もサポートします。
+            </p>
+          </div>
+          <div class="instructor-card">
+            <div class="instructor-avatar av-2">💻</div>
+            <div class="instructor-role">プログラマー</div>
+            <h3>現場の技術を、わかりやすい言葉で</h3>
+            <p>
+              現役のプログラマーが、「なぜそう動くのか」を本質から教えます。
+              将来に活きる本物の技術力を育てます。
+            </p>
+          </div>
+          <div class="instructor-card">
+            <div class="instructor-avatar av-3">♟</div>
+            <div class="instructor-role">将棋指導員</div>
+            <h3>盤上の哲学をプログラミングへ</h3>
+            <p>
+              日本将棋連盟公認の指導員が監修。
+              将棋の「考え方」「読む力」をプログラミング学習に
+              接続するオリジナルメソッドを開発。
+              将棋未経験者にも将棋の魅力をやさしく伝えます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRICING ===== -->
+    <section class="section section-alt" id="price">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">PRICING</span>
+          料金プラン
+        </h2>
+        <p class="section-lead">
+          まずは無料体験から。続けやすい料金設計を心がけています。
+        </p>
+
+        <div class="pricing-grid">
+          <div class="plan-card plan-1">
+            <div class="plan-header">
+              <div class="plan-name">ライトプラン</div>
+              <div class="plan-price">¥8,800<sub>/月</sub></div>
+              <div class="plan-note">月2回 / 60分</div>
+            </div>
+            <div class="plan-footer">
+              <a href="#trial" class="btn-plan">このプランで体験する</a>
+            </div>
+          </div>
+
+          <div class="plan-card plan-2 popular">
+            <div class="plan-header">
+              <div class="popular-badge">🔥 一番人気</div>
+              <div class="plan-name">スタンダードプラン</div>
+              <div class="plan-price">¥14,800<sub>/月</sub></div>
+              <div class="plan-note">月4回 / 60分</div>
+            </div>
+            <div class="plan-footer">
+              <a href="#trial" class="btn-plan">このプランで体験する</a>
+            </div>
+          </div>
+
+          <div class="plan-card plan-3">
+            <div class="plan-header">
+              <div class="plan-name">プレミアムプラン</div>
+              <div class="plan-price">¥25,800<sub>/月</sub></div>
+              <div class="plan-note">月8回 + 個別補講1回</div>
+            </div>
+            <div class="plan-footer">
+              <a href="#trial" class="btn-plan">このプランで体験する</a>
+            </div>
+          </div>
+        </div>
+
+        <p class="pricing-note">
+          ※ 料金はすべて税込です。兄弟・家族割引（10%OFF）あり。<br />
+          ※ お友達紹介特典で、アマゾンギフトをプレゼントいたします！<br />
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section" id="faq">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="en">FAQ</span>
+          よくある質問
+        </h2>
+        <p class="section-lead">はじめての方からよく寄せられる質問です。</p>
+
+        <div class="faq-list">
+          <details>
+            <summary>
+              <span class="faq-q">Q.</span>将棋を全く知らなくても大丈夫ですか？
+            </summary>
+            <div class="faq-body">
+              もちろん大丈夫です！プログラミングのみを目的として参加される方も多数おられます。将棋の知識はまったく不要です。カリキュラムの中で将棋の「考え方のエッセンス」を取り入れていますので、ゲームとして楽しみながら自然に身についていきます。
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-q">Q.</span
+              >プログラミングが全くの初心者でも受講できますか？
+            </summary>
+            <div class="faq-body">
+              はい、初心者専用のステップ設計があります。まずはScratchの画面に慣れるところからスタートし、キャラクターを動かす楽しさを体験します。「難しいもの」ではなく「楽しいゲーム」として学べる環境を整えています。
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-q">Q.</span>何歳から受講できますか？
+            </summary>
+            <div class="faq-body">
+              基本的には小学3年生（8〜9歳）以上を推奨していますが、ひらがな・カタカナが読めてPCやタブレットに興味があれば、小学1〜2年生のお子様も相談の上で受け入れています。まずはお気軽にお問い合わせください。
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-q">Q.</span>使用する機材・道具は何が必要ですか？
+            </summary>
+            <div class="faq-body">
+              インターネットに接続できるPC・Mac・タブレット（iPad等）があれば大丈夫です。Scratchはブラウザ上で動作する無料のツールのため、特別なソフトウェアの購入は不要です。スマートフォンは操作性の都合上、非推奨です。
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-q">Q.</span
+              >オンラインと対面、どちらがおすすめですか？
+            </summary>
+            <div class="faq-body">
+              どちらも同じカリキュラムで進めますので、学習内容に差はありません。自宅から参加したい方・遠方の方にはオンラインを、将棋会館の雰囲気の中で学びたい方・友達と一緒に参加したい方には対面をおすすめします。両方を組み合わせることも可能です。
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-q">Q.</span>体験レッスンはどんな内容ですか？
+            </summary>
+            <div class="faq-body">
+              約60分間の無料体験です。Scratchを実際に使ってキャラクターを動かしてみる体験と、将棋の「考え方」がプログラミングにどう活きるかを楽しく体験していただきます。保護者の方の見学も大歓迎です。体験後に入会のプレッシャーは一切ありません。
+            </div>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-q">Q.</span
+              >途中でレベルアップ・変更はできますか？
+            </summary>
+            <div class="faq-body">
+              もちろんです。受講を進める中で、お子様の成長に合わせてステージを変更したり、プランをアップグレードすることができます。講師が定期的に進捗を確認し、最適なカリキュラムをご提案します。
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" id="trial">
+      <div class="container">
+        <h2>まず、60分だけ試してみてください。</h2>
+        <p>
+          無料体験レッスンは随時受付中。<br />
+          「楽しそう」その直感が、最高のスタートです。
+        </p>
+        <a
+          href="mailto:info@microcosmos-shogi.jp?subject=無料体験レッスン申込"
+          class="btn btn-primary"
+        >
+          🎮 無料体験レッスンに申し込む（完全無料）
+        </a>
+        <p class="cta-detail">
+          お申し込み後、2営業日以内にご連絡いたします。<br />
+          メール・LINEどちらでもお気軽にどうぞ。
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="logo">☖ MicroCosmos（ミクロコスモス）</div>
+      <p>将棋 × プログラミング教室｜福岡将棋会館内（大野城市栄町1丁目3-13）</p>
+      <p style="margin-top: 6px">
+        <a href="mailto:info@microcosmos-shogi.jp" style="color: var(--wood)"
+          >imagesandwords2025@iaw-ukiha.com</a
+        >
+      </p>
+      <p style="margin-top: 12px; font-size: 0.8rem; opacity: 0.5">
+        © 2025 MicroCosmos. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

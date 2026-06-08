@@ -45,9 +45,9 @@ function shuffleChoices(q: Question): Question {
 
 interface ExplanationEntry {
   lead: string
-  steps?: string[]
-  common_mistakes?: string[]
-  tips?: string[]
+  steps?: string | string[]
+  common_mistakes?: string | string[]
+  tips?: string | string[]
 }
 type Explanations = Record<string, ExplanationEntry>
 
@@ -861,15 +861,21 @@ export default function QuizPage() {
               if (!exp) {
                 return <p className={styles.expNoData}>（この問題の解説は準備中です）</p>
               }
+              // string/string[] 両形式に対応（データ不整合への防御）
+              const toArr = (v?: string | string[]): string[] =>
+                Array.isArray(v) ? v : v ? [v] : []
+              const steps         = toArr(exp.steps)
+              const commonMistakes = toArr(exp.common_mistakes)
+              const tips          = toArr(exp.tips)
               return (
                 <div className={styles.expBody}>
                   {/* リード文 */}
                   <p className={styles.expLead}><MathText text={exp.lead} /></p>
 
                   {/* ステップ */}
-                  {(exp.steps ?? []).length > 0 && (
+                  {steps.length > 0 && (
                     <div className={styles.expSteps}>
-                      {(exp.steps ?? []).map((s, i) => (
+                      {steps.map((s, i) => (
                         <div key={i} className={styles.expStep}>
                           <span className={styles.expStepNum}>{i + 1}</span>
                           <span className={styles.expStepText}><MathText text={s} /></span>
@@ -879,20 +885,20 @@ export default function QuizPage() {
                   )}
 
                   {/* よくある間違い */}
-                  {(exp.common_mistakes ?? []).length > 0 && (
+                  {commonMistakes.length > 0 && (
                     <div className={styles.expMistakes}>
                       <p className={styles.expMistakesLabel}>⚠ よくある間違い</p>
-                      {(exp.common_mistakes ?? []).map((m, i) => (
+                      {commonMistakes.map((m, i) => (
                         <p key={i} className={styles.expMistakeItem}><MathText text={m} /></p>
                       ))}
                     </div>
                   )}
 
                   {/* ポイント */}
-                  {(exp.tips ?? []).length > 0 && (
+                  {tips.length > 0 && (
                     <div className={styles.expTips}>
                       <p className={styles.expTipsLabel}>💡 ポイント</p>
-                      {(exp.tips ?? []).map((t, i) => (
+                      {tips.map((t, i) => (
                         <p key={i} className={styles.expTipItem}><MathText text={t} /></p>
                       ))}
                     </div>
