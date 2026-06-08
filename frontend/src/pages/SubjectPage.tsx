@@ -225,12 +225,8 @@ export default function SubjectPage() {
   return (
     <div className={styles.page}>
 
-      {/* ══ DEBUG BAR (一時的) ══ */}
-      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 9999, background: '#c00', color: '#fff', fontSize: '11px', padding: '4px 8px', fontFamily: 'monospace' }}>
-        uid={user?.id?.slice(0,8)} | school={String(profile?.school_type)} | loading={String(profileLoading)} | err={String(profileError)} | needs={String(needsSchoolType)}
-      </div>
 
-      {/* ══ ヘッダー ══ */}
+{/* ══ ヘッダー ══ */}
       <header className={styles.header} style={{ marginTop: '24px' }}>
         <div className={styles.headerLeft}>
           <Monogram size={28} glyph="MA" italic />
