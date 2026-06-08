@@ -37,19 +37,32 @@ export default function SchoolTypeSelector({ embedded, onSelect, userId, onSaved
     if (!userId) return
     setLoading(true)
     setError(null)
-    const { error: err } = await supabase
+    // まず UPDATE を試みる（既存プロフィール）
+    const { error: updateErr, count } = await supabase
       .from('user_profiles')
       .update({ school_type: selected })
       .eq('id', userId)
+      .select('id', { count: 'exact', head: true })
+
+    // プロフィールが存在しない場合は最低限 INSERT する
+    if (!updateErr && count === 0) {
+      await supabase.from('user_profiles').insert({
+        id: userId,
+        username: 'ユーザー',
+        avatar_id: 'cat',
+        school_type: selected,
+      })
+    }
     setLoading(false)
-    if (err) {
+    if (updateErr) {
       setError('保存に失敗しました。もう一度お試しください')
       return
     }
     // キャッシュを更新して再レンダリングを促す
     queryClient.setQueryData<UserProfile>(['profile', userId], prev =>
-      prev ? { ...prev, school_type: selected } : prev
+      prev ? { ...prev, school_type: selected } : { ...({} as UserProfile), id: userId, school_type: selected }
     )
+    queryClient.invalidateQueries({ queryKey: ['profile', userId] })
     onSaved?.()
   }
 

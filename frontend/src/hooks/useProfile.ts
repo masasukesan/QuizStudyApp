@@ -13,7 +13,10 @@ export function useProfile(userId: string | undefined) {
   const query = useQuery<UserProfile>({
     queryKey: ['profile', userId],
     enabled: !!userId,
-    staleTime: 30_000,
+    staleTime: 0,
+    refetchOnMount: 'always',
+    retry: 5,
+    retryDelay: 500,
     queryFn: async () => {
       const { data, error } = await supabase
         .from('user_profiles')

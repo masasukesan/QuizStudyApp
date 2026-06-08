@@ -67,13 +67,17 @@ function SchoolTypeGuard({ children }: { children: React.ReactNode }) {
   const { user } = useAuth()
   const { data: profile, isLoading } = useProfile(user?.id)
 
-  if (isLoading || !profile) return <>{children}</>
+  // まだ読み込み中なら待つ
+  if (isLoading) return <>{children}</>
 
-  if (profile.school_type == null) {
+  // プロフィールが取得できた場合: school_type 未設定なら選択させる
+  // プロフィールが取得できなかった場合（エラー・未作成）も選択させる
+  if (!profile || profile.school_type == null) {
+    if (!user) return <>{children}</>
     return (
       <>
         {children}
-        <SchoolTypeSelector userId={user!.id} />
+        <SchoolTypeSelector userId={user.id} />
       </>
     )
   }
