@@ -191,11 +191,12 @@ export default function SubjectPage() {
   async function handleSchoolSelect(type: 'junior_high' | 'high_school') {
     if (!user) return
     setSchoolSaving(true)
-    const { error, count } = await supabase
+    const { data: updatedRows, error } = await supabase
       .from('user_profiles')
       .update({ school_type: type })
       .eq('id', user.id)
-      .select('id', { count: 'exact', head: true })
+      .select('id')
+    const count = updatedRows?.length ?? 0
     if (!error && count === 0) {
       await supabase.from('user_profiles').insert({
         id: user.id, username: 'ユーザー', avatar_id: 'cat', school_type: type,

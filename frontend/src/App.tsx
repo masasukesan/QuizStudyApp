@@ -13,6 +13,7 @@ import MagicCircle from './components/MagicCircle'
 import SplashScreen from './components/SplashScreen'
 import { supabase } from './lib/supabase'
 import { PENDING_PROFILE_KEY } from './pages/LoginPage'
+import type { SchoolType } from './components/SchoolTypeSelector'
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { user, loading } = useAuth()
@@ -46,7 +47,7 @@ function PendingProfileHandler() {
       username:      parsed.username,
       avatar_id:     parsed.avatarId,
       recovery_code: parsed.recoveryCode,
-      school_type:   parsed.schoolType,
+      school_type:   parsed.schoolType as SchoolType,
     }).then(({ error }) => {
       if (!error || error.code === '23505') {
         // 成功 or 既存（重複）= どちらも OK

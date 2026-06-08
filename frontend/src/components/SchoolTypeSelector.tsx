@@ -39,11 +39,12 @@ export default function SchoolTypeSelector({ embedded, onSelect, userId, onSaved
     setLoading(true)
     setError(null)
     // まず UPDATE を試みる（既存プロフィール）
-    const { error: updateErr, count } = await supabase
+    const { data: updatedRows, error: updateErr } = await supabase
       .from('user_profiles')
       .update({ school_type: selected })
       .eq('id', userId)
-      .select('id', { count: 'exact', head: true })
+      .select('id')
+    const count = updatedRows?.length ?? 0
 
     // プロフィールが存在しない場合は最低限 INSERT する
     if (!updateErr && count === 0) {
