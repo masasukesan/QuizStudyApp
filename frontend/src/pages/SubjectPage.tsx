@@ -189,10 +189,15 @@ export default function SubjectPage() {
   const expRemain   = Math.max(0, nextLvExp - currentExp)
   const initial     = profile?.username?.[0]?.toUpperCase() ?? 'S'
 
+  /* ── 学校種別変更モーダル ── */
+  const [showSchoolSelector, setShowSchoolSelector] = useState(false)
+
   /* ── school_type でコースを絞り込む ── */
   const visibleCourses = profile?.school_type
     ? MATH_COURSES.filter(c => c.schoolType === profile.school_type)
     : MATH_COURSES
+
+  const schoolTypeLabel = profile?.school_type === 'junior_high' ? '中学生' : profile?.school_type === 'high_school' ? '高校生' : null
 
   return (
     <div className={styles.page}>
@@ -206,9 +211,20 @@ export default function SubjectPage() {
             <p className={styles.headerAnno}>数学専門演習アプリ</p>
           </div>
         </div>
-        <button className={styles.logoutBtn} onClick={handleLogout}>
-          退室する
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          {schoolTypeLabel && (
+            <button
+              className={styles.logoutBtn}
+              onClick={() => setShowSchoolSelector(true)}
+              style={{ fontSize: '0.75rem', opacity: 0.7 }}
+            >
+              {schoolTypeLabel}
+            </button>
+          )}
+          <button className={styles.logoutBtn} onClick={handleLogout}>
+            退室する
+          </button>
+        </div>
       </header>
 
       {/* ══ コンテンツ統計バナー ══ */}
@@ -323,11 +339,12 @@ export default function SubjectPage() {
         />
       )}
 
-      {/* ══ 学校種別未設定モーダル ══
-           profile が取得できた＆school_type未設定、
-           または profile が存在しない（行なし・エラー）のどちらでも表示する */}
-      {user && !profileLoading && (profileError || profile?.school_type == null) && (
-        <SchoolTypeSelector userId={user.id} />
+      {/* ══ 学校種別モーダル（未設定 or 変更ボタン押下） ══ */}
+      {user && !profileLoading && (profileError || profile?.school_type == null || showSchoolSelector) && (
+        <SchoolTypeSelector
+          userId={user.id}
+          onSaved={() => setShowSchoolSelector(false)}
+        />
       )}
     </div>
   )

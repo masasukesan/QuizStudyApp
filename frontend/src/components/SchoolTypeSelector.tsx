@@ -4,6 +4,7 @@
  * ・ログイン済みで school_type 未設定の既存ユーザー向けフルスクリーンモーダル
  */
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import { supabase } from '../lib/supabase'
 import { useQueryClient } from '@tanstack/react-query'
 import type { UserProfile } from '../types/database'
@@ -133,13 +134,15 @@ export default function SchoolTypeSelector({ embedded, onSelect, userId, onSaved
 
   if (embedded) return inner
 
-  /* フルスクリーンモーダル（既存ユーザー向け） */
-  return (
+  /* フルスクリーンモーダル（既存ユーザー向け）
+     createPortal で document.body に直接マウントし stacking context の影響を排除 */
+  return createPortal(
     <div className={styles.overlay}>
       <div className={styles.modal}>
         <div className={styles.modalDeco} aria-hidden="true">◆</div>
         {inner}
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
