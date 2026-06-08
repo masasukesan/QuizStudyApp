@@ -235,15 +235,15 @@ export default function SubjectPage() {
             <p className={styles.headerAnno}>数学専門演習アプリ</p>
           </div>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
           <button
             className={styles.logoutBtn}
             onClick={() => setSelectingSchool(true)}
-            style={{ fontSize: '0.75rem', opacity: 0.7 }}
+            style={{ fontSize: '0.75rem', opacity: 0.7, whiteSpace: 'nowrap', padding: '4px 8px' }}
           >
             コース変更
           </button>
-          <button className={styles.logoutBtn} onClick={handleLogout}>
+          <button className={styles.logoutBtn} onClick={handleLogout} style={{ whiteSpace: 'nowrap', padding: '4px 8px' }}>
             退室する
           </button>
         </div>
