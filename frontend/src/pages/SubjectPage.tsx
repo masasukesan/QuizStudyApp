@@ -5,6 +5,7 @@ import { supabase } from '../lib/supabase'
 import { useAuth } from '../hooks/useAuth'
 import { RECOVERY_CODE_KEY } from './LoginPage'
 import { Flourish, Monogram, CornerDiamonds } from '../components/LibraryUI'
+import SchoolTypeSelector from '../components/SchoolTypeSelector'
 import type { UserProfile } from '../types/database'
 import styles from './SubjectPage.module.css'
 
@@ -319,27 +320,10 @@ export default function SubjectPage() {
           }}
         />
       )}
-    </div>
-  )
-}
-          </div>
-          <span className={styles.eurekaArrow}>›</span>
-        </a>
 
-        {/* ══ フッター ══ */}
-        <div className={styles.footer}>
-          <Flourish width={70} thickness={0.4} diamondSize={4} color="var(--sq-burgundy-hair)" />
-          <p className={styles.footerLatin}><em>Nulla dies sine linea</em></p>
-          <p className={styles.footerJp}>一日一線——毎日続けよ</p>
-        </div>
-      </div>
-
-      {/* ══ 復元コードモーダル ══ */}
-      {newRecoveryCode && (
-        <RecoveryModal
-          code={newRecoveryCode}
-          onClose={() => setNewRecoveryCode(null)}
-        />
+      {/* ══ 学校種別未設定モーダル ══ */}
+      {profile && profile.school_type == null && user && (
+        <SchoolTypeSelector userId={user.id} />
       )}
     </div>
   )

@@ -1,6 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from './hooks/useAuth'
-import { useProfile } from './hooks/useProfile'
 import { useState, useCallback, useEffect } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
 import LoginPage from './pages/LoginPage'
@@ -12,7 +11,6 @@ import RankingPage from './pages/RankingPage'
 import BottomNav from './components/BottomNav'
 import MagicCircle from './components/MagicCircle'
 import SplashScreen from './components/SplashScreen'
-import SchoolTypeSelector from './components/SchoolTypeSelector'
 import { supabase } from './lib/supabase'
 import { PENDING_PROFILE_KEY } from './pages/LoginPage'
 
@@ -62,26 +60,8 @@ function PendingProfileHandler() {
 }
 
 /* ── 学校種別未設定ガード ──
-   ログイン済みユーザーが school_type を持っていない場合に選択モーダルを表示する */
+   school_type の選択は SubjectPage が直接担当するため、ここでは素通しする */
 function SchoolTypeGuard({ children }: { children: React.ReactNode }) {
-  const { user } = useAuth()
-  const { data: profile, isLoading } = useProfile(user?.id)
-
-  // まだ読み込み中なら待つ
-  if (isLoading) return <>{children}</>
-
-  // プロフィールが取得できた場合: school_type 未設定なら選択させる
-  // プロフィールが取得できなかった場合（エラー・未作成）も選択させる
-  if (!profile || profile.school_type == null) {
-    if (!user) return <>{children}</>
-    return (
-      <>
-        {children}
-        <SchoolTypeSelector userId={user.id} />
-      </>
-    )
-  }
-
   return <>{children}</>
 }
 
