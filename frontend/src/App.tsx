@@ -1,7 +1,8 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from './hooks/useAuth'
 import { useProfile } from './hooks/useProfile'
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
+import { useQueryClient } from '@tanstack/react-query'
 import LoginPage from './pages/LoginPage'
 import SubjectPage from './pages/SubjectPage'
 import CoursePage from './pages/CoursePage'
@@ -12,6 +13,8 @@ import BottomNav from './components/BottomNav'
 import MagicCircle from './components/MagicCircle'
 import SplashScreen from './components/SplashScreen'
 import SchoolTypeSelector from './components/SchoolTypeSelector'
+import { supabase } from './lib/supabase'
+import { PENDING_PROFILE_KEY } from './pages/LoginPage'
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { user, loading } = useAuth()
@@ -23,6 +26,39 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
     )
   }
   return user ? <>{children}</> : <Navigate to="/login" replace />
+}
+
+/* ── 登録直後のプロフィール INSERT を確実に実行するハンドラ ──
+   signUp 後の認証状態変化によりページ遷移が発生しても、
+   sessionStorage の pending data を使って INSERT を完了させる */
+function PendingProfileHandler() {
+  const { user } = useAuth()
+  const queryClient = useQueryClient()
+
+  useEffect(() => {
+    if (!user) return
+    const raw = sessionStorage.getItem(PENDING_PROFILE_KEY)
+    if (!raw) return
+
+    let parsed: { username: string; avatarId: string; recoveryCode: string; schoolType: string }
+    try { parsed = JSON.parse(raw) } catch { sessionStorage.removeItem(PENDING_PROFILE_KEY); return }
+
+    supabase.from('user_profiles').insert({
+      id:            user.id,
+      username:      parsed.username,
+      avatar_id:     parsed.avatarId,
+      recovery_code: parsed.recoveryCode,
+      school_type:   parsed.schoolType,
+    }).then(({ error }) => {
+      if (!error || error.code === '23505') {
+        // 成功 or 既存（重複）= どちらも OK
+        sessionStorage.removeItem(PENDING_PROFILE_KEY)
+        queryClient.invalidateQueries({ queryKey: ['profile', user.id] })
+      }
+    })
+  }, [user?.id]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  return null
 }
 
 /* ── 学校種別未設定ガード ──
@@ -59,6 +95,7 @@ export default function App() {
   }
   return (
     <>
+      <PendingProfileHandler />
       {showSplash && <SplashScreen onDone={handleSplashDone} />}
       <MagicCircle />
       <SchoolTypeGuard>

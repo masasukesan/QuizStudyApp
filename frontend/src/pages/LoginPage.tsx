@@ -6,8 +6,9 @@ import styles from './LoginPage.module.css'
 
 type Step = 'login' | 'signup' | 'school_select'
 
-/* sessionStorage のキー（SubjectPage と共有） */
-export const RECOVERY_CODE_KEY = 'sq_new_recovery_code'
+/* sessionStorage のキー（SubjectPage / App と共有） */
+export const RECOVERY_CODE_KEY    = 'sq_new_recovery_code'
+export const PENDING_PROFILE_KEY  = 'sq_pending_profile'
 
 /* ══════════════════════════════════════════════════
    ユーザーネームから内部メアドを生成（決定論的）
@@ -256,32 +257,35 @@ export default function LoginPage() {
     const internalEmail = await usernameToInternalEmail(username)
     const code = generateRecoveryCode()
 
+    /* プロフィール情報を先に sessionStorage に保存
+       signUp 後に認証状態が変わりページ遷移が起きても
+       PendingProfileHandler が確実に INSERT する */
+    sessionStorage.setItem(PENDING_PROFILE_KEY, JSON.stringify({
+      username:      username.trim(),
+      avatarId:      'cat',
+      recoveryCode:  code,
+      schoolType,
+    }))
+    sessionStorage.setItem(RECOVERY_CODE_KEY, code)
+
     const { data, error: signupError } = await supabase.auth.signUp({ email: internalEmail, password })
-    if (signupError) { setError(translateError(signupError.message)); setLoading(false); return }
-    if (!data.user)  { setError('登録に失敗しました。もう一度お試しください'); setLoading(false); return }
-
-    const { error: profileError } = await supabase
-      .from('user_profiles')
-      .insert({
-        id:          data.user.id,
-        username:    username.trim(),
-        avatar_id:   'cat',
-        recovery_code: code,
-        school_type: schoolType,
-      })
-
-    if (profileError) {
-      if (profileError.code === '23505') {
-        setError('このユーザーネームはすでに使われています')
-        await supabase.auth.admin?.deleteUser(data.user.id).catch(() => null)
-      } else {
-        setError('プロフィールの作成に失敗しました: ' + profileError.message)
-      }
+    if (signupError) {
+      sessionStorage.removeItem(PENDING_PROFILE_KEY)
+      sessionStorage.removeItem(RECOVERY_CODE_KEY)
+      setError(translateError(signupError.message))
+      setLoading(false)
+      return
+    }
+    if (!data.user) {
+      sessionStorage.removeItem(PENDING_PROFILE_KEY)
+      sessionStorage.removeItem(RECOVERY_CODE_KEY)
+      setError('登録に失敗しました。もう一度お試しください')
       setLoading(false)
       return
     }
 
-    sessionStorage.setItem(RECOVERY_CODE_KEY, code)
+    /* signUp 成功 — ここからページ遷移が起きる可能性あり
+       プロフィール INSERT は PendingProfileHandler に委譲 */
     setLoading(false)
   }
 
