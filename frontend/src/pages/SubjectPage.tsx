@@ -221,7 +221,6 @@ export default function SubjectPage() {
 
   /* school_type が未設定かどうか（ロード完了後に判定） */
   const needsSchoolType = !profileLoading && (profileError || !profile?.school_type)
-  const schoolTypeLabel = profile?.school_type === 'junior_high' ? '中学生' : profile?.school_type === 'high_school' ? '高校生' : null
 
   return (
     <div className={styles.page}>
