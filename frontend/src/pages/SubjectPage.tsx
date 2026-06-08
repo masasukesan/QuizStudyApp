@@ -237,15 +237,13 @@ export default function SubjectPage() {
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {schoolTypeLabel && (
-            <button
-              className={styles.logoutBtn}
-              onClick={() => setSelectingSchool(true)}
-              style={{ fontSize: '0.75rem', opacity: 0.7 }}
-            >
-              {schoolTypeLabel}
-            </button>
-          )}
+          <button
+            className={styles.logoutBtn}
+            onClick={() => setSelectingSchool(true)}
+            style={{ fontSize: '0.75rem', opacity: 0.7 }}
+          >
+            コース変更
+          </button>
           <button className={styles.logoutBtn} onClick={handleLogout}>
             退室する
           </button>
@@ -378,7 +376,7 @@ export default function SubjectPage() {
         )}
 
         {/* ══ 塾導線バナー ══ */}
-        <a
+        {/* <a
           href="https://eureka-ukiha.com"
           className={styles.eurekaBanner}
           target="_blank"
@@ -393,7 +391,7 @@ export default function SubjectPage() {
             <p className={styles.eurekaDesc}>オンライン個別指導　お問い合わせはこちら</p>
           </div>
           <span className={styles.eurekaArrow}>›</span>
-        </a>
+        </a> */}
 
         {/* ══ フッター ══ */}
         <div className={styles.footer}>
