@@ -747,7 +747,6 @@ export default function QuizPage() {
         ))}
       </div>
 
-
       {/* ── 問題カード ── */}
       <div className={`${styles.questionCard} ${phase === 'answered' && !isCorrect ? styles.questionShake : ''}`}>
 
@@ -925,4 +924,17 @@ export default function QuizPage() {
 
             {/* ボタン群 */}
             <div className={styles.expBtnRow}>
-              <button className={styles.expCloseBtn} onClick={() => setPhase('reviewed
+              <button className={styles.expCloseBtn} onClick={() => setPhase('reviewed')}>
+                問題に戻る
+              </button>
+              <button className={styles.nextBtn} onClick={handleNextQuestion}>
+                {currentIndex + 1 >= totalQ ? '結果を見る' : '次の問題へ'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+    </div>
+  )
+}
