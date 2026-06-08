@@ -25,9 +25,9 @@ const MATH_COURSES: {
   { id: '2B', label: '数学Ⅱ・B', units: 38, questions: 1140, status: 'active', schoolType: 'high_school' },
   { id: 'C',  label: '数学Ｃ',   units: 11, questions: 330,  status: 'active', schoolType: 'high_school' },
   /* ── 中学数学 ── */
-  { id: '中1', label: '中学1年',  units: 7,  questions: 210,  status: 'active', schoolType: 'junior_high' },
-  { id: '中2', label: '中学2年',  units: 7,  questions: 210,  status: 'active', schoolType: 'junior_high' },
-  { id: '中3', label: '中学3年',  units: 8,  questions: 240,  status: 'active', schoolType: 'junior_high' },
+  { id: '中1', label: '1年生',  units: 7,  questions: 210,  status: 'active', schoolType: 'junior_high' },
+  { id: '中2', label: '2年生',  units: 7,  questions: 210,  status: 'active', schoolType: 'junior_high' },
+  { id: '中3', label: '3年生',  units: 8,  questions: 240,  status: 'active', schoolType: 'junior_high' },
 ]
 
 /* ── EXP テーブル ── */
@@ -254,13 +254,27 @@ export default function SubjectPage() {
 
       {/* ══ コンテンツ統計バナー ══ */}
       <div className={styles.statsBanner}>
-        <span className={styles.statsItem}>1A <em>44単元</em></span>
-        <span className={styles.statsDot}>·</span>
-        <span className={styles.statsItem}>2B <em>38単元</em></span>
-        <span className={styles.statsDot}>·</span>
-        <span className={styles.statsItem}>C <em>11単元</em></span>
-        <span className={styles.statsDot}>·</span>
-        <span className={styles.statsItem}><em>2,790問</em> 収録</span>
+        {profile?.school_type === 'junior_high' ? (
+          <>
+            <span className={styles.statsItem}>中1 <em>7単元</em></span>
+            <span className={styles.statsDot}>·</span>
+            <span className={styles.statsItem}>中2 <em>7単元</em></span>
+            <span className={styles.statsDot}>·</span>
+            <span className={styles.statsItem}>中3 <em>8単元</em></span>
+            <span className={styles.statsDot}>·</span>
+            <span className={styles.statsItem}><em>660問</em> 収録</span>
+          </>
+        ) : (
+          <>
+            <span className={styles.statsItem}>1A <em>44単元</em></span>
+            <span className={styles.statsDot}>·</span>
+            <span className={styles.statsItem}>2B <em>38単元</em></span>
+            <span className={styles.statsDot}>·</span>
+            <span className={styles.statsItem}>C <em>11単元</em></span>
+            <span className={styles.statsDot}>·</span>
+            <span className={styles.statsItem}><em>2,790問</em> 収録</span>
+          </>
+        )}
       </div>
 
       <div className={styles.inner}>
