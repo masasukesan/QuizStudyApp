@@ -26,7 +26,7 @@ type Difficulty = 'basic' | 'standard' | 'exam'
 const COURSE_LABEL: Record<string, string> = {
   '1A': '数学1A', '2B': '数学2B',
   '3': '数学3', 'C': '数学C', '_': '全単元',
-  '中1': '中学1年', '中2': '中学2年', '中3': '中学3年',
+  '中1': '1年生', '中2': '2年生', '中3': '3年生',
 }
 
 const UNIT_JP: Record<string, string> = {
@@ -83,7 +83,7 @@ const UNIT_JP: Record<string, string> = {
 
 const DIFFICULTY_META: Record<Difficulty, { jp: string; desc: string }> = {
   basic:    { jp: '基礎',   desc: '概念の理解・導入' },
-  standard: { jp: '標準',   desc: '共通テスト典型問題' },
+  standard: { jp: '標準',   desc: '頻出・典型問題' },
   exam:     { jp: '実戦',   desc: '応用・統合問題' },
 }
 
