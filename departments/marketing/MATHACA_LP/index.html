@@ -1498,7 +1498,8 @@
       const obs = new IntersectionObserver(
         (entries) => {
           entries.forEach((e) => {
-            if (e.isIntersecting) {
+            // ビューポート内 OR すでに上に通過済みの要素も表示
+            if (e.isIntersecting || e.boundingClientRect.bottom < 0) {
               e.target.classList.add("visible");
               obs.unobserve(e.target);
             }
@@ -1515,10 +1516,4 @@
           const isOpen = item.classList.contains("open");
           document
             .querySelectorAll(".faq-item")
-            .forEach((i) => i.classList.remove("open"));
-          if (!isOpen) item.classList.add("open");
-        });
-      });
-    </script>
-  </body>
-</html>
+            .forEach((i) => i.classList.r
