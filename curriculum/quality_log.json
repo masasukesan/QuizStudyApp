@@ -301,13 +301,6 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/1A/numbers-and-expressions/polynomial-operations",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/1A/numbers-and-expressions/real-numbers",
     "status": "passed",
     "checked_at": "2026-06-05",
@@ -899,6 +892,13 @@
     "path": "curriculum/math/中1/functions/proportional-relationships",
     "status": "passed",
     "checked_at": "2026-06-09",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/numbers-and-expressions/polynomial-operations",
+    "status": "passed",
+    "checked_at": "2026-06-10",
     "question_count": 30,
     "notes": ""
   }

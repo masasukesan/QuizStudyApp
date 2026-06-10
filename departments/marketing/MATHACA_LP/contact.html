@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>お問い合わせ — MATHACA</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362"
-     crossorigin="anonymous"></script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,13 +28,17 @@
         --font-serif-jp: "Noto Serif JP", serif;
       }
 
-      *, *::before, *::after {
+      *,
+      *::before,
+      *::after {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
       }
 
-      html { scroll-behavior: smooth; }
+      html {
+        scroll-behavior: smooth;
+      }
 
       body {
         font-family: var(--font-serif-jp);
@@ -77,7 +84,10 @@
         padding: 7px 20px;
         text-decoration: none;
         letter-spacing: 0.06em;
-        transition: background 0.15s, border-color 0.15s, color 0.15s;
+        transition:
+          background 0.15s,
+          border-color 0.15s,
+          color 0.15s;
       }
       .header-cta:hover {
         background: rgba(201, 168, 106, 0.15);
@@ -131,7 +141,9 @@
         margin-bottom: 32px;
       }
       @media (max-width: 480px) {
-        .category-grid { grid-template-columns: 1fr; }
+        .category-grid {
+          grid-template-columns: 1fr;
+        }
       }
       .category-btn {
         background: rgba(201, 168, 106, 0.05);
@@ -215,7 +227,9 @@
         border: none;
         cursor: pointer;
         margin-top: 8px;
-        transition: opacity 0.15s, transform 0.1s;
+        transition:
+          opacity 0.15s,
+          transform 0.1s;
       }
       .btn-submit:hover {
         opacity: 0.9;
@@ -250,7 +264,9 @@
         text-align: center;
         margin-top: 32px;
       }
-      .success-box.visible { display: block; }
+      .success-box.visible {
+        display: block;
+      }
       .success-title {
         font-family: var(--font-cinzel);
         font-size: 1rem;
@@ -306,7 +322,10 @@
     <!-- ヘッダー -->
     <header>
       <a href="/" class="logo">MATHACA</a>
-      <a href="https://quiz-study-app-omega.vercel.app/login" class="header-cta">入学する（無料）</a>
+      <a
+        href="https://quiz-study-app-omega.vercel.app"
+        class="header-cta"
+      >&#8249; ホーム</a>
     </header>
 
     <!-- メイン -->
@@ -322,18 +341,37 @@
       <!-- お問い合わせ種別 -->
       <span class="category-label">お問い合わせの種類</span>
       <div class="category-grid" id="categoryGrid">
-        <button class="category-btn active" data-value="問題の誤り・修正依頼">📝 問題の誤り・修正依頼</button>
-        <button class="category-btn" data-value="解説がわかりにくい">💬 解説がわかりにくい</button>
-        <button class="category-btn" data-value="バグ・動作不具合">🔧 バグ・動作不具合</button>
-        <button class="category-btn" data-value="機能要望・その他">✨ 機能要望・その他</button>
+        <button class="category-btn active" data-value="問題の誤り・修正依頼">
+          📝 問題の誤り・修正依頼
+        </button>
+        <button class="category-btn" data-value="解説がわかりにくい">
+          💬 解説がわかりにくい
+        </button>
+        <button class="category-btn" data-value="バグ・動作不具合">
+          🔧 バグ・動作不具合
+        </button>
+        <button class="category-btn" data-value="機能要望・その他">
+          ✨ 機能要望・その他
+        </button>
       </div>
 
       <!-- フォーム（Formspree経由） -->
-      <form id="contactForm" action="https://formspree.io/f/mbdeygvr" method="POST">
-        <input type="hidden" name="category" id="categoryInput" value="問題の誤り・修正依頼" />
+      <form
+        id="contactForm"
+        action="https://formspree.io/f/mbdeygvr"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="category"
+          id="categoryInput"
+          value="問題の誤り・修正依頼"
+        />
 
         <div class="form-group">
-          <label for="email">メールアドレス <span class="required">*</span></label>
+          <label for="email"
+            >メールアドレス <span class="required">*</span></label
+          >
           <input
             type="email"
             id="email"
@@ -356,7 +394,9 @@
         </div>
 
         <div class="form-group">
-          <label for="message">お問い合わせ内容 <span class="required">*</span></label>
+          <label for="message"
+            >お問い合わせ内容 <span class="required">*</span></label
+          >
           <textarea
             id="message"
             name="message"
@@ -369,13 +409,17 @@
 
         <p class="form-note">
           送信された情報はMATHACAの問題品質改善のみに使用します。<br />
-          第三者への提供は行いません。詳しくは<a href="/privacy.html">プライバシーポリシー</a>をご覧ください。
+          第三者への提供は行いません。詳しくは<a href="/privacy.html"
+            >プライバシーポリシー</a
+          >をご覧ください。
         </p>
       </form>
 
       <div class="success-box" id="successBox">
         <p class="success-title">— Thank you —</p>
-        <p class="success-text">お問い合わせを受け付けました。<br />数日以内にご返信いたします。</p>
+        <p class="success-text">
+          お問い合わせを受け付けました。<br />数日以内にご返信いたします。
+        </p>
       </div>
     </main>
 
@@ -428,7 +472,9 @@
             submitBtn.textContent = "送 信";
           }
         } catch {
-          alert("通信エラーが発生しました。しばらく経ってから再度お試しください。");
+          alert(
+            "通信エラーが発生しました。しばらく経ってから再度お試しください。",
+          );
           submitBtn.disabled = false;
           submitBtn.textContent = "送 信";
         }
