@@ -1197,11 +1197,14 @@
     <!-- ══════ ヘッダー ══════ -->
     <header>
       <div class="logo">MATHACA</div>
-      <a
-        href="https://quiz-study-app-omega.vercel.app/subject"
-        class="header-cta"
-        >入学する（無料）</a
-      >
+      <nav style="display:flex;align-items:center;gap:16px;">
+        <a href="/column.html" style="font-family:var(--font-cinzel);font-size:0.75rem;color:rgba(201,168,106,0.6);text-decoration:none;letter-spacing:0.1em;transition:color 0.15s;" onmouseover="this.style.color='#d4a84b'" onmouseout="this.style.color='rgba(201,168,106,0.6)'">Column</a>
+        <a
+          href="https://quiz-study-app-omega.vercel.app/subject"
+          class="header-cta"
+          >入学する（無料）</a
+        >
+      </nav>
     </header>
 
     <!-- ══════ ヒーロー ══════ -->
@@ -1486,7 +1489,8 @@
       <div class="footer-logo">MATHACA</div>
       <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
       <p style="margin-top: 8px">© 2026 MATHACA. All rights reserved.</p>
-      <div style="display:flex;justify-content:center;gap:24px;margin-top:12px;">
+      <div style="display:flex;justify-content:center;gap:24px;margin-top:12px;flex-wrap:wrap;">
+        <a href="/column.html" style="font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em;">コラム</a>
         <a href="/privacy.html" style="font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em;">プライバシーポリシー</a>
         <a href="/contact.html" style="font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em;">お問い合わせ</a>
       </div>
@@ -1516,4 +1520,10 @@
           const isOpen = item.classList.contains("open");
           document
             .querySelectorAll(".faq-item")
-            .forEach((i) => i.classList.r
+            .forEach((i) => i.classList.remove("open"));
+          if (!isOpen) item.classList.add("open");
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>学習コラム — 数学の勉強法・共通テスト攻略 — MATHACA</title>
+    <meta name="description" content="MATHACAの学習コラム。共通テスト数学の攻略法、苦手克服の方法、記憶の科学など、高校生の数学学習に役立つ記事を掲載。" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362"
+     crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --profile-bg: #2a1e12;
+        --profile-card: #3a2a1a;
+        --profile-text: #c8b48a;
+        --profile-border: rgba(201, 168, 106, 0.25);
+        --profile-gold: #d4a84b;
+        --font-cinzel: "Cinzel", serif;
+        --font-cinzel-deco: "Cinzel Decorative", serif;
+        --font-serif-jp: "Noto Serif JP", serif;
+      }
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html { scroll-behavior: smooth; }
+      body {
+        font-family: var(--font-serif-jp);
+        background-color: var(--profile-bg);
+        background-image: radial-gradient(ellipse at 50% 0%, rgba(120,80,20,0.15) 0%, transparent 60%);
+        color: var(--profile-text);
+        line-height: 1.9;
+        -webkit-font-smoothing: antialiased;
+      }
+      header {
+        position: sticky; top: 0; z-index: 100;
+        background: var(--profile-card);
+        border-bottom: 1px solid var(--profile-border);
+        box-shadow: 0 2px 16px rgba(0,0,0,0.5);
+        padding: 14px 24px;
+        display: flex; align-items: center; justify-content: space-between;
+      }
+      .logo { font-family: var(--font-cinzel-deco); font-size: 22px; font-weight: 700; color: var(--profile-gold); text-decoration: none; letter-spacing: 0.05em; text-shadow: 0 0 20px rgba(201,168,106,0.3); }
+      .header-cta { font-family: var(--font-serif-jp); font-size: 0.8rem; color: rgba(201,168,106,0.85); background: rgba(201,168,106,0.08); border: 1px solid rgba(201,168,106,0.35); padding: 7px 20px; text-decoration: none; letter-spacing: 0.06em; transition: background 0.15s, border-color 0.15s; }
+      .header-cta:hover { background: rgba(201,168,106,0.15); border-color: rgba(201,168,106,0.55); color: #c9a86a; }
+      main { max-width: 900px; margin: 0 auto; padding: 64px 24px 80px; }
+      .page-title { font-family: var(--font-cinzel); font-size: clamp(1.4rem, 4vw, 2rem); color: var(--profile-gold); letter-spacing: 0.08em; margin-bottom: 8px; }
+      .page-subtitle { font-size: 0.8rem; color: rgba(201,168,106,0.4); font-family: var(--font-cinzel); letter-spacing: 0.1em; margin-bottom: 16px; }
+      .page-desc { font-size: 0.88rem; color: rgba(200,180,138,0.65); margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid var(--profile-border); }
+      .article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+      .article-card { background: var(--profile-card); border: 1px solid var(--profile-border); padding: 28px 24px; text-decoration: none; display: block; transition: border-color 0.2s, transform 0.15s; }
+      .article-card:hover { border-color: rgba(201,168,106,0.5); transform: translateY(-2px); }
+      .card-label { font-family: var(--font-cinzel); font-size: 0.68rem; color: rgba(201,168,106,0.4); letter-spacing: 0.15em; margin-bottom: 12px; display: block; }
+      .card-title { font-family: var(--font-serif-jp); font-size: 0.95rem; color: var(--profile-gold); font-weight: 600; line-height: 1.55; margin-bottom: 12px; }
+      .card-desc { font-size: 0.82rem; color: rgba(200,180,138,0.6); line-height: 1.75; margin-bottom: 16px; }
+      .card-meta { font-family: var(--font-cinzel); font-size: 0.7rem; color: rgba(201,168,106,0.3); letter-spacing: 0.08em; }
+      footer { background: #1a1008; border-top: 1px solid rgba(201,168,106,0.1); text-align: center; padding: 32px 20px; }
+      .footer-logo { font-family: var(--font-cinzel-deco); font-size: 16px; color: rgba(201,168,106,0.5); margin-bottom: 10px; }
+      footer p { font-family: var(--font-cinzel); font-size: 10px; font-style: italic; color: rgba(201,168,106,0.25); letter-spacing: 0.1em; margin-top: 4px; }
+      .footer-links { display: flex; justify-content: center; gap: 24px; margin-top: 12px; flex-wrap: wrap; }
+      .footer-links a { font-family: var(--font-cinzel); font-size: 10px; color: rgba(201,168,106,0.35); text-decoration: none; letter-spacing: 0.08em; }
+      .footer-links a:hover { color: rgba(201,168,106,0.65); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">MATHACA</a>
+      <a href="https://quiz-study-app-omega.vercel.app/login" class="header-cta">入学する（無料）</a>
+    </header>
+
+    <main>
+      <h1 class="page-title">Study Column</h1>
+      <p class="page-subtitle">学習コラム</p>
+      <p class="page-desc">共通テスト数学の攻略法、苦手克服の方法、記憶の科学——数学を勉強するすべての高校生に役立つ記事をお届けします。</p>
+
+      <div class="article-grid">
+        <a href="/column1.html" class="article-card">
+          <span class="card-label">Vol.01 &nbsp;—&nbsp; Math Strategy</span>
+          <p class="card-title">共通テスト数学で点を取るための3つのコツ</p>
+          <p class="card-desc">時間配分・頻出パターンの習得・解き直し習慣。すぐに実践できる3つのコツを具体的に解説します。</p>
+          <span class="card-meta">2026.06 &nbsp;|&nbsp; 読了：約5分</span>
+        </a>
+
+        <a href="/column2.html" class="article-card">
+          <span class="card-label">Vol.02 &nbsp;—&nbsp; Study Method</span>
+          <p class="card-title">数学が苦手な高校生へ — よくある間違いと克服法</p>
+          <p class="card-desc">公式の丸暗記・解説を読んで満足・まとめ学習……苦手な人に共通する5つの間違いと、それぞれの克服法。</p>
+          <span class="card-meta">2026.06 &nbsp;|&nbsp; 読了：約6分</span>
+        </a>
+
+        <a href="/column3.html" class="article-card">
+          <span class="card-label">Vol.03 &nbsp;—&nbsp; Learning Science</span>
+          <p class="card-title">繰り返し学習が数学力を伸ばす理由 — 記憶の科学から考える</p>
+          <p class="card-desc">エビングハウスの忘却曲線・スペーシング効果・テスト効果。記憶の科学が示す「正しい数学学習法」を解説。</p>
+          <span class="card-meta">2026.06 &nbsp;|&nbsp; 読了：約5分</span>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-logo">MATHACA</div>
+      <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
+      <p style="margin-top:8px">© 2026 MATHACA. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/column.html">コラム</a>
+        <a href="/privacy.html">プライバシーポリシー</a>
+        <a href="/contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+  </body>
+</html>
