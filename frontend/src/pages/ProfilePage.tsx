@@ -279,7 +279,7 @@ export default function ProfilePage() {
             ) : (
               <span className={styles.challengeIcon}>📝</span>
             )}
-            <span className={styles.challengeBtnLabel}>小さな共テ</span>
+            <span className={styles.challengeBtnLabel}>模擬試験</span>
             <span className={styles.challengeBtnSub}>全範囲から10問</span>
           </button>
         </div>
@@ -398,6 +398,18 @@ export default function ProfilePage() {
           })}
         </section>
       )}
+
+      {/* フィードバック */}
+      <div className={styles.feedbackLinkWrap}>
+        <a
+          href="/contact.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.feedbackLink}
+        >
+          📩 ご意見・フィードバックを送る
+        </a>
+      </div>
 
       <div className={styles.bottomSpacer} />
     </div>
