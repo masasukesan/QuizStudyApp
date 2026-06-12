@@ -7,6 +7,7 @@ import { RECOVERY_CODE_KEY } from './LoginPage'
 import { Flourish, Monogram, CornerDiamonds } from '../components/LibraryUI'
 import { useQueryClient } from '@tanstack/react-query'
 import type { UserProfile } from '../types/database'
+import { useInstallPrompt } from '../hooks/useInstallPrompt'
 import styles from './SubjectPage.module.css'
 
 /* ── コース定義 ── */
@@ -207,6 +208,9 @@ export default function SubjectPage() {
     setSchoolSaving(false)
   }
 
+  const { canInstallAndroid, canInstallIOS, isInstalled, promptInstall } = useInstallPrompt()
+  const [showIOSGuide, setShowIOSGuide] = useState(false)
+
   const expProgress = profile ? getExpProgress(profile) : 0
   const currentExp  = profile?.exp ?? 0
   const currentLv   = profile?.level ?? 1
@@ -276,6 +280,36 @@ export default function SubjectPage() {
 
       <div className={styles.inner}>
 
+        {/* install button */}
+        {!isInstalled && (canInstallAndroid || canInstallIOS) && (
+          <button
+            onClick={() => { if (canInstallAndroid) { void promptInstall() } else { setShowIOSGuide(true) } }}
+            style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+              width: '100%', padding: '11px 0',
+              background: 'rgba(201,168,106,0.10)',
+              border: '1px solid rgba(201,168,106,0.45)',
+              color: '#d4a84b', fontFamily: 'inherit',
+              fontSize: '0.82rem', letterSpacing: '0.12em',
+              cursor: 'pointer', marginBottom: '12px',
+            }}
+          >
+            📲 ホーム画面に追加
+          </button>
+        )}
+        {showIOSGuide && (
+          <div onClick={() => setShowIOSGuide(false)} style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center', zIndex: 9999, padding: '0 0 40px' }}>
+            <div onClick={e => e.stopPropagation()} style={{ background: '#1a1108', border: '1px solid rgba(201,168,106,0.4)', padding: '28px 24px', maxWidth: '360px', width: '90%' }}>
+              <p style={{ color: '#d4a84b', fontFamily: 'inherit', fontSize: '0.9rem', letterSpacing: '0.1em', marginBottom: '16px', textAlign: 'center' }}>ホーム画面に追加する方法</p>
+              <ol style={{ color: 'rgba(200,180,138,0.85)', fontSize: '0.82rem', lineHeight: 1.9, paddingLeft: '20px', margin: '0 0 20px' }}>
+                <li>Safari 下部の <strong>共有ボタン</strong>（□↑）をタップ</li>
+                <li>「<strong>ホーム画面に追加</strong>」を選択</li>
+                <li>右上の「<strong>追加</strong>」をタップして完了</li>
+              </ol>
+              <button onClick={() => setShowIOSGuide(false)} style={{ display: 'block', width: '100%', padding: '10px', background: 'transparent', border: '1px solid rgba(201,168,106,0.35)', color: 'rgba(200,180,138,0.7)', fontFamily: 'inherit', fontSize: '0.8rem', cursor: 'pointer', letterSpacing: '0.1em' }}>閉じる</button>
+            </div>
+          </div>
+        )}
         {/* ══ ユーザーカード ══ */}
         <div className={styles.userCard}>
           <CornerDiamonds size={5} inset={-2.5} />
