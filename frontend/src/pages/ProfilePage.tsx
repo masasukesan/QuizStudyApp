@@ -7,6 +7,7 @@ import { useAuth } from '../hooks/useAuth'
 import { useProfile } from '../hooks/useProfile'
 import { useLearningStats, getWeakUnits } from '../hooks/useLearningStats'
 import { loadWeakPointQuestions, loadMiniKyoteiQuestions } from '../hooks/useChallengeQuiz'
+import { useInstallPrompt } from '../hooks/useInstallPrompt'
 import { Monogram } from '../components/LibraryUI'
 import styles from './ProfilePage.module.css'
 
@@ -158,6 +159,8 @@ export default function ProfilePage() {
   const { user }   = useAuth()
   const { data: profile, isLoading: profileLoading } = useProfile(user?.id)
   const { data: stats = [], isLoading: statsLoading } = useLearningStats(user?.id)
+  const { canInstallAndroid, canInstallIOS, isInstalled, promptInstall } = useInstallPrompt()
+  const [showIOSGuide, setShowIOSGuide] = useState(false)
 
   /* subunit スラッグ → 日本語名マップ */
   const [subunitNames, setSubunitNames] = useState<Record<string, string>>({})
@@ -410,6 +413,38 @@ export default function ProfilePage() {
           📩 ご意見・フィードバックを送る
         </a>
       </div>
+
+      {/* ホーム画面に追加ボタン */}
+      {!isInstalled && (canInstallAndroid || canInstallIOS) && (
+        <div className={styles.installWrap}>
+          <button
+            className={styles.installBtn}
+            onClick={() => {
+              if (canInstallAndroid) { void promptInstall() }
+              else { setShowIOSGuide(true) }
+            }}
+          >
+            📲 ホーム画面に追加
+          </button>
+        </div>
+      )}
+
+      {/* iOS 用ガイドモーダル */}
+      {showIOSGuide && (
+        <div className={styles.iosOverlay} onClick={() => setShowIOSGuide(false)}>
+          <div className={styles.iosModal} onClick={e => e.stopPropagation()}>
+            <p className={styles.iosModalTitle}>ホーム画面に追加する方法</p>
+            <ol className={styles.iosSteps}>
+              <li>Safari 下部の <strong>共有ボタン</strong>（□↑）をタップ</li>
+              <li>「<strong>ホーム画面に追加</strong>」を選択</li>
+              <li>右上の「<strong>追加</strong>」をタップして完了</li>
+            </ol>
+            <button className={styles.iosCloseBtn} onClick={() => setShowIOSGuide(false)}>
+              閉じる
+            </button>
+          </div>
+        </div>
+      )}
 
       <div className={styles.bottomSpacer} />
     </div>

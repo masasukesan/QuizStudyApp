@@ -690,6 +690,39 @@ export default function QuizPage() {
             ))}
           </div>
 
+          {/* シェアボタン */}
+          {(() => {
+            const shareText = levelUpInfo
+              ? `MathAcaでLv.${levelUpInfo.to}になりました！🎊\n#MathAca #共通テスト対策\nhttps://quiz-study-app-omega.vercel.app`
+              : `MathAcaで「${question?.unit ?? subunitSlug}」を${correctCount}/${totalQ}正解！${stars === 3 ? ' 🏆 完璧！！' : stars === 2 ? ' 🎉' : ''}\n#MathAca #共通テスト対策\nhttps://quiz-study-app-omega.vercel.app`
+            const canShare = typeof navigator !== 'undefined' && !!navigator.share
+            const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`
+            const lineUrl = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent('https://quiz-study-app-omega.vercel.app')}&text=${encodeURIComponent(shareText)}`
+            return (
+              <div style={{ display: 'flex', gap: '8px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                {canShare ? (
+                  <button
+                    style={{ display:'inline-flex', alignItems:'center', gap:'6px', fontFamily:'var(--font-serif-jp)', fontSize:'12px', letterSpacing:'0.1em', padding:'8px 18px', border:'0.75px solid rgba(201,168,106,0.5)', color:'#d4a84b', background:'rgba(201,168,106,0.08)', cursor:'pointer' }}
+                    onClick={() => { void navigator.share({ text: shareText }) }}
+                  >
+                    📤 シェアする
+                  </button>
+                ) : (
+                  <>
+                    <a href={xUrl} target="_blank" rel="noopener noreferrer"
+                      style={{ display:'inline-flex', alignItems:'center', gap:'6px', fontFamily:'var(--font-serif-jp)', fontSize:'12px', letterSpacing:'0.1em', padding:'8px 18px', border:'0.75px solid rgba(150,150,150,0.35)', color:'rgba(210,210,210,0.8)', background:'rgba(100,100,100,0.08)', textDecoration:'none' }}>
+                      𝕏 でシェア
+                    </a>
+                    <a href={lineUrl} target="_blank" rel="noopener noreferrer"
+                      style={{ display:'inline-flex', alignItems:'center', gap:'6px', fontFamily:'var(--font-serif-jp)', fontSize:'12px', letterSpacing:'0.1em', padding:'8px 18px', border:'0.75px solid rgba(0,185,0,0.3)', color:'rgba(100,220,100,0.85)', background:'rgba(0,185,0,0.06)', textDecoration:'none' }}>
+                      💬 LINEでシェア
+                    </a>
+                  </>
+                )}
+              </div>
+            )
+          })()}
+
           <div className={styles.resultBtns}>
             <button className={styles.retryBtn} onClick={handleRetry}>
               もう一度 🔄

@@ -1,0 +1,64 @@
+.row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.shareBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-serif-jp);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  padding: 8px 18px;
+  border: 0.75px solid rgba(201, 168, 106, 0.4);
+  color: rgba(230, 201, 150, 0.85);
+  background: rgba(201, 168, 106, 0.07);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.shareBtn:hover {
+  background: rgba(201, 168, 106, 0.15);
+  border-color: rgba(201, 168, 106, 0.65);
+  color: #d4a84b;
+}
+
+.shareIcon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.xIcon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.xBtn {
+  border-color: rgba(150, 150, 150, 0.35);
+  color: rgba(210, 210, 210, 0.8);
+  background: rgba(100, 100, 100, 0.08);
+}
+
+.xBtn:hover {
+  background: rgba(100, 100, 100, 0.18);
+  border-color: rgba(200, 200, 200, 0.5);
+  color: #e0e0e0;
+}
+
+.lineBtn {
+  border-color: rgba(0, 185, 0, 0.3);
+  color: rgba(100, 220, 100, 0.85);
+  background: rgba(0, 185, 0, 0.06);
+}
+
+.lineBtn:hover {
+  background: rgba(0, 185, 0, 0.13);
+  border-color: rgba(0, 185, 0, 0.55);
+  color: #5de05d;
+}

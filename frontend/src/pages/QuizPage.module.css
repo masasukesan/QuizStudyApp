@@ -623,10 +623,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 18px;
   animation: fadeIn 0.5s ease;
-  padding: 20px 0;
+  padding: 32px 0 24px;
+  overflow-y: auto;
 }
 
 .resultEmoji {
