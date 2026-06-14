@@ -357,13 +357,6 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/1A/quadratic-functions/quadratic-equations",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/1A/quadratic-functions/quadratic-graphs-and-transformations",
     "status": "passed",
     "checked_at": "2026-06-05",
@@ -392,28 +385,7 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/2B/calculus-basics/definite-integrals",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/2B/calculus-basics/derivatives-and-basic-rules",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/2B/calculus-basics/graph-sketching",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/2B/calculus-basics/increasing-decreasing-and-extrema",
     "status": "passed",
     "checked_at": "2026-06-05",
     "question_count": 30,
@@ -567,13 +539,6 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/2B/sequences/recurrence-relations",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/2B/sequences/series-summation",
     "status": "passed",
     "checked_at": "2026-06-05",
@@ -658,13 +623,6 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/C/curves-and-complex-plane/complex-plane-geometry",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/C/curves-and-complex-plane/ellipses",
     "status": "passed",
     "checked_at": "2026-06-05",
@@ -672,21 +630,7 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/C/curves-and-complex-plane/hyperbolas",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/C/curves-and-complex-plane/parabolas",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/C/vectors/applications-of-plane-vectors",
     "status": "passed",
     "checked_at": "2026-06-05",
     "question_count": 30,
@@ -701,20 +645,6 @@
   },
   {
     "path": "curriculum/math/C/vectors/position-vectors-and-geometry",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/C/vectors/space-vectors",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/C/vectors/vector-components",
     "status": "passed",
     "checked_at": "2026-06-05",
     "question_count": 30,
@@ -899,6 +829,76 @@
     "path": "curriculum/math/1A/numbers-and-expressions/polynomial-operations",
     "status": "passed",
     "checked_at": "2026-06-10",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/sequences/recurrence-relations",
+    "status": "passed",
+    "checked_at": "2026-06-10",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/C/curves-and-complex-plane/complex-plane-geometry",
+    "status": "passed",
+    "checked_at": "2026-06-11",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/C/curves-and-complex-plane/hyperbolas",
+    "status": "passed",
+    "checked_at": "2026-06-11",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/C/vectors/applications-of-plane-vectors",
+    "status": "passed",
+    "checked_at": "2026-06-11",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/C/vectors/space-vectors",
+    "status": "passed",
+    "checked_at": "2026-06-12",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/C/vectors/vector-components",
+    "status": "passed",
+    "checked_at": "2026-06-12",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/calculus-basics/definite-integrals",
+    "status": "passed",
+    "checked_at": "2026-06-13",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/calculus-basics/derivatives-and-basic-rules",
+    "status": "passed",
+    "checked_at": "2026-06-13",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/quadratic-functions/quadratic-equations",
+    "status": "passed",
+    "checked_at": "2026-06-13",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/calculus-basics/increasing-decreasing-and-extrema",
+    "status": "passed",
+    "checked_at": "2026-06-14",
     "question_count": 30,
     "notes": ""
   }

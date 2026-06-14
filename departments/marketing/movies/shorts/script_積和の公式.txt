@@ -1,0 +1,28 @@
+積和の公式は、掛け算を足し算に変える公式です
+なんでこんな公式があるかというと
+sinやcosの掛け算は積分できないからです
+足し算の形にすれば積分できます
+
+作り方はシンプルです
+加法定理を2つ並べます
+sin(A＋B) ＝ sinA cosB ＋ cosA sinB
+sin(A－B) ＝ sinA cosB － cosA sinB
+この2つを足すと、cosAsinBが消えます
+2sinA cosB ＝ sin(A＋B) ＋ sin(A－B)
+つまり
+sinA cosB ＝ ｛sin(A＋B) ＋ sin(A－B)｝÷ 2
+
+cosAcosBとsinAsinBは、cosの加法定理から作ります
+cos(A＋B) ＝ cosAcosB－sinAsinB
+cos(A－B) ＝ cosAcosB＋sinAsinB
+足すと
+cosAcosB ＝ ｛cos(A＋B) ＋ cos(A－B)｝÷ 2
+引くと
+sinAsinB ＝ ｛cos(A－B) － cos(A＋B)｝÷ 2
+
+よくある間違いは、sinAsinBの式で符号を逆にしてしまうことです
+sinAsinBのほうは cos(A－B)が先、cos(A＋B)が後です
+引く順番に注意してください
+
+公式を丸暗記しなくても
+加法定理を足したり引いたりするだけで全部作れます

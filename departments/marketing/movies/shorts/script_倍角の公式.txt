@@ -1,0 +1,32 @@
+倍角の公式を覚えましょう
+でも、全部を丸暗記する必要はありません
+加法定理さえ覚えていれば、その場で導けます
+
+まずsinから
+sin(A＋B)のBをAに替えるだけです
+sin2A ＝ sinA cosA ＋ cosA sinA
+つまり sin2A ＝ 2sinA cosA
+
+次はcos
+cos(A＋B)のBをAに替えると
+cos2A ＝ cosA cosA － sinA sinA
+cos2A ＝ cos²A－sin²A
+これが基本形です
+ここからさらに2通りの変形ができます
+sin²A＋cos²A＝1 を使って
+sin²Aを消すと cos2A ＝ 1－2sin²A
+cos²Aを消すと cos2A ＝ 2cos²A－1
+
+この3つの形は、積分のときに特によく使います
+sin²Aを消したいなら 1－2sin²A
+cos²Aを消したいなら 2cos²A－1
+と使い分けてください
+
+tanはsin÷cosで導けます
+tan2A ＝ sin2A ÷ cos2A
+＝ 2sinAcosA ÷ （cos²A－sin²A）
+分子と分母を cos²A で割ると
+tan2A ＝ 2tanA ÷ （1－tan²A）
+
+よくある間違いは、cos2Aの3つの形をごちゃまぜにすることです
+試験では「どのsin²やcos²を消したいか」を考えてから選んでください

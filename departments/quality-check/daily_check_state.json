@@ -1,0 +1,475 @@
+{
+  "unit_index": 16,
+  "question_index": 10,
+  "batch_size": 10,
+  "total_units": 93,
+  "units": [
+    {
+      "path": "curriculum/math/C/curves-and-complex-plane/complex-plane-basics",
+      "name": "C/curves-and-complex-plane/complex-plane-basics",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/curves-and-complex-plane/complex-plane-geometry",
+      "name": "C/curves-and-complex-plane/complex-plane-geometry",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/curves-and-complex-plane/ellipses",
+      "name": "C/curves-and-complex-plane/ellipses",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/curves-and-complex-plane/hyperbolas",
+      "name": "C/curves-and-complex-plane/hyperbolas",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/curves-and-complex-plane/parabolas",
+      "name": "C/curves-and-complex-plane/parabolas",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/vectors/applications-of-plane-vectors",
+      "name": "C/vectors/applications-of-plane-vectors",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/vectors/dot-product",
+      "name": "C/vectors/dot-product",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/vectors/position-vectors-and-geometry",
+      "name": "C/vectors/position-vectors-and-geometry",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/vectors/space-vectors",
+      "name": "C/vectors/space-vectors",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/vectors/vector-basics",
+      "name": "C/vectors/vector-basics",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/C/vectors/vector-components",
+      "name": "C/vectors/vector-components",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/calculus-basics/area-by-integration",
+      "name": "2B/calculus-basics/area-by-integration",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/calculus-basics/definite-integrals",
+      "name": "2B/calculus-basics/definite-integrals",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/calculus-basics/derivatives-and-basic-rules",
+      "name": "2B/calculus-basics/derivatives-and-basic-rules",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/calculus-basics/graph-sketching",
+      "name": "2B/calculus-basics/graph-sketching",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/calculus-basics/increasing-decreasing-and-extrema",
+      "name": "2B/calculus-basics/increasing-decreasing-and-extrema",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/calculus-basics/indefinite-integrals",
+      "name": "2B/calculus-basics/indefinite-integrals",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/calculus-basics/tangent-lines",
+      "name": "2B/calculus-basics/tangent-lines",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/coordinate-geometry/circle-and-line-relations",
+      "name": "2B/coordinate-geometry/circle-and-line-relations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/coordinate-geometry/equation-of-a-circle",
+      "name": "2B/coordinate-geometry/equation-of-a-circle",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/coordinate-geometry/line-relations",
+      "name": "2B/coordinate-geometry/line-relations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/coordinate-geometry/locus-and-region",
+      "name": "2B/coordinate-geometry/locus-and-region",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/coordinate-geometry/points-and-lines",
+      "name": "2B/coordinate-geometry/points-and-lines",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/exponential-and-logarithmic-functions/exponential-and-logarithmic-equations",
+      "name": "2B/exponential-and-logarithmic-functions/exponential-and-logarithmic-equations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/exponential-and-logarithmic-functions/laws-of-exponents",
+      "name": "2B/exponential-and-logarithmic-functions/laws-of-exponents",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/exponential-and-logarithmic-functions/logarithmic-function-graphs",
+      "name": "2B/exponential-and-logarithmic-functions/logarithmic-function-graphs",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/exponential-and-logarithmic-functions/properties-of-exponential-functions",
+      "name": "2B/exponential-and-logarithmic-functions/properties-of-exponential-functions",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/exponential-and-logarithmic-functions/properties-of-logarithms",
+      "name": "2B/exponential-and-logarithmic-functions/properties-of-logarithms",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/expressions-and-proofs/equation-and-inequality-proofs",
+      "name": "2B/expressions-and-proofs/equation-and-inequality-proofs",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/expressions-and-proofs/factor-and-remainder-theorems",
+      "name": "2B/expressions-and-proofs/factor-and-remainder-theorems",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/expressions-and-proofs/logic-and-proofs",
+      "name": "2B/expressions-and-proofs/logic-and-proofs",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/expressions-and-proofs/polynomial-division",
+      "name": "2B/expressions-and-proofs/polynomial-division",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/expressions-and-proofs/relations-between-roots-and-coefficients",
+      "name": "2B/expressions-and-proofs/relations-between-roots-and-coefficients",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/sequences/arithmetic-sequences",
+      "name": "2B/sequences/arithmetic-sequences",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/sequences/difference-sequences",
+      "name": "2B/sequences/difference-sequences",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/sequences/geometric-sequences",
+      "name": "2B/sequences/geometric-sequences",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/sequences/mathematical-induction",
+      "name": "2B/sequences/mathematical-induction",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/sequences/recurrence-relations",
+      "name": "2B/sequences/recurrence-relations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/sequences/series-summation",
+      "name": "2B/sequences/series-summation",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/statistical-inference/binomial-distribution",
+      "name": "2B/statistical-inference/binomial-distribution",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/statistical-inference/estimation-and-hypothesis-testing",
+      "name": "2B/statistical-inference/estimation-and-hypothesis-testing",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/statistical-inference/normal-distribution",
+      "name": "2B/statistical-inference/normal-distribution",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/statistical-inference/random-variables-and-distributions",
+      "name": "2B/statistical-inference/random-variables-and-distributions",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/statistical-inference/sampling-methods",
+      "name": "2B/statistical-inference/sampling-methods",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/trigonometric-functions/addition-theorems",
+      "name": "2B/trigonometric-functions/addition-theorems",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/trigonometric-functions/radian-measure",
+      "name": "2B/trigonometric-functions/radian-measure",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/trigonometric-functions/trigonometric-definitions-and-properties",
+      "name": "2B/trigonometric-functions/trigonometric-definitions-and-properties",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/trigonometric-functions/trigonometric-equations-and-inequalities",
+      "name": "2B/trigonometric-functions/trigonometric-equations-and-inequalities",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/2B/trigonometric-functions/trigonometric-graphs",
+      "name": "2B/trigonometric-functions/trigonometric-graphs",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/combinatorics/basic-counting",
+      "name": "1A/combinatorics/basic-counting",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/combinatorics/circular-and-multiset-permutation",
+      "name": "1A/combinatorics/circular-and-multiset-permutation",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/combinatorics/combination",
+      "name": "1A/combinatorics/combination",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/combinatorics/count-elements",
+      "name": "1A/combinatorics/count-elements",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/combinatorics/permutation",
+      "name": "1A/combinatorics/permutation",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/data-analysis/central-dispersion",
+      "name": "1A/data-analysis/central-dispersion",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/data-analysis/variance-stddev-correlation",
+      "name": "1A/data-analysis/variance-stddev-correlation",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-and-measure/advanced-trigonometric-problems",
+      "name": "1A/geometry-and-measure/advanced-trigonometric-problems",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-and-measure/basic-trigonometric-ratios",
+      "name": "1A/geometry-and-measure/basic-trigonometric-ratios",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-and-measure/extended-trigonometric-ratios",
+      "name": "1A/geometry-and-measure/extended-trigonometric-ratios",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-and-measure/sine-and-cosine-laws",
+      "name": "1A/geometry-and-measure/sine-and-cosine-laws",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-and-measure/trigonometry-and-geometry-measurement",
+      "name": "1A/geometry-and-measure/trigonometry-and-geometry-measurement",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/basic-plane-figures",
+      "name": "1A/geometry-properties/basic-plane-figures",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/ceva-and-menelaus-theorems",
+      "name": "1A/geometry-properties/ceva-and-menelaus-theorems",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/circles-lines-and-circle-relations",
+      "name": "1A/geometry-properties/circles-lines-and-circle-relations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/cyclic-quadrilaterals",
+      "name": "1A/geometry-properties/cyclic-quadrilaterals",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/geometric-construction",
+      "name": "1A/geometry-properties/geometric-construction",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/solid-geometry",
+      "name": "1A/geometry-properties/solid-geometry",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/triangle-ratios-and-centers",
+      "name": "1A/geometry-properties/triangle-ratios-and-centers",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/geometry-properties/triangle-sides-and-angles",
+      "name": "1A/geometry-properties/triangle-sides-and-angles",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/logic-and-sets/propositions-and-conditions",
+      "name": "1A/logic-and-sets/propositions-and-conditions",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/logic-and-sets/propositions-and-proofs",
+      "name": "1A/logic-and-sets/propositions-and-proofs",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/logic-and-sets/set-theory-basics",
+      "name": "1A/logic-and-sets/set-theory-basics",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/number-theory/congruences",
+      "name": "1A/number-theory/congruences",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/number-theory/divisors-and-multiples",
+      "name": "1A/number-theory/divisors-and-multiples",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/number-theory/euclidean-algorithm-and-diophantine",
+      "name": "1A/number-theory/euclidean-algorithm-and-diophantine",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/number-theory/fractions-decimals-and-bases",
+      "name": "1A/number-theory/fractions-decimals-and-bases",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/number-theory/integer-division-and-remainder",
+      "name": "1A/number-theory/integer-division-and-remainder",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/number-theory/integer-solution-problems",
+      "name": "1A/number-theory/integer-solution-problems",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/numbers-and-expressions/factorization",
+      "name": "1A/numbers-and-expressions/factorization",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/numbers-and-expressions/linear-inequalities",
+      "name": "1A/numbers-and-expressions/linear-inequalities",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/numbers-and-expressions/polynomial-operations",
+      "name": "1A/numbers-and-expressions/polynomial-operations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/numbers-and-expressions/real-numbers",
+      "name": "1A/numbers-and-expressions/real-numbers",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/probability/conditional-probability",
+      "name": "1A/probability/conditional-probability",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/probability/events-and-probability",
+      "name": "1A/probability/events-and-probability",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/probability/independent-and-repeated-trials",
+      "name": "1A/probability/independent-and-repeated-trials",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/probability/probability-properties",
+      "name": "1A/probability/probability-properties",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/quadratic-functions/advanced-quadratic-problems",
+      "name": "1A/quadratic-functions/advanced-quadratic-problems",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/quadratic-functions/functions-and-graphs",
+      "name": "1A/quadratic-functions/functions-and-graphs",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/quadratic-functions/graphs-and-quadratic-equations",
+      "name": "1A/quadratic-functions/graphs-and-quadratic-equations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/quadratic-functions/quadratic-equations",
+      "name": "1A/quadratic-functions/quadratic-equations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/quadratic-functions/quadratic-graphs-and-transformations",
+      "name": "1A/quadratic-functions/quadratic-graphs-and-transformations",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/quadratic-functions/quadratic-inequalities",
+      "name": "1A/quadratic-functions/quadratic-inequalities",
+      "count": 30
+    },
+    {
+      "path": "curriculum/math/1A/quadratic-functions/quadratic-maxima-and-minima",
+      "name": "1A/quadratic-functions/quadratic-maxima-and-minima",
+      "count": 30
+    }
+  ],
+  "last_run": "2026-06-14",
+  "completed": false
+}

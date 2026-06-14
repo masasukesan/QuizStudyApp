@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=540">
+<title>EUREKA Instagram Reel – 2026-06-11</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 540px;
+    height: 960px;
+    overflow: hidden;
+    font-family: 'Noto Serif JP', serif;
+  }
+
+  .slide {
+    width: 540px;
+    height: 960px;
+    position: relative;
+    background: linear-gradient(160deg, #FFFDF5 0%, #F5E9CC 55%, #EDE0C2 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 36px;
+  }
+
+  /* ── Grain texture overlay ── */
+  .slide::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── Gold glow ── */
+  .slide::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 70% 50% at 50% 40%, rgba(210,170,70,0.13) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── Outer frame ── */
+  .frame-outer {
+    position: absolute;
+    inset: 20px;
+    border: 2px solid rgba(140,95,30,0.55);
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* ── Inner frame ── */
+  .frame-inner {
+    position: absolute;
+    inset: 28px;
+    border: 1px solid rgba(140,95,30,0.30);
+    border-radius: 1px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* ── Corner brackets ── */
+  .corner {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-color: rgba(120,80,20,0.75);
+    border-style: solid;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .corner.tl { top: 14px; left: 14px; border-width: 3px 0 0 3px; }
+  .corner.tr { top: 14px; right: 14px; border-width: 3px 3px 0 0; }
+  .corner.bl { bottom: 14px; left: 14px; border-width: 0 0 3px 3px; }
+  .corner.br { bottom: 14px; right: 14px; border-width: 0 3px 3px 0; }
+
+  /* ── Decorative rule ── */
+  .deco-rule {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+  }
+  .deco-rule .line {
+    flex: 1;
+    height: 1px;
+    background: rgba(140,95,30,0.45);
+    max-width: 100px;
+  }
+  .deco-rule .dot { width: 4px; height: 4px; border-radius: 50%; background: rgba(140,95,30,0.6); }
+  .deco-rule .diamond {
+    width: 7px; height: 7px;
+    background: rgba(140,95,30,0.65);
+    transform: rotate(45deg);
+  }
+
+  /* ── Content wrapper ── */
+  .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0;
+    flex: 1;
+    justify-content: center;
+  }
+
+  /* ── Top label ── */
+  .top-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13px;
+    letter-spacing: 0.38em;
+    color: rgba(90,64,15,0.75);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    z-index: 2;
+  }
+
+  /* ── Main heading ── */
+  .main-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #3A2208;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+  }
+  .main-heading .accent {
+    color: #8B5E10;
+  }
+
+  /* ── Sub heading ── */
+  .sub-heading {
+    font-size: 14px;
+    color: #5A400F;
+    letter-spacing: 0.08em;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+
+  /* ── Steps list ── */
+  .steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(255,255,255,0.6);
+    border: 1.5px solid rgba(140,95,30,0.35);
+    border-radius: 10px;
+    padding: 12px 16px;
+    box-shadow: 0 2px 8px rgba(160,110,30,0.08);
+  }
+
+  .step-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #8B5E10;
+    line-height: 1;
+    min-width: 28px;
+    padding-top: 2px;
+  }
+
+  .step-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .step-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #3A2208;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+  }
+
+  .step-desc {
+    font-size: 12px;
+    color: #6A4A1A;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── Key message ── */
+  .key-msg {
+    background: rgba(140,95,30,0.12);
+    border-left: 4px solid rgba(140,95,30,0.7);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .key-msg p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #3A2208;
+    line-height: 1.7;
+    letter-spacing: 0.04em;
+  }
+  .key-msg .highlight {
+    color: #8B5E10;
+  }
+
+  /* ── Bottom section ── */
+  .bottom {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 4px;
+  }
+
+  /* ── LINE CTA ── */
+  .line-cta {
+    font-size: 13px;
+    font-weight: 700;
+    color: #5A400F;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid rgba(140,95,30,0.4);
+    border-radius: 20px;
+    padding: 8px 22px;
+  }
+
+  /* ── School mark ── */
+  .school-mark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+  }
+  .school-name-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.62em;
+    color: #4A3010;
+    text-indent: 0.62em;
+  }
+  .school-name-jp {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    color: rgba(80,55,15,0.75);
+    text-indent: 0.22em;
+  }
+</style>
+</head>
+<body>
+<div class="slide">
+
+  <!-- Frames -->
+  <div class="frame-outer"></div>
+  <div class="frame-inner"></div>
+
+  <!-- Corner brackets -->
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+
+  <!-- Content -->
+  <div class="content">
+    <p class="top-label">Study Tips</p>
+
+    <h1 class="main-heading">
+      集中できないときの<br><span class="accent">5分リセット術</span>
+    </h1>
+    <p class="sub-heading">やる気は「待つ」より「作る」もの</p>
+
+    <div class="deco-rule" style="margin-bottom:20px;">
+      <div class="line"></div>
+      <div class="dot"></div>
+      <div class="diamond"></div>
+      <div class="dot"></div>
+      <div class="line"></div>
+    </div>
+
+    <div class="steps">
+      <div class="step-item">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <div class="step-title">いったん机を離れる</div>
+          <div class="step-desc">立ち上がって軽くストレッチ。血流が上がって頭がクリアになる</div>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <div class="step-title">水を一杯飲む</div>
+          <div class="step-desc">脳の働きには水分が必須。たったこれだけで集中力が戻ることも</div>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <div class="step-title">「簡単な問題」から再スタート</div>
+          <div class="step-desc">難しい問題より、解ける問題で「できた！」を作ることが大事</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="key-msg">
+      <p>集中できない自分を責めなくていい。<br><span class="highlight">リセットして戻れる</span>のが<br>本当の勉強上手。</p>
+    </div>
+
+    <div class="deco-rule" style="margin-top:18px;">
+      <div class="line"></div>
+      <div class="dot"></div>
+      <div class="diamond"></div>
+      <div class="dot"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="bottom">
+    <div class="line-cta">プロフィールの公式ラインから、無料体験授業受付中！</div>
+
+    <div class="deco-rule">
+      <div class="line" style="max-width:60px;"></div>
+      <div class="dot"></div>
+      <div class="diamond"></div>
+      <div class="dot"></div>
+      <div class="line" style="max-width:60px;"></div>
+    </div>
+
+    <div class="school-mark">
+      <div class="school-name-en">E U R E K A</div>
+      <div class="school-name-jp">個別指導学習塾　ユリイカ</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

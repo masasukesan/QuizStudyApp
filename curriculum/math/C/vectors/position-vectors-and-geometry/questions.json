@@ -101,7 +101,7 @@
         },
         {
           "label": "D",
-          "text": "(OA + OB + OO)/3 = (a + b + 0)/3 = (a + b)/3(同じ)"
+          "text": "2(a + b)/3"
         }
       ],
       "correct": "A"
@@ -171,7 +171,7 @@
         },
         {
           "label": "B",
-          "text": "(a + b)/2(C を含まない誤り)"
+          "text": "(a + b)/2"
         },
         {
           "label": "C",
@@ -201,11 +201,11 @@
         },
         {
           "label": "C",
-          "text": "OB には AB の情報のみで b だけとする誤り"
+          "text": "OB = OA - AB = a - b"
         },
         {
           "label": "D",
-          "text": "OB = b(AB の向きと同じ)"
+          "text": "OB = b"
         }
       ],
       "correct": "A"
@@ -223,7 +223,7 @@
         },
         {
           "label": "B",
-          "text": "2OP = OB (中点の式から B のみ残す誤り)"
+          "text": "2OP = OB"
         },
         {
           "label": "C",
@@ -231,7 +231,7 @@
         },
         {
           "label": "D",
-          "text": "2OP = OA-OB (符号の誤り)"
+          "text": "2OP = OA - OB"
         }
       ],
       "correct": "A"
@@ -249,11 +249,11 @@
         },
         {
           "label": "B",
-          "text": "(1, 2)(中点)"
+          "text": "(1, 2)"
         },
         {
           "label": "C",
-          "text": "(2, 4)(頂点の和)"
+          "text": "(2, 4)"
         },
         {
           "label": "D",
@@ -283,7 +283,7 @@
         },
         {
           "label": "D",
-          "text": "OP=(a+3b)/4, OQ=(3a-b)/2 (内分と外分を取り違え)"
+          "text": "OP = (3a+b)/4、OQ = (-a+3b)/2"
         }
       ],
       "correct": "A"
@@ -297,7 +297,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "OG = (a+b+c)/3、OM = (b+c)/2 → OG = a/3 + (b+c)/3 = a/3 + 2OM/3 → AG = (2/3)AM"
+          "text": "OG = (a+b+c)/3、OM = (b+c)/2 → AG = (2/3)AM"
         },
         {
           "label": "B",
@@ -309,7 +309,7 @@
         },
         {
           "label": "D",
-          "text": "OG = (a+b)/3(C を含まない誤り)"
+          "text": "OG = (a+b)/3"
         }
       ],
       "correct": "A"
@@ -327,7 +327,7 @@
         },
         {
           "label": "B",
-          "text": "AB·AC = 0(垂直条件と混同)"
+          "text": "AB·AC = 0"
         },
         {
           "label": "C",
@@ -353,15 +353,15 @@
         },
         {
           "label": "B",
-          "text": "OD = (OB + OC)/2(中点と誤解)"
+          "text": "OD = (OB + OC)/2"
         },
         {
           "label": "C",
-          "text": "BD:DC = b:c(比が逆)"
+          "text": "BD:DC = b:c"
         },
         {
           "label": "D",
-          "text": "OD = (OB × OC)/|OB||OC|(積の誤適用)"
+          "text": "OD = (OB × OC)/|OB||OC|"
         }
       ],
       "correct": "A"
@@ -375,11 +375,11 @@
       "choices": [
         {
           "label": "A",
-          "text": "ABCD が平行四辺形 → AB = DC → OB - OA = OC - OD → OD = OA + OC - OB = a + c - b"
+          "text": "AB = DC → b - a = c - OD → OD = a + c - b"
         },
         {
           "label": "B",
-          "text": "OD = b + c - a (頂点の対応を誤る)"
+          "text": "OD = a + b - c"
         },
         {
           "label": "C",
@@ -409,7 +409,7 @@
         },
         {
           "label": "C",
-          "text": "OM = (2a+b)/6(分母誤り)"
+          "text": "OM = (2a+b)/3"
         },
         {
           "label": "D",
@@ -513,11 +513,11 @@
         },
         {
           "label": "C",
-          "text": "GA + GB = -GC から導く(片方だけの誤り)"
+          "text": "GA + GB = -GC から導く"
         },
         {
           "label": "D",
-          "text": "(a+b+c)/3 = 0 より a+b+c = 0(O が重心と混同)"
+          "text": "(a+b+c)/3 = 0 より a+b+c = 0"
         }
       ],
       "correct": "A"
@@ -565,7 +565,7 @@
         },
         {
           "label": "C",
-          "text": "|AM|² = |AB|²/4(誤った公式)"
+          "text": "|AM|² = |AB|²/4"
         },
         {
           "label": "D",
@@ -587,7 +587,7 @@
         },
         {
           "label": "B",
-          "text": "重心は各中線を 1:1 に内分する(誤り: 2:1)"
+          "text": "重心は各中線を 1:1 に内分する"
         },
         {
           "label": "C",
@@ -665,7 +665,7 @@
         },
         {
           "label": "B",
-          "text": "OA + OB + OC = 0 となる点が外心(重心と混同)"
+          "text": "OA + OB + OC = 0 となる点が外心"
         },
         {
           "label": "C",
@@ -721,7 +721,7 @@
         },
         {
           "label": "C",
-          "text": "各交点の内分比を全て正の実数と置いて計算する(外分の場合を無視)"
+          "text": "各交点の内分比を全て正の実数と置いて計算する"
         },
         {
           "label": "D",
@@ -773,7 +773,7 @@
         },
         {
           "label": "C",
-          "text": "G = (a+b+c)/3 を代入して確認するだけ(一意性の証明にならない)"
+          "text": "G = (a+b+c)/3 を代入して確認するだけ"
         },
         {
           "label": "D",
