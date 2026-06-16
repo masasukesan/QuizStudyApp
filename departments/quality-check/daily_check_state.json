@@ -1,6 +1,6 @@
 {
-  "unit_index": 16,
-  "question_index": 10,
+  "unit_index": 17,
+  "question_index": 20,
   "batch_size": 10,
   "total_units": 93,
   "units": [
@@ -470,6 +470,6 @@
       "count": 30
     }
   ],
-  "last_run": "2026-06-14",
+  "last_run": "2026-06-16",
   "completed": false
 }

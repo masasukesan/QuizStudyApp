@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=540">
+<title>EUREKA Instagram Reel – 2026-06-16</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 540px;
+    height: 960px;
+    overflow: hidden;
+    font-family: 'Noto Serif JP', serif;
+  }
+
+  .slide {
+    width: 540px;
+    height: 960px;
+    position: relative;
+    background: linear-gradient(160deg, #FFFDF5 0%, #F5E9CC 55%, #EDE0C2 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 36px;
+  }
+
+  /* ── Grain texture overlay ── */
+  .slide::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── Gold glow ── */
+  .slide::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 70% 50% at 50% 40%, rgba(210,170,70,0.13) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── Outer frame ── */
+  .frame-outer {
+    position: absolute;
+    inset: 20px;
+    border: 2px solid rgba(140,95,30,0.55);
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* ── Inner frame ── */
+  .frame-inner {
+    position: absolute;
+    inset: 28px;
+    border: 1px solid rgba(140,95,30,0.30);
+    border-radius: 1px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* ── Corner brackets ── */
+  .corner {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-color: rgba(120,80,20,0.75);
+    border-style: solid;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .corner.tl { top: 14px; left: 14px; border-width: 3px 0 0 3px; }
+  .corner.tr { top: 14px; right: 14px; border-width: 3px 3px 0 0; }
+  .corner.bl { bottom: 14px; left: 14px; border-width: 0 0 3px 3px; }
+  .corner.br { bottom: 14px; right: 14px; border-width: 0 3px 3px 0; }
+
+  /* ── Decorative rule ── */
+  .deco-rule {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+  }
+  .deco-rule .line {
+    flex: 1;
+    height: 1px;
+    background: rgba(140,95,30,0.45);
+    max-width: 100px;
+  }
+  .deco-rule .dot { width: 4px; height: 4px; border-radius: 50%; background: rgba(140,95,30,0.6); }
+  .deco-rule .diamond {
+    width: 7px; height: 7px;
+    background: rgba(140,95,30,0.65);
+    transform: rotate(45deg);
+  }
+
+  /* ── Content wrapper ── */
+  .content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+  }
+
+  /* ── Top label ── */
+  .top-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 12px;
+    letter-spacing: 0.38em;
+    color: rgba(90,64,15,0.75);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    z-index: 2;
+  }
+
+  /* ── Main heading ── */
+  .main-heading {
+    font-size: 32px;
+    font-weight: 900;
+    color: #3A2208;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+  }
+  .main-heading .accent {
+    color: #8B5E10;
+  }
+
+  /* ── Sub heading ── */
+  .sub-heading {
+    font-size: 13px;
+    color: #5A400F;
+    letter-spacing: 0.08em;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+
+  /* ── Compare cards ── */
+  .compare-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .compare-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+
+  .compare-card.bad {
+    background: rgba(180,60,30,0.07);
+    border: 1.5px solid rgba(180,60,30,0.25);
+  }
+
+  .compare-card.good {
+    background: rgba(40,120,60,0.07);
+    border: 1.5px solid rgba(40,120,60,0.28);
+  }
+
+  .badge {
+    font-size: 20px;
+    font-weight: 900;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .badge.bad-badge {
+    background: rgba(180,60,30,0.12);
+    color: #A03010;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+  }
+
+  .badge.good-badge {
+    background: rgba(40,120,60,0.12);
+    color: #1E7A3A;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.4;
+  }
+
+  .card-title.bad { color: #8A2810; }
+  .card-title.good { color: #1A5E2E; }
+
+  .card-desc {
+    font-size: 12px;
+    color: #6A4A1A;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── Tip highlight ── */
+  .tip-box {
+    width: 100%;
+    background: rgba(140,95,30,0.10);
+    border: 1.5px solid rgba(140,95,30,0.30);
+    border-radius: 10px;
+    padding: 16px 18px;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  .tip-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    letter-spacing: 0.38em;
+    color: rgba(90,64,15,0.70);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .tip-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3A2208;
+    line-height: 1.75;
+    letter-spacing: 0.05em;
+  }
+
+  .tip-text .accent { color: #8B5E10; }
+
+  /* ── Bottom section ── */
+  .bottom {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 4px;
+  }
+
+  /* ── LINE CTA ── */
+  .line-cta {
+    font-size: 13px;
+    font-weight: 700;
+    color: #3A2208;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background: rgba(140,95,30,0.10);
+    border: 1px solid rgba(140,95,30,0.35);
+    border-radius: 6px;
+    padding: 9px 20px;
+    width: 100%;
+  }
+
+  /* ── School mark ── */
+  .school-mark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .school-name-en {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.62em;
+    color: #5A400F;
+    text-indent: 0.62em;
+  }
+
+  .school-name-jp {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    color: rgba(90,64,15,0.75);
+    text-indent: 0.22em;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide">
+
+  <!-- Frames & corners -->
+  <div class="frame-outer"></div>
+  <div class="frame-inner"></div>
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+
+  <!-- Top deco rule -->
+  <div class="deco-rule" style="position:relative;z-index:2;">
+    <div class="line"></div>
+    <div class="dot"></div>
+    <div class="diamond"></div>
+    <div class="dot"></div>
+    <div class="line"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <p class="top-label">Tuesday Study Tips</p>
+
+    <h1 class="main-heading">
+      やる気を<br><span class="accent">「待つ」</span>のは<br>もったいない。
+    </h1>
+    <p class="sub-heading">集中できないときに試してほしい、小さな一歩</p>
+
+    <div class="deco-rule" style="margin-bottom:16px;">
+      <div class="line"></div>
+      <div class="dot"></div>
+      <div class="diamond"></div>
+      <div class="dot"></div>
+      <div class="line"></div>
+    </div>
+
+    <div class="compare-section">
+      <div class="compare-card bad">
+        <div class="badge bad-badge">×</div>
+        <div class="card-text">
+          <div class="card-title bad">「やる気が出たら始めよう」と待つ</div>
+          <div class="card-desc">やる気は行動のあとにやってくる。待っていても永遠に来ない</div>
+        </div>
+      </div>
+
+      <div class="compare-card good">
+        <div class="badge good-badge">○</div>
+        <div class="card-text">
+          <div class="card-title good">まず教科書を2分だけ開く</div>
+          <div class="card-desc">「とりあえず開くだけ」でOK。動き出せば、自然と集中モードに入れる</div>
+        </div>
+      </div>
+
+      <div class="compare-card bad">
+        <div class="badge bad-badge">×</div>
+        <div class="card-text">
+          <div class="card-title bad">スマホを手の届く場所に置く</div>
+          <div class="card-desc">通知が来るたびに集中が途切れる。「見てないだけ」でも脳は気にしている</div>
+        </div>
+      </div>
+
+      <div class="compare-card good">
+        <div class="badge good-badge">○</div>
+        <div class="card-text">
+          <div class="card-title good">スマホは引き出しの中へ</div>
+          <div class="card-desc">視界から消すだけで集中力が別物に。小さな環境づくりが大きな差になる</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      <span class="tip-label">Today's Key Point</span>
+      <p class="tip-text">
+        やる気を待つな。<br>
+        <span class="accent">動けば、やる気はついてくる。</span>
+      </p>
+    </div>
+
+    <div class="deco-rule" style="margin-top:14px;">
+      <div class="line"></div>
+      <div class="dot"></div>
+      <div class="diamond"></div>
+      <div class="dot"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="bottom">
+    <div class="line-cta">プロフィールの公式ラインから、無料体験授業受付中！</div>
+
+    <div class="deco-rule">
+      <div class="line" style="max-width:60px;"></div>
+      <div class="dot"></div>
+      <div class="diamond"></div>
+      <div class="dot"></div>
+      <div class="line" style="max-width:60px;"></div>
+    </div>
+
+    <div class="school-mark">
+      <div class="school-name-en">E U R E K A</div>
+      <div class="school-name-jp">個別指導学習塾　ユリイカ</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

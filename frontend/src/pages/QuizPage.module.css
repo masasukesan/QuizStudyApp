@@ -626,7 +626,7 @@
   justify-content: flex-start;
   gap: 18px;
   animation: fadeIn 0.5s ease;
-  padding: 32px 0 24px;
+  padding: 32px 0 calc(80px + env(safe-area-inset-bottom, 0px));
   overflow-y: auto;
 }
 

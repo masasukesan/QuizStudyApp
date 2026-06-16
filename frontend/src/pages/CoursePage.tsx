@@ -211,7 +211,10 @@ export default function CoursePage() {
 
   const handleStart = () => {
     if (!selectedEntry) return
-    navigate('/quiz/' + subject + '?path=' + encodeURIComponent(selectedEntry.path) + '&difficulty=' + difficulty)
+    navigate(
+      '/quiz/' + subject + '?path=' + encodeURIComponent(selectedEntry.path) + '&difficulty=' + difficulty,
+      { state: { unitNameJa: selectedEntry.name } }
+    )
   }
 
   const canStart = selectedEntry && selectedEntry.questionCount > 0

@@ -305,8 +305,9 @@ export default function QuizPage() {
 
   /* チャレンジモード（location.state から事前ロード済み問題を取得） */
   const challengeMode = isChallengeSubject(subject)
-  type LocationState = { questions?: Question[] } | null
+  type LocationState = { questions?: Question[]; unitNameJa?: string } | null
   const preloadedQuestions = (location.state as LocationState)?.questions ?? null
+  const stateUnitNameJa   = (location.state as LocationState)?.unitNameJa ?? ''
 
   /* ── curriculum パスと難易度 ── */
   const curriculumPath = searchParams.get('path') ?? ''
@@ -321,6 +322,7 @@ export default function QuizPage() {
   const [questions,        setQuestions]        = useState<Question[]>([])
   const [questionsLoading, setQuestionsLoading] = useState(true)
   const [explanations,     setExplanations]     = useState<Explanations>({})
+  const [unitNameJa,       setUnitNameJa]       = useState<string>(stateUnitNameJa)
 
   useEffect(() => {
     setQuestionsLoading(true)
@@ -349,10 +351,14 @@ export default function QuizPage() {
 
     fetch(src)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
-      .then((data: { questions?: Omit<Question, 'unit'>[] } | Omit<Question, 'unit'>[]) => {
+      .then((data: { questions?: Omit<Question, 'unit'>[], unit?: string } | Omit<Question, 'unit'>[]) => {
         /* questions.json は { questions: [...] } 形式かフラット配列の両方に対応 */
         const allQ: Omit<Question, 'unit'>[] =
           Array.isArray(data) ? data : ((data as { questions?: Omit<Question, 'unit'>[] }).questions ?? [])
+        /* トップレベルの日本語単元名を保存 */
+        if (!Array.isArray(data) && (data as { unit?: string }).unit) {
+          setUnitNameJa((data as { unit: string }).unit)
+        }
         const filtered = allQ.filter(q => q.difficulty === urlDifficulty)
         const shuffled = [...filtered].sort(() => Math.random() - 0.5)
         const selected = shuffled.slice(0, TOTAL_QUESTIONS)
@@ -693,8 +699,8 @@ export default function QuizPage() {
           {/* シェアボタン */}
           {(() => {
             const shareText = levelUpInfo
-              ? `MathAcaでLv.${levelUpInfo.to}になりました！🎊\n#MathAca #共通テスト対策\nhttps://quiz-study-app-omega.vercel.app`
-              : `MathAcaで「${question?.unit ?? subunitSlug}」を${correctCount}/${totalQ}正解！${stars === 3 ? ' 🏆 完璧！！' : stars === 2 ? ' 🎉' : ''}\n#MathAca #共通テスト対策\nhttps://quiz-study-app-omega.vercel.app`
+              ? `MATHACAでLv.${levelUpInfo.to}になりました！🎊\n#MATHACA #共通テスト対策\nhttps://quiz-study-app-omega.vercel.app`
+              : `MATHACAで「${unitNameJa || question?.unit || subunitSlug}」を${correctCount}/${totalQ}正解！${stars === 3 ? ' 🏆 完璧！！' : stars === 2 ? ' 🎉' : ''}\n#MATHACA #共通テスト対策\nhttps://quiz-study-app-omega.vercel.app`
             const canShare = typeof navigator !== 'undefined' && !!navigator.share
             const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`
             const lineUrl = `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent('https://quiz-study-app-omega.vercel.app')}&text=${encodeURIComponent(shareText)}`

@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 290" width="256" height="290">
+  <defs>
+    <radialGradient id="skin3" cx="45%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FFF5EE"/>
+      <stop offset="100%" stop-color="#FFDECE"/>
+    </radialGradient>
+    <linearGradient id="hair3" x1="0%" y1="0%" x2="30%" y2="100%">
+      <stop offset="0%" stop-color="#C8AAEC"/>
+      <stop offset="60%" stop-color="#B890E4"/>
+      <stop offset="100%" stop-color="#F4B8D4"/>
+    </linearGradient>
+    <radialGradient id="iris3" cx="35%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#D4A8F8"/>
+      <stop offset="50%" stop-color="#9060D0"/>
+      <stop offset="100%" stop-color="#5C30A0"/>
+    </radialGradient>
+    <radialGradient id="cheek3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB8CC" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFB8CC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow3" x="-15%" y="-10%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#C4A0E8" flood-opacity="0.35"/>
+    </filter>
+    <filter id="eyeGlow3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow3" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ===== 吹き出し ===== -->
+  <rect x="136" y="22" width="116" height="68" rx="18" fill="white" stroke="#C9A0E8" stroke-width="2.5"
+        filter="url(#shadow3)"/>
+  <!-- 吹き出し尻尾 -->
+  <path d="M156 90 L144 110 L178 90Z" fill="white" stroke="#C9A0E8" stroke-width="2"
+        stroke-linejoin="round"/>
+  <path d="M157 90 L145 108 L177 90Z" fill="white"/>
+  <!-- テキスト -->
+  <text x="194" y="52" text-anchor="middle"
+        font-family="'Hiragino Maru Gothic Pro','Rounded Mplus 1c',sans-serif"
+        font-size="14" font-weight="bold" fill="#9060C8">いっしょに</text>
+  <text x="194" y="72" text-anchor="middle"
+        font-family="'Hiragino Maru Gothic Pro','Rounded Mplus 1c',sans-serif"
+        font-size="14" font-weight="bold" fill="#9060C8">がんばろ！💪</text>
+
+  <!-- ===== 体 ===== -->
+  <path d="M84 222 Q86 258 128 262 Q170 258 172 222 Q156 215 128 213 Q100 215 84 222Z"
+        fill="#EDD8FA" stroke="#C9A0E8" stroke-width="3"/>
+  <path d="M84 228 Q98 237 112 228 Q126 237 140 228 Q154 237 166 228 Q170 234 172 228"
+        fill="none" stroke="#DDB8F5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M100 215 Q128 210 156 215 L158 225 Q128 218 98 225Z"
+        fill="#F5E4FC" stroke="#C9A0E8" stroke-width="2"/>
+  <path d="M118 214 L128 223 L138 214 Q128 209 118 214Z" fill="#F4B8D4" stroke="#E090BB" stroke-width="1.5"/>
+  <circle cx="128" cy="215" r="4" fill="#E896C0" stroke="#D070A8" stroke-width="1"/>
+
+  <!-- 腕（左）拳 グー ！ -->
+  <path d="M100 218 Q82 210 74 196 Q72 186 80 188 Q86 200 100 212Z"
+        fill="#FFDECE" stroke="#F0C0A8" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 握り拳 -->
+  <rect x="64" y="180" width="22" height="18" rx="9" fill="#FFDECE" stroke="#F0C0A8" stroke-width="2"/>
+  <!-- 指 -->
+  <path d="M65 180 Q70 174 76 178" stroke="#F0C0A8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M72 179 Q76 173 82 177" stroke="#F0C0A8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M79 180 Q82 174 86 178" stroke="#F0C0A8" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- 腕（右）指さし ！ -->
+  <path d="M156 218 Q174 210 182 196 Q184 185 176 188 Q170 200 156 212Z"
+        fill="#FFDECE" stroke="#F0C0A8" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 手のひら -->
+  <ellipse cx="186" cy="190" rx="12" ry="11" fill="#FFDECE" stroke="#F0C0A8" stroke-width="2"/>
+  <!-- 人差し指 -->
+  <rect x="183" y="172" width="9" height="22" rx="4.5" fill="#FFDECE" stroke="#F0C0A8" stroke-width="2"/>
+  <ellipse cx="187" cy="170" rx="5.5" ry="6" fill="#FFDECE" stroke="#F0C0A8" stroke-width="2"/>
+  <!-- 指先の爪ハイライト -->
+  <ellipse cx="187" cy="167" rx="3" ry="2" fill="white" opacity="0.5"/>
+
+  <!-- 首 -->
+  <rect x="116" y="180" width="24" height="24" rx="10" fill="#FFDECE" stroke="#F0C0A8" stroke-width="2"/>
+
+  <!-- ===== 頭 ===== -->
+  <ellipse cx="128" cy="110" rx="78" ry="74" fill="url(#hair3)"/>
+  <path d="M54 114 Q46 154 54 184 Q64 176 70 162 Q60 138 62 114Z" fill="#C8AAEC"/>
+  <path d="M202 114 Q210 154 202 184 Q192 176 186 162 Q196 138 194 114Z" fill="#C8AAEC"/>
+
+  <ellipse cx="128" cy="114" rx="74" ry="76" fill="url(#skin3)" stroke="#F0C0A8" stroke-width="3.5" filter="url(#shadow3)"/>
+
+  <!-- 耳 -->
+  <ellipse cx="56" cy="122" rx="12" ry="15" fill="#FFDECE" stroke="#F0C0A8" stroke-width="2.5"/>
+  <ellipse cx="56" cy="122" rx="7" ry="9" fill="#FFBDAA"/>
+  <ellipse cx="200" cy="122" rx="12" ry="15" fill="#FFDECE" stroke="#F0C0A8" stroke-width="2.5"/>
+  <ellipse cx="200" cy="122" rx="7" ry="9" fill="#FFBDAA"/>
+
+  <!-- 前髪 -->
+  <path d="M56 110 Q60 66 128 60 Q196 66 200 110
+           Q182 95 164 102 Q154 86 142 100 Q136 84 128 98 Q120 84 114 100 Q102 86 92 102 Q74 95 56 110Z"
+        fill="url(#hair3)" stroke="#B890E4" stroke-width="1"/>
+  <path d="M90 88 Q108 78 126 80" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- 眉（キリッ！つり上がり） -->
+  <path d="M90 106 Q108 98 124 105" stroke="#6840A8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M132 105 Q148 98 166 106" stroke="#6840A8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- 目（左）キリッと大きく -->
+  <ellipse cx="107" cy="126" rx="19" ry="21" fill="white" stroke="#D0A0F0" stroke-width="2"/>
+  <ellipse cx="107" cy="128" rx="15" ry="17" fill="url(#iris3)"/>
+  <ellipse cx="107" cy="130" rx="8.5" ry="9.5" fill="#3A1870"/>
+  <circle cx="100" cy="121" r="5.5" fill="white" opacity="0.95" filter="url(#eyeGlow3)"/>
+  <circle cx="114" cy="133" r="2.5" fill="white" opacity="0.7"/>
+  <!-- まつ毛（キリッと） -->
+  <path d="M88 114 Q94 108 102 113" stroke="#6840A8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M112 111 Q118 105 126 111" stroke="#6840A8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <line x1="107" y1="105" x2="105" y2="98" stroke="#8050B8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="115" y1="107" x2="118" y2="100" stroke="#8050B8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 目（右）キリッと大きく -->
+  <ellipse cx="149" cy="126" rx="19" ry="21" fill="white" stroke="#D0A0F0" stroke-width="2"/>
+  <ellipse cx="149" cy="128" rx="15" ry="17" fill="url(#iris3)"/>
+  <ellipse cx="149" cy="130" rx="8.5" ry="9.5" fill="#3A1870"/>
+  <circle cx="142" cy="121" r="5.5" fill="white" opacity="0.95" filter="url(#eyeGlow3)"/>
+  <circle cx="156" cy="133" r="2.5" fill="white" opacity="0.7"/>
+  <path d="M130 114 Q136 108 144 113" stroke="#6840A8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M154 111 Q160 105 168 111" stroke="#6840A8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <line x1="149" y1="105" x2="147" y2="98" stroke="#8050B8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="157" y1="107" x2="160" y2="100" stroke="#8050B8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 鼻 -->
+  <circle cx="128" cy="144" r="2.5" fill="#F0A898" opacity="0.6"/>
+
+  <!-- 口（元気いっぱいの笑顔） -->
+  <path d="M108 155 Q128 175 148 155" stroke="#E890B8" stroke-width="3.5" fill="#FFF0F5" stroke-linecap="round"/>
+  <path d="M110 159 Q128 174 146 159 Q128 167 110 159Z" fill="white"/>
+
+  <!-- ほっぺ -->
+  <ellipse cx="86" cy="146" rx="22" ry="15" fill="url(#cheek3)"/>
+  <ellipse cx="170" cy="146" rx="22" ry="15" fill="url(#cheek3)"/>
+
+  <!-- ユリの花アクセ -->
+  <g transform="translate(188,78) rotate(-5)">
+    <ellipse cx="0" cy="-15" rx="8" ry="14" fill="#FFF0FA" stroke="#F4B8D8" stroke-width="1.5" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" fill="#FFE8F8" stroke="#F4B8D8" stroke-width="1.5" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" fill="#FFE4F4" stroke="#F4B8D8" stroke-width="1.5" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" fill="#FFE8F8" stroke="#F4B8D8" stroke-width="1.5" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-15" rx="8" ry="14" fill="#FFF0FA" stroke="#F4B8D8" stroke-width="1.5" transform="rotate(288)"/>
+    <circle cx="0" cy="0" r="10" fill="#FFE4A0" stroke="#F0C048" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="5.5" fill="#F0A828"/>
+  </g>
+  <path d="M184 82 Q174 92 170 106 Q180 94 184 82Z" fill="#80D880" stroke="#60C060" stroke-width="1"/>
+
+  <!-- 星クリップ（左） -->
+  <g transform="translate(70,82)">
+    <polygon points="0,-13 3.5,-4.5 13,-4.5 5.5,2 8,12 0,6.5 -8,12 -5.5,2 -13,-4.5 -3.5,-4.5"
+             fill="#FFE866" stroke="#F0C820" stroke-width="1.5"/>
+    <polygon points="0,-8 2,-3 7.5,-3 3,1 5,7 0,3.5 -5,7 -3,1 -7.5,-3 -2,-3"
+             fill="#FFF4A0"/>
+  </g>
+
+  <!-- 小エフェクト -->
+  <text x="42" y="130" font-size="18" fill="#FFB8CC" opacity="0.8" filter="url(#glow3)">♥</text>
+  <text x="30" y="158" font-size="13" fill="#C4AEEC" opacity="0.7">★</text>
+  <text x="214" y="126" font-size="15" fill="#FFE866" opacity="0.8" filter="url(#glow3)">★</text>
+
+  <!-- 名前 -->
+  <text x="128" y="276" text-anchor="middle"
+        font-family="'Hiragino Maru Gothic Pro','Rounded Mplus 1c',sans-serif"
+        font-size="15" font-weight="bold" fill="#9060C8">ユリちゃん</text>
+  <text x="128" y="290" text-anchor="middle"
+        font-family="'Hiragino Maru Gothic Pro','Rounded Mplus 1c',sans-serif"
+        font-size="11" fill="#C4A0E8">💪 応援 💪</text>
+</svg>

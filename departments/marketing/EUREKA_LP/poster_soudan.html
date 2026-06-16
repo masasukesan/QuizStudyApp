@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>保護者相談会｜個別指導学習塾EUREKA</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Noto Sans JP", sans-serif;
+        background: #f0ede8;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        padding: 24px;
+      }
+
+      .poster {
+        width: 297mm;
+        min-height: 420mm;
+        background: #fff;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.18);
+      }
+
+      /* ── 上部アクセント帯 ── */
+      .top-band {
+        background: linear-gradient(
+          135deg,
+          #1a4f72 0%,
+          #2980b9 60%,
+          #5dade2 100%
+        );
+        padding: 42px 54px 34px;
+        position: relative;
+      }
+      .top-band::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background: #fff;
+        clip-path: ellipse(54% 100% at 50% 100%);
+      }
+
+      .label-free {
+        display: inline-block;
+        background: #f39c12;
+        color: #fff;
+        font-size: 14pt;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        padding: 6px 20px;
+        border-radius: 20px;
+        margin-bottom: 14px;
+      }
+
+      .top-band h1 {
+        font-family: "Noto Serif JP", serif;
+        font-size: 56pt;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.15;
+        letter-spacing: 0.05em;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      }
+      .top-band h1 span {
+        font-size: 32pt;
+        display: block;
+      }
+
+      .top-band .subtitle {
+        color: #d6eaf8;
+        font-size: 15pt;
+        margin-top: 12px;
+        letter-spacing: 0.08em;
+      }
+
+      /* ── メインコンテンツ ── */
+      .content {
+        padding: 64px 54px 36px;
+      }
+
+      /* キャッチコピー */
+      .catch {
+        text-align: center;
+        margin-bottom: 36px;
+      }
+      .catch p {
+        font-size: 18pt;
+        font-weight: 700;
+        color: #1a4f72;
+        line-height: 1.9;
+        letter-spacing: 0.04em;
+      }
+      .catch .big {
+        font-family: "Noto Serif JP", serif;
+        font-size: 22pt;
+        color: #c0392b;
+      }
+
+      /* お悩みボックス */
+      .worries-box {
+        background: #eaf4fb;
+        border-left: 8px solid #2980b9;
+        border-radius: 0 12px 12px 0;
+        padding: 24px 30px;
+        margin-bottom: 36px;
+      }
+      .worries-box h2 {
+        font-size: 16pt;
+        font-weight: 700;
+        color: #1a4f72;
+        margin-bottom: 16px;
+      }
+      .worries-box ul {
+        list-style: none;
+        columns: 2;
+        column-gap: 32px;
+      }
+      .worries-box ul li {
+        font-size: 14pt;
+        color: #2c3e50;
+        padding: 6px 0;
+        padding-left: 28px;
+        position: relative;
+        line-height: 1.5;
+        break-inside: avoid;
+      }
+      .worries-box ul li::before {
+        content: "✔";
+        color: #2980b9;
+        font-size: 13pt;
+        position: absolute;
+        left: 0;
+        top: 6px;
+      }
+
+      /* 先生紹介 */
+      .teacher-box {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        background: linear-gradient(135deg, #fffde7 0%, #fff9c4 100%);
+        border: 2.5px solid #f1c40f;
+        border-radius: 14px;
+        padding: 24px 30px;
+        margin-bottom: 36px;
+      }
+      .teacher-icon {
+        width: 96px;
+        height: 96px;
+        min-width: 96px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #2980b9, #1a4f72);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 44pt;
+        color: #fff;
+      }
+      .teacher-text h3 {
+        font-size: 14pt;
+        color: #7d6608;
+        font-weight: 700;
+        margin-bottom: 6px;
+      }
+      .teacher-text p {
+        font-size: 14pt;
+        color: #2c3e50;
+        line-height: 1.7;
+      }
+      .teacher-text .name {
+        font-family: "Noto Serif JP", serif;
+        font-size: 20pt;
+        font-weight: 700;
+        color: #1a4f72;
+      }
+
+      /* 相談内容 */
+      .topics {
+        margin-bottom: 36px;
+      }
+      .topics h2 {
+        font-size: 16pt;
+        font-weight: 700;
+        color: #fff;
+        background: #1a4f72;
+        padding: 10px 22px;
+        border-radius: 8px 8px 0 0;
+        letter-spacing: 0.05em;
+      }
+      .topics-inner {
+        border: 2.5px solid #1a4f72;
+        border-top: none;
+        border-radius: 0 0 8px 8px;
+        padding: 20px 26px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px 24px;
+      }
+      .topic-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14pt;
+        color: #2c3e50;
+      }
+      .topic-icon {
+        font-size: 20pt;
+      }
+
+      /* 開催情報 */
+      .info-box {
+        background: linear-gradient(135deg, #1a4f72 0%, #2980b9 100%);
+        border-radius: 14px;
+        padding: 28px 34px;
+        margin-bottom: 26px;
+        color: #fff;
+      }
+      .info-box h2 {
+        font-size: 17pt;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        border-bottom: 1.5px solid rgba(255, 255, 255, 0.4);
+        padding-bottom: 12px;
+        margin-bottom: 18px;
+        text-align: center;
+      }
+      .info-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 18px;
+        margin-bottom: 14px;
+      }
+      .info-label {
+        font-size: 13pt;
+        font-weight: 700;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 3px 14px;
+        border-radius: 20px;
+        white-space: nowrap;
+        min-width: 72px;
+        text-align: center;
+      }
+      .info-value {
+        font-size: 15pt;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
+      }
+      .info-value .placeholder {
+        font-family: "Noto Serif JP", serif;
+        font-size: 18pt;
+        font-weight: 700;
+        color: #ffd700;
+      }
+
+      /* 申込 */
+      .apply-box {
+        border: 3px dashed #2980b9;
+        border-radius: 12px;
+        padding: 22px 30px;
+        margin-bottom: 22px;
+        text-align: center;
+      }
+      .apply-box h3 {
+        font-size: 16pt;
+        font-weight: 700;
+        color: #1a4f72;
+        margin-bottom: 10px;
+      }
+      .apply-box .contact {
+        font-size: 26pt;
+        font-weight: 700;
+        color: #c0392b;
+        letter-spacing: 0.06em;
+      }
+      .apply-box .contact-sub {
+        font-size: 13pt;
+        color: #555;
+        margin-top: 6px;
+      }
+
+      /* フッター */
+      .footer {
+        background: #1a4f72;
+        text-align: center;
+        padding: 18px;
+        color: #d6eaf8;
+        font-size: 13pt;
+        letter-spacing: 0.06em;
+      }
+      .footer .brand {
+        font-family: "Noto Serif JP", serif;
+        font-size: 18pt;
+        font-weight: 700;
+        color: #fff;
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      /* 装飾 */
+      .deco-circle {
+        position: absolute;
+        border-radius: 50%;
+        opacity: 0.07;
+        background: #fff;
+      }
+
+      @media print {
+        @page {
+          size: A3 portrait;
+          margin: 0;
+        }
+        body {
+          background: #fff;
+          padding: 0;
+        }
+        .poster {
+          box-shadow: none;
+          width: 297mm;
+          min-height: 420mm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="poster">
+      <!-- 上部帯 -->
+      <div class="top-band">
+        <div
+          class="deco-circle"
+          style="width: 220px; height: 220px; top: -80px; right: -60px"
+        ></div>
+        <div
+          class="deco-circle"
+          style="width: 130px; height: 130px; bottom: 10px; left: 30px"
+        ></div>
+        <div class="label-free">参加無料・予約制</div>
+        <h1>
+          <span>お子さまの勉強・子育ての</span>
+          保護者 相談会
+        </h1>
+        <p class="subtitle">
+          個別指導10年の経験を持つ先生が、あなたのお悩みに直接お答えします
+        </p>
+      </div>
+
+      <!-- メインコンテンツ -->
+      <div class="content">
+        <!-- キャッチ -->
+        <div class="catch">
+          <p>
+            「うちの子、このままで大丈夫？」<br />
+            「どう勉強させればいいかわからない…」<br />
+            <span class="big">そのお悩み、ひとりで抱えないでください。</span>
+          </p>
+        </div>
+
+        <!-- お悩みリスト -->
+        <div class="worries-box">
+          <h2>🌱 こんなお悩みをお持ちの方へ</h2>
+          <ul>
+            <li>子どもが全然勉強しない・やる気がない</li>
+            <li>成績が下がってきていて心配</li>
+            <li>塾に行かせるべきか迷っている</li>
+            <li>どの教科から力を入れればいいかわからない</li>
+            <li>子どもとの関わり方がわからない</li>
+            <li>進路・受験について相談したい</li>
+          </ul>
+        </div>
+
+        <!-- 先生紹介 -->
+        <div class="teacher-box">
+          <div class="teacher-icon">👨‍🏫</div>
+          <div class="teacher-text">
+            <h3>📌 担当する先生</h3>
+            <p class="name">西依（にしより）先生</p>
+            <p>
+              うきはで<strong>10年以上</strong>個別指導を続けてきた経験から、<br />
+              お子さまの学習・成長のお悩みに寄り添います。
+            </p>
+          </div>
+        </div>
+
+        <!-- 相談できる内容 -->
+        <div class="topics">
+          <h2>💬 相談できる内容</h2>
+          <div class="topics-inner">
+            <div class="topic-item">
+              <span class="topic-icon">📚</span>勉強法・家庭学習の進め方
+            </div>
+            <div class="topic-item">
+              <span class="topic-icon">📈</span>成績アップのコツ
+            </div>
+            <div class="topic-item">
+              <span class="topic-icon">🏫</span>塾・習い事の選び方
+            </div>
+            <div class="topic-item">
+              <span class="topic-icon">🎯</span>進路・受験対策の始め方
+            </div>
+            <div class="topic-item">
+              <span class="topic-icon">💛</span>子どもとの向き合い方
+            </div>
+            <div class="topic-item">
+              <span class="topic-icon">🌟</span>やる気を引き出す関わり方
+            </div>
+          </div>
+        </div>
+
+        <!-- 開催情報 -->
+        <div class="info-box">
+          <h2>📅 開催情報</h2>
+          <div class="info-row">
+            <span class="info-label">日　時</span>
+            <span class="info-value"
+              ><span class="placeholder"
+                >○月○日（○）　○○:○○ ～ ○○:○○</span
+              ></span
+            >
+          </div>
+          <div class="info-row">
+            <span class="info-label">場　所</span>
+            <span class="info-value"
+              ><span class="placeholder"
+                >ラグビー交流館内　ユリイカ吉井校</span
+              ></span
+            >
+          </div>
+          <div class="info-row">
+            <span class="info-label">対　象</span>
+            <span class="info-value">小学生・中学生・高校生の保護者の方</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">参加費</span>
+            <span class="info-value"
+              ><strong style="color: #ffd700; font-size: 14pt"
+                >無　料</strong
+              ></span
+            >
+          </div>
+          <div class="info-row">
+            <span class="info-label">定　員</span>
+            <span class="info-value"
+              ><span class="placeholder">6名（先着順・要予約）</span></span
+            >
+          </div>
+        </div>
+
+        <!-- 申込 -->
+        <div class="apply-box">
+          <h3>📞 お申し込み・お問い合わせ</h3>
+          <div class="contact">TEL：0943－76－9520</div>
+          <p class="contact-sub">
+            受付時間：10:00 ～ 22:00（金曜日・日曜日定休）<br />
+            または下記QRコードからLINEでもお申し込みいただけます。
+          </p>
+          <!-- QRコードはこちらに貼り付け -->
+          <img src="L_gainfriends_2dbarcodes_GW.png"
+            style="
+              margin-top: 10px;
+              width: 110px;
+              height: 110px;
+              border: 2px dashed #aaa;
+              border-radius: 6px;
+              margin: 12px auto 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #aaa;
+              font-size: 11pt;
+            "
+          >
+        </img>
+        </div>
+      </div>
+
+      <!-- フッター -->
+      <div class="footer">
+        <span class="brand">個別指導学習塾 EUREKA（ユリイカ）</span>
+        Tel：0943－76－9520
+      </div>
+    </div>
+  </body>
+</html>
