@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>ミクロコスモス｜将棋 × プログラミング教室</title>
     <meta
       name="description"
@@ -121,12 +122,28 @@
         justify-content: space-between;
       }
       .logo {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+      }
+      .logo-label {
+        font-size: 0.72rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 0.18em;
+        line-height: 1;
+        white-space: nowrap;
+      }
+      .logo-name {
         font-size: 1.25rem;
         font-weight: 800;
         color: #fff;
         letter-spacing: 0.06em;
+        line-height: 1;
+        white-space: nowrap;
       }
-      .logo span {
+      .logo-name span {
         color: var(--wood);
       }
       nav a {
@@ -201,7 +218,9 @@
       }
       .btn {
         display: inline-block;
-        padding: 16px 38px;
+        padding: 16px 0;
+        width: 240px;
+        text-align: center;
         border-radius: 100px;
         font-size: 1rem;
         font-weight: 700;
@@ -844,14 +863,44 @@
         font-size: 1.05rem;
         margin-bottom: 36px;
       }
+      .cta-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        margin-bottom: 0;
+      }
       .cta-section .btn-primary {
-        font-size: 1.1rem;
-        padding: 18px 52px;
+        font-size: 1.05rem;
+        padding: 16px 0;
+        width: 240px;
+        text-align: center;
+      }
+      .btn-line {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background: #06c755;
+        color: #fff;
+        font-size: 1.05rem;
+        font-weight: 700;
+        padding: 16px 0;
+        width: 240px;
+        border-radius: 100px;
+        text-decoration: none;
+        transition:
+          opacity 0.2s,
+          transform 0.15s;
+      }
+      .btn-line:hover {
+        opacity: 0.88;
+        transform: translateY(-2px);
       }
       .cta-detail {
         font-size: 0.85rem;
         color: rgba(255, 255, 255, 0.5);
-        margin-top: 16px;
+        margin-top: 20px;
       }
 
       /* ===== SITE FOOTER ===== */
@@ -879,10 +928,12 @@
   <body>
     <!-- ===== HEADER ===== -->
     <header>
-      <div class="logo">☖ Micro<span>Cosmos</span></div>
+      <div class="logo">
+        <span class="logo-label">将棋×プログラミング</span>
+        <span class="logo-name">☖ Micro<span>Cosmos</span></span>
+      </div>
       <nav>
         <a href="#about">教室について</a>
-        <a href="#curriculum">カリキュラム</a>
         <a href="#price">料金</a>
         <a href="#faq">FAQ</a>
         <a
@@ -902,7 +953,6 @@
     <!-- ===== HERO ===== -->
     <section class="hero">
       <div class="hero-inner">
-        <div class="hero-badge">将棋 × プログラミング</div>
         <h1>
           <em>考える力</em>が、<br />
           <span class="code-accent">未来のコード</span>になる。
@@ -910,7 +960,7 @@
         <p class="hero-sub">
           詰将棋の名作「ミクロコスモス」から生まれた教室。<br />
           将棋で磨いた論理力を、プログラミングで世界に放つ。<br />
-          小学3年生から大人まで、初心者大歓迎。
+          小学生から大人まで、初心者大歓迎。
         </p>
         <div class="hero-cta">
           <a href="#trial" class="btn btn-primary"
@@ -1084,63 +1134,6 @@
     </section>
 
     <!-- ===== CURRICULUM ===== -->
-    <section class="section section-alt" id="curriculum">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="en">CURRICULUM</span>
-          カリキュラム紹介
-        </h2>
-        <p class="section-lead">
-          Scratchを軸に、3つのステージで「作れる力」を段階的に育てます。
-        </p>
-
-        <div class="curriculum-stages">
-          <div class="stage-card stage-1">
-            <div class="stage-header">🌱 Stage 1 ／ 基本</div>
-            <div class="stage-body">
-              <ul>
-                <li>Scratchの画面を知ろう</li>
-                <li>キャラクターを動かしてみよう</li>
-                <li>くり返しと条件分岐を学ぶ</li>
-                <li>将棋の駒をプログラムで動かそう</li>
-                <li>初めての「ゲームっぽい作品」を完成させよう</li>
-              </ul>
-            </div>
-          </div>
-          <div class="stage-card stage-2">
-            <div class="stage-header">⚡ Stage 2 ／ 応用</div>
-            <div class="stage-body">
-              <ul>
-                <li>変数とスコアを使いこなす</li>
-                <li>リストとデータ構造を学ぶ</li>
-                <li>クイズゲームを作ろう</li>
-                <li>将棋×プログラミングのミニゲーム制作</li>
-                <li>友達と作品を共有・発表しよう</li>
-              </ul>
-            </div>
-          </div>
-          <div class="stage-card stage-3">
-            <div class="stage-header">🚀 Stage 3 ／ 発展</div>
-            <div class="stage-body">
-              <ul>
-                <li>オリジナルゲームを企画・設計</li>
-                <li>AIと機械学習に触れてみよう（ML4Kids）</li>
-                <li>Pythonへの入り口を体験</li>
-                <li>将棋AIの仕組みを学ぶ</li>
-                <li>作品発表会で成果を披露</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div style="text-align: center">
-          <div class="scratch-badge">
-            🐱 全カリキュラムはScratch（無料ツール）を使用。追加費用なし！
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- ===== TARGET ===== -->
     <section class="section section-dark">
       <div class="container">
@@ -1155,7 +1148,7 @@
         <div class="target-grid">
           <div class="target-card">
             <div class="t-icon">🎒</div>
-            <h3>小学3年生〜</h3>
+            <h3>小学生</h3>
             <p>
               プログラミングが初めてのお子様でも安心。将棋の楽しさを通じて論理的思考の土台を作ります。
             </p>
@@ -1221,7 +1214,8 @@
               </li>
               <li><span class="check">✓</span> スタッフがPC操作をサポート</li>
               <li>
-                <span class="check">✓</span> 休憩時間に将棋を指すことも可能
+                <span class="check">✓</span>
+                将棋教室無料体験も同時に受けられます！
               </li>
             </ul>
           </div>
@@ -1477,12 +1471,33 @@
           無料体験レッスンは随時受付中。<br />
           「楽しそう」その直感が、最高のスタートです。
         </p>
-        <a
-          href="mailto:info@microcosmos-shogi.jp?subject=無料体験レッスン申込"
-          class="btn btn-primary"
-        >
-          🎮 無料体験レッスンに申し込む（完全無料）
-        </a>
+        <div class="cta-buttons">
+          <a
+            href="mailto:info@microcosmos-shogi.jp?subject=無料体験レッスン申込"
+            class="btn btn-primary"
+          >
+            ✉️ メールで申し込む
+          </a>
+          <a
+            href="https://lin.ee/7OY6OLo"
+            target="_blank"
+            rel="noopener"
+            class="btn-line"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="#fff"
+            >
+              <path
+                d="M12 2C6.477 2 2 6.037 2 11.001c0 4.377 3.128 8.06 7.393 8.842.305.058.72.178.825.407.094.207.062.531.03.74l-.133.793c-.04.24-.19.94.822.513 1.013-.428 5.467-3.22 7.459-5.51C19.768 15.079 22 13.148 22 11c0-4.963-4.477-9-10-9z"
+              />
+            </svg>
+            LINEで申し込む
+          </a>
+        </div>
         <p class="cta-detail">
           お申し込み後、2営業日以内にご連絡いたします。<br />
           メール・LINEどちらでもお気軽にどうぞ。
@@ -1500,7 +1515,7 @@
         >
       </p>
       <p style="margin-top: 12px; font-size: 0.8rem; opacity: 0.5">
-        © 2025 MicroCosmos. All rights reserved.
+        © 2026 MicroCosmos. All rights reserved.
       </p>
     </footer>
   </body>
