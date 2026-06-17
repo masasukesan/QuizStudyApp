@@ -248,21 +248,21 @@ export default function SubjectPage() {
               <button
                 className={styles.logoutBtn}
                 onClick={() => setSelectedSubject(null)}
-                style={{ fontSize: '0.75rem', opacity: 0.7, whiteSpace: 'nowrap', padding: '4px 8px' }}
+                style={{ fontSize: '0.75rem', opacity: 0.7, padding: '4px 7px' }}
               >
-                教科変更
+                教科
               </button>
               <button
                 className={styles.logoutBtn}
                 onClick={() => setSelectingSchool(true)}
-                style={{ fontSize: '0.75rem', opacity: 0.7, whiteSpace: 'nowrap', padding: '4px 8px' }}
+                style={{ fontSize: '0.75rem', opacity: 0.7, padding: '4px 7px' }}
               >
-                コース変更
+                コース
               </button>
             </>
           )}
-          <button className={styles.logoutBtn} onClick={handleLogout} style={{ whiteSpace: 'nowrap', padding: '4px 8px' }}>
-            退室する
+          <button className={styles.logoutBtn} onClick={handleLogout} style={{ padding: '4px 7px' }}>
+            退室
           </button>
         </div>
       </header>
