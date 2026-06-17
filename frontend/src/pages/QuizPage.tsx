@@ -318,6 +318,9 @@ export default function QuizPage() {
   const unitSlug    = pathParts.length >= 3 ? pathParts[1] : pathParts[0] ?? ''
   const subunitSlug = pathParts.length >= 3 ? pathParts[2] : pathParts[1] ?? pathParts[0] ?? ''
 
+  /* ── リスニングモード判定 ── */
+  const isListening = pathParts[0] === 'listening'
+
   /* ── 問題ロード ── */
   const [questions,        setQuestions]        = useState<Question[]>([])
   const [questionsLoading, setQuestionsLoading] = useState(true)
@@ -422,6 +425,43 @@ export default function QuizPage() {
   const [correctCount, setCorrectCount] = useState(0)
   const [timeLeft,    setTimeLeft]    = useState(TIME_LIMIT)
   const [showComboPop, setShowComboPop] = useState(false)
+
+  /* ── 音声読み上げ（リスニングモード用） ── */
+  const [isSpeaking, setIsSpeaking] = useState(false)
+
+  /* 問題が変わったら音声を止める */
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel()
+      setIsSpeaking(false)
+    }
+  }, [currentIndex])
+
+  /* アンマウント時のクリーンアップ */
+  useEffect(() => {
+    return () => {
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel()
+      }
+    }
+  }, [])
+
+  function handleSpeak() {
+    if (!window.speechSynthesis) return
+    if (isSpeaking) {
+      window.speechSynthesis.cancel()
+      setIsSpeaking(false)
+      return
+    }
+    const utter = new SpeechSynthesisUtterance(question.question)
+    utter.lang = 'en-US'
+    utter.rate = 0.85
+    utter.pitch = 1.0
+    utter.onend = () => setIsSpeaking(false)
+    utter.onerror = () => setIsSpeaking(false)
+    setIsSpeaking(true)
+    window.speechSynthesis.speak(utter)
+  }
 
   /* ── DB 連携用 ── */
   const [sessionExpGain, setSessionExpGain] = useState(0)
@@ -816,6 +856,18 @@ export default function QuizPage() {
 
         {/* 問題文 */}
         <p className={styles.questionText}><MathText text={question.question} /></p>
+
+        {/* 音声再生ボタン（リスニング単元のみ表示） */}
+        {isListening && (
+          <button
+            className={`${styles.speakBtn} ${isSpeaking ? styles.speakBtnActive : ''}`}
+            onClick={handleSpeak}
+            aria-label={isSpeaking ? '停止' : '英文を音声で聞く'}
+          >
+            <span className={styles.speakBtnIcon}>{isSpeaking ? '⏹' : '🔊'}</span>
+            <span className={styles.speakBtnText}>{isSpeaking ? '停止' : '英文を聞く'}</span>
+          </button>
+        )}
       </div>
 
       {/* ── 選択肢 ── */}
@@ -929,7 +981,7 @@ export default function QuizPage() {
                         <p key={i} className={styles.expMistakeItem}><MathText text={m} /></p>
                       ))}
                     </div>
-                  )}
+                      )}
 
                   {/* ポイント */}
                   {tips.length > 0 && (

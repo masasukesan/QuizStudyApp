@@ -239,6 +239,40 @@
   line-height: 1.85;
 }
 
+/* ── 音声再生ボタン（リスニング単元） ── */
+.speakBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 16px 16px;
+  padding: 8px 18px;
+  background: rgba(100, 160, 255, 0.10);
+  border: 1px solid rgba(100, 160, 255, 0.35);
+  border-radius: 20px;
+  color: #5b9cf6;
+  font-family: var(--font-serif-jp);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.speakBtn:hover {
+  background: rgba(100, 160, 255, 0.18);
+  border-color: rgba(100, 160, 255, 0.55);
+}
+.speakBtnActive {
+  background: rgba(248, 113, 113, 0.12);
+  border-color: rgba(248, 113, 113, 0.45);
+  color: #f87171;
+}
+.speakBtnIcon {
+  font-size: 16px;
+  line-height: 1;
+}
+.speakBtnText {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+
 /* ══ 選択肢 ══ */
 .choices {
   display: flex;
