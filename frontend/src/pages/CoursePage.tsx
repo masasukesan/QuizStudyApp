@@ -27,6 +27,7 @@ const COURSE_LABEL: Record<string, string> = {
   '1A': '数学1A', '2B': '数学2B',
   '3': '数学3', 'C': '数学C', '_': '全単元',
   '中1': '1年生', '中2': '2年生', '中3': '3年生',
+  'reading': 'リーディング', 'listening': 'リスニング',
 }
 
 const UNIT_JP: Record<string, string> = {
@@ -79,6 +80,13 @@ const UNIT_JP: Record<string, string> = {
   'circles': '円',
   'pythagorean-theorem': '三平方の定理',
   'sampling': '標本調査',
+  // 英語
+  'text-comprehension': '文章読解',
+  'language':           '語彙・文法',
+  'conversation':       '対話文',
+  'lecture':            '講義・モノローグ',
+  'vocabulary':         '語彙',
+  'grammar':            '文法',
 }
 
 const DIFFICULTY_META: Record<Difficulty, { jp: string; desc: string }> = {
@@ -227,7 +235,7 @@ export default function CoursePage() {
         </button>
         <div className={styles.headerTitle}>
           <span className={styles.headerJp}>MathAca</span>
-          <span className={styles.headerEn}>Mathematics</span>
+          <span className={styles.headerEn}>{subject === 'english' ? 'English' : 'Mathematics'}</span>
         </div>
       </header>
 

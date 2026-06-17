@@ -218,6 +218,9 @@ export default function SubjectPage() {
   const expRemain   = Math.max(0, nextLvExp - currentExp)
   const initial     = profile?.username?.[0]?.toUpperCase() ?? 'S'
 
+  /* ── 教科選択ステップ ── */
+  const [selectedSubject, setSelectedSubject] = useState<'math' | null>(null)
+
   /* ── school_type でコースを絞り込む ── */
   const visibleCourses = profile?.school_type
     ? MATH_COURSES.filter(c => c.schoolType === profile.school_type)
@@ -240,43 +243,56 @@ export default function SubjectPage() {
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-          <button
-            className={styles.logoutBtn}
-            onClick={() => setSelectingSchool(true)}
-            style={{ fontSize: '0.75rem', opacity: 0.7, whiteSpace: 'nowrap', padding: '4px 8px' }}
-          >
-            コース変更
-          </button>
+          {selectedSubject === 'math' && (
+            <>
+              <button
+                className={styles.logoutBtn}
+                onClick={() => setSelectedSubject(null)}
+                style={{ fontSize: '0.75rem', opacity: 0.7, whiteSpace: 'nowrap', padding: '4px 8px' }}
+              >
+                教科変更
+              </button>
+              <button
+                className={styles.logoutBtn}
+                onClick={() => setSelectingSchool(true)}
+                style={{ fontSize: '0.75rem', opacity: 0.7, whiteSpace: 'nowrap', padding: '4px 8px' }}
+              >
+                コース変更
+              </button>
+            </>
+          )}
           <button className={styles.logoutBtn} onClick={handleLogout} style={{ whiteSpace: 'nowrap', padding: '4px 8px' }}>
             退室する
           </button>
         </div>
       </header>
 
-      {/* ══ コンテンツ統計バナー ══ */}
-      <div className={styles.statsBanner}>
-        {profile?.school_type === 'junior_high' ? (
-          <>
-            <span className={styles.statsItem}>中1 <em>7単元</em></span>
-            <span className={styles.statsDot}>·</span>
-            <span className={styles.statsItem}>中2 <em>7単元</em></span>
-            <span className={styles.statsDot}>·</span>
-            <span className={styles.statsItem}>中3 <em>8単元</em></span>
-            <span className={styles.statsDot}>·</span>
-            <span className={styles.statsItem}><em>660問</em> 収録</span>
-          </>
-        ) : (
-          <>
-            <span className={styles.statsItem}>1A <em>44単元</em></span>
-            <span className={styles.statsDot}>·</span>
-            <span className={styles.statsItem}>2B <em>38単元</em></span>
-            <span className={styles.statsDot}>·</span>
-            <span className={styles.statsItem}>C <em>11単元</em></span>
-            <span className={styles.statsDot}>·</span>
-            <span className={styles.statsItem}><em>2,790問</em> 収録</span>
-          </>
-        )}
-      </div>
+      {/* ══ コンテンツ統計バナー（数学選択後のみ表示） ══ */}
+      {selectedSubject === 'math' && (
+        <div className={styles.statsBanner}>
+          {profile?.school_type === 'junior_high' ? (
+            <>
+              <span className={styles.statsItem}>中1 <em>7単元</em></span>
+              <span className={styles.statsDot}>·</span>
+              <span className={styles.statsItem}>中2 <em>7単元</em></span>
+              <span className={styles.statsDot}>·</span>
+              <span className={styles.statsItem}>中3 <em>8単元</em></span>
+              <span className={styles.statsDot}>·</span>
+              <span className={styles.statsItem}><em>660問</em> 収録</span>
+            </>
+          ) : (
+            <>
+              <span className={styles.statsItem}>1A <em>44単元</em></span>
+              <span className={styles.statsDot}>·</span>
+              <span className={styles.statsItem}>2B <em>38単元</em></span>
+              <span className={styles.statsDot}>·</span>
+              <span className={styles.statsItem}>C <em>11単元</em></span>
+              <span className={styles.statsDot}>·</span>
+              <span className={styles.statsItem}><em>2,790問</em> 収録</span>
+            </>
+          )}
+        </div>
+      )}
 
       <div className={styles.inner}>
 
@@ -332,15 +348,52 @@ export default function SubjectPage() {
 
         {/* ══ セクションヘッダー ══ */}
         <div className={styles.sectionHeader}>
-          <p className={styles.sectionIndex}>MATHEMATICS  ·  数学</p>
+          <p className={styles.sectionIndex}>
+            {selectedSubject === 'math' ? 'MATHEMATICS  ·  数学' : 'STUDY  ·  学習'}
+          </p>
           <Flourish width={70} thickness={0.4} diamondSize={4} color="var(--sq-burgundy-hair)" />
           <p className={styles.sectionTitle}>
-            {needsSchoolType || selectingSchool ? 'あなたは？' : 'コースを選ぶ'}
+            {selectedSubject === null
+              ? '教科を選ぶ'
+              : (needsSchoolType || selectingSchool ? 'あなたは？' : 'コースを選ぶ')}
           </p>
         </div>
 
+        {/* ══ 教科選択（初期ステップ） ══ */}
+        {selectedSubject === null && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
+            {[
+              { key: 'math' as const,    emoji: '📐', label: '数学',   sub: 'Mathematics', note: '中学〜高校数学' },
+              { key: 'english' as const, emoji: '📖', label: '英語',   sub: 'English',     note: '共通テスト対策' },
+            ].map(opt => (
+              <button
+                key={opt.key}
+                onClick={() => {
+                  if (opt.key === 'math') setSelectedSubject('math')
+                  else navigate('/course/english')
+                }}
+                style={{
+                  display: 'flex', alignItems: 'center', gap: '16px',
+                  padding: '20px 20px', background: 'rgba(30,20,10,0.7)',
+                  border: '1px solid rgba(201,168,106,0.3)', cursor: 'pointer',
+                  color: '#c8b48a', fontFamily: 'inherit', textAlign: 'left',
+                  fontSize: '1rem', letterSpacing: '0.05em',
+                }}
+              >
+                <span style={{ fontSize: '1.8rem' }}>{opt.emoji}</span>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                  <span style={{ fontWeight: 700 }}>{opt.label}</span>
+                  <span style={{ fontSize: '0.72rem', color: 'rgba(200,180,138,0.5)', letterSpacing: '0.08em' }}>{opt.sub}</span>
+                </div>
+                <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)', marginLeft: 4 }}>{opt.note}</span>
+                <span style={{ marginLeft: 'auto' }}>›</span>
+              </button>
+            ))}
+          </div>
+        )}
+
         {/* ══ 学校種別インライン選択（未設定 or 変更中） ══ */}
-        {(needsSchoolType || selectingSchool) && (
+        {selectedSubject === 'math' && (needsSchoolType || selectingSchool) && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
             <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'rgba(200,180,138,0.6)', margin: 0 }}>
               ランキングは中学生・高校生で独立して集計されます
@@ -372,7 +425,7 @@ export default function SubjectPage() {
         )}
 
         {/* ══ コースリスト（school_type 設定済み） ══ */}
-        {!needsSchoolType && !selectingSchool && (
+        {selectedSubject === 'math' && !needsSchoolType && !selectingSchool && (
           <div className={styles.subjectList}>
             {visibleCourses.map((course, i) => {
               const isActive = course.status === 'active'
@@ -407,24 +460,6 @@ export default function SubjectPage() {
             })}
           </div>
         )}
-
-        {/* ══ 塾導線バナー ══ */}
-        {/* <a
-          href="https://eureka-ukiha.com"
-          className={styles.eurekaBanner}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <CornerDiamonds size={5} inset={-2.5} color="var(--sq-burgundy)" />
-          <div className={styles.eurekaBannerInner} />
-          <div className={styles.eurekaContent}>
-            <p className={styles.eurekaEyebrow}>INDIVIDUAL  ·  TUTORING</p>
-            <p className={styles.eurekaTitle}>個別指導学習塾 EUREKA</p>
-            <Flourish width={60} thickness={0.4} diamondSize={4} color="var(--sq-burgundy-hair)" />
-            <p className={styles.eurekaDesc}>オンライン個別指導　お問い合わせはこちら</p>
-          </div>
-          <span className={styles.eurekaArrow}>›</span>
-        </a> */}
 
         {/* ══ フッター ══ */}
         <div className={styles.footer}>
