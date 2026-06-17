@@ -15,22 +15,16 @@
  *   {text} による直接レンダリング禁止。
  */
 
+import { createElement } from 'react'
 import katex from 'katex'
 
-/* ────────────────────────────────────────────────────────── */
-/*  型定義                                                    */
-/* ────────────────────────────────────────────────────────── */
 type Segment =
   | { type: 'text';   content: string }
   | { type: 'inline'; content: string }
   | { type: 'block';  content: string }
 
-/* ────────────────────────────────────────────────────────── */
-/*  パーサー（$$...$$ → block, $...$ → inline, その他 → text）  */
-/* ────────────────────────────────────────────────────────── */
 function parseMath(text: string): Segment[] {
   const segments: Segment[] = []
-  // $$...$$ を先にマッチさせてから $...$ をマッチ（順序重要）
   const pattern = /\$\$([\s\S]+?)\$\$|\$([^$\n]+?)\$/g
   let lastIndex = 0
   let match: RegExpExecArray | null
@@ -54,43 +48,48 @@ function parseMath(text: string): Segment[] {
   return segments
 }
 
-/* ────────────────────────────────────────────────────────── */
-/*  コンポーネント                                             */
-/* ────────────────────────────────────────────────────────── */
 interface MathTextProps {
   text: string
 }
 
 export function MathText({ text }: MathTextProps) {
-  // text が undefined/null の場合はクラッシュせずに空を返す（JSON欠損・型ズレのフォールバック）
   if (text == null) return null
   const segments = parseMath(String(text))
 
-  return (
-    <>
-      {segments.map((seg, i) => {
-        if (seg.type === 'text') {
-          return <span key={i}>{seg.content}</span>
+  return createElement(
+    'span',
+    null,
+    ...segments.map((seg, i) => {
+      if (seg.type === 'text') {
+        // \n---\n を <hr> に変換して英文ブロックを視覚的に区切る
+        const parts = seg.content.split(/\n---\n/)
+        if (parts.length === 1) {
+          return createElement('span', { key: i }, seg.content)
         }
-
-        const html = katex.renderToString(seg.content, {
-          displayMode: seg.type === 'block',
-          throwOnError: false,  // 構文エラーでもクラッシュしない
-          output: 'html',
-        })
-
-        return (
-          <span
-            key={i}
-            dangerouslySetInnerHTML={{ __html: html }}
-            style={
-              seg.type === 'block'
-                ? { display: 'block', textAlign: 'center', margin: '0.5em 0', overflowX: 'auto' }
-                : undefined
-            }
-          />
+        const nodes = parts.flatMap((part, j) =>
+          j === 0
+            ? [createElement('span', { key: 't' + j }, part)]
+            : [
+                createElement('hr', { key: 'hr' + j, style: { border: 'none', borderTop: '1px solid currentColor', opacity: 0.25, margin: '6px 0' } }),
+                createElement('span', { key: 't' + j }, part),
+              ]
         )
-      })}
-    </>
+        return createElement('span', { key: i }, ...nodes)
+      }
+
+      const html = katex.renderToString(seg.content, {
+        displayMode: seg.type === 'block',
+        throwOnError: false,
+        output: 'html',
+      })
+
+      return createElement('span', {
+        key: i,
+        dangerouslySetInnerHTML: { __html: html },
+        style: seg.type === 'block'
+          ? { display: 'block', textAlign: 'center', margin: '0.5em 0', overflowX: 'auto' }
+          : undefined,
+      })
+    })
   )
 }
