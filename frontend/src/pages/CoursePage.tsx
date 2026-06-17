@@ -162,8 +162,9 @@ export default function CoursePage() {
       })
   }, [user, subject])
 
-  // school_type に応じてコースをフィルタ（未設定の場合は全表示）
+  // school_type に応じてコースをフィルタ（math 以外は全表示）
   const visibleTree = manifest?.tree.filter(cg => {
+    if (subject !== 'math') return true          // 英語など math 以外はフィルタしない
     const st = profile?.school_type
     if (!st) return true
     if (st === 'junior_high') return JUNIOR_HIGH_COURSES.includes(cg.course)
@@ -175,8 +176,9 @@ export default function CoursePage() {
 
   useEffect(() => { setOpenUnit(null) }, [activeCourse])
 
-  // profile が後から取得された場合に activeCourse を再補正する
+  // profile が後から取得された場合に activeCourse を再補正する（math のみ）
   useEffect(() => {
+    if (subject !== 'math') return              // 英語など math 以外はスキップ
     if (!manifest || !profile?.school_type) return
     setActiveCourse(prev => {
       const st = profile.school_type
@@ -354,7 +356,7 @@ export default function CoursePage() {
                     {'学習を始める　›'}
                   </button>
                   {!canStart && (
-                    <p className={styles.notReadyNote}>{'この単元はまだ準備中です'}</p>
+                    <p className={styles.notReadyNote}>{'\u3053\u306e\u5358\u5143\u306f\u307e\u3060\u6e96\u5099\u4e2d\u3067\u3059'}</p>
                   )}
                 </div>
               </div>
