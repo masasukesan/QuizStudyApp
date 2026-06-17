@@ -1,0 +1,422 @@
+[
+  {
+    "id": "eng-st-001",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nSummerfield City Pool\n\nOpening Hours:\n  Monday–Saturday: 6:30 a.m.–9:00 p.m.\n  Sunday: 9:00 a.m.–5:00 p.m.\n  Public Holidays: Closed\n\nAdmission:\n  Adults: ¥500\n  Students (age 6–17): ¥250\n  Children under 6: Free\n---\n\n日曜日のプールの閉館時刻はいつか。",
+    "choices": [
+      { "label": "A", "text": "午後9時" },
+      { "label": "B", "text": "午前6時30分" },
+      { "label": "C", "text": "午前9時" },
+      { "label": "D", "text": "午後5時" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-st-002",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nClearwater Adventure Camp 2026\n\nOutdoor activities, team challenges, and nature hikes await!\n\nCamp Dates: August 4–8\nAges: 10–15\nFee: ¥12,000 per camper (meals included)\nRegistration Deadline: July 20\nVenue: Clearwater National Forest, North Gate\n\nSpace is limited — register early at www.clearwatercamp.jp\n---\n\nキャンプの参加申込の締め切りはいつか。",
+    "choices": [
+      { "label": "A", "text": "8月8日" },
+      { "label": "B", "text": "8月4日" },
+      { "label": "C", "text": "7月20日" },
+      { "label": "D", "text": "7月10日" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-003",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nNorthside Community Library\n\nOpening Hours:\n  Tuesday–Friday: 10:00 a.m.–7:00 p.m.\n  Saturday–Sunday: 10:00 a.m.–5:00 p.m.\n  Monday: Closed\n\nLibrary cards are free for all residents.\nBooks may be borrowed for up to 3 weeks.\nLate fee: ¥10 per day per item.\n---\n\n図書館が休館しているのはどの曜日か。",
+    "choices": [
+      { "label": "A", "text": "月曜日" },
+      { "label": "B", "text": "火曜日" },
+      { "label": "C", "text": "土曜日" },
+      { "label": "D", "text": "日曜日" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-st-004",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nSakura Garden Restaurant\n\nWeekday Lunch Special!\n\nAny main dish + soup + salad: ¥900\n(Regular price: ¥1,400)\n\nAvailable: Monday–Friday only\nHours: 11:30 a.m.–2:00 p.m.\n\nNot valid on public holidays.\nCannot be combined with other offers.\nPlease show this notice to your server before ordering.\n---\n\nこのランチセットが注文できる時間帯はどれか。",
+    "choices": [
+      { "label": "A", "text": "午前10時〜午後2時" },
+      { "label": "B", "text": "午前11時30分〜午後2時" },
+      { "label": "C", "text": "午前11時〜午後3時" },
+      { "label": "D", "text": "正午〜午後2時" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-005",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nLOST ITEM NOTICE\n\nA pair of reading glasses (black frame) was found near the main entrance on June 14.\n\nCurrently kept at: Reception Desk, 1st Floor\nReception hours: 9:00 a.m.–6:00 p.m. daily\n\nTo claim this item, please bring your name and proof of identification.\n\nUnclaimed items will be donated to charity after 30 days.\n---\n\n遺失物を受け取るために持参するよう指示されているものはどれか。",
+    "choices": [
+      { "label": "A", "text": "購入時の領収書" },
+      { "label": "B", "text": "自宅の住所が記載された書類" },
+      { "label": "C", "text": "連絡先の電話番号" },
+      { "label": "D", "text": "身分証明書" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-st-006",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nEastwood High School Student Art Exhibition 2026\n\nDate: Friday, July 11\nTime: 3:00 p.m.–7:00 p.m.\nLocation: Main Gymnasium, Building A\n\nOpen to all students, parents, and local residents.\nFree admission.\n\nRefreshments available from 4:00 p.m.\nContact: artclub@eastwoodhigh.jp\n---\n\n展覧会への入場が認められているのはどのような人々か。",
+    "choices": [
+      { "label": "A", "text": "生徒のみ" },
+      { "label": "B", "text": "生徒と保護者のみ" },
+      { "label": "C", "text": "生徒・保護者・地域住民" },
+      { "label": "D", "text": "招待状を持つ人のみ" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-007",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nGrand Summer Sale — TechPlus Electronics!\n\nUp to 50% off selected items!\n\nSale Period: June 20–July 10\nStore Hours During Sale: 10:00 a.m.–9:00 p.m.\n(Regular hours: 10:00 a.m.–7:00 p.m.)\n\nFree gift wrapping on all purchases over ¥5,000.\nOffer applies in-store only. Not available online.\n---\n\nセール期間中の閉店時刻はいつか。",
+    "choices": [
+      { "label": "A", "text": "午後9時" },
+      { "label": "B", "text": "午後7時" },
+      { "label": "C", "text": "午後10時" },
+      { "label": "D", "text": "午前10時" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-st-008",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の説明文を読んで、内容と一致するものはどれか。\n\n---\nThe Clearstream Portable Water Filter weighs just 85 grams and can purify up to 1,000 liters of water before replacement. It removes 99.9% of bacteria and fits any standard water bottle. The filter is 15 cm long and comes with a protective carrying case. Available in blue, green, or white.\n---",
+    "choices": [
+      { "label": "A", "text": "フィルターは100リットルまで使用できる。" },
+      { "label": "B", "text": "フィルターは一般的な水筒に取り付けられる。" },
+      { "label": "C", "text": "フィルターは全部で4色から選べる。" },
+      { "label": "D", "text": "フィルターの長さは85センチメートルである。" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-009",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nNorthwood Photography Club — Next Meeting\n\nDate: Thursday, September 5\nTime: 6:30 p.m.\nLocation: Room 204, Community Center (2nd floor)\n\nAgenda:\n- Member photo sharing (bring 3–5 printed photos)\n- Guest speaker: Ms. Aiko Tanaka (landscape photography)\n- Planning for the October exhibition\n\nNew members welcome. No experience necessary.\nContact: nwphotoclub@mail.com\n---\n\n次の集まりが開催される場所はどれか。",
+    "choices": [
+      { "label": "A", "text": "市立図書館 第204室" },
+      { "label": "B", "text": "コミュニティセンター 第402室" },
+      { "label": "C", "text": "コミュニティセンター 第240室" },
+      { "label": "D", "text": "コミュニティセンター 第204室" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-st-010",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "basic",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nGreen Valley Dental Clinic — Appointment Reminder\n\n- Arrive 10 minutes before your scheduled time.\n- Bring your insurance card and a photo ID.\n- To cancel, please call at least 24 hours in advance.\n- Cancellations made less than 24 hours before your appointment may incur a ¥2,000 fee.\n- Children under 12 must be accompanied by a parent or guardian.\n---\n\nキャンセル料（¥2,000）が発生しないのはどのような場合か。",
+    "choices": [
+      { "label": "A", "text": "予約の当日に連絡してキャンセルする場合" },
+      { "label": "B", "text": "保険証を持参してキャンセルの連絡をする場合" },
+      { "label": "C", "text": "予約の24時間以上前に連絡してキャンセルする場合" },
+      { "label": "D", "text": "予約の12時間前に連絡してキャンセルする場合" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-011",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nSunrise Fitness Center — Membership Plans\n\nStandard Membership: ¥5,800/month\n- Unlimited gym access: 6:00 a.m.–11:00 p.m.\n- Free fitness consultation (once per month)\n- Full equipment use, including the pool\n\nStudent Membership: ¥3,200/month\n- Available to full-time students aged 15–25\n- Valid student ID required at sign-up\n- Gym hours: 7:00 a.m.–9:00 p.m. only\n- Pool access not included\n\nSenior Membership: ¥3,800/month\n- For members aged 60 and above\n- All Standard Membership benefits included\n- Plus: free monthly health check-up\n---\n\n学生会員(Student Membership)について、本文の内容と一致するものはどれか。",
+    "choices": [
+      { "label": "A", "text": "プールの使用が月会費に含まれている。" },
+      { "label": "B", "text": "午前6時からジムを利用することができる。" },
+      { "label": "C", "text": "入会時に有効な学生証の提示が必要である。" },
+      { "label": "D", "text": "14歳の学生も申し込むことができる。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-012",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nShopEasy Online Store — Shipping Policy\n\nStandard Shipping: ¥500 (delivery: 3–5 business days)\nExpress Shipping: ¥900 (delivery: 1–2 business days)\n\nFREE Standard Shipping applies when:\n  (1) Your order total is ¥3,000 or more, AND\n  (2) Every item in your order is marked \"Free Shipping Eligible\"\n\nImportant: Free shipping does NOT apply to orders containing frozen or refrigerated items, regardless of order total.\n---\n\n送料無料になる条件として、本文の内容と一致するものはどれか。",
+    "choices": [
+      { "label": "A", "text": "注文金額が¥3,000以上であれば、すべての商品が送料無料対象になる。" },
+      { "label": "B", "text": "¥3,000以上の注文で冷凍品を含む場合も送料無料になる。" },
+      { "label": "C", "text": "注文金額が¥3,000以上で、かつすべての商品が送料無料対象と表示されている場合に送料無料になる。" },
+      { "label": "D", "text": "全商品が送料無料対象であれば、注文金額にかかわらず送料無料になる。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-013",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nCreative Writing Workshop — Registration Details\n\nThis 6-week course meets every Saturday, 10:00 a.m.–12:00 p.m.\nStarting: September 6\n\nCapacity: 15 participants maximum\nFull course fee: ¥18,000\nDrop-in (single session): ¥4,000\n\nRegistration: Online only at www.writingworkshop.jp\n\nEarly-bird offer: ¥2,000 off the full course fee\n  → Must register before August 15\n\nNo refunds after the course begins.\nAll skill levels welcome.\n---\n\nワークショップの申し込みについて、本文の内容と一致するものはどれか。",
+    "choices": [
+      { "label": "A", "text": "8月15日より前に申し込むと、全課程の受講料が¥2,000引きになる。" },
+      { "label": "B", "text": "申し込みは電話でも行うことができる。" },
+      { "label": "C", "text": "1回のみの参加(drop-in)は受け付けていない。" },
+      { "label": "D", "text": "コース開始後でも全額返金を受けることができる。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-st-014",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nGreenfield University Foundation Scholarship 2026\n\nEligibility Requirements:\n- Must be a current undergraduate student at Greenfield University\n- Minimum GPA: 3.5 (verified by the Registrar's Office)\n- Must demonstrate financial need (income documents required)\n- Must NOT have previously received a Greenfield Foundation Scholarship\n\nAward: ¥500,000 per year (renewable for up to 4 years)\nDeadline: March 31, 2026\nApply via: portal.greenfield.edu\n---\n\nこの奨学金の応募資格をすべて満たしているのはどのような学生か。",
+    "choices": [
+      { "label": "A", "text": "グリーンフィールド大学の大学院生で、GPA3.5以上、かつ経済的支援の必要がある学生" },
+      { "label": "B", "text": "GPA3.0以上で経済的支援が必要な、グリーンフィールド大学の現役学部生" },
+      { "label": "C", "text": "過去にグリーンフィールド財団奨学金を受給したことがある、現役学部生" },
+      { "label": "D", "text": "GPA3.5以上で経済的支援が必要な、グリーンフィールド大学の現役学部生で過去に本奨学金を受給したことがない学生" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-st-015",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nLakeview Hotel — Loyalty Program Benefits\n\nSilver Members (10–49 stays/year)\n- 10% discount on room rates\n- Late check-out until 1:00 p.m. (subject to availability)\n\nGold Members (50–99 stays/year)\n- 20% discount on room rates\n- Complimentary breakfast for two\n- Late check-out guaranteed until 2:00 p.m.\n- Free room upgrade (subject to availability)\n\nPlatinum Members (100+ stays/year)\n- All Gold Member benefits\n- Dedicated concierge service\n- Access to the executive lounge\n---\n\nゴールド会員(Gold Member)に確実に提供される特典はどれか。",
+    "choices": [
+      { "label": "A", "text": "部屋のアップグレード(空室状況による)" },
+      { "label": "B", "text": "チェックアウトを午後2時まで延長できる保証" },
+      { "label": "C", "text": "エグゼクティブラウンジへのアクセス" },
+      { "label": "D", "text": "専任のコンシェルジュサービス" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-016",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nSilverscreen Cinema — Student Discount Policy\n\nStudents can enjoy our standard ticket price of ¥1,800 for just ¥1,200!\n\nTo qualify for the student discount:\n- You must present a valid student ID at the ticket counter.\n- The discount applies to standard screenings only.\n- Not valid for 3D, IMAX, or special event screenings.\n- Only one discounted ticket per student ID per visit.\n- This offer cannot be combined with other promotions.\n---\n\n学生割引が適用されない場合はどれか。",
+    "choices": [
+      { "label": "A", "text": "有効な学生証を持参して通常上映のチケットを1枚購入する場合" },
+      { "label": "B", "text": "有効な学生証を持参してIMAX上映のチケットを購入する場合" },
+      { "label": "C", "text": "有効な学生証を持参して通常上映のチケットを1枚だけ購入する場合" },
+      { "label": "D", "text": "有効な学生証を持参して平日の通常上映を1枚購入する場合" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-017",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nOakfield Community Garden — Plot-Holder Rules\n\nAll plot-holders must follow these rules:\n1. Each plot must be actively used. Plots left unplanted for more than 8 weeks may be reassigned.\n2. Plot-holders are responsible for weeding and maintaining a clear boundary between plots.\n3. Water usage is limited to 30 minutes per plot per week.\n4. Pesticides and herbicides are not permitted.\n5. Produce grown in the garden is for personal use only and may not be sold.\n---\n\n本文に記載されているルールとして正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "収穫した野菜は地域住民に無料で配布することができる。" },
+      { "label": "B", "text": "週あたりの水の使用時間は1区画につき30分までである。" },
+      { "label": "C", "text": "12週間以上未使用のまま放置された区画は再割り当てされる。" },
+      { "label": "D", "text": "承認を受けた農薬は使用が許可されている。" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-018",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nTravelSafe Insurance — What's Covered\n\nYour TravelSafe policy covers the following:\n- Trip cancellation due to sudden illness or injury (with doctor's certificate)\n- Lost or stolen baggage (up to ¥100,000 per claim)\n- Emergency medical treatment abroad\n- Flight delays of 4 hours or more (¥5,000 compensation)\n\nNot covered:\n- Cancellations due to change of mind or personal preference\n- Items left unattended in public places\n- Pre-existing medical conditions\n---\n\n補償対象となる状況はどれか。",
+    "choices": [
+      { "label": "A", "text": "出発前日に旅行が面倒になり、キャンセルした場合" },
+      { "label": "B", "text": "空港のベンチに置き忘れたスマートフォンが紛失した場合" },
+      { "label": "C", "text": "旅行中に突然体調を崩し、現地で緊急医療を受けた場合" },
+      { "label": "D", "text": "渡航前から患っていた疾患の治療を旅行先で受けた場合" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-019",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nMaple Ridge Campsite — Reservation Requirements\n\nTo make a reservation, all of the following must apply:\n- Minimum stay: 2 nights\n- Reservations must be made at least 7 days in advance.\n- Groups larger than 10 people must contact us by phone before booking online.\n- Pets are welcome but must be kept on a leash at all times.\n- Campfires are permitted only in designated fire pits.\n\nCancellation Policy:\nCancellations made 5 or more days before arrival: full refund\nCancellations made within 4 days of arrival: no refund\n---\n\nこのキャンプ場を予約できるのはどのような場合か。",
+    "choices": [
+      { "label": "A", "text": "3日後に1泊の予約を希望している個人客" },
+      { "label": "B", "text": "10日後に2泊の予約をオンラインで行う4人グループ" },
+      { "label": "C", "text": "5日後に2泊の予約をオンラインで行う12人グループ" },
+      { "label": "D", "text": "2週間後に1泊の予約を希望している個人客" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-020",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "standard",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nHarbor Arts Theatre — Ticket Refund Policy\n\nRefunds are available under the following conditions:\n- The performance is cancelled by the theatre.\n- You request a refund at least 48 hours before the performance.\n\nRefunds will NOT be issued if:\n- The request is made less than 48 hours before the performance.\n- The ticket has already been used.\n- The ticket was purchased through a third-party seller.\n\nTo request a refund, present your original ticket at the box office or contact us at tickets@harborarts.jp\n---\n\n払い戻しを受けられる条件として、本文の内容と一致するものはどれか。",
+    "choices": [
+      { "label": "A", "text": "公演の48時間以上前に劇場に直接連絡して払い戻しを申請した場合" },
+      { "label": "B", "text": "チケット購入後24時間以内に申請した場合" },
+      { "label": "C", "text": "代理販売業者を通じてチケットを購入した場合" },
+      { "label": "D", "text": "公演の12時間前に申請した場合" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-st-021",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nRiverside Food & Craft Fair 2026\n\nJoin us for a weekend celebration of local food, handmade goods, and live entertainment!\n\nDate: Saturday, October 3 and Sunday, October 4\nTime: 10:00 a.m.–6:00 p.m. both days\nLocation: Riverside Park, Main Lawn\nAdmission: Free\n\nHighlights:\n- Over 60 local food vendors\n- Live music on the riverside stage\n- Craft workshops for children and adults\n- Local produce market\n\nParking is available at the City Hall garage (10-minute walk).\nBring your own bag — the event is plastic-bag free.\n---\n\n本文で述べられていない情報はどれか。",
+    "choices": [
+      { "label": "A", "text": "イベントの開催期間" },
+      { "label": "B", "text": "フードベンダーの出店料金" },
+      { "label": "C", "text": "来場者の入場料" },
+      { "label": "D", "text": "駐車場の場所" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-022",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nNova Solutions — Our Commitment to the Environment\n\nAt Nova Solutions, we believe businesses have a responsibility to protect our planet. Starting this year, all our office supplies are sourced from certified sustainable providers. We have reduced paper use by 40% through digital workflows, and our headquarters now runs entirely on renewable energy.\n\nWe invite our employees, clients, and partners to join us in this commitment. Small changes — like choosing reusable cups and printing double-sided — can make a big difference.\n\nTo learn more about our sustainability goals, visit our website or speak with your team leader.\n---\n\nこの文書が書かれた主な目的は何か。",
+    "choices": [
+      { "label": "A", "text": "再生可能エネルギーの購入を社員に義務づけるため" },
+      { "label": "B", "text": "会社の環境への取り組みを伝え、読者にも参加を促すため" },
+      { "label": "C", "text": "紙の使用量が40%削減された理由を詳しく説明するため" },
+      { "label": "D", "text": "持続可能な事務用品の業者を紹介するため" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-023",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nDigital Photography for Beginners — Online Course\n\nLearn to take great photos with any camera — including your smartphone!\n\nCourse length: 8 weeks\nStart date: First Monday of each month\nFormat: Pre-recorded video lessons + weekly live Q&A sessions\nLanguage: English\nFee: ¥9,800 (one-time payment)\n\nWhat you will learn:\n- Camera settings and composition basics\n- Lighting techniques\n- Editing photos using free software\n\nA certificate of completion is awarded upon finishing all lessons.\n---\n\n本文に記載されていない情報はどれか。",
+    "choices": [
+      { "label": "A", "text": "コースの開始日の設定方法" },
+      { "label": "B", "text": "修了証が発行されること" },
+      { "label": "C", "text": "受講料の金額" },
+      { "label": "D", "text": "授業の形式(録画動画+ライブセッション)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-st-024",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nWestbridge High School — Parent Newsletter\n\nDear Parents and Guardians,\n\nWe are excited to announce that our school library will be undergoing renovations during the summer break. The new library will feature expanded study spaces, updated computer terminals, and a dedicated reading lounge for students.\n\nDuring the renovation period (July 14–August 20), the library will be closed. Students who need to return books before then should do so by July 10.\n\nWe look forward to welcoming you to our improved library when school resumes in September.\n\nWestbridge High School Administration\n---\n\nこのお知らせが出された主な目的は何か。",
+    "choices": [
+      { "label": "A", "text": "保護者に夏休み中の宿題の提出方法を伝えるため" },
+      { "label": "B", "text": "図書館の改修工事について保護者と生徒に知らせるため" },
+      { "label": "C", "text": "生徒に新しい読書スペースの利用を勧めるため" },
+      { "label": "D", "text": "生徒が本を返却する最終期限を延長したことを伝えるため" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-025",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nSunset Ridge City Park — Renovation Notice\n\nDear Residents,\n\nWork on the Sunset Ridge City Park renovation will begin on Monday, May 11.\n\nPhase 1 (May 11–June 30): The eastern walking trail and pond area will be closed.\nPhase 2 (July 7–August 15): The sports field will be temporarily closed for resurfacing.\n\nThe playground and western picnic area will remain open throughout the renovation.\n\nWe apologize for any inconvenience. For questions, please call the Parks Department at 555-7200.\n---\n\n本文に述べられていない情報はどれか。",
+    "choices": [
+      { "label": "A", "text": "フェーズ1で閉鎖される区域" },
+      { "label": "B", "text": "改修にかかる総費用" },
+      { "label": "C", "text": "改修期間中も開放されている場所" },
+      { "label": "D", "text": "問い合わせ先の電話番号" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-026",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nGrand Opening — The Brew Corner Coffee Shop!\n\nWe are thrilled to open our doors at 14 Maple Street this Saturday, June 21!\n\nTo celebrate, we're offering:\n- Buy one drink, get one free — all day Saturday\n- Free pastry with any purchase over ¥600\n- Enter our raffle for a chance to win a monthly coffee subscription!\n\nOur menu features single-origin beans roasted in-house, seasonal lattes, and a selection of freshly baked goods.\n\nFollow us on social media @thebrewcorner for updates and special offers.\n---\n\nこの文書の主な目的は何か。",
+    "choices": [
+      { "label": "A", "text": "新しいカフェのオープンを告知し、初日の特典を紹介して来店を促すため" },
+      { "label": "B", "text": "シングルオリジンコーヒーの製造工程を説明するため" },
+      { "label": "C", "text": "ソーシャルメディアのフォロワーを増やすため" },
+      { "label": "D", "text": "カフェのメニューを詳しく説明して注文方法を案内するため" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-st-027",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nPinewood Apartments — Residents' Notice\n\nPlease be informed of the following upcoming changes:\n\n1. The main entrance intercom system will be replaced on Thursday, June 19 (9:00 a.m.–3:00 p.m.). A temporary buzzer will be in place during this time.\n\n2. The rooftop terrace will be closed for cleaning every Tuesday from 8:00 a.m. to 12:00 p.m.\n\n3. All residents are reminded that bicycles must be stored in the designated basement bike room only. Bicycles found in hallways or near entrances will be removed.\n\nThank you for your cooperation.\nPinewood Apartments Management\n---\n\n本文に記載されていない情報はどれか。",
+    "choices": [
+      { "label": "A", "text": "インターホン交換工事の実施日時" },
+      { "label": "B", "text": "屋上テラスが清掃で閉鎖される曜日と時間帯" },
+      { "label": "C", "text": "自転車保管ルールに違反した場合の具体的な罰則内容" },
+      { "label": "D", "text": "自転車を置いてよい指定の場所" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-028",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nHelping Hands Charity Run 2026\n\nLace up your shoes and make a difference!\n\nJoin us for the annual 5K and 10K charity run supporting local youth sports programs.\n\nDate: Sunday, September 13\nStart time: 8:00 a.m. (10K) / 9:30 a.m. (5K)\nLocation: Greenfield Sports Complex\n\nRegistration fee:\n  5K: ¥2,000 | 10K: ¥3,000\n  (All proceeds go directly to the charity.)\n\nSign up by September 1 at www.helpinghandsrun.jp\nT-shirts are available for pre-order (¥1,500) until August 20.\n---\n\nこの文書が書かれた主な目的は何か。",
+    "choices": [
+      { "label": "A", "text": "地域の青少年スポーツプログラムの歴史を紹介するため" },
+      { "label": "B", "text": "チャリティーランへの参加を呼びかけ、寄付を集めるため" },
+      { "label": "C", "text": "ランニングの健康効果について読者に説明するため" },
+      { "label": "D", "text": "Tシャツの事前注文方法を詳しく案内するため" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-st-029",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nLuminos Online Store — Return Policy\n\nWe accept returns within 30 days of delivery under these conditions:\n- Item must be unused and in its original packaging.\n- Proof of purchase (order confirmation email) is required.\n- Return shipping costs are the customer's responsibility unless the item is defective.\n\nThe following items cannot be returned:\n- Digital downloads and software licenses\n- Customized or personalized products\n- Items marked \"Final Sale\" at time of purchase\n---\n\n本文の返品ポリシーに記載されていない情報はどれか。",
+    "choices": [
+      { "label": "A", "text": "返品の期限: 配送から30日以内" },
+      { "label": "B", "text": "返品を受け付けない商品の例" },
+      { "label": "C", "text": "返金が完了するまでに要する日数" },
+      { "label": "D", "text": "返品に購入証明が必要なこと" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-st-030",
+    "subject": "英語",
+    "unit": "短い情報文・広告",
+    "difficulty": "exam",
+    "question": "次の案内文を読んで、問いに答えなさい。\n\n---\nKeepin' Active — City Health Campaign\n\nDid you know that just 30 minutes of moderate exercise a day can lower your risk of heart disease, improve your mood, and boost your energy levels?\n\nThis summer, the City of Maplewood is launching a series of free outdoor fitness classes every Saturday morning at Riverside Park. Whether you are a beginner or already active, there is a class for you.\n\nAll classes are free and open to residents of all ages. No registration required — just show up!\n\nFor the full schedule, visit www.maplewoodhealth.gov or pick up a flyer at City Hall.\n---\n\nこの文書が主に目指していることは何か。",
+    "choices": [
+      { "label": "A", "text": "無料フィットネスクラスの具体的な運動内容を説明すること" },
+      { "label": "B", "text": "マープルウッド市の公園施設の利用方法を案内すること" },
+      { "label": "C", "text": "市民に定期的な運動を促し、無料フィットネスクラスへの参加を呼びかけること" },
+      { "label": "D", "text": "心臓病のリスクを下げるための医学的なアドバイスを提供すること" }
+    ],
+    "correct": "C"
+  }
+]
