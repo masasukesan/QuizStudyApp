@@ -385,8 +385,10 @@ export default function SubjectPage() {
                   <span style={{ fontWeight: 700 }}>{opt.label}</span>
                   <span style={{ fontSize: '0.72rem', color: 'rgba(200,180,138,0.5)', letterSpacing: '0.08em' }}>{opt.sub}</span>
                 </div>
-                <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)', marginLeft: 4 }}>{opt.note}</span>
-                <span style={{ marginLeft: 'auto' }}>›</span>
+                <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)' }}>{opt.note}</span>
+                  <span>›</span>
+                </span>
               </button>
             ))}
           </div>
@@ -475,11 +477,4 @@ export default function SubjectPage() {
           code={newRecoveryCode}
           onClose={() => {
             setNewRecoveryCode(null)
-            sessionStorage.removeItem(RECOVERY_CODE_KEY)
-          }}
-        />
-      )}
-
-    </div>
-  )
-}
+            sessionSt
