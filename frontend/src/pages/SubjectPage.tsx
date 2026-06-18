@@ -381,14 +381,12 @@ export default function SubjectPage() {
                 }}
               >
                 <span style={{ fontSize: '1.8rem' }}>{opt.emoji}</span>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', flex: 1 }}>
                   <span style={{ fontWeight: 700 }}>{opt.label}</span>
                   <span style={{ fontSize: '0.72rem', color: 'rgba(200,180,138,0.5)', letterSpacing: '0.08em' }}>{opt.sub}</span>
                 </div>
-                <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)' }}>{opt.note}</span>
-                  <span>›</span>
-                </span>
+                <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)' }}>{opt.note}</span>
+                <span>›</span>
               </button>
             ))}
           </div>
@@ -477,4 +475,11 @@ export default function SubjectPage() {
           code={newRecoveryCode}
           onClose={() => {
             setNewRecoveryCode(null)
-            sessionSt
+            sessionStorage.removeItem(RECOVERY_CODE_KEY)
+          }}
+        />
+      )}
+
+    </div>
+  )
+}
