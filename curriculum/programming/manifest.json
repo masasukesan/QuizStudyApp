@@ -17,7 +17,7 @@
       "subunit": "data-types",
       "name": "データ型（string / number / boolean / null / undefined）",
       "en": "Data Types",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/variables-and-types/type-conversion",
@@ -205,7 +205,7 @@
               "subunit": "data-types",
               "name": "データ型（string / number / boolean / null / undefined）",
               "en": "Data Types",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/variables-and-types/type-conversion",

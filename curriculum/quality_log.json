@@ -922,5 +922,12 @@
     "checked_at": "2026-06-18",
     "question_count": 30,
     "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/variables-and-types/data-types",
+    "status": "passed",
+    "checked_at": "2026-06-18",
+    "question_count": 30,
+    "notes": ""
   }
 ]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "dt-001",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "JavaScriptの「プリミティブ型」に含まれないデータ型はどれか。",
+    "choices": [
+      { "label": "A", "text": "null" },
+      { "label": "B", "text": "array" },
+      { "label": "C", "text": "string" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["プリミティブ型", "データ型の分類"]
+  },
+  {
+    "id": "dt-002",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、変数 name のデータ型として正しいものはどれか。\nconst name = \"田中\";",
+    "choices": [
+      { "label": "A", "text": "text" },
+      { "label": "B", "text": "char" },
+      { "label": "C", "text": "string" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["string型", "typeof"]
+  },
+  {
+    "id": "dt-003",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "typeof 100 を実行したとき、返ってくる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "\"integer\"" },
+      { "label": "B", "text": "\"number\"" },
+      { "label": "C", "text": "100" },
+      { "label": "D", "text": "\"numeric\"" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["typeof", "number型"]
+  },
+  {
+    "id": "dt-004",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "typeof true を実行したとき、返ってくる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "\"boolean\"" },
+      { "label": "B", "text": "\"bool\"" },
+      { "label": "C", "text": "\"true\"" },
+      { "label": "D", "text": "\"number\"" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["typeof", "boolean型"]
+  },
+  {
+    "id": "dt-005",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "次のように変数を宣言したあと、typeof score を実行した結果として正しいものはどれか。\nlet score;",
+    "choices": [
+      { "label": "A", "text": "\"null\"" },
+      { "label": "B", "text": "エラーが発生する" },
+      { "label": "C", "text": "\"empty\"" },
+      { "label": "D", "text": "\"undefined\"" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["typeof", "undefined型"]
+  },
+  {
+    "id": "dt-006",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "テンプレートリテラルを使って変数 name の値を文字列に埋め込む正しい書き方はどれか。",
+    "choices": [
+      { "label": "A", "text": "`こんにちは ${name} さん`" },
+      { "label": "B", "text": "\"こんにちは $name さん\"" },
+      { "label": "C", "text": "`こんにちは {name} さん`" },
+      { "label": "D", "text": "'こんにちは ${name} さん'" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["テンプレートリテラル", "string型"]
+  },
+  {
+    "id": "dt-007",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、変数 result の値として正しいものはどれか。\nconst result = \"3\" + 2;",
+    "choices": [
+      { "label": "A", "text": "5" },
+      { "label": "B", "text": "\"32\"" },
+      { "label": "C", "text": "\"5\"" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["文字列連結", "+演算子", "型の違い"]
+  },
+  {
+    "id": "dt-008",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "\"JavaScript\".length を実行したとき、返ってくる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "エラーが発生する" },
+      { "label": "B", "text": "11" },
+      { "label": "C", "text": "10" },
+      { "label": "D", "text": "9" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["lengthプロパティ", "string型"]
+  },
+  {
+    "id": "dt-009",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "JavaScriptのnumber型に含まれる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "NaN" },
+      { "label": "B", "text": "\"123\"" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["NaN", "number型"]
+  },
+  {
+    "id": "dt-010",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "basic",
+    "question": "次のコードで、message.length の値として正しいものはどれか。\nconst message = \"\";",
+    "choices": [
+      { "label": "A", "text": "0" },
+      { "label": "B", "text": "1" },
+      { "label": "C", "text": "null" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["空文字", "lengthプロパティ"]
+  },
+  {
+    "id": "dt-011",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに出力される値として正しいものはどれか。\nconsole.log(NaN === NaN);",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["NaN", "等価比較", "number型"]
+  },
+  {
+    "id": "dt-012",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "JavaScriptで 1 / 0 を計算したとき、結果として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "NaN" },
+      { "label": "B", "text": "0" },
+      { "label": "C", "text": "Infinity" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["Infinity", "number型", "ゼロ除算"]
+  },
+  {
+    "id": "dt-013",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "typeof NaN を実行したとき、返ってくる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "\"NaN\"" },
+      { "label": "B", "text": "\"boolean\"" },
+      { "label": "C", "text": "\"undefined\"" },
+      { "label": "D", "text": "\"number\"" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["typeof", "NaN", "number型"]
+  },
+  {
+    "id": "dt-014",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "次のように変数を宣言したとき、count の値として正しいものはどれか。\nlet count;",
+    "choices": [
+      { "label": "A", "text": "null" },
+      { "label": "B", "text": "0" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "\"\"" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["undefined", "変数の初期値"]
+  },
+  {
+    "id": "dt-015",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "開発者が「この変数には意図的に値がない」と示したいとき、使うべき値として適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "0" },
+      { "label": "B", "text": "null" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "\"\"" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["null", "nullとundefinedの使い分け"]
+  },
+  {
+    "id": "dt-016",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "null == undefined を実行したとき、結果として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "null" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["null", "undefined", "緩い等価比較"]
+  },
+  {
+    "id": "dt-017",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "null === undefined を実行したとき、結果として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "null" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["null", "undefined", "厳密等価比較"]
+  },
+  {
+    "id": "dt-018",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "次の値のうち、JavaScriptでfalsy（偽）として扱われるものはどれか。",
+    "choices": [
+      { "label": "A", "text": "\"0\"" },
+      { "label": "B", "text": "[]" },
+      { "label": "C", "text": "{}" },
+      { "label": "D", "text": "0" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["falsy", "boolean変換", "truthy/falsy"]
+  },
+  {
+    "id": "dt-019",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに出力される値として正しいものはどれか。\nif (\"0\") { console.log(\"truthy\"); } else { console.log(\"falsy\"); }",
+    "choices": [
+      { "label": "A", "text": "\"falsy\"" },
+      { "label": "B", "text": "\"truthy\"" },
+      { "label": "C", "text": "エラーが発生する" },
+      { "label": "D", "text": "何も出力されない" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["truthy/falsy", "string型", "if文"]
+  },
+  {
+    "id": "dt-020",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに出力される値として正しいものはどれか。\nconst arr = [];\nconsole.log(Boolean(arr));",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "0" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["truthy/falsy", "空配列", "Boolean変換"]
+  },
+  {
+    "id": "dt-021",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "typeof null を実行したとき、返ってくる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "\"null\"" },
+      { "label": "B", "text": "\"undefined\"" },
+      { "label": "C", "text": "\"object\"" },
+      { "label": "D", "text": "\"boolean\"" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["typeof", "null", "歴史的バグ"]
+  },
+  {
+    "id": "dt-022",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "typeof function() {} を実行したとき、返ってくる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "\"object\"" },
+      { "label": "B", "text": "\"function\"" },
+      { "label": "C", "text": "\"method\"" },
+      { "label": "D", "text": "\"undefined\"" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["typeof", "function", "データ型"]
+  },
+  {
+    "id": "dt-023",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "宣言していない変数 ghost に対して typeof ghost を実行したとき、起こる動作として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "ReferenceErrorが発生する" },
+      { "label": "B", "text": "\"undefined\" という文字列を返す" },
+      { "label": "C", "text": "null を返す" },
+      { "label": "D", "text": "false を返す" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["typeof", "未宣言変数", "ReferenceError"]
+  },
+  {
+    "id": "dt-024",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "0 == false を実行したとき、結果として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "0" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["緩い等価比較", "型変換", "boolean型"]
+  },
+  {
+    "id": "dt-025",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "null == false を実行したとき、結果として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "null" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["null", "緩い等価比較", "falsy"]
+  },
+  {
+    "id": "dt-026",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "\"\" == false を実行したとき、結果として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "\"\"" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["空文字", "緩い等価比較", "型変換"]
+  },
+  {
+    "id": "dt-027",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "0 === false を実行したとき、結果として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "0" },
+      { "label": "C", "text": "false" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["厳密等価比較", "型変換なし", "==="]
+  },
+  {
+    "id": "dt-028",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに出力される値として正しいものはどれか。\nconsole.log(\"5\" - 3);",
+    "choices": [
+      { "label": "A", "text": "\"53\"" },
+      { "label": "B", "text": "\"5-3\"" },
+      { "label": "C", "text": "NaN" },
+      { "label": "D", "text": "2" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["-演算子", "暗黙の型変換", "number型"]
+  },
+  {
+    "id": "dt-029",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに出力される値として正しいものはどれか。\nconsole.log(typeof typeof 42);",
+    "choices": [
+      { "label": "A", "text": "\"number\"" },
+      { "label": "B", "text": "\"string\"" },
+      { "label": "C", "text": "\"typeof\"" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["typeof", "ネスト", "string型"]
+  },
+  {
+    "id": "dt-030",
+    "subject": "programming",
+    "unit": "データ型（string / number / boolean / null / undefined）",
+    "difficulty": "exam",
+    "question": "isNaN(\"hello\") と Number.isNaN(\"hello\") の実行結果の組み合わせとして正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "isNaN: true, Number.isNaN: false" },
+      { "label": "B", "text": "isNaN: true, Number.isNaN: true" },
+      { "label": "C", "text": "isNaN: false, Number.isNaN: false" },
+      { "label": "D", "text": "isNaN: false, Number.isNaN: true" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["isNaN", "Number.isNaN", "NaN判定"]
+  }
+]

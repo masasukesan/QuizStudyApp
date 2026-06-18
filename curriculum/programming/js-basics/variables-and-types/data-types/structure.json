@@ -1,0 +1,148 @@
+{
+  "unit_id": "data-types",
+  "unit_name_jp": "データ型（string / number / boolean / null / undefined）",
+  "grade": "JavaScript基礎",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "primitive-types-overview",
+      "description": "JavaScriptの5つのプリミティブ型（string / number / boolean / null / undefined）の定義と使い方を問う。",
+      "thinking_process": [
+        "stringは文字列を表す型。シングルクォート・ダブルクォート・バッククォートで囲む",
+        "numberは整数・小数点数・NaN・Infinityを含む数値型",
+        "booleanはtrue/falseの2値のみを持つ型",
+        "nullは「意図的に値がない」ことを表す特殊な値",
+        "undefinedは「値が設定されていない」状態を表す特殊な値"
+      ],
+      "common_mistakes": [
+        "nullとundefinedをどちらも「値がない」と覚えて意図の違いを忘れる",
+        "numberにNaNが含まれることを知らない",
+        "文字列の数字（\"42\"）と数値の42が別の型であることを見落とす"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "typeof-operator-basic",
+      "description": "typeof演算子の返り値を問う。各型に対してどの文字列が返るかを識別する問題。",
+      "thinking_process": [
+        "typeof \"hello\" → \"string\"",
+        "typeof 42 → \"number\"",
+        "typeof true → \"boolean\"",
+        "typeof undefined → \"undefined\"",
+        "typeof null → \"object\"（歴史的バグ、特例として覚える）"
+      ],
+      "common_mistakes": [
+        "typeof null が \"null\" だと思い込む（実際は \"object\"）",
+        "typeof NaN が \"NaN\" や \"undefined\" だと思う（実際は \"number\"）",
+        "typeof を関数のように typeof(x) と書いても動くが、演算子であることを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "string-type-details",
+      "description": "string型の特性を問う。テンプレートリテラル・文字列連結・.lengthプロパティなど。",
+      "thinking_process": [
+        "文字列はシングル・ダブル・バッククォートで囲む。バッククォートはテンプレートリテラル（`${変数}`）が使える",
+        "\"+\"演算子で文字列を連結できる。数値と文字列を+で結ぶと文字列になる",
+        ".lengthで文字数を取得できる。インデックスは0始まり"
+      ],
+      "common_mistakes": [
+        "文字列 + 数値の結果が文字列になることを忘れ、数値計算と思い込む",
+        "テンプレートリテラルでバッククォートの代わりにシングルクォートを使ってしまう",
+        "文字列の長さを.length()のように関数呼び出し形式で書いてしまう（プロパティなので()は不要）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "number-type-details",
+      "description": "number型の特性（NaN・Infinity・浮動小数点の注意点）を問う。",
+      "thinking_process": [
+        "NaNはNot a Number。数値に変換できない演算結果。NaN === NaN はfalse",
+        "Infinityは無限大。1/0 → Infinity、-1/0 → -Infinity",
+        "浮動小数点の誤差（0.1+0.2 === 0.3 がfalse）はJSの仕様"
+      ],
+      "common_mistakes": [
+        "NaN === NaN がtrueだと思い込む（実際はfalse。NaNはどの値とも等しくない）",
+        "0で割るとエラーになると思う（実際はInfinityまたは-Infinity）",
+        "isNaN()関数とNumber.isNaN()の違いを知らない（isNaN(\"abc\")はtrueだがNumber.isNaN(\"abc\")はfalse）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "null-vs-undefined",
+      "description": "nullとundefinedの意味・使い方・比較演算の違いを問う。",
+      "thinking_process": [
+        "undefinedは変数を宣言したが値を代入していない状態、または存在しないプロパティへのアクセス時に現れる",
+        "nullは開発者が意図的に「値がない」ことを示すために代入する値",
+        "null == undefined はtrue（緩い比較）。null === undefined はfalse（厳密な比較）"
+      ],
+      "common_mistakes": [
+        "nullとundefinedが===で等しいと思い込む（実際はfalse）",
+        "undefinedを自分でも代入してよいと思い込む（技術的には可能だが、意味的にnullを使うべき）",
+        "null == undefined がtrueであることを利用したnullチェックのイディオムを知らない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "boolean-and-truthy-falsy",
+      "description": "boolean型の値と、JavaScriptで偽となる値（falsy values）を問う。",
+      "thinking_process": [
+        "falsyな値は6つ: false, 0, \"\"（空文字）, null, undefined, NaN",
+        "それ以外の値はすべてtruthy（\"0\"、[]、{}もtruthyであることに注意）",
+        "if文などでの条件判定は、booleanへの暗黙変換が起きる"
+      ],
+      "common_mistakes": [
+        "文字列 \"0\" や空配列 [] がfalsyだと思い込む（実際はtruthy）",
+        "空オブジェクト {} がfalsyだと思い込む（実際はtruthy）",
+        "NaNがfalsyであることを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "typeof-edge-cases",
+      "description": "typeof演算子の特殊なケース（null・NaN・関数・未宣言変数）を問う上級問題。",
+      "thinking_process": [
+        "typeof null === \"object\"（歴史的バグ）",
+        "typeof NaN === \"number\"（NaNはnumber型の一種）",
+        "typeof function(){} === \"function\"（関数はobjectの特殊形だがtypeofは\"function\"を返す）",
+        "宣言されていない変数にtypeofを使うとエラーにならず\"undefined\"を返す"
+      ],
+      "common_mistakes": [
+        "typeof null を \"null\" や \"undefined\" と答える",
+        "typeof NaN を \"NaN\" と答える",
+        "宣言されていない変数へのアクセスがReferenceErrorになるが、typeofは例外的にエラーを投げないことを知らない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "type-comparison-strict-loose",
+      "description": "===（厳密等価）と==（緩い等価）の型変換ルールを問う。データ型の知識を応用する。",
+      "thinking_process": [
+        "===は型変換なしで比較。型が違えば必ずfalse",
+        "==は型変換あり。null == undefined → true、0 == false → true、\"\" == false → true",
+        "一般的にはバグを防ぐため===を使うことが推奨される"
+      ],
+      "common_mistakes": [
+        "0 === false をtrueと思い込む（型が違うのでfalse）",
+        "null == false がtrueと思い込む（nullは null/undefined とのみ==比較でtrue）",
+        "\"\" == false がtrueであることを知らない（どちらも0に変換されて比較される）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "code-output-prediction",
+      "description": "データ型に関するコードを読み、実行結果を予測する問題。基本型の知識を統合的に使う。",
+      "thinking_process": [
+        "式の左辺から右辺へ評価し、型を追跡する",
+        "演算子が型変換を引き起こすかを判断する",
+        "typeof・===・==の結果を正確に予測する"
+      ],
+      "common_mistakes": [
+        "文字列連結と数値加算を区別せずに計算してしまう",
+        "NaN・null・undefinedが絡む演算の結果を誤る",
+        "typeofの返り値が文字列型であることを忘れる"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

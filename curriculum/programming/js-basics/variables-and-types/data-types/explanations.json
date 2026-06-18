@@ -1,0 +1,454 @@
+{
+  "dt-001": {
+    "lead": "JavaScriptのプリミティブ型（基本型）は string・number・boolean・null・undefined の5つ（さらにbigint・symbolがあります）です。array（配列）は[ ]で作る値で、typeof [] を実行すると \"object\" が返ります。配列はプリミティブ型ではなくオブジェクト型の一種なので、正解は「array」です。",
+    "steps": [
+      "「プリミティブ型」とは、それ以上分解できない基本的なデータの種類のことです",
+      "プリミティブ型の5つ: string（文字列）・number（数値）・boolean（真偽値）・null（値なし）・undefined（未設定）",
+      "array（配列）は[ ]で作るデータのまとまりです。typeof [] を実行すると \"object\" が返り、プリミティブ型には含まれません"
+    ],
+    "common_mistakes": [
+      "nullをプリミティブ型ではないと思い込む人がいます。nullはプリミティブ型の一つです",
+      "配列も「1つのデータ」に見えるのでプリミティブ型だと思い込みやすいですが、配列はオブジェクトの一種です"
+    ],
+    "tips": [
+      "typeof null は \"object\" を返しますが、nullはプリミティブ型です（JavaScriptの歴史的な設計による特例）"
+    ]
+  },
+  "dt-002": {
+    "lead": "JavaScriptでダブルクォート（\"）やシングルクォート（'）で囲まれた値は「文字列（string型）」になります。const name = \"田中\" の \"田中\" はダブルクォートで囲まれているので、string型です。typeof name を実行すると \"string\" が返ります。",
+    "steps": [
+      "文字列（string型）を作るには、値をダブルクォート（\"...\"）またはシングルクォート（'...'）またはバッククォート（`...`）で囲みます",
+      "\"田中\" はダブルクォートで囲まれているので string（文字列）型になります",
+      "typeof name を実行すると \"string\" という文字列が返ります"
+    ],
+    "common_mistakes": [
+      "\"42\" のように数字が入っていてもクォートで囲まれていれば string 型です（number型ではありません）"
+    ],
+    "tips": [
+      "typeof を使うと変数の型を文字列で確認できます。typeof \"田中\" → \"string\""
+    ]
+  },
+  "dt-003": {
+    "lead": "typeof演算子は変数や値の型を示す文字列を返します。数値リテラル 100 はnumber型なので、typeof 100 は文字列 \"number\" を返します。返り値は文字列であることに注意しましょう。",
+    "steps": [
+      "typeof は演算子（関数ではありません）です。typeof 値 の形で使います",
+      "数値（整数・小数・NaN・Infinity）はすべてnumber型です",
+      "typeof 100 の結果は文字列 \"number\" です（100という数値ではなく、\"number\"という文字列が返ります）"
+    ],
+    "common_mistakes": [
+      "typeof の結果は文字列型です。100 という数値ではなく、\"number\" という文字列が返ります",
+      "\"integer\"や\"int\"はJavaScriptには存在しません。整数も小数もすべてnumber型です"
+    ],
+    "tips": [
+      "typeof演算子は括弧なしで typeof 値 と書けます。typeof(100) と書いても動きますが、typeofは関数ではありません"
+    ]
+  },
+  "dt-004": {
+    "lead": "boolean（ブーリアン）型には true と false の2つの値だけがあります。typeof true を実行すると、型名を示す文字列 \"boolean\" が返ります。",
+    "steps": [
+      "boolean型とは、true（真）か false（偽）の2つの値しか持たない型です",
+      "typeof true を実行すると、型名を示す文字列 \"boolean\" が返ります",
+      "typeof の結果は常に文字列です。true そのものが返るわけではありません"
+    ],
+    "common_mistakes": [
+      "\"bool\" はJavaScriptの型名ではありません（C言語などで使う略称です）",
+      "true という値と \"boolean\" という文字列（typeofの結果）を混同しないようにしましょう"
+    ],
+    "tips": [
+      "条件分岐（if文）では boolean型の値（true/false）が使われます"
+    ]
+  },
+  "dt-005": {
+    "lead": "変数を宣言しただけで値を代入していないとき、その変数には自動的に undefined（アンディファインド）という特別な値が入ります。typeof score を実行すると \"undefined\" という文字列が返ります。",
+    "steps": [
+      "let score; は「scoreという変数を作る」という宣言です。= で値を代入していません",
+      "値を代入していない変数には、JavaScriptが自動的に undefined という値をセットします",
+      "typeof score を実行すると \"undefined\" という文字列が返ります"
+    ],
+    "common_mistakes": [
+      "値を代入していない変数が null になると思い込みやすいです。null は開発者が意図的に代入する値で、自動的にはセットされません",
+      "typeof を宣言されていない変数に使うとエラーになると思い込む人がいますが、\"undefined\" を返します（dt-023参照）"
+    ],
+    "tips": [
+      "undefined は「まだ値が設定されていない」状態を表す特別な値です"
+    ]
+  },
+  "dt-006": {
+    "lead": "テンプレートリテラルはバッククォート（`）で文字列を囲み、${変数名} の形で変数の値を文字列の中に埋め込む機能です。$ 記号と中括弧 { } が両方必要です。シングル・ダブルクォートでは機能しません。",
+    "steps": [
+      "テンプレートリテラルはバッククォート（キーボードの左上にある `）で文字列を囲みます",
+      "変数を埋め込むには ${変数名} の形式を使います。$ 記号と { } の両方が必要です",
+      "ダブルクォートやシングルクォートで囲んだ文字列の中では ${...} は特別な意味を持たず、そのまま文字として表示されます"
+    ],
+    "common_mistakes": [
+      "$name（中括弧なし）と書いても変数が展開されず、$name という文字列がそのまま出ます",
+      "{name}（$記号なし）だと同じく変数は展開されません",
+      "シングルクォート（'）で囲んでもテンプレートリテラルにはなりません。バッククォート（`）を使いましょう"
+    ],
+    "tips": [
+      "テンプレートリテラルでは改行もそのまま文字列に含めることができます"
+    ]
+  },
+  "dt-007": {
+    "lead": "JavaScriptでは + 演算子は「文字列連結」と「数値加算」の2つの意味を持ちます。一方が文字列の場合、もう一方も文字列に変換されて連結されます。\"3\" + 2 では \"3\" が文字列なので、2 が \"2\" に変換されて \"32\" になります。",
+    "steps": [
+      "+ 演算子の一方が文字列（string型）のとき、JavaScriptはもう一方も文字列に変換しようとします",
+      "\"3\" は文字列、2 は数値です。文字列が含まれているので 2 が \"2\" に変換されます",
+      "\"3\" + \"2\" = \"32\"（文字列の連結）となります。数値の足し算（3 + 2 = 5）にはなりません"
+    ],
+    "common_mistakes": [
+      "数値と数値の + は加算（3 + 2 = 5）ですが、文字列が混ざると連結になります",
+      "\"5\" - 3 のように - 演算子なら 2 になります（- は文字列連結の機能を持たないため文字列が数値に変換される）"
+    ],
+    "tips": [
+      "意図しない文字列連結を防ぐには、Number() で明示的に数値変換してから計算しましょう"
+    ]
+  },
+  "dt-008": {
+    "lead": "\"JavaScript\" という文字列は J-a-v-a-S-c-r-i-p-t の10文字です。文字列の .length プロパティを使うと文字数が返ってきます。.length は関数ではなくプロパティなので、括弧 () は不要です。",
+    "steps": [
+      "文字列の .length プロパティにアクセスすると、文字の個数が返ります",
+      "\"JavaScript\" は J,a,v,a,S,c,r,i,p,t の10文字なので .length は 10 です",
+      ".length は関数ではないので .length() のように括弧をつけてはいけません"
+    ],
+    "common_mistakes": [
+      ".length() と括弧をつけてしまうミスが多いです（配列メソッドと混同）。.length はプロパティなので括弧不要です",
+      "文字数を数えるとき大文字・小文字も1文字として数えます"
+    ],
+    "tips": [
+      ".length は0始まりではありません。1文字なら .length は 1 です。インデックスアクセス（[0]など）だけが0始まりです"
+    ]
+  },
+  "dt-009": {
+    "lead": "JavaScriptのnumber型は整数・小数点数だけでなく、NaN（ナン）とInfinityも含みます。NaN は「数値として計算できない」という特別な数値です。typeof NaN を実行すると \"number\" が返るので、NaN はnumber型の一員です。",
+    "steps": [
+      "number型に属する値: 整数（1, -5, 0）・小数（3.14）・NaN・Infinity・-Infinity",
+      "NaN（Not a Number）は「数値として表現できない計算結果」を表す特殊な値で、\"abc\" * 2 のような計算で発生します",
+      "\"123\" はダブルクォートで囲まれているのでstring型、true はboolean型、null はnull型です"
+    ],
+    "common_mistakes": [
+      "NaN は「数値型ではない」と思い込みがちですが、typeof NaN === \"number\" は true です",
+      "\"123\" は見た目が数字でも、クォートで囲まれていれば string 型です"
+    ],
+    "tips": [
+      "NaN かどうかを確認するには Number.isNaN() を使います。NaN === NaN は false なので直接比較はできません"
+    ]
+  },
+  "dt-010": {
+    "lead": "空文字列（\"\"）は文字が0個の文字列です。.length プロパティは文字の個数を返すので、空文字列の .length は 0 になります。null や undefined にはなりません。",
+    "steps": [
+      "\"\" は文字が1つもない「空文字列（から文字列）」です。string型の値です",
+      ".length は文字の個数を返します。文字が0個なので、0 が返ります",
+      "null や undefined にはなりません。0 という数値が返ります"
+    ],
+    "common_mistakes": [
+      "空文字列でも string型の値なので .length は使えます。undefined や null にはなりません",
+      ".length は「1個以上の文字」がないと使えないと思い込む人がいますが、0 も正常な返り値です"
+    ],
+    "tips": [
+      "空文字列かどうかをチェックするには str.length === 0 または str === \"\" を使います"
+    ]
+  },
+  "dt-011": {
+    "lead": "NaN（Not a Number）は「自分自身とも等しくない」という特殊な値です。NaN === NaN は false になります。これはJavaScriptの仕様で、「計算結果が不定の値は互いに等しいとはいえない」という考え方に基づいています。",
+    "steps": [
+      "NaN はJavaScriptで特殊な値です。\"abc\" * 2 のような「数値に変換できない計算」の結果として現れます",
+      "NaN === NaN を実行すると、仕様上 false が返ります（NaN はどの値とも等しくない）",
+      "NaN かどうか確認するには Number.isNaN(値) を使います"
+    ],
+    "common_mistakes": [
+      "NaN === NaN が true になると思い込む（実際は false です）",
+      "isNaN(NaN) は true です。ただし isNaN() は Number.isNaN() より広く、isNaN(\"abc\") も true を返します"
+    ],
+    "tips": [
+      "NaN 判定の正しい方法: Number.isNaN(変数) を使う。NaN === NaN は使えません"
+    ]
+  },
+  "dt-012": {
+    "lead": "JavaScriptでは 1 / 0 の計算はエラーにならず、Infinity（インフィニティ）という特別な数値になります。JavaScriptのnumber型はIEEE 754という規格に基づいており、無限大を表現できます。",
+    "steps": [
+      "Infinity はJavaScriptのnumber型に含まれる特別な値で「無限大」を表します",
+      "1 / 0 → Infinity（正の無限大）",
+      "-1 / 0 → -Infinity（負の無限大）",
+      "0 / 0 → NaN（0÷0は「不定形」なのでNaNになります）"
+    ],
+    "common_mistakes": [
+      "0で割るとエラーになると思い込む（Javaなど他の言語では例外が発生しますが、JavaScriptでは Infinity になります）",
+      "Infinity と NaN を混同する（1/0は Infinity、0/0は NaN）"
+    ],
+    "tips": [
+      "Number.isFinite(値) を使うと、その値が有限数かどうかを確認できます"
+    ]
+  },
+  "dt-013": {
+    "lead": "NaN はその名前から「数値ではない」と思われがちですが、typeof NaN は \"number\" を返します。NaN はnumber型の特殊な値の一つです。「数値として計算できない結果」を表す、number型の中の特別な状態です。",
+    "steps": [
+      "NaN（Not a Number）は「数値として表現できない演算結果」を表す特殊な値で、number型に属します",
+      "typeof NaN を実行すると \"number\" という文字列が返ります",
+      "\"NaN\" や \"undefined\" が返るわけではないことを確認しておきましょう"
+    ],
+    "common_mistakes": [
+      "typeof NaN が \"NaN\" を返すと思い込む（\"number\" が返ります）",
+      "NaN は undefined と混同されやすいですが、undefined型ではなく number型です"
+    ],
+    "tips": [
+      "NaN という名前は「数値として表現できない結果」という意味で、JavaScriptのnumber型の中の特殊な状態です"
+    ]
+  },
+  "dt-014": {
+    "lead": "let で変数を宣言して何も代入しなかった場合、変数の値は自動的に undefined になります。null や 0 や \"\" にはなりません。undefined は「まだ値が設定されていない」状態を表す特別な値です。",
+    "steps": [
+      "let count; は「count という名前の変数を作る」という宣言です。= で値を代入していません",
+      "値を代入していない変数には、JavaScriptが自動的に undefined をセットします",
+      "undefined は「まだ値が設定されていない」状態を表す特別な値です"
+    ],
+    "common_mistakes": [
+      "null は開発者が意図的に代入する値です。自動的に null になることはありません",
+      "0（数値のゼロ）や \"\"（空文字）も自動的にはセットされません"
+    ],
+    "tips": [
+      "undefined は「意図せず値がない状態」、null は「意図的に値がない状態」という違いを覚えましょう"
+    ]
+  },
+  "dt-015": {
+    "lead": "null は「このプロパティや変数には意図的に値がない」ということを明示したいときに使います。undefined は「まだ値が設定されていない」という異なるニュアンスを持ちます。開発者が意図的に「値なし」を示すには null を使います。",
+    "steps": [
+      "null は開発者が「値がない」という状態を意図的に示すために使います",
+      "undefined は変数を宣言したが値を代入していないとき自動的にセットされる値です",
+      "「データを取得したが結果が存在しなかった」ような状況では null を代入するのが適切です"
+    ],
+    "common_mistakes": [
+      "undefined を意図的に代入してしまう（技術的には可能ですが、null を使う方が意図が伝わりやすい）",
+      "0 や \"\" でも「値がない」ことを表現しようとする（これらは「ゼロ」や「空文字」という値があります）"
+    ],
+    "tips": [
+      "null を代入することで「データ取得済みだが結果なし」と「まだデータを取得していない（undefined）」を区別できます"
+    ]
+  },
+  "dt-016": {
+    "lead": "==（緩い等価演算子）で null と undefined を比較すると true になります。これはJavaScriptの仕様で、null と undefined は互いに == で等しいとみなされます。ただし null は他の値（0や false）と == で比較してもtrueにはなりません。",
+    "steps": [
+      "==（緩い等価演算子）は型が異なる場合、型変換をしてから比較します",
+      "null と undefined は == で比較すると、特別なルールにより true になります",
+      "null == 0 や null == \"\" は false です（null は undefined とのみ == で等しい）"
+    ],
+    "common_mistakes": [
+      "null == undefined が false だと思い込む（true です）",
+      "null == 0 も true になると思い込む（false です）"
+    ],
+    "tips": [
+      "nullチェックのイディオム: 変数 == null はnullとundefinedの両方をまとめてチェックできます"
+    ]
+  },
+  "dt-017": {
+    "lead": "===（厳密等価演算子）は型変換をせずに比較します。null はnull型、undefined はundefined型という異なる型なので、=== で比較すると false になります。",
+    "steps": [
+      "===（厳密等価演算子）は型が異なれば必ずfalseを返します",
+      "null はnull型、undefined はundefined型という異なる型です",
+      "型が違うので null === undefined は false になります"
+    ],
+    "common_mistakes": [
+      "null == undefined が true なので、=== でも true になると思い込む（=== は型変換しないのでfalse）"
+    ],
+    "tips": [
+      "バグを防ぐためにも、一般的には == より === を使うことが推奨されます"
+    ]
+  },
+  "dt-018": {
+    "lead": "JavaScriptで falsy（偽）として扱われる値は false, 0, \"\"（空文字）, null, undefined, NaN の6つです。\"0\"（文字列のゼロ）・[]（空配列）・{}（空オブジェクト）はfalsyに見えますが、すべてtruthyです。選択肢の中で falsy なのは 0（数値のゼロ）だけです。",
+    "steps": [
+      "falsy な値はif文でfalseとして扱われます。6つだけ覚えましょう: false, 0, \"\"（空文字）, null, undefined, NaN",
+      "\"0\"（文字列のゼロ）: 空文字ではなく文字が入っているのでtruthy",
+      "[]（空配列）: 空でもオブジェクトの参照があるのでtruthy",
+      "{}（空オブジェクト）: 空でもオブジェクトの参照があるのでtruthy",
+      "0（数値のゼロ）だけがfalsyです"
+    ],
+    "common_mistakes": [
+      "\"0\"（文字列）がfalsyだと思い込む（\"0\" は truthy です）",
+      "空配列 [] や空オブジェクト {} がfalsyだと思い込む（どちらも truthy です）"
+    ],
+    "tips": [
+      "falsyの6つを覚えるポイント: false, 0, \"\"（空っぽのもの）, null, undefined, NaN"
+    ]
+  },
+  "dt-019": {
+    "lead": "\"0\"（文字列のゼロ）は truthy な値です。空文字（\"\"）はfalsyですが、文字が入っている文字列（たとえ \"0\" でも）はtruthyになります。if (\"0\") の条件はtrueとして評価されるので \"truthy\" が出力されます。",
+    "steps": [
+      "if文の条件には boolean 以外の値を入れることができます。JavaScriptが自動的に boolean に変換します",
+      "falsy な値: false, 0（数値）, \"\"（空文字）, null, undefined, NaN",
+      "\"0\" は空文字ではなく「0という文字が入った文字列」なのでtruthyです",
+      "if (\"0\") の条件はtruthyなので if内のブロックが実行され \"truthy\" が出力されます"
+    ],
+    "common_mistakes": [
+      "\"0\" を数値の 0 と混同してfalsyと判断してしまう。文字列か数値かをよく確認しましょう"
+    ],
+    "tips": [
+      "文字が1文字でも入っていれば、その文字列はtruthyです（\"false\" という文字列もtruthyです）"
+    ]
+  },
+  "dt-020": {
+    "lead": "空配列（[]）はtruthyな値です。Boolean() を使うとその値が true か false かを確認できます。配列はたとえ空でも「オブジェクトの参照（メモリ上の場所）が存在する」ため、true になります。",
+    "steps": [
+      "Boolean(値) はその値をboolean型に変換します",
+      "falsy な値は Boolean() で false になります（false, 0, \"\", null, undefined, NaN の6つ）",
+      "空配列 [] はfalsyな値に含まれていないので、Boolean([]) は true になります"
+    ],
+    "common_mistakes": [
+      "空配列がfalsyだと思い込む（配列はたとえ空でもtruthyです）",
+      "「空っぽだからfalsy」という理解はstring（\"\"）には当てはまりますが、配列やオブジェクトには当てはまりません"
+    ],
+    "tips": [
+      "配列の中身が空かどうかを確認するには arr.length === 0 を使いましょう（Boolean(arr) では判定できません）"
+    ]
+  },
+  "dt-021": {
+    "lead": "typeof null を実行すると \"object\" が返ります。これはJavaScriptの歴史的なバグで、JavaScriptが最初に設計されたときのメモリ管理の仕組みに由来します。null はプリミティブ型ですが、typeof が \"object\" を返すのは仕様として残っています。",
+    "steps": [
+      "typeof演算子は値の型を示す文字列を返します",
+      "null に対して typeof null を実行すると、\"null\" ではなく \"object\" が返ります",
+      "これはJavaScriptの有名な歴史的バグです。null はプリミティブ型なのに typeof が \"object\" を返します",
+      "null かどうかを確認するには 変数 === null で判定します"
+    ],
+    "common_mistakes": [
+      "typeof null が \"null\" を返すと思い込む（実際は \"object\"）",
+      "typeof null === \"object\" だからといって null がオブジェクトというわけではありません。null はプリミティブ型です"
+    ],
+    "tips": [
+      "null かどうかの正しい判定方法: value === null（typeof は使わない）"
+    ]
+  },
+  "dt-022": {
+    "lead": "関数（function）はオブジェクトの特殊な形ですが、typeof演算子は関数に対して \"function\" という特別な文字列を返します。関数と通常のオブジェクトを typeof で区別できるのは、この例外的な動作のおかげです。",
+    "steps": [
+      "JavaScriptでは関数もオブジェクトの一種です（他のオブジェクトと同様にプロパティを持てます）",
+      "ただし typeof function() {} を実行すると、\"object\" ではなく \"function\" が返ります",
+      "これは typeof が関数を特別扱いしているためです"
+    ],
+    "common_mistakes": [
+      "関数はオブジェクトの一種なので typeof function() {} が \"object\" を返すと思い込む（\"function\" が返ります）"
+    ],
+    "tips": [
+      "typeof の返り値一覧: \"string\", \"number\", \"boolean\", \"undefined\", \"object\"（null含む）, \"function\", \"symbol\", \"bigint\""
+    ]
+  },
+  "dt-023": {
+    "lead": "通常、宣言していない変数にアクセスすると ReferenceError が発生します。しかし typeof 演算子だけは例外で、未宣言変数に使ってもエラーにならず \"undefined\" という文字列を返します。これは typeof の特別な動作です。",
+    "steps": [
+      "通常のアクセス: ghost → ReferenceError（宣言していないため）",
+      "typeof ghost → エラーにならず \"undefined\" を返す（typeof演算子の特別な動作）",
+      "この性質を利用して「変数が存在するかどうかを安全に確認する」ことができます"
+    ],
+    "common_mistakes": [
+      "typeof ghost が ReferenceError になると思い込む（typeof は未宣言変数でもエラーを投げません）",
+      "宣言していないので null が返ると思い込む（\"undefined\" が返ります）"
+    ],
+    "tips": [
+      "変数が存在するか安全に確認したい場面では typeof を使うと便利です（例: if (typeof myLib !== \"undefined\")）"
+    ]
+  },
+  "dt-024": {
+    "lead": "==（緩い等価）では、number型とboolean型を比較するとき、boolean を数値に変換してから比較します。false を数値に変換すると 0 になります。0 == 0 なので true になります。",
+    "steps": [
+      "==（緩い等価演算子）は型が異なるとき型変換をして比較します",
+      "boolean型は数値に変換されます: true → 1、false → 0",
+      "0 == false は 0 == 0（false を 0 に変換）として比較され、true になります"
+    ],
+    "common_mistakes": [
+      "=== では 0 === false は false（型が違うのでそのまま比較、型変換なし）",
+      "この動作が意図しないバグを生むため、== より === を使うことが推奨されます"
+    ],
+    "tips": [
+      "== の型変換ルールは複雑なので、基本的には === を使いましょう"
+    ]
+  },
+  "dt-025": {
+    "lead": "null は == 比較において undefined とのみ等しくなります。null == false は false です。null と false がどちらもfalsyな値でも、== で比較してtrueになるわけではありません。",
+    "steps": [
+      "== 比較での null の特殊ルール: null は null または undefined とのみ等しい",
+      "false を数値変換すると 0 になりますが、null == 0 は false です",
+      "null == false → false（null は false と == で等しくない）"
+    ],
+    "common_mistakes": [
+      "null がfalsyなので null == false が true になると思い込む（falsy同士でも == で等しいとは限らない）",
+      "0 == false が true なので null == false も true だと思い込む"
+    ],
+    "tips": [
+      "null は undefined 以外の値との == 比較ではほとんどfalseになります"
+    ]
+  },
+  "dt-026": {
+    "lead": "\"\" == false を実行すると true になります。== でstringとbooleanを比較するとき、まずbooleanを数値に変換（false → 0）し、次にstringを数値に変換（\"\" → 0）します。0 == 0 なので true です。",
+    "steps": [
+      "== 比較でstringとbooleanが比較されるとき: まずbooleanを数値に変換します（false → 0）",
+      "次にstringを数値に変換します（Number(\"\") → 0）",
+      "0 == 0 なので true になります"
+    ],
+    "common_mistakes": [
+      "\"\" はfalsyだけど false ではないから false になると思い込む",
+      "\"\" を Number() で変換すると NaN になると思い込む（実際は 0 になります）"
+    ],
+    "tips": [
+      "== の型変換は直感に反することが多いです。=== を使えばこの問題は発生しません"
+    ]
+  },
+  "dt-027": {
+    "lead": "===（厳密等価）は型変換をせずに比較します。0 はnumber型、false はboolean型と型が異なるため、=== の結果は false になります。0 == false は true ですが、0 === false は false です。",
+    "steps": [
+      "===（厳密等価演算子）は型が異なれば必ずfalseを返します（型変換は一切行いません）",
+      "0 はnumber型、false はboolean型です。型が違います",
+      "型変換なしで比較するので 0 === false は false です"
+    ],
+    "common_mistakes": [
+      "0 == false が true なので 0 === false も true だと思い込む（=== は型変換しません）"
+    ],
+    "tips": [
+      "=== を使えば「同じ値かつ同じ型のときだけtrue」という明確な比較ができます"
+    ]
+  },
+  "dt-028": {
+    "lead": "- 演算子（引き算）は + と違って「文字列連結」の機能を持ちません。\"5\" - 3 では \"5\" が自動的に数値の 5 に変換されてから計算が行われます。5 - 3 = 2 が出力されます。",
+    "steps": [
+      "+ 演算子は文字列連結と数値加算の2つの意味を持ちます（\"5\" + 3 = \"53\"）",
+      "- 演算子は数値の引き算のみです。文字列連結の機能はありません",
+      "\"5\" - 3 では \"5\" が自動的に数値 5 に変換されて、5 - 3 = 2 が計算されます"
+    ],
+    "common_mistakes": [
+      "\"5\" + 3 は \"53\"（文字列連結）、\"5\" - 3 は 2（数値引き算）という違いを混同する"
+    ],
+    "tips": [
+      "-（引き算）、*（掛け算）、/（割り算）は文字列連結に使われないので、文字列が自動的に数値変換されます"
+    ]
+  },
+  "dt-029": {
+    "lead": "式は内側から評価されます。typeof 42 を先に計算すると \"number\"（文字列）が返ります。次に typeof \"number\" を計算すると、文字列に対するtypeofは \"string\" を返します。最終結果は \"string\" です。",
+    "steps": [
+      "式は内側から評価されます。まず typeof 42 を計算します",
+      "typeof 42 → \"number\"（42はnumber型なので、型名の文字列\"number\"が返る）",
+      "次に外側の typeof を適用します。typeof \"number\" を計算します",
+      "\"number\" は文字列（string型）なので typeof \"number\" → \"string\"",
+      "最終結果: \"string\""
+    ],
+    "common_mistakes": [
+      "typeof typeof 42 が \"number\" になると思い込む（内側の結果は文字列\"number\"なので、外側はその文字列型の\"string\"を返す）"
+    ],
+    "tips": [
+      "typeof は常に文字列を返します。そのため typeof（何でも）に typeof を重ねると、最終的に \"string\" になります"
+    ]
+  },
+  "dt-030": {
+    "lead": "isNaN() と Number.isNaN() は動作が異なります。isNaN(\"hello\") は \"hello\" を数値変換してからNaNかどうか判定するので true になります。Number.isNaN(\"hello\") は変換せずに「値そのものがNaNかどうか」を判定するので false になります。",
+    "steps": [
+      "isNaN(値) は値を先に数値（number型）に変換してからNaNかどうか確認します",
+      "Number(\"hello\") → NaN なので isNaN(\"hello\") は true",
+      "Number.isNaN(値) は変換せず「値がNaNそのものかどうか」を厳密に確認します",
+      "\"hello\" はstring型のため Number.isNaN(\"hello\") は false（NaN というnumber型の値ではないから）"
+    ],
+    "common_mistakes": [
+      "isNaN() と Number.isNaN() が同じ動作だと思い込む",
+      "Number.isNaN(\"hello\") が true になると思い込む（NaN そのものかどうかを確認するので文字列は false）"
+    ],
+    "tips": [
+      "NaN 判定には Number.isNaN() を使う方が意図した動作になります。isNaN() は型変換が絡んで意図しない true を返す場合があります"
+    ]
+  }
+}
