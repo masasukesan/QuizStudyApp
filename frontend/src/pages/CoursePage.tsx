@@ -92,7 +92,7 @@ const UNIT_JP: Record<string, string> = {
   'variables-and-types': '変数とデータ型',
   'operators':           '演算子',
   'control-flow':        '制御構文',
-  'functions':           '関数',
+  // 'functions' は数学の '関数' と共用
   'arrays':              '配列',
   'objects':             'オブジェクト',
   'async-basics':        '非同期の基礎',
@@ -367,7 +367,7 @@ export default function CoursePage() {
                     {'学習を始める　›'}
                   </button>
                   {!canStart && (
-                    <p className={styles.notReadyNote}>{'\u3053\u306e\u5358\u5143\u306f\u307e\u3060\u6e96\u5099\u4e2d\u3067\u3059'}</p>
+                    <p className={styles.notReadyNote}>{'この単元はまだ準備中です'}</p>
                   )}
                 </div>
               </div>
