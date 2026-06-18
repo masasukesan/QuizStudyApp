@@ -237,6 +237,7 @@
   font-weight: 400;
   color: var(--sq-ink);
   line-height: 1.85;
+  white-space: pre-wrap;
 }
 
 /* ── 音声再生ボタン（リスニング単元） ── */

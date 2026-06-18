@@ -1,0 +1,422 @@
+[
+  {
+    "id": "js-vd-001",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "JavaScriptで「変数」とは何ですか？最も正確な説明はどれですか？",
+    "choices": [
+      { "label": "A", "text": "プログラムの中でデータに名前をつけて保存しておく入れ物のこと" },
+      { "label": "B", "text": "プログラムを実行する命令のこと" },
+      { "label": "C", "text": "HTMLのタグに名前をつけるための仕組みのこと" },
+      { "label": "D", "text": "計算結果を画面に表示するための関数のこと" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-002",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nlet score = 100;\nscore = 200;\nconsole.log(score);",
+    "choices": [
+      { "label": "A", "text": "200" },
+      { "label": "B", "text": "100" },
+      { "label": "C", "text": "エラーになる" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-003",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のコードを実行するとどうなりますか？\n\nconst PI = 3.14;\nPI = 3.14159;",
+    "choices": [
+      { "label": "A", "text": "エラーになる(constは再代入できない)" },
+      { "label": "B", "text": "PIが3.14159に更新される" },
+      { "label": "C", "text": "警告は出るが処理は続く" },
+      { "label": "D", "text": "undefinedが代入される" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-004",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "letとvarの再宣言(同じ名前で2回宣言すること)について、正しい説明はどれですか？",
+    "choices": [
+      { "label": "A", "text": "varは再宣言できるが、letは再宣言するとエラーになる" },
+      { "label": "B", "text": "letは再宣言できるが、varは再宣言するとエラーになる" },
+      { "label": "C", "text": "letもvarもどちらも再宣言できる" },
+      { "label": "D", "text": "letもvarもどちらも再宣言するとエラーになる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-005",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のうち、constを使うのに最も適しているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "プログラム全体を通して変わらない円周率(3.14)を保存するとき" },
+      { "label": "B", "text": "ゲームのプレイヤーの現在のスコアを保存するとき" },
+      { "label": "C", "text": "ループのカウンター変数として使うとき" },
+      { "label": "D", "text": "ユーザーが入力したテキストを保存するとき" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-006",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のコードは正しいですか？エラーになるとしたら何行目ですか？\n\n1: const name;\n2: name = \"Alice\";",
+    "choices": [
+      { "label": "A", "text": "1行目でエラー(constは宣言と同時に値を入れなければならない)" },
+      { "label": "B", "text": "2行目でエラー(constに後から代入できない)" },
+      { "label": "C", "text": "エラーなし。name に \"Alice\" が入る" },
+      { "label": "D", "text": "2行目でエラー(constの変数名は大文字でなければならない)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-007",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のうち、JavaScriptの変数名として使えないものはどれですか？",
+    "choices": [
+      { "label": "A", "text": "1stScore" },
+      { "label": "B", "text": "_score" },
+      { "label": "C", "text": "$price" },
+      { "label": "D", "text": "myName" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-008",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のコードの実行後、xには何が入っていますか？\n\nlet x;\nconsole.log(x);",
+    "choices": [
+      { "label": "A", "text": "undefined(値が入っていない状態)" },
+      { "label": "B", "text": "0(数値のゼロ)" },
+      { "label": "C", "text": "エラーになる(letは宣言と同時に値が必要)" },
+      { "label": "D", "text": "null(空を表す値)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-009",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のコードを実行するとどうなりますか？\n\nlet count = 0;\nlet count = 1;",
+    "choices": [
+      { "label": "A", "text": "エラーになる(letは同じ名前で2回宣言できない)" },
+      { "label": "B", "text": "countが1に更新される" },
+      { "label": "C", "text": "countが0のままになる" },
+      { "label": "D", "text": "2つのcountが別々に作られる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-010",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "basic",
+    "question": "次のコードを実行するとどうなりますか？\n\nvar score = 10;\nvar score = 20;\nconsole.log(score);",
+    "choices": [
+      { "label": "A", "text": "20(varは同じ名前で再宣言できる)" },
+      { "label": "B", "text": "10(最初の宣言が優先される)" },
+      { "label": "C", "text": "エラーになる" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-011",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\n{\n  let x = 10;\n}\nconsole.log(x);",
+    "choices": [
+      { "label": "A", "text": "ReferenceError(xはブロックの外からアクセスできない)" },
+      { "label": "B", "text": "10(letはどこからでもアクセスできる)" },
+      { "label": "C", "text": "undefined(ブロック外ではxは未定義状態になる)" },
+      { "label": "D", "text": "null(ブロックを抜けると自動的にnullになる)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-012",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\n{\n  var y = 10;\n}\nconsole.log(y);",
+    "choices": [
+      { "label": "A", "text": "10(varはブロックスコープを無視して外からアクセスできる)" },
+      { "label": "B", "text": "ReferenceError(yはブロックの外からアクセスできない)" },
+      { "label": "C", "text": "undefined(ブロック外ではyは未定義状態になる)" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-013",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nconst user = { name: \"Alice\" };\nuser.name = \"Bob\";\nconsole.log(user.name);",
+    "choices": [
+      { "label": "A", "text": "Bob(constでもオブジェクトの中身は変更できる)" },
+      { "label": "B", "text": "Alice(constなので変更されない)" },
+      { "label": "C", "text": "エラーになる(constのオブジェクトのプロパティは変更できない)" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-014",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nconst arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
+    "choices": [
+      { "label": "A", "text": "[1, 2, 3, 4](constの配列でも要素の追加はできる)" },
+      { "label": "B", "text": "[1, 2, 3](constなので変更されない)" },
+      { "label": "C", "text": "エラーになる(constの配列にpushはできない)" },
+      { "label": "D", "text": "[4](pushすると元の要素が消える)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-015",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nlet a = 1;\n{\n  let a = 2;\n  console.log(a);\n}\nconsole.log(a);",
+    "choices": [
+      { "label": "A", "text": "2 → 1(ブロック内のaとブロック外のaは別の変数)" },
+      { "label": "B", "text": "2 → 2(aは上書きされる)" },
+      { "label": "C", "text": "1 → 1(内側のletは外側のaに影響しない)" },
+      { "label": "D", "text": "エラーになる(同名のletは宣言できない)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-016",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nfunction test() {\n  var z = 5;\n}\ntest();\nconsole.log(z);",
+    "choices": [
+      { "label": "A", "text": "ReferenceError(varは関数スコープ。関数外からはアクセスできない)" },
+      { "label": "B", "text": "5(varはどこからでもアクセスできる)" },
+      { "label": "C", "text": "undefined(関数外ではzは未定義状態になる)" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-017",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nlet p = \"外側\";\nfunction show() {\n  console.log(p);\n}\nshow();",
+    "choices": [
+      { "label": "A", "text": "外側(関数は外側のスコープにある変数を参照できる)" },
+      { "label": "B", "text": "ReferenceError(関数の外の変数は参照できない)" },
+      { "label": "C", "text": "undefined(関数内でpは未定義になる)" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-018",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nlet x = 10, y = 20, z = 30;\nconsole.log(x + y + z);",
+    "choices": [
+      { "label": "A", "text": "60(1行で複数の変数を宣言・初期化できる)" },
+      { "label": "B", "text": "エラーになる(1行に複数の変数は宣言できない)" },
+      { "label": "C", "text": "102030(数値ではなく文字列として結合される)" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-019",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nfor (var i = 0; i < 3; i++) {\n  // 処理\n}\nconsole.log(i);",
+    "choices": [
+      { "label": "A", "text": "3(varはブロックスコープを無視するのでfor文の外でもiにアクセスできる)" },
+      { "label": "B", "text": "ReferenceError(iはfor文のブロック内の変数)" },
+      { "label": "C", "text": "0(ループ開始時の値が保持される)" },
+      { "label": "D", "text": "2(最後に実行された時の値)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-020",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nfor (let j = 0; j < 3; j++) {\n  // 処理\n}\nconsole.log(j);",
+    "choices": [
+      { "label": "A", "text": "ReferenceError(letはブロックスコープなのでfor文の外ではjは存在しない)" },
+      { "label": "B", "text": "3(jはfor文の外でも参照できる)" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "0" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-021",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nconsole.log(a);\nvar a = 5;",
+    "choices": [
+      { "label": "A", "text": "undefined(varはホイスティングで先頭に巻き上げられるが、代入はその場で行われる)" },
+      { "label": "B", "text": "5(varはコード全体で使えるので問題なく5が表示される)" },
+      { "label": "C", "text": "ReferenceError(宣言前の変数は参照できない)" },
+      { "label": "D", "text": "null(代入前の変数はnullになる)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-022",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nconsole.log(b);\nlet b = 5;",
+    "choices": [
+      { "label": "A", "text": "ReferenceError(letは一時的デッドゾーン(TDZ)により宣言前に参照するとエラーになる)" },
+      { "label": "B", "text": "undefined(letもhoistingされるのでundefinedになる)" },
+      { "label": "C", "text": "5(letも宣言前から使える)" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-023",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、コンソールには何が順番に表示されますか？\n\nconsole.log(foo());\nfunction foo() {\n  return \"hello\";\n}\nconsole.log(bar());\nvar bar = function() {\n  return \"world\";\n};",
+    "choices": [
+      { "label": "A", "text": "\"hello\" → TypeError(関数宣言は丸ごとhoistingされるが、関数式はvarのルールに従いundefinedになる)" },
+      { "label": "B", "text": "\"hello\" → \"world\"(どちらも先に使える)" },
+      { "label": "C", "text": "TypeError → TypeError(どちらも宣言前には使えない)" },
+      { "label": "D", "text": "\"hello\" → ReferenceError" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-024",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードで、グローバルスコープとローカルスコープの変数が混在しています。実行結果はどれですか？\n\nvar msg = \"global\";\nfunction test() {\n  var msg = \"local\";\n  console.log(msg);\n}\ntest();\nconsole.log(msg);",
+    "choices": [
+      { "label": "A", "text": "\"local\" → \"global\"(関数内のvarは関数スコープ。外側のmsgには影響しない)" },
+      { "label": "B", "text": "\"local\" → \"local\"(関数内でmsgを変更したのでグローバルも変わる)" },
+      { "label": "C", "text": "\"global\" → \"global\"(関数内の宣言は無視される)" },
+      { "label": "D", "text": "\"global\" → \"local\"" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-025",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nvar x = 1;\nif (true) {\n  var x = 2;\n  console.log(x);\n}\nconsole.log(x);",
+    "choices": [
+      { "label": "A", "text": "2 → 2(varはブロックスコープを持たないのでif文内のvar宣言はグローバルのxを上書きする)" },
+      { "label": "B", "text": "2 → 1(if文内のxと外側のxは別の変数)" },
+      { "label": "C", "text": "1 → 1(後から宣言されたvarは無視される)" },
+      { "label": "D", "text": "エラーになる(varは再宣言できない)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-026",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nlet x = 1;\nif (true) {\n  let x = 2;\n  console.log(x);\n}\nconsole.log(x);",
+    "choices": [
+      { "label": "A", "text": "2 → 1(letはブロックスコープを持つ。if文内のxは別の変数)" },
+      { "label": "B", "text": "2 → 2(letでも内側の変数が外側を上書きする)" },
+      { "label": "C", "text": "エラーになる(同名のletは内側でも宣言できない)" },
+      { "label": "D", "text": "1 → 1" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-027",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードのうち、エラーになるのはどれですか？\n\nA: const obj = {}; obj.key = \"value\";\nB: const arr = []; arr.push(1);\nC: const n = 10; n = 20;\nD: const s = \"hello\"; console.log(s[0]);",
+    "choices": [
+      { "label": "A", "text": "C(constの変数自体への再代入はエラー。オブジェクトや配列の中身の変更はエラーにならない)" },
+      { "label": "B", "text": "AとB(constのオブジェクトと配列は変更できない)" },
+      { "label": "C", "text": "すべてエラーになる" },
+      { "label": "D", "text": "Dのみエラーになる(文字列はインデックスでアクセスできない)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-028",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nfunction outer() {\n  let count = 0;\n  function inner() {\n    count++;\n    console.log(count);\n  }\n  inner();\n  inner();\n}\nouter();",
+    "choices": [
+      { "label": "A", "text": "1 → 2(innerはouterのcountを参照・変更できる。これをクロージャという)" },
+      { "label": "B", "text": "1 → 1(inner関数が呼ばれるたびにcountはリセットされる)" },
+      { "label": "C", "text": "ReferenceError(innerからouterの変数には直接アクセスできない)" },
+      { "label": "D", "text": "0 → 0(count++は新しいcountを作るので外側のcountは変わらない)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-029",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、コンソールには何が表示されますか？\n\nfor (var k = 0; k < 3; k++) {\n  setTimeout(function() {\n    console.log(k);\n  }, 0);\n}",
+    "choices": [
+      { "label": "A", "text": "3 → 3 → 3(varはループ全体で1つの変数を共有するため、コールバックが実行される頃にはk=3になっている)" },
+      { "label": "B", "text": "0 → 1 → 2(各ループ時点でのkの値がそれぞれ保存される)" },
+      { "label": "C", "text": "0 → 0 → 0(setTimeoutが実行される前にkがリセットされる)" },
+      { "label": "D", "text": "エラーになる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "js-vd-030",
+    "subject": "programming",
+    "unit": "変数の宣言(let / const / var)",
+    "difficulty": "exam",
+    "question": "前の問題(js-vd-029)のコードで、出力を「0 → 1 → 2」にするにはどう修正すればよいですか？",
+    "choices": [
+      { "label": "A", "text": "varをletに変更する(letはループごとに独立したブロックスコープを作るため、それぞれのkが保存される)" },
+      { "label": "B", "text": "setTimeoutを使わずに直接console.log(k)を書く" },
+      { "label": "C", "text": "constに変更する(constは値が変わらないので各回の値が保持される)" },
+      { "label": "D", "text": "for...ofループに変更する(for...ofはvarでも独立したスコープを作る)" }
+    ],
+    "correct": "A"
+  }
+]

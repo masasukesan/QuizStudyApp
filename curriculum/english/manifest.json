@@ -9,6 +9,15 @@
       "name": "短文読解",
       "en": "Short Text Comprehension",
       "questionCount": 30
+    },
+    {
+      "path": "reading/text-comprehension/narrative",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "narrative",
+      "name": "物語・日記文読解",
+      "en": "Narrative Reading",
+      "questionCount": 30
     }
   ],
   "tree": [
@@ -26,6 +35,15 @@
               "subunit": "short-text",
               "name": "短文読解",
               "en": "Short Text Comprehension",
+              "questionCount": 30
+            },
+            {
+              "path": "reading/text-comprehension/narrative",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "narrative",
+              "name": "物語・日記文読解",
+              "en": "Narrative Reading",
               "questionCount": 30
             }
           ]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "nar-001",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nMarch 8th (Saturday)\n\nToday I volunteered at the Riverside Public Library's annual book fair. I had signed up two weeks ago after seeing a notice on the library's website. When I arrived at 9 a.m., the head librarian, Ms. Carter, explained my role: I was in charge of sorting donated books by category and helping young visitors find titles they might enjoy.\n\nAround lunchtime, a small girl named Lily came to the children's section looking for a book about dinosaurs. I went through three separate boxes before finding exactly what she needed — a large picture book with colorful illustrations of prehistoric animals. When I handed it to her, her face lit up instantly.\n\nBy closing time at 4 p.m., we had helped more than 150 visitors and sold over 200 books. Ms. Carter announced that all the money raised would go toward buying new books for the library's collection. I went home tired but deeply satisfied.\n---\n\n図書館のバザーで、語り手（I）は何を担当したか。",
+    "choices": [
+      { "label": "A", "text": "寄付された本を分類し、若い来場者が本を見つけるのを手伝うこと" },
+      { "label": "B", "text": "会計を担当し、来場者から代金を受け取ること" },
+      { "label": "C", "text": "来場者が到着する前にこどもコーナーの装飾を設置すること" },
+      { "label": "D", "text": "バザーの終わりに売上結果を来場者に報告すること" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["内容一致", "役割の特定", "スキャニング"]
+  },
+  {
+    "id": "nar-002",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nMarch 8th (Saturday)\n\nToday I volunteered at the Riverside Public Library's annual book fair. I had signed up two weeks ago after seeing a notice on the library's website. When I arrived at 9 a.m., the head librarian, Ms. Carter, explained my role: I was in charge of sorting donated books by category and helping young visitors find titles they might enjoy.\n\nAround lunchtime, a small girl named Lily came to the children's section looking for a book about dinosaurs. I went through three separate boxes before finding exactly what she needed — a large picture book with colorful illustrations of prehistoric animals. When I handed it to her, her face lit up instantly.\n\nBy closing time at 4 p.m., we had helped more than 150 visitors and sold over 200 books. Ms. Carter announced that all the money raised would go toward buying new books for the library's collection. I went home tired but deeply satisfied.\n---\n\n語り手がLilyのために見つけたものは何か。",
+    "choices": [
+      { "label": "A", "text": "恐竜に関するカラフルな絵本" },
+      { "label": "B", "text": "童話を集めた本" },
+      { "label": "C", "text": "先史時代の海の生き物についての本" },
+      { "label": "D", "text": "さまざまな動物についての図鑑" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["内容一致", "事実の確認", "スキャニング"]
+  },
+  {
+    "id": "nar-003",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nMarch 8th (Saturday)\n\nToday I volunteered at the Riverside Public Library's annual book fair. I had signed up two weeks ago after seeing a notice on the library's website. When I arrived at 9 a.m., the head librarian, Ms. Carter, explained my role: I was in charge of sorting donated books by category and helping young visitors find titles they might enjoy.\n\nAround lunchtime, a small girl named Lily came to the children's section looking for a book about dinosaurs. I went through three separate boxes before finding exactly what she needed — a large picture book with colorful illustrations of prehistoric animals. When I handed it to her, her face lit up instantly.\n\nBy closing time at 4 p.m., we had helped more than 150 visitors and sold over 200 books. Ms. Carter announced that all the money raised would go toward buying new books for the library's collection. I went home tired but deeply satisfied.\n---\n\n語り手が図書館に到着した時刻はいつか。",
+    "choices": [
+      { "label": "A", "text": "午前8時" },
+      { "label": "B", "text": "正午" },
+      { "label": "C", "text": "午前9時" },
+      { "label": "D", "text": "午後4時" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["事実の確認", "時間の特定", "スキャニング"]
+  },
+  {
+    "id": "nar-004",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次のブログを読んで、設問に答えなさい。\n\n---\nMy First Cooking Adventure\n\nLast Sunday, I decided to cook pasta for dinner to surprise my mother, who had to work overtime that day. I had watched a cooking tutorial online the night before and felt confident.\n\nI started by boiling water and cooking the pasta — that part went smoothly. The trouble came when I tried to make tomato sauce. I added far too much salt and forgot to watch the vegetables, which burned on the bottom of the pan. The smell was awful.\n\nI was ready to order takeout when my younger brother, Ryan, walked into the kitchen.\n\n\"It smells interesting,\" he said with a laugh. \"Can I help?\"\n\nTogether, we threw away the ruined sauce and started fresh. Ryan remembered that adding a little sugar can reduce excess saltiness. The new sauce turned out much better. When our mother finally came home and tasted the pasta, she said it was \"not bad at all.\"\n\nThat day, I realized that the most important skill in cooking is knowing how to recover from mistakes.\n---\n\n語り手がその日に料理をしようと決めた理由は何か。",
+    "choices": [
+      { "label": "A", "text": "賞味期限が近い野菜を使い切りたかったから" },
+      { "label": "B", "text": "オンラインで見た料理の動画の技術を試したかったから" },
+      { "label": "C", "text": "空腹だったRyanを早く食べさせたかったから" },
+      { "label": "D", "text": "残業していた母親を驚かせたかったから" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["内容一致", "行動の理由", "スキャニング"]
+  },
+  {
+    "id": "nar-005",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次のブログを読んで、設問に答えなさい。\n\n---\nMy First Cooking Adventure\n\nLast Sunday, I decided to cook pasta for dinner to surprise my mother, who had to work overtime that day. I had watched a cooking tutorial online the night before and felt confident.\n\nI started by boiling water and cooking the pasta — that part went smoothly. The trouble came when I tried to make tomato sauce. I added far too much salt and forgot to watch the vegetables, which burned on the bottom of the pan. The smell was awful.\n\nI was ready to order takeout when my younger brother, Ryan, walked into the kitchen.\n\n\"It smells interesting,\" he said with a laugh. \"Can I help?\"\n\nTogether, we threw away the ruined sauce and started fresh. Ryan remembered that adding a little sugar can reduce excess saltiness. The new sauce turned out much better. When our mother finally came home and tasted the pasta, she said it was \"not bad at all.\"\n\nThat day, I realized that the most important skill in cooking is knowing how to recover from mistakes.\n---\n\n語り手が最初に作ったトマトソースで起きた問題は何か。",
+    "choices": [
+      { "label": "A", "text": "塩を入れすぎ、野菜を焦がしてしまった" },
+      { "label": "B", "text": "パスタを茹ですぎて柔らかくなりすぎた" },
+      { "label": "C", "text": "トマトソースに必要な材料が足りなかった" },
+      { "label": "D", "text": "野菜に合わない鍋を使ってしまった" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["内容一致", "問題の特定", "スキャニング"]
+  },
+  {
+    "id": "nar-006",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次のブログを読んで、設問に答えなさい。\n\n---\nMy First Cooking Adventure\n\nLast Sunday, I decided to cook pasta for dinner to surprise my mother, who had to work overtime that day. I had watched a cooking tutorial online the night before and felt confident.\n\nI started by boiling water and cooking the pasta — that part went smoothly. The trouble came when I tried to make tomato sauce. I added far too much salt and forgot to watch the vegetables, which burned on the bottom of the pan. The smell was awful.\n\nI was ready to order takeout when my younger brother, Ryan, walked into the kitchen.\n\n\"It smells interesting,\" he said with a laugh. \"Can I help?\"\n\nTogether, we threw away the ruined sauce and started fresh. Ryan remembered that adding a little sugar can reduce excess saltiness. The new sauce turned out much better. When our mother finally came home and tasted the pasta, she said it was \"not bad at all.\"\n\nThat day, I realized that the most important skill in cooking is knowing how to recover from mistakes.\n---\n\nソースを改善するためにRyanが提案した方法は何か。",
+    "choices": [
+      { "label": "A", "text": "野菜を冷水で洗い流すこと" },
+      { "label": "B", "text": "少量の砂糖を加えること" },
+      { "label": "C", "text": "野菜を替えて最初からやり直すこと" },
+      { "label": "D", "text": "焦げないよう火を弱めること" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["内容一致", "提案内容の特定", "スキャニング"]
+  },
+  {
+    "id": "nar-007",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nJune 5th\n\nToday was my first day in Greenfield City. We moved here from Maplewood last weekend because my father got a job promotion that required relocation. Our new apartment is on the eighth floor of a modern building — nothing like our old house with its garden.\n\nI spent most of the morning unpacking boxes. In the afternoon, I took a walk around the neighborhood by myself. The streets are busy and loud, and I got lost twice trying to find the convenience store. I finally asked a lady walking her dog for directions. She was very friendly and even recommended a good cafe nearby.\n\nJune 8th\n\nI started at my new school today. I was nervous because I didn't know anyone. During lunch, a girl named Priya sat next to me and introduced herself. She said she had also moved here from another city two years ago, so she understood how I felt. We talked for most of the lunch break.\n\nI'm still not sure I like city life, but today felt a little more manageable.\n---\n\n語り手の家族がGreenfield Cityに引っ越した理由は何か。",
+    "choices": [
+      { "label": "A", "text": "家族が近代的なマンションに住みたかったから" },
+      { "label": "B", "text": "母親が新しい仕事の機会を見つけたから" },
+      { "label": "C", "text": "父親が昇進し、転勤が必要になったから" },
+      { "label": "D", "text": "家族が都会での生活を経験したかったから" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["内容一致", "理由の特定", "スキャニング"]
+  },
+  {
+    "id": "nar-008",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nJune 5th\n\nToday was my first day in Greenfield City. We moved here from Maplewood last weekend because my father got a job promotion that required relocation. Our new apartment is on the eighth floor of a modern building — nothing like our old house with its garden.\n\nI spent most of the morning unpacking boxes. In the afternoon, I took a walk around the neighborhood by myself. The streets are busy and loud, and I got lost twice trying to find the convenience store. I finally asked a lady walking her dog for directions. She was very friendly and even recommended a good cafe nearby.\n\nJune 8th\n\nI started at my new school today. I was nervous because I didn't know anyone. During lunch, a girl named Priya sat next to me and introduced herself. She said she had also moved here from another city two years ago, so she understood how I felt. We talked for most of the lunch break.\n\nI'm still not sure I like city life, but today felt a little more manageable.\n---\n\n語り手はどのようにしてコンビニへの道を見つけたか。",
+    "choices": [
+      { "label": "A", "text": "スマートフォンの地図アプリを使った" },
+      { "label": "B", "text": "道路の案内標識をたどった" },
+      { "label": "C", "text": "アパートに戻って父親に聞いた" },
+      { "label": "D", "text": "犬を連れて歩いていた女性に尋ねた" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["内容一致", "行動の特定", "スキャニング"]
+  },
+  {
+    "id": "nar-009",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nJune 5th\n\nToday was my first day in Greenfield City. We moved here from Maplewood last weekend because my father got a job promotion that required relocation. Our new apartment is on the eighth floor of a modern building — nothing like our old house with its garden.\n\nI spent most of the morning unpacking boxes. In the afternoon, I took a walk around the neighborhood by myself. The streets are busy and loud, and I got lost twice trying to find the convenience store. I finally asked a lady walking her dog for directions. She was very friendly and even recommended a good cafe nearby.\n\nJune 8th\n\nI started at my new school today. I was nervous because I didn't know anyone. During lunch, a girl named Priya sat next to me and introduced herself. She said she had also moved here from another city two years ago, so she understood how I felt. We talked for most of the lunch break.\n\nI'm still not sure I like city life, but today felt a little more manageable.\n---\n\nPriyaが語り手に話した内容として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "彼女も2年前に別の都市から引っ越してきた" },
+      { "label": "B", "text": "彼女はMaplewoodに友人がいた" },
+      { "label": "C", "text": "翌日、語り手に校内を案内すると約束した" },
+      { "label": "D", "text": "昼食時に自分のグループと一緒に座るよう誘った" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["内容一致", "発言内容の確認", "スキャニング"]
+  },
+  {
+    "id": "nar-010",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nJune 5th\n\nToday was my first day in Greenfield City. We moved here from Maplewood last weekend because my father got a job promotion that required relocation. Our new apartment is on the eighth floor of a modern building — nothing like our old house with its garden.\n\nI spent most of the morning unpacking boxes. In the afternoon, I took a walk around the neighborhood by myself. The streets are busy and loud, and I got lost twice trying to find the convenience store. I finally asked a lady walking her dog for directions. She was very friendly and even recommended a good cafe nearby.\n\nJune 8th\n\nI started at my new school today. I was nervous because I didn't know anyone. During lunch, a girl named Priya sat next to me and introduced herself. She said she had also moved here from another city two years ago, so she understood how I felt. We talked for most of the lunch break.\n\nI'm still not sure I like city life, but today felt a little more manageable.\n---\n\n6月8日の終わりに語り手はどのような気持ちだったか。",
+    "choices": [
+      { "label": "A", "text": "都会での生活に完全に慣れ、楽しいと感じている" },
+      { "label": "B", "text": "まだ都会生活には確信が持てないが、少し前向きになっている" },
+      { "label": "C", "text": "学校生活が想像以上に大変で失望している" },
+      { "label": "D", "text": "Priyaが本当に親切ではないと感じ、孤独だった" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["内容一致", "心情の把握", "段落の最後"]
+  },
+  {
+    "id": "nar-011",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nOctober 12th\n\nMy piano recital is in two weeks, and I can barely play through my piece without stopping. Every time I make a mistake, I feel like everything falls apart. My teacher, Mr. Nakamura, says I am technically ready, but I freeze up the moment I think about the audience.\n\nOctober 20th\n\nI practiced for three hours today. Something clicked. I stopped trying to play perfectly and just tried to enjoy the music. After practice, I told my mother how nervous I still was. She reminded me of the school play I performed in last year. I had forgotten all my lines at first, but I recovered and received a standing ovation. She said, \"You've been here before.\"\n\nOctober 27th (Recital Day)\n\nMy hands were shaking when I walked out. But as soon as I heard the opening notes I had played so many times, something shifted. I played the entire piece without stopping. Afterward, Mr. Nakamura told me I played with \"real feeling.\"\n\nI used to think performing meant playing without mistakes. Now I know it means connecting with the music.\n---\n\nピアノ発表会に向けた語り手の悩みは何だったか。",
+    "choices": [
+      { "label": "A", "text": "曲をまだ十分に練習できておらず、正しく弾けていなかった" },
+      { "label": "B", "text": "先生から技術的なスキルがまだ不十分だと言われていた" },
+      { "label": "C", "text": "技術的には準備できていたが、観客のことを考えると固まってしまっていた" },
+      { "label": "D", "text": "自宅周辺の騒音で集中できなかった" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["心情の把握", "問題の原因", "本文の証拠を探す"]
+  },
+  {
+    "id": "nar-012",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nOctober 12th\n\nMy piano recital is in two weeks, and I can barely play through my piece without stopping. Every time I make a mistake, I feel like everything falls apart. My teacher, Mr. Nakamura, says I am technically ready, but I freeze up the moment I think about the audience.\n\nOctober 20th\n\nI practiced for three hours today. Something clicked. I stopped trying to play perfectly and just tried to enjoy the music. After practice, I told my mother how nervous I still was. She reminded me of the school play I performed in last year. I had forgotten all my lines at first, but I recovered and received a standing ovation. She said, \"You've been here before.\"\n\nOctober 27th (Recital Day)\n\nMy hands were shaking when I walked out. But as soon as I heard the opening notes I had played so many times, something shifted. I played the entire piece without stopping. Afterward, Mr. Nakamura told me I played with \"real feeling.\"\n\nI used to think performing meant playing without mistakes. Now I know it means connecting with the music.\n---\n\n母親が語り手に思い出させたのは何か。",
+    "choices": [
+      { "label": "A", "text": "ピアノを始めようと決意した理由" },
+      { "label": "B", "text": "一緒に見に行ったコンサートのこと" },
+      { "label": "C", "text": "先生からリラックスするよう言われたアドバイス" },
+      { "label": "D", "text": "台詞を忘れたが立ち直り、スタンディングオベーションを受けた学校の演劇" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["因果関係", "発言内容の把握", "本文の証拠"]
+  },
+  {
+    "id": "nar-013",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nOctober 12th\n\nMy piano recital is in two weeks, and I can barely play through my piece without stopping. Every time I make a mistake, I feel like everything falls apart. My teacher, Mr. Nakamura, says I am technically ready, but I freeze up the moment I think about the audience.\n\nOctober 20th\n\nI practiced for three hours today. Something clicked. I stopped trying to play perfectly and just tried to enjoy the music. After practice, I told my mother how nervous I still was. She reminded me of the school play I performed in last year. I had forgotten all my lines at first, but I recovered and received a standing ovation. She said, \"You've been here before.\"\n\nOctober 27th (Recital Day)\n\nMy hands were shaking when I walked out. But as soon as I heard the opening notes I had played so many times, something shifted. I played the entire piece without stopping. Afterward, Mr. Nakamura told me I played with \"real feeling.\"\n\nI used to think performing meant playing without mistakes. Now I know it means connecting with the music.\n---\n\n日記の最後で、語り手の「演奏すること」に対する考え方はどのように変わったか。",
+    "choices": [
+      { "label": "A", "text": "演奏するとは、ミスを避けることではなく音楽とつながることだと気づいた" },
+      { "label": "B", "text": "技術的な完璧さこそが最も重要だと再確認した" },
+      { "label": "C", "text": "発表会が終わったことへの安堵感を感じた" },
+      { "label": "D", "text": "技術を向上させてくれた先生への感謝の気持ちを感じた" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["心情の変化", "テーマの把握", "最終段落"]
+  },
+  {
+    "id": "nar-014",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nOctober 12th\n\nMy piano recital is in two weeks, and I can barely play through my piece without stopping. Every time I make a mistake, I feel like everything falls apart. My teacher, Mr. Nakamura, says I am technically ready, but I freeze up the moment I think about the audience.\n\nOctober 20th\n\nI practiced for three hours today. Something clicked. I stopped trying to play perfectly and just tried to enjoy the music. After practice, I told my mother how nervous I still was. She reminded me of the school play I performed in last year. I had forgotten all my lines at first, but I recovered and received a standing ovation. She said, \"You've been here before.\"\n\nOctober 27th (Recital Day)\n\nMy hands were shaking when I walked out. But as soon as I heard the opening notes I had played so many times, something shifted. I played the entire piece without stopping. Afterward, Mr. Nakamura told me I played with \"real feeling.\"\n\nI used to think performing meant playing without mistakes. Now I know it means connecting with the music.\n---\n\n発表会の本番で語り手はどのように演奏したか。",
+    "choices": [
+      { "label": "A", "text": "数か所ミスをしたが、演奏を続けた" },
+      { "label": "B", "text": "最後まで一度も止まらずに弾き通した" },
+      { "label": "C", "text": "途中で止まったが、すぐに立ち直った" },
+      { "label": "D", "text": "より簡単な曲に変更して演奏した" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["内容一致", "出来事の確認", "スキャニング"]
+  },
+  {
+    "id": "nar-015",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次のエッセイを読んで、設問に答えなさい。\n\n---\nSpeaking Up: My Story\n\nIn my second year of high school, our teacher announced that everyone in the class had to give a five-minute speech. I felt sick the moment I heard it. I had always avoided speaking in front of groups. Just the thought of everyone watching me made my heart race.\n\nFor two weeks, I practiced alone in my room. I memorized every word of my speech about ocean conservation. But when the day came, I stood up and my mind went blank. I stared at my paper without saying a word for what felt like minutes.\n\nThen something unexpected happened. My best friend Lisa called out from the back: \"Go, Tom!\" A few others joined in. Suddenly, the silence was broken, and I found my voice. I didn't stick to the memorized script — I just talked about why protecting the ocean mattered to me.\n\nAfter class, several classmates said they had never thought about ocean pollution that way. My teacher wrote on my evaluation, \"Spoke from the heart.\"\n\nI still get nervous before speaking in public. But now I know that nervousness doesn't mean I can't do it.\n---\n\nTomが先生の発表を聞いてすぐに気分が悪くなった理由は何か。",
+    "choices": [
+      { "label": "A", "text": "スピーチの準備が何もできていなかったから" },
+      { "label": "B", "text": "5分間のスピーチは長すぎると感じたから" },
+      { "label": "C", "text": "もともと人前で話すことを避けてきたから" },
+      { "label": "D", "text": "スピーチのテーマがすでに決められていたから" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["心情の原因", "因果関係", "本文の証拠"]
+  },
+  {
+    "id": "nar-016",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次のエッセイを読んで、設問に答えなさい。\n\n---\nSpeaking Up: My Story\n\nIn my second year of high school, our teacher announced that everyone in the class had to give a five-minute speech. I felt sick the moment I heard it. I had always avoided speaking in front of groups. Just the thought of everyone watching me made my heart race.\n\nFor two weeks, I practiced alone in my room. I memorized every word of my speech about ocean conservation. But when the day came, I stood up and my mind went blank. I stared at my paper without saying a word for what felt like minutes.\n\nThen something unexpected happened. My best friend Lisa called out from the back: \"Go, Tom!\" A few others joined in. Suddenly, the silence was broken, and I found my voice. I didn't stick to the memorized script — I just talked about why protecting the ocean mattered to me.\n\nAfter class, several classmates said they had never thought about ocean pollution that way. My teacher wrote on my evaluation, \"Spoke from the heart.\"\n\nI still get nervous before speaking in public. But now I know that nervousness doesn't mean I can't do it.\n---\n\nTomが本番でスピーチを話し始めることができたきっかけは何か。",
+    "choices": [
+      { "label": "A", "text": "暗記してきた原稿を思い出したから" },
+      { "label": "B", "text": "先生が始めるよう合図を送ったから" },
+      { "label": "C", "text": "自分が本当に話したいテーマに切り替えることにしたから" },
+      { "label": "D", "text": "友人のLisaが応援し、他の生徒たちも続いて声をかけてくれたから" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["因果関係", "出来事の転換点", "本文の証拠"]
+  },
+  {
+    "id": "nar-017",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次のエッセイを読んで、設問に答えなさい。\n\n---\nSpeaking Up: My Story\n\nIn my second year of high school, our teacher announced that everyone in the class had to give a five-minute speech. I felt sick the moment I heard it. I had always avoided speaking in front of groups. Just the thought of everyone watching me made my heart race.\n\nFor two weeks, I practiced alone in my room. I memorized every word of my speech about ocean conservation. But when the day came, I stood up and my mind went blank. I stared at my paper without saying a word for what felt like minutes.\n\nThen something unexpected happened. My best friend Lisa called out from the back: \"Go, Tom!\" A few others joined in. Suddenly, the silence was broken, and I found my voice. I didn't stick to the memorized script — I just talked about why protecting the ocean mattered to me.\n\nAfter class, several classmates said they had never thought about ocean pollution that way. My teacher wrote on my evaluation, \"Spoke from the heart.\"\n\nI still get nervous before speaking in public. But now I know that nervousness doesn't mean I can't do it.\n---\n\nTomがこの体験から学んだことは何か。",
+    "choices": [
+      { "label": "A", "text": "緊張しているからといって、できないわけではない" },
+      { "label": "B", "text": "原稿を暗記することがスピーチの最善策だ" },
+      { "label": "C", "text": "友人の支えがなければ良いスピーチはできない" },
+      { "label": "D", "text": "自身の体験に基づいて話すことは、調査に基づいて話すよりつねに効果的だ" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["心情の変化", "教訓の把握", "最終段落"]
+  },
+  {
+    "id": "nar-018",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nApril 3rd\n\nMy new neighbor, Mr. Yamamoto, moved in last week. He is around 75 years old and lives alone. This morning he knocked on our door to return a package that had been delivered to his address by mistake. He seemed a little unsure of himself and left quickly.\n\nApril 18th\n\nI ran into Mr. Yamamoto in the hallway and asked if he needed anything from the supermarket since I was going. He looked surprised, then smiled and asked for a small bag of rice. When I returned with the rice, he invited me in for tea. He told me he had worked as a photographer for 30 years and showed me prints of landscapes from all over Japan.\n\nMay 7th\n\nMr. Yamamoto came to our door again today — this time with a jar of homemade jam as a gift. He said talking with someone had made a big difference in his week. I realized I had assumed that older people preferred to be left alone. I was completely wrong about that.\n---\n\n語り手とYamamotoさんが最初に出会ったのはどのような状況か。",
+    "choices": [
+      { "label": "A", "text": "Yamamotoさんが引っ越してきた際、自己紹介のために訪ねてきた" },
+      { "label": "B", "text": "Yamamotoさんが誤配達された荷物を届けに来た" },
+      { "label": "C", "text": "語り手がYamamotoさんのドアをノックして歓迎した" },
+      { "label": "D", "text": "二人が同時に建物の入口に到着した" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["内容一致", "出来事の確認", "スキャニング"]
+  },
+  {
+    "id": "nar-019",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nApril 3rd\n\nMy new neighbor, Mr. Yamamoto, moved in last week. He is around 75 years old and lives alone. This morning he knocked on our door to return a package that had been delivered to his address by mistake. He seemed a little unsure of himself and left quickly.\n\nApril 18th\n\nI ran into Mr. Yamamoto in the hallway and asked if he needed anything from the supermarket since I was going. He looked surprised, then smiled and asked for a small bag of rice. When I returned with the rice, he invited me in for tea. He told me he had worked as a photographer for 30 years and showed me prints of landscapes from all over Japan.\n\nMay 7th\n\nMr. Yamamoto came to our door again today — this time with a jar of homemade jam as a gift. He said talking with someone had made a big difference in his week. I realized I had assumed that older people preferred to be left alone. I was completely wrong about that.\n---\n\nYamamotoさんはお茶の時間に語り手に何を見せたか。",
+    "choices": [
+      { "label": "A", "text": "これまで暮らしたさまざまな都市の話" },
+      { "label": "B", "text": "高齢の隣人との付き合い方についてのアドバイス" },
+      { "label": "C", "text": "カメラマンとして撮影した風景写真のプリント" },
+      { "label": "D", "text": "別の都市に住む家族の話" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["内容一致", "行動の確認", "スキャニング"]
+  },
+  {
+    "id": "nar-020",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nApril 3rd\n\nMy new neighbor, Mr. Yamamoto, moved in last week. He is around 75 years old and lives alone. This morning he knocked on our door to return a package that had been delivered to his address by mistake. He seemed a little unsure of himself and left quickly.\n\nApril 18th\n\nI ran into Mr. Yamamoto in the hallway and asked if he needed anything from the supermarket since I was going. He looked surprised, then smiled and asked for a small bag of rice. When I returned with the rice, he invited me in for tea. He told me he had worked as a photographer for 30 years and showed me prints of landscapes from all over Japan.\n\nMay 7th\n\nMr. Yamamoto came to our door again today — this time with a jar of homemade jam as a gift. He said talking with someone had made a big difference in his week. I realized I had assumed that older people preferred to be left alone. I was completely wrong about that.\n---\n\n語り手が誤っていたと気づいた思い込みは何か。",
+    "choices": [
+      { "label": "A", "text": "Yamamotoさんは若い隣人との交流を望まないだろうという思い込み" },
+      { "label": "B", "text": "ひとりで暮らしている人はいつも不幸だという思い込み" },
+      { "label": "C", "text": "最初は人見知りの人は親しくなりにくいという思い込み" },
+      { "label": "D", "text": "高齢者は一人でいることを好むという思い込み" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["心情の変化", "思い込みの認識", "本文の証拠"]
+  },
+  {
+    "id": "nar-021",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nWhat Failing Taught Me\n\nI failed my university entrance exam in February. I had studied for over a year, given up social events, slept only six hours a night, and still came up short. The day I saw my results, I locked myself in my room and refused to talk to anyone.\n\nFor a week, I replayed every decision I had made: the chapters I had skimmed, the mock tests I had skipped, the morning practices I had delayed. I was convinced I had wasted an entire year.\n\nThen, slowly, I started to see things differently. I had, in fact, become a better reader, a stronger problem-solver, and more disciplined than I had ever been. The skills I had built were real — they did not disappear just because my score was not high enough.\n\nI applied to a different university and began attending the following spring. In my first month, I consistently scored among the top students in my class. A classmate who knew about my exam failure once asked how I felt about that year of studying. \"It was the best preparation I could have had,\" I told him. And I meant it.\n\nFailure, I now believe, is not the opposite of progress. It is often a part of it.\n---\n\nこの日記を通じて、語り手が最も伝えたいことは何か。",
+    "choices": [
+      { "label": "A", "text": "失敗は個人の成長の重要な一部であることがある" },
+      { "label": "B", "text": "他の人よりも一生懸命に勉強することが学業成功の鍵だ" },
+      { "label": "C", "text": "大学入学試験の仕組みは改善が必要だ" },
+      { "label": "D", "text": "大学に入る前に1年間休むことは有益だ" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["書き手の意図", "テーマの把握", "全体の流れ"]
+  },
+  {
+    "id": "nar-022",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nWhat Failing Taught Me\n\nI failed my university entrance exam in February. I had studied for over a year, given up social events, slept only six hours a night, and still came up short. The day I saw my results, I locked myself in my room and refused to talk to anyone.\n\nFor a week, I replayed every decision I had made: the chapters I had skimmed, the mock tests I had skipped, the morning practices I had delayed. I was convinced I had wasted an entire year.\n\nThen, slowly, I started to see things differently. I had, in fact, become a better reader, a stronger problem-solver, and more disciplined than I had ever been. The skills I had built were real — they did not disappear just because my score was not high enough.\n\nI applied to a different university and began attending the following spring. In my first month, I consistently scored among the top students in my class. A classmate who knew about my exam failure once asked how I felt about that year of studying. \"It was the best preparation I could have had,\" I told him. And I meant it.\n\nFailure, I now believe, is not the opposite of progress. It is often a part of it.\n---\n\n語り手が1年間の勉強を振り返ったとき、何を発見したか。",
+    "choices": [
+      { "label": "A", "text": "勉強時間の使い方が良くなかったことを実感した" },
+      { "label": "B", "text": "不合格になっても消えなかった本物のスキルが身についていた" },
+      { "label": "C", "text": "睡眠不足が受験結果に大きく悪影響を与えていた" },
+      { "label": "D", "text": "自分が重点的に取り組んだ科目は最も重要なものではなかった" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["推論", "心情の変化", "第3段落"]
+  },
+  {
+    "id": "nar-023",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nWhat Failing Taught Me\n\nI failed my university entrance exam in February. I had studied for over a year, given up social events, slept only six hours a night, and still came up short. The day I saw my results, I locked myself in my room and refused to talk to anyone.\n\nFor a week, I replayed every decision I had made: the chapters I had skimmed, the mock tests I had skipped, the morning practices I had delayed. I was convinced I had wasted an entire year.\n\nThen, slowly, I started to see things differently. I had, in fact, become a better reader, a stronger problem-solver, and more disciplined than I had ever been. The skills I had built were real — they did not disappear just because my score was not high enough.\n\nI applied to a different university and began attending the following spring. In my first month, I consistently scored among the top students in my class. A classmate who knew about my exam failure once asked how I felt about that year of studying. \"It was the best preparation I could have had,\" I told him. And I meant it.\n\nFailure, I now believe, is not the opposite of progress. It is often a part of it.\n---\n\n語り手が言った「It was the best preparation I could have had」とはどういう意味か。",
+    "choices": [
+      { "label": "A", "text": "その年にもっと一生懸命に勉強すべきだったと思っている" },
+      { "label": "B", "text": "自分が使ったのが最善の勉強法だったと信じている" },
+      { "label": "C", "text": "不合格に終わった1年の勉強が、大学での学習にとって優れた準備になっていた" },
+      { "label": "D", "text": "入学試験の問題が新しい大学での理想的な練習問題だった" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["推論", "発言の意図", "文脈の把握"]
+  },
+  {
+    "id": "nar-024",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nWhat Failing Taught Me\n\nI failed my university entrance exam in February. I had studied for over a year, given up social events, slept only six hours a night, and still came up short. The day I saw my results, I locked myself in my room and refused to talk to anyone.\n\nFor a week, I replayed every decision I had made: the chapters I had skimmed, the mock tests I had skipped, the morning practices I had delayed. I was convinced I had wasted an entire year.\n\nThen, slowly, I started to see things differently. I had, in fact, become a better reader, a stronger problem-solver, and more disciplined than I had ever been. The skills I had built were real — they did not disappear just because my score was not high enough.\n\nI applied to a different university and began attending the following spring. In my first month, I consistently scored among the top students in my class. A classmate who knew about my exam failure once asked how I felt about that year of studying. \"It was the best preparation I could have had,\" I told him. And I meant it.\n\nFailure, I now believe, is not the opposite of progress. It is often a part of it.\n---\n\nこの日記の内容と一致しないものはどれか。",
+    "choices": [
+      { "label": "A", "text": "語り手は試験結果を見たとき、深く落ち込んでいた" },
+      { "label": "B", "text": "語り手はその後進学した大学で優秀な成績を残した" },
+      { "label": "C", "text": "語り手は勉強中に行った判断を振り返った" },
+      { "label": "D", "text": "語り手は試験結果を見た直後から自分の努力を誇りに思い、後悔はなかった" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["NOT問題", "内容不一致の特定", "本文との照合"]
+  },
+  {
+    "id": "nar-025",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nComing Home\n\nTen years had passed since I left Harborview, the small coastal town where I grew up. I returned last summer for my grandmother's 90th birthday party. I expected to feel nostalgic, perhaps a little sentimental. What I did not expect was to feel like a stranger.\n\nThe bakery where I used to buy bread every Saturday was now a clothing store. The old wooden pier had been rebuilt in concrete. Even the air smelled different — less like salt and seaweed, more like exhaust fumes from the new highway nearby.\n\nAt the party, I talked with relatives I had not seen in years. My cousin Kento, who still lives in Harborview, said, \"It must be strange to see how much has changed.\" I nodded. But the more I thought about it, the more I realized that I had changed just as much as the town had.\n\nThe Harborview I remembered was, in part, a place I had imagined — one shaped by the emotions and perspective of a much younger version of myself. The real town had always been changing; I simply had not been watching.\n\nComing home reminded me that memory is not a record of the past. It is a story we tell ourselves, shaped by who we were at the time.\n---\n\nこの日記で語り手が最も伝えたいことは何か。",
+    "choices": [
+      { "label": "A", "text": "記憶は過去の正確な記録ではなく、個人的な解釈だ" },
+      { "label": "B", "text": "故郷の人間関係は他の場所で結ばれた関係よりいつも大切だ" },
+      { "label": "C", "text": "故郷に帰ることは深く失望させられる体験になりうる" },
+      { "label": "D", "text": "小さな町は新たな開発によって大都市より速く変わる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["書き手の意図", "テーマの把握", "最終段落"]
+  },
+  {
+    "id": "nar-026",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nComing Home\n\nTen years had passed since I left Harborview, the small coastal town where I grew up. I returned last summer for my grandmother's 90th birthday party. I expected to feel nostalgic, perhaps a little sentimental. What I did not expect was to feel like a stranger.\n\nThe bakery where I used to buy bread every Saturday was now a clothing store. The old wooden pier had been rebuilt in concrete. Even the air smelled different — less like salt and seaweed, more like exhaust fumes from the new highway nearby.\n\nAt the party, I talked with relatives I had not seen in years. My cousin Kento, who still lives in Harborview, said, \"It must be strange to see how much has changed.\" I nodded. But the more I thought about it, the more I realized that I had changed just as much as the town had.\n\nThe Harborview I remembered was, in part, a place I had imagined — one shaped by the emotions and perspective of a much younger version of myself. The real town had always been changing; I simply had not been watching.\n\nComing home reminded me that memory is not a record of the past. It is a story we tell ourselves, shaped by who we were at the time.\n---\n\n語り手がHarborviewで「よそ者のように感じた」理由として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "語り手は町の記憶をほとんど忘れてしまっていた" },
+      { "label": "B", "text": "離れていた間に町が様々な面で変わっていたから" },
+      { "label": "C", "text": "語り手と親しかった友人や家族がもう誰も残っていなかったから" },
+      { "label": "D", "text": "町が予想以上に大きく混雑していたから" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["因果関係", "心情の原因", "第2段落"]
+  },
+  {
+    "id": "nar-027",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の日記を読んで、設問に答えなさい。\n\n---\nComing Home\n\nTen years had passed since I left Harborview, the small coastal town where I grew up. I returned last summer for my grandmother's 90th birthday party. I expected to feel nostalgic, perhaps a little sentimental. What I did not expect was to feel like a stranger.\n\nThe bakery where I used to buy bread every Saturday was now a clothing store. The old wooden pier had been rebuilt in concrete. Even the air smelled different — less like salt and seaweed, more like exhaust fumes from the new highway nearby.\n\nAt the party, I talked with relatives I had not seen in years. My cousin Kento, who still lives in Harborview, said, \"It must be strange to see how much has changed.\" I nodded. But the more I thought about it, the more I realized that I had changed just as much as the town had.\n\nThe Harborview I remembered was, in part, a place I had imagined — one shaped by the emotions and perspective of a much younger version of myself. The real town had always been changing; I simply had not been watching.\n\nComing home reminded me that memory is not a record of the past. It is a story we tell ourselves, shaped by who we were at the time.\n---\n\nKentoのコメントについて考えた後、語り手が気づいたことは何か。",
+    "choices": [
+      { "label": "A", "text": "Harborviewは思っていたより住みやすい場所だった" },
+      { "label": "B", "text": "Kentoは変化に慣れすぎて語り手の気持ちを理解できていない" },
+      { "label": "C", "text": "語り手自身も、町と同じくらい変わっていた" },
+      { "label": "D", "text": "10年前にHarborviewを去ったのは失敗だった" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["推論", "気づきの内容", "第3段落"]
+  },
+  {
+    "id": "nar-028",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次のブログを読んで、設問に答えなさい。\n\n---\nThe Painting That Taught Me to Let Go\n\nFor my school's art festival, I had planned to create a large oil painting of Mount Fuji at sunrise. I had sketched the outline, chosen the colors, and imagined exactly how it would look. I was going to make something perfect.\n\nThree days before the deadline, I dropped the half-finished canvas while moving it to a better light. It landed face-first on the floor. When I turned it over, the wet paint had smeared in all directions, mixing the oranges and blues into an unexpected swirling pattern.\n\nI stood there for a moment, devastated. Then, slowly, I tilted the canvas and looked again. The smeared paint looked almost like a storm over the ocean, dynamic and alive in a way that my careful brushstrokes never were.\n\nI decided not to try to restore the original plan. Instead, I built on what the accident had created, adding layers of color to deepen the stormy feeling. I gave the finished work a new title: \"Unexpected Horizon.\"\n\nAt the festival, a teacher who judges our work told me it was \"the most emotionally expressive piece\" she had seen from a student in years.\n\nThe painting I had planned to make was about Mount Fuji. The painting I made was about letting go.\n---\n\n締め切り3日前に語り手のキャンバスに何が起きたか。",
+    "choices": [
+      { "label": "A", "text": "クラスメートが授業中に誤ってぶつかった" },
+      { "label": "B", "text": "絵の具が乾く過程で自然に混ざり合ってしまった" },
+      { "label": "C", "text": "語り手が元のデザインを塗りつぶして最初からやり直した" },
+      { "label": "D", "text": "落下して、濡れた絵の具が床についてにじんだ" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["内容一致", "出来事の特定", "NOT問題対策"]
+  },
+  {
+    "id": "nar-029",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次のブログを読んで、設問に答えなさい。\n\n---\nThe Painting That Taught Me to Let Go\n\nFor my school's art festival, I had planned to create a large oil painting of Mount Fuji at sunrise. I had sketched the outline, chosen the colors, and imagined exactly how it would look. I was going to make something perfect.\n\nThree days before the deadline, I dropped the half-finished canvas while moving it to a better light. It landed face-first on the floor. When I turned it over, the wet paint had smeared in all directions, mixing the oranges and blues into an unexpected swirling pattern.\n\nI stood there for a moment, devastated. Then, slowly, I tilted the canvas and looked again. The smeared paint looked almost like a storm over the ocean, dynamic and alive in a way that my careful brushstrokes never were.\n\nI decided not to try to restore the original plan. Instead, I built on what the accident had created, adding layers of color to deepen the stormy feeling. I gave the finished work a new title: \"Unexpected Horizon.\"\n\nAt the festival, a teacher who judges our work told me it was \"the most emotionally expressive piece\" she had seen from a student in years.\n\nThe painting I had planned to make was about Mount Fuji. The painting I made was about letting go.\n---\n\n語り手が損傷したキャンバスで制作を続けることにした理由は何か。",
+    "choices": [
+      { "label": "A", "text": "偶然できたにじみに美しく躍動感があると感じたから" },
+      { "label": "B", "text": "新しい絵を描き直す時間がなかったから" },
+      { "label": "C", "text": "クラスメートに諦めないよう励まされたから" },
+      { "label": "D", "text": "元の計画を先生にすでに却下されていたから" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["因果関係", "決断の理由", "第3段落"]
+  },
+  {
+    "id": "nar-030",
+    "subject": "英語",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次のブログを読んで、設問に答えなさい。\n\n---\nThe Painting That Taught Me to Let Go\n\nFor my school's art festival, I had planned to create a large oil painting of Mount Fuji at sunrise. I had sketched the outline, chosen the colors, and imagined exactly how it would look. I was going to make something perfect.\n\nThree days before the deadline, I dropped the half-finished canvas while moving it to a better light. It landed face-first on the floor. When I turned it over, the wet paint had smeared in all directions, mixing the oranges and blues into an unexpected swirling pattern.\n\nI stood there for a moment, devastated. Then, slowly, I tilted the canvas and looked again. The smeared paint looked almost like a storm over the ocean, dynamic and alive in a way that my careful brushstrokes never were.\n\nI decided not to try to restore the original plan. Instead, I built on what the accident had created, adding layers of color to deepen the stormy feeling. I gave the finished work a new title: \"Unexpected Horizon.\"\n\nAt the festival, a teacher who judges our work told me it was \"the most emotionally expressive piece\" she had seen from a student in years.\n\nThe painting I had planned to make was about Mount Fuji. The painting I made was about letting go.\n---\n\n最終段落で語り手が伝えようとしていることは何か。",
+    "choices": [
+      { "label": "A", "text": "事前にしっかり計画することより、生まれつきの才能の方が重要だ" },
+      { "label": "B", "text": "予期せぬ過程が、最初に計画していたものより意味のある結果をもたらした" },
+      { "label": "C", "text": "失敗を受け入れる力は、一生懸命努力することより大切だ" },
+      { "label": "D", "text": "芸術コンテストはもっと創造的なリスクを奨励すべきだ" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["書き手の意図", "テーマの把握", "最終段落"]
+  }
+]

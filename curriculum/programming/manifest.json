@@ -1,0 +1,407 @@
+{
+  "subject": "programming",
+  "entries": [
+    {
+      "path": "js-basics/variables-and-types/variable-declaration",
+      "course": "js-basics",
+      "unit": "variables-and-types",
+      "subunit": "variable-declaration",
+      "name": "変数の宣言（let / const / var）",
+      "en": "Variable Declaration",
+      "questionCount": 30
+    },
+    {
+      "path": "js-basics/variables-and-types/data-types",
+      "course": "js-basics",
+      "unit": "variables-and-types",
+      "subunit": "data-types",
+      "name": "データ型（string / number / boolean / null / undefined）",
+      "en": "Data Types",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/variables-and-types/type-conversion",
+      "course": "js-basics",
+      "unit": "variables-and-types",
+      "subunit": "type-conversion",
+      "name": "型変換と型確認（typeof / 暗黙の変換）",
+      "en": "Type Conversion",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/operators/arithmetic-operators",
+      "course": "js-basics",
+      "unit": "operators",
+      "subunit": "arithmetic-operators",
+      "name": "算術演算子（+ - * / % **）",
+      "en": "Arithmetic Operators",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/operators/comparison-operators",
+      "course": "js-basics",
+      "unit": "operators",
+      "subunit": "comparison-operators",
+      "name": "比較演算子（== / === / != / !==）",
+      "en": "Comparison Operators",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/operators/logical-operators",
+      "course": "js-basics",
+      "unit": "operators",
+      "subunit": "logical-operators",
+      "name": "論理演算子（&& / || / ! / ??）",
+      "en": "Logical Operators",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/control-flow/if-else",
+      "course": "js-basics",
+      "unit": "control-flow",
+      "subunit": "if-else",
+      "name": "条件分岐（if / else if / else / 三項演算子）",
+      "en": "Conditionals",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/control-flow/for-loop",
+      "course": "js-basics",
+      "unit": "control-flow",
+      "subunit": "for-loop",
+      "name": "for ループ（for / for...of / for...in）",
+      "en": "For Loop",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/control-flow/while-switch",
+      "course": "js-basics",
+      "unit": "control-flow",
+      "subunit": "while-switch",
+      "name": "while / switch 文",
+      "en": "While and Switch",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/functions/function-declaration",
+      "course": "js-basics",
+      "unit": "functions",
+      "subunit": "function-declaration",
+      "name": "関数の定義と呼び出し",
+      "en": "Function Declaration",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/functions/arrow-functions",
+      "course": "js-basics",
+      "unit": "functions",
+      "subunit": "arrow-functions",
+      "name": "アロー関数（() => {}）",
+      "en": "Arrow Functions",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/functions/scope",
+      "course": "js-basics",
+      "unit": "functions",
+      "subunit": "scope",
+      "name": "スコープとクロージャ",
+      "en": "Scope and Closure",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/arrays/array-basics",
+      "course": "js-basics",
+      "unit": "arrays",
+      "subunit": "array-basics",
+      "name": "配列の基本（宣言・アクセス・変更）",
+      "en": "Array Basics",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/arrays/array-methods",
+      "course": "js-basics",
+      "unit": "arrays",
+      "subunit": "array-methods",
+      "name": "配列メソッド（push / pop / map / filter）",
+      "en": "Array Methods",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/arrays/array-advanced",
+      "course": "js-basics",
+      "unit": "arrays",
+      "subunit": "array-advanced",
+      "name": "配列メソッド応用（reduce / find / sort）",
+      "en": "Advanced Array Methods",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/objects/object-basics",
+      "course": "js-basics",
+      "unit": "objects",
+      "subunit": "object-basics",
+      "name": "オブジェクトの基本（プロパティ・メソッド）",
+      "en": "Object Basics",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/objects/destructuring",
+      "course": "js-basics",
+      "unit": "objects",
+      "subunit": "destructuring",
+      "name": "分割代入（オブジェクト・配列）",
+      "en": "Destructuring",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/objects/spread-rest",
+      "course": "js-basics",
+      "unit": "objects",
+      "subunit": "spread-rest",
+      "name": "スプレッド構文とレスト引数",
+      "en": "Spread and Rest",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/async-basics/callbacks",
+      "course": "js-basics",
+      "unit": "async-basics",
+      "subunit": "callbacks",
+      "name": "コールバック関数と非同期の概念",
+      "en": "Callbacks",
+      "questionCount": 0
+    },
+    {
+      "path": "js-basics/async-basics/promises-async-await",
+      "course": "js-basics",
+      "unit": "async-basics",
+      "subunit": "promises-async-await",
+      "name": "Promise と async / await",
+      "en": "Promises and Async/Await",
+      "questionCount": 0
+    }
+  ],
+  "tree": [
+    {
+      "course": "js-basics",
+      "units": [
+        {
+          "unit": "variables-and-types",
+          "subunits": [
+            {
+              "path": "js-basics/variables-and-types/variable-declaration",
+              "course": "js-basics",
+              "unit": "variables-and-types",
+              "subunit": "variable-declaration",
+              "name": "変数の宣言（let / const / var）",
+              "en": "Variable Declaration",
+              "questionCount": 30
+            },
+            {
+              "path": "js-basics/variables-and-types/data-types",
+              "course": "js-basics",
+              "unit": "variables-and-types",
+              "subunit": "data-types",
+              "name": "データ型（string / number / boolean / null / undefined）",
+              "en": "Data Types",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/variables-and-types/type-conversion",
+              "course": "js-basics",
+              "unit": "variables-and-types",
+              "subunit": "type-conversion",
+              "name": "型変換と型確認（typeof / 暗黙の変換）",
+              "en": "Type Conversion",
+              "questionCount": 0
+            }
+          ]
+        },
+        {
+          "unit": "operators",
+          "subunits": [
+            {
+              "path": "js-basics/operators/arithmetic-operators",
+              "course": "js-basics",
+              "unit": "operators",
+              "subunit": "arithmetic-operators",
+              "name": "算術演算子（+ - * / % **）",
+              "en": "Arithmetic Operators",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/operators/comparison-operators",
+              "course": "js-basics",
+              "unit": "operators",
+              "subunit": "comparison-operators",
+              "name": "比較演算子（== / === / != / !==）",
+              "en": "Comparison Operators",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/operators/logical-operators",
+              "course": "js-basics",
+              "unit": "operators",
+              "subunit": "logical-operators",
+              "name": "論理演算子（&& / || / ! / ??）",
+              "en": "Logical Operators",
+              "questionCount": 0
+            }
+          ]
+        },
+        {
+          "unit": "control-flow",
+          "subunits": [
+            {
+              "path": "js-basics/control-flow/if-else",
+              "course": "js-basics",
+              "unit": "control-flow",
+              "subunit": "if-else",
+              "name": "条件分岐（if / else if / else / 三項演算子）",
+              "en": "Conditionals",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/control-flow/for-loop",
+              "course": "js-basics",
+              "unit": "control-flow",
+              "subunit": "for-loop",
+              "name": "for ループ（for / for...of / for...in）",
+              "en": "For Loop",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/control-flow/while-switch",
+              "course": "js-basics",
+              "unit": "control-flow",
+              "subunit": "while-switch",
+              "name": "while / switch 文",
+              "en": "While and Switch",
+              "questionCount": 0
+            }
+          ]
+        },
+        {
+          "unit": "functions",
+          "subunits": [
+            {
+              "path": "js-basics/functions/function-declaration",
+              "course": "js-basics",
+              "unit": "functions",
+              "subunit": "function-declaration",
+              "name": "関数の定義と呼び出し",
+              "en": "Function Declaration",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/functions/arrow-functions",
+              "course": "js-basics",
+              "unit": "functions",
+              "subunit": "arrow-functions",
+              "name": "アロー関数（() => {}）",
+              "en": "Arrow Functions",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/functions/scope",
+              "course": "js-basics",
+              "unit": "functions",
+              "subunit": "scope",
+              "name": "スコープとクロージャ",
+              "en": "Scope and Closure",
+              "questionCount": 0
+            }
+          ]
+        },
+        {
+          "unit": "arrays",
+          "subunits": [
+            {
+              "path": "js-basics/arrays/array-basics",
+              "course": "js-basics",
+              "unit": "arrays",
+              "subunit": "array-basics",
+              "name": "配列の基本（宣言・アクセス・変更）",
+              "en": "Array Basics",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/arrays/array-methods",
+              "course": "js-basics",
+              "unit": "arrays",
+              "subunit": "array-methods",
+              "name": "配列メソッド（push / pop / map / filter）",
+              "en": "Array Methods",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/arrays/array-advanced",
+              "course": "js-basics",
+              "unit": "arrays",
+              "subunit": "array-advanced",
+              "name": "配列メソッド応用（reduce / find / sort）",
+              "en": "Advanced Array Methods",
+              "questionCount": 0
+            }
+          ]
+        },
+        {
+          "unit": "objects",
+          "subunits": [
+            {
+              "path": "js-basics/objects/object-basics",
+              "course": "js-basics",
+              "unit": "objects",
+              "subunit": "object-basics",
+              "name": "オブジェクトの基本（プロパティ・メソッド）",
+              "en": "Object Basics",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/objects/destructuring",
+              "course": "js-basics",
+              "unit": "objects",
+              "subunit": "destructuring",
+              "name": "分割代入（オブジェクト・配列）",
+              "en": "Destructuring",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/objects/spread-rest",
+              "course": "js-basics",
+              "unit": "objects",
+              "subunit": "spread-rest",
+              "name": "スプレッド構文とレスト引数",
+              "en": "Spread and Rest",
+              "questionCount": 0
+            }
+          ]
+        },
+        {
+          "unit": "async-basics",
+          "subunits": [
+            {
+              "path": "js-basics/async-basics/callbacks",
+              "course": "js-basics",
+              "unit": "async-basics",
+              "subunit": "callbacks",
+              "name": "コールバック関数と非同期の概念",
+              "en": "Callbacks",
+              "questionCount": 0
+            },
+            {
+              "path": "js-basics/async-basics/promises-async-await",
+              "course": "js-basics",
+              "unit": "async-basics",
+              "subunit": "promises-async-await",
+              "name": "Promise と async / await",
+              "en": "Promises and Async/Await",
+              "questionCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

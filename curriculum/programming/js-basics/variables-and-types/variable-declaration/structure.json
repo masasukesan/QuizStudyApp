@@ -1,0 +1,68 @@
+{
+  "unit_id": "variable-declaration",
+  "unit_name_jp": "変数の宣言（let / const / var）",
+  "grade": "JavaScript基礎",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "let-const-var-concept",
+      "description": "let・const・var の基本的な違いと使い分けを問う。再代入・再宣言の可否を判断する。",
+      "thinking_process": [
+        "letは再代入OK、再宣言NG。ブロックスコープを持つ",
+        "constは再代入NG、再宣言NG。宣言時に初期化が必要。ブロックスコープを持つ",
+        "varは再代入OK、再宣言OK。関数スコープを持ち、ブロックスコープを無視する"
+      ],
+      "common_mistakes": [
+        "constのオブジェクト・配列はプロパティや要素の変更ができる（値の参照が変わらないため）ことを忘れる",
+        "varで宣言した変数はブロック外からもアクセスできることを見落とす",
+        "letとconstの違いを「再代入できるかどうか」だけで覚え、再宣言の違いを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "block-scope-vs-function-scope",
+      "description": "letとconstはブロックスコープ、varは関数スコープという違いを問うコードの動作予測。",
+      "thinking_process": [
+        "{ } で囲まれたブロック内でletやconstを宣言すると、ブロック外からはアクセスできない",
+        "varはブロック（if・for・while・{}）を無視して関数スコープになる",
+        "コードを読む際は「宣言がどのブロック・関数の中にあるか」を確認する"
+      ],
+      "common_mistakes": [
+        "varがif文やfor文のブロック外でアクセスできることを見落とす",
+        "letが関数を超えてアクセスできないことを忘れ、スコープを誤解する",
+        "ネストしたブロックでの変数の見え方（内側から外側は見える）を逆に理解する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "hoisting",
+      "description": "varのホイスティング（巻き上げ）の動作と、letのTDZ（一時的デッドゾーン）を問う。",
+      "thinking_process": [
+        "varで宣言した変数は宣言が先頭に巻き上げられるが、代入はされない（undefined になる）",
+        "letとconstも宣言は巻き上げられるが、TDZにより宣言前のアクセスはReferenceErrorになる",
+        "関数宣言（function foo(){}）は丸ごと巻き上げられるが、関数式（const foo = function(){}）は変数のルールに従う"
+      ],
+      "common_mistakes": [
+        "varの変数を宣言前に使うと「undefined」になることを、エラーと混同する",
+        "letも宣言前にアクセスできると思い込む（実際はReferenceError）",
+        "hoistingはundefinedで存在はするがアクセスすると予期しない挙動になることを忘れる"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "variable-naming-and-initialization",
+      "description": "変数名のルール（使える文字・予約語）と、宣言と初期化のパターンを問う。",
+      "thinking_process": [
+        "変数名はアルファベット・数字・アンダースコア・$が使える。先頭に数字は使えない",
+        "予約語（let・const・var・if・for・function など）は変数名に使えない",
+        "letは宣言のみ（初期値なし）でも使えるが、constは宣言と同時に初期化が必須"
+      ],
+      "common_mistakes": [
+        "数字始まりの変数名（1name など）が使えると思い込む",
+        "constを宣言だけして後で代入しようとする（SyntaxErrorになる）",
+        "$や_始まりの変数名が使えることを知らない"
+      ],
+      "difficulty": "basic"
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "nar-001": {
+    "lead": "本文の第1段落に「I was in charge of sorting donated books by category and helping young visitors find titles they might enjoy」とあります。「in charge of〜」は「〜を担当して」という意味で、語り手の役割が「本を分類すること」と「若い来場者が本を探すのを手伝うこと」の2つであることがわかります。正解はA「寄付された本を分類し、若い来場者が本を見つけるのを手伝うこと」です。",
+    "steps": [
+      "問題文を先に読み、「何を」問われているかを確認します。ここでは「語り手の担当業務」を問われています。",
+      "本文の「I was in charge of〜」という表現をスキャン（素早く探す）します。",
+      "「in charge of sorting donated books … and helping young visitors」の内容を日本語にまとめます：本の分類＋若い来場者のサポート。",
+      "選択肢Aがその内容と一致することを確認します。B（会計）・C（装飾）・D（結果報告）は本文に書かれていないので除外します。"
+    ],
+    "common_mistakes": [
+      "本文を読まずに「図書館バザーといえば本を売る仕事」と思い込んでBを選んでしまう",
+      "「helping」を見てCの「手伝う」を選ぶが、本文では「来場者が本を見つけるのを手伝う」であり、「装飾設置」とは全く異なる"
+    ],
+    "tips": [
+      "英語のin charge of〜は「〜を担当している・責任を持っている」という重要表現です。",
+      "スキャニングとは、本文全体を読まずに特定の情報（キーワード）だけを素早く探す読み方です。設問で問われているキーワードを本文で探すのに使いましょう。"
+    ]
+  },
+  "nar-002": {
+    "lead": "本文に「I went through three separate boxes before finding exactly what she needed — a large picture book with colorful illustrations of prehistoric animals」とあります。「prehistoric animals（先史時代の動物）」すなわち恐竜に関するカラフルな絵本（large picture book with colorful illustrations）を見つけたので、正解はA「恐竜に関するカラフルな絵本」です。",
+    "steps": [
+      "問題文から「Lilyのために見つけたもの」を問われていることを確認します。",
+      "本文でLilyが「a book about dinosaurs（恐竜の本）」を探していると書かれた部分を探します。",
+      "語り手が見つけた本の内容：「a large picture book with colorful illustrations of prehistoric animals」（先史時代の動物のカラフルなイラスト入り大型絵本）をまとめます。",
+      "選択肢Aがその内容と最も近いことを確認します。C「先史時代の海の生き物」は「海の生き物」に限定されており本文と異なります。"
+    ],
+    "common_mistakes": [
+      "C「先史時代の海の生き物についての本」を選んでしまう。prehistoric（先史時代）は合っているが、「海の生き物」に限定する記述は本文にない",
+      "本文で「dinosaurs（恐竜）」という語が使われているのを確認せずに選んでしまう"
+    ],
+    "tips": [
+      "選択肢と本文を照合する際は、細部（限定表現・追加情報）の違いに注意しましょう。",
+      "「prehistoric（先史時代の）」はdinosaurを含む概念ですが、「海の生き物に限る」という情報は本文にありません。"
+    ]
+  },
+  "nar-003": {
+    "lead": "本文の「When I arrived at 9 a.m.」という記述から、語り手が図書館に到着した時刻は午前9時（9 a.m.）であることがわかります。正解はC「午前9時」です。",
+    "steps": [
+      "問題文から「到着した時刻」を問われていることを確認します。",
+      "本文で時刻を表す表現を探します。「at 9 a.m.」という記述を見つけます。",
+      "「noon（正午）」はLilyが来た頃の時間として登場し、「4 p.m.」は閉館時間として登場するので混同しないよう注意します。"
+    ],
+    "common_mistakes": [
+      "本文に登場する複数の時刻（9 a.m. / noon / 4 p.m.）を混同してしまう",
+      "「noon（正午）ごろにLilyが来た」という記述から、語り手もnoonに到着したと思い込む"
+    ],
+    "tips": [
+      "数字や時刻が問われる問題では、本文で登場するすべての数値に印をつけ、どの文脈で使われているかを整理しましょう。",
+      "「arrival（到着）」と「event（出来事が起きた時刻）」は区別して読む習慣をつけましょう。"
+    ]
+  },
+  "nar-004": {
+    "lead": "本文の冒頭に「I decided to cook pasta for dinner to surprise my mother, who had to work overtime that day（その日残業だった母親を驚かせようとした）」とあります。語り手が料理を決意した理由は「残業中の母親をサプライズするため」です。正解はD「残業していた母親を驚かせたかったから」です。",
+    "steps": [
+      "問題文から「料理をしようと決めた理由」を問われていることを確認します。",
+      "本文の冒頭「to surprise my mother, who had to work overtime」という目的を表す表現を探します。",
+      "「to + 動詞の原形」は「〜するために」という目的を表します。",
+      "選択肢DがThis内容と一致することを確認します。A（食材が余っていた）・B（動画の技術を試す）・C（空腹のRyan）は本文に書かれていません。"
+    ],
+    "common_mistakes": [
+      "「I had watched a cooking tutorial online」という記述を見てBを選ぶが、これは動画を見たという事実であり、料理を決意した理由（目的）ではない",
+      "BとDを混同する。動画を見たのは準備段階であり、動機（reason）は母親へのサプライズ"
+    ],
+    "tips": [
+      "「to + 動詞」（to不定詞の副詞的用法）は「〜するために」という目的を表します。理由を問う問題では、この表現に注目しましょう。",
+      "「なぜ〜したのか」の問いには、本文の目的・動機を表す表現（to do, because, so that）を探しましょう。"
+    ]
+  },
+  "nar-005": {
+    "lead": "本文に「I added far too much salt and forgot to watch the vegetables, which burned on the bottom of the pan（塩を入れすぎ、野菜から目を離してしまい、鍋の底で野菜が焦げた）」とあります。問題は2つ同時に発生しており、正解はA「塩を入れすぎ、野菜を焦がしてしまった」です。",
+    "steps": [
+      "問題文から「最初のソースで起きた問題」を問われていることを確認します。",
+      "本文でトラブルが起きた場面を探します。「The trouble came when I tried to make tomato sauce」の後を読みます。",
+      "2つの問題が書かれています：1）too much salt（塩を入れすぎ）、2）vegetables burned（野菜が焦げた）",
+      "選択肢Aがこの両方を含む唯一の選択肢であることを確認します。"
+    ],
+    "common_mistakes": [
+      "本文の問題は「パスタ」ではなく「トマトソース」の段階で起きているため、Bの「パスタの茹ですぎ」は不正解",
+      "「burned」という語を見て「鍋の問題」と思いDを選んでしまう"
+    ],
+    "tips": [
+      "問題文が「トマトソースで起きた問題」と聞いているので、「sauce」に関する記述に絞って読みましょう。",
+      "「far too much」は「あまりにも多すぎる」という強調表現です。"
+    ]
+  },
+  "nar-006": {
+    "lead": "本文に「Ryan remembered that adding a little sugar can reduce excess saltiness（Ryanは少量の砂糖を加えると塩辛さを和らげられると覚えていた）」とあります。Ryanが提案したのは「少量の砂糖を加えること」で、正解はB「少量の砂糖を加えること」です。",
+    "steps": [
+      "問題文から「Ryanの提案内容」を問われていることを確認します。",
+      "本文でRyanに関する記述を探します。「Ryan remembered that〜」という部分に注目します。",
+      "「adding a little sugar can reduce excess saltiness（少量の砂糖で塩辛さを減らせる）」がRyanのアドバイスだとわかります。",
+      "選択肢Bがこの内容と一致することを確認します。"
+    ],
+    "common_mistakes": [
+      "「started fresh（最初からやり直した）」という記述があるためCを選んでしまうが、「最初からやり直した」のは語り手とRyanが一緒に行ったことであり、Ryanの「提案」ではない",
+      "「Together, we threw away the ruined sauce and started fresh」の主語はI（語り手）＋Ryan両方なので、Ryanだけの提案ではない"
+    ],
+    "tips": [
+      "「Ryan remembered that〜」のように「誰かが〜したことを覚えていた・提案した」という記述パターンは、その人の具体的なアドバイスを見つける手がかりになります。",
+      "「excess saltiness」のexcessは「過剰な」、salisnessは「塩辛さ」という意味です。"
+    ]
+  },
+  "nar-007": {
+    "lead": "本文の「We moved here from Maplewood last weekend because my father got a job promotion that required relocation（父の昇進に転勤が必要だったため、先週末にMaplewoodから引っ越してきた）」という記述から、引っ越しの理由は「父親の昇進と転勤」です。正解はC「父親が昇進し、転勤が必要になったから」です。",
+    "steps": [
+      "問題文から「引っ越した理由」を問われていることを確認します。",
+      "本文で「because」以下の理由を表す部分を探します。",
+      "「job promotion（昇進）」と「required relocation（転勤が必要）」がキーワードです。",
+      "選択肢CがThis内容と一致することを確認します。A（マンションへの憧れ）・B（母親の仕事）・D（都会体験）は本文に根拠がありません。"
+    ],
+    "common_mistakes": [
+      "本文に「modern building（近代的なビル）」という表現があるためAを選んでしまうが、これはマンションの説明であり、引っ越した「理由」ではない",
+      "「mother / father」を混同してBを選んでしまう"
+    ],
+    "tips": [
+      "「because」の後に理由が続きます。理由を問う問題では「because」「since」「as」などの接続詞の後に注目しましょう。",
+      "「job promotion」は「仕事での昇進（出世）」という意味です。"
+    ]
+  },
+  "nar-008": {
+    "lead": "本文に「I finally asked a lady walking her dog for directions（最終的に犬を連れて歩いていた女性に道を尋ねた）」とあります。コンビニへの道を見つけた方法は「犬を連れた女性に尋ねること」で、正解はD「犬を連れて歩いていた女性に尋ねた」です。",
+    "steps": [
+      "問題文から「コンビニへの道をどうやって見つけたか」を問われていることを確認します。",
+      "本文で「convenience store（コンビニ）」という語を探し、その後の記述を確認します。",
+      "「I got lost twice（2回迷った）→ I finally asked a lady walking her dog（犬を連れた女性に尋ねた）」という流れを整理します。",
+      "選択肢DがThis内容と一致することを確認します。A（スマホの地図）・B（標識）・C（父に聞く）は本文に根拠がありません。"
+    ],
+    "common_mistakes": [
+      "「現代だからスマホを使ったはず」という思い込みでAを選んでしまう。本文に書かれていない情報は選んではいけない",
+      "「finally（ついに）」という語の前に「twice」があることから、最初の1回目の試みを答えてしまう"
+    ],
+    "tips": [
+      "「finally（最終的に）」という語は、その前にいくつかの試みがあった後の最終的な行動を示すことが多いです。",
+      "本文に書かれていない情報（スマホ・標識など）を選ばないことが内容一致問題の基本です。"
+    ]
+  },
+  "nar-009": {
+    "lead": "本文に「She said she had also moved here from another city two years ago, so she understood how I felt（彼女も2年前に別の都市から引っ越してきたので、語り手の気持ちが分かると言った）」とあります。正解はA「彼女も2年前に別の都市から引っ越してきた」です。",
+    "steps": [
+      "問題文から「Priyaが語り手に話した内容」を問われていることを確認します。",
+      "本文でPriyaの発言部分を探します。「She said she had also moved here from another city two years ago」を見つけます。",
+      "内容をまとめると：Priyaも2年前に転入してきた、というシンプルな事実です。",
+      "選択肢AがThis内容と一致することを確認します。BCD（Maplewood・翌日の案内・グループへの招待）は本文に根拠がありません。"
+    ],
+    "common_mistakes": [
+      "「she understood how I felt」という記述から「友人になりたいと言った」とDを選んでしまうが、実際にそのような発言はない",
+      "本文の「two years ago」をはっきり確認せずに、記憶で答えてしまう"
+    ],
+    "tips": [
+      "人物の発言内容を問う問題は、本文で「she said / he told me」などの発言を導く表現を探してその後の内容を確認しましょう。",
+      "「so（だから）」以下の部分はPriyaの気持ちや理由であり、彼女が語り手に「話した内容」とは区別して読みましょう。"
+    ]
+  },
+  "nar-010": {
+    "lead": "日記の最後の文「I'm still not sure I like city life, but today felt a little more manageable（都会生活が好きかまだ確信はないが、今日は少し楽に感じた）」から、語り手は「まだ完全には前向きでないが、少し良くなった」と感じていることがわかります。正解はB「まだ都会生活には確信が持てないが、少し前向きになっている」です。",
+    "steps": [
+      "問題文から「6月8日の終わりの気持ち」を問われていることを確認します。",
+      "日記の最終文「I'm still not sure … but today felt a little more manageable」を読みます。",
+      "「still not sure（まだ確信できない）」と「a little more manageable（少し楽になった）」という2つの感情を整理します。",
+      "選択肢Bが「まだ不安だが少し前向き」という両面を含む正しい答えです。Aは「完全に楽しい」と断言しすぎ、CDは本文に根拠がありません。"
+    ],
+    "common_mistakes": [
+      "「Priyaと話した」という事実からAを選んでしまうが、本文の最後は「still not sure」とあり、完全な安心感ではない",
+      "「manageable（なんとか対処できる・楽になった）」という語の意味が分からず答えを間違える"
+    ],
+    "tips": [
+      "「still（まだ〜）」という語は現在も続く状態を示します。「but（しかし）」との組み合わせで「まだ〜だけれど、少しは〜」という複雑な感情を表します。",
+      "心情問題では選択肢に含まれる感情語の強さ（completely / a little など）にも注目しましょう。"
+    ]
+  },
+  "nar-011": {
+    "lead": "本文に「Mr. Nakamura says I am technically ready, but I freeze up the moment I think about the audience（先生は技術的には準備できていると言っているが、観客のことを考えると固まってしまう）」とあります。技術的な問題ではなく「観客を意識した緊張」が悩みです。正解はC「技術的には準備できていたが、観客のことを考えると固まってしまっていた」です。",
+    "steps": [
+      "問題文から「語り手の悩み」を問われていることを確認します。",
+      "本文の「technically ready（技術的に準備OK）」と「freeze up（固まってしまう）」という対比に注目します。",
+      "「freeze up the moment I think about the audience」→ 観客を意識すると固まる、という流れを整理します。",
+      "Aは「技術的に準備できていない」とあるが、それは先生の評価と逆。選択肢Cが正確に本文と一致します。"
+    ],
+    "common_mistakes": [
+      "先生が「technically ready」と言っているのにAを選んでしまう。「技術的には十分」という肯定が先生の評価",
+      "「can barely play without stopping（止まらずに弾けない）」という記述からAを選んでしまうが、これは「一人で練習していたときの状態」ではなく「観客を意識したときの問題」を示している"
+    ],
+    "tips": [
+      "「but（しかし）」の前後の対比に注目するのが心情問題の基本です。対比の後半（but以降）に問題の核心があることが多いです。",
+      "「freeze up（固まる・頭が真っ白になる）」は「freeze（凍る）」から来る慣用表現です。"
+    ]
+  },
+  "nar-012": {
+    "lead": "本文の10月20日の記述に「She reminded me of the school play I performed in last year. I had forgotten all my lines at first, but I recovered and received a standing ovation（昨年出演した学校の演劇を思い出させてくれた。最初は台詞を全部忘れたが、立ち直ってスタンディングオベーションをもらった）」とあります。正解はD「台詞を忘れたが立ち直り、スタンディングオベーションを受けた学校の演劇」です。",
+    "steps": [
+      "問題文から「母親が思い出させてくれたこと」を問われていることを確認します。",
+      "本文でmotherが登場する部分（10月20日の日記）を探します。",
+      "「reminded me of〜（〜を思い出させた）」の後に内容が続きます：「school play」→「forgot lines」→「recovered」→「standing ovation」",
+      "選択肢DがThis流れを正しくまとめています。"
+    ],
+    "common_mistakes": [
+      "「school play（学校の演劇）」と「piano recital（ピアノ発表会）」を混同してしまう",
+      "「先生からのアドバイス」と「母親からのアドバイス」を混同してCを選んでしまう"
+    ],
+    "tips": [
+      "「remind A of B」は「AにBを思い出させる」という重要表現です。",
+      "「standing ovation（スタンディングオベーション）」は観客が立ち上がって拍手をする最大の称賛を意味します。"
+    ]
+  },
+  "nar-013": {
+    "lead": "日記の最後の文「I used to think performing meant playing without mistakes. Now I know it means connecting with the music（以前は演奏するとはミスをしないことだと思っていた。今は音楽とつながることだとわかった）」から、語り手の考え方が「ミスをしないこと→音楽とつながること」へと変わったことがわかります。正解はA「演奏するとは、ミスを避けることではなく音楽とつながることだと気づいた」です。",
+    "steps": [
+      "問題文から「考え方の変化」を問われていることを確認します。",
+      "本文の最終段落「I used to think〜. Now I know〜」という対比構造を探します。",
+      "変化前：「playing without mistakes（ミスなく弾くこと）」→ 変化後：「connecting with the music（音楽とつながること）」",
+      "選択肢AがThis変化を正確に表現しています。"
+    ],
+    "common_mistakes": [
+      "「Mr. Nakamura told me I played with 'real feeling'」という記述を見てDを選んでしまうが、語り手が「学んだこと」は先生への感謝ではなく、「演奏の本質についての気づき」",
+      "発表会が終わった安堵（Cを選ぶ）は感情として自然だが、最終段落のメッセージはそれではない"
+    ],
+    "tips": [
+      "「I used to think〜. Now I know〜」というパターンは「以前の考え→変化後の考え」を明確に示す典型的な表現です。心情の変化問題では必ず確認しましょう。",
+      "物語の最終段落は書き手のメッセージが最も凝縮されている場所です。"
+    ]
+  },
+  "nar-014": {
+    "lead": "発表会当日（10月27日）の日記に「I played the entire piece without stopping（一度も止まらずに最後まで弾き通した）」とあります。正解はB「最後まで一度も止まらずに弾き通した」です。",
+    "steps": [
+      "問題文から「発表会での演奏の様子」を問われていることを確認します。",
+      "本文の10月27日（Recital Day）の記述を読みます。",
+      "「the entire piece without stopping（全曲を止まらずに）」という表現がキーワードです。",
+      "選択肢Bがこの内容と正確に一致します。A（ミスをした）・C（途中で止まった）・D（別の曲に変えた）は本文と矛盾します。"
+    ],
+    "common_mistakes": [
+      "発表会前の練習での「can barely play without stopping」という記述と、発表会本番での「played without stopping」を混同してAやCを選んでしまう",
+      "「My hands were shaking（手が震えていた）」という記述からうまく弾けなかったと思い込む"
+    ],
+    "tips": [
+      "「entire（全体の・全部の）」という語は「完全に・全曲」を意味します。",
+      "物語の時系列（10月12日→20日→27日）を追いながら読み、「どの時点の出来事か」を意識しましょう。"
+    ]
+  },
+  "nar-015": {
+    "lead": "本文の冒頭に「I had always avoided speaking in front of groups. Just the thought of everyone watching me made my heart race（ずっと人前で話すことを避けてきた。みんなに見られることを考えるだけで心臓がドキドキした）」とあります。気分が悪くなった理由は「もともと人前で話すことを避けてきたから」です。正解はC「もともと人前で話すことを避けてきたから」です。",
+    "steps": [
+      "問題文から「気分が悪くなった理由」を問われていることを確認します。",
+      "本文の「I felt sick the moment I heard it（聞いた瞬間に気分が悪くなった）」の直後に理由が続いています。",
+      "「I had always avoided speaking in front of groups（ずっと人前での発表を避けてきた）」がその理由です。",
+      "選択肢CがThis内容と一致します。A（準備不足）・B（時間が長い）・D（テーマが決まっている）は本文に根拠がありません。"
+    ],
+    "common_mistakes": [
+      "先生の発表を「聞いた瞬間」に気分が悪くなったことから、「テーマが決められていたから」（D）と思い込む",
+      "「5分間」という情報からBを選ぶが、長さを問題にしたという記述は本文にない"
+    ],
+    "tips": [
+      "感情の原因を問う問題では、感情が描写された直後の「because / since / as」や、「I had always〜」のような習慣・背景を述べた文に注目しましょう。",
+      "「the moment〜」は「〜した瞬間に」という意味の接続詞的な表現です。"
+    ]
+  },
+  "nar-016": {
+    "lead": "本文に「My best friend Lisa called out from the back: 'Go, Tom!' A few others joined in. Suddenly, the silence was broken, and I found my voice（親友のリサが後ろから'頑張れ、トム！'と声をかけ、何人かが続いた。突然沈黙が破れ、声が出た）」とあります。話し始めるきっかけはDの「友人のリサの応援と、他の生徒たちの声援」です。",
+    "steps": [
+      "問題文から「話し始めることができたきっかけ」を問われていることを確認します。",
+      "本文で「something unexpected happened（予期せぬことが起きた）」の後を読みます。",
+      "「Lisa called out〜 → A few others joined in → silence was broken → found my voice」という因果の流れを整理します。",
+      "選択肢DがThis因果関係を正確に表しています。A（暗記）は「didn't stick to the memorized script」とあるので逆。"
+    ],
+    "common_mistakes": [
+      "「I didn't stick to the memorized script（暗記した原稿通りにはしなかった）」という記述から、原稿を思い出したわけではないのにAを選んでしまう",
+      "Lisaの応援だけに着目してCを選ぶが、「自分が話したいテーマに切り替えた」という記述は結果であって「話し始めたきっかけ」ではない"
+    ],
+    "tips": [
+      "「call out」は「大声で呼ぶ・声をかける」という意味です。",
+      "出来事の「きっかけ（trigger）」を問う問題では、感情や行動が変わる直前の出来事に着目しましょう。"
+    ]
+  },
+  "nar-017": {
+    "lead": "本文の最後の文「I still get nervous before speaking in public. But now I know that nervousness doesn't mean I can't do it（人前で話す前はいまでも緊張する。しかし今は、緊張しているからといってできないわけではないとわかっている）」から、Tomが学んだ教訓がわかります。正解はA「緊張しているからといって、できないわけではない」です。",
+    "steps": [
+      "問題文から「体験から学んだこと（教訓）」を問われていることを確認します。",
+      "本文の最後の段落「I still get nervous … But now I know that〜」を確認します。",
+      "「nervousness doesn't mean I can't do it（緊張＝できないではない）」がTomの気づきです。",
+      "選択肢AがThis内容と一致します。BCD（暗記・友人の必要性・個人体験の優位性）は本文に書かれていません。"
+    ],
+    "common_mistakes": [
+      "「I had memorized every word（すべての言葉を暗記した）」という事実からBを選ぶが、Tomが学んだのは「暗記が有効」ではなく「緊張してもやれる」という気づき",
+      "「Lisa called out（リサが声をかけてくれた）」という事実からCを選ぶが、これは特定の出来事であり、「友人なしでは無理」という教訓にはなっていない"
+    ],
+    "tips": [
+      "「But now I know that〜」という表現は、体験を経て得た新しい認識・教訓を述べる典型パターンです。",
+      "物語の最終文は書き手のメッセージが凝縮されていることが多いため、必ず最後まで読みましょう。"
+    ]
+  },
+  "nar-018": {
+    "lead": "本文の4月3日の記述に「he knocked on our door to return a package that had been delivered to his address by mistake（誤ってYamamotoさんの住所に届いた荷物を返しにドアをノックした）」とあります。二人が最初に出会ったのは「誤配達された荷物を届けに来た場面」です。正解はB「Yamamotoさんが誤配達された荷物を届けに来た」です。",
+    "steps": [
+      "問題文から「最初に出会った状況」を問われていることを確認します。",
+      "日記で最も最初の日付（April 3rd）の記述を確認します。",
+      "「knocked on our door to return a package that had been delivered to his address by mistake」がキーワードです。",
+      "選択肢BがThis内容と一致します。A（引っ越し直後の自己紹介）・C（語り手からノック）・D（入口で偶然会った）は本文と異なります。"
+    ],
+    "common_mistakes": [
+      "「moved in last week（先週引っ越してきた）」という記述からAを選んでしまうが、引っ越し直後に自己紹介に来たわけではない",
+      "「to return a package（荷物を返すために）」という目的語を「受け取った」と逆に解釈してしまう"
+    ],
+    "tips": [
+      "「to return a package（荷物を返すために）」の「return」は「返す・戻す」という意味です。「by mistake（誤って）」との組み合わせで、誤配達→返却という流れを読み取りましょう。",
+      "複数の日付がある日記では、各日付の内容を時系列で整理することが大切です。"
+    ]
+  },
+  "nar-019": {
+    "lead": "本文の4月18日の記述に「He told me he had worked as a photographer for 30 years and showed me prints of landscapes from all over Japan（30年間カメラマンとして働いていたと語り、日本各地の風景写真のプリントを見せてくれた）」とあります。正解はC「カメラマンとして撮影した風景写真のプリント」です。",
+    "steps": [
+      "問題文から「お茶の時間に見せてくれたもの」を問われていることを確認します。",
+      "4月18日の記述でお茶（tea）が登場する部分を探します。",
+      "「showed me prints of landscapes from all over Japan（日本各地の風景写真のプリントを見せた）」がキーワードです。",
+      "選択肢CがThis内容と一致します。A（都市の話）は聞いたことであり、見せてもらったものではありません。"
+    ],
+    "common_mistakes": [
+      "「photographer（カメラマン）」という職歴と「prints（写真のプリント）」を切り離して考え、「話した内容」としてAを選んでしまう",
+      "「all over Japan（日本各地）」を読み飛ばして、「別の都市に住む家族の話」（D）と混同する"
+    ],
+    "tips": [
+      "「show me〜（〜を見せてくれた）」の後に続く名詞が「見せてもらったもの」です。聞いた話と見せてもらったものを区別して読みましょう。",
+      "「prints of landscapes（風景写真のプリント）」のprintsは「（写真の）プリント・印画物」という意味です。"
+    ]
+  },
+  "nar-020": {
+    "lead": "本文の5月7日の最後に「I realized I had assumed that older people preferred to be left alone. I was completely wrong about that（高齢者は一人でいることを好むと思い込んでいた。その思い込みは完全に間違いだった）」とあります。語り手が誤りだと気づいた思い込みは「高齢者は一人でいることを好む」というものです。正解はD「高齢者は一人でいることを好むという思い込み」です。",
+    "steps": [
+      "問題文から「語り手の誤った思い込み」を問われていることを確認します。",
+      "本文の「I realized I had assumed that〜（〜と思い込んでいたと気づいた）」という表現を探します。",
+      "「older people preferred to be left alone（高齢者は一人にされることを好む）」が思い込みの内容です。",
+      "「I was completely wrong about that（それは完全に間違いだった）」と否定されています。選択肢DがThis内容と一致します。"
+    ],
+    "common_mistakes": [
+      "「He seemed a little unsure of himself（少し自信なさそうだった）」という記述からAを選ぶが、それは行動の描写であり語り手の「思い込み」の内容ではない",
+      "「lives alone（ひとりで暮らす）」という事実から「ひとりでいると不幸」（B）という思い込みと混同する"
+    ],
+    "tips": [
+      "「I assumed that〜（〜だと思い込んでいた）」は誤った先入観を述べる重要表現です。",
+      "「prefer to be left alone（一人にされることを好む）」のleaveは「ひとりにする」という意味で使われています。"
+    ]
+  },
+  "nar-021": {
+    "lead": "日記の最後の文「Failure, I now believe, is not the opposite of progress. It is often a part of it（失敗は進歩の反対ではない。むしろ進歩の一部であることが多い）」が、この文章全体のメッセージです。語り手は「失敗も成長の大切な一部である」と伝えたいのです。正解はA「失敗は個人の成長の重要な一部であることがある」です。",
+    "steps": [
+      "問題文から「最も伝えたいこと（主旨・テーマ）」を問われていることを確認します。",
+      "文章全体の流れ：「失敗→落ち込み→前向きな気づき→新たな成功」を整理します。",
+      "最終文「failure is not the opposite of progress. It is often a part of it」がメッセージの核心です。",
+      "選択肢Aがこのメッセージと最も一致します。BCD（努力・試験制度・休学）は語り手の主眼ではありません。"
+    ],
+    "common_mistakes": [
+      "「studied for over a year（1年以上勉強した）」という記述からB（一生懸命努力すること）を選ぶが、語り手は「努力すれば成功する」ではなく「失敗も成長の一部」と言っている",
+      "「applied to a different university（別の大学に出願した）」からD（休学・浪人の勧め）を選ぶが、これは具体的な出来事であり、書き手の主なメッセージではない"
+    ],
+    "tips": [
+      "「書き手の意図・テーマ」を問う問題では、文章の一部だけでなく全体を通じて一貫して言えることを選びましょう。",
+      "最終文・最終段落は書き手のメッセージが最も明確に表れる場所です。必ず最後まで読んでからテーマを判断してください。"
+    ]
+  },
+  "nar-022": {
+    "lead": "本文の第3段落に「I had, in fact, become a better reader, a stronger problem-solver, and more disciplined than I had ever been. The skills I had built were real — they did not disappear just because my score was not high enough（実際、読解力も問題解決力も規律も以前よりずっと高まっていた。身につけたスキルは本物で、点数が足りなかっただけで消えたわけではなかった）」とあります。正解はB「不合格になっても消えなかった本物のスキルが身についていた」です。",
+    "steps": [
+      "問題文から「1年間の勉強を振り返ったとき、何を発見したか」を問われていることを確認します。",
+      "本文の「slowly, I started to see things differently（ゆっくりと見方が変わっていった）」以降の第3段落を読みます。",
+      "「The skills I had built were real — they did not disappear（身につけたスキルは本物で、消えなかった）」がキーポイントです。",
+      "選択肢BがThis内容と一致します。A（時間の使い方が悪かった）は最初の落ち込み時の思い込みであり、発見した内容ではありません。"
+    ],
+    "common_mistakes": [
+      "最初の落ち込みの場面（第2段落）の「convinced I had wasted an entire year」を「発見したこと」と誤解してAを選んでしまう",
+      "「slept only six hours（6時間しか眠らなかった）」という記述からCを選ぶが、睡眠の話は原因分析の一例であり、語り手が学んだことではない"
+    ],
+    "tips": [
+      "「I had, in fact（実際には）」という表現は、予想と違う事実を述べるときに使われます。意見の転換点を示すサインです。",
+      "心情の変化問題では、最初の感情（落ち込み）と変化後の気づきを正確に区別して読みましょう。"
+    ]
+  },
+  "nar-023": {
+    "lead": "語り手が「It was the best preparation I could have had（自分が経験できた中で最高の準備だった）」と言ったのは、不合格だった1年間の勉強が新しい大学での学習に非常に役立ったからです。直前の文で「consistently scored among the top students in my class（クラスのトップ層の成績を継続的に出した）」とあります。正解はC「不合格に終わった1年の勉強が、大学での学習にとって優れた準備になっていた」です。",
+    "steps": [
+      "問題文から「発言の意味」を問われていることを確認します。",
+      "「It was the best preparation I could have had」の「It」が何を指すかを確認します。→ 浪人して勉強した1年間を指します。",
+      "「preparation（準備）」→ 何のための準備か → 新しい大学での学習（入学後すぐトップ層の成績を取った）への準備です。",
+      "選択肢CがThis内容と最も正確に表しています。"
+    ],
+    "common_mistakes": [
+      "「best preparation（最高の準備）」を「最善の勉強法だった」（B）と解釈してしまう。準備の「内容・方法」ではなく「その経験が後の準備になった」という意味",
+      "「I could have had（経験できた中で）」という仮定法過去完了の表現の意味が取れず、意味を取り違える"
+    ],
+    "tips": [
+      "「could have had（経験できた中で）」は「〜できたもののうち」という意味で、最高の（best）を強調しています。",
+      "発言の意味を問う問題では、発言の直前・直後の文脈から「何について・なぜそう言ったか」を必ず確認しましょう。"
+    ]
+  },
+  "nar-024": {
+    "lead": "「本文と一致しないもの（NOT問題）」を選びます。本文では、語り手は試験結果を見た直後に「locked myself in my room and refused to talk to anyone（部屋に閉じこもり、誰とも話さなかった）」とあります。選択肢Dの「試験結果を見た直後から誇りに思い後悔はなかった」は本文と明らかに矛盾しています。正解はD「語り手は試験結果を見た直後から自分の努力を誇りに思い、後悔はなかった」です。",
+    "steps": [
+      "NOT問題（一致しないものを選ぶ）であることを問題文で確認します。",
+      "選択肢A・B・Cが本文と一致するか確認します：A（深く落ち込んだ）→第1段落で確認、B（大学でトップ成績）→第4段落で確認、C（勉強中の判断を振り返った）→第2段落で確認。",
+      "選択肢Dを確認：「試験直後から誇りに思い後悔なし」→第1段落の「locked myself in my room and refused to talk to anyone」と明らかに矛盾します。",
+      "Dが本文と一致しないものと確定します。"
+    ],
+    "common_mistakes": [
+      "NOT問題では「正しいもの」を選んでしまうという読み間違いが最も多いミス。問いの文を最後まで丁寧に読むことが重要",
+      "全選択肢を本文と照合せず、「これが違いそう」という印象だけで答えを決めてしまう"
+    ],
+    "tips": [
+      "NOT問題（一致しないものを選ぶ）では、一致する選択肢を3つ確認してから、残った1つを答えるという手順が安全です。",
+      "一致しない選択肢は「本文に記述がない」か「本文と内容が矛盾する」かのどちらかです。"
+    ]
+  },
+  "nar-025": {
+    "lead": "日記の最終段落に「memory is not a record of the past. It is a story we tell ourselves, shaped by who we were at the time（記憶は過去の記録ではない。それは当時の自分によって形作られた、自分に語る物語だ）」とあります。これが文章全体のメッセージです。正解はA「記憶は過去の正確な記録ではなく、個人的な解釈だ」です。",
+    "steps": [
+      "問題文から「最も伝えたいこと（主旨）」を問われていることを確認します。",
+      "文章全体の流れ：「帰郷→町が変わっていた→自分も変わっていた→記憶の本質に気づく」を整理します。",
+      "最終段落「memory is not a record … it is a story we tell ourselves」が結論です。",
+      "選択肢Aがこのメッセージを正確に言い換えています。BCD（故郷の人間関係・失望体験・町の変化速度）は文章の主旨ではありません。"
+    ],
+    "common_mistakes": [
+      "「bakery → clothing store」「wooden pier → concrete」などの具体的な変化の記述から、Cの「失望した体験」を主旨と思い込む。しかし語り手は失望だけでなく「自分も変わった」という気づきを語っている",
+      "「small coastal town（小さな海沿いの町）」からDの「小さな町は変化が速い」を選ぶが、そのような比較は本文にない"
+    ],
+    "tips": [
+      "書き手の意図を問う問題は、文章全体を通じた一貫したメッセージを選びます。途中の具体的なエピソード（店の変化など）はメッセージを伝えるための「例」にすぎません。",
+      "最終段落の抽象的な主張こそがテーマです。"
+    ]
+  },
+  "nar-026": {
+    "lead": "本文の第2段落に、語り手が帰郷して気づいた具体的な変化が列挙されています：「bakery → clothing store（パン屋が洋服屋に）」「wooden pier → concrete（木の桟橋がコンクリートに）」「air smelled different（空気の匂いが変わった）」。これらの変化がよそ者のように感じさせた原因です。正解はB「離れていた間に町が様々な面で変わっていたから」です。",
+    "steps": [
+      "問題文から「よそ者のように感じた理由」を問われていることを確認します。",
+      "本文の「What I did not expect was to feel like a stranger（よそ者のように感じるとは思っていなかった）」の後に続く説明を読みます。",
+      "第2段落全体が具体的な変化の例として示されています：建物・匂い・雰囲気の変化。",
+      "選択肢BがThis理由を正確に表しています。Aは「記憶を忘れた」とあるが本文は「記憶と現実のギャップ」を語っている。C（知人がいない）・D（大きくなった）は本文と異なります。"
+    ],
+    "common_mistakes": [
+      "「The Harborview I remembered was, in part, a place I had imagined」という記述からAの「ほとんど忘れていた」を選ぶが、「想像が混じっていた」と「忘れた」は異なる",
+      "第2段落の変化の例（建物・匂い）を読み飛ばし、主観的な印象だけで答えてしまう"
+    ],
+    "tips": [
+      "「feel like a stranger（よそ者のように感じる）」の原因は、その直後に続く具体的な変化の描写にあります。因果関係を意識して読みましょう。",
+      "「nostalgic（懐かしい）」「sentimental（感傷的な）」という語は「良い意味での懐かしさ」を表し、「stranger（よそ者）」という感覚とは対比されています。"
+    ]
+  },
+  "nar-027": {
+    "lead": "本文の第3段落に「I realized that I had changed just as much as the town had（自分も町と同じくらい変わっていたと気づいた）」とあります。ケントのコメントをきっかけに、語り手は「町だけでなく自分自身も変化していた」という気づきを得ます。正解はC「語り手自身も、町と同じくらい変わっていた」です。",
+    "steps": [
+      "問題文から「ケントのコメントについて考えた後の気づき」を問われていることを確認します。",
+      "本文の「I nodded. But the more I thought about it, the more I realized that〜（うなずいた。しかし考えれば考えるほど〜と気づいた）」という表現を探します。",
+      "「I had changed just as much as the town had（自分も町と同じくらい変わっていた）」が気づきの内容です。",
+      "選択肢CがThis内容と一致します。Aは本文にない結論、B（ケントへの批判）は本文と逆の解釈、Dは本文にない後悔。"
+    ],
+    "common_mistakes": [
+      "「It must be strange to see how much has changed（どれほど変わったか見て奇妙に思うだろう）」というケントの発言から、語り手が「ケントに共感した」と解釈してBを選んでしまう",
+      "「気づき（realization）」を「ケントへの感情」として読み取ってしまう"
+    ],
+    "tips": [
+      "「the more A, the more B（Aすればするほど、Bになる）」は変化や気づきを強調する表現です。",
+      "「just as much as〜（〜と同じくらい）」は比較を表す表現で、「町の変化＝自分の変化」という対応関係を示しています。"
+    ]
+  },
+  "nar-028": {
+    "lead": "本文の第2段落に「I dropped the half-finished canvas while moving it to a better light. It landed face-first on the floor. When I turned it over, the wet paint had smeared in all directions（より良い光の当たる場所に移動しようとして半完成のキャンバスを落とした。表を下にして床に落ちた。裏返すと、濡れた絵の具があらゆる方向ににじんでいた）」とあります。正解はD「落下して、濡れた絵の具が床についてにじんだ」です。",
+    "steps": [
+      "問題文から「締め切り3日前のキャンバスに何が起きたか」を問われていることを確認します。",
+      "本文の「Three days before the deadline（締め切り3日前）」という記述の後を読みます。",
+      "「dropped（落とした）→ landed face-first（表面を下にして落ちた）→ wet paint smeared（濡れた絵の具がにじんだ）」という流れを整理します。",
+      "選択肢DがThis内容と一致します。A（クラスメートがぶつかった）・B（乾く過程で混ざった）・C（塗り直した）は本文と異なります。"
+    ],
+    "common_mistakes": [
+      "「smeared（にじんだ・伸びた）」の意味が分からず、B「自然に混ざり合った」を選んでしまう",
+      "「moving it to a better light（より良い光の場所に移動しようとして）」という文脈を読み飛ばし、「塗り直した」（C）と誤解する"
+    ],
+    "tips": [
+      "「smear（にじむ・塗り広がる）」は「wet paint（濡れた絵の具）が広がる」という意味です。",
+      "「face-first（表面から先に、うつ伏せに）」は「表側を下にして落ちた」という状況を描写しています。"
+    ]
+  },
+  "nar-029": {
+    "lead": "本文の第3段落に「Then, slowly, I tilted the canvas and looked again. The smeared paint looked almost like a storm over the ocean, dynamic and alive in a way that my careful brushstrokes never were（ゆっくりとキャンバスを傾けてもう一度見た。にじんだ絵の具が嵐の海のように見え、丁寧な筆使いでは出せなかった生き生きとした躍動感があった）」とあります。語り手が制作を続けた理由は「事故が生んだにじみに美と躍動感を見出したから」です。正解はA「偶然できたにじみに美しく躍動感があると感じたから」です。",
+    "steps": [
+      "問題文から「制作を続けることにした理由（決断の動機）」を問われていることを確認します。",
+      "「I decided not to try to restore the original plan（元の計画を復元しようとしないことにした）」の直前の気づきの場面を読みます。",
+      "「The smeared paint looked almost like a storm … dynamic and alive（嵐のようで、生き生きとしている）」が決断の動機です。",
+      "選択肢AがThis動機と一致します。B（時間がない）・C（クラスメートの励まし）・D（先生に却下された）は本文に根拠がありません。"
+    ],
+    "common_mistakes": [
+      "「Three days before the deadline（締め切り3日前）」という記述からBを選んでしまうが、語り手が最初は「devastated（絶望した）」と感じており、時間の問題ではなく「見方の変化」が動機",
+      "「I stood there for a moment, devastated（しばらくそこに立っていた、絶望して）」という記述と「decided not to restore」という決断を別々の出来事として読み取れない"
+    ],
+    "tips": [
+      "登場人物の決断理由は、その決断の直前に書かれた気づきや感情の変化に着目して読みましょう。",
+      "「dynamic and alive（躍動感があり、生き生きとした）」は「静的で計算された筆使い（careful brushstrokes）」との対比で使われています。"
+    ]
+  },
+  "nar-030": {
+    "lead": "最終段落の「The painting I had planned to make was about Mount Fuji. The painting I made was about letting go（計画していた絵は富士山の絵だった。実際に制作した絵は『手放すこと』についての絵だった）」が、このブログのメッセージです。予期せぬ事故を受け入れ、計画を手放したことで、より優れた作品が生まれたことを語っています。正解はB「予期せぬ過程が、最初に計画していたものより意味のある結果をもたらした」です。",
+    "steps": [
+      "問題文から「最終段落で語り手が伝えようとしていること」を問われていることを確認します。",
+      "最終段落の2文の対比構造を整理します：「計画していた絵（富士山）」vs「実際に作った絵（letting go＝手放すこと）」",
+      "文章全体の流れ（計画→事故→変化→より良い結果）を振り返ります。",
+      "選択肢BがThis流れと最終段落のメッセージを最もよく表しています。"
+    ],
+    "common_mistakes": [
+      "「I was going to make something perfect（完璧なものを作るつもりだった）」という記述からAの「計画より才能が重要」を選んでしまうが、文章の結論は「才能」ではなく「手放すこと・偶然を受け入れること」",
+      "「most emotionally expressive piece（最も感情表現豊かな作品）」という先生の評価を見て、コンクール制度（D）への主張があると思い込む"
+    ],
+    "tips": [
+      "最終段落が2文の対比（〜だった vs 〜だった）で構成されている場合、その対比がテーマの核心です。",
+      "「letting go（手放すこと）」という概念は「完璧へのこだわりを手放す」「計画を手放す」という意味を持ちます。文章全体のキーワードです。"
+    ]
+  }
+}

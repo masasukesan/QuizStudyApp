@@ -406,13 +406,6 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/2B/coordinate-geometry/circle-and-line-relations",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/2B/coordinate-geometry/equation-of-a-circle",
     "status": "passed",
     "checked_at": "2026-06-05",
@@ -899,6 +892,34 @@
     "path": "curriculum/math/2B/calculus-basics/increasing-decreasing-and-extrema",
     "status": "passed",
     "checked_at": "2026-06-14",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/coordinate-geometry/circle-and-line-relations",
+    "status": "passed",
+    "checked_at": "2026-06-16",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/text-comprehension/short-text",
+    "status": "passed",
+    "checked_at": "2026-06-17",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/text-comprehension/narrative",
+    "status": "passed",
+    "checked_at": "2026-06-18",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/variables-and-types/variable-declaration",
+    "status": "passed",
+    "checked_at": "2026-06-18",
     "question_count": 30,
     "notes": ""
   }
