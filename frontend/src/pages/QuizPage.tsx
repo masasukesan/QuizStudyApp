@@ -47,6 +47,7 @@ interface ExplanationEntry {
   lead: string
   steps?: string | string[]
   common_mistakes?: string | string[]
+  wrong_answers?: Record<string, string>
   tips?: string | string[]
 }
 type Explanations = Record<string, ExplanationEntry>
@@ -953,9 +954,9 @@ export default function QuizPage() {
               // string/string[] 両形式に対応（データ不整合への防御）
               const toArr = (v?: string | string[]): string[] =>
                 Array.isArray(v) ? v : v ? [v] : []
-              const steps         = toArr(exp.steps)
-              const commonMistakes = toArr(exp.common_mistakes)
-              const tips          = toArr(exp.tips)
+              const steps      = toArr(exp.steps)
+              const tips       = toArr(exp.tips)
+              const wrongAnswers = exp.wrong_answers ?? {}
               return (
                 <div className={styles.expBody}>
                   {/* リード文 */}
@@ -973,15 +974,16 @@ export default function QuizPage() {
                     </div>
                   )}
 
-                  {/* よくある間違い */}
-                  {commonMistakes.length > 0 && (
+                  {/* 選択した誤答の解説（不正解時のみ） */}
+                  {!isCorrect && selected && wrongAnswers[selected] && (
                     <div className={styles.expMistakes}>
-                      <p className={styles.expMistakesLabel}>⚠ よくある間違い</p>
-                      {commonMistakes.map((m, i) => (
-                        <p key={i} className={styles.expMistakeItem}><MathText text={m} /></p>
-                      ))}
+                      <p className={styles.expMistakesLabel}>❌ あなたの選択肢について</p>
+                      <div className={styles.expMistakeItem}>
+                        <span className={styles.expMistakeLabel}>{ROMAN[selected]}</span>
+                        <MathText text={wrongAnswers[selected]} />
+                      </div>
                     </div>
-                      )}
+                  )}
 
                   {/* ポイント */}
                   {tips.length > 0 && (
