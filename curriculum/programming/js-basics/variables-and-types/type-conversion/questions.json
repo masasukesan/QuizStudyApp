@@ -1,0 +1,925 @@
+[
+  {
+    "id": "type-conversion-b01",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "typeof 演算子は何を返しますか？次のうち正しい説明はどれですか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "値のデータ型を表す文字列('number', 'string' など)を返す"
+      },
+      {
+        "label": "B",
+        "text": "値のデータ型を表すブール値(true か false)を返す"
+      },
+      {
+        "label": "C",
+        "text": "値を数値に変換した結果を返す"
+      },
+      {
+        "label": "D",
+        "text": "値が存在するかどうかを表す数値(0 か 1)を返す"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "typeof",
+      "戻り値の型"
+    ]
+  },
+  {
+    "id": "type-conversion-b02",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "typeof 'hello' を実行した結果はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "typeof 'hello' → 値は文字なので 'string' を返す"
+      },
+      {
+        "label": "B",
+        "text": "typeof 'hello' → 値はテキストなので 'text' を返す"
+      },
+      {
+        "label": "C",
+        "text": "typeof 'hello' → 値は文字なので true を返す"
+      },
+      {
+        "label": "D",
+        "text": "typeof 'hello' → 値は文字列オブジェクトなので 'object' を返す"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "typeof",
+      "string"
+    ]
+  },
+  {
+    "id": "type-conversion-b03",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "typeof 42 と typeof 3.14 の結果として正しい組み合わせはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "typeof 42 → 'number'、typeof 3.14 → 'number'(整数も小数も同じ型)"
+      },
+      {
+        "label": "B",
+        "text": "typeof 42 → 'integer'、typeof 3.14 → 'float'(整数と小数で型が異なる)"
+      },
+      {
+        "label": "C",
+        "text": "typeof 42 → 'int'、typeof 3.14 → 'number'(整数は int という型)"
+      },
+      {
+        "label": "D",
+        "text": "typeof 42 → 'number'、typeof 3.14 → 'decimal'(小数は decimal という型)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "typeof",
+      "number型"
+    ]
+  },
+  {
+    "id": "type-conversion-b04",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "typeof undefined の結果はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "typeof undefined → 値が定義されていない型なので 'undefined' を返す"
+      },
+      {
+        "label": "B",
+        "text": "typeof undefined → 値がないので 'null' を返す"
+      },
+      {
+        "label": "C",
+        "text": "typeof undefined → 値がないので 'object' を返す"
+      },
+      {
+        "label": "D",
+        "text": "typeof undefined → エラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "typeof",
+      "undefined"
+    ]
+  },
+  {
+    "id": "type-conversion-b05",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "typeof null の結果はどれですか？(JavaScriptの有名な落とし穴です)",
+    "choices": [
+      {
+        "label": "A",
+        "text": "typeof null → JavaScriptの歴史的な仕様バグにより 'object' を返す"
+      },
+      {
+        "label": "B",
+        "text": "typeof null → null は値がないので 'null' を返す"
+      },
+      {
+        "label": "C",
+        "text": "typeof null → null は空のため 'undefined' を返す"
+      },
+      {
+        "label": "D",
+        "text": "typeof null → null は何もないので 'void' を返す"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "typeof",
+      "null",
+      "落とし穴"
+    ]
+  },
+  {
+    "id": "type-conversion-b06",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "typeof true と typeof false の結果として正しいものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "typeof true → 'boolean'、typeof false → 'boolean'(どちらも同じ型)"
+      },
+      {
+        "label": "B",
+        "text": "typeof true → 'true'、typeof false → 'false'(値そのものが返る)"
+      },
+      {
+        "label": "C",
+        "text": "typeof true → 1、typeof false → 0(数値に変換される)"
+      },
+      {
+        "label": "D",
+        "text": "typeof true → 'boolean'、typeof false → 'undefined'"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "typeof",
+      "boolean"
+    ]
+  },
+  {
+    "id": "type-conversion-b07",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "Number() を使った明示的な型変換で、Number('42') の結果はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Number('42') → 文字列 '42' を数値に変換して 42 になる"
+      },
+      {
+        "label": "B",
+        "text": "Number('42') → 文字列はそのまま変換できないので NaN になる"
+      },
+      {
+        "label": "C",
+        "text": "Number('42') → 文字列のままなので '42' が返る"
+      },
+      {
+        "label": "D",
+        "text": "Number('42') → 文字コードの合計値が返る"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "Number()",
+      "明示的変換"
+    ]
+  },
+  {
+    "id": "type-conversion-b08",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "Boolean() を使ったとき、Boolean(0) と Boolean('') の結果として正しいものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Boolean(0) → false(0はfalsy)、Boolean('') → false(空文字はfalsy)"
+      },
+      {
+        "label": "B",
+        "text": "Boolean(0) → false、Boolean('') → true(空文字は存在するのでtruthy)"
+      },
+      {
+        "label": "C",
+        "text": "Boolean(0) → true(0は数値として存在する)、Boolean('') → false"
+      },
+      {
+        "label": "D",
+        "text": "Boolean(0) → true、Boolean('') → true(どちらも存在する値)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "Boolean()",
+      "falsy",
+      "明示的変換"
+    ]
+  },
+  {
+    "id": "type-conversion-b09",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "if 文で条件を判定するとき、'0'(ゼロという文字列)はどう評価されますか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'0' は空文字ではなく1文字の文字列なので truthy(条件がtrueとして実行される)"
+      },
+      {
+        "label": "B",
+        "text": "'0' は数値の 0 と同じ意味なので falsy(条件がfalseとして実行されない)"
+      },
+      {
+        "label": "C",
+        "text": "'0' はゼロ文字なので 0 と同様に false になる"
+      },
+      {
+        "label": "D",
+        "text": "'0' は文字列なので型エラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "truthy",
+      "falsy",
+      "'0'の落とし穴"
+    ]
+  },
+  {
+    "id": "type-conversion-b10",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "basic",
+    "question": "String() を使って String(123) と String(true) を変換した結果はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "String(123) → '123'(数値が文字列に)、String(true) → 'true'(ブールが文字列に)"
+      },
+      {
+        "label": "B",
+        "text": "String(123) → 123(数値のまま)、String(true) → 1(1に変換される)"
+      },
+      {
+        "label": "C",
+        "text": "String(123) → '123'、String(true) → '1'(trueは1だから)"
+      },
+      {
+        "label": "D",
+        "text": "String(123) → 'number'(型名が返る)、String(true) → 'boolean'"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "String()",
+      "明示的変換"
+    ]
+  },
+  {
+    "id": "type-conversion-s01",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "console.log('1' + 2) を実行すると何が表示されますか？JavaScriptが行う変換の過程として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'1' は文字列 → + 演算子は文字列連結を優先 → '1' + String(2) = '12'"
+      },
+      {
+        "label": "B",
+        "text": "'1' を Number に変換 → 1 + 2 = 3(算術演算)"
+      },
+      {
+        "label": "C",
+        "text": "型が異なるのでエラーになる"
+      },
+      {
+        "label": "D",
+        "text": "'1' と 2 をそれぞれ Boolean に変換して比較"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "+演算子",
+      "文字列連結",
+      "暗黙変換"
+    ]
+  },
+  {
+    "id": "type-conversion-s02",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "console.log(1 + 2 + '3') の結果はどれですか？左から順に評価したときの過程として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "まず 1 + 2 = 3(数値)、次に 3 + '3' → '3' + '3' = '33'(文字列連結)"
+      },
+      {
+        "label": "B",
+        "text": "すべての値を文字列に変換して '1' + '2' + '3' = '123'"
+      },
+      {
+        "label": "C",
+        "text": "まず '3' を数値に変換して 1 + 2 + 3 = 6(算術加算)"
+      },
+      {
+        "label": "D",
+        "text": "右から評価して '3' + (1 + 2) → '3' + 3 → '33'"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "+演算子",
+      "左から評価",
+      "暗黙変換"
+    ]
+  },
+  {
+    "id": "type-conversion-s03",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "console.log('3' - 1) の結果はどれですか？- 演算子の挙動として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "- 演算子は文字列連結しない → '3' を Number に変換 → Number('3') - 1 = 3 - 1 = 2"
+      },
+      {
+        "label": "B",
+        "text": "'3' は文字列なので連結できず、String(1)='1' を引く → '3' - '1' = '2'(文字列)"
+      },
+      {
+        "label": "C",
+        "text": "文字列と数値は - できないので NaN になる"
+      },
+      {
+        "label": "D",
+        "text": "'3' を文字コード(51)に変換して 51 - 1 = 50 になる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "-演算子",
+      "暗黙変換",
+      "文字列→数値"
+    ]
+  },
+  {
+    "id": "type-conversion-s04",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "console.log(null + 1) の結果はどれですか？null の数値変換として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "null を Number に変換 → Number(null) = 0 → 0 + 1 = 1"
+      },
+      {
+        "label": "B",
+        "text": "null は値がないので Number(null) = NaN → NaN + 1 = NaN"
+      },
+      {
+        "label": "C",
+        "text": "null は文字列に変換 → 'null' + 1 → 'null1'(文字列連結)"
+      },
+      {
+        "label": "D",
+        "text": "null + 1 はエラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "null",
+      "Number変換",
+      "暗黙変換"
+    ]
+  },
+  {
+    "id": "type-conversion-s05",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "console.log(undefined + 1) の結果はどれですか？undefined の数値変換として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined を Number に変換 → Number(undefined) = NaN → NaN + 1 = NaN"
+      },
+      {
+        "label": "B",
+        "text": "undefined は値がないので Number(undefined) = 0 → 0 + 1 = 1"
+      },
+      {
+        "label": "C",
+        "text": "undefined は文字列に変換 → 'undefined' + '1' = 'undefined1'"
+      },
+      {
+        "label": "D",
+        "text": "undefined + 1 はエラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "undefined",
+      "NaN",
+      "暗黙変換"
+    ]
+  },
+  {
+    "id": "type-conversion-s06",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "null == undefined の結果はどれですか？== 演算子の変換ルールとして正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "==のルールにより null と undefined は互いにのみ等しい(特別扱い)→ true"
+      },
+      {
+        "label": "B",
+        "text": "null は Number に変換すると 0、undefined は NaN → 0 == NaN → false"
+      },
+      {
+        "label": "C",
+        "text": "typeof null は 'object'、typeof undefined は 'undefined' → 型が違うので === と同じく false になる"
+      },
+      {
+        "label": "D",
+        "text": "どちらも falsy なので true(falsyどうしは等しい)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "==",
+      "null",
+      "undefined",
+      "抽象的等価"
+    ]
+  },
+  {
+    "id": "type-conversion-s07",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "null == 0 の結果はどれですか？null の == 比較として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "null は null/undefined とのみ == で等しく、0 とは等しくない → false"
+      },
+      {
+        "label": "B",
+        "text": "Number(null) = 0 → 0 == 0 → true(数値変換してから比較)"
+      },
+      {
+        "label": "C",
+        "text": "null は falsy、0 は falsy → falsyどうしは等しい → true"
+      },
+      {
+        "label": "D",
+        "text": "null は数値に変換できないので NaN → NaN == 0 → false(理由は正しいが別の理由)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "==",
+      "null",
+      "型変換なし"
+    ]
+  },
+  {
+    "id": "type-conversion-s08",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "NaN === NaN と NaN == NaN はそれぞれどちらの結果になりますか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "NaN === NaN → false、NaN == NaN → false(NaN はどんな値とも等しくない。自分自身ともです)"
+      },
+      {
+        "label": "B",
+        "text": "NaN === NaN → true(同じ型・値だから)、NaN == NaN → true"
+      },
+      {
+        "label": "C",
+        "text": "NaN === NaN → false(型が異なるから)、NaN == NaN → true(値として等しいから)"
+      },
+      {
+        "label": "D",
+        "text": "NaN === NaN → true、NaN == NaN → false(=== は厳密に同一だから)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "NaN",
+      "===",
+      "=="
+    ]
+  },
+  {
+    "id": "type-conversion-s09",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "Number('') と parseInt('') の結果の違いはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Number('') → 空文字を数値に変換すると 0、parseInt('') → 数字が見つからないので NaN"
+      },
+      {
+        "label": "B",
+        "text": "Number('') → NaN(文字列は変換できない)、parseInt('') → 0(空文字は0に変換)"
+      },
+      {
+        "label": "C",
+        "text": "Number('') → 0、parseInt('') → 0 (異なる関数だが空文字への結果は一致する)"
+      },
+      {
+        "label": "D",
+        "text": "Number('') → NaN、parseInt('') → NaN (どちらも変換失敗でNaNになる)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "Number()",
+      "parseInt()",
+      "空文字"
+    ]
+  },
+  {
+    "id": "type-conversion-s10",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "standard",
+    "question": "parseInt('12px') の結果はどれですか？parseInt の動作として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "parseInt は先頭から数字を読んで、数字でない文字が来たら停止 → 12 を返す"
+      },
+      {
+        "label": "B",
+        "text": "文字列に数字以外が含まれるので NaN を返す"
+      },
+      {
+        "label": "C",
+        "text": "数字部分の '12' を文字列として返す('12')"
+      },
+      {
+        "label": "D",
+        "text": "px を除去した後に変換するので 12.0(小数点付き)を返す"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "parseInt",
+      "先頭から読む"
+    ]
+  },
+  {
+    "id": "type-conversion-e01",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "'1' == true の評価結果はどれですか？== 演算子の変換手順として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "true を Number に変換 → Number(true) = 1、次に '1' を Number に変換 → Number('1') = 1、1 == 1 → true"
+      },
+      {
+        "label": "B",
+        "text": "true を String に変換 → 'true'、'1' == 'true' → false"
+      },
+      {
+        "label": "C",
+        "text": "どちらも Boolean に変換 → true == true → true(理由が異なる)"
+      },
+      {
+        "label": "D",
+        "text": "型が一致しないので比較できず、エラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "==",
+      "Boolean→Number変換",
+      "型強制の順序"
+    ]
+  },
+  {
+    "id": "type-conversion-e02",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "JSON.stringify({ a: undefined, b: 2 }) の結果はどれですか？JSON変換の仕様として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined は JSON で表現できないためプロパティごと除外 → '{\"b\":2}'"
+      },
+      {
+        "label": "B",
+        "text": "undefined は null に変換 → '{\"a\":null,\"b\":2}'"
+      },
+      {
+        "label": "C",
+        "text": "undefined は文字列 'undefined' に変換 → '{\"a\":\"undefined\",\"b\":2}'"
+      },
+      {
+        "label": "D",
+        "text": "undefined を含むオブジェクトはシリアライズできないのでエラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "JSON.stringify",
+      "undefined除外"
+    ]
+  },
+  {
+    "id": "type-conversion-e03",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "JSON.stringify(NaN) の結果はどれですか？NaN の JSON シリアライズとして正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "NaN は JSON 仕様では数値として表せないので null に変換 → 文字列 'null'"
+      },
+      {
+        "label": "B",
+        "text": "NaN はそのまま 'NaN' という文字列になる"
+      },
+      {
+        "label": "C",
+        "text": "NaN はシリアライズできないのでエラーになる"
+      },
+      {
+        "label": "D",
+        "text": "NaN は undefined 扱いなので何も出力されない"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "JSON.stringify",
+      "NaN→null"
+    ]
+  },
+  {
+    "id": "type-conversion-e04",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "テンプレートリテラル `${null}` の結果はどれですか？テンプレートリテラルの変換として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "テンプレートリテラルは ${}内を String() に変換 → String(null) = 'null' → 文字列 'null'"
+      },
+      {
+        "label": "B",
+        "text": "null は値がないので空文字 '' になる"
+      },
+      {
+        "label": "C",
+        "text": "null を文字列化すると 'undefined' になる"
+      },
+      {
+        "label": "D",
+        "text": "null はテンプレートリテラルに埋め込めないのでエラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "テンプレートリテラル",
+      "String変換",
+      "null"
+    ]
+  },
+  {
+    "id": "type-conversion-e05",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "テンプレートリテラル `${[1, 2, 3]}` の結果はどれですか？配列の文字列変換として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "配列は String() → Array.prototype.toString() → 要素をカンマで連結 → '1,2,3'"
+      },
+      {
+        "label": "B",
+        "text": "配列は JSON に変換されるので '[1,2,3]'(角括弧あり)になる"
+      },
+      {
+        "label": "C",
+        "text": "配列は '[object Array]' になる"
+      },
+      {
+        "label": "D",
+        "text": "配列はプリミティブでないのでエラーになる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "テンプレートリテラル",
+      "配列→文字列",
+      "toString"
+    ]
+  },
+  {
+    "id": "type-conversion-e06",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "テンプレートリテラル `${{}}` の結果はどれですか？オブジェクトの文字列変換として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "オブジェクトは String() → Object.prototype.toString() → '[object Object]'"
+      },
+      {
+        "label": "B",
+        "text": "空のオブジェクトは '{}' になる(JSON.stringify と同じ)"
+      },
+      {
+        "label": "C",
+        "text": "オブジェクトは '[object]' になる"
+      },
+      {
+        "label": "D",
+        "text": "オブジェクトはプリミティブでないので NaN になる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "テンプレートリテラル",
+      "オブジェクト→文字列",
+      "toString"
+    ]
+  },
+  {
+    "id": "type-conversion-e07",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "parseInt('0x1F') の結果はどれですか？parseInt の基数判定として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'0x' プレフィックスを 16 進数と認識 → 1×16 + 15 = 31 を返す"
+      },
+      {
+        "label": "B",
+        "text": "'0x' は数字以外なので停止し、0 を返す"
+      },
+      {
+        "label": "C",
+        "text": "16 進数は parseInt では扱えないので NaN を返す"
+      },
+      {
+        "label": "D",
+        "text": "'0' の部分だけ読んで 0 を返す"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "parseInt",
+      "16進数",
+      "0xプレフィックス"
+    ]
+  },
+  {
+    "id": "type-conversion-e08",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "typeof [] の結果はどれですか？配列に対する typeof の動作として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "配列はオブジェクトの一種 → typeof [] は 'array' ではなく 'object' を返す"
+      },
+      {
+        "label": "B",
+        "text": "配列専用の型があるので 'array' を返す"
+      },
+      {
+        "label": "C",
+        "text": "配列はオブジェクトではないので 'undefined' を返す"
+      },
+      {
+        "label": "D",
+        "text": "配列の中身が数値なら 'number'、文字列なら 'string' を返す"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "typeof",
+      "配列",
+      "object"
+    ]
+  },
+  {
+    "id": "type-conversion-e09",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "!!'0' の結果はどれですか？二重否定と truthy/falsy の判定として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'0' は空文字でない文字列 → truthy → !'0' = false → !false = true"
+      },
+      {
+        "label": "B",
+        "text": "'0' は数値 0 と同じ意味なので falsy → !'0' = true → !true = false"
+      },
+      {
+        "label": "C",
+        "text": "'0' を先に数値変換すると 0 になり、!!(0) → !(true) → false"
+      },
+      {
+        "label": "D",
+        "text": "'0' は undefined に近い値なので、!!undefined = false"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "truthy",
+      "falsy",
+      "!!",
+      "'0'"
+    ]
+  },
+  {
+    "id": "type-conversion-e10",
+    "subject": "programming",
+    "unit": "型変換と型確認",
+    "difficulty": "exam",
+    "question": "console.log('2' * '3' + 4 + '5') の結果はどれですか？演算子の優先順位と型変換の過程として正しいものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'2' * '3' → 数値変換して 2 × 3 = 6、次に 6 + 4 = 10、次に 10 + '5' → '10' + '5' = '105'"
+      },
+      {
+        "label": "B",
+        "text": "すべて文字列連結して '2' + '3' + '4' + '5' = '2345'"
+      },
+      {
+        "label": "C",
+        "text": "'2' * '3' → 6、残りを文字列連結して '6' + '4' + '5' = '645'"
+      },
+      {
+        "label": "D",
+        "text": "文字列どうしは掛け算できないので NaN、NaN + 4 = NaN、NaN + '5' = 'NaN5'"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "演算子優先順位",
+      "*演算子",
+      "+演算子",
+      "型変換の連鎖"
+    ]
+  }
+]

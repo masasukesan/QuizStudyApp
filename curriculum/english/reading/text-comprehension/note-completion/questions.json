@@ -1,0 +1,932 @@
+[
+  {
+    "id": "nc-001",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nTom Hendricks opened his small bakery on the main street in 2018. He learned the art of bread-making from his grandfather, who had been a professional baker for over 40 years. Every morning, Tom wakes up at 4 AM to begin baking so that fresh bread is ready for customers when the shop opens at 7 AM.\n---\n\n【ベーカリーについてのメモ】\n・開業年: 【　　　】\n・特徴: 毎朝早起きして新鮮なパンを焼く\n・技術の習得先: 祖父\n\nメモの【　　　】に入る適切な内容を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2018年"
+      },
+      {
+        "label": "B",
+        "text": "2015年"
+      },
+      {
+        "label": "C",
+        "text": "2020年"
+      },
+      {
+        "label": "D",
+        "text": "2010年"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "スキャニング",
+      "数字の照合",
+      "メモの項目確認"
+    ]
+  },
+  {
+    "id": "nc-002",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次のお知らせを読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nAll students and staff are invited to the annual Sports Festival, which will take place on October 15th. In case of rain, the event will be moved to October 22nd. The festival will be held on the school's main athletic field.\n---\n\n【体育祭のお知らせメモ】\n・開催予定日: 【　　　】\n・雨天予備日: 10月22日\n・場所: 校内メイングラウンド\n\nメモの【　　　】に入る日付を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10月22日"
+      },
+      {
+        "label": "B",
+        "text": "10月15日"
+      },
+      {
+        "label": "C",
+        "text": "10月8日"
+      },
+      {
+        "label": "D",
+        "text": "11月1日"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "スキャニング",
+      "日付の照合",
+      "予定日と予備日の区別"
+    ]
+  },
+  {
+    "id": "nc-003",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nSunflowers are one of the most cheerful flowers in any garden. They are native to North America and are known for turning their faces toward the sun. The most commonly grown garden variety takes about 80 days from seed to full bloom, though some fast-growing varieties can bloom in 70 days, while giant varieties may take 100 days or more.\n---\n\n【ヒマワリについてのメモ】\n・原産地: 北アメリカ\n・よく育てられる品種の開花までの日数: 【　　　】\n・特徴: 太陽の方向を向いて育つ\n\nメモの【　　　】に入る内容を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "約100日"
+      },
+      {
+        "label": "B",
+        "text": "約70日"
+      },
+      {
+        "label": "C",
+        "text": "約80日"
+      },
+      {
+        "label": "D",
+        "text": "約90日"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "品種の区別",
+      "most commonly の意味",
+      "数字の照合"
+    ]
+  },
+  {
+    "id": "nc-004",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nMiso soup is a traditional Japanese dish enjoyed by millions of people every day. The main ingredient is miso, a paste made from fermented soybeans. It is typically combined with tofu, seaweed, and a light broth. Miso soup takes only about 10 minutes to prepare and is considered a healthy and nutritious meal starter.\n---\n\n【味噌汁レシピのメモ】\n・主な食材: 【　　　】・豆腐・わかめ\n・調理時間: 約10分\n・特徴: 健康的で栄養豊富\n\nメモの【　　　】に入る内容を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "だし"
+      },
+      {
+        "label": "B",
+        "text": "豆腐"
+      },
+      {
+        "label": "C",
+        "text": "わかめ"
+      },
+      {
+        "label": "D",
+        "text": "味噌"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "main ingredient の読み取り",
+      "列挙の読み取り",
+      "メモ項目との照合"
+    ]
+  },
+  {
+    "id": "nc-005",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nLast spring, I went on a ten-day trip through western Japan. I started my journey in Kyoto, where I explored temples and traditional tea houses. Next, I traveled south to Osaka and enjoyed the vibrant food scene there. In my final two days, I headed to Nara to see the famous deer park and ancient shrines.\n---\n\n【旅行日程のメモ】\n・1番目に訪れた場所: 京都\n・2番目に訪れた場所: 【　　　】\n・最後に訪れた場所: 奈良\n\nメモの【　　　】に入る場所を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "京都"
+      },
+      {
+        "label": "B",
+        "text": "大阪"
+      },
+      {
+        "label": "C",
+        "text": "奈良"
+      },
+      {
+        "label": "D",
+        "text": "東京"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "順序の読み取り",
+      "next の意味",
+      "訪問地の照合"
+    ]
+  },
+  {
+    "id": "nc-006",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nThe chess club welcomed several new members this year, bringing our total to 24 players — that is 6 more than last year. We hold practice sessions twice a week, on Tuesdays and Thursdays. This year's goal is to place in the regional tournament in spring.\n---\n\n【チェス部活動報告のメモ】\n・今年の部員数: 【　　　】\n・昨年比: 6名増\n・主な活動: 週2回の練習（火・木）\n\nメモの【　　　】に入る人数を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "18名"
+      },
+      {
+        "label": "B",
+        "text": "30名"
+      },
+      {
+        "label": "C",
+        "text": "24名"
+      },
+      {
+        "label": "D",
+        "text": "20名"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "total の読み取り",
+      "数値の照合",
+      "増減の計算との混同に注意"
+    ]
+  },
+  {
+    "id": "nc-007",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次のお知らせを読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nThe Greenfield City Library is pleased to announce its new opening schedule. Starting next month, the library will be open Monday through Saturday, from 9 AM to 7 PM. The library will remain closed on Sundays and all national holidays. The library is located next to city hall.\n---\n\n【市立図書館のお知らせメモ】\n・開館時間: 【　　　】\n・休館日: 日曜日・祝日\n・場所: 市役所の隣\n\nメモの【　　　】に入る内容を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "月曜〜土曜 午前9時〜午後7時"
+      },
+      {
+        "label": "B",
+        "text": "毎日 午前9時〜午後5時"
+      },
+      {
+        "label": "C",
+        "text": "月曜〜金曜 午前10時〜午後7時"
+      },
+      {
+        "label": "D",
+        "text": "月曜〜土曜 午前10時〜午後7時"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "開館曜日の読み取り",
+      "開館時間の照合",
+      "複数情報の組み合わせ"
+    ]
+  },
+  {
+    "id": "nc-008",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nDolphins are highly social animals that have developed sophisticated ways of communicating with each other. Scientists have discovered that dolphins use a combination of clicks, whistles, and body movements to send messages. One of the most remarkable findings is that each individual dolphin has its own unique whistle — a kind of personal name — that it uses to identify itself to the group.\n---\n\n【イルカについてのメモ】\n・コミュニケーション方法: クリック音・口笛・体の動き\n・最も注目される特徴: 【　　　】\n・研究者: 科学者が調査中\n\nメモの【　　　】に入る内容を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "仲間に食べ物の場所を知らせる声を出す"
+      },
+      {
+        "label": "B",
+        "text": "人間の言語を真似することができる"
+      },
+      {
+        "label": "C",
+        "text": "群れのリーダーが指示を出す声がある"
+      },
+      {
+        "label": "D",
+        "text": "個体ごとに固有の口笛で自分を識別する"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "most remarkable の読み取り",
+      "固有名詞的な口笛",
+      "本文と照合"
+    ]
+  },
+  {
+    "id": "nc-009",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nThe old stone castle overlooking the valley was originally built in 1450 by the local lord, who wanted to defend his land from neighboring rivals. Over the centuries, the castle fell into disrepair. It was renovated for the first time in 1780, and again in 2003 as part of a government heritage preservation project.\n---\n\n【城についてのメモ】\n・建設年: 【　　　】\n・改修年: 1780年・2003年\n・建設者: 地元の領主\n\nメモの【　　　】に入る年を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1450年"
+      },
+      {
+        "label": "B",
+        "text": "1780年"
+      },
+      {
+        "label": "C",
+        "text": "2003年"
+      },
+      {
+        "label": "D",
+        "text": "1500年"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "originally built の読み取り",
+      "建設年と改修年の区別",
+      "年号の照合"
+    ]
+  },
+  {
+    "id": "nc-010",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nI bought a standing desk six months ago hoping to improve my posture and overall health. While I was not sure about it at first, I was pleasantly surprised when my long-standing back pain began to ease after just two weeks of use. I now alternate between sitting and standing throughout the day and feel much more energetic.\n---\n\n【スタンディングデスクのレビューメモ】\n・購入理由: 姿勢と健康の改善\n・主な効果: 【　　　】\n・変化を実感した時期: 使用開始から2週間後\n\nメモの【　　　】に入る内容を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "集中力が向上した"
+      },
+      {
+        "label": "B",
+        "text": "腰痛が和らいだ"
+      },
+      {
+        "label": "C",
+        "text": "睡眠の質が改善した"
+      },
+      {
+        "label": "D",
+        "text": "体重が減った"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "back pain の読み取り",
+      "ease の意味",
+      "主な効果との照合"
+    ]
+  },
+  {
+    "id": "nc-011",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、まとめメモの空欄に入る適切な内容を選びなさい。\n\n---\nMillbrook City launched a new recycling program in April 2022. Under the program, residents are asked to separate their waste into three categories: paper, plastic, and glass. City officials report that the first year was a great success. Surveys showed that more than 60% of households in the city participated actively in the program, making it one of the highest participation rates for any city initiative in recent years.\n---\n\n【リサイクルプログラムのまとめメモ】\n・開始時期: 2022年4月\n・収集対象: 紙・プラスチック・ガラス\n・初年度の参加率: 【　　　】\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "約40%の家庭"
+      },
+      {
+        "label": "B",
+        "text": "約80%の家庭"
+      },
+      {
+        "label": "C",
+        "text": "60%を超える家庭"
+      },
+      {
+        "label": "D",
+        "text": "全家庭の半数以下"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "more than の読み取り",
+      "割合の正確な照合",
+      "over 60% の言い換え"
+    ]
+  },
+  {
+    "id": "nc-012",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、お知らせメモの空欄に入る適切な内容を選びなさい。\n\n---\nThe Maplewood Summer Festival will take place on July 20th at Greenfield Park. This year's festival is extra special because it marks the town's 100th anniversary. Organizers plan a full day of music, food stalls, and traditional dances. A portion of the proceeds from entry fees will be donated to the local elementary school's library renovation fund.\n---\n\n【夏まつりのお知らせメモ】\n・開催日: 7月20日\n・場所: グリーンフィールド公園\n・今年の目的: 【　　　】\n\nメモの【　　　】に入る内容を本文全体から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "市の創立100周年記念と地元小学校の図書館改修への寄付"
+      },
+      {
+        "label": "B",
+        "text": "近隣の公園整備のための募金活動"
+      },
+      {
+        "label": "C",
+        "text": "夏の観光客を集めるための地域PR"
+      },
+      {
+        "label": "D",
+        "text": "伝統文化の継承と市民の交流促進"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "複数段落の統合",
+      "100th anniversary の読み取り",
+      "proceeds の意味"
+    ]
+  },
+  {
+    "id": "nc-013",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、プロフィールメモの空欄に入る適切な内容を選びなさい。\n\n---\nLeo Tanaka showed an unusual interest in engineering from a young age. By the time he was 12, he had already taken apart and reassembled several old appliances. At 16, he entered his school's annual science fair with a device he designed himself: a compact water purification system that could turn contaminated water into clean drinking water. His invention won first prize at the fair and later caught the attention of several local environmental groups.\n---\n\n【若き発明家レオのプロフィールメモ】\n・エンジニアリングへの興味: 幼い頃から\n・12歳の時の活動: 古い電化製品の分解・組み立て\n・科学展での出品作品: 【　　　】\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "太陽光発電パネル"
+      },
+      {
+        "label": "B",
+        "text": "生分解性プラスチック製品"
+      },
+      {
+        "label": "C",
+        "text": "コンパクトな空気清浄機"
+      },
+      {
+        "label": "D",
+        "text": "小型の水質浄化装置"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "water purification の意味",
+      "compact の読み取り",
+      "16歳時の出品物との照合"
+    ]
+  },
+  {
+    "id": "nc-014",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、まとめメモの空欄に入る適切な内容を選びなさい。\n\n---\nThree years ago, Ms. Yamada, the school's science teacher, had an idea: what if students could grow their own food right on the school grounds? She started the school garden project with just a small patch of land and a group of enthusiastic students. Over the years, the students planted and harvested tomatoes, cucumbers, and various herbs. The vegetables were then used in the school cafeteria to prepare lunches.\n---\n\n【学校菜園プロジェクトまとめメモ】\n・プロジェクトを始めた人: 【　　　】\n・育てた作物: トマト・きゅうり・ハーブ類\n・収穫物の使い道: 学校食堂での昼食\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "生徒会の代表"
+      },
+      {
+        "label": "B",
+        "text": "理科担当のヤマダ先生"
+      },
+      {
+        "label": "C",
+        "text": "校長先生"
+      },
+      {
+        "label": "D",
+        "text": "地元の農家"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "Ms. Yamada の役割の読み取り",
+      "science teacher の日本語対応",
+      "She started の照合"
+    ]
+  },
+  {
+    "id": "nc-015",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、まとめメモの空欄に入る適切な内容を選びなさい。\n\n---\nUrban farming refers to the practice of growing food within city limits — on rooftops, in community gardens, and in unused lots. As cities grow larger, this idea is gaining popularity around the world. One of the key advantages of urban farming is that it reduces the need to transport food over long distances, which cuts transportation costs significantly. Additionally, city residents benefit from having access to fresher vegetables that have not spent days in transit.\n---\n\n【都市農業についてのまとめメモ】\n・概要: 都市内で食料を生産する取り組み\n・主なメリット: 【　　　】\n・対象者: 都市住民\n\nメモの【　　　】に入る内容を本文全体から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "農業体験ができる学習機会の提供"
+      },
+      {
+        "label": "B",
+        "text": "農業雇用の増加による経済支援"
+      },
+      {
+        "label": "C",
+        "text": "輸送コストの削減と新鮮な野菜の提供"
+      },
+      {
+        "label": "D",
+        "text": "緑地の創出による環境教育の促進"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "複数のメリットの統合",
+      "transportation costs の読み取り",
+      "fresher の意味"
+    ]
+  },
+  {
+    "id": "nc-016",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nSepak Takraw is a traditional sport widely played in Southeast Asia, especially in countries like Thailand, Malaysia, and Indonesia. The game uses a small ball made of woven rattan — a type of natural plant material — which gives it a distinctive look and feel. Players must keep the ball in the air and send it over a net, but they are only allowed to use their feet, knees, chest, and head. Using the hands is strictly against the rules.\n---\n\n【セパタクロー（スポーツ）についてのメモ】\n・使用する用具: 【　　　】\n・人気地域: 東南アジア（タイ・マレーシア・インドネシアなど）\n・重要なルール: 手を使ってはいけない\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "籐(とう)で編んだ小さなボール"
+      },
+      {
+        "label": "B",
+        "text": "革製の小さなボール"
+      },
+      {
+        "label": "C",
+        "text": "ゴム製のボール"
+      },
+      {
+        "label": "D",
+        "text": "プラスチック製の軽量ボール"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "woven rattan の意味",
+      "material の特定",
+      "本文の素材描写との照合"
+    ]
+  },
+  {
+    "id": "nc-017",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次のお知らせを読んで、メモの空欄に入る適切な内容を選びなさい。\n\n---\nStarting next Monday, City Bus Route 7 will begin operating between Downtown Station and the Riverside Shopping Center, with a stop at Central Hospital along the way. On weekdays, buses will run every 15 minutes from 6 AM to 10 PM. On weekends and public holidays, the service will run every 30 minutes. Residents are encouraged to use the new route to reduce downtown traffic.\n---\n\n【新バス路線(7番)運行情報メモ】\n・主な停留所: ダウンタウン駅・中央病院・リバーサイドショッピングセンター\n・平日の運行間隔: 【　　　】\n・休日・祝日の運行間隔: 30分に1本\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10分に1本"
+      },
+      {
+        "label": "B",
+        "text": "20分に1本"
+      },
+      {
+        "label": "C",
+        "text": "25分に1本"
+      },
+      {
+        "label": "D",
+        "text": "15分に1本"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "平日と休日の区別",
+      "every 15 minutes の読み取り",
+      "on weekdays の照合"
+    ]
+  },
+  {
+    "id": "nc-018",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、まとめメモの空欄に入る適切な内容を選びなさい。\n\n---\nThe Hillside Farmers' Market opens every Saturday morning at 8 AM in the town square. The market is popular year-round, though the products change with the seasons. During the summer months, vendors mainly sell fresh fruits and vegetables picked just days before the market. As the weather turns colder in winter, the offerings shift toward preserved goods such as homemade jams, fruit preserves, and pickled vegetables.\n---\n\n【ヒルサイド・ファーマーズマーケットまとめメモ】\n・開催日時: 毎週土曜 午前8時〜\n・夏の主な商品: 新鮮な果物と野菜\n・冬の主な商品: 【　　　】\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "肉類と魚介類"
+      },
+      {
+        "label": "B",
+        "text": "手作りジャムや漬物などの保存食"
+      },
+      {
+        "label": "C",
+        "text": "花や観葉植物"
+      },
+      {
+        "label": "D",
+        "text": "手作りパンやケーキ"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "preserved goods の意味",
+      "季節ごとの商品の対比",
+      "jams・pickled の日本語対応"
+    ]
+  },
+  {
+    "id": "nc-019",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、まとめメモの空欄に入る適切な内容を選びなさい。\n\n---\nLearning a new language does not have to be overwhelming. There are three key habits that can make a big difference. First, try to listen to native speakers every day, even for just 15 minutes. Second, keep a vocabulary notebook and review it regularly. Third, speak with a language partner as often as you can. Most importantly, the writer stresses that consistency matters far more than the total number of hours spent in any single study session.\n---\n\n【語学習得のアドバイスまとめメモ】\n【3つのステップ】\n1. ネイティブの話を毎日聞く\n2. 単語ノートをつけて定期的に復習する\n3. パートナーと話す練習をする\n\n・筆者が最も強調すること: 【　　　】\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1回の学習時間をできるだけ長くすること"
+      },
+      {
+        "label": "B",
+        "text": "ネイティブスピーカーと友達になること"
+      },
+      {
+        "label": "C",
+        "text": "学習時間の長さより継続することが大切"
+      },
+      {
+        "label": "D",
+        "text": "覚える単語数を増やすこと"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "Most importantly の位置の確認",
+      "consistency の意味",
+      "matters more than の読み取り"
+    ]
+  },
+  {
+    "id": "nc-020",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、まとめメモの空欄に入る適切な内容を選びなさい。\n\n---\nA neighborhood cleanup project began after local residents started noticing a steady increase in litter near the community park. Concerned about the environment and the safety of children who played there, a group of neighbors decided to take action. Every Sunday morning, around 30 volunteers gather in the park to pick up trash. Since the project started, the amount of litter has decreased by nearly half.\n---\n\n【地域清掃プロジェクトまとめメモ】\n・始まったきっかけ: 【　　　】\n・活動日時: 毎週日曜日の朝\n・成果: ゴミの量がほぼ半減\n\nメモの【　　　】に入る内容を本文から読み取って選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "公園周辺のゴミが増えていることへの住民の問題意識"
+      },
+      {
+        "label": "B",
+        "text": "市役所から清掃活動の要請があったこと"
+      },
+      {
+        "label": "C",
+        "text": "子どもたちが学校で環境教育を受けたこと"
+      },
+      {
+        "label": "D",
+        "text": "地元企業からの寄付申し出があったこと"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "began after の読み取り",
+      "きっかけの特定",
+      "concern about の意味"
+    ]
+  },
+  {
+    "id": "nc-021",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、ポスターのタイトルとして最も適切なものを選びなさい。\n\n---\nIn today's world, students use digital devices for everything from studying to socializing. However, many young people lack the skills to evaluate whether the information they read online is reliable. A recent survey found that most high school students could not distinguish between reliable news articles and fabricated ones. As misinformation spreads rapidly through social media platforms, the risk of young people being misled is growing. Educational experts argue that schools must go beyond teaching students how to use digital devices and instead focus on helping them develop critical thinking skills for evaluating online content.\n---\n\n【ポスターの構成メモ】\nタイトル: 【　　　】\n・デジタル機器の使い方を知るだけでは不十分\n・オンライン情報を批判的に評価する力が必要\n・学校教育での取り組みが鍵\n\nポスターのタイトル【　　　】として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "デジタル機器の安全な使い方"
+      },
+      {
+        "label": "B",
+        "text": "SNSがもたらす情報格差の現状"
+      },
+      {
+        "label": "C",
+        "text": "インターネットと若者の健康問題"
+      },
+      {
+        "label": "D",
+        "text": "情報を見極める力を育てよう"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "文章全体のテーマの把握",
+      "critical thinking の日本語対応",
+      "タイトルの適切な抽象度"
+    ]
+  },
+  {
+    "id": "nc-022",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、ポスターのキャッチコピーとして最も適切なものを選びなさい。\n\n---\nAccording to the United Nations, approximately one-third of all food produced globally is wasted every year. While large-scale changes in industry are needed, individuals can also make a meaningful difference. Simple daily habits — such as planning meals before shopping, buying only what is needed, and creatively using leftovers — can significantly reduce the amount of food thrown away in a household. The article emphasizes that even small, consistent actions by individual consumers can add up to a major positive impact on the environment.\n---\n\n【食品ロス削減ポスターの構成メモ】\nキャッチコピー: 【　　　】\n・1人の小さな行動が大きな環境変化を生む\n・まず食事の計画と残り物の活用から始めよう\n\nキャッチコピー【　　　】として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "食品業界が変われば世界が変わる"
+      },
+      {
+        "label": "B",
+        "text": "あなたの一歩が、地球の未来を変える"
+      },
+      {
+        "label": "C",
+        "text": "食べ残しをゼロにする法律を今すぐ作ろう"
+      },
+      {
+        "label": "D",
+        "text": "国連と企業が連携して食品ロスをなくそう"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "個人の行動への強調",
+      "add up to の意味",
+      "キャッチコピーの特性（簡潔・行動喚起）"
+    ]
+  },
+  {
+    "id": "nc-023",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、要約メモの空欄に入る筆者の主張として最も適切なものを選びなさい。\n\n---\nResearch consistently shows that people who engage in regular volunteer work report significantly higher levels of personal happiness than those who do not. The act of helping others creates a sense of purpose and meaning that is difficult to find elsewhere. Volunteering also builds strong social connections, as volunteers often form lasting friendships with fellow volunteers and the people they assist. Based on these findings, the author concludes that while volunteering is clearly beneficial to the communities being served, the people doing the helping also gain enormously from the experience.\n---\n\n【ボランティアに関する要約メモ】\n・根拠1: ボランティアは幸福感を高める\n・根拠2: 生きがいと社会的なつながりを生む\n・筆者の主張: 【　　　】\n\nメモの【　　　】に入る筆者の主張として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "他者を助けることは、助ける人自身にも大きな恩恵をもたらす"
+      },
+      {
+        "label": "B",
+        "text": "ボランティアは学校教育で義務化すべき社会的責任だ"
+      },
+      {
+        "label": "C",
+        "text": "幸福感を高めるには趣味よりもボランティアが効果的だ"
+      },
+      {
+        "label": "D",
+        "text": "コミュニティへの貢献こそが人生の最大の目的だ"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "concludes の位置の確認",
+      "both sides に言及する文章構造",
+      "also gain の読み取り"
+    ]
+  },
+  {
+    "id": "nc-024",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、要約メモの空欄に入る研究者の結論として最も適切なものを選びなさい。\n\n---\nA major study published last year found that adults need between 7 and 9 hours of sleep per night to function at their best. The research also showed that people who consistently sleep less than 6 hours per night have a significantly higher risk of developing heart disease, obesity, and depression. The researchers concluded that of all the lifestyle changes a person can make to protect their health, improving sleep quality and maintaining a consistent sleep schedule is among the most powerful and accessible strategies available.\n---\n\n【睡眠研究の要約メモ】\n・推奨睡眠時間: 1日7〜9時間\n・睡眠不足（6時間未満）のリスク: 心臓病・肥満・うつ病\n・研究者の結論: 【　　　】\n\nメモの【　　　】に入る内容として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "薬を活用した睡眠時間の確保が最善の方法だ"
+      },
+      {
+        "label": "B",
+        "text": "睡眠には個人差があるため推奨時間は一概に言えない"
+      },
+      {
+        "label": "C",
+        "text": "睡眠の質と規則的な睡眠習慣を改善することが健康維持に最も効果的な方法の一つだ"
+      },
+      {
+        "label": "D",
+        "text": "睡眠不足は個人の意志と努力で解決できる問題だ"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "among the most powerful の読み取り",
+      "concluded の位置の確認",
+      "lifestyle changes との対応"
+    ]
+  },
+  {
+    "id": "nc-025",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、レポートのタイトルとして最も適切なものを選びなさい。\n\n---\nOver the past year, the city government invested in adding 20 kilometers of dedicated bicycle lanes throughout the urban area. The results were immediate and dramatic: the number of residents cycling to work increased by 35% compared to the previous year. City officials are now planning to expand the bicycle network even further, with the goal of reducing traffic congestion in the city center and lowering carbon emissions from daily commuting.\n---\n\n【レポートの構成メモ】\nタイトル: 【　　　】\n・20kmの自転車専用レーンを整備\n・通勤における自転車利用が35%増加\n・さらなる拡充で渋滞と排気ガスの削減を目指す\n\nレポートのタイトル【　　　】として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "環境に優しい通勤手段の比較研究"
+      },
+      {
+        "label": "B",
+        "text": "市内の交通事故減少の要因分析"
+      },
+      {
+        "label": "C",
+        "text": "自転車の健康効果に関する市民意識調査"
+      },
+      {
+        "label": "D",
+        "text": "自転車専用レーン整備がもたらす通勤行動の変化"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "文章全体の因果関係の把握",
+      "bike lanes と commuting behavior の対応",
+      "タイトルの適切な具体性"
+    ]
+  },
+  {
+    "id": "nc-026",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、ポスターの見出しとして最も適切なものを選びなさい。\n\n---\nTraditional pottery is an important part of the cultural heritage of many regions, but the craft is at risk of disappearing. As fewer young people choose to learn pottery-making, the techniques developed over hundreds of years may be lost within a generation. In response, a nonprofit organization launched a series of workshops aimed at introducing high school students to the basics of hand-building and wheel-throwing. The author argues that teaching traditional crafts to the next generation is not just about preserving skills — it is about ensuring that cultural identity and history are passed down.\n---\n\n【伝統陶芸ポスターの構成メモ】\n見出し: 【　　　】\n・若い世代に伝統陶芸の技術を伝える\n・文化的アイデンティティと歴史を次世代へ\n\nポスターの見出し【　　　】として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "伝統の技を未来へ——次世代への継承"
+      },
+      {
+        "label": "B",
+        "text": "陶芸で健康に——手仕事の癒し効果"
+      },
+      {
+        "label": "C",
+        "text": "輸出産業として復活する伝統陶芸"
+      },
+      {
+        "label": "D",
+        "text": "陶芸教室で新しい趣味を見つけよう"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "passing down の意味",
+      "cultural heritage との対応",
+      "見出しの主題の正確な捉え方"
+    ]
+  },
+  {
+    "id": "nc-027",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、要約メモの空欄に入る内容として最も適切なものを選びなさい。\n\n---\nSince the first moon landing in 1969, humanity has made remarkable progress in space exploration, including sending rovers to Mars. Not everyone agrees that space exploration should remain a priority. Critics argue that the enormous sums of money spent on space programs would be better invested in solving urgent problems here on Earth, such as poverty and climate change. Supporters of space exploration, however, point out that research conducted in space has led to the development of many technologies that benefit everyday life, including GPS navigation systems and advanced medical imaging equipment.\n---\n\n【宇宙開発に関する要約メモ】\n・これまでの成果: 月探査・火星探査機の送信\n・批判的な意見: 地球上の問題解決に資金を使うべき\n・支持する意見: 【　　　】\n\nメモの【　　　】に入る内容として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "宇宙開発は軍事技術の発展に不可欠だ"
+      },
+      {
+        "label": "B",
+        "text": "宇宙研究からGPSや医療診断など日常に役立つ技術が生まれる"
+      },
+      {
+        "label": "C",
+        "text": "宇宙移住が将来の人口問題の解決策になる"
+      },
+      {
+        "label": "D",
+        "text": "探査機を送ることで地球外生命体の存在を証明できる"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "Supporters の主張の特定",
+      "led to の意味",
+      "benefit everyday life の日本語対応"
+    ]
+  },
+  {
+    "id": "nc-028",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、要約メモの空欄に入る筆者の結論として最も適切なものを選びなさい。\n\n---\nTeenagers today spend an average of four to five hours each day on social media platforms. While social media allows young people to connect with friends, researchers have found a troubling link between heavy social media use and rising levels of anxiety among adolescents. Some studies also suggest that excessive time spent online reduces opportunities for face-to-face interaction, weakening real-world social skills. The author does not suggest banning social media entirely, as this would be impractical. Instead, the author argues that educating young people on how to use social media mindfully and in moderation is a far more realistic and effective approach.\n---\n\n【SNSと若者についての要約メモ】\n・現状: 10代が1日4〜5時間SNSを使用\n・問題点: 不安感の増加・対面コミュニケーション力の低下\n・筆者の結論: 【　　　】\n\nメモの【　　　】に入る筆者の結論として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SNSの利用を法律で禁止することが最善の解決策だ"
+      },
+      {
+        "label": "B",
+        "text": "SNSは有害なので10代には使わせるべきではない"
+      },
+      {
+        "label": "C",
+        "text": "SNSの使い方を意識的・節度を持って学ばせることが現実的で効果的だ"
+      },
+      {
+        "label": "D",
+        "text": "対面コミュニケーションの授業時間を増やすことが最優先課題だ"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "Instead の逆接に注目",
+      "mindfully / in moderation の読み取り",
+      "far more realistic の意味"
+    ]
+  },
+  {
+    "id": "nc-029",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、要約メモの空欄に入る内容として最も適切なものを選びなさい。\n\n---\nIn recent years, a growing number of schools have introduced outdoor environmental education programs. These programs take students outside the classroom to observe local ecosystems, measure water quality in nearby streams, and monitor wildlife in school gardens. Research shows that students who participate in hands-on environmental education develop a stronger sense of environmental responsibility than those who only study the topic from textbooks. The article argues that giving young people direct experiences with nature is not just an extra activity — it is a vital part of building the next generation of informed and motivated environmental stewards.\n---\n\n【環境教育についての要約メモ】\n・近年の動向: 屋外体験学習プログラムの普及\n・研究結果: 体験型学習が環境への責任感を高める\n・文章のテーマ: 【　　　】\n\nメモの【　　　】に入る文章全体のテーマとして最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "環境破壊が生態系に与える深刻な影響"
+      },
+      {
+        "label": "B",
+        "text": "学校の授業時間確保のための制度改革"
+      },
+      {
+        "label": "C",
+        "text": "自然観察を通じた生物多様性の科学的研究"
+      },
+      {
+        "label": "D",
+        "text": "自然体験教育が次世代の環境保護意識を育てる重要性"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "vital part の意味",
+      "文章全体の主張の把握",
+      "next generation の読み取り"
+    ]
+  },
+  {
+    "id": "nc-030",
+    "subject": "英語",
+    "unit": "メモ・ポスター穴埋め",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、図書館ポスターのキャッチコピーとして最も適切なものを選びなさい。\n\n---\nCommunity libraries have long served as more than just places to borrow books. In addition to offering free access to a wide range of books and digital resources, modern libraries host a variety of community events. Reading clubs, skill-building workshops, children's storytelling sessions, and career counseling services are just some of the programs available to residents of all ages. The author argues that in an era of increasing social isolation, libraries play an irreplaceable role as community hubs where people of all backgrounds can come together, learn new skills, and support one another throughout their lives.\n---\n\n【図書館ポスターの構成メモ】\nキャッチコピー: 【　　　】\n・すべての人に開かれた学びとつながりの場\n・地域の人々をむすび、生涯学習を支える\n\nキャッチコピー【　　　】として最も適切なものを選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "みんなの学びとつながりの場——あなたの図書館"
+      },
+      {
+        "label": "B",
+        "text": "本を読んで、知識を深め、試験に勝とう"
+      },
+      {
+        "label": "C",
+        "text": "読書で世界一周——図書館で冒険しよう"
+      },
+      {
+        "label": "D",
+        "text": "デジタル時代に本の力を見直そう"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "community hub の意味",
+      "lifelong learning の対応",
+      "文章全体のメッセージとの整合"
+    ]
+  }
+]

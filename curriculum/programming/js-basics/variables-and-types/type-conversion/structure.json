@@ -1,0 +1,143 @@
+{
+  "unit_id": "type-conversion",
+  "unit_name_jp": "型変換と型確認（typeof / 暗黙の変換）",
+  "grade": "JS基礎",
+  "patterns": [
+    {
+      "pattern_id": "typeof-operator",
+      "description": "typeof 演算子を使って変数や値のデータ型を調べる問題。typeof の戻り値は文字列（'number', 'string', 'boolean', 'undefined', 'object', 'function', 'symbol', 'bigint'）であることを問う。null に typeof を使うと 'object' が返る特殊ケースも頻出。",
+      "thinking_process": [
+        "typeof の構文（typeof 値 または typeof(値)）を確認する",
+        "戻り値が必ず文字列であることを意識する",
+        "null / undefined / 関数 / 配列 / オブジェクトの各戻り値を区別する",
+        "typeof null === 'object' という有名な落とし穴を想起する"
+      ],
+      "common_mistakes": [
+        "typeof null を 'null' と答える（正しくは 'object'）",
+        "typeof [] を 'array' と答える（正しくは 'object'）",
+        "typeof の戻り値が文字列であることを忘れて boolean と比較してしまう",
+        "typeof 関数 を 'object' と答える（正しくは 'function'）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "implicit-to-number",
+      "description": "算術演算子（- * / % **）や単項 + を使ったとき、JavaScriptが値を自動的に数値に変換する（暗黙の型変換）挙動を問う問題。変換結果の優先順位と NaN が生じるケースを理解しているかを測る。",
+      "thinking_process": [
+        "演算子の種類を確認する（+ は文字列連結にもなる）",
+        "Number() で変換したときの結果を想定する（空文字→0、'3'→3、'abc'→NaN、null→0、undefined→NaN、true→1、false→0）",
+        "NaN が含まれる演算の結果は NaN になることを確認する",
+        "isNaN() / Number.isNaN() の違いも意識する"
+      ],
+      "common_mistakes": [
+        "null を数値変換すると NaN だと思い込む（正しくは 0）",
+        "undefined を数値変換すると 0 だと思い込む（正しくは NaN）",
+        "true/false の数値変換を 0/1 と逆に覚える",
+        "NaN === NaN が true だと思い込む（正しくは false）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "string-concatenation-vs-addition",
+      "description": "+ 演算子の二重の役割（文字列連結と数値加算）を問う問題。オペランドの型によって結果が大きく異なる。式の評価順（左から右）と型強制を正確に追う力を測る。",
+      "thinking_process": [
+        "左辺または右辺に文字列が含まれていないか確認する",
+        "含まれていれば残りを String() に変換して連結する",
+        "含まれていなければ両辺を Number() に変換して加算する",
+        "複数の + が連なる場合は左から順番に評価する"
+      ],
+      "common_mistakes": [
+        "'1' + 2 を 3 と答える（正しくは '12'）",
+        "1 + 2 + '3' を '123' と答える（正しくは '33'）",
+        "'3' - 1 を NaN と答える（- は文字列連結しないので正しくは 2）",
+        "null + 1 を NaN と答える（正しくは 1）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "boolean-coercion",
+      "description": "if 文・論理演算子・三項演算子などで値を真偽値として評価するとき、falsy な値（false, 0, -0, 0n, '', null, undefined, NaN）を除くすべてが truthy となる法則を問う。",
+      "thinking_process": [
+        "falsy な値のリストを思い出す",
+        "その値が falsy かどうかを確認する",
+        "'0' は空文字ではなく文字列なので truthy であることに注意する",
+        "[] や {} は空でも truthy であることを確認する"
+      ],
+      "common_mistakes": [
+        "'0' を falsy と答える（正しくは truthy。文字列だから）",
+        "[] を falsy と答える（正しくは truthy）",
+        "0n (BigInt の0) を truthy と答える（正しくは falsy）",
+        "-0 を truthy と答える（正しくは falsy）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "explicit-conversion",
+      "description": "Number() / String() / Boolean() / parseInt() / parseFloat() などの組み込み関数を使った明示的な型変換の挙動を問う。parseInt の基数指定や parseFloat の途中停止なども頻出。",
+      "thinking_process": [
+        "変換関数の名前と変換先の型を確認する",
+        "Number('') = 0、parseInt('') = NaN という違いを意識する",
+        "parseInt('12px') = 12（先頭の数値部分まで読む）を想起する",
+        "parseFloat('3.14abc') = 3.14 を確認する"
+      ],
+      "common_mistakes": [
+        "Number('') を NaN と答える（正しくは 0）",
+        "parseInt('') を 0 と答える（正しくは NaN）",
+        "parseInt('0x1F') を数値変換できないと答える（正しくは 31、16進数として解釈）",
+        "Number(null) を NaN と答える（正しくは 0）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "equality-type-coercion",
+      "description": "== (抽象的等価) と === (厳密等価) の違いを問う問題。== はデータ型が異なると型変換を行ってから比較し、=== は型変換なしに比較する。比較ルールのアルゴリズムを追う力を測る。",
+      "thinking_process": [
+        "=== は型が異なれば即 false を確認する",
+        "== の変換ルールを確認する（null == undefined は true、その他は Number変換が優先されることが多い）",
+        "null == 0 は false（null は null/undefined とのみ等しい）を意識する",
+        "NaN == NaN は false（=== も同様）を確認する"
+      ],
+      "common_mistakes": [
+        "null == 0 を true と答える（正しくは false）",
+        "null == false を true と答える（正しくは false）",
+        "'1' == true を確認せずに答える（Number('1')=1、Number(true)=1 なので true）",
+        "NaN == NaN を true と答える（正しくは false）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "json-type-conversion",
+      "description": "JSON.stringify() と JSON.parse() による文字列⇔オブジェクト変換、およびそれに伴う型の変化（undefined は除外される、NaN は null になる等）を問う。",
+      "thinking_process": [
+        "JSON.stringify の戻り値は必ず文字列（または undefined）を確認する",
+        "undefined / function / Symbol を含むプロパティは stringify で除外されることを意識する",
+        "NaN / Infinity は JSON では null にシリアライズされることを確認する",
+        "JSON.parse の戻り値は新しいオブジェクト（元のオブジェクトとは別物）を認識する"
+      ],
+      "common_mistakes": [
+        "JSON.stringify({ a: undefined }) を '{\"a\":undefined}' と答える（正しくは '{}'）",
+        "JSON.stringify(NaN) を 'NaN' と答える（正しくは 'null'）",
+        "JSON.parse 後の配列が元の配列と === で等しいと答える（別オブジェクトなので false）",
+        "JSON.stringify の戻り値を Object と答える（正しくは String）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "template-literal-coercion",
+      "description": "テンプレートリテラル（`${}`）内の値が String() で変換される挙動を問う。配列・オブジェクト・null・undefined などを埋め込んだときの出力文字列を正確に予測する力を測る。",
+      "thinking_process": [
+        "テンプレートリテラルは ${} の中身を String() に変換して連結することを確認する",
+        "String(null) = 'null'、String(undefined) = 'undefined' を想起する",
+        "String([1,2,3]) = '1,2,3'（Array.prototype.toString）を確認する",
+        "String({}) = '[object Object]' を意識する"
+      ],
+      "common_mistakes": [
+        "`${null}` を '' (空文字) と答える（正しくは 'null'）",
+        "`${[1,2,3]}` を '[1,2,3]' と答える（正しくは '1,2,3'、括弧なし）",
+        "`${{}}` を '{}' と答える（正しくは '[object Object]'）",
+        "`${undefined}` を 'undefined' ではなく空文字と答える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

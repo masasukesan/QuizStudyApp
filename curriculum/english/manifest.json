@@ -18,6 +18,51 @@
       "name": "物語・日記文読解",
       "en": "Narrative Reading",
       "questionCount": 30
+    },
+    {
+      "path": "reading/text-comprehension/opinion-essay",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "opinion-essay",
+      "name": "論説文・意見文読解",
+      "en": "Opinion Essay Reading",
+      "questionCount": 30
+    },
+    {
+      "path": "reading/text-comprehension/graph-and-table",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "graph-and-table",
+      "name": "図表付き文章読解",
+      "en": "Graph and Table Reading",
+      "questionCount": 30
+    },
+    {
+      "path": "reading/text-comprehension/multiple-text",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "multiple-text",
+      "name": "複数文章統合読解",
+      "en": "Multiple Text Reading",
+      "questionCount": 30
+    },
+    {
+      "path": "reading/text-comprehension/timeline-ordering",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "timeline-ordering",
+      "name": "時系列整理",
+      "en": "Timeline Ordering",
+      "questionCount": 30
+    },
+    {
+      "path": "reading/text-comprehension/note-completion",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "note-completion",
+      "name": "メモ・ポスター穴埋め",
+      "en": "Note and Poster Completion",
+      "questionCount": 30
     }
   ],
   "tree": [
@@ -44,6 +89,51 @@
               "subunit": "narrative",
               "name": "物語・日記文読解",
               "en": "Narrative Reading",
+              "questionCount": 30
+            },
+            {
+              "path": "reading/text-comprehension/opinion-essay",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "opinion-essay",
+              "name": "論説文・意見文読解",
+              "en": "Opinion Essay Reading",
+              "questionCount": 30
+            },
+            {
+              "path": "reading/text-comprehension/graph-and-table",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "graph-and-table",
+              "name": "図表付き文章読解",
+              "en": "Graph and Table Reading",
+              "questionCount": 30
+            },
+            {
+              "path": "reading/text-comprehension/multiple-text",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "multiple-text",
+              "name": "複数文章統合読解",
+              "en": "Multiple Text Reading",
+              "questionCount": 30
+            },
+            {
+              "path": "reading/text-comprehension/timeline-ordering",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "timeline-ordering",
+              "name": "時系列整理",
+              "en": "Timeline Ordering",
+              "questionCount": 30
+            },
+            {
+              "path": "reading/text-comprehension/note-completion",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "note-completion",
+              "name": "メモ・ポスター穴埋め",
+              "en": "Note and Poster Completion",
               "questionCount": 30
             }
           ]

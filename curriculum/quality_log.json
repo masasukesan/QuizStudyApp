@@ -91,21 +91,7 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/1A/combinatorics/circular-and-multiset-permutation",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/1A/combinatorics/combination",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/1A/combinatorics/count-elements",
     "status": "passed",
     "checked_at": "2026-06-05",
     "question_count": 30,
@@ -927,6 +913,83 @@
     "path": "curriculum/programming/js-basics/variables-and-types/data-types",
     "status": "passed",
     "checked_at": "2026-06-18",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/variables-and-types/type-conversion",
+    "status": "passed",
+    "checked_at": "2026-06-19",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/text-comprehension/opinion-essay",
+    "status": "passed",
+    "checked_at": "2026-06-19",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/operators/arithmetic-operators",
+    "status": "passed",
+    "checked_at": "2026-06-20",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/text-comprehension/graph-and-table",
+    "status": "passed",
+    "checked_at": "2026-06-20",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/text-comprehension/multiple-text",
+    "status": "passed",
+    "checked_at": "2026-06-20",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/text-comprehension/timeline-ordering",
+    "status": "passed",
+    "checked_at": "2026-06-20",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/combinatorics/circular-and-multiset-permutation",
+    "status": "passed",
+    "checked_at": "2026-06-20",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/operators/comparison-operators",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/text-comprehension/note-completion",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/combinatorics/count-elements",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/intro/programming-terms",
+    "status": "passed",
+    "checked_at": "2026-06-21",
     "question_count": 30,
     "notes": ""
   }

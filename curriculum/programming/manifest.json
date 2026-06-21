@@ -2,6 +2,15 @@
   "subject": "programming",
   "entries": [
     {
+      "path": "js-basics/intro/programming-terms",
+      "course": "js-basics",
+      "unit": "intro",
+      "subunit": "programming-terms",
+      "name": "プログラミング基本用語（変数・リテラル・型・式）",
+      "en": "Programming Fundamentals",
+      "questionCount": 30
+    },
+    {
       "path": "js-basics/variables-and-types/variable-declaration",
       "course": "js-basics",
       "unit": "variables-and-types",
@@ -26,7 +35,7 @@
       "subunit": "type-conversion",
       "name": "型変換と型確認（typeof / 暗黙の変換）",
       "en": "Type Conversion",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/operators/arithmetic-operators",
@@ -35,7 +44,7 @@
       "subunit": "arithmetic-operators",
       "name": "算術演算子（+ - * / % **）",
       "en": "Arithmetic Operators",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/operators/comparison-operators",
@@ -44,7 +53,7 @@
       "subunit": "comparison-operators",
       "name": "比較演算子（== / === / != / !==）",
       "en": "Comparison Operators",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/operators/logical-operators",
@@ -187,6 +196,20 @@
       "course": "js-basics",
       "units": [
         {
+          "unit": "intro",
+          "subunits": [
+            {
+              "path": "js-basics/intro/programming-terms",
+              "course": "js-basics",
+              "unit": "intro",
+              "subunit": "programming-terms",
+              "name": "プログラミング基本用語（変数・リテラル・型・式）",
+              "en": "Programming Fundamentals",
+              "questionCount": 30
+            }
+          ]
+        },
+        {
           "unit": "variables-and-types",
           "subunits": [
             {
@@ -214,7 +237,7 @@
               "subunit": "type-conversion",
               "name": "型変換と型確認（typeof / 暗黙の変換）",
               "en": "Type Conversion",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         },
@@ -228,7 +251,7 @@
               "subunit": "arithmetic-operators",
               "name": "算術演算子（+ - * / % **）",
               "en": "Arithmetic Operators",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/operators/comparison-operators",
@@ -237,7 +260,7 @@
               "subunit": "comparison-operators",
               "name": "比較演算子（== / === / != / !==）",
               "en": "Comparison Operators",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/operators/logical-operators",

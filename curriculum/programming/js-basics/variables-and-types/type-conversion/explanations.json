@@ -1,0 +1,487 @@
+{
+  "type-conversion-b01": {
+    "lead": "typeof（タイプオブ）は「この値は何の種類（型）ですか？」と聞くための演算子です。演算子とは + や - と同じように値を使って何かを計算するための道具のことです。typeof の特徴は、結果が必ず「文字列」で返ってくる点です。たとえば typeof 42 は数値の 42 の型を調べて、'number'（ナンバー）という文字列を返します。",
+    "steps": [
+      "typeof 演算子は、調べたい値の前に書きます（例：typeof 42 や typeof 'hello'）",
+      "JavaScript には主に 8 種類の型があります：'number'（数値）、'string'（文字列）、'boolean'（真偽値）、'undefined'（未定義）、'object'（オブジェクト）、'function'（関数）、'symbol'、'bigint'",
+      "typeof の結果は必ず文字列として返ってきます。だから typeof 42 === 'number' は「文字列どうしの比較」になります"
+    ],
+    "common_mistakes": [
+      "typeof の結果がブール値（true/false）だと思い込む人が多いですが、正しくは文字列です",
+      "typeof の結果を数値と比較しようとしてしまう（例：typeof x === 1 は意味がない）"
+    ],
+    "tips": [
+      "typeof を使って型を確認するときは、必ず文字列と比較しましょう（例：typeof x === 'string'）",
+      "typeof の括弧は省略可能です（typeof(42) と typeof 42 は同じ意味）"
+    ]
+  },
+  "type-conversion-b02": {
+    "lead": "typeof 'hello' の結果は 'string'（ストリング）です。'string' とは「文字列」を意味する英単語で、JavaScript でテキストデータを表す型の名前です。シングルクォート・ダブルクォートで囲まれた値はすべて文字列なので、typeof で調べると 'string' が返ってきます。",
+    "steps": [
+      "'hello' はシングルクォートで囲まれた文字列（string 型）です",
+      "typeof に文字列を渡すと → 'string' という文字列を返します",
+      "typeof 'hello' の結果 → 'string'"
+    ],
+    "common_mistakes": [
+      "'text' や 'str' という型名はありません。正しくは 'string' です",
+      "文字列の値が長くなっても型は変わりません。どんな長さのテキストでも 'string' です"
+    ],
+    "tips": [
+      "シングルクォート('') とダブルクォート(\"\") で囲まれた値は両方 string 型です",
+      "typeof 'hello' === 'string' は true になります（文字列どうしを === で比較）"
+    ]
+  },
+  "type-conversion-b03": {
+    "lead": "JavaScript では整数（42 など）も小数（3.14 など）も、どちらも同じ 'number'（ナンバー）型です。C や Java のような言語では int（整数）と float（小数）が別の型ですが、JavaScript ではすべての数値が 'number' 型にまとめられています。これを知っておかないと「整数は 'integer' では？」と間違えやすいです。",
+    "steps": [
+      "typeof 42 → 42 は整数ですが、JavaScript の型では 'number' になります",
+      "typeof 3.14 → 3.14 は小数ですが、JavaScript の型でも同じく 'number' になります",
+      "JavaScript には 'integer'（整数型）や 'float'（小数型）という型は存在しません"
+    ],
+    "common_mistakes": [
+      "'integer'（整数）や 'float'（浮動小数点数）などの型名はJavaScriptにはありません",
+      "'decimal'（デシマル）という型名もありません"
+    ],
+    "tips": [
+      "JavaScript の数値はすべて「64ビット浮動小数点数」として内部的に管理されています（難しい話なので今は知らなくても大丈夫）",
+      "整数か小数かを判定したいときは Number.isInteger() というメソッドを使います"
+    ]
+  },
+  "type-conversion-b04": {
+    "lead": "undefined（アンデファインド）は「値が定義されていない・まだ何も入っていない」状態を表す特別な値です。typeof undefined の結果は、その名のとおり 'undefined' という文字列が返ってきます。変数を宣言しただけで値を入れていない場合や、存在しないプロパティにアクセスしたときにこの値が出てきます。",
+    "steps": [
+      "undefined は「何も定義されていない」状態を表す値です",
+      "typeof undefined → 'undefined' という文字列を返します",
+      "let x; のように変数を宣言して何も代入しないと、x の中身は undefined になります"
+    ],
+    "common_mistakes": [
+      "undefined を typeof で調べると 'null' が返ると思いがちですが、正しくは 'undefined' です",
+      "typeof undefined はエラーになりません。未定義の変数に typeof を使ってもエラーにならない（これは typeof の特徴です）"
+    ],
+    "tips": [
+      "typeof を使うと、まだ宣言されていない変数名を調べてもエラーにならないので安全です（例：typeof notDeclared は 'undefined' を返す）",
+      "undefined は「値が存在しない」という意味で、0 や '' とは違います"
+    ]
+  },
+  "type-conversion-b05": {
+    "lead": "typeof null の結果は 'object'（オブジェクト）です。null は「値が存在しない」「空っぽ」を意図的に表すための値ですが、typeof で調べると 'null' ではなく 'object' が返ってきます。これはJavaScriptが生まれた初期（1995年ごろ）の設計ミスで、後から仕様が変えられなかった「有名なバグ」として知られています。",
+    "steps": [
+      "null は「意図的に空にした」を表す値です（undefined は「うっかり何も入っていない」のニュアンス）",
+      "typeof null → 歴史的なバグにより 'object' を返します（'null' ではありません）",
+      "null が本当に null かどうか確認したいときは、typeof ではなく x === null を使います"
+    ],
+    "common_mistakes": [
+      "typeof null === 'null' と書いてしまうのが最もよくあるミスです（正しくは 'object'）",
+      "null はオブジェクトではありませんが、typeof の結果は 'object' になってしまいます"
+    ],
+    "tips": [
+      "null チェックは typeof ではなく x === null（厳密等価）を使いましょう",
+      "null か undefined のどちらかかを確認したいときは x == null（==）を使うことがあります（null と undefined だけが互いに == で等しい）"
+    ]
+  },
+  "type-conversion-b06": {
+    "lead": "true（トゥルー）と false（フォルス）は「真」と「偽」を表す値で、boolean（ブーリアン）型に属します。typeof true も typeof false も、どちらも 'boolean' という文字列を返します。ブールとは数学者ジョージ・ブールにちなんだ名前で、「はい か いいえ か」のような二択の値を表します。",
+    "steps": [
+      "true と false はブール（論理）値と呼ばれる特別な値です",
+      "typeof true → 'boolean' を返します",
+      "typeof false → 'boolean' を返します（true も false も同じ型）"
+    ],
+    "common_mistakes": [
+      "typeof true の結果が 'true' という文字列だと思い込む人がいますが、正しくは 'boolean' です",
+      "true を数値の 1、false を数値の 0 と同じものとして考えると混乱します。型は別物です"
+    ],
+    "tips": [
+      "if 文の条件や比較演算子（=== など）の結果は boolean 型の値になります",
+      "typeof の結果は文字列なので、typeof true === 'boolean' は true になります"
+    ]
+  },
+  "type-conversion-b07": {
+    "lead": "Number()（ナンバー関数）は、値を明示的に数値（number 型）に変換するための関数です。Number('42') は文字列 '42' を数値の 42 に変換します。「明示的」とは「自分でわかって変換する」という意味で、プログラマーが意図的に型を変えるときに使います。",
+    "steps": [
+      "Number() に文字列を渡すと、数字として解釈できる文字列は数値に変換されます",
+      "Number('42') → 文字列 '42' を読んで 42（数値）にします",
+      "変換できない場合（Number('abc') など）は NaN（ナン：Not a Number＝数値でない）になります"
+    ],
+    "common_mistakes": [
+      "Number('42') が NaN になると思い込む人がいますが、数字だけの文字列は正しく変換されます",
+      "Number('42abc') は NaN になります。数字以外の文字が混じると変換できません（parseInt との違い）"
+    ],
+    "tips": [
+      "NaN（Not a Number）は「数値に変換できなかった」を意味する特殊な値です",
+      "Number('') は 0 になります（空文字を数値に変換すると 0）。これは意外な動作です"
+    ]
+  },
+  "type-conversion-b08": {
+    "lead": "Boolean()（ブーリアン関数）は値を真偽値（true か false）に変換します。JavaScript には「falsy（フォルシー）な値」と「truthy（トゥルーシー）な値」という概念があります。falsy な値は false に変換され、それ以外の値はすべて true に変換されます。falsy な値は 7 つだけ：false、0、-0、0n、''（空文字）、null、undefined、NaN です。",
+    "steps": [
+      "falsy（偽っぽい）な値は 7 つ：false / 0 / -0 / 0n / ''(空文字) / null / undefined / NaN",
+      "Boolean(0) → 0 は falsy なので → false",
+      "Boolean('') → ''（空文字）は falsy なので → false",
+      "falsy でないすべての値（文字列・数値・オブジェクト・配列など）は truthy（true になる）"
+    ],
+    "common_mistakes": [
+      "空文字 '' は falsy ですが、'0' や ' '（スペース）は truthy です（文字が入っているから）",
+      "0 は falsy ですが、0 以外の数値（1、-1、0.1 など）はすべて truthy です"
+    ],
+    "tips": [
+      "falsy な値のリストを暗記しておくと、if 文の条件判定で間違えにくくなります",
+      "Boolean() を使わなくても、!! （二重否定）で同じ変換ができます（例：!!0 === false）"
+    ]
+  },
+  "type-conversion-b09": {
+    "lead": "'0'（文字列のゼロ）は truthy（真）として扱われます。これは多くの人が間違える有名な落とし穴です。なぜなら '0' は「ゼロという文字が入っている文字列」であり、空文字（''）ではないからです。falsy になる文字列は '' だけです。文字が1文字でも入っていれば truthy になります。",
+    "steps": [
+      "falsy になる文字列は ''（空文字）だけです",
+      "'0' は長さ1の文字列（ゼロという文字が入っている）→ 空文字ではないので truthy",
+      "if ('0') { ... } → 条件が true として判定され、ブロックの中身が実行されます"
+    ],
+    "common_mistakes": [
+      "'0' を数値の 0 と同じ扱いにして「falsy だ」と思い込むのが最もよくあるミスです",
+      "'false' という文字列も truthy です（'false' は空でない文字列だから）"
+    ],
+    "tips": [
+      "型によって falsy の判定が変わります。数値の 0 は falsy ですが、文字列の '0' は truthy です",
+      "値が '' かどうかを正確に確認したいときは、=== を使って x === '' と書きましょう"
+    ]
+  },
+  "type-conversion-b10": {
+    "lead": "String()（ストリング関数）は値を文字列（string 型）に変換します。数値を渡すと数字の文字列に、ブール値を渡すと 'true' または 'false' という文字列になります。String(true) が 'true' になるのは、「true という単語をそのまま文字列にした」と覚えるとわかりやすいです。",
+    "steps": [
+      "String(123) → 数値 123 を文字列に変換 → '123'",
+      "String(true) → true は文字列 'true' になります（数値の 1 ではありません）",
+      "String(false) → false は文字列 'false' になります"
+    ],
+    "common_mistakes": [
+      "String(true) が '1' になると思い込む人がいます（true → 1 の数値変換と混同している）。String は文字列変換なので 'true' です",
+      "String(null) は 'null'、String(undefined) は 'undefined' になります"
+    ],
+    "tips": [
+      "テンプレートリテラル（`` `${値}` ``）の中に値を入れると、String() と同じように文字列に変換されます",
+      "String() と .toString() は似ていますが、null や undefined に .toString() を使うとエラーになるので注意"
+    ]
+  },
+  "type-conversion-s01": {
+    "lead": "JavaScript の + 演算子は「文字列連結」と「数値の足し算」の 2 つの役割を持ちます。オペランド（+ の左右の値）のどちらかが文字列のとき、もう一方も文字列に変換して連結します。'1' + 2 では左辺が文字列なので、右辺の 2 も String(2) = '2' に変換され、'1' + '2' = '12' になります。",
+    "steps": [
+      "左辺 '1' は文字列型 → + 演算子は「文字列連結モード」に切り替わります",
+      "右辺 2 は数値型 → 文字列に変換 String(2) = '2'",
+      "'1' + '2' = '12'（文字列が結合された結果）"
+    ],
+    "common_mistakes": [
+      "'1' を数値に変換して 1 + 2 = 3 になると思い込む → 正しくは '12'",
+      "どちらかが文字列なら、+ は必ず文字列連結になります（- や * とは違います）"
+    ],
+    "tips": [
+      "文字列を意図的に数値に変換してから足したいときは、Number() や parseInt() を使いましょう（例：Number('1') + 2 → 3）",
+      "- 演算子は文字列連結を行いません。'3' - 1 は '3' を数値変換して 2 になります"
+    ]
+  },
+  "type-conversion-s02": {
+    "lead": "複数の + が並ぶとき、JavaScript は左から順番に評価します。1 + 2 + '3' の場合、まず 1 + 2 = 3（両方数値なので算術加算）、次に 3 + '3' では右辺が文字列なので文字列連結に切り替わり、String(3) + '3' = '3' + '3' = '33' となります。",
+    "steps": [
+      "左から評価：まず 1 + 2 を計算 → 両方数値なので算術加算 → 3",
+      "次に 3 + '3' を計算 → 右辺 '3' が文字列なので文字列連結モードに",
+      "String(3) + '3' = '3' + '3' = '33'（文字列が連結された）"
+    ],
+    "common_mistakes": [
+      "すべての + を「文字列が混じっているから全部連結」と思い込んで '123' と答える → 左から順番に評価されます",
+      "右から評価して '1' + ('2' + '3') = '123' と考える → JavaScript の + は左から評価されます"
+    ],
+    "tips": [
+      "式の評価順序は「左から右へ、同じ優先度なら左を先に」と覚えましょう",
+      "意図した結果にするために括弧を使うのが安全です（例：1 + (2 + '3') = '123'）"
+    ]
+  },
+  "type-conversion-s03": {
+    "lead": "- 演算子（引き算）は文字列連結を行いません。+ と違い、- は必ず数値の引き算として動作します。そのため、文字列でも数値に変換してから計算します。'3' - 1 では、'3' が Number('3') = 3 に変換されて、3 - 1 = 2 になります。",
+    "steps": [
+      "- 演算子は文字列連結しません → '3' を数値に変換する必要があります",
+      "Number('3') = 3（数字だけの文字列は数値に変換できる）",
+      "3 - 1 = 2（数値の引き算）"
+    ],
+    "common_mistakes": [
+      "'3' と 1 の型が違うからエラーや NaN になると思い込む → - は自動的に数値変換します",
+      "'3' を文字列のまま文字操作して '2' が返ると思い込む → 文字列演算ではなく数値変換が起きます"
+    ],
+    "tips": [
+      "算術演算子（- * / % **）は必ず数値変換を行います。+ だけが文字列連結と算術の二役を持ちます",
+      "'abc' - 1 のように数値に変換できない文字列が来ると、Number('abc') = NaN → NaN - 1 = NaN になります"
+    ]
+  },
+  "type-conversion-s04": {
+    "lead": "null（ヌル）を Number() で数値に変換すると 0 になります。これは意外に思う人が多い結果です。null は「値が空」を意味しますが、数値として扱うと「0（何もない）」として変換されます。よって null + 1 は Number(null) + 1 = 0 + 1 = 1 になります。",
+    "steps": [
+      "null + 1 → + 演算子で数値演算が必要なので null を数値に変換します",
+      "Number(null) = 0（null の数値変換は 0）",
+      "0 + 1 = 1"
+    ],
+    "common_mistakes": [
+      "null は「値がない」から NaN になると思い込む → Number(null) は 0 です（undefined とは異なります）",
+      "null を文字列に変換して 'null' + '1' = 'null1' になると思い込む → + の右辺が数値なので数値変換が優先されます"
+    ],
+    "tips": [
+      "null → 0、undefined → NaN という変換の違いを必ず覚えてください。この違いは試験でよく出ます",
+      "null を数値として使いたい場面はほとんどないですが、知っておくと予期しないバグを防げます"
+    ]
+  },
+  "type-conversion-s05": {
+    "lead": "undefined（アンデファインド）を Number() で数値に変換すると NaN（Not a Number＝数値でない）になります。NaN は数値型の値ですが「数値として表せない特別な値」です。NaN が含まれる計算はすべて NaN になります。よって undefined + 1 は NaN + 1 = NaN です。",
+    "steps": [
+      "undefined + 1 → 数値演算が必要なので undefined を数値に変換します",
+      "Number(undefined) = NaN（undefined の数値変換は NaN）",
+      "NaN + 1 = NaN（NaN が絡む計算結果はすべて NaN）"
+    ],
+    "common_mistakes": [
+      "null と同じく 0 になると思い込む → undefined は 0 ではなく NaN です（重要な違い！）",
+      "NaN + 1 が 1 になると思い込む → NaN を含む演算は必ず NaN を返します"
+    ],
+    "tips": [
+      "null → 0、undefined → NaN。この違いを null/undefined ペアで必ずセットで覚えましょう",
+      "NaN かどうか調べるときは Number.isNaN() を使います（isNaN() は型変換をしてしまうので注意）"
+    ]
+  },
+  "type-conversion-s06": {
+    "lead": "null == undefined は true です。これは == 演算子（抽象的等価）の特別ルールです。== では通常、型が違う場合に数値変換などを行いますが、null と undefined は「互いにのみ等しい」という特別な扱いを受けます。null == null は true、undefined == undefined は true、null == undefined は true、それ以外の null == 何か は false です。",
+    "steps": [
+      "== 演算子の特別ルール：null と undefined は互いにのみ等しいと定義されています",
+      "null == undefined → true（特別ルールによる）",
+      "null == 0 や null == false は false（null は null/undefined 以外とは等しくない）"
+    ],
+    "common_mistakes": [
+      "どちらも falsy だから等しいと判断する → falsyどうしが == で等しくなるわけではありません",
+      "Number(null) = 0、Number(undefined) = NaN なので 0 == NaN → false だと計算する → null/undefined には数値変換ルールは適用されません"
+    ],
+    "tips": [
+      "x == null という書き方は「x が null か undefined のどちらかであれば」という意味になります",
+      "厳密に区別したいときは x === null または x === undefined を使いましょう"
+    ]
+  },
+  "type-conversion-s07": {
+    "lead": "null == 0 は false です。null は == 演算子で比較するとき、undefined とのみ等しく、数値 0 とは等しくありません。null の数値変換は 0 ですが、== の比較ではその変換ルールは適用されません。「null は null/undefined とのみ等しい」という特別ルールが優先されます。",
+    "steps": [
+      "== の特別ルール確認：null は null または undefined のときだけ true を返す",
+      "null == 0 → 0 は null でも undefined でもない → false",
+      "null == false も同様に false（false は null/undefined ではない）"
+    ],
+    "common_mistakes": [
+      "Number(null) = 0 なので 0 == 0 → true と計算してしまう → == での null には数値変換が行われません",
+      "null と 0 はどちらも「空や無」に見えるので等しいと思い込む → JavaScript の == では等しくありません"
+    ],
+    "tips": [
+      "null との比較には == よりも === を使う方が安全で予測しやすいです",
+      "null == false が false なのに Boolean(null) が false なのは、== の変換ルールと Boolean 変換は別物だからです"
+    ]
+  },
+  "type-conversion-s08": {
+    "lead": "NaN（Not a Number）は、自分自身を含めてどんな値とも等しくない特殊な値です。NaN === NaN も NaN == NaN も、どちらも false になります。「数値として表せない」という状態を表す値で、「NaN が 2 つあっても同じ状態とは言えない」という仕様です。NaN かどうかを調べるには Number.isNaN() を使います。",
+    "steps": [
+      "NaN === NaN → NaN はどんな値とも等しくない（自分自身とも） → false",
+      "NaN == NaN → == でも同じ。NaN はどんな値とも等しくない → false",
+      "NaN かどうかを調べる正しい方法：Number.isNaN(値) を使います"
+    ],
+    "common_mistakes": [
+      "NaN === NaN が true になると思い込む → NaN は自分自身とも等しくありません",
+      "NaN == NaN なら true かもしれないと思い込む → == でも false です"
+    ],
+    "tips": [
+      "NaN チェックには Number.isNaN(x) を使いましょう（isNaN(x) は型変換をしてしまうので注意）",
+      "NaN を生み出す主な操作：Number('abc')、undefined の算術演算、0/0、Math.sqrt(-1) など"
+    ]
+  },
+  "type-conversion-s09": {
+    "lead": "Number('') と parseInt('') はどちらも文字列を数値に変換しますが、空文字に対する挙動が違います。Number('') は「空文字 = 0」として 0 を返しますが、parseInt('') は「先頭に数字がない = 数字として読めない」として NaN を返します。",
+    "steps": [
+      "Number('') → Number 関数は空文字を 0 に変換します（仕様で決まっています）",
+      "parseInt('') → parseInt は先頭から数字を探しますが、空文字には数字がない → 数字が見つからない → NaN",
+      "この違いは、2 つの関数が「空」に対して異なる解釈をするためです"
+    ],
+    "common_mistakes": [
+      "Number('') も NaN になると思い込む → Number('') は 0 です",
+      "parseInt('') も 0 になると思い込む → parseInt('') は NaN です"
+    ],
+    "tips": [
+      "ユーザーの入力を数値に変換するとき、どちらを使うかで空入力の扱いが変わります。用途に応じて使い分けましょう",
+      "Number() は文字列全体を数値として解釈し、parseInt() は先頭の数値部分だけを読みます"
+    ]
+  },
+  "type-conversion-s10": {
+    "lead": "parseInt()（パースイント）は、文字列の先頭から数字を読んでいき、数字でない文字が来たところで停止します。parseInt('12px') では '1' '2' と読んで 'p' で停止するので、12 が返ります。この「先頭の数字部分だけ取り出す」動作は、CSSの値（'16px' など）から数値部分だけを取り出したいときに便利です。",
+    "steps": [
+      "parseInt は文字列の先頭から1文字ずつ読んでいきます",
+      "'12px' → '1'（数字）→ '2'（数字）→ 'p'（数字でない）→ ここで停止",
+      "読んだ数字部分 '12' を整数に変換して 12 を返します"
+    ],
+    "common_mistakes": [
+      "文字が混じっているから NaN になると思い込む → parseInt は先頭の数字部分まで読んで返します",
+      "Number('12px') は NaN です（Number は文字列全体が数値でないと変換できない）。parseInt と Number の違いです"
+    ],
+    "tips": [
+      "先頭が数字でない場合（parseInt('px12')）は NaN になります",
+      "parseInt('3.14') は 3 になります（小数点より前の整数部分だけ読む）。小数まで読むには parseFloat() を使います"
+    ]
+  },
+  "type-conversion-e01": {
+    "lead": "'1' == true の変換手順は少し複雑です。== 演算子では、ブール値が含まれる場合はまずそのブール値を Number に変換します。true → 1 になります。次に '1' と 1 を比較しますが、型が違う（文字列 vs 数値）ので今度は文字列を Number に変換します。Number('1') = 1 となり、最終的に 1 == 1 → true です。",
+    "steps": [
+      "== でブール値が登場したとき：まずブール値を Number に変換します",
+      "Number(true) = 1",
+      "次に '1'（文字列）と 1（数値）を比較 → 文字列を Number に変換",
+      "Number('1') = 1 → 1 == 1 → true"
+    ],
+    "common_mistakes": [
+      "true を文字列 'true' に変換して '1' == 'true' → false と答える → ブール値は文字列ではなく数値に変換されます",
+      "'1' と true をどちらも Boolean に変換して比較する → == の変換ルールは「ブールなら Number に」です"
+    ],
+    "tips": [
+      "== の変換順序：ブール値 → Number変換 → その後も型が違えばさらに変換",
+      "このような複雑な変換を避けるため、比較には原則として === を使うことが推奨されます"
+    ]
+  },
+  "type-conversion-e02": {
+    "lead": "JSON.stringify() でオブジェクトをJSON文字列に変換するとき、undefined は JSON で表現できない値なので、プロパティごと除外されます。{ a: undefined, b: 2 } を変換すると、a プロパティが消えて '{\"b\":2}' になります。これはJSONの仕様（JSON規格には undefined がない）によるものです。",
+    "steps": [
+      "JSON は undefined という概念を持っていません（JSONはJavaScript専用でなく共通のデータ形式だから）",
+      "{ a: undefined, b: 2 } を JSON 変換 → undefined を持つプロパティ a はまるごと除外",
+      "結果：'{\"b\":2}'（a プロパティが消えた文字列）"
+    ],
+    "common_mistakes": [
+      "undefined が null に変換されて '{\"a\":null,\"b\":2}' になると思い込む → undefined はプロパティごと除外されます",
+      "undefined を '\"undefined\"' という文字列に変換しようとする → そうはなりません"
+    ],
+    "tips": [
+      "配列の中の undefined は null に変換されます（プロパティではなく位置が重要な配列では除外できないため）",
+      "function や Symbol もプロパティから除外されます（JSONで表現できない値は除外が基本）"
+    ]
+  },
+  "type-conversion-e03": {
+    "lead": "JSON.stringify(NaN) の結果は文字列の 'null' です。NaN（Not a Number）は数値型ですが、JSON の仕様では「有効な数値」として表現できないため、null に変換されます。同じ理由で Infinity（無限大）も null になります。JSON は有限の数値しか扱えない仕様です。",
+    "steps": [
+      "NaN は JavaScript の数値型ですが、JSON 規格では「有効な数値」として書けません",
+      "JSON.stringify は NaN を null に変換します",
+      "JSON.stringify(NaN) → 文字列 'null' を返します"
+    ],
+    "common_mistakes": [
+      "'NaN' という文字列が返ると思い込む → JSON の世界に NaN はなく null に変換されます",
+      "NaN は数値型だからそのまま数値として書けると思い込む → JSON の数値として表現できない値は null になります"
+    ],
+    "tips": [
+      "JSON.stringify(Infinity) も 'null' になります（無限大も JSON で表現できないため）",
+      "数値を JSON で扱うときは、事前に NaN や Infinity でないことを確認しておきましょう"
+    ]
+  },
+  "type-conversion-e04": {
+    "lead": "テンプレートリテラル（バッククォートで囲まれた文字列）の ${ } の中に値を書くと、その値は String() で文字列に変換されてから埋め込まれます。String(null) の結果は 'null' という 4 文字の文字列です。なので `${null}` は空文字ではなく、'null' という文字列になります。",
+    "steps": [
+      "テンプレートリテラルの ${ } 内は String() で変換されます",
+      "String(null) = 'null'（null という単語をそのまま文字列にした 4 文字）",
+      "`${null}` → 'null'（空文字ではない！）"
+    ],
+    "common_mistakes": [
+      "null は「空」だから ${ } の中に入れると空文字になると思い込む → String(null) は 'null' です",
+      "null がエラーを起こすと思い込む → テンプレートリテラルは null でもエラーになりません"
+    ],
+    "tips": [
+      "String(null) = 'null'、String(undefined) = 'undefined' を覚えておきましょう",
+      "テンプレートリテラルは String() を内部で呼び出しているので、.toString() が呼べない null でも安全です"
+    ]
+  },
+  "type-conversion-e05": {
+    "lead": "配列をテンプレートリテラルに埋め込むと、Array.prototype.toString() が呼ばれます。配列の toString() は要素をカンマ（,）でつないだ文字列を返します。[1, 2, 3].toString() = '1,2,3' です。角括弧（[, ]）は含まれません。JSON.stringify([1,2,3]) = '[1,2,3]' とは異なる結果です。",
+    "steps": [
+      "テンプレートリテラルの ${ } に配列を入れると String(配列) が呼ばれます",
+      "String(配列) は内部で 配列.toString() を呼び出します",
+      "[1, 2, 3].toString() = '1,2,3'（角括弧なし、カンマで連結）",
+      "`${[1, 2, 3]}` → '1,2,3'"
+    ],
+    "common_mistakes": [
+      "'[1,2,3]'（角括弧あり）になると思い込む → toString() は角括弧を含みません",
+      "JSON.stringify と同じ結果になると思い込む → toString() と JSON.stringify() は別の変換です"
+    ],
+    "tips": [
+      "配列を JSON 形式の文字列にしたいときは JSON.stringify([1,2,3]) = '[1,2,3]' を使いましょう",
+      "[1, [2, 3]].toString() = '1,2,3'（入れ子の配列もフラットに展開されます）"
+    ]
+  },
+  "type-conversion-e06": {
+    "lead": "オブジェクト（{}）をテンプレートリテラルに埋め込むと、Object.prototype.toString() が呼ばれます。これは '[object Object]' という文字列を返します。多くの人が '{}'（中身が空）や '{}' のような形を想像しますが、実際は '[object Object]' という決まった文字列になります。",
+    "steps": [
+      "テンプレートリテラルの ${ } にオブジェクトを入れると String(オブジェクト) が呼ばれます",
+      "普通のオブジェクトは toString() が '[object Object]' を返すように定義されています",
+      "`${{}}` → '[object Object]'（角括弧・ object・Object という固定文字列）"
+    ],
+    "common_mistakes": [
+      "'{}' になると思い込む → toString() は JSON.stringify のような変換をしません",
+      "'[object]' になると思い込む → 正しくは '[object Object]'（O が大文字 2 つ）"
+    ],
+    "tips": [
+      "オブジェクトを文字列として見やすく表示したいときは JSON.stringify(オブジェクト) を使いましょう",
+      "カスタムクラスでは toString() を書き換えて任意の文字列を返させることができます"
+    ]
+  },
+  "type-conversion-e07": {
+    "lead": "parseInt は文字列の先頭が '0x' または '0X' で始まると、16 進数（16を1桁として数える方法）として解釈します。'0x1F' は 16 進数の 1F です。F は 15 を表すので、1×16 + 15 = 31 になります。このように parseInt は「0x プレフィックス」を見て自動的に 16 進数モードに切り替わります。",
+    "steps": [
+      "'0x' プレフィックスを検出 → 16 進数として解釈するモードに切り替わります",
+      "16 進数の '1F' を 10 進数に変換：1×16¹ + 15×16⁰ = 16 + 15 = 31",
+      "parseInt('0x1F') → 31"
+    ],
+    "common_mistakes": [
+      "'0x' の後で停止して 0 を返すと思い込む → '0x' は 16 進数の合図で、続けて変換されます",
+      "16 進数を扱えないと思い込む → parseInt は '0x' プレフィックスを認識して変換できます"
+    ],
+    "tips": [
+      "parseInt(文字列, 基数) のように第2引数で基数を指定することもできます（例：parseInt('1F', 16) も 31）",
+      "16 進数は #FF0000 のような色コードや文字コードの計算でよく使います"
+    ]
+  },
+  "type-conversion-e08": {
+    "lead": "typeof [] の結果は 'array' ではなく 'object' です。JavaScript では、配列はオブジェクトの一種として実装されています。そのため typeof で調べると 'object' になります。配列かどうかを正確に判定したいときは Array.isArray() を使います。",
+    "steps": [
+      "配列（[]）は JavaScript 内部でオブジェクトとして扱われています",
+      "typeof [] → 'array' という型は存在しない → 'object' が返ります",
+      "配列かどうかを正確に判定するには Array.isArray([]) を使います（true を返す）"
+    ],
+    "common_mistakes": [
+      "'array' という型が存在すると思い込む → JavaScript の typeof では 'array' は返りません",
+      "typeof null === 'object' と同じく、配列も 'object' になるという仕様を知らない"
+    ],
+    "tips": [
+      "配列かどうかの判定：Array.isArray(値) が true かどうかで確認しましょう",
+      "typeof で 'object' が返ったとき、null なのか配列なのかオブジェクトなのかを区別するには追加のチェックが必要です"
+    ]
+  },
+  "type-conversion-e09": {
+    "lead": "!!（ダブルエクスクラメーション・二重否定）は値を強制的に boolean（true/false）に変換します。! は「否定」なので、! をかけると true が false に、false が true になります。!! は否定を 2 回行うことで、元の truthy/falsy に対応した boolean 値を返します。'0' は空文字ではない文字列なので truthy → !'0' = false → !false = true です。",
+    "steps": [
+      "'0' は空文字ではない文字列（長さ 1） → truthy",
+      "! をかける → !'0' = false（truthy を否定すると false）",
+      "もう一度 ! をかける → !false = true",
+      "!!'0' = true"
+    ],
+    "common_mistakes": [
+      "'0' を数値の 0 と混同して falsy と判断してしまう → '0' は文字列で truthy です",
+      "!! が数値変換だと思い込む → !! は Boolean() と同じ true/false への変換です"
+    ],
+    "tips": [
+      "!! は値を boolean に変換するイディオムとして広く使われています（Boolean(値) と同じ結果）",
+      "falsy な文字列は ''（空文字）だけ。'0'、'false'、' '（スペース）はすべて truthy です"
+    ]
+  },
+  "type-conversion-e10": {
+    "lead": "'2' * '3' + 4 + '5' の評価手順を追います。まず演算子の優先順位から * は + より先に計算されます。'2' * '3' は - と同じく文字列を数値変換して 2 × 3 = 6 になります。次に 6 + 4 = 10（数値どうしの加算）、最後に 10 + '5' では '5' が文字列なので文字列連結になり '105' になります。",
+    "steps": [
+      "演算子の優先順位：* は + より先に計算されます",
+      "'2' * '3' → * は数値変換を行う → Number('2') * Number('3') = 2 * 3 = 6",
+      "6 + 4 → 両方数値 → 算術加算 → 10",
+      "10 + '5' → '5' が文字列 → 文字列連結 → String(10) + '5' = '10' + '5' = '105'"
+    ],
+    "common_mistakes": [
+      "*よりも+ を先に評価して '2' + '3' = '23' とする → 演算子の優先順位は * が + より高い",
+      "6 + 4 + '5' を全部文字列連結して '645' とする → 6 + 4 は両方数値なので先に算術加算（10）になる"
+    ],
+    "tips": [
+      "算術演算子の優先順位：** → * / % → + - の順（左から評価）",
+      "- * / % ** は常に数値変換します。+ だけが文字列連結と数値加算の二役を持ちます"
+    ]
+  }
+}

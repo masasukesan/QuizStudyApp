@@ -1,0 +1,422 @@
+[
+  {
+    "id": "co-001",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "JavaScript の == 演算子（ゆるい等値比較）の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "数値型どうしにしか使えず、文字列との比較はエラーになる" },
+      { "label": "B", "text": "型が違っていても自動で変換してから値を比べる" },
+      { "label": "C", "text": "厳密比較と全く同じ動作をするが、文字数が少ない分だけ処理が速い" },
+      { "label": "D", "text": "変数を比べるときに使い、リテラル同士の比較には使えない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-002",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(5 === 5);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "5" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-003",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(3 == '3');",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" },
+      { "label": "C", "text": "TypeError が発生する" },
+      { "label": "D", "text": "NaN" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-004",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(3 === '3');",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "TypeError が発生する" },
+      { "label": "D", "text": "NaN" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-005",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "!= 演算子の説明として正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "型と値の両方が一致しない場合にのみ true になる" },
+      { "label": "B", "text": "型変換を行ってから比較し、値が等しくなければ true になる" },
+      { "label": "C", "text": "常に false を返す演算子である" },
+      { "label": "D", "text": "数値型にしか使えない演算子である" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-006",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(5 !== '5');",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "NaN" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "true" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "co-007",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(true == 1);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "TypeError が発生する" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "1" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-008",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(false == 0);",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "0" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "co-009",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(null == undefined);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "TypeError が発生する" },
+      { "label": "C", "text": "null" },
+      { "label": "D", "text": "true" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "co-010",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(NaN === NaN);",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "NaN" },
+      { "label": "C", "text": "false" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-011",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(null == 0);",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "null" },
+      { "label": "D", "text": "0" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-012",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(0 == '');",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" },
+      { "label": "C", "text": "0" },
+      { "label": "D", "text": "TypeError が発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-013",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log('0' == false);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "TypeError が発生する" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-014",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(undefined == false);",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "TypeError が発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-015",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log([] == false);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "TypeError が発生する" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "true" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "co-016",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "オブジェクトを === で比較するとき、どのように評価されるかを正しく説明しているのはどれか？\n\nconst a = {};\nconst b = {};\nconsole.log(a === b);",
+    "choices": [
+      { "label": "A", "text": "中身が同じオブジェクトなので true になる" },
+      { "label": "B", "text": "a と b は別々に作ったオブジェクトで参照先が異なるため false になる" },
+      { "label": "C", "text": "オブジェクト同士は === で比較できないため TypeError が発生する" },
+      { "label": "D", "text": "空のオブジェクトは false 扱いなのでどちらも false になり true になる" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-017",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconst a = [1, 2, 3];\nconst b = a;\nconsole.log(a === b);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" },
+      { "label": "C", "text": "[1, 2, 3]" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-018",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(NaN != NaN);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "NaN" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "true" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "co-019",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof NaN === 'number');",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" },
+      { "label": "C", "text": "NaN" },
+      { "label": "D", "text": "TypeError が発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-020",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "standard",
+    "question": "値が NaN かどうかを正確に判定する方法として最も適切なのはどれか？",
+    "choices": [
+      { "label": "A", "text": "x === NaN で判定する" },
+      { "label": "B", "text": "x == NaN で判定する" },
+      { "label": "C", "text": "Number.isNaN(x) で判定する" },
+      { "label": "D", "text": "x !== x が false かどうかで判定する" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-021",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(3 > 2 > 1);",
+    "choices": [
+      { "label": "A", "text": "true(3 > 2 も 2 > 1 も成り立つので true)" },
+      { "label": "B", "text": "false(3 > 2 が true になり、次に true > 1 を評価すると true は 1 に変換されるため 1 > 1 は false になる)" },
+      { "label": "C", "text": "TypeError が発生する" },
+      { "label": "D", "text": "NaN" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-022",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次のコードは true を返す。その理由として正しいのはどれか？\n\nconsole.log(1 < 2 < 3);",
+    "choices": [
+      { "label": "A", "text": "JavaScript が数学と同じ連鎖不等式に対応しているため、1 < 2 かつ 2 < 3 を同時に判定できる" },
+      { "label": "B", "text": "まず 1 < 2 が true と評価され、次に true が数値の 1 に変換されるため 1 < 3 が実行されて true になる" },
+      { "label": "C", "text": "< 演算子は 3 つ以上の値を左右から同時に比較できる仕様があるため" },
+      { "label": "D", "text": "JavaScript は 1 から始まる昇順の整数の不等式を常に true と判定するため" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-023",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log([] == ![]);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "TypeError が発生する" },
+      { "label": "C", "text": "true" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-024",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次の2つのコードを実行した場合の結果の組み合わせとして正しいのはどれか？\n\nconsole.log(null >= 0);\nconsole.log(null == 0);",
+    "choices": [
+      { "label": "A", "text": "1行目: true / 2行目: true (null は数値の 0 に変換されるため、どちらも 0 との比較になる)" },
+      { "label": "B", "text": "1行目: false / 2行目: false (null はどんな値とも等しくならない)" },
+      { "label": "C", "text": "1行目: true / 2行目: false (大小比較では null が数値変換されるが、等値比較では特別ルールで null は null と undefined にしか等しくならない)" },
+      { "label": "D", "text": "1行目: false / 2行目: true (等値比較のほうが寛容なので null は 0 と等しくなる)" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-025",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(undefined >= 0);",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "TypeError が発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-026",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次の2つのコードを実行した場合の結果の組み合わせとして正しいのはどれか？\n\nconsole.log('' == false);\nconsole.log('' === false);",
+    "choices": [
+      { "label": "A", "text": "1行目: true / 2行目: true (空文字は false と同じ意味になるため、どちらも等しいと判定される)" },
+      { "label": "B", "text": "1行目: false / 2行目: false (空文字は boolean 型と比較できないため、どちらも等しくならない)" },
+      { "label": "C", "text": "1行目: true / 2行目: false (型変換ありの比較では両者とも 0 になり等しくなるが、型変換なしの比較では string と boolean で型が異なるため等しくならない)" },
+      { "label": "D", "text": "1行目: false / 2行目: true (厳密な比較のほうが型変換後の実際の値を正確に比べるため等しくなる)" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-027",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(0 === -0);",
+    "choices": [
+      { "label": "A", "text": "false(0 と -0 は符号が違う異なる値)" },
+      { "label": "B", "text": "true(厳密比較は 0 と -0 を同一の値として扱う)" },
+      { "label": "C", "text": "NaN" },
+      { "label": "D", "text": "TypeError が発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "co-028",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次の2つのコードを実行した場合の結果の組み合わせとして正しいのはどれか？\n\nconsole.log(0 === -0);\nconsole.log(Object.is(0, -0));",
+    "choices": [
+      { "label": "A", "text": "1行目: true / 2行目: true (どちらのメソッドも 0 と -0 を同一と判定する)" },
+      { "label": "B", "text": "1行目: false / 2行目: false (どちらのメソッドも符号の違いを検出して別の値と判定する)" },
+      { "label": "C", "text": "1行目: true / 2行目: false (厳密比較は 0 と -0 を同一とするが、Object.is は両者を区別して別の値と判定する)" },
+      { "label": "D", "text": "1行目: false / 2行目: true (厳密比較は符号の違いを検出するが、Object.is は符号を無視して同一と判定する)" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-029",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconst x = null;\nconsole.log(x == null);\nconsole.log(x == undefined);",
+    "choices": [
+      { "label": "A", "text": "1行目: true、2行目: false" },
+      { "label": "B", "text": "1行目: false、2行目: false" },
+      { "label": "C", "text": "1行目: true、2行目: true" },
+      { "label": "D", "text": "1行目: false、2行目: true" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "co-030",
+    "subject": "programming",
+    "unit": "比較演算子(== / === / != / !==)",
+    "difficulty": "exam",
+    "question": "コードの品質を高めるために、ゆるい等値比較よりも厳密な等値比較を優先して使うべき主な理由として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "厳密比較のほうが実行速度が速いため" },
+      { "label": "B", "text": "ゆるい等値比較は数値型にしか使えないため" },
+      { "label": "C", "text": "ゆるい等値比較は暗黙の型変換が行われるため意図しない結果になることがあり、厳密比較は型と値の両方を明示的に確認するのでバグを防ぎやすい" },
+      { "label": "D", "text": "厳密比較は文字列比較に特化しており、ゆるい等値比較よりも正確な文字列比較ができるため" }
+    ],
+    "correct": "C"
+  }
+]

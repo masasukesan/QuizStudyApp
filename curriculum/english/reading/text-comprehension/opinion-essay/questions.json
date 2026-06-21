@@ -1,0 +1,422 @@
+[
+  {
+    "id": "oe-001",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nMany teenagers today spend several hours each day on social media platforms. A survey showed that 60% of high school students check their phones more than 50 times a day. Some researchers argue that heavy social media use is linked to feelings of loneliness and low self-confidence. However, others point out that social media helps students stay connected with friends and share school information. One school in Tokyo decided to limit smartphone use during lunch breaks. After three months, teachers reported that students talked to each other more and seemed more relaxed. The school principal said the change was positive, but admitted that students needed time to adjust to the new rules.\n\n本文の内容と一致するものを選べ。",
+    "choices": [
+      { "label": "A", "text": "東京のある学校では昼休みのスマートフォン使用を制限したところ、生徒同士の会話が増えたと教師が報告した。" },
+      { "label": "B", "text": "調査によると、高校生の約40%が1日に50回以上スマートフォンを確認している。" },
+      { "label": "C", "text": "すべての研究者がSNSの過剰使用と孤独感のつながりを認めている。" },
+      { "label": "D", "text": "校長はスマートフォン制限が生徒に悪影響をもたらしたと述べた。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-002",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nRegular physical exercise is widely recognized as beneficial for both the body and the mind. Studies have shown that even 30 minutes of moderate exercise three times a week can improve memory and concentration. A 2023 report found that students who exercise regularly tend to get better grades than those who do not. Some teenagers prefer team sports such as soccer or basketball, while others enjoy individual activities like running or swimming. Regardless of the type, experts agree that forming an exercise habit before the age of 20 is important for long-term health. Schools in several countries have therefore increased physical education time in their schedules.\n\n本文の内容と一致するものを選べ。",
+    "choices": [
+      { "label": "A", "text": "すべての専門家が、チームスポーツは個人スポーツより健康に良いと主張している。" },
+      { "label": "B", "text": "週3回30分の運動では記憶力や集中力の向上は見込めないと研究は示している。" },
+      { "label": "C", "text": "2023年の報告によると、定期的に運動する生徒は成績が良い傾向がある。" },
+      { "label": "D", "text": "専門家は20歳を過ぎてから運動習慣を形成することが最も重要だと述べている。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-003",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nEvery year, approximately one-third of all food produced worldwide is wasted. Fruits, vegetables, bread, and meat are thrown away while millions of people go hungry. Food waste also has a serious environmental impact. When food rots in landfills, it produces methane, a greenhouse gas that contributes to climate change. In Japan, an estimated 6.12 million tons of food are wasted each year. To reduce food waste, experts suggest better planning when shopping, using leftovers creatively, and donating extra food to food banks. Some companies are also developing technology to track expiration dates more accurately.\n\nこの文章が主に述べていることを選べ。",
+    "choices": [
+      { "label": "A", "text": "日本が食料輸入に頼っている問題とその解決策" },
+      { "label": "B", "text": "温室効果ガスの種類とその主な発生源の比較" },
+      { "label": "C", "text": "フードバンクの歴史と世界各地での普及状況" },
+      { "label": "D", "text": "食品廃棄の規模・環境への影響・削減策の概要" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-004",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nRemote work has become much more common since 2020. Many companies discovered that employees could be productive without coming to an office every day. Workers with long commutes reported feeling less stressed when working from home. However, some people find it difficult to separate work life from home life, and others miss social interaction with colleagues. A study in 2022 found that about 65% of workers preferred a hybrid model, combining working from home and in the office. Companies are now designing new office spaces to support collaboration when employees do come in.\n\nこの文章が主に述べていることを選べ。",
+    "choices": [
+      { "label": "A", "text": "会社のオフィスデザインがどのように変化してきたかの歴史" },
+      { "label": "B", "text": "リモートワークの広まりと、それに伴うメリット・デメリット・現状の概要" },
+      { "label": "C", "text": "2022年の調査の方法と対象者の詳細な内訳" },
+      { "label": "D", "text": "通勤時間の長さと職場生産性の数値的比較" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-005",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nReading books has long been considered an important habit for intellectual growth. However, a survey carried out in 2021 across ten countries showed that the average adult reads fewer than 5 books per year. In contrast, the same survey found that people spend an average of 6 hours per day looking at screens. Children who read for pleasure tend to develop stronger vocabulary and better writing skills. Despite the rise of digital media, sales of printed books increased by 12% between 2019 and 2022. Publishers believe that many readers still prefer the feel and convenience of a physical book.\n\n本文で述べられている数値として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "2019年から2022年の間に紙の本の売上が12%増加した。" },
+      { "label": "B", "text": "調査は5か国を対象に行われた。" },
+      { "label": "C", "text": "大人の平均読書量は年に5冊以上である。" },
+      { "label": "D", "text": "人々がスクリーンを見る時間は1日平均3時間である。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-006",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nUrban gardens are small growing spaces found in cities, often on rooftops, balconies, or unused land. They allow city residents to grow their own vegetables and herbs. Researchers at a city university studied 15 urban garden projects in five different cities. They found that participants reported lower levels of stress and a greater sense of community. The study also showed that urban gardens can reduce city temperatures slightly by adding greenery. However, the researchers noted that limited water availability is a challenge in city environments. Some cities have introduced programs that provide free seeds and soil to encourage residents to start their own gardens.\n\n本文で行われた研究について、内容と一致するものを選べ。",
+    "choices": [
+      { "label": "A", "text": "調査は10都市の20件のプロジェクトを対象とした。" },
+      { "label": "B", "text": "アーバンガーデンの参加者はストレスが増加したと報告した。" },
+      { "label": "C", "text": "アーバンガーデンは都市の気温をわずかに下げる効果があると示された。" },
+      { "label": "D", "text": "都市では水が豊富であるため、水の確保は課題にならないと述べられている。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-007",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nZoos have been controversial for many years. Supporters argue that modern zoos play an important role in conservation by breeding endangered species and educating the public about wildlife. For example, the California condor was once nearly extinct, with only 27 birds remaining in the wild. Thanks in part to zoo breeding programs, the population has grown to over 500 birds today. Critics argue that keeping animals in small enclosures causes unnecessary suffering, and that funds used for zoos could be better spent protecting natural habitats. Some zoos have responded by improving living conditions for animals and increasing their focus on releasing animals back into the wild.\n\n本文の内容と一致するものを選べ。",
+    "choices": [
+      { "label": "A", "text": "カリフォルニアコンドルは完全に絶滅し、現在は野生に存在しない。" },
+      { "label": "B", "text": "動物園支持者は、動物園は絶滅危惧種の繁殖と教育に重要な役割を果たすと主張している。" },
+      { "label": "C", "text": "本文によれば、すべての動物園が動物の生活環境の改善を拒否している。" },
+      { "label": "D", "text": "動物園批判者は、動物園への資金を自然生息地の保護に使うべきだと主張している。" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-008",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nDigital art refers to artwork created or presented using digital technology. Artists use tools such as graphic tablets, drawing software, and 3D modeling programs. Unlike traditional painting, digital art allows artists to undo mistakes instantly and experiment with colors without wasting materials. The rise of the internet has made it easier for digital artists to share their work globally and sell prints or files directly to buyers. Some people argue that digital art lacks the soul of traditional handmade art because it can be easily copied. However, supporters say digital art requires just as much creativity and skill. Art schools around the world have begun offering digital art courses as part of their programs.\n\nこの文章が主に述べていることを選べ。",
+    "choices": [
+      { "label": "A", "text": "絵画の歴史と伝統的な画材の種類の紹介" },
+      { "label": "B", "text": "デジタルアートの特徴・普及・それをめぐる意見の概要" },
+      { "label": "C", "text": "アートスクールのカリキュラム変化に特化した詳細な説明" },
+      { "label": "D", "text": "インターネットがオークション市場に与えた経済的影響の分析" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-009",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nVolunteering is the act of offering one's time and skills to help others without receiving payment. Research has shown that volunteers often experience personal benefits as well, including improved mental health and a greater sense of purpose. A 2020 survey in Japan found that around 26% of adults had volunteered at least once in the previous year. Most volunteers reported that helping others made them feel happy and useful. Common volunteering activities in Japan include helping at local events, assisting elderly people, and participating in disaster relief efforts. Young people who volunteer during their school years tend to remain active volunteers as adults.\n\n本文の内容と一致するものを選べ。",
+    "choices": [
+      { "label": "A", "text": "ボランティア活動には精神的健康の改善という個人的な利益もあると研究は示している。" },
+      { "label": "B", "text": "2020年の調査で、日本の成人の約50%が前年にボランティアをしたと報告されている。" },
+      { "label": "C", "text": "本文によると、ボランティアの最も一般的な活動は学校での授業補助である。" },
+      { "label": "D", "text": "学生時代にボランティアをした人は、大人になるとボランティアをやめる傾向があると述べられている。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-010",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "basic",
+    "question": "次の英文を読み、問いに答えよ。\n\nLearning a second language has many cognitive benefits. According to research from a university in Canada, bilingual people are often better at multitasking and problem-solving than those who speak only one language. The study observed 120 participants over three years. Children who start learning a second language before the age of 10 tend to develop more native-like pronunciation than those who start later. In Japan, English education begins in elementary school, with students typically starting formal English lessons in the third grade. However, many language educators argue that more opportunities to speak with native speakers are needed to achieve real fluency.\n\n本文の内容として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "研究では120名の参加者を5年間にわたって観察した。" },
+      { "label": "B", "text": "10歳以上から第二言語を始めた人の方が発音が自然になりやすいと示された。" },
+      { "label": "C", "text": "カナダの大学の研究によると、バイリンガルはマルチタスクや問題解決が得意な傾向がある。" },
+      { "label": "D", "text": "日本では中学校から英語の正式な授業が始まると述べられている。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-011",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nArtificial intelligence is beginning to change how students learn in school. Supporters of AI in education claim that AI tools can personalize lessons to each student's pace and level, making learning more efficient. They point to early trials in several schools where AI tutoring systems helped struggling students improve their test scores by 15% in just three months. Critics worry that relying on AI may reduce the development of critical thinking skills, since students might accept AI-generated answers without questioning them. Despite these concerns, supporters' main argument is that, when used correctly, AI does not replace teachers but helps them identify which students need extra support.\n\nAI教育支持者の主な主張とその根拠の組み合わせとして正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "主張：AIは生徒の批判的思考を育てる。根拠：AIの答えを疑わずに受け入れる習慣が批判的思考を鍛えるから。" },
+      { "label": "B", "text": "主張：AIは教師の仕事を完全に代替できる。根拠：初期試験で成績が上昇したから。" },
+      { "label": "C", "text": "主張：AIは教育費を大幅に削減できる。根拠：パーソナライズされた授業がコスト効率を高めるから。" },
+      { "label": "D", "text": "主張：AIを正しく使えば教師の補助役になる。根拠：AIチューターを導入した学校で苦手な生徒の成績が3ヶ月で15%向上したから。" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-012",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nElectric vehicles, or EVs, are becoming increasingly popular in many countries. Global EV sales grew by 35% in 2022 compared to the previous year. Governments in Europe, the US, and Japan have introduced financial incentives to encourage people to switch from gasoline-powered cars to EVs. Supporters say EVs produce zero direct emissions, which is better for air quality in cities. Critics argue that the electricity used to charge EVs often comes from fossil fuel power plants, so the environmental benefit is not as clear as it seems. Furthermore, mining for the lithium used in EV batteries has raised environmental concerns. Supporters respond that as electricity grids become greener, EVs will become cleaner over time.\n\n本文の記述を「事実 (Fact)」と「意見 (Opinion)」に分けたとき、事実に分類されるものを選べ。",
+    "choices": [
+      { "label": "A", "text": "電気自動車は都市の大気質にとって良い選択肢である。" },
+      { "label": "B", "text": "2022年のEV世界販売台数は前年比で35%増加した。" },
+      { "label": "C", "text": "電力グリッドが環境に優しくなれば、EVはより環境に良くなるだろう。" },
+      { "label": "D", "text": "EVのリチウム採掘が引き起こす環境問題はそれほど深刻ではない。" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-013",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nThe debate over whether homework helps or hurts students has continued for decades. Some educators believe that homework reinforces what students have learned in class and teaches valuable skills such as time management and self-discipline. They cite studies showing that students in countries where homework is common tend to score higher on international assessments. However, critics argue that excessive homework causes stress and leaves children with little time for creative activities, physical exercise, and family interaction. In Finland, a country known for its high-performing education system, students are assigned very little homework, yet they consistently achieve excellent results. This contrast has led many researchers to question whether homework is as necessary as traditionally believed.\n\n筆者が示す対比構造として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "宿題を多く課す国が国際評価で高得点を取る一方、フィンランドでは宿題がほとんどなくても優秀な成績を収めているという対比を通じて、宿題の必要性に疑問を呈している。" },
+      { "label": "B", "text": "フィンランドでは宿題が非常に多く、それが高い成績の要因だという因果関係が述べられている。" },
+      { "label": "C", "text": "宿題が自己管理スキルを育てるという点で、宿題賛成派と反対派の意見が一致していると述べられている。" },
+      { "label": "D", "text": "宿題賛成派の意見が正しいとして、批判派の意見を全面的に否定している。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-014",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nBuying food from local farmers is gaining popularity in many cities. Supporters of the local food movement argue that locally grown produce is fresher and more nutritious because it reaches consumers faster. They also claim that buying local reduces the carbon footprint associated with long-distance transportation. Furthermore, purchasing from local farmers keeps money within the community and supports small-scale agriculture. However, critics note that local food is often more expensive and not always available in large enough quantities to feed urban populations. Despite these challenges, many restaurants and schools have started sourcing a portion of their ingredients from nearby farms as a first step.\n\n地産地消支持者の主張とその根拠として正しい組み合わせを選べ。",
+    "choices": [
+      { "label": "A", "text": "主張：地元食材は価格が安い。根拠：農家への流通コストが省けるから。" },
+      { "label": "B", "text": "主張：地元食材は都市人口を十分に養える。根拠：都市近郊に農場が多いから。" },
+      { "label": "C", "text": "主張：地元食材は新鮮で栄養価が高く、輸送による二酸化炭素排出量も削減できる。根拠：産地から消費者までの輸送距離が短いから。" },
+      { "label": "D", "text": "主張：地産地消はすでに都市のほとんどの学校で完全に実施されている。根拠：多くのレストランが取り組みを始めているから。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-015",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nVideo games have long been criticized for promoting violence and encouraging sedentary behavior. However, researchers have found that certain types of games can improve problem-solving skills, hand-eye coordination, and teamwork. A study published in 2021 showed that students who played strategy games for 20 minutes a day performed better on tests of logical reasoning. Some games now incorporate educational content such as historical events or mathematical puzzles, making learning more engaging. Critics still argue that many popular games are addictive and expose young players to inappropriate content, and insist that parents must actively monitor their children's gaming habits. Whether games are helpful or harmful may ultimately depend on the type of game and the amount of time spent playing.\n\n本文の記述を「事実 (Fact)」と「意見 (Opinion)」に分けたとき、意見に分類されるものを選べ。",
+    "choices": [
+      { "label": "A", "text": "2021年に発表された研究では、ストラテジーゲームを1日20分プレイした生徒が論理的推論テストで高い成績を収めた。" },
+      { "label": "B", "text": "一部のゲームには歴史的出来事や数学パズルなどの教育コンテンツが組み込まれている。" },
+      { "label": "C", "text": "ゲームの弊害か有益性かは、ゲームの種類とプレイ時間によって決まる可能性がある。" },
+      { "label": "D", "text": "親は子どものゲーム習慣を積極的に監視しなければならない。" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-016",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nSocial media platforms are designed to keep users engaged for as long as possible. While this can help people discover new ideas and connect with others around the world, it has raised serious concerns about mental health, particularly among teenagers. Studies suggest that heavy use of image-sharing apps is associated with lower self-esteem in girls aged 13 to 17. The constant stream of carefully filtered images can create unrealistic expectations about appearance and lifestyle. On the other hand, social media has been a powerful tool for raising awareness about social issues, organizing community events, and allowing marginalized voices to be heard. Researchers argue that it is not social media itself but the way it is used that determines whether its effect is positive or negative.\n\n筆者がSNSについて示す対比と結論として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "SNSはメンタルヘルスに悪影響を与える一方で社会問題の啓発に役立つという対比を示し、影響の良し悪しはSNSそのものではなく使い方によると結論づけている。" },
+      { "label": "B", "text": "SNSは10代の女子にのみ悪影響があるとして、その全面的な禁止を提案している。" },
+      { "label": "C", "text": "SNSの良い面だけを強調し、メンタルヘルスへの悪影響は誇張されていると否定している。" },
+      { "label": "D", "text": "SNSが社会問題解決に役立つという根拠はなく、デメリットのみが客観的に示されている。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-017",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nMany urban planners argue that investing in public transportation is one of the most effective ways to reduce traffic congestion and air pollution in cities. When more people use buses, trains, and subways, fewer cars are on the road, leading to less carbon dioxide emissions. A report from a transportation research institute found that cities with well-developed public transit systems have 30% lower per-capita carbon emissions than cities where most people rely on private cars. Critics argue that the high cost of building new infrastructure may not be justified in smaller cities with lower population density. However, supporters respond that the long-term environmental and social benefits far outweigh the initial investment.\n\n公共交通機関拡充を支持する側の主張とその根拠として正しい組み合わせを選べ。",
+    "choices": [
+      { "label": "A", "text": "主張：小規模都市でも公共交通への投資が最優先だ。根拠：人口密度が低いほど自動車依存が高まるから。" },
+      { "label": "B", "text": "主張：公共交通への投資は交通渋滞と大気汚染の削減に最も効果的だ。根拠：公共交通が発達した都市では一人当たりの二酸化炭素排出量が30%低い。" },
+      { "label": "C", "text": "主張：公共交通は自家用車より初期投資が安い。根拠：バスや電車の建設コストが道路より低いから。" },
+      { "label": "D", "text": "主張：公共交通は環境にほとんど影響しない。根拠：自家用車と公共交通の排出量に実質的な差がないから。" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-018",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nMany parents and educators believe that learning music from an early age has significant benefits for children's development. Research has shown that children who receive music training tend to perform better in reading and mathematics. A study conducted in 2019 found that music students had stronger working memory than non-music students of the same age. Some experts suggest this is because music training involves reading notes, counting rhythms, and listening carefully — all of which exercise the brain intensively. Critics argue that school time spent on music might be better used for core subjects like science and math. However, supporters insist that music education actually enhances performance in those very subjects.\n\n本文の記述を「事実 (Fact)」と「意見 (Opinion)」に分けたとき、事実に分類されるものを選べ。",
+    "choices": [
+      { "label": "A", "text": "学校での音楽の時間は理科や数学などの主要科目のために使うべきだ。" },
+      { "label": "B", "text": "音楽教育は理科や数学の成績向上にも実際に貢献する。" },
+      { "label": "C", "text": "2019年の研究で、音楽を学ぶ生徒は同年代の非音楽学習者よりワーキングメモリが強かった。" },
+      { "label": "D", "text": "音楽学習が子どもの発達に大きな効果をもたらすと多くの保護者や教師は信じている。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-019",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nThe choice between city life and rural life involves significant trade-offs. Urban areas offer a wide range of job opportunities, entertainment options, and access to hospitals and universities. However, city residents often face higher living costs, noise, and limited green space. Rural areas tend to offer lower housing costs, closer communities, and a quieter environment. Yet those living in rural areas may have fewer employment options and must travel long distances to access specialized medical care or higher education. Surveys conducted in Japan show that while most young people prefer to live in cities for career opportunities, many express a desire to move to rural areas later in life for a more relaxed lifestyle.\n\n筆者が都市生活と地方生活について示す対比として最も適切なものを選べ。",
+    "choices": [
+      { "label": "A", "text": "都市生活の方がすべての面で地方生活より優れており、調査でも若者の全員が都市を好むと示されている。" },
+      { "label": "B", "text": "地方生活は雇用と医療の両方が充実しており、都市より住みやすいと結論づけられている。" },
+      { "label": "C", "text": "都市と地方はどちらも全く同じ問題を抱えており、両者に違いはないと述べられている。" },
+      { "label": "D", "text": "都市は雇用や利便性が高い一方でコストや混雑が課題であり、地方は費用や環境は良いが雇用や医療へのアクセスが限られるという対比を示している。" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-020",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "standard",
+    "question": "次の英文を読み、問いに答えよ。\n\nArts education — including drawing, drama, and music — is facing budget cuts in many schools. Administrators argue that limited funds should go to subjects tested in national exams, such as math and science. However, advocates for arts education counter that the arts develop skills employers increasingly value: creativity, communication, and the ability to think in new ways. A study of 10,000 students across multiple schools found that students with regular arts education were more likely to win academic awards and participate in community service. Supporters conclude that cutting arts programs may harm students' overall academic performance and social development.\n\n芸術教育支持者の主張とその根拠として正しい組み合わせを選べ。",
+    "choices": [
+      { "label": "A", "text": "主張：芸術科目は国家試験に出るため重要だ。根拠：音楽や美術の問題が近年の試験に増えているから。" },
+      { "label": "B", "text": "主張：芸術教育は創造力や伝達力などのスキルを育み、学業成績や社会参加にも良い影響をもたらす。根拠：定期的に芸術教育を受けた生徒が学業表彰や地域活動に参加しやすいという研究がある。" },
+      { "label": "C", "text": "主張：芸術教育への予算削減は数学や理科の成績向上につながる。根拠：試験科目に集中できる時間が増えるから。" },
+      { "label": "D", "text": "主張：芸術プログラム削減は学校の経費節減に最も効果的だ。根拠：芸術科目は他の科目より教材費がかかるから。" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-021",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nPlastic pollution has become one of the most pressing environmental issues of our time. Each year, millions of tons of plastic waste enter the world's oceans, threatening marine life and entering the food chain. While recycling programs exist in many countries, experts estimate that less than 10% of all plastic ever produced has actually been recycled. Single-use plastics — such as bags, straws, and bottles — are particularly problematic because they are used only once but take hundreds of years to decompose. Some governments have begun banning certain single-use plastics, and companies are under increasing pressure to redesign packaging using more sustainable materials. However, critics warn that individual behavior change alone is insufficient. They argue that meaningful progress requires systemic changes — new regulations, investment in alternative materials, and global cooperation — rather than placing responsibility solely on consumers. Without such coordinated action, the plastic crisis will continue to grow.\n\nこの文章で筆者が最も伝えようとしていることを選べ。",
+    "choices": [
+      { "label": "A", "text": "プラスチック汚染を解決するには個人の行動変容だけでは不十分であり、規制・代替素材への投資・国際協力といった組織的な変化が必要だ。" },
+      { "label": "B", "text": "プラスチックのリサイクル率を高めることで、海洋汚染の問題はほぼ解決できる。" },
+      { "label": "C", "text": "各国政府がすでに効果的な対策を講じているため、プラスチック危機は近いうちに解消される見込みである。" },
+      { "label": "D", "text": "企業が包装材を変更するだけで、一回使い捨てプラスチック問題には十分対応できる。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-022",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nCommunity sports programs for young people provide many benefits beyond physical fitness. Research shows that children who participate in organized sports are more likely to develop teamwork and leadership skills. A survey of 500 youth soccer players in three cities found that 78% reported feeling more confident after joining a team. Coaches noted that players who struggled academically often showed improvements in concentration and discipline on the field, which sometimes carried over into the classroom. However, these programs require consistent funding, and in many communities, budget constraints have led to the elimination of after-school sports programs. Advocates argue that investment in community sports is investment in the social well-being of the next generation.\n\n本文の内容と一致しないものを選べ。",
+    "choices": [
+      { "label": "A", "text": "地域のスポーツプログラムは、体力向上以外にもチームワークやリーダーシップの育成に役立つ。" },
+      { "label": "B", "text": "3都市の500名のユース選手を対象とした調査で、チームに参加後に自信がついたと回答したのは78%だった。" },
+      { "label": "C", "text": "予算の制約により、放課後スポーツプログラムが廃止されたコミュニティは存在しない。" },
+      { "label": "D", "text": "コーチは、学業で苦労している選手がフィールドでの集中力・規律の向上を示す場合があると述べた。" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-023",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nIn an age of information overload, the ability to evaluate sources and think critically has never been more important. Every day, people encounter hundreds of news stories, social media posts, and online articles — many of which may be misleading or entirely false. Critical thinking involves not accepting information at face value, but instead asking questions: Who created this? What evidence supports it? Who might benefit from spreading it? Educators around the world are recognizing that teaching students to think critically is as fundamental as teaching them to read and calculate. Without these skills, citizens are vulnerable to manipulation by misinformation. Several countries have introduced critical thinking and media literacy into their school curricula, with early results suggesting that students who receive such training are better equipped to identify false information and make informed decisions.\n\nこの文章のタイトルとして最も適切なものを選べ。",
+    "choices": [
+      { "label": "A", "text": "インターネット上の偽ニュースを見分けるための具体的な10のステップ" },
+      { "label": "B", "text": "ソーシャルメディアが若者の精神的健康に与える負の影響についての調査報告" },
+      { "label": "C", "text": "各国の学校における情報リテラシー教育の現状比較と課題の分析" },
+      { "label": "D", "text": "情報があふれる時代に必要な批判的思考力：その重要性と教育的取り組み" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-024",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nModern public libraries have evolved far beyond their traditional role as places to borrow books. Today, many libraries offer free internet access, computer training workshops, 3D printing labs, and meeting spaces for community groups. In cities where internet access is unequal, libraries serve as vital equalizers, giving people from all income levels access to digital tools and information. Some libraries have also partnered with schools to create programs that support children who struggle with reading. Despite these developments, many libraries face significant budget cuts as city governments seek to reduce spending. Advocates argue that cutting library budgets is short-sighted, because libraries provide services that are difficult or expensive to access elsewhere, especially for economically vulnerable populations. A well-funded library system, they insist, is a sign of a society that values education and equal opportunity for all.\n\nこの文章で筆者が最も伝えようとしていることを選べ。",
+    "choices": [
+      { "label": "A", "text": "図書館は本の貸し出しサービスだけを提供すればよく、デジタルサービスへの移行は不要だ。" },
+      { "label": "B", "text": "現代の図書館は多様なサービスで社会的平等と教育に貢献しており、予算削減は社会全体にとって損失だ。" },
+      { "label": "C", "text": "図書館の予算を削減し、市の他のサービスに資金を回すことが最優先事項だ。" },
+      { "label": "D", "text": "3Dプリンティングラボなどの新技術サービスが現代図書館の唯一の役割になりつつある。" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-025",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nOrganic farming prohibits the use of synthetic pesticides and fertilizers, relying instead on natural methods. Supporters say that organic farming promotes soil health, reduces chemical runoff into rivers, and supports biodiversity. A study published in 2020 found that organic farms had 30% more species of birds, insects, and plants compared to conventional farms. Organic food also tends to command higher prices in supermarkets, which can make it financially rewarding for farmers despite typically lower yields. Critics argue that organic farming cannot produce enough food to feed the growing global population because organic yields are generally 20 to 25% lower than those of conventional farming. They also note that the higher price of organic food makes it inaccessible to lower-income households.\n\n本文の内容と一致しないものを選べ。",
+    "choices": [
+      { "label": "A", "text": "有機農業では通常の農業より約20〜25%多い収穫量が得られると述べられている。" },
+      { "label": "B", "text": "2020年に発表された研究によると、有機農場では通常農場より30%多くの種の生物が生息している。" },
+      { "label": "C", "text": "有機食品はスーパーマーケットで高値で売れる傾向があると述べられている。" },
+      { "label": "D", "text": "有機食品の高価格は、低所得世帯にとってアクセスが難しくなることが指摘されている。" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-026",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nLearning to play a musical instrument offers benefits that extend far beyond the ability to make music. Neuroscientists have found that playing an instrument activates nearly every area of the brain at once, particularly the visual, auditory, and motor cortices. This broad brain activation may explain why musicians often show advantages in language processing, mathematical reasoning, and memory. Studies found that children who study music for at least two years show measurable improvements in reading skills compared to non-music students. The social benefits are equally significant: ensemble playing — performing with others in a band or orchestra — develops communication, cooperation, and the ability to listen carefully. Even adults who learn an instrument later in life report improvements in mood, concentration, and feelings of accomplishment. For these reasons, music education is increasingly being recognized not as a luxury, but as a vital component of comprehensive learning.\n\nこの文章のタイトルとして最も適切なものを選べ。",
+    "choices": [
+      { "label": "A", "text": "子どもに最適な楽器の選び方と練習の始め方ガイド" },
+      { "label": "B", "text": "脳神経科学が解明した音楽と記憶のメカニズム専門研究報告" },
+      { "label": "C", "text": "楽器演奏が育む認知・言語・社会的スキル：音楽教育の多面的な価値" },
+      { "label": "D", "text": "合奏活動が生徒のコミュニケーション力を高める効果についての考察" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-027",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nAn increasing amount of research suggests that excessive screen time can have negative effects on children's development. Studies have linked more than three hours of daily screen time in children under 12 to poorer sleep quality, reduced attention spans, and lower academic performance. However, not all screen time is equal. Educational programs and interactive learning apps, when used in moderation, have been shown to support language development and problem-solving skills. The American Academy of Pediatrics recommends that children aged 2 to 5 should have no more than one hour of screen time per day, while older children should have consistent limits set by parents. Many experts emphasize that the key factor is not screen time alone but whether it displaces important activities such as outdoor play, reading, and face-to-face social interaction.\n\n本文の内容と一致しないものを選べ。",
+    "choices": [
+      { "label": "A", "text": "1日3時間を超えるスクリーンタイムは、12歳未満の子どもの睡眠の質低下や学業成績の低下と関係があるとされている。" },
+      { "label": "B", "text": "アメリカ小児科学会は、2〜5歳の子どものスクリーンタイムを1日1時間以内に抑えることを推奨している。" },
+      { "label": "C", "text": "教育的プログラムや学習アプリは、適切に使えば言語発達や問題解決能力を支援できると示されている。" },
+      { "label": "D", "text": "専門家は、スクリーンタイムの長さは子どもの発達に影響せず、内容のみが重要だと述べている。" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-028",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nIn modern society, being busy is often treated as a virtue, and sleep is sometimes dismissed as a waste of productive time. Yet the science of sleep tells a very different story. During sleep, the brain clears out waste products, consolidates memories, and processes emotional experiences. Chronic sleep deprivation — regularly getting fewer than seven hours per night as an adult — has been linked to a higher risk of heart disease, diabetes, obesity, and depression. Students who sleep fewer than seven hours perform significantly worse on memory and concentration tests than those who sleep eight or more hours. Despite the clear evidence, many people continue to sacrifice sleep for work or entertainment. Public health experts are increasingly calling for cultural and workplace changes that allow people to prioritize rest as a fundamental health need, not a sign of laziness.\n\nこの文章のタイトルとして最も適切なものを選べ。",
+    "choices": [
+      { "label": "A", "text": "睡眠が果たす生理的役割と、忙しさを美徳とする現代社会における睡眠軽視への警鐘" },
+      { "label": "B", "text": "慢性的な睡眠不足と生活習慣病の具体的な治療法に関する医学的ガイドライン" },
+      { "label": "C", "text": "学生の成績向上のための最適な学習時間と睡眠時間のバランス計算法" },
+      { "label": "D", "text": "生産性向上のために短時間睡眠を実践するための具体的なヒント集" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-029",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nResearch in social psychology consistently shows that acts of kindness benefit not only the recipient but also the giver. When people perform kind acts — whether donating money, helping a neighbor, or simply listening to a friend — they experience a psychological lift sometimes called the helper's high, a feeling of satisfaction linked to the release of endorphins. Communities where residents regularly help each other demonstrate higher levels of trust, lower crime rates, and better collective responses to challenges such as natural disasters. However, modern urban lifestyles — characterized by long working hours, mobile technology, and geographical mobility — often reduce opportunities for face-to-face connection and spontaneous acts of neighborly support. Sociologists suggest that intentionally building kindness into daily life — through community programs, workplace policies, and urban design — can help counteract this trend. The evidence strongly suggests that investing in human connection is not just morally right but practically beneficial for the health and resilience of communities.\n\nこの文章で筆者が最も伝えようとしていることを選べ。",
+    "choices": [
+      { "label": "A", "text": "親切な行動がエンドルフィン分泌を引き起こすメカニズムを説明した神経科学のレポートだ。" },
+      { "label": "B", "text": "親切さは個人と社会の両方に利益をもたらし、現代でも意図的に日常に取り入れることが地域の健全性に重要だ。" },
+      { "label": "C", "text": "現代都市生活の問題の根本は長時間労働にあり、労働時間の法的規制が最重要課題である。" },
+      { "label": "D", "text": "自然災害への対応力を高めるためには、政府による地域コミュニティへの資金援助が最も効果的だ。" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-030",
+    "subject": "英語",
+    "unit": "論説文・意見文読解",
+    "difficulty": "exam",
+    "question": "次の英文を読み、問いに答えよ。\n\nReading widely — across fiction, non-fiction, poetry, and journalism — develops a range of mental and social skills that are difficult to acquire in other ways. Unlike watching video content, reading requires the reader to actively construct meaning, visualize scenes, and infer the emotions and motivations of characters. This active mental engagement strengthens concentration, empathy, and the ability to understand perspectives different from one's own. Research consistently shows that regular readers demonstrate greater vocabulary, stronger writing skills, and higher performance on standardized tests compared to non-readers. Beyond academic benefits, reading has been linked to increased emotional intelligence — the ability to recognize and understand the feelings of others. Despite the availability of faster, more entertaining digital media, the deep focus and imaginative engagement required by reading offer something uniquely valuable that cannot easily be replaced. For these reasons, educators, parents, and public health researchers are united in recommending reading as a daily habit for people of all ages.\n\nこの文章のタイトルとして最も適切なものを選べ。",
+    "choices": [
+      { "label": "A", "text": "学力テスト対策のための効率的な多読プログラムの設計ガイド" },
+      { "label": "B", "text": "フィクションと詩が生み出す感情体験：文学の娯楽的価値の考察" },
+      { "label": "C", "text": "読書が育む認知・感情・社会的スキル：デジタル時代における読書の代替不可能な価値" },
+      { "label": "D", "text": "読書と動画コンテンツの学習効果を比較した心理学的実験の結果報告" }
+    ],
+    "correct": "C"
+  }
+]

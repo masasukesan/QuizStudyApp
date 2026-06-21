@@ -49,6 +49,13 @@ interface ExplanationEntry {
   common_mistakes?: string | string[]
   wrong_answers?: Record<string, string>
   tips?: string | string[]
+  translation?: string   // 英文パッセージの全文和訳（英語単元のみ）
+}
+
+/* ── 問題文から英文パッセージのみ抽出（--- 区切りの間） ── */
+function extractEnglishPassage(questionText: string): string {
+  const match = questionText.match(/---\n([\s\S]+?)\n---/)
+  return match ? match[1].trim() : questionText
 }
 type Explanations = Record<string, ExplanationEntry>
 
@@ -454,7 +461,9 @@ export default function QuizPage() {
       setIsSpeaking(false)
       return
     }
-    const utter = new SpeechSynthesisUtterance(question.question)
+    /* 英文パッセージのみ読み上げる（--- で囲まれた部分を抽出） */
+    const textToRead = extractEnglishPassage(question.question)
+    const utter = new SpeechSynthesisUtterance(textToRead)
     utter.lang = 'en-US'
     utter.rate = 0.85
     utter.pitch = 1.0
@@ -858,8 +867,8 @@ export default function QuizPage() {
         {/* 問題文 */}
         <p className={styles.questionText}><MathText text={question.question} /></p>
 
-        {/* 音声再生ボタン（リスニング単元のみ表示） */}
-        {isListening && (
+        {/* 音声再生ボタン（英語単元・リスニング単元に表示） */}
+        {(isListening || subject === 'english') && (
           <button
             className={`${styles.speakBtn} ${isSpeaking ? styles.speakBtnActive : ''}`}
             onClick={handleSpeak}
@@ -959,6 +968,14 @@ export default function QuizPage() {
               const wrongAnswers = exp.wrong_answers ?? {}
               return (
                 <div className={styles.expBody}>
+                  {/* 全文和訳（英語単元のみ） */}
+                  {exp.translation && (
+                    <div className={styles.expTranslation}>
+                      <p className={styles.expTranslationLabel}>📖 全文和訳</p>
+                      <p className={styles.expTranslationText}>{exp.translation}</p>
+                    </div>
+                  )}
+
                   {/* リード文 */}
                   <p className={styles.expLead}><MathText text={exp.lead} /></p>
 
@@ -999,35 +1016,4 @@ export default function QuizPage() {
             })()}
 
             {/* AI チャット（準備完了・非表示中）有効化: false → true に変更 */}
-            {false && (() => {
-              const exp = explanations[question.id]
-              const explanationText = exp
-                ? [exp.lead, ...(exp.steps ?? [])].join(' ')
-                : ''
-              const correctChoice = question.choices.find(c => c.label === question.correct)
-              return (
-                <AIChat
-                  question={question.question}
-                  choices={question.choices}
-                  correctLabel={correctChoice?.text ?? question.correct}
-                  explanationText={explanationText}
-                />
-              )
-            })()}
-
-            {/* ボタン群 */}
-            <div className={styles.expBtnRow}>
-              <button className={styles.expCloseBtn} onClick={() => setPhase('reviewed')}>
-                問題に戻る
-              </button>
-              <button className={styles.nextBtn} onClick={handleNextQuestion}>
-                {currentIndex + 1 >= totalQ ? '結果を見る' : '次の問題へ'}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-    </div>
-  )
-}
+            {false 

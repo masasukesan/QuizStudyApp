@@ -37,18 +37,19 @@
       .sec-top {
         background: #b8d9e8;
         flex: 0 0 auto;
-        padding: 28px 34px 24px;
+        padding: 24px 34px 6mm;
         position: relative;
       }
 
       .tagline-row {
         display: flex;
         gap: 40px;
+        justify-content: center;
         font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
         font-size: 17pt;
         font-weight: 800;
         color: #1a3a52;
-        margin-bottom: 10px;
+        margin-bottom: 4mm;
         letter-spacing: 0.04em;
         text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
       }
@@ -105,7 +106,7 @@
       .bubbles-row {
         display: flex;
         gap: 18px;
-        margin-top: 22px;
+        margin-top: 8mm;
       }
       .bubble {
         flex: 1;
@@ -136,17 +137,15 @@
       .top-inner {
         display: flex;
         gap: 0;
+        margin-top: 8mm;
+        justify-content: center;
       }
       .top-left {
         flex: 1;
+        text-align: center;
       }
       .top-right {
-        width: 180px;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        font-size: 110pt;
-        padding-bottom: 4px;
+        display: none;
       }
 
       /* ═══════════════ SECTION B：青帯 ═══════════════ */
@@ -250,21 +249,43 @@
       .qr-wrap {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 16px;
         height: var(--footer-block-h);
         flex-shrink: 0;
       }
       .qr-wrap img {
-        width: 178px;
-        height: 178px;
+        width: 190px;
+        height: 190px;
         border-radius: 6px;
+        flex-shrink: 0;
+      }
+      .qr-text-block {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+      .qr-note-title {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 19pt;
+        font-weight: 900;
+        color: #fff;
+        background: #06c755;
+        border-radius: 8px;
+        padding: 8px 0;
+        letter-spacing: 0.08em;
+        text-align: center;
+        margin-bottom: 12px;
+        display: block;
+        width: 100%;
       }
       .qr-note {
         font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
         font-size: 17pt;
         font-weight: 700;
         color: #444;
-        line-height: 1.8;
+        line-height: 1.5;
+        text-align: left;
       }
 
       /* 右：詳細 */
@@ -402,7 +423,6 @@
               <span class="title-label">保護者 相談会</span>
             </div>
           </div>
-          <div class="top-right">👨‍👩‍👧</div>
         </div>
 
         <!-- 3つのバブル -->
@@ -469,23 +489,25 @@
           <div class="chips-group">
             <div class="detail-chip">
               相談時間 約30分
-              <span>じっくりお話を聞かせていただきます</span>
+              <span>目安のお時間です。短縮・延長可能です。</span>
             </div>
             <div class="detail-chip">
               事前予約制（先着6名）
-              <span>お電話またはLINEでご予約ください</span>
+              <span>お電話またはLINEでご予約ください。</span>
             </div>
             <div class="detail-chip">
               開催日　毎週土曜日
-              <span>16:00〜17:00　ご都合の良い週にどうぞ</span>
+              <span>16:00〜17:00　ご都合の良い週にどうぞ。</span>
             </div>
           </div>
           <div class="qr-wrap">
-            <img src="L_gainfriends_2dbarcodes_GW.png" alt="LINE QR" />
-            <div class="qr-note">
-              LINEからも<br />お申し込みいただけます<br />
-              上記QRを読み取ってください
+            <div class="qr-text-block">
+              <div class="qr-note-title">LINEでお申込み</div>
+              <div class="qr-note">
+                お友達追加後、<br />「相談会希望」と<br />メッセージを送信してください。
+              </div>
             </div>
+            <img src="L_gainfriends_2dbarcodes_GW.png" alt="LINE QR" />
           </div>
         </div>
       </div>

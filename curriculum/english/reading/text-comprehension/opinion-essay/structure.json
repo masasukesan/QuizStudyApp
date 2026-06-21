@@ -1,0 +1,137 @@
+{
+  "unit_id": "opinion-essay",
+  "unit_name_jp": "論説文・意見文読解",
+  "grade": "英語リーディング（共通テスト第2問B・第3問B・第6問Aレベル）",
+  "patterns": [
+    {
+      "pattern_id": "opinion-basic-fact-check",
+      "description": "筆者が述べている事実・情報を本文から探して内容一致を確認する",
+      "thinking_process": [
+        "選択肢を先に読み、何について確認するかを把握する",
+        "本文をスキャンして選択肢に関係する記述を探す",
+        "本文の記述と選択肢を一文ずつ照合する",
+        "本文と一致するものを選び、他が本文と矛盾していることを確認する"
+      ],
+      "common_mistakes": [
+        "本文に書かれていない内容を『ありそうだ』という印象で選んでしまう",
+        "数字・固有名詞が似た別の箇所と混同する",
+        "文中の否定表現（not, never, no）を見落として逆の内容を選ぶ"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "opinion-basic-topic",
+      "description": "段落や文章全体のトピック（何について書いているか）を特定する",
+      "thinking_process": [
+        "各段落の最初の文（トピックセンテンス）を確認する",
+        "繰り返し登場するキーワードに注目する",
+        "選択肢のうち本文全体をまとめているものを選ぶ"
+      ],
+      "common_mistakes": [
+        "一部の段落にしか当てはまらない内容をトピックと誤解する",
+        "本文のキーワードが選択肢に入っているだけで正しいと判断してしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "opinion-basic-detail",
+      "description": "本文の具体例・データ・統計を正しく読み取る",
+      "thinking_process": [
+        "問いが何の数値・例を尋ねているかを確認する",
+        "本文の該当箇所を見つけ、数値・具体例を正確に読み取る",
+        "選択肢と照合し、本文の記述と一致するものを選ぶ"
+      ],
+      "common_mistakes": [
+        "似た数値の別の箇所を選んでしまう",
+        "単位・対象（誰の・何の数値か）を読み違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "opinion-standard-claim-evidence",
+      "description": "筆者の主張とその根拠・理由の対応関係を読み取る",
+      "thinking_process": [
+        "筆者の主張（claim）を表す文を探す（however, therefore, in conclusion などの後に多い）",
+        "その主張を支える根拠（evidence）を本文から探す",
+        "選択肢の主張と根拠の組み合わせが本文と一致するか確認する"
+      ],
+      "common_mistakes": [
+        "根拠と主張を逆に理解してしまう（支えている側・支えられている側の混同）",
+        "一方の選択肢が主張は合っているが根拠が違う、という部分一致に気づかない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "opinion-standard-fact-opinion",
+      "description": "本文中の記述が『事実（Fact）』か『意見・主張（Opinion）』かを区別する",
+      "thinking_process": [
+        "事実は検証・確認できる記述（数値・出来事・調査結果など）であることを理解する",
+        "意見は筆者の判断・評価・推測を含む記述（I think, should, must, it is important など）であることを理解する",
+        "選択肢の文が事実か意見かを本文の根拠をもとに判断する"
+      ],
+      "common_mistakes": [
+        "統計や調査結果を筆者の意見と混同する",
+        "should / must などの助動詞がなくても意見である文を見落とす",
+        "本文にはない内容を事実だと思い込んで選ぶ"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "opinion-standard-contrast",
+      "description": "対比・譲歩構造（一方では〜だが、しかし〜）の中で筆者の立場を読み取る",
+      "thinking_process": [
+        "however, on the other hand, while, although などの逆接・対比の接続詞を見つける",
+        "対比の両側に書かれている内容を整理する",
+        "筆者がどちらの立場を支持しているかを最終的な主張から確認する"
+      ],
+      "common_mistakes": [
+        "譲歩している側（however の前）を筆者の主張と間違える",
+        "対比の片方しか読まずに判断してしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "opinion-exam-main-idea",
+      "description": "筆者が最も伝えたいこと（主旨・結論）を文章全体から読み取る",
+      "thinking_process": [
+        "導入部と結論部（最終段落・最終文）を特に注意深く読む",
+        "本文全体を通じて繰り返されている主張・キーワードを確認する",
+        "選択肢が本文の一部分だけでなく全体の主旨を表しているか確認する"
+      ],
+      "common_mistakes": [
+        "部分的に正しい選択肢（細部の事実）を主旨と誤解する",
+        "導入部の話題（例示・問題提起）を結論と混同する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "opinion-exam-not",
+      "description": "本文の内容と一致しないもの（NOT問題）を選ぶ",
+      "thinking_process": [
+        "問いが NOT 問題（一致しないものを選ぶ）であることを確認する",
+        "各選択肢について本文の対応箇所を探し、一致するかを確認する",
+        "3つが本文と一致し、1つが本文と矛盾するか記述がないことを確認する"
+      ],
+      "common_mistakes": [
+        "本文にない情報を『ありそう』と判断して除外してしまう",
+        "3つを確認する前に最初に見つけた矛盾箇所で答えを決めてしまう",
+        "否定文の内容を肯定として読んでしまう"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "opinion-exam-title",
+      "description": "文章のタイトル・見出しとして最も適切なものを選ぶ",
+      "thinking_process": [
+        "文章全体の主旨・最も重要なテーマを確認する",
+        "選択肢のタイトルが本文全体をカバーしているか、それとも一部分だけか確認する",
+        "センセーショナルすぎる・限定的すぎる・抽象的すぎるタイトルを除外する"
+      ],
+      "common_mistakes": [
+        "本文の一部のキーワードが入ったタイトルを全体を表すと誤解する",
+        "広すぎる（本文で言っていないことも含む）タイトルを正しいと思ってしまう"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

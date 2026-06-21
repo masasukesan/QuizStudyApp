@@ -1,0 +1,87 @@
+{
+  "unit_id": "programming-terms",
+  "unit_name_jp": "プログラミング基本用語（変数・リテラル・型・式）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "variable-declaration-assignment",
+      "description": "変数・宣言・代入・初期化の概念を問う問題。let / const / var の意味と違いを確認する。",
+      "thinking_process": [
+        "「変数」とは値を入れておく箱のことだと確認する",
+        "「宣言」は箱を用意すること、「代入」は箱に値を入れることだと区別する",
+        "let は再代入可能、const は再代入不可（宣言時に初期化必須）であることを確認する",
+        "var は古い書き方でスコープの範囲が let/const と異なることを認識する"
+      ],
+      "common_mistakes": [
+        "宣言と代入を同じ意味だと思い込む",
+        "const を「値が変わらない」ではなく「変数が存在しない」と解釈する",
+        "let と var を全く同じと思い込む（スコープの違いを忘れる）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "literal-types",
+      "description": "リテラルの概念と種類を問う問題。ソースコードに直接書かれた値の表現を識別する。",
+      "thinking_process": [
+        "「リテラル」とはコードに直接書かれた値そのもののことだと確認する",
+        "数値リテラル（42、3.14）、文字列リテラル（'hello'、\"world\"）、真偽値リテラル（true、false）を区別する",
+        "null リテラル、配列リテラル（[]）、オブジェクトリテラル（{}）があることを確認する",
+        "変数名はリテラルではなく識別子であることを区別する"
+      ],
+      "common_mistakes": [
+        "変数に格納した値もリテラルだと思い込む",
+        "文字列リテラルを囲むクォートの種類（シングル・ダブル・バッククォート）の違いを知らない",
+        "true / false が予約語（キーワード）であることを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "typeof-data-types",
+      "description": "typeof 演算子と JavaScript のデータ型を問う問題。各値の型を正確に識別する。",
+      "thinking_process": [
+        "typeof が返す文字列の種類（'number', 'string', 'boolean', 'undefined', 'object', 'function'）を確認する",
+        "typeof null が 'object' になる特殊ケースに注意する",
+        "typeof [] が 'object' になることを確認する（配列はオブジェクトの一種）",
+        "typeof function(){} が 'function' になることを確認する"
+      ],
+      "common_mistakes": [
+        "typeof null が 'null' になると思い込む（実際は 'object'）",
+        "typeof [] が 'array' になると思い込む（実際は 'object'）",
+        "typeof NaN が 'NaN' になると思い込む（実際は 'number'）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "expression-vs-statement",
+      "description": "式（expression）と文（statement）の違いを問う問題。値を生み出すかどうかで区別する。",
+      "thinking_process": [
+        "「式」は評価すると値になるもの（例: 3 + 4、x > 0、'hello'）だと確認する",
+        "「文」は処理の命令で値を返さないもの（例: if 文、for 文、関数宣言）だと確認する",
+        "代入式（x = 5）は式であり、代入した値（5）を返すことを確認する",
+        "関数呼び出し（console.log(x)）は式であることを確認する"
+      ],
+      "common_mistakes": [
+        "if 文が式だと思い込む（三項演算子は式）",
+        "変数宣言（let x = 5;）が式だと思い込む（宣言文である）",
+        "すべての行末にセミコロンをつけることと、文であることを混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "keyword-identifier-operator",
+      "description": "キーワード・識別子・演算子の区別を問う問題。それぞれの役割と命名ルールを確認する。",
+      "thinking_process": [
+        "「キーワード（予約語）」は JavaScript が特別な意味を持つ単語（let, const, if, for, return など）だと確認する",
+        "「識別子」は変数名・関数名などプログラマーが自由に命名できる名前だと確認する",
+        "識別子はキーワードと同じ名前にできないことを確認する",
+        "識別子のルール（数字始まり禁止・記号禁止・スペース禁止）を確認する"
+      ],
+      "common_mistakes": [
+        "let や const を識別子だと思い込む（キーワードである）",
+        "識別子に数字を先頭に使えると思い込む",
+        "演算子と識別子を混同する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

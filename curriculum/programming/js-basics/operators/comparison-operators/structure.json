@@ -1,0 +1,102 @@
+{
+  "unit_id": "comparison-operators",
+  "unit_name_jp": "比較演算子（== / === / != / !==）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "loose-vs-strict-equality",
+      "description": "== と === の違いを問う問題。型変換の有無を正確に理解しているかを確認する。",
+      "thinking_process": [
+        "左辺と右辺の型を確認する",
+        "== の場合は型変換（強制型変換）が起きるかを判断する",
+        "=== の場合は型も値も完全一致で比較されることを確認する",
+        "結果が true / false のどちらになるかを判断する"
+      ],
+      "common_mistakes": [
+        "== と === を同じ意味と思い込む（型変換を忘れる）",
+        "1 == '1' が false と思う（実際は true）",
+        "null == undefined が true になることを忘れる",
+        "NaN === NaN が false になることを知らない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "strict-inequality",
+      "description": "!= と !== の違いを問う問題。不等号演算子の型変換の有無を理解しているかを確認する。",
+      "thinking_process": [
+        "!=（非厳格）は型変換を行ってから比較することを確認する",
+        "!==（厳格）は型も値も一致していなければ true になることを確認する",
+        "具体的な値のペアで結果を導き出す"
+      ],
+      "common_mistakes": [
+        "!= と !== の挙動を混同する",
+        "'5' !== 5 が false と思う（実際は true）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "comparison-with-type-coercion",
+      "description": "型変換が絡む比較の結果を問う問題。数値・文字列・真偽値が混在するケースを扱う。",
+      "thinking_process": [
+        "どの型変換ルール（ToNumber・ToString）が適用されるかを特定する",
+        "一方が数値なら文字列を数値に変換して比較することを確認する",
+        "一方が真偽値なら true→1, false→0 に変換することを確認する",
+        "変換後の値で比較して結果を求める"
+      ],
+      "common_mistakes": [
+        "true == 1 が false と思う（実際は true）",
+        "false == '' が false と思う（実際は true）",
+        "null == 0 が true と思う（実際は false）",
+        "undefined == null 以外の値との比較で混乱する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "object-reference-comparison",
+      "description": "オブジェクト・配列を比較するとき、参照を比較することを問う問題。",
+      "thinking_process": [
+        "オブジェクトや配列は参照型であることを確認する",
+        "同じ中身でも別々に作ったオブジェクトは別の参照であると判断する",
+        "同じ変数を代入した場合のみ参照が一致することを確認する",
+        "結果が true か false かを判断する"
+      ],
+      "common_mistakes": [
+        "{} === {} が true と思う（実際は false）",
+        "[] == [] が true と思う（実際は false）",
+        "変数に代入して比較する場合と、リテラルで比較する場合を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "nan-null-undefined-comparison",
+      "description": "特殊値（NaN / null / undefined）の比較結果を問う問題。例外的な挙動を問う。",
+      "thinking_process": [
+        "NaN は自分自身と等しくない特殊値であることを確認する",
+        "null == undefined は true だが、null === undefined は false であることを確認する",
+        "NaN の判定には Number.isNaN() を使うべきことを思い出す",
+        "結果を正確に判断する"
+      ],
+      "common_mistakes": [
+        "NaN === NaN が true と思う",
+        "null == 0 が true と思う",
+        "undefined == false と思う"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "chained-comparison-behavior",
+      "description": "比較演算子の連鎖・組み合わせを問う問題。複数の比較を組み合わせた式の評価結果を求める。",
+      "thinking_process": [
+        "JavaScript では a < b < c のような連鎖比較は左結合で評価されることを確認する",
+        "まず a < b を評価して true/false（1/0）を得る",
+        "次にその結果を c と比較する",
+        "意図した比較と実際の結果が異なることを認識する"
+      ],
+      "common_mistakes": [
+        "1 < 2 < 3 を数学的な意味で捉え、常に true と思う（実際は true だが理由を誤解する）",
+        "3 > 2 > 1 が true と思う（実際は false：(3>2)→true→1、1>1→false）"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

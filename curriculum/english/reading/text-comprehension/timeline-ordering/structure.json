@@ -1,0 +1,133 @@
+{
+  "unit_id": "timeline-ordering",
+  "unit_name_jp": "時系列整理",
+  "grade": "英語リーディング（共通テスト第5問）",
+  "patterns": [
+    {
+      "pattern_id": "basic-year-lookup",
+      "description": "伝記・歴史的経緯の本文から、特定の出来事が起きた年・時期を直接探し出す問題。本文中の数字・年代表現と選択肢を照合する。",
+      "thinking_process": [
+        "問いが問う「出来事」を確認する",
+        "本文をスキャンして年・時期を表す数字・語句（in 19xx, two years later, at the age of など）を探す",
+        "見つけた情報と選択肢を照合して正解を選ぶ"
+      ],
+      "common_mistakes": [
+        "複数の年号が登場したとき、最初に見つけた年を選んでしまう",
+        "「〜年に生まれた」「〜年に引退した」を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "basic-sequence-direct",
+      "description": "本文の記述順が時系列と一致しているシンプルな物語・日記文で、出来事の前後関係を確認する問題。",
+      "thinking_process": [
+        "本文の段落・文の順序を追いながら出来事をリストアップする",
+        "設問が問う出来事の「何が先か・後か」を本文から確認する",
+        "選択肢と照合して正解を選ぶ"
+      ],
+      "common_mistakes": [
+        "本文の叙述順（語られる順）と実際の時系列を混同する",
+        "「次に」「最後に」などの接続語を見落とす"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "basic-period-identification",
+      "description": "「〜の間に」「〜の時代に」など期間・時代を示す表現から、特定の出来事がいつ行われたかを特定する問題。",
+      "thinking_process": [
+        "本文から期間・時代を示す表現（during, throughout, from…to, between など）を見つける",
+        "設問が問う出来事と、その期間の記述を照合する",
+        "選択肢から合致する選択肢を選ぶ"
+      ],
+      "common_mistakes": [
+        "「during」と「after」を読み間違えて期間の内外を混同する",
+        "似た期間表現が複数あるときに誤った期間を選ぶ"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "standard-ordering-multiple",
+      "description": "伝記・プロジェクト経緯などの本文を読み、4〜5つの出来事を正しい時系列順に並べる問題。時を表す語句を手がかりにする。",
+      "thinking_process": [
+        "本文に登場する出来事を読みながら時を表す語句（first, then, later, eventually, after that など）に注目する",
+        "出来事を時間軸に沿ってメモし、順序を整理する",
+        "選択肢の並び順と照合して正解を選ぶ"
+      ],
+      "common_mistakes": [
+        "本文の段落順を時系列と思い込み、フラッシュバック（過去回想）を見落とす",
+        "「after」の目的語（前の出来事）と主節（後の出来事）を逆に読む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "standard-before-after",
+      "description": "「before」「after」「when」「once」などの時を表す接続詞・前置詞を使った文を正確に解釈し、2つの出来事の前後関係を答える問題。",
+      "thinking_process": [
+        "該当する文を見つけ、「before / after / when」などの接続詞に注目する",
+        "接続詞の前後どちらの節が「先に起きたこと」かを確認する（after A → Aが先）",
+        "問いの表現と照合して正解を選ぶ"
+      ],
+      "common_mistakes": [
+        "「after he finished school, he moved」をそのまま読んで「移動→卒業」と逆に解釈する",
+        "「before」と「after」を読み間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "standard-timeline-chart",
+      "description": "年表形式のメモ・ポスターの空欄を本文から探した時系列情報で埋める問題。複数箇所の情報を統合する。",
+      "thinking_process": [
+        "空欄の位置（どの年・時期の欄か）を確認する",
+        "本文から対応する時期の記述を探す",
+        "空欄に入る出来事・情報を選択肢から選ぶ"
+      ],
+      "common_mistakes": [
+        "年表の「上（古い）」「下（新しい）」を混同する",
+        "似た年代の別の出来事を当てはめてしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "exam-inference-order",
+      "description": "「by the time」「once」「not until」など複雑な時間表現を含む文から、明示されていない出来事の順序を推論する問題。",
+      "thinking_process": [
+        "「by the time A, B」→「Aの時点でBはすでに完了」という意味を理解する",
+        "「not until A did B」→「AするまでBしなかった（AのあとにBが起きた）」を理解する",
+        "複数の文の情報を組み合わせて出来事の順序を推論する"
+      ],
+      "common_mistakes": [
+        "「by the time」を「のとき（同時）」と誤解して順序を逆にする",
+        "「not until」の否定の範囲を誤読し、出来事が起きた時点を逆に解釈する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "exam-multiple-source-order",
+      "description": "本文の複数段落・複数文書から情報を集め、時系列上の「空白期間」や「何年前か」を計算して出来事の前後関係を確定する問題。",
+      "thinking_process": [
+        "複数の情報源から年代・経過期間を収集する",
+        "計算が必要な場合（「3年後」「2歳のとき（生年から）」など）は年号を計算して順序を確定する",
+        "出来事を時間軸に並べて選択肢と照合する"
+      ],
+      "common_mistakes": [
+        "「3年後」を起点の年にそのまま加算せず、起点を誤って計算する",
+        "複数段落の情報を照合せず、一段落だけを根拠に順序を決める"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "exam-NOT-question",
+      "description": "時系列に関する記述のうち、本文の内容と一致しないもの（NOT問題）を選ぶ問題。全選択肢を本文と照合する必要がある。",
+      "thinking_process": [
+        "各選択肢の内容を本文の記述と一つずつ照合する",
+        "本文に明示されている情報と選択肢の時系列表現が一致するか確認する",
+        "本文に記述がない・本文と矛盾する選択肢を正解として選ぶ"
+      ],
+      "common_mistakes": [
+        "「本文に書いていない＝誤り」と判断せず、書いていない選択肢を正解として見落とす",
+        "本文と矛盾する情報を「読み飛ばし」で見落とす"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

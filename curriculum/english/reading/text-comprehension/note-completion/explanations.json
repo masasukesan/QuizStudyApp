@@ -1,0 +1,513 @@
+{
+  "nc-001": {
+    "lead": "本文の中に「opened his small bakery ... in 2018」という表現があります。メモの空欄の項目は「開業年:」なので、お店を開いた年を探せばよいとわかります。本文をスキャンして「2018」という数字を見つけると、正解は「2018年」とわかります。",
+    "steps": [
+      "メモの空欄の前の項目名「開業年:」を確認し、「いつお店を開いたか」を本文から探すことを決める",
+      "本文をスキャンして年号（数字）が出てくる部分に注目する",
+      "「opened his small bakery ... in 2018」を見つけ、正解が2018年だと確認する"
+    ],
+    "common_mistakes": [
+      "本文には「40年以上」という年数も登場するが、これは祖父の職歴であり開業年ではない",
+      "「4 AM」や「7 AM」は時刻であり年号と混同しないよう注意"
+    ],
+    "tips": [
+      "メモの穴埋めは、まず空欄の項目名（「開業年:」「場所:」など）を読んでから本文を探しに行くと効率的です",
+      "英文の年号は4桁の数字なので、数字をスキャンするだけで素早く見つけられます"
+    ],
+    "translation": "トム・ヘンドリックスは2018年にメインストリートに小さなベーカリーをオープンしました。彼はパン作りの技術を40年以上プロのパン職人として働いていた祖父から学びました。トムは毎朝午前4時に起きてパンを焼き始め、お客様が到着するころには焼きたてのパンが並んでいます。"
+  },
+  "nc-002": {
+    "lead": "本文に「will take place on October 15th」とあり、これが開催予定日です。「October 22nd」は雨天の場合の予備日です。メモの「開催予定日:」の空欄には「10月15日」が入ります。選択肢Aの「10月22日」は雨天予備日であり混同しないよう注意が必要です。",
+    "steps": [
+      "空欄の項目が「開催予定日:」であることを確認し、予定の日程を探すことを決める",
+      "本文から「take place on October 15th」を見つける",
+      "メモにすでに書かれている「雨天予備日: 10月22日」と区別して、正解が10月15日だと確定する"
+    ],
+    "common_mistakes": [
+      "「10月22日」（雨天予備日）を「開催予定日」と混同しやすい。メモの他の項目も確認して区別すること",
+      "選択肢Cの「10月8日」や選択肢Dの「11月1日」は本文に登場しない数字"
+    ],
+    "tips": [
+      "お知らせ文には日付が複数登場することが多い。それぞれの日付が「何の日か」を必ず本文で確認しよう",
+      "「in case of rain」＝「雨の場合は」という表現が出たら、その後の日付は予備日だとわかる"
+    ],
+    "translation": "生徒・教職員全員を年次体育祭にご招待します。体育祭は10月15日に開催されます。雨天の場合は10月22日に延期します。体育祭は学校のメイングラウンドで行われます。"
+  },
+  "nc-003": {
+    "lead": "本文は「よく育てられる品種（most commonly grown garden variety）」が約80日で開花すると述べています。70日は「速く育つ品種（fast-growing varieties）」、100日は「大型品種（giant varieties）」のことです。メモの空欄は「よく育てられる品種の開花までの日数」なので、正解は「約80日」です。",
+    "steps": [
+      "空欄の前の説明「よく育てられる品種の開花までの日数」を読み、どの品種の情報が必要かを確認する",
+      "本文から「most commonly grown garden variety takes about 80 days」を見つける",
+      "70日（速い品種）・100日（大型品種）という別の数字と混同しないよう、「most commonly」に対応する数字が80であることを確認する"
+    ],
+    "common_mistakes": [
+      "70日・80日・100日と3つの数字が登場するため、どれが「よく育てられる品種」のものかを確認しないと誤答につながる",
+      "「70〜100日」という範囲で書かれた文を見て選択肢Aの「約100日」を選ぶのは誤り"
+    ],
+    "tips": [
+      "数字が複数出てくるときは「どの品種・どの条件の数字か」を必ず確認しよう",
+      "「most commonly」＝「最もよく」という表現が、メモの「よく育てられる品種」に対応する"
+    ],
+    "translation": "ひまわりは庭の中でも最も明るい雰囲気を持つ花の一つです。北アメリカ原産で、太陽に向かって花を向けることで知られています。最もよく栽培されるガーデン品種は、種から満開になるまで約80日かかりますが、早生品種もあります。"
+  },
+  "nc-004": {
+    "lead": "本文に「The main ingredient is miso, a paste made from fermented soybeans」とあります。「main ingredient（主な食材）」＝「味噌（miso）」です。メモの「主な食材: 【　】・豆腐・わかめ」の空欄には「味噌」が入ります。豆腐やわかめはメモにすでに書かれており、空欄に入るのはそれら以外の「主な食材」の最初の一つである味噌です。",
+    "steps": [
+      "メモの「主な食材: 【　】・豆腐・わかめ」を見て、空欄がリストの先頭にあることを確認する",
+      "本文から「The main ingredient is miso」を見つける",
+      "「main ingredient（主な食材）」が「miso（味噌）」であると確認し、正解はDの「味噌」とわかる"
+    ],
+    "common_mistakes": [
+      "「豆腐」「わかめ」は本文にも登場するが、メモにすでに書かれているので空欄には入らない",
+      "選択肢Aの「だし」は本文に登場しない"
+    ],
+    "tips": [
+      "メモにすでに書かれている情報は空欄の答えにならない。空欄の前後をよく見て「何が足りないか」を判断しよう",
+      "「main ingredient」＝「主な食材」という言い換えに気づくことがポイント"
+    ],
+    "translation": "みそ汁は毎日何百万人もの人が楽しむ日本の伝統的な料理です。主な材料はみそで、発酵大豆から作られたペーストです。通常、豆腐・わかめ・出汁と組み合わせます。みそ汁は10分ほどで作れます。"
+  },
+  "nc-005": {
+    "lead": "本文の旅程は「京都（スタート）→大阪（Next, I traveled to Osaka）→奈良（final two days）」という順番です。メモの「2番目に訪れた場所」に入るのは大阪（Osaka）です。",
+    "steps": [
+      "本文の移動順序を確認する：「I started my journey in Kyoto」→「Next, I traveled south to Osaka」→「In my final two days, I headed to Nara」",
+      "「Next」（次に）の後に来る場所が2番目に訪れた場所であることを確認する",
+      "「Osaka」＝「大阪」と対応させて、正解はBの「大阪」とわかる"
+    ],
+    "common_mistakes": [
+      "「京都」はすでにメモに「1番目」として書かれているので空欄には入らない",
+      "「奈良」は最後（3番目）に訪れた場所であり、2番目ではない"
+    ],
+    "tips": [
+      "旅行の順序を表す表現（started in, Next, final）を素早く拾うと順序を整理しやすい",
+      "メモにすでに書かれた情報（「1番目: 京都」「最後: 奈良」）も手がかりになる"
+    ],
+    "translation": "昨春、西日本を10日間旅しました。京都からスタートし、お寺や伝統的なお茶屋を巡りました。次に南に向かって大阪へ移動し、活気あふれる食文化を楽しみました。最後の2日間は奈良に向かい、鹿を見てきました。"
+  },
+  "nc-006": {
+    "lead": "本文に「bringing our total to 24 players」とあります。「total（合計・総数）」が24名というのが今年の部員数です。「6 more than last year（昨年より6名多い）」という表現もありますが、これは増加数であり今年の総数ではありません。正解は「24名」です。",
+    "steps": [
+      "空欄の項目「今年の部員数:」を確認し、今年の総数を本文から探す",
+      "「bringing our total to 24 players」という表現を見つける",
+      "「total（合計）＝24名」と確認し、正解はCの「24名」とわかる"
+    ],
+    "common_mistakes": [
+      "「6名増」という情報から「6名」を選ぶのは誤り。6は増加した人数であり、今年の総数ではない",
+      "昨年の人数は24−6＝18名だが、メモの空欄は今年の部員数を問うている"
+    ],
+    "tips": [
+      "「total to 〜」＝「合計〜になる」という表現は部員数・合計数を表すときによく使われる",
+      "増加数（6名）と総数（24名）を区別するために、「bringing our total to」というキーワードに注目しよう"
+    ],
+    "translation": "チェスクラブは今年いくつかの新しいメンバーを迎え、合計24名となりました——昨年より6名増えました。練習は週2回、火曜日と木曜日に行っています。今年の市内大会は来月開催の予定です。"
+  },
+  "nc-007": {
+    "lead": "本文に「open Monday through Saturday, from 9 AM to 7 PM」とあります。「Monday through Saturday（月曜から土曜まで）」「9 AM to 7 PM（午前9時〜午後7時）」という2つの情報を合わせると、選択肢Aの「月曜〜土曜 午前9時〜午後7時」が正解です。他の選択肢は曜日または時間が本文と異なります。",
+    "steps": [
+      "空欄の項目「開館時間:」を確認し、曜日と時間の両方が必要だと把握する",
+      "本文から「Monday through Saturday, from 9 AM to 7 PM」を見つける",
+      "選択肢を一つずつ確認し、曜日も時間も本文と一致しているのはAだけだと確認する"
+    ],
+    "common_mistakes": [
+      "選択肢Dは「午前10時〜午後7時」と時間が違うので注意（本文は9 AM）",
+      "選択肢Cは「月曜〜金曜」と曜日が違う（本文はMonday through Saturdayで土曜まで開館）"
+    ],
+    "tips": [
+      "開館時間のような情報は「曜日」と「時間」の両方を確認しないと誤答しやすい",
+      "「Monday through Saturday」＝「月曜から土曜まで（土曜含む）」という表現に慣れておこう"
+    ],
+    "translation": "グリーンフィールド市立図書館は新しい開館スケジュールをお知らせします。来月から図書館は月曜日から土曜日、午前9時から午後7時まで開館します。日曜日は引き続き休館となります。"
+  },
+  "nc-008": {
+    "lead": "本文に「One of the most remarkable findings is that each individual dolphin has its own unique whistle — a kind of personal name — that it uses to identify itself to the group」とあります。「most remarkable（最も注目される）」という表現がメモの「最も注目される特徴:」に対応します。個体ごとに固有の口笛（unique whistle）で自分を識別するという内容が正解です。",
+    "steps": [
+      "空欄の前の「最も注目される特徴:」に対応する本文箇所を探す",
+      "「most remarkable findings」という表現を本文で見つける",
+      "その後に続く「each individual dolphin has its own unique whistle ... to identify itself」の内容を選択肢Dと照合して正解を確認する"
+    ],
+    "common_mistakes": [
+      "本文の最初に登場するコミュニケーション方法（クリック音・口笛・体の動き）はメモにすでに書かれており、空欄への答えではない",
+      "選択肢A〜Cの内容は本文に書かれていない"
+    ],
+    "tips": [
+      "「最も〜な特徴」を問う空欄には、本文の「most remarkable / most notable」などのキーワードが対応していることが多い",
+      "「a kind of personal name」＝「名前のようなもの」という比喩表現が「自分を識別する」という意味の助けになる"
+    ],
+    "translation": "イルカは高度に社会的な動物で、互いに洗練されたコミュニケーション方法を発達させています。科学者たちは、イルカがクリック音・口笛・身体の動きを組み合わせてコミュニケーションを取ることを発見しました。"
+  },
+  "nc-009": {
+    "lead": "本文に「originally built in 1450 by the local lord」とあります。「originally built（もともと建てられた）」が「建設年」に対応します。1780年と2003年はどちらも「改修年（renovated）」なので、メモの「改修年:」にすでに書かれています。正解は「1450年」です。",
+    "steps": [
+      "空欄の項目「建設年:」を確認し、最初に建てられた年を探す",
+      "本文から「originally built in 1450」を見つける",
+      "1780年・2003年はメモの「改修年:」に対応する情報であり建設年ではないことを確認する"
+    ],
+    "common_mistakes": [
+      "「1780年」は最初の改修年であり建設年ではない",
+      "「originally」という副詞が「最初に作られた（＝建設年）」を意味することを理解することが重要"
+    ],
+    "tips": [
+      "「originally built（もともと建てられた）」と「renovated（改修された）」の区別が重要",
+      "メモにすでに書かれている情報（改修年）を確認しておくと、建設年との混同を防げる"
+    ],
+    "translation": "谷を見下ろす古い石造りのお城は、もともと1450年に近隣の敵から土地を守るために地元の領主によって建てられました。何世紀もの間に城は荒廃しました。"
+  },
+  "nc-010": {
+    "lead": "本文に「my long-standing back pain began to ease after just two weeks」とあります。「back pain（腰痛）」が「ease（和らぐ）」したことが「主な効果」です。選択肢Bの「腰痛が和らいだ」が正解です。",
+    "steps": [
+      "空欄の項目「主な効果:」を確認し、スタンディングデスクを使って起きた効果を探す",
+      "本文から「back pain began to ease」という表現を見つける",
+      "「back pain が ease した」＝「腰痛が和らいだ」と日本語で対応させて正解はBと確認する"
+    ],
+    "common_mistakes": [
+      "「購入理由」は「健康とポスチャーの改善」であり、これは本文の「hoping to improve my posture and overall health」に対応するが、空欄の「主な効果」は実際に起きたことを答えるもの",
+      "「集中力」「睡眠」「体重」への言及は本文にない"
+    ],
+    "tips": [
+      "「ease（和らぐ・楽になる）」という動詞は「症状が改善した」ことを表す。back pain が ease ＝ 腰痛が和らいだ",
+      "「long-standing（長年の・慢性的な）back pain」という表現は腰痛が長期間続いていたことを示す"
+    ],
+    "translation": "6か月前、姿勢と全体的な健康改善を期待してスタンディングデスクを購入しました。最初は確信が持てませんでしたが、長年悩んでいた腰痛が和らぎ始め、嬉しい驚きがありました。"
+  },
+  "nc-011": {
+    "lead": "本文に「more than 60% of households ... participated actively」とあります。「more than 60%（60%を超える）」が初年度の参加率です。選択肢Cの「60%を超える家庭」が正確な言い換えです。選択肢Bの「約80%」や選択肢Aの「約40%」は本文に根拠がありません。",
+    "steps": [
+      "空欄の項目「初年度の参加率:」を確認する",
+      "本文の「Surveys showed that more than 60% of households ... participated」を見つける",
+      "「more than 60%（60%より多い）」を正確に言い換えた選択肢Cを選ぶ。選択肢Bの「約80%」は本文より大きく、Aの「約40%」は本文より小さい"
+    ],
+    "common_mistakes": [
+      "「60%以上」を「約60%」と読み間違えて、どれも正確でないと迷う場合がある",
+      "「more than 60%」は「60%を超える」であり、「ちょうど60%」ではないことに注意"
+    ],
+    "tips": [
+      "「more than X%」＝「X%を超える」「X%より多い」という表現は選択肢の言い換えとして頻出",
+      "選択肢が「約〜%」と書かれているときは、本文の数値と一致するかだけでなく、大小関係も確認しよう"
+    ],
+    "translation": "ミルブルック市は2022年4月に新しいリサイクルプログラムを開始しました。このプログラムのもとで、住民は廃棄物を紙・プラスチック・ガラスの3種類に分別するよう求められています。市の担当者によると、導入後すぐに効果が現れました。"
+  },
+  "nc-012": {
+    "lead": "本文は2つの情報を提供しています。第1文「it marks the town's 100th anniversary（市の創立100周年）」と最終文「A portion of the proceeds ... will be donated to the local elementary school's library renovation fund（地元小学校の図書館改修基金への寄付）」。メモの「今年の目的:」にはこの両方が含まれる必要があります。選択肢Aがこの2点を正確に反映しています。",
+    "steps": [
+      "空欄の「今年の目的:」が何かを確認し、本文全体から目的に関する情報を集める",
+      "「it marks the town's 100th anniversary」→100周年記念、「proceeds donated to ... library renovation fund」→小学校図書館改修への寄付、という2つの情報を見つける",
+      "選択肢Aがこの両方を含んでいることを確認し、他の選択肢（B・C・D）が本文に書かれていない内容を含むことを確認する"
+    ],
+    "common_mistakes": [
+      "「music, food stalls, and traditional dances」という催し物の内容を「目的」と間違える",
+      "1つの情報（100周年か寄付のどちらか）だけを見て判断し、もう一方を見落とす"
+    ],
+    "tips": [
+      "「今年の目的」のような複合的な空欄は、本文全体を確認してから選択肢を絞り込もう",
+      "「proceeds（収益・売上）」が「donated to（寄付される）」という流れを把握することが重要"
+    ],
+    "translation": "メープルウッド・サマーフェスティバルは7月20日にグリーンフィールドパークで開催されます。今年のフェスティバルは特別で、町の100周年記念を祝う節目となります。主催者は音楽・食・娯楽で一日を満喫できるプログラムを計画しています。"
+  },
+  "nc-013": {
+    "lead": "本文に「At 16, he entered his school's annual science fair with a device he designed himself: a compact water purification system」とあります。「water purification system（水質浄化システム）」が科学展の出品作品です。選択肢Dの「小型の水質浄化装置」が正解です。",
+    "steps": [
+      "空欄の項目「科学展での出品作品:」を確認し、16歳のときの出品物を本文から探す",
+      "「At 16 ... a compact water purification system」という記述を見つける",
+      "「water purification（水質浄化）」と「compact（小型の）」を組み合わせた選択肢Dが正解と確認する"
+    ],
+    "common_mistakes": [
+      "「12歳のときの活動（電化製品の分解・組み立て）」と「16歳での出品物」を混同しない",
+      "選択肢Cの「空気清浄機（air purification）」は「水質浄化（water purification）」とは異なる"
+    ],
+    "tips": [
+      "「water purification」＝「水を浄化すること（水質浄化）」、「air purification」＝「空気を浄化すること（空気清浄）」と区別しよう",
+      "「compact（小型の・コンパクトな）」という形容詞がメモの「小型の」と対応している"
+    ],
+    "translation": "レオ・田中は幼い頃から工学に異常なほどの関心を示しました。12歳のときにはすでに複数の古い家電製品を分解して組み立て直していました。16歳で学校の年次サイエンスコンテストに出場しました。"
+  },
+  "nc-014": {
+    "lead": "本文の第1文「Ms. Yamada, the school's science teacher, had an idea ... She started the school garden project」から、プロジェクトを始めたのはヤマダ先生（理科担当）だとわかります。選択肢Bの「理科担当のヤマダ先生」が正解です。",
+    "steps": [
+      "空欄の項目「プロジェクトを始めた人:」を確認し、誰がスタートさせたかを本文から探す",
+      "「Ms. Yamada, the school's science teacher ... She started the school garden project」を見つける",
+      "「science teacher」＝「理科（担当の）先生」、「Ms. Yamada」＝「ヤマダ先生」と対応させ、選択肢Bを選ぶ"
+    ],
+    "common_mistakes": [
+      "「enthusiastic students（やる気のある生徒）」も菜園に関わっているが、始めた（started）のはヤマダ先生",
+      "「生徒会の代表」「校長先生」「農家」は本文に登場しない"
+    ],
+    "tips": [
+      "「had an idea ... She started」という一連の記述が「誰が始めたか」の手がかりになる",
+      "「the school's science teacher」という肩書きと、選択肢の「理科担当」が対応していることを確認しよう"
+    ],
+    "translation": "3年前、学校の理科教師の山田先生があるアイデアを思いつきました——学校の敷地内で生徒自身が食べ物を育てられたらどうだろうか、と。先生はわずかな種とボランティアの生徒たちの力を借りて学校菜園プロジェクトを始めました。"
+  },
+  "nc-015": {
+    "lead": "本文は都市農業の2つのメリットを挙げています。「cuts transportation costs significantly（輸送コストを大幅に削減する）」と「access to fresher vegetables（より新鮮な野菜が手に入る）」です。この2点をまとめたのが選択肢Cです。他の選択肢（学習機会・雇用・環境教育）は本文に書かれていません。",
+    "steps": [
+      "空欄の「主なメリット:」に対応する情報を本文の各段落から集める",
+      "「cuts transportation costs significantly」と「access to fresher vegetables」という2つのメリットを確認する",
+      "選択肢Cの「輸送コストの削減と新鮮な野菜の提供」がこの2点を正確にまとめていることを確認する"
+    ],
+    "common_mistakes": [
+      "「学習機会の提供」「農業雇用の増加」「環境教育」は本文に書かれていないため選択肢A・B・Dは誤り",
+      "一方のメリット（輸送コスト）だけを見て、もう一方（新鮮な野菜）を見落とす"
+    ],
+    "tips": [
+      "「One of the key advantages（主なメリットの一つ）」という表現に注目し、その後の文を丁寧に読もう",
+      "「Additionally（さらに）」という接続語は追加情報が来るサインなので、そこも確認する"
+    ],
+    "translation": "都市農業とは、屋上・コミュニティガーデン・使われていない空き地など、都市の中で食料を育てることです。都市が拡大するにつれ、このアイデアは世界中で注目を集めています。"
+  },
+  "nc-016": {
+    "lead": "本文に「a small ball made of woven rattan — a type of natural plant material」とあります。「woven rattan（籐で編んだ）」が使用する用具（ボール）の材質です。選択肢Aの「籐（とう）で編んだ小さなボール」が正解です。",
+    "steps": [
+      "空欄の「使用する用具:」を確認し、どんなボールが使われるかを本文から探す",
+      "「a small ball made of woven rattan」を見つける",
+      "「rattan（籐）」＝「自然の植物素材」であることを確認し、選択肢Aと照合する"
+    ],
+    "common_mistakes": [
+      "「rattan（籐・とう）」という素材が馴染みないため他の素材（ゴム・革・プラスチック）と混同しやすい",
+      "「natural plant material（自然の植物素材）」という補足説明を読むと「ゴムも植物では？」と思いがちだが、本文では明確に「rattan」と指定されている"
+    ],
+    "tips": [
+      "「made of（〜でできている）」という表現は材質を示す重要なキーワード",
+      "「rattan」は竹に似た東南アジア産の植物。ダッシュ（—）以降の「a type of natural plant material」が日本語訳の手がかりになる"
+    ],
+    "translation": "セパタクローは東南アジア、特にタイ・マレーシア・インドネシアなどで広く普及している伝統的なスポーツです。このゲームでは、籐（ラタン）という天然素材で編まれた小さなボールを使います。"
+  },
+  "nc-017": {
+    "lead": "本文に「On weekdays, buses will run every 15 minutes」とあります。平日（weekdays）の運行間隔は15分に1本です。選択肢Dの「15分に1本」が正解です。休日の30分と混同しないよう注意が必要です。",
+    "steps": [
+      "空欄の「平日の運行間隔:」を確認し、weekdaysの情報を本文から探す",
+      "「On weekdays, buses will run every 15 minutes」を見つける",
+      "「every 15 minutes（15分ごとに）」＝「15分に1本」と対応させて選択肢Dを選ぶ"
+    ],
+    "common_mistakes": [
+      "「every 30 minutes（休日）」を「平日」の情報と混同する",
+      "選択肢の「10分・20分・25分」は本文に登場しない数字"
+    ],
+    "tips": [
+      "「On weekdays」と「On weekends and public holidays」の2つの条件が対比されているので、それぞれの情報を区別して読もう",
+      "「every X minutes」＝「X分に1本（X分ごと）」という表現は英語のバス・電車情報で頻出"
+    ],
+    "translation": "来週の月曜日から、市バス7番路線がダウンタウン駅とリバーサイドショッピングセンターの間で運行を開始します。途中、中央病院にも停車します。平日はバスが一定間隔で運行します。"
+  },
+  "nc-018": {
+    "lead": "本文の後半に「As the weather turns colder in winter, the offerings shift toward preserved goods such as homemade jams, fruit preserves, and pickled vegetables」とあります。「preserved goods（保存食）」の具体例として「jams（ジャム）」と「pickled vegetables（漬物）」が挙げられています。選択肢Bが正解です。",
+    "steps": [
+      "空欄の「冬の主な商品:」に対応する本文箇所を探す（夏の商品の記述の後を読む）",
+      "「shift toward preserved goods such as homemade jams, fruit preserves, and pickled vegetables」を見つける",
+      "「jams・pickled vegetables」＝「ジャム・漬物などの保存食」と対応させて選択肢Bを選ぶ"
+    ],
+    "common_mistakes": [
+      "「夏：果物・野菜」と「冬：保存食」の対比を読み取らず、夏の商品を冬の商品と誤解する",
+      "選択肢A・C・Dは本文に登場しない商品カテゴリ"
+    ],
+    "tips": [
+      "「As the weather turns colder in winter, ... shift toward」という表現が「冬の変化」を示すサイン",
+      "「preserved goods（保存食）」という語と具体例（jams, pickled vegetables）を一緒に覚えると読み取りが速くなる"
+    ],
+    "translation": "ヒルサイドファーマーズマーケットは毎週土曜日の朝8時に町の広場でオープンします。このマーケットは年間を通じて人気ですが、扱う商品は季節によって変わります。夏の時期、出店者は様々な野菜を販売します。"
+  },
+  "nc-019": {
+    "lead": "本文の最後の文に「Most importantly, the writer stresses that consistency matters far more than the total number of hours spent in any single study session」とあります。「Most importantly（最も重要なのは）」という強調表現に続いて、「consistency（継続すること）matters more than（〜より大切）hours（時間の長さ）」と述べられています。選択肢Cの「学習時間の長さより継続することが大切」が正解です。",
+    "steps": [
+      "空欄の「筆者が最も強調すること:」に対応する「Most importantly」の後の文を探す",
+      "「consistency matters far more than the total number of hours」を見つける",
+      "「consistency（継続）>hours（時間の長さ）」という意味を確認して選択肢Cを選ぶ"
+    ],
+    "common_mistakes": [
+      "「ネイティブと話す練習」や「単語ノートをつける」は3つのステップの一部であり、筆者が「最も」強調することではない",
+      "「matters more than hours」を逆に読んで「時間が大切」と誤解しないよう注意"
+    ],
+    "tips": [
+      "「Most importantly（最も重要なのは）」という表現は筆者の主張の核心を示す重要なシグナル",
+      "「consistency（一貫性・継続性）」という単語は頻出語。「継続・コツコツ続けること」という意味"
+    ],
+    "translation": "新しい言語を学ぶことは、必ずしも大変なことではありません。大きな違いをもたらす3つの重要な習慣があります。まず、たとえ15分でも毎日ネイティブスピーカーを聴くようにしてください。次に、"
+  },
+  "nc-020": {
+    "lead": "本文の冒頭に「A neighborhood cleanup project began after local residents started noticing a steady increase in litter near the community park」とあります。「began after（〜をきっかけに始まった）」の後に「residents ... noticing ... litter（住民がゴミの増加に気づいた）」と続き、それが始まったきっかけです。選択肢Aが正解です。",
+    "steps": [
+      "空欄の「始まったきっかけ:」を確認し、プロジェクトが始まった理由を本文から探す",
+      "「began after local residents started noticing a steady increase in litter」を見つける",
+      "「residents noticing litter」＝「住民がゴミの増加に気づいた（問題意識を持った）」と日本語で対応させて選択肢Aを選ぶ"
+    ],
+    "common_mistakes": [
+      "「Concerned about the environment」という表現も登場するが、これはきっかけではなく住民の心情を説明する補足",
+      "「市役所からの要請」「企業の寄付」「学校の環境教育」は本文に登場しない"
+    ],
+    "tips": [
+      "「began after（〜の後に始まった）＝きっかけ」という読み方を覚えておくと役立つ",
+      "「steady increase in litter（ゴミの着実な増加）」が住民の問題意識の原因になっている因果関係を読み取ろう"
+    ],
+    "translation": "地域のコミュニティパーク周辺のごみが増えていることに地域住民が気づき始めてから、近隣の清掃プロジェクトが始まりました。環境と公園で遊ぶ子どもたちの安全を心配した住民たちが行動を起こしました。"
+  },
+  "nc-021": {
+    "lead": "この文章全体が伝えたいことは「デジタル機器の使い方を学ぶだけでは不十分で、オンライン情報を批判的に評価する力（critical thinking skills）が必要だ」という主張です。選択肢Dの「情報を見極める力を育てよう」がこの主張を最も簡潔・正確に表しています。選択肢Aは「使い方」に限定されており、BCは本文の主題と異なります。",
+    "steps": [
+      "各段落の要点をまとめる：①デジタル機器は普及しているが情報評価力が不足、②偽情報が広まっている、③学校で批判的思考力を育てるべき",
+      "文章全体を通じて繰り返されているテーマ（critical thinking / evaluating online content）を特定する",
+      "タイトルとして「広すぎず狭すぎず」主題を捉えた選択肢Dを選ぶ"
+    ],
+    "common_mistakes": [
+      "選択肢A「デジタル機器の安全な使い方」は本文の一部に触れているが、文章の核心（情報評価力）を反映していない",
+      "選択肢B「情報格差」・C「健康問題」は本文に書かれていない内容"
+    ],
+    "tips": [
+      "タイトル問題では「本文の一部だけに当てはまる」選択肢を避けること。文章全体のテーマを捉えているかを確認しよう",
+      "「critical thinking（批判的思考）」＝「情報を鵜呑みにせず自分で考えて判断する力」という理解が読解の助けになる"
+    ],
+    "translation": "現代の世界では、生徒はデジタルデバイスを勉強からSNSまであらゆる場面で使っています。しかし、オンラインで読む情報が信頼できるかどうかを評価するスキルを持っていない若者も多くいます。"
+  },
+  "nc-022": {
+    "lead": "本文全体が強調しているのは「個人の小さな行動が積み重なって大きな環境変化を生む」というメッセージです。選択肢Bの「あなたの一歩が、地球の未来を変える」がこのメッセージを最も簡潔に体現したキャッチコピーです。Aは「食品業界」に焦点を当てており個人への呼びかけではありません。CとDは法律や機関への期待であり、本文の方向性とは異なります。",
+    "steps": [
+      "本文全体のメッセージを確認する：個人の日常的な行動（planning, using leftovers）の積み重ねが環境に大きな影響を与える",
+      "キャッチコピーとして適切なもの＝「個人への行動喚起」「簡潔・前向き」「本文の主旨に合う」という基準で選択肢を評価する",
+      "選択肢Bが個人（あなた）に向けた行動喚起になっており本文のメッセージを反映していることを確認する"
+    ],
+    "common_mistakes": [
+      "本文冒頭の「1/3の食品が廃棄される」という事実を見て、「国連」や「企業」をキーワードに含む選択肢D・Aを選ぶのは誤り",
+      "「法律を作ろう（C）」という主張は本文にない"
+    ],
+    "tips": [
+      "キャッチコピー問題では「誰に向けたメッセージか（個人？企業？政府？）」を本文から確認することが重要",
+      "「add up to（積み重なって〜になる）」という表現が「一歩一歩の積み重ね」というキャッチコピーの根拠になっている"
+    ],
+    "translation": "国連によると、世界で生産される食料の約3分の1が毎年廃棄されています。産業規模での変化が必要ですが、個人も意味のある貢献ができます。"
+  },
+  "nc-023": {
+    "lead": "本文の最終文に「the people doing the helping also gain enormously from the experience（助ける側の人も経験から多くを得る）」とあります。これが筆者の結論です。選択肢Aの「他者を助けることは、助ける人自身にも大きな恩恵をもたらす」が最も正確に対応しています。選択肢B・C・Dは本文にない主張や断言を含んでいます。",
+    "steps": [
+      "本文の最後の文「the author concludes that ...」を見つける",
+      "「while volunteering is clearly beneficial to the communities being served, the people doing the helping also gain enormously」という内容を把握する",
+      "「also gain enormously」＝「助ける側も大きな恩恵を受ける」と選択肢Aを照合して正解を確認する"
+    ],
+    "common_mistakes": [
+      "選択肢Cの「趣味よりもボランティアが効果的」は本文に書かれていない比較",
+      "選択肢Bの「義務化すべき」は筆者の主張を超えた内容"
+    ],
+    "tips": [
+      "「concludes that（〜と結論づける）」という表現が筆者の主張の場所を示す重要なシグナル",
+      "「while A, B（AだがBでもある）」という構文は「両方の側面を認める」表現。ここではコミュニティ（A）だけでなくボランティア自身（B）も恩恵を受けると述べている"
+    ],
+    "translation": "研究では一貫して、定期的にボランティア活動に参加する人は、そうでない人と比べて個人的な幸福感が著しく高いことが示されています。他者を助ける行為は、目的意識とコミュニティへのつながり感を生み出します。"
+  },
+  "nc-024": {
+    "lead": "本文の最終文に「The researchers concluded that ... improving sleep quality and maintaining a consistent sleep schedule is among the most powerful and accessible strategies available」とあります。「among the most powerful（最も強力な方法の一つ）」かつ「accessible（誰でも実践できる）」な健康維持策として、睡眠の質と規則性を挙げています。選択肢Cが正解です。",
+    "steps": [
+      "「The researchers concluded that」という結論部分を本文から探す",
+      "「improving sleep quality and maintaining a consistent sleep schedule is among the most powerful ... strategies」という内容を確認する",
+      "選択肢Cの「睡眠の質と規則的な睡眠習慣の改善が健康維持に最も効果的な方法の一つだ」と照合して正解を確認する"
+    ],
+    "common_mistakes": [
+      "選択肢Aの「薬を使う」という手段は本文に登場しない",
+      "選択肢Bの「個人差があるため推奨時間は決められない」は本文と逆の主張（本文は7〜9時間を推奨している）"
+    ],
+    "tips": [
+      "「among the most powerful（最も強力な方法の一つ）」という表現は最上級に近い強い主張。これが結論の核心",
+      "「accessible（誰でも実践できる・手の届く）」という単語は「簡単に取り組める」という意味"
+    ],
+    "translation": "昨年発表された大規模な研究によると、大人は最高のパフォーマンスを発揮するために1晩7〜9時間の睡眠が必要であることが分かりました。また、定期的に6時間未満しか眠れない人は、より多くの問題を抱える傾向があることも示されました。"
+  },
+  "nc-025": {
+    "lead": "本文の内容は「自転車専用レーンを整備した結果（原因）、自転車通勤者が35%増えた（結果）」という因果関係です。レポートタイトルとしてこの因果関係を表したのが選択肢Dの「自転車専用レーン整備がもたらす通勤行動の変化」です。他の選択肢（比較研究・事故・健康効果）は本文の主題と異なります。",
+    "steps": [
+      "本文の主な情報を整理する：①20kmのレーン整備、②35%の自転車通勤増加、③さらなる拡充計画",
+      "タイトルとして「整備（原因）→通勤行動の変化（結果）」を表す選択肢を探す",
+      "選択肢Dが原因（bike lanes）と結果（commuting behavior changes）の関係を正確に表していることを確認する"
+    ],
+    "common_mistakes": [
+      "選択肢Aの「比較研究」は本文に比較がないため不適切",
+      "選択肢Bの「交通事故減少」は本文に書かれていない",
+      "選択肢Cの「健康効果・市民意識調査」も本文の内容ではない"
+    ],
+    "tips": [
+      "レポートタイトル問題では「何が原因で何が結果か」という因果関係を把握してからタイトルを評価すると選びやすい",
+      "「The results were immediate and dramatic（結果はすぐに・劇的に現れた）」という表現がレポートの中心的な発見を示す"
+    ],
+    "translation": "この1年間、市政府は都市部全体に20キロメートルの自転車専用レーンを新設するための投資を行いました。その結果はすぐに顕著に現れました——自転車通勤をする住民の数が大幅に増加しました。"
+  },
+  "nc-026": {
+    "lead": "本文の結論部分に「teaching traditional crafts to the next generation is not just about preserving skills — it is about ensuring that cultural identity and history are passed down」とあります。「技術の保存だけでなく文化的アイデンティティと歴史の継承」が主旨です。選択肢Aの「伝統の技を未来へ——次世代への継承」がこの主旨を最も適切に表しています。",
+    "steps": [
+      "本文全体のテーマを把握する：伝統陶芸が失われそうな状況→ワークショップで次世代に伝える→技術だけでなく文化の継承が目的",
+      "見出しとして「技術継承・文化継承・次世代へ」というキーワードを含む選択肢を選ぶ",
+      "選択肢Aが「伝統の技（技術）」と「未来・次世代への継承（文化の継承）」を含んでいることを確認する"
+    ],
+    "common_mistakes": [
+      "選択肢Dの「陶芸教室で趣味を見つけよう」は本文のトーン（文化保護）とは異なる方向性",
+      "選択肢Cの「輸出産業として復活」は本文に書かれていない内容"
+    ],
+    "tips": [
+      "「not just A — it is about B（Aだけでなく、Bについてである）」という表現が筆者が最も伝えたいことを示す",
+      "「passed down（伝え継がれる）」＝「継承される」という表現は文化・伝統に関する記事で頻出"
+    ],
+    "translation": "伝統的な陶芸は多くの地域の文化遺産の重要な部分ですが、この技術は消滅の危機に瀕しています。陶芸を学ぼうとする若者が減るにつれ、何世代にもわたって受け継がれてきた技法が失われつつあります。"
+  },
+  "nc-027": {
+    "lead": "本文の「Supporters of space exploration ... point out that research conducted in space has led to the development of many technologies that benefit everyday life, including GPS navigation systems and advanced medical imaging equipment」という部分が、支持派の意見を述べています。選択肢Bの「宇宙研究からGPSや医療診断など日常に役立つ技術が生まれる」が正確に対応しています。",
+    "steps": [
+      "空欄の「支持する意見:」に対応する本文箇所を探す（「Supporters ... point out that」の後）",
+      "「led to the development of ... technologies that benefit everyday life, including GPS ... and medical imaging equipment」を見つける",
+      "選択肢Bの内容（GPS・医療診断・日常の技術）が本文と一致することを確認する"
+    ],
+    "common_mistakes": [
+      "選択肢A「軍事技術」・C「宇宙移住・人口問題」・D「地球外生命体の証明」はいずれも本文に書かれていない",
+      "「Critics（批判派）」と「Supporters（支持派）」を混同しないよう注意"
+    ],
+    "tips": [
+      "「Critics argue（批判派は主張する）」と「Supporters point out（支持派は指摘する）」という対比の構造を把握すると情報を整理しやすい",
+      "「led to（〜につながった・〜を生んだ）」は因果関係を示す重要な表現"
+    ],
+    "translation": "1969年の最初の月面着陸以来、人類は火星への探査機送り込みなど宇宙探査において目覚ましい進歩を遂げてきました。しかし、宇宙探査を優先課題として続けるべきかについては意見が分かれています。"
+  },
+  "nc-028": {
+    "lead": "本文の後半に「The author does not suggest banning social media entirely ... Instead, the author argues that educating young people on how to use social media mindfully and in moderation is a far more realistic and effective approach」とあります。「Instead（その代わりに）」の後が筆者の結論です。「mindfully and in moderation（意識的に・節度を持って）」使い方を教えることが主張です。選択肢Cが正解です。",
+    "steps": [
+      "「Instead（その代わりに）」という逆接表現に注目し、その後の内容を確認する",
+      "「educating young people on how to use social media mindfully and in moderation is far more realistic and effective」を見つける",
+      "選択肢Cの「意識的・節度を持って学ばせることが現実的で効果的」と照合して正解を確認する"
+    ],
+    "common_mistakes": [
+      "選択肢Aの「法律で禁止」は本文で「banning ... entirely ... would be impractical（現実的でない）」と否定されている",
+      "選択肢Bの「一切使わせるべきでない」も本文の主張と逆"
+    ],
+    "tips": [
+      "「Instead（その代わりに）」は前の内容を否定して、その後に筆者の本当の主張が来るサイン",
+      "「mindfully（意識的に・注意深く）」「in moderation（節度を持って）」という副詞句が結論の核心"
+    ],
+    "translation": "今日の10代は毎日平均4〜5時間をSNSプラットフォームで過ごしています。SNSは若者が友達とつながる手段となっている一方で、研究者はSNSの過度な使用と若者のメンタルヘルスへの悪影響との間に憂慮すべき関連性を見つけています。"
+  },
+  "nc-029": {
+    "lead": "本文の最終文に「giving young people direct experiences with nature is not just an extra activity — it is a vital part of building the next generation of informed and motivated environmental stewards」とあります。「vital part（重要な一部）」として「next generation of environmental stewards（次世代の環境保護者）を育てること」が述べられています。選択肢Dが文章全体のテーマを最も適切に表しています。",
+    "steps": [
+      "各段落の要点をまとめる：①屋外体験学習の普及、②体験型学習の効果（責任感向上）、③自然体験が次世代の環境保護意識育成に不可欠",
+      "「vital part of building the next generation of environmental stewards」が文章全体のテーマであることを確認する",
+      "選択肢Dの「自然体験教育が次世代の環境保護意識を育てる重要性」が文章のテーマ全体を捉えていることを確認する"
+    ],
+    "common_mistakes": [
+      "選択肢A「環境破壊の影響」は本文のテーマではない",
+      "選択肢C「生物多様性の科学的研究」は体験学習の一活動に過ぎず、文章全体のテーマではない"
+    ],
+    "tips": [
+      "「not just ... — it is vital（単なる〜ではなく、重要な〜である）」という表現が筆者の主張の核心を示す",
+      "「environmental stewards（環境の守り手・管理者）」＝「環境保護に積極的な人々」という意味"
+    ],
+    "translation": "近年、屋外環境教育プログラムを導入する学校が増えています。これらのプログラムは生徒を教室の外に連れ出し、地元の生態系の観察・水質測定などを行います。"
+  },
+  "nc-030": {
+    "lead": "本文全体が伝えていることは「図書館は本を借りる場所を超えた、地域のコミュニティハブとして人々をつなぎ生涯学習を支える存在」だという主張です。選択肢Aの「みんなの学びとつながりの場——あなたの図書館」がこのメッセージを最もよく体現したキャッチコピーです。選択肢B・C・Dは本文の一部の側面しか表していません。",
+    "steps": [
+      "本文全体のメッセージを確認する：①本だけでなくデジタル資料も無料提供、②読書クラブ・ワークショップ・相談サービスなどの地域活動、③人々をつなぐコミュニティハブとして生涯学習を支える",
+      "キャッチコピーとして「学び」と「つながり」の両方が含まれているか、また「地域の人々向け」の呼びかけになっているかを確認する",
+      "選択肢Aが「学び」「つながり」「あなたの（＝地域住民向け）」という要素をすべて含むことを確認する"
+    ],
+    "common_mistakes": [
+      "選択肢Bの「試験に勝つ」は本文のトーン（生涯学習・地域のつながり）と合わない",
+      "選択肢Dの「デジタル時代と本の力を見直そう」は本文の一部に触れているが、地域コミュニティとしての役割（筆者の最も言いたいこと）を反映していない"
+    ],
+    "tips": [
+      "「community hubs（地域の拠点・ハブ）」という表現が図書館の本質的な役割を示すキーワード",
+      "キャッチコピー問題では「この文章を読んで、どんな行動・関心を引き起こしたいか」を考えると選びやすい"
+    ],
+    "translation": "コミュニティ図書館は長い間、本を借りる場所以上の存在として機能してきました。幅広い本やデジタルリソースへの無料アクセスに加え、現代の図書館はさまざまなコミュニティプログラムを主催しています。"
+  }
+}

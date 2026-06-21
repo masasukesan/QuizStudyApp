@@ -1,0 +1,422 @@
+[
+  {
+    "id": "pt-001",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "プログラミングにおける「変数」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "計算式をまとめて名前をつけたもの" },
+      { "label": "B", "text": "値を入れておくための名前付きの入れ物" },
+      { "label": "C", "text": "画面に文字を表示するための命令" },
+      { "label": "D", "text": "プログラムを実行する順番を決めるもの" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-002",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "次のコードで「変数の宣言」にあたる部分はどれか？\n\nlet score = 100;",
+    "choices": [
+      { "label": "A", "text": "100" },
+      { "label": "B", "text": "= 100" },
+      { "label": "C", "text": "let score" },
+      { "label": "D", "text": "score = 100" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-003",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "「リテラル」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "変数に格納されている値のこと" },
+      { "label": "B", "text": "コードに直接書かれた値そのもの" },
+      { "label": "C", "text": "計算の結果として得られる値" },
+      { "label": "D", "text": "関数が返す値のこと" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-004",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "次のコードの中で「リテラル」はどれか？\n\nconst name = greeting;",
+    "choices": [
+      { "label": "A", "text": "const" },
+      { "label": "B", "text": "name" },
+      { "label": "C", "text": "greeting" },
+      { "label": "D", "text": "どれもリテラルではない" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "pt-005",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "次の中で「文字列リテラル」はどれか？",
+    "choices": [
+      { "label": "A", "text": "42" },
+      { "label": "B", "text": "true" },
+      { "label": "C", "text": "'hello'" },
+      { "label": "D", "text": "message" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-006",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "let と const の最も大きな違いはどれか？",
+    "choices": [
+      { "label": "A", "text": "let は数値にしか使えないが、const は文字列にも使える" },
+      { "label": "B", "text": "let は宣言後に別の値を代入できるが、const は宣言後に再代入できない" },
+      { "label": "C", "text": "let と const は全く同じで、どちらを使っても結果は変わらない" },
+      { "label": "D", "text": "let はブロックの外でも使えるが、const はブロックの中でしか使えない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-007",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "typeof 演算子は何をするための演算子か？",
+    "choices": [
+      { "label": "A", "text": "値の大きさを数値で返す" },
+      { "label": "B", "text": "値の型を文字列で返す" },
+      { "label": "C", "text": "値が存在するかどうかを true/false で返す" },
+      { "label": "D", "text": "値を別の型に変換する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-008",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof 42);",
+    "choices": [
+      { "label": "A", "text": "'integer'" },
+      { "label": "B", "text": "42" },
+      { "label": "C", "text": "'number'" },
+      { "label": "D", "text": "true" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-009",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof 'hello');",
+    "choices": [
+      { "label": "A", "text": "'text'" },
+      { "label": "B", "text": "'string'" },
+      { "label": "C", "text": "'char'" },
+      { "label": "D", "text": "5" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-010",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "basic",
+    "question": "JavaScript の「キーワード（予約語）」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "プログラマーが自由に名前をつけられる単語" },
+      { "label": "B", "text": "JavaScript があらかじめ特別な意味を持たせている単語" },
+      { "label": "C", "text": "コメントとして使う特別な記号" },
+      { "label": "D", "text": "数値や文字列を表す記号" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-011",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof true);",
+    "choices": [
+      { "label": "A", "text": "'true'" },
+      { "label": "B", "text": "'number'" },
+      { "label": "C", "text": "'boolean'" },
+      { "label": "D", "text": "1" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-012",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nlet x;\nconsole.log(typeof x);",
+    "choices": [
+      { "label": "A", "text": "'null'" },
+      { "label": "B", "text": "エラーが発生する" },
+      { "label": "C", "text": "'empty'" },
+      { "label": "D", "text": "'undefined'" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "pt-013",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof null);",
+    "choices": [
+      { "label": "A", "text": "'null'" },
+      { "label": "B", "text": "'undefined'" },
+      { "label": "C", "text": "'object'" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-014",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof [1, 2, 3]);",
+    "choices": [
+      { "label": "A", "text": "'array'" },
+      { "label": "B", "text": "'list'" },
+      { "label": "C", "text": "'object'" },
+      { "label": "D", "text": "'number'" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-015",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "「式（expression）」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "プログラムに書かれた命令すべてのこと" },
+      { "label": "B", "text": "評価すると何らかの値になるもの" },
+      { "label": "C", "text": "変数を宣言するときに使う構文" },
+      { "label": "D", "text": "繰り返し処理を行う構文" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-016",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次の中で「式（expression）」に該当するのはどれか？",
+    "choices": [
+      { "label": "A", "text": "if (x > 0) { }" },
+      { "label": "B", "text": "for (let i = 0; i < 10; i++) { }" },
+      { "label": "C", "text": "3 + 4" },
+      { "label": "D", "text": "let score = 100;" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-017",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "「識別子（identifier）」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "JavaScript の組み込み関数の名前" },
+      { "label": "B", "text": "コードのコメント部分" },
+      { "label": "C", "text": "プログラマーが変数・関数・クラスなどにつける名前" },
+      { "label": "D", "text": "ブラウザが自動で割り当てる番号" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-018",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次の中で有効な識別子（変数名）はどれか？",
+    "choices": [
+      { "label": "A", "text": "1score" },
+      { "label": "B", "text": "my-name" },
+      { "label": "C", "text": "user name" },
+      { "label": "D", "text": "firstName" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "pt-019",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次のコードで「代入」にあたる操作はどれか？\n\nlet count = 0;\ncount = count + 1;",
+    "choices": [
+      { "label": "A", "text": "let count" },
+      { "label": "B", "text": "count + 1" },
+      { "label": "C", "text": "count = count + 1" },
+      { "label": "D", "text": "0" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-020",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "standard",
+    "question": "次の中でリテラルに該当するものをすべて含む選択肢はどれか？\n\n42、'apple'、true、null",
+    "choices": [
+      { "label": "A", "text": "42 と true だけ(数値と真偽値のみリテラル)" },
+      { "label": "B", "text": "'apple' だけ(文字列だけがリテラル)" },
+      { "label": "C", "text": "42、'apple'、true、null の4つすべてリテラル" },
+      { "label": "D", "text": "null 以外の3つがリテラル(null は特殊値なのでリテラルではない)" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-021",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof function() {});",
+    "choices": [
+      { "label": "A", "text": "'object'" },
+      { "label": "B", "text": "'function'" },
+      { "label": "C", "text": "'undefined'" },
+      { "label": "D", "text": "'callable'" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-022",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次の変数名のうち、JavaScript の識別子として無効なのはどれか？",
+    "choices": [
+      { "label": "A", "text": "_count" },
+      { "label": "B", "text": "$price" },
+      { "label": "C", "text": "return" },
+      { "label": "D", "text": "myVar2" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-023",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次のコードで「文（statement）」に該当するのはどれか？",
+    "choices": [
+      { "label": "A", "text": "x + y" },
+      { "label": "B", "text": "x > 0 ? 'plus' : 'minus'" },
+      { "label": "C", "text": "Math.max(a, b)" },
+      { "label": "D", "text": "if (x > 0) { console.log('positive'); }" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "pt-024",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "var・let・const のスコープに関する説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "var は関数スコープ、let と const はブロックスコープ" },
+      { "label": "B", "text": "let は関数スコープ、var と const はブロックスコープ" },
+      { "label": "C", "text": "3つともブロックスコープで動作は全く同じ" },
+      { "label": "D", "text": "const は関数スコープ、var と let はグローバルスコープ" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "pt-025",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(typeof typeof 42);",
+    "choices": [
+      { "label": "A", "text": "'number'" },
+      { "label": "B", "text": "'string'" },
+      { "label": "C", "text": "42" },
+      { "label": "D", "text": "TypeError が発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-026",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、エラーになるのはどれか？",
+    "choices": [
+      { "label": "A", "text": "const PI = 3.14;" },
+      { "label": "B", "text": "let _name = 'Alice';" },
+      { "label": "C", "text": "let 2ndPlace = 'Bob';" },
+      { "label": "D", "text": "const $total = 100;" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-027",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "テンプレートリテラル（バッククォートで囲む文字列）の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "数値だけを文字列に変換するための構文" },
+      { "label": "B", "text": "文字列の中に ${変数名} を書くことで変数の値を埋め込める文字列リテラル" },
+      { "label": "C", "text": "ダブルクォートと全く同じ動作をする別記法" },
+      { "label": "D", "text": "配列を文字列に変換するための専用構文" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-028",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次のコードで「初期化」に該当する部分はどれか？\n\nlet score;\nscore = 0;",
+    "choices": [
+      { "label": "A", "text": "let score(宣言の部分)" },
+      { "label": "B", "text": "score = 0(最初の値を代入する部分)" },
+      { "label": "C", "text": "let score と score = 0 の2行を合わせた全体" },
+      { "label": "D", "text": "0(数値リテラルの部分)" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "pt-029",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconst obj = { name: 'Alice' };\nconsole.log(typeof obj);",
+    "choices": [
+      { "label": "A", "text": "'json'" },
+      { "label": "B", "text": "'dict'" },
+      { "label": "C", "text": "'object'" },
+      { "label": "D", "text": "'record'" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "pt-030",
+    "subject": "programming",
+    "unit": "プログラミング基本用語(変数・リテラル・型・式)",
+    "difficulty": "exam",
+    "question": "次の説明のうち、「オブジェクトリテラル」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "[] を使って配列を直接コードに書いたもの" },
+      { "label": "B", "text": "new Object() を使って作成したオブジェクト" },
+      { "label": "C", "text": "{ } を使ってプロパティと値のペアを直接コードに書いたもの" },
+      { "label": "D", "text": "JSON.parse() で変換したデータ" }
+    ],
+    "correct": "C"
+  }
+]

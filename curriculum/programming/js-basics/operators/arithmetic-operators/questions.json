@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ao-001",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "JavaScriptで `**` 演算子が表す演算はどれか？",
+    "choices": [
+      { "label": "A", "text": "べき乗(底数を指数乗する)" },
+      { "label": "B", "text": "ビット排他的論理和(XOR)" },
+      { "label": "C", "text": "整数除算(小数を切り捨てた商を求める)" },
+      { "label": "D", "text": "剰余(割り算の余りを求める)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "ao-002",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`console.log(10 / 4)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "2" },
+      { "label": "B", "text": "2.5" },
+      { "label": "C", "text": "2.4" },
+      { "label": "D", "text": "3" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-003",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "JavaScriptで `%` 演算子の用途として正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "パーセント(百分率)を計算する" },
+      { "label": "B", "text": "割り算の余り(剰余)を求める" },
+      { "label": "C", "text": "浮動小数点の精度を制御する" },
+      { "label": "D", "text": "文字列のフォーマットを指定する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-004",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`console.log(10 % 3)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "3" },
+      { "label": "B", "text": "0" },
+      { "label": "C", "text": "1" },
+      { "label": "D", "text": "3.33" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-005",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`console.log(2 ** 8)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "16" },
+      { "label": "B", "text": "64" },
+      { "label": "C", "text": "128" },
+      { "label": "D", "text": "256" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ao-006",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`2 + 3 * 4` を評価した結果として正しい手順と値はどれか？",
+    "choices": [
+      { "label": "A", "text": "乗算を先に計算し 3 * 4 = 12、次に 2 + 12 = 14" },
+      { "label": "B", "text": "左から順に計算し 2 + 3 = 5、次に 5 * 4 = 20" },
+      { "label": "C", "text": "乗算だけを行い 3 * 4 = 12 で計算を終了" },
+      { "label": "D", "text": "全て加算として扱い 2 + 3 + 4 = 9" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "ao-007",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`(2 + 3) * 4` を評価した結果として正しい手順と値はどれか？",
+    "choices": [
+      { "label": "A", "text": "括弧内を先に計算し 2 + 3 = 5、次に 5 * 4 = 20" },
+      { "label": "B", "text": "乗算が優先なので括弧を無視し 3 * 4 = 12、次に 2 + 12 = 14" },
+      { "label": "C", "text": "括弧内の 2 + 3 = 5 の後、4 を加算して 5 + 4 = 9" },
+      { "label": "D", "text": "2 * 4 = 8 を先に計算し 3 + 8 = 11" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "ao-008",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`console.log(17 % 5)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "1" },
+      { "label": "B", "text": "2" },
+      { "label": "C", "text": "3" },
+      { "label": "D", "text": "3.4" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-009",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`n % 2 === 0` という条件式は、何を判定するために使われるか？",
+    "choices": [
+      { "label": "A", "text": "n が偶数かどうか" },
+      { "label": "B", "text": "n が正の数かどうか" },
+      { "label": "C", "text": "n が 2 の累乗かどうか" },
+      { "label": "D", "text": "n が 2 より大きいかどうか" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "ao-010",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "basic",
+    "question": "`console.log(2 ** 3)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "5" },
+      { "label": "B", "text": "6" },
+      { "label": "C", "text": "8" },
+      { "label": "D", "text": "9" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-011",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "`console.log('5' + 3)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "8" },
+      { "label": "B", "text": "'53'" },
+      { "label": "C", "text": "'5 3'" },
+      { "label": "D", "text": "NaN" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-012",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "`console.log(1 + 2 + '3')` の評価手順と出力として正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "全て文字列連結して '1' + '2' + '3' = '123'" },
+      { "label": "B", "text": "全て数値計算して 1 + 2 + 3 = 6" },
+      { "label": "C", "text": "左から評価し 1 + 2 = 3(数値)、次に 3 + '3' = '33'(文字列連結)" },
+      { "label": "D", "text": "式がそのまま文字列になって '1 + 2 + 3'" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-013",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "以下のコードを実行したとき、`y` の値はどれか？\n\n```\nlet x = 5;\nlet y = x++;\n```",
+    "choices": [
+      { "label": "A", "text": "5(後置 ++ は代入後に x を増やすため、y には増加前の 5 が入る)" },
+      { "label": "B", "text": "6(++ が先に実行されるため、y には増加後の 6 が入る)" },
+      { "label": "C", "text": "undefined(x++ の戻り値は存在しない)" },
+      { "label": "D", "text": "10(x が 2 倍になってから代入される)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "ao-014",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "以下のコードを実行したとき、`y` の値はどれか？\n\n```\nlet x = 5;\nlet y = ++x;\n```",
+    "choices": [
+      { "label": "A", "text": "5(x の元の値が先に y に代入される)" },
+      { "label": "B", "text": "6(前置 ++ は x を先に増やしてから値を返すため、y には 6 が入る)" },
+      { "label": "C", "text": "undefined(++x の戻り値は存在しない)" },
+      { "label": "D", "text": "10(x が 2 倍になってから代入される)" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-015",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "以下のコードを実行後、`x` の値はどれか？\n\n```\nlet x = 10;\nx += 3;\n```",
+    "choices": [
+      { "label": "A", "text": "3(+= は右辺の値をそのまま代入する)" },
+      { "label": "B", "text": "13(x = x + 3 として計算される)" },
+      { "label": "C", "text": "10(+= は変数の値を変えない)" },
+      { "label": "D", "text": "103(数値と数値が文字列として連結される)" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-016",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "以下のコードを実行後、`x` の値はどれか？\n\n```\nlet x = 3;\nx **= 2;\n```",
+    "choices": [
+      { "label": "A", "text": "5(x = x + 2 として計算される)" },
+      { "label": "B", "text": "6(x = x * 2 として計算される)" },
+      { "label": "C", "text": "9(x = x ** 2 = 3² = 9 として計算される)" },
+      { "label": "D", "text": "8(2³ が計算される)" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-017",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "`console.log(1 / 0)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "0" },
+      { "label": "B", "text": "NaN" },
+      { "label": "C", "text": "Infinity" },
+      { "label": "D", "text": "エラーが発生して実行が止まる" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-018",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "`console.log(0 / 0)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "0" },
+      { "label": "B", "text": "Infinity" },
+      { "label": "C", "text": "1" },
+      { "label": "D", "text": "NaN" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ao-019",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "`console.log(-7 % 3)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "2" },
+      { "label": "B", "text": "-1" },
+      { "label": "C", "text": "1" },
+      { "label": "D", "text": "-2" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-020",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "standard",
+    "question": "以下のコードを実行後、`x` の値はどれか？\n\n```\nlet x = 10;\nx %= 3;\n```",
+    "choices": [
+      { "label": "A", "text": "1(x = x % 3 = 10 % 3 = 1 として計算される)" },
+      { "label": "B", "text": "3(%= の右辺の値 3 が代入される)" },
+      { "label": "C", "text": "10(%= は変数の値を変えない)" },
+      { "label": "D", "text": "0(10 を 3 で割り切れないため 0 になる)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "ao-021",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log(+'42')` を実行したとき、出力される値とその型はどれか？",
+    "choices": [
+      { "label": "A", "text": "'42'(文字列のまま変わらない)" },
+      { "label": "B", "text": "42(単項 + が文字列を数値に変換するため、数値の 42 が返る)" },
+      { "label": "C", "text": "0(+ 演算子は文字列に対して常に 0 を返す)" },
+      { "label": "D", "text": "NaN(文字列に単項 + を使うと常に NaN になる)" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-022",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log(+true, +false)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "true false(真偽値はそのまま出力される)" },
+      { "label": "B", "text": "'true' 'false'(真偽値が文字列に変換される)" },
+      { "label": "C", "text": "1 0(単項 + が真偽値を数値に変換し true→1、false→0 になる)" },
+      { "label": "D", "text": "NaN NaN(真偽値には単項 + を適用できない)" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-023",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log('3' - 1)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "'31'(文字列 '3' の末尾に - 1 を追加した文字列)" },
+      { "label": "B", "text": "'3-1'(- 演算子が文字列中に挿入される)" },
+      { "label": "C", "text": "NaN(文字列と数値の - 演算は NaN を返す)" },
+      { "label": "D", "text": "2(- 演算子は文字列を自動的に数値に変換するため '3' → 3、3 - 1 = 2)" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ao-024",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log(typeof NaN)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "'undefined'" },
+      { "label": "B", "text": "'NaN'" },
+      { "label": "C", "text": "'number'" },
+      { "label": "D", "text": "'object'" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-025",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log(NaN === NaN)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "true" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "NaN" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-026",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log(2 ** 3 ** 2)` の評価手順と出力として正しいものはどれか？(** の結合性に注目)",
+    "choices": [
+      { "label": "A", "text": "左から評価し (2 ** 3) ** 2 = 8 ** 2 = 64" },
+      { "label": "B", "text": "右から評価し 2 ** (3 ** 2) = 2 ** 9 = 512" },
+      { "label": "C", "text": "左から評価し 2 ** 3 = 8、次に 3 ** 2 = 9 を加算して 17" },
+      { "label": "D", "text": "優先度が等しいため左右同時に評価し (2+3) ** 2 = 25" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-027",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "以下のコードを実行したとき、出力される値はどれか？\n\n```\nlet x = 5;\nconsole.log(x++ + ++x);\n```",
+    "choices": [
+      { "label": "A", "text": "x++ は 5 を返し x=6 にする、++x は x を 6+1=7 にして 7 を返すため 5 + 6 = 11" },
+      { "label": "B", "text": "x++ は x を先に増やして 6 を返す、++x は 7 を返すため 6 + 7 = 13" },
+      { "label": "C", "text": "x++ は 5 を返して x=6 にし、++x は x=7 にして 7 を返すため 5 + 7 = 12" },
+      { "label": "D", "text": "x の値を 2 倍して 10 が出力される" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ao-028",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log(+'abc')` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "0(変換できない文字列は 0 になる)" },
+      { "label": "B", "text": "'abc'(文字列のまま変わらない)" },
+      { "label": "C", "text": "undefined(文字列に単項 + を適用できない)" },
+      { "label": "D", "text": "NaN(数値に変換できない文字列は NaN を返す)" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ao-029",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log((-2) ** 2)` を実行したとき、出力される値はどれか？",
+    "choices": [
+      { "label": "A", "text": "-4(符号が維持されて (-2) の 2 乗は -4)" },
+      { "label": "B", "text": "4((-2) ** 2 は (-2) × (-2) = 4)" },
+      { "label": "C", "text": "-2(指数が 2 のため元の値の 2 倍になる)" },
+      { "label": "D", "text": "SyntaxError が発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ao-030",
+    "subject": "programming",
+    "unit": "算術演算子(+ - * / % **)",
+    "difficulty": "exam",
+    "question": "`console.log(2 + '3' * 2)` の評価手順と出力として正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "左から評価し 2 + '3' = '23'(文字列連結)、次に '23' * 2 = 46(数値変換して乗算)" },
+      { "label": "B", "text": "全て文字列として扱い '2' + '3' * 2 = '2' + '6' = '26'" },
+      { "label": "C", "text": "* は + より優先度が高いため '3' * 2 = 6(文字列 → 数値変換)を先に計算し 2 + 6 = 8" },
+      { "label": "D", "text": "'3' * 2 で NaN が生成されて 2 + NaN = NaN になる" }
+    ],
+    "correct": "C"
+  }
+]

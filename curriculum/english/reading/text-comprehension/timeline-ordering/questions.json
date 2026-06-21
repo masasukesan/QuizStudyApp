@@ -1,0 +1,452 @@
+[
+  {
+    "id": "tlo-001",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nMaria Chen was born in 1985 in a small coastal town. She loved reading from an early age. In 2003, she graduated from high school and moved to the city to attend university. After completing her degree in 2007, she began working as a librarian. She held that position for five years before moving abroad to teach English in 2012.\n---\n\nマリア・チェンが大学の学位を取得した年はいつか。",
+    "choices": [
+      { "label": "A", "text": "2007年" },
+      { "label": "B", "text": "2003年" },
+      { "label": "C", "text": "2012年" },
+      { "label": "D", "text": "1985年" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["年代の特定", "スキャニング", "数字の照合"]
+  },
+  {
+    "id": "tlo-002",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の旅行メモを読んで、設問に答えなさい。\n\n---\nDay 1: We arrived at the hotel in the afternoon. After checking in, we went to a nearby market.\nDay 2: In the morning, we visited the old castle. In the afternoon, we joined a cooking class.\nDay 3: We spent the whole day at the beach before returning home on Day 4.\n---\n\nこの旅行で「料理教室」に参加したのはいつか。",
+    "choices": [
+      { "label": "A", "text": "1日目の午後" },
+      { "label": "B", "text": "2日目の午後" },
+      { "label": "C", "text": "3日目の午前" },
+      { "label": "D", "text": "2日目の午前" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["時期の特定", "スキャニング", "本文の照合"]
+  },
+  {
+    "id": "tlo-003",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nOliver Marsh worked as a carpenter from 1995 to 2005. During that period, he built furniture for several local shops. After leaving the carpentry business, he started a small cafe in 2006. Throughout the following decade, he became well known for his homemade pies.\n---\n\nオリバー・マーシュが大工（家具職人）として働いていた期間はどれか。",
+    "choices": [
+      { "label": "A", "text": "2006年〜2016年" },
+      { "label": "B", "text": "1995年〜2006年" },
+      { "label": "C", "text": "1995年〜2005年" },
+      { "label": "D", "text": "2005年〜2016年" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["期間の特定", "from...to の読み取り", "数字の照合"]
+  },
+  {
+    "id": "tlo-004",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nJames Kim began studying music at age 10. At age 18, he entered the national music academy. He performed his first public concert three years later. By the time he was 30, he had released five albums and won two major awards.\n---\n\nジェームズ・キムが初めて公の場でコンサートを行ったのは何歳のときか。",
+    "choices": [
+      { "label": "A", "text": "10歳" },
+      { "label": "B", "text": "30歳" },
+      { "label": "C", "text": "18歳" },
+      { "label": "D", "text": "21歳" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["年齢の計算", "three years later の解釈", "数値の足し算"]
+  },
+  {
+    "id": "tlo-005",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nThe community garden project officially started in April 2019. In the first month, volunteers cleared the land. In June, they planted the first seeds. The garden held its first harvest festival in October 2019 and continued growing in the following years.\n---\n\nこのコミュニティガーデンで最初に種を植えたのはいつか。",
+    "choices": [
+      { "label": "A", "text": "2019年6月" },
+      { "label": "B", "text": "2019年4月" },
+      { "label": "C", "text": "2019年10月" },
+      { "label": "D", "text": "2020年" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["時期の特定", "スキャニング", "月の照合"]
+  },
+  {
+    "id": "tlo-006",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nOn the morning of the festival, Sara woke up early and baked cookies. Then she decorated the hall with her friends. At noon, the doors opened and visitors started arriving. After the speeches, everyone enjoyed the performances on stage.\n---\n\n会場の飾り付けをしたのは、次のうちどの出来事の後か。",
+    "choices": [
+      { "label": "A", "text": "訪問者が到着した後" },
+      { "label": "B", "text": "クッキーを焼いた後" },
+      { "label": "C", "text": "公演が始まった後" },
+      { "label": "D", "text": "スピーチが終わった後" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["前後関係の把握", "then の役割", "出来事の順序"]
+  },
+  {
+    "id": "tlo-007",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の旅行ブログを読んで、設問に答えなさい。\n\n---\nI arrived in the city on Monday morning. I spent Monday afternoon exploring the local food market. On Tuesday, I visited the art museum in the morning and a botanical garden in the afternoon. On Wednesday morning, I took a guided tour of the old town before catching my flight home in the evening.\n---\n\n植物園を訪れたのはいつか。",
+    "choices": [
+      { "label": "A", "text": "月曜日の午前" },
+      { "label": "B", "text": "火曜日の午前" },
+      { "label": "C", "text": "火曜日の午後" },
+      { "label": "D", "text": "水曜日の午前" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["時期の特定", "スキャニング", "曜日と時間帯の照合"]
+  },
+  {
+    "id": "tlo-008",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nDr. Yuki Tanaka earned her bachelor's degree in 2000. She then spent three years completing a master's program. In 2006, she received her doctoral degree after two additional years of research. She joined her current university in 2008.\n---\n\n田中ゆき博士が博士号を取得した年はいつか。",
+    "choices": [
+      { "label": "A", "text": "2000年" },
+      { "label": "B", "text": "2003年" },
+      { "label": "C", "text": "2008年" },
+      { "label": "D", "text": "2006年" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["年代の特定", "スキャニング", "数字の照合"]
+  },
+  {
+    "id": "tlo-009",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nGreenLeaf Company was founded in 1990. Throughout the 1990s, it sold only organic vegetables at local markets. In 2001, it opened its first retail store. From 2001 to 2010, the company expanded to ten more locations.\n---\n\nグリーンリーフ社が1990年代に主に行っていた活動はどれか。",
+    "choices": [
+      { "label": "A", "text": "地元の市場でオーガニック野菜を販売していた" },
+      { "label": "B", "text": "初の小売店舗をオープンした" },
+      { "label": "C", "text": "10か所以上の店舗に拡大していた" },
+      { "label": "D", "text": "海外市場に進出していた" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["期間と活動の照合", "throughout の読み取り", "スキャニング"]
+  },
+  {
+    "id": "tlo-010",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nAfter finishing breakfast, Kenji went for a morning run. He then stopped by the grocery store on his way home. In the afternoon, he cleaned his room and later called his grandmother. In the evening, he read a book before going to sleep.\n---\n\nケンジが食料品店に立ち寄ったのは、次のうちどの出来事の直後か。",
+    "choices": [
+      { "label": "A", "text": "部屋を掃除した後" },
+      { "label": "B", "text": "朝のランニングをした後" },
+      { "label": "C", "text": "祖母に電話した後" },
+      { "label": "D", "text": "朝食を食べた後" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["前後関係の把握", "then の役割", "出来事の順序"]
+  },
+  {
+    "id": "tlo-011",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nThomas Wright was born in 1978 in Edinburgh. He first traveled abroad at the age of 20 when he joined a student exchange program in Japan. After returning to Scotland, he studied Japanese literature for four years at university. He then moved back to Japan in 2002 to work as a translator. Three years later, he published his first novel, which won an award in 2010.\n---\n\n次の出来事を起きた順に並べたとき、3番目に来るものはどれか。\n①スコットランドに帰国し、大学で日本文学を学んだ\n②交換留学プログラムで初めて日本に渡った\n③翻訳家として日本に戻った\n④最初の小説を出版した",
+    "choices": [
+      { "label": "A", "text": "②" },
+      { "label": "B", "text": "①" },
+      { "label": "C", "text": "③" },
+      { "label": "D", "text": "④" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["複数出来事の順序整理", "時を表す語句の活用", "伝記読解"]
+  },
+  {
+    "id": "tlo-012",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nElena opened her bakery in 2010. Two years after opening, she hired her first employee. She expanded to a second location in 2015. After the second location became popular, she started offering online orders in 2017. By 2020, she had opened three more stores.\n---\n\nエレナがオンライン注文を開始したのは、次のどの出来事の後か。",
+    "choices": [
+      { "label": "A", "text": "最初の従業員を雇った後" },
+      { "label": "B", "text": "3店舗以上をさらに開いた後" },
+      { "label": "C", "text": "ベーカリーを最初にオープンした直後" },
+      { "label": "D", "text": "2店舗目が人気になった後" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["after の読み取り", "前後関係の把握", "本文の照合"]
+  },
+  {
+    "id": "tlo-013",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nThe town of Riverdale has a long history. It was first settled in 1850. In 1875, the first school was built. The town's railway station opened in 1902, attracting many new residents. During the 1920s, Riverdale became known for its textile factories. The factories closed in the 1980s, and since then, the town has focused on tourism.\n---\n\n次の年表の【　】に入る内容として正しいものはどれか。\n\nリバーデール年表:\n・1850年: 最初の入植\n・1875年: 【　　　】\n・1902年: 鉄道駅が開設される\n・1920年代: 繊維工場で有名になる",
+    "choices": [
+      { "label": "A", "text": "最初の学校が建てられた" },
+      { "label": "B", "text": "繊維工場が建てられた" },
+      { "label": "C", "text": "観光業が始まった" },
+      { "label": "D", "text": "鉄道が計画された" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["年表の穴埋め", "年代と出来事の照合", "スキャニング"]
+  },
+  {
+    "id": "tlo-014",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nThe local library renovation project began in January 2022. First, the old furniture was removed and the walls were repainted. Then, new shelves and computers were installed in March. In May, the library held a reopening ceremony. After the ceremony, a new summer reading program was launched.\n---\n\n次の出来事を起きた順に並べたとき、2番目に来るものはどれか。\n①再オープン式典が開かれた\n②夏の読書プログラムが開始された\n③新しい棚とコンピューターが設置された\n④古い家具が撤去され、壁が塗り替えられた",
+    "choices": [
+      { "label": "A", "text": "①" },
+      { "label": "B", "text": "③" },
+      { "label": "C", "text": "④" },
+      { "label": "D", "text": "②" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["複数出来事の順序整理", "first / then の活用", "リノベーション経緯"]
+  },
+  {
+    "id": "tlo-015",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nAlex moved to a new city in September. Once he found an apartment, he started looking for a job. When he finally got a job offer, he immediately called his family to share the news. After settling in at work, he joined a local sports club.\n---\n\nアレックスが家族に電話したのは、次のどの出来事の直後か。",
+    "choices": [
+      { "label": "A", "text": "スポーツクラブに入会した後" },
+      { "label": "B", "text": "新しい街に引っ越した直後" },
+      { "label": "C", "text": "仕事のオファーを受けた後" },
+      { "label": "D", "text": "アパートを見つけた後" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["when の読み取り", "前後関係の把握", "出来事の直後"]
+  },
+  {
+    "id": "tlo-016",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nThe famous explorer Captain Leo set sail in the spring of 1820. After three months at sea, his ship reached an unknown island. He spent two weeks mapping the coastline before moving inland. When he returned to his home country a year later, he published a detailed journal of his journey.\n---\n\nキャプテン・レオが島の沿岸を地図に描いたのは、次のどの出来事の後か。",
+    "choices": [
+      { "label": "A", "text": "故国に帰国した後" },
+      { "label": "B", "text": "日誌を出版した後" },
+      { "label": "C", "text": "1820年の春に出航した直後" },
+      { "label": "D", "text": "未知の島に到着した後" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["after の読み取り", "前後関係の把握", "探検記の時系列"]
+  },
+  {
+    "id": "tlo-017",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nSophie has been a wildlife photographer for fifteen years. She began her career in 2009, working for a local newspaper. In 2013, she published her first photo book. She joined a conservation organization in 2016. Since 2020, she has been teaching photography workshops.\n---\n\n次の年表の【　】に入る年として正しいものはどれか。\n\nソフィーの経歴:\n・2009年: 地元新聞社でキャリアを開始\n・【　　】年: 最初の写真集を出版\n・2016年: 自然保護団体に加入\n・2020年〜: 写真ワークショップを教える",
+    "choices": [
+      { "label": "A", "text": "2013年" },
+      { "label": "B", "text": "2010年" },
+      { "label": "C", "text": "2018年" },
+      { "label": "D", "text": "2015年" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["年表の穴埋め", "スキャニング", "年代の照合"]
+  },
+  {
+    "id": "tlo-018",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nDuring her trip to Peru, Mia first visited Lima, where she explored museums and tried local food. Then she flew to Cusco and joined a guided tour of the ancient ruins. After the tour, she hiked the famous mountain trail for three days. Finally, she returned to Lima before catching her flight back home.\n---\n\n次の出来事を起きた順に並べたとき、最後（4番目）に来るものはどれか。\n①有名な山のトレイルを3日間ハイキングした\n②遺跡の観光ツアーに参加した\n③リマに戻った\n④博物館を探索し、地元の料理を試した",
+    "choices": [
+      { "label": "A", "text": "②" },
+      { "label": "B", "text": "③" },
+      { "label": "C", "text": "①" },
+      { "label": "D", "text": "④" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["複数出来事の順序整理", "finally の役割", "旅行記の時系列"]
+  },
+  {
+    "id": "tlo-019",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nBluebell Tech was founded in 2005 by two university students. The company first focused on developing software for schools. After gaining recognition in the education sector, it expanded into medical software in 2010. When the medical software became successful, the founders hired 50 new engineers. The company went public in 2018.\n---\n\nブルーベル・テックが医療用ソフトウェアに進出したのは、次のどの出来事の後か。",
+    "choices": [
+      { "label": "A", "text": "50人の新しいエンジニアを雇った後" },
+      { "label": "B", "text": "上場した後" },
+      { "label": "C", "text": "教育分野での評判を得た後" },
+      { "label": "D", "text": "創業してすぐ" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["after gaining の読み取り", "前後関係の把握", "企業成長の時系列"]
+  },
+  {
+    "id": "tlo-020",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nProfessor Lee's research team spent the first six months collecting data from local rivers. After analyzing the data, they wrote a preliminary report. Before submitting the report, they conducted a second round of experiments. Once the revised report was approved, the team presented their findings at an international conference.\n---\n\n次の出来事を起きた順に並べたとき、3番目に来るものはどれか。\n①国際会議で研究成果を発表した\n②データを収集した\n③予備報告書を作成した\n④2回目の実験を実施した",
+    "choices": [
+      { "label": "A", "text": "①" },
+      { "label": "B", "text": "②" },
+      { "label": "C", "text": "③" },
+      { "label": "D", "text": "④" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["before / after の読み取り", "複数出来事の順序整理", "研究プロセスの時系列"]
+  },
+  {
+    "id": "tlo-021",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nBy the time Samuel arrived at the station, his train had already departed. He had spent too long at the bookshop near the hotel. After checking the next train schedule, he sat down in the waiting room and finished reading the novel he had bought.\n---\n\n「by the time Samuel arrived at the station」という表現から分かる出来事の順序として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "サミュエルが駅に着いた後に、電車が出発した" },
+      { "label": "B", "text": "サミュエルが駅に着いたとき、電車はすでに出発していた" },
+      { "label": "C", "text": "サミュエルと電車は同時に駅を出発した" },
+      { "label": "D", "text": "サミュエルは電車に間に合って乗ることができた" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["by the time の読み取り", "過去完了形との組み合わせ", "複雑な時間表現"]
+  },
+  {
+    "id": "tlo-022",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nAnna had always wanted to travel to Iceland. However, she did not leave for Iceland until she had saved enough money. She spent two years working extra shifts at the hospital. Once she finally arrived in Iceland, she was overwhelmed by the natural scenery.\n---\n\nアンナがアイスランドへ向けて出発したのはいつか。本文の内容と一致するものはどれか。",
+    "choices": [
+      { "label": "A", "text": "十分なお金を貯めた後" },
+      { "label": "B", "text": "病院で働き始める前" },
+      { "label": "C", "text": "アイスランドの自然の景色に圧倒された後" },
+      { "label": "D", "text": "2年間の追加シフトを始めると同時に" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["not...until の読み取り", "出発タイミングの推論", "複雑な否定表現"]
+  },
+  {
+    "id": "tlo-023",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の2つの文章を読んで、設問に答えなさい。\n\n---\n【文章1】\nThe Clifton Bridge was designed by an architect born in 1806. Construction of the bridge began when the architect was 23 years old.\n\n【文章2】\nThe Clifton Bridge project faced several delays. The original design was approved in 1829. However, funding problems caused a 12-year break, and construction resumed only in 1862.\n---\n\n次のうち、両方の文章の内容と一致するものはどれか。",
+    "choices": [
+      { "label": "A", "text": "この橋は1806年に着工された" },
+      { "label": "B", "text": "建設は承認から3年後に中断した" },
+      { "label": "C", "text": "最初の設計が承認されたのは建築家が23歳のときである" },
+      { "label": "D", "text": "建設は1862年に初めて開始された" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["複数文書の統合", "年齢と年号の計算", "情報の照合"]
+  },
+  {
+    "id": "tlo-024",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nDr. Patel joined the research institute in 2005. She was promoted to senior researcher three years later. In the fifth year after her promotion, her team completed a major project. Two years after completing that project, she became the director of the institute.\n---\n\nドクター・パテルが研究所の所長になった年はいつか。",
+    "choices": [
+      { "label": "A", "text": "2008年" },
+      { "label": "B", "text": "2010年" },
+      { "label": "C", "text": "2013年" },
+      { "label": "D", "text": "2015年" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["年代の計算", "複数の経過年数の足し算", "伝記的時系列の推論"]
+  },
+  {
+    "id": "tlo-025",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nThe village of Greenfield has changed significantly over the years. It was originally a farming community. The railway arrived in 1880, and a textile factory opened shortly after. By 1920, most farmers had left their land to work in the factory. The factory closed in 1950, after which many residents moved to nearby cities.\n---\n\n次のうち、本文の内容と一致しないものはどれか。",
+    "choices": [
+      { "label": "A", "text": "農民たちは鉄道が到着する前に工場で働き始めた" },
+      { "label": "B", "text": "グリーンフィールドはもともと農業のコミュニティだった" },
+      { "label": "C", "text": "1950年に工場が閉鎖した" },
+      { "label": "D", "text": "工場閉鎖後、多くの住民が近隣の都市に移った" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["NOT問題", "時系列の矛盾発見", "本文と選択肢の照合"]
+  },
+  {
+    "id": "tlo-026",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nWhen Clara's story begins, she is already living in Paris. She had moved there five years before, after breaking up with her partner in London. The story follows her adventures in Paris over the next year. Near the end of the story, we learn that she originally grew up in a small town in Wales before moving to London.\n---\n\n次の出来事を実際の時系列（古い順）に正しく並べたものはどれか。\n①ロンドンでパートナーと別れた\n②パリに引っ越した\n③ウェールズの小さな町で育った\n④パリでの1年間の物語が展開する",
+    "choices": [
+      { "label": "A", "text": "①→③→②→④" },
+      { "label": "B", "text": "③→①→②→④" },
+      { "label": "C", "text": "②→①→③→④" },
+      { "label": "D", "text": "③→②→①→④" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["フラッシュバックの読み取り", "物語内の時系列整理", "過去完了形の解釈"]
+  },
+  {
+    "id": "tlo-027",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nThe new city hall was not completed until three years after the original deadline. The project had been expected to finish in 2015, but construction problems caused repeated delays. By the time the building was finally opened, the cost had increased by 40%. Once it opened, however, it quickly became a popular community center.\n---\n\n市庁舎がオープンした年と、オープン時の状況について正しく述べているものはどれか。",
+    "choices": [
+      { "label": "A", "text": "2015年にオープンし、当初の予算内で完成した" },
+      { "label": "B", "text": "2018年にオープンしたが、建設上の問題はオープン時には解決していた" },
+      { "label": "C", "text": "2018年にオープンし、費用が当初より40%増加していた" },
+      { "label": "D", "text": "2015年にオープンし、費用が40%増加していた" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["not...until の読み取り", "by the time の解釈", "年代計算と状況の統合"]
+  },
+  {
+    "id": "tlo-028",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nMarcus started learning the guitar at the age of 12. He joined his first band before he turned 16. When the band broke up, he spent two years studying music theory. Not until he had completed that study did he begin performing as a solo artist.\n---\n\n次のうち、本文の内容と一致しないものはどれか。",
+    "choices": [
+      { "label": "A", "text": "マーカスは12歳でギターを弾き始めた" },
+      { "label": "B", "text": "マーカスは16歳になる前に最初のバンドに参加した" },
+      { "label": "C", "text": "バンドが解散した後、彼は2年間音楽理論を勉強した" },
+      { "label": "D", "text": "マーカスはバンドに参加する前にソロとして演奏を始めた" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["NOT問題", "not until の読み取り", "時系列の矛盾発見"]
+  },
+  {
+    "id": "tlo-029",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の2つの文章を読んで、設問に答えなさい。\n\n---\n【文章1】\nThe Maple Street Community Center opened in 1985. When it first opened, it had only sports facilities and meeting rooms.\n\n【文章2】\nCooking classes were introduced three years after the center opened. The outdoor pool was built in 1972, six years before I was born. The library section was the last addition, completed in 1995.\n---\n\n次の出来事を時系列の正しい順（古い順）に並べたものはどれか。\n①屋外プールが建設された\n②センターがオープンした\n③料理教室が始まった\n④図書館コーナーが完成した",
+    "choices": [
+      { "label": "A", "text": "①→②→③→④" },
+      { "label": "B", "text": "②→①→③→④" },
+      { "label": "C", "text": "①→③→②→④" },
+      { "label": "D", "text": "②→①→④→③" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["複数文書の統合", "年代計算", "時系列の再構成"]
+  },
+  {
+    "id": "tlo-030",
+    "subject": "英語",
+    "unit": "時系列整理",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、設問に答えなさい。\n\n---\nWhen the documentary was released, the director had already spent four years working on it. She had begun filming after returning from her first trip to the Amazon in 2014. The trip itself took place three years after she graduated from film school. The documentary was finally released in 2018.\n---\n\n次の出来事を時系列の正しい順（古い順）に並べたものはどれか。\n①ドキュメンタリーが公開された\n②アマゾンへの最初の旅に行った\n③撮影を開始した\n④映画学校を卒業した",
+    "choices": [
+      { "label": "A", "text": "②→④→③→①" },
+      { "label": "B", "text": "④→②→③→①" },
+      { "label": "C", "text": "②→③→④→①" },
+      { "label": "D", "text": "④→③→②→①" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["複数の経過年数の計算", "時系列の逆算", "伝記的推論"]
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "unit_id": "arithmetic-operators",
+  "unit_name_jp": "算術演算子（+ - * / % **）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "basic-four-operations",
+      "description": "四則演算（+, -, *, /）の基本的な動作と結果を問う",
+      "thinking_process": [
+        "演算子の種類を確認する",
+        "オペランドの型（数値 or 文字列）を確認する",
+        "演算を実行した結果の型と値を求める"
+      ],
+      "common_mistakes": [
+        "整数同士の割り算でも小数が返ることを忘れる（5 / 2 = 2.5）",
+        "+ 演算子が数値と文字列で異なる動作をすることを見落とす"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "remainder-operator",
+      "description": "剰余演算子（%）の動作と用途を問う",
+      "thinking_process": [
+        "割り算をして商を求める",
+        "商 × 除数 を引いて余りを求める",
+        "結果を確認する"
+      ],
+      "common_mistakes": [
+        "% を「パーセント」と読んでしまい割り算と混同する",
+        "負の数に % を使ったときの符号を間違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "exponentiation-operator",
+      "description": "べき乗演算子（**）の動作を問う",
+      "thinking_process": [
+        "左側が底数、右側が指数であることを確認する",
+        "べき乗の計算結果を求める",
+        "Math.pow() と同等であることを確認する"
+      ],
+      "common_mistakes": [
+        "** を ^ と混同する（JS には ^ はビット排他論理和）",
+        "右結合性を忘れ 2 ** 3 ** 2 を左から計算してしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "operator-precedence",
+      "description": "演算子の優先順位（掛け算・割り算が先）と括弧の効果を問う",
+      "thinking_process": [
+        "式の中の演算子をすべて洗い出す",
+        "優先順位の高い演算子から順に計算する",
+        "括弧がある場合は先に括弧内を計算する"
+      ],
+      "common_mistakes": [
+        "加算を掛け算より先に計算してしまう",
+        "括弧を無視して左から順に計算する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "string-concatenation-plus",
+      "description": "+ 演算子が文字列と数値に使われたときの型強制と結果を問う",
+      "thinking_process": [
+        "オペランドの型を確認する",
+        "一方が文字列なら + は文字列連結になる",
+        "連結後の文字列を確認する"
+      ],
+      "common_mistakes": [
+        "数値 + 文字列で加算になると思う",
+        "左右の順序で結果が変わることを見落とす（1 + 2 + '3' vs '3' + 1 + 2）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "increment-decrement",
+      "description": "インクリメント（++）・デクリメント（--）演算子の前置・後置の違いを問う",
+      "thinking_process": [
+        "前置（++x）か後置（x++）かを確認する",
+        "前置は先に加算してから値を返す",
+        "後置は現在の値を返してから加算する"
+      ],
+      "common_mistakes": [
+        "前置と後置の返す値の違いを混同する",
+        "後置 x++ がすぐに変数の値を変えないと思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "compound-assignment",
+      "description": "複合代入演算子（+=, -=, *=, /=, %=, **=）の動作を問う",
+      "thinking_process": [
+        "複合代入演算子を展開して式を確認する（例：x += 3 は x = x + 3）",
+        "現在の変数の値を確認する",
+        "演算後の値を求める"
+      ],
+      "common_mistakes": [
+        "x += 3 を x = 3 と読んでしまう",
+        "演算順序を誤り x *= 2 + 1 を (x * 2) + 1 と解釈する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "division-edge-cases",
+      "description": "ゼロ除算・Infinity・NaN など除算の境界値動作を問う",
+      "thinking_process": [
+        "除数がゼロかどうかを確認する",
+        "ゼロ除算は Infinity または -Infinity を返す",
+        "0 / 0 は NaN を返すことを確認する"
+      ],
+      "common_mistakes": [
+        "ゼロ除算がエラー（例外）を投げると思う",
+        "NaN と undefined の違いを混同する",
+        "typeof NaN が 'number' であることを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "unary-operators",
+      "description": "単項プラス（+x）・単項マイナス（-x）の型変換効果を問う",
+      "thinking_process": [
+        "単項 + は値を数値に変換しようとする",
+        "単項 - は符号を反転させる（かつ数値変換）",
+        "文字列や真偽値に適用した結果を確認する"
+      ],
+      "common_mistakes": [
+        "+true が 1 に、+false が 0 になることを知らない",
+        "+'3' が 3（数値）になることを知らない",
+        "+'abc' が NaN になることを見落とす"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "complex-expressions",
+      "description": "複数の演算子・型変換・優先順位が組み合わさった式の評価を問う",
+      "thinking_process": [
+        "式の中の各演算子と型を確認する",
+        "優先順位に従い段階的に評価する",
+        "型強制が起きる箇所を特定する"
+      ],
+      "common_mistakes": [
+        "途中で型変換が起きることを見落とす",
+        "演算子の左結合と右結合を混同する（** のみ右結合）",
+        "複数の + が混在する式で文字列連結と数値加算の切り替わりを誤る"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -258,19 +258,24 @@ VITE_SUPABASE_ANON_KEY=xxxxxxxxxxxxxxxxxxxxxxxx
 
 ---
 
-# ■ 禁止事項
+# ■ 英語単元の特別実装ルール
 
-- TypeScript の `any` 型を使用する
-- Supabase の `service_role` キーをフロントエンドに記述する
-- Supabase SDK を使わず直接 fetch で DB にアクセスする
-- `localStorage` にユーザーの成績・学習データを保存する（DB に保存すること）
-- React 以外の UI フレームワークを導入する（Vue / Angular / Svelte 等）
-- TanStack Query を使わずに useState で API の結果を管理する
-- ライセンス未確認の npm パッケージを導入する
+## 読み上げボタン（Web Speech API）
 
----
+英語単元（`subject === 'english'`）およびリスニング単元（`isListening === true`）では、問題画面に英文読み上げボタンを表示する。
 
-# ■ 最終目的
+### 実装済みコンポーネント：`frontend/src/pages/QuizPage.tsx`
 
-**「型安全で・バグなく・軽快に動くフロントエンドを実装し、  
-勉強が苦手な子でも直感的に使えるアプリを技術の力で支える。」**
+```tsx
+// 英文パッセージ抽出（--- で囲まれた部分を取り出す）
+function extractEnglishPassage(questionText: string): string {
+  const match = questionText.match(/---\n([\s\S]+?)\n---/)
+  return match ? match[1].trim() : questionText
+}
+
+// 読み上げハンドラ
+function handleSpeak() {
+  if (!window.speechSynthesis) return
+  if (isSpeaking) {
+    window.speechSynthesis.cancel()
+    setIsSp

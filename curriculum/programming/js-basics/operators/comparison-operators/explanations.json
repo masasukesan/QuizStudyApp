@@ -1,0 +1,471 @@
+{
+  "co-001": {
+    "lead": "== は「ゆるい比較」、=== は「厳しい比較」と覚えましょう。== は型（データの種類）が違っていても、自動的に変換してから値を比べます。これを「暗黙の型変換」といいます。一方 === は型も値も完全に一致しないと true にはなりません。",
+    "steps": [
+      "== を使うと、たとえば数値の 3 と文字列の '3' は、文字列を数値に変換してから比べるため true になります",
+      "=== を使うと、数値の 3 と文字列の '3' は型（number と string）が違うため、変換せずに即 false になります",
+      "予期しないバグを防ぐため、現代の JavaScript では === を使うことが推奨されています"
+    ],
+    "common_mistakes": [
+      "== と === は同じだと思いがちですが、型変換の有無が大きく違います",
+      "== が型変換をするため、思わぬ結果になることがあります（例: 0 == '' が true になる）"
+    ],
+    "tips": [
+      "迷ったら === を使いましょう。厳密比較のほうがバグが少なくなります",
+      "== を使う場合は必ず「型変換が起きる可能性がある」と意識してください"
+    ]
+  },
+  "co-002": {
+    "lead": "5 === 5 は、型（どちらも number）も値（どちらも 5）も完全に一致するため true になります。=== は「型も値も両方一致していれば true」という演算子です。",
+    "steps": [
+      "左辺: 5（型は number、値は 5）",
+      "右辺: 5（型は number、値は 5）",
+      "型が一致（number === number）→ 値が一致（5 === 5）→ 結果: true"
+    ],
+    "common_mistakes": [
+      "=== が型チェックをすることを忘れて、型の違う値を比べて混乱することがあります"
+    ],
+    "tips": [
+      "同じ型・同じ値の比較は必ず true になります"
+    ]
+  },
+  "co-003": {
+    "lead": "3 == '3' は true になります。== は型が違っていても、自動的に変換してから比べます（これを「暗黙の型変換」といいます）。文字列の '3' が数値の 3 に変換されてから比較されるため、3 == 3 と同じになり true が返ります。",
+    "steps": [
+      "左辺: 3（型は number）",
+      "右辺: '3'（型は string）",
+      "== は型が違う場合、文字列を数値に変換しようとします: '3' → 3",
+      "変換後: 3 == 3 → true"
+    ],
+    "common_mistakes": [
+      "型が違うから false になると思いがちですが、== は型変換を行うため true になります"
+    ],
+    "tips": [
+      "型変換なしに比べたい場合は === を使いましょう",
+      "3 === '3' とすると false になります（型が違うため）"
+    ]
+  },
+  "co-004": {
+    "lead": "3 === '3' は false になります。=== は「型も値も完全に一致する場合だけ true」という厳密な比較です。左辺の 3 は number 型、右辺の '3' は string 型なので、値が同じように見えても型が違うため false になります。",
+    "steps": [
+      "左辺: 3（型は number）",
+      "右辺: '3'（型は string）",
+      "=== はまず型を確認します: number !== string → 即座に false"
+    ],
+    "common_mistakes": [
+      "値が同じ「3」なので true になると思いがちですが、=== は型も確認するので false です"
+    ],
+    "tips": [
+      "=== は「型変換なし」で比較します。型が一致しない時点で false になります"
+    ]
+  },
+  "co-005": {
+    "lead": "!= は「ゆるい不等比較」の演算子です。== と同様に型変換を行ってから比較し、変換後の値が等しくなければ true を返します。つまり != は == の逆の結果を返します（== が true なら != は false）。",
+    "steps": [
+      "!= は == と対になる演算子です",
+      "まず == と同じ型変換ルールで比較します",
+      "値が等しくなければ true、等しければ false を返します"
+    ],
+    "common_mistakes": [
+      "!= が !== と同じだと思いがちですが、!= は型変換あり、!== は型変換なしです"
+    ],
+    "tips": [
+      "!= の逆（型変換なし）は !== です",
+      "迷ったら !== を使いましょう"
+    ]
+  },
+  "co-006": {
+    "lead": "5 !== '5' は true になります。!== は「厳密な不等比較」で、型か値のどちらか（または両方）が異なれば true になります。数値の 5 と文字列の '5' は型が違う（number と string）ため、!== は true を返します。",
+    "steps": [
+      "左辺: 5（型は number）",
+      "右辺: '5'（型は string）",
+      "!== はまず型を確認します: number !== string → 型が違うので true"
+    ],
+    "common_mistakes": [
+      "値が同じ「5」なので false になると思いがちですが、!== は型も確認するので true です"
+    ],
+    "tips": [
+      "!== は === の逆の結果を返します。=== が false なら !== は true になります"
+    ]
+  },
+  "co-007": {
+    "lead": "true == 1 は true になります。== で真偽値（boolean）を比較するとき、JavaScript は true を数値の 1 に変換してから比べます。変換後は 1 == 1 と同じになるため true になります。",
+    "steps": [
+      "右辺が数値のとき、== は左辺を数値に変換しようとします",
+      "true は数値に変換すると 1 になります",
+      "変換後: 1 == 1 → true"
+    ],
+    "common_mistakes": [
+      "型が違う（boolean と number）から false になると思いがちですが、== は型変換を行うため true です"
+    ],
+    "tips": [
+      "== における boolean の型変換ルール: true → 1、false → 0 と覚えましょう",
+      "型変換を避けたい場合は true === 1（false）のように === を使いましょう"
+    ]
+  },
+  "co-008": {
+    "lead": "false == 0 は true になります。== で true/false（boolean）を比較するとき、JavaScript は false を数値の 0 に変換します。変換後は 0 == 0 と同じになるため true になります。",
+    "steps": [
+      "== は右辺が数値のとき、左辺（boolean）を数値に変換します",
+      "false → 0 に変換されます",
+      "変換後: 0 == 0 → true"
+    ],
+    "common_mistakes": [
+      "boolean と数値なので false になると思いがちですが、型変換により true になります"
+    ],
+    "tips": [
+      "false == 0、true == 1、false == '' はすべて true です。ただし === ではすべて false になります"
+    ]
+  },
+  "co-009": {
+    "lead": "null == undefined は true になります。これは JavaScript の特別なルールで、null と undefined はお互い同士を == で比べると true になりますが、それ以外の値とは true になりません。",
+    "steps": [
+      "null と undefined は JavaScript において「値がない」ことを表す2つの異なる特殊値です",
+      "null は「意図的に値がない状態」、undefined は「値がまだ設定されていない状態」を意味します",
+      "== で比べると null == undefined は true になります（JavaScriptの仕様で決まっているルール）"
+    ],
+    "common_mistakes": [
+      "null と undefined は別の型なので false になると思いがちですが、== では特別扱いされて true になります",
+      "null == 0 や undefined == 0 は false です（null と undefined は相互にしか == で true になりません）"
+    ],
+    "tips": [
+      "null や undefined かどうかを確認したいときは、== null とすると「null または undefined」の両方を一度にチェックできます",
+      "null === undefined は false です（=== は型も確認するため）"
+    ]
+  },
+  "co-010": {
+    "lead": "NaN === NaN は false になります。NaN（ナン）は「Not a Number（数値ではない）」を意味する特殊な値で、JavaScript において NaN は「自分自身とも等しくない」という特別なルールがあります。",
+    "steps": [
+      "NaN は「Not a Number」の略で、計算できない結果を表します（例: 0/0、parseInt('abc')）",
+      "NaN は === でも == でも、自分自身と比較すると false になります",
+      "NaN === NaN → false（これは JavaScript の仕様として決まっているルールです）"
+    ],
+    "common_mistakes": [
+      "同じ値（NaN）どうしなので true になると思いがちですが、NaN は唯一「自分自身と等しくない」特殊な値です"
+    ],
+    "tips": [
+      "ある値が NaN かどうかを判定するには Number.isNaN(x) を使います",
+      "x === NaN では正しく判定できません（常に false になります）",
+      "NaN != NaN は true になります（NaN は自分自身と等しくないため）"
+    ]
+  },
+  "co-011": {
+    "lead": "null == 0 は false になります。null は == で比べるとき、undefined 以外の値とは等しくなりません。たとえ null が「空」に見えても、null == 0 や null == '' や null == false はすべて false です。",
+    "steps": [
+      "null を == で比べると、true になるのは null == null か null == undefined のときだけです",
+      "null == 0 では、null は 0 に変換されません",
+      "結果: false"
+    ],
+    "common_mistakes": [
+      "null は「空っぽ」なので 0 や false と等しいと思いがちですが、== では null は null と undefined にしか等しくなりません"
+    ],
+    "tips": [
+      "null >= 0 は true になりますが（比較演算子では null が 0 に変換されるため）、null == 0 は false です。この違いはよく試験に出ます"
+    ]
+  },
+  "co-012": {
+    "lead": "0 == '' は true になります。== で比較するとき、片方が数値（number）でもう片方が文字列（string）の場合、文字列を数値に変換してから比べます。空文字列 '' を数値に変換すると 0 になるため、0 == 0 と同じになり true になります。",
+    "steps": [
+      "左辺: 0（型は number）",
+      "右辺: ''（型は string、空文字）",
+      "== は文字列を数値に変換しようとします: '' → Number('') → 0",
+      "変換後: 0 == 0 → true"
+    ],
+    "common_mistakes": [
+      "型が違う（number と string）ので false になると思いがちですが、型変換で空文字が 0 になります"
+    ],
+    "tips": [
+      "Number('') は 0 になります。Number(' ') も 0、Number('3') は 3 になります",
+      "これが == の危険な動作の一例です。=== を使えば 0 === '' は false になります"
+    ]
+  },
+  "co-013": {
+    "lead": "'0' == false は true になります。== で boolean との比較では、まず boolean を数値に変換（false → 0）し、次に文字列を数値に変換（'0' → 0）します。変換後は 0 == 0 となり true になります。",
+    "steps": [
+      "右辺 false（boolean）を数値に変換: false → 0",
+      "左辺 '0'（string）を数値に変換: '0' → 0",
+      "変換後: 0 == 0 → true"
+    ],
+    "common_mistakes": [
+      "'0' は空でない文字列なのでいつも「真」だと思いがちですが、== では変換後に 0 になります",
+      "'0' == false が true なのに、if ('0') は true になることとの違いに注意（if 文では文字列の「存在」を確認します）"
+    ],
+    "tips": [
+      "== 比較では: boolean → 数値 → 文字列を数値 の順に変換が起きます",
+      "'0' == false は true ですが、'0' === false は false です（型が違うため）"
+    ]
+  },
+  "co-014": {
+    "lead": "undefined == false は false になります。undefined を == で比べると、true になるのは undefined == undefined か undefined == null のときだけです。false（boolean）との比較は false になります。",
+    "steps": [
+      "undefined は == で比べるとき、null 以外の値とは等しくなりません",
+      "undefined == false: false は 0 に変換されますが、undefined は変換されません",
+      "結果: false"
+    ],
+    "common_mistakes": [
+      "undefined も false も「空っぽ」に感じるので == で true になると思いがちですが、undefined は null としか == で true になりません"
+    ],
+    "tips": [
+      "null == undefined は true ですが、undefined == false は false です",
+      "undefined は特別扱いされていて、== で true になるのは null だけです"
+    ]
+  },
+  "co-015": {
+    "lead": "[] == false は true になります。これは少し複雑な変換が起きています。まず false が 0 に変換され、次に [] が文字列 '' に変換され、さらに '' が数値 0 に変換されます。最終的に 0 == 0 となり true になります。",
+    "steps": [
+      "右辺 false（boolean）を数値に変換: false → 0",
+      "左辺 []（配列）をプリミティブに変換: [] → '' （空の配列を文字列にすると空文字になる）",
+      "'' を数値に変換: '' → 0",
+      "変換後: 0 == 0 → true"
+    ],
+    "common_mistakes": [
+      "配列と boolean を比べると TypeError になると思いがちですが、JavaScript は自動変換を試みます",
+      "[] === false は false です（型が違うため）"
+    ],
+    "tips": [
+      "このような複雑な型変換が == の「危険な挙動」の典型例です",
+      "型変換を避けるため、配列の比較には === を使うか、明示的に値を変換してから比べましょう"
+    ]
+  },
+  "co-016": {
+    "lead": "a === b は false になります。オブジェクト（{}）や配列（[]）は「参照型」といって、変数にはオブジェクト本体ではなく「場所（参照）」が保存されています。const a = {} と const b = {} は別々の場所に作られた別々のオブジェクトなので、中身が同じでも参照先が違い、=== で比べると false になります。",
+    "steps": [
+      "const a = {} でメモリ上に新しいオブジェクトが作られ、a にはその場所（参照）が保存されます",
+      "const b = {} で別のメモリ上に新しいオブジェクトが作られ、b にはその場所（参照）が保存されます",
+      "a === b は「a の参照先と b の参照先が同じ場所か？」を確認します",
+      "別々の場所に作られているので参照先が異なり、false になります"
+    ],
+    "common_mistakes": [
+      "中身（プロパティ）が同じなら true になると思いがちですが、=== は中身ではなく「同じオブジェクトかどうか（参照が同じか）」を確認します"
+    ],
+    "tips": [
+      "オブジェクトの中身を比べたい場合は JSON.stringify(a) === JSON.stringify(b) などを使いましょう",
+      "const b = a のように代入すると、a と b は同じ参照を持つため a === b は true になります"
+    ]
+  },
+  "co-017": {
+    "lead": "a === b は true になります。const b = a とすると、b には a と同じ「参照（場所）」がコピーされます。つまり a と b は同じ配列オブジェクトを指しているため、=== で比べると true になります。",
+    "steps": [
+      "const a = [1, 2, 3] で配列が作られ、a にはその参照が保存されます",
+      "const b = a とすると、b には a と同じ参照（場所）がコピーされます",
+      "a と b は同じ配列を指しているため a === b → true"
+    ],
+    "common_mistakes": [
+      "配列をコピーしているから別々の配列になると思いがちですが、= による代入は参照のコピーです"
+    ],
+    "tips": [
+      "配列の独立したコピーを作りたい場合は const b = [...a] や const b = a.slice() を使いましょう",
+      "参照のコピーの場合、a を変更すると b にも反映されます（同じ配列を参照しているため）"
+    ]
+  },
+  "co-018": {
+    "lead": "NaN != NaN は true になります。NaN（Not a Number）は「自分自身とも等しくない」特殊な値なので、NaN === NaN が false、したがって NaN !== NaN が true になります。!= も同様に NaN != NaN は true です。",
+    "steps": [
+      "NaN は自分自身と等しくない特殊な値です",
+      "NaN == NaN → false（型変換しても自分自身と等しくない）",
+      "!= は == の逆なので NaN != NaN → true"
+    ],
+    "common_mistakes": [
+      "同じ値どうしの != は false になると思いがちですが、NaN は唯一の例外で != も true になります"
+    ],
+    "tips": [
+      "NaN かどうか調べたいときは Number.isNaN(x) を使いましょう",
+      "この特性を使った判定: x !== x が true なら x は NaN です（ただし Number.isNaN が明確です）"
+    ]
+  },
+  "co-019": {
+    "lead": "typeof NaN === 'number' は true になります。NaN（Not a Number）は「数値ではない」という名前ですが、JavaScript 内部では数値型（number）として扱われています。typeof NaN を確認すると 'number' と表示されます。",
+    "steps": [
+      "typeof 演算子は値の型を文字列で返します（'number', 'string', 'boolean', 'undefined', 'object', 'function'）",
+      "NaN は数値計算の結果として生まれる値で、型は number です",
+      "typeof NaN → 'number'",
+      "'number' === 'number' → true"
+    ],
+    "common_mistakes": [
+      "NaN という名前から型が 'NaN' や 'undefined' になると思いがちですが、typeof NaN は 'number' です"
+    ],
+    "tips": [
+      "NaN は「数値型の中の特殊な値」です",
+      "NaN を生み出す操作の例: parseInt('abc')、0/0、Math.sqrt(-1)、'abc' * 2"
+    ]
+  },
+  "co-020": {
+    "lead": "値が NaN かどうかを正確に判定するには Number.isNaN(x) を使います。x === NaN や x == NaN は NaN が自分自身と等しくないため、常に false を返してしまい正しく判定できません。",
+    "steps": [
+      "NaN === NaN が false になるため、=== による NaN の判定は不可能です",
+      "Number.isNaN(x) は「x が NaN かどうか」を正確に判定して true/false を返します",
+      "Number.isNaN(NaN) → true、Number.isNaN(5) → false、Number.isNaN('abc') → false"
+    ],
+    "common_mistakes": [
+      "x === NaN で判定しようとすると常に false になります",
+      "x == NaN も同様に常に false になります",
+      "グローバルの isNaN() 関数は文字列なども NaN に変換してから判定するため、Number.isNaN() のほうが正確です"
+    ],
+    "tips": [
+      "NaN の判定: Number.isNaN(x) を使う",
+      "古い方法として x !== x が true なら NaN という方法もありますが、Number.isNaN が分かりやすいです"
+    ]
+  },
+  "co-021": {
+    "lead": "3 > 2 > 1 は false になります。JavaScript では比較演算子は左から順に評価されます（左結合）。まず 3 > 2 が評価されて true になり、次に true > 1 を評価します。true は数値比較では 1 に変換されるため 1 > 1 となり false になります。",
+    "steps": [
+      "JavaScript では 3 > 2 > 1 のような連鎖比較は、数学の意味通りには動きません",
+      "まず左側を評価: 3 > 2 → true",
+      "次に true を左辺にして評価: true > 1 → 1 > 1（true は数値比較で 1 に変換）",
+      "1 > 1 → false"
+    ],
+    "common_mistakes": [
+      "数学の 3 > 2 > 1 のように「3 は 2 より大きく、2 は 1 より大きい」という意味で true になると思いがちです",
+      "JavaScript の連鎖比較は数学的な意味にはなりません"
+    ],
+    "tips": [
+      "「3 が 2 より大きく、かつ 2 が 1 より大きい」と確認したいときは: (3 > 2) && (2 > 1) と書きましょう"
+    ]
+  },
+  "co-022": {
+    "lead": "1 < 2 < 3 は true になります。ただしその理由は「数学的に 1 < 2 < 3 が成り立つから」ではありません。まず 1 < 2 が true になり、次に true < 3 を評価します。true は 1 に変換されるため 1 < 3 となり、結果は true になります。",
+    "steps": [
+      "左から評価: 1 < 2 → true",
+      "true < 3: true は数値比較で 1 に変換される",
+      "1 < 3 → true",
+      "結果は true ですが、理由は「数学的な連鎖比較」ではなく「型変換の結果」です"
+    ],
+    "common_mistakes": [
+      "「1 < 2 < 3 は数学的に正しいから true」と理解するのは正しくありません。JavaScript の連鎖比較は数学とは異なる仕組みで動いています"
+    ],
+    "tips": [
+      "例えば 2 < 3 < 1 も true になります（2 < 3 → true → 1 < 1 は false... ではなく true → 1、1 < 1 は false）",
+      "実際には 2 < 3 < 1 は false ですが、1 < 1 は false なので結果は false です",
+      "確実な比較には (1 < 2) && (2 < 3) を使いましょう"
+    ]
+  },
+  "co-023": {
+    "lead": "[] == ![] は true になります。これは JavaScript の型変換が複雑に絡み合った有名なケースです。まず ![] が false になり（[] は truthy なので ! をかけると false）、次に [] == false が評価されます。[] は '' に変換され、false は 0 に変換され、'' は 0 になるため 0 == 0 となり true になります。",
+    "steps": [
+      "まず ![] を評価: [] は「値が存在する」ので truthy です。! をかけると false になります",
+      "式は [] == false になります",
+      "false（boolean）を数値に変換: false → 0",
+      "[]（配列）をプリミティブ値に変換: [] → '' (空の配列を文字列にすると空文字)",
+      "'' を数値に変換: '' → 0",
+      "最終的に 0 == 0 → true"
+    ],
+    "common_mistakes": [
+      "[] と ![] は逆の概念なので false になると思いがちです",
+      "これは == の暗黙型変換の複雑さを示す典型的な例で、=== を使うことが推奨される理由の一つです"
+    ],
+    "tips": [
+      "[] == ![] が true になるのは JavaScript の型変換ルールによる意図しない挙動の典型例です",
+      "実際のコードでは === を使い、このような比較を避けましょう"
+    ]
+  },
+  "co-024": {
+    "lead": "null >= 0 は true、null == 0 は false という一見矛盾した結果になります。>= などの大小比較では null が 0 に変換されますが、== の比較では null は特別扱いされ、null または undefined としか等しくなりません。",
+    "steps": [
+      "null >= 0: >= は大小比較なので null を数値に変換します → Number(null) = 0 → 0 >= 0 → true",
+      "null == 0: == 比較では null は特別ルールが適用されます。null は null と undefined にしか == で等しくなりません → false",
+      "この違いは JavaScript の仕様で決まっています"
+    ],
+    "common_mistakes": [
+      "null >= 0 が true なら null == 0 も true になるはずと思いがちです",
+      "大小比較（>=, <=, >, <）と等値比較（==）では null の扱いが異なります"
+    ],
+    "tips": [
+      "null の比較は予測しにくいため、null かどうかを確認するときは === null を使いましょう"
+    ]
+  },
+  "co-025": {
+    "lead": "undefined >= 0 は false になります。undefined を大小比較（>=）する際、undefined は NaN に変換されます。NaN との比較は常に false になるため、undefined >= 0 は false です。",
+    "steps": [
+      ">= は大小比較なので undefined を数値に変換します: Number(undefined) → NaN",
+      "NaN >= 0 は NaN との比較になります",
+      "NaN との比較（==、===、>、<、>=、<= すべて）は常に false になります",
+      "結果: false"
+    ],
+    "common_mistakes": [
+      "null >= 0 は true になるため、undefined >= 0 も同じだと思いがちですが、undefined は NaN に変換されるため false になります",
+      "null と undefined の変換結果が違う点（null → 0、undefined → NaN）に注意が必要です"
+    ],
+    "tips": [
+      "null と undefined は似ていますが、数値変換すると違う結果になります: Number(null) = 0、Number(undefined) = NaN",
+      "NaN との大小比較は必ず false になります"
+    ]
+  },
+  "co-026": {
+    "lead": "'' == false は true、'' === false は false になります。== では false が 0 に変換され、'' も 0 に変換されるため 0 == 0 となり true になります。一方 === では型（string と boolean）が違うため即座に false になります。",
+    "steps": [
+      "'' == false: false → 0、'' → 0（空文字を数値に変換すると 0）、0 == 0 → true",
+      "'' === false: まず型を確認。左辺は string、右辺は boolean → 型が違うため false"
+    ],
+    "common_mistakes": [
+      "'' と false はどちらも「空・偽」のイメージがあるので == でも === でも同じ結果になると思いがちです"
+    ],
+    "tips": [
+      "== では型変換が起きて true になることがある一方、=== では型が違えば false になります",
+      "これが === を使うことが推奨される理由の一つです"
+    ]
+  },
+  "co-027": {
+    "lead": "0 === -0 は true になります。JavaScript の === 演算子は 0 と -0 を区別しません。どちらも「ゼロ」として同一の値と見なし、true を返します。",
+    "steps": [
+      "JavaScript には正のゼロ (0) と負のゼロ (-0) が内部的に存在します",
+      "しかし === で比較すると 0 と -0 は同一と見なされ、true になります",
+      "0 === -0 → true"
+    ],
+    "common_mistakes": [
+      "0 と -0 は符号が違うから false になると思いがちですが、=== では同一として扱われます"
+    ],
+    "tips": [
+      "0 と -0 を区別したい場合は Object.is(0, -0) を使います。これは false を返します",
+      "実際のプログラムで 0 と -0 を区別する必要があるケースは稀ですが、数学的な計算や物理シミュレーションでは重要なことがあります"
+    ]
+  },
+  "co-028": {
+    "lead": "0 === -0 は true、Object.is(0, -0) は false になります。=== は 0 と -0 を同一として扱いますが、Object.is は JavaScript 内部で本当に同一かどうかを厳密に判定します。Object.is は NaN の比較でも === と異なる結果を返します（Object.is(NaN, NaN) は true）。",
+    "steps": [
+      "0 === -0: === は 0 と -0 を区別しない → true",
+      "Object.is(0, -0): 内部表現の違いまで確認する厳密な比較 → false",
+      "Object.is は === と2点異なります: ① 0 と -0 を区別する ② NaN と NaN を等しいと見なす"
+    ],
+    "common_mistakes": [
+      "=== と Object.is は同じ動作をすると思いがちですが、0/-0 の比較と NaN の比較で結果が違います"
+    ],
+    "tips": [
+      "Object.is(NaN, NaN) は true になります（=== は false）",
+      "Object.is(0, -0) は false になります（=== は true）",
+      "日常的なコードでは === で十分ですが、厳密な比較が必要な場面では Object.is を使いましょう"
+    ]
+  },
+  "co-029": {
+    "lead": "null == null は true、null == undefined も true になります。JavaScript では == の比較において null は null と undefined のみに等しく、他の値（0、false、'' など）とは等しくなりません。",
+    "steps": [
+      "x は null なので、x == null は null == null を評価します → true",
+      "x == undefined は null == undefined を評価します",
+      "JavaScript の仕様で null == undefined は特別に true と決まっています → true",
+      "2行目とも true になります"
+    ],
+    "common_mistakes": [
+      "null == undefined が true になることを忘れて、false と答えてしまいがちです",
+      "null はあくまで null と undefined にしか == で等しくなりません"
+    ],
+    "tips": [
+      "null と undefined の両方をチェックしたいときは x == null とするだけで OK です",
+      "厳密に null だけを確認したいときは x === null を使いましょう"
+    ]
+  },
+  "co-030": {
+    "lead": "=== を優先する理由は「暗黙の型変換によるバグを防ぐため」です。== は型が違っていても自動的に変換してから比較するため、意図しない true や false が返ることがあります。=== を使うと型と値の両方を明示的に確認するため、予測しやすいコードになります。",
+    "steps": [
+      "== の問題例: 0 == '' → true、0 == false → true、'' == false → true などの意図しない結果が出やすい",
+      "=== を使うと型が違う時点で false になるため、型変換による意外な結果を防げます",
+      "現代の JavaScript 開発では、特別な理由がなければ === を使うのが標準的なスタイルです"
+    ],
+    "common_mistakes": [
+      "=== のほうが処理が遅いと思う人がいますが、実際にはパフォーマンスの差はほぼありません",
+      "== でも動くからどちらでもよいと思いがちですが、== はバグの原因になりやすいです"
+    ],
+    "tips": [
+      "迷ったら === を使いましょう",
+      "== が適切なケースは「null か undefined かをまとめてチェックするとき（x == null）」など、意図的な型変換を利用するときに限定しましょう"
+    ]
+  }
+}

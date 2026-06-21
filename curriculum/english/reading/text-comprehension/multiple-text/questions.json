@@ -1,0 +1,422 @@
+[
+  {
+    "id": "mt-001",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] Yumiのブログ\nLast Saturday, I visited the City Art Museum with my mother. The museum was holding a special exhibition of paintings by a local artist named Hana Kimura. The entrance fee was 600 yen for adults. High school students could enter for free. The exhibition was on the second floor and featured 30 paintings. My favorite was a large painting of Mount Fuji called 'First Snow.' The museum shop on the first floor sold postcards and books. We arrived at 10 a.m. and left at noon.\n\n[文書2] ケンジのコメント\nHana Kimura's exhibition sounds wonderful! I went to the same museum last summer for a photography exhibition. At that time, high school students paid 300 yen. It seems the museum has changed its policy. I also love 'First Snow' — I saw it at the National Gallery two years ago. By the way, my sister told me the museum has a cafe on the third floor. Did you visit it?\n\n【設問】文書1によると、高校生の入館料はいくらか。",
+    "choices": [
+      { "label": "A", "text": "無料" },
+      { "label": "B", "text": "300円" },
+      { "label": "C", "text": "600円" },
+      { "label": "D", "text": "1,000円" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-002",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] Yumiのブログ\nLast Saturday, I visited the City Art Museum with my mother. The museum was holding a special exhibition of paintings by a local artist named Hana Kimura. The entrance fee was 600 yen for adults. High school students could enter for free. The exhibition was on the second floor and featured 30 paintings. My favorite was a large painting of Mount Fuji called 'First Snow.' The museum shop on the first floor sold postcards and books. We arrived at 10 a.m. and left at noon.\n\n[文書2] ケンジのコメント\nHana Kimura's exhibition sounds wonderful! I went to the same museum last summer for a photography exhibition. At that time, high school students paid 300 yen. It seems the museum has changed its policy. I also love 'First Snow' — I saw it at the National Gallery two years ago. By the way, my sister told me the museum has a cafe on the third floor. Did you visit it?\n\n【設問】文書2でケンジが「First Snow（初雪）という絵をどこで見たか」について述べていることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "市立美術館で去年見た" },
+      { "label": "B", "text": "国立ギャラリーで2年前に見た" },
+      { "label": "C", "text": "ハナ・キムラの写真展で見た" },
+      { "label": "D", "text": "学校の廊下に飾られているのを見た" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "mt-003",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] Yumiのブログ\nLast Saturday, I visited the City Art Museum with my mother. The museum was holding a special exhibition of paintings by a local artist named Hana Kimura. The entrance fee was 600 yen for adults. High school students could enter for free. The exhibition was on the second floor and featured 30 paintings. My favorite was a large painting of Mount Fuji called 'First Snow.' The museum shop on the first floor sold postcards and books. We arrived at 10 a.m. and left at noon.\n\n[文書2] ケンジのコメント\nHana Kimura's exhibition sounds wonderful! I went to the same museum last summer for a photography exhibition. At that time, high school students paid 300 yen. It seems the museum has changed its policy. I also love 'First Snow' — I saw it at the National Gallery two years ago. By the way, my sister told me the museum has a cafe on the third floor. Did you visit it?\n\n【設問】文書2にのみ書かれている情報はどれか。",
+    "choices": [
+      { "label": "A", "text": "ハナ・キムラの展覧会は2階で開催されている" },
+      { "label": "B", "text": "美術館の1階にショップがある" },
+      { "label": "C", "text": "美術館の3階にカフェがある" },
+      { "label": "D", "text": "ユミは午前10時に美術館に到着した" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "mt-004",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 学校からのお知らせ\nAnnouncement: Annual Sports Day\nOur school's Annual Sports Day will be held on Wednesday, October 15th, on the school grounds. All students must wear their school sports uniforms. Students who need to borrow a uniform should contact Mr. Yamada in Room 201 by October 10th. The event will start at 9:00 a.m. and finish at 3:30 p.m. Lunch will be provided for all participants. Parents are welcome to watch from the viewing area. In case of rain, the event will be postponed to October 16th.\n\n[文書2] ケイコ先生への生徒メール\nDear Mr. Yamada,\nMy name is Keiko Tanaka, a student in Class 3-B. I am writing because I will not be able to attend Sports Day on October 15th. I have a doctor's appointment that morning. I plan to arrive at school by 1:00 p.m. I would like to borrow a sports uniform to participate in the afternoon activities. Could you please keep one in size medium for me? I will come to your room to pick it up on October 13th.\nBest regards, Keiko Tanaka\n\n【設問】文書1によると、体育祭が雨天の場合はいつに延期されるか。",
+    "choices": [
+      { "label": "A", "text": "10月13日" },
+      { "label": "B", "text": "10月14日" },
+      { "label": "C", "text": "10月15日" },
+      { "label": "D", "text": "10月16日" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "mt-005",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 学校からのお知らせ\nAnnouncement: Annual Sports Day\nOur school's Annual Sports Day will be held on Wednesday, October 15th, on the school grounds. All students must wear their school sports uniforms. Students who need to borrow a uniform should contact Mr. Yamada in Room 201 by October 10th. The event will start at 9:00 a.m. and finish at 3:30 p.m. Lunch will be provided for all participants. Parents are welcome to watch from the viewing area. In case of rain, the event will be postponed to October 16th.\n\n[文書2] ケイコ先生への生徒メール\nDear Mr. Yamada,\nMy name is Keiko Tanaka, a student in Class 3-B. I am writing because I will not be able to attend Sports Day on October 15th. I have a doctor's appointment that morning. I plan to arrive at school by 1:00 p.m. I would like to borrow a sports uniform to participate in the afternoon activities. Could you please keep one in size medium for me? I will come to your room to pick it up on October 13th.\nBest regards, Keiko Tanaka\n\n【設問】文書2でケイコが体育祭の午前に参加できない理由として正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "午前中に医者の予約があるから" },
+      { "label": "B", "text": "体育服を持っていないから" },
+      { "label": "C", "text": "授業が入っているから" },
+      { "label": "D", "text": "保護者が来校するから" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-006",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 学校からのお知らせ\nAnnouncement: Annual Sports Day\nOur school's Annual Sports Day will be held on Wednesday, October 15th, on the school grounds. All students must wear their school sports uniforms. Students who need to borrow a uniform should contact Mr. Yamada in Room 201 by October 10th. The event will start at 9:00 a.m. and finish at 3:30 p.m. Lunch will be provided for all participants. Parents are welcome to watch from the viewing area. In case of rain, the event will be postponed to October 16th.\n\n[文書2] ケイコ先生への生徒メール\nDear Mr. Yamada,\nMy name is Keiko Tanaka, a student in Class 3-B. I am writing because I will not be able to attend Sports Day on October 15th. I have a doctor's appointment that morning. I plan to arrive at school by 1:00 p.m. I would like to borrow a sports uniform to participate in the afternoon activities. Could you please keep one in size medium for me? I will come to your room to pick it up on October 13th.\nBest regards, Keiko Tanaka\n\n【設問】文書2でケイコがヤマダ先生にお願いしていることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "体育祭の日程変更を連絡してほしい" },
+      { "label": "B", "text": "Mサイズの体育服を取り置きしてほしい" },
+      { "label": "C", "text": "午前の欠席を遅刻扱いにしないでほしい" },
+      { "label": "D", "text": "午後から参加できる種目を教えてほしい" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "mt-007",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] オンライン記事\nGreenview Middle School recently introduced a new school lunch program designed to improve students' health. The program, which started in September, offers meals that include more vegetables and less sugar than before. Students can choose from three different menu options each day. The school worked with a local nutritionist named Dr. Fujita to plan the menus. According to the school principal, Mr. Okamoto, the program has already received positive feedback from most students. The cost per meal is 350 yen, which is 50 yen cheaper than the previous program.\n\n[文書2] 保護者からの手紙\nDear Principal Okamoto,\nI am the parent of a student in Class 2-A. I am writing to express my concern about the new lunch program. While I understand that the goal is to improve health, my daughter, Mika, often comes home still feeling hungry after lunch. I would appreciate it if the school could consider increasing the portion size, especially for students who are active in sports. I would also like to know who designed the new menus. I would be happy to discuss this matter further at the next parent meeting scheduled for November 5th.\nSincerely, Ms. Harada\n\n【設問】文書1によると、新しい給食プログラムはいつ始まったか。",
+    "choices": [
+      { "label": "A", "text": "6月" },
+      { "label": "B", "text": "7月" },
+      { "label": "C", "text": "9月" },
+      { "label": "D", "text": "11月" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "mt-008",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] オンライン記事\nGreenview Middle School recently introduced a new school lunch program designed to improve students' health. The program, which started in September, offers meals that include more vegetables and less sugar than before. Students can choose from three different menu options each day. The school worked with a local nutritionist named Dr. Fujita to plan the menus. According to the school principal, Mr. Okamoto, the program has already received positive feedback from most students. The cost per meal is 350 yen, which is 50 yen cheaper than the previous program.\n\n[文書2] 保護者からの手紙\nDear Principal Okamoto,\nI am the parent of a student in Class 2-A. I am writing to express my concern about the new lunch program. While I understand that the goal is to improve health, my daughter, Mika, often comes home still feeling hungry after lunch. I would appreciate it if the school could consider increasing the portion size, especially for students who are active in sports. I would also like to know who designed the new menus. I would be happy to discuss this matter further at the next parent meeting scheduled for November 5th.\nSincerely, Ms. Harada\n\n【設問】文書1によると、新しい給食の1食あたりの値段はいくらか。",
+    "choices": [
+      { "label": "A", "text": "200円" },
+      { "label": "B", "text": "300円" },
+      { "label": "C", "text": "320円" },
+      { "label": "D", "text": "350円" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "mt-009",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] オンライン記事\nGreenview Middle School recently introduced a new school lunch program designed to improve students' health. The program, which started in September, offers meals that include more vegetables and less sugar than before. Students can choose from three different menu options each day. The school worked with a local nutritionist named Dr. Fujita to plan the menus. According to the school principal, Mr. Okamoto, the program has already received positive feedback from most students. The cost per meal is 350 yen, which is 50 yen cheaper than the previous program.\n\n[文書2] 保護者からの手紙\nDear Principal Okamoto,\nI am the parent of a student in Class 2-A. I am writing to express my concern about the new lunch program. While I understand that the goal is to improve health, my daughter, Mika, often comes home still feeling hungry after lunch. I would appreciate it if the school could consider increasing the portion size, especially for students who are active in sports. I would also like to know who designed the new menus. I would be happy to discuss this matter further at the next parent meeting scheduled for November 5th.\nSincerely, Ms. Harada\n\n【設問】文書2でハラダさんが学校に求めていることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "食事の量を増やすこと" },
+      { "label": "B", "text": "給食の値段をさらに安くすること" },
+      { "label": "C", "text": "メニューの選択肢をもっと増やすこと" },
+      { "label": "D", "text": "砂糖を完全になくすこと" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-010",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "basic",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] オンライン記事\nGreenview Middle School recently introduced a new school lunch program designed to improve students' health. The program, which started in September, offers meals that include more vegetables and less sugar than before. Students can choose from three different menu options each day. The school worked with a local nutritionist named Dr. Fujita to plan the menus. According to the school principal, Mr. Okamoto, the program has already received positive feedback from most students. The cost per meal is 350 yen, which is 50 yen cheaper than the previous program.\n\n[文書2] 保護者からの手紙\nDear Principal Okamoto,\nI am the parent of a student in Class 2-A. I am writing to express my concern about the new lunch program. While I understand that the goal is to improve health, my daughter, Mika, often comes home still feeling hungry after lunch. I would appreciate it if the school could consider increasing the portion size, especially for students who are active in sports. I would also like to know who designed the new menus. I would be happy to discuss this matter further at the next parent meeting scheduled for November 5th.\nSincerely, Ms. Harada\n\n【設問】文書2でハラダさんが「知りたい」と述べていることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "次回の給食の献立" },
+      { "label": "B", "text": "新しいメニューを誰がデザインしたか" },
+      { "label": "C", "text": "保護者会の参加方法" },
+      { "label": "D", "text": "砂糖を減らした理由" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "mt-011",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] エマのブログ（一人での学習について）\nI have been studying alone for the past year, and I believe it is the best way to learn. When I study by myself, I can focus completely on my weak areas. I don't have to wait for others or adjust to someone else's pace. I can take breaks when I need to and review topics as many times as I want. Some people say group study helps you learn from others, but I often find it distracting. I think independent study builds self-discipline, which is an important skill for future success.\n\n[文書2] リアムのブログ（グループ学習について）\nI used to study alone, but I switched to group study last year, and my grades have improved a lot. Studying with friends helps me stay motivated because I don't want to let the group down. When I don't understand something, a classmate can explain it to me in a way that makes more sense than a textbook. I also think explaining things to others helps me understand the material better. Both methods have their strengths, but I believe group study is more effective for most students.\n\n【設問】文書1（エマ）に書かれているが、文書2（リアム）には書かれていないことはどれか。",
+    "choices": [
+      { "label": "A", "text": "以前に異なる学習方法を試した経験がある" },
+      { "label": "B", "text": "グループ学習でもメリットがある面を認めている" },
+      { "label": "C", "text": "一人での学習が自律心を育てると述べている" },
+      { "label": "D", "text": "教科書より人の説明の方が分かりやすい場合があると述べている" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "mt-012",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] エマのブログ（一人での学習について）\nI have been studying alone for the past year, and I believe it is the best way to learn. When I study by myself, I can focus completely on my weak areas. I don't have to wait for others or adjust to someone else's pace. I can take breaks when I need to and review topics as many times as I want. Some people say group study helps you learn from others, but I often find it distracting. I think independent study builds self-discipline, which is an important skill for future success.\n\n[文書2] リアムのブログ（グループ学習について）\nI used to study alone, but I switched to group study last year, and my grades have improved a lot. Studying with friends helps me stay motivated because I don't want to let the group down. When I don't understand something, a classmate can explain it to me in a way that makes more sense than a textbook. I also think explaining things to others helps me understand the material better. Both methods have their strengths, but I believe group study is more effective for most students.\n\n【設問】文書2でリアムが「他者に説明することの効果」について述べていることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "グループ内で一番人気になれる" },
+      { "label": "B", "text": "友達より早く内容を理解できるようになる" },
+      { "label": "C", "text": "グループ全員の成績が一緒に上がる" },
+      { "label": "D", "text": "他者に説明することで自分の理解が深まる" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "mt-013",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] エマのブログ（一人での学習について）\nI have been studying alone for the past year, and I believe it is the best way to learn. When I study by myself, I can focus completely on my weak areas. I don't have to wait for others or adjust to someone else's pace. I can take breaks when I need to and review topics as many times as I want. Some people say group study helps you learn from others, but I often find it distracting. I think independent study builds self-discipline, which is an important skill for future success.\n\n[文書2] リアムのブログ（グループ学習について）\nI used to study alone, but I switched to group study last year, and my grades have improved a lot. Studying with friends helps me stay motivated because I don't want to let the group down. When I don't understand something, a classmate can explain it to me in a way that makes more sense than a textbook. I also think explaining things to others helps me understand the material better. Both methods have their strengths, but I believe group study is more effective for most students.\n\n【設問】エマとリアムの両方が触れていない話題はどれか。",
+    "choices": [
+      { "label": "A", "text": "学習に最適な時間帯" },
+      { "label": "B", "text": "グループ学習についての評価" },
+      { "label": "C", "text": "一人学習の利点" },
+      { "label": "D", "text": "学習方法と成績との関係" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-014",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 雑誌記事（スマートフォンと授業）\nMany schools across Japan are now debating whether to allow students to use smartphones in class. Supporters argue that smartphones can be useful educational tools. Students can look up information, use educational apps, and take notes more efficiently. However, critics point out that smartphones are a major source of distraction. Research shows that students who use their phones during class tend to remember less of the lesson content. Some schools have introduced strict rules, such as requiring students to put their phones in a box at the front of the class. Education experts suggest that the key is teaching students how to use technology responsibly.\n\n[文書2] 生徒からの投稿（編集者へ）\nDear Editor,\nI am a second-year high school student, and I read your article about smartphones in class with great interest. I agree that phones can be distracting, but I believe the solution is not to ban them completely. At my school, we already use tablets for research projects, and I think smartphones can serve the same purpose. Last month, my teacher let us use our phones to look up information about climate change, and I found it very helpful. I think students should be trusted to use their phones wisely. Rules about when and how phones can be used would be more effective than a complete ban.\nSincerely, Yui\n\n【設問】文書1で「スマートフォン使用の問題点」として挙げられていることはどれか。",
+    "choices": [
+      { "label": "A", "text": "スマートフォンは高額なため、全生徒が持てるわけではない" },
+      { "label": "B", "text": "授業中にスマートフォンを使うと学習内容を覚えにくくなる" },
+      { "label": "C", "text": "スマートフォンを使った授業は教師の準備が大変だ" },
+      { "label": "D", "text": "スマートフォンを持っていない生徒が不利になる" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "mt-015",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 雑誌記事（スマートフォンと授業）\nMany schools across Japan are now debating whether to allow students to use smartphones in class. Supporters argue that smartphones can be useful educational tools. Students can look up information, use educational apps, and take notes more efficiently. However, critics point out that smartphones are a major source of distraction. Research shows that students who use their phones during class tend to remember less of the lesson content. Some schools have introduced strict rules, such as requiring students to put their phones in a box at the front of the class. Education experts suggest that the key is teaching students how to use technology responsibly.\n\n[文書2] 生徒からの投稿（編集者へ）\nDear Editor,\nI am a second-year high school student, and I read your article about smartphones in class with great interest. I agree that phones can be distracting, but I believe the solution is not to ban them completely. At my school, we already use tablets for research projects, and I think smartphones can serve the same purpose. Last month, my teacher let us use our phones to look up information about climate change, and I found it very helpful. I think students should be trusted to use their phones wisely. Rules about when and how phones can be used would be more effective than a complete ban.\nSincerely, Yui\n\n【設問】文書2でユイが学校でのスマートフォン使用について提案していることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "スマートフォンを授業で全面的に禁止すべきだ" },
+      { "label": "B", "text": "スマートフォンの代わりにタブレットだけを使うべきだ" },
+      { "label": "C", "text": "スマートフォンの使い方や使う場面についてルールを設けるべきだ" },
+      { "label": "D", "text": "スマートフォンは放課後にのみ使用を認めるべきだ" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "mt-016",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 雑誌記事（スマートフォンと授業）\nMany schools across Japan are now debating whether to allow students to use smartphones in class. Supporters argue that smartphones can be useful educational tools. Students can look up information, use educational apps, and take notes more efficiently. However, critics point out that smartphones are a major source of distraction. Research shows that students who use their phones during class tend to remember less of the lesson content. Some schools have introduced strict rules, such as requiring students to put their phones in a box at the front of the class. Education experts suggest that the key is teaching students how to use technology responsibly.\n\n[文書2] 生徒からの投稿（編集者へ）\nDear Editor,\nI am a second-year high school student, and I read your article about smartphones in class with great interest. I agree that phones can be distracting, but I believe the solution is not to ban them completely. At my school, we already use tablets for research projects, and I think smartphones can serve the same purpose. Last month, my teacher let us use our phones to look up information about climate change, and I found it very helpful. I think students should be trusted to use their phones wisely. Rules about when and how phones can be used would be more effective than a complete ban.\nSincerely, Yui\n\n【設問】文書1と文書2の両方で共通して述べられていることはどれか。",
+    "choices": [
+      { "label": "A", "text": "スマートフォンを使った具体的な学校の成功事例を挙げている" },
+      { "label": "B", "text": "スマートフォンの授業使用を全面的に禁止することを主張している" },
+      { "label": "C", "text": "教育専門家の意見をそれぞれ引用している" },
+      { "label": "D", "text": "スマートフォンは教育に活用できるという可能性について触れている" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "mt-017",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 雑誌記事（スマートフォンと授業）\nMany schools across Japan are now debating whether to allow students to use smartphones in class. Supporters argue that smartphones can be useful educational tools. Students can look up information, use educational apps, and take notes more efficiently. However, critics point out that smartphones are a major source of distraction. Research shows that students who use their phones during class tend to remember less of the lesson content. Some schools have introduced strict rules, such as requiring students to put their phones in a box at the front of the class. Education experts suggest that the key is teaching students how to use technology responsibly.\n\n[文書2] 生徒からの投稿（編集者へ）\nDear Editor,\nI am a second-year high school student, and I read your article about smartphones in class with great interest. I agree that phones can be distracting, but I believe the solution is not to ban them completely. At my school, we already use tablets for research projects, and I think smartphones can serve the same purpose. Last month, my teacher let us use our phones to look up information about climate change, and I found it very helpful. I think students should be trusted to use their phones wisely. Rules about when and how phones can be used would be more effective than a complete ban.\nSincerely, Yui\n\n【設問】文書2でユイが「実際に授業でスマートフォンを使った経験」として述べていることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "先生の許可を受け、気候変動について調べるために使った" },
+      { "label": "B", "text": "数学の問題を解くアプリを活用した" },
+      { "label": "C", "text": "友達とグループ学習するためのチャットに使った" },
+      { "label": "D", "text": "英語のリスニング教材として活用した" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-018",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 生徒からのメール\nDear Mr. Harris,\nMy name is Sora Kato, a student in Class 2-C. I am writing to ask for your advice about our group project on endangered animals. Our group has chosen to focus on sea turtles. We have divided the work as follows: two members will research the causes of the decline in sea turtle populations, one member will research conservation efforts, and I will create the presentation slides. However, we are not sure about the recommended length for the final presentation. Could you please let us know? Also, one of our group members, Tomoki Ishii, will be absent next week due to illness. Could he still submit his part by email?\nBest regards, Sora Kato\n\n[文書2] ハリス先生からの返信\nDear Sora,\nThank you for your email. Sea turtles are a great choice for your project. For the final presentation, each group should aim for about 10 minutes. Regarding Tomoki's absence, yes, he can send his research notes to you by email by Friday. Please make sure the whole group is ready for questions from the class after the presentation. I look forward to seeing your work.\nBest, Mr. Harris\n\n【設問】文書1でソラが説明しているグループ内の自分の役割として正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "海の亀の減少原因を調査する" },
+      { "label": "B", "text": "プレゼンテーションのスライドを作成する" },
+      { "label": "C", "text": "保全活動について調査する" },
+      { "label": "D", "text": "発表原稿の最終チェックをする" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "mt-019",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 生徒からのメール\nDear Mr. Harris,\nMy name is Sora Kato, a student in Class 2-C. I am writing to ask for your advice about our group project on endangered animals. Our group has chosen to focus on sea turtles. We have divided the work as follows: two members will research the causes of the decline in sea turtle populations, one member will research conservation efforts, and I will create the presentation slides. However, we are not sure about the recommended length for the final presentation. Could you please let us know? Also, one of our group members, Tomoki Ishii, will be absent next week due to illness. Could he still submit his part by email?\nBest regards, Sora Kato\n\n[文書2] ハリス先生からの返信\nDear Sora,\nThank you for your email. Sea turtles are a great choice for your project. For the final presentation, each group should aim for about 10 minutes. Regarding Tomoki's absence, yes, he can send his research notes to you by email by Friday. Please make sure the whole group is ready for questions from the class after the presentation. I look forward to seeing your work.\nBest, Mr. Harris\n\n【設問】文書2でハリス先生が発表について指示していることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "発表は15分程度にすること" },
+      { "label": "B", "text": "グループ全員が均等に話すこと" },
+      { "label": "C", "text": "発表後にクラスからの質問に答える準備をすること" },
+      { "label": "D", "text": "参考文献リストを提出すること" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "mt-020",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "standard",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 生徒からのメール\nDear Mr. Harris,\nMy name is Sora Kato, a student in Class 2-C. I am writing to ask for your advice about our group project on endangered animals. Our group has chosen to focus on sea turtles. We have divided the work as follows: two members will research the causes of the decline in sea turtle populations, one member will research conservation efforts, and I will create the presentation slides. However, we are not sure about the recommended length for the final presentation. Could you please let us know? Also, one of our group members, Tomoki Ishii, will be absent next week due to illness. Could he still submit his part by email?\nBest regards, Sora Kato\n\n[文書2] ハリス先生からの返信\nDear Sora,\nThank you for your email. Sea turtles are a great choice for your project. For the final presentation, each group should aim for about 10 minutes. Regarding Tomoki's absence, yes, he can send his research notes to you by email by Friday. Please make sure the whole group is ready for questions from the class after the presentation. I look forward to seeing your work.\nBest, Mr. Harris\n\n【設問】文書1と文書2の両方から分かることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "発表の長さはグループによって異なる" },
+      { "label": "B", "text": "グループはサメを研究テーマに選んだ" },
+      { "label": "C", "text": "ハリス先生はグループ発表の指導経験が豊富だ" },
+      { "label": "D", "text": "トモキは体調不良で来週欠席する予定だ" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "mt-021",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 宿題を支持する意見文\nHomework is an essential part of education. When students complete assignments at home, they have the opportunity to review what they learned in class and strengthen their understanding. Homework also helps develop important habits such as time management and self-discipline. A study conducted at a university found that students who regularly complete homework score higher on tests than those who do not. Critics argue that homework causes stress, but this can be managed by giving appropriate amounts. Teachers should assign homework that challenges students without overwhelming them.\n\n[文書2] 宿題に反対する意見文\nThe idea that homework improves academic performance is not supported by strong evidence, especially for younger students. Many studies show that excessive homework causes stress, reduces time for physical activity, and harms family relationships. Students need free time to pursue creative interests and rest their minds after school. Countries like Finland, which assign very little homework, consistently rank among the top nations in education. Instead of homework, schools should focus on making classroom instruction more effective. Quality of learning matters more than quantity of time spent studying.\n\n【設問】文書1と文書2の両方に共通して述べられていることはどれか。",
+    "choices": [
+      { "label": "A", "text": "宿題が生徒のストレスになる場合があること" },
+      { "label": "B", "text": "フィンランドの教育制度を評価していること" },
+      { "label": "C", "text": "家庭学習が時間管理能力を育てること" },
+      { "label": "D", "text": "大学での研究結果を根拠として引用していること" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-022",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 宿題を支持する意見文\nHomework is an essential part of education. When students complete assignments at home, they have the opportunity to review what they learned in class and strengthen their understanding. Homework also helps develop important habits such as time management and self-discipline. A study conducted at a university found that students who regularly complete homework score higher on tests than those who do not. Critics argue that homework causes stress, but this can be managed by giving appropriate amounts. Teachers should assign homework that challenges students without overwhelming them.\n\n[文書2] 宿題に反対する意見文\nThe idea that homework improves academic performance is not supported by strong evidence, especially for younger students. Many studies show that excessive homework causes stress, reduces time for physical activity, and harms family relationships. Students need free time to pursue creative interests and rest their minds after school. Countries like Finland, which assign very little homework, consistently rank among the top nations in education. Instead of homework, schools should focus on making classroom instruction more effective. Quality of learning matters more than quantity of time spent studying.\n\n【設問】文書2の筆者が宿題に反対する根拠として挙げていないことはどれか。",
+    "choices": [
+      { "label": "A", "text": "運動する時間が減る" },
+      { "label": "B", "text": "宿題が授業の質を下げる" },
+      { "label": "C", "text": "家族と過ごす時間が減る" },
+      { "label": "D", "text": "過度な宿題が生徒にストレスを与える" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "mt-023",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 宿題を支持する意見文\nHomework is an essential part of education. When students complete assignments at home, they have the opportunity to review what they learned in class and strengthen their understanding. Homework also helps develop important habits such as time management and self-discipline. A study conducted at a university found that students who regularly complete homework score higher on tests than those who do not. Critics argue that homework causes stress, but this can be managed by giving appropriate amounts. Teachers should assign homework that challenges students without overwhelming them.\n\n[文書2] 宿題に反対する意見文\nThe idea that homework improves academic performance is not supported by strong evidence, especially for younger students. Many studies show that excessive homework causes stress, reduces time for physical activity, and harms family relationships. Students need free time to pursue creative interests and rest their minds after school. Countries like Finland, which assign very little homework, consistently rank among the top nations in education. Instead of homework, schools should focus on making classroom instruction more effective. Quality of learning matters more than quantity of time spent studying.\n\n【設問】文書1の筆者が「適切な宿題の量」について述べていることとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "適切な量は国の教育指針が決めるべきだ" },
+      { "label": "B", "text": "宿題の量は先生が自由に決めてよい" },
+      { "label": "C", "text": "生徒に無理な負担をかけない程度の量にすべきだ" },
+      { "label": "D", "text": "毎日少量ずつ出すのが最善だ" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "mt-024",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 宿題を支持する意見文\nHomework is an essential part of education. When students complete assignments at home, they have the opportunity to review what they learned in class and strengthen their understanding. Homework also helps develop important habits such as time management and self-discipline. A study conducted at a university found that students who regularly complete homework score higher on tests than those who do not. Critics argue that homework causes stress, but this can be managed by giving appropriate amounts. Teachers should assign homework that challenges students without overwhelming them.\n\n[文書2] 宿題に反対する意見文\nThe idea that homework improves academic performance is not supported by strong evidence, especially for younger students. Many studies show that excessive homework causes stress, reduces time for physical activity, and harms family relationships. Students need free time to pursue creative interests and rest their minds after school. Countries like Finland, which assign very little homework, consistently rank among the top nations in education. Instead of homework, schools should focus on making classroom instruction more effective. Quality of learning matters more than quantity of time spent studying.\n\n【設問】文書1と文書2の両方の筆者が共通して重視していると考えられることとして最も適切なのはどれか。",
+    "choices": [
+      { "label": "A", "text": "宿題の量を増やして学力を上げること" },
+      { "label": "B", "text": "フィンランドの教育モデルを取り入れること" },
+      { "label": "C", "text": "生徒の時間管理能力を高めること" },
+      { "label": "D", "text": "生徒の学習の質を高めること" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "mt-025",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 第1のレビュー\nI visited the new Midori Community Center last weekend. The building is modern and well-designed. The center has a gym, a library, a cafe, and several meeting rooms. I especially enjoyed the gym, which has brand-new equipment. The staff members were friendly and helpful. The center is open from 8 a.m. to 10 p.m. every day. The only downside is that parking is limited, and I had to park far away. Overall, I would highly recommend this place to anyone looking for a great community space.\n\n[文書2] 第2のレビュー\nI heard a lot of good things about the Midori Community Center, but my experience was disappointing. The facilities are nice, but the cafe was closed when I visited on a Tuesday afternoon. I later found out it only operates on weekends. The gym equipment was impressive, but many machines were already occupied. I had to wait 30 minutes for a treadmill. The center closes at 9 p.m. on weekdays, not 10 p.m. as advertised on some websites. For a new facility, I expected better management. The parking situation was also a problem for me.\n\n【設問】文書1と文書2の両者がともに問題点として挙げていることはどれか。",
+    "choices": [
+      { "label": "A", "text": "駐車場が不便であること" },
+      { "label": "B", "text": "営業時間が短すぎること" },
+      { "label": "C", "text": "スタッフの対応が悪いこと" },
+      { "label": "D", "text": "ジムの設備が古いこと" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-026",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 第1のレビュー\nI visited the new Midori Community Center last weekend. The building is modern and well-designed. The center has a gym, a library, a cafe, and several meeting rooms. I especially enjoyed the gym, which has brand-new equipment. The staff members were friendly and helpful. The center is open from 8 a.m. to 10 p.m. every day. The only downside is that parking is limited, and I had to park far away. Overall, I would highly recommend this place to anyone looking for a great community space.\n\n[文書2] 第2のレビュー\nI heard a lot of good things about the Midori Community Center, but my experience was disappointing. The facilities are nice, but the cafe was closed when I visited on a Tuesday afternoon. I later found out it only operates on weekends. The gym equipment was impressive, but many machines were already occupied. I had to wait 30 minutes for a treadmill. The center closes at 9 p.m. on weekdays, not 10 p.m. as advertised on some websites. For a new facility, I expected better management. The parking situation was also a problem for me.\n\n【設問】文書2にのみ書かれている情報はどれか。",
+    "choices": [
+      { "label": "A", "text": "センターにはジムと図書館がある" },
+      { "label": "B", "text": "カフェは週末にしか営業していない" },
+      { "label": "C", "text": "センターのスタッフは親切だ" },
+      { "label": "D", "text": "ジムには新しい機器が揃っている" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "mt-027",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] 第1のレビュー\nI visited the new Midori Community Center last weekend. The building is modern and well-designed. The center has a gym, a library, a cafe, and several meeting rooms. I especially enjoyed the gym, which has brand-new equipment. The staff members were friendly and helpful. The center is open from 8 a.m. to 10 p.m. every day. The only downside is that parking is limited, and I had to park far away. Overall, I would highly recommend this place to anyone looking for a great community space.\n\n[文書2] 第2のレビュー\nI heard a lot of good things about the Midori Community Center, but my experience was disappointing. The facilities are nice, but the cafe was closed when I visited on a Tuesday afternoon. I later found out it only operates on weekends. The gym equipment was impressive, but many machines were already occupied. I had to wait 30 minutes for a treadmill. The center closes at 9 p.m. on weekdays, not 10 p.m. as advertised on some websites. For a new facility, I expected better management. The parking situation was also a problem for me.\n\n【設問】センターの閉館時間について、文書1と文書2の記述を比べると正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "両者とも平日・休日ともに午後10時閉館と述べている" },
+      { "label": "B", "text": "文書1は午後9時、文書2は午後10時閉館と述べている" },
+      { "label": "C", "text": "文書1は毎日午後10時と述べているが、文書2は平日は午後9時と述べている" },
+      { "label": "D", "text": "両者とも閉館時間は日によって異なると述べている" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "mt-028",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] テクノロジー肯定派の記事\nTechnology is transforming education in exciting ways. Digital tools such as tablets and educational software are making learning more interactive and personalized. Students can learn at their own pace, repeat lessons as many times as needed, and access a wide range of resources. Teachers who use technology report that students are more engaged and motivated. According to a 2024 survey of Japanese schools, 78% of teachers believe digital tools have improved student outcomes. The challenge now is to ensure that all students have equal access to technology, regardless of their family's income.\n\n[文書2] テクノロジー慎重派の記事\nWhile technology offers many benefits, we must be careful not to rely on it too heavily in education. Screens can strain young eyes and affect concentration. Children who spend long hours looking at digital devices may struggle with face-to-face communication skills. Moreover, the quality of educational software varies greatly, and not all digital tools are effective. Research also suggests that writing by hand helps students remember information better than typing. Technology should be used as a supplement to traditional teaching methods, not a replacement. Human interaction between teachers and students remains the core of education.\n\n【設問】文書2の筆者が教育においてテクノロジーを使いすぎることへの懸念として挙げていないことはどれか。",
+    "choices": [
+      { "label": "A", "text": "目への負担が増える" },
+      { "label": "B", "text": "対面でのコミュニケーション能力が下がる可能性がある" },
+      { "label": "C", "text": "手書きの方が情報を記憶しやすい" },
+      { "label": "D", "text": "テクノロジーを使う授業は教師の準備に時間がかかる" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "mt-029",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] テクノロジー肯定派の記事\nTechnology is transforming education in exciting ways. Digital tools such as tablets and educational software are making learning more interactive and personalized. Students can learn at their own pace, repeat lessons as many times as needed, and access a wide range of resources. Teachers who use technology report that students are more engaged and motivated. According to a 2024 survey of Japanese schools, 78% of teachers believe digital tools have improved student outcomes. The challenge now is to ensure that all students have equal access to technology, regardless of their family's income.\n\n[文書2] テクノロジー慎重派の記事\nWhile technology offers many benefits, we must be careful not to rely on it too heavily in education. Screens can strain young eyes and affect concentration. Children who spend long hours looking at digital devices may struggle with face-to-face communication skills. Moreover, the quality of educational software varies greatly, and not all digital tools are effective. Research also suggests that writing by hand helps students remember information better than typing. Technology should be used as a supplement to traditional teaching methods, not a replacement. Human interaction between teachers and students remains the core of education.\n\n【設問】文書1と文書2の両方が共通して述べていることとして最も適切なのはどれか。",
+    "choices": [
+      { "label": "A", "text": "テクノロジーは教育において何らかの価値や可能性があることを認めている" },
+      { "label": "B", "text": "日本の学校のタブレット使用率に関する統計を引用している" },
+      { "label": "C", "text": "テクノロジーが教育の中心であるべきだと主張している" },
+      { "label": "D", "text": "全ての生徒が平等にテクノロジーにアクセスできるべきだと述べている" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "mt-030",
+    "subject": "英語",
+    "unit": "複数文章統合読解",
+    "difficulty": "exam",
+    "question": "次の2つの文書を読んで、設問に答えなさい。\n\n[文書1] テクノロジー肯定派の記事\nTechnology is transforming education in exciting ways. Digital tools such as tablets and educational software are making learning more interactive and personalized. Students can learn at their own pace, repeat lessons as many times as needed, and access a wide range of resources. Teachers who use technology report that students are more engaged and motivated. According to a 2024 survey of Japanese schools, 78% of teachers believe digital tools have improved student outcomes. The challenge now is to ensure that all students have equal access to technology, regardless of their family's income.\n\n[文書2] テクノロジー慎重派の記事\nWhile technology offers many benefits, we must be careful not to rely on it too heavily in education. Screens can strain young eyes and affect concentration. Children who spend long hours looking at digital devices may struggle with face-to-face communication skills. Moreover, the quality of educational software varies greatly, and not all digital tools are effective. Research also suggests that writing by hand helps students remember information better than typing. Technology should be used as a supplement to traditional teaching methods, not a replacement. Human interaction between teachers and students remains the core of education.\n\n【設問】文書1の筆者と文書2の筆者の最も大きな意見の相違はどれか。",
+    "choices": [
+      { "label": "A", "text": "テクノロジーが生徒の集中力に与える影響についての見方" },
+      { "label": "B", "text": "教育においてテクノロジーが果たすべき役割の大きさ" },
+      { "label": "C", "text": "日本の教育水準の高さについての評価" },
+      { "label": "D", "text": "生徒が手書きを練習することの重要性" }
+    ],
+    "correct": "B"
+  }
+]
