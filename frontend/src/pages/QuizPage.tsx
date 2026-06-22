@@ -54,8 +54,33 @@ interface ExplanationEntry {
 
 /* ── 問題文から英文パッセージのみ抽出（--- 区切りの間） ── */
 function extractEnglishPassage(questionText: string): string {
-  const match = questionText.match(/---\n([\s\S]+?)\n---/)
-  return match ? match[1].trim() : questionText
+  // 優先①: --- で囲まれた英文パッセージを抽出
+  const markerMatch = questionText.match(/---\n([\s\S]+?)\n---/)
+  if (markerMatch) return markerMatch[1].trim()
+
+  // 優先②: 行ごとに日本語（ひらがな・カタカナ・漢字）を含む行を除去し、英語行のみ残す
+  const isJapaneseLine = (line: string) =>
+    /[぀-ゟ゠-ヿ一-鿿　-〿]/.test(line)
+
+  const englishLines = questionText
+    .split('\n')
+    .map(l => l.trim())
+    .filter(l => l.length > 0 && !isJapaneseLine(l))
+
+  if (englishLines.length > 0) return englishLines.join(' ')
+
+  // 優先③: 文字単位で日本語を除去し、残った英数字テキストを返す
+  return questionText.replace(/[぀-ヿ一-鿿　-〿]+/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+function getEnglishVoice(): SpeechSynthesisVoice | null {
+  const voices = window.speechSynthesis.getVoices()
+  return (
+    voices.find(v => v.lang === 'en-US' && v.localService) ||
+    voices.find(v => v.lang === 'en-US') ||
+    voices.find(v => v.lang.startsWith('en-')) ||
+    null
+  )
 }
 type Explanations = Record<string, ExplanationEntry>
 
@@ -461,16 +486,32 @@ export default function QuizPage() {
       setIsSpeaking(false)
       return
     }
-    /* 英文パッセージのみ読み上げる（--- で囲まれた部分を抽出） */
+    /* 日本語部分を除去し、英文のみ読み上げる */
     const textToRead = extractEnglishPassage(question.question)
     const utter = new SpeechSynthesisUtterance(textToRead)
     utter.lang = 'en-US'
     utter.rate = 0.85
     utter.pitch = 1.0
-    utter.onend = () => setIsSpeaking(false)
-    utter.onerror = () => setIsSpeaking(false)
-    setIsSpeaking(true)
-    window.speechSynthesis.speak(utter)
+
+    /* 英語 voice を明示的に指定（日本語 voice で棒読みにならないよう） */
+    const doSpeak = () => {
+      const voice = getEnglishVoice()
+      if (voice) utter.voice = voice
+      utter.onend = () => setIsSpeaking(false)
+      utter.onerror = () => setIsSpeaking(false)
+      setIsSpeaking(true)
+      window.speechSynthesis.speak(utter)
+    }
+
+    /* voices がまだロードされていない場合は onvoiceschanged を待つ */
+    if (window.speechSynthesis.getVoices().length > 0) {
+      doSpeak()
+    } else {
+      window.speechSynthesis.onvoiceschanged = () => {
+        window.speechSynthesis.onvoiceschanged = null
+        doSpeak()
+      }
+    }
   }
 
   /* ── DB 連携用 ── */
