@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { Analytics } from '@vercel/analytics/react'
 import App from './App'
 import './index.css'
 import 'katex/dist/katex.min.css'
@@ -25,5 +26,6 @@ createRoot(rootElement).render(
         <App />
       </BrowserRouter>
     </QueryClientProvider>
+    <Analytics />
   </StrictMode>,
 )
