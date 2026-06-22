@@ -219,7 +219,7 @@ export default function SubjectPage() {
   const initial     = profile?.username?.[0]?.toUpperCase() ?? 'S'
 
   /* ── 教科選択ステップ ── */
-  const [selectedSubject, setSelectedSubject] = useState<'math' | null>(null)
+  const [selectedSubject, setSelectedSubject] = useState<'math' | 'english' | null>(null)
 
   /* ── school_type でコースを絞り込む ── */
   const visibleCourses = profile?.school_type
@@ -243,7 +243,7 @@ export default function SubjectPage() {
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-          {selectedSubject === 'math' && (
+          {(selectedSubject === 'math' || selectedSubject === 'english') && (
             <>
               <button
                 className={styles.logoutBtn}
@@ -252,13 +252,15 @@ export default function SubjectPage() {
               >
                 教科
               </button>
-              <button
-                className={styles.logoutBtn}
-                onClick={() => setSelectingSchool(true)}
-                style={{ fontSize: '0.75rem', opacity: 0.7, padding: '4px 7px' }}
-              >
-                コース
-              </button>
+              {selectedSubject === 'math' && (
+                <button
+                  className={styles.logoutBtn}
+                  onClick={() => setSelectingSchool(true)}
+                  style={{ fontSize: '0.75rem', opacity: 0.7, padding: '4px 7px' }}
+                >
+                  コース
+                </button>
+              )}
             </>
           )}
           <button className={styles.logoutBtn} onClick={handleLogout} style={{ padding: '4px 7px' }}>
@@ -349,13 +351,15 @@ export default function SubjectPage() {
         {/* ══ セクションヘッダー ══ */}
         <div className={styles.sectionHeader}>
           <p className={styles.sectionIndex}>
-            {selectedSubject === 'math' ? 'MATHEMATICS  ·  数学' : 'STUDY  ·  学習'}
+            {selectedSubject === 'math' ? 'MATHEMATICS  ·  数学' : selectedSubject === 'english' ? 'ENGLISH  ·  英語' : 'STUDY  ·  学習'}
           </p>
           <Flourish width={70} thickness={0.4} diamondSize={4} color="var(--sq-burgundy-hair)" />
           <p className={styles.sectionTitle}>
             {selectedSubject === null
               ? '教科を選ぶ'
-              : (needsSchoolType || selectingSchool ? 'あなたは？' : 'コースを選ぶ')}
+              : selectedSubject === 'english'
+                ? 'コースを選ぶ'
+                : (needsSchoolType || selectingSchool ? 'あなたは？' : 'コースを選ぶ')}
           </p>
         </div>
 
@@ -364,18 +368,46 @@ export default function SubjectPage() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
             {[
               { key: 'math' as const,        emoji: '📐', label: '数学',           sub: 'Mathematics', note: '中学〜高校数学' },
-              { key: 'english' as const,         emoji: '📖', label: '英語（高校）', sub: 'English',     note: '共通テスト対策' },
-              { key: 'english-junior' as const,  emoji: '🔤', label: '英語（中学）', sub: 'English Jr.', note: '基礎〜高校受験' },
-              { key: 'programming' as const,     emoji: '💻', label: 'プログラミング', sub: 'JavaScript', note: 'JS基礎' },
+              { key: 'english' as const,     emoji: '📖', label: '英語',           sub: 'English',     note: '中学〜高校' },
+              { key: 'programming' as const, emoji: '💻', label: 'プログラミング', sub: 'JavaScript',  note: 'JS基礎' },
             ].map(opt => (
               <button
                 key={opt.key}
                 onClick={() => {
                   if (opt.key === 'math') setSelectedSubject('math')
-                  else if (opt.key === 'english') navigate('/course/english')
-                  else if (opt.key === 'english-junior') navigate('/course/english-junior')
+                  else if (opt.key === 'english') setSelectedSubject('english')
                   else navigate('/course/programming')
                 }}
+                style={{
+                  display: 'flex', alignItems: 'center', gap: '16px',
+                  padding: '20px 20px', background: 'rgba(30,20,10,0.7)',
+                  border: '1px solid rgba(201,168,106,0.3)', cursor: 'pointer',
+                  color: '#c8b48a', fontFamily: 'inherit', textAlign: 'left',
+                  fontSize: '1rem', letterSpacing: '0.05em',
+                }}
+              >
+                <span style={{ fontSize: '1.8rem' }}>{opt.emoji}</span>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', flex: 1 }}>
+                  <span style={{ fontWeight: 700 }}>{opt.label}</span>
+                  <span style={{ fontSize: '0.72rem', color: 'rgba(200,180,138,0.5)', letterSpacing: '0.08em' }}>{opt.sub}</span>
+                </div>
+                <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)' }}>{opt.note}</span>
+                <span>›</span>
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* ══ 英語コース選択 ══ */}
+        {selectedSubject === 'english' && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
+            {[
+              { key: 'english-junior', emoji: '🔤', label: '英語（中学）', sub: 'English Jr.', note: '基礎〜高校受験', path: '/course/english-junior' },
+              { key: 'english',        emoji: '📖', label: '英語（高校）', sub: 'English',     note: '共通テスト対策', path: '/course/english' },
+            ].map(opt => (
+              <button
+                key={opt.key}
+                onClick={() => navigate(opt.path)}
                 style={{
                   display: 'flex', alignItems: 'center', gap: '16px',
                   padding: '20px 20px', background: 'rgba(30,20,10,0.7)',
