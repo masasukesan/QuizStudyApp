@@ -367,9 +367,9 @@ export default function SubjectPage() {
         {selectedSubject === null && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
             {[
-              { key: 'math' as const,        emoji: '📐', label: '数学',           sub: 'Mathematics', note: '中学〜高校数学' },
-              { key: 'english' as const,     emoji: '📖', label: '英語',           sub: 'English',     note: '中学〜高校' },
-              { key: 'programming' as const, emoji: '💻', label: 'プログラミング', sub: 'JavaScript',  note: 'JS基礎' },
+              { key: 'math' as const,        letter: 'M', label: '数学',           sub: 'Mathematics', note: '中学〜高校数学' },
+              { key: 'english' as const,     letter: 'E', label: '英語',           sub: 'English',     note: '中学〜高校英語' },
+              { key: 'programming' as const, letter: 'P', label: 'プログラミング', sub: 'JavaScript',  note: 'JS基礎' },
             ].map(opt => (
               <button
                 key={opt.key}
@@ -386,7 +386,11 @@ export default function SubjectPage() {
                   fontSize: '1rem', letterSpacing: '0.05em',
                 }}
               >
-                <span style={{ fontSize: '1.8rem' }}>{opt.emoji}</span>
+                <span style={{
+                  fontFamily: 'var(--font-cinzel-deco)', fontWeight: 700,
+                  fontSize: '1.5rem', width: '2rem', textAlign: 'center',
+                  color: '#d4a84b', flexShrink: 0,
+                }}>{opt.letter}</span>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', flex: 1 }}>
                   <span style={{ fontWeight: 700 }}>{opt.label}</span>
                   <span style={{ fontSize: '0.72rem', color: 'rgba(200,180,138,0.5)', letterSpacing: '0.08em' }}>{opt.sub}</span>
@@ -402,8 +406,8 @@ export default function SubjectPage() {
         {selectedSubject === 'english' && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
             {[
-              { key: 'english-junior', emoji: '🔤', label: '英語（中学）', sub: 'English Jr.', note: '基礎〜高校受験', path: '/course/english-junior' },
-              { key: 'english',        emoji: '📖', label: '英語（高校）', sub: 'English',     note: '共通テスト対策', path: '/course/english' },
+              { key: 'english-junior', letter: 'j', label: '英語（中学）', sub: 'English Jr.', note: '基礎〜高校受験', path: '/course/english-junior' },
+              { key: 'english',        letter: 'h', label: '英語（高校）', sub: 'English',     note: '共通テスト対策', path: '/course/english' },
             ].map(opt => (
               <button
                 key={opt.key}
@@ -416,7 +420,11 @@ export default function SubjectPage() {
                   fontSize: '1rem', letterSpacing: '0.05em',
                 }}
               >
-                <span style={{ fontSize: '1.8rem' }}>{opt.emoji}</span>
+                <span style={{
+                  fontFamily: 'var(--font-cinzel-deco)', fontWeight: 700,
+                  fontSize: '1.5rem', width: '2rem', textAlign: 'center',
+                  color: '#d4a84b', flexShrink: 0,
+                }}>{opt.letter}</span>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', flex: 1 }}>
                   <span style={{ fontWeight: 700 }}>{opt.label}</span>
                   <span style={{ fontSize: '0.72rem', color: 'rgba(200,180,138,0.5)', letterSpacing: '0.08em' }}>{opt.sub}</span>
