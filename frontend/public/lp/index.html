@@ -1,0 +1,1403 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MATHACA — あらゆる学問を、クイズで極めろ</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362"
+     crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* ══════════════════════════════════
+       デザイントークン（index.css 完全踏襲）
+       ══════════════════════════════════ */
+      :root {
+        --accent: #c9a86a;
+        --accent-light: #f5e6c0;
+        --accent-dark: #9a7840;
+        --correct: #3d8a5f;
+        --wrong: #c05050;
+        --color-math: #7090b0;
+        --bg-app: #f8f3e7;
+        --bg-card: #f0e8d5;
+        --text-main: #3b2f2f;
+        --text-white: #f8f3e7;
+        --sq-paper: #f8f3e7;
+        --sq-paper-dark: #e4d9c2;
+        --sq-burgundy: #7b2e2e;
+        --sq-ink: #3b2f2f;
+        --sq-gold: #c9a86a;
+        --sq-gold-bright: #e0c07a;
+        --sq-gold-light: #f5e6c0;
+        --sq-gold-glow: rgba(201, 168, 106, 0.55);
+        --font-cinzel: "Cinzel", serif;
+        --font-cinzel-deco: "Cinzel Decorative", serif;
+        --font-serif-jp: "Noto Serif JP", serif;
+        /* Profile専用ダーク */
+        --profile-bg: #2a1e12;
+        --profile-card: #3a2a1a;
+        --profile-text: #c8b48a;
+        --profile-border: rgba(201, 168, 106, 0.25);
+        --profile-gold: #d4a84b;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: var(--font-serif-jp);
+        /* ProfilePage と同じ背景 */
+        background-color: var(--profile-bg);
+        background-image:
+          radial-gradient(
+            ellipse at 50% 0%,
+            rgba(120, 80, 20, 0.15) 0%,
+            transparent 60%
+          ),
+          repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 60px,
+            rgba(201, 168, 106, 0.02) 60px,
+            rgba(201, 168, 106, 0.02) 61px
+          );
+        color: var(--profile-text);
+        line-height: 1.6;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      /* ── 魔法陣 SVG（MagicCircle.tsx完全移植、fixedで全画面に固定） ── */
+      #magic-circle-bg {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 360px;
+        height: 360px;
+        pointer-events: none;
+        z-index: 0;
+        animation: magicRotate 180s linear infinite;
+        opacity: 1;
+      }
+      @keyframes magicRotate {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+
+      /* ── レイアウト ── */
+      .container {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 0 24px;
+        position: relative;
+        z-index: 1;
+      }
+      .section {
+        padding: 80px 0;
+        position: relative;
+        z-index: 1;
+      }
+
+      /* ── ヘッダーナビ（ProfilePageのheaderと同仕様） ── */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--profile-card);
+        border-bottom: 1px solid var(--profile-border);
+        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+        padding: 14px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      /* アプリ SubjectPage の .headerLeft と同じ構成 */
+      .logo-block {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .logo {
+        font-family: var(--font-cinzel-deco);
+        font-size: 16px;
+        font-weight: 400;
+        color: #d4a84b;
+        line-height: 1.1;
+        letter-spacing: 0.04em;
+        text-shadow: 0 0 20px rgba(201, 168, 106, 0.2);
+        margin: 0;
+      }
+      .logo-anno {
+        font-family: var(--font-cinzel);
+        font-style: italic;
+        font-size: 9px;
+        letter-spacing: 3px;
+        color: rgba(201, 168, 106, 0.35);
+        margin: 1px 0 0 0;
+      }
+      .header-cta {
+        font-family: var(--font-serif-jp);
+        font-size: 0.8rem;
+        color: rgba(201, 168, 106, 0.85);
+        background: rgba(201, 168, 106, 0.08);
+        border: 1px solid rgba(201, 168, 106, 0.35);
+        border-radius: 0;
+        padding: 7px 20px;
+        cursor: pointer;
+        transition:
+          background 0.15s,
+          border-color 0.15s,
+          color 0.15s;
+        text-decoration: none;
+        letter-spacing: 0.06em;
+      }
+      .header-cta:hover {
+        background: rgba(201, 168, 106, 0.15);
+        border-color: rgba(201, 168, 106, 0.55);
+        color: var(--sq-gold);
+      }
+
+      /* ── セクションタイトル ── */
+      .section-heading {
+        font-family: var(--font-cinzel-deco);
+        font-size: clamp(13px, 3vw, 17px);
+        font-weight: 400;
+        color: var(--profile-gold);
+        letter-spacing: 0.12em;
+        text-align: center;
+        text-shadow: 0 0 20px rgba(201, 168, 106, 0.25);
+        margin-bottom: 10px;
+      }
+      .section-rule {
+        width: 80px;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(201, 168, 106, 0.5),
+          transparent
+        );
+        margin: 0 auto 14px;
+      }
+      .section-sub {
+        text-align: center;
+        color: rgba(201, 168, 106, 0.5);
+        font-size: 13px;
+        letter-spacing: 0.06em;
+        margin-bottom: 48px;
+        font-style: italic;
+        font-family: var(--font-cinzel);
+      }
+
+      /* ── 汎用カード（ProfilePage .card 準拠） ── */
+      .card {
+        background: rgba(58, 42, 26, 0.85);
+        border: 1px solid rgba(201, 168, 106, 0.2);
+        border-radius: 0;
+        padding: 24px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        position: relative;
+      }
+      .card::before {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        bottom: 4px;
+        border: 1px solid rgba(201, 168, 106, 0.07);
+        pointer-events: none;
+      }
+      .card-label {
+        font-family: var(--font-cinzel);
+        font-size: 0.7rem;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.45);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(201, 168, 106, 0.12);
+        padding-bottom: 8px;
+        margin-bottom: 16px;
+      }
+
+      /* ── ヒーロー ── */
+      #hero {
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 100px 24px 80px;
+        position: relative;
+        z-index: 1;
+      }
+      .hero-eyebrow {
+        display: inline-block;
+        font-family: var(--font-cinzel);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        color: rgba(201, 168, 106, 0.6);
+        text-transform: uppercase;
+        border: 1px solid rgba(201, 168, 106, 0.2);
+        padding: 5px 18px;
+        margin-bottom: 28px;
+        animation: fadeInUp 0.7s ease both;
+      }
+      .hero-title {
+        font-family: var(--font-cinzel-deco);
+        font-size: clamp(24px, 6vw, 46px);
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--sq-gold-bright);
+        text-shadow: 0 0 40px rgba(201, 168, 106, 0.25);
+        margin-bottom: 12px;
+        animation: fadeInUp 0.7s 0.1s ease both;
+      }
+      .hero-subtitle {
+        font-family: var(--font-cinzel-deco);
+        font-size: clamp(14px, 3.5vw, 22px);
+        font-weight: 400;
+        color: var(--profile-gold);
+        margin-bottom: 28px;
+        letter-spacing: 0.05em;
+        animation: fadeInUp 0.7s 0.15s ease both;
+      }
+      .hero-desc {
+        font-size: clamp(13px, 2.5vw, 15px);
+        color: rgba(201, 168, 106, 0.65);
+        max-width: 520px;
+        line-height: 1.9;
+        margin: 0 auto 40px;
+        animation: fadeInUp 0.7s 0.2s ease both;
+      }
+      .hero-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        animation: fadeInUp 0.7s 0.3s ease both;
+      }
+      .btn-primary {
+        font-family: var(--font-serif-jp);
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--profile-bg);
+        background: linear-gradient(
+          135deg,
+          #c9a86a 0%,
+          #e0c07a 50%,
+          #c9a86a 100%
+        );
+        border: none;
+        padding: 14px 36px;
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(201, 168, 106, 0.35);
+        transition:
+          transform 0.12s,
+          box-shadow 0.12s;
+        text-decoration: none;
+        letter-spacing: 0.06em;
+      }
+      .btn-primary:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 28px rgba(201, 168, 106, 0.5);
+      }
+      .btn-secondary {
+        font-family: var(--font-serif-jp);
+        font-size: 13px;
+        color: rgba(201, 168, 106, 0.8);
+        background: transparent;
+        border: 1px solid rgba(201, 168, 106, 0.35);
+        padding: 13px 30px;
+        cursor: pointer;
+        transition:
+          background 0.15s,
+          border-color 0.15s;
+        text-decoration: none;
+        letter-spacing: 0.06em;
+      }
+      .btn-secondary:hover {
+        background: rgba(201, 168, 106, 0.08);
+        border-color: rgba(201, 168, 106, 0.55);
+      }
+
+      /* ── 画面モック ── */
+      .hero-mockup {
+        margin-top: 56px;
+        max-width: 260px;
+        width: 100%;
+        animation: fadeInUp 0.8s 0.4s ease both;
+      }
+      .mockup-phone {
+        background: linear-gradient(160deg, #3a2a1a 0%, #2a1e12 100%);
+        border: 1px solid rgba(201, 168, 106, 0.3);
+        padding: 20px 16px;
+        box-shadow:
+          0 12px 48px rgba(0, 0, 0, 0.5),
+          0 0 0 1px rgba(201, 168, 106, 0.08);
+        position: relative;
+      }
+      .mockup-phone::before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border: 1px solid rgba(201, 168, 106, 0.07);
+        pointer-events: none;
+      }
+      .mockup-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+      .mockup-logo-sm {
+        font-family: var(--font-cinzel-deco);
+        font-size: 13px;
+        color: var(--profile-gold);
+        text-shadow: 0 0 10px rgba(201, 168, 106, 0.3);
+      }
+      .mockup-lv {
+        font-family: var(--font-cinzel);
+        font-size: 9px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.55);
+        border: 1px solid rgba(201, 168, 106, 0.2);
+        padding: 2px 8px;
+      }
+      .mockup-q-block {
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(201, 168, 106, 0.15);
+        padding: 12px;
+        margin-bottom: 8px;
+      }
+      .mockup-q-tag {
+        font-family: var(--font-cinzel);
+        font-size: 8px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.45);
+        letter-spacing: 0.08em;
+        margin-bottom: 8px;
+      }
+      .mockup-q-text {
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 1.65;
+        color: #e8d5a8;
+      }
+      .mockup-choices {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .mockup-choice {
+        font-size: 10px;
+        font-weight: 500;
+        color: rgba(201, 168, 106, 0.7);
+        border: 1px solid rgba(201, 168, 106, 0.15);
+        background: rgba(58, 42, 26, 0.6);
+        padding: 6px 10px;
+      }
+      .mockup-choice.correct {
+        border-color: rgba(61, 138, 95, 0.6);
+        background: rgba(61, 138, 95, 0.12);
+        color: #5ab87a;
+      }
+      .mockup-exp {
+        text-align: center;
+        margin-top: 10px;
+        font-family: var(--font-cinzel);
+        font-size: 10px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.6);
+        letter-spacing: 0.08em;
+      }
+
+      /* ── 数字バナー ── */
+      #stats {
+        background: rgba(42, 30, 18, 0.9);
+        border-top: 1px solid rgba(201, 168, 106, 0.12);
+        border-bottom: 1px solid rgba(201, 168, 106, 0.12);
+        padding: 48px 24px;
+        position: relative;
+        z-index: 1;
+      }
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 0;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .stat-card {
+        text-align: center;
+        padding: 24px 16px;
+        border-right: 1px solid rgba(201, 168, 106, 0.1);
+      }
+      .stat-card:last-child {
+        border-right: none;
+      }
+      .stat-num {
+        font-family: var(--font-cinzel);
+        font-size: clamp(28px, 5vw, 40px);
+        font-weight: 600;
+        color: var(--sq-gold-bright);
+        text-shadow: 0 0 20px rgba(201, 168, 106, 0.3);
+        line-height: 1;
+      }
+      .stat-label {
+        font-family: var(--font-cinzel);
+        font-size: 10px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.45);
+        letter-spacing: 0.1em;
+        margin-top: 8px;
+      }
+
+      /* ── 特長グリッド ── */
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+      }
+      .feature-card {
+        background: rgba(58, 42, 26, 0.8);
+        border: 1px solid rgba(201, 168, 106, 0.2);
+        padding: 28px 22px;
+        position: relative;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s;
+      }
+      .feature-card::before {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        bottom: 4px;
+        border: 1px solid rgba(201, 168, 106, 0.06);
+        pointer-events: none;
+      }
+      .feature-card:hover {
+        border-color: rgba(201, 168, 106, 0.4);
+        box-shadow:
+          0 6px 24px rgba(0, 0, 0, 0.4),
+          0 0 0 1px rgba(201, 168, 106, 0.1);
+      }
+      .feature-icon {
+        font-size: 28px;
+        margin-bottom: 14px;
+        display: block;
+      }
+      .feature-title {
+        font-family: var(--font-cinzel);
+        font-size: 13px;
+        color: var(--profile-gold);
+        letter-spacing: 0.06em;
+        margin-bottom: 10px;
+      }
+      .feature-desc {
+        font-size: 13px;
+        line-height: 1.8;
+        color: rgba(201, 168, 106, 0.6);
+      }
+
+      /* ── 共感セクション ── */
+      #empathy {
+        background: transparent;
+      }
+      .empathy-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        margin-bottom: 48px;
+      }
+      .empathy-card {
+        background: rgba(42, 30, 18, 0.9);
+        border: 1px solid rgba(201, 168, 106, 0.18);
+        padding: 22px 18px;
+        position: relative;
+      }
+      .empathy-before {
+        font-size: 13px;
+        color: rgba(201, 168, 106, 0.4);
+        line-height: 1.7;
+        margin-bottom: 14px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid rgba(201, 168, 106, 0.1);
+      }
+      .empathy-after {
+        font-size: 13px;
+        font-weight: 600;
+        color: #e8d5a8;
+        line-height: 1.7;
+      }
+      .empathy-after-icon {
+        font-family: var(--font-cinzel);
+        font-size: 10px;
+        font-style: italic;
+        color: var(--profile-gold);
+        display: block;
+        margin-bottom: 5px;
+        letter-spacing: 0.08em;
+      }
+
+      /* ── フローステップ ── */
+      .flow-list {
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .flow-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        background: rgba(58, 42, 26, 0.7);
+        border: 1px solid rgba(201, 168, 106, 0.18);
+        padding: 18px;
+      }
+      .flow-step {
+        min-width: 32px;
+        height: 32px;
+        border: 1px solid rgba(201, 168, 106, 0.45);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-cinzel);
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--profile-gold);
+        flex-shrink: 0;
+      }
+      .flow-text {
+        font-size: 13px;
+        line-height: 1.75;
+        color: rgba(201, 168, 106, 0.75);
+      }
+      .flow-text strong {
+        color: #e8d5a8;
+      }
+
+      /* ── ゲーミフィケーション ── */
+      #gamification {
+        background: transparent;
+      }
+      .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 16px;
+      }
+      .game-card {
+        background: rgba(42, 30, 18, 0.85);
+        border: 1px solid rgba(201, 168, 106, 0.18);
+        padding: 24px 18px;
+        text-align: center;
+        transition: border-color 0.2s;
+      }
+      .game-card:hover {
+        border-color: rgba(201, 168, 106, 0.4);
+      }
+      .game-icon {
+        font-size: 32px;
+        margin-bottom: 12px;
+      }
+      .game-title {
+        font-family: var(--font-cinzel);
+        font-size: 11px;
+        font-style: italic;
+        color: var(--profile-gold);
+        letter-spacing: 0.1em;
+        margin-bottom: 8px;
+      }
+      .game-desc {
+        font-size: 12px;
+        line-height: 1.75;
+        color: rgba(201, 168, 106, 0.55);
+      }
+
+      /* バッジ一覧 */
+      .badge-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+        margin-top: 36px;
+      }
+      .badge-pill {
+        font-family: var(--font-cinzel);
+        font-size: 11px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.7);
+        border: 1px solid rgba(201, 168, 106, 0.2);
+        padding: 5px 14px;
+        letter-spacing: 0.06em;
+        transition:
+          border-color 0.15s,
+          color 0.15s;
+      }
+      .badge-pill:hover {
+        border-color: rgba(201, 168, 106, 0.5);
+        color: var(--sq-gold);
+      }
+
+      /* ── 難易度カード ── */
+      #difficulty {
+      }
+      .diff-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+      }
+      .diff-card {
+        background: rgba(42, 30, 18, 0.9);
+        border: 1px solid rgba(201, 168, 106, 0.18);
+        padding: 28px 20px;
+        text-align: center;
+        position: relative;
+      }
+      .diff-card.basic {
+        border-top: 2px solid rgba(61, 138, 95, 0.6);
+      }
+      .diff-card.standard {
+        border-top: 2px solid rgba(201, 168, 106, 0.6);
+      }
+      .diff-card.exam {
+        border-top: 2px solid rgba(192, 80, 80, 0.6);
+      }
+      .diff-label {
+        font-family: var(--font-cinzel-deco);
+        font-size: 16px;
+        color: var(--sq-gold-bright);
+        margin-bottom: 6px;
+      }
+      .diff-tag {
+        display: inline-block;
+        font-family: var(--font-cinzel);
+        font-size: 9px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.45);
+        letter-spacing: 0.1em;
+        border: 1px solid rgba(201, 168, 106, 0.15);
+        padding: 2px 10px;
+        margin-bottom: 14px;
+      }
+      .diff-desc {
+        font-size: 12px;
+        line-height: 1.75;
+        color: rgba(201, 168, 106, 0.6);
+      }
+      .diff-exp {
+        margin-top: 14px;
+        font-family: var(--font-cinzel);
+        font-size: 14px;
+        font-style: italic;
+        color: var(--profile-gold);
+      }
+      .diff-exp-basic {
+        color: #5ab87a;
+      }
+      .diff-exp-standard {
+        color: #c9a86a;
+      }
+      .diff-exp-exam {
+        color: #c05050;
+      }
+
+      /* ── FAQ ── */
+      .faq-list {
+        max-width: 640px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .faq-item {
+        background: rgba(42, 30, 18, 0.8);
+        border: 1px solid rgba(201, 168, 106, 0.18);
+        overflow: hidden;
+      }
+      .faq-q {
+        padding: 16px 20px;
+        font-family: var(--font-serif-jp);
+        font-size: 13px;
+        font-weight: 600;
+        color: #e8d5a8;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        user-select: none;
+        transition: background 0.15s;
+      }
+      .faq-q:hover {
+        background: rgba(201, 168, 106, 0.05);
+      }
+      .faq-q::after {
+        content: "+";
+        font-family: var(--font-cinzel);
+        font-size: 16px;
+        color: rgba(201, 168, 106, 0.5);
+        flex-shrink: 0;
+        transition: transform 0.2s;
+      }
+      .faq-item.open .faq-q::after {
+        transform: rotate(45deg);
+      }
+      .faq-a {
+        max-height: 0;
+        overflow: hidden;
+        transition:
+          max-height 0.35s ease,
+          padding 0.2s;
+        font-size: 13px;
+        line-height: 1.8;
+        color: rgba(201, 168, 106, 0.6);
+        padding: 0 20px;
+        border-top: 0;
+      }
+      .faq-item.open .faq-a {
+        max-height: 300px;
+        padding: 0 20px 16px;
+        border-top: 1px solid rgba(201, 168, 106, 0.1);
+      }
+      .faq-item.open .faq-q {
+        padding-bottom: 12px;
+      }
+
+      /* ── 最終CTA ── */
+      #final-cta {
+        background: rgba(42, 30, 18, 0.95);
+        border-top: 1px solid rgba(201, 168, 106, 0.15);
+        padding: 80px 24px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      .cta-ornament {
+        font-family: var(--font-cinzel-deco);
+        font-size: 11px;
+        letter-spacing: 0.25em;
+        color: rgba(201, 168, 106, 0.35);
+        margin-bottom: 24px;
+        display: block;
+      }
+      .cta-title {
+        font-family: var(--font-cinzel-deco);
+        font-size: clamp(18px, 4.5vw, 30px);
+        color: var(--sq-gold-bright);
+        text-shadow: 0 0 30px rgba(201, 168, 106, 0.2);
+        margin-bottom: 16px;
+        line-height: 1.4;
+      }
+      .cta-sub {
+        font-size: 13px;
+        color: rgba(201, 168, 106, 0.5);
+        margin-bottom: 36px;
+        font-style: italic;
+        font-family: var(--font-cinzel);
+        letter-spacing: 0.06em;
+      }
+      .cta-note {
+        margin-top: 16px;
+        font-family: var(--font-cinzel);
+        font-size: 10px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.3);
+        letter-spacing: 0.1em;
+      }
+
+      /* ── フッター ── */
+      footer {
+        background: #1a1008;
+        border-top: 1px solid rgba(201, 168, 106, 0.1);
+        text-align: center;
+        padding: 32px 20px;
+      }
+      .footer-logo {
+        font-family: var(--font-cinzel-deco);
+        font-size: 16px;
+        color: rgba(201, 168, 106, 0.5);
+        margin-bottom: 10px;
+      }
+      footer p {
+        font-family: var(--font-cinzel);
+        font-size: 10px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.25);
+        letter-spacing: 0.1em;
+        margin-top: 4px;
+      }
+
+      /* ── アニメ ── */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .reveal {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* ── レスポンシブ ── */
+      @media (max-width: 520px) {
+        .hero-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+        .btn-primary,
+        .btn-secondary {
+          width: 100%;
+          text-align: center;
+        }
+        .stats-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .stat-card {
+          border-right: none;
+          border-bottom: 1px solid rgba(201, 168, 106, 0.1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ══════════════════════════════════════
+     魔法陣背景（MagicCircle.tsx 完全移植）
+     ══════════════════════════════════════ -->
+    <div id="magic-circle-bg" aria-hidden="true">
+      <svg
+        viewBox="0 0 360 360"
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        display="block"
+      >
+        <!-- リング群 -->
+        <circle cx="180" cy="180" r="170" fill="none" stroke="rgba(123,46,46,0.09)" stroke-width="0.6"/>
+        <circle cx="180" cy="180" r="162" fill="none" stroke="rgba(201,168,106,0.10)" stroke-width="0.4" stroke-dasharray="2 10"/>
+        <circle cx="180" cy="180" r="145" fill="none" stroke="rgba(123,46,46,0.07)" stroke-width="0.5"/>
+        <circle cx="180" cy="180" r="110" fill="none" stroke="rgba(123,46,46,0.07)" stroke-width="0.5"/>
+        <circle cx="180" cy="180" r="90" fill="none" stroke="rgba(201,168,106,0.08)" stroke-width="0.4" stroke-dasharray="1.5 6"/>
+        <circle cx="180" cy="180" r="72" fill="none" stroke="rgba(123,46,46,0.06)" stroke-width="0.4"/>
+        <circle cx="180" cy="180" r="44" fill="none" stroke="rgba(123,46,46,0.07)" stroke-width="0.5"/>
+        <circle cx="180" cy="180" r="20" fill="none" stroke="rgba(201,168,106,0.10)" stroke-width="0.4"/>
+
+        <!-- 放射線（12本・30°ごと） -->
+        <line x1="180.0" y1="136.0" x2="180.0" y2="12.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="214.0" y1="146.0" x2="325.6" y2="68.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="237.4" y1="174.0" x2="325.6" y2="292.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="180.0" y1="224.0" x2="180.0" y2="348.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="122.6" y1="174.0" x2="34.4" y2="292.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="146.0" y1="146.0" x2="34.4" y2="68.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="180.0" y1="136.0" x2="180.0" y2="12.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="207.8" y1="141.4" x2="290.4" y2="46.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="232.6" y1="162.6" x2="339.6" y2="107.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="243.6" y1="192.0" x2="347.6" y2="192.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="232.6" y1="221.4" x2="339.6" y2="277.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+        <line x1="207.8" y1="242.6" x2="290.4" y2="338.0" stroke="rgba(123,46,46,0.045)" stroke-width="0.5"/>
+
+        <!-- 八角形（外側）r=162, n=8 -->
+        <polygon points="180,18   294.6,93.4   328.6,221.4   249.6,320   110.4,320   31.4,221.4   65.4,93.4   180,18" fill="none" stroke="rgba(201,168,106,0.09)" stroke-width="0.5"/>
+
+        <!-- 六芒星（上向き三角 r=145, 0°） -->
+        <polygon points="180,35  305.6,252.5  54.4,252.5" fill="none" stroke="rgba(201,168,106,0.14)" stroke-width="0.7"/>
+        <!-- 下向き三角（180°） -->
+        <polygon points="180,325  54.4,107.5  305.6,107.5" fill="none" stroke="rgba(201,168,106,0.14)" stroke-width="0.7"/>
+
+        <!-- 二重正方形（r=90, 0°と45°） -->
+        <polygon points="180,90  270,180  180,270  90,180" fill="none" stroke="rgba(123,46,46,0.07)" stroke-width="0.5"/>
+        <polygon points="244,116  244,244  116,244  116,116" fill="none" stroke="rgba(123,46,46,0.07)" stroke-width="0.5"/>
+
+        <!-- 装飾ドット：r=170, 12個 -->
+        <circle cx="180" cy="10" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="275.8" cy="48.2" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="337.8" cy="144.0" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="337.8" cy="216.0" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="275.8" cy="311.8" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="180" cy="350" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="84.2" cy="311.8" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="22.2" cy="216.0" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="22.2" cy="144.0" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="84.2" cy="48.2" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="180" cy="10" r="1.8" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="275.8" cy="48.2" r="1.8" fill="rgba(123,46,46,0.10)"/>
+
+        <!-- 装飾ドット：r=145, 6個（六芒星頂点）+ 小菱形 -->
+        <circle cx="180" cy="35" r="3.0" fill="rgba(201,168,106,0.22)"/>
+        <polygon points="180,31  182.5,35  180,39  177.5,35" fill="rgba(201,168,106,0.28)"/>
+        <circle cx="305.6" cy="252.5" r="3.0" fill="rgba(201,168,106,0.22)"/>
+        <polygon points="305.6,248.5  308.1,252.5  305.6,256.5  303.1,252.5" fill="rgba(201,168,106,0.28)"/>
+        <circle cx="54.4" cy="252.5" r="3.0" fill="rgba(201,168,106,0.22)"/>
+        <polygon points="54.4,248.5  56.9,252.5  54.4,256.5  51.9,252.5" fill="rgba(201,168,106,0.28)"/>
+        <circle cx="180" cy="325" r="3.0" fill="rgba(201,168,106,0.22)"/>
+        <polygon points="180,321  182.5,325  180,329  177.5,325" fill="rgba(201,168,106,0.28)"/>
+        <circle cx="54.4" cy="107.5" r="3.0" fill="rgba(201,168,106,0.22)"/>
+        <polygon points="54.4,103.5  56.9,107.5  54.4,111.5  51.9,107.5" fill="rgba(201,168,106,0.28)"/>
+        <circle cx="305.6" cy="107.5" r="3.0" fill="rgba(201,168,106,0.22)"/>
+        <polygon points="305.6,103.5  308.1,107.5  305.6,111.5  303.1,107.5" fill="rgba(201,168,106,0.28)"/>
+
+        <!-- 装飾ドット：r=110, 12個 -->
+        <circle cx="180" cy="70" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="235" cy="84.5" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="275.5" cy="125" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="290" cy="180" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="275.5" cy="235" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="235" cy="275.5" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="180" cy="290" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="125" cy="275.5" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="84.5" cy="235" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="70" cy="180" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="84.5" cy="125" r="1.4" fill="rgba(123,46,46,0.10)"/>
+        <circle cx="125" cy="84.5" r="1.4" fill="rgba(123,46,46,0.10)"/>
+
+        <!-- 装飾ドット：r=72, 6個 -->
+        <circle cx="180" cy="108" r="2.0" fill="rgba(201,168,106,0.15)"/>
+        <circle cx="242" cy="144" r="2.0" fill="rgba(201,168,106,0.15)"/>
+        <circle cx="242" cy="216" r="2.0" fill="rgba(201,168,106,0.15)"/>
+        <circle cx="180" cy="252" r="2.0" fill="rgba(201,168,106,0.15)"/>
+        <circle cx="118" cy="216" r="2.0" fill="rgba(201,168,106,0.15)"/>
+        <circle cx="118" cy="144" r="2.0" fill="rgba(201,168,106,0.15)"/>
+
+        <!-- 装飾ドット：r=44, 12個 -->
+        <circle cx="180" cy="136" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="202" cy="139" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="218" cy="158" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="218" cy="202" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="202" cy="221" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="180" cy="224" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="158" cy="221" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="142" cy="202" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="142" cy="158" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="158" cy="139" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="180" cy="136" r="1.0" fill="rgba(123,46,46,0.09)"/>
+        <circle cx="202" cy="139" r="1.0" fill="rgba(123,46,46,0.09)"/>
+
+        <!-- 中心飾り -->
+        <circle cx="180" cy="180" r="5" fill="none" stroke="rgba(201,168,106,0.22)" stroke-width="0.6"/>
+        <circle cx="180" cy="180" r="2" fill="rgba(201,168,106,0.25)"/>
+        <circle cx="180" cy="180" r="0.8" fill="rgba(123,46,46,0.30)"/>
+      </svg>
+    </div>
+
+    <!-- ══════ ヘッダー ══════ -->
+    <header>
+      <!-- アプリ SubjectPage ヘッダーと同じ構成: Monogram + MathAca + アノテーション -->
+      <div class="logo-block">
+        <!-- Monogram（LibraryUI.tsx の Monogram size=28 glyph="MA" italic を静的SVGで移植） -->
+        <div style="position:relative;width:28px;height:28px;flex-shrink:0;" aria-hidden="true">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0;width:100%;height:100%;">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="rgba(123,46,46,0.55)" stroke-width="0.8"/>
+            <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(201,168,106,0.30)" stroke-width="0.5" stroke-dasharray="2 5"/>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="rgba(123,46,46,0.18)" stroke-width="0.5"/>
+            <circle cx="50" cy="50" r="28" fill="none" stroke="rgba(201,168,106,0.22)" stroke-width="0.5" stroke-dasharray="1.5 4"/>
+            <circle cx="50" cy="50" r="18" fill="none" stroke="rgba(123,46,46,0.15)" stroke-width="0.4"/>
+            <line x1="50" y1="34" x2="50" y2="10" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <line x1="61.3" y1="38.7" x2="78.3" y2="21.7" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <line x1="66" y1="50" x2="90" y2="50" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <line x1="61.3" y1="61.3" x2="78.3" y2="78.3" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <line x1="50" y1="66" x2="50" y2="90" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <line x1="38.7" y1="61.3" x2="21.7" y2="78.3" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <line x1="34" y1="50" x2="10" y2="50" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <line x1="38.7" y1="38.7" x2="21.7" y2="21.7" stroke="rgba(123,46,46,0.18)" stroke-width="0.4"/>
+            <polygon points="50,12 82.9,69 17.1,69" fill="none" stroke="rgba(201,168,106,0.22)" stroke-width="0.5"/>
+            <polygon points="50,88 17.1,31 82.9,31" fill="none" stroke="rgba(201,168,106,0.22)" stroke-width="0.5"/>
+            <polygon points="68.4,31.6 68.4,68.4 31.6,68.4 31.6,31.6" fill="none" stroke="rgba(123,46,46,0.14)" stroke-width="0.4"/>
+            <circle cx="50" cy="2" r="0.9" fill="rgba(123,46,46,0.22)"/><circle cx="74" cy="8.4" r="0.9" fill="rgba(123,46,46,0.22)"/>
+            <circle cx="91.6" cy="26" r="0.9" fill="rgba(123,46,46,0.22)"/><circle cx="98" cy="50" r="0.9" fill="rgba(123,46,46,0.22)"/>
+            <circle cx="91.6" cy="74" r="0.9" fill="rgba(123,46,46,0.22)"/><circle cx="74" cy="91.6" r="0.9" fill="rgba(123,46,46,0.22)"/>
+            <circle cx="50" cy="98" r="0.9" fill="rgba(123,46,46,0.22)"/><circle cx="26" cy="91.6" r="0.9" fill="rgba(123,46,46,0.22)"/>
+            <circle cx="8.4" cy="74" r="0.9" fill="rgba(123,46,46,0.22)"/><circle cx="2" cy="50" r="0.9" fill="rgba(123,46,46,0.22)"/>
+            <circle cx="8.4" cy="26" r="0.9" fill="rgba(123,46,46,0.22)"/><circle cx="26" cy="8.4" r="0.9" fill="rgba(123,46,46,0.22)"/>
+            <circle cx="50" cy="12" r="1.5" fill="rgba(201,168,106,0.40)"/><circle cx="82.9" cy="31" r="1.5" fill="rgba(201,168,106,0.40)"/>
+            <circle cx="82.9" cy="69" r="1.5" fill="rgba(201,168,106,0.40)"/><circle cx="50" cy="88" r="1.5" fill="rgba(201,168,106,0.40)"/>
+            <circle cx="17.1" cy="69" r="1.5" fill="rgba(201,168,106,0.40)"/><circle cx="17.1" cy="31" r="1.5" fill="rgba(201,168,106,0.40)"/>
+            <circle cx="50" cy="32" r="0.7" fill="rgba(123,46,46,0.18)"/><circle cx="62.7" cy="37.3" r="0.7" fill="rgba(123,46,46,0.18)"/>
+            <circle cx="68" cy="50" r="0.7" fill="rgba(123,46,46,0.18)"/><circle cx="62.7" cy="62.7" r="0.7" fill="rgba(123,46,46,0.18)"/>
+            <circle cx="50" cy="68" r="0.7" fill="rgba(123,46,46,0.18)"/><circle cx="37.3" cy="62.7" r="0.7" fill="rgba(123,46,46,0.18)"/>
+            <circle cx="32" cy="50" r="0.7" fill="rgba(123,46,46,0.18)"/><circle cx="37.3" cy="37.3" r="0.7" fill="rgba(123,46,46,0.18)"/>
+            <polygon points="50,10 51.2,12 50,14 48.8,12" fill="rgba(201,168,106,0.45)"/>
+            <polygon points="82.9,29 84.1,31 82.9,33 81.7,31" fill="rgba(201,168,106,0.45)"/>
+            <polygon points="82.9,67 84.1,69 82.9,71 81.7,69" fill="rgba(201,168,106,0.45)"/>
+            <polygon points="50,86 51.2,88 50,90 48.8,88" fill="rgba(201,168,106,0.45)"/>
+            <polygon points="17.1,67 18.3,69 17.1,71 15.9,69" fill="rgba(201,168,106,0.45)"/>
+            <polygon points="17.1,29 18.3,31 17.1,33 15.9,31" fill="rgba(201,168,106,0.45)"/>
+            <circle cx="50" cy="50" r="2.5" fill="none" stroke="rgba(201,168,106,0.35)" stroke-width="0.5"/>
+            <circle cx="50" cy="50" r="1" fill="rgba(201,168,106,0.40)"/>
+          </svg>
+          <!-- Reactコンポーネントと同じく SVG外にspanを絶対配置 -->
+          <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Cinzel',serif;font-size:8px;font-weight:500;font-style:italic;color:#7b2e2e;letter-spacing:1px;line-height:1;user-select:none;">MA</span>
+        </div>
+        <div>
+          <p class="logo">MathAca</p>
+          <p class="logo-anno">総合型学習アプリ</p>
+        </div>
+      </div>
+      <nav style="display:flex;align-items:center;gap:16px;">
+        <a href="/lp/column.html" style="font-family:var(--font-cinzel);font-size:0.75rem;color:rgba(201,168,106,0.6);text-decoration:none;letter-spacing:0.1em;transition:color 0.15s;" onmouseover="this.style.color='#d4a84b'" onmouseout="this.style.color='rgba(201,168,106,0.6)'">Column</a>
+        <a
+          href="https://quiz-study-app-omega.vercel.app/subject"
+          class="header-cta"
+          >入学する（無料）</a
+        >
+      </nav>
+    </header>
+
+    <!-- ══════ ヒーロー ══════ -->
+    <section id="hero">
+      <div class="hero-eyebrow">Multi-Subject Academy</div>
+      <h1 class="hero-title">知識の扉を、<br />開け放て。</h1>
+      <p class="hero-subtitle">— MATHACA —</p>
+      <p class="hero-desc">
+        どんな学問でも、大丈夫。<br />
+        クイズを解くたびに、本物の力がつく。<br />
+        この学院で、あらゆる壁を乗り越えよう。
+      </p>
+      <div class="hero-buttons">
+        <a
+          href="https://quiz-study-app-omega.vercel.app/subject"
+          class="btn-primary"
+          >入学する（無料）</a
+        >
+        <a href="#features" class="btn-secondary">学院について見る</a>
+      </div>
+
+      <!-- 画面モック -->
+      <div class="hero-mockup">
+        <div class="mockup-phone">
+          <div class="mockup-bar">
+            <div class="mockup-logo-sm">MathAca</div>
+            <div class="mockup-lv">Lv.7 — 知識の探求者</div>
+          </div>
+          <div class="mockup-q-block">
+            <div class="mockup-q-tag">JavaScript / 変数と型</div>
+            <div class="mockup-q-text">
+              次のうち、文字列を数値に変換する正しい方法はどれか。
+            </div>
+          </div>
+          <div class="mockup-choices">
+            <div class="mockup-choice">① String("42")</div>
+            <div class="mockup-choice correct">② Number("42") ✓</div>
+            <div class="mockup-choice">③ Boolean("42")</div>
+            <div class="mockup-choice">④ parseInt(42)</div>
+          </div>
+          <div class="mockup-exp">+ 12 EXP Acquired</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ 特長 ══════ -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-heading reveal">Why MATHACA</h2>
+        <div class="section-rule reveal"></div>
+        <p class="section-sub reveal">この学院が選ばれる、三つの理由</p>
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <span class="feature-icon">📜</span>
+            <div class="feature-title">思考の道筋ごと、学べる</div>
+            <p class="feature-desc">
+              答えを当てるだけでなく、解説が思考プロセスを丁寧に紐解く。間違えた問題こそ、最大の学びになる。
+            </p>
+          </div>
+          <div class="feature-card reveal">
+            <span class="feature-icon">⚗️</span>
+            <div class="feature-title">繰り返すほど、強くなる</div>
+            <p class="feature-desc">
+              苦手単元を自動検出し、弱点を集中的に出題。やるたびに正答率が上がっていく仕組みが整っている。
+            </p>
+          </div>
+          <div class="feature-card reveal">
+            <span class="feature-icon">🗝️</span>
+            <div class="feature-title">スキマ時間が、武器になる</div>
+            <p class="feature-desc">
+              1問60秒から。参考書を広げなくていい。通学中でも、寝る前でも、学院はいつでも開いている。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ 苦手な子への共感 ══════ -->
+    <section id="empathy" class="section">
+      <div class="container">
+        <h2 class="section-heading reveal">For the Struggling Scholar</h2>
+        <div class="section-rule reveal"></div>
+        <p class="section-sub reveal">勉強が苦手なキミへ</p>
+        <div class="empathy-grid">
+          <div class="empathy-card reveal">
+            <div class="empathy-before">
+              参考書を開いても、どこから手を付けていいかわからない…
+            </div>
+            <span class="empathy-after-icon">↳ Resolution</span>
+            <div class="empathy-after">
+              単元ごとに整理されているから、今日やるべき場所が一目でわかる。
+            </div>
+          </div>
+          <div class="empathy-card reveal">
+            <div class="empathy-before">
+              解き方を覚えても、試験になると忘れてしまう…
+            </div>
+            <span class="empathy-after-icon">↳ Resolution</span>
+            <div class="empathy-after">
+              繰り返し出題の仕組みが、知識を確実に定着させていく。
+            </div>
+          </div>
+          <div class="empathy-card reveal">
+            <div class="empathy-before">
+              勉強を続けるモチベーションが、どうしても続かない…
+            </div>
+            <span class="empathy-after-icon">↳ Resolution</span>
+            <div class="empathy-after">
+              EXP・レベル・バッジが、やる気を途切れさせない。
+            </div>
+          </div>
+        </div>
+        <div class="flow-list">
+          <div class="flow-item reveal">
+            <div class="flow-step">I</div>
+            <div class="flow-text">
+              好きな単元を選び、<strong>まず1問を解く</strong>
+            </div>
+          </div>
+          <div class="flow-item reveal">
+            <div class="flow-step">II</div>
+            <div class="flow-text">
+              正解・不正解のあとに、<strong>丁寧な解説</strong>が展開される
+            </div>
+          </div>
+          <div class="flow-item reveal">
+            <div class="flow-step">III</div>
+            <div class="flow-text">
+              EXPを積み、レベルが上がる。<strong>「もう1問」</strong>が止まらなくなる
+            </div>
+          </div>
+          <div class="flow-item reveal">
+            <div class="flow-step">IV</div>
+            <div class="flow-text">
+              苦手単元を自動検出。<strong>弱点への最短ルート</strong>で力がついていく
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ ゲーミフィケーション ══════ -->
+    <section id="gamification" class="section">
+      <div class="container">
+        <h2 class="section-heading reveal">Gamification System</h2>
+        <div class="section-rule reveal"></div>
+        <p class="section-sub reveal">学ぶことが、冒険になる</p>
+        <div class="game-grid">
+          <div class="game-card reveal">
+            <div class="game-icon">⭐</div>
+            <div class="game-title">Experience Points</div>
+            <div class="game-desc">
+              正解のたびにEXPが積み上がる。難問ほど多くの経験値が与えられる。
+            </div>
+          </div>
+          <div class="game-card reveal">
+            <div class="game-icon">🏛️</div>
+            <div class="game-title">Rank & Title</div>
+            <div class="game-desc">
+              Lv.1「見習い学者」からLv.99「共通テスト覇者」まで、99の称号が待つ。
+            </div>
+          </div>
+          <div class="game-card reveal">
+            <div class="game-icon">🔥</div>
+            <div class="game-title">Combo Bonus</div>
+            <div class="game-desc">
+              5問連続正解でボーナスEXP。リズムを維持するほど報酬が増える。
+            </div>
+          </div>
+          <div class="game-card reveal">
+            <div class="game-icon">🌍</div>
+            <div class="game-title">National Rank</div>
+            <div class="game-desc">
+              全国のユーザーとリアルタイムで順位を競う。偏差値も日次で更新される。
+            </div>
+          </div>
+        </div>
+        <div class="badge-row reveal">
+          <span class="badge-pill">🏅 Perfectus</span>
+          <span class="badge-pill">⭐ Excellens</span>
+          <span class="badge-pill">🔥 Continuus</span>
+          <span class="badge-pill">⚡ Velocitas</span>
+          <span class="badge-pill">🔢 Magister Mathema</span>
+          <span class="badge-pill">📝 Linguista</span>
+          <span class="badge-pill">💻 Code Wizard</span>
+          <span class="badge-pill">🌟 Quinque Artes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ 難易度 ══════ -->
+    <section id="difficulty" class="section">
+      <div class="container">
+        <h2 class="section-heading reveal">Three Grades of Mastery</h2>
+        <div class="section-rule reveal"></div>
+        <p class="section-sub reveal">自分のペースで、確実にステップアップ</p>
+        <div class="diff-grid">
+          <div class="diff-card basic reveal">
+            <div class="diff-label">Basic</div>
+            <div class="diff-tag">Fundamentals</div>
+            <div class="diff-desc">
+              用語・公式の確認から。<br />まず土台を固める層へ。
+            </div>
+            <div class="diff-exp diff-exp-basic">+ 8 EXP / Correct</div>
+          </div>
+          <div class="diff-card standard reveal">
+            <div class="diff-label">Standard</div>
+            <div class="diff-tag">Reasoning</div>
+            <div class="diff-desc">
+              考え方を組み立てる練習。<br />7〜8割得点層の壁を破る。
+            </div>
+            <div class="diff-exp diff-exp-standard">+ 12 EXP / Correct</div>
+          </div>
+          <div class="diff-card exam reveal">
+            <div class="diff-label">Exam</div>
+            <div class="diff-tag">Synthesis</div>
+            <div class="diff-desc">
+              複数の知識を統合する難問。<br />8割以上を目指す者へ。
+            </div>
+            <div class="diff-exp diff-exp-exam">+ 20 EXP / Correct</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ FAQ ══════ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="section-heading reveal">Frequentes Quaestiones</h2>
+        <div class="section-rule reveal"></div>
+        <p class="section-sub reveal">よくある質問</p>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-q">本当に無料で使えますか？</div>
+            <div class="faq-a">
+              はい、完全無料です。課金要素は一切ありません。すべての機能をそのままお使いいただけます。
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">まったくの初心者でも使えますか？</div>
+            <div class="faq-a">
+              もちろんです。どの学問も Basic（基礎）レベルからスタートできます。正答率に応じて難易度が自動調整され、解説は初めて学ぶ方でも理解できる言葉で書かれています。
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">スマートフォンだけで使えますか？</div>
+            <div class="faq-a">
+              はい。モバイルファーストで設計されています。スマートフォン・タブレット・PCのブラウザすべてに対応しています。
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">どんな学問に対応していますか？</div>
+            <div class="faq-a">
+              複数の学問に対応しており、各単元ごとにBasic・Standard・Exam各10問、計30問を用意しています。対応する学問は今後さらに拡大予定です。
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">機種変更しても進捗は引き継がれますか？</div>
+            <div class="faq-a">
+              Supabaseによるクラウド保存のため、機種変更やブラウザを変えても進捗・レベル・バッジがすべて引き継がれます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ 最終CTA ══════ -->
+    <section id="final-cta">
+      <span class="cta-ornament reveal">— MATHACA —</span>
+      <h2 class="cta-title reveal">さあ、最初の１問を<br />解いてみよう。</h2>
+      <p class="cta-sub reveal">
+        Registration is free. No charges. Ever.
+      </p>
+      <a
+        href="https://quiz-study-app-omega.vercel.app/subject"
+        class="btn-primary reveal"
+        >入学する（無料）</a
+      >
+      <p class="cta-note reveal">アカウント登録 30秒 · いつでも退会可</p>
+    </section>
+
+    <!-- ══════ フッター ══════ -->
+    <footer>
+      <div class="footer-logo">MathAca</div>
+      <p>Multi-Subject Academy — あらゆる学問で、本物の力を。</p>
+      <p style="margin-top: 8px">© 2026 MATHACA. All rights reserved.</p>
+      <div style="display:flex;justify-content:center;gap:24px;margin-top:12px;flex-wrap:wrap;">
+        <a href="/lp/column.html" style="font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em;">コラム</a>
+        <a href="/lp/privacy.html" style="font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em;">プライバシーポリシー</a>
+        <a href="/lp/contact.html" style="font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em;">お問い合わせ</a>
+      </div>
+    </footer>
+
+    <script>
+      // スクロール reveal
+      const revealEls = document.querySelectorAll(".reveal");
+      const obs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            // ビューポート内 OR すでに上に通過済みの要素も表示
+            if (e.isIntersecting || e.boundingClientRect.bottom < 0) {
+              e.target.classList.add("visible");
+              obs.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      revealEls.forEach((el) => obs.observe(el));
+
+      // FAQ accordion
+      document.querySelectorAll(".faq-q").forEach((q) => {
+        q.addEventListener("click", () => {
+          const item = q.closest(".faq-item");
+          const isOpen = item.classList.contains("open");
+          document
+            .querySelectorAll(".faq-item")
+            .forEach((i) => i.classList.remove("open"));
+          if (!isOpen) item.classList.add("open");
+        });
+      });
+    </script>
+  </body>
+</html>

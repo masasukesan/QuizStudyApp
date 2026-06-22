@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>共通テスト数学で点を取るための3つのコツ — MATHACA コラム</title>
+    <meta name="description" content="共通テスト数学で得点を伸ばすための具体的な3つのコツを解説。時間配分、頻出パターンの把握、解き直し習慣の作り方。" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362"
+     crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --profile-bg: #2a1e12;
+        --profile-card: #3a2a1a;
+        --profile-text: #c8b48a;
+        --profile-border: rgba(201, 168, 106, 0.25);
+        --profile-gold: #d4a84b;
+        --font-cinzel: "Cinzel", serif;
+        --font-cinzel-deco: "Cinzel Decorative", serif;
+        --font-serif-jp: "Noto Serif JP", serif;
+      }
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html { scroll-behavior: smooth; }
+      body {
+        font-family: var(--font-serif-jp);
+        background-color: var(--profile-bg);
+        background-image: radial-gradient(ellipse at 50% 0%, rgba(120,80,20,0.15) 0%, transparent 60%);
+        color: var(--profile-text);
+        line-height: 1.9;
+        -webkit-font-smoothing: antialiased;
+      }
+      header {
+        position: sticky; top: 0; z-index: 100;
+        background: var(--profile-card);
+        border-bottom: 1px solid var(--profile-border);
+        box-shadow: 0 2px 16px rgba(0,0,0,0.5);
+        padding: 14px 24px;
+        display: flex; align-items: center; justify-content: space-between;
+      }
+      .logo { font-family: var(--font-cinzel-deco); font-size: 22px; font-weight: 700; color: var(--profile-gold); text-decoration: none; letter-spacing: 0.05em; text-shadow: 0 0 20px rgba(201,168,106,0.3); }
+      .header-cta { font-family: var(--font-serif-jp); font-size: 0.8rem; color: rgba(201,168,106,0.85); background: rgba(201,168,106,0.08); border: 1px solid rgba(201,168,106,0.35); padding: 7px 20px; text-decoration: none; letter-spacing: 0.06em; transition: background 0.15s, border-color 0.15s; }
+      .header-cta:hover { background: rgba(201,168,106,0.15); border-color: rgba(201,168,106,0.55); color: #c9a86a; }
+      main { max-width: 760px; margin: 0 auto; padding: 64px 24px 80px; }
+      .breadcrumb { font-family: var(--font-cinzel); font-size: 0.72rem; color: rgba(201,168,106,0.35); letter-spacing: 0.1em; margin-bottom: 32px; }
+      .breadcrumb a { color: rgba(201,168,106,0.5); text-decoration: none; }
+      .breadcrumb a:hover { color: var(--profile-gold); }
+      .article-label { font-family: var(--font-cinzel); font-size: 0.72rem; color: rgba(201,168,106,0.45); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 12px; display: block; }
+      h1 { font-family: var(--font-cinzel); font-size: clamp(1.4rem, 4vw, 2rem); color: var(--profile-gold); letter-spacing: 0.06em; line-height: 1.4; margin-bottom: 16px; }
+      .article-meta { font-size: 0.78rem; color: rgba(201,168,106,0.3); font-family: var(--font-cinzel); letter-spacing: 0.1em; margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid var(--profile-border); }
+      h2 { font-family: var(--font-cinzel); font-size: 1.05rem; color: var(--profile-gold); letter-spacing: 0.08em; margin: 48px 0 16px; padding-left: 16px; border-left: 3px solid rgba(201,168,106,0.5); }
+      h3 { font-family: var(--font-serif-jp); font-size: 0.95rem; color: rgba(201,168,106,0.9); font-weight: 600; margin: 28px 0 10px; }
+      p { font-size: 0.9rem; color: rgba(200,180,138,0.8); margin-bottom: 20px; line-height: 1.95; }
+      .point-box { background: rgba(201,168,106,0.06); border: 1px solid rgba(201,168,106,0.2); padding: 24px 28px; margin: 32px 0; }
+      .point-box .point-num { font-family: var(--font-cinzel); font-size: 0.7rem; color: rgba(201,168,106,0.4); letter-spacing: 0.15em; margin-bottom: 8px; display: block; }
+      .point-box .point-title { font-family: var(--font-serif-jp); font-size: 1rem; color: var(--profile-gold); font-weight: 600; margin-bottom: 12px; }
+      .point-box p { margin-bottom: 0; }
+      .summary-box { background: rgba(201,168,106,0.04); border: 1px solid rgba(201,168,106,0.15); padding: 20px 24px; margin: 40px 0; }
+      .summary-box p { font-size: 0.85rem; color: rgba(200,180,138,0.65); margin-bottom: 8px; }
+      .summary-box p:last-child { margin-bottom: 0; }
+      .cta-inline { text-align: center; margin: 56px 0 32px; padding-top: 40px; border-top: 1px solid var(--profile-border); }
+      .cta-inline p { font-size: 0.88rem; color: rgba(200,180,138,0.6); margin-bottom: 20px; }
+      .btn-cta { display: inline-block; background: linear-gradient(135deg, #c9a86a 0%, #d4a84b 100%); color: #1a1008; font-family: var(--font-cinzel); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.12em; padding: 14px 40px; text-decoration: none; transition: opacity 0.15s, transform 0.1s; }
+      .btn-cta:hover { opacity: 0.9; transform: translateY(-1px); }
+      .related { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--profile-border); }
+      .related-title { font-family: var(--font-cinzel); font-size: 0.75rem; color: rgba(201,168,106,0.4); letter-spacing: 0.15em; margin-bottom: 20px; }
+      .related-links { display: flex; flex-direction: column; gap: 12px; }
+      .related-links a { font-size: 0.88rem; color: rgba(201,168,106,0.7); text-decoration: none; padding: 12px 16px; border: 1px solid rgba(201,168,106,0.15); transition: border-color 0.15s, color 0.15s; }
+      .related-links a:hover { border-color: rgba(201,168,106,0.4); color: var(--profile-gold); }
+      footer { background: #1a1008; border-top: 1px solid rgba(201,168,106,0.1); text-align: center; padding: 32px 20px; }
+      .footer-logo { font-family: var(--font-cinzel-deco); font-size: 16px; color: rgba(201,168,106,0.5); margin-bottom: 10px; }
+      footer p { font-family: var(--font-cinzel); font-size: 10px; font-style: italic; color: rgba(201,168,106,0.25); letter-spacing: 0.1em; margin-top: 4px; }
+      .footer-links { display: flex; justify-content: center; gap: 24px; margin-top: 12px; flex-wrap: wrap; }
+      .footer-links a { font-family: var(--font-cinzel); font-size: 10px; color: rgba(201,168,106,0.35); text-decoration: none; letter-spacing: 0.08em; }
+      .footer-links a:hover { color: rgba(201,168,106,0.65); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/lp/" class="logo">MATHACA</a>
+      <a href="https://quiz-study-app-omega.vercel.app/login" class="header-cta">入学する（無料）</a>
+    </header>
+
+    <main>
+      <p class="breadcrumb"><a href="/lp/">Home</a> &nbsp;/&nbsp; <a href="/lp/column.html">Column</a> &nbsp;/&nbsp; 共通テスト数学攻略コツ</p>
+
+      <span class="article-label">Study Column — Vol.01</span>
+      <h1>共通テスト数学で点を取るための<br />3つのコツ</h1>
+      <p class="article-meta">2026.06 &nbsp;|&nbsp; Math Strategy &nbsp;|&nbsp; 読了時間：約5分</p>
+
+      <p>「数学は苦手だけど、共通テストで点を取りたい」——そう思っている高校生は少なくありません。共通テストの数学は、難しい発想力より<strong>「パターンの認識力」と「時間管理」</strong>が合否を分けます。この記事では、すぐに実践できる3つのコツを具体的に解説します。</p>
+
+      <h2>コツ① 時間配分を事前に決めておく</h2>
+
+      <p>共通テスト数学（数学IA・数学IIB）は試験時間が70分です。問題数が多いうえに、途中で詰まると一気に時間を失います。多くの受験生が「最初の大問に時間をかけすぎて、後半が解けなかった」という失敗をします。</p>
+
+      <h3>おすすめの時間配分（数学IA・70分の場合）</h3>
+
+      <p>第1問（必答）に15〜18分、第2問（必答）に15〜18分、残りの選択問題に合計20〜22分。最後の5分を見直しにあてるのが理想です。事前に「この問題は〇分まで」と決めておくことで、時間切れのリスクを大幅に減らせます。</p>
+
+      <p>大切なのは「解けなかった問題を飛ばす勇気」です。1問に8分以上かかりそうなら、いったんマークして次に進む。これだけで最終的な得点が上がることがほとんどです。</p>
+
+      <div class="point-box">
+        <span class="point-num">POINT 01</span>
+        <p class="point-title">時間を「決めて」から試験に臨む</p>
+        <p>各大問の制限時間を紙に書いて暗記しておく。試験中は時計を見ながら「今どの大問にいるべきか」を常に意識する。</p>
+      </div>
+
+      <h2>コツ② 頻出パターンを先に覚える</h2>
+
+      <p>共通テスト数学には、毎年繰り返し出題される「頻出パターン」があります。三角関数の最大・最小、図形と計量、2次関数の頂点・軸の計算、確率の漸化式——これらは出題形式が変わっても、根本のパターンは同じです。</p>
+
+      <p>苦手な受験生ほど「教科書を最初から全部やろう」とします。しかし共通テストで点を取るためには、<strong>「よく出るパターンを集中的に反復する」</strong>ほうがはるかに効果的です。出題されたことがない分野に時間をかけるより、頻出分野を確実に取れるようにする戦略が得点に直結します。</p>
+
+      <h3>頻出分野の見分け方</h3>
+
+      <p>過去5年分の共通テスト（または大学入試センター試験）の問題を見て、毎年出ている単元をリストアップしましょう。数学IAなら「2次関数」「図形の性質」「場合の数と確率」、数学IIBなら「指数・対数関数」「微分積分」「数列」がほぼ毎年登場しています。</p>
+
+      <div class="point-box">
+        <span class="point-num">POINT 02</span>
+        <p class="point-title">頻出単元を「深く・繰り返し」やる</p>
+        <p>全範囲を薄くやるのではなく、出題確率の高い単元を何度も解いて体に覚えさせる。同じ問題を3回解いて初めて「定着した」と言える。</p>
+      </div>
+
+      <h2>コツ③ 「解き直し」を勉強の中心にする</h2>
+
+      <p>多くの高校生が間違えると「解答を見て理解した気になって終わり」にします。しかしこれでは次に同じ問題が出ても解けません。本当に力をつけるためには、<strong>「解き直し」が最重要</strong>です。</p>
+
+      <p>具体的な方法は次の通りです。まず問題を解いて答え合わせをします。次に、間違えた問題だけをノートに書き出します。そして翌日、ノートに書き出した問題を見直す。さらに1週間後にもう一度解く。この「時間をおいた反復」が長期記憶として定着させる唯一の方法です。</p>
+
+      <h3>解き直しで意識すること</h3>
+
+      <p>「なぜ間違えたのか」を言葉で説明できるまで分析することが大切です。計算ミスなのか、公式を忘れたのか、問題の読み違いなのか——原因が違えば対策も違います。自分の弱点パターンを把握することが、共通テスト対策の核心です。</p>
+
+      <div class="point-box">
+        <span class="point-num">POINT 03</span>
+        <p class="point-title">間違えた問題は「3回」解き直す</p>
+        <p>1回目：解いて間違える。2回目：翌日に解説なしで再挑戦。3回目：1週間後にもう一度。3回解けた問題は「自分の武器」になる。</p>
+      </div>
+
+      <h2>まとめ</h2>
+
+      <div class="summary-box">
+        <p>✦ &nbsp;時間配分は事前に決めて、詰まったら飛ばす勇気を持つ</p>
+        <p>✦ &nbsp;頻出パターンを集中的に反復して、確実に取れる問題を増やす</p>
+        <p>✦ &nbsp;間違えた問題を3回解き直して、弱点を武器に変える</p>
+      </div>
+
+      <p>共通テスト数学で点を取ることは、天才的な発想力がなくても十分に可能です。日々の小さな積み重ね——毎日10問のクイズ、間違えた問題の解き直し——が、本番での得点につながります。</p>
+
+      <div class="cta-inline">
+        <p>MATHACAは、この「繰り返し学習」をゲーム感覚で続けられるように設計された数学クイズアプリです。</p>
+        <a href="https://quiz-study-app-omega.vercel.app/login" class="btn-cta">無料で始める</a>
+      </div>
+
+      <div class="related">
+        <p class="related-title">Related Articles</p>
+        <div class="related-links">
+          <a href="/lp/column2.html">→ 数学が苦手な高校生へ — よくある間違いと克服法</a>
+          <a href="/lp/column3.html">→ 繰り返し学習が数学力を伸ばす理由：記憶の科学から考える</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-logo">MATHACA</div>
+      <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
+      <p style="margin-top:8px">© 2026 MATHACA. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/lp/column.html">コラム</a>
+        <a href="/lp/privacy.html">プライバシーポリシー</a>
+        <a href="/lp/contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お問い合わせ — MATHACA</title>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --accent: #c9a86a;
+        --profile-bg: #2a1e12;
+        --profile-card: #3a2a1a;
+        --profile-text: #c8b48a;
+        --profile-border: rgba(201, 168, 106, 0.25);
+        --profile-gold: #d4a84b;
+        --font-cinzel: "Cinzel", serif;
+        --font-cinzel-deco: "Cinzel Decorative", serif;
+        --font-serif-jp: "Noto Serif JP", serif;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: var(--font-serif-jp);
+        background-color: var(--profile-bg);
+        background-image: radial-gradient(
+          ellipse at 50% 0%,
+          rgba(120, 80, 20, 0.15) 0%,
+          transparent 60%
+        );
+        color: var(--profile-text);
+        line-height: 1.8;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      /* ── ヘッダー ── */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--profile-card);
+        border-bottom: 1px solid var(--profile-border);
+        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+        padding: 14px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        font-family: var(--font-cinzel-deco);
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--profile-gold);
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        text-shadow: 0 0 20px rgba(201, 168, 106, 0.3);
+      }
+      .header-cta {
+        font-family: var(--font-serif-jp);
+        font-size: 0.8rem;
+        color: rgba(201, 168, 106, 0.85);
+        background: rgba(201, 168, 106, 0.08);
+        border: 1px solid rgba(201, 168, 106, 0.35);
+        padding: 7px 20px;
+        text-decoration: none;
+        letter-spacing: 0.06em;
+        transition:
+          background 0.15s,
+          border-color 0.15s,
+          color 0.15s;
+      }
+      .header-cta:hover {
+        background: rgba(201, 168, 106, 0.15);
+        border-color: rgba(201, 168, 106, 0.55);
+        color: #c9a86a;
+      }
+
+      /* ── メインコンテンツ ── */
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 64px 24px 80px;
+      }
+
+      .page-title {
+        font-family: var(--font-cinzel);
+        font-size: clamp(1.4rem, 4vw, 2rem);
+        color: var(--profile-gold);
+        letter-spacing: 0.08em;
+        margin-bottom: 8px;
+      }
+      .page-subtitle {
+        font-size: 0.8rem;
+        color: rgba(201, 168, 106, 0.4);
+        font-family: var(--font-cinzel);
+        letter-spacing: 0.1em;
+        margin-bottom: 16px;
+      }
+      .page-desc {
+        font-size: 0.88rem;
+        color: rgba(200, 180, 138, 0.7);
+        margin-bottom: 48px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--profile-border);
+        line-height: 1.9;
+      }
+
+      /* カテゴリ選択 */
+      .category-label {
+        font-family: var(--font-cinzel);
+        font-size: 0.75rem;
+        color: rgba(201, 168, 106, 0.5);
+        letter-spacing: 0.12em;
+        margin-bottom: 12px;
+        display: block;
+      }
+      .category-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 32px;
+      }
+      @media (max-width: 480px) {
+        .category-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .category-btn {
+        background: rgba(201, 168, 106, 0.05);
+        border: 1px solid rgba(201, 168, 106, 0.2);
+        color: rgba(201, 168, 106, 0.65);
+        font-family: var(--font-serif-jp);
+        font-size: 0.82rem;
+        padding: 10px 16px;
+        cursor: pointer;
+        text-align: left;
+        transition: all 0.15s;
+        letter-spacing: 0.04em;
+      }
+      .category-btn:hover,
+      .category-btn.active {
+        background: rgba(201, 168, 106, 0.12);
+        border-color: rgba(201, 168, 106, 0.5);
+        color: var(--profile-gold);
+      }
+
+      /* フォーム */
+      .form-group {
+        margin-bottom: 24px;
+      }
+      label {
+        display: block;
+        font-family: var(--font-cinzel);
+        font-size: 0.75rem;
+        color: rgba(201, 168, 106, 0.5);
+        letter-spacing: 0.12em;
+        margin-bottom: 8px;
+      }
+      label .required {
+        color: #c05050;
+        margin-left: 4px;
+      }
+      input[type="email"],
+      input[type="text"],
+      textarea,
+      select {
+        width: 100%;
+        background: rgba(201, 168, 106, 0.05);
+        border: 1px solid rgba(201, 168, 106, 0.2);
+        color: var(--profile-text);
+        font-family: var(--font-serif-jp);
+        font-size: 0.88rem;
+        padding: 12px 14px;
+        outline: none;
+        transition: border-color 0.15s;
+        -webkit-appearance: none;
+        appearance: none;
+        border-radius: 0;
+      }
+      input:focus,
+      textarea:focus,
+      select:focus {
+        border-color: rgba(201, 168, 106, 0.55);
+        background: rgba(201, 168, 106, 0.08);
+      }
+      input::placeholder,
+      textarea::placeholder {
+        color: rgba(201, 168, 106, 0.2);
+      }
+      textarea {
+        resize: vertical;
+        min-height: 140px;
+        line-height: 1.7;
+      }
+
+      /* 送信ボタン */
+      .btn-submit {
+        display: block;
+        width: 100%;
+        background: linear-gradient(135deg, #c9a86a 0%, #d4a84b 100%);
+        color: #1a1008;
+        font-family: var(--font-cinzel);
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        padding: 14px 32px;
+        border: none;
+        cursor: pointer;
+        margin-top: 8px;
+        transition:
+          opacity 0.15s,
+          transform 0.1s;
+      }
+      .btn-submit:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+      }
+      .btn-submit:active {
+        transform: translateY(0);
+      }
+      .btn-submit:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      /* 注記 */
+      .form-note {
+        font-size: 0.78rem;
+        color: rgba(201, 168, 106, 0.3);
+        margin-top: 16px;
+        line-height: 1.7;
+      }
+      .form-note a {
+        color: rgba(201, 168, 106, 0.5);
+      }
+
+      /* 送信完了メッセージ */
+      .success-box {
+        display: none;
+        background: rgba(61, 138, 95, 0.1);
+        border: 1px solid rgba(61, 138, 95, 0.4);
+        padding: 24px;
+        text-align: center;
+        margin-top: 32px;
+      }
+      .success-box.visible {
+        display: block;
+      }
+      .success-title {
+        font-family: var(--font-cinzel);
+        font-size: 1rem;
+        color: #3d8a5f;
+        letter-spacing: 0.1em;
+        margin-bottom: 8px;
+      }
+      .success-text {
+        font-size: 0.85rem;
+        color: rgba(200, 180, 138, 0.6);
+      }
+
+      /* ── フッター ── */
+      footer {
+        background: #1a1008;
+        border-top: 1px solid rgba(201, 168, 106, 0.1);
+        text-align: center;
+        padding: 32px 20px;
+      }
+      .footer-logo {
+        font-family: var(--font-cinzel-deco);
+        font-size: 16px;
+        color: rgba(201, 168, 106, 0.5);
+        margin-bottom: 10px;
+      }
+      footer p {
+        font-family: var(--font-cinzel);
+        font-size: 10px;
+        font-style: italic;
+        color: rgba(201, 168, 106, 0.25);
+        letter-spacing: 0.1em;
+        margin-top: 4px;
+      }
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 12px;
+      }
+      .footer-links a {
+        font-family: var(--font-cinzel);
+        font-size: 10px;
+        color: rgba(201, 168, 106, 0.35);
+        text-decoration: none;
+        letter-spacing: 0.08em;
+      }
+      .footer-links a:hover {
+        color: rgba(201, 168, 106, 0.65);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <a href="/lp/" class="logo">MATHACA</a>
+      <a
+        href="https://quiz-study-app-omega.vercel.app"
+        class="header-cta"
+      >&#8249; ホーム</a>
+    </header>
+
+    <!-- メイン -->
+    <main>
+      <h1 class="page-title">Contact</h1>
+      <p class="page-subtitle">お問い合わせ</p>
+      <p class="page-desc">
+        問題の誤りや解説のわかりにくさ、バグ報告など、どんな小さなことでも歓迎します。<br />
+        いただいたフィードバックは問題品質の向上に活用させていただきます。<br />
+        通常、数日以内にご登録のメールアドレスへご返信いたします。
+      </p>
+
+      <!-- お問い合わせ種別 -->
+      <span class="category-label">お問い合わせの種類</span>
+      <div class="category-grid" id="categoryGrid">
+        <button class="category-btn active" data-value="問題の誤り・修正依頼">
+          📝 問題の誤り・修正依頼
+        </button>
+        <button class="category-btn" data-value="解説がわかりにくい">
+          💬 解説がわかりにくい
+        </button>
+        <button class="category-btn" data-value="バグ・動作不具合">
+          🔧 バグ・動作不具合
+        </button>
+        <button class="category-btn" data-value="機能要望・その他">
+          ✨ 機能要望・その他
+        </button>
+      </div>
+
+      <!-- フォーム（Formspree経由） -->
+      <form
+        id="contactForm"
+        action="https://formspree.io/f/mbdeygvr"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="category"
+          id="categoryInput"
+          value="問題の誤り・修正依頼"
+        />
+
+        <div class="form-group">
+          <label for="email"
+            >メールアドレス <span class="required">*</span></label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="example@email.com"
+            autocomplete="email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">件名</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="例：数学Ⅱ・三角関数の問題に誤りがあります"
+            maxlength="100"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message"
+            >お問い合わせ内容 <span class="required">*</span></label
+          >
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="例：「三角関数の最大・最小」単元の Basic 問題 No.3 で、選択肢②の答えが正解になっていますが、計算すると③が正しいと思います。確認をお願いします。"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit" id="submitBtn">送 信</button>
+
+        <p class="form-note">
+          送信された情報はMATHACAの問題品質改善のみに使用します。<br />
+          第三者への提供は行いません。詳しくは<a href="/lp/privacy.html"
+            >プライバシーポリシー</a
+          >をご覧ください。
+        </p>
+      </form>
+
+      <div class="success-box" id="successBox">
+        <p class="success-title">— Thank you —</p>
+        <p class="success-text">
+          お問い合わせを受け付けました。<br />数日以内にご返信いたします。
+        </p>
+      </div>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <div class="footer-logo">MATHACA</div>
+      <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
+      <p style="margin-top: 8px">© 2026 MATHACA. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/lp/privacy.html">プライバシーポリシー</a>
+        <a href="/lp/contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+
+    <script>
+      // カテゴリ選択
+      const categoryBtns = document.querySelectorAll(".category-btn");
+      const categoryInput = document.getElementById("categoryInput");
+      categoryBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          categoryBtns.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          categoryInput.value = btn.dataset.value;
+        });
+      });
+
+      // フォーム送信（Formspree）
+      const form = document.getElementById("contactForm");
+      const submitBtn = document.getElementById("submitBtn");
+      const successBox = document.getElementById("successBox");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        submitBtn.textContent = "送信中…";
+
+        const data = new FormData(form);
+        try {
+          const res = await fetch(form.action, {
+            method: "POST",
+            body: data,
+            headers: { Accept: "application/json" },
+          });
+          if (res.ok) {
+            form.style.display = "none";
+            successBox.classList.add("visible");
+          } else {
+            alert("送信に失敗しました。しばらく経ってから再度お試しください。");
+            submitBtn.disabled = false;
+            submitBtn.textContent = "送 信";
+          }
+        } catch {
+          alert(
+            "通信エラーが発生しました。しばらく経ってから再度お試しください。",
+          );
+          submitBtn.disabled = false;
+          submitBtn.textContent = "送 信";
+        }
+      });
+    </script>
+  </body>
+</html>
