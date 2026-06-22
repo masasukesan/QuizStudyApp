@@ -239,7 +239,7 @@ export default function SubjectPage() {
           <Monogram size={28} glyph="MA" italic />
           <div>
             <p className={styles.headerTitle}>MathAca</p>
-            <p className={styles.headerAnno}>数学演習アプリ</p>
+            <p className={styles.headerAnno}>総合型学習アプリ</p>
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
@@ -439,12 +439,9 @@ export default function SubjectPage() {
         {/* ══ 学校種別インライン選択（未設定 or 変更中） ══ */}
         {selectedSubject === 'math' && (needsSchoolType || selectingSchool) && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
-            <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'rgba(200,180,138,0.6)', margin: 0 }}>
-              ランキングは中学生・高校生で独立して集計されます
-            </p>
             {[
-              { type: 'junior_high' as const, label: '中学生', note: '中1〜中3', emoji: '📚' },
-              { type: 'high_school' as const, label: '高校生', note: '高1〜高3', emoji: '🎓' },
+              { type: 'junior_high' as const, letter: 'j', label: '数学（中学）', sub: 'Mathematics Jr.', note: '中1〜中3' },
+              { type: 'high_school' as const, letter: 'h', label: '数学（高校）', sub: 'Mathematics',     note: '高1〜高3' },
             ].map(opt => (
               <button
                 key={opt.type}
@@ -459,10 +456,17 @@ export default function SubjectPage() {
                   opacity: schoolSaving ? 0.5 : 1,
                 }}
               >
-                <span style={{ fontSize: '1.8rem' }}>{opt.emoji}</span>
-                <span style={{ fontWeight: 700 }}>{opt.label}</span>
-                <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)', marginLeft: 4 }}>{opt.note}</span>
-                <span style={{ marginLeft: 'auto' }}>›</span>
+                <span style={{
+                  fontFamily: 'var(--font-cinzel-deco)', fontWeight: 700,
+                  fontSize: '1.5rem', width: '2rem', textAlign: 'center',
+                  color: '#d4a84b', flexShrink: 0,
+                }}>{opt.letter}</span>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', flex: 1 }}>
+                  <span style={{ fontWeight: 700 }}>{opt.label}</span>
+                  <span style={{ fontSize: '0.72rem', color: 'rgba(200,180,138,0.5)', letterSpacing: '0.08em' }}>{opt.sub}</span>
+                </div>
+                <span style={{ fontSize: '0.75rem', color: 'rgba(200,180,138,0.55)' }}>{opt.note}</span>
+                <span>›</span>
               </button>
             ))}
           </div>

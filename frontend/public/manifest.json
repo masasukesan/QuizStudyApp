@@ -1,7 +1,7 @@
 {
-  "name": "MathAca — 数学専門演習",
+  "name": "MathAca — 総合型学習アプリ",
   "short_name": "MathAca",
-  "description": "数学Ⅰ・A／Ⅱ・Bを徹底演習。共通テスト対策に特化した数学専門クイズアプリ。",
+  "description": "数学・英語・プログラミングを徹底演習。共通テスト・高校受験対策に特化した総合型学習クイズアプリ。",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8f3e7",
