@@ -1,1062 +1,1374 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>オンライン家庭教師 | 数学専門 MathAca講師</title>
-  <meta name="description" content="数学が苦手な中学生・高校生へ。福岡の現役塾講師×エンジニアが1対1でわかるまで教えます。無料体験60分受付中。" />
-  <style>
-    /* ===== RESET & BASE ===== */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
-      color: #1a1a2e;
-      background: #fff;
-      line-height: 1.7;
-      font-size: 16px;
-    }
-    img { max-width: 100%; }
-    a { text-decoration: none; }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>オンライン数学指導 | まさくん先生</title>
+    <meta
+      name="description"
+      content="数学が苦手な中学生・高校生へ。福岡の現役塾講師×エンジニアが少人数でわかるまで教えます。毎週日曜・最大3名。"
+    />
+    <style>
+      /* ===== RESET & BASE ===== */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+        color: #1a1a2e;
+        background: #fff;
+        line-height: 1.7;
+        font-size: 16px;
+      }
+      img {
+        max-width: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
 
-    /* ===== COLORS ===== */
-    :root {
-      --primary: #1a73e8;
-      --primary-dark: #1558b0;
-      --accent: #ff6b35;
-      --accent-dark: #e05520;
-      --bg-light: #f0f4ff;
-      --bg-dark: #1a1a2e;
-      --text: #1a1a2e;
-      --text-muted: #555;
-      --white: #fff;
-      --border: #e0e0e0;
-      --gradient: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
-      --gradient-warm: linear-gradient(135deg, #ff6b35 0%, #e91e63 100%);
-    }
+      /* ===== COLORS ===== */
+      :root {
+        --primary: #1a73e8;
+        --primary-dark: #1558b0;
+        --accent: #ff6b35;
+        --accent-dark: #e05520;
+        --bg-light: #f0f4ff;
+        --bg-dark: #1a1a2e;
+        --text: #1a1a2e;
+        --text-muted: #555;
+        --white: #fff;
+        --border: #e0e0e0;
+        --gradient: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+        --gradient-warm: linear-gradient(135deg, #ff6b35 0%, #e91e63 100%);
+      }
 
-    /* ===== UTILITIES ===== */
-    .section { padding: 64px 20px; }
-    .section-alt { background: #f8faff; }
-    .container { max-width: 720px; margin: 0 auto; }
-    .section-label {
-      display: inline-block;
-      background: var(--primary);
-      color: #fff;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      padding: 4px 12px;
-      border-radius: 20px;
-      margin-bottom: 12px;
-    }
-    .section-title {
-      font-size: clamp(22px, 5vw, 32px);
-      font-weight: 800;
-      line-height: 1.4;
-      margin-bottom: 8px;
-    }
-    .section-title span { color: var(--primary); }
-    .section-sub {
-      font-size: 15px;
-      color: var(--text-muted);
-      margin-bottom: 40px;
-    }
-    .text-center { text-align: center; }
+      /* ===== UTILITIES ===== */
+      .section {
+        padding: 64px 20px;
+      }
+      .section-alt {
+        background: #f8faff;
+      }
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      .section-label {
+        display: inline-block;
+        background: var(--primary);
+        color: #fff;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        padding: 4px 12px;
+        border-radius: 20px;
+        margin-bottom: 12px;
+      }
+      .section-title {
+        font-size: clamp(22px, 5vw, 32px);
+        font-weight: 800;
+        line-height: 1.4;
+        margin-bottom: 8px;
+      }
+      .section-title span {
+        color: var(--primary);
+      }
+      .section-sub {
+        font-size: 15px;
+        color: var(--text-muted);
+        margin-bottom: 40px;
+      }
+      .text-center {
+        text-align: center;
+      }
 
-    /* ===== CTA BUTTON ===== */
-    .btn-cta {
-      display: block;
-      width: 100%;
-      max-width: 360px;
-      margin: 0 auto;
-      background: var(--accent);
-      color: #fff;
-      font-size: 18px;
-      font-weight: 800;
-      padding: 20px 24px;
-      border-radius: 50px;
-      text-align: center;
-      box-shadow: 0 8px 24px rgba(255,107,53,0.4);
-      transition: transform 0.2s, box-shadow 0.2s;
-      cursor: pointer;
-    }
-    .btn-cta:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(255,107,53,0.5); }
-    .btn-cta:active { transform: translateY(0); }
-    .btn-cta small { display: block; font-size: 12px; font-weight: 400; margin-top: 4px; opacity: 0.9; }
+      /* ===== CTA BUTTON ===== */
+      .btn-cta {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        background: var(--accent);
+        color: #fff;
+        font-size: 18px;
+        font-weight: 800;
+        padding: 20px 24px;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 0 8px 24px rgba(255, 107, 53, 0.4);
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+        cursor: pointer;
+      }
+      .btn-cta:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 32px rgba(255, 107, 53, 0.5);
+      }
+      .btn-cta:active {
+        transform: translateY(0);
+      }
+      .btn-cta small {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 4px;
+        opacity: 0.9;
+      }
 
-    .btn-line {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      width: 100%;
-      max-width: 360px;
-      margin: 16px auto 0;
-      background: #06c755;
-      color: #fff;
-      font-size: 16px;
-      font-weight: 700;
-      padding: 16px 24px;
-      border-radius: 50px;
-      box-shadow: 0 6px 18px rgba(6,199,85,0.4);
-      transition: transform 0.2s;
-    }
-    .btn-line:hover { transform: translateY(-2px); }
-    .btn-line svg { flex-shrink: 0; }
+      .btn-line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        max-width: 360px;
+        margin: 16px auto 0;
+        background: #06c755;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 16px 24px;
+        border-radius: 50px;
+        box-shadow: 0 6px 18px rgba(6, 199, 85, 0.4);
+        transition: transform 0.2s;
+      }
+      .btn-line:hover {
+        transform: translateY(-2px);
+      }
+      .btn-line svg {
+        flex-shrink: 0;
+      }
 
-    /* ===== STICKY CTA ===== */
-    .sticky-cta {
-      position: fixed;
-      bottom: 0; left: 0; right: 0;
-      background: rgba(26,26,46,0.97);
-      padding: 12px 20px;
-      z-index: 999;
-      backdrop-filter: blur(8px);
-    }
-    .sticky-cta .btn-cta { max-width: 100%; font-size: 16px; padding: 16px; }
+      /* ===== STICKY CTA ===== */
+      .sticky-cta {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(26, 26, 46, 0.97);
+        padding: 12px 20px;
+        z-index: 999;
+        backdrop-filter: blur(8px);
+      }
+      .sticky-cta .btn-cta {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 16px;
+      }
 
-    /* ===== 1. HERO ===== */
-    .hero {
-      background: var(--gradient);
-      color: #fff;
-      padding: 56px 24px 64px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: -60px; right: -60px;
-      width: 300px; height: 300px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.06);
-    }
-    .hero::after {
-      content: '';
-      position: absolute;
-      bottom: -80px; left: -40px;
-      width: 250px; height: 250px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.05);
-    }
-    .hero-badge {
-      display: inline-block;
-      background: var(--accent);
-      color: #fff;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 6px 16px;
-      border-radius: 20px;
-      margin-bottom: 20px;
-      letter-spacing: 0.05em;
-    }
-    .hero-title {
-      font-size: clamp(26px, 7vw, 44px);
-      font-weight: 900;
-      line-height: 1.35;
-      margin-bottom: 16px;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-    .hero-title .accent { color: #ffd54f; }
-    .hero-sub {
-      font-size: clamp(14px, 3.5vw, 17px);
-      opacity: 0.9;
-      margin-bottom: 32px;
-      line-height: 1.8;
-    }
-    .hero-features {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 36px;
-    }
-    .hero-feature {
-      background: rgba(255,255,255,0.18);
-      border: 1px solid rgba(255,255,255,0.3);
-      padding: 6px 14px;
-      border-radius: 20px;
-      font-size: 13px;
-      font-weight: 600;
-    }
-    .hero-note { font-size: 12px; opacity: 0.7; margin-top: 12px; }
+      /* ===== 1. HERO ===== */
+      .hero {
+        background: var(--gradient);
+        color: #fff;
+        padding: 56px 24px 64px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: -60px;
+        right: -60px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.06);
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        bottom: -80px;
+        left: -40px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.05);
+      }
+      .hero-badge {
+        display: inline-block;
+        background: var(--accent);
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 6px 16px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        letter-spacing: 0.05em;
+      }
+      .hero-title {
+        font-size: clamp(26px, 7vw, 44px);
+        font-weight: 900;
+        line-height: 1.35;
+        margin-bottom: 16px;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      }
+      .hero-title .accent {
+        color: #ffd54f;
+      }
+      .hero-sub {
+        font-size: clamp(14px, 3.5vw, 17px);
+        opacity: 0.9;
+        margin-bottom: 32px;
+        line-height: 1.8;
+      }
+      .hero-features {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 36px;
+      }
+      .hero-feature {
+        background: rgba(255, 255, 255, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .hero-note {
+        font-size: 12px;
+        opacity: 0.7;
+        margin-top: 12px;
+      }
 
-    /* ===== 2. PAIN ===== */
-    .pain-list {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-    .pain-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 14px;
-      background: #fff;
-      border: 1.5px solid #e8eeff;
-      border-left: 4px solid #e57373;
-      border-radius: 12px;
-      padding: 16px 18px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    }
-    .pain-icon { font-size: 24px; flex-shrink: 0; }
-    .pain-text { font-size: 15px; font-weight: 600; color: #333; }
-    .pain-text small { display: block; font-weight: 400; color: #888; font-size: 13px; margin-top: 3px; }
-    .pain-close {
-      margin-top: 40px;
-      background: var(--bg-dark);
-      color: #fff;
-      border-radius: 16px;
-      padding: 24px;
-      text-align: center;
-    }
-    .pain-close p { font-size: 16px; font-weight: 700; line-height: 1.7; }
-    .pain-close span { color: #ffd54f; }
+      /* ===== 2. PAIN ===== */
+      .pain-list {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .pain-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        background: #fff;
+        border: 1.5px solid #e8eeff;
+        border-left: 4px solid #e57373;
+        border-radius: 12px;
+        padding: 16px 18px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      }
+      .pain-icon {
+        font-size: 24px;
+        flex-shrink: 0;
+      }
+      .pain-text {
+        font-size: 15px;
+        font-weight: 600;
+        color: #333;
+      }
+      .pain-text small {
+        display: block;
+        font-weight: 400;
+        color: #888;
+        font-size: 13px;
+        margin-top: 3px;
+      }
+      .pain-close {
+        margin-top: 40px;
+        background: var(--bg-dark);
+        color: #fff;
+        border-radius: 16px;
+        padding: 24px;
+        text-align: center;
+      }
+      .pain-close p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.7;
+      }
+      .pain-close span {
+        color: #ffd54f;
+      }
 
-    /* ===== 3. STRENGTHS ===== */
-    .strength-cards {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .strength-card {
-      background: #fff;
-      border-radius: 16px;
-      border: 1.5px solid var(--border);
-      padding: 24px 20px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-      position: relative;
-      overflow: hidden;
-    }
-    .strength-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 4px;
-      background: var(--gradient);
-    }
-    .strength-num {
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--primary);
-      letter-spacing: 0.1em;
-      margin-bottom: 8px;
-    }
-    .strength-card h3 { font-size: 18px; font-weight: 800; margin-bottom: 10px; line-height: 1.4; }
-    .strength-card p { font-size: 14px; color: var(--text-muted); line-height: 1.8; }
-    .strength-card .tag {
-      display: inline-block;
-      background: var(--bg-light);
-      color: var(--primary);
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 20px;
-      margin-top: 12px;
-    }
+      /* ===== 3. STRENGTHS ===== */
+      .strength-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .strength-card {
+        background: #fff;
+        border-radius: 16px;
+        border: 1.5px solid var(--border);
+        padding: 24px 20px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+        position: relative;
+        overflow: hidden;
+      }
+      .strength-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: var(--gradient);
+      }
+      .strength-num {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--primary);
+        letter-spacing: 0.1em;
+        margin-bottom: 8px;
+      }
+      .strength-card h3 {
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        line-height: 1.4;
+      }
+      .strength-card p {
+        font-size: 14px;
+        color: var(--text-muted);
+        line-height: 1.8;
+      }
+      .strength-card .tag {
+        display: inline-block;
+        background: var(--bg-light);
+        color: var(--primary);
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 20px;
+        margin-top: 12px;
+      }
 
-    /* ===== 4. FLOW ===== */
-    .flow-steps {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-    }
-    .flow-step {
-      display: flex;
-      align-items: flex-start;
-      gap: 16px;
-      position: relative;
-      padding-bottom: 32px;
-    }
-    .flow-step:last-child { padding-bottom: 0; }
-    .flow-step::after {
-      content: '';
-      position: absolute;
-      left: 23px; top: 48px;
-      width: 2px;
-      bottom: 0;
-      background: linear-gradient(to bottom, var(--primary), transparent);
-    }
-    .flow-step:last-child::after { display: none; }
-    .flow-circle {
-      width: 48px; height: 48px;
-      border-radius: 50%;
-      background: var(--gradient);
-      color: #fff;
-      font-size: 18px;
-      font-weight: 900;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-      box-shadow: 0 4px 12px rgba(26,115,232,0.3);
-    }
-    .flow-content h3 { font-size: 17px; font-weight: 800; margin-bottom: 6px; }
-    .flow-content p { font-size: 14px; color: var(--text-muted); }
-    .flow-free {
-      display: inline-block;
-      background: var(--accent);
-      color: #fff;
-      font-size: 11px;
-      font-weight: 700;
-      padding: 2px 8px;
-      border-radius: 10px;
-      margin-left: 6px;
-    }
+      /* ===== 4. FLOW ===== */
+      .flow-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+      .flow-step {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        position: relative;
+        padding-bottom: 32px;
+      }
+      .flow-step:last-child {
+        padding-bottom: 0;
+      }
+      .flow-step::after {
+        content: "";
+        position: absolute;
+        left: 23px;
+        top: 48px;
+        width: 2px;
+        bottom: 0;
+        background: linear-gradient(to bottom, var(--primary), transparent);
+      }
+      .flow-step:last-child::after {
+        display: none;
+      }
+      .flow-circle {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: var(--gradient);
+        color: #fff;
+        font-size: 18px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+      }
+      .flow-content h3 {
+        font-size: 17px;
+        font-weight: 800;
+        margin-bottom: 6px;
+      }
+      .flow-content p {
+        font-size: 14px;
+        color: var(--text-muted);
+      }
+      .flow-free {
+        display: inline-block;
+        background: var(--accent);
+        color: #fff;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 2px 8px;
+        border-radius: 10px;
+        margin-left: 6px;
+      }
 
-    /* ===== 5. SUBJECTS ===== */
-    .subject-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-    .subject-card {
-      background: #fff;
-      border: 1.5px solid var(--border);
-      border-radius: 14px;
-      padding: 18px 16px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .subject-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.1); }
-    .subject-icon { font-size: 28px; margin-bottom: 8px; }
-    .subject-card h3 { font-size: 15px; font-weight: 800; margin-bottom: 4px; }
-    .subject-card p { font-size: 13px; color: var(--text-muted); }
-    .subject-card.highlight {
-      background: var(--bg-light);
-      border-color: var(--primary);
-    }
-    .subject-card.full { grid-column: 1 / -1; }
+      /* ===== 5. SUBJECTS ===== */
+      .subject-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      .subject-card {
+        background: #fff;
+        border: 1.5px solid var(--border);
+        border-radius: 14px;
+        padding: 18px 16px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+      .subject-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      }
+      .subject-icon {
+        font-size: 28px;
+        margin-bottom: 8px;
+      }
+      .subject-card h3 {
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: 4px;
+      }
+      .subject-card p {
+        font-size: 13px;
+        color: var(--text-muted);
+      }
+      .subject-card.highlight {
+        background: var(--bg-light);
+        border-color: var(--primary);
+      }
+      .subject-card.full {
+        grid-column: 1 / -1;
+      }
 
-    /* ===== 6. PRICE ===== */
-    .price-cards {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      margin-bottom: 24px;
-    }
-    .price-card {
-      background: #fff;
-      border: 2px solid var(--border);
-      border-radius: 20px;
-      padding: 28px 24px;
-      text-align: center;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-      position: relative;
-    }
-    .price-card.popular {
-      border-color: var(--accent);
-      box-shadow: 0 8px 32px rgba(255,107,53,0.2);
-    }
-    .popular-badge {
-      position: absolute;
-      top: -14px; left: 50%;
-      transform: translateX(-50%);
-      background: var(--accent);
-      color: #fff;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 16px;
-      border-radius: 20px;
-      white-space: nowrap;
-    }
-    .price-plan { font-size: 14px; font-weight: 700; color: var(--text-muted); margin-bottom: 8px; }
-    .price-amount { font-size: 40px; font-weight: 900; color: var(--primary); line-height: 1; }
-    .price-amount span { font-size: 16px; font-weight: 600; }
-    .price-desc { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
-    .price-note {
-      background: #f0fff4;
-      border: 1.5px solid #81c784;
-      border-radius: 12px;
-      padding: 16px;
-      text-align: center;
-    }
-    .price-note p { font-size: 14px; font-weight: 700; color: #2e7d32; }
+      /* ===== 6. PRICE ===== */
+      .price-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+      }
+      .price-card {
+        background: #fff;
+        border: 2px solid var(--border);
+        border-radius: 20px;
+        padding: 28px 24px;
+        text-align: center;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+        position: relative;
+      }
+      .price-card.popular {
+        border-color: var(--accent);
+        box-shadow: 0 8px 32px rgba(255, 107, 53, 0.2);
+      }
+      .popular-badge {
+        position: absolute;
+        top: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--accent);
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 16px;
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+      .price-plan {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--text-muted);
+        margin-bottom: 8px;
+      }
+      .price-amount {
+        font-size: 40px;
+        font-weight: 900;
+        color: var(--primary);
+        line-height: 1;
+      }
+      .price-amount span {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .price-desc {
+        font-size: 13px;
+        color: var(--text-muted);
+        margin-top: 8px;
+      }
+      .price-note {
+        background: #f0fff4;
+        border: 1.5px solid #81c784;
+        border-radius: 12px;
+        padding: 16px;
+        text-align: center;
+      }
+      .price-note p {
+        font-size: 14px;
+        font-weight: 700;
+        color: #2e7d32;
+      }
 
-    /* ===== 7. SCHEDULE ===== */
-    .schedule-cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
-    .schedule-card {
-      border-radius: 18px;
-      padding: 24px 20px;
-      text-align: center;
-      color: #fff;
-    }
-    .schedule-card.fri { background: var(--gradient); }
-    .schedule-card.sun { background: var(--gradient-warm); }
-    .schedule-day { font-size: 13px; font-weight: 700; opacity: 0.85; margin-bottom: 4px; }
-    .schedule-time { font-size: 20px; font-weight: 900; line-height: 1.3; }
-    .schedule-note { font-size: 12px; opacity: 0.85; margin-top: 8px; }
-    .schedule-hint {
-      margin-top: 20px;
-      background: #fff8e1;
-      border: 1.5px solid #ffe082;
-      border-radius: 12px;
-      padding: 16px;
-      text-align: center;
-      font-size: 14px;
-      font-weight: 600;
-      color: #e65100;
-    }
+      /* ===== 7. SCHEDULE ===== */
+      .schedule-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+      .schedule-card {
+        border-radius: 18px;
+        padding: 24px 20px;
+        text-align: center;
+        color: #fff;
+      }
+      .schedule-card.fri {
+        background: var(--gradient);
+      }
+      .schedule-card.sun {
+        background: var(--gradient-warm);
+      }
+      .schedule-day {
+        font-size: 13px;
+        font-weight: 700;
+        opacity: 0.85;
+        margin-bottom: 4px;
+      }
+      .schedule-time {
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1.3;
+      }
+      .schedule-note {
+        font-size: 12px;
+        opacity: 0.85;
+        margin-top: 8px;
+      }
+      .schedule-hint {
+        margin-top: 20px;
+        background: #fff8e1;
+        border: 1.5px solid #ffe082;
+        border-radius: 12px;
+        padding: 16px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: #e65100;
+      }
 
-    /* ===== 8. TEACHER ===== */
-    .teacher-card {
-      background: var(--bg-dark);
-      color: #fff;
-      border-radius: 20px;
-      padding: 32px 24px;
-      text-align: center;
-    }
-    .teacher-avatar {
-      width: 100px; height: 100px;
-      border-radius: 50%;
-      background: var(--gradient);
-      margin: 0 auto 16px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 40px;
-      box-shadow: 0 8px 24px rgba(26,115,232,0.4);
-    }
-    .teacher-name { font-size: 22px; font-weight: 900; margin-bottom: 4px; }
-    .teacher-role { font-size: 13px; opacity: 0.7; margin-bottom: 20px; }
-    .teacher-tags {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 8px;
-      margin-bottom: 20px;
-    }
-    .teacher-tag {
-      background: rgba(255,255,255,0.12);
-      border: 1px solid rgba(255,255,255,0.2);
-      font-size: 12px;
-      font-weight: 600;
-      padding: 5px 12px;
-      border-radius: 20px;
-    }
-    .teacher-bio { font-size: 14px; opacity: 0.85; line-height: 1.9; text-align: left; }
-    .teacher-bio strong { color: #ffd54f; }
-    .app-highlight {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,213,79,0.4);
-      border-radius: 12px;
-      padding: 16px;
-      margin-top: 20px;
-      text-align: left;
-    }
-    .app-highlight h4 { color: #ffd54f; font-size: 15px; font-weight: 800; margin-bottom: 6px; }
-    .app-highlight p { font-size: 13px; opacity: 0.85; line-height: 1.7; }
+      /* ===== 8. TEACHER ===== */
+      .teacher-card {
+        background: var(--bg-dark);
+        color: #fff;
+        border-radius: 20px;
+        padding: 32px 24px;
+        text-align: center;
+      }
+      .teacher-avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: var(--gradient);
+        margin: 0 auto 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        box-shadow: 0 8px 24px rgba(26, 115, 232, 0.4);
+      }
+      .teacher-name {
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 4px;
+      }
+      .teacher-role {
+        font-size: 13px;
+        opacity: 0.7;
+        margin-bottom: 20px;
+      }
+      .teacher-tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 20px;
+      }
+      .teacher-tag {
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 12px;
+        font-weight: 600;
+        padding: 5px 12px;
+        border-radius: 20px;
+      }
+      .teacher-bio {
+        font-size: 14px;
+        opacity: 0.85;
+        line-height: 1.9;
+        text-align: left;
+      }
+      .teacher-bio strong {
+        color: #ffd54f;
+      }
+      .app-highlight {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 213, 79, 0.4);
+        border-radius: 12px;
+        padding: 16px;
+        margin-top: 20px;
+        text-align: left;
+      }
+      .app-highlight h4 {
+        color: #ffd54f;
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: 6px;
+      }
+      .app-highlight p {
+        font-size: 13px;
+        opacity: 0.85;
+        line-height: 1.7;
+      }
 
-    /* ===== 9. VOICE ===== */
-    .voice-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .voice-card {
-      background: #fff;
-      border: 1.5px solid var(--border);
-      border-radius: 16px;
-      padding: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    }
-    .voice-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 12px;
-    }
-    .voice-avatar {
-      width: 40px; height: 40px;
-      border-radius: 50%;
-      background: var(--bg-light);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 20px;
-      flex-shrink: 0;
-    }
-    .voice-name { font-size: 14px; font-weight: 700; }
-    .voice-info { font-size: 12px; color: var(--text-muted); }
-    .stars { color: #ffc107; font-size: 14px; margin-bottom: 8px; }
-    .voice-text { font-size: 14px; color: #333; line-height: 1.8; }
-    .voice-text strong { color: var(--primary); }
+      /* ===== 9. VOICE ===== */
+      .voice-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .voice-card {
+        background: #fff;
+        border: 1.5px solid var(--border);
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      }
+      .voice-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+      }
+      .voice-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: var(--bg-light);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        flex-shrink: 0;
+      }
+      .voice-name {
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .voice-info {
+        font-size: 12px;
+        color: var(--text-muted);
+      }
+      .stars {
+        color: #ffc107;
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      .voice-text {
+        font-size: 14px;
+        color: #333;
+        line-height: 1.8;
+      }
+      .voice-text strong {
+        color: var(--primary);
+      }
 
-    /* ===== 10. FINAL CTA ===== */
-    .final-cta {
-      background: var(--gradient);
-      color: #fff;
-      padding: 64px 24px 100px;
-      text-align: center;
-    }
-    .final-cta h2 {
-      font-size: clamp(22px, 5.5vw, 32px);
-      font-weight: 900;
-      line-height: 1.4;
-      margin-bottom: 12px;
-    }
-    .final-cta h2 span { color: #ffd54f; }
-    .final-cta p { font-size: 14px; opacity: 0.9; margin-bottom: 32px; line-height: 1.8; }
-    .final-checks {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-bottom: 36px;
-      text-align: left;
-      max-width: 360px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .check-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 15px;
-      font-weight: 600;
-    }
-    .check-icon { font-size: 20px; flex-shrink: 0; }
+      /* ===== 10. FINAL CTA ===== */
+      .final-cta {
+        background: var(--gradient);
+        color: #fff;
+        padding: 64px 24px 100px;
+        text-align: center;
+      }
+      .final-cta h2 {
+        font-size: clamp(22px, 5.5vw, 32px);
+        font-weight: 900;
+        line-height: 1.4;
+        margin-bottom: 12px;
+      }
+      .final-cta h2 span {
+        color: #ffd54f;
+      }
+      .final-cta p {
+        font-size: 14px;
+        opacity: 0.9;
+        margin-bottom: 32px;
+        line-height: 1.8;
+      }
+      .final-checks {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 36px;
+        text-align: left;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .check-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .check-icon {
+        font-size: 20px;
+        flex-shrink: 0;
+      }
 
-    /* ===== FAQ ===== */
-    .faq-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    .faq-item {
-      border: 1.5px solid var(--border);
-      border-radius: 14px;
-      overflow: hidden;
-    }
-    .faq-q {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      padding: 18px 16px;
-      font-size: 15px;
-      font-weight: 700;
-      cursor: pointer;
-      background: #fff;
-      user-select: none;
-    }
-    .faq-q .q-icon { color: var(--primary); font-weight: 900; font-size: 16px; flex-shrink: 0; }
-    .faq-a {
-      padding: 0 16px 16px 36px;
-      font-size: 14px;
-      color: var(--text-muted);
-      line-height: 1.8;
-      background: #fff;
-    }
+      /* ===== FAQ ===== */
+      .faq-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .faq-item {
+        border: 1.5px solid var(--border);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .faq-q {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 18px 16px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        background: #fff;
+        user-select: none;
+      }
+      .faq-q .q-icon {
+        color: var(--primary);
+        font-weight: 900;
+        font-size: 16px;
+        flex-shrink: 0;
+      }
+      .faq-a {
+        padding: 0 16px 16px 36px;
+        font-size: 14px;
+        color: var(--text-muted);
+        line-height: 1.8;
+        background: #fff;
+      }
 
-    /* ===== FOOTER ===== */
-    footer {
-      background: var(--bg-dark);
-      color: rgba(255,255,255,0.6);
-      text-align: center;
-      padding: 32px 20px;
-      font-size: 13px;
-    }
-    footer strong { color: #fff; }
+      /* ===== FOOTER ===== */
+      footer {
+        background: var(--bg-dark);
+        color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        padding: 32px 20px;
+        font-size: 13px;
+      }
+      footer strong {
+        color: #fff;
+      }
 
-    /* ===== ANIMATIONS ===== */
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(24px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    .fade-up { animation: fadeUp 0.6s ease both; }
-    .fade-up-2 { animation: fadeUp 0.6s ease 0.15s both; }
-    .fade-up-3 { animation: fadeUp 0.6s ease 0.3s both; }
+      /* ===== ANIMATIONS ===== */
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(24px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .fade-up {
+        animation: fadeUp 0.6s ease both;
+      }
+      .fade-up-2 {
+        animation: fadeUp 0.6s ease 0.15s both;
+      }
+      .fade-up-3 {
+        animation: fadeUp 0.6s ease 0.3s both;
+      }
 
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.03); }
-    }
-    .pulse { animation: pulse 2.5s ease-in-out infinite; }
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.03);
+        }
+      }
+      .pulse {
+        animation: pulse 2.5s ease-in-out infinite;
+      }
 
-    /* ===== DIVIDER ===== */
-    .wave-divider { line-height: 0; }
-    .wave-divider svg { display: block; width: 100%; }
-  </style>
-</head>
-<body>
-
-<!-- ===== 1. HERO ===== -->
-<section class="hero">
-  <div class="hero-badge">🎓 オンライン家庭教師 | 無料体験受付中</div>
-  <h1 class="hero-title fade-up">
-    数学、<span class="accent">わかる瞬間</span>を<br>一緒につくろう。
-  </h1>
-  <p class="hero-sub fade-up-2">
-    福岡の現役塾講師×エンジニアが<br>
-    あなたの「なぜ？」に正面から向き合います。<br>
-    共通テスト・定期テスト・受験対策まで対応。
-  </p>
-  <div class="hero-features fade-up-3">
-    <span class="hero-feature">📱 完全オンライン</span>
-    <span class="hero-feature">💬 LINEで質問し放題</span>
-    <span class="hero-feature">🏠 自宅で受講OK</span>
-    <span class="hero-feature">✅ 入会金・教材費ゼロ</span>
-  </div>
-  <a href="#contact" class="btn-cta pulse fade-up-3">
-    無料体験（60分）を申し込む
-    <small>料金一切なし・勧誘なし・気軽にどうぞ</small>
-  </a>
-  <p class="hero-note">📅 金曜日夕方〜夜 ／ 日曜日終日 対応</p>
-</section>
-
-<!-- ===== 2. PAIN ===== -->
-<section class="section">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">こんな悩みはありませんか？</span>
-      <h2 class="section-title">その<span>「わからない」</span>、<br>放置していませんか？</h2>
-      <p class="section-sub">多くの生徒が同じ悩みを抱えています</p>
-    </div>
-    <div class="pain-list">
-      <div class="pain-item">
-        <span class="pain-icon">😓</span>
-        <div>
-          <p class="pain-text">授業についていけない</p>
-          <small class="pain-text">先生の説明が速くて、黒板を写すので精一杯…</small>
-        </div>
-      </div>
-      <div class="pain-item">
-        <span class="pain-icon">📉</span>
-        <div>
-          <p class="pain-text">模試の点数が安定しない</p>
-          <small class="pain-text">なんとなく解けるときもあるけど、根拠がない</small>
-        </div>
-      </div>
-      <div class="pain-item">
-        <span class="pain-icon">😰</span>
-        <div>
-          <p class="pain-text">共通テストが不安で仕方ない</p>
-          <small class="pain-text">対策の仕方がわからず、何から始めればいいのか…</small>
-        </div>
-      </div>
-      <div class="pain-item">
-        <span class="pain-icon">💤</span>
-        <div>
-          <p class="pain-text">塾に行っても変わらない</p>
-          <small class="pain-text">集団授業では質問しにくく、結局理解できないまま</small>
-        </div>
-      </div>
-      <div class="pain-item">
-        <span class="pain-icon">📚</span>
-        <div>
-          <p class="pain-text">どこで詰まっているかわからない</p>
-          <small class="pain-text">苦手な範囲が広すぎて、どこから手をつければ…</small>
-        </div>
-      </div>
-    </div>
-    <div class="pain-close">
-      <p>その悩み、<span>全部まとめて解決します。</span><br>「わかるまで教える」それだけを<br>徹底しています。</p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 3. STRENGTHS ===== -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">選ばれる理由</span>
-      <h2 class="section-title">3つの<span>強み</span></h2>
-      <p class="section-sub">エンジニア兼講師だからできること</p>
-    </div>
-    <div class="strength-cards">
-      <div class="strength-card">
-        <p class="strength-num">STRENGTH 01</p>
-        <h3>🔬 エンジニアの視点で<br>「なぜ？」を徹底解説</h3>
-        <p>
-          学習アプリ「MathAca（マサカ）」を自ら開発した現役エンジニア。
-          数学の仕組みをロジックとして分解し、「なんとなく解ける」ではなく
-          「なぜそうなるのか」をゼロから丁寧に教えます。
-        </p>
-        <span class="tag">📱 MathAca開発者</span>
-      </div>
-      <div class="strength-card">
-        <p class="strength-num">STRENGTH 02</p>
-        <h3>🎯 弱点を特定して<br>最短で潰す個別指導</h3>
-        <p>
-          集団授業と違い、あなただけの授業です。
-          どこでつまずいているかを丁寧に診断し、
-          一人ひとりに合ったペース・説明方法で進めます。
-          マンツーマンなら遠慮なく「もう一度」と言えます。
-        </p>
-        <span class="tag">🧑‍🏫 1対1〜3の個別指導</span>
-      </div>
-      <div class="strength-card">
-        <p class="strength-num">STRENGTH 03</p>
-        <h3>💬 授業以外もLINEで<br>いつでも質問OK</h3>
-        <p>
-          「授業で解いたのに家で解けない…」そんなときも大丈夫。
-          LINE友だち追加で、授業外でも質問し放題。
-          テスト前日の質問にも可能な限り対応します。
-        </p>
-        <span class="tag">📲 LINE質問し放題</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 4. FLOW ===== -->
-<section class="section">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">授業の流れ</span>
-      <h2 class="section-title"><span>4ステップ</span>ではじまる</h2>
-      <p class="section-sub">申し込みから授業スタートまで</p>
-    </div>
-    <div class="flow-steps">
-      <div class="flow-step">
-        <div class="flow-circle">1</div>
-        <div class="flow-content">
-          <h3>無料体験（60分）<span class="flow-free">無料</span></h3>
-          <p>まずは気軽に60分体験。勧誘なし・費用なし。「どんな雰囲気か見たい」だけでも大歓迎です。</p>
-        </div>
-      </div>
-      <div class="flow-step">
-        <div class="flow-circle">2</div>
-        <div class="flow-content">
-          <h3>弱点診断</h3>
-          <p>体験授業の中で、今どこでつまずいているのかを一緒に確認します。過去のテストや問題集があれば持ってきてください。</p>
-        </div>
-      </div>
-      <div class="flow-step">
-        <div class="flow-circle">3</div>
-        <div class="flow-content">
-          <h3>学習計画を立てる</h3>
-          <p>目標（定期テスト・共通テスト・受験）に合わせて、何をいつまでに・どの順番で学ぶかを一緒に決めます。</p>
-        </div>
-      </div>
-      <div class="flow-step">
-        <div class="flow-circle">4</div>
-        <div class="flow-content">
-          <h3>授業スタート 🚀</h3>
-          <p>計画に沿って毎回の授業を進めます。わかるまで絶対に次に進みません。LINEでの質問も並行してサポート。</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 5. SUBJECTS ===== -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">指導できる範囲</span>
-      <h2 class="section-title">高校数学、<span>全範囲対応</span></h2>
-      <p class="section-sub">中学数学の復習からも対応可能です</p>
-    </div>
-    <div class="subject-grid">
-      <div class="subject-card highlight">
-        <div class="subject-icon">📐</div>
-        <h3>数学ⅠA</h3>
-        <p>図形・確率・整数</p>
-      </div>
-      <div class="subject-card highlight">
-        <div class="subject-icon">📊</div>
-        <h3>数学ⅡB</h3>
-        <p>微積・三角・数列</p>
-      </div>
-      <div class="subject-card">
-        <div class="subject-icon">∫</div>
-        <h3>数学Ⅲ</h3>
-        <p>極限・積分・複素数</p>
-      </div>
-      <div class="subject-card">
-        <div class="subject-icon">🔢</div>
-        <h3>中学数学</h3>
-        <p>基礎からの復習</p>
-      </div>
-      <div class="subject-card full">
-        <div class="subject-icon">🎯</div>
-        <h3>共通テスト・定期テスト・受験対策</h3>
-        <p>目標に合わせた最短ルートで対策します</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 6. PRICE ===== -->
-<section class="section">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">料金プラン</span>
-      <h2 class="section-title">シンプルな<span>2プラン</span></h2>
-      <p class="section-sub">入会金・教材費は一切かかりません</p>
-    </div>
-    <div class="price-cards">
-      <div class="price-card">
-        <p class="price-plan">週1回プラン</p>
-        <div class="price-amount">¥16,000<span>/月</span></div>
-        <p class="price-desc">月4回 / 1回60分<br>まず試したい方・補習メインの方に</p>
-      </div>
-      <div class="price-card popular">
-        <div class="popular-badge">⭐ 人気No.1</div>
-        <p class="price-plan">週2回プラン</p>
-        <div class="price-amount">¥28,000<span>/月</span></div>
-        <p class="price-desc">月8回 / 1回60分<br>本気で上げたい・受験対策をしたい方に</p>
-      </div>
-    </div>
-    <div class="price-note">
-      <p>✅ 入会金なし &nbsp;｜&nbsp; ✅ 教材費なし<br>✅ 退会手続き不要 &nbsp;｜&nbsp; ✅ 翌月から調整可</p>
-    </div>
-    <div style="margin-top:20px; text-align:center;">
-      <a href="#contact" class="btn-cta">
-        まず無料体験から始める
-        <small>費用ゼロ・勧誘なし・60分でOK</small>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 7. SCHEDULE ===== -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">受講できる日時</span>
-      <h2 class="section-title">週末に<span>集中指導</span></h2>
-      <p class="section-sub">部活や学校行事の後でも受講しやすい曜日設定</p>
-    </div>
-    <div class="schedule-cards">
-      <div class="schedule-card fri">
-        <p class="schedule-day">🌅 金曜日</p>
-        <p class="schedule-time">夕方〜夜<br>対応</p>
-        <p class="schedule-note">学校帰りにそのまま受講OK</p>
-      </div>
-      <div class="schedule-card sun">
-        <p class="schedule-day">☀️ 日曜日</p>
-        <p class="schedule-time">終日<br>対応</p>
-        <p class="schedule-note">朝〜夜まで柔軟にご相談</p>
-      </div>
-    </div>
-    <div class="schedule-hint">
-      ⏰ 希望の時間帯はLINEでご相談ください。<br>複数候補を出しますのでお気軽に！
-    </div>
-  </div>
-</section>
-
-<!-- ===== 8. TEACHER ===== -->
-<section class="section">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">講師紹介</span>
-      <h2 class="section-title"><span>エンジニア</span>×<span>講師</span></h2>
-      <p class="section-sub">二つの顔をもつ指導者</p>
-    </div>
-    <div class="teacher-card">
-      <div class="teacher-avatar">🧑‍💻</div>
-      <p class="teacher-name">まさすけ 先生</p>
-      <p class="teacher-role">現役エンジニア ／ 福岡県 個別指導塾講師</p>
-      <div class="teacher-tags">
-        <span class="teacher-tag">📱 MathAca開発者</span>
-        <span class="teacher-tag">🏫 個別指導塾運営</span>
-        <span class="teacher-tag">🔧 現役エンジニア</span>
-        <span class="teacher-tag">🎓 高校数学専門</span>
-      </div>
-      <p class="teacher-bio">
-        福岡県の個別指導塾で講師として指導する一方、
-        <strong>自ら学習アプリ「MathAca（マサカ）」を開発</strong>した現役エンジニア。
-        <br><br>
-        エンジニアとして「仕組みから理解する」ことを大切にしているため、
-        数学の指導も「なぜこの式になるのか」を徹底的に説明します。
-        「答えを教えるのではなく、考え方を渡す」が指導のポリシーです。
-        <br><br>
-        これまで<strong>多くの苦手意識のある生徒</strong>が「わかった！」と言えるようになりました。
+      /* ===== DIVIDER ===== */
+      .wave-divider {
+        line-height: 0;
+      }
+      .wave-divider svg {
+        display: block;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== 1. HERO ===== -->
+    <section class="hero">
+      <div class="hero-badge">🎓 オンライン数学指導 | まさくん先生</div>
+      <h1 class="hero-title fade-up">
+        <span class="accent">学ぶ楽しさ</span>を、<br />教えます。
+      </h1>
+      <p class="hero-sub fade-up-2">
+        現役塾講師×エンジニア×YouTuberが<br />
+        あなたの「なぜ？」に正面から向き合います。<br />
+        共通テスト・定期テスト・受験対策まで対応。
       </p>
-      <div class="app-highlight">
-        <h4>📱 MathAca（マサカ）とは？</h4>
+      <div class="hero-features fade-up-3">
+        <span class="hero-feature">📱 完全オンライン</span>
+        <span class="hero-feature">💬 LINEで質問し放題</span>
+        <span class="hero-feature">🏠 自宅で受講OK</span>
+        <span class="hero-feature">👥 最大3名の少人数制</span>
+      </div>
+      <a href="#contact" class="btn-cta fade-up-3">
+        まずは体験授業を申し込む
+        <small>80分・費用なし</small>
+      </a>
+      <p class="hero-note">📅 毎週日曜日｜午前10:00〜 ／ 午後14:00〜</p>
+    </section>
+
+    <!-- ===== 2. PAIN ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">こんな悩みはありませんか？</span>
+          <h2 class="section-title">
+            その<span>「わからない」</span>、<br />放置していませんか？
+          </h2>
+          <p class="section-sub">苦手でも嫌いでも大丈夫。楽しく学べます。</p>
+        </div>
+        <div class="pain-list">
+          <div class="pain-item">
+            <span class="pain-icon">😓</span>
+            <div>
+              <p class="pain-text">授業についていけない</p>
+              <small class="pain-text"
+                >先生の説明が速くて、黒板を写すので精一杯…</small
+              >
+            </div>
+          </div>
+          <div class="pain-item">
+            <span class="pain-icon">📉</span>
+            <div>
+              <p class="pain-text">模試の点数が安定しない</p>
+              <small class="pain-text"
+                >なんとなく解けるときもあるけど、根拠がない</small
+              >
+            </div>
+          </div>
+          <div class="pain-item">
+            <span class="pain-icon">😰</span>
+            <div>
+              <p class="pain-text">共通テストが不安で仕方ない</p>
+              <small class="pain-text"
+                >対策の仕方がわからず、何から始めればいいのか…</small
+              >
+            </div>
+          </div>
+          <div class="pain-item">
+            <span class="pain-icon">💤</span>
+            <div>
+              <p class="pain-text">塾に行っても変わらない</p>
+              <small class="pain-text"
+                >集団授業では質問しにくく、結局理解できないまま</small
+              >
+            </div>
+          </div>
+          <div class="pain-item">
+            <span class="pain-icon">📚</span>
+            <div>
+              <p class="pain-text">どこで詰まっているかわからない</p>
+              <small class="pain-text"
+                >苦手な範囲が広すぎて、どこから手をつければ…</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="pain-close">
+          <p>
+            その悩み、<span>全部まとめて解決します。</span
+            ><br />きっと勉強が<br />楽しくなります。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. STRENGTHS ===== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">選ばれる理由</span>
+          <h2 class="section-title">3つの<span>強み</span></h2>
+          <p class="section-sub">エンジニア兼講師だからできること</p>
+        </div>
+        <div class="strength-cards">
+          <div class="strength-card">
+            <p class="strength-num">STRENGTH 01</p>
+            <h3>🔬 エンジニアの視点で<br />「なぜ？」を徹底解説</h3>
+            <p>
+              学習アプリ「MATHACA（マサカ）」を自ら開発した現役エンジニア。
+              数学の仕組みをロジックとして分解し、「なんとなく解ける」ではなく
+              「なぜそうなるのか」をゼロから丁寧に教えます。
+            </p>
+            <span class="tag">📱 MATHACA開発者</span>
+          </div>
+          <div class="strength-card">
+            <p class="strength-num">STRENGTH 02</p>
+            <h3>🎯 弱点を特定して<br />最短で潰す少人数指導</h3>
+            <p>
+              1コマ最大3名の少人数制です。
+              どこでつまずいているかを丁寧に診断し、
+              一人ひとりに合ったペース・説明方法で進めます。
+              少人数だから遠慮なく「もう一度」と言える環境です。
+            </p>
+            <span class="tag">🧑‍🏫 少人数制（最大3名）</span>
+          </div>
+          <div class="strength-card">
+            <p class="strength-num">STRENGTH 03</p>
+            <h3>💬 授業以外もLINEで<br />いつでも質問OK</h3>
+            <p>
+              「授業で解いたのに家で解けない…」そんなときも大丈夫。
+              LINE友だち追加で、授業外でも質問し放題。
+              テスト前日の質問にも可能な限り対応します。
+            </p>
+            <span class="tag">📲 LINE質問し放題</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. FLOW ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">授業の流れ</span>
+          <h2 class="section-title"><span>4ステップ</span>ではじまる</h2>
+          <p class="section-sub">申し込みから授業スタートまで</p>
+        </div>
+        <div class="flow-steps">
+          <div class="flow-step">
+            <div class="flow-circle">1</div>
+            <div class="flow-content">
+              <h3>無料体験（80分）<span class="flow-free">無料</span></h3>
+              <p>
+                まずは気軽に80分体験。費用なし。「どんな雰囲気か見たい」だけでも大歓迎です。
+              </p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <div class="flow-circle">2</div>
+            <div class="flow-content">
+              <h3>弱点診断</h3>
+              <p>
+                体験授業の中で、今どこでつまずいているのかを一緒に確認します。過去のテストや問題集があれば持ってきてください。
+              </p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <div class="flow-circle">3</div>
+            <div class="flow-content">
+              <h3>学習計画を立てる</h3>
+              <p>
+                目標（定期テスト・共通テスト・受験）に合わせて、何をいつまでに・どの順番で学ぶかを一緒に決めます。
+              </p>
+            </div>
+          </div>
+          <div class="flow-step">
+            <div class="flow-circle">4</div>
+            <div class="flow-content">
+              <h3>授業スタート 🚀</h3>
+              <p>
+                計画に沿って毎回の授業を進めます。わかるまで絶対に次に進みません。LINEでの質問も並行してサポート。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. SUBJECTS ===== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">指導できる範囲</span>
+          <h2 class="section-title"><span>全範囲対応</span></h2>
+        </div>
+        <div class="subject-grid">
+          <div class="subject-card highlight">
+            <div class="subject-icon">🔢</div>
+            <h3>中学数学</h3>
+            <p>基礎からしっかり</p>
+          </div>
+          <div class="subject-card highlight">
+            <div class="subject-icon">📐</div>
+            <h3>高校数学</h3>
+            <p>全範囲対応</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6. PRICE ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">料金</span>
+          <h2 class="section-title">シンプルな<span>1プラン</span></h2>
+          <p class="section-sub">入会金・教材費はかかりません</p>
+        </div>
+        <div class="price-cards">
+          <div class="price-card">
+            <p class="price-plan">週1回プラン（日曜）</p>
+            <div class="price-amount">¥16,000<span>/月</span></div>
+            <p class="price-desc">
+              月4回 / 1回80分 / 最大3名<br />午前10:00〜 または 午後14:00〜
+            </p>
+          </div>
+        </div>
+        <div class="price-note">
+          <p>
+            入会金なし &nbsp;｜&nbsp; 教材費なし<br />退会手続き不要
+            &nbsp;｜&nbsp; 翌月から調整可
+          </p>
+        </div>
+        <div style="margin-top: 20px; text-align: center">
+          <a href="#contact" class="btn-cta">
+            まずは体験授業から
+            <small>80分・費用なし</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. SCHEDULE ===== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">受講できる日時</span>
+          <h2 class="section-title">毎週<span>日曜日</span>の2コマ</h2>
+          <p class="section-sub">各コマ最大3名の少人数制</p>
+        </div>
+        <div class="schedule-cards" style="grid-template-columns: 1fr 1fr">
+          <div class="schedule-card sun">
+            <p class="schedule-day">☀️ 午前の部</p>
+            <p class="schedule-time">10:00〜<br />11:20</p>
+            <p class="schedule-note">最大3名</p>
+          </div>
+          <div class="schedule-card sun">
+            <p class="schedule-day">🌤 午後の部</p>
+            <p class="schedule-time">14:00〜<br />15:20</p>
+            <p class="schedule-note">最大3名</p>
+          </div>
+        </div>
+        <div class="schedule-hint">
+          📅 毎週日曜日開催。希望のコマはLINEでご連絡ください。
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 8. TEACHER ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">講師紹介</span>
+          <h2 class="section-title">
+            <span>エンジニア</span>×<span>講師</span>
+          </h2>
+          <p class="section-sub">二つの顔をもつ指導者</p>
+        </div>
+        <div class="teacher-card">
+          <div class="teacher-avatar">🧑‍💻</div>
+          <p class="teacher-name">まさくん 先生</p>
+          <p class="teacher-role">現役エンジニア ／ 個別指導塾講師</p>
+          <div class="teacher-tags">
+            <span class="teacher-tag">📱 MATHACA開発者</span>
+            <span class="teacher-tag">🏫 個別指導塾運営</span>
+            <span class="teacher-tag">🔧 現役エンジニア</span>
+          </div>
+          <p class="teacher-bio">
+            福岡県の個別指導塾で講師として指導する一方、
+            <strong>自ら学習アプリ「MATHACA（マサカ）」を開発</strong
+            >した現役エンジニア。 <br /><br />
+            エンジニアとして「仕組みから理解する」ことを大切にしているため、
+            数学の指導も「なぜこの式になるのか」を徹底的に説明します。
+            「答えを教えるのではなく、考え方を渡す」が指導のポリシーです。
+            <br /><br />
+            これまで<strong>多くの苦手意識のある生徒</strong>が「わかった！」と言えるようになりました。
+          </p>
+          <div class="app-highlight">
+            <h4>📱 MATHACA（マサカ）とは？</h4>
+            <p>
+              共通テスト対策までを目的に開発した学習アプリ。
+              勉強が苦手な生徒でも繰り返し取り組めるよう、
+              スマートフォンで手軽に問題演習できる設計になっています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 9. VOICE ===== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">生徒・保護者の声</span>
+          <h2 class="section-title">"変わった"という<span>声</span></h2>
+          <p class="section-sub">実際に受講された方からのご感想（一部掲載）</p>
+        </div>
+        <div class="voice-list">
+          <div class="voice-card">
+            <div class="voice-header">
+              <div class="voice-avatar">👧</div>
+              <div>
+                <p class="voice-name">高校2年生・Aさん</p>
+                <p class="voice-info">定期テスト対策目的で受講</p>
+              </div>
+            </div>
+            <p class="stars">★★★★★</p>
+            <p class="voice-text">
+              学校の授業ではなんとなくしかわからなかったのに、先生の説明を聞いたら
+              <strong>「あ、そういうことか！」</strong>と一気に理解できました。
+              テストの点数も20点以上上がって、数学が少し好きになりました。
+            </p>
+          </div>
+          <div class="voice-card">
+            <div class="voice-header">
+              <div class="voice-avatar">👩</div>
+              <div>
+                <p class="voice-name">保護者・Bさん</p>
+                <p class="voice-info">高校1年生のお子さんが受講中</p>
+              </div>
+            </div>
+            <p class="stars">★★★★★</p>
+            <p class="voice-text">
+              オンラインに不安があったのですが、<strong>LINEでいつでも質問できる</strong>ので
+              子どもが「わからないままにしない」習慣がつきました。
+              先生が丁寧に進捗を共有してくださるので、親としてもとても安心しています。
+            </p>
+          </div>
+          <div class="voice-card">
+            <div class="voice-header">
+              <div class="voice-avatar">👦</div>
+              <div>
+                <p class="voice-name">高校3年生・Cさん</p>
+                <p class="voice-info">共通テスト対策目的で受講</p>
+              </div>
+            </div>
+            <p class="stars">★★★★★</p>
+            <p class="voice-text">
+              受験直前に申し込んだのですが、弱点をピンポイントで潰してくれました。
+              <strong>共通テスト本番では数学で8割超え</strong
+              >。正直あそこまで伸びると思っていなかったので驚きです。
+              本当にありがとうございました。
+            </p>
+          </div>
+        </div>
+        <p
+          style="
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 16px;
+          "
+        >
+          ※
+          掲載は本人・保護者の許可を得ています（個人特定を避けるため一部変更しています）
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">よくある質問</span>
+          <h2 class="section-title">気になること<span>解決</span></h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-q">
+              <span class="q-icon">Q</span> 使用するツールは何ですか？
+            </div>
+            <div class="faq-a">
+              Zoomを使用します。画面共有しながら授業を行います。特別な準備は不要です。
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              <span class="q-icon">Q</span> 途中でやめることはできますか？
+            </div>
+            <div class="faq-a">
+              もちろんです。最低継続期間などはありません。翌月からの受講をやめたい場合は、月末までにLINEでご連絡ください。
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              <span class="q-icon">Q</span> 体験授業は本当に無料ですか？
+            </div>
+            <div class="faq-a">
+              完全無料です。しつこい勧誘も一切ありません。「雰囲気を見たい」だけでも気軽にお申し込みください。
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">
+              <span class="q-icon">Q</span> 日曜日以外の日は対応していますか？
+            </div>
+            <div class="faq-a">
+              現在は毎週日曜日（午前10:00〜 /
+              午後14:00〜）のみ開講しています。祝日や長期休暇中は別途ご相談可能ですので、LINEでご確認ください。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 10. FINAL CTA ===== -->
+    <section class="final-cta" id="contact">
+      <div class="container">
+        <h2>
+          一緒に、<span>少しずつ。</span
+          ><br />まずは80分、参加してみてください。
+        </h2>
         <p>
-          共通テスト対策を目的に開発した数学特化の学習アプリ。
-          勉強が苦手な生徒でも繰り返し取り組めるよう、
-          スマートフォンで手軽に問題演習できる設計になっています。
-          開発者本人が指導にあたるから、教材の隅々まで熟知しています。
+          体験授業は費用なし。<br />
+          「どんな授業か見てみたい」だけでも気軽にどうぞ。<br />
+          あなたのペースで始めましょう。
         </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 9. VOICE ===== -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">生徒・保護者の声</span>
-      <h2 class="section-title">"変わった"という<span>声</span></h2>
-      <p class="section-sub">実際に受講された方からのご感想（一部掲載）</p>
-    </div>
-    <div class="voice-list">
-      <div class="voice-card">
-        <div class="voice-header">
-          <div class="voice-avatar">👧</div>
-          <div>
-            <p class="voice-name">高校2年生・Aさん</p>
-            <p class="voice-info">定期テスト対策目的で受講</p>
+        <div class="final-checks">
+          <div class="check-item">
+            <span class="check-icon">✅</span> 入会金・教材費なし
+          </div>
+          <div class="check-item">
+            <span class="check-icon">✅</span> 体験授業80分
+          </div>
+          <div class="check-item">
+            <span class="check-icon">✅</span> LINEで質問し放題
+          </div>
+          <div class="check-item">
+            <span class="check-icon">✅</span> 毎週日曜・少人数制
+          </div>
+          <div class="check-item">
+            <span class="check-icon">✅</span> わかるまで教える
           </div>
         </div>
-        <p class="stars">★★★★★</p>
-        <p class="voice-text">
-          学校の授業ではなんとなくしかわからなかったのに、先生の説明を聞いたら
-          <strong>「あ、そういうことか！」</strong>と一気に理解できました。
-          テストの点数も20点以上上がって、数学が少し好きになりました。
+        <a
+          href="https://lin.ee/QACfqcf"
+          class="btn-line"
+          style="margin-top: 16px"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="white"
+          >
+            <path
+              d="M12 2C6.477 2 2 6.145 2 11.243c0 3.363 1.992 6.303 5.018 8.056.2.112.271.327.202.516l-.577 2.073c-.074.266.16.502.413.394l2.556-1.038c.137-.056.29-.044.417.031C11.048 21.78 11.516 22 12 22c5.523 0 10-4.145 10-9.243S17.523 2 12 2z"
+            />
+          </svg>
+          LINEで無料体験を申し込む
+        </a>
+        <p style="font-size: 12px; opacity: 0.7; margin-top: 20px">
+          📅 毎週日曜日｜午前10:00〜 ／ 午後14:00〜　📍 完全オンライン
         </p>
       </div>
-      <div class="voice-card">
-        <div class="voice-header">
-          <div class="voice-avatar">👩</div>
-          <div>
-            <p class="voice-name">保護者・Bさん</p>
-            <p class="voice-info">高校1年生のお子さんが受講中</p>
-          </div>
-        </div>
-        <p class="stars">★★★★★</p>
-        <p class="voice-text">
-          オンラインに不安があったのですが、<strong>LINEでいつでも質問できる</strong>ので
-          子どもが「わからないままにしない」習慣がつきました。
-          先生が丁寧に進捗を共有してくださるので、親としてもとても安心しています。
-        </p>
-      </div>
-      <div class="voice-card">
-        <div class="voice-header">
-          <div class="voice-avatar">👦</div>
-          <div>
-            <p class="voice-name">高校3年生・Cさん</p>
-            <p class="voice-info">共通テスト対策目的で受講</p>
-          </div>
-        </div>
-        <p class="stars">★★★★★</p>
-        <p class="voice-text">
-          受験直前に申し込んだのですが、弱点をピンポイントで潰してくれました。
-          <strong>共通テスト本番では数学で8割超え</strong>。正直あそこまで伸びると思っていなかったので驚きです。
-          本当にありがとうございました。
-        </p>
-      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p><strong>オンライン数学指導 まさくん先生</strong></p>
+      <p style="margin-top: 8px">
+        個別指導塾講師 ／ MATHACA開発者 ／ YouTubeチャンネルまさくん運営
+      </p>
+      <p style="margin-top: 8px">© 2026 QuizStudyApp. All rights reserved.</p>
+    </footer>
+
+    <!-- ===== STICKY CTA ===== -->
+    <div class="sticky-cta">
+      <a href="#contact" class="btn-cta"> 📩 体験授業を申し込む </a>
     </div>
-    <p style="text-align:center; font-size:12px; color:#999; margin-top:16px;">※ 掲載は本人・保護者の許可を得ています（個人特定を避けるため一部変更しています）</p>
-  </div>
-</section>
 
-<!-- ===== FAQ ===== -->
-<section class="section">
-  <div class="container">
-    <div class="text-center">
-      <span class="section-label">よくある質問</span>
-      <h2 class="section-title">気になること<span>解決</span></h2>
-    </div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <div class="faq-q"><span class="q-icon">Q</span> 中学生でも受講できますか？</div>
-        <div class="faq-a">はい、対応しています。高校数学の先取り学習や、中学数学の苦手克服も指導可能です。まず体験授業でご相談ください。</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><span class="q-icon">Q</span> 使用するツールは何ですか？</div>
-        <div class="faq-a">Zoom・Google Meet などのビデオ通話を使用します。ホワイトボードアプリを共有しながら板書感覚で授業を行います。特別な準備は不要です。</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><span class="q-icon">Q</span> 途中でやめることはできますか？</div>
-        <div class="faq-a">もちろんです。最低継続期間などはありません。翌月からの受講をやめたい場合は、月末までにLINEでご連絡ください。</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><span class="q-icon">Q</span> 体験授業は本当に無料ですか？</div>
-        <div class="faq-a">完全無料です。しつこい勧誘も一切ありません。「雰囲気を見たい」だけでも気軽にお申し込みください。</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><span class="q-icon">Q</span> 金曜・日曜以外は対応していますか？</div>
-        <div class="faq-a">現在は金曜日（夕方〜夜）と日曜日（終日）のみ対応しています。祝日や長期休暇中は別途相談可能ですので、LINEでご確認ください。</div>
-      </div>
-    </div>
-  </div>
-</section>
+    <script>
+      // スクロール時にスティッキーCTAを表示/非表示
+      const stickyCta = document.querySelector(".sticky-cta");
+      const hero = document.querySelector(".hero");
+      const finalCta = document.querySelector(".final-cta");
 
-<!-- ===== 10. FINAL CTA ===== -->
-<section class="final-cta" id="contact">
-  <div class="container">
-    <h2>今すぐ、<span>変わろう。</span><br>最初の60分は無料です。</h2>
-    <p>
-      費用はゼロ。勧誘もゼロ。<br>
-      「どんな先生か見てみたい」だけでも大歓迎。<br>
-      あなたのペースで始めましょう。
-    </p>
-    <div class="final-checks">
-      <div class="check-item"><span class="check-icon">✅</span> 入会金・教材費なし</div>
-      <div class="check-item"><span class="check-icon">✅</span> 無料体験60分</div>
-      <div class="check-item"><span class="check-icon">✅</span> LINEで質問し放題</div>
-      <div class="check-item"><span class="check-icon">✅</span> 金曜・日曜対応</div>
-      <div class="check-item"><span class="check-icon">✅</span> わかるまで教える</div>
-    </div>
-    <a href="https://lin.ee/XXXXXXXX" class="btn-cta" style="background:#ff6b35;">
-      無料体験60分を申し込む
-      <small>↓ 下のLINEからでも申し込み可能</small>
-    </a>
-    <a href="https://lin.ee/XXXXXXXX" class="btn-line" style="margin-top:16px;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.477 2 2 6.145 2 11.243c0 3.363 1.992 6.303 5.018 8.056.2.112.271.327.202.516l-.577 2.073c-.074.266.16.502.413.394l2.556-1.038c.137-.056.29-.044.417.031C11.048 21.78 11.516 22 12 22c5.523 0 10-4.145 10-9.243S17.523 2 12 2z"/></svg>
-      LINEで無料体験を申し込む
-    </a>
-    <p style="font-size:12px; opacity:0.7; margin-top:20px;">
-      📅 受付：金曜・日曜　📍 完全オンライン
-    </p>
-  </div>
-</section>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.target === hero && entry.isIntersecting) {
+              stickyCta.style.display = "none";
+            } else if (entry.target === finalCta) {
+              stickyCta.style.display = entry.isIntersecting ? "none" : "block";
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
 
-<!-- ===== FOOTER ===== -->
-<footer>
-  <p><strong>オンライン家庭教師 まさすけ先生</strong></p>
-  <p style="margin-top:8px;">福岡県 ／ 高校数学専門 ／ MathAca開発者</p>
-  <p style="margin-top:8px;">© 2025 MathAca 個人指導</p>
-</footer>
+      observer.observe(hero);
+      observer.observe(finalCta);
 
-<!-- ===== STICKY CTA ===== -->
-<div class="sticky-cta">
-  <a href="#contact" class="btn-cta">
-    📩 無料体験60分を申し込む
-  </a>
-</div>
+      // FAQ アコーディオン
+      document.querySelectorAll(".faq-q").forEach((q) => {
+        const a = q.nextElementSibling;
+        a.style.display = "none";
+        q.addEventListener("click", () => {
+          const isOpen = a.style.display === "block";
+          document
+            .querySelectorAll(".faq-a")
+            .forEach((el) => (el.style.display = "none"));
+          if (!isOpen) a.style.display = "block";
+        });
+      });
 
-<script>
-  // スクロール時にスティッキーCTAを表示/非表示
-  const stickyCta = document.querySelector('.sticky-cta');
-  const hero = document.querySelector('.hero');
-  const finalCta = document.querySelector('.final-cta');
+      // スクロールアニメーション
+      const fadeEls = document.querySelectorAll(
+        ".strength-card, .flow-step, .voice-card, .pain-item, .subject-card, .price-card",
+      );
+      const fadeObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.style.opacity = "1";
+              entry.target.style.transform = "translateY(0)";
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.target === hero) {
-        stickyCta.style.display = entry.isIntersecting ? 'none' : 'block';
-      }
-    });
-  }, { threshold: 0.1 });
-
-  observer.observe(hero);
-
-  // FAQ アコーディオン
-  document.querySelectorAll('.faq-q').forEach(q => {
-    const a = q.nextElementSibling;
-    a.style.display = 'none';
-    q.addEventListener('click', () => {
-      const isOpen = a.style.display === 'block';
-      document.querySelectorAll('.faq-a').forEach(el => el.style.display = 'none');
-      if (!isOpen) a.style.display = 'block';
-    });
-  });
-
-  // スクロールアニメーション
-  const fadeEls = document.querySelectorAll('.strength-card, .flow-step, .voice-card, .pain-item, .subject-card, .price-card');
-  const fadeObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
-      }
-    });
-  }, { threshold: 0.1 });
-
-  fadeEls.forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-    fadeObserver.observe(el);
-  });
-</script>
-
-</body>
+      fadeEls.forEach((el) => {
+        el.style.opacity = "0";
+        el.style.transform = "translateY(20px)";
+        el.style.transition = "opacity 0.5s ease, transform 0.5s ease";
+        fadeObserver.observe(el);
+      });
+    </script>
+  </body>
 </html>
