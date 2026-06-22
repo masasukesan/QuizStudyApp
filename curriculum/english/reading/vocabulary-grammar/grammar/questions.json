@@ -1,0 +1,452 @@
+[
+  {
+    "id": "eng-gr-001",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nShe ( ) in this city for ten years. She still lives here.",
+    "choices": [
+      { "label": "A", "text": "has lived" },
+      { "label": "B", "text": "lived" },
+      { "label": "C", "text": "is living" },
+      { "label": "D", "text": "was living" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["現在完了", "for + 期間", "時制"]
+  },
+  {
+    "id": "eng-gr-002",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nBy the time Tom arrived at the station, the last train ( ).",
+    "choices": [
+      { "label": "A", "text": "has already left" },
+      { "label": "B", "text": "had already left" },
+      { "label": "C", "text": "already left" },
+      { "label": "D", "text": "was already leaving" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["過去完了", "by the time", "時制の前後関係"]
+  },
+  {
+    "id": "eng-gr-003",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nI ( ) this novel three times. It is one of my favorites.",
+    "choices": [
+      { "label": "A", "text": "read" },
+      { "label": "B", "text": "am reading" },
+      { "label": "C", "text": "have read" },
+      { "label": "D", "text": "had read" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["現在完了", "経験", "時制"]
+  },
+  {
+    "id": "eng-gr-004",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nThe speech the mayor gave last night was extremely ( ).",
+    "choices": [
+      { "label": "A", "text": "impression" },
+      { "label": "B", "text": "impress" },
+      { "label": "C", "text": "impressive" },
+      { "label": "D", "text": "impressively" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["品詞", "補語", "形容詞"]
+  },
+  {
+    "id": "eng-gr-005",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nHe solved the math problem ( ) without using a calculator.",
+    "choices": [
+      { "label": "A", "text": "quick" },
+      { "label": "B", "text": "quicken" },
+      { "label": "C", "text": "quickness" },
+      { "label": "D", "text": "quickly" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["品詞", "副詞", "動詞修飾"]
+  },
+  {
+    "id": "eng-gr-006",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nA dog ran into our yard this morning. ( ) dog was barking loudly.",
+    "choices": [
+      { "label": "A", "text": "A" },
+      { "label": "B", "text": "The" },
+      { "label": "C", "text": "An" },
+      { "label": "D", "text": "One" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["冠詞", "再出の名詞", "the の用法"]
+  },
+  {
+    "id": "eng-gr-007",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nWould you like ( ) coffee? I just made a fresh pot.",
+    "choices": [
+      { "label": "A", "text": "a" },
+      { "label": "B", "text": "the" },
+      { "label": "C", "text": "an" },
+      { "label": "D", "text": "some" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["冠詞", "不可算名詞", "some の用法"]
+  },
+  {
+    "id": "eng-gr-008",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nSince she was a child, she ( ) a strong interest in astronomy.",
+    "choices": [
+      { "label": "A", "text": "has had" },
+      { "label": "B", "text": "had" },
+      { "label": "C", "text": "is having" },
+      { "label": "D", "text": "have had" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["現在完了", "since", "継続用法"]
+  },
+  {
+    "id": "eng-gr-009",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nThe ( ) of the new medicine surprised the scientists.",
+    "choices": [
+      { "label": "A", "text": "effective" },
+      { "label": "B", "text": "effectively" },
+      { "label": "C", "text": "effectiveness" },
+      { "label": "D", "text": "effect" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["品詞", "主語の位置", "名詞"]
+  },
+  {
+    "id": "eng-gr-010",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "basic",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nThis is ( ) most beautiful garden I have ever seen.",
+    "choices": [
+      { "label": "A", "text": "a" },
+      { "label": "B", "text": "an" },
+      { "label": "C", "text": "the" },
+      { "label": "D", "text": "some" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["冠詞", "最上級", "the の用法"]
+  },
+  {
+    "id": "eng-gr-011",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な接続詞を選べ。\n\n( ) the weather was terrible, we decided to go hiking anyway.",
+    "choices": [
+      { "label": "A", "text": "Because" },
+      { "label": "B", "text": "Although" },
+      { "label": "C", "text": "Unless" },
+      { "label": "D", "text": "So that" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["接続詞", "逆接", "although"]
+  },
+  {
+    "id": "eng-gr-012",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な接続詞を選べ。\n\nYou will fail the exam ( ) you start studying right now.",
+    "choices": [
+      { "label": "A", "text": "unless" },
+      { "label": "B", "text": "although" },
+      { "label": "C", "text": "because" },
+      { "label": "D", "text": "while" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["接続詞", "条件（否定）", "unless"]
+  },
+  {
+    "id": "eng-gr-013",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な関係詞を選べ。\n\nThe scientist ( ) discovered the new element received a major award.",
+    "choices": [
+      { "label": "A", "text": "which" },
+      { "label": "B", "text": "whose" },
+      { "label": "C", "text": "who" },
+      { "label": "D", "text": "whom" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["関係代名詞", "先行詞が人", "主格"]
+  },
+  {
+    "id": "eng-gr-014",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な関係詞を選べ。\n\nThe book ( ) cover was torn was still readable.",
+    "choices": [
+      { "label": "A", "text": "that" },
+      { "label": "B", "text": "which" },
+      { "label": "C", "text": "whose" },
+      { "label": "D", "text": "who" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["関係代名詞", "所有格", "whose"]
+  },
+  {
+    "id": "eng-gr-015",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nIf I ( ) more time, I would travel around the world.",
+    "choices": [
+      { "label": "A", "text": "have" },
+      { "label": "B", "text": "had" },
+      { "label": "C", "text": "would have" },
+      { "label": "D", "text": "will have" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["仮定法過去", "if節の動詞形", "現実に反する仮定"]
+  },
+  {
+    "id": "eng-gr-016",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nIf she had studied harder, she ( ) the university she wanted.",
+    "choices": [
+      { "label": "A", "text": "would enter" },
+      { "label": "B", "text": "had entered" },
+      { "label": "C", "text": "could have entered" },
+      { "label": "D", "text": "entered" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["仮定法過去完了", "主節の動詞形", "過去の反事実"]
+  },
+  {
+    "id": "eng-gr-017",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な接続詞を選べ。\n\nShe turned off her phone ( ) she could concentrate on the presentation.",
+    "choices": [
+      { "label": "A", "text": "although" },
+      { "label": "B", "text": "unless" },
+      { "label": "C", "text": "so that" },
+      { "label": "D", "text": "because of" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["接続詞", "目的", "so that"]
+  },
+  {
+    "id": "eng-gr-018",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な関係詞を選べ。\n\nDo you remember the summer ( ) we traveled to Hokkaido together?",
+    "choices": [
+      { "label": "A", "text": "which" },
+      { "label": "B", "text": "where" },
+      { "label": "C", "text": "who" },
+      { "label": "D", "text": "when" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["関係副詞", "先行詞が時", "when"]
+  },
+  {
+    "id": "eng-gr-019",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nHe speaks English so ( ) that native speakers sometimes mistake him for one.",
+    "choices": [
+      { "label": "A", "text": "fluently" },
+      { "label": "B", "text": "fluent" },
+      { "label": "C", "text": "fluency" },
+      { "label": "D", "text": "fluent way" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["副詞", "動詞修飾", "so ... that 構文"]
+  },
+  {
+    "id": "eng-gr-020",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "standard",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nI wish I ( ) a better answer at the interview yesterday.",
+    "choices": [
+      { "label": "A", "text": "gave" },
+      { "label": "B", "text": "give" },
+      { "label": "C", "text": "had given" },
+      { "label": "D", "text": "would give" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["仮定法過去完了", "wish 構文", "過去への後悔"]
+  },
+  {
+    "id": "eng-gr-021",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nNever ( ) such a breathtaking view from the top of the mountain.",
+    "choices": [
+      { "label": "A", "text": "I have seen" },
+      { "label": "B", "text": "have I seen" },
+      { "label": "C", "text": "I saw" },
+      { "label": "D", "text": "I had seen" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["否定語倒置", "Never + 助動詞 + 主語", "倒置構文"]
+  },
+  {
+    "id": "eng-gr-022",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nIt is the commitment of the volunteers ( ) made the community event a success.",
+    "choices": [
+      { "label": "A", "text": "who" },
+      { "label": "B", "text": "what" },
+      { "label": "C", "text": "that" },
+      { "label": "D", "text": "which" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["強調構文", "It is ... that ...", "主語の強調"]
+  },
+  {
+    "id": "eng-gr-023",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nNot only ( ) the problem, but she also came up with a creative solution.",
+    "choices": [
+      { "label": "A", "text": "she identified" },
+      { "label": "B", "text": "did she identify" },
+      { "label": "C", "text": "she did identify" },
+      { "label": "D", "text": "identified she" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["否定語倒置", "Not only ... but also", "助動詞の倒置"]
+  },
+  {
+    "id": "eng-gr-024",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nHe lent me his umbrella, and I returned ( ) the next day.",
+    "choices": [
+      { "label": "A", "text": "one" },
+      { "label": "B", "text": "it" },
+      { "label": "C", "text": "that" },
+      { "label": "D", "text": "ones" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["代名詞", "it vs one", "特定の物の代用"]
+  },
+  {
+    "id": "eng-gr-025",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nMaria passed the final exam, and so ( ) her study partner.",
+    "choices": [
+      { "label": "A", "text": "did" },
+      { "label": "B", "text": "does" },
+      { "label": "C", "text": "had" },
+      { "label": "D", "text": "was" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["so 倒置", "同意の肯定", "過去時制の一致"]
+  },
+  {
+    "id": "eng-gr-026",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\n( ) from the top of the hill, the town looked like a miniature model.",
+    "choices": [
+      { "label": "A", "text": "Seen" },
+      { "label": "B", "text": "Seeing" },
+      { "label": "C", "text": "To see" },
+      { "label": "D", "text": "Have seen" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["分詞構文", "受動の分詞", "意味上の主語"]
+  },
+  {
+    "id": "eng-gr-027",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\n( ) all the evidence carefully, the detective reached a surprising conclusion.",
+    "choices": [
+      { "label": "A", "text": "Having examined" },
+      { "label": "B", "text": "Being examined" },
+      { "label": "C", "text": "To examine" },
+      { "label": "D", "text": "Examined" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["完了分詞構文", "having + pp", "主節より前の動作"]
+  },
+  {
+    "id": "eng-gr-028",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の下線部の構造として正しい説明を選べ。\n\nIt was the teacher's encouragement that motivated Lisa to pursue her dream.",
+    "choices": [
+      { "label": "A", "text": "that は関係代名詞で、the teacher's encouragement を修飾する" },
+      { "label": "B", "text": "It is ... that ... の強調構文で、the teacher's encouragement を強調している" },
+      { "label": "C", "text": "It は天候・時間を表す形式主語で、意味上の主語はない" },
+      { "label": "D", "text": "that 節は Lisa を先行詞とする関係詞節である" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["強調構文", "It is ... that ...", "主語の特定"]
+  },
+  {
+    "id": "eng-gr-029",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nThe climate in this region is similar to ( ) of southern Europe.",
+    "choices": [
+      { "label": "A", "text": "one" },
+      { "label": "B", "text": "it" },
+      { "label": "C", "text": "that" },
+      { "label": "D", "text": "this" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["代用表現", "that of", "不可算名詞の代用"]
+  },
+  {
+    "id": "eng-gr-030",
+    "subject": "英語",
+    "unit": "文法",
+    "difficulty": "exam",
+    "question": "次の文の空所に入る最も適切な語句を選べ。\n\nRarely ( ) see such dedication among first-year students.",
+    "choices": [
+      { "label": "A", "text": "we do" },
+      { "label": "B", "text": "do we" },
+      { "label": "C", "text": "we" },
+      { "label": "D", "text": "did we" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["否定副詞倒置", "Rarely + 助動詞 + 主語", "現在時制の倒置"]
+  }
+]

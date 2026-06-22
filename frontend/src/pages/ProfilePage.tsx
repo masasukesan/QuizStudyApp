@@ -58,7 +58,7 @@ function getLevelTitle(level: number): string {
 
 /* ── 教科の日本語名 ── */
 const SUBJECT_LABEL: Record<string, string> = {
-  math: '数学', english: '英語', japanese: '国語',
+  math: '数学', english: '英語（高校）', 'english-junior': '英語（中学）', japanese: '国語',
   science: '理科', social: '社会', math_a: '数学A',
   math_b: '数学B', math_c: '数学C',
 }

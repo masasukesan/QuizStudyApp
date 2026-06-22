@@ -1,0 +1,118 @@
+{
+  "unit_id": "logical-operators",
+  "unit_name_jp": "論理演算子（&& / || / ! / ??）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "and-or-not-basics",
+      "description": "&&（AND）・||（OR）・!（NOT）の基本的な動作を問う問題。true/false の組み合わせで結果を判断する。",
+      "thinking_process": [
+        "&&（AND）は両方が true のときだけ true になることを確認する",
+        "||（OR）はどちらか一方でも true なら true になることを確認する",
+        "!（NOT）は true と false を反転させることを確認する",
+        "与えられた式に当てはめて結果を求める"
+      ],
+      "common_mistakes": [
+        "&& は片方が true なら true と思い込む（実際は両方必要）",
+        "|| は両方が true でないと true にならないと思い込む",
+        "!true を true のままと思う"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "truthy-falsy-values",
+      "description": "JavaScript の truthy / falsy の概念を問う問題。どの値が false として扱われるかを正確に識別する。",
+      "thinking_process": [
+        "falsy な値（false / 0 / '' / null / undefined / NaN）を思い出す",
+        "それ以外はすべて truthy であることを確認する",
+        "論理演算子に falsy/truthy な値を当てはめて評価する"
+      ],
+      "common_mistakes": [
+        "'0'（文字列のゼロ）を falsy と思う（実際は truthy）",
+        "[]（空配列）や {}（空オブジェクト）を falsy と思う（実際は truthy）",
+        "0 が falsy であることを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "short-circuit-evaluation",
+      "description": "&&・|| の短絡評価（ショートサーキット）を問う問題。論理演算子が true/false 以外の値を返す挙動を理解する。",
+      "thinking_process": [
+        "&& は左辺が falsy なら左辺をそのまま返し、truthy なら右辺を返すことを確認する",
+        "|| は左辺が truthy なら左辺をそのまま返し、falsy なら右辺を返すことを確認する",
+        "式全体が何の値を返すかを判断する（true/false とは限らない）"
+      ],
+      "common_mistakes": [
+        "&& や || の結果が必ず true か false だと思い込む",
+        "0 || 'hello' が 0 を返すと思う（実際は 'hello'）",
+        "1 && 'world' が true を返すと思う（実際は 'world'）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "nullish-coalescing",
+      "description": "??（Null 合体演算子）の動作を問う問題。|| との違いを正確に理解しているかを確認する。",
+      "thinking_process": [
+        "?? は左辺が null または undefined のときだけ右辺を返すことを確認する",
+        "|| との違い：|| は falsy（0・''・false も含む）なら右辺を返す",
+        "左辺の値が null/undefined か、それ以外の falsy かを判別して結果を求める"
+      ],
+      "common_mistakes": [
+        "?? を || と同じ意味と思い込む",
+        "0 ?? 'default' が 'default' を返すと思う（実際は 0）",
+        "false ?? 'fallback' が 'fallback' を返すと思う（実際は false）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "logical-assignment-operators",
+      "description": "論理代入演算子（&&= / ||= / ??=）を問う問題。代入との組み合わせの挙動を理解する。",
+      "thinking_process": [
+        "x &&= y は x が truthy のときだけ y を x に代入することを確認する",
+        "x ||= y は x が falsy のときだけ y を x に代入することを確認する",
+        "x ??= y は x が null または undefined のときだけ y を x に代入することを確認する",
+        "代入後の変数の値を求める"
+      ],
+      "common_mistakes": [
+        "&&= を「常に右辺を代入する」と思い込む",
+        "||= が truthy のときに代入すると勘違いする",
+        "??= と ||= の挙動の違い（0 や false を扱う場合）を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "operator-precedence-logical",
+      "description": "論理演算子の優先順位（! > && > ||）を問う問題。複数の演算子が混在する式を正しく評価する。",
+      "thinking_process": [
+        "! の優先順位が最も高いことを確認する",
+        "次に && が評価されることを確認する",
+        "最後に || が評価されることを確認する",
+        "カッコがある場合はカッコ内を先に評価する",
+        "左から右へ同じ優先順位の演算を処理する"
+      ],
+      "common_mistakes": [
+        "|| が && より先に評価されると思い込む",
+        "true || false && false を左から評価して true && false → false と間違える（実際は false && false を先に評価して true || false → true）",
+        "! の範囲を誤解する（!a && b を !(a && b) と思う）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "complex-short-circuit-chain",
+      "description": "&&・||・?? を組み合わせた複雑な式の評価を問う問題。実務でよく使うパターンを含む。",
+      "thinking_process": [
+        "まず ! があれば先に評価する",
+        "次に && の部分を左から評価する",
+        "その後 || を評価する",
+        "?? は || より優先順位が低く、括弧なしで混在するとエラーになることを確認する",
+        "最終的に式が返す値を特定する"
+      ],
+      "common_mistakes": [
+        "?? と || を括弧なしで混在させてもエラーにならないと思う",
+        "短絡評価により後半の式が実行されないことを考慮しない",
+        "複数の falsy 値が絡む式で途中の評価をスキップして結果を誤る"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

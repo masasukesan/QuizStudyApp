@@ -1,0 +1,422 @@
+[
+  {
+    "id": "eng-mo-001",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nGood morning, everyone. I have an important announcement about our upcoming field trip. As you know, we will be visiting the National Science Museum next Tuesday. Please remember to bring your student ID card, as it is required for entry. Lunch will not be provided, so please bring your own. The bus will depart from the main school gate at 8:30 AM sharp. Students who arrive late will not be able to join the trip. We will return to school by 4:00 PM. If you have any questions, please see Ms. Tanaka in the school office. Thank you for listening.\n\nこのアナウンスの主な目的として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "来週の遠足についての注意事項を伝える" },
+      { "label": "B", "text": "学生証の新しい申請方法を説明する" },
+      { "label": "C", "text": "科学博物館の開館時間を知らせる" },
+      { "label": "D", "text": "給食のメニューを発表する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-002",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次の音声ガイドを読んで、問いに答えなさい。\n\nWelcome to the Ancient Egypt Gallery. In this room, you will find artifacts dating back more than 3,000 years. The large stone statue on your right is a reproduction of the Great Sphinx. On the left wall, you can see copies of hieroglyphic writing — the writing system used in ancient Egypt. The original papyrus scrolls in the center display case are protected under special lighting to prevent damage. Please do not touch any of the displays. Photography is allowed, but please turn off your flash. We hope you enjoy your visit to this fascinating exhibit.\n\nこの音声ガイドが案内している展示の主なテーマとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "古代ギリシャの文明" },
+      { "label": "B", "text": "アフリカの現代美術" },
+      { "label": "C", "text": "古代エジプトの遺物" },
+      { "label": "D", "text": "中東の歴史地図" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-003",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次の天気予報を読んで、問いに答えなさい。\n\nGood evening. Here is your weather forecast for the next three days. Tomorrow, Saturday, will be sunny with a high of 24 degrees. It will be a perfect day for outdoor activities. However, on Sunday, a cold front is expected to move in, bringing heavy rain throughout the day. Temperatures will drop to around 15 degrees, so please bring an umbrella and a warm jacket. By Monday, the rain will clear up, and we can expect partly cloudy skies with a high of 20 degrees. Have a great weekend, and stay prepared for the weather changes.\n\nこの天気予報によると、大雨が予想されているのはいつか。",
+    "choices": [
+      { "label": "A", "text": "土曜日" },
+      { "label": "B", "text": "月曜日" },
+      { "label": "C", "text": "火曜日" },
+      { "label": "D", "text": "日曜日" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-mo-004",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次の駅構内アナウンスを読んで、問いに答えなさい。\n\nAttention, passengers. This is an announcement regarding the 9:15 express train to Tokyo Central Station. Due to signal trouble near Koenji Station, this train will be delayed by approximately 20 minutes. The new departure time is 9:35. We apologize for any inconvenience. Passengers who need to make connecting trains at Tokyo Central should speak with a station staff member at the information counter on the first floor. A limited express service will depart at 9:50 from Platform 5 for those in a hurry. We thank you for your patience and understanding.\n\nこのアナウンスの主な内容として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "東京中央駅の新しい路線の開通" },
+      { "label": "B", "text": "電車の遅延とその対応案内" },
+      { "label": "C", "text": "駅の工事による閉鎖のお知らせ" },
+      { "label": "D", "text": "特急列車の新サービス開始の発表" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-mo-005",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nHello, everyone. I'd like to remind you about our annual school culture festival, which will be held this Saturday, November 12th. The festival will begin at 9 AM and end at 5 PM. Student clubs will be presenting performances and exhibitions throughout the day. Food stalls operated by the cooking club will be open from 11 AM. Tickets for the main stage performances must be picked up from the student council office by Friday. Entry to the festival grounds is free for all students. We look forward to seeing you there!\n\n文化祭の入場について正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "生徒は無料で入場できる" },
+      { "label": "B", "text": "生徒も入場料を支払う必要がある" },
+      { "label": "C", "text": "事前に整理券を受け取る必要がある" },
+      { "label": "D", "text": "保護者のみ無料で入場できる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-006",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nAttention, library users. The Greenwood Public Library will be closed for renovations from March 15th to March 22nd. During this period, you may return borrowed books using the 24-hour book drop located near the main entrance. All books currently on loan will have their due dates extended by two weeks automatically. When the library reopens on March 23rd, we will introduce a new self-checkout system. We apologize for any inconvenience during this time and look forward to welcoming you back to our improved facility.\n\nこのアナウンスの主な目的として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "新しい蔵書の紹介" },
+      { "label": "B", "text": "読書イベントの参加者募集" },
+      { "label": "C", "text": "図書館の臨時休館のお知らせ" },
+      { "label": "D", "text": "図書カードの更新手続きの案内" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-007",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次の空港アナウンスを読んで、問いに答えなさい。\n\nLadies and gentlemen, your attention please. Flight JL205 to Osaka is now ready for boarding at Gate 14. We will begin boarding in the following order: passengers requiring special assistance, followed by business class, and then economy class by row number. Please have your boarding pass and identification ready. All liquids must be in containers of 100 milliliters or less and placed in a clear plastic bag. The estimated flight time to Osaka is one hour and five minutes. We hope you have a pleasant journey.\n\nこのアナウンスのメインの内容として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "空港のセキュリティ手続きの変更" },
+      { "label": "B", "text": "大阪行き飛行機の搭乗案内" },
+      { "label": "C", "text": "フライトのキャンセルのお知らせ" },
+      { "label": "D", "text": "空港内の免税店の案内" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-mo-008",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次の料理番組の冒頭を読んで、問いに答えなさい。\n\nWelcome back to Today's Kitchen! I'm your host, Chef Maria. Today, we'll be making a classic Japanese dish — miso soup with tofu and wakame seaweed. This dish is simple, nutritious, and perfect for any meal of the day. You'll need just a few ingredients: dashi stock, miso paste, soft tofu, dried wakame, and green onions. Before we start, make sure your dashi stock is warm — not boiling. We'll walk through each step slowly so everyone can follow along at home. Let's get cooking!\n\nこの番組で今日作ることになっている料理は何か。",
+    "choices": [
+      { "label": "A", "text": "ワカメのサラダ" },
+      { "label": "B", "text": "豆腐の煮物" },
+      { "label": "C", "text": "豆腐と野菜の炒め物" },
+      { "label": "D", "text": "豆腐とわかめの味噌汁" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-mo-009",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nGood afternoon, students. The school newspaper club is looking for new members. If you enjoy writing, taking photos, or designing layouts, this is the perfect club for you. We meet every Tuesday and Thursday after school from 4:00 to 5:30 in Room 203. No previous experience is needed — all you need is enthusiasm and creativity. We cover school events, student life stories, and local community news. Our next issue will feature articles about the upcoming school festival. If you're interested in joining, please come to our information session this Friday at lunchtime in Room 203.\n\nこのアナウンスの目的として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "学校新聞部への新入部員を勧誘する" },
+      { "label": "B", "text": "写真コンテストへの参加を募る" },
+      { "label": "C", "text": "学校行事の写真撮影の協力者を求める" },
+      { "label": "D", "text": "文芸部の活動紹介をする" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-010",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "basic",
+    "question": "次の案内放送を読んで、問いに答えなさい。\n\nWelcome to Greenfield Wildlife Park. Before you begin exploring, please listen to these important safety guidelines. Please stay on the designated paths at all times — entering animal enclosures is strictly prohibited. Feeding the animals is not allowed, as some foods can be harmful to them. We do have a special feeding session for our giraffes today at 2:00 PM near the African Savanna Zone. Photography is welcome, but please use only your camera — drones are not permitted. If you need assistance, staff members wearing green uniforms are available throughout the park. Enjoy your visit!\n\nこの案内が訪問者に求めていることとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "入園前に動物についての講義を受けること" },
+      { "label": "B", "text": "動物にエサを持参すること" },
+      { "label": "C", "text": "安全のため指定されたルートを歩くこと" },
+      { "label": "D", "text": "グリーンのユニフォームを着用すること" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-011",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次の講義を読んで、問いに答えなさい。\n\nToday, we're going to talk about ocean plastic pollution. According to recent research, approximately 8 million tons of plastic enter the ocean every year. This plastic does not disappear — instead, it breaks down into tiny particles called microplastics, which are less than 5 millimeters in size. These microplastics are now found in fish, shellfish, and even in drinking water. Scientists have detected microplastics in over 800 species of marine animals. The main sources of ocean plastic include single-use packaging, fishing nets, and plastic bags. If current trends continue, it is estimated that by 2050, there will be more plastic in the ocean than fish by weight.\n\nこの講義で述べられている、プラスチックが海洋に流出する量（年間）として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "約80万トン" },
+      { "label": "B", "text": "約800万トン" },
+      { "label": "C", "text": "約8,000万トン" },
+      { "label": "D", "text": "約8億トン" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-mo-012",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次の歴史講義を読んで、問いに答えなさい。\n\nLet's look at the development of the printing press. The movable type printing press was invented by Johannes Gutenberg in Germany around 1440. Before this invention, books were copied by hand, which was extremely time-consuming and expensive. The printing press allowed books to be produced much faster and at a lower cost, which made information more accessible to ordinary people. Within 50 years of its invention, over 20 million books had been printed across Europe. This is considered one of the most important inventions in history because it helped spread new ideas and contributed to events like the Renaissance and the Reformation.\n\nグーテンベルクが活版印刷機を発明した年として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "1340年頃" },
+      { "label": "B", "text": "1540年頃" },
+      { "label": "C", "text": "1440年頃" },
+      { "label": "D", "text": "1640年頃" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-013",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nGood morning. Starting from next month, the school will be implementing a new policy regarding smartphone use on campus. Students will no longer be permitted to use their smartphones during class time, including breaks between lessons. Smartphones may only be used during the lunch hour and after the final bell at 3:30 PM. Students who are found using their phones during restricted hours will have their phones confiscated and collected by their parents or guardians. This policy does not apply to tablets used for study purposes, which have been approved by the school. We appreciate your cooperation.\n\n新しい規則でスマートフォンの使用が許可されている時間帯はどれか。",
+    "choices": [
+      { "label": "A", "text": "昼休みと午後3時30分以降" },
+      { "label": "B", "text": "授業中と授業の休み時間" },
+      { "label": "C", "text": "午前中のみ" },
+      { "label": "D", "text": "学校の時間帯であれば常に許可" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-014",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nAttention, all students. Our school's International Food Festival will be held in the gymnasium on Friday, December 5th, from 12:00 noon to 3:00 PM. Each class will be responsible for preparing one traditional dish from an assigned country. Class 2A will represent Japan, Class 2B will represent Mexico, and Class 2C will represent Italy. All ingredients must be purchased by Wednesday, December 3rd. Teachers must approve all menus by November 28th. Students with food allergies should inform their homeroom teacher by November 25th. Participation is mandatory for all students.\n\nこのアナウンスによると、食材を購入しなければならない期限はいつか。",
+    "choices": [
+      { "label": "A", "text": "11月25日" },
+      { "label": "B", "text": "11月28日" },
+      { "label": "C", "text": "12月5日" },
+      { "label": "D", "text": "12月3日" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-mo-015",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nThis is an important safety announcement from the Sunshine Appliance Company. We are recalling our model SC-300 electric kettle due to a potential safety issue. In some units, the automatic shutoff feature may not function correctly, which could cause the kettle to overheat. This applies only to units with serial numbers beginning with 'A' or 'B', manufactured between January and June 2025. If your kettle has a serial number starting with 'A' or 'B', please stop using it immediately. You can return the product to any authorized service center for a full refund or a replacement. For more information, please call our customer helpline at 0120-123-456.\n\n回収の対象となる製品の条件として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "製造番号が「C」または「D」で始まるもの" },
+      { "label": "B", "text": "2025年7月〜12月に製造されたもの" },
+      { "label": "C", "text": "製造番号が「A」または「B」で始まる2025年1〜6月製造のもの" },
+      { "label": "D", "text": "すべてのSC-300型の電気ケトル" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-016",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nGood afternoon. Here are the details for this year's City Marathon. The race will take place on Sunday, March 8th. The full marathon course is 42.195 kilometers, while the half marathon is 21.1 kilometers. Registration closes on February 15th, and the entry fee is 3,000 yen for the half marathon and 5,000 yen for the full marathon. Runners under 18 years old are only eligible for the half marathon. The race begins at 7:00 AM at City Hall Plaza. All runners must check in at least one hour before the start time.\n\n18歳未満の選手が参加できる種目として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "フルマラソン(42.195km)のみ" },
+      { "label": "B", "text": "ハーフマラソン(21.1km)のみ" },
+      { "label": "C", "text": "どちらも参加可能" },
+      { "label": "D", "text": "どちらも参加不可" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-mo-017",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次の体験学習の説明を読んで、問いに答えなさい。\n\nWelcome to the Photography Museum's special darkroom experience. Before we begin, let me explain what you will need. Each participant must wear the provided gloves at all times — chemicals used in the developing process can be harmful to skin. You are not allowed to bring any food or drinks into the darkroom. Mobile phones must be turned off completely, as even a small amount of light can ruin the photographic paper. The experience lasts approximately 90 minutes. You will each develop one black-and-white photograph to take home as a souvenir. Children under 12 must be accompanied by an adult.\n\nダークルーム体験で参加者が必ずしなければならないこととして正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "提供された手袋を常に着用する" },
+      { "label": "B", "text": "事前に写真現像の講義に出席する" },
+      { "label": "C", "text": "自分のカメラを持参する" },
+      { "label": "D", "text": "保護者に同伴してもらう" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-018",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nHello, and welcome to the Riverside Community Center's autumn program registration. We offer classes in yoga, painting, cooking, and English conversation. The registration period is from September 1st to September 15th. Classes begin on October 1st and run for 10 weeks. Fees vary by program: yoga is 4,000 yen, painting is 5,500 yen, cooking is 6,000 yen, and English conversation is 5,000 yen for the full 10-week session. You can register in person at the front desk, by telephone, or through our website. Please note that cooking class has limited spaces and typically fills up quickly.\n\nこの案内によると、申し込み後に最も早く満員になりやすいクラスはどれか。",
+    "choices": [
+      { "label": "A", "text": "ヨガ" },
+      { "label": "B", "text": "英会話" },
+      { "label": "C", "text": "絵画" },
+      { "label": "D", "text": "料理" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-mo-019",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次のガイドの説明を読んで、問いに答えなさい。\n\nWelcome to Higashiyama Historic District. I'm your guide for today. This district has been designated as an Important Preservation District for Groups of Traditional Buildings by the Japanese government. The streets you see here have been maintained in their original form since the Edo period, which was roughly from 1600 to 1868. The cobblestone path ahead leads to three well-known temples within walking distance. Please be respectful of residents who still live in this area — this is not just a tourist site, but a living neighborhood. Photography is welcomed, but please refrain from entering private properties.\n\nこの観光地についての説明として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "大正時代から保存されてきた通りである" },
+      { "label": "B", "text": "江戸時代から続く街並みが保存されている" },
+      { "label": "C", "text": "すべての建物が観光施設として開放されている" },
+      { "label": "D", "text": "現在は人が住んでいない歴史的地区である" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-mo-020",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "standard",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nAttention, all third-year students. I'd like to talk about the requirements for graduation. To graduate, you must complete a total of 40 course credits. Of these, 20 must be from required subjects, including Japanese, Mathematics, English, and Physical Education. The remaining 20 credits may be earned through elective courses. In addition, you must have attended at least 75% of scheduled school days. Any student who falls below this attendance rate will need to meet with their homeroom teacher. The deadline for completing all credits is February 28th.\n\nこのアナウンスで卒業のために必要な条件として述べられているものはどれか。",
+    "choices": [
+      { "label": "A", "text": "授業日数の75%以上出席すること" },
+      { "label": "B", "text": "全科目で70点以上の成績を取ること" },
+      { "label": "C", "text": "卒業論文を提出すること" },
+      { "label": "D", "text": "部活動に1年以上所属すること" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-021",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次の講義を読んで、問いに答えなさい。\n\nToday, we've been discussing the effects of urban heat islands — the phenomenon where cities become significantly warmer than surrounding rural areas. This is caused by several factors: dark surfaces like asphalt and rooftops absorbing heat, reduced vegetation, and waste heat from buildings, vehicles, and air conditioning. Cities can be 1 to 3 degrees Celsius warmer on average, with differences as large as 12 degrees on calm, clear nights. What can we do about this? Researchers have found that increasing green spaces — parks, street trees, and even rooftop gardens — can significantly reduce temperatures. White or reflective roofing also helps. But perhaps the most important finding from recent studies is that public transportation reduces urban heat more effectively than any individual-level change, because it reduces both vehicle traffic and the need for additional parking, both of which contribute greatly to the heat island effect.\n\nこの講義で話者が最も伝えたいこととして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "都市の緑地を増やすことが唯一の解決策である" },
+      { "label": "B", "text": "公共交通機関の利用が都市熱島現象に最も効果的な対策である" },
+      { "label": "C", "text": "都市の気温は農村部より常に12度以上高い" },
+      { "label": "D", "text": "白い屋根材の普及が最も注目されている解決策である" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-mo-022",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次の健康講座を読んで、問いに答えなさい。\n\nGood morning. Today's health talk is about the benefits of regular physical activity. Regular exercise reduces the risk of heart disease, type 2 diabetes, and certain types of cancer. It also strengthens muscles and bones, improves mental health by reducing anxiety and depression, and helps maintain a healthy body weight. According to health guidelines, adults should aim for at least 150 minutes of moderate-intensity exercise per week, or 75 minutes of vigorous exercise. Studies also show that even short bursts of activity — like a 10-minute brisk walk — provide health benefits. However, it is important to note that exercise alone cannot prevent all diseases, and a balanced diet, adequate sleep, and regular medical checkups are equally important for overall health.\n\nこの講義の内容として述べられていないものはどれか。",
+    "choices": [
+      { "label": "A", "text": "定期的な運動は心臓病のリスクを下げる" },
+      { "label": "B", "text": "適度な運動は精神的健康にも効果がある" },
+      { "label": "C", "text": "週に150分以上の中程度の運動が推奨されている" },
+      { "label": "D", "text": "運動を毎日続ければすべての病気を予防できる" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-mo-023",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次の科学講義を読んで、問いに答えなさい。\n\nWhen we think about the origin of water on Earth, most people assume it has always been here. But scientists now believe that much of Earth's water was delivered by asteroids and comets billions of years ago. This theory is supported by comparing the chemical composition of water from comets and asteroids with Earth's oceans. Hydrogen isotope ratios — specifically the ratio of deuterium to ordinary hydrogen — match between certain types of asteroids, called carbonaceous chondrites, and Earth's water. This suggests that water-rich asteroids may have impacted early Earth, delivering the oceans we have today. However, some researchers argue that some water was also present during Earth's formation from the solar nebula, so the origin of Earth's water is likely a combination of both sources.\n\n話者が最も強調していることとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "地球の水はすべて太陽系の塵から生まれた" },
+      { "label": "B", "text": "重水素の比率は地球の水と炭素質コンドライトでは一致しない" },
+      { "label": "C", "text": "地球の水の多くは小惑星や彗星によってもたらされた可能性がある" },
+      { "label": "D", "text": "炭素質コンドライトは地球よりも水を多く含んでいる" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-024",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次の歴史講義を読んで、問いに答えなさい。\n\nToday, I want to talk about the Silk Road — the ancient network of trade routes that connected East Asia, Central Asia, the Middle East, and Europe. The Silk Road was not a single road, but a complex web of paths used by merchants, diplomats, and travelers for over a thousand years. Silk, of course, was one of the main goods traded. But the Silk Road carried much more than silk: spices, glassware, precious stones, and ideas also traveled along these routes. Buddhism, Islam, and Christianity all spread in part through Silk Road contact. Papermaking and printing techniques developed in China reached Europe via these trade networks. The Silk Road declined in importance in the 15th and 16th centuries as sea trade routes became more efficient.\n\nこの講義でシルクロードについて述べられていないこととして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "シルクロードの総延長距離は約10,000kmである" },
+      { "label": "B", "text": "絹だけでなくスパイスや宝石なども取引された" },
+      { "label": "C", "text": "仏教やイスラム教がシルクロードを通じて広まった" },
+      { "label": "D", "text": "中国の紙・印刷技術がヨーロッパに伝わった" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-025",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次のアナウンスを読んで、問いに答えなさい。\n\nHello, residents of Sakura Heights Apartment Complex. This is a message from the management office. Starting June 1st, new parking regulations will take effect. Each unit is entitled to one parking space. Additional spaces may be rented for 5,000 yen per month per space, subject to availability. Residents with two or more cars must register all vehicles at the management office by May 31st. Unregistered vehicles may be towed at the owner's expense after June 1st. Bicycles must be stored in the designated bicycle parking area on the east side of the building. Parking in front of the emergency exits is strictly prohibited at all times.\n\nこのアナウンスの内容として正しくないものはどれか。",
+    "choices": [
+      { "label": "A", "text": "1世帯につき1台分の駐車スペースが提供される" },
+      { "label": "B", "text": "追加の駐車スペースは月5,000円で借りることができる" },
+      { "label": "C", "text": "未登録の車両は6月1日以降に移動される場合がある" },
+      { "label": "D", "text": "自転車は建物の西側の駐輪場に置かなければならない" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-mo-026",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次の講義を読んで、問いに答えなさい。\n\nThroughout this lecture, we've examined how traditional festivals serve important social functions beyond mere entertainment. In many cultures, festivals mark seasonal transitions — harvest time, the new year, or changes in weather. They also provide opportunities for communities to reaffirm shared values and identities. In rapidly urbanizing societies, where people often move away from their hometown and traditional community structures weaken, festivals can serve as powerful anchors to cultural heritage. Moreover, studies on social capital suggest that communities with strong festival traditions show higher levels of trust, cooperation, and mutual support among residents. My conclusion, therefore, is that the decline of traditional festivals in modern society is not simply a loss of entertainment, but a potential weakening of social bonds that hold communities together.\n\nこの講義での話者の結論として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "伝統的な祭りの主な目的は農作物の豊作を祈ることである" },
+      { "label": "B", "text": "都市化によって新しい形の祭りが生まれている" },
+      { "label": "C", "text": "伝統的な祭りの衰退は地域社会の絆の弱体化につながる可能性がある" },
+      { "label": "D", "text": "現代社会では娯楽の選択肢が増えたため祭りの必要性はなくなりつつある" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-027",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次のスピーチを読んで、問いに答えなさい。\n\nI'd like to talk about something that has been debated in education for decades: homework. Many schools give students large amounts of homework, assuming that more practice leads to better results. However, research findings are more nuanced. Studies from primary and middle school levels consistently show little to no connection between homework load and academic achievement. At the high school level, there is a weak positive correlation, but only up to about 90 minutes per night — beyond that, the effects become negative. Too much homework is also linked to higher stress levels, less time for physical activity, and reduced sleep. Rather than simply assigning more work, the research suggests that quality of instruction and engagement during school hours has a far greater impact on learning outcomes.\n\nこのスピーチで話者が最も伝えたいこととして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "宿題の廃止が世界中の学校で進んでいる" },
+      { "label": "B", "text": "宿題よりも授業中の指導の質や関与の方が学習効果に大きく影響する" },
+      { "label": "C", "text": "高校生は毎日90分以上の宿題をするべきである" },
+      { "label": "D", "text": "家庭学習は小学生よりも中学生に効果的である" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-mo-028",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次のプラネタリウムの解説を読んで、問いに答えなさい。\n\nWelcome to the planetarium. Tonight's show is called 'The Life Cycle of Stars.' Stars are born from clouds of gas and dust called nebulae. Gravity pulls this material together until the center becomes so hot and dense that nuclear fusion begins — and a star is born. The lifespan of a star depends on its mass. Massive stars burn bright but fast, living only a few million years. Our sun, a medium-sized star, has a lifespan of about 10 billion years and is currently about halfway through its life. Small stars called red dwarfs can live for trillions of years. When massive stars exhaust their fuel, they can explode in spectacular supernovae, leaving behind neutron stars or black holes. Smaller stars like our sun will eventually expand into red giants, then shed their outer layers to become white dwarfs.\n\nこの解説で述べられていないこととして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "白色矮星は超新星爆発の後に形成される" },
+      { "label": "B", "text": "星は星雲と呼ばれるガスと塵の雲から誕生する" },
+      { "label": "C", "text": "太陽は現在その寿命のほぼ中間地点にある" },
+      { "label": "D", "text": "赤色矮星は数兆年間存在できる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-mo-029",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次の講義を読んで、問いに答えなさい。\n\nOver the past century, global biodiversity has declined at an alarming rate. Species are disappearing 1,000 times faster than the natural background rate. The main drivers include habitat destruction, climate change, pollution, invasive species, and overexploitation of wildlife. The Amazon rainforest has lost approximately 20% of its original area. Coral reefs, which support about 25% of all marine life despite covering less than 1% of the ocean floor, are being bleached by rising sea temperatures. Scientists warn that if current trends continue, we are heading toward a sixth mass extinction event. However, there is still hope. Studies show that when habitats are restored and protected, species can recover. The key insight from conservation biology is that protecting ecosystems as a whole — rather than focusing on individual species — is the most effective long-term strategy.\n\n話者が提示する最も重要な保全の結論として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "すべての絶滅危惧種を個別に保護することが唯一の解決策である" },
+      { "label": "B", "text": "アマゾンの熱帯雨林の回復に最優先で取り組むべきである" },
+      { "label": "C", "text": "生態系全体を保護することが最も効果的な長期的戦略である" },
+      { "label": "D", "text": "海洋生物を保護するためにサンゴ礁への立入を全面禁止すべきである" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-mo-030",
+    "subject": "英語",
+    "unit": "講義・モノローグ（リスニング）",
+    "difficulty": "exam",
+    "question": "次の講義を読んで、問いに答えなさい。\n\nToday I want to introduce you to the concept of cognitive biases — the systematic errors in thinking that affect our judgments and decisions. Confirmation bias is perhaps the most well-known: we tend to seek out and believe information that confirms what we already think, while ignoring contradictory evidence. Another important bias is the availability heuristic — we judge the likelihood of events based on how easily we can think of examples. For instance, people often overestimate the danger of plane crashes because they are dramatic and widely reported, while underestimating the much more common risk of car accidents. Anchoring bias occurs when we rely too heavily on the first piece of information we receive. In negotiations, the first number mentioned often has a strong influence on the final agreement. Understanding these biases is the first step toward making better, more rational decisions.\n\nこの講義で紹介された認知バイアスとして述べられていないものはどれか。",
+    "choices": [
+      { "label": "A", "text": "確証バイアス(自分の信念を確認する情報を好む傾向)" },
+      { "label": "B", "text": "利用可能性ヒューリスティック(思い浮かびやすい例で確率を判断する傾向)" },
+      { "label": "C", "text": "アンカリングバイアス(最初の情報に過度に依存する傾向)" },
+      { "label": "D", "text": "損失回避バイアス(同じ量の利益より損失を大きく感じる傾向)" }
+    ],
+    "correct": "D"
+  }
+]

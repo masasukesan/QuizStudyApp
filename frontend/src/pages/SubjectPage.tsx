@@ -364,14 +364,16 @@ export default function SubjectPage() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: '0 4px' }}>
             {[
               { key: 'math' as const,        emoji: '📐', label: '数学',           sub: 'Mathematics', note: '中学〜高校数学' },
-              { key: 'english' as const,    emoji: '📖', label: '英語',           sub: 'English',     note: '共通テスト対策' },
-              { key: 'programming' as const, emoji: '💻', label: 'プログラミング', sub: 'JavaScript',  note: 'JS基礎' },
+              { key: 'english' as const,         emoji: '📖', label: '英語（高校）', sub: 'English',     note: '共通テスト対策' },
+              { key: 'english-junior' as const,  emoji: '🔤', label: '英語（中学）', sub: 'English Jr.', note: '基礎〜高校受験' },
+              { key: 'programming' as const,     emoji: '💻', label: 'プログラミング', sub: 'JavaScript', note: 'JS基礎' },
             ].map(opt => (
               <button
                 key={opt.key}
                 onClick={() => {
                   if (opt.key === 'math') setSelectedSubject('math')
                   else if (opt.key === 'english') navigate('/course/english')
+                  else if (opt.key === 'english-junior') navigate('/course/english-junior')
                   else navigate('/course/programming')
                 }}
                 style={{

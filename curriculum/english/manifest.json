@@ -1,69 +1,18 @@
 {
   "subject": "english",
   "entries": [
-    {
-      "path": "reading/text-comprehension/short-text",
-      "course": "reading",
-      "unit": "text-comprehension",
-      "subunit": "short-text",
-      "name": "短文読解",
-      "en": "Short Text Comprehension",
-      "questionCount": 30
-    },
-    {
-      "path": "reading/text-comprehension/narrative",
-      "course": "reading",
-      "unit": "text-comprehension",
-      "subunit": "narrative",
-      "name": "物語・日記文読解",
-      "en": "Narrative Reading",
-      "questionCount": 30
-    },
-    {
-      "path": "reading/text-comprehension/opinion-essay",
-      "course": "reading",
-      "unit": "text-comprehension",
-      "subunit": "opinion-essay",
-      "name": "論説文・意見文読解",
-      "en": "Opinion Essay Reading",
-      "questionCount": 30
-    },
-    {
-      "path": "reading/text-comprehension/graph-and-table",
-      "course": "reading",
-      "unit": "text-comprehension",
-      "subunit": "graph-and-table",
-      "name": "図表付き文章読解",
-      "en": "Graph and Table Reading",
-      "questionCount": 30
-    },
-    {
-      "path": "reading/text-comprehension/multiple-text",
-      "course": "reading",
-      "unit": "text-comprehension",
-      "subunit": "multiple-text",
-      "name": "複数文章統合読解",
-      "en": "Multiple Text Reading",
-      "questionCount": 30
-    },
-    {
-      "path": "reading/text-comprehension/timeline-ordering",
-      "course": "reading",
-      "unit": "text-comprehension",
-      "subunit": "timeline-ordering",
-      "name": "時系列整理",
-      "en": "Timeline Ordering",
-      "questionCount": 30
-    },
-    {
-      "path": "reading/text-comprehension/note-completion",
-      "course": "reading",
-      "unit": "text-comprehension",
-      "subunit": "note-completion",
-      "name": "メモ・ポスター穴埋め",
-      "en": "Note and Poster Completion",
-      "questionCount": 30
-    }
+    {"path": "reading/text-comprehension/short-text","course": "reading","unit": "text-comprehension","subunit": "short-text","name": "短文読解","en": "Short Text Comprehension","questionCount": 30},
+    {"path": "reading/text-comprehension/narrative","course": "reading","unit": "text-comprehension","subunit": "narrative","name": "物語・日記文読解","en": "Narrative Reading","questionCount": 30},
+    {"path": "reading/text-comprehension/opinion-essay","course": "reading","unit": "text-comprehension","subunit": "opinion-essay","name": "論説文・意見文読解","en": "Opinion Essay Reading","questionCount": 30},
+    {"path": "reading/text-comprehension/graph-and-table","course": "reading","unit": "text-comprehension","subunit": "graph-and-table","name": "図表付き文章読解","en": "Graph and Table Reading","questionCount": 30},
+    {"path": "reading/text-comprehension/multiple-text","course": "reading","unit": "text-comprehension","subunit": "multiple-text","name": "複数文章統合読解","en": "Multiple Text Reading","questionCount": 30},
+    {"path": "reading/text-comprehension/timeline-ordering","course": "reading","unit": "text-comprehension","subunit": "timeline-ordering","name": "時系列整理","en": "Timeline Ordering","questionCount": 30},
+    {"path": "reading/text-comprehension/note-completion","course": "reading","unit": "text-comprehension","subunit": "note-completion","name": "メモ・ポスター穴埋め","en": "Note and Poster Completion","questionCount": 30},
+    {"path": "reading/vocabulary-grammar/vocabulary","course": "reading","unit": "vocabulary-grammar","subunit": "vocabulary","name": "語彙","en": "Vocabulary","questionCount": 30},
+    {"path": "reading/vocabulary-grammar/grammar","course": "reading","unit": "vocabulary-grammar","subunit": "grammar","name": "文法","en": "Grammar","questionCount": 30},
+    {"path": "listening/conversation/short-dialogue","course": "listening","unit": "conversation","subunit": "short-dialogue","name": "短い対話","en": "Short Dialogue","questionCount": 30},
+    {"path": "listening/conversation/long-dialogue","course": "listening","unit": "conversation","subunit": "long-dialogue","name": "長い対話","en": "Long Dialogue","questionCount": 30},
+    {"path": "listening/lecture/monologue","course": "listening","unit": "lecture","subunit": "monologue","name": "講義・モノローグ","en": "Monologue","questionCount": 30}
   ],
   "tree": [
     {
@@ -73,69 +22,39 @@
         {
           "unit": "text-comprehension",
           "subunits": [
-            {
-              "path": "reading/text-comprehension/short-text",
-              "course": "reading",
-              "unit": "text-comprehension",
-              "subunit": "short-text",
-              "name": "短文読解",
-              "en": "Short Text Comprehension",
-              "questionCount": 30
-            },
-            {
-              "path": "reading/text-comprehension/narrative",
-              "course": "reading",
-              "unit": "text-comprehension",
-              "subunit": "narrative",
-              "name": "物語・日記文読解",
-              "en": "Narrative Reading",
-              "questionCount": 30
-            },
-            {
-              "path": "reading/text-comprehension/opinion-essay",
-              "course": "reading",
-              "unit": "text-comprehension",
-              "subunit": "opinion-essay",
-              "name": "論説文・意見文読解",
-              "en": "Opinion Essay Reading",
-              "questionCount": 30
-            },
-            {
-              "path": "reading/text-comprehension/graph-and-table",
-              "course": "reading",
-              "unit": "text-comprehension",
-              "subunit": "graph-and-table",
-              "name": "図表付き文章読解",
-              "en": "Graph and Table Reading",
-              "questionCount": 30
-            },
-            {
-              "path": "reading/text-comprehension/multiple-text",
-              "course": "reading",
-              "unit": "text-comprehension",
-              "subunit": "multiple-text",
-              "name": "複数文章統合読解",
-              "en": "Multiple Text Reading",
-              "questionCount": 30
-            },
-            {
-              "path": "reading/text-comprehension/timeline-ordering",
-              "course": "reading",
-              "unit": "text-comprehension",
-              "subunit": "timeline-ordering",
-              "name": "時系列整理",
-              "en": "Timeline Ordering",
-              "questionCount": 30
-            },
-            {
-              "path": "reading/text-comprehension/note-completion",
-              "course": "reading",
-              "unit": "text-comprehension",
-              "subunit": "note-completion",
-              "name": "メモ・ポスター穴埋め",
-              "en": "Note and Poster Completion",
-              "questionCount": 30
-            }
+            {"path": "reading/text-comprehension/short-text","course": "reading","unit": "text-comprehension","subunit": "short-text","name": "短文読解","en": "Short Text Comprehension","questionCount": 30},
+            {"path": "reading/text-comprehension/narrative","course": "reading","unit": "text-comprehension","subunit": "narrative","name": "物語・日記文読解","en": "Narrative Reading","questionCount": 30},
+            {"path": "reading/text-comprehension/opinion-essay","course": "reading","unit": "text-comprehension","subunit": "opinion-essay","name": "論説文・意見文読解","en": "Opinion Essay Reading","questionCount": 30},
+            {"path": "reading/text-comprehension/graph-and-table","course": "reading","unit": "text-comprehension","subunit": "graph-and-table","name": "図表付き文章読解","en": "Graph and Table Reading","questionCount": 30},
+            {"path": "reading/text-comprehension/multiple-text","course": "reading","unit": "text-comprehension","subunit": "multiple-text","name": "複数文章統合読解","en": "Multiple Text Reading","questionCount": 30},
+            {"path": "reading/text-comprehension/timeline-ordering","course": "reading","unit": "text-comprehension","subunit": "timeline-ordering","name": "時系列整理","en": "Timeline Ordering","questionCount": 30},
+            {"path": "reading/text-comprehension/note-completion","course": "reading","unit": "text-comprehension","subunit": "note-completion","name": "メモ・ポスター穴埋め","en": "Note and Poster Completion","questionCount": 30}
+          ]
+        },
+        {
+          "unit": "vocabulary-grammar",
+          "subunits": [
+            {"path": "reading/vocabulary-grammar/vocabulary","course": "reading","unit": "vocabulary-grammar","subunit": "vocabulary","name": "語彙","en": "Vocabulary","questionCount": 30},
+            {"path": "reading/vocabulary-grammar/grammar","course": "reading","unit": "vocabulary-grammar","subunit": "grammar","name": "文法","en": "Grammar","questionCount": 30}
+          ]
+        }
+      ]
+    },
+    {
+      "course": "listening",
+      "name": "リスニング",
+      "units": [
+        {
+          "unit": "conversation",
+          "subunits": [
+            {"path": "listening/conversation/short-dialogue","course": "listening","unit": "conversation","subunit": "short-dialogue","name": "短い対話","en": "Short Dialogue","questionCount": 30},
+            {"path": "listening/conversation/long-dialogue","course": "listening","unit": "conversation","subunit": "long-dialogue","name": "長い対話","en": "Long Dialogue","questionCount": 30}
+          ]
+        },
+        {
+          "unit": "lecture",
+          "subunits": [
+            {"path": "listening/lecture/monologue","course": "listening","unit": "lecture","subunit": "monologue","name": "講義・モノローグ","en": "Monologue","questionCount": 30}
           ]
         }
       ]

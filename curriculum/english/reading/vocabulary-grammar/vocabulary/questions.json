@@ -1,0 +1,422 @@
+[
+  {
+    "id": "vocab-001",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nThe young athlete gave a 【remarkable】 performance at the national competition.",
+    "choices": [
+      { "label": "A", "text": "注目に値する・素晴らしい" },
+      { "label": "B", "text": "一般的な・平凡な" },
+      { "label": "C", "text": "予想外の・偶然の" },
+      { "label": "D", "text": "慎重な・注意深い" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vocab-002",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nShe was 【reluctant】 to share her opinion because she feared criticism.",
+    "choices": [
+      { "label": "A", "text": "積極的な・意欲的な" },
+      { "label": "B", "text": "強制された・しぶしぶの" },
+      { "label": "C", "text": "乗り気でない・気が進まない" },
+      { "label": "D", "text": "驚いた・衝撃を受けた" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-003",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nCopying the same data into hundreds of cells was a 【tedious】 task.",
+    "choices": [
+      { "label": "A", "text": "難しい・高度な" },
+      { "label": "B", "text": "退屈な・単調でうんざりする" },
+      { "label": "C", "text": "危険な・リスクのある" },
+      { "label": "D", "text": "緊急の・重要な" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vocab-004",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nMaria was a 【diligent】 student who reviewed her notes every evening.",
+    "choices": [
+      { "label": "A", "text": "怠惰な・努力しない" },
+      { "label": "B", "text": "賢い・頭の良い" },
+      { "label": "C", "text": "勤勉な・熱心に取り組む" },
+      { "label": "D", "text": "孤独な・内向的な" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-005",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nThe instructions were so 【ambiguous】 that nobody knew exactly what to do.",
+    "choices": [
+      { "label": "A", "text": "詳細な・細かい" },
+      { "label": "B", "text": "あいまいな・不明確な" },
+      { "label": "C", "text": "親切な・思いやりのある" },
+      { "label": "D", "text": "短すぎる・不十分な" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vocab-006",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nThe ancient vase was 【fragile】, so the museum staff moved it very carefully.",
+    "choices": [
+      { "label": "A", "text": "非常に重い・持ち上げにくい" },
+      { "label": "B", "text": "芸術的価値が高い" },
+      { "label": "C", "text": "壊れやすい・もろい" },
+      { "label": "D", "text": "巨大な・場所をとる" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-007",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nThe forest was 【abundant】 with wildlife, including deer, foxes, and many species of birds.",
+    "choices": [
+      { "label": "A", "text": "乏しい・ほとんどいない" },
+      { "label": "B", "text": "豊富な・たくさんの" },
+      { "label": "C", "text": "危険な・注意が必要な" },
+      { "label": "D", "text": "静かな・音がない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vocab-008",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nHe made a 【hasty】 decision without thinking about the long-term consequences.",
+    "choices": [
+      { "label": "A", "text": "正しい・理にかなった" },
+      { "label": "B", "text": "遅すぎる・慎重すぎる" },
+      { "label": "C", "text": "十分に検討された・慎重な" },
+      { "label": "D", "text": "性急な・拙速な" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vocab-009",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nThe view from the mountaintop at sunrise was truly 【magnificent】.",
+    "choices": [
+      { "label": "A", "text": "雄大な・壮麗な" },
+      { "label": "B", "text": "危険な・スリルのある" },
+      { "label": "C", "text": "遠くて到達が難しい" },
+      { "label": "D", "text": "冷たい・凍えるような" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vocab-010",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "basic",
+    "question": "次の英文の【　】内の語の意味として最も適切なものを選べ。\n\nThe amount of food prepared for the party was 【adequate】 for all the guests.",
+    "choices": [
+      { "label": "A", "text": "明らかに不足している" },
+      { "label": "B", "text": "多すぎて余ってしまう" },
+      { "label": "C", "text": "豪華で贅沢な" },
+      { "label": "D", "text": "十分な・必要を満たす" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vocab-011",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nMany companies are now changing the way they operate. They are trying to reduce waste and rely on renewable energy sources. This new approach is called a sustainable business practice. A company that runs this way can continue its activities far into the future without damaging the environment.\n\n下線部: sustainable",
+    "choices": [
+      { "label": "A", "text": "環境を壊さずに長期的に続けられる" },
+      { "label": "B", "text": "高い利益を生み出す・競争力のある" },
+      { "label": "C", "text": "短期間で成果を出せる・即効性のある" },
+      { "label": "D", "text": "政府によって法的に認可された" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vocab-012",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nThe engineering team spent two years developing a new product. Instead of using existing technology, they found an entirely new way to solve the problem. Their innovative design won several international awards and was praised by experts around the world.\n\n下線部: innovative",
+    "choices": [
+      { "label": "A", "text": "伝統的な・昔から受け継がれた" },
+      { "label": "B", "text": "経済的な・コストが低い" },
+      { "label": "C", "text": "革新的な・まったく新しい発想の" },
+      { "label": "D", "text": "わかりやすい・シンプルな" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-013",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nA recent study found that people who spend most of their day sitting at a desk are at greater risk for heart disease. Doctors warn that a sedentary lifestyle, with little physical activity, can lead to serious long-term health problems. They recommend taking short walks and doing gentle stretching throughout the day.\n\n下線部: sedentary",
+    "choices": [
+      { "label": "A", "text": "精神的なストレスが高い" },
+      { "label": "B", "text": "座ったままで身体をほとんど動かさない" },
+      { "label": "C", "text": "食事の量が過剰な・食べすぎの" },
+      { "label": "D", "text": "長時間働きすぎる・過労の" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vocab-014",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nAfter years of hard work and careful planning, the small bakery became a thriving business. Every morning, long lines of customers waited outside the door. The owner eventually expanded the shop and hired five new employees.\n\n下線部: thriving",
+    "choices": [
+      { "label": "A", "text": "経営難に直面している・苦しんでいる" },
+      { "label": "B", "text": "地域で有名になった・話題の" },
+      { "label": "C", "text": "閉店を余儀なくされた" },
+      { "label": "D", "text": "非常に繁盛している・活気にあふれた" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vocab-015",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nThe school principal gave a speech at the graduation ceremony. Her words were clear, moving, and beautifully organized. Everyone in the audience was deeply impressed by her eloquent delivery. Many students later said it was the most inspiring speech they had ever heard.\n\n下線部: eloquent",
+    "choices": [
+      { "label": "A", "text": "雄弁な・言葉で人を動かす力がある" },
+      { "label": "B", "text": "長すぎて退屈な・冗長な" },
+      { "label": "C", "text": "声が大きすぎて耳障りな" },
+      { "label": "D", "text": "論理に一貫性がない・支離滅裂な" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vocab-016",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nWhen the company announced that its new medicine could cure the common cold in a single day, many scientists were skeptical. They said the results seemed too good to be true and called for more independent research before anyone could trust the claim.\n\n下線部: skeptical",
+    "choices": [
+      { "label": "A", "text": "大いに興奮した・期待を高めた" },
+      { "label": "B", "text": "懐疑的な・本当かどうか疑いを持った" },
+      { "label": "C", "text": "その成果に賛成した・支持した" },
+      { "label": "D", "text": "まったく無関心な・興味を持たない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vocab-017",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nThe artist painted a large canvas using bold colors and sharp contrasts. The finished work was vivid and striking, immediately drawing the eyes of everyone who entered the gallery. Visitors said they could almost feel the energy coming from the painting.\n\n下線部: vivid",
+    "choices": [
+      { "label": "A", "text": "暗くて陰気な・重苦しい" },
+      { "label": "B", "text": "単調な・変化に乏しい" },
+      { "label": "C", "text": "色彩が豊かで鮮明な・生き生きとした" },
+      { "label": "D", "text": "細かすぎて複雑な・わかりにくい" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-018",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nSmartphone use among teenagers has become more prevalent in recent years. According to a survey, over 90 percent of students between the ages of 13 and 17 now own a smartphone. This widespread use has raised questions about the effects of social media on young people's mental health.\n\n下線部: prevalent",
+    "choices": [
+      { "label": "A", "text": "社会的に危険視されている" },
+      { "label": "B", "text": "費用が非常にかかる" },
+      { "label": "C", "text": "急速に変化しつつある" },
+      { "label": "D", "text": "広く普及している・一般的になっている" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vocab-019",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nThe two photographs looked almost identical at first glance. However, a careful observer could notice subtle differences: the shadows fell at slightly different angles, and one image had a faint blue tint that the other lacked.\n\n下線部: subtle",
+    "choices": [
+      { "label": "A", "text": "微妙な・注意しないと気づかないほど小さい" },
+      { "label": "B", "text": "明らかな・一目でわかるほどはっきりした" },
+      { "label": "C", "text": "意図的に作り込まれた・人工的な" },
+      { "label": "D", "text": "自然に生じた・偶然できた" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vocab-020",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "standard",
+    "question": "次の英文を読み、下線部の語の意味として最も適切なものを選べ。\n\nAfter months of debate, the committee finally acknowledged that the original plan had serious flaws. Rather than continuing to defend their decisions, they admitted the mistakes and agreed to redesign the project from the beginning.\n\n下線部: acknowledged",
+    "choices": [
+      { "label": "A", "text": "隠し続けた・公表しなかった" },
+      { "label": "B", "text": "完全に無視した・見て見ぬふりをした" },
+      { "label": "C", "text": "認めた・事実として受け入れた" },
+      { "label": "D", "text": "厳しく批判した・非難した" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-021",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nThe judge made sure that each team received a fair amount of time to present their argument.\n\n下線部: fair",
+    "choices": [
+      { "label": "A", "text": "色が薄い・髪の毛が明るい" },
+      { "label": "B", "text": "適切な・公平な・偏りのない" },
+      { "label": "C", "text": "市や縁日などの屋外イベント" },
+      { "label": "D", "text": "晴れた・天気が良い" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vocab-022",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nBefore investing your savings, you should seek sound financial advice from a qualified professional.\n\n下線部: sound",
+    "choices": [
+      { "label": "A", "text": "確かな・信頼できる・根拠のある" },
+      { "label": "B", "text": "音・騒音・響き" },
+      { "label": "C", "text": "ぐっすり眠っている" },
+      { "label": "D", "text": "海峡・入り江などの水路" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vocab-023",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nDespite pressure from several members of the group, the team leader remained firm in her decision not to change the schedule.\n\n下線部: firm",
+    "choices": [
+      { "label": "A", "text": "柔らかい・やわらかな質感の" },
+      { "label": "B", "text": "有名な企業・商社" },
+      { "label": "C", "text": "固い・硬い - 物体の質感" },
+      { "label": "D", "text": "揺るぎない・断固とした・変わらない" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vocab-024",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nThe young woman bore the stress of the final exam week with remarkable patience.\n\n下線部: bore（bear の過去形）",
+    "choices": [
+      { "label": "A", "text": "クマをそこへ連れていった" },
+      { "label": "B", "text": "子どもや果実などを生み出した" },
+      { "label": "C", "text": "困難や苦痛を耐え忍んだ・引き受けた" },
+      { "label": "D", "text": "穴を掘った・くり抜いた" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-025",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nThe hospital will charge you a separate fee for the use of medical equipment during your stay.\n\n下線部: charge",
+    "choices": [
+      { "label": "A", "text": "料金を請求する" },
+      { "label": "B", "text": "バッテリーを充電する" },
+      { "label": "C", "text": "急いで突進する・勢いよく進む" },
+      { "label": "D", "text": "罪を告発する・訴える" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vocab-026",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nThe science magazine will feature a series of interviews with leading researchers next month.\n\n下線部: feature",
+    "choices": [
+      { "label": "A", "text": "特徴・特性" },
+      { "label": "B", "text": "顔の特徴・パーツ" },
+      { "label": "C", "text": "製品の機能・仕様" },
+      { "label": "D", "text": "特集として取り上げる・掲載する" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vocab-027",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nDrivers who park in bus lanes during rush hour may receive a fine of up to 10,000 yen.\n\n下線部: fine",
+    "choices": [
+      { "label": "A", "text": "素晴らしい・申し分ない" },
+      { "label": "B", "text": "細かい・薄い・きめ細かな" },
+      { "label": "C", "text": "罰金" },
+      { "label": "D", "text": "天気が良い・晴れた" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vocab-028",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nThe colorful posters in the shop window drew many curious shoppers inside.\n\n下線部: drew（draw の過去形）",
+    "choices": [
+      { "label": "A", "text": "絵を描いた" },
+      { "label": "B", "text": "引き付けた・引き寄せた" },
+      { "label": "C", "text": "引き出した・取り出した" },
+      { "label": "D", "text": "試合が引き分けになった" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vocab-029",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nPlease arrange the following events in the correct chronological order.\n\n下線部: order",
+    "choices": [
+      { "label": "A", "text": "注文・オーダー" },
+      { "label": "B", "text": "命令・指示" },
+      { "label": "C", "text": "秩序・規律・正常な状態" },
+      { "label": "D", "text": "順序・並び・配列" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vocab-030",
+    "subject": "英語",
+    "unit": "語彙",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の語は複数の意味を持つ。この文脈での意味として最も適切なものを選べ。\n\nIn her opening speech, the president chose to address the recent rise in unemployment rates directly.\n\n下線部: address",
+    "choices": [
+      { "label": "A", "text": "問題や課題に取り組む・論じる" },
+      { "label": "B", "text": "住所・所在地" },
+      { "label": "C", "text": "宛名を書く・郵便物の表書きをする" },
+      { "label": "D", "text": "スピーチ・式辞・演説" }
+    ],
+    "correct": "A"
+  }
+]

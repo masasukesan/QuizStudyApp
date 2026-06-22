@@ -278,4 +278,73 @@ function handleSpeak() {
   if (!window.speechSynthesis) return
   if (isSpeaking) {
     window.speechSynthesis.cancel()
-    setIsSp
+    setIsSpeaking(false)
+    return
+  }
+  const textToRead = extractEnglishPassage(question.question)
+  const utter = new SpeechSynthesisUtterance(textToRead)
+  utter.lang = 'en-US'
+  utter.rate = 0.85
+  setIsSpeaking(true)
+  utter.onend = () => setIsSpeaking(false)
+  utter.onerror = () => setIsSpeaking(false)
+  window.speechSynthesis.speak(utter)
+}
+
+// 表示条件
+{(isListening || subject === 'english') && (
+  <button className={`${styles.speakBtn} ${isSpeaking ? styles.speakBtnActive : ''}`}
+    onClick={handleSpeak}
+    aria-label={isSpeaking ? '停止' : '英文を音声で聞く'}>
+    <span className={styles.speakBtnIcon}>{isSpeaking ? '⏹' : '🔊'}</span>
+    <span className={styles.speakBtnText}>{isSpeaking ? '停止' : '英文を聞く'}</span>
+  </button>
+)}
+```
+
+### 和訳表示（`translation` フィールド）
+
+解説パネルで `exp.translation` が存在する場合、`expLead` の前に全文和訳を表示する：
+
+```tsx
+{exp.translation && (
+  <div className={styles.expTranslation}>
+    <p className={styles.expTranslationLabel}>📖 全文和訳</p>
+    <p className={styles.expTranslationText}>{exp.translation}</p>
+  </div>
+)}
+```
+
+CSSクラス（`QuizPage.module.css`に実装済み）：`.expTranslation` `.expTranslationLabel` `.expTranslationText`
+
+### `ExplanationEntry` インターフェース
+
+```typescript
+interface ExplanationEntry {
+  lead: string
+  steps?: string | string[]
+  common_mistakes?: string | string[]
+  wrong_answers?: Record<string, string>
+  tips?: string | string[]
+  translation?: string   // 英文パッセージの全文和訳（英語単元のみ）
+}
+```
+
+---
+
+# ■ 禁止事項
+
+- TypeScript の `any` 型を使用する
+- Supabase の `service_role` キーをフロントエンドに記述する
+- Supabase SDK を使わず直接 fetch で DB にアクセスする
+- `localStorage` にユーザーの成績・学習データを保存する（DB に保存すること）
+- React 以外の UI フレームワークを導入する（Vue / Angular / Svelte 等）
+- TanStack Query を使わずに useState で API の結果を管理する
+- ライセンス未確認の npm パッケージを導入する
+
+---
+
+# ■ 最終目的
+
+**「型安全で・バグなく・軽快に動くフロントエンドを実装し、  
+勉強が苦手な子でも直感的に使えるアプリを技術の力で支える。」**

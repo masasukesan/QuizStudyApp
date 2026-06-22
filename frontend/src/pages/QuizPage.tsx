@@ -810,8 +810,8 @@ export default function QuizPage() {
         )}
         <span className={styles.subjectLabel}>
           {{
-            math: '数学', english: 'English', japanese: '国語',
-            kokugo: '国語', science: '理科', social: '社会',
+            math: '数学', english: 'English', 'english-junior': 'English Jr.',
+            japanese: '国語', kokugo: '国語', science: '理科', social: '社会',
             weakpoint: '弱点克服', minikyotei: '小さな共テ',
           }[subject ?? ''] ?? 'Quiz'}
         </span>
@@ -868,7 +868,7 @@ export default function QuizPage() {
         <p className={styles.questionText}><MathText text={question.question} /></p>
 
         {/* 音声再生ボタン（英語単元・リスニング単元に表示） */}
-        {(isListening || subject === 'english') && (
+        {(isListening || subject === 'english' || subject === 'english-junior') && (
           <button
             className={`${styles.speakBtn} ${isSpeaking ? styles.speakBtnActive : ''}`}
             onClick={handleSpeak}
@@ -1016,4 +1016,35 @@ export default function QuizPage() {
             })()}
 
             {/* AI チャット（準備完了・非表示中）有効化: false → true に変更 */}
-            {false 
+            {false && (() => {
+              const exp = explanations[question.id]
+              const explanationText = exp
+                ? [exp.lead, ...(exp.steps ?? [])].join(' ')
+                : ''
+              const correctChoice = question.choices.find(c => c.label === question.correct)
+              return (
+                <AIChat
+                  question={question.question}
+                  choices={question.choices}
+                  correctLabel={correctChoice?.text ?? question.correct}
+                  explanationText={explanationText}
+                />
+              )
+            })()}
+
+            {/* ボタン群 */}
+            <div className={styles.expBtnRow}>
+              <button className={styles.expCloseBtn} onClick={() => setPhase('reviewed')}>
+                問題に戻る
+              </button>
+              <button className={styles.nextBtn} onClick={handleNextQuestion}>
+                {currentIndex + 1 >= totalQ ? '結果を見る' : '次の問題へ'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+    </div>
+  )
+}

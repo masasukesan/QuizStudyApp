@@ -1,0 +1,120 @@
+{
+  "unit_id": "monologue",
+  "unit_name_jp": "講義・モノローグ（リスニング）",
+  "grade": "英語リスニング（共通テスト第4・5問相当）",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "topic-identification",
+      "description": "アナウンス・講義・スピーチ全体の主なトピックや目的を問う。冒頭と結びを意識して聞くことが重要。",
+      "thinking_process": [
+        "放送の冒頭でどのような状況・場所・目的が示されているか確認する",
+        "繰り返し述べられているキーワードや表現に注目する",
+        "選択肢と照らし合わせて、全体のメッセージと一致するものを選ぶ"
+      ],
+      "common_mistakes": [
+        "細部の情報だけに反応して、全体の目的を見失う",
+        "冒頭の1文だけで判断してしまい、後半の重要情報を見落とす"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "location-situation",
+      "description": "放送が行われている場所・状況・話者の関係などを問う。文脈から推測する力を試す。",
+      "thinking_process": [
+        "使われている語彙（ticket、boarding pass など）から状況を推測する",
+        "話者の役割（案内係・店員・教師など）を特定する",
+        "選択肢の中で最も自然な場面設定はどれかを判断する"
+      ],
+      "common_mistakes": [
+        "出てきた単語の表面的な意味だけで場所を判断してしまう",
+        "複数の場所候補が浮かぶとき、文脈全体を確認せず答える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "detail-verification",
+      "description": "具体的な数値・日付・条件などの詳細を問う。放送中に言及される複数の数字の中から正しいものを選ぶ。",
+      "thinking_process": [
+        "設問を先に読み、どの情報（日時・数値・人物など）に注意すべきかを確認する",
+        "放送中に登場する数値や条件をメモしながら聞く",
+        "混乱しやすい近い数値が誤答として並ぶので、文脈での説明と照合する"
+      ],
+      "common_mistakes": [
+        "放送内の別の数値（近い値）を選んでしまう",
+        "条件文（only for〜、except〜）を読み飛ばして誤答する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "condition-requirement",
+      "description": "特定の条件・要件・規則を問う。「〜しなければならない」「〜だけが対象」などの制限表現が重要。",
+      "thinking_process": [
+        "must、only、required、prohibited などの限定・義務表現に注目する",
+        "だれが・いつ・何をすべきかの組み合わせを整理する",
+        "選択肢の一部だけが正しくても全体として正確でない場合に注意する"
+      ],
+      "common_mistakes": [
+        "全員向けのルールと一部対象のルールを混同する",
+        "否定表現（not allowed、prohibited）を見落として逆の内容を選ぶ"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sequence-timeline",
+      "description": "手順・スケジュール・期限の順序を問う。複数の日付や段取りが登場する放送形式。",
+      "thinking_process": [
+        "登場する日付・期限・手順をリストアップしながら聞く",
+        "before・by・after・until などの時間関係語に注目する",
+        "設問が「どの期限か」「何番目の手順か」を問うているかを確認する"
+      ],
+      "common_mistakes": [
+        "最終日と中間期限を混同する",
+        "複数の日程のうち関係ない日付を選んでしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "conclusion-main-claim",
+      "description": "講義・スピーチの結論や話者が最も伝えたいことを問う。全体の論旨の流れをつかむ必要がある。",
+      "thinking_process": [
+        "however・therefore・in conclusion などの論理語に注目する",
+        "繰り返し強調されているテーマや価値観は何かを意識する",
+        "結論は「最後の段落」や「however以降」にくることが多い"
+      ],
+      "common_mistakes": [
+        "具体例を話者の主張と混同する",
+        "冒頭の問題提起を結論と判断してしまう"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "not-problem",
+      "description": "「述べられていないこと」「正しくないこと」を選ぶNOT問題。本文と選択肢を細かく照合する。",
+      "thinking_process": [
+        "設問の「述べられていないもの」「正しくないもの」というキーワードを見落とさない",
+        "選択肢A〜Dを一つずつ本文と照合し、根拠が見つかるものを除外していく",
+        "残った選択肢が答えになるが、放送中に矛盾する記述がないか再確認する"
+      ],
+      "common_mistakes": [
+        "「述べられていた内容」を正解と勘違いしてしまう（問題文の読み違い）",
+        "放送中に言及された細部の数値を変えた選択肢を見逃す"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "speaker-intent",
+      "description": "話者の立場・意図・態度を推論する問題。直接述べられていない情報を文脈から読み取る。",
+      "thinking_process": [
+        "話者の立場（専門家・案内係・教師など）を最初に特定する",
+        "話者が批判・推奨・警告のどれをしているかを判断する",
+        "感情や評価を示す表現（fortunately、surprisingly など）にも注目する"
+      ],
+      "common_mistakes": [
+        "話者の言葉をそのまま受け取り、皮肉や強調の意図を見落とす",
+        "放送の一部の表現だけで話者の全体的な態度を判断してしまう"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

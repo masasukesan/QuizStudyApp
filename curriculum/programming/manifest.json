@@ -62,7 +62,7 @@
       "subunit": "logical-operators",
       "name": "論理演算子（&& / || / ! / ??）",
       "en": "Logical Operators",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/control-flow/if-else",
@@ -269,7 +269,7 @@
               "subunit": "logical-operators",
               "name": "論理演算子（&& / || / ! / ??）",
               "en": "Logical Operators",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         },

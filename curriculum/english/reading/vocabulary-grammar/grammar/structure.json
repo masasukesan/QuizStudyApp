@@ -1,0 +1,134 @@
+{
+  "unit_id": "grammar",
+  "unit_name_jp": "文法",
+  "grade": "英語（共通テスト）",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "tense-selection",
+      "description": "時制（現在・過去・現在完了・過去完了・未来）の使い分けを問う。文脈の時間軸を正確に把握し、適切な時制を選ぶ。",
+      "thinking_process": [
+        "文中の時を表す表現（yesterday, since, for, by the time など）を確認する",
+        "動作・状態が「いつ起きたか」「どのくらい続いているか」「いつ完了したか」を整理する",
+        "4つの時制の違い（現在完了 vs 過去形、過去完了 vs 過去形）を比較して正しいものを選ぶ"
+      ],
+      "common_mistakes": [
+        "since や for を使う文で現在形を選んでしまう（現在完了が正解）",
+        "過去の出来事の前後関係を無視して単純過去形を選ぶ（過去完了が必要な場合）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "part-of-speech",
+      "description": "空所に入る語の品詞（名詞・形容詞・副詞・動詞）を文構造から判断し、適切な形の語を選ぶ。",
+      "thinking_process": [
+        "空所の位置（主語・述語・修飾語・補語）を文構造から確認する",
+        "空所の前後にある冠詞・前置詞・動詞・形容詞などのヒントから必要な品詞を特定する",
+        "4つの選択肢の品詞をそれぞれ確認し、文構造に合うものを選ぶ"
+      ],
+      "common_mistakes": [
+        "語尾が似ている派生語（-tion / -tive / -tively / -tional）を品詞確認なしに選ぶ",
+        "形容詞と副詞を混同して選ぶ（例: beautiful vs. beautifully）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "article-and-determiner",
+      "description": "冠詞（a/an/the）または無冠詞の使い分けを問う。名詞の数・特定性・初出か再出かを判断する。",
+      "thinking_process": [
+        "名詞が可算か不可算かを確認する",
+        "文脈で「初出（不特定）」か「再出（特定）」かを判断する",
+        "固有名詞・抽象名詞・物質名詞など冠詞不要な場合との区別をする"
+      ],
+      "common_mistakes": [
+        "再出の名詞なのに a を選ぶ（the が正解）",
+        "固有名詞に the を付けてしまう（不要な場合が多い）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "conjunction-choice",
+      "description": "接続詞（although, because, unless, while, so that など）の意味・用法の違いを問う。2つの節の論理関係（逆接・理由・条件・目的・対比）を正確に読み取る。",
+      "thinking_process": [
+        "2つの節の内容をそれぞれ把握する",
+        "2つの節の関係（逆接か？理由か？条件か？目的か？）を論理的に判断する",
+        "各接続詞の意味と一致する関係を選ぶ"
+      ],
+      "common_mistakes": [
+        "although と because を混同する（逆接か理由かの区別）",
+        "unless を if not と同義と理解せず、文脈と合わない接続詞を選ぶ"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "relative-clause",
+      "description": "関係詞（who, which, that, whose, where, when, why）の使い分けを問う。先行詞の種類・関係詞節内での役割（主格・目的格・所有格など）を確認する。",
+      "thinking_process": [
+        "先行詞が人か物か場所か時か理由かを確認する",
+        "関係詞節内での役割（主語・目的語・所有格・副詞的修飾）を特定する",
+        "制限用法か非制限用法かを判断する（カンマの有無を確認）"
+      ],
+      "common_mistakes": [
+        "先行詞が人なのに which を選ぶ（who または that が正解）",
+        "関係詞節内で主格が必要なのに目的格形の関係詞（whom）を選ぶ"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "subjunctive-mood",
+      "description": "仮定法（仮定法過去・仮定法過去完了・mixed conditional）の形を問う。事実と反対の仮定を表す文の動詞形を正しく選ぶ。",
+      "thinking_process": [
+        "if節が「現実に反する仮定」か「実現可能な条件」かを文脈から判断する",
+        "時制（現在の反事実か過去の反事実か）を確認する",
+        "if節とmain節の動詞形の対応（were/would / had+pp/would have+pp）を確認する"
+      ],
+      "common_mistakes": [
+        "仮定法過去なのに if 節に was を使う（were が正解）",
+        "仮定法過去完了のmain節で would + 動詞原形を使う（would have + pp が正解）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "inversion-emphasis",
+      "description": "倒置（否定語句の強調・so/neither 倒置・形式主語）や強調構文（It is ... that ...）が使われた文の構造を理解し、正しい語順・動詞形を選ぶ。",
+      "thinking_process": [
+        "文頭に否定語（Never, Not only, Rarely, No sooner など）があれば倒置が起きることを確認する",
+        "強調構文（It is ... that ...）は強調したい要素と that 節の対応を確認する",
+        "助動詞の位置・主語との一致など語順のルールを確認する"
+      ],
+      "common_mistakes": [
+        "文頭の否定語に気づかず通常語順の選択肢を選ぶ",
+        "強調構文の that 節から強調要素を取り除いた文が完全かどうか確認しない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "ellipsis-substitution",
+      "description": "省略（do so, so do I, neither did she など）や代用表現（one, ones, do so, that of など）が使われた文を正しく解釈し、空所に入る適切な表現を選ぶ。",
+      "thinking_process": [
+        "省略・代用が何を指しているかを前の文から特定する",
+        "so / do so / one / ones の使い方（可算・不可算、動作の省略）を確認する",
+        "neither/so の倒置構文の意味（同意の否定・同意の肯定）を正確に解釈する"
+      ],
+      "common_mistakes": [
+        "one を特定の名詞の代わりに使う場合と、it（特定の物）を使う場合を混同する",
+        "so do I と so I do の意味の違いを区別できない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "complex-sentence-structure",
+      "description": "分詞構文・独立分詞構文・付帯状況（with + 名詞 + 分詞）など複雑な構文の意味・形を問う。",
+      "thinking_process": [
+        "分詞の意味上の主語が主節の主語と一致するかを確認する",
+        "分詞構文が「時・理由・条件・譲歩・付帯状況」のどの関係を表すかを文脈から判断する",
+        "being / having + pp の形から時制のずれ（完了分詞構文）を読み取る"
+      ],
+      "common_mistakes": [
+        "独立分詞構文で分詞の意味上の主語が主節主語と違うことを見落とす（垂れ下がり分詞）",
+        "having + pp（完了分詞）と being + pp（受動分詞）の使い方を混同する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

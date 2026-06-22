@@ -1083,4 +1083,30 @@
 .expCloseBtn:hover {
   background: var(--sq-burgundy-wash);
 }
-.expCloseBtn:a
+.expCloseBtn:active {
+  background: rgba(123,46,46,0.1);
+}
+
+/* 次の問題へ（メイン） */
+.nextBtn {
+  flex: 1;
+  padding: 13px 20px;
+  background: var(--sq-burgundy);
+  border: none;
+  border-radius: 0;
+  font-family: var(--font-serif-jp);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--sq-gold-light);
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.12s;
+  /* 下辺に金の細線 */
+  box-shadow: inset 0 -2px 0 var(--sq-gold);
+}
+.nextBtn:hover {
+  background: var(--sq-burgundy-deep);
+}
+.nextBtn:active {
+  transform: scale(0.98);
+}

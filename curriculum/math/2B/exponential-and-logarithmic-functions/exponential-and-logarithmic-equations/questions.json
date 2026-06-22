@@ -267,7 +267,7 @@
         },
         {
           "label": "B",
-          "text": "x>log₂4=2(正解に至る式だが途中を省略)"
+          "text": "x>log₄2=1/2"
         },
         {
           "label": "C",
@@ -467,7 +467,7 @@
         },
         {
           "label": "C",
-          "text": "x=log10 3/log10 2(底の変換後の形だが log₂3 が正しい)"
+          "text": "x=log₁₀3/log₁₀4"
         },
         {
           "label": "D",
@@ -606,7 +606,7 @@
         },
         {
           "label": "C",
-          "text": "2log₅x−log₅x=log₅x=2 → x=25(真数条件 x>0)"
+          "text": "2log₅x−log₅x=log₅x=2 → x=25"
         },
         {
           "label": "D",
@@ -626,7 +626,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "(2ˣ)²−6×2ˣ+8=0。t=2ˣ → t²−6t+8=0 → t=4 or t=2 → x=2 or x=1"
+          "text": "t=2ˣ → t²−6t+8=0 → x=1 or x=2"
         },
         {
           "label": "B",
@@ -650,11 +650,11 @@
     {
       "id": "ele-024",
       "difficulty": "exam",
-      "question": "log₁₀2=0.301 を使い、3²⁰ の桁数として正しいものはどれか。",
+      "question": "log₁₀3=0.477 を使い、3²⁰ の桁数として正しいものはどれか。",
       "choices": [
         {
           "label": "A",
-          "text": "log₁₀(3²⁰)=20log₁₀3=20×0.477=9.54 → 10 桁"
+          "text": "log₁₀(3²⁰)=9.54 → 10 桁"
         },
         {
           "label": "B",
@@ -686,7 +686,7 @@
         },
         {
           "label": "B",
-          "text": "両辺の常用対数 → (x+1)log2<x log3 → x log2+log2<x log3 → x(log3−log2)>log2 → x>log2/(log3−log2)"
+          "text": "(x+1)log2<x log3 → x>log2/(log3−log2)"
         },
         {
           "label": "C",
@@ -718,7 +718,7 @@
         },
         {
           "label": "C",
-          "text": "t=2ˣ として t²=2t+8 → t²−2t−8=0 → (t+2)(t−4)=0 → t=4 → x=2"
+          "text": "t=2ˣ → t²−2t−8=0 → t=4 → x=2"
         },
         {
           "label": "D",
@@ -738,7 +738,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "log₂x<log₃x → x=1 が境界(両辺=0)。x>1 のとき log₂x>log₃x(log₂>log₃)なので x<1 で成立。0<x<1"
+          "text": "x=1 が境界(両辺=0) → 0<x<1 で成立"
         },
         {
           "label": "B",
@@ -778,7 +778,7 @@
         },
         {
           "label": "D",
-          "text": "両辺対数 → (log₂x)²=3 → log₂x=±√3 → x=2^(√3) または x=2^(−√3)"
+          "text": "(log₂x)²=3 → log₂x=±√3 → x=2^(±√3)"
         }
       ],
       "correct": "D",
@@ -802,7 +802,7 @@
         },
         {
           "label": "C",
-          "text": "(x+3)(x−1)=5 → x²+2x−8=0 → x=2(真数条件 x>1 より)"
+          "text": "(x+3)(x−1)=5 → x²+2x−8=0 → x=2"
         },
         {
           "label": "D",

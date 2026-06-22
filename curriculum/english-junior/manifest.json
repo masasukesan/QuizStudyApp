@@ -1,0 +1,205 @@
+{
+  "subject": "english-junior",
+  "entries": [
+    {
+      "path": "reading/text-comprehension/short-text",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "short-text",
+      "name": "短文読解",
+      "en": "Short Text",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/text-comprehension/dialogue",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "dialogue",
+      "name": "対話文読解",
+      "en": "Dialogue Reading",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/text-comprehension/narrative",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "narrative",
+      "name": "物語・日記文読解",
+      "en": "Narrative Reading",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/text-comprehension/opinion-essay",
+      "course": "reading",
+      "unit": "text-comprehension",
+      "subunit": "opinion-essay",
+      "name": "意見文・メール読解",
+      "en": "Opinion & Email",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/vocabulary-grammar/grammar-g1",
+      "course": "reading",
+      "unit": "vocabulary-grammar",
+      "subunit": "grammar-g1",
+      "name": "中1文法",
+      "en": "Grammar G1",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/vocabulary-grammar/grammar-g2",
+      "course": "reading",
+      "unit": "vocabulary-grammar",
+      "subunit": "grammar-g2",
+      "name": "中2文法",
+      "en": "Grammar G2",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/vocabulary-grammar/grammar-g3",
+      "course": "reading",
+      "unit": "vocabulary-grammar",
+      "subunit": "grammar-g3",
+      "name": "中3文法",
+      "en": "Grammar G3",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/vocabulary-grammar/vocabulary-g1",
+      "course": "reading",
+      "unit": "vocabulary-grammar",
+      "subunit": "vocabulary-g1",
+      "name": "中1単語テスト",
+      "en": "Vocabulary G1",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/vocabulary-grammar/vocabulary-g2",
+      "course": "reading",
+      "unit": "vocabulary-grammar",
+      "subunit": "vocabulary-g2",
+      "name": "中2単語テスト",
+      "en": "Vocabulary G2",
+      "questionCount": 0
+    },
+    {
+      "path": "reading/vocabulary-grammar/vocabulary-g3",
+      "course": "reading",
+      "unit": "vocabulary-grammar",
+      "subunit": "vocabulary-g3",
+      "name": "中3単語テスト",
+      "en": "Vocabulary G3",
+      "questionCount": 0
+    }
+  ],
+  "tree": [
+    {
+      "course": "reading",
+      "name": "リーディング",
+      "units": [
+        {
+          "unit": "text-comprehension",
+          "name": "読解",
+          "subunits": [
+            {
+              "path": "reading/text-comprehension/short-text",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "short-text",
+              "name": "短文読解",
+              "en": "Short Text",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/text-comprehension/dialogue",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "dialogue",
+              "name": "対話文読解",
+              "en": "Dialogue Reading",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/text-comprehension/narrative",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "narrative",
+              "name": "物語・日記文読解",
+              "en": "Narrative Reading",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/text-comprehension/opinion-essay",
+              "course": "reading",
+              "unit": "text-comprehension",
+              "subunit": "opinion-essay",
+              "name": "意見文・メール読解",
+              "en": "Opinion & Email",
+              "questionCount": 0
+            }
+          ]
+        },
+        {
+          "unit": "vocabulary-grammar",
+          "name": "語彙・文法",
+          "subunits": [
+            {
+              "path": "reading/vocabulary-grammar/grammar-g1",
+              "course": "reading",
+              "unit": "vocabulary-grammar",
+              "subunit": "grammar-g1",
+              "name": "中1文法",
+              "en": "Grammar G1",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/vocabulary-grammar/grammar-g2",
+              "course": "reading",
+              "unit": "vocabulary-grammar",
+              "subunit": "grammar-g2",
+              "name": "中2文法",
+              "en": "Grammar G2",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/vocabulary-grammar/grammar-g3",
+              "course": "reading",
+              "unit": "vocabulary-grammar",
+              "subunit": "grammar-g3",
+              "name": "中3文法",
+              "en": "Grammar G3",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/vocabulary-grammar/vocabulary-g1",
+              "course": "reading",
+              "unit": "vocabulary-grammar",
+              "subunit": "vocabulary-g1",
+              "name": "中1単語テスト",
+              "en": "Vocabulary G1",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/vocabulary-grammar/vocabulary-g2",
+              "course": "reading",
+              "unit": "vocabulary-grammar",
+              "subunit": "vocabulary-g2",
+              "name": "中2単語テスト",
+              "en": "Vocabulary G2",
+              "questionCount": 0
+            },
+            {
+              "path": "reading/vocabulary-grammar/vocabulary-g3",
+              "course": "reading",
+              "unit": "vocabulary-grammar",
+              "subunit": "vocabulary-g3",
+              "name": "中3単語テスト",
+              "en": "Vocabulary G3",
+              "questionCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

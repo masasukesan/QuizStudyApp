@@ -105,20 +105,6 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/1A/data-analysis/central-dispersion",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
-    "path": "curriculum/math/1A/data-analysis/variance-stddev-correlation",
-    "status": "passed",
-    "checked_at": "2026-06-05",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/math/1A/geometry-and-measure/advanced-trigonometric-problems",
     "status": "passed",
     "checked_at": "2026-06-05",
@@ -991,6 +977,132 @@
     "status": "passed",
     "checked_at": "2026-06-21",
     "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/data-analysis/central-dispersion",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/vocabulary-grammar/vocabulary",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/reading/vocabulary-grammar/grammar",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/listening/conversation/short-dialogue",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/listening/conversation/long-dialogue",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english/listening/lecture/monologue",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/data-analysis/variance-stddev-correlation",
+    "status": "passed",
+    "checked_at": "2026-06-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/operators/logical-operators",
+    "status": "passed",
+    "checked_at": "2026-06-22",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/text-comprehension/short-text",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/text-comprehension/dialogue",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/text-comprehension/narrative",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/text-comprehension/opinion-essay",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/grammar-g1",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/grammar-g2",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/grammar-g3",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/vocabulary-g1",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/vocabulary-g2",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/vocabulary-g3",
+    "status": "pending",
+    "checked_at": "",
+    "question_count": 0,
     "notes": ""
   }
 ]

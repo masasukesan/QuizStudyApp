@@ -116,4 +116,37 @@
     "curriculum/math/中3/sampling/sampling-survey/explanations.json",
     "curriculum/math/中3/similar-figures/similarity-basics/explanations.json",
     "curriculum/math/中3/square-roots/square-root-basics/explanations.json",
-    "curriculum/english/reading/text-comprehension/graph-and-table
+    "curriculum/english/reading/text-comprehension/graph-and-table/explanations.json",
+    "curriculum/english/reading/text-comprehension/multiple-text/explanations.json",
+    "curriculum/english/reading/text-comprehension/narrative/explanations.json",
+    "curriculum/english/reading/text-comprehension/note-completion/explanations.json",
+    "curriculum/english/reading/text-comprehension/opinion-essay/explanations.json",
+    "curriculum/english/reading/text-comprehension/short-text/explanations.json",
+    "curriculum/english/reading/text-comprehension/timeline-ordering/explanations.json",
+    "curriculum/japanese/classical/explanations.json",
+    "curriculum/japanese/kanbun/explanations.json",
+    "curriculum/japanese/modern-reading/explanations.json",
+    "curriculum/programming/js-basics/operators/arithmetic-operators/explanations.json",
+    "curriculum/programming/js-basics/variables-and-types/data-types/explanations.json",
+    "curriculum/programming/js-basics/variables-and-types/type-conversion/explanations.json",
+    "curriculum/programming/js-basics/variables-and-types/variable-declaration/explanations.json",
+    "curriculum/science/biology/explanations.json",
+    "curriculum/science/chemistry/explanations.json",
+    "curriculum/science/earth-science/explanations.json",
+    "curriculum/science/physics/explanations.json",
+    "curriculum/social/civics/explanations.json",
+    "curriculum/social/geography/explanations.json",
+    "curriculum/social/history/explanations.json"
+  ],
+  "completed": [
+    "curriculum/math/1A/combinatorics/basic-counting/explanations.json",
+    "curriculum/math/1A/combinatorics/circular-and-multiset-permutation/explanations.json",
+    "curriculum/math/1A/combinatorics/combination/explanations.json",
+    "curriculum/math/1A/combinatorics/count-elements/explanations.json",
+    "curriculum/math/1A/combinatorics/permutation/explanations.json",
+    "curriculum/math/1A/data-analysis/central-dispersion/explanations.json",
+    "curriculum/math/1A/data-analysis/variance-stddev-correlation/explanations.json"
+  ],
+  "current_index": 7,
+  "last_run": "2026-06-22"
+}

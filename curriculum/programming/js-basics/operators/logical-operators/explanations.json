@@ -1,0 +1,491 @@
+{
+  "lo-001": {
+    "lead": "&&（アンパサンド2つ）は「AND（かつ）」を意味する演算子です。左辺と右辺の両方が true（正しい）のときだけ true を返します。どちらか一方でも false なら、結果は false になります。",
+    "steps": [
+      "&&（AND演算子）は「左辺 かつ 右辺」という意味です",
+      "true && true → 両方 true → 結果は true",
+      "true && false → 右辺が false → 結果は false",
+      "false && true → 左辺が false → 結果は false",
+      "false && false → 両方 false → 結果は false"
+    ],
+    "common_mistakes": [
+      "||（OR）と混同して「どちらか一方でも true なら true」と思い込む",
+      "&& は厳しい条件（両方そろわないとダメ）、|| はゆるい条件（片方でもOK）と覚えると混乱しにくい"
+    ],
+    "tips": [
+      "&&（AND）は「かつ」、||（OR）は「または」と日本語で置き換えて考えると分かりやすい",
+      "「晴れ かつ 日曜日」→両方そろわないとピクニックに行けない、というイメージ"
+    ]
+  },
+  "lo-002": {
+    "lead": "true && true の結果は true です。&&（AND演算子）は左辺と右辺の両方が true のとき、true を返します。",
+    "steps": [
+      "left: true → true は truthy（正しい値）",
+      "right: true → true は truthy（正しい値）",
+      "両方 true なので && の結果は true"
+    ],
+    "common_mistakes": [
+      "結果が 1 と表示されると思う人がいるが、JavaScript の論理演算子は true/false を返す（数値ではない）"
+    ],
+    "tips": [
+      "&& はお互いが true でないと成立しない「厳しい条件」と覚えよう"
+    ]
+  },
+  "lo-003": {
+    "lead": "true && false の結果は false です。&&（AND演算子）は片方でも false があると false を返します。",
+    "steps": [
+      "left: true → truthy",
+      "right: false → falsy（偽の値）",
+      "右辺が false なので && の結果は false",
+      "JavaScript では左辺が truthy なら右辺を評価し、右辺の値がそのまま返る（この場合は false）"
+    ],
+    "common_mistakes": [
+      "left が true だから結果も true になると思い込む",
+      "&& は両方 true でないと true にならない"
+    ],
+    "tips": [
+      "true && false → 右辺の false が返ってくるとイメージすると覚えやすい（後述の短絡評価と関係する）"
+    ]
+  },
+  "lo-004": {
+    "lead": "false || true の結果は true です。||（OR演算子）は「どちらか一方でも true なら true」を返します。",
+    "steps": [
+      "||（OR演算子）は「左辺 または 右辺」という意味",
+      "left: false → falsy なので左辺はスキップして右辺を評価",
+      "right: true → truthy → 結果は true"
+    ],
+    "common_mistakes": [
+      "左辺が false なので結果も false になると思い込む",
+      "||（OR）は左辺が false でも右辺を評価する"
+    ],
+    "tips": [
+      "||（OR）は「どちらかが true なら OK」というゆるい条件",
+      "「雨 または 雪が降ったら傘を持つ」→どちらか一方でも true なら傘を持つ、というイメージ"
+    ]
+  },
+  "lo-005": {
+    "lead": "false || false の結果は false です。||（OR演算子）は両方が false のときだけ false を返します。",
+    "steps": [
+      "left: false → falsy → 右辺を評価",
+      "right: false → falsy",
+      "両方 false なので || の結果は false"
+    ],
+    "common_mistakes": [
+      "|| は「必ず true になる」と思い込む（両方 false なら false になる）"
+    ],
+    "tips": [
+      "||（OR）は「どちらも false のときだけ false」と覚えよう"
+    ]
+  },
+  "lo-006": {
+    "lead": "!true の結果は false です。!（NOT演算子）は値を反転させます。true を渡すと false に、false を渡すと true になります。",
+    "steps": [
+      "!（NOT演算子）は「〜ではない」という意味",
+      "!true → true を反転 → false",
+      "!false → false を反転 → true"
+    ],
+    "common_mistakes": [
+      "!true が true のままになると思う",
+      "!は必ず反転させる演算子"
+    ],
+    "tips": [
+      "!（NOT）は「逆にする」スイッチ。true を入れると false が出てくる"
+    ]
+  },
+  "lo-007": {
+    "lead": "!false の結果は true です。!（NOT演算子）は false を true に反転させます。",
+    "steps": [
+      "!（NOT演算子）は値を逆にする",
+      "!false → false の逆 → true"
+    ],
+    "common_mistakes": [
+      "!false が false のままになると思う"
+    ],
+    "tips": [
+      "!false → true。!true → false。これを暗記しておこう"
+    ]
+  },
+  "lo-008": {
+    "lead": "JavaScript で「偽（falsy）として扱われる値」は false, 0, ''（空文字列）, null, undefined, NaN の6つです。[]（空配列）は truthy（真）なので、falsy には含まれません。",
+    "steps": [
+      "falsy な値を全部覚える：false / 0 / ''（空文字列）/ null / undefined / NaN",
+      "上の6つ以外はすべて truthy（真）として扱われる",
+      "[]（空配列）や {}（空オブジェクト）は、中身が空でも truthy",
+      "問題の選択肢で唯一 falsy に含まれないのは []（空配列）"
+    ],
+    "common_mistakes": [
+      "[]（空配列）を falsy と思い込む（空でも配列自体は存在するため truthy）",
+      "{}（空オブジェクト）も同じく truthy"
+    ],
+    "tips": [
+      "falsy の6つを「偽の6兄弟」として暗記しよう：false / 0 / '' / null / undefined / NaN",
+      "「空っぽでも箱（配列・オブジェクト）は存在する」から truthy"
+    ]
+  },
+  "lo-009": {
+    "lead": "'0'（文字列のゼロ）は truthy（真）として扱われます。数値の 0 は falsy ですが、'0' は中身のある文字列なので truthy になります。",
+    "steps": [
+      "falsy な値を確認：false / 0（数値）/ ''（空文字列）/ null / undefined / NaN",
+      "'0' は文字列で、中身（ゼロという文字）が入っている",
+      "空文字列 '' だけが falsy で、'0' のような非空文字列はすべて truthy",
+      "数値の 0 と文字列の '0' は別物"
+    ],
+    "common_mistakes": [
+      "'0' を数値の 0 と同じ扱いだと思い込む",
+      "文字列は空文字('')以外はすべて truthy"
+    ],
+    "tips": [
+      "'0' を if 文に使うと「条件あり」として実行されるので注意しよう"
+    ]
+  },
+  "lo-010": {
+    "lead": "!!'hello' の結果は true です。!!（ビックリマーク2つ）は「二重否定」といい、値を boolean（true/false）に変換するテクニックです。",
+    "steps": [
+      "まず内側の !'hello' を評価する",
+      "'hello' は truthy（非空文字列）なので !'hello' → false",
+      "次に外側の !false を評価する → true",
+      "つまり !!（値）は「その値が truthy かどうか」を true/false で返す"
+    ],
+    "common_mistakes": [
+      "!!（二重否定）が元の値をそのまま返すと思い込む",
+      "!! は「truthy なら true、falsy なら false」に変換するショートカット"
+    ],
+    "tips": [
+      "!!x は Boolean(x) と同じ意味。値を強制的に true/false に変換したいときに使う"
+    ]
+  },
+  "lo-011": {
+    "lead": "&&（AND演算子）の短絡評価とは、左辺が falsy なら右辺を評価せずに左辺をそのまま返す仕組みです。左辺が truthy なら右辺を評価して返します。結果は必ずしも true/false とは限りません。",
+    "steps": [
+      "&&（AND）の短絡評価ルールを確認する",
+      "左辺が falsy → 右辺を見ずに左辺の値をそのまま返す",
+      "左辺が truthy → 右辺を評価してその値を返す",
+      "例：0 && 'hello' → 0 は falsy → 右辺を見ずに 0 を返す",
+      "例：1 && 'world' → 1 は truthy → 右辺の 'world' を返す"
+    ],
+    "common_mistakes": [
+      "&& の結果が必ず true か false だと思い込む（実際には左辺または右辺の元の値を返す）",
+      "||（OR）と短絡評価の方向が逆になる"
+    ],
+    "tips": [
+      "&&は左辺が falsy なら「左辺で止まり」、truthy なら「右辺に進む」とイメージしよう",
+      "この仕組みを使って「条件がtrueのときだけ右辺の処理を実行する」書き方がよく使われる"
+    ]
+  },
+  "lo-012": {
+    "lead": "console.log(0 && 'hello') は 0 を出力します。0 は falsy なので &&（AND演算子）は右辺を評価せずに 0 をそのまま返します。",
+    "steps": [
+      "左辺を評価：0 は falsy（偽の値）",
+      "&&の短絡評価：左辺が falsy なら右辺を評価せずに左辺を返す",
+      "0 を返すので console.log(0) → 0 が表示される"
+    ],
+    "common_mistakes": [
+      "false が表示されると思い込む（0 は falsy だが、false とは別の値）",
+      "'hello' が表示されると思う（左辺が falsy なので右辺には到達しない）"
+    ],
+    "tips": [
+      "&&は「左が truthy なら右に進む」。左が falsy なら左で終了"
+    ]
+  },
+  "lo-013": {
+    "lead": "console.log(1 && 'world') は 'world' を出力します。1 は truthy なので &&（AND演算子）は右辺の 'world' を評価してそのまま返します。",
+    "steps": [
+      "左辺を評価：1 は truthy（0 以外の数値は truthy）",
+      "&&の短絡評価：左辺が truthy なら右辺を評価してその値を返す",
+      "'world' を返すので console.log('world') → 'world' が表示される"
+    ],
+    "common_mistakes": [
+      "true が返ると思い込む（&&は true/false ではなく元の値を返す）",
+      "1 が返ると思う（左辺が truthy なら右辺の値が返る）"
+    ],
+    "tips": [
+      "&&の結果は「左辺が truthy なら右辺そのもの」。true という値ではない"
+    ]
+  },
+  "lo-014": {
+    "lead": "console.log(0 || 'デフォルト') は 'デフォルト' を出力します。||（OR演算子）は左辺が falsy なら右辺を評価してその値を返します。",
+    "steps": [
+      "左辺を評価：0 は falsy",
+      "||の短絡評価：左辺が falsy なら右辺を評価してその値を返す",
+      "'デフォルト' を返すので console.log('デフォルト') → 'デフォルト' が表示される"
+    ],
+    "common_mistakes": [
+      "0 が返ると思い込む（0 は falsy なので || は右辺に進む）",
+      "true が返ると思い込む（||は true/false ではなく元の値を返す）"
+    ],
+    "tips": [
+      "「x || 'デフォルト値'」というパターンは「x が空・0・null のときデフォルト値を使う」書き方としてよく使われる"
+    ]
+  },
+  "lo-015": {
+    "lead": "console.log('text' || 'backup') は 'text' を出力します。||（OR演算子）は左辺が truthy なら右辺を評価せずに左辺をそのまま返します。",
+    "steps": [
+      "左辺を評価：'text' は truthy（空文字列ではない）",
+      "||の短絡評価：左辺が truthy なら右辺を評価せずに左辺を返す",
+      "'text' を返すので console.log('text') → 'text' が表示される"
+    ],
+    "common_mistakes": [
+      "'backup' が返ると思い込む（左辺が truthy なので右辺には到達しない）",
+      "'textbackup' のように結合されると思う（|| は文字列を結合しない）"
+    ],
+    "tips": [
+      "||は「左が truthy なら左で終了」。右辺は左辺が falsy のときだけ評価される"
+    ]
+  },
+  "lo-016": {
+    "lead": "??（Null 合体演算子、ナルゴウタイ演算子）は、左辺が null または undefined のときだけ右辺を返します。それ以外の falsy な値（0・''・false）では右辺を返しません。||（OR）との大きな違いがここです。",
+    "steps": [
+      "??（Null 合体演算子）のルールを確認する",
+      "左辺が null または undefined → 右辺を返す",
+      "左辺がそれ以外（0・''・false なども含む）→ 左辺をそのまま返す",
+      "||との違い：|| は 0・''・false も falsy として右辺を返すが、??はnull/undefinedのみ"
+    ],
+    "common_mistakes": [
+      "?? を || と同じ意味だと思い込む",
+      "0 ?? 'default' が 'default' を返すと思う（実際は 0 を返す）"
+    ],
+    "tips": [
+      "?? は「null か undefined のときだけ代わりの値を使う」という場面で使う",
+      "「値が設定されていないとき（null/undefined）だけ初期値を使いたい」ときに最適"
+    ]
+  },
+  "lo-017": {
+    "lead": "console.log(0 ?? 'デフォルト') は 0 を出力します。??（Null 合体演算子）は左辺が null または undefined のときだけ右辺を返しますが、0 は null でも undefined でもないため、0 をそのまま返します。",
+    "steps": [
+      "左辺を評価：0 は null でも undefined でもない",
+      "??のルール：左辺が null/undefined のときだけ右辺を返す",
+      "0 は null/undefined ではないので 0 をそのまま返す",
+      "console.log(0) → 0 が表示される"
+    ],
+    "common_mistakes": [
+      "|| と同じく 0 は falsy だから 'デフォルト' が返ると思い込む（??は falsy に反応しない）"
+    ],
+    "tips": [
+      "|| と ?? の違い：0 || 'default' → 'default'、0 ?? 'default' → 0",
+      "0 や '' を有効な値として扱いたい場合は || より ?? が安全"
+    ]
+  },
+  "lo-018": {
+    "lead": "null ?? 'フォールバック' は 'フォールバック' を返します。??（Null 合体演算子）は左辺が null のとき右辺を返すため、console.log は 'フォールバック' を表示します。",
+    "steps": [
+      "変数 x は null に設定されている",
+      "x ?? 'フォールバック' → x が null なので右辺を返す",
+      "console.log('フォールバック') → 'フォールバック' が表示される"
+    ],
+    "common_mistakes": [
+      "null がそのまま返ると思い込む",
+      "undefined が返ると思う（null と undefined は別の値だが、??はどちらにも反応する）"
+    ],
+    "tips": [
+      "?? は null と undefined の両方に反応する。「変数が設定されていないかもしれないとき」に使うと便利"
+    ]
+  },
+  "lo-019": {
+    "lead": "x ||= '名無し' は「x が falsy（偽）なら '名無し' を x に代入する」という論理代入演算子です。x が ''（空文字列）で falsy なので、'名無し' が代入されます。",
+    "steps": [
+      "||=（OR代入演算子）のルールを確認する",
+      "x ||= y は「x が falsy なら y を x に代入する」",
+      "x の値は ''（空文字列）→ falsy",
+      "falsy なので '名無し' を x に代入する",
+      "console.log(x) → '名無し' が表示される"
+    ],
+    "common_mistakes": [
+      "'' が表示されると思い込む（'' は falsy なので代入が実行される）",
+      "||= が truthy のときに代入すると勘違いする（逆で、falsy のときに代入する）"
+    ],
+    "tips": [
+      "x ||= 'default' は「x が空・null・0 のとき default を使う」という初期値設定によく使われる"
+    ]
+  },
+  "lo-020": {
+    "lead": "x ??= 99 は「x が null または undefined なら 99 を x に代入する」という論理代入演算子です。x が 0（falsy だが null/undefined ではない）なので代入は行われず、x は 0 のままです。",
+    "steps": [
+      "??=（Null合体代入演算子）のルールを確認する",
+      "x ??= y は「x が null または undefined なら y を x に代入する」",
+      "x の値は 0 → null でも undefined でもない",
+      "代入は実行されず x は 0 のまま",
+      "console.log(x) → 0 が表示される"
+    ],
+    "common_mistakes": [
+      "0 は falsy だから 99 が代入されると思い込む（??= は falsy に反応しない）",
+      "||= と ??= を混同する（||= は falsy で反応、??= は null/undefined のみ）"
+    ],
+    "tips": [
+      "??= は「まだ値がセットされていない（null/undefined）ときだけ初期値を設定する」場面に使う",
+      "0 や false を有効な値として残したいなら ??= を使おう"
+    ]
+  },
+  "lo-021": {
+    "lead": "論理演算子の優先順位は「! → && → ||」の順（!が最も高く、||が最も低い）です。優先順位が高いほど先に評価されます。カッコ（）を使えば優先順位を変えられます。",
+    "steps": [
+      "! の優先順位が最も高い（直後の値だけに作用する）",
+      "次に && が評価される",
+      "最後に || が評価される",
+      "例：true || false && false → まず false && false を評価 → false、次に true || false → true"
+    ],
+    "common_mistakes": [
+      "左から順に評価すると誤解する（優先順位がある）",
+      "|| の方が && より先に評価されると思い込む"
+    ],
+    "tips": [
+      "「!（ノット）が一番偉くて、&&（アンド）が次、||（オア）は最後」と覚えよう",
+      "不安なときはカッコ () を使って明示的に順番を指定しよう"
+    ]
+  },
+  "lo-022": {
+    "lead": "true || false && false の結果は true です。&& の優先順位が || より高いため、まず false && false が評価されて false になり、次に true || false が評価されて true になります。左から単純に計算すると間違えるので注意です。",
+    "steps": [
+      "優先順位を確認：&& は || より先に評価される",
+      "まず false && false を評価 → false",
+      "式は true || false に変わる",
+      "次に true || false を評価 → true（左辺が truthy なので右辺を見ずに true を返す）",
+      "結果：true"
+    ],
+    "common_mistakes": [
+      "左から順に「true || false → true → true && false → false」と評価してしまう",
+      "&& の優先順位を忘れると誤った答えを出す"
+    ],
+    "tips": [
+      "複数の論理演算子が混ざるときは「&& を先に計算」と覚えよう",
+      "迷ったらカッコを付けて確認：true || (false && false)"
+    ]
+  },
+  "lo-023": {
+    "lead": "!false && true || false の結果は true です。!が最優先で評価されるため、まず !false が true になり、次に true && true が true になり、最後に true || false が true になります。",
+    "steps": [
+      "優先順位を確認：! → && → ||",
+      "まず !false を評価 → true",
+      "式は true && true || false に変わる",
+      "次に true && true を評価 → true",
+      "式は true || false に変わる",
+      "最後に true || false を評価 → true（左辺 truthy → true を返す）"
+    ],
+    "common_mistakes": [
+      "! を最後に評価してしまう（実際は最初）",
+      "&& と || の優先順位を逆に覚えている"
+    ],
+    "tips": [
+      "! → && → || の順番は「否定してから掛けて最後に足す」（掛け算・足し算の優先順位と似ている）"
+    ]
+  },
+  "lo-024": {
+    "lead": "null || undefined ?? 'デフォルト' を括弧なしで書くと SyntaxError（構文エラー）が発生します。??（Null合体演算子）は && や || と同じ式内で括弧なしに混在させることができないというJavaScriptの制限があります。",
+    "steps": [
+      "?? を || や && と同じ式内で括弧なしに使おうとするとエラーになる",
+      "これはJavaScriptの仕様（意図しない評価順序のバグを防ぐため）",
+      "正しく書くなら括弧を使う：(null || undefined) ?? 'デフォルト'",
+      "(null || undefined) は undefined になり、undefined ?? 'デフォルト' → 'デフォルト' を返す"
+    ],
+    "common_mistakes": [
+      "?? と || が普通に混在できると思い込む",
+      "エラーが出ずに何らかの値が返ると思う"
+    ],
+    "tips": [
+      "?? を || や && と組み合わせるときは必ずカッコ () で囲んで意図を明確にしよう",
+      "これはバグを防ぐための意図的なJavaScriptの仕様"
+    ]
+  },
+  "lo-025": {
+    "lead": "null && 'hello' || 'world' の結果は 'world' です。まず && が先に評価され、null && 'hello' は null（falsy のため左辺で止まる）を返します。次に null || 'world' が評価され、null が falsy なので 'world' が返ります。",
+    "steps": [
+      "優先順位：&& が || より先",
+      "まず null && 'hello' を評価 → null は falsy → null を返す（'hello' は評価されない）",
+      "式は null || 'world' に変わる",
+      "null は falsy → 右辺 'world' を返す",
+      "結果：'world'"
+    ],
+    "common_mistakes": [
+      "null が最終結果になると思い込む（|| が後で評価されるため）",
+      "'hello' が返ると思う（null は falsy なので && は右辺に進まない）"
+    ],
+    "tips": [
+      "&&と||が混ざる場合は、まず&&のグループを全部処理してから||を処理するとイメージしよう"
+    ]
+  },
+  "lo-026": {
+    "lead": "false || 0 || '' || 'JavaScript' の結果は 'JavaScript' です。||（OR演算子）は左から順に評価し、最初に truthy な値が見つかった時点でその値を返します。false・0・'' はすべて falsy なのでスキップされ、'JavaScript' が truthy として返ります。",
+    "steps": [
+      "左から順に || で評価していく",
+      "false → falsy → 次へ",
+      "0 → falsy → 次へ",
+      "'' → falsy（空文字列）→ 次へ",
+      "'JavaScript' → truthy → 'JavaScript' を返す"
+    ],
+    "common_mistakes": [
+      "'' の時点で止まると思い込む（'' も falsy なのでスキップされる）",
+      "最後の値まで到達しないと思う"
+    ],
+    "tips": [
+      "|| は「最初の truthy を返すマシーン」。全部 falsy なら最後の値を返す"
+    ]
+  },
+  "lo-027": {
+    "lead": "let x = 'old'; x &&= 'new'; の後、x は 'new' になります。&&=（AND代入演算子）は「左辺が truthy なら右辺を代入する」演算子です。'old' は truthy なので 'new' が代入されます。",
+    "steps": [
+      "&&=（AND代入演算子）のルールを確認する",
+      "x &&= y は「x が truthy なら y を x に代入する」",
+      "x の値は 'old' → truthy（空文字列ではない）",
+      "truthy なので 'new' を x に代入する",
+      "console.log(x) → 'new' が表示される"
+    ],
+    "common_mistakes": [
+      "&&= が falsy のときに代入すると勘違いする（逆で、truthy のときに代入する）",
+      "'old' のままになると思い込む"
+    ],
+    "tips": [
+      "&&= は「値が存在する（truthy）ときだけ更新する」場面に使う",
+      "||= と逆：||= は falsy のとき代入、&&= は truthy のとき代入"
+    ]
+  },
+  "lo-028": {
+    "lead": "b の値は 0 です。(a || 10) は 0 || 10 → 10（truthy）になります。(a ?? 5) は 0 ?? 5 → 0（null/undefinedでないため）になります。10 && 0 → 10 は truthy なので右辺の 0 を返し、b = 0 です。",
+    "steps": [
+      "a = 0 を確認する",
+      "(a || 10) を評価：0 || 10 → 0 は falsy なので 10 を返す",
+      "(a ?? 5) を評価：0 ?? 5 → 0 は null/undefined ではないので 0 を返す",
+      "10 && 0 を評価：10 は truthy なので右辺の 0 を返す",
+      "b = 0"
+    ],
+    "common_mistakes": [
+      "5 が返ると思い込む（?? は falsy に反応しない）",
+      "10 が返ると思う（&& は truthy なら右辺を返す）"
+    ],
+    "tips": [
+      "|| と ?? の違いを正確に理解していないと、複合式で誤った答えを出してしまう"
+    ]
+  },
+  "lo-029": {
+    "lead": "!!''（二重否定）の結果は false です。''（空文字列）は falsy なので !'' → true になり、さらに !true → false になります。!!（値）は「その値が truthy かどうか」を boolean で返します。",
+    "steps": [
+      "まず内側の !'' を評価する",
+      "''（空文字列）は falsy → !'' → true",
+      "次に外側の !true を評価する → false",
+      "結果：false（空文字列は falsy なので !! で変換すると false）"
+    ],
+    "common_mistakes": [
+      "''（空文字列）が truthy だと思い込む（空文字列は falsy）",
+      "!!'' が ''（元の値）を返すと思う（!! は boolean に変換する）"
+    ],
+    "tips": [
+      "!!（値）は「falsy な値 → false、truthy な値 → true」に変換するテクニック",
+      "!!'' → false、!!'a' → true"
+    ]
+  },
+  "lo-030": {
+    "lead": "result の値は 'フォールバック' です。value が undefined なので ?? の右辺が評価されます。右辺 (false || 'フォールバック') は false が falsy なので 'フォールバック' が返り、それが result になります。",
+    "steps": [
+      "value は undefined → ?? の左辺が null/undefined",
+      "?? は右辺 (false || 'フォールバック') を評価する",
+      "false || 'フォールバック'：false は falsy → 右辺 'フォールバック' を返す",
+      "result = 'フォールバック'",
+      "console.log(result) → 'フォールバック' が表示される"
+    ],
+    "common_mistakes": [
+      "undefined がそのまま返ると思い込む",
+      "false が返ると思う（|| によって 'フォールバック' が選ばれる）"
+    ],
+    "tips": [
+      "?? の右辺にさらに論理式を入れることができる。括弧で包むと評価順が明確になる"
+    ]
+  }
+}

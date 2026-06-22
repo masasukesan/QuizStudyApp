@@ -247,7 +247,7 @@ export default function CoursePage() {
         <div className={styles.headerTitle}>
           <span className={styles.headerJp}>MathAca</span>
           <span className={styles.headerEn}>
-            {subject === 'english' ? 'English' : subject === 'programming' ? 'Programming' : 'Mathematics'}
+            {subject === 'english' ? 'English' : subject === 'english-junior' ? 'English Jr.' : subject === 'programming' ? 'Programming' : 'Mathematics'}
           </span>
         </div>
       </header>

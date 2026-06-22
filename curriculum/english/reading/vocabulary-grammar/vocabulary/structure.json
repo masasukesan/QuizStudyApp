@@ -1,0 +1,50 @@
+{
+  "unit_id": "vocabulary",
+  "unit_name_jp": "語彙",
+  "grade": "英語（共通テスト）",
+  "questionCount": 30,
+  "patterns": [
+    {
+      "pattern_id": "synonym-matching",
+      "description": "短い英文中の下線部の語と最も意味が近い日本語訳を選ぶ（同義語照合）。語の品詞・文中の役割を確認しながら正しい意味を特定する。",
+      "thinking_process": [
+        "下線部の品詞（名詞・形容詞・動詞・副詞）を確認する",
+        "文全体の意味から下線部がどのような役割を果たすかを把握する",
+        "4つの選択肢と照合し、文意に最もぴったり合う日本語訳を選ぶ"
+      ],
+      "common_mistakes": [
+        "見た目や発音が似た別の単語と混同する（例: reluctant と relevant）",
+        "派生語の品詞を間違えて解釈する（例: ambiguity の形容詞形 ambiguous を名詞と混同する）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "context-inference",
+      "description": "3〜5文の英語パッセージ中の下線部語句の意味を、文脈のヒント（対比・言い換え・因果）から推測して日本語の選択肢から選ぶ。",
+      "thinking_process": [
+        "下線部の前後の文を丁寧に読み、文脈のヒントを探す",
+        "対比（but/however/while）・言い換え（that is/in other words）・因果（so/because/therefore）などの接続語に注目する",
+        "各選択肢を下線部に当てはめ、文章全体の論旨と合うかを確認する"
+      ],
+      "common_mistakes": [
+        "下線部の単語だけを見て周囲の文脈を無視する",
+        "日本語として自然に聞こえる選択肢を根拠なく選んでしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "polysemy-context",
+      "description": "複数の意味を持つ多義語（fair / sound / firm / bear / charge 等）が文中でどの意味で使われているかを判断する。文中の他の語句との組み合わせや文脈から正しい意味を絞り込む。",
+      "thinking_process": [
+        "その語の代表的な意味を2〜3つ思い浮かべる",
+        "主語・動詞・目的語・前置詞など、周囲の語句との組み合わせを確認する",
+        "文全体の論理に合う意味を選び、他の意味では文意がおかしくなることを確認する"
+      ],
+      "common_mistakes": [
+        "最初に思い浮かんだ意味（最も一般的な意味）を文脈確認なしに選ぶ",
+        "熟語・慣用表現の意味を字義通りに解釈する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

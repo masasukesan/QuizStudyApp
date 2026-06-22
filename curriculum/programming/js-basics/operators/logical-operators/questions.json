@@ -1,0 +1,916 @@
+[
+  {
+    "id": "lo-001",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "JavaScript の && (AND演算子) の説明として正しいのはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "左辺か右辺のどちらか一方が true であれば true になる"
+      },
+      {
+        "label": "B",
+        "text": "左辺と右辺の両方が true のときだけ true になる"
+      },
+      {
+        "label": "C",
+        "text": "左辺が true のときだけ右辺の値を反転させる"
+      },
+      {
+        "label": "D",
+        "text": "左辺と右辺がどちらも false のときだけ true になる"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "AND演算子の定義",
+      "truthy/falsy"
+    ]
+  },
+  {
+    "id": "lo-002",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(true && true);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "AND演算子",
+      "基本評価"
+    ]
+  },
+  {
+    "id": "lo-003",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(true && false);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "false"
+      },
+      {
+        "label": "C",
+        "text": "null"
+      },
+      {
+        "label": "D",
+        "text": "TypeError が発生する"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "AND演算子",
+      "false条件"
+    ]
+  },
+  {
+    "id": "lo-004",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(false || true);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "null"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "OR演算子",
+      "基本評価"
+    ]
+  },
+  {
+    "id": "lo-005",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(false || false);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "null"
+      },
+      {
+        "label": "C",
+        "text": "undefined"
+      },
+      {
+        "label": "D",
+        "text": "false"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "OR演算子",
+      "両方false"
+    ]
+  },
+  {
+    "id": "lo-006",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(!true);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "false"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "NOT演算子",
+      "否定"
+    ]
+  },
+  {
+    "id": "lo-007",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(!false);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "null"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "NOT演算子",
+      "否定"
+    ]
+  },
+  {
+    "id": "lo-008",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "JavaScript で「falsy（偽と見なされる）な値」に含まれないものはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "null"
+      },
+      {
+        "label": "C",
+        "text": "[] (空配列)"
+      },
+      {
+        "label": "D",
+        "text": "'' (空文字列)"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "falsy値",
+      "truthy/falsy"
+    ]
+  },
+  {
+    "id": "lo-009",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "'0'（文字列のゼロ）を論理演算で使うとどう扱われるか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "falsy として扱われる (0 と同じ扱い)"
+      },
+      {
+        "label": "B",
+        "text": "truthy として扱われる (空文字列ではないため)"
+      },
+      {
+        "label": "C",
+        "text": "場合によって truthy にも falsy にもなる"
+      },
+      {
+        "label": "D",
+        "text": "NaN に変換されて falsy になる"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "truthy/falsy",
+      "文字列"
+    ]
+  },
+  {
+    "id": "lo-010",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(!!'hello');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "'hello'"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "NOT演算子",
+      "二重否定",
+      "truthy変換"
+    ]
+  },
+  {
+    "id": "lo-011",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "&& の短絡評価（ショートサーキット）の説明として正しいのはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "左辺が truthy なら左辺をそのまま返し、falsy なら右辺を返す"
+      },
+      {
+        "label": "B",
+        "text": "左辺が falsy なら左辺をそのまま返し、truthy なら右辺を返す"
+      },
+      {
+        "label": "C",
+        "text": "常に true か false を返し、元の値は返さない"
+      },
+      {
+        "label": "D",
+        "text": "左辺と右辺の値を足し合わせた結果を返す"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "短絡評価",
+      "&&の戻り値"
+    ]
+  },
+  {
+    "id": "lo-012",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(0 && 'hello');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "'hello'"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "短絡評価",
+      "&&の戻り値",
+      "falsy"
+    ]
+  },
+  {
+    "id": "lo-013",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(1 && 'world');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "'world'"
+      },
+      {
+        "label": "D",
+        "text": "false"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "短絡評価",
+      "&&の戻り値",
+      "truthy"
+    ]
+  },
+  {
+    "id": "lo-014",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(0 || 'デフォルト');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "'デフォルト'"
+      },
+      {
+        "label": "C",
+        "text": "false"
+      },
+      {
+        "label": "D",
+        "text": "true"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "短絡評価",
+      "||の戻り値",
+      "デフォルト値パターン"
+    ]
+  },
+  {
+    "id": "lo-015",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log('text' || 'backup');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'backup'"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      },
+      {
+        "label": "C",
+        "text": "'text'"
+      },
+      {
+        "label": "D",
+        "text": "'textbackup'"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "短絡評価",
+      "||の戻り値",
+      "truthy"
+    ]
+  },
+  {
+    "id": "lo-016",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "??（Null 合体演算子）の説明として正しいのはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "左辺が falsy (0・''・false など) なら右辺を返す"
+      },
+      {
+        "label": "B",
+        "text": "左辺が null または undefined のときだけ右辺を返す"
+      },
+      {
+        "label": "C",
+        "text": "左辺が null のときだけ右辺を返し、undefined は対象外"
+      },
+      {
+        "label": "D",
+        "text": "左辺と右辺の両方が null のときだけ右辺を返す"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "??演算子",
+      "null合体"
+    ]
+  },
+  {
+    "id": "lo-017",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(0 ?? 'デフォルト');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'デフォルト'"
+      },
+      {
+        "label": "B",
+        "text": "false"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "null"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "??演算子",
+      "falsy vs null/undefined"
+    ]
+  },
+  {
+    "id": "lo-018",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nlet x = null;\nconsole.log(x ?? 'フォールバック');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "null"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "'フォールバック'"
+      },
+      {
+        "label": "D",
+        "text": "false"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "??演算子",
+      "null"
+    ]
+  },
+  {
+    "id": "lo-019",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、変数 x の最終的な値はどれか？\n\nlet x = '';\nx ||= '名無し';\nconsole.log(x);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "''"
+      },
+      {
+        "label": "B",
+        "text": "'名無し'"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "null"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "論理代入演算子",
+      "||=",
+      "falsy"
+    ]
+  },
+  {
+    "id": "lo-020",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、変数 x の最終的な値はどれか？\n\nlet x = 0;\nx ??= 99;\nconsole.log(x);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "99"
+      },
+      {
+        "label": "B",
+        "text": "null"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "論理代入演算子",
+      "??=",
+      "falsy vs null"
+    ]
+  },
+  {
+    "id": "lo-021",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "論理演算子の優先順位として正しいものはどれか？（高い順に並んでいるものを選べ）",
+    "choices": [
+      {
+        "label": "A",
+        "text": "|| → && → !"
+      },
+      {
+        "label": "B",
+        "text": "! → || → &&"
+      },
+      {
+        "label": "C",
+        "text": "! → && → ||"
+      },
+      {
+        "label": "D",
+        "text": "&& → || → !"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "演算子優先順位",
+      "!・&&・||"
+    ]
+  },
+  {
+    "id": "lo-022",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n&& と || の優先順位に注意して答えよ。\n\nconsole.log(true || false && false);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      },
+      {
+        "label": "C",
+        "text": "null"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "演算子優先順位",
+      "&& > ||"
+    ]
+  },
+  {
+    "id": "lo-023",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n! → && → || の優先順位を考慮して答えよ。\n\nconsole.log(!false && true || false);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      },
+      {
+        "label": "C",
+        "text": "null"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "演算子優先順位",
+      "! > && > ||"
+    ]
+  },
+  {
+    "id": "lo-024",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行するとどうなるか？\n\nconsole.log(null || undefined ?? 'デフォルト');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'デフォルト'"
+      },
+      {
+        "label": "B",
+        "text": "null"
+      },
+      {
+        "label": "C",
+        "text": "SyntaxError が発生する"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "?? と || の混在",
+      "SyntaxError",
+      "括弧が必要"
+    ]
+  },
+  {
+    "id": "lo-025",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(null && 'hello' || 'world');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "null"
+      },
+      {
+        "label": "B",
+        "text": "'hello'"
+      },
+      {
+        "label": "C",
+        "text": "'world'"
+      },
+      {
+        "label": "D",
+        "text": "false"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "短絡評価",
+      "演算子優先順位",
+      "チェーン評価"
+    ]
+  },
+  {
+    "id": "lo-026",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(false || 0 || '' || 'JavaScript');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "false"
+      },
+      {
+        "label": "B",
+        "text": "''"
+      },
+      {
+        "label": "C",
+        "text": "'JavaScript'"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "||の短絡評価",
+      "falsy連鎖",
+      "最初のtruthyを返す"
+    ]
+  },
+  {
+    "id": "lo-027",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、変数 x の最終的な値はどれか？\n\nlet x = 'old';\nx &&= 'new';\nconsole.log(x);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'old'"
+      },
+      {
+        "label": "B",
+        "text": "'new'"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "false"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "論理代入演算子",
+      "&&=",
+      "truthy条件"
+    ]
+  },
+  {
+    "id": "lo-028",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、変数 b の値はどれか？\n\nlet a = 0;\nlet b = (a || 10) && (a ?? 5);\nconsole.log(b);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "|| と ?? の組み合わせ",
+      "括弧で明示",
+      "短絡評価"
+    ]
+  },
+  {
+    "id": "lo-029",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconsole.log(!!'');",
+    "choices": [
+      {
+        "label": "A",
+        "text": "''"
+      },
+      {
+        "label": "B",
+        "text": "true"
+      },
+      {
+        "label": "C",
+        "text": "false"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "二重否定",
+      "falsy変換",
+      "boolean化"
+    ]
+  },
+  {
+    "id": "lo-030",
+    "subject": "programming",
+    "unit": "論理演算子(&& / || / ! / ??)",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果はどれか？\n\nconst value = undefined;\nconst result = value ?? (false || 'フォールバック');\nconsole.log(result);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined"
+      },
+      {
+        "label": "B",
+        "text": "false"
+      },
+      {
+        "label": "C",
+        "text": "'フォールバック'"
+      },
+      {
+        "label": "D",
+        "text": "SyntaxError が発生する"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "?? と括弧",
+      "ネストした評価",
+      "undefined"
+    ]
+  }
+]

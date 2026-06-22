@@ -1,0 +1,782 @@
+[
+  {
+    "id": "eng-ld-001",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, Sarah. Have you decided what to do for your birthday next week?\nB: Not yet. I was thinking about going to the new Italian restaurant downtown.\nA: Oh, I heard the food there is amazing. But isn't it a bit expensive?\nB: Yeah, it might be. Maybe we could do something else.\nA: How about having a party at your place? We could cook together.\nB: That sounds fun! But my apartment is pretty small. It would be cramped with a lot of people.\nA: What if we just invite a few close friends? Maybe five or six people.\nB: That could work. And we can make it a potluck—everyone brings something.\nA: Great idea! I'll bring dessert.\nB: Perfect. I'll ask Mom for her pasta recipe.\n\nこの会話の主な話題として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sarahの誕生日のお祝いをどうするか"
+      },
+      {
+        "label": "B",
+        "text": "イタリア料理のレストランの評判"
+      },
+      {
+        "label": "C",
+        "text": "アパートの部屋の大きさの問題"
+      },
+      {
+        "label": "D",
+        "text": "ポットラックパーティーのルール"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-002",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Good morning. I have a reservation under the name Chen.\nB: Good morning, Mr. Chen. Let me look that up. Ah yes, a single room for three nights, checking out on Friday.\nA: That's right. Is there any chance of an early check-in? My flight arrived early.\nB: Standard check-in is at 3 PM, but let me check if a room is available now. I'm sorry, unfortunately all rooms are still being cleaned.\nA: I see. Is there somewhere I can leave my luggage?\nB: Of course. We have a luggage storage room right next to the elevator. You can also use our breakfast lounge while you wait.\nA: That's very helpful. Do you have Wi-Fi in the lounge?\nB: Yes, the password is on your room key card. It works throughout the hotel.\nA: Wonderful, thank you.\n\nこの会話が行われている場所として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "空港のカウンター"
+      },
+      {
+        "label": "B",
+        "text": "ホテルのフロント"
+      },
+      {
+        "label": "C",
+        "text": "レストランの受付"
+      },
+      {
+        "label": "D",
+        "text": "旅行代理店"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-003",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Good afternoon, Dr. Martin's office.\nB: Hello, this is James Weston calling. I'd like to make an appointment.\nA: Of course. What's the reason for your visit?\nB: I've been having headaches almost every day for the past two weeks. And I feel dizzy sometimes.\nA: I see. Have you seen Dr. Martin before?\nB: Yes, I'm an existing patient. My last visit was about six months ago.\nA: Let me check the schedule. We have an opening this Thursday at 2 PM or next Monday at 10 AM. Which would you prefer?\nB: Thursday at 2 PM works better for me.\nA: Perfect. Can I get your date of birth for confirmation?\nB: Sure, it's April 15, 1990.\nA: Great. We'll see you Thursday at 2 PM, Mr. Weston. Please arrive ten minutes early to fill in an update form.\nB: Will do. Thank you.\n\nBさんが電話をかけた理由として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "検査の結果を聞くため"
+      },
+      {
+        "label": "B",
+        "text": "処方箋を受け取るため"
+      },
+      {
+        "label": "C",
+        "text": "診察の予約を取るため"
+      },
+      {
+        "label": "D",
+        "text": "キャンセルの連絡をするため"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-ld-004",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I just finished watching that documentary about ocean pollution. It was eye-opening.\nB: Oh really? I've been meaning to watch that. Was it good?\nA: Really good. It showed how plastic waste ends up in the stomachs of sea animals. It was heartbreaking.\nB: Yeah, I've read about that. So what can we actually do about it?\nA: Well, one thing is to stop using single-use plastics—like plastic bags, straws, and bottles.\nB: I already carry a reusable bottle, but I still use plastic bags sometimes.\nA: Me too, honestly. But the documentary said even small changes make a difference. Like refusing plastic straws at restaurants.\nB: That's true. And buying products with less packaging.\nA: Exactly. Small steps matter. I'm going to try harder after watching that.\nB: Me too. Maybe we can go to that beach cleanup event next month.\n\nこの会話の主な内容として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ドキュメンタリー映画の撮影方法について"
+      },
+      {
+        "label": "B",
+        "text": "海洋汚染と個人でできる取り組みについて"
+      },
+      {
+        "label": "C",
+        "text": "ビーチクリーンアップイベントの詳細について"
+      },
+      {
+        "label": "D",
+        "text": "リサイクルルールの変更について"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-005",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Ms. Johnson, do you have a moment? I wanted to talk about the project deadline.\nB: Sure, come in, Tom. What's on your mind?\nA: The client wants the final report by next Friday, but I'm not sure the team can finish on time. We're still waiting for data from the research department.\nB: How much of the data is missing?\nA: About 30 percent. The research team said they'll send it by Wednesday at the latest.\nB: Okay, that gives us two days to write the analysis section. It'll be tight but doable.\nA: I was thinking we could split the work—I handle the charts and Jake writes the summary.\nB: That sounds efficient. What about the executive overview?\nA: I was hoping you could review that part, Ms. Johnson.\nB: Of course. Send me your draft by Thursday morning and I'll have feedback ready by Thursday afternoon.\nA: Perfect. I'll let the team know.\n\nTomさんがMs. Johnsonのところに来た理由として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "研究部のデータに誤りがあることを報告するため"
+      },
+      {
+        "label": "B",
+        "text": "プロジェクトの締め切りについて相談するため"
+      },
+      {
+        "label": "C",
+        "text": "チームメンバーの交代を提案するため"
+      },
+      {
+        "label": "D",
+        "text": "クライアントの苦情を伝えるため"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-006",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, I'm looking for a gift for my father. His birthday is this weekend.\nB: Of course! How old is he turning, and what are his interests?\nA: He's turning 60. He loves gardening and cooking.\nB: We have some wonderful options. We just got in a set of premium chef's knives—very popular with home cooks.\nA: Hmm, that sounds nice. But he already has a good knife set.\nB: In that case, what about this herb garden kit? It comes with seeds for basil, rosemary, and mint, plus a set of pots.\nA: Oh, he'd love that! He recently started growing herbs on his balcony.\nB: And it's currently 20% off. Would you like me to wrap it as a gift?\nA: Yes, please! And could you include a card?\nB: Absolutely. We have a selection of birthday cards over by the register.\nA: Great, I'll pick one on my way out.\n\nAさんがこの店に来た目的として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "自分用の料理道具を購入するため"
+      },
+      {
+        "label": "B",
+        "text": "父親への誕生日プレゼントを選ぶため"
+      },
+      {
+        "label": "C",
+        "text": "植物の育て方について相談するため"
+      },
+      {
+        "label": "D",
+        "text": "割引セールの商品を確認するため"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-007",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Have you thought about where you want to go for the school trip?\nB: I was hoping for somewhere with history, like Kyoto. But I heard some classmates want to go to Okinawa.\nA: Yeah, a lot of people want the beach. The vote is next week.\nB: What do you think? Which would you choose?\nA: Honestly, I'd prefer Kyoto too. There's so much to learn—the temples, the traditional crafts...\nB: Exactly. And we could visit a tea ceremony experience.\nA: But Okinawa does sound relaxing. The ocean is beautiful there.\nB: True. Though I think we can go to a beach any time. A place like Kyoto offers something different.\nA: You make a good point. I'll vote for Kyoto.\nB: Me too. Let's try to convince a few more people before the vote.\n\nこの会話の主な話題として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "修学旅行の行き先について意見を交わしている"
+      },
+      {
+        "label": "B",
+        "text": "京都の有名な観光地を紹介している"
+      },
+      {
+        "label": "C",
+        "text": "沖縄のビーチリゾートを計画している"
+      },
+      {
+        "label": "D",
+        "text": "学校の投票ルールについて話し合っている"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-008",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, I'm interested in joining the gym. Can you tell me about your membership options?\nB: Of course! We have three plans. The Basic plan is $30 a month—it gives you access to gym equipment and group classes.\nA: What about the other plans?\nB: The Standard plan is $50 a month and includes everything in Basic plus access to the swimming pool and sauna.\nA: And the third one?\nB: The Premium plan is $80 a month. You get all of the above plus unlimited personal training sessions.\nA: Do you have any trial offers?\nB: Yes! We offer a one-week free trial for new members. You get access to Basic plan facilities.\nA: That's great. I'd love to try it first before committing.\nB: Absolutely. I just need your contact details to set that up.\nA: Sure. My name is Lisa Park.\n\nAさんが最も知りたかったこととして最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ジムの設備の使い方"
+      },
+      {
+        "label": "B",
+        "text": "個人トレーナーのスケジュール"
+      },
+      {
+        "label": "C",
+        "text": "会員プランの種類と内容"
+      },
+      {
+        "label": "D",
+        "text": "プールとサウナの営業時間"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-ld-009",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Good morning. I'm looking for a book called The Hidden Garden. Is it in stock?\nB: Let me check. Could you spell the title for me?\nA: T-H-E H-I-D-D-E-N G-A-R-D-E-N.\nB: And do you know the author's name?\nA: I think it's by Emily Walsh.\nB: Okay, searching now... I'm sorry, it looks like we've sold out. But we can order it for you. It usually takes three to five business days.\nA: Hmm. Can I check if the library next door has it?\nB: You can definitely check there. Though if you order now, we can call you when it arrives.\nA: I think I'll check the library first. If they don't have it, I'll come back and order it.\nB: Of course. We'll be happy to help whenever you're ready.\n\nAさんは会話の後、まず何をすると言っているか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "書店で本を注文する"
+      },
+      {
+        "label": "B",
+        "text": "著者のウェブサイトを確認する"
+      },
+      {
+        "label": "C",
+        "text": "隣の図書館に行く"
+      },
+      {
+        "label": "D",
+        "text": "別の本を探す"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-ld-010",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Professor Lee, I was wondering if I could talk to you about my research paper.\nB: Of course, Emma. Have a seat. What's the issue?\nA: I've been working on the topic of urban green spaces, but I'm finding it hard to narrow down my argument.\nB: That's a common challenge. What aspect interests you most?\nA: I think I want to focus on how green spaces affect mental health in city residents.\nB: That's a great angle. There's a lot of recent research on that. Are you familiar with the studies from the University of Copenhagen?\nA: I've read one or two, but not all of them.\nB: I'd recommend starting with the 2021 paper by Hansen et al. It's very relevant to your argument.\nA: I'll look that up. Should I come back with a revised outline?\nB: Yes, please. How about we meet again next Thursday afternoon?\nA: That works perfectly. Thank you, Professor.\n\nこの会話の主な目的として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "研究論文のテーマについて教授に相談している"
+      },
+      {
+        "label": "B",
+        "text": "都市の緑地に関する講義を受けている"
+      },
+      {
+        "label": "C",
+        "text": "コペンハーゲン大学への留学を相談している"
+      },
+      {
+        "label": "D",
+        "text": "論文の採点結果について話し合っている"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-011",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, I'm calling about the apartment listed online—the two-bedroom on Maple Street.\nB: Yes, it's still available! Would you like to know the details?\nA: Please. What's the monthly rent?\nB: It's $1,200 a month, utilities not included. But water and internet are included.\nA: Good to know. Is parking available?\nB: There's one parking space included in the rent. A second space is $80 extra per month.\nA: I see. I only have one car, so that's fine. Is the apartment pet-friendly? I have a small dog.\nB: We do allow pets, but there's a non-refundable pet fee of $200 when you move in.\nA: Okay. And how long is the lease?\nB: The minimum lease is 12 months. We ask for first and last month's rent upfront.\nA: All right. Could I come see the apartment this week?\nB: How about Thursday at 5 PM?\nA: Perfect.\n\n家賃に含まれているものをすべて含む選択肢はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "水道・インターネット・駐車スペース1台分"
+      },
+      {
+        "label": "B",
+        "text": "水道・電気・駐車スペース1台分"
+      },
+      {
+        "label": "C",
+        "text": "水道・インターネット・ペット費用"
+      },
+      {
+        "label": "D",
+        "text": "電気・ガス・駐車スペース2台分"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-012",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Let's talk about the science fair. We need to pick a project topic by Friday.\nB: I was thinking we could do something with plants—like how different colored light affects plant growth.\nA: That sounds interesting, but we did a plant experiment last year. Remember?\nB: Oh, right. The teacher might say it's too similar. What do you have in mind?\nA: What about testing how different types of music affect people's concentration? We could measure reading speed.\nB: Oh, I like that! It's easy to set up, and we can test our classmates.\nA: Exactly. We could use three conditions: classical music, pop music, and no music.\nB: And we measure reading speed and comprehension in each condition.\nA: Right. We'll need about 15 volunteers.\nB: I can ask the students from my homeroom. They'll probably say yes.\nA: Great. Let's write up the proposal tonight.\n\nAさんとBさんが最終的に決めた実験の内容として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "異なる色の光が植物の成長に与える影響"
+      },
+      {
+        "label": "B",
+        "text": "音楽の種類が人の集中力に与える影響"
+      },
+      {
+        "label": "C",
+        "text": "読書速度と音楽のジャンルの関係"
+      },
+      {
+        "label": "D",
+        "text": "クラスメートの音楽の好みと成績の関係"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-013",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I'm thinking of flying to Vancouver in December for the holidays. Have you booked your ticket yet?\nB: Not yet. I'm deciding between flying and taking the train. The train takes longer but it's more scenic.\nA: How much longer?\nB: About six hours more. The flight is two hours, but the train is eight.\nA: That's a big difference. What about cost?\nB: The train is actually cheaper—around $180 round trip. The flight is about $320.\nA: Wow. But you'd need to factor in getting to and from the airport.\nB: True. The train station is right in the city center, which is very convenient.\nA: So are you leaning toward the train?\nB: I think so. I have plenty of time off, and I've always wanted to see the mountain scenery.\nA: That sounds lovely. I'll probably fly because I'm only off for four days.\n\nBさんが電車を選ぼうとしている理由として正しいものをすべて含む選択肢はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "費用が安い・駅が便利・山の景色を楽しめる・休みが十分ある"
+      },
+      {
+        "label": "B",
+        "text": "費用が安い・所要時間が短い・山の景色を楽しめる"
+      },
+      {
+        "label": "C",
+        "text": "駅が便利・山の景色を楽しめる・環境に優しい"
+      },
+      {
+        "label": "D",
+        "text": "費用が安い・駅が便利・航空券が取れなかった"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-014",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, I need to change my flight reservation. I originally booked the 8 AM flight to Chicago on March 15th, but something came up.\nB: Of course. Let me pull up your booking. Can I get your last name?\nA: It's Kim. K-I-M.\nB: Thank you, Ms. Kim. I see your booking. What date would you like to travel instead?\nA: I need to push it back to March 17th. Same destination.\nB: Let me check availability. We have a flight at 10:30 AM and one at 3:15 PM on March 17th. Both have seats available.\nA: The 10:30 sounds good. What's the change fee?\nB: For your ticket type, there's a $75 change fee, and the new fare is $30 more than your original ticket.\nA: So a total of $105 extra?\nB: That's correct.\nA: Okay, I'll go ahead with the 10:30 AM flight on March 17th.\n\nMs. Kimが変更した内容として正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3月17日10時30分発シカゴ行きに変更(追加料金$105)"
+      },
+      {
+        "label": "B",
+        "text": "3月17日15時15分発シカゴ行きに変更(追加料金$75)"
+      },
+      {
+        "label": "C",
+        "text": "3月15日10時30分発シカゴ行きに変更(追加料金$30)"
+      },
+      {
+        "label": "D",
+        "text": "3月17日8時発シカゴ行きに変更(追加料金$105)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-015",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hey, are you coming to the debate club meeting today?\nB: I can't make it today. I have an extra English tutoring session at 4 PM.\nA: That's too bad. We're finalizing the topic for the regional competition.\nB: What topics are being considered?\nA: There are three options: social media regulation, universal basic income, or space exploration funding.\nB: I hope they choose social media regulation. I have a lot to say about that.\nA: Me too. But Jake and Yuki really want to do space exploration.\nB: Is the decision made by vote or by the advisor?\nA: By vote. Each member gets one vote, and majority wins. We have twelve members present today.\nB: Since I'm not there, my vote won't count then.\nA: Yeah, unfortunately. The decision will be announced by email tonight.\nB: Okay, I'll check my email after my tutoring session.\n\nBさんが今日のミーティングに参加できない理由として正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "地域大会の本番があるため"
+      },
+      {
+        "label": "B",
+        "text": "英語の補講があるため"
+      },
+      {
+        "label": "C",
+        "text": "別のクラブ活動があるため"
+      },
+      {
+        "label": "D",
+        "text": "家族の用事があるため"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-016",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: So you've decided to buy a new laptop. Have you made a final choice?\nB: I'm down to two options. One is the TechPro 14, which has a longer battery life—about 12 hours.\nA: And the other one?\nB: The Swift X. It's lighter and has a faster processor, but the battery only lasts around 7 hours.\nA: What are you mainly going to use it for?\nB: Mostly video editing and some light gaming. I also travel a lot for work.\nA: Hmm, if you travel a lot, battery life matters. But video editing really benefits from a fast processor.\nB: That's what I keep going back and forth on. The TechPro is also $200 cheaper.\nA: That's a significant difference. Can you use it near a power outlet when editing?\nB: Usually yes, I edit at home. On the road I just do emails and presentations.\nA: Then the TechPro 14 seems like the smarter choice—save money, better battery for travel.\nB: Yeah, I think you're right. I'll go with the TechPro.\n\nBさんがTechPro 14を選ぶ理由として正しいものをすべて含む選択肢はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "バッテリーが長持ちする・価格が安い・旅行時はメールと発表だけ行う"
+      },
+      {
+        "label": "B",
+        "text": "処理速度が速い・価格が安い・軽量である"
+      },
+      {
+        "label": "C",
+        "text": "バッテリーが長持ちする・軽量である・ゲームに最適"
+      },
+      {
+        "label": "D",
+        "text": "処理速度が速い・バッテリーが長持ちする・価格が安い"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-017",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I heard the community center is organizing a charity fundraiser. Are you involved?\nB: Yes! I'm on the planning committee. We've been working on it for a month.\nA: What kind of event is it?\nB: We originally planned a bake sale, but we decided to change it to a talent show. More people can participate.\nA: When is it?\nB: It was going to be on the 20th, but the venue wasn't available that day. So it's now on the 27th.\nA: Where will it be held?\nB: At the city library's event hall. They gave us the space for free.\nA: Wonderful. Who are the proceeds going to?\nB: We're donating to the local children's hospital.\nA: That's a great cause. I'd love to come. Do I need a ticket?\nB: Yes, tickets are $10 each. We'll be selling them at the library starting next Monday.\n\nイベントについて変更された点として正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "開催形式(ベイクセール→タレントショー)と開催日(20日→27日)の両方が変わった"
+      },
+      {
+        "label": "B",
+        "text": "開催場所(コミュニティセンター→図書館)と入場料(無料→$10)が変わった"
+      },
+      {
+        "label": "C",
+        "text": "開催形式(ベイクセール→タレントショー)のみ変わった"
+      },
+      {
+        "label": "D",
+        "text": "開催日(27日→20日)のみ変わった"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-018",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Good morning. I'm calling to report a problem with my internet service. It keeps cutting out.\nB: I'm sorry to hear that. Can I get your account number?\nA: It's 84721.\nB: Thank you, Mr. Torres. I can see your account. When did this problem start?\nA: About three days ago. It happens mostly in the evening, around 7 to 9 PM.\nB: I see. Has there been any construction or new devices added near your router?\nA: Actually, my neighbor mentioned they installed a new wireless system last week.\nB: That could be causing interference. Could you try moving your router away from the window?\nA: I did try that yesterday, but it didn't help.\nB: In that case, I'd like to send a technician to check the connection. Are you available this Thursday between 10 AM and 12 PM?\nA: Yes, that works.\nB: Perfect. The technician will call 30 minutes before arriving.\n\nBさん（カスタマーサービス）が最終的に提案した解決策はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ルーターを窓から遠ざける"
+      },
+      {
+        "label": "B",
+        "text": "近隣の無線システムを撤去してもらう"
+      },
+      {
+        "label": "C",
+        "text": "木曜日に技術者を派遣して接続を確認する"
+      },
+      {
+        "label": "D",
+        "text": "新しいルーターを無料で送付する"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-ld-019",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hey, are you free this Saturday? I was thinking we could organize a study session for the chemistry exam.\nB: I'd love to, but I have a dentist appointment in the morning. I could do afternoon though.\nA: Afternoon works. How about 2 PM at the college library?\nB: The library is usually full on Saturdays. How about the café on Green Street? They have a quiet area in the back.\nA: Oh right, I forgot about that place. Let's do the café then.\nB: Should we invite anyone else? I know Min-Ji is also struggling with organic chemistry.\nA: Let's invite her. Any others?\nB: Maybe not. Too many people and we'll just end up chatting instead of studying.\nA: Fair point. So, you, me, and Min-Ji at the Green Street café at 2 PM Saturday.\nB: Exactly. I'll text Min-Ji tonight.\nA: And I'll bring my notes on chemical equations.\n\n土曜日の勉強会について正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "グリーンストリートのカフェで午後2時から行われ、AさんとBさんとMin-Jiの3人で参加する"
+      },
+      {
+        "label": "B",
+        "text": "大学図書館で午後2時から行われ、AさんとBさんの2人で参加する"
+      },
+      {
+        "label": "C",
+        "text": "グリーンストリートのカフェで午前10時から行われ、3人以上で参加する"
+      },
+      {
+        "label": "D",
+        "text": "大学図書館で午後2時から行われ、Bさんが欠席する"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-020",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi there. I'd like to apply for a part-time job. I saw your sign in the window.\nB: Great! We're looking for someone for weekend shifts. Do you have any experience in retail?\nA: Yes, I worked at a clothing store for one year.\nB: Perfect. What's your availability like on weekends?\nA: I'm free all day Saturday, and Sunday afternoons from 1 PM onward.\nB: Our Saturday shifts run from 9 AM to 5 PM, and Sunday is 12 noon to 6 PM. Both would fit your schedule.\nA: That works for me.\nB: Can I ask why you're looking for a part-time job?\nA: I'm a university student, and I want to save up for a study-abroad program next summer.\nB: That's great motivation. Can you start next weekend?\nA: Yes, absolutely.\nB: Wonderful. I'll set up an interview for this Wednesday at 3 PM. Does that work?\nA: Yes, that's fine.\n\nAさんが週末のアルバイトを探している理由として最も適切なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "大学の授業料を払うため"
+      },
+      {
+        "label": "B",
+        "text": "来年の夏の留学費用を貯めるため"
+      },
+      {
+        "label": "C",
+        "text": "小売業の経験を積むため"
+      },
+      {
+        "label": "D",
+        "text": "親に依存しないで生活するため"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-021",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I read the proposal for the new office cafeteria. I think offering a full hot meal service is a great idea.\nB: I'm not so sure. The cost of equipment and staff would be enormous. A simpler setup might work better.\nA: But employee satisfaction matters. Studies show that good lunch options improve productivity.\nB: I agree, but we could achieve that with a well-stocked refrigerator, a microwave station, and delivery partnerships with nearby restaurants.\nA: That seems like a short-term fix. Employees want a real break—a place to sit and share a meal.\nB: We could create that atmosphere without a full kitchen. A better seating area and a coffee bar might be enough.\nA: And the quality? Delivery food isn't always fresh or healthy.\nB: We can partner with health-focused restaurants. Besides, building a full kitchen means construction for at least two months.\nA: That's a valid concern. But investing now saves more in the long run.\nB: Let's at least pilot the delivery partnership model for six months before committing to major construction.\n\nAさんとBさんの意見の違いとして最も正確なものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Aさんはフルサービスのカフェテリアがよいと主張し、Bさんは低コストの配達提携モデルを提案している"
+      },
+      {
+        "label": "B",
+        "text": "AさんはコストカットがよいとBさんは品質向上がよいと主張している"
+      },
+      {
+        "label": "C",
+        "text": "AさんはランチをなくすべきとBさんはカフェテリアを維持すべきと主張している"
+      },
+      {
+        "label": "D",
+        "text": "AさんもBさんも配達提携モデルに賛成している"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-022",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Professor, I wanted to ask about the group presentation format. I feel it's unfair when some members contribute more than others.\nB: That's a concern I hear often. How do you suggest we address it?\nA: Could we add individual evaluation forms where each member rates their teammates?\nB: Peer evaluation can introduce bias—students might rate friends highly regardless of work.\nA: What if you kept the ratings anonymous?\nB: Even anonymous ratings can be influenced by personal relationships. I'd rather look at individual contributions through process documentation.\nA: What do you mean by that?\nB: Each group submits a weekly log of who did what. I review those logs and adjust individual grades accordingly.\nA: That sounds fair. But some students might still not pull their weight.\nB: True. Which is why I also have a final one-on-one check where each student explains their contribution. If they can't, it affects their grade.\nA: I didn't know about the one-on-one check. That seems like a strong measure.\nB: I've used it for three years. It works very well.\n\nBさん（教授）がグループ評価の公平性を確保するために実際に行っていることとして正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "週次の貢献記録と個別の確認面談で成績を調整している"
+      },
+      {
+        "label": "B",
+        "text": "匿名の相互評価フォームを使って成績に反映している"
+      },
+      {
+        "label": "C",
+        "text": "グループ全体に同じ成績をつける形式を維持している"
+      },
+      {
+        "label": "D",
+        "text": "貢献度の低い学生は自動的に落第させる制度を設けている"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-023",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: So we've finalized the details for the summer family trip to Canada. We're flying to Vancouver on July 12th.\nB: And returning on July 22nd—ten days total. I'm really excited.\nA: Me too. We've booked the hotel in downtown Vancouver for the first five nights.\nB: And then we drive to Whistler for the last four nights.\nA: Oh wait, we haven't booked the rental car yet.\nB: Right, that's still on the list. Also, the kids want to go whale watching.\nA: Yes, I looked into it—there's a tour company that runs day trips from Vancouver.\nB: Did you book it?\nA: Not yet. I'll call them tomorrow. Also, I need to confirm the travel insurance.\nB: And we need to arrange airport parking.\nA: I already sorted that—it's reserved at the long-term lot at Terminal 1.\n\nこの旅行の計画についてまだ手配が済んでいないものとして正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "レンタカーとホエールウォッチングツアーと旅行保険"
+      },
+      {
+        "label": "B",
+        "text": "ホテルとホエールウォッチングツアーと空港駐車場"
+      },
+      {
+        "label": "C",
+        "text": "航空券とレンタカーと旅行保険"
+      },
+      {
+        "label": "D",
+        "text": "ホテルとレンタカーと旅行保険と空港駐車場"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-024",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I've been thinking about applying for the management position. What do you think?\nB: Honestly? I think you'd be a great manager. But are you sure the timing is right?\nA: What do you mean?\nB: Well, you're currently leading the biggest project of the year. If you transition now, the project might suffer.\nA: I've thought about that. I would only start the new role after the project wraps up in October.\nB: That makes sense. But have you talked to Director Park about this?\nA: Not yet. I'm not sure how he'll react.\nB: I think you should have that conversation before you apply formally. It would be better for him to hear it from you directly.\nA: You're probably right. I just don't want him to think I'm abandoning the project.\nB: If you explain that you'll see it through to October, he should understand.\nA: Okay, I'll set up a meeting with Director Park first.\n\nBさんがAさんに最も強くアドバイスしていることとして正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "管理職への応募を諦めたほうがよい"
+      },
+      {
+        "label": "B",
+        "text": "正式に応募する前にDirector Parkと直接話すべきだ"
+      },
+      {
+        "label": "C",
+        "text": "プロジェクトを途中で別の人に任せてよい"
+      },
+      {
+        "label": "D",
+        "text": "10月より前に管理職に就くべきだ"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-025",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Okay, we need to figure out the club budget for the semester. We have $500 to work with.\nB: Right. Last year we spent $200 on supplies and $150 on the year-end party. That's $350.\nA: This year I'd like to increase the supplies budget to $250 since we have more members.\nB: That's reasonable. What about the party?\nA: I think $150 is enough again. Let's not overspend on that.\nB: Agreed. So that's $400. What do we do with the remaining $100?\nA: I was thinking we save it as a reserve for unexpected costs. Like if the printer breaks.\nB: Good idea. But I also want to use some of it to invite a guest speaker for our autumn event.\nA: How much would that cost?\nB: The speaker I have in mind doesn't charge a fee. We'd just cover travel—maybe $60.\nA: Okay, so $60 for travel and $40 in reserve?\nB: That works for me.\n\n予算の最終配分として正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "物品費$250・パーティー費$150・ゲスト旅費$60・予備費$40"
+      },
+      {
+        "label": "B",
+        "text": "物品費$200・パーティー費$150・ゲスト旅費$60・予備費$90"
+      },
+      {
+        "label": "C",
+        "text": "物品費$250・パーティー費$200・ゲスト旅費$50・予備費なし"
+      },
+      {
+        "label": "D",
+        "text": "物品費$200・パーティー費$150・予備費$100・ゲスト費なし"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-026",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Good morning, I'm calling about a charge on my credit card statement that I don't recognize.\nB: I'm sorry to hear that. Can I get your full name and the last four digits of your card?\nA: It's Nicole Reeves, and the last four digits are 7834.\nB: Thank you, Ms. Reeves. I can see your account. What charge are you questioning?\nA: There's a $49 charge on March 3rd from a company called DigitalVault. I've never heard of them.\nB: Let me look into that. One moment... It appears this is a subscription charge. Do you recall signing up for any online storage service?\nA: Oh—actually, I did try a free trial about three months ago. I must have forgotten to cancel.\nB: I see. The trial converted to a paid plan automatically. Would you like me to cancel the subscription and request a refund for this charge?\nA: Yes, please. And make sure no future charges go through.\nB: I've cancelled the subscription now. The refund will appear within 5 to 7 business days.\n\nこの会話についてNOT正しいものはどれか（会話で述べられていないものはどれか）。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Nicolが3か月前に無料トライアルに登録していた"
+      },
+      {
+        "label": "B",
+        "text": "DigitalVaultは月額$49のサブスクリプションサービスである"
+      },
+      {
+        "label": "C",
+        "text": "Nicoleはカードをすぐに解約するよう依頼した"
+      },
+      {
+        "label": "D",
+        "text": "払い戻しは5〜7営業日以内に行われる"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-ld-027",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I've been offered a promotion, but it means relocating to the Singapore office for two years.\nB: Wow. How do you feel about it?\nA: Excited but nervous. It's a great career move, but I'd be far from family.\nB: Are there options to visit home?\nA: The company offers two return flights per year. That feels like a lot but also not enough.\nB: What does your partner think?\nA: They're supportive, but they can't relocate because of their job.\nB: That's the hardest part. Have you thought about what you'd miss most?\nA: Probably my niece and nephew. They're growing up so fast.\nB: That's meaningful. But also—two years isn't forever, and this kind of opportunity doesn't come often.\nA: I know. I think I'll accept it, but I need to have a longer conversation with my partner first.\nB: That's the right approach. Big decisions deserve full conversations.\n\nAさんのシンガポール転勤について会話で述べられていないものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "会社が年2回の帰国便を提供する"
+      },
+      {
+        "label": "B",
+        "text": "AさんのパートナーはAさんの転勤を支持している"
+      },
+      {
+        "label": "C",
+        "text": "Aさんはシンガポールで住む場所をすでに決めている"
+      },
+      {
+        "label": "D",
+        "text": "Aさんはパートナーともっと話し合ってから決める予定だ"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-ld-028",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: We need to settle the marketing campaign timeline. The product launch is set for May 1st.\nB: Right. I originally proposed starting the social media campaign eight weeks before launch, which would be March 6th.\nA: Marketing feels that's too early. We've seen that campaigns started five weeks out tend to perform better—less audience fatigue.\nB: That's an interesting point, but eight weeks gives us more testing time to optimize the ads.\nA: What if we start a teaser campaign at eight weeks but hold the main push until five weeks before?\nB: That could work. A soft launch with mystery content early, then full activation at the five-week mark.\nA: Exactly. And we align the email campaign with the five-week point too.\nB: I can support that structure. Let's document it and share with the design team by end of week.\nA: Agreed.\n\nAさんとBさんが最終的に合意したマーケティングキャンペーンの進め方として正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "8週前にティザーキャンペーンを開始し、5週前からメインキャンペーンとメール配信を行う"
+      },
+      {
+        "label": "B",
+        "text": "5週前にすべてのキャンペーンを同時開始する"
+      },
+      {
+        "label": "C",
+        "text": "8週前からソーシャルメディアとメールを同時に全面展開する"
+      },
+      {
+        "label": "D",
+        "text": "テスト期間として8週前に開始し、5週前に全キャンペーンを停止して再設計する"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-ld-029",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Excuse me, I bought these headphones here three days ago, but the sound cuts out on the left side. I'd like a refund.\nB: I'm sorry about that. Do you have your receipt?\nA: Yes, here it is.\nB: Thank you. I see this was purchased on the 12th. Our return policy is seven days for electronics, so you're within the window. May I test the headphones?\nA: Of course.\nB: I can confirm the issue. Normally we offer an exchange first—we can swap them for the same model right now.\nA: I'd prefer a refund, actually. I found a different model I'd like to buy.\nB: Understood. Since you paid by card, the refund will go back to your card within three business days.\nA: That's fine. Could I ask about the other model before I go?\nB: Of course! What model were you looking at?\n\nAさんが最終的に求めているものとして正しいものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "同じモデルのヘッドフォンとの交換"
+      },
+      {
+        "label": "B",
+        "text": "カードへの返金と別モデルの情報"
+      },
+      {
+        "label": "C",
+        "text": "修理サービスの予約"
+      },
+      {
+        "label": "D",
+        "text": "全額の現金返金のみ"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-ld-030",
+    "subject": "英語",
+    "unit": "長い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I wanted to raise something. I noticed you've been coming in late a lot recently, and it's starting to affect the team.\nB: I'm sorry. I should have mentioned it sooner—I've been dealing with a family health situation.\nA: I understand, and I appreciate you telling me. Is there anything the company can do to support you right now?\nB: I think if I could shift my hours slightly—starting at 9:30 instead of 9:00—it would help for the next month or so.\nA: That's a reasonable request. Let me confirm this with HR, but I don't see why that would be a problem.\nB: Thank you. I want to make sure my work doesn't fall behind during this time.\nA: I appreciate that. Let's set up a brief weekly check-in so we can stay on track together.\nB: I'd welcome that. I really do want to get back to my regular schedule as soon as possible.\nA: I know you do. We'll get through this.\n\n会話の流れとして最も正確に説明しているものはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "上司が遅刻を指摘→部下が家族の事情を説明→上司が柔軟な対応を検討→解決に向けた合意"
+      },
+      {
+        "label": "B",
+        "text": "部下が昇給を要求→上司が拒否→部下が家族の事情を説明→条件付き合意"
+      },
+      {
+        "label": "C",
+        "text": "上司が部下を解雇しようとした→部下が抗議→上司が方針を変えた"
+      },
+      {
+        "label": "D",
+        "text": "部下が勤務時間の変更を要求→上司が拒否→調停者が間に入った"
+      }
+    ],
+    "correct": "A"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "eng-sd-001",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Excuse me, I'd like to return this jacket. I bought it last week, but the zipper is broken.\nB: Of course. Do you have your receipt?\nA: Yes, here it is.\nB: Thank you. Would you like a refund or an exchange?\n\nこの会話が行われている場所として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "デパートや衣料品店" },
+      { "label": "B", "text": "クリーニング店" },
+      { "label": "C", "text": "図書館" },
+      { "label": "D", "text": "郵便局" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-sd-002",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, could I get a table for two, please?\nB: Of course. Smoking or non-smoking?\nA: Non-smoking, please.\nB: Right this way.\n\nこの会話の目的として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "食事の予約をキャンセルする" },
+      { "label": "B", "text": "席の案内を求める" },
+      { "label": "C", "text": "メニューについて質問する" },
+      { "label": "D", "text": "料金の確認をする" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-003",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Mr. Tanaka, could you check my essay before I hand it in?\nB: Sure, Emma. Leave it on my desk and I'll look at it after class.\nA: Thank you so much.\n\nAとBの関係として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "上司と部下" },
+      { "label": "B", "text": "先生と生徒" },
+      { "label": "C", "text": "友人同士" },
+      { "label": "D", "text": "医者と患者" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-004",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Good morning. I have an appointment with Dr. Lee at ten o'clock.\nB: Good morning. May I have your name, please?\nA: It's Yamamoto, Keiko.\nB: Thank you, Ms. Yamamoto. Please take a seat. Dr. Lee will be with you shortly.\n\nこの会話が行われている場所として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "レストランの入り口" },
+      { "label": "B", "text": "市役所の窓口" },
+      { "label": "C", "text": "病院や診療所の受付" },
+      { "label": "D", "text": "ホテルのフロント" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-005",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Excuse me, do you have this shirt in a medium?\nB: Let me check in the back for you.\nA: Thank you. I tried the large, but it was a bit too big.\nB: I found one. Here you go.\n\nAが最初にしていたこととして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "シャツのサイズを調べていた" },
+      { "label": "B", "text": "ラージサイズのシャツを試着していた" },
+      { "label": "C", "text": "レジで支払いをしていた" },
+      { "label": "D", "text": "返品の手続きをしていた" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-006",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Have you decided what to order?\nB: Not yet. What do you recommend?\nA: Our pasta is very popular today. It's also our daily special.\nB: That sounds great. I'll have that.\n\nBが注文することにしたものはどれか。",
+    "choices": [
+      { "label": "A", "text": "本日のおすすめのパスタ" },
+      { "label": "B", "text": "サラダ" },
+      { "label": "C", "text": "スープ" },
+      { "label": "D", "text": "デザート" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-sd-007",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, Sarah. Are you ready for the math test tomorrow?\nB: Not really. I didn't understand the last chapter at all.\nA: Me neither. Do you want to study together tonight?\nB: Yes, that would be great!\n\nAとBの関係として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "先生と生徒" },
+      { "label": "B", "text": "同じ学校に通う生徒同士" },
+      { "label": "C", "text": "コーチと選手" },
+      { "label": "D", "text": "親と子" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-008",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Excuse me, how much is this camera?\nB: That one is 45,000 yen.\nA: Is there a cheaper model with similar features?\nB: Yes, we have one for 32,000 yen. It's just as good for basic photography.\n\nAが求めていることとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "カメラの修理を依頼したい" },
+      { "label": "B", "text": "より安いカメラを探している" },
+      { "label": "C", "text": "カメラの使い方を教えてほしい" },
+      { "label": "D", "text": "カメラを返品したい" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-009",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I'd like to send this package to Osaka. How long will it take?\nB: Standard delivery is three to five business days. Express is the next day.\nA: The next day, please.\n\nAが選んだ配送方法として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "3〜5営業日かかる通常配送" },
+      { "label": "B", "text": "翌日届く速達配送" },
+      { "label": "C", "text": "当日中に届く配送" },
+      { "label": "D", "text": "1週間かかる安い配送" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-010",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Excuse me, is this seat taken?\nB: No, go ahead.\nA: Thank you. Is this your first time on this train line?\nB: Yes, I'm visiting from Kyoto. I'm heading to the museum.\n\nBが向かっている目的地はどこか。",
+    "choices": [
+      { "label": "A", "text": "図書館" },
+      { "label": "B", "text": "京都" },
+      { "label": "C", "text": "博物館・美術館" },
+      { "label": "D", "text": "駅" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-011",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Tom, I need the sales report by Friday. Can you handle that?\nB: I'll try, but I have the client meeting on Thursday morning. Would Wednesday be okay for a draft?\nA: Sure, send me the draft Wednesday, and I'll give you feedback before the deadline.\nB: Perfect. I'll get started right away.\n\n会話の後、Bが最初にすることとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "金曜日に完成版のレポートを提出する" },
+      { "label": "B", "text": "水曜日までに下書きを作成し始める" },
+      { "label": "C", "text": "木曜日のクライアントミーティングに参加する" },
+      { "label": "D", "text": "AにEメールでフィードバックを送る" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-012",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hello, I called earlier about the laptop I dropped off for repair.\nB: Yes, Ms. Kato. We replaced the screen, but the keyboard also needs replacing. It will cost an extra 8,000 yen.\nA: Oh. How long will that take?\nB: About two more days if you'd like us to go ahead.\nA: Please do.\n\nこの後、修理店が行うこととして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "液晶画面だけを交換して終了する" },
+      { "label": "B", "text": "キーボードのみを修理する" },
+      { "label": "C", "text": "画面に加えてキーボードも交換する" },
+      { "label": "D", "text": "修理を中止してラップトップを返却する" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-013",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Hi, I'd like to book a room for two nights, the 15th and 16th.\nB: I'm sorry, we're fully booked on the 15th. We do have availability on the 16th only.\nA: I see. Could you check if there are any cancellations for the 15th?\nB: Of course. I'll put you on the waiting list and call you if something opens up.\n\nホテルが最終的にすることとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "15日と16日の2泊分を予約する" },
+      { "label": "B", "text": "16日のみの予約を確定させる" },
+      { "label": "C", "text": "キャンセル待ちリストにAを登録し、空きが出れば連絡する" },
+      { "label": "D", "text": "15日に満室のため、すべての予約を断る" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-014",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Are you coming to Jake's farewell party on Saturday?\nB: I'd love to, but I have soccer practice in the morning. What time does it start?\nA: At three in the afternoon. Practice should be done by noon, right?\nB: Yes, I'll make it. Count me in.\n\nBについて正しいことはどれか。",
+    "choices": [
+      { "label": "A", "text": "土曜日の午前中に別の予定があるが、パーティーには出席できる" },
+      { "label": "B", "text": "サッカーの練習が3時まであるためパーティーに行けない" },
+      { "label": "C", "text": "パーティーの開始時刻が何時か知らなかった" },
+      { "label": "D", "text": "午前中に練習がないため、すぐにパーティーに行ける" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "eng-sd-015",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Ms. Brown, could I speak to you after school today?\nB: I have a meeting at four, but I'm free from five. Would that work?\nA: Yes, that's fine. I want to discuss my presentation topic.\nB: Great. See you at five in my office.\n\n2人が会うことになった時間と場所として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "4時・会議室" },
+      { "label": "B", "text": "5時・B(Ms. Brown)の部屋" },
+      { "label": "C", "text": "放課後すぐ・廊下" },
+      { "label": "D", "text": "5時・図書室" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-016",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Could you help me carry these boxes to the third floor?\nB: Sure. Should we use the elevator?\nA: It's out of order today. We'll have to use the stairs.\nB: No problem. Let's go.\n\nこの後、2人がすることとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "エレベーターを使って3階へ荷物を運ぶ" },
+      { "label": "B", "text": "エレベーターが直るまで待つ" },
+      { "label": "C", "text": "階段を使って3階へ荷物を運ぶ" },
+      { "label": "D", "text": "荷物を1階に置いたまま立ち去る" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-017",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I was thinking we could meet at the library at two.\nB: I might be a little late. Could we make it two-thirty instead?\nA: Sure, two-thirty works for me.\nB: And should we study in the group room or the quiet area?\nA: Let's go with the quiet area.\n\n2人が合意した内容として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "2時に図書館のグループ部屋で会う" },
+      { "label": "B", "text": "2時30分に図書館の静かな自習エリアで会う" },
+      { "label": "C", "text": "2時に図書館の静かな自習エリアで会う" },
+      { "label": "D", "text": "2時30分に図書館のグループ部屋で会う" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-018",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I have to finish this project by tomorrow, but I'm stuck on the data section.\nB: I can help you with that part. I worked on something similar last month.\nA: Really? That would be such a help. Could you come over after dinner?\nB: I'll be there by eight.\n\nBが約束したこととして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "翌日の朝にプロジェクトのデータ部分を送る" },
+      { "label": "B", "text": "夕食後8時頃にAのところへ行ってデータ部分を手伝う" },
+      { "label": "C", "text": "先月の似たプロジェクトのデータをAに渡す" },
+      { "label": "D", "text": "Aに代わってプロジェクト全体を完成させる" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-019",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Excuse me, I ordered the grilled fish, but I got the fried chicken instead.\nB: I'm very sorry about that. I'll have the correct dish brought to you right away.\nA: Thank you. And could I also get some water?\nB: Of course. I'll bring both immediately.\n\nウェイターが次にすることとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "フライドチキンの代金を請求する" },
+      { "label": "B", "text": "グリルした魚の料理と水を持ってくる" },
+      { "label": "C", "text": "水だけを持ってきて、料理は後で交換する" },
+      { "label": "D", "text": "注文を改めて確認してから調理し直す" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-020",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Did you watch the final episode of that drama last night?\nB: Not yet! Don't tell me what happens.\nA: Oh, sorry! I almost did.\nB: I'll watch it tonight. Let's talk about it tomorrow.\n\nBが今夜することとして最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "Aにドラマの内容を教える" },
+      { "label": "B", "text": "そのドラマの最終回を視聴する" },
+      { "label": "C", "text": "AとそのドラマについてSNSで話し合う" },
+      { "label": "D", "text": "最終回を見ずにAから内容を聞く" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-021",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: You don't look very happy. How did the interview go?\nB: Well, they said I was 'a strong candidate.' But I've heard that before and never got the job.\nA: Maybe this time will be different.\nB: I don't know. I'll believe it when I see it.\n\nBの態度として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "面接の結果に自信を持っており、喜んでいる" },
+      { "label": "B", "text": "面接のことをまったく気にしていない" },
+      { "label": "C", "text": "過去の経験から、楽観的にはなれずに疑っている" },
+      { "label": "D", "text": "面接官の発言に強く腹を立てている" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-022",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I heard you turned down the promotion. Why would you do that?\nB: More money sounds nice, but I'd have to work weekends. I want time for my family.\nA: I see. That's a very personal decision.\nB: Exactly. Not everyone has the same priorities.\n\nBが昇進を断った理由として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "給与が不十分だったから" },
+      { "label": "B", "text": "家族との時間を優先したかったから" },
+      { "label": "C", "text": "週末の仕事が好きではなかったから" },
+      { "label": "D", "text": "上司との関係が悪かったから" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-023",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Oh, so you finished the whole report in one evening? That's impressive.\nB: Ha, 'impressive.' You said you'd help me, remember?\nA: I got caught up in a meeting. I'm sorry.\nB: It's fine. I managed.\n\nBの「It's fine. I managed.」という発言に最も近い意図はどれか。",
+    "choices": [
+      { "label": "A", "text": "本当に気にしていないと伝えている" },
+      { "label": "B", "text": "Aが来なかったことにまだ不満があるが、直接は言っていない" },
+      { "label": "C", "text": "Aを励ましてあげようとしている" },
+      { "label": "D", "text": "Aの助けが不要だったと強調している" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-024",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I saw your presentation today. Very interesting topic.\nB: Thanks. I wasn't sure it would go over well.\nA: Honestly, some of the charts were a bit hard to read from the back.\nB: I'll keep that in mind for next time.\n\n会話の中でAが述べていないことはどれか。",
+    "choices": [
+      { "label": "A", "text": "プレゼンのトピックを「興味深い」と評価した" },
+      { "label": "B", "text": "グラフが後方から見て読みにくかった" },
+      { "label": "C", "text": "Bのプレゼンを今日聞いた" },
+      { "label": "D", "text": "Aは次回もグラフを後方から見やすくするよう勧めた" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "eng-sd-025",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Are you okay? You've been staring at that email for ten minutes.\nB: My old college friend is asking to borrow money again.\nA: Did you lend him money before?\nB: Twice. And both times he said he'd pay me back 'soon.'\n\nBの心情として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "友人から連絡が来て純粋に喜んでいる" },
+      { "label": "B", "text": "過去に返済されなかった経験があり、困惑・懸念を感じている" },
+      { "label": "C", "text": "友人を助けたいと強く思っており、喜んで貸すつもりだ" },
+      { "label": "D", "text": "友人に対して怒りをあらわにしている" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-026",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: The deadline for the grant application is next Monday.\nB: I know. I've already submitted mine.\nA: Already? How did you finish so quickly?\nB: I started working on it the day it was announced.\n\nBについて会話から読み取れることはどれか。",
+    "choices": [
+      { "label": "A", "text": "締め切り前日に申請書を提出した" },
+      { "label": "B", "text": "申請書の作成をまだ始めていない" },
+      { "label": "C", "text": "申請が公開された直後から準備を始め、すでに提出を終えている" },
+      { "label": "D", "text": "Aと一緒に申請書を作成した" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-027",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I can't believe they canceled the outdoor concert because of a little rain.\nB: It was a thunderstorm warning, actually. Safety first.\nA: Still, people traveled from far away for this.\nB: I agree it's disappointing, but the organizers made the right call.\n\nBの立場として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "コンサートがキャンセルされたことを主催者のせいにして批判している" },
+      { "label": "B", "text": "残念に思いつつも、安全を優先した主催者の判断を支持している" },
+      { "label": "C", "text": "雷雨警報が本当だったかどうか疑っている" },
+      { "label": "D", "text": "コンサートのキャンセルをまったく残念に思っていない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-028",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: Your new office is much bigger than the old one.\nB: Yes, but it's on the fourth floor and there's no elevator in this building.\nA: Oh. That must be tough on days when you have heavy things to carry.\nB: You get used to it.\n\n会話の中でBが述べていないことはどれか。",
+    "choices": [
+      { "label": "A", "text": "新しいオフィスは4階にある" },
+      { "label": "B", "text": "建物にエレベーターがない" },
+      { "label": "C", "text": "荷物が重い日は大変だ" },
+      { "label": "D", "text": "慣れてきたと述べた" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "eng-sd-029",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: I heard you spent the whole weekend painting your apartment. Was it worth it?\nB: Honestly? My back is killing me, and I'm still not done.\nA: So... not worth it?\nB: Ask me again when it's finished and I can sleep in a real bed again.\n\nBの現状として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "ペンキ塗りを終えて満足している" },
+      { "label": "B", "text": "作業が終わっておらず、腰も痛く、まだ通常の生活ができていない" },
+      { "label": "C", "text": "ペンキ塗りの作業を途中で諦めた" },
+      { "label": "D", "text": "体の痛みはあるが、作業は完成した" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "eng-sd-030",
+    "subject": "英語",
+    "unit": "短い対話（リスニング）",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、問いに答えなさい。\n\nA: You seem really nervous about giving the speech tomorrow.\nB: I've given presentations at work, but speaking to five hundred people is completely different.\nA: You know your material well. That's the most important thing.\nB: I hope you're right.\n\nBについて会話から読み取れることはどれか。",
+    "choices": [
+      { "label": "A", "text": "職場でのプレゼン経験はなく、今回が初めてだ" },
+      { "label": "B", "text": "職場での発表経験はあるが、大人数の前でのスピーチには不安を感じている" },
+      { "label": "C", "text": "スピーチの内容をまだほとんど準備できていない" },
+      { "label": "D", "text": "500人の聴衆の前でスピーチをするのを楽しみにしている" }
+    ],
+    "correct": "B"
+  }
+]
