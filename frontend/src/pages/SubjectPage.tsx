@@ -359,7 +359,7 @@ export default function SubjectPage() {
               ? '教科を選ぶ'
               : selectedSubject === 'english'
                 ? 'コースを選ぶ'
-                : (needsSchoolType || selectingSchool ? 'あなたは？' : 'コースを選ぶ')}
+                : (needsSchoolType || selectingSchool ? 'コースを選ぶ' : 'コースを選ぶ')}
           </p>
         </div>
 
