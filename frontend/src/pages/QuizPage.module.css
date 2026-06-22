@@ -950,6 +950,33 @@
   white-space: pre-wrap;
   margin: 0;
 }
+.expTranslationPair {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(80, 160, 120, 0.18);
+}
+.expTranslationPair:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.expTranslationEn {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--sq-ink);
+  margin: 0;
+}
+.expTranslationJa {
+  font-family: var(--font-serif-jp);
+  font-size: 12px;
+  line-height: 1.7;
+  color: rgba(40, 80, 60, 0.72);
+  margin: 0;
+  padding-left: 8px;
+  border-left: 2px solid rgba(80, 160, 120, 0.45);
+}
 
 .expLead {
   font-family: var(--font-serif-jp);

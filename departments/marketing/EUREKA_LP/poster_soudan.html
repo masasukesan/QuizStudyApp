@@ -153,6 +153,9 @@
         background: #2980b9;
         flex: 0 0 auto;
         padding: 20px 34px 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
       .blue-main {
         font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
@@ -177,6 +180,8 @@
         font-size: 22pt;
         font-weight: 900;
         color: #fff;
+        text-align: left;
+        align-self: flex-start;
         margin-top: 6px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
       }
@@ -208,41 +213,77 @@
       .bottom-left {
         flex: 1.2;
         padding-right: 28px;
+        padding-top: 4px;
         border-right: 2px solid #b8d9e8;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        gap: 10px;
+      }
+      /* 会場コンテナ */
+      .venue-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .venue-block {
+        flex: 2;
+        background: #eaf4fb;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        overflow: hidden;
       }
       .venue-label {
-        display: block;
         background: #2980b9;
-        text-align: center;
         color: #fff;
-        font-size: 18pt;
-        font-weight: 700;
-        padding: 5px 24px;
-        border-radius: 20px;
-        margin-bottom: 12px;
-        letter-spacing: 0.1em;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 24pt;
+        font-weight: 900;
+        letter-spacing: 0.3em;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .venue-text {
+        flex: 1;
+        padding: 16px 26px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
       }
       .venue-name {
         font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
-        font-size: 34pt;
+        font-size: 36pt;
         font-weight: 900;
         color: #2980b9;
-        margin-bottom: 12px;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
       }
       .venue-detail {
         font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
-        font-size: 16pt;
+        font-size: 24pt;
         font-weight: 800;
-        color: #2c3e50;
-        line-height: 2;
-        margin-bottom: 16px;
-      }
-      .venue-detail strong {
         color: #1a3a52;
+        line-height: 1.6;
+      }
+      .venue-info {
+        flex: 1;
+        background: #eaf4fb;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 22px;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 18pt;
+        font-weight: 800;
+        color: #1a3a52;
+        line-height: 1.9;
+        gap: 0;
+      }
+      .venue-info strong {
+        color: #2980b9;
       }
 
       /* QR */
@@ -294,14 +335,25 @@
         padding-left: 28px;
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 10px;
         padding-top: 4px;
       }
       .chips-group {
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 10px;
+      }
+      .chips-top {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .chips-bottom {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
       }
       .detail-chip {
         flex: 1;
@@ -338,7 +390,7 @@
         --footer-block-h: 210px;
       }
       .left-footer {
-        margin-top: 16px;
+        margin-top: 0;
         background: #f1c40f;
         border-radius: 12px;
         padding: 14px 20px;
@@ -464,15 +516,23 @@
       <div class="sec-bottom">
         <!-- 左：会場情報 -->
         <div class="bottom-left">
-          <div class="venue-label">会　場</div>
-          <div class="venue-name">ユリイカ吉井校</div>
-          <div class="venue-detail">
-            <strong>うきは市吉井町18-10<br />ラグビー交流館内</strong><br />
-            <br />
-            <strong>対　象：</strong>小学生・中学生・高校生の保護者の方<br />
-            <strong>参加費：</strong
-            ><span style="color: #c0392b; font-weight: 700">無　料</span><br />
-            <strong>定　員：</strong>6名（先着順・要予約）
+          <div class="venue-container">
+            <div class="venue-block">
+              <div class="venue-label">会場</div>
+              <div class="venue-text">
+                <div class="venue-name">ユリイカ吉井校</div>
+                <div class="venue-detail">
+                  うきは市吉井町18-10<br />ラグビー交流館内
+                </div>
+              </div>
+            </div>
+            <div class="venue-info">
+              <div><strong>対　象：</strong>小・中・高校生の保護者の方</div>
+              <div>
+                <strong>参加費：</strong
+                ><span style="color: #c0392b; font-weight: 900">無　料</span>
+              </div>
+            </div>
           </div>
           <!-- 旧フッター：左下に移動 -->
           <div class="left-footer">
@@ -487,17 +547,21 @@
         <!-- 右：詳細 -->
         <div class="bottom-right">
           <div class="chips-group">
-            <div class="detail-chip">
-              相談時間 約30分
-              <span>目安のお時間です。短縮・延長可能です。</span>
+            <div class="chips-top">
+              <div class="detail-chip">
+                相談時間 約30分
+                <span>目安のお時間です。短縮・延長可能です。</span>
+              </div>
+              <div class="detail-chip">
+                事前予約制（先着6名）
+                <span>お電話またはLINEでご予約ください。</span>
+              </div>
             </div>
-            <div class="detail-chip">
-              事前予約制（先着6名）
-              <span>お電話またはLINEでご予約ください。</span>
-            </div>
-            <div class="detail-chip">
-              開催日　毎週土曜日
-              <span>16:00〜17:00　ご都合の良い週にどうぞ。</span>
+            <div class="chips-bottom">
+              <div class="detail-chip">
+                開催日　毎週土曜日
+                <span>16:00〜17:00　ご都合の良い週にどうぞ。</span>
+              </div>
             </div>
           </div>
           <div class="qr-wrap">

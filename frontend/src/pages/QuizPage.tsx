@@ -49,7 +49,7 @@ interface ExplanationEntry {
   common_mistakes?: string | string[]
   wrong_answers?: Record<string, string>
   tips?: string | string[]
-  translation?: string   // 英文パッセージの全文和訳（英語単元のみ）
+  translation?: string | Array<{ en: string; ja: string }>  // 英文パッセージの和訳（英語単元のみ）
 }
 
 /* ── 問題文から英文パッセージのみ抽出（--- 区切りの間） ── */
@@ -1009,11 +1009,19 @@ export default function QuizPage() {
               const wrongAnswers = exp.wrong_answers ?? {}
               return (
                 <div className={styles.expBody}>
-                  {/* 全文和訳（英語単元のみ） */}
+                  {/* 英文・和訳対照（英語単元のみ） */}
                   {exp.translation && (
                     <div className={styles.expTranslation}>
-                      <p className={styles.expTranslationLabel}>📖 全文和訳</p>
-                      <p className={styles.expTranslationText}>{exp.translation}</p>
+                      <p className={styles.expTranslationLabel}>📖 英文・和訳対照</p>
+                      {Array.isArray(exp.translation)
+                        ? (exp.translation as Array<{ en: string; ja: string }>).map((pair, i) => (
+                            <div key={i} className={styles.expTranslationPair}>
+                              <p className={styles.expTranslationEn}>{pair.en}</p>
+                              <p className={styles.expTranslationJa}>{pair.ja}</p>
+                            </div>
+                          ))
+                        : <p className={styles.expTranslationText}>{exp.translation as string}</p>
+                      }
                     </div>
                   )}
 
