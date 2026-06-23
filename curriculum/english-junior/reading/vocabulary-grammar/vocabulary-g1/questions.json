@@ -1,0 +1,422 @@
+[
+  {
+    "id": "vg1-001",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 book 」",
+    "choices": [
+      { "label": "A", "text": "本" },
+      { "label": "B", "text": "机" },
+      { "label": "C", "text": "椅子" },
+      { "label": "D", "text": "窓" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg1-002",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 mother 」",
+    "choices": [
+      { "label": "A", "text": "兄・弟" },
+      { "label": "B", "text": "姉・妹" },
+      { "label": "C", "text": "父" },
+      { "label": "D", "text": "母" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg1-003",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 breakfast 」",
+    "choices": [
+      { "label": "A", "text": "昼食" },
+      { "label": "B", "text": "夕食" },
+      { "label": "C", "text": "朝食" },
+      { "label": "D", "text": "間食" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-004",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 green 」",
+    "choices": [
+      { "label": "A", "text": "青" },
+      { "label": "B", "text": "赤" },
+      { "label": "C", "text": "黄" },
+      { "label": "D", "text": "緑" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg1-005",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 school 」",
+    "choices": [
+      { "label": "A", "text": "図書館" },
+      { "label": "B", "text": "学校" },
+      { "label": "C", "text": "病院" },
+      { "label": "D", "text": "公園" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-006",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 cat 」",
+    "choices": [
+      { "label": "A", "text": "犬" },
+      { "label": "B", "text": "鳥" },
+      { "label": "C", "text": "猫" },
+      { "label": "D", "text": "魚" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-007",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 play 」",
+    "choices": [
+      { "label": "A", "text": "走る" },
+      { "label": "B", "text": "遊ぶ・（スポーツを）する" },
+      { "label": "C", "text": "食べる" },
+      { "label": "D", "text": "眠る" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-008",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 happy 」",
+    "choices": [
+      { "label": "A", "text": "悲しい" },
+      { "label": "B", "text": "怒っている" },
+      { "label": "C", "text": "うれしい・幸せな" },
+      { "label": "D", "text": "眠い" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-009",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 water 」",
+    "choices": [
+      { "label": "A", "text": "牛乳" },
+      { "label": "B", "text": "水" },
+      { "label": "C", "text": "ジュース" },
+      { "label": "D", "text": "お茶" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-010",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 Sunday 」",
+    "choices": [
+      { "label": "A", "text": "月曜日" },
+      { "label": "B", "text": "土曜日" },
+      { "label": "C", "text": "金曜日" },
+      { "label": "D", "text": "日曜日" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg1-011",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 友達・友人 」",
+    "choices": [
+      { "label": "A", "text": "family" },
+      { "label": "B", "text": "friend" },
+      { "label": "C", "text": "teacher" },
+      { "label": "D", "text": "student" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-012",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 〜を食べる 」",
+    "choices": [
+      { "label": "A", "text": "drink" },
+      { "label": "B", "text": "watch" },
+      { "label": "C", "text": "eat" },
+      { "label": "D", "text": "listen" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-013",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 大きい 」",
+    "choices": [
+      { "label": "A", "text": "small" },
+      { "label": "B", "text": "tall" },
+      { "label": "C", "text": "long" },
+      { "label": "D", "text": "big" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg1-014",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 〜を勉強する 」",
+    "choices": [
+      { "label": "A", "text": "clean" },
+      { "label": "B", "text": "study" },
+      { "label": "C", "text": "cook" },
+      { "label": "D", "text": "write" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-015",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 春 」",
+    "choices": [
+      { "label": "A", "text": "summer" },
+      { "label": "B", "text": "autumn" },
+      { "label": "C", "text": "winter" },
+      { "label": "D", "text": "spring" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg1-016",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 新しい 」",
+    "choices": [
+      { "label": "A", "text": "old" },
+      { "label": "B", "text": "young" },
+      { "label": "C", "text": "new" },
+      { "label": "D", "text": "nice" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-017",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 山 」",
+    "choices": [
+      { "label": "A", "text": "river" },
+      { "label": "B", "text": "sea" },
+      { "label": "C", "text": "mountain" },
+      { "label": "D", "text": "forest" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-018",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 〜を見る（テレビなど動くものを） 」",
+    "choices": [
+      { "label": "A", "text": "look" },
+      { "label": "B", "text": "see" },
+      { "label": "C", "text": "watch" },
+      { "label": "D", "text": "find" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-019",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 速い・速く 」",
+    "choices": [
+      { "label": "A", "text": "late" },
+      { "label": "B", "text": "fast" },
+      { "label": "C", "text": "last" },
+      { "label": "D", "text": "far" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-020",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n\n「 〜が好きだ 」",
+    "choices": [
+      { "label": "A", "text": "have" },
+      { "label": "B", "text": "know" },
+      { "label": "C", "text": "like" },
+      { "label": "D", "text": "want" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-021",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nI am ( ) today because I got a good score on my test.",
+    "choices": [
+      { "label": "A", "text": "tired" },
+      { "label": "B", "text": "sad" },
+      { "label": "C", "text": "angry" },
+      { "label": "D", "text": "happy" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg1-022",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nShe ( ) to school by bus every morning.",
+    "choices": [
+      { "label": "A", "text": "eats" },
+      { "label": "B", "text": "goes" },
+      { "label": "C", "text": "plays" },
+      { "label": "D", "text": "reads" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-023",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nWe need an ( ) to write with.",
+    "choices": [
+      { "label": "A", "text": "eraser" },
+      { "label": "B", "text": "ruler" },
+      { "label": "C", "text": "umbrella" },
+      { "label": "D", "text": "pencil" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg1-024",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nIt is very ( ) outside, so please wear a coat.",
+    "choices": [
+      { "label": "A", "text": "hot" },
+      { "label": "B", "text": "sunny" },
+      { "label": "C", "text": "cold" },
+      { "label": "D", "text": "windy" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-025",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nMy ( ) works at a hospital. She helps sick people every day.",
+    "choices": [
+      { "label": "A", "text": "father" },
+      { "label": "B", "text": "brother" },
+      { "label": "C", "text": "mother" },
+      { "label": "D", "text": "uncle" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-026",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nI ( ) my homework before dinner every day.",
+    "choices": [
+      { "label": "A", "text": "drink" },
+      { "label": "B", "text": "do" },
+      { "label": "C", "text": "cook" },
+      { "label": "D", "text": "wash" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg1-027",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nThis bag is ( ). I cannot carry it alone.",
+    "choices": [
+      { "label": "A", "text": "light" },
+      { "label": "B", "text": "small" },
+      { "label": "C", "text": "heavy" },
+      { "label": "D", "text": "new" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-028",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nHe ( ) soccer in the park with his friends on weekends.",
+    "choices": [
+      { "label": "A", "text": "studies" },
+      { "label": "B", "text": "watches" },
+      { "label": "C", "text": "plays" },
+      { "label": "D", "text": "reads" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg1-029",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nI am ( ) because I did not sleep well last night.",
+    "choices": [
+      { "label": "A", "text": "tired" },
+      { "label": "B", "text": "hungry" },
+      { "label": "C", "text": "excited" },
+      { "label": "D", "text": "tall" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg1-030",
+    "subject": "中学英語",
+    "unit": "中1単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の（　）に入る最も適切な単語を選びなさい。\n\nPlease open the ( ). It is very hot in this room.",
+    "choices": [
+      { "label": "A", "text": "door" },
+      { "label": "B", "text": "book" },
+      { "label": "C", "text": "bag" },
+      { "label": "D", "text": "table" }
+    ],
+    "correct": "A"
+  }
+]

@@ -412,19 +412,3 @@
               "name": "コールバック関数と非同期の概念",
               "en": "Callbacks",
               "questionCount": 0
-            },
-            {
-              "path": "js-basics/async-basics/promises-async-await",
-              "course": "js-basics",
-              "unit": "async-basics",
-              "subunit": "promises-async-await",
-              "name": "Promise と async / await",
-              "en": "Promises and Async/Await",
-              "questionCount": 0
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}

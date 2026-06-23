@@ -1,0 +1,142 @@
+{
+  "unit_id": "vocabulary-g1",
+  "unit_name_jp": "中1単語テスト",
+  "grade": "中学1年生",
+  "patterns": [
+    {
+      "pattern_id": "basic-en-to-jp-noun",
+      "description": "英語の名詞を見て、正しい日本語の意味を4択から選ぶ（学校・家族・食べ物・色・数・場所カテゴリ）",
+      "thinking_process": [
+        "英単語を見て、どのカテゴリの単語か判断する",
+        "各選択肢の日本語の意味を確認する",
+        "英単語の意味として最も適切な日本語を選ぶ"
+      ],
+      "common_mistakes": [
+        "発音が似た別の単語（例：book / look）と混同する",
+        "形が似た単語（例：father / mother）を取り違える",
+        "複数の意味を持つ単語で間違った意味を選ぶ"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "basic-en-to-jp-verb",
+      "description": "英語の動詞を見て、正しい日本語の意味を4択から選ぶ（基本動作・状態動詞カテゴリ）",
+      "thinking_process": [
+        "英単語が動詞かどうかを判断する",
+        "各選択肢の日本語動詞の意味を確認する",
+        "英単語の動詞としての意味を選ぶ"
+      ],
+      "common_mistakes": [
+        "形が似た動詞（例：like / bike）と混同する",
+        "名詞と動詞が同形の単語（例：play）で品詞を取り違える",
+        "基本動詞の原義と派生義を取り違える（例：have の「持つ」と「食べる」）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "basic-en-to-jp-adjective",
+      "description": "英語の形容詞・副詞を見て、正しい日本語の意味を4択から選ぶ",
+      "thinking_process": [
+        "英単語が形容詞か副詞かを品詞として判断する",
+        "各選択肢の日本語形容詞・副詞の意味を確認する",
+        "英単語の意味として最も適切な選択肢を選ぶ"
+      ],
+      "common_mistakes": [
+        "対義語（big / small、hot / cold）を取り違える",
+        "形が似た形容詞（old / cold）と混同する",
+        "形容詞と副詞の区別を意識せずに選ぶ"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "standard-jp-to-en-noun",
+      "description": "日本語の意味を見て、正しい英単語（名詞）を4択から選ぶ",
+      "thinking_process": [
+        "日本語の意味からどのカテゴリの単語かを考える",
+        "選択肢の英単語それぞれの意味を思い出す",
+        "日本語の意味に最も一致する英単語を選ぶ"
+      ],
+      "common_mistakes": [
+        "スペルが似た単語（例：friend / fiend）を選ぶ",
+        "発音が似た単語（例：tree / three）と混同する",
+        "カタカナ英語の発音と実際の英語スペルが異なるものを間違える（例：アイスクリーム→ice cream）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "standard-jp-to-en-verb",
+      "description": "日本語の動詞の意味を見て、正しい英単語を4択から選ぶ",
+      "thinking_process": [
+        "日本語の動詞の意味を英語でどう表現するか考える",
+        "選択肢の英動詞それぞれの意味を確認する",
+        "日本語の意味に最も合う英動詞を選ぶ"
+      ],
+      "common_mistakes": [
+        "意味が近い動詞（see / look / watch）の使い分けを知らずに選ぶ",
+        "日本語の意味に引きずられて形が似た英単語を選ぶ",
+        "同じ意味を持つ複数の英語（go / leave）で迷う"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "standard-jp-to-en-adjective",
+      "description": "日本語の形容詞・副詞の意味を見て、正しい英単語を4択から選ぶ",
+      "thinking_process": [
+        "日本語の意味を持つ英語の形容詞を思い出す",
+        "選択肢の英単語それぞれの意味を確認する",
+        "日本語の意味に最も合う英単語を選ぶ"
+      ],
+      "common_mistakes": [
+        "対義語を選んでしまう（例：「大きい」でsmallを選ぶ）",
+        "形が似た形容詞（例：fast / last）と混同する",
+        "カタカナ英語から推測して別の単語を選ぶ"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "exam-context-noun",
+      "description": "短文の文脈から空欄に入る名詞を推測して選ぶ（文意・状況の理解が必要）",
+      "thinking_process": [
+        "短文全体の意味（誰が・何を・どこで）を把握する",
+        "空欄の前後の言葉から、どのカテゴリの名詞が入るか推測する",
+        "4つの選択肢の中から文意に合う名詞を選ぶ"
+      ],
+      "common_mistakes": [
+        "空欄前後の単語だけ見て全体の文脈を無視する",
+        "文法的に入れられる単語は複数あるが、文意に合わない単語を選ぶ",
+        "知っている単語をとりあえず選んでしまう"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "exam-context-verb",
+      "description": "短文の文脈から空欄に入る動詞を推測して選ぶ（主語・目的語・文脈との整合性が必要）",
+      "thinking_process": [
+        "短文の主語と目的語を確認する",
+        "空欄に動詞が入ることを確認し、文脈から動作の種類を推測する",
+        "文法的にも文意的にも正しい動詞を選ぶ"
+      ],
+      "common_mistakes": [
+        "主語と目的語の組み合わせを無視して動詞を選ぶ",
+        "文法形式（三単現・過去形）を無視する",
+        "似た意味の動詞（make / do）で迷って間違える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "exam-context-adjective",
+      "description": "短文の文脈から空欄に入る形容詞・副詞を推測して選ぶ",
+      "thinking_process": [
+        "短文の状況や話の流れを把握する",
+        "空欄に形容詞・副詞が必要か判断し、文脈から意味を推測する",
+        "文脈に最も合う形容詞・副詞を選ぶ"
+      ],
+      "common_mistakes": [
+        "前後の名詞や動詞との意味的な相性を無視する",
+        "対義語を文脈に当てはめてしまう",
+        "副詞と形容詞を取り違えて選ぶ"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

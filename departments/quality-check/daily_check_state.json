@@ -456,20 +456,4 @@
     },
     {
       "path": "curriculum/math/1A/quadratic-functions/quadratic-graphs-and-transformations",
-      "name": "1A/quadratic-functions/quadratic-graphs-and-transformations",
-      "count": 30
-    },
-    {
-      "path": "curriculum/math/1A/quadratic-functions/quadratic-inequalities",
-      "name": "1A/quadratic-functions/quadratic-inequalities",
-      "count": 30
-    },
-    {
-      "path": "curriculum/math/1A/quadratic-functions/quadratic-maxima-and-minima",
-      "name": "1A/quadratic-functions/quadratic-maxima-and-minima",
-      "count": 30
-    }
-  ],
-  "last_run": "2026-06-22",
-  "completed": false
-}
+      "name": "1A/quadratic-functions/quadratic-graphs
