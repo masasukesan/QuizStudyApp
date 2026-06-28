@@ -1,0 +1,452 @@
+[
+  {
+    "id": "if-else-basic-01",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "if 文とは何をするための構文か。最も正確に説明しているものを選べ。",
+    "choices": [
+      { "label": "A", "text": "条件が true のときだけ、指定したコードブロックを実行する" },
+      { "label": "B", "text": "条件に関係なく、指定したコードブロックを必ず実行する" },
+      { "label": "C", "text": "条件が false のときだけ、指定したコードブロックを実行する" },
+      { "label": "D", "text": "条件の結果をコンソールに出力する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["if文の定義", "条件式の評価"]
+  },
+  {
+    "id": "if-else-basic-02",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると、コンソールに何が出力されるか。\n\nlet score = 80;\nif (score >= 60) {\n  console.log('合格');\n}\nconsole.log('終了');",
+    "choices": [
+      { "label": "A", "text": "合格\n終了" },
+      { "label": "B", "text": "合格" },
+      { "label": "C", "text": "終了" },
+      { "label": "D", "text": "何も出力されない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["if文の実行フロー", "条件後のコード実行"]
+  },
+  {
+    "id": "if-else-basic-03",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "if 文に else を追加すると何ができるか。正しい説明を選べ。",
+    "choices": [
+      { "label": "A", "text": "条件が false のときに実行するコードを指定できる" },
+      { "label": "B", "text": "条件が true のときに実行するコードをもう1つ追加できる" },
+      { "label": "C", "text": "条件を繰り返しチェックし続ける" },
+      { "label": "D", "text": "else は if の前に書く必要がある" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["else節の役割", "if-else構造"]
+  },
+  {
+    "id": "if-else-basic-04",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet x = 3;\nif (x > 5) {\n  console.log('大きい');\n} else {\n  console.log('小さい');\n}",
+    "choices": [
+      { "label": "A", "text": "小さい" },
+      { "label": "B", "text": "大きい" },
+      { "label": "C", "text": "大きい\n小さい" },
+      { "label": "D", "text": "何も出力されない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["if-else分岐", "条件の評価"]
+  },
+  {
+    "id": "if-else-basic-05",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "else if はどんなときに使うか。正しい説明を選べ。",
+    "choices": [
+      { "label": "A", "text": "最初の if が false のとき、次の条件をチェックしたいときに使う" },
+      { "label": "B", "text": "最初の if が true のとき、さらに追加で別のコードも実行したいときに使う" },
+      { "label": "C", "text": "if 文の中にループ処理を書きたいときに使う" },
+      { "label": "D", "text": "必ず最後に else を書くために必要な構文である" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["else if の役割", "複数条件の分岐"]
+  },
+  {
+    "id": "if-else-basic-06",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet grade = 75;\nif (grade >= 90) {\n  console.log('A');\n} else if (grade >= 70) {\n  console.log('B');\n} else {\n  console.log('C');\n}",
+    "choices": [
+      { "label": "A", "text": "B" },
+      { "label": "B", "text": "A" },
+      { "label": "C", "text": "A\nB" },
+      { "label": "D", "text": "C" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["else if チェーン", "条件の順序"]
+  },
+  {
+    "id": "if-else-basic-07",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "if の条件式に使える比較演算子として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "===(厳密等価) や >(より大きい) など、true か false を返す式" },
+      { "label": "B", "text": "=(代入演算子) のみ" },
+      { "label": "C", "text": "+(足し算) や -(引き算) など、数値を返す式のみ" },
+      { "label": "D", "text": "条件式には文字列しか使えない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["条件式の種類", "比較演算子"]
+  },
+  {
+    "id": "if-else-basic-08",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "条件が true にも false にもならない場合（else なし）、if ブロックはどう処理されるか。",
+    "choices": [
+      { "label": "A", "text": "if ブロックの中のコードはスキップされ、if の後のコードが実行される" },
+      { "label": "B", "text": "プログラムがエラーになって止まる" },
+      { "label": "C", "text": "条件が false でも if ブロックが実行される" },
+      { "label": "D", "text": "if の後のコードも実行されない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["else なしの if", "スキップの動作"]
+  },
+  {
+    "id": "if-else-basic-09",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "次のコードで、'hello' と表示されるのはどんな場合か。\n\nif (isLoggedIn) {\n  console.log('hello');\n}",
+    "choices": [
+      { "label": "A", "text": "isLoggedIn が true のとき" },
+      { "label": "B", "text": "isLoggedIn が false のとき" },
+      { "label": "C", "text": "isLoggedIn がどんな値でも必ず表示される" },
+      { "label": "D", "text": "isLoggedIn が undefined のとき" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["変数を条件に使う", "真偽値の評価"]
+  },
+  {
+    "id": "if-else-basic-10",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "basic",
+    "question": "次の2つのコードは同じ動作をするか。\n\n// コード1\nif (x > 0) {\n  console.log('正');\n}\n\n// コード2\nif (x > 0)\n  console.log('正');",
+    "choices": [
+      { "label": "A", "text": "同じ動作をする。波括弧を省略すると直後の1文だけが if に属する" },
+      { "label": "B", "text": "異なる動作をする。波括弧がないとエラーになる" },
+      { "label": "C", "text": "異なる動作をする。波括弧がないと console.log が必ず実行される" },
+      { "label": "D", "text": "同じ動作をする。波括弧がなければ if ブロック全体がスキップされる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["波括弧の省略", "構文の等価性"]
+  },
+  {
+    "id": "if-else-standard-01",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "JavaScript で「falsy」と呼ばれる値として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "0、''(空文字列)、null、undefined、NaN、false の6種類" },
+      { "label": "B", "text": "false のみ" },
+      { "label": "C", "text": "0、false、null の3種類のみ" },
+      { "label": "D", "text": "[](空配列) と {}(空オブジェクト) も falsy に含まれる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["falsy値", "truthy/falsy"]
+  },
+  {
+    "id": "if-else-standard-02",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet value = 0;\nif (value) {\n  console.log('あり');\n} else {\n  console.log('なし');\n}",
+    "choices": [
+      { "label": "A", "text": "なし" },
+      { "label": "B", "text": "あり" },
+      { "label": "C", "text": "あり\nなし" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["0はfalsy", "条件式の評価"]
+  },
+  {
+    "id": "if-else-standard-03",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet arr = [];\nif (arr) {\n  console.log('truthy');\n} else {\n  console.log('falsy');\n}",
+    "choices": [
+      { "label": "A", "text": "truthy" },
+      { "label": "B", "text": "falsy" },
+      { "label": "C", "text": "エラーが発生する" },
+      { "label": "D", "text": "何も出力されない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["空配列はtruthy", "falsy値の例外"]
+  },
+  {
+    "id": "if-else-standard-04",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "三項演算子「condition ? A : B」の読み方として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "condition が true なら A の値を、false なら B の値を返す" },
+      { "label": "B", "text": "condition が true なら B の値を、false なら A の値を返す" },
+      { "label": "C", "text": "A と B のどちらか大きい値を返す" },
+      { "label": "D", "text": "? と : の間のコードを繰り返し実行する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["三項演算子の構文", "条件 ? 真 : 偽"]
+  },
+  {
+    "id": "if-else-standard-05",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "次の三項演算子と等価な if-else 文として正しいものを選べ。\n\nlet result = (age >= 18) ? '大人' : '子供';",
+    "choices": [
+      { "label": "A", "text": "let result;\nif (age >= 18) {\n  result = '大人';\n} else {\n  result = '子供';\n}" },
+      { "label": "B", "text": "let result;\nif (age >= 18) {\n  result = '子供';\n} else {\n  result = '大人';\n}" },
+      { "label": "C", "text": "let result = '大人';\nif (age < 18) {\n  console.log('子供');\n}" },
+      { "label": "D", "text": "let result;\nif (age >= 18) {\n  result = '大人';\n} else {\n  result = '未定';\n}" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["三項演算子とif-elseの等価変換"]
+  },
+  {
+    "id": "if-else-standard-06",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet name = '';\nif (name) {\n  console.log('こんにちは、' + name);\n} else {\n  console.log('名前が入力されていません');\n}",
+    "choices": [
+      { "label": "A", "text": "名前が入力されていません" },
+      { "label": "B", "text": "こんにちは、" },
+      { "label": "C", "text": "こんにちは、undefined" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["空文字列はfalsy", "入力バリデーション"]
+  },
+  {
+    "id": "if-else-standard-07",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "else if チェーンで、複数の条件が true になる場合、どのブロックが実行されるか。\n\nlet n = 15;\nif (n > 10) {\n  console.log('A');\n} else if (n > 5) {\n  console.log('B');\n} else {\n  console.log('C');\n}",
+    "choices": [
+      { "label": "A", "text": "Aだけ出力される。上から順に評価され、最初に true になった条件のブロックのみ実行される" },
+      { "label": "B", "text": "AとBの両方が出力される" },
+      { "label": "C", "text": "Bだけ出力される" },
+      { "label": "D", "text": "A、B、Cがすべて出力される" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["else if チェーンの評価順序", "最初の一致のみ実行"]
+  },
+  {
+    "id": "if-else-standard-08",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "三項演算子が「式（expression）」であることのメリットとして正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "変数への代入や関数の引数として、1行で条件付きの値を渡せる" },
+      { "label": "B", "text": "if-else よりも処理速度が速い" },
+      { "label": "C", "text": "3つ以上の条件分岐をまとめて書けるため if-else より強力である" },
+      { "label": "D", "text": "コード全体を実行せずに条件だけをチェックできる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["三項演算子は式", "式と文の違い"]
+  },
+  {
+    "id": "if-else-standard-09",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet user = null;\nif (user) {\n  console.log(user.name);\n} else {\n  console.log('ゲスト');\n}",
+    "choices": [
+      { "label": "A", "text": "ゲスト" },
+      { "label": "B", "text": "null" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["nullはfalsy", "null チェック"]
+  },
+  {
+    "id": "if-else-standard-10",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "standard",
+    "question": "次のコードは何を出力するか。\n\nlet score = 60;\nlet label = (score >= 80) ? '優' : (score >= 60) ? '良' : '可';\nconsole.log(label);",
+    "choices": [
+      { "label": "A", "text": "良" },
+      { "label": "B", "text": "優" },
+      { "label": "C", "text": "可" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["三項演算子のネスト", "段階的な評価"]
+  },
+  {
+    "id": "if-else-exam-01",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次の2つのコードは同じ動作をするか。その理由として正しいものを選べ。\n\n// コード1\nfunction check(x) {\n  if (x < 0) {\n    return '負';\n  }\n  return '非負';\n}\n\n// コード2\nfunction check(x) {\n  if (x < 0) {\n    return '負';\n  } else {\n    return '非負';\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "同じ動作をする。if ブロック内で return した場合、else がなくても後のコードは実行されないため" },
+      { "label": "B", "text": "異なる動作をする。else がないと x >= 0 のとき '非負' が返されない" },
+      { "label": "C", "text": "同じ動作をする。return のあとに else を書かないと、両方の return が実行される" },
+      { "label": "D", "text": "異なる動作をする。コード1は x < 0 のとき '負' と '非負' の両方を返す" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["早期return", "returnの後はスキップ"]
+  },
+  {
+    "id": "if-else-exam-02",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次のネストされた if 文と、&& を使った1つの if 文は同じ動作をするか。\n\n// コード1（ネスト）\nif (a > 0) {\n  if (b > 0) {\n    console.log('両方正');\n  }\n}\n\n// コード2（&&）\nif (a > 0 && b > 0) {\n  console.log('両方正');\n}",
+    "choices": [
+      { "label": "A", "text": "同じ動作をする。a > 0 かつ b > 0 のときのみ実行される点で等価" },
+      { "label": "B", "text": "異なる動作をする。コード1は a が false でも b の評価が行われる" },
+      { "label": "C", "text": "異なる動作をする。&& はネストより優先度が低いため結果が変わる" },
+      { "label": "D", "text": "同じ動作をする。ただし && は b が正の数のとき a を評価しない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["ネストとANDの等価性", "短絡評価"]
+  },
+  {
+    "id": "if-else-exam-03",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次のコードで、else はどちらの if に対応するか。\n\nif (x > 0)\n  if (x > 10)\n    console.log('大きい');\nelse\n  console.log('小さい');",
+    "choices": [
+      { "label": "A", "text": "内側の if (x > 10) に対応する。else は最も近い if と対になる" },
+      { "label": "B", "text": "外側の if (x > 0) に対応する。インデントでそう見えるから" },
+      { "label": "C", "text": "どちらの if にも対応しない。波括弧がないためエラーになる" },
+      { "label": "D", "text": "外側の if (x > 0) に対応する。else は常に最初の if と対になるから" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["dangling else問題", "elseの対応規則"]
+  },
+  {
+    "id": "if-else-exam-04",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "短絡評価（short-circuit evaluation）について正しい説明を選べ。\n\nif (obj !== null && obj.name === 'Alice') {\n  console.log('一致');\n}",
+    "choices": [
+      { "label": "A", "text": "obj が null のとき、&& の右辺 obj.name === 'Alice' は評価されず、エラーが起きない" },
+      { "label": "B", "text": "obj が null のとき、&& の右辺も必ず評価されるため、エラーが発生する" },
+      { "label": "C", "text": "&& は右辺から先に評価されるため、obj が null でも obj.name への参照が発生してエラーになる" },
+      { "label": "D", "text": "短絡評価は || 演算子にのみ適用され、&& には適用されない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["短絡評価 &&", "nullチェックパターン"]
+  },
+  {
+    "id": "if-else-exam-05",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet a = false;\nlet b = true;\nif (a || b) {\n  console.log('X');\n}\nif (a && b) {\n  console.log('Y');\n}\nconsole.log('Z');",
+    "choices": [
+      { "label": "A", "text": "X\nZ" },
+      { "label": "B", "text": "X\nY\nZ" },
+      { "label": "C", "text": "Z" },
+      { "label": "D", "text": "Y\nZ" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["||と&&の組み合わせ", "複合条件の評価"]
+  },
+  {
+    "id": "if-else-exam-06",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "条件の順序を変えると結果が変わる場合を正しく説明しているものを選べ。\n\nlet n = 75;\n// パターン1\nif (n >= 60) {\n  console.log('合格');\n} else if (n >= 80) {\n  console.log('優秀');\n}\n// パターン2\nif (n >= 80) {\n  console.log('優秀');\n} else if (n >= 60) {\n  console.log('合格');\n}",
+    "choices": [
+      { "label": "A", "text": "パターン1は '合格' と出力される。n >= 60 が先に true になるため '優秀' ブロックに到達しない" },
+      { "label": "B", "text": "両パターンとも '優秀' と '合格' の両方が出力される" },
+      { "label": "C", "text": "パターン2は '合格' と出力される。n >= 80 が false なので else if に進む" },
+      { "label": "D", "text": "両パターンとも '合格' が出力される。n = 75 では条件の並び順は動作に影響しない" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["条件順序の重要性", "else ifチェーン"]
+  },
+  {
+    "id": "if-else-exam-07",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると何が出力されるか。\n\nfunction getLabel(n) {\n  if (n > 100) return '特大';\n  if (n > 50) return '大';\n  if (n > 10) return '中';\n  return '小';\n}\nconsole.log(getLabel(55));",
+    "choices": [
+      { "label": "A", "text": "大" },
+      { "label": "B", "text": "特大" },
+      { "label": "C", "text": "中" },
+      { "label": "D", "text": "大\n中" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["早期returnチェーン", "最初に一致した条件で終了"]
+  },
+  {
+    "id": "if-else-exam-08",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次のコードで '到達' が出力されることはあるか。その理由を正しく説明しているものを選べ。\n\nfunction test(x) {\n  if (x > 0) {\n    return '正';\n  } else {\n    return '非正';\n  }\n  console.log('到達');\n}",
+    "choices": [
+      { "label": "A", "text": "出力されない。すべての分岐で return があるため、console.log に到達する経路がない" },
+      { "label": "B", "text": "x が 0 のとき出力される。どの条件にも該当しないため" },
+      { "label": "C", "text": "常に出力される。JavaScript は return の後もコードを実行するため" },
+      { "label": "D", "text": "x が undefined のとき出力される" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["到達不能コード", "return後のスキップ"]
+  },
+  {
+    "id": "if-else-exam-09",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次の2つのコードで異なる結果になるのはどんな場合か。\n\n// コード1\nlet x = 5;\nif (x = 10) {\n  console.log('A');\n}\n\n// コード2\nlet y = 5;\nif (y === 10) {\n  console.log('B');\n}",
+    "choices": [
+      { "label": "A", "text": "コード1は 'A' を出力する。= は代入でありxに10が入り truthy と評価される。コード2は出力しない" },
+      { "label": "B", "text": "両方とも何も出力しない。どちらも x と y が 5 のため条件が false になる" },
+      { "label": "C", "text": "コード2は 'B' を出力する。コード1は 'A' を出力しない" },
+      { "label": "D", "text": "両方とも 'A' と 'B' を出力する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["代入と比較の混同", "= vs ==="]
+  },
+  {
+    "id": "if-else-exam-10",
+    "subject": "programming",
+    "unit": "条件分岐（if / else if / else / 三項演算子）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると何が出力されるか。\n\nlet val = NaN;\nif (val === val) {\n  console.log('等しい');\n} else {\n  console.log('等しくない');\n}",
+    "choices": [
+      { "label": "A", "text": "等しくない。NaN は自分自身とも === で等しくならない JavaScript の特殊な値" },
+      { "label": "B", "text": "等しい。同じ変数を比較しているため必ず true になる" },
+      { "label": "C", "text": "エラーが発生する。NaN を比較演算子で使うことはできない" },
+      { "label": "D", "text": "等しくない。NaN は undefined と同じ扱いのため" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["NaN === NaN はfalse", "JavaScriptの特殊な値"]
+  }
+]

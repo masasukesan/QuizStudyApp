@@ -71,7 +71,7 @@
       "subunit": "if-else",
       "name": "条件分岐（if / else if / else / 三項演算子）",
       "en": "Conditionals",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/control-flow/for-loop",
@@ -283,7 +283,7 @@
               "subunit": "if-else",
               "name": "条件分岐（if / else if / else / 三項演算子）",
               "en": "Conditionals",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/control-flow/for-loop",
@@ -412,3 +412,19 @@
               "name": "コールバック関数と非同期の概念",
               "en": "Callbacks",
               "questionCount": 0
+            },
+            {
+              "path": "js-basics/async-basics/promises-async-await",
+              "course": "js-basics",
+              "unit": "async-basics",
+              "subunit": "promises-async-await",
+              "name": "Promise と async / await",
+              "en": "Promises and Async/Await",
+              "questionCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

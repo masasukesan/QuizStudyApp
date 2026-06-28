@@ -1,0 +1,97 @@
+{
+  "unit_id": "if-else",
+  "unit_name_jp": "条件分岐（if / else if / else / 三項演算子）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "if_basic_syntax",
+      "description": "if 文の基本構文（条件式の評価と実行ブロック）を問う",
+      "thinking_process": [
+        "条件式が true または false のどちらに評価されるかを確認する",
+        "波括弧 {} の範囲がどこまでかを確認する",
+        "条件が満たされたときだけ実行されるブロックを特定する"
+      ],
+      "common_mistakes": [
+        "= (代入) と == (比較) を混同して条件式を書く",
+        "波括弧を省略した場合に次の文が条件分岐に含まれると誤解する",
+        "条件式に真偽値でない値を使ったとき、どちらに評価されるか分からない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "if_else_chain",
+      "description": "if / else if / else チェーンの流れと優先順位を問う",
+      "thinking_process": [
+        "上から順に条件を評価していく",
+        "最初に true になった条件のブロックだけ実行されることを確認する",
+        "どの条件も満たさない場合に else ブロックが実行されることを確認する"
+      ],
+      "common_mistakes": [
+        "複数の条件が true になっても最初の1つしか実行されないことを見落とす",
+        "else if と else を並べる順序が結果に影響することを理解していない",
+        "else が省略された場合、どの条件も満たさないときに何も起きないことを見落とす"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "truthy_falsy",
+      "description": "truthy / falsy の概念と、条件式に数値・文字列・null 等を使った場合の動作を問う",
+      "thinking_process": [
+        "JavaScript で falsy とみなされる値（0, '', null, undefined, NaN, false）を確認する",
+        "それ以外の値はすべて truthy であることを確認する",
+        "条件式に変数を直接書いたとき、truthy / falsy でどちらのブロックに入るかを判断する"
+      ],
+      "common_mistakes": [
+        "0 や空文字列 '' が false として扱われることを知らない",
+        "空配列 [] や空オブジェクト {} が truthy であることに気づかない",
+        "null と undefined の両方が falsy であることを混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "ternary_operator",
+      "description": "三項演算子（condition ? valA : valB）の読み方と if-else との等価変換を問う",
+      "thinking_process": [
+        "? の左側が条件式、: の左側が true のときの値、右側が false のときの値であることを確認する",
+        "三項演算子全体が1つの値（式）として評価されることを確認する",
+        "対応する if-else 文に書き換えられるかを確認する"
+      ],
+      "common_mistakes": [
+        "三項演算子の : を else if と混同して3分岐と誤解する",
+        "三項演算子を文（statement）ではなく式（expression）として使う意味を理解していない",
+        "入れ子になった三項演算子で評価順序を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "nested_if",
+      "description": "if 文のネスト（if の中に if）と複合条件（&& / ||）の等価性を問う",
+      "thinking_process": [
+        "内側の if に到達するには外側の if が true である必要があることを確認する",
+        "ネストされた if を && でまとめた条件と等価かどうかを検証する",
+        "|| を使うと「どちらかが true」を1つの if で表現できることを確認する"
+      ],
+      "common_mistakes": [
+        "ネストの深さを誤って読み、別の if に対応する else と誤解する",
+        "短絡評価（short-circuit evaluation）で右辺が評価されないケースを見落とす",
+        "&& と || の優先順位を誤って読む"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "conditional_return",
+      "description": "関数内で条件分岐を使って早期 return するパターンを問う",
+      "thinking_process": [
+        "return に到達した時点で関数の処理が終了することを確認する",
+        "早期 return の後ろのコードは実行されないことを確認する",
+        "else を使わずに条件分岐と同等の効果を出せることを理解する"
+      ],
+      "common_mistakes": [
+        "return の後にコードを書いても実行されないことを見落とす",
+        "else がなくてもフローが正しく分岐することを理解していない",
+        "条件の見落としで想定外の値が return されるケースを考慮しない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}
