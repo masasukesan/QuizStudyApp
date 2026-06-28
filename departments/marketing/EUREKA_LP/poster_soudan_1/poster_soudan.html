@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>保護者相談会｜個別指導学習塾EUREKA</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;700;900&family=M+PLUS+1p:wght@800;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Noto Sans JP", sans-serif;
+        background: #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 24px;
+      }
+
+      /* ═══════════════ POSTER SHELL ═══════════════ */
+      .poster {
+        width: 297mm;
+        height: 420mm;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.22);
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* ═══════════════ SECTION A：上部（水色） ═══════════════ */
+      .sec-top {
+        background:
+          linear-gradient(
+            to right,
+            rgba(184, 217, 232, 0.88) 0%,
+            rgba(184, 217, 232, 0.72) 50%,
+            rgba(184, 217, 232, 0.45) 100%
+          ),
+          url("34560586_m.jpg") center right / cover no-repeat;
+        flex: 0 0 auto;
+        padding: 24px 34px 6mm;
+        position: relative;
+      }
+
+      .tagline-row {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 17pt;
+        font-weight: 800;
+        color: #1a3a52;
+        margin-bottom: 4mm;
+        letter-spacing: 0.04em;
+        text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+      }
+
+      .main-title {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 48pt;
+        font-weight: 900;
+        color: #1a3a52;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-shadow:
+          2px 2px 0 rgba(255, 255, 255, 0.5),
+          1px 1px 3px rgba(0, 0, 0, 0.15);
+      }
+
+      .title-label {
+        font-size: 68pt;
+        font-weight: 900;
+        color: #f0c000;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        display: block;
+        letter-spacing: 0.04em;
+        line-height: 1.05;
+        text-shadow:
+          3px 3px 0 #1a3a52,
+          -1px -1px 0 #1a3a52,
+          1px -1px 0 #1a3a52,
+          -1px 1px 0 #1a3a52,
+          0px 4px 8px rgba(0, 0, 0, 0.35);
+      }
+
+      /* 日時 */
+      .datetime-label {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 17pt;
+        font-weight: 800;
+        color: #1a3a52;
+        white-space: nowrap;
+        text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+      }
+      .datetime-value {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 30pt;
+        font-weight: 900;
+        color: #1a3a52;
+        line-height: 1;
+        text-shadow:
+          2px 2px 0 rgba(255, 255, 255, 0.5),
+          1px 1px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      /* 3つの相談バブル */
+      .bubbles-row {
+        display: flex;
+        gap: 18px;
+        margin-top: 8mm;
+      }
+      .bubble {
+        flex: 1;
+        background: #fff;
+        border-radius: 50px;
+        padding: 16px 16px 14px;
+        text-align: center;
+      }
+      .bubble-title {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 18pt;
+        font-weight: 900;
+        color: #1a3a52;
+        display: block;
+        border-bottom: 1.5px solid #b8d9e8;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+      }
+      .bubble-body {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 14pt;
+        font-weight: 800;
+        color: #1a3a52;
+        line-height: 1.65;
+      }
+
+      /* イラスト（右側） */
+      .top-inner {
+        display: flex;
+        gap: 0;
+        margin-top: 8mm;
+        justify-content: center;
+      }
+      .top-left {
+        flex: 1;
+        text-align: center;
+      }
+      .top-right {
+        display: none;
+      }
+
+      /* ═══════════════ SECTION B：青帯 ═══════════════ */
+      .sec-blue {
+        background: #2980b9;
+        flex: 0 0 auto;
+        padding: 20px 34px 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .blue-main {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 32pt;
+        font-weight: 900;
+        color: #fff;
+        letter-spacing: 0.04em;
+        line-height: 1.2;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+      }
+      .blue-main .highlight {
+        background: #fff;
+        color: #c0392b;
+        padding: 2px 16px;
+        border-radius: 6px;
+        font-size: 26pt;
+        margin-left: 10px;
+        text-shadow: none;
+      }
+      .blue-sub {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 22pt;
+        font-weight: 900;
+        color: #fff;
+        margin-left: 85px;
+        align-self: flex-start;
+        margin-top: 6px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+      }
+      .topics-strip {
+        margin-top: 12px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 16pt;
+        font-weight: 800;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        color: #fff;
+        letter-spacing: 0.06em;
+        text-align: center;
+      }
+
+      /* ═══════════════ SECTION C：下部 ═══════════════ */
+      .sec-bottom {
+        flex: 1;
+        display: flex;
+        gap: 0;
+        padding: 24px 34px 20px;
+        background: #fff;
+        align-items: stretch;
+      }
+
+      /* 左：会場 */
+      .bottom-left {
+        flex: 1.2;
+        padding-right: 28px;
+        padding-top: 4px;
+        border-right: 2px solid #b8d9e8;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      /* 会場コンテナ */
+      .venue-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .venue-block {
+        flex: 2;
+        background: #eaf4fb;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        overflow: hidden;
+      }
+      .venue-label {
+        background: #2980b9;
+        color: #fff;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 24pt;
+        font-weight: 900;
+        letter-spacing: 0.3em;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .venue-text {
+        flex: 1;
+        padding: 16px 26px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+      }
+      .venue-name {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 36pt;
+        font-weight: 900;
+        color: #2980b9;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      .venue-detail {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 24pt;
+        font-weight: 800;
+        color: #1a3a52;
+        line-height: 1.6;
+      }
+      .venue-info {
+        flex: 1;
+        background: #eaf4fb;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 22px;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 18pt;
+        font-weight: 800;
+        color: #1a3a52;
+        line-height: 1.9;
+        gap: 0;
+      }
+      .venue-info strong {
+        color: #2980b9;
+      }
+
+      /* QR */
+      .qr-wrap {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        height: var(--footer-block-h);
+        flex-shrink: 0;
+      }
+      .qr-wrap img {
+        width: 190px;
+        height: 190px;
+        border-radius: 6px;
+        flex-shrink: 0;
+      }
+      .qr-text-block {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+      .qr-note-title {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 19pt;
+        font-weight: 900;
+        color: #fff;
+        background: #06c755;
+        border-radius: 8px;
+        padding: 8px 0;
+        letter-spacing: 0.08em;
+        text-align: center;
+        margin-bottom: 12px;
+        display: block;
+        width: 100%;
+      }
+      .qr-note {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 17pt;
+        font-weight: 700;
+        color: #444;
+        line-height: 1.5;
+        text-align: left;
+      }
+
+      /* 右：詳細 */
+      .bottom-right {
+        flex: 1;
+        padding-left: 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 4px;
+      }
+      .chips-group {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .chips-top {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .chips-bottom {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .detail-chip {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #eaf4fb;
+        border-left: 7px solid #2980b9;
+        border-radius: 0 10px 10px 0;
+        padding: 0 20px;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 19pt;
+        font-weight: 900;
+        color: #1a3a52;
+      }
+      .detail-chip span {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 14pt;
+        font-weight: 700;
+        color: #444;
+        display: block;
+        margin-top: 5px;
+      }
+      .disclaimer {
+        font-size: 12pt;
+        color: #777;
+        line-height: 1.8;
+        padding-top: 12px;
+        border-top: 1px solid #ddd;
+      }
+
+      /* ═══════════════ 左下フッターブロック ═══════════════ */
+      :root {
+        --footer-block-h: 210px;
+      }
+      .left-footer {
+        margin-top: 0;
+        background: #f1c40f;
+        border-radius: 12px;
+        padding: 14px 20px;
+        height: var(--footer-block-h);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .left-footer-label {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 17pt;
+        font-weight: 900;
+        color: #1a3a52;
+        margin-bottom: 4px;
+        letter-spacing: 0.05em;
+      }
+      .left-footer-tel {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 52px;
+        font-weight: 900;
+        color: #1a3a52;
+        letter-spacing: 0.05em;
+        line-height: 1.1;
+        text-shadow:
+          2px 2px 0 rgba(255, 255, 255, 0.5),
+          2px 3px 6px rgba(0, 0, 0, 0.12);
+      }
+      .left-footer-sub {
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 14pt;
+        font-weight: 700;
+        color: #1a3a52;
+        margin-top: 4px;
+      }
+
+      /* ═══════════════ NEW FOOTER ═══════════════ */
+      .footer {
+        background: #b8d9e8;
+        flex: 0 0 auto;
+        padding: 28px;
+        text-align: center;
+        font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
+        font-size: 20pt;
+        font-weight: 900;
+        color: #1a3a52;
+        letter-spacing: 0.1em;
+        text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      @media print {
+        @page {
+          size: A3 portrait;
+          margin: 0;
+        }
+        body {
+          background: #fff;
+          padding: 0;
+        }
+        .poster {
+          box-shadow: none;
+          width: 297mm;
+          height: 420mm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="poster">
+      <!-- ── A：上部（水色） ── -->
+      <div class="sec-top">
+        <div class="tagline-row">
+          <span>お気軽にご相談ください！</span>
+        </div>
+        <div class="top-inner">
+          <div class="top-left">
+            <div class="main-title">
+              お子さまの勉強・子育ての<br />
+              <span class="title-label">保護者 相談会</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3つのバブル -->
+        <div class="bubbles-row">
+          <div class="bubble">
+            <span class="bubble-title">勉強・やる気</span>
+            <div class="bubble-body">
+              子どもが勉強しない・<br />成績が下がっていて<br />どうすればいいか相談したい
+            </div>
+          </div>
+          <div class="bubble">
+            <span class="bubble-title">塾・習い事選び</span>
+            <div class="bubble-body">
+              塾に通わせるべきか、<br />どの教科に力を入れれば<br />いいか相談したい
+            </div>
+          </div>
+          <div class="bubble">
+            <span class="bubble-title">進路・受験・子育て</span>
+            <div class="bubble-body">
+              子どもとの向き合い方、<br />進路・受験について<br />相談したい
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── B：青帯 ── -->
+      <div class="sec-blue">
+        <div class="blue-main">
+          個別指導10年の経験を持つ先生が
+          <span class="highlight">参加無料</span>
+        </div>
+        <div class="blue-sub">保護者の皆さまのお悩みに直接お答えします！</div>
+        <div class="topics-strip">
+          勉強法・成績アップ・塾選び・進路・受験対策・子育て・やる気を引き出す関わり方
+        </div>
+      </div>
+
+      <!-- ── C：下部 ── -->
+      <div class="sec-bottom">
+        <!-- 左：会場情報 -->
+        <div class="bottom-left">
+          <div class="venue-container">
+            <div class="venue-block">
+              <div class="venue-label">会場</div>
+              <div class="venue-text">
+                <div class="venue-name">ユリイカ吉井校</div>
+                <div class="venue-detail">
+                  うきは市吉井町18-10<br />ラグビー交流館内
+                </div>
+              </div>
+            </div>
+            <div class="venue-info">
+              <div><strong>対　象：</strong>小・中・高校生の保護者の方</div>
+              <div>
+                <strong>参加費：</strong
+                ><span style="color: #c0392b; font-weight: 900">無　料</span>
+              </div>
+            </div>
+          </div>
+          <!-- 旧フッター：左下に移動 -->
+          <div class="left-footer">
+            <div class="left-footer-label">お申し込み・お問い合わせ</div>
+            <div class="left-footer-tel">0943－76－9520</div>
+            <div class="left-footer-sub">
+              受付時間：10:00〜22:00（金曜日・日曜日定休）
+            </div>
+          </div>
+        </div>
+
+        <!-- 右：詳細 -->
+        <div class="bottom-right">
+          <div class="chips-group">
+            <div class="chips-top">
+              <div class="detail-chip">
+                相談時間 約30分
+                <span>目安のお時間です。短縮・延長可能です。</span>
+              </div>
+              <div class="detail-chip">
+                事前予約制（先着6名）
+                <span>お電話またはLINEでご予約ください。</span>
+              </div>
+            </div>
+            <div class="chips-bottom">
+              <div class="detail-chip">
+                開催日　毎週土曜日
+                <span>16:00〜17:00　ご都合の良い週にどうぞ。</span>
+              </div>
+            </div>
+          </div>
+          <div class="qr-wrap">
+            <div class="qr-text-block">
+              <div class="qr-note-title">LINEでお申込み</div>
+              <div class="qr-note">
+                お友達追加後、<br />「相談会希望」と<br />メッセージを送信してください。
+              </div>
+            </div>
+            <img src="L_gainfriends_2dbarcodes_GW.png" alt="LINE QR" />
+          </div>
+        </div>
+      </div>
+
+      <!-- ── フッター ── -->
+      <div class="footer">個別指導学習塾 EUREKA</div>
+    </div>
+  </body>
+</html>

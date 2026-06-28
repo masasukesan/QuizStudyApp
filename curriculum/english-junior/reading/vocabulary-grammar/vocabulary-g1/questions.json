@@ -91,7 +91,7 @@
     "question": "次の英単語の正しい日本語の意味を選びなさい。\n\n「 play 」",
     "choices": [
       { "label": "A", "text": "走る" },
-      { "label": "B", "text": "遊ぶ・（スポーツを）する" },
+      { "label": "B", "text": "遊ぶ・(スポーツを)する" },
       { "label": "C", "text": "食べる" },
       { "label": "D", "text": "眠る" }
     ],
