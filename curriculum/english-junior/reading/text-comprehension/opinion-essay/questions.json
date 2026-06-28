@@ -1,0 +1,422 @@
+[
+  {
+    "id": "oe-001",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、問いに答えなさい。\n\n---\nDear Mr. Tanaka,\n\nMy name is Hana Yoshida, a student in Class 2-B. I am writing to ask if I can borrow some science equipment for a project I am working on at home. I want to make a simple model of the solar system for our school science fair next month.\n\nI would need a magnifying glass and some small plastic balls. I will take good care of everything and return it all on Monday morning.\n\nPlease let me know if this is possible. Thank you very much for your time.\n\nSincerely,\nHana Yoshida\n---\n\nハナが借りたいと申し出ているのは何ですか？",
+    "choices": [
+      { "label": "A", "text": "スポーツ用具" },
+      { "label": "B", "text": "理科の実験道具" },
+      { "label": "C", "text": "英語の辞書" },
+      { "label": "D", "text": "音楽の楽器" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-002",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nI really enjoy school lunch. At our school, we have different menus every day. My favorite is the curry rice that we have every Wednesday. According to a survey by our student council, about 80% of students eat school lunch every day.\n\nPersonally, I eat school lunch four days a week. On Fridays, I bring a lunchbox from home because my mother makes my favorite sandwiches. I think school lunch is important because it helps students stay healthy and focused during afternoon classes.\n\nWe should be grateful for the cooks who prepare our meals every day. They work very hard to make sure we have good food to eat.\n---\n\n筆者は週に何日、学校給食を食べていますか？",
+    "choices": [
+      { "label": "A", "text": "毎日(5日)" },
+      { "label": "B", "text": "3日" },
+      { "label": "C", "text": "4日" },
+      { "label": "D", "text": "2日" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-003",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、問いに答えなさい。\n\n---\nDear Community Members,\n\nI am writing to tell you about our upcoming neighborhood cleanup event. We will meet at Sakura Park on Saturday, October 12th, at 9:00 a.m.\n\nPlease bring gloves and a garbage bag if you have one. We will provide extra bags for everyone. After the cleanup, we will have a short meeting to plan our next event.\n\nI hope many people will join us. Even one hour of your time can make a big difference to our neighborhood. Children are welcome to come with their parents.\n\nIf you have any questions, please contact me by email.\n\nThank you,\nKenji Mori\n---\n\nこのイベントはいつ開催されますか？",
+    "choices": [
+      { "label": "A", "text": "10月12日(土曜日)" },
+      { "label": "B", "text": "10月12日(日曜日)" },
+      { "label": "C", "text": "9月12日(土曜日)" },
+      { "label": "D", "text": "10月21日(土曜日)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-004",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nI believe that learning English is one of the most useful things a junior high school student can do. English is spoken in many countries around the world, and it can open many doors in the future.\n\nI started studying English when I was in the fifth grade. At first, it was very difficult, but I did not give up. Now, I study English for thirty minutes every day after dinner. I watch English videos and read short English stories. I also try to write one sentence in English in my diary every night.\n\nIf you want to improve your English, the most important thing is to practice a little every day. Even five minutes of daily practice is better than studying for two hours once a week.\n---\n\n筆者は毎日どのくらい英語を勉強していますか？",
+    "choices": [
+      { "label": "A", "text": "1時間" },
+      { "label": "B", "text": "1時間30分" },
+      { "label": "C", "text": "5分" },
+      { "label": "D", "text": "30分" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-005",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、問いに答えなさい。\n\n---\nDear Emily,\n\nThank you for your letter! I was so happy to get it. My name is Yuki, and I am thirteen years old. I live in Osaka, Japan. My school has about 500 students.\n\nI love music and sports. I play basketball on the school team. We practice every Tuesday and Thursday after school. Last month, we won our first game of the season, and I was so excited! My favorite subject at school is math, but I also enjoy science.\n\nI would love to hear more about your school and your hobbies. Do you play any sports? I am looking forward to your next letter.\n\nYour friend,\nYuki\n---\n\n筆者（ユキ）はどのスポーツをしていますか？",
+    "choices": [
+      { "label": "A", "text": "サッカー" },
+      { "label": "B", "text": "バスケットボール" },
+      { "label": "C", "text": "バレーボール" },
+      { "label": "D", "text": "水泳" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-006",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nLast spring, our class went on a nature trip to the Nara Forest Park. It was an amazing experience that I will never forget. We walked along a mountain trail and learned about different types of trees and plants.\n\nOur science teacher told us that forests are very important for the environment. They produce the oxygen we breathe and are home to many animals. I think every student should have the chance to visit a forest at least once a year.\n\nSince that trip, I have become much more interested in nature and the environment. I started reading books about animals and plants. I also joined a school club that picks up garbage in the park near our school every month. Visiting nature can really change the way you think.\n---\n\n筆者のクラスが自然旅行で訪れた場所はどこですか？",
+    "choices": [
+      { "label": "A", "text": "海の近くのビーチ" },
+      { "label": "B", "text": "山の湖" },
+      { "label": "C", "text": "奈良の森林公園" },
+      { "label": "D", "text": "動物園" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-007",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、問いに答えなさい。\n\n---\nDear Ms. Nakamura,\n\nMy name is Takuya Sato, from Class 1-A. I am writing to let you know that I will not be able to come to school tomorrow, Wednesday, June 4th. I have a doctor's appointment in the morning that I cannot change.\n\nMy mother will call the school office tomorrow morning. I will do my best to complete any homework or classwork that I miss. If you could let me know what I need to study, I would be very grateful.\n\nI am sorry for any trouble this may cause. I will be back at school on Thursday.\n\nSincerely,\nTakuya Sato\n---\n\nこのメールを書いた目的は何ですか？",
+    "choices": [
+      { "label": "A", "text": "欠席を先生に知らせるため" },
+      { "label": "B", "text": "宿題の内容を質問するため" },
+      { "label": "C", "text": "授業に遅れた理由を説明するため" },
+      { "label": "D", "text": "学校に荷物を取りに行きたいと伝えるため" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-008",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nI think eating healthy food is very important for students. When we eat well, we can concentrate better in class and feel more energetic throughout the day.\n\nEvery morning, I eat a bowl of rice with miso soup and a piece of fruit for breakfast. I started this habit six months ago after reading about the importance of eating breakfast. Before that, I often skipped breakfast because I was not hungry in the mornings.\n\nMy friend told me that many students eat snacks like chips and cookies instead of proper meals. I think this is a problem because snacks do not give us the nutrition we need. Students should try to eat at least two proper meals a day, including breakfast.\n---\n\n筆者は毎朝何を食べていますか？",
+    "choices": [
+      { "label": "A", "text": "パンと牛乳" },
+      { "label": "B", "text": "スナック菓子と果物" },
+      { "label": "C", "text": "ヨーグルトとシリアル" },
+      { "label": "D", "text": "ご飯・みそ汁・果物" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-009",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、問いに答えなさい。\n\n---\nDear Club Advisor,\n\nI am writing to give you an update about our school art club. We currently have eighteen members, which is five more than last year. We are very happy about this growth!\n\nThis month, we are working on a large painting for the school entrance hall. Each member is contributing a small part of the painting, and the whole picture will show our school's history. We plan to finish it by the end of November.\n\nWe would like to ask if we can use the art room on Friday evenings from 4:00 to 5:30 p.m. to complete the project. We will clean up everything before we leave.\n\nThank you for your support.\n\nSincerely,\nThe Art Club\n---\n\n現在の美術部の部員数は何人ですか？",
+    "choices": [
+      { "label": "A", "text": "13人" },
+      { "label": "B", "text": "18人" },
+      { "label": "C", "text": "15人" },
+      { "label": "D", "text": "23人" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-010",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nReading books is one of my favorite activities. I believe that reading makes us smarter and helps us understand the world better. When I read, I can travel to different places and learn about new ideas without leaving my room.\n\nI try to read at least three books every month. Sometimes I read more when I have school holidays. My favorite type of book is adventure stories, but I also enjoy books about history and science.\n\nI think students who read regularly do better in school. Reading improves our vocabulary and helps us express our ideas more clearly. I always recommend reading to my classmates who want to improve their Japanese or English skills.\n\nIf you are not sure where to start, just visit your local library and pick up something that looks interesting. You might discover a new hobby!\n---\n\n筆者は月に少なくとも何冊本を読んでいますか？",
+    "choices": [
+      { "label": "A", "text": "1冊" },
+      { "label": "B", "text": "2冊" },
+      { "label": "C", "text": "3冊" },
+      { "label": "D", "text": "5冊" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-011",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nDo students really need homework on weekends? I do not think so. I believe that the weekend should be a time for students to rest, spend time with family, and explore their own interests.\n\nFirst, students work very hard from Monday to Friday. By the end of the week, many students are tired both physically and mentally. Giving homework on weekends means that students never get a true break. A study by a local university showed that students who rested on weekends performed better on Monday morning tests than those who spent the weekend studying.\n\nSecond, free time allows students to develop creative thinking. When students have time to play sports, draw, or read books they enjoy, they develop skills that cannot be learned in the classroom.\n\nI am not saying that studying is wrong. But there should be a balance between school and rest. Without enough rest, students cannot do their best work. I hope that teachers will think carefully about the value of free time when they assign weekend homework.\n---\n\n筆者が「週末に宿題を出すべきでない」と主張する根拠として本文に書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "週末に勉強する生徒は成績が下がるという国の調査がある" },
+      { "label": "B", "text": "先生は宿題を採点するのに時間がかかりすぎている" },
+      { "label": "C", "text": "保護者が週末の宿題に反対しているという意見が多い" },
+      { "label": "D", "text": "週末に休んだ生徒の月曜日のテスト成績が良いという大学の調査がある" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-012",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nMany schools in Japan require students to wear uniforms. According to the Ministry of Education's survey, about 85% of public junior high schools in Japan have a school uniform policy. In our city, all five junior high schools have uniforms.\n\nI believe that wearing a uniform is a good idea. First, uniforms make students feel equal. When everyone wears the same clothes, students do not worry about what brand of clothing others are wearing. This helps create a friendly atmosphere in school.\n\nSome people say that uniforms reduce students' freedom of self-expression. However, I think there are many other ways for students to express themselves, such as through art, music, and sports.\n\nThe cost of buying a school uniform is usually between 20,000 and 40,000 yen. This is indeed a one-time cost for families.\n---\n\n次のうち、本文で筆者の「意見（主観的な考え）」として書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "制服を着ることで生徒同士が対等な気持ちになれる" },
+      { "label": "B", "text": "日本の公立中学校の約85%に制服の規定がある" },
+      { "label": "C", "text": "制服の購入費用は通常2万〜4万円程度である" },
+      { "label": "D", "text": "市内の5つの中学校すべてに制服がある" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-013",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nOur school produces a surprising amount of plastic waste every day. Each student uses plastic bags, plastic bottles, and plastic wrappers for food. When added together, this creates a very serious environmental problem.\n\nI strongly believe that our school should take action to reduce plastic waste. The best way to start is to ban single-use plastic bags in the school cafeteria and encourage students to bring reusable bottles instead of buying plastic ones.\n\nSome students might say this is too much trouble. However, small changes in our daily habits can make a big difference. For example, if every student stopped using just one plastic bag per day, our school would use 900 fewer plastic bags per week.\n\nWe all share this planet. It is our responsibility as young people to protect the environment. Let us start making changes today, beginning at our own school.\n---\n\n筆者の主な主張はどれですか？",
+    "choices": [
+      { "label": "A", "text": "プラスチックを日常生活で一切使ってはいけない" },
+      { "label": "B", "text": "学校でプラスチックごみを減らすための行動を起こすべきだ" },
+      { "label": "C", "text": "学校でペットボトル飲料の販売をすぐに禁止すべきだ" },
+      { "label": "D", "text": "環境問題は政府が解決する問題であり、生徒には関係ない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-014",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nOur school's sports day is one of the most exciting events of the year. I think it brings students, teachers, and parents together in a wonderful way.\n\nLast year, about 350 students participated in sports day. Families and friends came to watch, and the school grounds were full of energy and excitement. The relay race was the most popular event, with every class sending their four fastest runners.\n\nI believe that sports day is not just about winning. It teaches students the importance of teamwork and encourages those who are not usually interested in sports to try their best. When I was in my first year, I was not a fast runner, but I enjoyed being cheered on by my classmates.\n\nSome students say that sports day takes too much time away from studying. However, I strongly feel that the benefits of sports day go far beyond physical exercise. Experiences like these help shape who we are as people.\n---\n\n次のうち、本文に「事実」として書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "運動会はすべての生徒が楽しみにしているイベントだ" },
+      { "label": "B", "text": "リレーは学校で最も重要な競技だと筆者は強く感じている" },
+      { "label": "C", "text": "昨年の運動会には約350人の生徒が参加した" },
+      { "label": "D", "text": "運動会は勉強の妨げになると多くの生徒が考えている" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-015",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nShould students study alone or in groups? I think studying in a group is often more effective than studying alone.\n\nLast semester, I joined a study group with three classmates for our science exams. All four of us improved our test scores compared to the previous semester. My score went up by 15 points, and my classmate Ren, who had the lowest score in the group before, improved by 20 points.\n\nWhen you study in a group, you can ask questions freely, explain things to each other, and discover mistakes you might not notice on your own. Teaching something to others is one of the best ways to understand it yourself.\n\nOf course, not all group studying is effective. It is important to stay focused and avoid spending all the time chatting. The key is to set a goal at the beginning of each session and stick to it.\n---\n\n筆者が「グループ学習」の効果を支持する根拠として本文に書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "4人のグループ全員の理科のテストの点数が前学期より上がったという自分の経験" },
+      { "label": "B", "text": "グループ学習が効果的だという教育機関の調査データ" },
+      { "label": "C", "text": "一人で勉強するより楽しいという友人たちの感想" },
+      { "label": "D", "text": "先生がグループ学習を強く勧めているという事実" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-016",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nOur school started a vegetable garden in the empty lot next to the gymnasium three years ago. Currently, the garden is about 50 square meters in size and is managed by students in the science club.\n\nI think the vegetable garden is one of the best additions to our school in recent years. Growing vegetables teaches students about patience, responsibility, and the natural cycle of life. These are lessons that cannot be learned from a textbook alone.\n\nThe science club harvests vegetables about four times a year. The vegetables are then used in the school cafeteria to make soup and salad. Last year, the garden produced about 30 kilograms of tomatoes and 20 kilograms of cucumbers.\n\nI strongly believe that every school should consider starting a garden. It does not have to be large. Even a few pots of herbs near a window can give students a valuable learning experience.\n---\n\n次のうち、本文で筆者の「意見（主観的な考え）」として書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "学校の菜園は体育館の隣にある" },
+      { "label": "B", "text": "科学クラブの生徒が菜園を管理している" },
+      { "label": "C", "text": "昨年、菜園でトマトが約30キロ収穫された" },
+      { "label": "D", "text": "すべての学校が菜園を持つことを検討すべきだ" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-017",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nShould students be allowed to use smartphones at school? I do not think so. While smartphones are useful in our daily lives, they cause serious problems in the school environment.\n\nFirst, smartphones are a major distraction. When a student sees a notification or a message, it is very hard not to check it. Even a short distraction can break concentration and make it hard to get back to studying. Research has shown that it takes an average of 23 minutes for a person to fully regain concentration after being interrupted.\n\nSecond, smartphones can lead to unkind behavior between students. Some students use phones to send mean messages or share embarrassing photos, which can hurt feelings and damage friendships.\n\nI understand that there are emergency situations where students might need to contact their parents. For those cases, students can use the school phone. Smartphones should stay at home during school hours.\n---\n\n筆者がスマートフォンの学校使用に反対する理由として本文に書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "スマートフォンは高価すぎて、持てない生徒との不平等が生じるから" },
+      { "label": "B", "text": "スマートフォンは集中を妨げる大きな原因になるから" },
+      { "label": "C", "text": "スマートフォンの使い方を教える時間が授業を圧迫するから" },
+      { "label": "D", "text": "スマートフォンを使うと視力が悪くなるという研究があるから" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-018",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nEvery summer, our city offers a special study program for junior high school students. Students can join classes in math, science, English, or arts and crafts. This year, about 200 students signed up for the program.\n\nI think this program is a wonderful opportunity. Last year, I joined the English class for two weeks. At the end of the program, I could have a simple conversation in English without using a dictionary. My English teacher was very surprised when I showed her what I had learned.\n\nMy classmate Saki joined the math class and said that she learned more in two weeks than in three months at school. She explained that the smaller class size, just eight students per class, allowed the teacher to explain things more carefully.\n\nI hope more students will join the program next year. If you want to improve quickly in any subject, this summer program is a great place to start.\n---\n\n筆者が「夏の特別学習プログラム」の効果を示すために本文に書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "参加した生徒の全員が成績を向上させたという統計データ" },
+      { "label": "B", "text": "このプログラムが市の教育委員会に認められているという事実" },
+      { "label": "C", "text": "2週間で英語の会話ができるようになったという自分の体験" },
+      { "label": "D", "text": "プログラムの参加費用が他の塾より安いという比較" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-019",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nOur school library has about 8,000 books, and new books are added every semester. The library is open from 8:00 a.m. to 5:00 p.m. on school days, and about 50 students visit it each day.\n\nHowever, I feel that the library is not being used as well as it could be. Many students do not even know where to find the books they need. I think the library should offer a short tour for all new students at the beginning of the school year so that they feel comfortable using it.\n\nThe library also has five computers that students can use to search for information. Last year, the computers were updated with new software, and their speed improved significantly.\n\nI strongly believe that a good library is the heart of a school. If we use it well, we can become more curious, independent learners. Let us take better advantage of this wonderful resource.\n---\n\n次のうち、本文で「意見（主観的な考え）」として書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "図書館は年度初めに新入生向けのツアーを実施すべきだ" },
+      { "label": "B", "text": "学校図書館には約8,000冊の本がある" },
+      { "label": "C", "text": "図書館は学校がある日の8時から17時まで開いている" },
+      { "label": "D", "text": "コンピュータは昨年新しいソフトウェアに更新された" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-020",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "standard",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nOur school introduced tablet computers in all classrooms last April. Since then, students have been using them in math, science, and English lessons.\n\nI strongly support the use of tablets in our classes. The most important reason is that tablets allow each student to learn at their own pace. In a traditional class, the teacher can only explain things once or twice. With a tablet, students can replay a lesson explanation as many times as they need.\n\nIn addition, tablets allow teachers to give immediate feedback on students' answers. When a student makes a mistake, the tablet shows a helpful hint right away, which helps students understand where they went wrong.\n\nSome students say that looking at a screen all day hurts their eyes. This is a fair concern. To address this, our school has a rule that students must take a five-minute break away from screens every 40 minutes. With proper care, tablets can be a powerful learning tool.\n---\n\n筆者がタブレット使用に賛成する理由として本文に書かれているのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "タブレットは教科書よりも安価だから" },
+      { "label": "B", "text": "タブレットを使うと宿題の量が減るから" },
+      { "label": "C", "text": "タブレットは授業中に生徒が遊べるゲームを提供するから" },
+      { "label": "D", "text": "タブレットを使うと生徒が自分のペースで学習を繰り返せるから" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-021",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nLast month, something small happened that changed the way I think about our neighborhood.\n\nI was carrying heavy bags home from the grocery store when an elderly man stopped and asked if he could help me. He was a stranger, but he walked with me all the way to my front door. When I thanked him, he just smiled and said, \"We all need a little help sometimes.\"\n\nThat simple act of kindness stayed with me. I started thinking about how often we pass people who might need help without even noticing. Since that day, I have been trying to do at least one small kind act every day. I helped a younger student find her classroom. I picked up garbage near the park. I gave up my seat on the bus for a tired-looking person.\n\nI think we all have the power to make our community a better place. Acts of kindness do not need to be big or expensive. They just need to be genuine. The more kindness we give, the more we receive in return.\n---\n\n本文で述べられていないのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "見知らぬお年寄りが重い荷物を玄関まで運ぶのを手伝ってくれた" },
+      { "label": "B", "text": "筆者はこの体験をきっかけに学校のボランティア部に参加した" },
+      { "label": "C", "text": "筆者はバスで疲れた様子の人に席を譲った" },
+      { "label": "D", "text": "筆者は毎日少なくとも一つの親切な行動をするようにしている" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-022",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nMany people think that environmental problems are too large for one person to solve. They look at issues like global warming and ocean pollution and feel hopeless. But I believe that meaningful change begins at home, with each individual's choices.\n\nIn my family, we have made several small changes over the past year. We started separating our garbage carefully, turning off lights when leaving a room, and using public transportation more often. These changes did not cost much money or time, but together they have reduced our monthly electricity bill by about 15%.\n\nI read that if every household in our city made just three environmental changes, the total reduction in carbon emissions would equal removing 10,000 cars from the road. This shows that individual actions, when multiplied across a community, have real power.\n\nEnvironmental protection is not only the job of scientists or governments. It is something every family can contribute to. Start with one small change. That one change might inspire someone else, and slowly, our habits as a community will shift in a better direction.\n---\n\nこの意見文で筆者が最も伝えたいことはどれですか？",
+    "choices": [
+      { "label": "A", "text": "環境問題は科学者や政府にしか解決できない" },
+      { "label": "B", "text": "電気代を節約するために家庭でできる具体的な方法を紹介する" },
+      { "label": "C", "text": "個人・家庭レベルの小さな行動が環境保護につながるという考え" },
+      { "label": "D", "text": "公共交通機関の利用を増やすことが最も重要な環境対策だ" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-023",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nWhen I was in my first year of junior high school, I failed my first science test badly. I felt so embarrassed that I wanted to give up on science completely. But my teacher said something I will never forget: \"Mistakes are not the end. They are the beginning of understanding.\"\n\nShe was right. After that test, I studied harder and asked more questions when I was confused. By the end of the year, science had become my favorite subject. That failed test was actually the turning point.\n\nLooking back, I realize that most of the things I am now good at started with failure. I fell off my bicycle many times before I could ride it smoothly. I practiced my speech for the school festival dozens of times and still forgot some words on stage, but I learned far more from that experience than from any practice session alone.\n\nI think we should change the way we view mistakes. Instead of being ashamed of them, we should see them as valuable lessons. Mistakes show us exactly where we need to grow. The students who improve the most are not those who never fail, but those who keep trying after they fail.\n---\n\nこの意見文のタイトルとして最も適切なのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "失敗から学ぶことの大切さ" },
+      { "label": "B", "text": "理科のテストで高得点を取る方法" },
+      { "label": "C", "text": "自転車に乗れるようになるまでの道のり" },
+      { "label": "D", "text": "学校祭のスピーチを成功させるコツ" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-024",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nLast year, our school welcomed three exchange students from Australia, Canada, and Brazil. They joined our school for three months, from October to December.\n\nHaving exchange students in our school was an incredible experience for everyone. In English class, our Australian student, Jessica, helped us practice real conversations. I was nervous at first, but she was patient and kind, and my speaking confidence improved a lot.\n\nWe also learned about different cultures. Our Brazilian student, Lucas, showed us photos of his city and taught us a few words in Portuguese. He said that Japanese food was completely different from anything he had tasted before, and his favorite dish was sushi.\n\nBy the end of their stay, many of us had made lasting friendships. We still message each other online. I hope our school will continue to invite exchange students every year, because these real-world cultural experiences cannot be found in textbooks.\n---\n\n本文で述べられていないのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "交換留学生は10月から12月までの3か月間在籍した" },
+      { "label": "B", "text": "オーストラリア人のジェシカが英語の会話練習を手伝ってくれた" },
+      { "label": "C", "text": "ブラジル人のルーカスが日本食の中では寿司が好きだと言った" },
+      { "label": "D", "text": "交換留学生が帰国後に学校を再び訪問する計画がある" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-025",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nMany junior high school students feel pressured to choose a \"useful\" hobby or activity, one that will look good for high school entrance exams or future job applications. I understand that pressure. But I believe that finding what you truly love to do is far more important.\n\nWhen I was twelve, I started making short videos with my phone. My parents were not sure it was a useful skill, and some of my classmates laughed at first. But I was passionate about it, so I kept going. I learned about camera angles, editing, and storytelling by myself, through trial and error.\n\nThis year, one of my videos won a prize in a national junior high school film competition. My parents have changed their minds, and my classmates are now interested in learning video editing too.\n\nMy point is this: when you truly love something, you naturally put in time and effort without being told to. That dedication leads to real skill, which opens unexpected doors. Do not let others decide what your passion should be. Try many things, find what excites you, and pursue it with all your heart.\n---\n\nこの意見文で筆者が主に言いたいことはどれですか？",
+    "choices": [
+      { "label": "A", "text": "動画編集は入試に役立つ実用的なスキルだ" },
+      { "label": "B", "text": "本当に好きなことを見つけて、情熱を持って取り組むことが大切だ" },
+      { "label": "C", "text": "保護者や友人のアドバイスを聞いて趣味を選ぶべきだ" },
+      { "label": "D", "text": "映像コンテストに参加することは自信をつける良い方法だ" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-026",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nEvery summer, our town holds a traditional festival called the Hoshi Matsuri. It has been celebrated for over 200 years and involves lantern making, folk dancing, and a nighttime parade through the main street.\n\nFor many years, participation in the festival was shrinking. Younger people were less interested, and the number of volunteers fell from over 300 to fewer than 100 in just ten years. Town leaders were worried that the festival might disappear.\n\nThen, three years ago, a group of junior high school students proposed a plan to involve their school in the festival. They created a student committee to design new lanterns, teach younger children the traditional dances, and share the festival's history on social media.\n\nThe results were remarkable. Last year, over 400 people participated, which was the highest number in two decades. Visitors from other cities also came to see the festival.\n\nI believe this shows that young people have the power to protect and revive traditional culture. Instead of thinking that old traditions have nothing to do with them, young people should see themselves as the keepers of their community's history.\n---\n\nこの意見文のタイトルとして最も適切なのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "星祭りのランタンの作り方" },
+      { "label": "B", "text": "ボランティア活動で友達を作る方法" },
+      { "label": "C", "text": "若者が地域の伝統文化を守る力" },
+      { "label": "D", "text": "SNSを使って祭りを宣伝する方法" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "oe-027",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nMy grandmother recently got her first smartphone. She was very excited but also confused. She did not understand how to send messages, make video calls, or search for information. So, I started spending time with her every Saturday to teach her how to use it.\n\nAt first, I thought it would be simple. But I quickly realized that teaching requires a lot of patience. My grandmother did not remember the steps easily, and sometimes she pressed the wrong button and got scared. I had to explain things slowly and repeat them many times.\n\nAfter two months, she can now video call me whenever she wants. Last week, she called me from her garden to show me the flowers she was growing. I could see her face so clearly on the screen, and she was smiling from ear to ear.\n\nHelping my grandmother with technology taught me more than just how to explain things patiently. It reminded me that older people have so much wisdom and experience, and that spending quality time with family is something I should never take for granted.\n---\n\n本文で述べられていないのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "筆者の祖母はスマートフォンの購入費用を筆者に支払ってもらった" },
+      { "label": "B", "text": "筆者は毎週土曜日に祖母とスマートフォンの使い方を練習した" },
+      { "label": "C", "text": "祖母は2か月後にビデオ通話ができるようになった" },
+      { "label": "D", "text": "祖母が庭から花を見せるためにビデオ通話をしてきた" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "oe-028",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nWhen I entered junior high school, I was a shy person who never tried anything new. I always sat in the same seat, talked to the same friends, and went home the same way every day. I thought this made me feel safe.\n\nThen one day, my homeroom teacher asked me to participate in the school English debate contest. I had never spoken in public before, and the idea terrified me. I almost refused. But something made me say yes.\n\nI was not good at debating. I forgot my arguments, spoke too quietly, and lost the contest. But during the preparation, I discovered something important. I had been holding back not because I could not do things, but because I was afraid of looking foolish.\n\nAfter the debate, I started trying other new things: joining the cooking club, talking to students I had never spoken to before, and even entering a writing competition. Each new experience made me feel a little braver.\n\nI want to say to anyone who feels like I did: trying something new is scary, but staying in your comfort zone has its own cost, and that cost is the life experiences you will never have.\n---\n\nこの意見文で筆者が主に述べていることはどれですか？",
+    "choices": [
+      { "label": "A", "text": "英語ディベートは入試に役立つ大切なスキルだ" },
+      { "label": "B", "text": "友達を増やすためには積極的に話しかけることが必要だ" },
+      { "label": "C", "text": "先生のアドバイスに従うことで新しい自分を発見できる" },
+      { "label": "D", "text": "新しいことに挑戦することは怖いが、それを避けることにはコストがある" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "oe-029",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nHave you ever noticed how music can change your mood? I have been playing the piano since I was seven years old, and over the years I have discovered that music is not just an art form. It is also a way to take care of my emotional health.\n\nWhen I feel stressed before a test, playing a calm piece of music for twenty minutes helps me relax and think more clearly. When I feel sad, I sometimes play something loud and energetic, and afterwards I feel lighter somehow. Music gives me a way to express feelings that I cannot always put into words.\n\nResearch supports this too. Studies have shown that listening to or playing music can lower levels of stress hormones in the body and improve mood. Music has been used in hospitals to help patients recover more quickly from illness.\n\nI think music should be seen as more than just a school subject or a hobby. It is a tool for emotional and mental wellness. Whether you play an instrument, sing, or just listen, music has something to offer everyone. I encourage everyone to find a type of music that speaks to them and make it a regular part of their life.\n---\n\nこの意見文のタイトルとして最も適切なのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "ピアノを上手に演奏するための練習方法" },
+      { "label": "B", "text": "音楽が心の健康に与える力" },
+      { "label": "C", "text": "音楽の授業を増やすべき理由" },
+      { "label": "D", "text": "病院での音楽療法の効果" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "oe-030",
+    "subject": "英語（中学）",
+    "unit": "意見文・メール読解",
+    "difficulty": "exam",
+    "question": "次の意見文を読んで、問いに答えなさい。\n\n---\nWhen I was in elementary school, I wanted to be a professional soccer player. Every day after school, I practiced in the park until it was too dark to see the ball. I watched videos of famous players and tried to copy their moves.\n\nBy the time I reached junior high school, I realized I would probably not become a professional player. I was good, but not exceptional. Some of my friends told me I should give up on soccer and focus only on my studies.\n\nI did not give up on soccer, but I thought more carefully about what I really loved about it. I loved the teamwork, the strategy, and the feeling of working toward a goal together. I started thinking about careers where I could use those values, such as coaching, sports management, or physical education teaching.\n\nNow I am in my third year of junior high, and I am planning to study sports science at high school. Soccer is still my greatest passion, and I believe the dedication I put into it has shaped my character.\n\nDreams do not always come true in the exact form we first imagine. But the effort we put into chasing them shapes who we become. That is a kind of success too.\n---\n\n本文で述べられていないのはどれですか？",
+    "choices": [
+      { "label": "A", "text": "筆者は小学生のとき、プロサッカー選手になりたかった" },
+      { "label": "B", "text": "筆者は中学3年生で、高校でスポーツ科学を学ぶ計画をしている" },
+      { "label": "C", "text": "筆者は中学校のサッカー部で地区大会の優勝を経験した" },
+      { "label": "D", "text": "筆者はサッカーへの情熱が自分の性格を形成してきたと感じている" }
+    ],
+    "correct": "C"
+  }
+]

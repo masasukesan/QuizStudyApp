@@ -8,7 +8,7 @@
       "subunit": "short-text",
       "name": "短文読解",
       "en": "Short Text",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/text-comprehension/dialogue",
@@ -17,7 +17,7 @@
       "subunit": "dialogue",
       "name": "対話文読解",
       "en": "Dialogue Reading",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/text-comprehension/narrative",
@@ -26,7 +26,7 @@
       "subunit": "narrative",
       "name": "物語・日記文読解",
       "en": "Narrative Reading",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/text-comprehension/opinion-essay",
@@ -35,7 +35,7 @@
       "subunit": "opinion-essay",
       "name": "意見文・メール読解",
       "en": "Opinion & Email",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/vocabulary-grammar/grammar-g1",
@@ -44,7 +44,7 @@
       "subunit": "grammar-g1",
       "name": "中1文法",
       "en": "Grammar G1",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/vocabulary-grammar/grammar-g2",
@@ -53,7 +53,7 @@
       "subunit": "grammar-g2",
       "name": "中2文法",
       "en": "Grammar G2",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/vocabulary-grammar/grammar-g3",
@@ -62,7 +62,7 @@
       "subunit": "grammar-g3",
       "name": "中3文法",
       "en": "Grammar G3",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/vocabulary-grammar/vocabulary-g1",
@@ -71,7 +71,7 @@
       "subunit": "vocabulary-g1",
       "name": "中1単語テスト",
       "en": "Vocabulary G1",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/vocabulary-grammar/vocabulary-g2",
@@ -108,7 +108,7 @@
               "subunit": "short-text",
               "name": "短文読解",
               "en": "Short Text",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/text-comprehension/dialogue",
@@ -117,7 +117,7 @@
               "subunit": "dialogue",
               "name": "対話文読解",
               "en": "Dialogue Reading",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/text-comprehension/narrative",
@@ -126,7 +126,7 @@
               "subunit": "narrative",
               "name": "物語・日記文読解",
               "en": "Narrative Reading",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/text-comprehension/opinion-essay",
@@ -135,7 +135,7 @@
               "subunit": "opinion-essay",
               "name": "意見文・メール読解",
               "en": "Opinion & Email",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         },
@@ -150,7 +150,7 @@
               "subunit": "grammar-g1",
               "name": "中1文法",
               "en": "Grammar G1",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/vocabulary-grammar/grammar-g2",
@@ -159,7 +159,7 @@
               "subunit": "grammar-g2",
               "name": "中2文法",
               "en": "Grammar G2",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/vocabulary-grammar/grammar-g3",
@@ -168,7 +168,7 @@
               "subunit": "grammar-g3",
               "name": "中3文法",
               "en": "Grammar G3",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/vocabulary-grammar/vocabulary-g1",
@@ -177,7 +177,7 @@
               "subunit": "vocabulary-g1",
               "name": "中1単語テスト",
               "en": "Vocabulary G1",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/vocabulary-grammar/vocabulary-g2",
@@ -192,4 +192,14 @@
               "path": "reading/vocabulary-grammar/vocabulary-g3",
               "course": "reading",
               "unit": "vocabulary-grammar",
-              "subunit": "
+              "subunit": "vocabulary-g3",
+              "name": "中3単語テスト",
+              "en": "Vocabulary G3",
+              "questionCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

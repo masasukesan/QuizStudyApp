@@ -1,0 +1,782 @@
+[
+  {
+    "id": "nar-001",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、問いに答えなさい。\n\n---\nSaturday, July 5\n\nToday was a great day. In the morning, I went to the park with my dog, Max. We played for about an hour. Then I ate lunch with my family at home. In the afternoon, my friend Ken came to my house and we played video games together. It was really fun.\n---\n\nこの日記を書いた人は、午後に何をしましたか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "友達と一緒にテレビゲームをした。"
+      },
+      {
+        "label": "B",
+        "text": "公園で犬と遊んだ。"
+      },
+      {
+        "label": "C",
+        "text": "家族と外でランチを食べた。"
+      },
+      {
+        "label": "D",
+        "text": "Max という名前の友達に会いに行った。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-002",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、問いに答えなさい。\n\n---\nMonday, September 10\n\nI had a math test today. I studied hard last night, but the test was very difficult. After school, I talked with my teacher, Ms. Ito. She said, \"Don't worry. You can try again.\" I felt better after that.\n---\n\nこの生徒がテストの後、先生と話した場所はどこですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "放課後の教室"
+      },
+      {
+        "label": "B",
+        "text": "図書館"
+      },
+      {
+        "label": "C",
+        "text": "公園"
+      },
+      {
+        "label": "D",
+        "text": "家"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-003",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nSaya is a junior high school student. She loves reading books. Every Saturday, she goes to the city library with her older sister, Mika. They usually stay there for two hours. Last Saturday, they found a really interesting book about animals and borrowed it.\n---\n\nサヤが図書館に行く頻度はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "毎週土曜日"
+      },
+      {
+        "label": "B",
+        "text": "毎日"
+      },
+      {
+        "label": "C",
+        "text": "毎週日曜日"
+      },
+      {
+        "label": "D",
+        "text": "月に一度"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-004",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、問いに答えなさい。\n\n---\nWednesday, March 3\n\nToday is Hina Matsuri. My grandmother came to our house. She brought special food called chirashizushi. We ate it together and talked for a long time. I love talking with my grandmother because she always tells me interesting old stories.\n---\n\nこの日記の書き手はおばあちゃんのことをどう思っていますか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "面白い昔話を話してくれるので大好きだ。"
+      },
+      {
+        "label": "B",
+        "text": "遠くに住んでいるのでめったに会えない。"
+      },
+      {
+        "label": "C",
+        "text": "ちらし寿司の作り方を教えてくれた。"
+      },
+      {
+        "label": "D",
+        "text": "毎週家に来てくれる。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-005",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nTom is eleven years old. He has two pets: a cat named Koko and a rabbit named Pochi. Every morning before school, he feeds them. His mother sometimes helps him. Tom wants to be a vet when he grows up.\n---\n\nトムのペットについて正しいものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ネコとウサギの2匹を飼っている。"
+      },
+      {
+        "label": "B",
+        "text": "イヌとネコを飼っている。"
+      },
+      {
+        "label": "C",
+        "text": "ペットの世話はお母さんがしている。"
+      },
+      {
+        "label": "D",
+        "text": "ペットの名前はトムとポチだ。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-006",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、問いに答えなさい。\n\n---\nFriday, November 20\n\nToday, our class did a science experiment. We used water and salt. It was my first time doing that experiment. At first, I made a mistake and added too much salt. My classmate Hana helped me. We finished the experiment together and our result was correct.\n---\n\nハナはこの書き手のために何をしましたか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "実験で失敗したときに助けてくれた。"
+      },
+      {
+        "label": "B",
+        "text": "塩を用意してくれた。"
+      },
+      {
+        "label": "C",
+        "text": "実験のやり方を最初から教えてくれた。"
+      },
+      {
+        "label": "D",
+        "text": "先生に代わりに報告してくれた。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-007",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nYuki moved to a new city last spring. She didn't know anyone there. On her first day at school, she was very nervous. But a girl named Lisa smiled at her and said, \"Hi! I'm Lisa. Let's eat lunch together!\" Yuki felt happy and relieved.\n---\n\nユキが新しい学校の初日にどのような気持ちだったかを示す英単語はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "nervous(緊張した)"
+      },
+      {
+        "label": "B",
+        "text": "happy(幸せな)"
+      },
+      {
+        "label": "C",
+        "text": "excited(わくわくした)"
+      },
+      {
+        "label": "D",
+        "text": "relieved(ほっとした)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-008",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nKenta likes cooking. Last Sunday, he tried to make curry for his family. He followed the recipe carefully. The curry smelled very good. When his father tasted it, he said, \"This is delicious!\" Kenta smiled and felt proud.\n---\n\nケンタがカレーを作ったとき、お父さんは何と言いましたか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「おいしい！」と言った。"
+      },
+      {
+        "label": "B",
+        "text": "「よく頑張ったね。」と言った。"
+      },
+      {
+        "label": "C",
+        "text": "「もう少し塩を入れた方がいい。」と言った。"
+      },
+      {
+        "label": "D",
+        "text": "「次は一緒に作ろう。」と言った。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-009",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、問いに答えなさい。\n\n---\nTuesday, April 8\n\nToday was my first day at junior high school. Everything was new—new classroom, new teachers, and new classmates. I sat next to a boy named Riku. He was friendly and helped me find the right room when I got lost. I think we will be good friends.\n---\n\nリクについて本文から読み取れることはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "迷ったときに部屋を探すのを助けてくれた。"
+      },
+      {
+        "label": "B",
+        "text": "この日記の書き手と同じクラブに入った。"
+      },
+      {
+        "label": "C",
+        "text": "前の学校でも友達だった。"
+      },
+      {
+        "label": "D",
+        "text": "算数が得意だと言っていた。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-010",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "basic",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nAoi is thirteen years old. She practices tennis every day after school. Her dream is to play in a big tournament someday. Last week, she won her first match. Her coach said, \"Keep working hard.\" Aoi was very happy.\n---\n\nアオイの夢は何ですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "大きな大会で試合をすること。"
+      },
+      {
+        "label": "B",
+        "text": "テニスのコーチになること。"
+      },
+      {
+        "label": "C",
+        "text": "毎日練習して上手になること。"
+      },
+      {
+        "label": "D",
+        "text": "試合に負けないこと。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-011",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nHiroshi wanted to join the school soccer team, but he was not very good at soccer. He practiced by himself every day for three months. He watched videos to learn new skills. Finally, in October, he passed the tryout. His teammates welcomed him with a big smile.\n---\n\nヒロシがトライアウトに合格できた理由として最も適切なものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3か月間毎日自分で練習し、動画で技術を学んだから。"
+      },
+      {
+        "label": "B",
+        "text": "チームメイトに特別な練習を教えてもらったから。"
+      },
+      {
+        "label": "C",
+        "text": "もともとサッカーが得意だったから。"
+      },
+      {
+        "label": "D",
+        "text": "監督がヒロシを気に入っていたから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-012",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nNana was excited about the school trip to Kyoto. She made a list of places she wanted to visit. On the day of the trip, however, it rained heavily. Many places were closed. She felt disappointed at first, but she and her friends found a small museum and enjoyed it very much.\n---\n\nナナの気持ちはどのように変化しましたか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "最初は楽しみにしていたが、雨でがっかりし、最後は博物館で楽しんだ。"
+      },
+      {
+        "label": "B",
+        "text": "最初から雨を心配していたが、博物館で元気になった。"
+      },
+      {
+        "label": "C",
+        "text": "楽しみにしていたが、友達と喧嘩してがっかりした。"
+      },
+      {
+        "label": "D",
+        "text": "京都に来たことを後悔したが、友達がなぐさめてくれた。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-013",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nSota forgot to bring his lunch to school. He was very hungry at lunchtime. His friend Daiki said, \"Don't worry. We can share mine.\" They sat together and shared Daiki's lunch. Sota said, \"Thank you. I will bring extra snacks for you tomorrow.\"\n---\n\nソウタが「明日おやつを多めに持ってくる」と言った理由はなぜですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ダイキが昼ごはんを分けてくれたので、お礼がしたかったから。"
+      },
+      {
+        "label": "B",
+        "text": "明日もお弁当を忘れそうだったから。"
+      },
+      {
+        "label": "C",
+        "text": "ダイキがおやつを持ってくるよう頼んだから。"
+      },
+      {
+        "label": "D",
+        "text": "一人で食べるのが寂しかったから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-014",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nMai loved drawing. She drew pictures every day in her notebook. One day, her art teacher, Mr. Sato, saw her notebook. He said, \"Your drawings are wonderful. You should enter the city art contest.\" Mai was surprised because she thought her drawings were just for herself.\n---\n\nマイが驚いた理由として最も適切なものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "自分の絵は自分だけのものだと思っていたのに、先生が褒めてコンテストを勧めたから。"
+      },
+      {
+        "label": "B",
+        "text": "先生がノートを持って行ってしまったから。"
+      },
+      {
+        "label": "C",
+        "text": "コンテストに出るのが怖かったから。"
+      },
+      {
+        "label": "D",
+        "text": "自分の絵が一番上手だと知らなかったから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-015",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nRiku went to a summer camp with his class. He did not know how to swim. On the first day, he was afraid to go into the water. His friend Ami said, \"I'll stay with you.\" By the last day, Riku could swim across the pool. He was very proud of himself.\n---\n\n本文の内容と合っているものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "リクはキャンプ最終日にプールを泳いで渡ることができた。"
+      },
+      {
+        "label": "B",
+        "text": "リクは最初からプールが得意だった。"
+      },
+      {
+        "label": "C",
+        "text": "アミは泳ぎ方をリクに教えた。"
+      },
+      {
+        "label": "D",
+        "text": "リクはキャンプ中ずっと水に入らなかった。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-016",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nEmily received a letter from her pen pal in Australia. Her pen pal, Chloe, wrote about her school and family. Emily was happy to read it, but some words were new to her. She looked them up in the dictionary. Then she wrote a long reply about her life in Japan.\n---\n\nエミリーが辞書を使った理由は何ですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "手紙の中に知らない単語があったから。"
+      },
+      {
+        "label": "B",
+        "text": "返事を英語で書かなければならなかったから。"
+      },
+      {
+        "label": "C",
+        "text": "クロエに辞書の使い方を教えるため。"
+      },
+      {
+        "label": "D",
+        "text": "宿題で辞書を使う必要があったから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-017",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nKenji always came home late on Tuesdays because of his basketball club. One Tuesday, he arrived home at 8 p.m. and found dinner ready on the table. A note from his mother said, \"I went to Grandma's house. Eat without me. There's also soup on the stove.\"\n---\n\n火曜日にケンジが帰宅が遅い理由は何ですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "バスケットボール部の練習があるから。"
+      },
+      {
+        "label": "B",
+        "text": "おばあちゃんの家に寄るから。"
+      },
+      {
+        "label": "C",
+        "text": "夕食を作ってから帰るから。"
+      },
+      {
+        "label": "D",
+        "text": "友達と遊んでいるから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-018",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nSaori used to hate vegetables. Her mother always cooked them for her, but Saori never ate them. Then, last summer, she helped her grandmother grow tomatoes in the garden. When Saori picked the tomatoes herself and ate them, she was amazed. They tasted so sweet and delicious.\n---\n\nサオリが野菜を食べるようになったきっかけとして最も適切なものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "おばあちゃんの畑でトマトを自分で育てて収穫し、食べてみたら美味しかったから。"
+      },
+      {
+        "label": "B",
+        "text": "お母さんが野菜を美味しく料理してくれたから。"
+      },
+      {
+        "label": "C",
+        "text": "学校で野菜の大切さについて学んだから。"
+      },
+      {
+        "label": "D",
+        "text": "おばあちゃんに野菜を食べるように言われたから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-019",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nTaro found a small injured bird near the school gate. He carefully picked it up and took it to the school nurse's office. The nurse helped him put the bird in a box with some cloth. They kept it warm. The next day, the bird flew away. Taro felt a little sad but also happy.\n---\n\nタロウが「少し悲しいけれど嬉しい」と感じた理由を正しく説明しているものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "鳥が元気になって飛んで行ったのは嬉しいが、もういなくなったので少し寂しかったから。"
+      },
+      {
+        "label": "B",
+        "text": "鳥を助けられなかったので悲しかったが、先生が褒めてくれたから。"
+      },
+      {
+        "label": "C",
+        "text": "鳥が怪我をしたことが悲しく、助けられたことが嬉しかったから。"
+      },
+      {
+        "label": "D",
+        "text": "鳥の世話が大変で疲れたが、学校の友達に感謝されたから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-020",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nMiko's family moved to a new apartment. Miko missed her old friends very much. She called them on weekends and sent messages every day. One month later, she made a new friend at school named Hana. Miko still misses her old friends, but she feels less lonely now.\n---\n\n本文の内容と合っていないものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ミコは引っ越してから古い友達のことを忘れた。"
+      },
+      {
+        "label": "B",
+        "text": "ミコは週末に古い友達に電話した。"
+      },
+      {
+        "label": "C",
+        "text": "ミコは新しい学校でハナという友達ができた。"
+      },
+      {
+        "label": "D",
+        "text": "今もミコは古い友達のことが恋しい。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-021",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nWhen Keiko was twelve, she received a second-hand violin from her aunt. It was old, but it had a warm, deep sound. She practiced every day, even though it was hard at first. Three years later, she performed at the city music hall. Many people cried when they heard her play. Keiko thought, \"Music can connect people's hearts.\"\n---\n\nこの文章を通じてケイコが最も伝えたいことはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "音楽は人々の心をつなぐことができる。"
+      },
+      {
+        "label": "B",
+        "text": "古い楽器でも十分に良い音が出る。"
+      },
+      {
+        "label": "C",
+        "text": "毎日練習すれば必ずプロの演奏家になれる。"
+      },
+      {
+        "label": "D",
+        "text": "おばさんからもらったプレゼントは大切にするべきだ。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-022",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nRyu grew up in a small fishing village. He watched his father go out to sea every morning. His father always said, \"The sea gives us life, so we must take care of it.\" When Ryu was in high school, he saw a lot of plastic trash on the beach. He started a beach cleanup club at his school. Soon, thirty students joined. Ryu hoped that his small action would inspire others to protect the ocean.\n---\n\nリュウがビーチ清掃クラブを作った直接のきっかけは何ですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "海辺にたくさんのプラスチックゴミを見たから。"
+      },
+      {
+        "label": "B",
+        "text": "父親に海の掃除をするよう頼まれたから。"
+      },
+      {
+        "label": "C",
+        "text": "学校の先生に環境保護の大切さを教わったから。"
+      },
+      {
+        "label": "D",
+        "text": "30人の友達が一緒にやろうと誘ってきたから。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-023",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nAmanda was a shy girl who rarely spoke in class. One day, her English teacher asked her to read a poem aloud. Amanda's voice shook at first, but she kept going. When she finished, the class was quiet for a moment, and then everyone clapped. After that day, Amanda started to speak more in class. She realized that her voice mattered.\n---\n\nこの物語のタイトルとして最も適切なものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Finding Her Voice(自分の声を見つけて)"
+      },
+      {
+        "label": "B",
+        "text": "A Perfect Poem(完璧な詩)"
+      },
+      {
+        "label": "C",
+        "text": "The Best English Class(最高の英語の授業)"
+      },
+      {
+        "label": "D",
+        "text": "A Quiet School Day(静かな学校の一日)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-024",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nOscar loved winning. He trained every day for the regional running race. On the day of the race, he was in first place for most of the time. Near the finish line, he saw a younger boy fall down. Oscar stopped, helped the boy up, and finished the race last. His coach said, \"That was the best thing I ever saw.\"\n---\n\n本文に述べられていないものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "オスカーはコーチから走り方を教わっていた。"
+      },
+      {
+        "label": "B",
+        "text": "オスカーは地区大会のために毎日練習していた。"
+      },
+      {
+        "label": "C",
+        "text": "オスカーはレース中に転んだ子を助けた。"
+      },
+      {
+        "label": "D",
+        "text": "オスカーのコーチは彼の行動を称えた。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-025",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nYoshiko's grandfather was a carpenter. He made furniture by hand. When Yoshiko was little, he made her a small wooden chair. As she grew up, she learned that her grandfather had spent an entire week on that chair. He had painted a tiny bird on the back of it. Yoshiko kept the chair in her room. Every time she looked at it, she felt her grandfather's love.\n---\n\nこの物語のテーマとして最も適切なものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "手作りの品に込められた思いは長く心に残る。"
+      },
+      {
+        "label": "B",
+        "text": "大工の仕事は時間がかかるが大切な職業だ。"
+      },
+      {
+        "label": "C",
+        "text": "子どもの頃の思い出は大人になっても忘れない。"
+      },
+      {
+        "label": "D",
+        "text": "古い家具はいつまでも大切に使うべきだ。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-026",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nShin moved to Canada when he was fourteen. He could not speak English well and felt lost at school. He spent lunch breaks alone. One afternoon, a classmate named Lucas sat next to him and started drawing in a sketchbook. Shin loved drawing, too. Without words, they drew together every day. By spring, they were close friends. Shin learned that friendship doesn't always need words.\n---\n\n本文の内容と合っていないものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "シンはカナダに来た最初の週にルーカスと友達になった。"
+      },
+      {
+        "label": "B",
+        "text": "シンはランチの時間を最初は一人で過ごしていた。"
+      },
+      {
+        "label": "C",
+        "text": "シンとルーカスは言葉なしに絵を描くことで交流した。"
+      },
+      {
+        "label": "D",
+        "text": "春ごろには2人は親しい友人になっていた。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-027",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nMrs. Tanaka was eighty years old. She had a small garden and grew flowers every year. When she became too ill to go outside, she worried about her flowers. Her neighbor, a ten-year-old girl named Hana, noticed and started watering the flowers every morning before school. Mrs. Tanaka watched from the window and smiled. When she recovered, she taught Hana how to grow roses.\n---\n\nこの物語が最も伝えようとしていることはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "思いやりの行動は人々をつなぎ、新しいつながりを生む。"
+      },
+      {
+        "label": "B",
+        "text": "病気になっても花の世話を続けることが大切だ。"
+      },
+      {
+        "label": "C",
+        "text": "子どもでも大人に教わることで素晴らしいことができる。"
+      },
+      {
+        "label": "D",
+        "text": "バラを育てるには長年の経験が必要だ。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-028",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nDaichi wanted to win the school speech contest. He wrote his speech about his experience volunteering at an animal shelter. He practiced in front of the mirror every night. On the day of the contest, his heart was beating fast. He remembered why he wrote the speech—not to win, but to share something important. He spoke slowly and clearly. He did not win first place, but many students came to him afterward and said, \"I want to volunteer too.\"\n---\n\n本文に述べられていないことはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ダイチは動物シェルターの仕事をアルバイトとして続けていた。"
+      },
+      {
+        "label": "B",
+        "text": "ダイチは毎晩鏡の前でスピーチの練習をした。"
+      },
+      {
+        "label": "C",
+        "text": "ダイチは1位にはなれなかった。"
+      },
+      {
+        "label": "D",
+        "text": "スピーチを聞いた生徒がボランティアをしたいと言った。"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-029",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nNina had always wanted to be a singer, but she was afraid of performing in public. At her school's culture festival, she signed up for the talent show without telling anyone. On the night of the show, she was terrified. But when the music started, she forgot her fear and sang from her heart. The audience cheered. Nina thought, \"I should have done this sooner.\"\n---\n\nこの物語のタイトルとして最も適切なものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The Night She Sang(彼女が歌った夜)"
+      },
+      {
+        "label": "B",
+        "text": "A Perfect School Festival(完璧な文化祭)"
+      },
+      {
+        "label": "C",
+        "text": "Practice Makes Perfect(練習あるのみ)"
+      },
+      {
+        "label": "D",
+        "text": "A Song for No One(誰のための歌でもない)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "nar-030",
+    "subject": "英語（中学）",
+    "unit": "物語・日記文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、問いに答えなさい。\n\n---\nKai was the best student in his class, and everyone expected him to win the science fair. He built a water filter using recycled materials. On the day of the fair, his filter worked, but another student's project—a seed-growing experiment—won first place. Kai was surprised. The judges said, \"This project shows that small actions can help the environment in everyday life.\" Kai went home and thought about those words for a long time.\n---\n\n審査員が1位の作品を選んだ理由として最も適切なものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "日常生活の中で環境に役立つ小さな行動を示していたから。"
+      },
+      {
+        "label": "B",
+        "text": "リサイクル素材を使った技術力が評価されたから。"
+      },
+      {
+        "label": "C",
+        "text": "カイの水フィルターよりも見た目が美しかったから。"
+      },
+      {
+        "label": "D",
+        "text": "科学的な実験方法が最も正確だったから。"
+      }
+    ],
+    "correct": "A"
+  }
+]

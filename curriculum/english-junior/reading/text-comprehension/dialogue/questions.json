@@ -1,0 +1,422 @@
+[
+  {
+    "id": "dg-basic-001",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、リサがここに座っている理由として正しいものを選びなさい。\n\n---\nTom: Hi, is this seat taken?\nLisa: No, it's free. Please sit down.\nTom: Thanks. Are you waiting for someone?\nLisa: Yes, my mother. She's buying something at the shop across the street.\n---",
+    "choices": [
+      { "label": "A", "text": "トムを待っているから" },
+      { "label": "B", "text": "母親を待っているから" },
+      { "label": "C", "text": "向かいの店で買い物をしているから" },
+      { "label": "D", "text": "バスを待っているから" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "dg-basic-002",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、ユキが乗るべきバスはどれですか？\n\n---\nYuki: Excuse me, does this bus go to City Hall?\nDriver: No, you need the Number 7 bus for that.\nYuki: Oh, I see. Where can I catch it?\nDriver: Just across the road. It comes every 15 minutes.\n---",
+    "choices": [
+      { "label": "A", "text": "7番のバス" },
+      { "label": "B", "text": "今乗っているバス" },
+      { "label": "C", "text": "市役所行きの電車" },
+      { "label": "D", "text": "15分おきに来るタクシー" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "dg-basic-003",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、ケビンが注文したピザの合計金額として正しいものを選びなさい。\n\n---\nKevin: Hello, I'd like to order a pizza.\nStaff: Of course. What size would you like?\nKevin: A large one, please. And can I have extra cheese?\nStaff: Sure! That will be 1,800 yen in total.\n---",
+    "choices": [
+      { "label": "A", "text": "800円" },
+      { "label": "B", "text": "1,000円" },
+      { "label": "C", "text": "1,500円" },
+      { "label": "D", "text": "1,800円" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-basic-004",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、マイクの宿題の提出期限として正しいものを選びなさい。\n\n---\nAmy: Mike, have you finished your homework?\nMike: Not yet. I still have three pages of math left.\nAmy: When is it due?\nMike: Tomorrow morning. I'll do it after dinner.\n---",
+    "choices": [
+      { "label": "A", "text": "今夜" },
+      { "label": "B", "text": "来週の朝" },
+      { "label": "C", "text": "明日の朝" },
+      { "label": "D", "text": "夕食の前" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "dg-basic-005",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、ジェニーがサムに頼んだことは何ですか？\n\n---\nJenny: Can you help me carry these boxes to the gym?\nSam: Sure! Are these all of them?\nJenny: Yes. The PE teacher needs them before 3 o'clock.\nSam: Okay, let's hurry then.\n---",
+    "choices": [
+      { "label": "A", "text": "体育館まで箱を運ぶのを手伝うこと" },
+      { "label": "B", "text": "3時までに体育館に来ること" },
+      { "label": "C", "text": "体育の先生に伝言を届けること" },
+      { "label": "D", "text": "箱の中身を確認すること" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "dg-basic-006",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、ケイティはどうやって図書館へ行きますか？\n\n---\nDad: Katie, where are you going?\nKatie: I'm going to the library to return some books.\nDad: Do you need a ride?\nKatie: No, thanks. It's nice outside, so I'll walk.\n---",
+    "choices": [
+      { "label": "A", "text": "車で" },
+      { "label": "B", "text": "徒歩で" },
+      { "label": "C", "text": "自転車で" },
+      { "label": "D", "text": "バスで" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "dg-basic-007",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、テスト中に許可されていないことはどれですか？\n\n---\nTeacher: Class, don't forget that we have a test next Monday.\nStudent A: What chapters will it cover?\nTeacher: Chapters 4, 5, and 6.\nStudent B: Can we use our notes?\nTeacher: No, it's a closed-book test.\n---",
+    "choices": [
+      { "label": "A", "text": "4〜6章から出題されること" },
+      { "label": "B", "text": "月曜日にテストが行われること" },
+      { "label": "C", "text": "ノートを使うこと" },
+      { "label": "D", "text": "生徒が質問すること" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "dg-basic-008",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、土曜日の初心者向けクラスは何時に始まりますか？\n\n---\nAlice: Hi, what time does the swimming pool open on Saturdays?\nStaff: It opens at 9 a.m. and closes at 6 p.m.\nAlice: Is there a morning class for beginners?\nStaff: Yes, it starts at 10 a.m. every Saturday.\n---",
+    "choices": [
+      { "label": "A", "text": "午前9時" },
+      { "label": "B", "text": "午前9時30分" },
+      { "label": "C", "text": "午後6時" },
+      { "label": "D", "text": "午前10時" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-basic-009",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、ジャックがこれからすることは何ですか？\n\n---\nMom: Did you feed the dog this morning, Jack?\nJack: I forgot. Sorry, Mom.\nMom: Please do it now before you go to school.\nJack: Okay, I'll do it right away.\n---",
+    "choices": [
+      { "label": "A", "text": "犬にエサをやる" },
+      { "label": "B", "text": "学校に行く" },
+      { "label": "C", "text": "朝食を食べる" },
+      { "label": "D", "text": "お母さんに謝る" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "dg-basic-010",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "basic",
+    "question": "次の会話を読んで、ベンの誕生日パーティーはいつですか？\n\n---\nPaul: Hey, are you coming to Ben's birthday party on Sunday?\nMia: I want to, but I'm not sure. What time does it start?\nPaul: It starts at 2 p.m. at his house.\nMia: That should be fine. I'll try to make it.\n---",
+    "choices": [
+      { "label": "A", "text": "土曜日の午後2時" },
+      { "label": "B", "text": "日曜日の午後2時" },
+      { "label": "C", "text": "日曜日の午前2時" },
+      { "label": "D", "text": "日曜日の午後1時" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "dg-standard-001",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、（　）に入るナンシーの発言として最も自然なものを選びなさい。\n\n---\nNancy: I'm thinking of joining the drama club, but I'm nervous.\nKen: Why? You're a great actor!\nNancy: Really? I don't think I'm good enough.\nKen: Don't worry. Just try it. You might surprise yourself.\nNancy: (　)\n---",
+    "choices": [
+      { "label": "A", "text": "I don't want to join any clubs." },
+      { "label": "B", "text": "Ken, are you in the drama club?" },
+      { "label": "C", "text": "Maybe you're right. I'll give it a shot." },
+      { "label": "D", "text": "I think the drama club is too difficult for you." }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "dg-standard-002",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、（　）に入るヒロキの発言として最も自然なものを選びなさい。\n\n---\nHiroki: Excuse me, I think I left my notebook in this classroom earlier.\nTeacher: Let me check. What does it look like?\nHiroki: It's blue with a star on the cover.\nTeacher: Hmm... I did see a notebook, but it was red. Is that yours?\nHiroki: (　)\n---",
+    "choices": [
+      { "label": "A", "text": "Yes, that must be mine. Thank you!" },
+      { "label": "B", "text": "I see. I'll ask the teacher next door." },
+      { "label": "C", "text": "Could you tell me where you found it?" },
+      { "label": "D", "text": "No, mine is blue. Maybe someone else left it." }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-standard-003",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、2人が最終的に勉強する場所はどこですか？\n\n---\nSaki: Should we study at the library or at my place?\nRyo: Let's go to the library. It's quieter.\nSaki: Actually, the library closes at 5 today.\nRyo: Oh, really? Then let's study at your place.\nSaki: Sure. Come over at 3.\n---",
+    "choices": [
+      { "label": "A", "text": "サキの家" },
+      { "label": "B", "text": "図書館" },
+      { "label": "C", "text": "リョウの家" },
+      { "label": "D", "text": "学校" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "dg-standard-004",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、2人の待ち合わせ時間として正しいものを選びなさい。\n\n---\nMaya: Let's meet at the station at 10 a.m. on Saturday.\nKenji: That works, but can we make it 11? I have something in the morning.\nMaya: Okay, 11 it is.\nKenji: Great. Should we go to the museum first?\nMaya: Sure!\n---",
+    "choices": [
+      { "label": "A", "text": "土曜日の午前10時" },
+      { "label": "B", "text": "土曜日の午前11時" },
+      { "label": "C", "text": "土曜日の正午" },
+      { "label": "D", "text": "日曜日の午前11時" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "dg-standard-005",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、内容と一致するものを選びなさい。\n\n---\nAlex: I heard you went to the science fair. How was it?\nBeth: It was amazing! There were robots and lots of experiments.\nAlex: Did you try any experiments?\nBeth: Yes! I made a small volcano. It was really fun.\nAlex: That sounds cool. I wish I'd gone.\n---",
+    "choices": [
+      { "label": "A", "text": "アレックスも科学フェアに行った" },
+      { "label": "B", "text": "ベスはロボットを作った" },
+      { "label": "C", "text": "ベスは小さな火山を作る実験をした" },
+      { "label": "D", "text": "科学フェアは退屈だった" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "dg-standard-006",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、ダニエルはバレーボールのネットをいつまでに返せばよいですか？\n\n---\nDaniel: Mrs. Green, can I borrow the volleyball net for PE class tomorrow?\nMrs. Green: Of course, Daniel. Just sign your name in the equipment book.\nDaniel: Do I need to bring it back before lunch?\nMrs. Green: No, just return it by the end of school.\n---",
+    "choices": [
+      { "label": "A", "text": "明日の朝" },
+      { "label": "B", "text": "昼食の前" },
+      { "label": "C", "text": "次のPE授業の終わりに" },
+      { "label": "D", "text": "学校が終わるまでに" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-standard-007",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、ルーシーがジェイクに申し出ていることは何ですか？\n\n---\nLucy: You look tired, Jake.\nJake: Yeah, I stayed up late studying for tomorrow's test.\nLucy: Maybe you should take a short nap during lunch.\nJake: Good idea. Will you wake me up at 12:30?\nLucy: Sure, no problem.\n---",
+    "choices": [
+      { "label": "A", "text": "ジェイクを12時半に起こすこと" },
+      { "label": "B", "text": "ジェイクと一緒にテスト勉強をすること" },
+      { "label": "C", "text": "ジェイクにお昼ごはんを持ってくること" },
+      { "label": "D", "text": "ジェイクのために先生に話すこと" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "dg-standard-008",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、（　）に入るトムの発言として最も自然なものを選びなさい。\n\n---\nTom: I can't find my wallet anywhere. I think I lost it.\nAnna: Where did you last have it?\nTom: I think at the convenience store.\nAnna: You should go back and check if anyone turned it in.\nTom: (　)\n---",
+    "choices": [
+      { "label": "A", "text": "I already bought something there, so it's fine." },
+      { "label": "B", "text": "You're right. I'll go there now." },
+      { "label": "C", "text": "I don't need a wallet anyway." },
+      { "label": "D", "text": "Maybe I should buy a new one." }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "dg-standard-009",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、この会話の主なテーマは何ですか？\n\n---\nNao: Have you decided what to make for the school fair?\nJun: I'm thinking of selling handmade cookies.\nNao: That's a great idea! What flavors?\nJun: Chocolate and vanilla. How about you?\nNao: I'll make juice. We could set up our stands next to each other.\nJun: I like that idea. Let's do it!\n---",
+    "choices": [
+      { "label": "A", "text": "学校フェアのルールについて" },
+      { "label": "B", "text": "クッキーの作り方について" },
+      { "label": "C", "text": "学校フェアで何を売るかについて" },
+      { "label": "D", "text": "スタンドの飾り付けについて" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "dg-standard-010",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "standard",
+    "question": "次の会話を読んで、夕食について内容と一致するものを選びなさい。\n\n---\nMom: Taro, dinner's almost ready. Can you set the table?\nTaro: Sure. Where's the tablecloth?\nMom: In the drawer next to the fridge.\nTaro: Got it. Should I put out chopsticks or forks?\nMom: Chopsticks, please. We're having Japanese food tonight.\n---",
+    "choices": [
+      { "label": "A", "text": "タロウが料理を作っている" },
+      { "label": "B", "text": "お母さんが引き出しを探している" },
+      { "label": "C", "text": "今夜は洋食を食べる" },
+      { "label": "D", "text": "夕食には箸を使う" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-exam-001",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、エマの気持ちがどのように変化したかを選びなさい。\n\n---\nEmma: I really don't want to move to a new city. I'll miss all my friends.\nDad: I know it's hard, Emma. But think of it as a new adventure.\nEmma: An adventure? It just feels like losing everything.\nDad: You'll make new friends. And we can video-call the old ones any time.\nEmma: I suppose... and maybe the new school will have a swimming team.\nDad: That's the spirit! You'll be fine.\nEmma: Okay. I'll try to be more positive about it.\n---",
+    "choices": [
+      { "label": "A", "text": "最初から引っ越しに積極的で、最後も変わらなかった" },
+      { "label": "B", "text": "最初は引っ越しに否定的だったが、最後には前向きになった" },
+      { "label": "C", "text": "最初は前向きだったが、会話が進むにつれて悲しくなった" },
+      { "label": "D", "text": "引っ越しについて特に何も感じていなかった" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "dg-exam-002",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、ユキの最終的な気持ちとして最も適切なものを選びなさい。\n\n---\nYuki: Did you hear? I won first place in the art contest!\nHana: Wow, really? That's amazing! I knew you could do it.\nYuki: I almost didn't enter. I thought my work wasn't good enough.\nHana: But you did enter, and you won! You should feel proud.\nYuki: I really do. And the best part is my painting will be shown at the city hall.\nHana: I can't wait to see it there!\n---",
+    "choices": [
+      { "label": "A", "text": "作品が市役所に展示されることへの喜びと誇り" },
+      { "label": "B", "text": "コンテストに参加したことへの後悔" },
+      { "label": "C", "text": "ハナへの感謝と寂しさ" },
+      { "label": "D", "text": "自分の絵に対する不満" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "dg-exam-003",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、タイトルとして最も適切なものを選びなさい。\n\n---\nKenji: I've been thinking about volunteering at the animal shelter this summer.\nMio: That sounds wonderful! Why did you decide to do that?\nKenji: I love animals, and I heard they really need help walking the dogs and cleaning.\nMio: That's great. Will you do it every day?\nKenji: No, just on weekends. I'll keep doing my part-time job on weekdays.\nMio: Sounds like a busy but rewarding summer for you.\nKenji: I think so too. I'm really looking forward to it.\n---",
+    "choices": [
+      { "label": "A", "text": "Working at a Part-Time Job" },
+      { "label": "B", "text": "How to Take Care of Dogs" },
+      { "label": "C", "text": "A Busy Weekday Schedule" },
+      { "label": "D", "text": "Volunteering at an Animal Shelter" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-exam-004",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、2人が最終的に同意していることとして正しいものを選びなさい。\n\n---\nAmy: I've been feeling really stressed about exams lately.\nBen: Me too. I barely sleep.\nAmy: I heard that taking short breaks while studying actually helps you remember things better.\nBen: Really? I thought studying without stopping was better.\nAmy: No, the brain needs rest. Even a 10-minute walk can help.\nBen: Maybe that's why I feel so burned out. I'll try taking breaks from now on.\nAmy: Good idea. We study smarter, not harder.\n---",
+    "choices": [
+      { "label": "A", "text": "試験前は睡眠をとらないことが大切だ" },
+      { "label": "B", "text": "勉強は休憩なしで続けるほうが効果的だ" },
+      { "label": "C", "text": "勉強中に短い休憩を取ることは有効だ" },
+      { "label": "D", "text": "10分間の散歩は勉強の邪魔になる" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "dg-exam-005",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、述べられていないことを選びなさい。\n\n---\nSara: Hey, did you know our school is starting a new science club?\nLiam: Yes! I saw the poster. It meets every Tuesday after school.\nSara: I'm thinking of joining. Are you?\nLiam: Definitely. I heard we'll do real experiments, not just read from books.\nSara: And the teacher in charge is Mr. Hayashi. He's really enthusiastic about science.\nLiam: I can't wait. I'll sign up tomorrow.\n---",
+    "choices": [
+      { "label": "A", "text": "サイエンスクラブは毎週火曜日の放課後に集まる" },
+      { "label": "B", "text": "クラブでは本を読むだけでなく実験をする" },
+      { "label": "C", "text": "担当教師はハヤシ先生である" },
+      { "label": "D", "text": "リアムはすでに入会手続きを済ませた" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-exam-006",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、述べられていないことを選びなさい。\n\n---\nChloe: I went to the new ramen restaurant last night. It was incredible!\nRyo: Oh, the one near the station? I've been curious about it.\nChloe: Yes! The broth was rich, and the noodles were perfectly chewy.\nRyo: How long did you wait?\nChloe: About 30 minutes. But it was totally worth it.\nRyo: Was it expensive?\nChloe: Not really. It was about 900 yen for a bowl.\n---",
+    "choices": [
+      { "label": "A", "text": "ラーメン屋は駅の近くにある" },
+      { "label": "B", "text": "クロエは友達と一緒に食べに行った" },
+      { "label": "C", "text": "待ち時間は約30分だった" },
+      { "label": "D", "text": "ラーメン1杯は約900円だった" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "dg-exam-007",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、会話の最後でレオとエバが共通して認めていることを選びなさい。\n\n---\nLeo: I think we should spend less time on social media.\nEva: I disagree. Social media helps us stay connected with friends.\nLeo: But it's a huge distraction, especially during study time.\nEva: Well, I think it's about balance. If you use it wisely, it's fine.\nLeo: Maybe, but most people don't use it wisely, including me.\nEva: That's a fair point. Maybe we both need better self-control.\n---",
+    "choices": [
+      { "label": "A", "text": "レオはソーシャルメディアを完全に禁止すべきだと主張している" },
+      { "label": "B", "text": "エバはソーシャルメディアが有害であることを認めている" },
+      { "label": "C", "text": "2人はソーシャルメディアについて完全に意見が一致している" },
+      { "label": "D", "text": "2人ともソーシャルメディアの使い方に自制心が必要だと認めている" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-exam-008",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、タイトルとして最も適切なものを選びなさい。\n\n---\nHina: Are you going to enter the speech contest?\nRen: I'm not sure. I get really nervous speaking in front of people.\nHina: But you always have great ideas. Your speech topic would be interesting.\nRen: What if I mess up?\nHina: Everyone makes mistakes. The important thing is to try.\nRen: I guess you're right. If I don't try, I'll never improve.\nHina: Exactly! I'll cheer for you.\nRen: Thanks. I'll sign up then.\n---",
+    "choices": [
+      { "label": "A", "text": "How to Write a Perfect Speech" },
+      { "label": "B", "text": "Why Public Speaking Is Difficult" },
+      { "label": "C", "text": "Encouraging Someone to Take a Challenge" },
+      { "label": "D", "text": "Winning the Speech Contest" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "dg-exam-009",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、述べられていないことを選びなさい。\n\n---\nTom: I heard the school festival is next month. Are you helping out?\nMia: Yes! I'm on the food committee. We're planning to sell curry rice and drinks.\nTom: That sounds delicious. What about the performances?\nMia: The music club will play on Saturday, and there's a comedy show on Sunday.\nTom: I'll definitely come on Sunday then. Is there an admission fee?\nMia: No, it's free for students.\n---",
+    "choices": [
+      { "label": "A", "text": "文化祭は来月行われる" },
+      { "label": "B", "text": "ミアは食べ物の係をしている" },
+      { "label": "C", "text": "音楽クラブは土曜日に演奏する" },
+      { "label": "D", "text": "トムはすでに文化祭のチケットを買った" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "dg-exam-010",
+    "subject": "英語（中学）",
+    "unit": "対話文読解",
+    "difficulty": "exam",
+    "question": "次の会話を読んで、内容と一致するものを選びなさい。\n\n---\nKaito: I'm thinking of joining the basketball team, but I'm worried I'm not tall enough.\nCoach: Height isn't everything. Skills and effort matter more.\nKaito: Really? But all the players on the team look so tall.\nCoach: We have players of different heights. What's important is how hard you practice.\nKaito: That's encouraging. I'll give it my best.\nCoach: Good attitude. Tryouts are next Friday. Come and show us what you've got.\n---",
+    "choices": [
+      { "label": "A", "text": "コーチは身長がなければチームに入れないと言った" },
+      { "label": "B", "text": "コーチは身長よりも努力と技術が大切だと言った" },
+      { "label": "C", "text": "トライアウトは来週月曜日に行われる" },
+      { "label": "D", "text": "チームの選手は全員背が高い" }
+    ],
+    "correct": "B"
+  }
+]

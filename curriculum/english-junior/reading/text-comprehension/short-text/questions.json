@@ -1,0 +1,782 @@
+[
+  {
+    "id": "st-basic-001",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次の掲示を読んで、スポーツデーが始まる時刻として正しいものを選びなさい。\n\n---\nJefferson Junior High School Sports Day\nDate: Saturday, October 12\nTime: 9:30 a.m. to 3:00 p.m.\nPlace: School Gym and Sports Field\nAll students must wear their P.E. uniforms.\nBring your own water bottle.\nParents are welcome to join us.\nFor more information, please contact Mr. Wilson in Room 201.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "午前8時30分"
+      },
+      {
+        "label": "B",
+        "text": "午前9時30分"
+      },
+      {
+        "label": "C",
+        "text": "午前10時00分"
+      },
+      {
+        "label": "D",
+        "text": "午後3時00分"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "st-basic-002",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、筆者が午後にしたことを選びなさい。\n\n---\nDear Diary,\nToday was really busy. I woke up at 6:30 and had breakfast with my family. After that, I helped my mom clean the kitchen. In the afternoon, I went to the library to study for my math test. I came home at 5:00 p.m. and cooked dinner with my sister. We had a great time together.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "図書館で数学の勉強をした"
+      },
+      {
+        "label": "B",
+        "text": "午前6時30分に目が覚めた"
+      },
+      {
+        "label": "C",
+        "text": "妹と一緒に学校へ行った"
+      },
+      {
+        "label": "D",
+        "text": "母親と台所を掃除した"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-basic-003",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、Lily の新しい住所として正しいものを選びなさい。\n\n---\nHi Emma,\nHow are you? I'm writing to tell you about our new house. We moved last weekend. Our new address is 15 Oak Street, near Green Park. The nearest train station is Park Station. It takes only five minutes on foot.\nCome and visit us soon! My mom will make your favorite chocolate cake.\nBest wishes,\nLily\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Green Park の中"
+      },
+      {
+        "label": "B",
+        "text": "Park Station の隣"
+      },
+      {
+        "label": "C",
+        "text": "Oak Street 15番地"
+      },
+      {
+        "label": "D",
+        "text": "Emma の家の近く"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "st-basic-004",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次の案内を読んで、12歳未満の子供の入場料として正しいものを選びなさい。\n\n---\nGreenfield School Cultural Festival\nThis Saturday and Sunday!\nAdmission: Adults $5, Children under 12 are FREE\nOpening Hours: 10:00 a.m. to 4:00 p.m.\nEnjoy food, music, games, and art shows.\nTickets are available at the school gate.\nDo not bring pets inside.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5ドル"
+      },
+      {
+        "label": "B",
+        "text": "3ドル"
+      },
+      {
+        "label": "C",
+        "text": "2ドル"
+      },
+      {
+        "label": "D",
+        "text": "無料"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-basic-005",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、このメールを書いた人物として正しいものを選びなさい。\n\n---\nDear Mr. Thompson,\nMy name is Sarah Lee. I am a student in Class 3B. I am writing because I was absent from school on Monday. I had a bad cold and stayed home. I would like to get the homework that I missed. Could you please send it to my email?\nThank you very much.\nSarah Lee\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Mr. Thompson"
+      },
+      {
+        "label": "B",
+        "text": "Sarah Lee"
+      },
+      {
+        "label": "C",
+        "text": "Class 3B の全員"
+      },
+      {
+        "label": "D",
+        "text": "Sarah の保護者"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "st-basic-006",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次のポスターを読んで、このコンサートが行われる日付として正しいものを選びなさい。\n\n---\nBlue River Junior High School Music Concert\nDate: Friday, November 8\nDoors open at 6:00 p.m. / Show starts at 6:30 p.m.\nPlace: School Hall (2nd Floor)\nAll students and their families are invited.\nFree admission for all guests.\nPlease arrive on time.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "11月8日(金曜日)"
+      },
+      {
+        "label": "B",
+        "text": "11月6日(金曜日)"
+      },
+      {
+        "label": "C",
+        "text": "11月8日(土曜日)"
+      },
+      {
+        "label": "D",
+        "text": "11月18日(金曜日)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-basic-007",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次のお知らせを読んで、図書館の通常の開館時間として正しいものを選びなさい。\n\n---\nSchool Library Notice\nThe library will be closed for cleaning next week.\nIt will be open again from Monday, July 7.\nNormal opening hours: 8:00 a.m. to 5:00 p.m. on weekdays.\nThe library is closed on weekends and holidays.\nPlease return all books before Friday this week.\nThank you for your cooperation.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "午前7時から午後5時"
+      },
+      {
+        "label": "B",
+        "text": "午前8時から午後4時"
+      },
+      {
+        "label": "C",
+        "text": "午前8時から午後5時"
+      },
+      {
+        "label": "D",
+        "text": "午前9時から午後5時"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "st-basic-008",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次のメールを読んで、遠足の行き先として正しいものを選びなさい。\n\n---\nHi Jack,\nI'm so excited! Our class trip is next week. We are going to the National Science Museum in the city. We will leave school at 8:00 a.m. by bus. Please bring your lunch and a notebook.\nDon't forget to wear your school uniform.\nSee you Monday!\nYour friend,\nTom\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "学校近くの公園"
+      },
+      {
+        "label": "B",
+        "text": "国立歴史博物館"
+      },
+      {
+        "label": "C",
+        "text": "Tom の家の近くの博物館"
+      },
+      {
+        "label": "D",
+        "text": "国立科学博物館"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-basic-009",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次のお知らせを読んで、6歳未満の子供のルールとして正しいものを選びなさい。\n\n---\nSunview Community Pool\nSummer Schedule\nOpen every day: 9:00 a.m. to 7:00 p.m.\nChildren under 6 must be with an adult at all times.\nNo running on the pool deck.\nNo food or drinks in the pool area.\nFree parking is available behind the building.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "常に大人と一緒にいなければならない"
+      },
+      {
+        "label": "B",
+        "text": "午前9時までに入場しなければならない"
+      },
+      {
+        "label": "C",
+        "text": "建物の裏にある駐車場を使わなければならない"
+      },
+      {
+        "label": "D",
+        "text": "プールサイドを走ってはならない"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-basic-010",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "basic",
+    "question": "次の日記を読んで、筆者がピアノレッスンを受ける曜日として正しいものを選びなさい。\n\n---\nMonday, March 5\nToday I had soccer practice after school. It was tough but I enjoyed it. Tomorrow is Tuesday, so I have piano lessons from 4:00 to 5:00. On Wednesday, I'm free, so I plan to visit my grandparents. I can't wait!\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "月曜日"
+      },
+      {
+        "label": "B",
+        "text": "火曜日"
+      },
+      {
+        "label": "C",
+        "text": "水曜日"
+      },
+      {
+        "label": "D",
+        "text": "木曜日"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "st-std-001",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次のメールを読んで、Mia がこのメールを書いた目的として最も適切なものを選びなさい。\n\n---\nDear Amy,\nI hope you are well! I am having a birthday party at my house this Saturday. It starts at 3:00 p.m. I have invited five of our friends. We will play games, eat cake, and watch a movie.\nI would really love it if you could come! Please let me know by Thursday.\nYour friend,\nMia\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "誕生日プレゼントをお願いするため"
+      },
+      {
+        "label": "B",
+        "text": "パーティーへの参加に感謝を伝えるため"
+      },
+      {
+        "label": "C",
+        "text": "Amy をパーティーに招待するため"
+      },
+      {
+        "label": "D",
+        "text": "パーティーが中止になったことを知らせるため"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "st-std-002",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次の文章を読んで、主な内容として最も適切なものを選びなさい。\n\n---\nHi everyone,\nAs you know, our school has a new recycling program. Starting next month, we will have separate bins for paper, plastic, and cans in every classroom. I want to ask all students to help us keep our school clean and reduce waste. Small actions can make a big difference. Please think about the environment every day.\nMs. Carter, Science Teacher\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "新しい理科の授業についての案内"
+      },
+      {
+        "label": "B",
+        "text": "ゴミ箱を教室に持ってくる方法の説明"
+      },
+      {
+        "label": "C",
+        "text": "科学の実験に関するルールの通知"
+      },
+      {
+        "label": "D",
+        "text": "学校のリサイクルプログラムへの協力依頼"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-std-003",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次のメールを読んで、Ken がこのメールを書いた目的として最も適切なものを選びなさい。\n\n---\nDear Ms. Brown,\nI am Ken Tanaka from Class 2A. I am very interested in the English speech contest next month. However, I am not sure how to sign up. Could you please tell me the deadline and what I need to prepare? I would be very grateful for your help.\nThank you,\nKen Tanaka\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "スピーチコンテストへの参加方法を尋ねるため"
+      },
+      {
+        "label": "B",
+        "text": "スピーチコンテストの結果を報告するため"
+      },
+      {
+        "label": "C",
+        "text": "Ms. Brown に英語を教えてもらうため"
+      },
+      {
+        "label": "D",
+        "text": "Ms. Brown をコンテストに招待するため"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-std-004",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次の通知を読んで、主な目的として最も適切なものを選びなさい。\n\n---\nDear Students,\nThe school cafeteria will be closed for repairs from Monday, June 2 to Friday, June 6. During this week, you are welcome to eat your lunch in your classroom or the gym. Please bring your own lunch during this period. Sorry for the inconvenience. We will reopen on Monday, June 9 with new tables and chairs.\nStudent Services\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6月9日からの新しいランチメニューを知らせるため"
+      },
+      {
+        "label": "B",
+        "text": "カフェテリアの一時閉鎖と代替案を伝えるため"
+      },
+      {
+        "label": "C",
+        "text": "昼食を食べる場所のルールを説明するため"
+      },
+      {
+        "label": "D",
+        "text": "修理工事の費用を生徒に知らせるため"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "st-std-005",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次のメールを読んで、Kenji について読み取れることとして最も適切なものを選びなさい。\n\n---\nHi Mom,\nI just finished my math test. I think I did really well! I remembered everything we studied last night. Ms. Davis said she will give back the tests on Thursday. I'm a little nervous, but I have a good feeling about it. After school today, I'm going to the library with Yuki.\nLove,\nKenji\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Kenji は数学のテストに失敗したと感じている"
+      },
+      {
+        "label": "B",
+        "text": "Kenji は昨日一人でテスト勉強をした"
+      },
+      {
+        "label": "C",
+        "text": "Kenji はテストの結果について前向きに感じている"
+      },
+      {
+        "label": "D",
+        "text": "Kenji は木曜日に図書館へ行く予定だ"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "st-std-006",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次のメールを読んで、Sophie がこのメールを書いた目的として最も適切なものを選びなさい。\n\n---\nDear Mr. Hughes,\nI just wanted to say thank you for helping me with my science project last week. Because of your advice, I finished it on time and got a very good grade. I really appreciate all the time you spent explaining things to me. You are a wonderful teacher.\nBest regards,\nSophie\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "先生への感謝を伝えるため"
+      },
+      {
+        "label": "B",
+        "text": "科学プロジェクトのアドバイスを求めるため"
+      },
+      {
+        "label": "C",
+        "text": "成績について不満を伝えるため"
+      },
+      {
+        "label": "D",
+        "text": "プロジェクトの締め切りを延ばしてもらうため"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-std-007",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次の日記を読んで、筆者がこの後すると考えられることとして最も適切なものを選びなさい。\n\n---\nDear Diary,\nToday I got a letter from my pen pal, Hana, in Japan. She told me about her school life and her hobbies. She likes music and often plays the piano. She also wrote that she hopes to visit Australia someday.\nI want to write back to her right away!\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "オーストラリアへの旅行計画を立てる"
+      },
+      {
+        "label": "B",
+        "text": "ピアノを習い始める"
+      },
+      {
+        "label": "C",
+        "text": "日本語を勉強し始める"
+      },
+      {
+        "label": "D",
+        "text": "Hana に返事の手紙を書く"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-std-008",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次のメールを読んで、主な内容として最も適切なものを選びなさい。\n\n---\nDear Parents,\nWe are pleased to announce that our school's Open Day will be held on Saturday, May 17. This is a great chance for parents to visit classrooms, meet teachers, and see what your children are learning. The event will run from 10:00 a.m. to 12:00 noon. No registration is needed. We hope to see you there!\nRiverside Junior High School\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "土曜日の学校給食のメニューについて"
+      },
+      {
+        "label": "B",
+        "text": "担任の先生との個人面談のお知らせ"
+      },
+      {
+        "label": "C",
+        "text": "学費の支払い方法についての案内"
+      },
+      {
+        "label": "D",
+        "text": "学校公開日の開催案内"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-std-009",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次のメールを読んで、Lena がこのメールを書いた目的として最も適切なものを選びなさい。\n\n---\nDear Team,\nI'm so sorry, but I won't be able to come to our group meeting tomorrow. My little sister is sick and I need to stay home and help my mom. I have already read all the materials and made some notes. Can we have a quick online meeting instead? I can join from 4:00 p.m.\nSorry again,\nLena\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "チームメンバーに宿題を送るため"
+      },
+      {
+        "label": "B",
+        "text": "オンライン会議のやり方を説明するため"
+      },
+      {
+        "label": "C",
+        "text": "明日のミーティングに参加できないことを伝えるため"
+      },
+      {
+        "label": "D",
+        "text": "妹の病気についてアドバイスを求めるため"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "st-std-010",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "standard",
+    "question": "次の掲示を読んで、読み取れることとして最も適切なものを選びなさい。\n\n---\nAttention all students!\nLost: One blue backpack with the name 'Tom' written inside.\nLast seen near the gym on Wednesday afternoon.\nIf you find it, please bring it to the main office.\nThe owner will be very happy to get it back.\nThank you!\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tom は水曜日の午後、体育館で運動をしていた"
+      },
+      {
+        "label": "B",
+        "text": "青いリュックは月曜日の朝に紛失した"
+      },
+      {
+        "label": "C",
+        "text": "Tom はすでに自分でリュックを見つけた"
+      },
+      {
+        "label": "D",
+        "text": "Tom は学校内でリュックをなくした可能性が高い"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-exam-001",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次のお知らせを読んで、内容と合わないものを選びなさい。\n\n---\nDear Students,\nOur class trip to Green Valley Farm is on Thursday, April 10. We will leave school at 7:45 a.m. by bus. Please wear comfortable clothes — no school uniform is needed. Bring your own lunch and drinks. Each student must pay 800 yen for the bus fee. Do not bring any electronic devices. We will return to school by 4:30 p.m.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "生徒は制服を着て参加しなければならない"
+      },
+      {
+        "label": "B",
+        "text": "出発時刻は午前7時45分である"
+      },
+      {
+        "label": "C",
+        "text": "昼食は各自で持参する"
+      },
+      {
+        "label": "D",
+        "text": "電子機器の持ち込みは禁止されている"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-exam-002",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次の案内を読んで、「ボランティアとして準備を手伝いたい生徒の到着時刻」と「フィールド競技の開始時刻」の正しい組み合わせを選びなさい。\n\n---\nMaple Junior High School Sports Festival\nDate: Saturday, September 20 / Venue: Central Sports Park\nSchedule:\n9:00 a.m. — Opening Ceremony\n9:30 a.m. — Track events begin\n12:00 noon — Lunch break (1 hour)\n1:00 p.m. — Field events begin\n3:30 p.m. — Closing Ceremony\nVolunteers who want to help with setup should arrive by 8:00 a.m.\nAll students must bring their own water.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "午前8時30分に到着、午後1時30分から競技"
+      },
+      {
+        "label": "B",
+        "text": "午前8時00分に到着、午後1時00分から競技"
+      },
+      {
+        "label": "C",
+        "text": "午前9時00分に到着、午後1時00分から競技"
+      },
+      {
+        "label": "D",
+        "text": "午前8時00分に到着、午前12時00分から競技"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "st-exam-003",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次のメールを読んで、内容と合わないものを選びなさい。\n\n---\nDear Mr. Adams,\nI am writing about our school book fair next week. I have already read all three books on the recommended list. I would like to know if I can help at the book fair as a student volunteer. I am free every day after school from 3:30 to 5:00 p.m. I have helped at school events before and really enjoy it.\nLooking forward to hearing from you.\nEmily\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Emily は推薦リストの本を3冊すべて読んだ"
+      },
+      {
+        "label": "B",
+        "text": "Emily は放課後3時30分から5時まで空いている"
+      },
+      {
+        "label": "C",
+        "text": "Emily はこれまでに学校行事でボランティアをした経験がない"
+      },
+      {
+        "label": "D",
+        "text": "Emily は本の展示会でボランティアとして手伝いたいと思っている"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "st-exam-004",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次の案内を読んで、「All money raised will be used for new stage equipment.」の意味として最も適切なものを選びなさい。\n\n---\nOur school's drama club will perform 'A Midsummer Night's Dream' this coming Friday evening. The show will start at 6:30 p.m. in the school auditorium. Tickets are $3 for students and $5 for adults. All money raised will be used for new stage equipment.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "舞台の設備はすでに新しく購入された"
+      },
+      {
+        "label": "B",
+        "text": "チケット代は学校の全活動費に使われる"
+      },
+      {
+        "label": "C",
+        "text": "大人向けのチケットは生徒向けより高く設定されている"
+      },
+      {
+        "label": "D",
+        "text": "集まったお金はすべて新しい舞台設備のために使われる"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-exam-005",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次の図書館のルールを読んで、内容として正しいものを選びなさい。\n\n---\nSchool Library Borrowing Rules\n- Students may borrow up to 3 books at a time.\n- Books must be returned within 2 weeks.\n- You may renew a book once for an extra 2 weeks.\n- Students with overdue books cannot borrow new books.\n- Reference books and magazines must stay in the library.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "延滞本がある生徒は新しい本を借りることができない"
+      },
+      {
+        "label": "B",
+        "text": "本は最大3週間借りることができる"
+      },
+      {
+        "label": "C",
+        "text": "参考図書は1冊だけ館外に持ち出すことができる"
+      },
+      {
+        "label": "D",
+        "text": "本の更新は2回まで可能である"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-exam-006",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次の案内を読んで、内容と合わないものを選びなさい。\n\n---\nSunridge School Mountain Hike\nDate: Sunday, June 15\nMeeting time: 7:30 a.m. at the main gate\nThings to bring: Water (at least 1 liter), lunch, a raincoat, and sunscreen.\nWear: Comfortable hiking shoes and long pants.\nImportant: Students who are not feeling well on the day should stay home and contact the teacher.\nCost: Free — the school will cover all transportation.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "集合時間は午前7時30分である"
+      },
+      {
+        "label": "B",
+        "text": "参加費は各自が負担しなければならない"
+      },
+      {
+        "label": "C",
+        "text": "雨具を持参するよう指示されている"
+      },
+      {
+        "label": "D",
+        "text": "体調が悪い場合は家にいるべきとされている"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "st-exam-007",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次のメールを読んで、テニス部について正しいものを選びなさい。\n\n---\nDear James,\nThank you for your message. Our school tennis team has two practice sessions per week — on Tuesdays and Thursdays, from 4:00 to 6:00 p.m. New members are welcome to join any time. However, please note that you will need your own racket, as we do not have extras. The coach is Ms. Reed. Feel free to come and watch a practice session first before you decide to join.\nBest,\nTeam Captain Alex\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "練習は週3回、火・木・金曜日に行われる"
+      },
+      {
+        "label": "B",
+        "text": "テニスラケットは部が用意してくれる"
+      },
+      {
+        "label": "C",
+        "text": "新入部員は入部前に練習を見学することができる"
+      },
+      {
+        "label": "D",
+        "text": "テニス部の顧問はメールを送った Alex である"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "st-exam-008",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次の文章を読んで、「We believe small steps can help protect our environment for future generations.」の意味として最も適切なものを選びなさい。\n\n---\nThis year, our school is starting a new program called 'Green School.' Every classroom will have a recycling bin for paper. Students are encouraged to reduce their use of plastic bottles by bringing their own water bottles. We believe small steps can help protect our environment for future generations.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "学校は生徒に未来の世代のことを教えたいと考えている"
+      },
+      {
+        "label": "B",
+        "text": "環境問題を解決するには大規模な対策だけが有効だ"
+      },
+      {
+        "label": "C",
+        "text": "将来のために学校の施設を新しくするべきだ"
+      },
+      {
+        "label": "D",
+        "text": "小さな取り組みが将来の環境を守ることにつながると信じている"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "st-exam-009",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次のお知らせを読んで、内容と合わないものを選びなさい。\n\n---\nCommunity Summer Festival\nDate: Saturday, August 3rd\nTime: 3:00 p.m. to 8:00 p.m.\nLocation: Riverside Park\nActivities: Live music, food stalls, games for children, fireworks at 8:00 p.m.\nAdmission: Free for everyone\nParking: Limited spaces available near the park entrance. We recommend coming by train or bicycle.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "入場には事前に購入したチケットが必要である"
+      },
+      {
+        "label": "B",
+        "text": "花火は午後8時に行われる予定である"
+      },
+      {
+        "label": "C",
+        "text": "子供向けのゲームが用意されている"
+      },
+      {
+        "label": "D",
+        "text": "電車や自転車での来場が推奨されている"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "st-exam-010",
+    "subject": "英語（中学）",
+    "unit": "短文読解",
+    "difficulty": "exam",
+    "question": "次のコンテストのポスターを読んで、内容として正しいものを選びなさい。\n\n---\nPhoto Contest — 'Our Town'\nOpen to all students from grades 7 to 9.\nSubmit up to 2 photos per person.\nPhotos must be taken by the student (no editing allowed).\nSubmission deadline: October 31\nWinners will be announced on November 10 on the school website.\nFirst prize: A $50 bookstore gift card\nAll submitted photos will be displayed at the school entrance in November.\n---",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1人3枚まで写真を提出することができる"
+      },
+      {
+        "label": "B",
+        "text": "提出された写真はすべて11月に学校の入口に展示される"
+      },
+      {
+        "label": "C",
+        "text": "受賞者発表は10月31日の締め切り当日に行われる"
+      },
+      {
+        "label": "D",
+        "text": "写真の加工・編集は1回まで許可されている"
+      }
+    ],
+    "correct": "B"
+  }
+]
