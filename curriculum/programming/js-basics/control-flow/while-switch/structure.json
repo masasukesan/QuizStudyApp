@@ -1,0 +1,155 @@
+{
+  "unit_id": "while-switch",
+  "unit_name_jp": "while / switch 文",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "while_basic",
+      "description": "while ループの基本構造：条件が true の間ループ本体を繰り返す。条件がはじめから false の場合は0回実行。",
+      "thinking_process": [
+        "条件式を確認する（ループに入る前に評価される）",
+        "条件が true ならループ本体を実行する",
+        "ループ本体の最後でカウンタなどを更新する",
+        "条件が false になったらループを抜ける"
+      ],
+      "common_mistakes": [
+        "条件式の初期値を間違え、1回多くまたは少なくループする",
+        "カウンタの更新を忘れて無限ループになる",
+        "for ループと異なり初期化・更新が本体内にあることを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "do_while",
+      "description": "do...while ループ：ループ本体を必ず1回実行してから条件を評価する。条件が false でも最低1回は実行される点が while との違い。",
+      "thinking_process": [
+        "ループ本体を先に実行する",
+        "その後、条件式を評価する",
+        "条件が true なら再度ループ本体を実行する",
+        "条件が false になったらループを終了する"
+      ],
+      "common_mistakes": [
+        "while との違いを混同し、条件が false のときも0回と誤解する",
+        "do...while の末尾にセミコロンが必要なことを忘れる（while(条件);）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "while_break_continue",
+      "description": "while ループ内の break と continue：break はループを即座に終了し、continue は残りの処理をスキップして次のループへ移る。",
+      "thinking_process": [
+        "break が実行される条件を確認する",
+        "break に達したらループを抜けて次の文へ移ることを追跡する",
+        "continue が実行されたとき、ループの残り処理が飛ばされ条件評価に戻ることを確認する",
+        "無限ループと break を組み合わせたパターンを理解する"
+      ],
+      "common_mistakes": [
+        "continue 後に条件式の再評価が行われることを忘れる",
+        "break が最も近い while/for ループだけを抜けることを忘れる（ネスト時）",
+        "continue を break と混同し「ループ全体を終了する」と誤解する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "switch_basic",
+      "description": "switch 文の基本構造：式の値と各 case の値を厳密比較（===）し、一致した case から実行する。break がなければ次の case に処理が流れる（フォールスルー）。",
+      "thinking_process": [
+        "switch の式（カッコ内）の値を評価する",
+        "各 case の値と厳密比較（===）で照合する",
+        "一致した case から実行を開始する",
+        "break があれば switch を抜け、なければ次の case へ処理が流れる",
+        "どの case にも一致しなければ default を実行する"
+      ],
+      "common_mistakes": [
+        "break を書き忘れてフォールスルーが起きる",
+        "switch は == ではなく === で比較することを忘れる",
+        "default は必ず最後でなくてもよいが、break を書かないとその後の case も実行される"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "switch_fallthrough",
+      "description": "意図的なフォールスルー：break を省略することで複数の case を同じ処理にまとめる設計パターン。",
+      "thinking_process": [
+        "フォールスルーを使う意図（複数条件の共通処理）を確認する",
+        "break のない case を順に追跡して、どこで処理が止まるかを確認する",
+        "意図しないフォールスルーとの違いを理解する"
+      ],
+      "common_mistakes": [
+        "フォールスルーを意図しているのか書き忘れなのかを判断できない",
+        "最後の case や default にも break を書かないと次のコードに影響することを誤解する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "switch_vs_if",
+      "description": "switch と if/else の使い分け：switch は一つの式の値を複数の定数と比較する場面に適し、if/else は範囲条件・論理演算を含む場面に適す。",
+      "thinking_process": [
+        "条件が「1つの変数と複数の定数値の比較」か「複合条件・範囲比較」かを判断する",
+        "switch は === の厳密比較のみなので、範囲比較（>、<）は直接使えない",
+        "switch の可読性と if/else の柔軟性をトレードオフで考える"
+      ],
+      "common_mistakes": [
+        "switch で範囲条件（>100など）を直接書けると誤解する",
+        "switch は文字列や数値のリテラル比較に向いているが、変数同士の比較には不向きと知らない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "infinite_loop_guard",
+      "description": "無限ループのリスクと防止：while ループで更新処理を忘れたり、break に到達しない条件を設定すると無限ループになる。",
+      "thinking_process": [
+        "ループ条件がいつ false になるかを確認する",
+        "ループ本体でカウンタや状態が必ず変化しているかを確認する",
+        "break が到達可能かどうかを確認する"
+      ],
+      "common_mistakes": [
+        "条件変数の更新をループの外に書いてしまう",
+        "break が到達不可能なコードパスにある"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "while_with_accumulator",
+      "description": "while ループで累積計算：カウンタと合計（アキュムレータ）の両方を追跡する問題。ループ終了時の変数の値を正確に把握する。",
+      "thinking_process": [
+        "初期値（カウンタ・合計など）を確認する",
+        "各ループ反復で変数がどう変わるかを追跡する",
+        "ループ終了条件を確認し、最後の反復後の変数値を特定する"
+      ],
+      "common_mistakes": [
+        "オフバイワンエラー（1回多い・少ない）",
+        "ループ後の変数値をループ中の値と混同する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "switch_with_return",
+      "description": "関数内の switch：return を使った場合は break が不要。switch から関数全体が抜けることを理解する。",
+      "thinking_process": [
+        "switch が関数の中にあることを確認する",
+        "return は switch と関数の両方を抜けることを理解する",
+        "break と return の違いを明確にする"
+      ],
+      "common_mistakes": [
+        "return があるのに break も必要と誤解する",
+        "return と break の制御フローの違いを混同する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "nested_while_break",
+      "description": "ネストされたループと break：内側のループに break があると内側のループだけを抜け、外側のループは継続する。",
+      "thinking_process": [
+        "ネストの深さと、どの break がどのループに対応するかを確認する",
+        "内側の break は外側のループに影響しないことを追跡する",
+        "ラベル付き break（JavaScript では break label; が使える）との違いを考える"
+      ],
+      "common_mistakes": [
+        "内側の break が外側のループも終了させると誤解する",
+        "外側のループを終了するためには外側に break が必要と気づかない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

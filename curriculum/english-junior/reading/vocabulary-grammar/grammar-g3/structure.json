@@ -1,0 +1,168 @@
+{
+  "unit_id": "grammar-g3",
+  "unit_name_jp": "中3文法",
+  "grade": "中学3年（英語）",
+  "patterns": [
+    {
+      "pattern_id": "present-perfect-experience",
+      "description": "現在完了形（経験）: have/has + 過去分詞 で「〜したことがある」を表す",
+      "thinking_process": [
+        "「〜したことがある」という経験を表す文かを確認する",
+        "主語が I/you/we/they なら have、he/she/it なら has を選ぶ",
+        "動詞を過去分詞形にする（規則・不規則を確認する）",
+        "ever / never / once / twice などの副詞と組み合わせる"
+      ],
+      "common_mistakes": [
+        "have の後に動詞の過去形（-ed）を置いてしまう（have visited は正しいが、have visit は誤り）",
+        "主語と have/has の一致ミス（She have seen. は誤り）",
+        "過去形と混同して yesterday などと一緒に使う（現在完了は使えない）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "present-perfect-continuation",
+      "description": "現在完了形（継続）: have/has + 過去分詞 で「ずっと〜している」を表す",
+      "thinking_process": [
+        "「ずっと〜している」という継続を表す文かを確認する",
+        "for（〜間）/ since（〜以来）と一緒に使うことが多い",
+        "have/has の後に過去分詞を置く（live → lived、know → known など）",
+        "for + 期間 / since + 過去の時点 を区別する"
+      ],
+      "common_mistakes": [
+        "for と since の使い分けを誤る（for three years は正しいが、for 2020 は誤り）",
+        "現在進行形と混同する（have been living と have lived の違い）",
+        "主語と have/has の一致ミス"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "present-perfect-completion",
+      "description": "現在完了形（完了）: have/has + 過去分詞 で「もう〜した」「まだ〜していない」を表す",
+      "thinking_process": [
+        "「もう〜した」「まだ〜していない」という完了を表す文かを確認する",
+        "already（もう） / yet（まだ / もう） / just（ちょうど）などの副詞と一緒に使う",
+        "疑問文で yet を使う（Have you eaten yet?）",
+        "否定文で yet を使う（I haven't eaten yet.）"
+      ],
+      "common_mistakes": [
+        "already を否定文・疑問文に誤用する（Haven't you already eaten? は不自然）",
+        "yet の位置を誤る（I yet haven't eaten. は誤り）",
+        "現在完了を過去形で代替して意味がずれる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "passive-voice-basic",
+      "description": "受動態（be動詞 + 過去分詞）: 「〜される / された」を表す",
+      "thinking_process": [
+        "能動態の文で「〜が〜を…する」を確認する",
+        "受動態は「〜が…される」の語順にする",
+        "be 動詞 + 過去分詞の形を作る",
+        "時制に合わせて be 動詞を変化させる（is/are/was/were）",
+        "行為者を示すには by + 人を付け加える"
+      ],
+      "common_mistakes": [
+        "be 動詞を忘れて過去分詞だけにする（The cake eaten. は誤り）",
+        "時制に合わせた be 動詞の変化を誤る（Yesterday the window was broke. → broken が正しい）",
+        "by のない受動態で行為者を主語に戻してしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "relative-pronoun-who-which",
+      "description": "関係代名詞 who / which / that：先行詞が人か物かで使い分ける",
+      "thinking_process": [
+        "先行詞（修飾する名詞）が「人」か「物/事」かを確認する",
+        "人には who または that、物/事には which または that を使う",
+        "関係代名詞の後に続く節（主語+動詞）で元の文の主語が抜けていることを確認する",
+        "先行詞と関係代名詞節を合わせて意味が通るかを確認する"
+      ],
+      "common_mistakes": [
+        "人に which を使う（The man which came. は誤り、who/that が正しい）",
+        "物に who を使う（The book who I bought. は誤り、which/that が正しい）",
+        "関係代名詞の後の節で主語を残してしまう（The girl who she is singing. は誤り）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "relative-pronoun-object",
+      "description": "関係代名詞の目的格：先行詞が節の目的語になるとき（省略可能）",
+      "thinking_process": [
+        "関係代名詞が節の中で目的語の役割をしているか確認する",
+        "目的格の関係代名詞は that / which / who（m）で省略が可能",
+        "節の中に主語と動詞がそろっていることを確認する",
+        "先行詞と節をつなぐと意味が通るか確認する"
+      ],
+      "common_mistakes": [
+        "主格か目的格かを判断せずに who と which を混用する",
+        "目的格でも省略できないと思い込む",
+        "節の中に不要な目的語代名詞を残す（The book that I bought it. は誤り）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "infinitive-advanced",
+      "description": "不定詞の発展：It is ... to〜 / want A to do / too...to〜 / enough to〜",
+      "thinking_process": [
+        "It is + 形容詞 + to do の形を確認する（It は形式主語）",
+        "want / ask / tell + 人 + to do の形で「人に〜してほしい/頼む/言う」を表す",
+        "too + 形容詞/副詞 + to do で「〜すぎて…できない」を表す",
+        "形容詞/副詞 + enough + to do で「十分〜で…できる」を表す"
+      ],
+      "common_mistakes": [
+        "It is ... to〜 の It を具体的な何かと混同する",
+        "too...to〜 を「とても〜だから…できる」と誤訳する（「〜すぎて…できない」が正しい）",
+        "enough の位置を誤る（enough tall は誤り、tall enough が正しい）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "indirect-question",
+      "description": "間接疑問文：疑問詞 + 主語 + 動詞 の語順（疑問文の語順ではない）",
+      "thinking_process": [
+        "間接疑問文は「〜かを知っている」「〜かを聞く」などの文に埋め込まれた疑問",
+        "埋め込まれた疑問は 疑問詞 + 主語 + 動詞 の平叙文語順にする",
+        "疑問文の語順（疑問詞 + 助動詞 + 主語）は間接疑問では使えない",
+        "if / whether を使う yes/no 疑問の間接疑問も同様の語順"
+      ],
+      "common_mistakes": [
+        "疑問文語順のまま埋め込む（I know where does she live. は誤り）",
+        "if と whether の使い分けを誤る",
+        "疑問詞の後に that を付ける（I don't know what that he wants. は誤り）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "participle-adjective",
+      "description": "分詞の形容詞用法：現在分詞（〜している）と過去分詞（〜された）で名詞を修飾",
+      "thinking_process": [
+        "修飾される名詞が「〜している」（能動）か「〜された」（受身）かを確認する",
+        "能動の意味なら現在分詞（-ing）を使う",
+        "受身の意味なら過去分詞を使う",
+        "分詞が単独なら名詞の前に置き、句なら名詞の後に置く"
+      ],
+      "common_mistakes": [
+        "能動と受身の区別を誤り、現在分詞と過去分詞を逆に使う（a broken boy は不自然、a crying boy が正しい等）",
+        "後置修飾で過去分詞を使うとき、be 動詞を残してしまう（a car which is made → a car made と同じ意味）",
+        "前置修飾と後置修飾の位置を間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "complex-grammar-exam",
+      "description": "高校受験レベルの複合文法問題：現在完了・受動態・関係代名詞・不定詞・間接疑問が絡む整序・選択問題",
+      "thinking_process": [
+        "問題文中の文法ポイントを特定する（どの文法項目が使われているか）",
+        "各文法の形と語順のルールを思い出す",
+        "文全体の意味と構造を確認する",
+        "紛らわしい選択肢の違いを見極める"
+      ],
+      "common_mistakes": [
+        "現在完了と過去形を文脈から正確に使い分けられない",
+        "関係代名詞の格（主格/目的格）の判断を誤る",
+        "不定詞の意味上の主語を取り違える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

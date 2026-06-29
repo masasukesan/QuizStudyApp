@@ -80,7 +80,7 @@
       "subunit": "for-loop",
       "name": "for ループ（for / for...of / for...in）",
       "en": "For Loop",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/control-flow/while-switch",
@@ -89,7 +89,7 @@
       "subunit": "while-switch",
       "name": "while / switch 文",
       "en": "While and Switch",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/functions/function-declaration",
@@ -292,7 +292,7 @@
               "subunit": "for-loop",
               "name": "for ループ（for / for...of / for...in）",
               "en": "For Loop",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/control-flow/while-switch",
@@ -301,7 +301,7 @@
               "subunit": "while-switch",
               "name": "while / switch 文",
               "en": "While and Switch",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         },

@@ -1,0 +1,541 @@
+{
+  "gg3-001": {
+    "lead": "「〜したことがある」という経験を表すには、現在完了形（have/has + 動詞の過去分詞）を使います。主語が She（3人称単数）なので has を使い、climb（登る）の過去分詞 climbed を続けます。正解は has climbed です。",
+    "steps": [
+      "現在完了形は「have（またはhas）+ 動詞の過去分詞」の形です。",
+      "主語が I / you / we / they のときは have、he / she / it など1人や1つのものが主語のときは has を使います。",
+      "She は「彼女は」なので has を選びます。",
+      "climb（登る）の過去分詞は climbed（規則変化）なので、has climbed が正解です。"
+    ],
+    "common_mistakes": [
+      "climbs（現在形の三人称単数）は「今登っている」という意味で経験を表せません。",
+      "climbed（過去形）は「〜したことがある」ではなく「〜した（過去の事実）」を表します。",
+      "is climbing（現在進行形）は「今まさに登っている」という意味です。"
+    ],
+    "tips": [
+      "経験の現在完了でよく使う言葉：once（一度）、twice（二度）、never（一度も〜ない）、ever（今までに）",
+      "「〜に行ったことがある」は have been to〜、「〜してきたばかり」は have just + 過去分詞"
+    ]
+  },
+  "gg3-002": {
+    "lead": "「私はその映画を見たことがあります」では、have の後に動詞の過去分詞を置く必要があります。see（見る）の過去分詞は seen です。see → saw（過去形）→ seen（過去分詞）と変化します。",
+    "steps": [
+      "現在完了形は「have + 動詞の過去分詞」の形です。I have ( ) のカッコには過去分詞が入ります。",
+      "see（見る）は不規則動詞です。see → saw → seen と変化します。",
+      "過去分詞 seen を選びます。"
+    ],
+    "common_mistakes": [
+      "see（原形）は have の後に置けません（I have see は文法的に誤りです）。",
+      "saw（過去形）も have の後には置けません（I have saw も誤りです）。",
+      "seeing（現在分詞/-ing 形）は進行形に使います（I am seeing は「今まさに会っている」の意味）。"
+    ],
+    "tips": [
+      "よく使う不規則動詞の過去分詞：see → seen、go → gone（be to では been）、eat → eaten、write → written、know → known",
+      "現在完了は「have / has + 過去分詞」の形。動詞の原形でも過去形でもなく過去分詞を使います。"
+    ]
+  },
+  "gg3-003": {
+    "lead": "現在完了（継続）で「ずっと〜している」を表すとき、期間には for（〜間）、時点には since（〜以来）を使います。for の後には「期間を表す言葉（three years など）」、since の後には「特定の時点（2020、yesterday など）」が続きます。正解の C「for ten years（10年間）」だけが正しい使い方です。",
+    "steps": [
+      "for + 期間：for three years（3年間）、for ten years（10年間）のように「〜年間・〜時間」という期間の長さを表します。",
+      "since + 時点：since 2020（2020年以来）、since yesterday（昨日以来）のように「特定の時点」を表します。",
+      "A「since five years」は誤り：since の後は時点が来るので、five years という期間は使えません（for five years が正しい）。",
+      "B「for 2015」は誤り：for の後は期間が来るので、2015 という年は使えません（since 2015 が正しい）。",
+      "D「since three months」も誤り：three months は期間なので for three months が正しいです。"
+    ],
+    "common_mistakes": [
+      "for と since を逆に使ってしまうミスが多いです。for = 期間の長さ、since = 時点（始まりの時点）と覚えましょう。",
+      "since last year / since morning / since 2020 はOK。since three years / since long はNG。"
+    ],
+    "tips": [
+      "for と since の判断：次に来る言葉が「数字＋年・時間（two years, ten minutes）」なら for、「特定の時（Monday, 2020, last year）」なら since。"
+    ]
+  },
+  "gg3-004": {
+    "lead": "現在完了（完了）の疑問文で「もう〜しましたか？」と尋ねるときは yet を文末に置きます。yet は疑問文で「もう」、否定文で「まだ」という意味になります。",
+    "steps": [
+      "yet は疑問文の文末に置いて「もう〜しましたか？」を表します：Have you finished yet?",
+      "just は「ちょうど〜したところ」という意味で、疑問文ではなく肯定文で使います（I have just finished.）。",
+      "already は「もう（すでに）」という意味で、主に肯定文で使います（I have already finished.）。",
+      "never は「一度も〜ない」という否定の意味で、疑問文には使いません。"
+    ],
+    "common_mistakes": [
+      "already を疑問文に使いたくなることがありますが、通常は yet を使います。",
+      "yet の位置は文末です（Have you yet finished? のように途中には置きません）。"
+    ],
+    "tips": [
+      "疑問文：Have you 〜 yet?（もう〜しましたか）",
+      "否定文：I haven't 〜 yet.（まだ〜していません）",
+      "肯定文：I have already 〜.（もう〜しました）/ I have just 〜.（ちょうど〜したところです）"
+    ]
+  },
+  "gg3-005": {
+    "lead": "「〜される」という受動態は「be 動詞 + 動詞の過去分詞」の形で作ります。現在の状態を表すので is loved（愛されている）が正しい形です。行為者を表すには by を使います。",
+    "steps": [
+      "受動態の基本形：主語 + be 動詞（is / are / was / were）+ 動詞の過去分詞",
+      "「この歌は〜されています（現在）」なので be 動詞は is を使います。",
+      "love（愛する）の過去分詞は loved です。",
+      "「〜によって」は by + 名詞で表します（by many people）。",
+      "正解：This song is loved by many people."
+    ],
+    "common_mistakes": [
+      "A の loves は能動態（「この歌が愛する」は意味が変です）。",
+      "C の loved は be 動詞（is）がなく不完全な形です。",
+      "D の was love は be 動詞の後には過去分詞が必要（loved が正しい）。"
+    ],
+    "tips": [
+      "受動態の形：be 動詞 + 過去分詞（loved, written, built, spoken など）",
+      "時制に注意：現在は is/are + 過去分詞、過去は was/were + 過去分詞"
+    ]
+  },
+  "gg3-006": {
+    "lead": "「一度も〜ない」という経験の否定は、現在完了に never を加えて have/has + never + 過去分詞 の形で表します。Tom は3人称単数なので has を使います。正解は has never eaten です。",
+    "steps": [
+      "Tom は「1人の人（3人称単数）」なので have ではなく has を使います。",
+      "never（一度も〜ない）は have/has と過去分詞の間に置きます。",
+      "eat（食べる）の過去分詞は eaten（不規則変化）です。",
+      "正解：Tom has never eaten sushi."
+    ],
+    "common_mistakes": [
+      "B の never has eaten は never の位置が誤りです（has の前ではなく後に置きます）。",
+      "C の has not never eaten は not と never の二重否定で文法的に誤りです。",
+      "D の was never eaten は受動態になっており「トムが食べられた」という意味になってしまいます。"
+    ],
+    "tips": [
+      "現在完了の語順：主語 + have/has + (never / always / already / just) + 過去分詞",
+      "never の位置：have/has の直後・過去分詞の直前"
+    ]
+  },
+  "gg3-007": {
+    "lead": "「100年前に建てられました」という過去の受動態は「was + 過去分詞」の形です。This bridge は単数なので was を使います。100 years ago（100年前）という過去を表す表現があるため、過去の受動態が正解です。",
+    "steps": [
+      "受動態の時制は be 動詞で決まります：現在なら is/are、過去なら was/were。",
+      "「100 years ago（100年前）」は過去を表す言葉なので、過去の受動態 was を使います。",
+      "This bridge は単数なので was（were は複数・you に使う）が正解です。",
+      "build（建てる）の過去分詞は built です。"
+    ],
+    "common_mistakes": [
+      "A の is は現在形（今も建てられている最中、という意味になり不自然）。",
+      "B の has been built は現在完了受動態。「100 years ago」という過去の特定時点と現在完了は一緒に使えません。",
+      "D の were は主語が複数のとき使います（This bridge は単数）。"
+    ],
+    "tips": [
+      "現在完了と「特定の過去の時点を示す言葉（yesterday, last year, 〜 ago）」は一緒に使えません。過去形（was / were）を使います。"
+    ]
+  },
+  "gg3-008": {
+    "lead": "「2020年からずっと教えています」では、2020 という特定の時点（始まりの時点）を示しているので since を使います。since + 時点で「〜以来ずっと」という継続を表します。",
+    "steps": [
+      "for は「〜年間・〜時間」という期間の長さの後に使います（for three years など）。",
+      "since は「特定の時点（2020 / last year / Monday など）」の後に使います。",
+      "2020 は「時点（年）」なので since が正解です。"
+    ],
+    "common_mistakes": [
+      "for 2020 とすると「2020 年間」という意味になってしまいます（for は期間の長さに使います）。",
+      "at は時刻（at 3 o'clock）や場所（at school）に使います。",
+      "in は月・季節・年（in 2020）に使いますが、継続の意味を表せません。"
+    ],
+    "tips": [
+      "for three years（3年間）vs. since 2020（2020年以来）",
+      "迷ったら：数字+年・時間 → for / 特定の年・曜日・時点 → since"
+    ]
+  },
+  "gg3-009": {
+    "lead": "「〜によって書かれました」という過去の受動態は「was written by〜」の形です。write（書く）の過去分詞は written です。by の後に行為者（Ken）を置きます。",
+    "steps": [
+      "受動態の形：主語 + be 動詞 + 過去分詞 (+by + 行為者)",
+      "「書かれました（過去）」なので be 動詞は was を使います。",
+      "write → wrote（過去形）→ written（過去分詞）と変化します。",
+      "行為者は by Ken で表します。",
+      "正解：The letter was written by Ken."
+    ],
+    "common_mistakes": [
+      "B の was wrote は、wrote が過去形なので be 動詞の後には使えません（過去分詞 written が必要）。",
+      "C の is written は現在の受動態（「書かれています」）で、過去を表せません。",
+      "D の Ken wrote the letter by は語順が変で意味が通じません。"
+    ],
+    "tips": [
+      "write の変化：write（原形）→ wrote（過去形）→ written（過去分詞）",
+      "受動態に行為者を付けるときは by + 人・もの（The letter was written by Ken.）"
+    ]
+  },
+  "gg3-010": {
+    "lead": "疑問文で「もう〜しましたか？」と尋ねるときは yet を文末に、肯定文で「もうすでに〜しました」と答えるときは already を使います。「Have you finished yet?」「Yes, I've already done it.」が正しい組み合わせです。",
+    "steps": [
+      "疑問文の文末に yet を置くと「もう〜しましたか？」という意味になります。",
+      "肯定の返答で already を使うと「もうすでに〜しました」という意味になります。",
+      "逆（already で尋ねて yet で答える）は文法的に自然ではありません。"
+    ],
+    "common_mistakes": [
+      "already と yet を逆に使ってしまうケース（already で疑問・yet で肯定）は不自然です。",
+      "never（一度も〜ない）と just（ちょうど〜したところ）はこの文脈に合いません。"
+    ],
+    "tips": [
+      "疑問文の文末：yet（もう〜しましたか？）",
+      "肯定文の中（have と過去分詞の間）：already（もうすでに）/ just（ちょうど）",
+      "否定文の文末：yet（まだ〜していません）"
+    ]
+  },
+  "gg3-011": {
+    "lead": "関係代名詞は「前の名詞（先行詞）」を説明する節をつなぐ言葉です。先行詞が「人」のときは who を使います。a woman（女性）は人なので、who can speak French が正しい形です。",
+    "steps": [
+      "関係代名詞は「前の名詞 = 先行詞」が人か物かによって選びます。",
+      "先行詞が人 → who または that",
+      "先行詞が物・事 → which または that",
+      "a woman（女性）は人なので who を選びます。",
+      "正解：I know a woman who can speak French."
+    ],
+    "common_mistakes": [
+      "which は物・事に使います（先行詞が人の場合は不可）。",
+      "what は「〜のこと・もの」という意味で、先行詞のある関係代名詞としては使えません。",
+      "where は場所を表す関係副詞で、人を修飾する関係代名詞ではありません。"
+    ],
+    "tips": [
+      "人 → who / that、物・事 → which / that",
+      "that は人にも物にも使えるので迷ったときに使えますが、疑いなく人には who が自然です。"
+    ]
+  },
+  "gg3-012": {
+    "lead": "先行詞が物（the book）のときは which または that を使います。「これは私が昨日買った本です」の book は物なので which が正解です。",
+    "steps": [
+      "先行詞 the book は物なので、関係代名詞は which または that を選びます。",
+      "which を使うと：This is the book which I bought yesterday.",
+      "「which / that I bought yesterday」の中で which/that は bought の目的語の役割をしています（I bought the book）。"
+    ],
+    "common_mistakes": [
+      "who は先行詞が人のときに使います（book には使えません）。",
+      "where は場所の関係副詞（例：the town where I live）で、物を修飾する関係代名詞ではありません。",
+      "when は時の関係副詞（例：the day when we met）で、本の修飾には使えません。"
+    ],
+    "tips": [
+      "which と that はどちらも物・事の先行詞に使えます。which は「特定のものを指定するイメージ」、that は「どちらでも使えるカジュアルな形」です。"
+    ]
+  },
+  "gg3-013": {
+    "lead": "関係代名詞 that は、先行詞が人でも物・事でも使える関係代名詞です。I know the man that came here.（先行詞=人）も、This is the pen that I use.（先行詞=物）も正しい文です。",
+    "steps": [
+      "who は先行詞が人のときに使います。",
+      "which は先行詞が物・事のときに使います。",
+      "that は先行詞が人でも物・事でも使えます（汎用の関係代名詞）。",
+      "that が who や which の代わりに使えるので、「必ず who か which を使わなければならない」は誤りです。"
+    ],
+    "common_mistakes": [
+      "that は人だけ、または物だけに使えると思い込むのは誤りです。",
+      "ただし、非制限用法（コンマで区切る形）では that は使えません（which / who を使います）。"
+    ],
+    "tips": [
+      "that は先行詞が人でも物でも使える万能な関係代名詞です。",
+      "ただし、コンマ付きの非制限用法（My father, who is a teacher, ...）では that は使えません。"
+    ]
+  },
+  "gg3-014": {
+    "lead": "目的格の関係代名詞（that / which）を使って2文をつなぐとき、節の中の目的語（it）を取り除く必要があります。「I like it very much → that I like very much」とすることで、it を省いた形が正しい文になります。",
+    "steps": [
+      "2文：This is the song. + I like it very much.",
+      "it が the song を指しているので、関係代名詞 that に置き換えます。",
+      "「that I like very much」の中の it は that に変わるので取り除きます。",
+      "正解：This is the song that I like very much."
+    ],
+    "common_mistakes": [
+      "A「which I like it very much」は、目的語の it が残ったままです（it を省かないと誤り）。",
+      "C「who I like very much」は、song（物）に who（人用）を使っているので誤りです。",
+      "D「what I like very much」の what は先行詞なしで使う関係代名詞なので、the song の後には使えません。"
+    ],
+    "tips": [
+      "関係代名詞を使って2文をつなぐときは、節の中の「もとの目的語（it, him, her など）」を必ず取り除きます。",
+      "目的格の関係代名詞（that / which / who）は省略することもできます：This is the song I like very much."
+    ]
+  },
+  "gg3-015": {
+    "lead": "「〜することは…です」という文を It is ... to〜 の形で表します。It は形式主語（仮の主語）で、本当の主語は to practice English every day です。It is important to practice English every day. が正解です。",
+    "steps": [
+      "It is + 形容詞 + to + 動詞の原形（〜することは…です）",
+      "It（仮の主語）は「それ」ではなく、後ろの to〜 の内容を指します。",
+      "「大切だ = important」なので It is important を使います。",
+      "その後に to practice English every day を続けます。",
+      "正解：It is important to practice English every day."
+    ],
+    "common_mistakes": [
+      "A の That is important practice は形が全く違います（That は形式主語として使えません）。",
+      "B の It is important practicing は動名詞（practicing）を使っていますが、この構文では to + 動詞原形が正しいです。",
+      "D の It is important that to practice は that の後に to が来ており文法的に誤りです（that節には主語+動詞が必要）。"
+    ],
+    "tips": [
+      "It is + 形容詞 + to do〜（〜することは…だ）の形はよく使います。",
+      "例：It is difficult to speak English.（英語を話すことは難しい）/ It is fun to play tennis.（テニスをすることは楽しい）"
+    ]
+  },
+  "gg3-016": {
+    "lead": "「人に〜してほしい」は want + 人 + to do の形で表します。「母は私に（me）掃除してほしい（to clean）」なので My mother wants me to clean my room. が正解です。",
+    "steps": [
+      "want + 人（目的格）+ to + 動詞の原形 の形を使います。",
+      "「私に」は me（目的格）、「掃除する」は clean です。",
+      "正解：My mother wants me to clean my room."
+    ],
+    "common_mistakes": [
+      "B の wants that I clean は want の後に that 節は使えません（want that は誤りのパターンです）。",
+      "C の wants me cleaning は -ing 形を使っていますが、want + 人 + to do が正しい形です。",
+      "D の wants I to clean は I が主格（主語の形）になっています。want の後の人称代名詞は目的格（me）を使います。"
+    ],
+    "tips": [
+      "want + 人 + to do（〜に…してほしい）、ask + 人 + to do（〜に…するよう頼む）、tell + 人 + to do（〜に…するよう言う）は同じ形です。"
+    ]
+  },
+  "gg3-017": {
+    "lead": "「〜すぎて…できない」は too + 形容詞/副詞 + for + 人 + to do の形で表します。「重すぎて私には持てない」なので The bag was too heavy for me to carry. が正解です。",
+    "steps": [
+      "too + 形容詞 + for + 人 + to do は「（人には）〜すぎて…できない」という意味です。",
+      "「重すぎて」→ too heavy",
+      "「私には」→ for me",
+      "「持てない」→ to carry",
+      "正解：The bag was too heavy for me to carry."
+    ],
+    "common_mistakes": [
+      "A の enough heavy は語順が誤りです。enough は形容詞の後に置きます（heavy enough）。",
+      "B の so heavy that I could carry it は「とても重かったので持てた」という逆の意味になります（「持てなかった」にするには couldn't が必要）。",
+      "C の very heavy to carry for me は構文として正しくありません。"
+    ],
+    "tips": [
+      "too〜to...（〜すぎて…できない）と〜 enough to...（十分〜で…できる）はセットで覚えましょう。",
+      "enough の位置：形容詞・副詞の後（tall enough / fast enough）"
+    ]
+  },
+  "gg3-018": {
+    "lead": "間接疑問文では、疑問詞の後を「主語 + 動詞」の平叙文の語順にします。疑問文の語順（疑問詞 + 助動詞 + 主語）は使えません。「彼女がどこに住んでいるか」→ where she lives が正しい形です。",
+    "steps": [
+      "直接疑問文：Where does she live?（疑問文語順：疑問詞 + does + 主語）",
+      "間接疑問文では疑問文の語順を使いません。",
+      "間接疑問文：疑問詞 + 主語 + 動詞（平叙文の語順）",
+      "where she lives（where + 主語 she + 動詞 lives）が正しい形です。",
+      "正解：Do you know where she lives?"
+    ],
+    "common_mistakes": [
+      "A の where does she live は疑問文語順のまま（does が主語の前に出ている）です。間接疑問文では使えません。",
+      "C の where is she living は疑問文語順（is が主語の前）で誤りです。",
+      "D の where live she は語順が完全に誤りです。"
+    ],
+    "tips": [
+      "間接疑問文の語順：疑問詞 + 主語 + 動詞（助動詞は主語の後）",
+      "例：I know what he wants.（彼が何を欲しいか知っています）/ Please tell me when she arrives.（彼女がいつ着くか教えてください）"
+    ]
+  },
+  "gg3-019": {
+    "lead": "「〜かどうか」という yes/no 疑問の間接疑問には if または whether を使います。「彼が来るかどうか知らない」は I don't know if he will come to school. が正解です。",
+    "steps": [
+      "「〜かどうか」という yes/no 疑問を間接疑問にするには if または whether を使います。",
+      "if/whether の後も「主語 + 動詞」の平叙文語順です（he will come）。",
+      "正解：I don't know if he will come to school."
+    ],
+    "common_mistakes": [
+      "A の what は「何を」を意味するので、「かどうか」という yes/no 疑問には使えません。",
+      "B の that は「〜ということ」を導く接続詞で、「かどうか」という疑問の意味を表せません。",
+      "D の which は「どちらが」という選択疑問に使います（「かどうか」には使えません）。"
+    ],
+    "tips": [
+      "「〜かどうか」→ if / whether + 主語 + 動詞",
+      "「何が / どこで / いつ」→ what / where / when + 主語 + 動詞（疑問詞の間接疑問）"
+    ]
+  },
+  "gg3-020": {
+    "lead": "「泣いている赤ちゃん」のように、名詞を前から修飾する分詞の使い方を「分詞の形容詞用法」といいます。赤ちゃんが「泣いている（能動・進行）」ので、現在分詞 crying を使います。the crying baby が正しい形です。",
+    "steps": [
+      "名詞を前から修飾する分詞は1語のときに使います（crying baby）。",
+      "「〜している（能動）」→ 現在分詞（-ing 形）",
+      "「〜された（受動）」→ 過去分詞",
+      "赤ちゃんが自分で泣いている（能動）なので crying（現在分詞）を使います。",
+      "正解：the crying baby（泣いている赤ちゃん）"
+    ],
+    "common_mistakes": [
+      "B の cried は過去形（また cry の過去分詞は cried ですが、「泣かれた」という受身は意味が変）。",
+      "C の which crying は関係代名詞節に be 動詞（is）が必要（which is crying なら正しい）。",
+      "D の who crying も同様に be 動詞が必要（who is crying なら正しい）。"
+    ],
+    "tips": [
+      "能動（〜している）→ 現在分詞（-ing）: a sleeping cat（眠っている猫）、a running boy（走っている男の子）",
+      "受動（〜された）→ 過去分詞: a broken window（割れた窓）、spoken English（話される英語）"
+    ]
+  },
+  "gg3-021": {
+    "lead": "先行詞 The book（物）を修飾し、節の中で she has finished の目的語になる関係代名詞が必要です。物の先行詞・目的格には that または which を使います。正解は that です。",
+    "steps": [
+      "先行詞 The book は物なので、who / whom（人用）は使えません。",
+      "節の中を確認：she has just finished _（本を）→ 目的語の位置に関係代名詞が入っています。",
+      "物の目的格の関係代名詞は that または which を使います。",
+      "正解：The book that she has just finished is really interesting."
+    ],
+    "common_mistakes": [
+      "who は先行詞が人のとき使います（The book には使えません）。",
+      "whom は人の目的格に使います（The man whom she met のように）。",
+      "whose は所有格（whose book = 誰の本）なので、この文では合いません。"
+    ],
+    "tips": [
+      "先行詞が物で目的語の役割 → that または which（省略も可能）",
+      "先行詞が人で目的語の役割 → who(m) または that（省略も可能）"
+    ]
+  },
+  "gg3-022": {
+    "lead": "英語が「話される」という受動態は be 動詞 + 過去分詞の形です。speak（話す）の過去分詞は spoken です。現在の状態を表すので is を使い、is spoken が正しい形です。",
+    "steps": [
+      "受動態：主語 + be 動詞 + 過去分詞",
+      "「英語が話されている（現在）」→ is + 過去分詞",
+      "speak の変化：speak → spoke（過去形）→ spoken（過去分詞）",
+      "正解：English is spoken by many people around the world."
+    ],
+    "common_mistakes": [
+      "A の is spoke は spoke が過去形で、be 動詞の後には過去分詞 spoken が必要です。",
+      "C の speaks は能動態（「英語が話す」という意味になり変）。",
+      "D の was speaking は過去進行形の能動態（「英語が話していた」になり変）。"
+    ],
+    "tips": [
+      "speak の過去分詞は spoken（不規則変化）。speak-spoke-spoken と声に出して覚えましょう。",
+      "過去形（spoke）と過去分詞（spoken）を混同しないよう注意！"
+    ]
+  },
+  "gg3-023": {
+    "lead": "間接疑問文では「疑問詞 + 主語 + 動詞」の語順になります。「何時に到着するか」は未来のことなので will を使い、what time he will arrive が正しい形です。",
+    "steps": [
+      "間接疑問文の語順：疑問詞 + 主語 + 動詞（助動詞は主語の後）",
+      "「何時に到着するか（未来）」→ what time he will arrive",
+      "A の what time will he arrive は疑問文語順（will が主語の前）で間接疑問では誤りです。",
+      "正解：Please tell me what time he will arrive."
+    ],
+    "common_mistakes": [
+      "A と B は疑問文の語順（助動詞が主語の前）で、間接疑問文では使えません。",
+      "D の what time arrive he will は語順が完全に誤りです。",
+      "D の what time he arrives は現在形で、未来の文脈（will arrive）とは意味が異なります。"
+    ],
+    "tips": [
+      "間接疑問の公式：疑問詞 + 主語 + （助動詞 +）動詞",
+      "Please tell me what time he will arrive. / Do you know when she comes back?（彼女がいつ帰るか知っていますか）"
+    ]
+  },
+  "gg3-024": {
+    "lead": "目的格の関係代名詞（that / which）は省略できます。「私の父が30年前に撮った写真」を表す関係代名詞節 (that/which) my father took 30 years ago の関係代名詞を省略した This is a picture my father took 30 years ago. が正解です。",
+    "steps": [
+      "元の2文：This is a picture. My father took it 30 years ago.",
+      "関係代名詞を使った文：This is a picture that my father took 30 years ago.（it を省いて that を入れる）",
+      "目的格の関係代名詞（that / which）は省略できるので：This is a picture my father took 30 years ago.",
+      "正解：D"
+    ],
+    "common_mistakes": [
+      "A の took it は、関係代名詞が it を置き換えているので it を残してはいけません（that my father took it は誤り）。",
+      "B の 文末の which は文法的に誤りです（関係代名詞は先行詞の直後に置く）。",
+      "C の which my father 30 years ago took は動詞（took）の前に 30 years ago が入り込んでいて語順が誤りです。"
+    ],
+    "tips": [
+      "目的格の関係代名詞（that / which / who）は省略できます。",
+      "省略するときは節の中から目的語も消します（it / him / her / them は残さない）。"
+    ]
+  },
+  "gg3-025": {
+    "lead": "「十分〜で…できる」は「形容詞 + enough + to do」の形で表します。enough は形容詞の後に置くことがポイントです。She is tall enough to play basketball well. が正解です。",
+    "steps": [
+      "enough to do の公式：主語 + be 動詞 + 形容詞 + enough + to + 動詞の原形",
+      "「背が高い」→ tall、「enough」は tall の後に置きます（tall enough）。",
+      "「バスケットボールが上手くできる」→ to play basketball well",
+      "正解：She is tall enough to play basketball well."
+    ],
+    "common_mistakes": [
+      "A の enough tall は語順が誤りです。enough は形容詞の後に置きます。",
+      "C の too tall to play basketball well は「背が高すぎてバスケができない」という逆の意味になります。",
+      "D の tall too は too の位置が誤りです（too は形容詞の前に置きます：too tall）。"
+    ],
+    "tips": [
+      "too〜to...（〜すぎて…できない）：The box was too heavy for me to carry.",
+      "〜 enough to...（十分〜で…できる）：She was fast enough to win the race.",
+      "enough は形容詞・副詞の後に置くことを忘れずに！"
+    ]
+  },
+  "gg3-026": {
+    "lead": "「10年間ずっと働いています（今も続いている）」という継続は、現在完了進行形「have/has been + 動詞の -ing 形」で表します。He has been working at that company for ten years. が正解です。",
+    "steps": [
+      "「ずっと〜している（今も続いている）」→ 現在完了進行形：have/has + been + -ing",
+      "He は3人称単数なので has を使います。",
+      "「10年間」は期間なので for ten years を使います（for + 期間）。",
+      "正解：He has been working at that company for ten years."
+    ],
+    "common_mistakes": [
+      "A の is working（現在進行形）は「今まさに働いている」という一時的な状態で、継続の期間（for ten years）を直接表せません。",
+      "B の worked（過去形）は「以前働いていた（今は働いていない）」という意味になります。",
+      "C の works since ten years は since の後に「特定の時点」が必要なのに ten years（期間）が来ており誤りです。"
+    ],
+    "tips": [
+      "ずっと〜し続けている（動作の継続）→ have/has been + -ing（現在完了進行形）",
+      "ずっと〜の状態が続いている（状態の継続）→ have/has + 過去分詞（現在完了）",
+      "例：I have been studying for two hours.（2時間ずっと勉強し続けている）"
+    ]
+  },
+  "gg3-027": {
+    "lead": "「私が生まれた場所（町）」を表すには、関係副詞 where を使います。where = in which という意味なので、where の後に in を重ねて使うのは誤りです。The town where I was born is very big now. が正解です。",
+    "steps": [
+      "場所を表す先行詞（the town, the city, the place など）には関係副詞 where を使います。",
+      "where は「そこで・そこに（= in which）」という意味を含んでいます。",
+      "where I was born の中に in はすでに含まれているので、born in とは書きません（born in it は二重で誤り）。",
+      "正解：The town where I was born is very big now."
+    ],
+    "common_mistakes": [
+      "A の born in it は、it が余分です（where が the town を指しているので不要）。",
+      "B の where I was born in は、where の中に in が含まれているので in が二重になり誤りです。",
+      "D の which I was born は、born の後に in が必要です（which I was born in ならOK）。"
+    ],
+    "tips": [
+      "where = in which（場所を修飾する関係副詞）",
+      "The city where I grew up = The city in which I grew up（どちらも正しい）",
+      "関係副詞は where（場所）/ when（時）/ why（理由）/ how（方法）の4つ"
+    ]
+  },
+  "gg3-028": {
+    "lead": "「彼が書いた手紙」を表すには目的格の関係代名詞（that / which）を使うか、または関係代名詞を省略します。「The letter he wrote last week」のように関係代名詞を省略した A が正解です。",
+    "steps": [
+      "元の2文：The letter was very polite. He wrote it last week.",
+      "関係代名詞を使った文：The letter that he wrote last week was very polite.（it を省いて that を入れる）",
+      "目的格の関係代名詞は省略できるので：The letter he wrote last week was very polite.",
+      "正解：A"
+    ],
+    "common_mistakes": [
+      "B の which he wrote it last week は、it が残っています（目的格の関係代名詞は節の中の目的語 it を取り除きます）。",
+      "C の that wrote last week は主語が省略されており、「誰が書いたのか」がわかりません（he が必要）。",
+      "D の who wrote last week は、先行詞 letter（物）に who（人用）を使っているので誤りです。"
+    ],
+    "tips": [
+      "目的格の関係代名詞（that/which/whom）は省略できます。",
+      "省略するときは節の中の目的語（it, him, her など）も消します。"
+    ]
+  },
+  "gg3-029": {
+    "lead": "「世界中で話されている（受動の意味）」言語を修飾するので、過去分詞 spoken を使います。「話されている」は受動の意味なので、現在分詞 speaking（能動）ではなく過去分詞 spoken が正しいです。",
+    "steps": [
+      "分詞の後置修飾：名詞 + 分詞（句）で名詞を後から修飾します。",
+      "「話される」は受動の意味 → 過去分詞（spoken）を使います。",
+      "「話している」は能動の意味 → 現在分詞（speaking）を使います（この場合は言語が自分で話すことになり不自然）。",
+      "正解：The language spoken around the world is English."
+    ],
+    "common_mistakes": [
+      "A の speaking は現在分詞（能動）で「言語が話している」という意味になり不自然です。",
+      "C の to speak は「話すべき言語」という不定詞の形容詞用法で意味が変わります。",
+      "D の that speaks は「言語が話す」という能動の関係代名詞節で意味が変わります。"
+    ],
+    "tips": [
+      "分詞の後置修飾：能動（〜している）→ -ing、受動（〜された・〜されている）→ 過去分詞",
+      "例：a girl playing the piano（ピアノを弾いている女の子）/ a letter written in English（英語で書かれた手紙）"
+    ]
+  },
+  "gg3-030": {
+    "lead": "D の文「The boy which is playing soccer is my brother.」には文法的な誤りがあります。先行詞 The boy は人なので、which（物用）ではなく who を使わなければなりません。正しくは The boy who is playing soccer is my brother. です。",
+    "steps": [
+      "A「She has never been to Australia.」→ has + never + 過去分詞（been）で現在完了の否定形として正しい。",
+      "B「The window was broken by the ball.」→ was + broken（受動態）で過去の受動態として正しい。",
+      "C「Do you know where he lives?」→ where + 主語 + 動詞（間接疑問文）の正しい語順。",
+      "D「The boy which is playing soccer is my brother.」→ The boy は人なのに which（物・事用）を使っているので誤り。which → who が正しい。",
+      "正解：D が文法的に誤りを含む文。"
+    ],
+    "common_mistakes": [
+      "人の先行詞に which を使ってしまうのは中3文法の代表的なミスです。人には who（または that）を使います。",
+      "「playing soccer（サッカーをしている）」という現在分詞句があるため、関係代名詞節の形は who + is + playing と正しい形になっています（which だけが誤りです）。"
+    ],
+    "tips": [
+      "関係代名詞の選択：先行詞が人 → who / that、先行詞が物・事 → which / that",
+      "混同しやすいですが、which は人の先行詞には使えません（関係副詞 where / when / why との混同にも注意）。"
+    ]
+  }
+}

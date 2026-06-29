@@ -166,5 +166,26 @@
     "checked_at": "2026-06-29",
     "question_count": 30,
     "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/control-flow/for-loop",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/grammar-g3",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/control-flow/while-switch",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
   }
 ]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "while-switch-basic-01",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "while ループとはどのような繰り返し処理か。最も正しい説明を選べ。",
+    "choices": [
+      { "label": "A", "text": "指定した回数だけ必ず実行される繰り返し" },
+      { "label": "B", "text": "条件が true である間、ループ本体を繰り返す処理" },
+      { "label": "C", "text": "条件を最後に評価し、必ず1回は実行される繰り返し" },
+      { "label": "D", "text": "配列の各要素に対して順番に処理を行う繰り返し" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["while の定義", "条件評価のタイミング"]
+  },
+  {
+    "id": "while-switch-basic-02",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "次のコードのループ本体（console.log）は何回実行されるか。\n\nlet i = 0;\nwhile (i < 4) {\n  console.log(i);\n  i++;\n}",
+    "choices": [
+      { "label": "A", "text": "3回" },
+      { "label": "B", "text": "5回" },
+      { "label": "C", "text": "4回" },
+      { "label": "D", "text": "無限回" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["ループ回数の数え方", "< 条件"]
+  },
+  {
+    "id": "while-switch-basic-03",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "次のコードで、最初に出力される値はいくつか。\n\nlet n = 10;\nwhile (n > 0) {\n  console.log(n);\n  n -= 3;\n}",
+    "choices": [
+      { "label": "A", "text": "0" },
+      { "label": "B", "text": "3" },
+      { "label": "C", "text": "7" },
+      { "label": "D", "text": "10" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["while の最初のループ", "条件評価の順序"]
+  },
+  {
+    "id": "while-switch-basic-04",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "do...while ループが while ループと異なる点として最も正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "do...while は条件が最初から false でも、必ず1回はループ本体を実行する" },
+      { "label": "B", "text": "do...while は指定した回数だけループ本体を実行する" },
+      { "label": "C", "text": "do...while は条件を先に評価してからループ本体を実行する" },
+      { "label": "D", "text": "do...while は配列専用の繰り返し構文である" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["do...while の特徴", "while との違い"]
+  },
+  {
+    "id": "while-switch-basic-05",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "次の do...while ループは何回実行されるか。\n\nlet x = 5;\ndo {\n  console.log(x);\n  x++;\n} while (x < 3);",
+    "choices": [
+      { "label": "A", "text": "3回" },
+      { "label": "B", "text": "0回" },
+      { "label": "C", "text": "1回" },
+      { "label": "D", "text": "5回" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["do...while の最低1回実行", "条件が false の場合"]
+  },
+  {
+    "id": "while-switch-basic-06",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "switch 文で、どの case にも一致しなかったときに実行されるのはどれか。",
+    "choices": [
+      { "label": "A", "text": "最初の case" },
+      { "label": "B", "text": "エラーが発生する" },
+      { "label": "C", "text": "何も実行されない(default がなければ)" },
+      { "label": "D", "text": "最後の case" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["switch の default", "case 不一致時の挙動"]
+  },
+  {
+    "id": "while-switch-basic-07",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "次のコードの出力として正しいものはどれか。\n\nconst day = 2;\nswitch (day) {\n  case 1:\n    console.log('月曜');\n    break;\n  case 2:\n    console.log('火曜');\n    break;\n  case 3:\n    console.log('水曜');\n    break;\n}",
+    "choices": [
+      { "label": "A", "text": "月曜" },
+      { "label": "B", "text": "火曜\n水曜" },
+      { "label": "C", "text": "火曜" },
+      { "label": "D", "text": "エラー" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["switch の case 照合", "break の効果"]
+  },
+  {
+    "id": "while-switch-basic-08",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "switch 文が case の値を照合するときに使う比較演算子はどれか。",
+    "choices": [
+      { "label": "A", "text": "== (型を自動変換してから比較する)" },
+      { "label": "B", "text": "= (代入演算子)" },
+      { "label": "C", "text": "=== (型と値の両方が一致するか確認する)" },
+      { "label": "D", "text": ">= (以上かどうかを確認する)" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["switch の厳密比較", "=== の意味"]
+  },
+  {
+    "id": "while-switch-basic-09",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "次のコードで出力される値を順番に答えるとき、正しいものはどれか。\n\nlet i = 1;\nwhile (i <= 3) {\n  console.log(i * 2);\n  i++;\n}",
+    "choices": [
+      { "label": "A", "text": "1, 2, 3" },
+      { "label": "B", "text": "2, 4, 6" },
+      { "label": "C", "text": "2, 4, 6, 8" },
+      { "label": "D", "text": "1, 3, 5" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["while ループのトレース", "変数の変化追跡"]
+  },
+  {
+    "id": "while-switch-basic-10",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "basic",
+    "question": "次のコードの出力として正しいものはどれか。\n\nconst score = 85;\nswitch (true) {\n  case score >= 90:\n    console.log('A');\n    break;\n  case score >= 80:\n    console.log('B');\n    break;\n  default:\n    console.log('C');\n}",
+    "choices": [
+      { "label": "A", "text": "A" },
+      { "label": "B", "text": "C" },
+      { "label": "C", "text": "B" },
+      { "label": "D", "text": "A\nB" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["switch(true) パターン", "範囲比較"]
+  },
+  {
+    "id": "while-switch-standard-01",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "次のコードが出力する値として正しいものはどれか。\n\nlet i = 0;\nwhile (true) {\n  if (i === 3) break;\n  console.log(i);\n  i++;\n}",
+    "choices": [
+      { "label": "A", "text": "0, 1, 2, 3" },
+      { "label": "B", "text": "0, 1, 2" },
+      { "label": "C", "text": "0, 1, 2, 3, 4..." },
+      { "label": "D", "text": "1, 2, 3" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["break の効果", "無限ループ + break パターン"]
+  },
+  {
+    "id": "while-switch-standard-02",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "次のコードが出力する値として正しいものはどれか。\n\nlet i = 0;\nwhile (i < 5) {\n  i++;\n  if (i % 2 === 0) continue;\n  console.log(i);\n}",
+    "choices": [
+      { "label": "A", "text": "1, 2, 3, 4, 5" },
+      { "label": "B", "text": "2, 4" },
+      { "label": "C", "text": "1, 3, 5" },
+      { "label": "D", "text": "1, 3" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["continue の効果", "奇数のフィルタ"]
+  },
+  {
+    "id": "while-switch-standard-03",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "次のコードで 'B' を入力したとき、出力される内容として正しいものはどれか。\n\nconst grade = 'B';\nswitch (grade) {\n  case 'A':\n    console.log('優秀');\n    break;\n  case 'B':\n  case 'C':\n    console.log('良好');\n    break;\n  default:\n    console.log('要努力');\n}",
+    "choices": [
+      { "label": "A", "text": "良好\n要努力" },
+      { "label": "B", "text": "優秀" },
+      { "label": "C", "text": "要努力" },
+      { "label": "D", "text": "良好" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["フォールスルーで複数 case をまとめる", "break の位置"]
+  },
+  {
+    "id": "while-switch-standard-04",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "次のコードの switch で、変数 value に文字列 '1' を代入したとき、出力される内容はどれか。\n\nconst value = '1';\nswitch (value) {\n  case 1:\n    console.log('数値の1');\n    break;\n  case '1':\n    console.log('文字列の1');\n    break;\n  default:\n    console.log('その他');\n}",
+    "choices": [
+      { "label": "A", "text": "数値の1\n文字列の1" },
+      { "label": "B", "text": "その他" },
+      { "label": "C", "text": "数値の1" },
+      { "label": "D", "text": "文字列の1" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["switch の厳密比較 ===", "文字列と数値の違い"]
+  },
+  {
+    "id": "while-switch-standard-05",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "switch 文が if/else より適している場面として最も正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "変数が 100 より大きいか小さいかで分岐する場合" },
+      { "label": "B", "text": "1つの変数の値が複数の定数値のどれと一致するかで分岐する場合" },
+      { "label": "C", "text": "2つの変数を組み合わせた複雑な条件で分岐する場合" },
+      { "label": "D", "text": "条件が true か false かの2通りだけで分岐する場合" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["switch vs if/else の使い分け", "定数比較"]
+  },
+  {
+    "id": "while-switch-standard-06",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "次のコードの出力として正しいものはどれか。\n\nconst fruit = 'apple';\nswitch (fruit) {\n  case 'apple':\n    console.log('りんご');\n  case 'orange':\n    console.log('みかん');\n    break;\n  case 'banana':\n    console.log('バナナ');\n}",
+    "choices": [
+      { "label": "A", "text": "りんご" },
+      { "label": "B", "text": "りんご\nみかん\nバナナ" },
+      { "label": "C", "text": "みかん" },
+      { "label": "D", "text": "りんご\nみかん" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["フォールスルー", "break のない case の挙動"]
+  },
+  {
+    "id": "while-switch-standard-07",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "次のコードで変数 count の最終的な値はいくつか。\n\nlet count = 0;\nlet i = 1;\nwhile (i <= 10) {\n  if (i % 3 === 0) {\n    count++;\n  }\n  i++;\n}\nconsole.log(count);",
+    "choices": [
+      { "label": "A", "text": "4" },
+      { "label": "B", "text": "2" },
+      { "label": "C", "text": "5" },
+      { "label": "D", "text": "3" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["while ループのトレース", "3の倍数のカウント"]
+  },
+  {
+    "id": "while-switch-standard-08",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "while ループ内の continue が実行されたとき、次に行われる処理として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "ループ全体を終了し、while の次の文に移る" },
+      { "label": "B", "text": "ループ本体の残りをスキップし、条件式の評価に戻る" },
+      { "label": "C", "text": "ループ本体の先頭に戻るが、カウンタは更新しない" },
+      { "label": "D", "text": "エラーが発生してプログラムが停止する" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["continue の制御フロー", "条件式の再評価"]
+  },
+  {
+    "id": "while-switch-standard-09",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "次のコードの出力として正しいものはどれか。\n\nlet num = 1;\nwhile (num <= 5) {\n  if (num === 3) {\n    num++;\n    continue;\n  }\n  console.log(num);\n  num++;\n}",
+    "choices": [
+      { "label": "A", "text": "1, 2, 3, 4, 5" },
+      { "label": "B", "text": "1, 2, 4, 5" },
+      { "label": "C", "text": "1, 2" },
+      { "label": "D", "text": "1, 2, 4" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["continue によるスキップ", "ループのトレース"]
+  },
+  {
+    "id": "while-switch-standard-10",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "standard",
+    "question": "switch 文の default ブロックについて正しい説明はどれか。",
+    "choices": [
+      { "label": "A", "text": "default は必ず switch の最後に書かなければならない" },
+      { "label": "B", "text": "どの case にも一致しないとき実行され、switch 内の任意の位置に書ける" },
+      { "label": "C", "text": "default は省略できないため、必ず書かなければならない" },
+      { "label": "D", "text": "default は最初の case と同じ優先度で比較される" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["default の役割", "default の位置"]
+  },
+  {
+    "id": "while-switch-exam-01",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次の4つのコードのうち、無限ループになるものはどれか。",
+    "choices": [
+      { "label": "A", "text": "let count = 10; while (count > 0) { count--; }" },
+      { "label": "B", "text": "let n = 5; while (n !== 0) { n += 2; }" },
+      { "label": "C", "text": "let x = 0; do { x++; } while (x < 5);" },
+      { "label": "D", "text": "let j = 1; while (j < 200) { j *= 3; }" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["無限ループの原因", "カウンタ更新の欠落"]
+  },
+  {
+    "id": "while-switch-exam-02",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードが終了した後、変数 sum の値はいくつか。\n\nlet sum = 0;\nlet i = 1;\nwhile (i <= 5) {\n  sum += i;\n  i++;\n}\nconsole.log(sum);",
+    "choices": [
+      { "label": "A", "text": "sum = 1+2+3+4 = 10" },
+      { "label": "B", "text": "sum = 1+2+3+4+5 = 15" },
+      { "label": "C", "text": "sum = 2+3+4+5+6 = 20" },
+      { "label": "D", "text": "sum = 1+2+3+4+5+6 = 21" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["累積計算のトレース", "ループ終了条件の確認"]
+  },
+  {
+    "id": "while-switch-exam-03",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードで getLabel(2) を呼び出したとき、戻り値として正しいものはどれか。\n\nfunction getLabel(n) {\n  switch (n) {\n    case 1:\n      return '一';\n    case 2:\n      return '二';\n    case 3:\n      return '三';\n    default:\n      return '不明';\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "'一'" },
+      { "label": "B", "text": "'二'" },
+      { "label": "C", "text": "'不明'" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["関数内の switch", "return と break の違い"]
+  },
+  {
+    "id": "while-switch-exam-04",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードが出力する内容として正しいものはどれか。\n\nlet i = 0;\nwhile (i < 3) {\n  let j = 0;\n  while (j < 3) {\n    if (j === 1) break;\n    console.log(i + '-' + j);\n    j++;\n  }\n  i++;\n}",
+    "choices": [
+      { "label": "A", "text": "0-0, 0-1, 1-0, 1-1, 2-0, 2-1" },
+      { "label": "B", "text": "0-0のみ" },
+      { "label": "C", "text": "0-0, 1-0, 2-0" },
+      { "label": "D", "text": "0-0, 0-1, 0-2, 1-0, 1-1, 1-2, 2-0, 2-1, 2-2" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["ネストしたループの break", "内側の break は外側に影響しない"]
+  },
+  {
+    "id": "while-switch-exam-05",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードで変数 result の最終的な値はいくつか。\n\nlet result = 0;\nlet n = 16;\nwhile (n > 1) {\n  n = Math.floor(n / 2);\n  result++;\n}\nconsole.log(result);",
+    "choices": [
+      { "label": "A", "text": "n: 16→8→4→2→1 で条件 n>1 を満たすのは4回 → result = 4" },
+      { "label": "B", "text": "n: 16→8→4→2 で3回の半減 → result = 3" },
+      { "label": "C", "text": "n: 16→8→4→2→1→0 で5回の半減 → result = 5" },
+      { "label": "D", "text": "n: 16→8→4 で2回の半減 → result = 2" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["while ループのトレース", "ループ回数の精密カウント"]
+  },
+  {
+    "id": "while-switch-exam-06",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードで 'B' を渡したとき、出力される内容として正しいものはどれか。\n\nconst grade = 'B';\nswitch (grade) {\n  default:\n    console.log('不明');\n  case 'A':\n    console.log('優');\n    break;\n  case 'B':\n    console.log('良');\n    break;\n}",
+    "choices": [
+      { "label": "A", "text": "不明\n優" },
+      { "label": "B", "text": "不明\n優\n良" },
+      { "label": "C", "text": "良" },
+      { "label": "D", "text": "不明" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["default が途中にある場合", "case 照合の優先順位"]
+  },
+  {
+    "id": "while-switch-exam-07",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードで出力される最後の値はいくつか。\n\nconst arr = [3, 7, 2, 9, 4];\nlet i = 0;\nlet max = arr[0];\nwhile (i < arr.length) {\n  if (arr[i] > max) {\n    max = arr[i];\n  }\n  i++;\n}\nconsole.log(max);",
+    "choices": [
+      { "label": "A", "text": "4" },
+      { "label": "B", "text": "3" },
+      { "label": "C", "text": "9" },
+      { "label": "D", "text": "7" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["while + 配列の最大値探索", "ループのトレース"]
+  },
+  {
+    "id": "while-switch-exam-08",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードで calc('*', 3, 4) を呼び出したとき、戻り値として正しいものはどれか。\n\nfunction calc(op, a, b) {\n  switch (op) {\n    case '+':\n      return a + b;\n    case '-':\n      return a - b;\n    case '*':\n      return a * b;\n    case '/':\n      return b !== 0 ? a / b : 'エラー';\n    default:\n      return '演算子が不明';\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "'演算子が不明'" },
+      { "label": "B", "text": "12" },
+      { "label": "C", "text": "7" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["switch で演算子を分岐", "return の制御フロー"]
+  },
+  {
+    "id": "while-switch-exam-09",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードで変数 found の最終的な値として正しいものはどれか。\n\nconst target = 7;\nconst arr = [2, 5, 7, 11, 13];\nlet i = 0;\nlet found = false;\nwhile (i < arr.length) {\n  if (arr[i] === target) {\n    found = true;\n    break;\n  }\n  i++;\n}\nconsole.log(found);",
+    "choices": [
+      { "label": "A", "text": "null" },
+      { "label": "B", "text": "false" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "true" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["break と変数の状態", "線形探索のパターン"]
+  },
+  {
+    "id": "while-switch-exam-10",
+    "subject": "programming",
+    "unit": "while / switch 文",
+    "difficulty": "exam",
+    "question": "次のコードで変数 output の値として正しいものはどれか。\n\nlet output = '';\nlet i = 1;\nwhile (i <= 6) {\n  switch (i % 3) {\n    case 0:\n      output += 'C';\n      break;\n    case 1:\n      output += 'A';\n      break;\n    case 2:\n      output += 'B';\n      break;\n  }\n  i++;\n}\nconsole.log(output);",
+    "choices": [
+      { "label": "A", "text": "'ABCABC'" },
+      { "label": "B", "text": "'CBACBA'" },
+      { "label": "C", "text": "'AAABBB'" },
+      { "label": "D", "text": "'ABCCBA'" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["while + switch の組み合わせ", "余り演算のパターン追跡"]
+  }
+]

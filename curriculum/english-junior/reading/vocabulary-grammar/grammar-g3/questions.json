@@ -1,0 +1,422 @@
+[
+  {
+    "id": "gg3-001",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「彼女は富士山に登ったことが一度あります」という文の ( ) に入る正しい形はどれか。\nShe ( ) Mt. Fuji once.",
+    "choices": [
+      { "label": "A", "text": "climbs" },
+      { "label": "B", "text": "has climbed" },
+      { "label": "C", "text": "climbed" },
+      { "label": "D", "text": "is climbing" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg3-002",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「私はその映画を見たことがあります」という文の ( ) に入る正しい形はどれか。\nI have ( ) that movie.",
+    "choices": [
+      { "label": "A", "text": "seen" },
+      { "label": "B", "text": "see" },
+      { "label": "C", "text": "saw" },
+      { "label": "D", "text": "seeing" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-003",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "現在完了（継続）の文として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "I have lived here since five years." },
+      { "label": "B", "text": "She has studied English for 2015." },
+      { "label": "C", "text": "We have known each other for ten years." },
+      { "label": "D", "text": "He has worked there since three months." }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-004",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「もう宿題は終わりましたか？」を英語にするとき、( ) に入る正しい語はどれか。\nHave you finished your homework ( )?",
+    "choices": [
+      { "label": "A", "text": "just" },
+      { "label": "B", "text": "already" },
+      { "label": "C", "text": "never" },
+      { "label": "D", "text": "yet" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg3-005",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「この歌は多くの人々に愛されています」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "This song loves by many people." },
+      { "label": "B", "text": "This song is loved by many people." },
+      { "label": "C", "text": "This song loved by many people." },
+      { "label": "D", "text": "This song was love by many people." }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg3-006",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「トムはスシを一度も食べたことがありません」を英語にするとき、( ) に入る正しい組み合わせはどれか。\nTom ( ) ( ) sushi.",
+    "choices": [
+      { "label": "A", "text": "has never eaten" },
+      { "label": "B", "text": "never has eaten" },
+      { "label": "C", "text": "has not never eaten" },
+      { "label": "D", "text": "was never eaten" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-007",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「この橋は100年前に建てられました」を英語にするとき、( ) に入る正しい be 動詞はどれか。\nThis bridge ( ) built 100 years ago.",
+    "choices": [
+      { "label": "A", "text": "is" },
+      { "label": "B", "text": "has been" },
+      { "label": "C", "text": "was" },
+      { "label": "D", "text": "were" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-008",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「彼は2020年からずっとこの学校で教えています」という文の ( ) に入る正しい語はどれか。\nHe has taught at this school ( ) 2020.",
+    "choices": [
+      { "label": "A", "text": "for" },
+      { "label": "B", "text": "at" },
+      { "label": "C", "text": "in" },
+      { "label": "D", "text": "since" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg3-009",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「その手紙はケンによって書かれました」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "The letter was written by Ken." },
+      { "label": "B", "text": "The letter was wrote by Ken." },
+      { "label": "C", "text": "The letter is written by Ken." },
+      { "label": "D", "text": "Ken wrote the letter by." }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-010",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "basic",
+    "question": "「もう宿題は終わりましたか？」「はい、もう終わりました」という会話で、( ) の組み合わせとして正しいものはどれか。\n\"Have you finished your homework ( )?\"\n\"Yes, I've ( ) done it.\"",
+    "choices": [
+      { "label": "A", "text": "yet / already" },
+      { "label": "B", "text": "already / yet" },
+      { "label": "C", "text": "never / just" },
+      { "label": "D", "text": "just / never" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-011",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「私はフランス語を話せる女性を知っています」を英語にするとき、( ) に入る正しい関係代名詞はどれか。\nI know a woman ( ) can speak French.",
+    "choices": [
+      { "label": "A", "text": "which" },
+      { "label": "B", "text": "what" },
+      { "label": "C", "text": "who" },
+      { "label": "D", "text": "where" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-012",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「これは私が昨日買った本です」を英語にするとき、( ) に入る正しい関係代名詞はどれか。\nThis is the book ( ) I bought yesterday.",
+    "choices": [
+      { "label": "A", "text": "which" },
+      { "label": "B", "text": "who" },
+      { "label": "C", "text": "where" },
+      { "label": "D", "text": "when" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-013",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "関係代名詞 that についての説明として正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "that は人だけを先行詞にとることができる。" },
+      { "label": "B", "text": "that は物・事だけを先行詞にとることができる。" },
+      { "label": "C", "text": "that の代わりに必ず who か which を使わなければならない。" },
+      { "label": "D", "text": "that は人にも物・事にも使える関係代名詞である。" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg3-014",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "次の2文を関係代名詞を使って1文にするとき、正しいものはどれか。\n\"This is the song.\" / \"I like it very much.\"",
+    "choices": [
+      { "label": "A", "text": "This is the song which I like it very much." },
+      { "label": "B", "text": "This is the song that I like very much." },
+      { "label": "C", "text": "This is the song who I like very much." },
+      { "label": "D", "text": "This is the song what I like very much." }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg3-015",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「英語を毎日練習することは大切です」を It is ... to〜 の形で英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "That is important practice English every day." },
+      { "label": "B", "text": "It is important practicing English every day." },
+      { "label": "C", "text": "It is important to practice English every day." },
+      { "label": "D", "text": "It is important that to practice English every day." }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-016",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「母は私に部屋を掃除してほしいと思っています」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "My mother wants me to clean my room." },
+      { "label": "B", "text": "My mother wants that I clean my room." },
+      { "label": "C", "text": "My mother wants me cleaning my room." },
+      { "label": "D", "text": "My mother wants I to clean my room." }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-017",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「その荷物は重すぎて私には持てませんでした」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "The bag was enough heavy for me to carry." },
+      { "label": "B", "text": "The bag was so heavy that I could carry it." },
+      { "label": "C", "text": "The bag was very heavy to carry for me." },
+      { "label": "D", "text": "The bag was too heavy for me to carry." }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg3-018",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「彼女がどこに住んでいるか知っていますか？」を英語にするとき、( ) に入る正しい語順はどれか。\nDo you know ( )?",
+    "choices": [
+      { "label": "A", "text": "where does she live" },
+      { "label": "B", "text": "where she lives" },
+      { "label": "C", "text": "where is she living" },
+      { "label": "D", "text": "where live she" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg3-019",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「彼が学校に来るかどうか知りません」を英語にするとき、( ) に入る正しいものはどれか。\nI don't know ( ) he will come to school.",
+    "choices": [
+      { "label": "A", "text": "what" },
+      { "label": "B", "text": "that" },
+      { "label": "C", "text": "if" },
+      { "label": "D", "text": "which" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-020",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "standard",
+    "question": "「泣いている赤ちゃんを見てください」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "Look at the crying baby." },
+      { "label": "B", "text": "Look at the cried baby." },
+      { "label": "C", "text": "Look at the baby which crying." },
+      { "label": "D", "text": "Look at the baby who crying." }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-021",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "次の文の ( ) に入る正しいものはどれか。\nThe book ( ) she has just finished is really interesting.",
+    "choices": [
+      { "label": "A", "text": "who" },
+      { "label": "B", "text": "whom" },
+      { "label": "C", "text": "that" },
+      { "label": "D", "text": "whose" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-022",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "受動態の文として文法的に正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "English is spoke by many people around the world." },
+      { "label": "B", "text": "English is spoken by many people around the world." },
+      { "label": "C", "text": "English speaks by many people around the world." },
+      { "label": "D", "text": "English was speaking by many people around the world." }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg3-023",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "「彼が何時に到着するか教えてください」を英語にするとき、( ) に入る正しい語順はどれか。\nPlease tell me ( ).",
+    "choices": [
+      { "label": "A", "text": "what time will he arrive" },
+      { "label": "B", "text": "what time does he arrive" },
+      { "label": "C", "text": "what time he will arrive" },
+      { "label": "D", "text": "what time arrive he will" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-024",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "「これは私の父が30年前に撮った写真です」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "This is a picture that my father took it 30 years ago." },
+      { "label": "B", "text": "This is a picture my father took 30 years ago which." },
+      { "label": "C", "text": "This is a picture which my father 30 years ago took." },
+      { "label": "D", "text": "This is a picture my father took 30 years ago." }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg3-025",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "「彼女は十分に背が高くて、バスケットボールが上手くできます」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "She is enough tall to play basketball well." },
+      { "label": "B", "text": "She is tall enough to play basketball well." },
+      { "label": "C", "text": "She is too tall to play basketball well." },
+      { "label": "D", "text": "She is tall too to play basketball well." }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg3-026",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "「彼は10年間ずっとその会社で働いています」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "He is working at that company for ten years." },
+      { "label": "B", "text": "He worked at that company for ten years." },
+      { "label": "C", "text": "He works at that company since ten years." },
+      { "label": "D", "text": "He has been working at that company for ten years." }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg3-027",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "「私が生まれた町は今ではとても大きいです」を英語にするとき、最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "The town that I was born in it is very big now." },
+      { "label": "B", "text": "The town where I was born in is very big now." },
+      { "label": "C", "text": "The town where I was born is very big now." },
+      { "label": "D", "text": "The town which I was born is very big now." }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg3-028",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "「彼が先週書いた手紙はとても丁寧でした」を英語にするとき、正しいものはどれか。",
+    "choices": [
+      { "label": "A", "text": "The letter he wrote last week was very polite." },
+      { "label": "B", "text": "The letter which he wrote it last week was very polite." },
+      { "label": "C", "text": "The letter that wrote last week was very polite." },
+      { "label": "D", "text": "The letter who wrote last week was very polite." }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg3-029",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "「世界中で話されている言語は英語です」を英語にするとき、( ) に入る正しいものはどれか。\nThe language ( ) around the world is English.",
+    "choices": [
+      { "label": "A", "text": "speaking" },
+      { "label": "B", "text": "spoken" },
+      { "label": "C", "text": "to speak" },
+      { "label": "D", "text": "that speaks" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg3-030",
+    "subject": "中学英語",
+    "unit": "中3文法",
+    "difficulty": "exam",
+    "question": "次の4文のうち、文法的に誤りを含むものはどれか。",
+    "choices": [
+      { "label": "A", "text": "She has never been to Australia." },
+      { "label": "B", "text": "The window was broken by the ball." },
+      { "label": "C", "text": "Do you know where he lives?" },
+      { "label": "D", "text": "The boy which is playing soccer is my brother." }
+    ],
+    "correct": "D"
+  }
+]

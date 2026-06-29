@@ -1,0 +1,452 @@
+[
+  {
+    "id": "for-loop-basic-01",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "次の for ループのループ本体は何回実行されるか。\n\nfor (let i = 0; i < 5; i++) {\n  console.log(i);\n}",
+    "choices": [
+      { "label": "A", "text": "4回(i は 0, 1, 2, 3 で止まると誤解)" },
+      { "label": "B", "text": "5回(i は 0, 1, 2, 3, 4 と変化する)" },
+      { "label": "C", "text": "6回(i が 0 から 5 まで 6 通りあると誤解)" },
+      { "label": "D", "text": "無限回(条件が常に成立すると誤解)" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["ループ回数", "条件式 < の意味"]
+  },
+  {
+    "id": "for-loop-basic-02",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "次のコードで console.log が最後に出力する数はいくつか。\n\nfor (let i = 1; i <= 5; i++) {\n  console.log(i);\n}",
+    "choices": [
+      { "label": "A", "text": "6" },
+      { "label": "B", "text": "4" },
+      { "label": "C", "text": "5" },
+      { "label": "D", "text": "1" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["<= 条件式", "最終ループ値"]
+  },
+  {
+    "id": "for-loop-basic-03",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "for (let i = 0; i < 3; i++) と for (let i = 0; i <= 3; i++) の繰り返し回数の違いとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "前者も後者も 3 回で同じ" },
+      { "label": "B", "text": "前者は 3 回(i は 0,1,2 と変化する)、後者は 4 回(i は 0,1,2,3 と変化する)" },
+      { "label": "C", "text": "前者は 4 回(i は 0,1,2,3 と変化する)、後者は 3 回(i は 0,1,2 と変化する)" },
+      { "label": "D", "text": "前者は 2 回(i は 1,2 と変化する)、後者は 3 回(i は 1,2,3 と変化する)" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["< と <= の違い", "ループ回数の計算"]
+  },
+  {
+    "id": "for-loop-basic-04",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "次のコードを実行した後の sum の値として正しいのはどれか。\n\nlet sum = 0;\nfor (let i = 1; i <= 4; i++) {\n  sum += i;\n}",
+    "choices": [
+      { "label": "A", "text": "i <= 4 を i < 4 と誤解してループが 3 回のみ → 1+2+3=6" },
+      { "label": "B", "text": "sum = i と誤解して最終的に sum=4 が入る" },
+      { "label": "C", "text": "i=1でsum=1, i=2でsum=3, i=3でsum=6, i=4でsum=10 → 10" },
+      { "label": "D", "text": "ループが 4+1=5 回回ると誤解して 1+2+3+4+5=15" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["蓄積パターン", "ループの繰り返し計算"]
+  },
+  {
+    "id": "for-loop-basic-05",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "for (let i = 0; i < 10; i += 2) のループは何回実行されるか。",
+    "choices": [
+      { "label": "A", "text": "i が 0,2,4,6,8,10 と変化するため 6 回" },
+      { "label": "B", "text": "i が 0,2,4,6,8 と変化するため 5 回" },
+      { "label": "C", "text": "i が 1 ずつ増えて 0,1,2,...,9 と変化するため 10 回" },
+      { "label": "D", "text": "i が 2 から始まり 2,4,6,8 と変化するため 4 回" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["更新式 i+=2", "ループ回数の計算"]
+  },
+  {
+    "id": "for-loop-basic-06",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "for...of ループについて正しい説明はどれか。",
+    "choices": [
+      { "label": "A", "text": "オブジェクトから「プロパティ名」を取り出す(for...in と同じ)" },
+      { "label": "B", "text": "配列から「インデックス番号(0, 1, 2...)」を順番に取り出す" },
+      { "label": "C", "text": "数値のカウンタを自動で管理する(通常の for ループの別の書き方)" },
+      { "label": "D", "text": "配列やイテラブルなオブジェクトから「要素の値」を順番に取り出す" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["for...of の定義", "イテラブル"]
+  },
+  {
+    "id": "for-loop-basic-07",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "次のコードが出力するものとして正しいのはどれか。\n\nconst obj = { a: 1, b: 2, c: 3 };\nfor (const key in obj) {\n  console.log(key);\n}",
+    "choices": [
+      { "label": "A", "text": "1, 2, 3" },
+      { "label": "B", "text": "\"a\", \"b\", \"c\"" },
+      { "label": "C", "text": "[\"a\", \"b\", \"c\"]" },
+      { "label": "D", "text": "{ a: 1 }, { b: 2 }, { c: 3 }" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["for...in の出力", "プロパティ名（キー）"]
+  },
+  {
+    "id": "for-loop-basic-08",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "次のコードを実行した後の total はいくつか。\n\nconst nums = [10, 20, 30];\nlet total = 0;\nfor (const n of nums) {\n  total += n;\n}",
+    "choices": [
+      { "label": "A", "text": "n にインデックス 0, 1, 2 が入り total=3 になる" },
+      { "label": "B", "text": "n=10でtotal=10, n=20でtotal=30, n=30でtotal=60 → 60" },
+      { "label": "C", "text": "n に [10,20,30] が 1 回入り total が NaN になる" },
+      { "label": "D", "text": "n に文字列 \"10\", \"20\", \"30\" が入り total = \"0102030\" になる" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["for...of で配列の値", "蓄積パターン"]
+  },
+  {
+    "id": "for-loop-basic-09",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "次のループについて正しい説明はどれか。\n\nfor (let i = 10; i > 0; i--) {\n  console.log(i);\n}",
+    "choices": [
+      { "label": "A", "text": "カウンタは 10 から始まり 0 以上の条件で 11 回繰り返す" },
+      { "label": "B", "text": "カウンタは 0 から始まり 10 未満の間繰り返して 1 ずつ増えていく" },
+      { "label": "C", "text": "i-- は後置なのでループ本体より先に値が 1 減り最初の出力は 9 になる" },
+      { "label": "D", "text": "カウンタは 10 から始まり 0 より大きい間繰り返し毎回 1 ずつ減る(10回実行される)" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["カウントダウンループ", "i > 0 の条件"]
+  },
+  {
+    "id": "for-loop-basic-10",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "basic",
+    "question": "次のコードの出力はどれか。\n\nfor (let i = 0; i < 3; i++) {\n  console.log(i * 2);\n}",
+    "choices": [
+      { "label": "A", "text": "2, 4, 6" },
+      { "label": "B", "text": "0, 1, 2" },
+      { "label": "C", "text": "1, 2, 3" },
+      { "label": "D", "text": "0, 2, 4" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["ループ内の計算", "i の値の追跡"]
+  },
+  {
+    "id": "for-loop-standard-01",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードを実行した後の count はいくつか。\n\nlet count = 0;\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 2; j++) {\n    count++;\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "外側 3 回＋内側 2 回の合計=5" },
+      { "label": "B", "text": "外側が 3 回×内側が毎回 2 回で 3×2=6" },
+      { "label": "C", "text": "外側が 3 回だけカウントされて count=3" },
+      { "label": "D", "text": "外側も内側も 3 回と誤解して 3×3=9" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["ネストした for ループ", "実行回数の計算"]
+  },
+  {
+    "id": "for-loop-standard-02",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードの出力として正しいのはどれか。\n\nconst arr = [\"a\", \"b\", \"c\"];\nfor (const x of arr) {\n  console.log(x);\n}",
+    "choices": [
+      { "label": "A", "text": "0, 1, 2" },
+      { "label": "B", "text": "\"0\", \"1\", \"2\"" },
+      { "label": "C", "text": "\"a\", \"b\", \"c\"" },
+      { "label": "D", "text": "[\"a\",\"b\",\"c\"]" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["for...of で配列の値", "インデックスではなく要素"]
+  },
+  {
+    "id": "for-loop-standard-03",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードを実行した後の total はいくつか。\n\nconst scores = { math: 80, english: 70, science: 90 };\nlet total = 0;\nfor (const key in scores) {\n  total += scores[key];\n}",
+    "choices": [
+      { "label": "A", "text": "for...in はオブジェクトのプロパティを列挙できないため total=0 のまま" },
+      { "label": "B", "text": "key にプロパティ名が入り scores[key] で値(80,70,90)を取得して total=240" },
+      { "label": "C", "text": "for...in は配列のインデックスを返すため total=0+1+2=3 になる" },
+      { "label": "D", "text": "key が文字列のため total += key で total = \"0mathenglishscience\" になる" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["for...in でオブジェクト操作", "scores[key] で値を取得"]
+  },
+  {
+    "id": "for-loop-standard-04",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードを実行した後の result はどれか。\n\nconst nums = [1, 2, 3, 4, 5];\nconst result = [];\nfor (const n of nums) {\n  if (n % 2 === 0) {\n    result.push(n);\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "[1, 3, 5]" },
+      { "label": "B", "text": "[2, 4]" },
+      { "label": "C", "text": "[2, 4, 6]" },
+      { "label": "D", "text": "[1, 2, 3, 4, 5]" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["for...of でフィルタリング", "% 演算子と偶数判定"]
+  },
+  {
+    "id": "for-loop-standard-05",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードを実行した後の result はどれか。\n\nlet result = \"\";\nfor (let i = 1; i <= 2; i++) {\n  for (let j = 1; j <= 3; j++) {\n    result += i + \"\" + j + \" \";\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "\"11 21 12 22 13 23 \"" },
+      { "label": "B", "text": "\"11 12 13 21 22 23 \"" },
+      { "label": "C", "text": "\"11 12 21 22 31 32 \"" },
+      { "label": "D", "text": "\"11 12 13 14 15 16 \"" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["ネストした for ループの実行順序", "外側から内側へ"]
+  },
+  {
+    "id": "for-loop-standard-06",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードの出力として正しいのはどれか。\n\nconst fruits = [\"apple\", \"banana\", \"cherry\"];\nfor (let i = 0; i < fruits.length; i++) {\n  console.log(fruits[i]);\n}",
+    "choices": [
+      { "label": "A", "text": "0, 1, 2 の順で出力される" },
+      { "label": "B", "text": "\"apple\", \"banana\", \"cherry\" の順で出力される" },
+      { "label": "C", "text": "[\"apple\",\"banana\",\"cherry\"] が 1 回出力される" },
+      { "label": "D", "text": "\"apple\" が 3 回出力される" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["配列のインデックスアクセス", "fruits.length の利用"]
+  },
+  {
+    "id": "for-loop-standard-07",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "配列 arr の「要素の値」を順番に処理するコードとして最も適切なのはどれか。",
+    "choices": [
+      { "label": "A", "text": "for (let i = arr; i > 0; i--) { /* i で要素にアクセス */ }" },
+      { "label": "B", "text": "for (const item in arr) { /* item に要素の値が入る */ }" },
+      { "label": "C", "text": "for (const item of Object.keys(arr)) { /* item に値が入る */ }" },
+      { "label": "D", "text": "for (const item of arr) { /* item に要素の値が入る */ }" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["for...of の使い分け", "for...in との違い"]
+  },
+  {
+    "id": "for-loop-standard-08",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードを実行した後の keys はどれか。\n\nconst obj = { x: 10, y: 20 };\nconst keys = [];\nfor (const k in obj) {\n  keys.push(k);\n}",
+    "choices": [
+      { "label": "A", "text": "[10, 20]" },
+      { "label": "B", "text": "[\"x: 10\", \"y: 20\"]" },
+      { "label": "C", "text": "[\"x\", \"y\"]" },
+      { "label": "D", "text": "[{ x: 10 }, { y: 20 }]" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["for...in でキー収集", "プロパティ名は文字列"]
+  },
+  {
+    "id": "for-loop-standard-09",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードで output に追加される要素の数はいくつか。\n\nlet output = [];\nfor (let i = 1; i <= 4; i++) {\n  for (let j = 1; j <= 3; j++) {\n    output.push(i + j);\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "外側 4 回＋内側 3 回の合計=7 個" },
+      { "label": "B", "text": "内側 3 回×内側 3 回=9 個" },
+      { "label": "C", "text": "外側 4 回×外側 4 回=16 個" },
+      { "label": "D", "text": "外側 4 回×内側 3 回=12 個" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["ネストしたループの総実行回数", "掛け算で求める"]
+  },
+  {
+    "id": "for-loop-standard-10",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "standard",
+    "question": "次のコードを実行した後の count はいくつか。\n\nconst str = \"hello\";\nlet count = 0;\nfor (const ch of str) {\n  count++;\n}",
+    "choices": [
+      { "label": "A", "text": "for...of は文字列全体を 1 要素として扱うので count=1" },
+      { "label": "B", "text": "for...of は配列にしか使えず文字列にはエラーになる" },
+      { "label": "C", "text": "for...of は文字列を 1 文字ずつ取り出せるので count=5" },
+      { "label": "D", "text": "ch にバイト数が入るため count は文字数より大きくなる" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["for...of で文字列", "1文字ずつのイテレーション"]
+  },
+  {
+    "id": "for-loop-exam-01",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の result はいくつか。\n\nlet result = 0;\nfor (let i = 1; i <= 10; i++) {\n  if (i === 5) {\n    break;\n  }\n  result += i;\n}",
+    "choices": [
+      { "label": "A", "text": "i=5 まで加算(5も含む)して 1+2+3+4+5=15" },
+      { "label": "B", "text": "i=1,2,3,4 で加算し i=5 で break するので 1+2+3+4=10" },
+      { "label": "C", "text": "break でループが一時停止し再開するため 1+2+...+10=55" },
+      { "label": "D", "text": "break でカウンタがリセットされ result=0 のまま" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["break の動作", "break はその反復の直前で終了"]
+  },
+  {
+    "id": "for-loop-exam-02",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の result はいくつか。\n\nlet result = 0;\nfor (let i = 1; i <= 5; i++) {\n  if (i === 3) {\n    continue;\n  }\n  result += i;\n}",
+    "choices": [
+      { "label": "A", "text": "continue でもループは続くため 1+2+3+4+5=15" },
+      { "label": "B", "text": "i=3 のとき result+=i をスキップして 1+2+4+5=12" },
+      { "label": "C", "text": "continue で i=3 以降すべてスキップされるため 1+2=3" },
+      { "label": "D", "text": "continue は i=4 から再開するため 4+5=9" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["continue の動作", "その反復のみスキップ"]
+  },
+  {
+    "id": "for-loop-exam-03",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の count はいくつか。break は内側ループのみを終了させることに注意せよ。\n\nlet count = 0;\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 3; j++) {\n    if (j === 1) {\n      break;\n    }\n    count++;\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "break で外側ループも終了するため count=1(i=0, j=0 の 1 回だけ)" },
+      { "label": "B", "text": "break が continue と同じ動作で j=1 をスキップするだけなので count=6" },
+      { "label": "C", "text": "ネストした全組み合わせ 3×3=9 回 count++ されて count=9" },
+      { "label": "D", "text": "j=1 で内側ループだけ終了し各 i で j=0 の 1 回だけ count++、外側 3 回で count=3" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["break の適用範囲", "内側ループのみ終了"]
+  },
+  {
+    "id": "for-loop-exam-04",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の upper はいくつか。（\"JavaScript\" の大文字は 'J' と 'S' の 2 文字）\n\nconst word = \"JavaScript\";\nlet upper = 0;\nfor (const ch of word) {\n  if (ch === ch.toUpperCase() && ch !== ch.toLowerCase()) {\n    upper++;\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "toUpperCase() で全文字が大文字に変換されるため upper=10" },
+      { "label": "B", "text": "for...of は文字列全体を 1 回だけ返すため upper=0 か 1 になる" },
+      { "label": "C", "text": "両条件が成立する 'J' と 'S' の 2 文字がカウントされ upper=2" },
+      { "label": "D", "text": "大文字と小文字の比較は === では判定できないため upper=0" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["for...of で文字列", "toUpperCase / toLowerCase での大文字判定"]
+  },
+  {
+    "id": "for-loop-exam-05",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の result はどれか。for...in は配列インデックスを文字列で返す点に注意せよ。\n\nconst arr = [10, 20, 30];\nlet result = 0;\nfor (const i in arr) {\n  result += i;\n}",
+    "choices": [
+      { "label": "A", "text": "i に 10, 20, 30 の値が入り result=60 になる" },
+      { "label": "B", "text": "for...in は配列に使えないためエラーになる" },
+      { "label": "C", "text": "i に数値 0, 1, 2 が入り result=3 になる" },
+      { "label": "D", "text": "i に文字列 \"0\",\"1\",\"2\" が入り result = 0+\"0\"+\"1\"+\"2\" = \"0012\" になる" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["for...in の型の落とし穴", "数値＋文字列の型強制"]
+  },
+  {
+    "id": "for-loop-exam-06",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "「オブジェクト config のすべてのプロパティ名をコンソールに出力する」要件を満たすコードとして正しいのはどれか。",
+    "choices": [
+      { "label": "A", "text": "for (const key of config) { console.log(key); }" },
+      { "label": "B", "text": "for (const key in config) { console.log(key); }" },
+      { "label": "C", "text": "for (let i = 0; i < config.length; i++) { console.log(config[i]); }" },
+      { "label": "D", "text": "for (const key of Object.values(config)) { console.log(key); }" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["for...in の用途", "オブジェクトのキー列挙"]
+  },
+  {
+    "id": "for-loop-exam-07",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードでコンソールに出力される値はどれか。\n\nfor (let i = 0; i < 5; i++) {\n  if (i % 2 === 0) {\n    continue;\n  }\n  console.log(i);\n}",
+    "choices": [
+      { "label": "A", "text": "continue で i の更新(i++)がスキップされて i=0 のまま無限ループになる" },
+      { "label": "B", "text": "i が偶数(0, 2, 4)のみ出力される" },
+      { "label": "C", "text": "continue によってループ全体が終了し何も出力されない" },
+      { "label": "D", "text": "i が奇数の 1, 3 のみ出力される" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["continue の動作", "i++ は continue 後も実行される"]
+  },
+  {
+    "id": "for-loop-exam-08",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の rev はどれか。\n\nconst str = \"abc\";\nlet rev = \"\";\nfor (const ch of str) {\n  rev = ch + rev;\n}",
+    "choices": [
+      { "label": "A", "text": "rev = rev + ch と誤解して rev=\"abc\" になる" },
+      { "label": "B", "text": "for...of は末尾から取り出すため ch が \"c\",\"b\",\"a\" の順になり rev=\"abc\" になる" },
+      { "label": "C", "text": "rev = ch のみ代入と誤解して最後の文字 \"c\" のみ残り rev=\"c\" になる" },
+      { "label": "D", "text": "ch=\"a\"でrev=\"a\", ch=\"b\"でrev=\"ba\", ch=\"c\"でrev=\"cba\" → \"cba\"" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["ch + rev の順序", "文字列の先頭に追加して逆順を作る"]
+  },
+  {
+    "id": "for-loop-exam-09",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の total はいくつか。\n\nlet total = 0;\nfor (let i = 1; i <= 3; i++) {\n  for (let j = 1; j <= 3; j++) {\n    if (i === j) {\n      continue;\n    }\n    total++;\n  }\n}",
+    "choices": [
+      { "label": "A", "text": "continue でループ全体が終了すると誤解して total=0" },
+      { "label": "B", "text": "i===j の組み合わせ(1,1),(2,2),(3,3)の 3 回をスキップして 3×3-3=6" },
+      { "label": "C", "text": "i===j で内側ループが終了すると誤解して 0+1+2=3 になる" },
+      { "label": "D", "text": "全組み合わせ 9 回 total++ されて total=9" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["continue とネストループ", "スキップされる組み合わせの数"]
+  },
+  {
+    "id": "for-loop-exam-10",
+    "subject": "programming",
+    "unit": "for ループ（for / for...of / for...in）",
+    "difficulty": "exam",
+    "question": "次のコードの出力として正しいのはどれか。\n\nconst set = new Set([1, 2, 2, 3, 3, 3]);\nfor (const v of set) {\n  console.log(v);\n}",
+    "choices": [
+      { "label": "A", "text": "Set は for...of に対応していないためエラーになる" },
+      { "label": "B", "text": "元の配列通り 1, 2, 2, 3, 3, 3 の順に出力される" },
+      { "label": "C", "text": "Set は重複を除くため 1, 2, 3 の順に出力される" },
+      { "label": "D", "text": "Set は順序を保証しないため出力順はランダムになる" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["Set のイテレーション", "重複除去と挿入順序の保持"]
+  }
+]
