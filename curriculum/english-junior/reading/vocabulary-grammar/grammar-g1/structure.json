@@ -1,0 +1,157 @@
+{
+  "unit_id": "grammar-g1",
+  "unit_name_jp": "中1文法",
+  "grade": "中学1年生",
+  "patterns": [
+    {
+      "pattern_id": "be-verb-affirmative",
+      "description": "be動詞（am/is/are）の肯定文。主語によって正しいbe動詞を選ぶ。",
+      "thinking_process": [
+        "主語を確認する（I / you / he・she・it など）",
+        "主語に対応するbe動詞を選ぶ（I→am, you/複数→are, 三人称単数→is）",
+        "文全体が意味をなすか確認する"
+      ],
+      "common_mistakes": [
+        "I の文で is を使ってしまう",
+        "they や we で is を使ってしまう",
+        "主語が単数の固有名詞のとき are を選んでしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "be-verb-negative-question",
+      "description": "be動詞の否定文（not）と疑問文（主語・be動詞の倒置）の作り方。",
+      "thinking_process": [
+        "否定文：be動詞の直後に not を置く",
+        "疑問文：be動詞を文頭に移動させる",
+        "短縮形（isn't / aren't / am not）の使い方を確認する"
+      ],
+      "common_mistakes": [
+        "否定文で don't / doesn't を使ってしまう",
+        "疑問文で do を文頭に置いてしまう",
+        "am not を amn't と短縮しようとする"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "general-verb-present",
+      "description": "一般動詞の肯定文。三人称単数現在（三単現）の s/es の付け方。",
+      "thinking_process": [
+        "主語が he / she / it（または固有名詞の一人）であるか確認する",
+        "三単現なら動詞の末尾に s または es を付ける",
+        "特殊な変化（have→has, study→studies 等）を確認する"
+      ],
+      "common_mistakes": [
+        "I や you の文でも三単現の s を付けてしまう",
+        "study → studys と規則変化させてしまう",
+        "have → haves としてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "general-verb-negative-question",
+      "description": "一般動詞の否定文（do not / does not）と疑問文（Do / Does + 主語 + 動詞原形）。",
+      "thinking_process": [
+        "主語が三人称単数か否かを確認する",
+        "三人称単数 → does not + 動詞原形（does の後は原形に戻す）",
+        "その他 → do not + 動詞原形"
+      ],
+      "common_mistakes": [
+        "He doesn't likes ... のように動詞に s を残してしまう",
+        "She don't ... のように does を使わない",
+        "疑問文で Does he has ...? と原形にしない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "pronouns-possessives",
+      "description": "人称代名詞（主格・目的格・所有格）の正しい選択。",
+      "thinking_process": [
+        "空欄が主語の位置か、動詞・前置詞の後（目的語）か、名詞の前（所有格）かを判断する",
+        "対応する格の代名詞を選ぶ（I→me→my, he→him→his 等）",
+        "文の意味が通るか確認する"
+      ],
+      "common_mistakes": [
+        "目的語の位置で I を使ってしまう（例：Give I the book.）",
+        "所有格の位置で him / her を使ってしまう",
+        "they / them / their を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "plural-articles",
+      "description": "名詞の複数形の作り方と冠詞（a / an / the）の使い分け。",
+      "thinking_process": [
+        "複数形：通常は s を付ける。語尾が s/ch/sh/x/o で終わる場合は es",
+        "不規則変化（child→children, tooth→teeth 等）を確認する",
+        "a は子音で始まる単数名詞、an は母音（a/i/u/e/o）で始まる単数名詞の前"
+      ],
+      "common_mistakes": [
+        "bus → buss と es を付けない",
+        "an の後に子音始まりの単語を使ってしまう（an cat 等）",
+        "複数形の名詞に a を付けてしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "question-words-what-who",
+      "description": "疑問詞 What / Who / Where / When / How を使った疑問文の語順。",
+      "thinking_process": [
+        "疑問詞を文頭に置く",
+        "続いて be動詞（または do/does）を置き、主語 + 動詞（原形）の語順にする",
+        "疑問詞が主語になる場合（Who plays ...?）は疑問詞の直後に動詞が来る"
+      ],
+      "common_mistakes": [
+        "What you like? のように語順を倒置しない",
+        "Who is play ...? のように be動詞と一般動詞を重ねる",
+        "Where does he goes? のように does の後に三単現 s を残す"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sentence-error-correction",
+      "description": "文の誤りを見つけて正しい形を選ぶ（誤り指摘タイプ）。",
+      "thinking_process": [
+        "主語と動詞の一致（主語に合ったbe動詞・三単現）を確認する",
+        "否定文・疑問文の助動詞（do/does/is/are）の使い方を確認する",
+        "代名詞の格（主格・目的格・所有格）が正しいか確認する"
+      ],
+      "common_mistakes": [
+        "誤りのない箇所を誤りとしてしまう",
+        "複数の誤りがあるとき1つしか見つけない",
+        "動詞の原形が必要な場面で活用形を選ぶ"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "word-order",
+      "description": "語順整序問題（並べ替えて正しい英文を作る）。",
+      "thinking_process": [
+        "主語・動詞・目的語・補語の基本語順（SVO / SVC）を確認する",
+        "疑問文なら疑問詞→助動詞→主語→動詞の語順",
+        "副詞・形容詞の置く位置を確認する（usually は一般動詞の前等）"
+      ],
+      "common_mistakes": [
+        "目的語と補語の位置を入れ替えてしまう",
+        "頻度を表す副詞（always/often/usually）を文末に置いてしまう",
+        "否定の don't / doesn't の位置を間違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "complex-grammar-selection",
+      "description": "be動詞・一般動詞・代名詞・複数形・疑問詞が複合した文から正しい形を選ぶ（exam レベル）。",
+      "thinking_process": [
+        "文全体の主語・動詞の種類（be動詞 vs 一般動詞）を判断する",
+        "疑問文・否定文のときの助動詞の有無と動詞の形を確認する",
+        "複数の文法事項が絡む場合は1つずつ順番に確認する"
+      ],
+      "common_mistakes": [
+        "be動詞と一般動詞を同じ文内で重ねてしまう（He is have...）",
+        "疑問文で主語と動詞の倒置をしない",
+        "文意と合わない代名詞を選んでしまう"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

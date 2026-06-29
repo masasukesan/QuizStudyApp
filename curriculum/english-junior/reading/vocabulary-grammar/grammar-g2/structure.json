@@ -1,0 +1,147 @@
+{
+  "unit_id": "grammar-g2",
+  "unit_name_jp": "中2文法",
+  "grade": "中学2年（英語）",
+  "patterns": [
+    {
+      "pattern_id": "past-tense-regular",
+      "description": "規則動詞の過去形（-ed / -d / 子音字+ed）を正しく選ぶ",
+      "thinking_process": [
+        "動詞の語尾を確認する（e で終わる・子音+y・短母音+子音など）",
+        "それぞれの過去形の作り方ルールを適用する",
+        "正しい過去形を選ぶ"
+      ],
+      "common_mistakes": [
+        "e で終わる動詞に -ed をそのまま付けてしまう（liked → likedは正しいが、dance → danceed は誤り）",
+        "子音+y の動詞を y → ied にせず、そのまま -ed を付ける（studied → studyed は誤り）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "past-tense-irregular",
+      "description": "不規則動詞の過去形を正しく選ぶ",
+      "thinking_process": [
+        "動詞が不規則変化かどうか判断する",
+        "記憶している不規則変化形を思い出す",
+        "正しい過去形を選ぶ"
+      ],
+      "common_mistakes": [
+        "不規則動詞に -ed を付けてしまう（went → goed は誤り）",
+        "go/come/have/eat/see などの過去形を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "present-progressive",
+      "description": "現在進行形（am/is/are + -ing）を正しく使う",
+      "thinking_process": [
+        "主語に対応する be 動詞を選ぶ（I→am、he/she/it→is、you/we/they→are）",
+        "-ing 形を正しく作る（e を取る・短母音+子音は子音を重ねる など）",
+        "文の意味と時制が一致しているか確認する"
+      ],
+      "common_mistakes": [
+        "主語と be 動詞の一致ミス（He are playing. など）",
+        "-ing の作り方ミス（make → makeing は誤り、making が正しい）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "will-be-going-to",
+      "description": "will と be going to の使い分け",
+      "thinking_process": [
+        "その場で決めた意思なら will を使う",
+        "前から計画・予定していることなら be going to を使う",
+        "文脈から判断して正しい未来形を選ぶ"
+      ],
+      "common_mistakes": [
+        "will と be going to は完全に同じと思い込む",
+        "be going to で be 動詞を忘れる（I going to play. は誤り）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "conjunction-when-because-if",
+      "description": "接続詞 when / because / if を文脈に合わせて選ぶ",
+      "thinking_process": [
+        "2つの文の関係（時・理由・条件）を読み取る",
+        "時間的な前後関係なら when、理由なら because、条件なら if を選ぶ",
+        "接続詞を使った文の語順を確認する"
+      ],
+      "common_mistakes": [
+        "because と so を混同する（Because it rained, ... vs It rained, so ...）",
+        "if 節の中で will を使う（If it will rain は誤り、If it rains が正しい）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "infinitive-gerund",
+      "description": "不定詞（to + 動詞原形）と動名詞（-ing）の使い方",
+      "thinking_process": [
+        "「〜すること」を表すとき to 不定詞か動名詞かを判断する",
+        "動詞によって不定詞のみ・動名詞のみ・両方OK かを確認する",
+        "不定詞の3つの用法（名詞・形容詞・副詞）を文脈から判断する"
+      ],
+      "common_mistakes": [
+        "enjoy / finish / stop の後に to 不定詞を使う（enjoy to play は誤り、enjoy playing が正しい）",
+        "to の後に -ing を付ける（to playing は誤り）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "comparison-basic",
+      "description": "比較級・最上級・as...as 構文を正しく作る",
+      "thinking_process": [
+        "比較対象が2つなら比較級（-er または more）、3つ以上なら最上級（-est または most）を選ぶ",
+        "2音節以上の形容詞には more / most を使う",
+        "as ... as は「同じくらい」を表す"
+      ],
+      "common_mistakes": [
+        "短い形容詞に more を付ける（more tall は誤り、taller が正しい）",
+        "最上級の前に the を忘れる（She is tallest. → She is the tallest. が正しい）",
+        "as ... as の2つ目の as を忘れる（as tall than は誤り）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "there-is-are",
+      "description": "There is / There are の使い方",
+      "thinking_process": [
+        "後に続く名詞が単数なら There is、複数なら There are を使う",
+        "疑問文・否定文への変換ルールを確認する"
+      ],
+      "common_mistakes": [
+        "複数名詞の前に There is を使う（There is two cats. は誤り）",
+        "There are の後に単数名詞を置く"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "past-progressive",
+      "description": "過去進行形（was/were + -ing）を正しく使う",
+      "thinking_process": [
+        "主語に合わせた was/were を選ぶ",
+        "「〜していた」という過去のある時点の動作を表すことを確認する",
+        "when や while と組み合わせた文の構造を理解する"
+      ],
+      "common_mistakes": [
+        "was/were の使い分けミス（You was playing は誤り）",
+        "過去形と過去進行形の意味の違いを区別できない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "complex-grammar-g2",
+      "description": "中2文法の複数項目が絡む複合問題（語順整序・誤り指摘・文の書き換え）",
+      "thinking_process": [
+        "問題文の主語・動詞・目的語・補語の構造を把握する",
+        "時制・接続詞・不定詞・比較などの知識を組み合わせる",
+        "文法的に正しい1つの正解を選ぶ"
+      ],
+      "common_mistakes": [
+        "語順の誤り（副詞の位置・否定語の位置）",
+        "複数の文法項目が混ざる問題で1つの項目しか確認しない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "gg1-001",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nI ( ) a student.",
+    "choices": [
+      { "label": "A", "text": "am" },
+      { "label": "B", "text": "is" },
+      { "label": "C", "text": "are" },
+      { "label": "D", "text": "be" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg1-002",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nTom and Ken ( ) good friends.",
+    "choices": [
+      { "label": "A", "text": "is" },
+      { "label": "B", "text": "am" },
+      { "label": "C", "text": "are" },
+      { "label": "D", "text": "be" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-003",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nShe ( ) not from Tokyo.",
+    "choices": [
+      { "label": "A", "text": "do" },
+      { "label": "B", "text": "are" },
+      { "label": "C", "text": "am" },
+      { "label": "D", "text": "is" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg1-004",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nMy father ( ) a teacher.",
+    "choices": [
+      { "label": "A", "text": "are" },
+      { "label": "B", "text": "is" },
+      { "label": "C", "text": "am" },
+      { "label": "D", "text": "does" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-005",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nI ( ) like soccer very much.",
+    "choices": [
+      { "label": "A", "text": "am" },
+      { "label": "B", "text": "is" },
+      { "label": "C", "text": "does" },
+      { "label": "D", "text": "don't" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg1-006",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nMy sister ( ) to school by bike.",
+    "choices": [
+      { "label": "A", "text": "go" },
+      { "label": "B", "text": "goes" },
+      { "label": "C", "text": "going" },
+      { "label": "D", "text": "is go" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-007",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nHe ( ) a book every evening.",
+    "choices": [
+      { "label": "A", "text": "read" },
+      { "label": "B", "text": "reads" },
+      { "label": "C", "text": "is read" },
+      { "label": "D", "text": "reades" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-008",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nThey ( ) their homework after dinner.",
+    "choices": [
+      { "label": "A", "text": "does" },
+      { "label": "B", "text": "is do" },
+      { "label": "C", "text": "do" },
+      { "label": "D", "text": "doing" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-009",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nThis is ( ) apple. It is very sweet.",
+    "choices": [
+      { "label": "A", "text": "a" },
+      { "label": "B", "text": "an" },
+      { "label": "C", "text": "the" },
+      { "label": "D", "text": "some" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-010",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nI have two ( ).",
+    "choices": [
+      { "label": "A", "text": "child" },
+      { "label": "B", "text": "childs" },
+      { "label": "C", "text": "childes" },
+      { "label": "D", "text": "children" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg1-011",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\n( ) Ken play tennis after school?",
+    "choices": [
+      { "label": "A", "text": "Is" },
+      { "label": "B", "text": "Do" },
+      { "label": "C", "text": "Does" },
+      { "label": "D", "text": "Are" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-012",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nShe doesn't ( ) any pets.",
+    "choices": [
+      { "label": "A", "text": "has" },
+      { "label": "B", "text": "having" },
+      { "label": "C", "text": "have" },
+      { "label": "D", "text": "is have" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-013",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nPlease give ( ) the map.",
+    "choices": [
+      { "label": "A", "text": "I" },
+      { "label": "B", "text": "me" },
+      { "label": "C", "text": "my" },
+      { "label": "D", "text": "mine" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-014",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nThis is ( ) pencil. （この鉛筆は彼のものです）",
+    "choices": [
+      { "label": "A", "text": "he" },
+      { "label": "B", "text": "him" },
+      { "label": "C", "text": "his" },
+      { "label": "D", "text": "himself" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-015",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\n( ) is your favorite subject?",
+    "choices": [
+      { "label": "A", "text": "Who" },
+      { "label": "B", "text": "Where" },
+      { "label": "C", "text": "When" },
+      { "label": "D", "text": "What" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg1-016",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\n( ) teaches you English? — Mr. Sato does.",
+    "choices": [
+      { "label": "A", "text": "What" },
+      { "label": "B", "text": "Where" },
+      { "label": "C", "text": "Who" },
+      { "label": "D", "text": "How" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-017",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の語を正しい語順に並べ替えて英文を作るとき、3番目に来る語を選びなさい。\n[ you / does / like / what / sport ]?",
+    "choices": [
+      { "label": "A", "text": "you" },
+      { "label": "B", "text": "does" },
+      { "label": "C", "text": "like" },
+      { "label": "D", "text": "what" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg1-018",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の誤りを含む部分を選びなさい。\nShe (A)don't (B)eat breakfast (C)every (D)morning.",
+    "choices": [
+      { "label": "A", "text": "don't → doesn't に直す" },
+      { "label": "B", "text": "eat → eats に直す" },
+      { "label": "C", "text": "every → any に直す" },
+      { "label": "D", "text": "morning → mornings に直す" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg1-019",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の文の誤りを含む部分を選びなさい。\n(A)Are (B)you (C)has (D)a dictionary?",
+    "choices": [
+      { "label": "A", "text": "Are → Do に直す" },
+      { "label": "B", "text": "you → your に直す" },
+      { "label": "C", "text": "has → have に直す" },
+      { "label": "D", "text": "a → an に直す" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg1-020",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "standard",
+    "question": "次の語を正しい語順に並べ替えて英文を作るとき、最初に来る語を選びなさい。\n[ your / where / sister / is ]?",
+    "choices": [
+      { "label": "A", "text": "your" },
+      { "label": "B", "text": "where" },
+      { "label": "C", "text": "sister" },
+      { "label": "D", "text": "is" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-021",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の会話文の（　）に入る最も適切なものを選びなさい。\nA: \"( ) does your brother come home?\"\nB: \"He usually comes home at six.\"",
+    "choices": [
+      { "label": "A", "text": "What time" },
+      { "label": "B", "text": "How many" },
+      { "label": "C", "text": "Who" },
+      { "label": "D", "text": "Where" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg1-022",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の文の誤りを含む部分を選びなさい。\n(A)My parents (B)is (C)not (D)at home now.",
+    "choices": [
+      { "label": "A", "text": "My parents → My parent に直す" },
+      { "label": "B", "text": "is → are に直す" },
+      { "label": "C", "text": "not → no に直す" },
+      { "label": "D", "text": "at home → home に直す" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-023",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nI often ( ) my room on Sundays.",
+    "choices": [
+      { "label": "A", "text": "am clean" },
+      { "label": "B", "text": "cleans" },
+      { "label": "C", "text": "clean" },
+      { "label": "D", "text": "is clean" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-024",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の会話文の（　）に入る最も適切なものを選びなさい。\nA: \"Is that your bag?\"\nB: \"No, it isn't. It's ( ).\"",
+    "choices": [
+      { "label": "A", "text": "she" },
+      { "label": "B", "text": "hers" },
+      { "label": "C", "text": "her" },
+      { "label": "D", "text": "herself" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-025",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の文の誤りを含む部分を選びなさい。\n(A)How (B)does (C)your mother (D)goes to work?",
+    "choices": [
+      { "label": "A", "text": "How → What に直す" },
+      { "label": "B", "text": "does → is に直す" },
+      { "label": "C", "text": "your mother → mother your に直す" },
+      { "label": "D", "text": "goes → go に直す" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg1-026",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nA: \"Are these ( ) glasses?\"\nB: \"Yes, they are mine.\"",
+    "choices": [
+      { "label": "A", "text": "you" },
+      { "label": "B", "text": "your" },
+      { "label": "C", "text": "yours" },
+      { "label": "D", "text": "yourself" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-027",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の文の誤りを含む部分を選びなさい。\nDoes (A)he (B)is (C)a (D)doctor?",
+    "choices": [
+      { "label": "A", "text": "he → his に直す" },
+      { "label": "B", "text": "is → be に直す" },
+      { "label": "C", "text": "a → an に直す" },
+      { "label": "D", "text": "doctor → doctors に直す" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-028",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の語を正しい語順に並べ替えて英文を作るとき、4番目に来る語を選びなさい。\n[ she / does / usually / what / after school / do ]?",
+    "choices": [
+      { "label": "A", "text": "does" },
+      { "label": "B", "text": "what" },
+      { "label": "C", "text": "usually" },
+      { "label": "D", "text": "she" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg1-029",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の文の（　）に入る最も適切なものを選びなさい。\nMy brother ( ) to music every night.",
+    "choices": [
+      { "label": "A", "text": "listen" },
+      { "label": "B", "text": "listens" },
+      { "label": "C", "text": "is listen" },
+      { "label": "D", "text": "does listen" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg1-030",
+    "subject": "英語（中学）",
+    "unit": "中1文法",
+    "difficulty": "exam",
+    "question": "次の会話文の（　）に入る最も適切なものを選びなさい。\nA: \"Do you and your sister like cats?\"\nB: \"Yes, ( ) do.\"",
+    "choices": [
+      { "label": "A", "text": "I" },
+      { "label": "B", "text": "she" },
+      { "label": "C", "text": "we" },
+      { "label": "D", "text": "they" }
+    ],
+    "correct": "C"
+  }
+]

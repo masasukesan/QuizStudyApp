@@ -1,0 +1,486 @@
+{
+  "gg2-001": {
+    "lead": "study（勉強する）は「子音字 + y」で終わる動詞です。この場合、過去形を作るときは y を i に変えて -ed をつけます。study → studied が正しい過去形です。",
+    "steps": [
+      "動詞の語尾を確認します。study は「d + y」という形です（子音字 d の後に y）。",
+      "子音字 + y で終わる動詞は、y を i に変えて -ed をつけます。study → studi + ed = studied。",
+      "studyed（yをそのままにする）や studing（-ingは進行形）は誤りです。"
+    ],
+    "common_mistakes": [
+      "study に -ed をそのままつけて studyed にしてしまう（y → ied のルールを忘れる）",
+      "studing と書いてしまう（これは現在進行形の -ing 形であり、過去形ではない）"
+    ],
+    "tips": [
+      "子音字 + y で終わる動詞の過去形：study→studied、carry→carried、try→tried",
+      "母音字 + y で終わる動詞はそのまま -ed をつける：play→played、enjoy→enjoyed"
+    ]
+  },
+  "gg2-002": {
+    "lead": "stop（止まる）は「短い母音 + 子音字」で終わる動詞です。この場合、過去形を作るときは語尾の子音字を重ねて -ed をつけます。stop → stopped が正しい形です。",
+    "steps": [
+      "動詞の語尾を確認します。stop は「短母音 o + 子音字 p」で終わっています。",
+      "短母音 + 子音字 1字で終わる動詞は、最後の子音字を重ねて -ed をつけます。stop → stopp + ed = stopped。",
+      "stoped（子音字を重ねない）は誤りです。"
+    ],
+    "common_mistakes": [
+      "stoped と書いてしまう（p を重ねるルールを忘れる）",
+      "stopping（-ing 形）と混同する"
+    ],
+    "tips": [
+      "同じルールの動詞：run→ran（不規則）は別として、stop→stopped、drop→dropped、plan→planned など",
+      "2音節以上で最後の母音にアクセントがある場合も同様：prefer→preferred"
+    ]
+  },
+  "gg2-003": {
+    "lead": "go（行く）は不規則動詞です。過去形は went であり、-ed をつけるのではありません。「昨日・先週・last ～」などが文中にあれば過去形を使います。",
+    "steps": [
+      "文に Last Sunday という過去を表す言葉があるので、動詞は過去形にします。",
+      "go の過去形を思い出します。go は不規則変化なので went です（goed は存在しない）。",
+      "go / goes は現在形、went が過去形です。"
+    ],
+    "common_mistakes": [
+      "不規則動詞に -ed をつけて goed と書いてしまう",
+      "goes（三人称単数現在形）と混同する"
+    ],
+    "tips": [
+      "よく使う不規則動詞の過去形：go→went、come→came、see→saw、eat→ate、have→had",
+      "不規則動詞は文章の中で何度も使って覚えるのが効果的です"
+    ]
+  },
+  "gg2-004": {
+    "lead": "eat（食べる）は不規則動詞で、過去形は ate です。「yesterday（昨日）、last ～（先の〜）、ago（〜前）」などの語があれば過去形を使います。",
+    "steps": [
+      "文に yesterday という過去を表す語があるので、動詞は過去形を使います。",
+      "eat の過去形を思い出します。eat は不規則変化なので ate です（eated は誤り）。",
+      "eat（原形・現在形）、ate（過去形）、eating（-ing 形）を区別します。"
+    ],
+    "common_mistakes": [
+      "eat に -ed をつけて eated と書いてしまう（不規則動詞に -ed をつけない）",
+      "eating（進行形）と混同する"
+    ],
+    "tips": [
+      "不規則動詞 eat の変化：eat → ate → eaten（過去分詞）",
+      "at noon（正午に）、for lunch（昼食に）など時間を表す表現も合わせて覚えよう"
+    ]
+  },
+  "gg2-005": {
+    "lead": "現在進行形は「be 動詞 + 動詞の -ing 形」で「今〜しているところ」を表します。be 動詞は主語によって変わります。He（彼）には is を使います。",
+    "steps": [
+      "現在進行形の形を確認します。主語 + be動詞 + 動詞の -ing 形、です。",
+      "主語と be 動詞の対応を確認します：I → am、He/She/It（1人・1つのもの）→ is、You/We/They → are。",
+      "主語が He なので、is が正しい。am（I専用）、are（You/We/They用）、be（原形）は誤りです。"
+    ],
+    "common_mistakes": [
+      "He are playing. と書いてしまう（He には are ではなく is を使う）",
+      "be をそのまま使う（He be playing. は文法的に誤り）"
+    ],
+    "tips": [
+      "be 動詞の使い分け：I → am、He/She/It/単数名詞 → is、You/We/They/複数名詞 → are",
+      "現在進行形は「今まさにしている動作」を表します。now（今）、at this moment（今この瞬間）などと一緒に使われることが多いです"
+    ]
+  },
+  "gg2-006": {
+    "lead": "make（作る）を現在進行形にするとき、-ing 形は making です。make のように e で終わる動詞は、e を取り除いてから -ing をつけます。",
+    "steps": [
+      "現在進行形は be 動詞 + 動詞の -ing 形で作ります。",
+      "make は e で終わる動詞です。この場合、e を取ってから -ing をつけます：make → mak + ing = making。",
+      "makeing（e を取り忘れ）は誤りです。makes は三人称単数現在形、maked は存在しない形です。"
+    ],
+    "common_mistakes": [
+      "makeing と書いてしまう（e を取り忘れる）",
+      "makes と混同する（makes は現在形、making は進行形）"
+    ],
+    "tips": [
+      "e で終わる動詞の -ing 形：make→making、write→writing、come→coming、take→taking",
+      "My mother is making dinner. = お母さんは今夕食を作っているところです"
+    ]
+  },
+  "gg2-007": {
+    "lead": "「（場所）に〜があります」と言うとき、英語では There is / There are を使います。後に続く名詞が単数（1つ）のときは There is を使います。",
+    "steps": [
+      "この文では「cat（猫）が1匹」という単数の名詞が続きます。",
+      "単数名詞の前には There is を使います。",
+      "There are は複数名詞に使う形です。There be は文法的に使えない形、There have は誤りです。"
+    ],
+    "common_mistakes": [
+      "There are a cat. と書いてしまう（単数には is、複数には are）",
+      "There be という形を使う（be は動詞の原形なので文の述語としては使えない）"
+    ],
+    "tips": [
+      "There is + 単数名詞：There is a book on the desk.（机の上に本が1冊あります）",
+      "There are + 複数名詞：There are two books on the desk.（机の上に本が2冊あります）"
+    ]
+  },
+  "gg2-008": {
+    "lead": "「（場所）に〜があります」と言うとき、後に続く名詞が複数（2つ以上）のときは There are を使います。three libraries（3つの図書館）は複数なので There are が正しいです。",
+    "steps": [
+      "この文では「three libraries（3つの図書館）」という複数の名詞が続きます。",
+      "複数名詞の前には There are を使います。",
+      "There is は単数名詞に使う形です。There have、There am は文法的に存在しない形です。"
+    ],
+    "common_mistakes": [
+      "There is three libraries. と書いてしまう（複数名詞には are を使う）",
+      "名詞の数に関係なく There is を使ってしまう"
+    ],
+    "tips": [
+      "判断のコツ：There is/are の後に来る名詞が単数か複数かを確認する",
+      "疑問文：Is there a cat? / Are there any cats? という語順になります"
+    ]
+  },
+  "gg2-009": {
+    "lead": "過去進行形は「was/were + 動詞の -ing 形」で「（過去の時点で）〜していた」を表します。主語が They（複数）のときは were を使います。",
+    "steps": [
+      "過去進行形の形を確認します：主語 + was/were + 動詞の -ing 形。",
+      "主語と was/were の対応を確認します：I/He/She/It（単数）→ was、You/We/They（複数）→ were。",
+      "主語が They（複数）なので were が正しい。was は単数に使う形です。"
+    ],
+    "common_mistakes": [
+      "They was watching. と書いてしまう（They には were を使う）",
+      "現在形の are と混同する（過去の話なので was/were を使う）"
+    ],
+    "tips": [
+      "過去進行形の was/were の使い分け：I/He/She/It → was、You/We/They → were",
+      "when I came home（私が帰宅したとき）など、過去の時点を表す表現と一緒によく使われます"
+    ]
+  },
+  "gg2-010": {
+    "lead": "「〜したとき、（その時点で）〜していた」という文では、過去進行形（was/were + -ing）を使います。「電話したとき、彼が眠っているという状態だった」ので he was sleeping が正しいです。",
+    "steps": [
+      "「電話したとき（when I called）」は過去の一点を表します。",
+      "「その時点で眠っていた」という継続的な動作を表すには過去進行形を使います：he was sleeping。",
+      "he slept は「眠った（完了した）」、he sleeps は現在形、he sleep は文法的に誤りです。"
+    ],
+    "common_mistakes": [
+      "he slept を選んでしまう（slept は過去に眠ったという事実を表し、「その瞬間に進行中だった」という意味にならない）",
+      "過去形と過去進行形の使い分けを理解していない"
+    ],
+    "tips": [
+      "過去形：He slept for eight hours.（8時間眠った＝完了した事実）",
+      "過去進行形：He was sleeping when I called.（電話したとき、ちょうど眠っている最中だった）"
+    ]
+  },
+  "gg2-011": {
+    "lead": "will は「その場で初めて決めた意思・とっさの判断」を表すときに使います。Bが「できないなら助けてあげよう」とその場で決めた行動なので I will が正しいです。",
+    "steps": [
+      "会話の流れを読みます。Aが「ビンが開けられない」と困っています。",
+      "Bはそれを聞いて、その場で「助けてあげよう」と決めています（事前に計画していない）。",
+      "その場で決めたことは will を使います。I will help you. が自然な表現です。"
+    ],
+    "common_mistakes": [
+      "I am going to を選んでしまう（be going to は事前に計画・準備していたことを表す）",
+      "「未来のことだから be going to でも同じ」と思い込む"
+    ],
+    "tips": [
+      "will の使い方①：その場で決めた意思 → 'I'll help you.' のように短縮形もよく使われます",
+      "be going to の使い方：事前の計画 → 'I'm going to visit Tokyo next week.'（前から行く予定だった）"
+    ]
+  },
+  "gg2-012": {
+    "lead": "be going to は「前から計画・予定していること」を表します。「（前から決まっている計画で）動物園へ行く予定」なので are going to が正しいです。",
+    "steps": [
+      "「前から決まっている計画」という注釈があるので be going to を使います。",
+      "主語が We（複数）なので be 動詞は are を使います：We are going to + 動詞の原形。",
+      "are go to（are の後に go という原形をそのまま置く）や are going（to が抜けている）は誤りです。"
+    ],
+    "common_mistakes": [
+      "be going to の to を忘れて are going だけで終わらせる",
+      "are go to と書いてしまう（going の ing を忘れる）"
+    ],
+    "tips": [
+      "be going to の形：am/is/are + going + to + 動詞の原形",
+      "短縮形：I'm going to、He's going to、We're going to という形もよく使われます"
+    ]
+  },
+  "gg2-013": {
+    "lead": "接続詞 because は「〜なので、〜だから」という理由を表します。「雨が降っていたので家にいた」は理由の関係なので because が正しいです。",
+    "steps": [
+      "2つの文の関係を読み取ります。「家にいた」← 理由：「雨が降っていた」。",
+      "理由を表すには because（〜なので）を使います。",
+      "when は時間（〜のとき）、if は条件（もし〜なら）、but は逆接（しかし）を表すので意味が違います。"
+    ],
+    "common_mistakes": [
+      "so と混同する（so は主節の後ろに置く：It was raining, so I stayed home.）",
+      "because の後ろが理由、because の前が結果という語順を忘れる"
+    ],
+    "tips": [
+      "because を使う語順：[結果] because [理由] または Because [理由], [結果]",
+      "so と because の使い分け：I was tired, so I went to bed. / I went to bed because I was tired."
+    ]
+  },
+  "gg2-014": {
+    "lead": "接続詞 if は「もし〜なら」という条件を表します。「もし一生懸命勉強するなら、テストに合格するでしょう」は条件の関係なので if が正しいです。",
+    "steps": [
+      "2つの文の関係を読み取ります。「テストに合格する」← 条件：「一生懸命勉強する」。",
+      "条件を表すには if（もし〜なら）を使います。",
+      "because は理由（〜なので）、when は時間（〜のとき）、so は結果（だから）を表すので意味が違います。"
+    ],
+    "common_mistakes": [
+      "when と if を混同する（when は時間的なつながり、if は条件を表す）",
+      "if 節の中で will を使ってしまう（If you will study は誤り、If you study が正しい）"
+    ],
+    "tips": [
+      "if 節の重要ルール：if の後の動詞は現在形を使う（未来の意味でも will は使わない）",
+      "If it rains tomorrow, I will stay home.（もし明日雨なら、家にいます）"
+    ]
+  },
+  "gg2-015": {
+    "lead": "接続詞 when は「〜のとき」という時間的なつながりを表します。「帰宅したとき、姉が料理していた」は時間の関係なので when が正しいです。",
+    "steps": [
+      "2つの文の関係を読み取ります。「姉が料理していた」← 時：「家に帰ったとき」。",
+      "時間的なつながりを表すには when（〜のとき）を使います。",
+      "because は理由（〜なので）、if は条件（もし〜なら）、though は逆接（〜だけれども）を表します。"
+    ],
+    "common_mistakes": [
+      "when と if を混同する（if は「もし〜なら」という仮定、when は「〜のとき」という時間）",
+      "when 節と主節の時制をそろえてしまう（過去進行形 was cooking を過去形に変えてしまう）"
+    ],
+    "tips": [
+      "when 節 + 過去進行形：When I got home, she was cooking.（帰宅したとき、彼女は料理中だった）",
+      "got home は「家に着いた（一瞬の動作）」、was cooking は「ちょうど料理していた（継続中の動作）」というニュアンスの違いに注目"
+    ]
+  },
+  "gg2-016": {
+    "lead": "enjoy（楽しむ）は後ろに動詞が続くとき、動名詞（-ing 形）を使います。to 不定詞（to + 動詞原形）は使えません。enjoy taking photos が正しい形です。",
+    "steps": [
+      "enjoy は「〜することを楽しむ」という意味の動詞です。",
+      "enjoy の後ろに動詞が続くときは動名詞（動詞 + -ing）を使います。take → taking。",
+      "enjoy to take は誤りです。to take（不定詞）ではなく taking（動名詞）を使います。"
+    ],
+    "common_mistakes": [
+      "enjoy to take と書いてしまう（enjoy の後には to 不定詞は使えない）",
+      "take（原形）や took（過去形）をそのまま置いてしまう"
+    ],
+    "tips": [
+      "動名詞（-ing形）しか取れない動詞：enjoy、finish（終える）、stop（やめる）、practice（練習する）",
+      "覚え方：enjoy / finish / stop の後は -ing だけ！"
+    ]
+  },
+  "gg2-017": {
+    "lead": "want（望む）は後ろに動詞が続くとき、to 不定詞（to + 動詞原形）を使います。want to become が正しい形です。",
+    "steps": [
+      "want は「〜したい」という意味の動詞です。",
+      "want の後ろに動詞が続くときは to 不定詞（to + 動詞原形）を使います。want to become。",
+      "want becoming（動名詞）や want become（原形のみ）は誤りです。"
+    ],
+    "common_mistakes": [
+      "want becoming と書いてしまう（want の後には動名詞ではなく to 不定詞を使う）",
+      "become のみを置いてしまう（to を忘れる）"
+    ],
+    "tips": [
+      "to 不定詞（to + 動詞原形）を取る動詞：want、hope（望む）、decide（決める）、plan（計画する）",
+      "want to + 動詞原形：want to eat、want to go、want to become など"
+    ]
+  },
+  "gg2-018": {
+    "lead": "2つのものを比べるときは比較級を使います。短い形容詞（1音節）の比較級は -er をつけて than と一緒に使います。tall の比較級は taller than です。",
+    "steps": [
+      "比較の文「Ken は Tom より〜だ」という形なので、比較級を使います。",
+      "tall は1音節の形容詞です。1音節の形容詞の比較級は -er をつけます：tall → taller。",
+      "more tall（-er と more を一緒に使う）は誤り。tallest は最上級（3つ以上の中で1番）です。"
+    ],
+    "common_mistakes": [
+      "more tall と書いてしまう（short adjective に more は不要）",
+      "tallest と書いてしまう（tallest は最上級で「〜の中で一番高い」を表す）"
+    ],
+    "tips": [
+      "比較級の作り方：short adjective（1〜2音節）→ -er をつける（tall→taller、old→older）",
+      "long adjective（3音節以上）→ more をつける（beautiful→more beautiful、interesting→more interesting）"
+    ]
+  },
+  "gg2-019": {
+    "lead": "3つ以上の中で「一番〜だ」と言うときは最上級を使います。最上級は the + 形容詞 -est の形を取ります。in her class（クラスの中で）があるので最上級が必要です。",
+    "steps": [
+      "「クラスの中で」（in her class）という表現があるので、複数の中の最大を表す最上級を使います。",
+      "tall の最上級は the tallest です（the を忘れずに）。",
+      "more tall・taller は比較級（2つを比べる）、tall（原形）は比較でも最上級でもありません。"
+    ],
+    "common_mistakes": [
+      "the を忘れて tallest だけにしてしまう（最上級には必ず the をつける）",
+      "taller（比較級）を使ってしまう（比較級は than を使って2つを比べる場合に使う）"
+    ],
+    "tips": [
+      "最上級の形：the + 形容詞 -est（short adjective）または the most + 形容詞（long adjective）",
+      "最上級によく使う表現：in the class（クラスで）、in Japan（日本で）、of all（全ての中で）"
+    ]
+  },
+  "gg2-020": {
+    "lead": "as ... as は「〜と同じくらい...だ」という意味で、2つのものが同じ程度だと言うときに使います。My bag is as heavy as yours.（私のバッグはあなたのバッグと同じくらい重い）",
+    "steps": [
+      "as ... as 構文の形を確認します：as + 形容詞 + as。前後に as が1つずつ必要です。",
+      "空欄は as heavy の後ろで、2つ目の as が入ります。",
+      "than は比較級（〜より）、more は比較級を作る語、so は別の用法です。"
+    ],
+    "common_mistakes": [
+      "2つ目の as を忘れて as heavy than と書いてしまう（than は比較級、as...as は同等比較）",
+      "as heavy so と書いてしまう"
+    ],
+    "tips": [
+      "as...as の使い方：He is as tall as his father.（彼は父親と同じくらい背が高い）",
+      "否定形：not as...as で「〜ほど...でない」：My bag is not as heavy as yours.（私のバッグはあなたのほど重くない）"
+    ]
+  },
+  "gg2-021": {
+    "lead": "if（もし〜なら）を使う節（if節）の中では、未来のことでも will を使いません。現在形を使います。「もし明日雨が降ったら」は If it rains tomorrow と表現します。",
+    "steps": [
+      "元の文 If it will rain に注目します。if 節の中で will が使われています。",
+      "if 節では未来の内容でも will を使わず、現在形を使うルールがあります。",
+      "If it will rain → If it rains に直すのが正しい修正です。主節（we will cancel）の will はそのままでOKです。"
+    ],
+    "common_mistakes": [
+      "if 節の中に will を使っても構わないと思い込む（will は if 節の外・主節で使う）",
+      "主節の we will cancel まで直そうとしてしまう（主節の will は正しい）"
+    ],
+    "tips": [
+      "if 節のルール：If + 主語 + 現在形, 主語 + will + 動詞原形",
+      "例：If it rains tomorrow, I will stay home. / If you practice every day, you will improve."
+    ]
+  },
+  "gg2-022": {
+    "lead": "because（〜なので）と so（だから）は同じ「理由→結果」の関係を表しますが、1つの文の中に両方を使うことはできません。Because ... so ... という形は文法的な誤りです。",
+    "steps": [
+      "各選択肢の接続詞の使い方を確認します。",
+      "A〜C は文法的に正しい文です。A: because（理由の接続詞）、B: because（文頭）、C: so（結果）。",
+      "D は Because と so を同時に使っています。Because it was cold, so I put on a coat. は誤りです。Because か so のどちらか一方だけを使います。"
+    ],
+    "common_mistakes": [
+      "Because と so を一緒に使ってしまう（日本語の「〜だから、だから〜した」の感覚で両方入れてしまう）",
+      "A〜C の文に誤りがあると思い込む"
+    ],
+    "tips": [
+      "正しい表現①：Because it was cold, I put on a coat.（理由を前に置く）",
+      "正しい表現②：It was cold, so I put on a coat.（結果を後ろに置く）",
+      "because と so を同時に使うのは日本語的な発想からくる典型的なミスです"
+    ]
+  },
+  "gg2-023": {
+    "lead": "difficult（難しい）は3音節（dif-fi-cult）の長い形容詞です。3音節以上の形容詞の比較級は -er をつけるのではなく、前に more を置きます。more difficult than が正しい形です。",
+    "steps": [
+      "difficult は3音節の長い形容詞です（dif-fi-cult と数えます）。",
+      "3音節以上の形容詞の比較級は more + 形容詞 + than の形を使います。",
+      "difficulter（短い形容詞のように -er をつける）、most difficult than（最上級の形になっている）、more difficultly（difficultly は副詞）は誤りです。"
+    ],
+    "common_mistakes": [
+      "difficulter と書いてしまう（長い形容詞に -er はつけない）",
+      "most difficult than と書いてしまう（than は比較級と使う、最上級は in / of と使う）"
+    ],
+    "tips": [
+      "比較級の作り方まとめ：1〜2音節（short）→ -er（taller, nicer）、3音節以上（long）→ more（more difficult, more interesting）",
+      "important（im-por-tant、3音節）→ more important、beautiful（4音節）→ more beautiful"
+    ]
+  },
+  "gg2-024": {
+    "lead": "to 不定詞には「〜するために」という目的を表す使い方（副詞的用法）があります。「本を借りるために図書館へ行った」は She went to the library to borrow some books. と表現します。",
+    "steps": [
+      "「〜するために」という目的を表すには to + 動詞原形（to 不定詞の副詞的用法）を使います。",
+      "borrow（借りる）の to 不定詞形は to borrow です。",
+      "borrow（原形のみ）、borrowed（過去形）、borrowing（-ing 形）はこの目的の用法には使えません。"
+    ],
+    "common_mistakes": [
+      "borrowing を選んでしまう（borrowing は進行形・動名詞の形、目的を表す to 不定詞ではない）",
+      "borrowed（過去形）を選んでしまう"
+    ],
+    "tips": [
+      "to 不定詞の副詞的用法（目的）：動詞の後ろに to + 動詞原形を置く",
+      "例：I went to the park to play soccer.（サッカーをするために公園へ行った）",
+      "例：She studied hard to pass the exam.（試験に合格するために一生懸命勉強した）"
+    ]
+  },
+  "gg2-025": {
+    "lead": "「帰宅したとき（過去の一点）、彼女は電話で話していた（その時点で進行中）」という文では、主節に過去進行形 was talking を使います。when 節は過去形 got、主節は過去進行形 was talking の組み合わせが正しいです。",
+    "steps": [
+      "「帰宅したとき」は過去の一点を表すので when I got home（過去形）を使います。",
+      "「その時点で話していた」は過去のある時点で進行中の動作なので、過去進行形 was talking を使います。",
+      "talked（過去形）は「話した」という完了した事実を表し、「話している最中だった」というニュアンスにはなりません。"
+    ],
+    "common_mistakes": [
+      "she talked と書いてしまう（talked は完了した動作、was talking は進行中だった動作）",
+      "時制を現在形にしてしまう（she talks / she is talking は現在のことを表す）"
+    ],
+    "tips": [
+      "when + 過去形（一点の動作）+ 過去進行形（継続中の動作）はセットで覚えよう",
+      "When I arrived, he was cooking.（着いたとき、彼はちょうど料理していた）"
+    ]
+  },
+  "gg2-026": {
+    "lead": "stop の後に動名詞（-ing 形）を置くと「〜するのをやめる」という意味になります。「騒音を立てるのをやめて」は stop making noise です。",
+    "steps": [
+      "stop には2つの使い方があります：stop + -ing（〜するのをやめる）と stop + to 不定詞（〜するために立ち止まる）。",
+      "「騒音を立てるのをやめてください」は「やめる」なので stop + making（-ing 形）を使います。",
+      "stop to make は「騒音を立てるために立ち止まる」という全く逆の意味になるので誤りです。"
+    ],
+    "common_mistakes": [
+      "stop to make を選んでしまう（stop to do は「〜するために立ち止まる」で意味が反対）",
+      "stop make（-ing をつけ忘れる）を選んでしまう"
+    ],
+    "tips": [
+      "stop の使い分け：stop making（やめる）vs. stop to make（〜するために立ち止まる）",
+      "He stopped smoking.（彼はタバコを吸うのをやめた）",
+      "He stopped to smoke.（彼は（歩みを止めて）タバコを吸うために立ち止まった）"
+    ]
+  },
+  "gg2-027": {
+    "lead": "「クラスで一番〜だ」のように、ある集団の中で最大・最小を表すときは最上級を使います。in her school（学校の中で）があるので最上級 the most popular が正しく、比較級 the more popular は誤りです。",
+    "steps": [
+      "in her school という表現は「学校の生徒全員の中で」という集団を表しています。",
+      "集団の中で最大を表すには最上級（the most / the -est）を使います。",
+      "the more popular は比較級の形で「2つを比べる」ときに使います。in her school（集団）と合わないので誤りです。"
+    ],
+    "common_mistakes": [
+      "more popular（比較級）と most popular（最上級）を混同する",
+      "最上級に the が必要なことを忘れる"
+    ],
+    "tips": [
+      "比較級（-er / more）+ than：2つを比べるとき",
+      "最上級（the -est / the most）+ in/of：集団・範囲の中で一番のとき",
+      "popular（3音節）なので比較級は more popular、最上級は the most popular"
+    ]
+  },
+  "gg2-028": {
+    "lead": "if 節の中では未来のことでも現在形を使います（will は使いません）。主節には will を使います。「もし明日晴れたら（If it is sunny tomorrow）、〜でしょう（we will go）」が正しい組み合わせです。",
+    "steps": [
+      "if 節のルール：if 節の中は未来のことでも現在形。→ If it is sunny（will be は使わない）。",
+      "主節のルール：未来のことは will を使う。→ we will go to the park。",
+      "is / will の組み合わせが正しいです。will be / will（Dは if 節に will be を使っている）は誤りです。"
+    ],
+    "common_mistakes": [
+      "if 節に will be を使ってしまう（If it will be sunny は誤り）",
+      "主節に am going to を使う場合は主語が一致しない（we なので are going to が必要だが、この選択肢は I am going to）"
+    ],
+    "tips": [
+      "if 節のルール：If + 現在形, 主語 + will + 原形",
+      "同じルールが when 節にも適用されます：When it rains, I will stay home."
+    ]
+  },
+  "gg2-029": {
+    "lead": "when（〜するとき）を使った未来の文では、when 節の中は現在形を使い、主節では will を使います。「彼が大阪を訪れるとき（When he visits）、大阪城を見るでしょう（he will see）」が正しい形です。",
+    "steps": [
+      "when 節のルール：when 節の中では未来のことでも現在形を使います。→ when he visits（will visit は使わない）。",
+      "主節には未来の意味で will を使います。→ he will see Osaka Castle。",
+      "visits / will see の組み合わせが正しいです。will visit / will see（when 節に will を使っている）は誤りです。"
+    ],
+    "common_mistakes": [
+      "when 節に will visit を使ってしまう（when 節でも if 節と同様に will は使わない）",
+      "visits / sees（主節に will がない）を選んでしまう（未来のことは主節で will が必要）"
+    ],
+    "tips": [
+      "when・if・before・after・until などの時・条件を表す接続詞の節では will を使わない",
+      "When he visits Osaka, he will see Osaka Castle.（大阪を訪れたときに大阪城を見るでしょう）"
+    ]
+  },
+  "gg2-030": {
+    "lead": "語を並べ替えると She is two years older than my sister.（彼女は私の姉より2歳年上です）となります。比較級 older than の前に「2歳分の差」を表す two years が置かれるのがポイントです。",
+    "steps": [
+      "主語と動詞を決めます：She is（彼女は〜です）。",
+      "「〜より2歳年上」は two years older than の形を使います（差の量 + 比較級 + than）。",
+      "She（1）is（2）two（3）years（4）older（5）than（6）my sister（7）。5番目の語は older です。"
+    ],
+    "common_mistakes": [
+      "two years の位置を間違え、She is older two years than my sister. と並べてしまう",
+      "「差の量（two years）+ 比較級（older）+ than」という語順を覚えていない"
+    ],
+    "tips": [
+      "差の量を表す比較級：two years older than（〜より2歳年上）、10 cm taller than（〜より10cm背が高い）",
+      "He is three years younger than me.（彼は私より3歳年下です）"
+    ]
+  }
+}

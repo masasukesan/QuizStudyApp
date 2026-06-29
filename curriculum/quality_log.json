@@ -119,13 +119,6 @@
     "notes": ""
   },
   {
-    "path": "curriculum/math/2B/expressions-and-proofs/logic-and-proofs",
-    "status": "passed",
-    "checked_at": "2026-06-23",
-    "question_count": 30,
-    "notes": ""
-  },
-  {
     "path": "curriculum/english-junior/reading/text-comprehension/opinion-essay",
     "status": "passed",
     "checked_at": "2026-06-28",
@@ -143,6 +136,34 @@
     "path": "curriculum/math/1A/geometry-and-measure/advanced-trigonometric-problems",
     "status": "passed",
     "checked_at": "2026-06-28",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-and-measure/basic-trigonometric-ratios",
+    "status": "passed",
+    "checked_at": "2026-06-28",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/expressions-and-proofs/logic-and-proofs",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/grammar-g1",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/grammar-g2",
+    "status": "passed",
+    "checked_at": "2026-06-29",
     "question_count": 30,
     "notes": ""
   }

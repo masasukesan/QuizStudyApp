@@ -1,0 +1,422 @@
+[
+  {
+    "id": "gg2-001",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る正しい動詞の形を選びなさい。（動詞: study）\nShe ( ) English for two hours yesterday.",
+    "choices": [
+      { "label": "A", "text": "study" },
+      { "label": "B", "text": "studyed" },
+      { "label": "C", "text": "studied" },
+      { "label": "D", "text": "studing" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg2-002",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る正しい形を選びなさい。（動詞: stop）\nHe ( ) running when he heard the bell.",
+    "choices": [
+      { "label": "A", "text": "stopped" },
+      { "label": "B", "text": "stoped" },
+      { "label": "C", "text": "stop" },
+      { "label": "D", "text": "stopping" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-003",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る正しい形を選びなさい。\nLast Sunday, we ( ) to the museum.",
+    "choices": [
+      { "label": "A", "text": "goed" },
+      { "label": "B", "text": "went" },
+      { "label": "C", "text": "go" },
+      { "label": "D", "text": "goes" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg2-004",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る正しい形を選びなさい。\nI ( ) lunch at noon yesterday.",
+    "choices": [
+      { "label": "A", "text": "eated" },
+      { "label": "B", "text": "eat" },
+      { "label": "C", "text": "eating" },
+      { "label": "D", "text": "ate" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg2-005",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る正しい be 動詞を選びなさい。\nHe ( ) playing soccer in the park now.",
+    "choices": [
+      { "label": "A", "text": "is" },
+      { "label": "B", "text": "am" },
+      { "label": "C", "text": "are" },
+      { "label": "D", "text": "be" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-006",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る正しい形を選びなさい。（動詞: make）\nMy mother ( ) dinner now.",
+    "choices": [
+      { "label": "A", "text": "makeing" },
+      { "label": "B", "text": "makes" },
+      { "label": "C", "text": "making" },
+      { "label": "D", "text": "maked" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg2-007",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "「テーブルの下に猫が1匹います」という意味になるように、（　）に入る正しい形を選びなさい。\n( ) a cat under the table.",
+    "choices": [
+      { "label": "A", "text": "There are" },
+      { "label": "B", "text": "There is" },
+      { "label": "C", "text": "There be" },
+      { "label": "D", "text": "There have" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg2-008",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "「この町には3つの図書館があります」という意味になるように、（　）に入る正しい形を選びなさい。\n( ) three libraries in this town.",
+    "choices": [
+      { "label": "A", "text": "There is" },
+      { "label": "B", "text": "There have" },
+      { "label": "C", "text": "There am" },
+      { "label": "D", "text": "There are" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg2-009",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "次の文の（　）に入る正しい be 動詞を選びなさい。\nThey ( ) watching TV when I came home.",
+    "choices": [
+      { "label": "A", "text": "were" },
+      { "label": "B", "text": "was" },
+      { "label": "C", "text": "are" },
+      { "label": "D", "text": "is" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-010",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "basic",
+    "question": "「私が電話したとき、彼は眠っていた。」を表す正しい英文を選びなさい。",
+    "choices": [
+      { "label": "A", "text": "When I called, he slept." },
+      { "label": "B", "text": "When I called, he sleeps." },
+      { "label": "C", "text": "When I called, he was sleeping." },
+      { "label": "D", "text": "When I called, he sleep." }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg2-011",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の会話を読み、（　）に入る正しい形を選びなさい。\nA: \"I can't open this jar.\"\nB: \"( ) help you.\" ※Bがその場で決めた行動",
+    "choices": [
+      { "label": "A", "text": "I am going to" },
+      { "label": "B", "text": "I will" },
+      { "label": "C", "text": "I am" },
+      { "label": "D", "text": "I do" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg2-012",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "「私たちは来週の土曜日に動物園へ行く予定です（前から決まっている計画）」という意味になるように、（　）に入る正しい形を選びなさい。\nWe ( ) go to the zoo next Saturday.",
+    "choices": [
+      { "label": "A", "text": "will" },
+      { "label": "B", "text": "are go to" },
+      { "label": "C", "text": "are going" },
+      { "label": "D", "text": "are going to" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg2-013",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい接続詞を選びなさい。\nI stayed home ( ) it was raining.",
+    "choices": [
+      { "label": "A", "text": "because" },
+      { "label": "B", "text": "when" },
+      { "label": "C", "text": "if" },
+      { "label": "D", "text": "but" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-014",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい接続詞を選びなさい。\n( ) you study hard, you will pass the test.",
+    "choices": [
+      { "label": "A", "text": "Because" },
+      { "label": "B", "text": "When" },
+      { "label": "C", "text": "If" },
+      { "label": "D", "text": "So" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg2-015",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい接続詞を選びなさい。\n( ) I got home, my sister was cooking dinner.",
+    "choices": [
+      { "label": "A", "text": "Because" },
+      { "label": "B", "text": "When" },
+      { "label": "C", "text": "If" },
+      { "label": "D", "text": "Though" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg2-016",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい形を選びなさい。（動詞: take）\nShe enjoys ( ) photos.",
+    "choices": [
+      { "label": "A", "text": "to take" },
+      { "label": "B", "text": "take" },
+      { "label": "C", "text": "took" },
+      { "label": "D", "text": "taking" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg2-017",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい形を選びなさい。（動詞: become）\nHe wants ( ) a doctor in the future.",
+    "choices": [
+      { "label": "A", "text": "to become" },
+      { "label": "B", "text": "becoming" },
+      { "label": "C", "text": "become" },
+      { "label": "D", "text": "became" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-018",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい形を選びなさい。（tall の比較級）\nKen is ( ) than Tom.",
+    "choices": [
+      { "label": "A", "text": "more tall" },
+      { "label": "B", "text": "tallest" },
+      { "label": "C", "text": "taller" },
+      { "label": "D", "text": "most tall" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg2-019",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい形を選びなさい。（tall の最上級）\nShe is ( ) student in her class.",
+    "choices": [
+      { "label": "A", "text": "more tall" },
+      { "label": "B", "text": "the tallest" },
+      { "label": "C", "text": "taller" },
+      { "label": "D", "text": "tall" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg2-020",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "standard",
+    "question": "次の文の（　）に入る正しい語を選びなさい。\nMy bag is as heavy ( ) yours.",
+    "choices": [
+      { "label": "A", "text": "than" },
+      { "label": "B", "text": "more" },
+      { "label": "C", "text": "so" },
+      { "label": "D", "text": "as" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg2-021",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "次の文には文法的な誤りがあります。誤りのある部分の正しい直し方を選びなさい。\n\"If it will rain tomorrow, we will cancel the picnic.\"",
+    "choices": [
+      { "label": "A", "text": "If it will rain → If it rains" },
+      { "label": "B", "text": "tomorrow → yesterday" },
+      { "label": "C", "text": "we will cancel → we cancel" },
+      { "label": "D", "text": "the picnic → a picnic" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-022",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "次の4つの英文のうち、下線部に文法的な誤りがあるものを選びなさい。",
+    "choices": [
+      { "label": "A", "text": "I stayed home because it was raining." },
+      { "label": "B", "text": "Because it was hot, I drank cold water." },
+      { "label": "C", "text": "It was raining, so I took an umbrella." },
+      { "label": "D", "text": "Because it was cold, so I put on a coat." }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg2-023",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "「英語は数学よりも難しい。」を英語にしたとき、（　）に入る正しい形を選びなさい。\nEnglish is ( ) math.",
+    "choices": [
+      { "label": "A", "text": "difficulter than" },
+      { "label": "B", "text": "more difficult than" },
+      { "label": "C", "text": "most difficult than" },
+      { "label": "D", "text": "more difficultly than" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg2-024",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "「本を借りるために、彼女は図書館へ行きました。」を表す正しい形を選びなさい。（動詞: borrow）\nShe went to the library ( ) some books.",
+    "choices": [
+      { "label": "A", "text": "borrow" },
+      { "label": "B", "text": "borrowed" },
+      { "label": "C", "text": "borrowing" },
+      { "label": "D", "text": "to borrow" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "gg2-025",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "「私が帰宅したとき、彼女は電話で話していました。」を表す正しい英文を選びなさい。",
+    "choices": [
+      { "label": "A", "text": "When I got home, she was talking on the phone." },
+      { "label": "B", "text": "When I got home, she talked on the phone." },
+      { "label": "C", "text": "When I get home, she was talking on the phone." },
+      { "label": "D", "text": "When I got home, she is talking on the phone." }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-026",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "次の文の（　）に入る正しい形を選びなさい。「騒音を立てるのをやめてください。他の人たちが勉強しています。」\nPlease stop ( ) noise. Others are studying.",
+    "choices": [
+      { "label": "A", "text": "to make" },
+      { "label": "B", "text": "make" },
+      { "label": "C", "text": "making" },
+      { "label": "D", "text": "made" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg2-027",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "次の文には文法的な誤りがあります。正しい直し方を選びなさい。\n\"Yuki is the more popular student in her school.\"",
+    "choices": [
+      { "label": "A", "text": "正しい。直す必要はない。" },
+      { "label": "B", "text": "the more popular → the most popular" },
+      { "label": "C", "text": "the more popular → more popular" },
+      { "label": "D", "text": "student → students" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "gg2-028",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "「もし明日晴れたら、私たちは公園に行くでしょう。」を英語にしたとき、（　）に入る正しい組み合わせを選びなさい。\nIf it ( ) sunny tomorrow, we ( ) go to the park.",
+    "choices": [
+      { "label": "A", "text": "will be / are going to" },
+      { "label": "B", "text": "is / am going to" },
+      { "label": "C", "text": "is / will" },
+      { "label": "D", "text": "will be / will" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "gg2-029",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "次の文の（　）に入る正しい形の組み合わせを選びなさい。\nWhen he ( ) Osaka, he ( ) Osaka Castle.",
+    "choices": [
+      { "label": "A", "text": "visits / will see" },
+      { "label": "B", "text": "will visit / will see" },
+      { "label": "C", "text": "visited / sees" },
+      { "label": "D", "text": "visits / sees" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "gg2-030",
+    "subject": "英語（中学）",
+    "unit": "中2文法",
+    "difficulty": "exam",
+    "question": "次の語を並べ替えて正しい英文にしたとき、5番目に来る語を選びなさい。\n【 than / She / older / is / two / years / my sister 】",
+    "choices": [
+      { "label": "A", "text": "than" },
+      { "label": "B", "text": "is" },
+      { "label": "C", "text": "two" },
+      { "label": "D", "text": "older" }
+    ],
+    "correct": "D"
+  }
+]

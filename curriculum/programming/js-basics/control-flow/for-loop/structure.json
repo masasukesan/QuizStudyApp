@@ -1,0 +1,106 @@
+{
+  "unit_id": "for-loop",
+  "unit_name_jp": "for ループ（for / for...of / for...in）",
+  "grade": "JS基礎",
+  "patterns": [
+    {
+      "pattern_id": "basic_for_syntax",
+      "description": "for 文の基本構文（初期化・条件・更新）を理解し、ループが何回実行されるか・最後の i の値を読み取る",
+      "thinking_process": [
+        "初期化式で i の開始値を確認する",
+        "条件式が false になる直前の i の値を確認する",
+        "更新式（i++ / i-- / i+=n）を確認してループ回数を計算する",
+        "ループ本体で何が行われているかを追う"
+      ],
+      "common_mistakes": [
+        "条件が i < n のとき n 回ではなく n-1 回しか回らないことを見落とす（0始まりと1始まりの混同）",
+        "i++ と ++i の違いを気にしすぎてループ回数の計算を間違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "for_accumulate",
+      "description": "for ループで合計・積・最大値などを蓄積し、最終的な変数の値を求める",
+      "thinking_process": [
+        "蓄積変数の初期値を確認する",
+        "各反復でどの値が加算・乗算されるかを順に計算する",
+        "最終的な蓄積変数の値を答える"
+      ],
+      "common_mistakes": [
+        "初期値を 0 にすべきところを 1 にしてしまう（積なら 1、和なら 0 が正解）",
+        "ループ範囲の境界（< vs <=）を間違えて1回余分・不足で計算する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "nested_for",
+      "description": "ネストした for ループの実行回数・変数の組み合わせを追う",
+      "thinking_process": [
+        "外側ループが1回回るたびに内側ループが何回回るかを確認する",
+        "外側 i × 内側 j の全組み合わせを列挙する",
+        "問われた変数の最終値やループ総実行回数を計算する"
+      ],
+      "common_mistakes": [
+        "外側・内側のループ変数を混同する",
+        "内側ループが毎回リセットされることを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "for_of_array",
+      "description": "for...of を使って配列を順番に処理し、結果を求める",
+      "thinking_process": [
+        "for...of は配列の各要素を順に取り出すことを確認する",
+        "取り出した値に対して行われる処理を追う",
+        "最終的な結果変数の値を計算する"
+      ],
+      "common_mistakes": [
+        "for...of が要素を取り出すのに対し、for...in はインデックス（キー）を取り出すことを混同する",
+        "配列に対して for...in を使うとインデックスが文字列として返ることを見落とす"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "for_in_object",
+      "description": "for...in を使ってオブジェクトのキーを列挙し、値を操作する問題",
+      "thinking_process": [
+        "for...in はオブジェクトの列挙可能プロパティのキー（文字列）を返すことを確認する",
+        "obj[key] でそのキーに対応する値を取得できることを確認する",
+        "処理結果を計算する"
+      ],
+      "common_mistakes": [
+        "for...in が値を返すと勘違いし、直接計算しようとする",
+        "配列に for...in を使うとキーが '0', '1' など文字列になることを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "break_continue",
+      "description": "break / continue を含むループでどの反復がスキップ・停止されるかを正確に追う",
+      "thinking_process": [
+        "break は即座にループを終了することを確認する",
+        "continue は現在の反復を終了し次の反復に進むことを確認する",
+        "条件を満たしたときに break/continue が発動するタイミングを特定し、最終結果を計算する"
+      ],
+      "common_mistakes": [
+        "break がネストの内側ループだけを終了することを知らず、外側まで終了すると思い込む",
+        "continue でスキップされた後の処理を誤って実行済みと数える"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "for_string_iteration",
+      "description": "for...of で文字列を1文字ずつ処理し、特定の条件を満たす文字数・変換結果を求める",
+      "thinking_process": [
+        "for...of は文字列を1文字ずつ取り出せることを確認する",
+        "各文字に対する条件（比較・変換）を順に適用する",
+        "最終的な結果（カウント・生成文字列）を計算する"
+      ],
+      "common_mistakes": [
+        "文字列に for...in を使うとインデックス番号が得られることを混同する",
+        "絵文字などのサロゲートペアは for...of では1文字として扱われるが、インデックスアクセスでは壊れることを意識しない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}
