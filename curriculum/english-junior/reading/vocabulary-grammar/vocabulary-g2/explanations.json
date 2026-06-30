@@ -1,0 +1,490 @@
+{
+  "vg2-001": {
+    "lead": "「know」は「知っている（状態）」を表す動詞です。「learn（学ぶ）」「think（考える）」「teach（教える）」と混同しないようにしましょう。know は「すでに情報を持っている状態」を表します。",
+    "steps": [
+      "「know」という単語を見る",
+      "「learn（学ぶ）」との違いを確認する：learn は「新しいことを学んで身につける」、know は「すでに知っている状態」",
+      "正しい意味「知っている」を選ぶ"
+    ],
+    "common_mistakes": [
+      "「learn（学ぶ）」と混同しやすい。learn は動作、know は状態を表す点が違う",
+      "「teach（教える）」は「誰かに知識を与える」動作なので別の意味"
+    ],
+    "tips": [
+      "know / learn / teach の3つをセットで覚えよう：know=知っている（状態）、learn=学ぶ（動作）、teach=教える（動作）"
+    ]
+  },
+  "vg2-002": {
+    "lead": "「arrive」は「到着する」という動詞です。「leave（出発する・去る）」の反意語として覚えましょう。arrive at（場所）・arrive in（都市・国）のように前置詞と組み合わせて使います。",
+    "steps": [
+      "「arrive」という単語を見る",
+      "反意語の「leave（出発する・去る）」と区別する",
+      "「到着する」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "「leave（出発する）」と反対の意味なのに混同しやすい",
+      "「come（来る）」との違い：arrive はある地点に到達したことを強調する"
+    ],
+    "tips": [
+      "arrive（到着する）↔ leave（出発する・去る）の対で覚えよう",
+      "arrive at the station（駅に到着する）、arrive in Tokyo（東京に到着する）と前置詞の使い分けも意識しよう"
+    ]
+  },
+  "vg2-003": {
+    "lead": "「tired」は「疲れた」という意味の形容詞です。「I am tired.（私は疲れた。）」のように be 動詞と一緒に使います。「hungry（空腹な）」「angry（怒っている）」と区別して覚えましょう。",
+    "steps": [
+      "「tired」が形容詞（状態を表す言葉）であることを確認する",
+      "「hungry（空腹）」「angry（怒り）」「happy（幸せ）」などの感情・状態形容詞と区別する",
+      "「疲れた」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "「tired（疲れた）」と「hungry（空腹な）」を外見から区別できない",
+      "「bored（退屈した）」と混同することがある"
+    ],
+    "tips": [
+      "感情・状態を表す形容詞：tired（疲れた）、hungry（空腹な）、angry（怒った）、bored（退屈した）をまとめて覚えよう"
+    ]
+  },
+  "vg2-004": {
+    "lead": "「excited」は「興奮した・わくわくした」という意味の形容詞です。「exciting（わくわくさせる）」と形が似ていますが、excited は「人が感じる状態」、exciting は「物事の性質」を表します。",
+    "steps": [
+      "「excited」が -ed 形（人が感じる状態）であることを確認する",
+      "「exciting（わくわくさせる）」との違いを理解する：I am excited. / The game is exciting.",
+      "「わくわくした・興奮した」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "-ed 形（excited）と -ing 形（exciting）を混同する：excited=人が感じる、exciting=物事の性質",
+      "「surprised（驚いた）」と混同することがある"
+    ],
+    "tips": [
+      "-ed 形は「人が〜な気持ちである」、-ing 形は「〜を引き起こす物事の性質」と覚えよう",
+      "例：I am bored.（私は退屈している）/ The class is boring.（その授業は退屈だ）"
+    ]
+  },
+  "vg2-005": {
+    "lead": "「already」は「もう・すでに」という意味の副詞です。主に肯定文で使います。「I have already eaten.（もう食べた。）」のように使います。「yet（まだ〔否定〕/もう〔疑問〕）」と対比して覚えましょう。",
+    "steps": [
+      "「already」が副詞（動詞を修飾する言葉）であることを確認する",
+      "「already」は肯定文で使い「もう〜した」という完了の意味を持つ",
+      "「yet（否定文でまだ、疑問文でもう）」との違いを確認する",
+      "「もう・すでに」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "「yet」と混同しやすい：already は肯定文、yet は否定文・疑問文で使うことが多い",
+      "「still（まだ〔継続〕）」との違いも注意：still は「今もまだ続いている」という継続を表す"
+    ],
+    "tips": [
+      "already（もうすでに＝完了）、yet（まだ〔否定〕/もう〔疑問〕）、still（まだ〔継続中〕）の3つをセットで覚えよう"
+    ]
+  },
+  "vg2-006": {
+    "lead": "「bring」は「持ってくる」という動詞です。話し手がいる場所に向かって何かを持ってくることを表します。「take（持っていく）」との違いは方向です：bring=こちらへ向かって、take=あちらへ向かって。",
+    "steps": [
+      "「bring」の意味を確認する：話し手がいる場所に向かって持ってくる",
+      "「take（持っていく）」との方向の違いを確認する",
+      "「持ってくる」を選ぶ"
+    ],
+    "common_mistakes": [
+      "bring（持ってくる）と take（持っていく）の方向を逆に覚えてしまう",
+      "「buy（買う）」や「borrow（借りる）」と混同することがある"
+    ],
+    "tips": [
+      "bring（持ってくる）↔ take（持っていく）：自分のいる場所を基準に方向で覚えよう",
+      "例：Please bring your textbook to school.（教科書を学校に持ってきてください）"
+    ]
+  },
+  "vg2-007": {
+    "lead": "「during」は「〜の間ずっと（ある期間を通じて）」を表す前置詞です。「during the summer vacation（夏休みの間中）」のように名詞の前に置いて使います。「while（〜している間に）」は接続詞で、後ろに主語＋動詞が続く点が違います。",
+    "steps": [
+      "「during」が前置詞（名詞の前に置く言葉）であることを確認する",
+      "during の後ろには名詞（期間を表す言葉）が来ることを確認する",
+      "「〜の間ずっと」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "「while（〜している間に）」と混同する：during の後は名詞、while の後は主語＋動詞",
+      "during は期間全体にわたることを表し、単なる「前・後」とは違う"
+    ],
+    "tips": [
+      "during + 名詞（during the game）、while + 主語 + 動詞（while I was sleeping）と構造で覚えよう"
+    ]
+  },
+  "vg2-008": {
+    "lead": "「scared」は「怖がっている」という意味で、「人が恐怖を感じている状態」を表します。「scary（怖い・恐ろしい）」は物事の性質を表す点が違います。「I am scared.（私は怖い。）」のように be 動詞と使います。",
+    "steps": [
+      "「scared」が -ed 形（人が感じる状態）であることを確認する",
+      "「scary（怖い・恐ろしい）」との違いを理解する：The movie is scary. / I am scared.",
+      "「怖がっている」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "「scared（人が怖がっている）」と「scary（物事が怖い）」を混同する",
+      "「surprised（驚いた）」と「scared（怖がっている）」を混同することがある"
+    ],
+    "tips": [
+      "scared（人が感じる：怖がっている）↔ scary（物事の性質：怖い・ぞっとする）",
+      "「A dog scared me.（犬が私を怖がらせた）→ I was scared of the dog.（私はその犬を怖がっていた）」のようにつながりで覚えよう"
+    ]
+  },
+  "vg2-009": {
+    "lead": "「still」は「まだ（引き続き）」という意味の副詞です。過去から続いている状態が現在もまだ続いていることを表します。「already（もう・すでに）」や「yet（まだ〔否定〕）」との違いを整理しましょう。",
+    "steps": [
+      "「still」が状態の継続（今もまだ〜している）を表すことを確認する",
+      "「already（もうすでに完了した）」との違いを確認する",
+      "「yet（まだ〔否定文〕）」との違いを確認する：still は肯定文でも否定文でも使える",
+      "「まだ（引き続き）」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "「already（もうすでに）」と混同する：already は完了、still は継続",
+      "「yet（まだ〔否定〕）」との違い：He is still sleeping.（まだ寝ている）/ He hasn't woken up yet.（まだ起きていない）"
+    ],
+    "tips": [
+      "still は「今もまだ継続中」のイメージ。「まだ続いているの？」という驚きやため息のニュアンスにも使える"
+    ]
+  },
+  "vg2-010": {
+    "lead": "「borrow」は「借りる」という動詞です。「lend（貸す）」の反意語として一緒に覚えましょう。borrow は「自分が借りる（受ける側）」、lend は「貸す（与える側）」という違いがあります。",
+    "steps": [
+      "「borrow」が「借りる（受け取る側）」であることを確認する",
+      "「lend（貸す：与える側）」との違いを確認する",
+      "「借りる」という意味を選ぶ"
+    ],
+    "common_mistakes": [
+      "borrow（借りる）と lend（貸す）を逆に覚えてしまう",
+      "「rent（お金を払って借りる）」との違いに注意：borrow は無料で借りることが多い"
+    ],
+    "tips": [
+      "borrow（借りる）↔ lend（貸す）：「本を借りる」= borrow a book、「本を貸す」= lend a book と例文で覚えよう"
+    ]
+  },
+  "vg2-011": {
+    "lead": "「旅行（名詞）」には複数の英語表現がありますが、中学英語でよく出題されるのは「trip」です。trip は「（目的地まで行って帰ってくる）旅行・遠足」を指します。travel は「旅行する（動詞）」として主に使われます。",
+    "steps": [
+      "「旅行」を表す英単語の候補（trip/travel/tour/journey）を確認する",
+      "中学英語では「a trip」が「旅行（名詞）」として最も一般的に使われることを確認する",
+      "travel は動詞として使われることが多いと覚える",
+      "「trip」を選ぶ"
+    ],
+    "common_mistakes": [
+      "travel を名詞と勘違いして選ぶ（動詞として使うことが多い）",
+      "tour（観光ツアー）は旅行会社のパッケージ旅行など組織されたものを指す"
+    ],
+    "tips": [
+      "a trip to Kyoto（京都への旅行）のように「trip」は名詞として使う",
+      "take a trip（旅行に行く）という表現も覚えておこう"
+    ]
+  },
+  "vg2-012": {
+    "lead": "「意見」は英語で「opinion」です。「idea（考え・アイデア）」と似ていますが、opinion は「自分の立場からの主張・見解」を指し、idea は「思いついたこと・発想」を指します。",
+    "steps": [
+      "「意見」に当たる英単語の候補（opinion/idea/thought/view）を確認する",
+      "opinion は「ある事柄についての自分の立場・見解」を表すと確認する",
+      "idea は「思いついた考えやアイデア」であり、意見とは少し違うと確認する",
+      "「opinion」を選ぶ"
+    ],
+    "common_mistakes": [
+      "idea（アイデア・考え）と opinion（意見・見解）を同じ意味と思い込む",
+      "In my opinion,（私の意見では）というフレーズで opinion は使われる"
+    ],
+    "tips": [
+      "「In my opinion, ...（私の意見では、）」という定番フレーズで覚えよう",
+      "「What's your opinion?（あなたの意見は？）」も頻出表現"
+    ]
+  },
+  "vg2-013": {
+    "lead": "「〜なので（理由を表す接続詞）」は「because」です。because は理由・原因を表す接続詞で、「なぜなら〜だから」という意味です。「so（だから）」も似ていますが、so は結果を表し文頭か中ほどに置きます。",
+    "steps": [
+      "「〜なので」という理由の接続詞を思い出す",
+      "because は「B because A（AなのでB）」の形で、because の後に理由が来ると確認する",
+      "so（だから）は結果を導く：「A, so B（AだからB）」の形",
+      "「because」を選ぶ"
+    ],
+    "common_mistakes": [
+      "because と so の違い：because は理由を後に置く、so は結果を後に置く",
+      "「Because it was raining, I stayed home.」のように because は文頭でも使える"
+    ],
+    "tips": [
+      "I stayed home because it was raining.（雨が降っていたので家にいた）",
+      "It was raining, so I stayed home.（雨が降っていた、だから家にいた）"
+    ]
+  },
+  "vg2-014": {
+    "lead": "「もし〜ならば（条件を表す接続詞）」は「if」です。「If it rains, I will stay home.（もし雨が降ったら、家にいます。）」のように使います。if のカタマリの中では、未来のことでも現在形を使うことがポイントです。",
+    "steps": [
+      "「もし〜ならば」という条件の接続詞「if」を確認する",
+      "when（〜の時）との違いを確認する：if は条件（起こるかどうかわからない）、when は時間（起こる前提）",
+      "「if」を選ぶ"
+    ],
+    "common_mistakes": [
+      "when（〜の時）と if（もし〜ならば）を混同する：「雨が降ったら」は条件なら if、時間なら when",
+      "if の節の中で will を使ってしまう（×If it will rain→○If it rains）"
+    ],
+    "tips": [
+      "if（もし〜ならば）は条件が不確かなとき、when（〜するとき）は条件がほぼ確実なとき",
+      "「If you study hard, you will pass.（一生懸命勉強すれば合格するよ）」の形で覚えよう"
+    ]
+  },
+  "vg2-015": {
+    "lead": "「go の過去形」は「went」です。go は不規則動詞の代表例で、過去形は went、過去分詞は gone になります。「goed」のような規則活用は間違いです。",
+    "steps": [
+      "go が不規則動詞（過去形が -ed でない）であることを確認する",
+      "go の変化：go（現在形）→ went（過去形）→ gone（過去分詞）",
+      "「goed」は間違い（不規則動詞に -ed はつけない）と確認する",
+      "「went」を選ぶ"
+    ],
+    "common_mistakes": [
+      "不規則動詞に -ed をつけて「goed」としてしまう",
+      "gone（過去分詞）を過去形と混同する"
+    ],
+    "tips": [
+      "中学で必須の不規則動詞3つセット：go-went-gone、come-came-come、eat-ate-eaten",
+      "「went to school（学校へ行った）」という頻出フレーズで覚えよう"
+    ]
+  },
+  "vg2-016": {
+    "lead": "「自然」は英語で「nature」です。「culture（文化）」「history（歴史）」「science（科学）」と区別して覚えましょう。nature は「自然・自然界」を幅広く指します。",
+    "steps": [
+      "「自然」を英語で表す単語の候補（nature/culture/history/science）を確認する",
+      "nature が「自然・自然界」を意味すると確認する",
+      "culture（文化）、history（歴史）、science（科学）との意味の違いを確認する",
+      "「nature」を選ぶ"
+    ],
+    "common_mistakes": [
+      "culture（文化）と nature（自然）のつづりを混同する",
+      "「natural（自然の）」という形容詞形も一緒に覚えておくと応用が利く"
+    ],
+    "tips": [
+      "nature（自然）→ natural（自然の）のように名詞→形容詞の変化も意識しよう",
+      "「I love nature.（私は自然が好きだ）」という短い例文で覚えよう"
+    ]
+  },
+  "vg2-017": {
+    "lead": "「〜している間に（同時進行を表す接続詞）」は「while」です。「While I was eating, he called me.（私が食事をしている間に、彼が電話してきた。）」のように、2つのことが同時に起きている場面で使います。",
+    "steps": [
+      "「〜している間に」という同時進行を表す接続詞「while」を確認する",
+      "when（〜のとき）との違いを確認する：when はある時点、while はある期間の同時進行",
+      "「while」を選ぶ"
+    ],
+    "common_mistakes": [
+      "when（〜のとき）と while（〜している間に）を混同する",
+      "during（前置詞：名詞の前に使う）と while（接続詞：主語＋動詞の前に使う）を取り違える"
+    ],
+    "tips": [
+      "while + 主語 + 動詞（while I was sleeping）、during + 名詞（during the class）",
+      "「While I was cooking, my sister watched TV.（私が料理をしている間、妹はテレビを見ていた）」で覚えよう"
+    ]
+  },
+  "vg2-018": {
+    "lead": "「eat の過去形」は「ate」です。eat も不規則動詞で、過去形は ate、過去分詞は eaten になります。「eated」は間違いです。",
+    "steps": [
+      "eat が不規則動詞であることを確認する",
+      "eat の変化：eat（現在形）→ ate（過去形）→ eaten（過去分詞）",
+      "「eated」は間違いと確認する",
+      "「ate」を選ぶ"
+    ],
+    "common_mistakes": [
+      "不規則動詞の eat に -ed をつけて「eated」としてしまう",
+      "eaten（過去分詞）と ate（過去形）を混同する"
+    ],
+    "tips": [
+      "eat（食べる）-ate（食べた）-eaten（食べられた・食べたことがある）",
+      "「I ate breakfast at 7.（7時に朝食を食べた）」という例文で覚えよう"
+    ]
+  },
+  "vg2-019": {
+    "lead": "「〜ということ（名詞節を導く接続詞）」は「that」です。「I think that she is kind.（私は彼女が親切だと思う。）」のように、think / know / say などの後に続く「〜ということ」を表す that です。",
+    "steps": [
+      "「〜ということ」を表す接続詞 that を確認する",
+      "that は think / know / say / believe の後に「〜ということ」を続けるために使う",
+      "which（どちらの〜）、what（何・〜すること）、when（いつ〜）と区別する",
+      "「that」を選ぶ"
+    ],
+    "common_mistakes": [
+      "what（何が〜か）と that（〜ということ）を混同する",
+      "that は省略されることが多く（I think she is kind.）、存在を忘れてしまう"
+    ],
+    "tips": [
+      "「I know that he is busy.（彼が忙しいことを知っている）」の形で覚えよう",
+      "that は省略できる場合が多いが、接続詞として文を2つつなぐ役割をしている"
+    ]
+  },
+  "vg2-020": {
+    "lead": "「見せる・教える」は「show」です。「look（見る）」「watch（（動きを）見る）」「see（目に入る・会う）」とは意味が違います。show は「人に何かを見せて知らせる・教える」という意味を持ちます。",
+    "steps": [
+      "「見せる・教える」という意味の動詞「show」を確認する",
+      "look（視線を向けて見る）/ watch（動いているものを見る）/ see（自然に目に入る・会う）との違いを確認する",
+      "show は「人に見せる・手本を示す」という他動詞であることを確認する",
+      "「show」を選ぶ"
+    ],
+    "common_mistakes": [
+      "show（見せる）と look（見る）の違い：show は「見せる側」、look は「見る側」",
+      "「teach（教える）」と「show（見せて教える）」の使い分けを確認する"
+    ],
+    "tips": [
+      "show me the way（道を教えて）、show your ticket（チケットを見せて）など「見せる」場面で使う",
+      "show A to B（BにAを見せる）= show B A（BにAを見せる）の2つの形を覚えよう"
+    ]
+  },
+  "vg2-021": {
+    "lead": "「have fun」で「楽しむ・楽しい時間を過ごす」という意味になります。fun（楽しさ）は have と組み合わせるのが正しいコロケーションです。「make fun（of）」は「〜をからかう」という全く別の意味になるので注意しましょう。",
+    "steps": [
+      "空欄の後ろに「fun」という名詞があることを確認する",
+      "have fun（楽しむ）というコロケーションを思い出す",
+      "make fun of〜（〜をからかう）は全く別の意味と確認する",
+      "「had（have の過去形）」を選ぶ"
+    ],
+    "common_mistakes": [
+      "make fun と have fun を混同する：make fun of〜 は「〜をからかう」という否定的な意味",
+      "do fun という組み合わせは英語では自然でない"
+    ],
+    "tips": [
+      "「have fun」は「楽しい時間を過ごす・楽しむ」の定番フレーズ",
+      "Have fun!（楽しんできてね！）は別れの挨拶としてもよく使われる"
+    ]
+  },
+  "vg2-022": {
+    "lead": "「写真を撮る」は「take a photo」です。take と photo の組み合わせが正しいコロケーションです。「make a photo」「do a photo」は英語として自然でありません。",
+    "steps": [
+      "空欄の後ろに「a photo」という表現があることを確認する",
+      "「写真を撮る」= take a photo というコロケーションを思い出す",
+      "「take」を選ぶ"
+    ],
+    "common_mistakes": [
+      "make a photo は英語では言わない（make は物を作る・製造するイメージ）",
+      "日本語の「写真を撮る」と英語の「take a photo」のコロケーションが違うことに注意"
+    ],
+    "tips": [
+      "take a photo（写真を撮る）、take a trip（旅行する）、take a bath（お風呂に入る）など take の使い方を覚えよう"
+    ]
+  },
+  "vg2-023": {
+    "lead": "「enjoy」の後ろには動名詞（動詞の -ing 形）が来ます。「enjoy listening」が正しい形です。「enjoy to listen」とは言いません。enjoy は「〜することを楽しむ」という意味で、後ろに -ing 形を続けます。",
+    "steps": [
+      "「enjoy」の後ろに来る形（-ing形か to不定詞か）を確認する",
+      "enjoy の後ろは必ず動名詞（-ing形）：enjoy doing〜",
+      "「enjoy to listen」は間違いと確認する",
+      "「listening」を選ぶ"
+    ],
+    "common_mistakes": [
+      "enjoy の後ろに to不定詞（to listen）を置いてしまう",
+      "enjoy + -ing（動名詞）vs want + to不定詞（不定詞）の違いを混同する"
+    ],
+    "tips": [
+      "enjoy -ing（〜することを楽しむ）：I enjoy reading books.",
+      "enjoy / finish / stop の後ろは -ing 形（動名詞）、want / hope / decide の後ろは to不定詞と覚えよう"
+    ]
+  },
+  "vg2-024": {
+    "lead": "「want」の後ろには to不定詞（to + 動詞の原形）が来ます。「want to become」が正しい形です。want は「〜したい」という意志を表し、後ろに to + 動詞の原形を続けます。",
+    "steps": [
+      "「wants」の後ろに来る形を確認する",
+      "want の後ろは to不定詞（to + 動詞原形）：want to do〜",
+      "「becoming」（動名詞）は want の後ろには来ないと確認する",
+      "「to become」を選ぶ"
+    ],
+    "common_mistakes": [
+      "want + -ing（動名詞）は誤り：× wants becoming → ○ wants to become",
+      "become の過去形「became」や原形「become」との区別を確認する"
+    ],
+    "tips": [
+      "want to do（したい）、hope to do（〜することを望む）、decide to do（〜することを決める）→ to不定詞セット",
+      "「I want to be a doctor.（医者になりたい）」という例文で覚えよう"
+    ]
+  },
+  "vg2-025": {
+    "lead": "「interesting（おもしろい・興味深い）」とほぼ同じ意味を持つ語として最も近いのは「exciting（わくわくする・楽しい）」です。boring（退屈な）は反意語、difficult（難しい）・surprising（驚くべき）は別の意味です。",
+    "steps": [
+      "「interesting」の意味（おもしろい・興味深い）を確認する",
+      "4つの選択肢の意味を確認する：boring（退屈な）、exciting（わくわくする）、difficult（難しい）、surprising（驚くべき）",
+      "interesting と最も近い意味（楽しい・引きつけられる）を持つ語を選ぶ",
+      "「exciting」を選ぶ"
+    ],
+    "common_mistakes": [
+      "boring（退屈な）を interesting（おもしろい）と混同する（実は反意語）",
+      "surprising（驚くべき）と interesting（おもしろい）を同じ意味と思う"
+    ],
+    "tips": [
+      "interesting（興味深い・おもしろい）↔ boring（退屈な）は対義語",
+      "exciting（わくわくする・スリリング）は interesting より強くわくわくするイメージ"
+    ]
+  },
+  "vg2-026": {
+    "lead": "「make a decision」で「決断・決定をする」という意味になります。decision（決断）は make と組み合わせるのが正しいコロケーションです。「do a decision」や「take a decision」は一般的でありません（英米差があるが中学では make で覚える）。",
+    "steps": [
+      "空欄の後ろに「a decision（決断）」という名詞があることを確認する",
+      "「make a decision（決断する）」というコロケーションを思い出す",
+      "「made（make の過去形）」を選ぶ"
+    ],
+    "common_mistakes": [
+      "do a decision は英語として自然でない",
+      "take a decision は British English では使われることもあるが、中学では make で統一する"
+    ],
+    "tips": [
+      "make を使ったコロケーション：make a decision（決断する）、make a mistake（間違える）、make a plan（計画する）をまとめて覚えよう"
+    ]
+  },
+  "vg2-027": {
+    "lead": "「heavy（重い）」の反意語（反対の意味）は「light（軽い）」です。large（大きい）は small の反意語、short（短い・低い）は long/tall の反意語、slow（遅い）は fast の反意語です。",
+    "steps": [
+      "「heavy（重い）」の反意語（反対の意味の語）を考える",
+      "4つの選択肢の意味を確認する：large（大きい）、short（短い）、light（軽い）、slow（遅い）",
+      "heavy の反対は light（軽い）と確認する",
+      "「light」を選ぶ"
+    ],
+    "common_mistakes": [
+      "light には「軽い」だけでなく「明るい・光」という意味もある：文脈で見分ける",
+      "large（大きい）の反意語は small（小さい）であり、heavy の反意語ではない"
+    ],
+    "tips": [
+      "heavy（重い）↔ light（軽い）、big/large（大きい）↔ small（小さい）、fast（速い）↔ slow（遅い）を対で覚えよう"
+    ]
+  },
+  "vg2-028": {
+    "lead": "「take a trip」で「旅行する・旅に出る」という意味になります。trip（旅行）は take と組み合わせるのが正しいコロケーションです。make a trip とは言わないので注意しましょう。",
+    "steps": [
+      "空欄の後ろに「a trip（旅行）」という名詞があることを確認する",
+      "「take a trip（旅行する）」というコロケーションを思い出す",
+      "「take」を選ぶ"
+    ],
+    "common_mistakes": [
+      "make a trip は自然な英語ではない（make は計画・製造のイメージ）",
+      "travel（旅行する）は動詞として単独で使えるが、a trip とは直接組み合わせない"
+    ],
+    "tips": [
+      "take a trip（旅行する）、take a walk（散歩する）、take a break（休憩する）→ take のコロケーションをまとめて覚えよう"
+    ]
+  },
+  "vg2-029": {
+    "lead": "「まだ〔否定文で〕」は「yet」を使います。「I didn't finish my homework yet.」で「まだ宿題が終わっていない」という意味です。yet は否定文の文末に置くのが基本です。already（もうすでに）やstill（まだ継続中）とは使い方が違います。",
+    "steps": [
+      "問題文が「まだ終わっていない」という否定の意味であることを確認する",
+      "yet は否定文で「まだ〜していない」を表すと確認する",
+      "already（もうすでに〔完了〕）と区別する",
+      "still（まだ継続中〔肯定文〕）と区別する",
+      "「yet」を選ぶ"
+    ],
+    "common_mistakes": [
+      "already（もうすでに〔肯定文〕）と yet（まだ〔否定文〕）を混同する",
+      "yet は否定文・疑問文で使い、文末に置くことが多い"
+    ],
+    "tips": [
+      "I have already done it.（もうすでにやった）/ I haven't done it yet.（まだやっていない）の対比で覚えよう",
+      "Have you done it yet?（もうやりましたか？）のように疑問文でも yet を使う"
+    ]
+  },
+  "vg2-030": {
+    "lead": "「（今も）まだ〔継続中〕」は「still」を使います。「He is still playing the piano.（彼はまだピアノを弾いている。）」のように、3年前から続いていて今もやめていないという継続中の状態を表します。",
+    "steps": [
+      "「3年前から始めてやめていない（継続中）」という文脈を確認する",
+      "still は「今もまだ継続している」状態を表すと確認する",
+      "already（完了）・yet（否定での未完了）・never（一度もない）との違いを確認する",
+      "「still」を選ぶ"
+    ],
+    "common_mistakes": [
+      "already（もうすでに〔完了〕）は「終わった」ことを表すので、継続中の文脈には合わない",
+      "yet は否定文・疑問文で使うので、肯定文の空欄には入らない"
+    ],
+    "tips": [
+      "still（まだ継続中）のイメージ：「え、まだやってるの？ずっと続けてるんだね」という感じ",
+      "He is still sleeping.（まだ寝てる）など進行形との相性が良い"
+    ]
+  }
+}

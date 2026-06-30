@@ -1,0 +1,422 @@
+[
+  {
+    "id": "scope-basic-001",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "「スコープ」とは何を指す言葉ですか？",
+    "choices": [
+      { "label": "A", "text": "変数や関数が「どこから参照できるか」を決めるルール" },
+      { "label": "B", "text": "関数を実行する順番を決めるルール" },
+      { "label": "C", "text": "変数の値をコピーして別の場所に渡す仕組み" },
+      { "label": "D", "text": "プログラムが終了するタイミングを決めるルール" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-002",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果として正しいものはどれですか？\n\nlet name = 'Alice';\nfunction greet() {\n  console.log(name);\n}\ngreet();",
+    "choices": [
+      { "label": "A", "text": "Alice" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "ReferenceError: name is not defined" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-003",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、最後の console.log(x) の結果として正しいものはどれですか？\n\nfunction test() {\n  let x = 10;\n}\ntest();\nconsole.log(x);",
+    "choices": [
+      { "label": "A", "text": "ReferenceError: x is not defined" },
+      { "label": "B", "text": "10" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-004",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "「ローカルスコープ」について正しく説明しているものはどれですか？",
+    "choices": [
+      { "label": "A", "text": "関数の中で宣言した変数は、その関数の外からは参照できない" },
+      { "label": "B", "text": "関数の中で宣言した変数は、プログラム全体のどこからでも参照できる" },
+      { "label": "C", "text": "関数の外で宣言した変数は、関数の中から参照できない" },
+      { "label": "D", "text": "変数はすべてグローバルスコープに属する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-005",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "「ブロックスコープ」とは何ですか？",
+    "choices": [
+      { "label": "A", "text": "{ } の中で let / const を使って宣言した変数が、そのブロック内だけで有効になる仕組み" },
+      { "label": "B", "text": "var で宣言した変数が { } の中だけで有効になる仕組み" },
+      { "label": "C", "text": "すべての変数をブロックの先頭に移動させる仕組み" },
+      { "label": "D", "text": "関数の外側にある変数を { } でブロックする仕組み" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-006",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(x) の結果として正しいものはどれですか？\n\nif (true) {\n  let x = 5;\n}\nconsole.log(x);",
+    "choices": [
+      { "label": "A", "text": "ReferenceError: x is not defined" },
+      { "label": "B", "text": "5" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "true" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-007",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(y) の結果として正しいものはどれですか？\n\nif (true) {\n  var y = 5;\n}\nconsole.log(y);",
+    "choices": [
+      { "label": "A", "text": "5" },
+      { "label": "B", "text": "ReferenceError: y is not defined" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-008",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "var と let のスコープの違いとして正しいものはどれですか？",
+    "choices": [
+      { "label": "A", "text": "var は関数スコープで { } を無視するが、let はブロックスコープで { } の内側だけ有効" },
+      { "label": "B", "text": "var はブロックスコープで、let は関数スコープ" },
+      { "label": "C", "text": "var と let はどちらもブロックスコープで同じ動作をする" },
+      { "label": "D", "text": "var と let はどちらも関数スコープで同じ動作をする" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-009",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示される結果として正しいものはどれですか？\n\nlet num = 1;\nfunction outer() {\n  let num = 2;\n  console.log(num);\n}\nouter();",
+    "choices": [
+      { "label": "A", "text": "2" },
+      { "label": "B", "text": "1" },
+      { "label": "C", "text": "ReferenceError" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-basic-010",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "basic",
+    "question": "グローバルスコープで宣言した変数は、関数の中から参照できますか？",
+    "choices": [
+      { "label": "A", "text": "できる。JavaScriptは内側から外側のスコープを順番に探すため、グローバル変数は関数内からも参照できる" },
+      { "label": "B", "text": "できない。関数の外の変数は、関数の中からは見えない" },
+      { "label": "C", "text": "できるが、参照するには global キーワードが必要" },
+      { "label": "D", "text": "できるが、値は undefined になる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-001",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される結果として正しいものはどれですか？\n\nlet val = 'global';\nfunction outer() {\n  let val = 'outer';\n  function inner() {\n    console.log(val);\n  }\n  inner();\n}\nouter();",
+    "choices": [
+      { "label": "A", "text": "outer" },
+      { "label": "B", "text": "global" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "ReferenceError" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-002",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "「スコープチェーン」とはどのような仕組みですか？",
+    "choices": [
+      { "label": "A", "text": "変数を探すとき、内側のスコープから外側のスコープへ順番に探していく仕組み" },
+      { "label": "B", "text": "外側のスコープから内側のスコープへ順番に変数を探す仕組み" },
+      { "label": "C", "text": "すべての変数をグローバルスコープに一括登録する仕組み" },
+      { "label": "D", "text": "関数同士を連結して変数を共有する仕組み" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-003",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "「クロージャ」の最も正確な説明はどれですか？",
+    "choices": [
+      { "label": "A", "text": "関数が定義されたスコープの変数を、関数が外部に返された後も参照し続けられる仕組み" },
+      { "label": "B", "text": "関数を別の関数の中に入れ子にする書き方のこと" },
+      { "label": "C", "text": "関数を実行した後に変数を自動的に削除する仕組み" },
+      { "label": "D", "text": "グローバル変数への参照をなくして安全にする仕組み" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-004",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、add(3) の結果として正しいものはどれですか？\n\nfunction makeAdder(x) {\n  return function(y) {\n    return x + y;\n  };\n}\nconst add = makeAdder(10);\nconsole.log(add(3));",
+    "choices": [
+      { "label": "A", "text": "13" },
+      { "label": "B", "text": "3" },
+      { "label": "C", "text": "10" },
+      { "label": "D", "text": "ReferenceError: x is not defined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-005",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "次のコードで counter() を2回呼び出したとき、2回目の console.log の結果として正しいものはどれですか？\n\nfunction makeCounter() {\n  let count = 0;\n  return function() {\n    count++;\n    return count;\n  };\n}\nconst counter = makeCounter();\nconsole.log(counter());\nconsole.log(counter());",
+    "choices": [
+      { "label": "A", "text": "1の次に2が表示される" },
+      { "label": "B", "text": "1の次に1が表示される" },
+      { "label": "C", "text": "0の次に1が表示される" },
+      { "label": "D", "text": "2の次に2が表示される" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-006",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "クロージャを使ったカウンタにおいて、「count 変数が外部から直接変更できない」理由として正しいものはどれですか？",
+    "choices": [
+      { "label": "A", "text": "count は外側の関数のローカルスコープにあり、外部からはその関数が返した関数経由でしかアクセスできないから" },
+      { "label": "B", "text": "const で宣言されているため変更できないから" },
+      { "label": "C", "text": "JavaScriptではすべての変数が外部から保護されているから" },
+      { "label": "D", "text": "関数の中に入れた変数は自動でプライベートになるから" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-007",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに何が表示されますか？\n\nfunction outer() {\n  let x = 100;\n  function inner() {\n    let x = 200;\n    console.log(x);\n  }\n  inner();\n  console.log(x);\n}\nouter();",
+    "choices": [
+      { "label": "A", "text": "200 の次に 100 が表示される" },
+      { "label": "B", "text": "100 の次に 200 が表示される" },
+      { "label": "C", "text": "200 が2回表示される" },
+      { "label": "D", "text": "100 が2回表示される" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-008",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "次のコードで c1 と c2 は独立して動きますか？\n\nfunction makeCounter() {\n  let count = 0;\n  return function() { count++; return count; };\n}\nconst c1 = makeCounter();\nconst c2 = makeCounter();\nc1(); c1(); c2();\nconsole.log(c1()); // ?",
+    "choices": [
+      { "label": "A", "text": "3 が表示される。c1 と c2 はそれぞれ独立した count 変数を持つから" },
+      { "label": "B", "text": "4 が表示される。c1 と c2 が同じ count 変数を共有しているから" },
+      { "label": "C", "text": "1 が表示される。c2 を呼び出すたびに c1 もリセットされるから" },
+      { "label": "D", "text": "ReferenceError が発生する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-009",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(a) の結果として正しいものはどれですか？\n\nconsole.log(a);\nvar a = 5;",
+    "choices": [
+      { "label": "A", "text": "undefined" },
+      { "label": "B", "text": "5" },
+      { "label": "C", "text": "ReferenceError: a is not defined" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-standard-010",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(b) の結果として正しいものはどれですか？\n\nconsole.log(b);\nlet b = 5;",
+    "choices": [
+      { "label": "A", "text": "ReferenceError: Cannot access 'b' before initialization" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "5" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-001",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果として正しいものはどれですか？\n\nfor (var i = 0; i < 3; i++) {\n  setTimeout(function() { console.log(i); }, 0);\n}",
+    "choices": [
+      { "label": "A", "text": "3 が3回表示される" },
+      { "label": "B", "text": "0, 1, 2 がそれぞれ1回ずつ表示される" },
+      { "label": "C", "text": "0 が3回表示される" },
+      { "label": "D", "text": "undefined が3回表示される" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-002",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "前の問題（var のループ）で 0, 1, 2 を正しく表示させるための修正として正しいものはどれですか？",
+    "choices": [
+      { "label": "A", "text": "var i を let i に変えることで、ループごとに別のブロックスコープが生まれ、それぞれの i の値が保持される" },
+      { "label": "B", "text": "setTimeout の第2引数を 0 から 1000 に変えることで、ループ中に実行されるようになる" },
+      { "label": "C", "text": "console.log(i) を console.log(i.toString()) に変えることで値が固定される" },
+      { "label": "D", "text": "for ループを while ループに変えることで変数が保護される" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-003",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "「IIFE（即時実行関数式）」の主な目的として正しいものはどれですか？",
+    "choices": [
+      { "label": "A", "text": "関数の中で宣言した変数をグローバルスコープに漏らさないために、定義と同時に実行する" },
+      { "label": "B", "text": "関数を高速に実行するために、事前コンパイルを行う" },
+      { "label": "C", "text": "グローバル変数を自動でリセットするために使う" },
+      { "label": "D", "text": "関数の戻り値を自動でキャッシュするために使う" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-004",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "次のコードの result の値として正しいものはどれですか？\n\nconst result = (function() {\n  let x = 10;\n  return x * 2;\n})();\nconsole.log(result);",
+    "choices": [
+      { "label": "A", "text": "20" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "function() { let x = 10; return x * 2; }" },
+      { "label": "D", "text": "ReferenceError: x is not defined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-005",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(c) の結果として正しいものはどれですか？\n\nconsole.log(c);\nvar c = 'hello';\nfunction test() {\n  console.log(c);\n  var c = 'world';\n}\ntest();",
+    "choices": [
+      { "label": "A", "text": "最初の console.log(c) は undefined、test() の中の console.log(c) も undefined" },
+      { "label": "B", "text": "最初の console.log(c) は undefined、test() の中の console.log(c) は hello" },
+      { "label": "C", "text": "最初の console.log(c) は hello、test() の中の console.log(c) は world" },
+      { "label": "D", "text": "最初の console.log(c) は hello、test() の中の console.log(c) も hello" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-006",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、fn1(5) と fn2(5) の結果として正しいものはどれですか？\n\nfunction makeMultiplier(factor) {\n  return function(num) {\n    return num * factor;\n  };\n}\nconst fn1 = makeMultiplier(2);\nconst fn2 = makeMultiplier(3);\nconsole.log(fn1(5));\nconsole.log(fn2(5));",
+    "choices": [
+      { "label": "A", "text": "10 の次に 15 が表示される" },
+      { "label": "B", "text": "15 の次に 15 が表示される" },
+      { "label": "C", "text": "10 の次に 10 が表示される" },
+      { "label": "D", "text": "ReferenceError: factor is not defined" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-007",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "次のコードで、IIFE の外から変数 secret にアクセスするとどうなりますか？\n\n(function() {\n  var secret = 42;\n})();\nconsole.log(secret);",
+    "choices": [
+      { "label": "A", "text": "ReferenceError: secret is not defined" },
+      { "label": "B", "text": "42" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-008",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示される結果として正しいものはどれですか？\n\nfor (let j = 0; j < 3; j++) {\n  setTimeout(function() { console.log(j); }, 0);\n}",
+    "choices": [
+      { "label": "A", "text": "0, 1, 2 がそれぞれ1回ずつ表示される" },
+      { "label": "B", "text": "3 が3回表示される" },
+      { "label": "C", "text": "0 が3回表示される" },
+      { "label": "D", "text": "undefined が3回表示される" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-009",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "次のコードの動作として正しいものはどれですか？\n\nconst counter = (function() {\n  let count = 0;\n  return {\n    increment: function() { count++; },\n    getCount: function() { return count; }\n  };\n})();",
+    "choices": [
+      { "label": "A", "text": "IIFEがオブジェクトを返しており、counter.increment() で count を増やし、counter.getCount() で値を取得できる。count は外部から直接変更できない" },
+      { "label": "B", "text": "IIFEはすぐに実行されるため、counter には undefined が入る" },
+      { "label": "C", "text": "オブジェクトを返しているため count はグローバルに公開される" },
+      { "label": "D", "text": "increment と getCount は同じ count を参照しないため動作しない" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "scope-exam-010",
+    "subject": "プログラミング",
+    "unit": "スコープとクロージャ",
+    "difficulty": "exam",
+    "question": "「一時的デッドゾーン（Temporal Dead Zone）」とは何ですか？",
+    "choices": [
+      { "label": "A", "text": "let / const で宣言された変数は宣言より前の行でアクセスしようとすると ReferenceError になる状態" },
+      { "label": "B", "text": "var で宣言された変数が宣言より前に undefined になる状態" },
+      { "label": "C", "text": "関数の中でのみ発生する、変数が undefined になる期間" },
+      { "label": "D", "text": "グローバル変数が削除されるまでの猶予期間" }
+    ],
+    "correct": "A"
+  }
+]

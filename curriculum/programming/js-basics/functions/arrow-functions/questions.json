@@ -1,0 +1,899 @@
+[
+  {
+    "id": "af-b-001",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "アロー関数とはどのような機能ですか？最もよく説明しているものを選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "function キーワードを使わずに関数を書くための、ES6 で追加された短い記法"
+      },
+      {
+        "label": "B",
+        "text": "if 文の代わりに条件分岐を行うための特別な記法"
+      },
+      {
+        "label": "C",
+        "text": "ループ処理を行うための新しい構文"
+      },
+      {
+        "label": "D",
+        "text": "クラスの中でしか使えない特別なメソッドの書き方"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "アロー関数の定義",
+      "ES6"
+    ]
+  },
+  {
+    "id": "af-b-002",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "次の通常の関数式を、アロー関数に正しく書き換えたものはどれですか？\n\nconst add = function(a, b) { return a + b; };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const add = function(a, b) { a + b };"
+      },
+      {
+        "label": "B",
+        "text": "const add = (a, b) => a + b;"
+      },
+      {
+        "label": "C",
+        "text": "const add = (a, b) { return a + b; };"
+      },
+      {
+        "label": "D",
+        "text": "const add = (a, b) <= a + b;"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "アロー関数の基本構文",
+      "暗黙のreturn"
+    ]
+  },
+  {
+    "id": "af-b-003",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "引数が 1 つだけのアロー関数を書くとき、引数の括弧 () を省略することができます。次のうち、正しく書かれているものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "括弧あり (x) の形のみが正しく、括弧なし x の形は文法エラーになる"
+      },
+      {
+        "label": "B",
+        "text": "括弧なし x の形でも括弧あり (x) の形でも、どちらでも正しく書ける"
+      },
+      {
+        "label": "C",
+        "text": "引数の括弧は常に省略しなければならず、括弧あり (x) の形は文法エラーになる"
+      },
+      {
+        "label": "D",
+        "text": "引数が数値のときのみ括弧を省略できる"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "引数の括弧省略ルール"
+    ]
+  },
+  {
+    "id": "af-b-004",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "引数が 0 個のアロー関数を定義するとき、正しい書き方はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const hello = => \"こんにちは\";"
+      },
+      {
+        "label": "B",
+        "text": "const hello = () { return \"こんにちは\"; };"
+      },
+      {
+        "label": "C",
+        "text": "const hello = () => \"こんにちは\";"
+      },
+      {
+        "label": "D",
+        "text": "const hello = function() { return \"こんにちは\"; };"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "引数なしアロー関数",
+      "括弧必須"
+    ]
+  },
+  {
+    "id": "af-b-005",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "アロー関数で関数本体が 1 つの式だけのとき、{ } と return を省略することができます。次のコードの実行結果はどれですか？\n\nconst square = n => n ** 2;\nconsole.log(square(5));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "25"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "暗黙のreturn",
+      "アロー関数の実行結果"
+    ]
+  },
+  {
+    "id": "af-b-006",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると何が出力されますか？\n\nconst greet = name => { \"こんにちは \" + name; };\nconsole.log(greet(\"太郎\"));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"こんにちは 太郎\""
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "null"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "{}付きアロー関数にはreturnが必要",
+      "暗黙のreturnの誤解"
+    ]
+  },
+  {
+    "id": "af-b-007",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると、変数 result にはどんな値が入りますか？\n\nconst multiply = (a, b) => a * b;\nconst result = multiply(4, 7);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "47"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "28"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "アロー関数の呼び出しと戻り値"
+    ]
+  },
+  {
+    "id": "af-b-008",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "アロー関数に複数の引数を渡すとき、引数の括弧 () を省略するとどうなりますか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "問題なく動作する。カンマで区切るだけでよい"
+      },
+      {
+        "label": "B",
+        "text": "文法エラーになる。複数の引数は必ず () で囲む必要がある"
+      },
+      {
+        "label": "C",
+        "text": "最初の引数だけが使われ、残りは無視される"
+      },
+      {
+        "label": "D",
+        "text": "最後の引数だけが使われ、残りは無視される"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "複数引数の括弧省略不可ルール"
+    ]
+  },
+  {
+    "id": "af-b-009",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "次の通常の関数式を、同じ動作をするアロー関数に書き換えたものはどれですか？\n\nconst getMessage = function(user) { return \"ようこそ \" + user + \" さん\"; };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const getMessage = user => \"ようこそ \" + user + \" さん\";"
+      },
+      {
+        "label": "B",
+        "text": "const getMessage = user { return \"ようこそ \" + user + \" さん\"; };"
+      },
+      {
+        "label": "C",
+        "text": "const getMessage = function(user) { return \"ようこそ \" + user + \" さん\"; };"
+      },
+      {
+        "label": "D",
+        "text": "const getMessage = (user) { return \"ようこそ \" + user + \" さん\"; };"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "function式からアロー関数への変換"
+    ]
+  },
+  {
+    "id": "af-b-010",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "basic",
+    "question": "アロー関数を使った次のコードで、console.log の出力として正しいものはどれですか？\n\nconst isEven = n => n % 2 === 0;\nconsole.log(isEven(6));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "true"
+      },
+      {
+        "label": "D",
+        "text": "false"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "アロー関数の戻り値",
+      "boolean"
+    ]
+  },
+  {
+    "id": "af-s-001",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "アロー関数でオブジェクトリテラルを直接返そうとした次のコードを実行すると何が出力されますか？\n\nconst getUser = () => { name: \"太郎\" };\nconsole.log(getUser());",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ name: \"太郎\" }"
+      },
+      {
+        "label": "B",
+        "text": "\"太郎\""
+      },
+      {
+        "label": "C",
+        "text": "undefined"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "オブジェクトリテラルの暗黙return",
+      "{}はブロックとして解釈される"
+    ]
+  },
+  {
+    "id": "af-s-002",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "アロー関数でオブジェクトリテラルを直接返すとき、{ } が「ブロック文」として解釈されてしまう問題を避けるにはどうすればよいですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "return キーワードを追加し、{ } の中に return { ... } と書く"
+      },
+      {
+        "label": "B",
+        "text": "オブジェクトリテラル全体を () で囲んで () => ({ ... }) の形にする"
+      },
+      {
+        "label": "C",
+        "text": "オブジェクトの代わりに配列 [] を使って値を返す"
+      },
+      {
+        "label": "D",
+        "text": "アロー関数ではオブジェクトを直接返せないので function を使うしかない"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "オブジェクトリテラルの暗黙return",
+      "()で囲む"
+    ]
+  },
+  {
+    "id": "af-s-003",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、console.log に何が出力されますか？\n\nconst numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(doubled);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[2, 4, 6, 8, 10]"
+      },
+      {
+        "label": "B",
+        "text": "[1, 2, 3, 4, 5]"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "[undefined, undefined, undefined, undefined, undefined]"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "map とアロー関数",
+      "コールバック"
+    ]
+  },
+  {
+    "id": "af-s-004",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、console.log に何が出力されますか？\n\nconst nums = [3, 7, 2, 9, 4, 1, 8];\nconst evens = nums.filter(n => n % 2 === 0);\nconsole.log(evens);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[3, 7, 9, 1]"
+      },
+      {
+        "label": "B",
+        "text": "[2, 4, 8]"
+      },
+      {
+        "label": "C",
+        "text": "[0, 0, 0]"
+      },
+      {
+        "label": "D",
+        "text": "[]"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "filter とアロー関数",
+      "偶数の判定"
+    ]
+  },
+  {
+    "id": "af-s-005",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "アロー関数と通常の function の大きな違いの 1 つとして「this の扱い」があります。アロー関数の this に関する説明として正しいものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アロー関数は常に window (グローバルオブジェクト) を this として持つ"
+      },
+      {
+        "label": "B",
+        "text": "アロー関数は自分自身の this を持たず、定義された場所の外側の this を引き継ぐ"
+      },
+      {
+        "label": "C",
+        "text": "アロー関数の this は、呼び出し元のオブジェクトを指す"
+      },
+      {
+        "label": "D",
+        "text": "アロー関数の中では this は使用できない (エラーになる)"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "アロー関数のthis",
+      "レキシカルthis"
+    ]
+  },
+  {
+    "id": "af-s-006",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、何が出力されますか？\n\nconst counter = {\n  count: 0,\n  increment: function() {\n    setTimeout(() => {\n      this.count++;\n      console.log(this.count);\n    }, 0);\n  }\n};\ncounter.increment();",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "setTimeoutとアロー関数のthis",
+      "レキシカルthis"
+    ]
+  },
+  {
+    "id": "af-s-007",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "オブジェクトのメソッドをアロー関数で定義すると、this が期待通りに動作しないことがあります。次のコードの実行結果はどれですか？\n\nconst obj = {\n  name: \"花子\",\n  greet: () => {\n    console.log(\"こんにちは \" + this.name);\n  }\n};\nobj.greet();",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"こんにちは 花子\""
+      },
+      {
+        "label": "B",
+        "text": "\"こんにちは undefined\""
+      },
+      {
+        "label": "C",
+        "text": "\"こんにちは null\""
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "オブジェクトメソッドとアロー関数のthis問題"
+    ]
+  },
+  {
+    "id": "af-s-008",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると、console.log の出力はどれですか？\n\nconst add = (a, b = 10) => a + b;\nconsole.log(add(5));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "NaN"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "デフォルト引数とアロー関数"
+    ]
+  },
+  {
+    "id": "af-s-009",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "アロー関数の引数に関するルールとして、間違っているものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "引数が 0 個のときは () を書かなければならない"
+      },
+      {
+        "label": "B",
+        "text": "引数が 1 個のときは括弧を省略できる"
+      },
+      {
+        "label": "C",
+        "text": "引数が 2 個以上のときも括弧を省略できる"
+      },
+      {
+        "label": "D",
+        "text": "引数が 2 個以上のときは必ず括弧 () で囲まなければならない"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "アロー関数の文法エラー",
+      "複数引数は括弧必須"
+    ]
+  },
+  {
+    "id": "af-s-010",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、result に格納される値はどれですか？\n\nconst process = (arr) => {\n  const doubled = arr.map(x => x * 2);\n  const filtered = doubled.filter(x => x > 4);\n  return filtered;\n};\nconst result = process([1, 2, 3, 4]);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[2, 4, 6, 8]"
+      },
+      {
+        "label": "B",
+        "text": "[6, 8]"
+      },
+      {
+        "label": "C",
+        "text": "[3, 4]"
+      },
+      {
+        "label": "D",
+        "text": "[4, 6, 8]"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "map + filter チェーン",
+      "アロー関数のコールバック"
+    ]
+  },
+  {
+    "id": "af-e-001",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、console.log の出力はどれですか？\n\nconst multiply = a => b => a * b;\nconst triple = multiply(3);\nconsole.log(triple(7));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "21"
+      },
+      {
+        "label": "B",
+        "text": "エラーが発生する。multiply(3) は関数を返さないため triple(7) を呼び出せない"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "カリー化",
+      "関数を返すアロー関数",
+      "クロージャ"
+    ]
+  },
+  {
+    "id": "af-e-002",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "次の二重アロー関数について正しく説明しているものはどれですか？\n\nconst add = a => b => a + b;",
+    "choices": [
+      {
+        "label": "A",
+        "text": "add は 2 つの引数 a と b を同時に受け取り a + b を返す関数"
+      },
+      {
+        "label": "B",
+        "text": "add(2) を呼ぶと 2 が返り、add(2)(3) を呼ぶと 5 が返る"
+      },
+      {
+        "label": "C",
+        "text": "add(2)(3) は文法エラーになる"
+      },
+      {
+        "label": "D",
+        "text": "add は a と b のどちらか大きい方を返す関数"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "カリー化の理解",
+      "部分適用"
+    ]
+  },
+  {
+    "id": "af-e-003",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "アロー関数には通常の function と異なり arguments オブジェクトが存在しません。次のコードの実行結果はどれですか？\n\nconst showArgs = () => {\n  console.log(arguments);\n};\nshowArgs(1, 2, 3);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[1, 2, 3]"
+      },
+      {
+        "label": "B",
+        "text": "Arguments { 0: 1, 1: 2, 2: 3 }"
+      },
+      {
+        "label": "C",
+        "text": "ReferenceError または undefined が出力される"
+      },
+      {
+        "label": "D",
+        "text": "3 (引数の個数)"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "argumentsオブジェクトなし",
+      "アロー関数の制限"
+    ]
+  },
+  {
+    "id": "af-e-004",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "アロー関数はコンストラクタとして使用することができません。次のコードの実行結果はどれですか？\n\nconst Person = (name) => {\n  this.name = name;\n};\nconst p = new Person(\"太郎\");",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ name: \"太郎\" } というオブジェクトが作られる"
+      },
+      {
+        "label": "B",
+        "text": "TypeError が発生する"
+      },
+      {
+        "label": "C",
+        "text": "undefined が返る"
+      },
+      {
+        "label": "D",
+        "text": "グローバルオブジェクトに name プロパティが追加される"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "アロー関数はnew不可",
+      "コンストラクタ制限"
+    ]
+  },
+  {
+    "id": "af-e-005",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、console.log の出力はどれですか？\n\nconst ops = [\n  x => x + 1,\n  x => x * 2,\n  x => x - 3\n];\nconst result = ops.reduce((acc, fn) => fn(acc), 5);\nconsole.log(result);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce と関数の配列",
+      "アロー関数のチェーン適用"
+    ]
+  },
+  {
+    "id": "af-e-006",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "即時実行関数 (IIFE) をアロー関数で書いた次のコードの出力はどれですか？\n\nconst result = (() => {\n  const x = 10;\n  const y = 20;\n  return x + y;\n})();\nconsole.log(result);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined"
+      },
+      {
+        "label": "B",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "function"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "IIFE とアロー関数",
+      "即時実行"
+    ]
+  },
+  {
+    "id": "af-e-007",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、console.log の出力はどれですか？\n\nconst makeCounter = (start = 0) => {\n  let count = start;\n  return {\n    increment: () => ++count,\n    decrement: () => --count,\n    value: () => count\n  };\n};\nconst c = makeCounter(10);\nc.increment();\nc.increment();\nc.decrement();\nconsole.log(c.value());",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "クロージャとアロー関数",
+      "カウンター"
+    ]
+  },
+  {
+    "id": "af-e-008",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、console.log の出力はどれですか？\n\nconst compose = f => g => x => f(g(x));\nconst double = x => x * 2;\nconst addOne = x => x + 1;\nconst doubleThenAddOne = compose(addOne)(double);\nconsole.log(doubleThenAddOne(5));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "関数合成",
+      "カリー化",
+      "アロー関数の応用"
+    ]
+  },
+  {
+    "id": "af-e-009",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、console.log の出力はどれですか？\n\nconst numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\nconst result = numbers\n  .filter(n => n % 3 === 0)\n  .map(n => n ** 2)\n  .reduce((sum, n) => sum + n, 0);\nconsole.log(result);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "45"
+      },
+      {
+        "label": "B",
+        "text": "126"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "81"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "filter + map + reduce チェーン",
+      "アロー関数の複合活用"
+    ]
+  },
+  {
+    "id": "af-e-010",
+    "subject": "プログラミング（JavaScript）",
+    "unit": "アロー関数（() => {}）",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると、console.log の出力はどれですか？\n\nconst pipe = (...fns) => x => fns.reduce((v, fn) => fn(v), x);\nconst transform = pipe(\n  x => x * 3,\n  x => x - 2,\n  x => x ** 2\n);\nconsole.log(transform(4));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "144"
+      },
+      {
+        "label": "D",
+        "text": "196"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "pipe関数パターン",
+      "レストパラメータ",
+      "reduce による関数適用"
+    ]
+  }
+]

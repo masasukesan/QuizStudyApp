@@ -1,0 +1,147 @@
+{
+  "unit_id": "array-basics",
+  "unit_name_jp": "配列の基本（宣言・アクセス・変更）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "array-declaration",
+      "description": "配列をリテラル [] または new Array() で宣言・初期化する方法を問う",
+      "thinking_process": [
+        "配列リテラル [] を使う方法を理解する",
+        "new Array(n) は長さ n の空配列を作ること（要素が n 個入った配列ではない）を把握する",
+        "空配列と初期値ありの配列を区別する"
+      ],
+      "common_mistakes": [
+        "{} と [] を混同して配列をオブジェクトリテラルで書いてしまう",
+        "(10, 20, 30) のようにカンマ演算子と誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "zero-based-index",
+      "description": "配列のインデックスが 0 始まりであること、要素へのアクセス方法を問う",
+      "thinking_process": [
+        "インデックスが 0 から始まることを確認する",
+        "n 番目の要素はインデックス n-1 でアクセスできることを理解する",
+        "最後の要素のインデックスは length - 1 であることを把握する"
+      ],
+      "common_mistakes": [
+        "1 番目の要素を arr[1] でアクセスしてしまう（正しくは arr[0]）",
+        "length と最後のインデックスを混同する（length=3 なら最後のインデックスは 2）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "array-length",
+      "description": "length プロパティの意味・値・変更による影響を問う",
+      "thinking_process": [
+        "length は要素数（最大インデックス + 1）であることを理解する",
+        "length を小さくすると末尾の要素が切り捨てられることを把握する",
+        "length を大きくするとスパース配列（穴のある配列）になることを理解する"
+      ],
+      "common_mistakes": [
+        "length をインデックスと混同する（length=3 なら最後のインデックスは 2）",
+        "length の代入が配列の内容に影響することを知らない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "array-element-modification",
+      "description": "インデックスを使って配列の要素を変更・追加する方法を問う",
+      "thinking_process": [
+        "arr[i] = 値 という代入構文で要素を変更できることを理解する",
+        "const で宣言した配列でも要素は変更できることを把握する",
+        "存在しないインデックスへの代入が新要素を追加し length も増えることを理解する"
+      ],
+      "common_mistakes": [
+        "const で宣言した配列の要素は変更できないと誤解する",
+        "変数への再代入（arr = [...]）と要素の変更（arr[0] = ...）の違いを混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "out-of-bounds",
+      "description": "存在しないインデックスにアクセスしたときの挙動（undefined）を問う",
+      "thinking_process": [
+        "JavaScript は範囲外インデックスへのアクセスでエラーを出さないことを理解する",
+        "undefined が返ることを把握する",
+        "null と undefined の違いを意識する"
+      ],
+      "common_mistakes": [
+        "エラーが発生すると誤解する（他の言語の Array Index Out of Bounds との混同）",
+        "null が返ると誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "array-type-check",
+      "description": "typeof と Array.isArray() の違い、配列の型判定方法を問う",
+      "thinking_process": [
+        "typeof [] が 'array' ではなく 'object' を返すことを理解する",
+        "配列かどうかを正しく判定するには Array.isArray() を使うことを把握する",
+        "typeof null も 'object' になることに注意する"
+      ],
+      "common_mistakes": [
+        "typeof [] が 'array' を返すと誤解する",
+        "x.isArray() のようにインスタンスメソッドとして呼び出そうとする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "reference-semantics",
+      "description": "配列が参照型であること、= 代入は参照のコピーであることを問う",
+      "thinking_process": [
+        "変数に配列を = で代入すると参照がコピーされることを理解する",
+        "片方を変更するともう一方も変わることを把握する",
+        "独立したコピーを作るにはスプレッド構文 [...arr] や slice() を使う"
+      ],
+      "common_mistakes": [
+        "= 演算子で配列を代入すると完全に別の配列が作られると誤解する",
+        "const で宣言されていても参照先の要素は変更できると気づかない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "multidimensional-array",
+      "description": "2 次元配列（配列の配列）の宣言とアクセス方法を問う",
+      "thinking_process": [
+        "配列の要素として配列を持てることを理解する",
+        "arr[行][列] という 2 段階のアクセスを把握する",
+        "外側の length は行数、内側の length は列数であることを理解する"
+      ],
+      "common_mistakes": [
+        "arr[行, 列] のような構文が使えると誤解する",
+        "2 次元配列の length が全要素数になると誤解する（正しくは外側の配列の長さ＝行数）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sparse-array",
+      "description": "スパース配列（穴のある配列）の挙動と length との関係を問う",
+      "thinking_process": [
+        "arr[n] = 値 を使うと length が n+1 になることを理解する",
+        "中間のインデックスはホール（穴）となり undefined として扱われることを把握する",
+        "delete 演算子は要素をホールにするが length を変えないことを理解する"
+      ],
+      "common_mistakes": [
+        "arr[4] = 'x' としたとき length が 1 になると誤解する",
+        "delete で要素を消すとインデックスがずれて詰まると誤解する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "shallow-copy",
+      "description": "スプレッド構文 [...arr] が浅いコピーであることを問う",
+      "thinking_process": [
+        "スプレッド構文は外側の配列を新しく作ることを理解する",
+        "要素が参照型（配列・オブジェクト）の場合は参照がコピーされることを把握する",
+        "内側のネスト配列を変更すると元の配列にも影響が出ることを理解する"
+      ],
+      "common_mistakes": [
+        "スプレッドで完全な深いコピーが作られると誤解する",
+        "2 次元配列をスプレッドすれば独立したコピーになると誤解する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

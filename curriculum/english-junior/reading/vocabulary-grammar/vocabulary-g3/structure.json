@@ -1,0 +1,53 @@
+{
+  "unit_id": "vocabulary-g3",
+  "unit_name_jp": "中3単語テスト",
+  "grade": "中学3年・高校受験",
+  "patterns": [
+    {
+      "pattern_id": "basic-en-to-jp",
+      "description": "中3必修単語・入試頻出語（抽象概念・社会問題・環境・科学・文化）を見て正しい日本語の意味を4択で選ぶ",
+      "thinking_process": [
+        "英単語を見て意味を思い浮かべる",
+        "似た意味の語や混同しやすい語と区別する",
+        "日本語の選択肢の中から正確に一致するものを選ぶ"
+      ],
+      "common_mistakes": [
+        "environment（環境）とexperience（経験）のスペルが似ているため混同する",
+        "society（社会）とculture（文化）など抽象語を曖昧に覚えている",
+        "achieve（達成する）とreceive（受け取る）などスペルが似た動詞を混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "standard-jp-to-en",
+      "description": "日本語の意味に対応する英単語を4択で選ぶ（スペルの似た語・同義語との区別を含む）",
+      "thinking_process": [
+        "日本語の意味をしっかり確認する",
+        "4つの選択肢を見て、スペルや意味が似た語との違いを確認する",
+        "正確にその意味を表す英単語を1つ選ぶ"
+      ],
+      "common_mistakes": [
+        "increase（増加する）とdecrease（減少する）を逆に覚えている",
+        "protect（守る）とconnect（つなぐ）をスペルの類似から混同する",
+        "community（地域社会）とcompany（会社）を混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "exam-context-and-idiom",
+      "description": "英文の文脈から下線部・空欄の語句の意味を推測する、または多義語・熟語の文脈に合った意味を選ぶ",
+      "thinking_process": [
+        "英文全体を読んで文脈（どんな状況か）を把握する",
+        "下線部・空欄の語句が文脈でどんな役割を持つか考える",
+        "多義語の場合は文脈に合った意味を選ぶ（別文脈での意味と混同しない）",
+        "熟語の場合は個々の単語ではなく熟語全体の意味で考える"
+      ],
+      "common_mistakes": [
+        "多義語（point/run/mean等）を一つの意味しか覚えていない",
+        "熟語を構成する個々の単語の意味から直訳しようとする（例：look forward to を「前を見る」と訳す）",
+        "文脈を無視して単語単体の最も一般的な意味を選んでしまう"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

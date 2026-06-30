@@ -1,0 +1,514 @@
+{
+  "func-decl-basic-01": {
+    "lead": "関数を「定義する」とは、処理のまとまりに名前を付けて、後から何度でも呼び出せる形にすることです。料理のレシピを書いておくイメージで、レシピ（定義）を書いただけでは料理は始まらず、実際に作り始める（呼び出す）ことで初めて処理が実行されます。",
+    "steps": [
+      "「定義」とは設計図を作ること。この時点では処理は実行されない",
+      "同じ処理を何度も書かなくて済む（再利用できる）",
+      "呼び出すたびに同じ処理が実行される"
+    ],
+    "common_mistakes": [
+      "「定義したら即実行される」と思いがち。定義だけでは動かない",
+      "「1回しか使えない」と誤解することがある。関数は何度でも呼び出せる"
+    ],
+    "tips": [
+      "関数定義 ＝ 設計図を作る、関数呼び出し ＝ 設計図を使って実行する",
+      "同じ処理が2回以上出てきたら関数にまとめるサインです"
+    ]
+  },
+  "func-decl-basic-02": {
+    "lead": "function greet() { console.log('こんにちは'); } は「greet という名前の関数を定義している」コードです。このコードを実行しても 'こんにちは' は表示されません。定義するだけで、処理は実行されないからです。",
+    "steps": [
+      "function キーワード：「これは関数の定義です」と JavaScript に伝える合図",
+      "greet：関数の名前（あとで呼び出すときに使う）",
+      "()：引数リスト（今回は引数なし）",
+      "{ console.log('こんにちは'); }：中括弧 {} の中が「処理の中身（関数本体）」。定義時には実行されない"
+    ],
+    "common_mistakes": [
+      "定義した時点で 'こんにちは' が出力されると思いがち",
+      "greet を変数への代入と混同しやすい（const greet = ... とは違う）"
+    ],
+    "tips": [
+      "関数宣言の構文：function 関数名(引数) { 処理 }",
+      "定義しただけでは動かない。greet(); と書いて初めて実行される"
+    ]
+  },
+  "func-decl-basic-03": {
+    "lead": "greet(); と書くことで関数を「呼び出し」ます。呼び出しが起きた時点で {} の中の処理が実行され、コンソールに 'こんにちは' が表示されます。",
+    "steps": [
+      "function greet() { ... } の行では定義だけ行われ、何も出力されない",
+      "greet(); の行で初めて関数が呼び出され、本体の console.log('こんにちは') が実行される",
+      "結果：コンソールに 'こんにちは' が1回出力される"
+    ],
+    "common_mistakes": [
+      "定義の行（function greet）でも出力が起きると思いがち",
+      "greet と greet() の違いを混同する（() がないと呼び出しにならない）"
+    ],
+    "tips": [
+      "関数名の後に () を付けると「呼び出し」、付けないと「関数への参照」",
+      "呼び出しのたびに関数本体が実行される"
+    ]
+  },
+  "func-decl-basic-04": {
+    "lead": "関数を呼び出すには、関数名の後に () を付けます。() がない場合は「関数そのもの（参照）」を意味し、処理は実行されません。call や run は JavaScript の呼び出し構文ではありません。",
+    "steps": [
+      "greet と書いた場合：「greet という関数オブジェクト」への参照（実行されない）",
+      "greet() と書いた場合：greet 関数を呼び出す（処理が実行される）",
+      "call greet / run greet() は JavaScript の構文として存在しない"
+    ],
+    "common_mistakes": [
+      "() を省いて greet だけ書き、関数が実行されないのに気づかないケース",
+      "他の言語（VBA の call など）の構文と混同するケース"
+    ],
+    "tips": [
+      "「関数名 + ()」が呼び出しの基本構文",
+      "引数がある場合は greet('名前') のように () の中に渡す"
+    ]
+  },
+  "func-decl-basic-05": {
+    "lead": "関数を定義するときに () の中に書く変数名（x や y）を「仮引数（かりひきすう）」またはパラメータと呼びます。一方、関数を呼び出すときに実際に渡す値（add(3, 5) の 3 と 5）を「実引数（じつひきすう）」またはアーギュメントと呼びます。",
+    "steps": [
+      "function add(x, y)：x と y は仮引数。「呼び出されたときに受け取る値の入れ物」",
+      "add(3, 5) と呼び出すと：3 が x に、5 が y に入る",
+      "仮引数は関数の本体 {} の中でだけ使えるローカル変数"
+    ],
+    "common_mistakes": [
+      "仮引数と実引数を同じものだと混同する",
+      "呼び出し側の変数名と仮引数名が一致していないといけないと誤解する（名前は無関係、順番で対応する）"
+    ],
+    "tips": [
+      "仮引数（パラメータ）＝定義時の変数名、実引数（アーギュメント）＝呼び出し時の実際の値",
+      "仮引数の名前は何でもよい。位置（順番）で対応する"
+    ]
+  },
+  "func-decl-basic-06": {
+    "lead": "add(3, 5) を呼び出すと、仮引数 x に 3、y に 5 が入り、return x + y → return 3 + 5 → 8 が呼び出し元に返ります。この 8 が result に代入されます。",
+    "steps": [
+      "add(3, 5) 呼び出し時：x = 3、y = 5 が設定される",
+      "return x + y → return 3 + 5 → 8",
+      "この 8 が呼び出し元（const result = ...）に返り、result に代入される"
+    ],
+    "common_mistakes": [
+      "戻り値が result に入ることに気づかず「result は何も入っていない」と思うケース",
+      "35 と出力されると誤解（数字を文字列として + で連結したと誤解）"
+    ],
+    "tips": [
+      "return した値 ＝ 関数の呼び出し式全体の値",
+      "const result = add(3, 5) は const result = 8 と同じ意味になる"
+    ]
+  },
+  "func-decl-basic-07": {
+    "lead": "JavaScript では、return 文がない関数（または return だけで値を書かない関数）を呼び出すと、自動的に undefined が返ります。undefined は「値が存在しない・何も返していない」ことを表す特別な値です。",
+    "steps": [
+      "return 文がない → 関数本体の最後まで実行した後、JavaScript が自動的に undefined を返す",
+      "return; と書いた場合も同様に undefined を返す（関数をそこで終了するだけ）",
+      "undefined は 0 でも null でも false でもない、専用の「値なし」を示す型"
+    ],
+    "common_mistakes": [
+      "return がなければ 0 が返ると誤解するケース",
+      "null や false が返ると思うケース"
+    ],
+    "tips": [
+      "副作用（console.log など）だけで使う関数は return 不要",
+      "戻り値を使いたい場合は必ず return を書く"
+    ]
+  },
+  "func-decl-basic-08": {
+    "lead": "return 文が実行された時点で、関数の処理はそこで終了します。return より後に書かれたコードは「到達不可能なコード」となり、実行されません。このコードでは return; の行で関数が終了するため、その後の console.log('World') は実行されません。",
+    "steps": [
+      "console.log('Hello') が実行され 'Hello' が出力される",
+      "return; に達した時点で関数終了",
+      "console.log('World') は return より後にあるため実行されない"
+    ],
+    "common_mistakes": [
+      "return の後のコードも実行されると思いがち",
+      "return; は「何も返さない」と「関数を終了する」の2つの意味があることを忘れる"
+    ],
+    "tips": [
+      "return は「関数の終了 + 値を返す」の2役を担う",
+      "return より後のコードはエディタや Linter が警告を出すことが多い（unreachable code）"
+    ]
+  },
+  "func-decl-basic-09": {
+    "lead": "console.log と return は全く別の役割を持ちます。console.log は「コンソール（開発者ツール）に表示する」だけで、関数の外には何も渡しません。return は「呼び出し元に値を渡す」命令です。",
+    "steps": [
+      "console.log('Hello') ：コンソールに 'Hello' を表示する。しかし関数の外に値は渡らない",
+      "return 'Hello' ：関数の呼び出し元に 'Hello' という値を渡す。コンソールには何も表示しない",
+      "const x = console.log('Hi') と書くと x は undefined になる（console.log の戻り値は undefined）",
+      "const x = 関数() と書いて値を受け取るには、関数内に return が必要"
+    ],
+    "common_mistakes": [
+      "console.log で表示したから「値が返った」と誤解する",
+      "return と console.log を同じ動作と思い込む"
+    ],
+    "tips": [
+      "デバッグ（確認）には console.log、値を渡したいときは return",
+      "const result = myFunc() で値を受け取れるのは myFunc が return を持つ場合のみ"
+    ]
+  },
+  "func-decl-basic-10": {
+    "lead": "greet() という呼び出しを3回書いているので、greet 関数の本体（console.log('Hello')）が3回実行されます。関数は定義すれば何度でも呼び出せます。",
+    "steps": [
+      "1回目の greet() → 'Hello' が出力される",
+      "2回目の greet() → 'Hello' が出力される",
+      "3回目の greet() → 'Hello' が出力される",
+      "合計3回 'Hello' が出力される"
+    ],
+    "common_mistakes": [
+      "定義の行（function greet）でも1回実行されると誤解し「4回」と答えるケース",
+      "呼び出しの回数を数え間違えるケース"
+    ],
+    "tips": [
+      "関数の最大の利点は「同じ処理を何度でも再利用できる」こと",
+      "呼び出すたびに関数本体が先頭から実行される"
+    ]
+  },
+  "func-decl-standard-01": {
+    "lead": "ネストした関数呼び出しは「内側から外側へ」順に評価されます。multiply(multiply(2, 3), 4) では、まず内側の multiply(2, 3) が実行されて 6 になり、次に multiply(6, 4) が実行されて 24 になります。",
+    "steps": [
+      "内側の multiply(2, 3) を先に評価：a=2, b=3 → return 2*3 = 6",
+      "式が multiply(6, 4) に置き換わる",
+      "外側の multiply(6, 4) を評価：a=6, b=4 → return 6*4 = 24",
+      "result に 24 が代入される"
+    ],
+    "common_mistakes": [
+      "外側から評価すると誤解し multiply(2, 4) などを先に計算するケース",
+      "引数が3つあると誤解し multiply(2, 3, 4) として計算するケース"
+    ],
+    "tips": [
+      "ネストした関数呼び出しは「内側から外側へ」評価される",
+      "括弧の最も内側から順に解いていく（数学の計算と同じ）"
+    ]
+  },
+  "func-decl-standard-02": {
+    "lead": "関数宣言（function f() {}）はファイルの先頭に「巻き上げられる（ホイスティング）」ので、コード中のどこからでも呼び出せます。一方、関数式（const f = function() {}）は変数への代入なので、その行より前には存在しません。",
+    "steps": [
+      "関数宣言はホイスティング（巻き上げ）される：JavaScript がコード実行前に宣言を先頭に移動する",
+      "そのため、定義より前のコードからも呼び出せる",
+      "関数式（const f = function() {}）は const/let の変数宣言なのでホイスティングされない",
+      "関数式の定義より前に呼び出そうとすると ReferenceError または TypeError が発生する"
+    ],
+    "common_mistakes": [
+      "関数式もホイスティングされると思い込む",
+      "var で宣言した関数式は変数自体はホイスティングされるが undefined になり、呼び出すと TypeError になる点を混同する"
+    ],
+    "tips": [
+      "関数宣言：どこからでも呼び出せる（ホイスティングあり）",
+      "関数式：定義より前に呼び出すとエラー（ホイスティングなし）"
+    ]
+  },
+  "func-decl-standard-03": {
+    "lead": "function square(n) {} は「関数宣言」なので、ホイスティング（巻き上げ）が起こります。JavaScript がコードを実行する前に、関数宣言をスコープの先頭に移動するため、console.log(square(5)) が先に書かれていても問題なく動きます。square(5) → 5*5 = 25 が出力されます。",
+    "steps": [
+      "JavaScript の実行準備段階で function square の宣言がスコープ先頭に移動（ホイスティング）",
+      "console.log(square(5)) が実行される時点では square はすでに使える状態",
+      "square(5) → n=5 → return 5*5 = 25",
+      "25 が出力される"
+    ],
+    "common_mistakes": [
+      "「定義より前に呼び出せない」と思い込み、ReferenceError になると誤解するケース",
+      "関数式と混同してホイスティングが起こらないと判断するケース"
+    ],
+    "tips": [
+      "関数宣言（function 名前() {}）はどこに書いても先頭に移動される",
+      "ただし、可読性のために定義は呼び出しより前に書くのが慣習"
+    ]
+  },
+  "func-decl-standard-04": {
+    "lead": "デフォルト引数は「引数が渡されなかったとき（= undefined のとき）に使われる値」です。greet() と引数なしで呼び出すと name は undefined になるため、デフォルト値の 'ゲスト' が使われます。結果として 'こんにちは、ゲストさん' と出力されます。",
+    "steps": [
+      "greet() と呼び出す → name に何も渡されないので name は undefined",
+      "name = 'ゲスト' のデフォルト値が適用され name = 'ゲスト' になる",
+      "console.log('こんにちは、' + 'ゲスト' + 'さん') → 'こんにちは、ゲストさん' が出力される"
+    ],
+    "common_mistakes": [
+      "undefined ではなく null を渡した場合（後述）もデフォルト値になると混同するケース",
+      "引数なし呼び出しでエラーになると思うケース"
+    ],
+    "tips": [
+      "デフォルト引数が使われる条件：引数が「undefined（渡されなかった）」のとき",
+      "greet('田中') と渡せば name = '田中' になり、デフォルト値は無視される"
+    ]
+  },
+  "func-decl-standard-05": {
+    "lead": "デフォルト引数は「引数が undefined のとき」だけ使われます。null を渡すと「null という値を渡した」ことになり、undefined ではないためデフォルト値は使われません。JavaScript では null + 数値の演算では null が 0 に変換されるため、5 + null = 5 になります。",
+    "steps": [
+      "calc(5, null) → a=5, y=null（null は undefined ではないのでデフォルト値 10 は使われない）",
+      "return a + y → return 5 + null",
+      "JavaScript では null は数値演算で 0 に変換される → 5 + 0 = 5",
+      "結果は 5"
+    ],
+    "common_mistakes": [
+      "null を渡してもデフォルト値が使われると誤解する（null と undefined は別物）",
+      "5 + null がエラーになると思うケース（JavaScript は null を 0 に変換する）"
+    ],
+    "tips": [
+      "デフォルト引数のトリガー：undefined のみ。null・0・false・'' は「値を渡した」と見なされる",
+      "意図的にデフォルト値を使いたいときは引数を省略するか、明示的に undefined を渡す"
+    ]
+  },
+  "func-decl-standard-06": {
+    "lead": "関数式は「変数に関数を代入する」書き方です。const double = function(n) { return n * 2; }; と書くと、double という変数に関数が入ります。double(7) と呼び出すと n=7 が渡され、return 7*2 = 14 が返ります。",
+    "steps": [
+      "const double = function(n) { return n * 2; }; → double に関数が代入される",
+      "double(7) と呼び出す → n=7",
+      "return n * 2 → return 7 * 2 = 14",
+      "result に 14 が代入される"
+    ],
+    "common_mistakes": [
+      "const に関数を代入できないと誤解するケース（代入できる）",
+      "関数式は呼び出せないと誤解するケース（関数宣言と同様に呼び出せる）"
+    ],
+    "tips": [
+      "関数式も関数宣言と同様に呼び出せる",
+      "違いは「ホイスティングされるかどうか」と「名前があるかどうか」"
+    ]
+  },
+  "func-decl-standard-07": {
+    "lead": "const triple = function(n) {...} は「関数式」です。const/let/var で宣言された変数はホイスティングされないか（const/let の場合は「一時的デッドゾーン」に入る）、そのため定義より前に呼び出すとエラーになります。",
+    "steps": [
+      "console.log(triple(4)) を実行しようとする",
+      "この時点で triple は const 宣言だが初期化されていない（TDZ = 一時的デッドゾーン状態）",
+      "ReferenceError が発生し 'Cannot access triple before initialization' のようなエラーメッセージが出る",
+      "関数宣言（function triple() {}）であれば問題ないが、関数式はこの違いがある"
+    ],
+    "common_mistakes": [
+      "関数式も関数宣言と同様にホイスティングされると思い込む",
+      "var で宣言した場合は hoisting されるが undefined になり TypeError が起きる（const とは違うエラー）"
+    ],
+    "tips": [
+      "関数宣言（function f() {}）→ ホイスティングあり、宣言前から呼び出せる",
+      "関数式（const f = function() {}）→ ホイスティングなし、宣言より前に呼び出すとエラー"
+    ]
+  },
+  "func-decl-standard-08": {
+    "lead": "const f = original; は「original 関数への参照を f に代入する」操作です。f() と呼ぶと original と同じ処理が実行され 42 が返ります。一方、const g = original(); は「original() を呼び出した結果（42）を g に代入する」操作です。g は数値 42 なので g() と呼ぼうとすると「数値は呼び出せない」というエラーになります。",
+    "steps": [
+      "const f = original → f は original 関数への参照を持つ。f() を呼べば 42 が返る",
+      "const g = original() → original() が実行されて 42 が返り、g に 42 が代入される",
+      "g() と呼ぶと「42 は関数ではない」エラー（TypeError）になる",
+      "f と f() は全く異なる：f は「関数そのもの」、f() は「関数を呼び出した結果」"
+    ],
+    "common_mistakes": [
+      "f も g も同じ関数への参照だと思い込む",
+      "() の有無の違いを軽視して「どちらも 42 を返す」と誤解するケース"
+    ],
+    "tips": [
+      "f ＝ 関数への参照（レシピ自体）",
+      "f() ＝ 関数を呼び出した戻り値（レシピを使って作った料理）"
+    ]
+  },
+  "func-decl-standard-09": {
+    "lead": "square(add(2, 3)) はネストした関数呼び出しです。内側の add(2, 3) が先に実行されて 5 になり、その結果が square の引数として渡されます。square(5) → 5*5 = 25 が最終的な結果です。",
+    "steps": [
+      "内側の add(2, 3) を先に評価：a=2, b=3 → return 2+3 = 5",
+      "式が square(5) に置き換わる",
+      "square(5) を評価：n=5 → return 5*5 = 25",
+      "result に 25 が代入される"
+    ],
+    "common_mistakes": [
+      "外側から評価し square(2) + square(3) → 4+9 = 13 と計算するケース",
+      "add(2, 3) の結果が add(2, 3) + 3 などに変化すると誤解するケース"
+    ],
+    "tips": [
+      "ネストした呼び出しは内側から外側へ順番に評価する",
+      "どの関数が先に実行されるかを括弧の深さで判断する"
+    ]
+  },
+  "func-decl-standard-10": {
+    "lead": "increment(x) + increment(increment(x)) では2つの increment 呼び出しを行います。x は変更されません（数値は値渡し）。increment(5) = 6、increment(increment(5)) = increment(6) = 7 なので、6 + 7 = 13 が output に入ります。",
+    "steps": [
+      "x = 5（変数 x の値）",
+      "increment(x) → increment(5) → return 5+1 = 6（x は変わらない）",
+      "increment(increment(x)) → まず内側の increment(x) = increment(5) = 6、次に increment(6) = 7",
+      "6 + 7 = 13 が output に代入される"
+    ],
+    "common_mistakes": [
+      "1回目の increment で x が変わり、2回目も影響すると誤解するケース（数値は値渡しなので x は変わらない）",
+      "increment(increment(x)) の評価順序を外側から行うケース"
+    ],
+    "tips": [
+      "数値（プリミティブ値）は「値渡し」。関数に渡した変数は関数内で変更されても呼び出し元の変数は変わらない",
+      "ネストした呼び出しは内側から外側へ"
+    ]
+  },
+  "func-decl-exam-01": {
+    "lead": "apply(fn, value) は、受け取った fn（関数）を value を引数にして呼び出す「高階関数」です。apply(triple, 7) では fn=triple（関数の参照）、value=7 が入り、fn(value) = triple(7) = 21 が実行されます。このように「関数を引数として受け取る関数」を高階関数といいます。",
+    "steps": [
+      "apply(triple, 7) の呼び出し：fn = triple（関数への参照）、value = 7",
+      "return fn(value) → return triple(7)",
+      "triple(7) → return 7 * 3 = 21",
+      "result に 21 が代入される"
+    ],
+    "common_mistakes": [
+      "apply(triple(), 7) のように () を付けて渡すと、triple() が先に実行されて戻り値（undefined）が fn に入りエラーになる",
+      "fn の中身が文字列 'triple' になると誤解するケース"
+    ],
+    "tips": [
+      "関数を引数として渡すとき：() なしで渡す（参照として渡す）",
+      "高階関数（関数を受け取る関数）は map・filter・reduce など配列メソッドでよく使われる"
+    ]
+  },
+  "func-decl-exam-02": {
+    "lead": "outer 関数の中で inner 関数が定義されています。inner は outer のスコープにある変数 x にアクセスできます。outer(5) を呼ぶと x=5 が設定され、inner(10) が呼ばれると y=10 になり x+y = 5+10 = 15 が返ります。",
+    "steps": [
+      "outer(5) 呼び出し：x = 5",
+      "inner 関数が定義される（inner は x=5 にアクセスできる）",
+      "return inner(10) → inner(10) を呼び出す：y = 10",
+      "return x + y → return 5 + 10 = 15",
+      "outer(5) の戻り値は 15、console.log(15) が実行される"
+    ],
+    "common_mistakes": [
+      "inner が関数の外から参照できないのでエラーになると思うケース（inner は outer 内で呼ばれているので問題ない）",
+      "x が inner のスコープ外なので undefined になると誤解するケース（内側の関数は外側の変数にアクセスできる）"
+    ],
+    "tips": [
+      "内側の関数は、外側の関数の変数にアクセスできる（これがクロージャの基礎）",
+      "変数のスコープは「内側から外側へ」探しに行く"
+    ]
+  },
+  "func-decl-exam-03": {
+    "lead": "makeAdder(5) を呼び出すと x=5 が設定され、「y を受け取って x+y を返す関数」が return されます。この返ってきた関数が add5 に代入されます。add5(3) を呼ぶと y=3 が渡され、x+y = 5+3 = 8 が返ります。これがクロージャ（関数が自分が作られたときの変数を覚えている機能）の基本的な使い方です。",
+    "steps": [
+      "makeAdder(5) → x=5 で実行。function(y) { return x + y; } を return する",
+      "add5 に「y を受け取って 5+y を返す関数」が代入される（x=5 を覚えている）",
+      "add5(3) → y=3、return 5+3 = 8",
+      "result に 8 が代入される"
+    ],
+    "common_mistakes": [
+      "makeAdder(5) が undefined を返すと思い込み、add5(3) がエラーになると誤解するケース",
+      "add5 が数値 5 になると誤解するケース（add5 は関数）"
+    ],
+    "tips": [
+      "「関数を返す関数」はカスタマイズされた関数を作るときによく使われる",
+      "add5 は「5 を足す関数」、makeAdder(10) なら「10 を足す関数」を作れる（再利用性が高い）"
+    ]
+  },
+  "func-decl-exam-04": {
+    "lead": "calc(10, 4, function(x, y) { return x - y; }) では、第3引数に無名関数（名前のない関数）を直接渡しています。calc の中で op(a, b) = op(10, 4) が呼ばれると、無名関数の x=10, y=4 → return 10-4 = 6 が実行されます。コンソールには 6 が出力されます。",
+    "steps": [
+      "calc(10, 4, 無名関数) の呼び出し：a=10, b=4, op=無名関数",
+      "return op(a, b) → 無名関数(10, 4) が実行される",
+      "無名関数：x=10, y=4 → return 10-4 = 6",
+      "result = 6、console.log(6) が出力される"
+    ],
+    "common_mistakes": [
+      "無名関数は引数として渡せないと誤解するケース（渡せる）",
+      "op が undefined になると思うケース（関数そのものが渡されている）"
+    ],
+    "tips": [
+      "関数は名前がなくても変数や引数として使える（これを「無名関数」または「匿名関数」という）",
+      "操作（加算・減算など）を引数で渡せると、同じ calc 関数でさまざまな計算ができる"
+    ]
+  },
+  "func-decl-exam-05": {
+    "lead": "配列（オブジェクト）は「参照渡し」です。modify(nums) で渡しているのは「nums が指している場所（参照）」なので、関数内で arr.push(99) をすると、同じ場所を指している nums も変更されます。結果として nums は [1, 2, 3, 99] になります。",
+    "steps": [
+      "nums = [1, 2, 3]：nums は配列の場所（参照）を持つ",
+      "modify(nums)：arr に nums と同じ参照が入る（コピーではなく同じ配列を指す）",
+      "arr.push(99)：配列の中身を変更 → [1, 2, 3, 99]",
+      "nums も同じ配列を指しているため nums = [1, 2, 3, 99] になる"
+    ],
+    "common_mistakes": [
+      "関数に渡したので nums とは別のコピーが変更されると誤解するケース",
+      "push が新しい配列を返すので元の配列は変わらないと誤解するケース（push は元の配列を変更する）"
+    ],
+    "tips": [
+      "数値・文字列・論理値（プリミティブ）→ 値渡し（関数内の変更は呼び出し元に影響しない）",
+      "配列・オブジェクト（参照型）→ 参照渡し（関数内の変更が呼び出し元に影響する）"
+    ]
+  },
+  "func-decl-exam-06": {
+    "lead": "compute(n) は「n から 0 まで足し合わせる」再帰関数です。再帰とは「関数が自分自身を呼び出す」仕組みです。n <= 0 のとき 0 を返し（これを「ベースケース」という）、それ以外は n + compute(n-1) を計算します。compute(4) = 4+3+2+1+0 = 10 になります。",
+    "steps": [
+      "compute(4) → 4 + compute(3)",
+      "compute(3) → 3 + compute(2)",
+      "compute(2) → 2 + compute(1)",
+      "compute(1) → 1 + compute(0)",
+      "compute(0) → n<=0 なので return 0（ベースケース：ここで再帰が止まる）",
+      "折り返して計算：1+0=1、2+1=3、3+3=6、4+6=10 → 結果は 10"
+    ],
+    "common_mistakes": [
+      "再帰が1段階しか起きないと誤解し 4+3=7 と計算するケース",
+      "n<=0 の条件で必ず止まることを見落とし「無限ループになる」と思うケース"
+    ],
+    "tips": [
+      "再帰関数には必ず「止まる条件（ベースケース）」が必要",
+      "ベースケースがないと無限に自分を呼び続けてスタックオーバーフローになる"
+    ]
+  },
+  "func-decl-exam-07": {
+    "lead": "数値（プリミティブ値）は「値渡し」です。swap(a, b) で渡しているのは a と b の「コピー」です。関数内で x と y を入れ替えても、呼び出し元の a や b は変わりません。そのため console.log(a, b) は 10 20 のまま出力されます。",
+    "steps": [
+      "swap(a, b) → x=10（a のコピー）、y=20（b のコピー）が作られる",
+      "temp = x → temp = 10",
+      "x = y → x = 20",
+      "y = temp → y = 10",
+      "関数内では x と y が入れ替わったが、呼び出し元の a と b は変わっていない",
+      "console.log(a, b) → 10 20 が出力される"
+    ],
+    "common_mistakes": [
+      "関数に渡した a と b も swap の中で変更されると誤解するケース（値渡しなのでコピーが渡される）"
+    ],
+    "tips": [
+      "数値・文字列などのプリミティブ値は「値のコピー」が渡される",
+      "JavaScript で本当に swap するには配列などを返して代入する必要がある（例：[a, b] = swap(a, b)）"
+    ]
+  },
+  "func-decl-exam-08": {
+    "lead": "run 関数は fn() を2回呼び出します。fn は「count を 1 増やして count を返す無名関数」です。count は関数外の変数なので、呼び出すたびに増えていきます。1回目の fn() → count=1 を返す、2回目の fn() → count=2 を返す。1+2=3 が result に入ります。",
+    "steps": [
+      "count = 0 で初期化",
+      "run(fn) が呼ばれる。fn は count++ して count を返す関数",
+      "1回目の fn()：count++ → count=1、return 1",
+      "2回目の fn()：count++ → count=2、return 2",
+      "fn() + fn() = 1 + 2 = 3",
+      "result = 3"
+    ],
+    "common_mistakes": [
+      "fn が毎回 count=0 からリセットされると誤解するケース（count は外部変数なので状態が保たれる）",
+      "2回とも同じ値 1 が返ると思い 1+1=2 と計算するケース"
+    ],
+    "tips": [
+      "関数の外の変数を書き換える操作を「副作用（side effect）」という",
+      "副作用のある関数は呼び出すたびに結果が変わることがある"
+    ]
+  },
+  "func-decl-exam-09": {
+    "lead": "compose(f, g) は「g(x) の結果を f に渡す関数を作る」関数です。compose(double, inc) は「x を受け取り double(inc(x)) を返す関数」になります。transform(4) → double(inc(4)) → double(5) → 10 が最終的な結果です。",
+    "steps": [
+      "compose(double, inc) → f=double, g=inc。return function(x) { return f(g(x)); }",
+      "transform は「x を受け取り double(inc(x)) を返す関数」",
+      "transform(4) → x=4",
+      "g(x) = inc(4) = 4+1 = 5 を先に評価",
+      "f(5) = double(5) = 5*2 = 10",
+      "log = 10"
+    ],
+    "common_mistakes": [
+      "f(g(x)) を「外側から」評価し inc(double(x)) と誤解するケース（g が先、f が後）",
+      "double + inc として数値を足し合わせると誤解するケース"
+    ],
+    "tips": [
+      "compose(f, g)(x) = f(g(x))：g を先に適用してその結果を f に渡す",
+      "関数合成は「変換処理を組み合わせる」ときに使われるパターン"
+    ]
+  },
+  "func-decl-exam-10": {
+    "lead": "makeCounter() を呼び出すたびに新しい count 変数が作られます。counter1 と counter2 はそれぞれ独立した count を持ちます。counter1() を2回呼ぶと count=1 → count=2 になり、counter2() を呼ぶと新しい count=1 になります。出力は 1, 2, 1 です。",
+    "steps": [
+      "const counter1 = makeCounter() → count=0 が作られ、count をインクリメントして返す関数が counter1 に入る",
+      "const counter2 = makeCounter() → 別の count=0 が作られ、別の関数が counter2 に入る",
+      "counter1() 1回目：counter1 の count++ → 1 を返す → 出力 1",
+      "counter1() 2回目：counter1 の count++ → 2 を返す → 出力 2",
+      "counter2() 1回目：counter2 の count++ → 1 を返す → 出力 1",
+      "最終出力：1, 2, 1"
+    ],
+    "common_mistakes": [
+      "counter1 と counter2 が同じ count を共有すると誤解し 1, 2, 3 と答えるケース",
+      "makeCounter を2回呼ぶと count がリセットされ counter1 の count も 0 に戻ると思うケース"
+    ],
+    "tips": [
+      "makeCounter() を呼ぶたびに「新しいクロージャ（新しい count）」が作られる",
+      "これがクロージャの実用例：呼び出しごとに独立した状態を持てる"
+    ]
+  }
+}

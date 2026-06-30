@@ -1,0 +1,782 @@
+[
+  {
+    "id": "vg3-001",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「environment」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "実験"
+      },
+      {
+        "label": "B",
+        "text": "環境"
+      },
+      {
+        "label": "C",
+        "text": "経験"
+      },
+      {
+        "label": "D",
+        "text": "科学"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg3-002",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「society」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "文化"
+      },
+      {
+        "label": "B",
+        "text": "関係"
+      },
+      {
+        "label": "C",
+        "text": "社会"
+      },
+      {
+        "label": "D",
+        "text": "経済"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-003",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「opportunity」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "機会"
+      },
+      {
+        "label": "B",
+        "text": "目的"
+      },
+      {
+        "label": "C",
+        "text": "努力"
+      },
+      {
+        "label": "D",
+        "text": "課題"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg3-004",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「responsibility」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "経験"
+      },
+      {
+        "label": "B",
+        "text": "知識"
+      },
+      {
+        "label": "C",
+        "text": "能力"
+      },
+      {
+        "label": "D",
+        "text": "責任"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg3-005",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「traditional」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "技術的な"
+      },
+      {
+        "label": "B",
+        "text": "伝統的な"
+      },
+      {
+        "label": "C",
+        "text": "国際的な"
+      },
+      {
+        "label": "D",
+        "text": "自然な"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg3-006",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「volunteer」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ボランティア(自発的に奉仕する人)"
+      },
+      {
+        "label": "B",
+        "text": "研究者"
+      },
+      {
+        "label": "C",
+        "text": "政治家"
+      },
+      {
+        "label": "D",
+        "text": "市民"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg3-007",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「government」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "目標"
+      },
+      {
+        "label": "B",
+        "text": "文化"
+      },
+      {
+        "label": "C",
+        "text": "政府"
+      },
+      {
+        "label": "D",
+        "text": "会社"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-008",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「pollution」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "保護"
+      },
+      {
+        "label": "B",
+        "text": "節約"
+      },
+      {
+        "label": "C",
+        "text": "再利用"
+      },
+      {
+        "label": "D",
+        "text": "汚染"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg3-009",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「achieve」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "感謝する"
+      },
+      {
+        "label": "B",
+        "text": "達成する"
+      },
+      {
+        "label": "C",
+        "text": "驚く"
+      },
+      {
+        "label": "D",
+        "text": "諦める"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg3-010",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「contribute」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "比較する"
+      },
+      {
+        "label": "B",
+        "text": "解決する"
+      },
+      {
+        "label": "C",
+        "text": "貢献する"
+      },
+      {
+        "label": "D",
+        "text": "改善する"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-011",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「将来・未来」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "present"
+      },
+      {
+        "label": "B",
+        "text": "history"
+      },
+      {
+        "label": "C",
+        "text": "custom"
+      },
+      {
+        "label": "D",
+        "text": "future"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg3-012",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「達成する・成し遂げる」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "achieve"
+      },
+      {
+        "label": "B",
+        "text": "receive"
+      },
+      {
+        "label": "C",
+        "text": "believe"
+      },
+      {
+        "label": "D",
+        "text": "retrieve"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg3-013",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「国際的な」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "national"
+      },
+      {
+        "label": "B",
+        "text": "international"
+      },
+      {
+        "label": "C",
+        "text": "traditional"
+      },
+      {
+        "label": "D",
+        "text": "educational"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg3-014",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「解決策」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "problem"
+      },
+      {
+        "label": "B",
+        "text": "reason"
+      },
+      {
+        "label": "C",
+        "text": "solution"
+      },
+      {
+        "label": "D",
+        "text": "method"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-015",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「守る・保護する」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "protect"
+      },
+      {
+        "label": "B",
+        "text": "connect"
+      },
+      {
+        "label": "C",
+        "text": "collect"
+      },
+      {
+        "label": "D",
+        "text": "expect"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg3-016",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「増加する・増える」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "decrease"
+      },
+      {
+        "label": "B",
+        "text": "release"
+      },
+      {
+        "label": "C",
+        "text": "achieve"
+      },
+      {
+        "label": "D",
+        "text": "increase"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg3-017",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「影響（名詞）」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "evidence"
+      },
+      {
+        "label": "B",
+        "text": "influence"
+      },
+      {
+        "label": "C",
+        "text": "experience"
+      },
+      {
+        "label": "D",
+        "text": "difference"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg3-018",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「改善する・向上させる」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "remove"
+      },
+      {
+        "label": "B",
+        "text": "approve"
+      },
+      {
+        "label": "C",
+        "text": "improve"
+      },
+      {
+        "label": "D",
+        "text": "prove"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-019",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「地域社会・共同体」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "community"
+      },
+      {
+        "label": "B",
+        "text": "economy"
+      },
+      {
+        "label": "C",
+        "text": "company"
+      },
+      {
+        "label": "D",
+        "text": "ceremony"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg3-020",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「挑戦・課題」",
+    "choices": [
+      {
+        "label": "A",
+        "text": "exchange"
+      },
+      {
+        "label": "B",
+        "text": "change"
+      },
+      {
+        "label": "C",
+        "text": "choice"
+      },
+      {
+        "label": "D",
+        "text": "challenge"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg3-021",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"What is the main point of this story?\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "得点・ポイント数"
+      },
+      {
+        "label": "B",
+        "text": "指で差す動作"
+      },
+      {
+        "label": "C",
+        "text": "要点・主旨"
+      },
+      {
+        "label": "D",
+        "text": "とがった先端"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-022",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"Please take care of your little sister while I'm away.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "注意深く見る"
+      },
+      {
+        "label": "B",
+        "text": "世話をする"
+      },
+      {
+        "label": "C",
+        "text": "連れて行く"
+      },
+      {
+        "label": "D",
+        "text": "一緒に遊ぶ"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg3-023",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"The city is trying to reduce pollution by encouraging people to use public transportation.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "減らす"
+      },
+      {
+        "label": "B",
+        "text": "増やす"
+      },
+      {
+        "label": "C",
+        "text": "調べる"
+      },
+      {
+        "label": "D",
+        "text": "広げる"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg3-024",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"What does this word mean?\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "意地悪な"
+      },
+      {
+        "label": "B",
+        "text": "平均値"
+      },
+      {
+        "label": "C",
+        "text": "〜するつもりだ"
+      },
+      {
+        "label": "D",
+        "text": "意味する"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg3-025",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"Never give up on your dreams, even when things are difficult.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "差し出す"
+      },
+      {
+        "label": "B",
+        "text": "見つける"
+      },
+      {
+        "label": "C",
+        "text": "諦める"
+      },
+      {
+        "label": "D",
+        "text": "忘れる"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-026",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"Many scientists are concerned about the effects of climate change on our planet.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "楽しんでいる"
+      },
+      {
+        "label": "B",
+        "text": "心配している"
+      },
+      {
+        "label": "C",
+        "text": "同意している"
+      },
+      {
+        "label": "D",
+        "text": "驚いている"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg3-027",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"She runs a small restaurant in the city.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "経営する"
+      },
+      {
+        "label": "B",
+        "text": "走る"
+      },
+      {
+        "label": "C",
+        "text": "動かす"
+      },
+      {
+        "label": "D",
+        "text": "流れる"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg3-028",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"We need to come up with a new idea to solve this problem.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "調べ上げる"
+      },
+      {
+        "label": "B",
+        "text": "報告する"
+      },
+      {
+        "label": "C",
+        "text": "議論する"
+      },
+      {
+        "label": "D",
+        "text": "思いつく"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg3-029",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"The weather is fine today, so let's go for a walk.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "罰金"
+      },
+      {
+        "label": "B",
+        "text": "細かい"
+      },
+      {
+        "label": "C",
+        "text": "良い・晴れた"
+      },
+      {
+        "label": "D",
+        "text": "精密な"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg3-030",
+    "subject": "英語（中学）",
+    "unit": "中3単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の下線部の意味として最も適切なものを選びなさい。\n\"I'm looking forward to seeing you again.\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "振り返って見ている"
+      },
+      {
+        "label": "B",
+        "text": "楽しみにしている"
+      },
+      {
+        "label": "C",
+        "text": "前方を探し続けている"
+      },
+      {
+        "label": "D",
+        "text": "前に向かって進んでいる"
+      }
+    ],
+    "correct": "B"
+  }
+]

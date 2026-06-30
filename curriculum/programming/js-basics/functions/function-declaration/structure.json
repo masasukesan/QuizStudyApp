@@ -1,0 +1,152 @@
+{
+  "unit_id": "function-declaration",
+  "unit_name_jp": "関数の定義と呼び出し",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "function_declaration_syntax",
+      "description": "function キーワードを使った関数宣言の基本構文：function 関数名(引数) { 処理; } の形式。関数名・引数リスト・本体の3要素を正確に理解する。",
+      "thinking_process": [
+        "function キーワードで宣言が始まることを確認する",
+        "関数名の後に () で引数リストを記述することを確認する",
+        "{} の中に実行する処理（関数本体）を書くことを確認する",
+        "定義しただけでは実行されず、呼び出しが必要であることを理解する"
+      ],
+      "common_mistakes": [
+        "関数名の後の () を省略する",
+        "定義と呼び出しを混同し、定義しただけで処理が実行されると誤解する",
+        "function キーワードのスペルミス（funciton など）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "function_call",
+      "description": "関数の呼び出し方：関数名に () を付けて呼び出す。引数がある場合は () 内に値を渡す。",
+      "thinking_process": [
+        "関数名の後に () を付けることで呼び出しになることを確認する",
+        "引数がある場合、() 内に渡す値（実引数）を記述する",
+        "呼び出しの結果として return の値が返ってくることを理解する"
+      ],
+      "common_mistakes": [
+        "() を付けずに関数名だけ書く（関数オブジェクトへの参照になる）",
+        "引数の数を間違えて渡す"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "parameters_and_arguments",
+      "description": "仮引数（パラメータ）と実引数（アーギュメント）の違い：定義時に書く変数が仮引数、呼び出し時に渡す値が実引数。",
+      "thinking_process": [
+        "定義時の () 内は仮引数（名前を付ける）",
+        "呼び出し時の () 内は実引数（実際の値を渡す）",
+        "仮引数は関数本体内でローカル変数として使える",
+        "実引数の値が仮引数にコピーされることを理解する"
+      ],
+      "common_mistakes": [
+        "仮引数と実引数を同じ概念として混同する",
+        "仮引数の名前が呼び出し側の変数名と一致しなければならないと誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "return_statement",
+      "description": "return 文：関数の実行を終了し、呼び出し元に値を返す。return がない（または return のみ）の場合、undefined を返す。",
+      "thinking_process": [
+        "return に続く式が呼び出し元に返る値であることを確認する",
+        "return に達した時点で関数の実行が終了することを確認する",
+        "return のない関数は undefined を返すことを確認する",
+        "戻り値を変数に代入したり、別の式に直接使ったりできることを理解する"
+      ],
+      "common_mistakes": [
+        "return を書き忘れ undefined が返ることに気づかない",
+        "return の後にコードを書いても実行されないことを忘れる",
+        "return と console.log を混同し「出力=戻り値」と誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "function_expression",
+      "description": "関数式（関数リテラル）：変数に関数を代入する書き方。const f = function() {}; の形式。関数宣言との使い分けとホイスティングの違いが重要。",
+      "thinking_process": [
+        "変数に function() {} を代入する形式を確認する",
+        "この変数を通じて関数を呼び出せることを確認する",
+        "関数宣言はホイスティングされ宣言前でも呼べるが、関数式は変数宣言前に呼べないことを理解する"
+      ],
+      "common_mistakes": [
+        "関数式に名前（named function expression）を付けた場合、その名前は外部からは使えないことを忘れる",
+        "const で宣言した関数式を再代入しようとする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "default_parameters",
+      "description": "デフォルト引数：function f(x = 10) {} のように、引数が渡されなかった場合のデフォルト値を設定する機能。",
+      "thinking_process": [
+        "= でデフォルト値を設定する構文を確認する",
+        "引数が undefined の場合（渡されなかった場合）にデフォルト値が使われることを確認する",
+        "null を渡した場合はデフォルト値が使われないことに注意する"
+      ],
+      "common_mistakes": [
+        "null を渡してもデフォルト値が使われると誤解する",
+        "デフォルト引数は後ろ側に置く慣習を忘れる（前に置くと意図しない動作になる場合がある）"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "hoisting",
+      "description": "関数宣言のホイスティング：function 宣言はスコープの先頭に巻き上げられるため、宣言より前のコードから呼び出せる。関数式はホイスティングされない。",
+      "thinking_process": [
+        "コード内で関数宣言より前に呼び出しがあるケースを確認する",
+        "関数宣言はホイスティングにより先頭に移動することを理解する",
+        "const/let の関数式は変数宣言前に使えないことを確認する"
+      ],
+      "common_mistakes": [
+        "関数式も宣言と同様にホイスティングされると誤解する",
+        "var で宣言した関数式の変数はホイスティングされるが undefined になることを混同する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "return_value_usage",
+      "description": "戻り値の活用：return した値を別の関数の引数に渡したり、計算に使ったりするネストした呼び出しパターン。",
+      "thinking_process": [
+        "内側の関数呼び出しが先に評価されることを確認する",
+        "その結果が外側の関数の引数として渡されることを追跡する",
+        "複数の関数呼び出しを組み合わせた式全体の評価順序を把握する"
+      ],
+      "common_mistakes": [
+        "評価順序を外側から内側と誤解する",
+        "戻り値が undefined のとき、それを引数に渡すと意図しない結果になることを見落とす"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "function_trace",
+      "description": "関数の実行トレース：複数の関数が連鎖的に呼び出されるコードで、最終的な変数の値や出力結果を追跡する。",
+      "thinking_process": [
+        "呼び出し順序を確認し、最初に実行される関数を特定する",
+        "各関数の戻り値を順番に追跡する",
+        "変数への代入が起きた箇所を見つけ最終的な値を確認する"
+      ],
+      "common_mistakes": [
+        "呼び出し順序を上から順番と誤解し、ネストした呼び出しの順序を間違える",
+        "return のない関数の戻り値を 0 や null と誤解する（実際は undefined）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "function_as_value",
+      "description": "関数を値として扱う：関数を変数に代入し、別の変数にコピーしたり、引数として渡したりする「第一級関数」の概念。",
+      "thinking_process": [
+        "変数に代入された関数を別の変数に代入すると同じ関数を参照することを確認する",
+        "() を付けずに参照を渡す場合と、() を付けて戻り値を渡す場合の違いを確認する",
+        "関数を引数に受け取る高階関数の基本パターンを理解する"
+      ],
+      "common_mistakes": [
+        "f と f() の違いを混同する（f は関数参照、f() は関数呼び出し）",
+        "関数を変数にコピーした後、元の変数の値を変えてもコピー先に影響しないことを誤解する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

@@ -80,7 +80,7 @@
       "subunit": "vocabulary-g2",
       "name": "中2単語テスト",
       "en": "Vocabulary G2",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "reading/vocabulary-grammar/vocabulary-g3",
@@ -89,7 +89,7 @@
       "subunit": "vocabulary-g3",
       "name": "中3単語テスト",
       "en": "Vocabulary G3",
-      "questionCount": 0
+      "questionCount": 30
     }
   ],
   "tree": [
@@ -186,7 +186,7 @@
               "subunit": "vocabulary-g2",
               "name": "中2単語テスト",
               "en": "Vocabulary G2",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "reading/vocabulary-grammar/vocabulary-g3",
@@ -195,7 +195,7 @@
               "subunit": "vocabulary-g3",
               "name": "中3単語テスト",
               "en": "Vocabulary G3",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         }

@@ -98,7 +98,7 @@
       "subunit": "function-declaration",
       "name": "関数の定義と呼び出し",
       "en": "Function Declaration",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/functions/arrow-functions",
@@ -107,7 +107,7 @@
       "subunit": "arrow-functions",
       "name": "アロー関数（() => {}）",
       "en": "Arrow Functions",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/functions/scope",
@@ -116,7 +116,7 @@
       "subunit": "scope",
       "name": "スコープとクロージャ",
       "en": "Scope and Closure",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/arrays/array-basics",
@@ -125,7 +125,7 @@
       "subunit": "array-basics",
       "name": "配列の基本（宣言・アクセス・変更）",
       "en": "Array Basics",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/arrays/array-methods",
@@ -315,7 +315,7 @@
               "subunit": "function-declaration",
               "name": "関数の定義と呼び出し",
               "en": "Function Declaration",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/functions/arrow-functions",
@@ -324,7 +324,7 @@
               "subunit": "arrow-functions",
               "name": "アロー関数（() => {}）",
               "en": "Arrow Functions",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/functions/scope",
@@ -333,7 +333,7 @@
               "subunit": "scope",
               "name": "スコープとクロージャ",
               "en": "Scope and Closure",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         },
@@ -347,7 +347,7 @@
               "subunit": "array-basics",
               "name": "配列の基本（宣言・アクセス・変更）",
               "en": "Array Basics",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/arrays/array-methods",

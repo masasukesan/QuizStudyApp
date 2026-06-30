@@ -1,0 +1,422 @@
+[
+  {
+    "id": "vg2-001",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「know」",
+    "choices": [
+      { "label": "A", "text": "学ぶ" },
+      { "label": "B", "text": "知っている" },
+      { "label": "C", "text": "考える" },
+      { "label": "D", "text": "教える" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg2-002",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「arrive」",
+    "choices": [
+      { "label": "A", "text": "出発する" },
+      { "label": "B", "text": "帰る" },
+      { "label": "C", "text": "到着する" },
+      { "label": "D", "text": "歩く" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-003",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「tired」",
+    "choices": [
+      { "label": "A", "text": "元気な" },
+      { "label": "B", "text": "空腹な" },
+      { "label": "C", "text": "怒っている" },
+      { "label": "D", "text": "疲れた" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg2-004",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「excited」",
+    "choices": [
+      { "label": "A", "text": "興奮した・わくわくした" },
+      { "label": "B", "text": "退屈した" },
+      { "label": "C", "text": "驚いた" },
+      { "label": "D", "text": "心配した" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "vg2-005",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「already」",
+    "choices": [
+      { "label": "A", "text": "まだ" },
+      { "label": "B", "text": "もう・すでに" },
+      { "label": "C", "text": "いつも" },
+      { "label": "D", "text": "決して〜ない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg2-006",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「bring」",
+    "choices": [
+      { "label": "A", "text": "持っていく" },
+      { "label": "B", "text": "買う" },
+      { "label": "C", "text": "持ってくる" },
+      { "label": "D", "text": "借りる" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-007",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「during」",
+    "choices": [
+      { "label": "A", "text": "〜の前に" },
+      { "label": "B", "text": "〜の後に" },
+      { "label": "C", "text": "〜の間ずっと" },
+      { "label": "D", "text": "〜の外に" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-008",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「scared」",
+    "choices": [
+      { "label": "A", "text": "傷ついた" },
+      { "label": "B", "text": "恐ろしい" },
+      { "label": "C", "text": "怖がっている" },
+      { "label": "D", "text": "悲しんでいる" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-009",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「still」",
+    "choices": [
+      { "label": "A", "text": "もう〜ない" },
+      { "label": "B", "text": "まだ(引き続き)" },
+      { "label": "C", "text": "すでに" },
+      { "label": "D", "text": "決して" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg2-010",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "basic",
+    "question": "次の英単語の正しい日本語の意味を選びなさい。\n「borrow」",
+    "choices": [
+      { "label": "A", "text": "貸す" },
+      { "label": "B", "text": "盗む" },
+      { "label": "C", "text": "返す" },
+      { "label": "D", "text": "借りる" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg2-011",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「旅行（名詞）」",
+    "choices": [
+      { "label": "A", "text": "travel" },
+      { "label": "B", "text": "trip" },
+      { "label": "C", "text": "tour" },
+      { "label": "D", "text": "journey" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg2-012",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「意見」",
+    "choices": [
+      { "label": "A", "text": "idea" },
+      { "label": "B", "text": "thought" },
+      { "label": "C", "text": "opinion" },
+      { "label": "D", "text": "view" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-013",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「〜なので（理由を表す接続詞）」",
+    "choices": [
+      { "label": "A", "text": "so" },
+      { "label": "B", "text": "but" },
+      { "label": "C", "text": "because" },
+      { "label": "D", "text": "and" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-014",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「もし〜ならば（条件を表す接続詞）」",
+    "choices": [
+      { "label": "A", "text": "when" },
+      { "label": "B", "text": "that" },
+      { "label": "C", "text": "while" },
+      { "label": "D", "text": "if" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg2-015",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「go の過去形（行った）」",
+    "choices": [
+      { "label": "A", "text": "goed" },
+      { "label": "B", "text": "gone" },
+      { "label": "C", "text": "went" },
+      { "label": "D", "text": "going" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-016",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「環境・自然」",
+    "choices": [
+      { "label": "A", "text": "culture" },
+      { "label": "B", "text": "nature" },
+      { "label": "C", "text": "history" },
+      { "label": "D", "text": "science" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg2-017",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「〜している間に（同時進行を表す接続詞）」",
+    "choices": [
+      { "label": "A", "text": "when" },
+      { "label": "B", "text": "after" },
+      { "label": "C", "text": "while" },
+      { "label": "D", "text": "before" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-018",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「eat の過去形（食べた）」",
+    "choices": [
+      { "label": "A", "text": "eated" },
+      { "label": "B", "text": "aten" },
+      { "label": "C", "text": "ate" },
+      { "label": "D", "text": "eating" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-019",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「〜ということ（名詞節を導く接続詞）」",
+    "choices": [
+      { "label": "A", "text": "which" },
+      { "label": "B", "text": "what" },
+      { "label": "C", "text": "when" },
+      { "label": "D", "text": "that" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg2-020",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "standard",
+    "question": "次の日本語の意味に合う英単語を選びなさい。\n「見せる・教える」",
+    "choices": [
+      { "label": "A", "text": "look" },
+      { "label": "B", "text": "show" },
+      { "label": "C", "text": "watch" },
+      { "label": "D", "text": "see" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg2-021",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nShe ( ) fun at the school festival last Saturday.",
+    "choices": [
+      { "label": "A", "text": "did" },
+      { "label": "B", "text": "made" },
+      { "label": "C", "text": "had" },
+      { "label": "D", "text": "took" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-022",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nHe ( ) a photo of the sunset from the hilltop.",
+    "choices": [
+      { "label": "A", "text": "made" },
+      { "label": "B", "text": "did" },
+      { "label": "C", "text": "had" },
+      { "label": "D", "text": "took" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg2-023",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nI enjoy ( ) music in the morning before school.",
+    "choices": [
+      { "label": "A", "text": "to listen" },
+      { "label": "B", "text": "listen" },
+      { "label": "C", "text": "listened" },
+      { "label": "D", "text": "listening" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg2-024",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nMy brother wants ( ) a professional soccer player in the future.",
+    "choices": [
+      { "label": "A", "text": "becoming" },
+      { "label": "B", "text": "become" },
+      { "label": "C", "text": "to become" },
+      { "label": "D", "text": "became" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-025",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "下線部の語とほぼ同じ意味を持つ語を選びなさい。\nThe movie was very interesting.\n「interesting」とほぼ同じ意味の語はどれか。",
+    "choices": [
+      { "label": "A", "text": "boring" },
+      { "label": "B", "text": "exciting" },
+      { "label": "C", "text": "difficult" },
+      { "label": "D", "text": "surprising" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "vg2-026",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nThey ( ) a decision to move to a new city.",
+    "choices": [
+      { "label": "A", "text": "did" },
+      { "label": "B", "text": "took" },
+      { "label": "C", "text": "made" },
+      { "label": "D", "text": "had" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-027",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "下線部の語の反意語（反対の意味を持つ語）を選びなさい。\nThis bag is very heavy.\n「heavy」の反意語はどれか。",
+    "choices": [
+      { "label": "A", "text": "large" },
+      { "label": "B", "text": "short" },
+      { "label": "C", "text": "light" },
+      { "label": "D", "text": "slow" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-028",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nShe is going to ( ) a trip to Kyoto next month.",
+    "choices": [
+      { "label": "A", "text": "make" },
+      { "label": "B", "text": "do" },
+      { "label": "C", "text": "have" },
+      { "label": "D", "text": "take" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "vg2-029",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nI didn't finish my homework ( ).\nヒント：この文は「まだ終わっていない」という意味。",
+    "choices": [
+      { "label": "A", "text": "already" },
+      { "label": "B", "text": "still" },
+      { "label": "C", "text": "yet" },
+      { "label": "D", "text": "ever" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "vg2-030",
+    "subject": "英語（中学）",
+    "unit": "中2単語テスト",
+    "difficulty": "exam",
+    "question": "次の英文の空欄に入る最も適切な語を選びなさい。\nHe is ( ) playing the piano. He started three years ago and hasn't stopped.",
+    "choices": [
+      { "label": "A", "text": "already" },
+      { "label": "B", "text": "yet" },
+      { "label": "C", "text": "never" },
+      { "label": "D", "text": "still" }
+    ],
+    "correct": "D"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ab-basic-01",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "JavaScriptで「配列」を使う主な目的として最も適切なものはどれか。",
+    "choices": [
+      { "label": "A", "text": "1つの数値データを安全に保存する" },
+      { "label": "B", "text": "複数のデータを1つの変数にまとめて順番に管理する" },
+      { "label": "C", "text": "関数を定義して何度も呼び出せるようにする" },
+      { "label": "D", "text": "オブジェクトのプロパティを設定する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-basic-02",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "数値 10, 20, 30 を要素として持つ配列を正しく宣言しているコードはどれか。",
+    "choices": [
+      { "label": "A", "text": "let arr = {10, 20, 30};" },
+      { "label": "B", "text": "let arr = 10, 20, 30;" },
+      { "label": "C", "text": "let arr = [10, 20, 30];" },
+      { "label": "D", "text": "let arr = (10, 20, 30);" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-basic-03",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst fruits = [\"apple\", \"banana\", \"cherry\"];\nconsole.log(fruits[0]);",
+    "choices": [
+      { "label": "A", "text": "\"banana\"" },
+      { "label": "B", "text": "\"cherry\"" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "\"apple\"" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-basic-04",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst nums = [5, 10, 15, 20];\nconsole.log(nums[2]);",
+    "choices": [
+      { "label": "A", "text": "10" },
+      { "label": "B", "text": "15" },
+      { "label": "C", "text": "5" },
+      { "label": "D", "text": "20" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-basic-05",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst colors = [\"red\", \"green\", \"blue\"];\nconsole.log(colors.length);",
+    "choices": [
+      { "label": "A", "text": "2" },
+      { "label": "B", "text": "3" },
+      { "label": "C", "text": "0" },
+      { "label": "D", "text": "4" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-basic-06",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "要素数が 5 個の配列 arr がある。最後の要素を正しく取り出しているコードはどれか。",
+    "choices": [
+      { "label": "A", "text": "arr[arr.length]" },
+      { "label": "B", "text": "arr[5]" },
+      { "label": "C", "text": "arr.last()" },
+      { "label": "D", "text": "arr[arr.length - 1]" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-basic-07",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst arr = [1, 2, 3];\nconsole.log(arr[10]);",
+    "choices": [
+      { "label": "A", "text": "null" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "0" },
+      { "label": "D", "text": "エラーが発生して停止する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-basic-08",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconsole.log(typeof []);",
+    "choices": [
+      { "label": "A", "text": "\"array\"" },
+      { "label": "B", "text": "\"list\"" },
+      { "label": "C", "text": "\"object\"" },
+      { "label": "D", "text": "\"undefined\"" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-basic-09",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "変数 x が配列かどうかを正しく判定しているコードはどれか。",
+    "choices": [
+      { "label": "A", "text": "typeof x === \"array\"" },
+      { "label": "B", "text": "x.type() === \"array\"" },
+      { "label": "C", "text": "Array.isArray(x)" },
+      { "label": "D", "text": "x.isArray === true" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-basic-10",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst arr = [];\nconsole.log(arr.length);",
+    "choices": [
+      { "label": "A", "text": "undefined" },
+      { "label": "B", "text": "0" },
+      { "label": "C", "text": "1" },
+      { "label": "D", "text": "null" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-standard-01",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst arr = [10, 20, 30];\narr[1] = 99;\nconsole.log(arr[1]);",
+    "choices": [
+      { "label": "A", "text": "エラーが発生する" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "20" },
+      { "label": "D", "text": "99" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-standard-02",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst arr = [1, 2, 3];\narr[3] = 4;\nconsole.log(arr.length);",
+    "choices": [
+      { "label": "A", "text": "3" },
+      { "label": "B", "text": "エラーが発生する" },
+      { "label": "C", "text": "4" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-standard-03",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードで、配列の最後の要素 \"cherry\" を正しく取り出しているものはどれか。\n\nconst fruits = [\"apple\", \"banana\", \"cherry\"];",
+    "choices": [
+      { "label": "A", "text": "fruits[3]" },
+      { "label": "B", "text": "fruits[-1]" },
+      { "label": "C", "text": "fruits[fruits.length]" },
+      { "label": "D", "text": "fruits[fruits.length - 1]" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-standard-04",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];\nconsole.log(matrix[1][2]);",
+    "choices": [
+      { "label": "A", "text": "5" },
+      { "label": "B", "text": "8" },
+      { "label": "C", "text": "6" },
+      { "label": "D", "text": "3" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-standard-05",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst grid = [[1, 2], [3, 4], [5, 6]];\nconsole.log(grid.length);",
+    "choices": [
+      { "label": "A", "text": "2" },
+      { "label": "B", "text": "6" },
+      { "label": "C", "text": "3" },
+      { "label": "D", "text": "9" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-standard-06",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst a = [1, 2, 3];\nconst b = a;\nb[0] = 99;\nconsole.log(a[0]);",
+    "choices": [
+      { "label": "A", "text": "1" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "エラーが発生する" },
+      { "label": "D", "text": "99" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-standard-07",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次の2行のコードを実行したとき、それぞれの出力結果の組み合わせとして正しいものはどれか。\n\nconsole.log(typeof [1, 2, 3]);\nconsole.log(Array.isArray([1, 2, 3]));",
+    "choices": [
+      { "label": "A", "text": "\"array\" と true" },
+      { "label": "B", "text": "\"object\" と true" },
+      { "label": "C", "text": "\"object\" と false" },
+      { "label": "D", "text": "\"array\" と false" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-standard-08",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "JavaScriptの配列について、正しい説明はどれか。",
+    "choices": [
+      { "label": "A", "text": "同じ型の値しか格納できない" },
+      { "label": "B", "text": "最大 255 個の要素しか格納できない" },
+      { "label": "C", "text": "数値・文字列・真偽値など異なる型の値を同じ配列に格納できる" },
+      { "label": "D", "text": "配列の要素に配列を入れることはできない" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-standard-09",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードを実行した後、arr の内容として正しいものはどれか。\n\nconst arr = [10, 20, 30, 40, 50];\narr.length = 3;",
+    "choices": [
+      { "label": "A", "text": "[10, 20, 30, undefined, undefined]" },
+      { "label": "B", "text": "エラーが発生する" },
+      { "label": "C", "text": "[10, 20, 30, 40, 50]" },
+      { "label": "D", "text": "[10, 20, 30]" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-standard-10",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、コンソールに表示される length の値はどれか。\n\nconst arr = [1, 2, 3, 4, 5];\ndelete arr[2];\nconsole.log(arr.length);",
+    "choices": [
+      { "label": "A", "text": "4" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "3" },
+      { "label": "D", "text": "5" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-exam-01",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次の4つのコードのうち、実行するとエラーが発生するのはどれか。",
+    "choices": [
+      { "label": "A", "text": "const arr = [1, 2, 3]; arr[0] = 99; console.log(arr);" },
+      { "label": "B", "text": "const arr = [1, 2, 3]; arr[3] = 4; console.log(arr);" },
+      { "label": "C", "text": "const arr = [1, 2, 3]; arr.length = 0; console.log(arr);" },
+      { "label": "D", "text": "const arr = [1, 2, 3]; arr = [4, 5, 6]; console.log(arr);" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-exam-02",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst a = [1, 2, 3];\nconst b = [1, 2, 3];\nconsole.log(a === b);",
+    "choices": [
+      { "label": "A", "text": "false" },
+      { "label": "B", "text": "true" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "ab-exam-03",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst arr = [];\narr[4] = \"hello\";\nconsole.log(arr.length);",
+    "choices": [
+      { "label": "A", "text": "1" },
+      { "label": "B", "text": "4" },
+      { "label": "C", "text": "5" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-exam-04",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst a = [1, 2, 3];\nconst b = [...a];\nb[0] = 99;\nconsole.log(a[0]);",
+    "choices": [
+      { "label": "A", "text": "99" },
+      { "label": "B", "text": "1" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-exam-05",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst arr = [10, 20, 30, 40];\ndelete arr[1];\nconsole.log(arr[1]);",
+    "choices": [
+      { "label": "A", "text": "20" },
+      { "label": "B", "text": "30" },
+      { "label": "C", "text": "エラーが発生する" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-exam-06",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後、arr はどのような状態になるか。\n\nconst arr = [1, 2, 3, 4, 5];\narr.length = 0;",
+    "choices": [
+      { "label": "A", "text": "[undefined, undefined, undefined, undefined, undefined]" },
+      { "label": "B", "text": "[1, 2, 3, 4, 5]" },
+      { "label": "C", "text": "エラーが発生する" },
+      { "label": "D", "text": "[]" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "ab-exam-07",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst matrix = [[1, 2], [3, 4]];\nmatrix[0][1] = 99;\nconsole.log(matrix[0]);",
+    "choices": [
+      { "label": "A", "text": "[1, 2]" },
+      { "label": "B", "text": "[99, 2]" },
+      { "label": "C", "text": "[1, 99]" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-exam-08",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nfunction changeFirst(arr) {\n  arr[0] = 999;\n}\nconst nums = [1, 2, 3];\nchangeFirst(nums);\nconsole.log(nums[0]);",
+    "choices": [
+      { "label": "A", "text": "1" },
+      { "label": "B", "text": "999" },
+      { "label": "C", "text": "undefined" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "ab-exam-09",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに出力されるのはどれか。\n\nconst arr = [10, 20, 30];\nfor (const i in arr) {\n  console.log(i);\n}",
+    "choices": [
+      { "label": "A", "text": "10, 20, 30" },
+      { "label": "B", "text": "数値の 0, 1, 2" },
+      { "label": "C", "text": "文字列の \"0\", \"1\", \"2\"" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "ab-exam-10",
+    "subject": "プログラミング",
+    "unit": "配列の基本（宣言・アクセス・変更）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールに表示されるのはどれか。\n\nconst a = [[1, 2], [3, 4]];\nconst b = [...a];\nb[0][0] = 99;\nconsole.log(a[0][0]);",
+    "choices": [
+      { "label": "A", "text": "1" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "エラーが発生する" },
+      { "label": "D", "text": "99" }
+    ],
+    "correct": "D"
+  }
+]

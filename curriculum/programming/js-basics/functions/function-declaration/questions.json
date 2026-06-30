@@ -1,0 +1,452 @@
+[
+  {
+    "id": "func-decl-basic-01",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "「関数を定義する」とはどのような操作か。最も正しい説明を選べ。",
+    "choices": [
+      { "label": "A", "text": "関数に名前を付けて、後から何度でも呼び出せる処理のまとまりを作ること" },
+      { "label": "B", "text": "処理をその場で即座に実行すること" },
+      { "label": "C", "text": "変数に数値を代入すること" },
+      { "label": "D", "text": "ファイルの先頭にコメントを書くこと" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["関数の定義とは", "再利用"]
+  },
+  {
+    "id": "func-decl-basic-02",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "JavaScript で次のコードにある構文は何をしているか。\n\nfunction greet() {\n  console.log('こんにちは');\n}",
+    "choices": [
+      { "label": "A", "text": "greet という名前の関数を定義している" },
+      { "label": "B", "text": "greet という名前の関数を定義し、同時に実行している" },
+      { "label": "C", "text": "console.log を呼び出して「こんにちは」を出力している" },
+      { "label": "D", "text": "greet という変数に文字列を代入している" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["関数宣言の構文", "定義と実行の違い"]
+  },
+  {
+    "id": "func-decl-basic-03",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると、コンソールには何が出力されるか。\n\nfunction greet() {\n  console.log('こんにちは');\n}\ngreet();",
+    "choices": [
+      { "label": "A", "text": "何も出力されない" },
+      { "label": "B", "text": "greet" },
+      { "label": "C", "text": "こんにちは" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["関数の呼び出し", "greet()"]
+  },
+  {
+    "id": "func-decl-basic-04",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "関数を呼び出すために必要な記述はどれか。\n\n// greet という関数が定義済みとする\n// 呼び出し方として正しいものを選べ",
+    "choices": [
+      { "label": "A", "text": "greet" },
+      { "label": "B", "text": "greet()" },
+      { "label": "C", "text": "call greet" },
+      { "label": "D", "text": "run greet()" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["関数の呼び出し構文", "()の役割"]
+  },
+  {
+    "id": "func-decl-basic-05",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "次の関数定義において、x と y は何と呼ばれるか。\n\nfunction add(x, y) {\n  return x + y;\n}",
+    "choices": [
+      { "label": "A", "text": "実引数" },
+      { "label": "B", "text": "仮引数" },
+      { "label": "C", "text": "定数" },
+      { "label": "D", "text": "グローバル変数" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["仮引数とは", "パラメータ"]
+  },
+  {
+    "id": "func-decl-basic-06",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると result の値はいくつになるか。\n\nfunction add(x, y) {\n  return x + y;\n}\nconst result = add(3, 5);",
+    "choices": [
+      { "label": "A", "text": "undefined" },
+      { "label": "B", "text": "35" },
+      { "label": "C", "text": "8" },
+      { "label": "D", "text": "0" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["引数の渡し方", "return の動作"]
+  },
+  {
+    "id": "func-decl-basic-07",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "return 文がない関数を呼び出したとき、呼び出し元が受け取る値はなにか。",
+    "choices": [
+      { "label": "A", "text": "0" },
+      { "label": "B", "text": "null" },
+      { "label": "C", "text": "false" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["return なしの戻り値", "undefined"]
+  },
+  {
+    "id": "func-decl-basic-08",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると何が起こるか。\n\nfunction sayHello() {\n  console.log('Hello');\n  return;\n  console.log('World');\n}",
+    "choices": [
+      { "label": "A", "text": "'Hello' と 'World' の両方が出力される" },
+      { "label": "B", "text": "'Hello' だけが出力され、'World' は実行されない" },
+      { "label": "C", "text": "エラーになる" },
+      { "label": "D", "text": "'World' だけが出力される" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["returnで関数終了", "到達不可能なコード"]
+  },
+  {
+    "id": "func-decl-basic-09",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "console.log と return の違いとして最も正しい説明はどれか。",
+    "choices": [
+      { "label": "A", "text": "console.log はコンソールに表示するだけで値を返さない。return は呼び出し元に値を渡す" },
+      { "label": "B", "text": "console.log は値を返し、return はコンソールに表示する" },
+      { "label": "C", "text": "どちらも同じで、コンソールに値を出力する" },
+      { "label": "D", "text": "return は数値だけを扱い、console.log は文字列だけを扱う" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["console.logとreturnの違い", "戻り値"]
+  },
+  {
+    "id": "func-decl-basic-10",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "basic",
+    "question": "次のコードは何回 'Hello' を出力するか。\n\nfunction greet() {\n  console.log('Hello');\n}\ngreet();\ngreet();\ngreet();",
+    "choices": [
+      { "label": "A", "text": "1回" },
+      { "label": "B", "text": "2回" },
+      { "label": "C", "text": "3回" },
+      { "label": "D", "text": "0回" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["関数の再利用", "複数回呼び出し"]
+  },
+  {
+    "id": "func-decl-standard-01",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "次のコードで result の値はいくつになるか。\n\nfunction multiply(a, b) {\n  return a * b;\n}\nconst result = multiply(multiply(2, 3), 4);",
+    "choices": [
+      { "label": "A", "text": "multiply(2, 3) → 6、次に multiply(6, 4) → 24 なので 24" },
+      { "label": "B", "text": "multiply(2, 3) → 6、multiply(6, 3) → 18 なので 18" },
+      { "label": "C", "text": "multiply(2, 3) → 6、multiply(2, 4) → 8、6+8 → 14 なので 14" },
+      { "label": "D", "text": "外側から評価して multiply(2, 4) → 8 なので 8" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["ネストした関数呼び出し", "内側から評価"]
+  },
+  {
+    "id": "func-decl-standard-02",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "関数式（const f = function() {}）と関数宣言（function f() {}）の最大の違いはどれか。",
+    "choices": [
+      { "label": "A", "text": "関数宣言はコード中のどこからでも呼び出せるが、関数式は定義より前に呼び出すとエラーになる" },
+      { "label": "B", "text": "関数式はどこからでも呼び出せるが、関数宣言は定義より後からしか呼び出せない" },
+      { "label": "C", "text": "関数宣言は引数を持てるが、関数式は引数を持てない" },
+      { "label": "D", "text": "関数式は return が使えないが、関数宣言は return が使える" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["ホイスティング", "関数宣言vs関数式"]
+  },
+  {
+    "id": "func-decl-standard-03",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "次のコードはエラーになるか、正常に動くか。\n\nconsole.log(square(5));\nfunction square(n) {\n  return n * n;\n}",
+    "choices": [
+      { "label": "A", "text": "ReferenceError になる" },
+      { "label": "B", "text": "25 が出力される" },
+      { "label": "C", "text": "undefined が出力される" },
+      { "label": "D", "text": "0 が出力される" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["ホイスティング", "関数宣言の巻き上げ"]
+  },
+  {
+    "id": "func-decl-standard-04",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "デフォルト引数を使った次の関数で、greet() と呼び出したときの出力はどれか。\n\nfunction greet(name = 'ゲスト') {\n  console.log('こんにちは、' + name + 'さん');\n}",
+    "choices": [
+      { "label": "A", "text": "こんにちは、undefinedさん" },
+      { "label": "B", "text": "エラーになる" },
+      { "label": "C", "text": "こんにちは、ゲストさん" },
+      { "label": "D", "text": "こんにちは、さん" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["デフォルト引数", "undefined のときデフォルト値"]
+  },
+  {
+    "id": "func-decl-standard-05",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "デフォルト引数の動作として正しい説明はどれか。\n\nfunction calc(x, y = 10) {\n  return x + y;\n}\nconsole.log(calc(5, null));",
+    "choices": [
+      { "label": "A", "text": "null は undefined ではないのでデフォルト値は使われず、5 + null → 5 になる" },
+      { "label": "B", "text": "null の場合もデフォルト値が使われ 5 + 10 → 15 になる" },
+      { "label": "C", "text": "エラーになる" },
+      { "label": "D", "text": "null との加算は未定義のため result は NaN になる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["デフォルト引数とnull", "undefined との違い"]
+  },
+  {
+    "id": "func-decl-standard-06",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると result の値はいくつになるか。\n\nconst double = function(n) {\n  return n * 2;\n};\nconst result = double(7);",
+    "choices": [
+      { "label": "A", "text": "undefined" },
+      { "label": "B", "text": "エラーになる" },
+      { "label": "C", "text": "14" },
+      { "label": "D", "text": "7" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["関数式の呼び出し", "constへの関数代入"]
+  },
+  {
+    "id": "func-decl-standard-07",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "次のコードはエラーになるか、正常に動くか。\n\nconsole.log(triple(4));\nconst triple = function(n) {\n  return n * 3;\n};",
+    "choices": [
+      { "label": "A", "text": "12 が出力される" },
+      { "label": "B", "text": "undefined が出力される" },
+      { "label": "C", "text": "ReferenceError または TypeError になる" },
+      { "label": "D", "text": "0 が出力される" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["関数式はホイスティングされない", "TDZ（一時的デッドゾーン）"]
+  },
+  {
+    "id": "func-decl-standard-08",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "次のコードで、f を呼び出す2つの方法 f() と g() の違いはどれか。\n\nfunction original() {\n  return 42;\n}\nconst f = original;\nconst g = original();",
+    "choices": [
+      { "label": "A", "text": "f は original 関数への参照を持ち、f() を呼ぶと 42 が返る。g は 42 という数値を持ち、g() を呼ぶとエラーになる" },
+      { "label": "B", "text": "f() と g() はどちらも 42 を返す" },
+      { "label": "C", "text": "f は undefined を持ち、g は 42 を持つ" },
+      { "label": "D", "text": "f も g も original 関数の参照を持つ" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["関数参照と関数呼び出しの違い", "f と f() の区別"]
+  },
+  {
+    "id": "func-decl-standard-09",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると result の値はいくつになるか。\n\nfunction add(a, b) {\n  return a + b;\n}\nfunction square(n) {\n  return n * n;\n}\nconst result = square(add(2, 3));",
+    "choices": [
+      { "label": "A", "text": "square(2) + square(3) → 4 + 9 → 13" },
+      { "label": "B", "text": "add(2, 3) → 5、次に square(5) → 25" },
+      { "label": "C", "text": "add(square(2), 3) → add(4, 3) → 7" },
+      { "label": "D", "text": "add(2, 3) → 5、次に square を n+n と誤解して 5+5 → 10 なので 10" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["ネストした呼び出しの評価順", "内側から外側へ"]
+  },
+  {
+    "id": "func-decl-standard-10",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると output の値はいくつになるか。\n\nfunction increment(n) {\n  return n + 1;\n}\nlet x = 5;\nlet output = increment(x) + increment(increment(x));",
+    "choices": [
+      { "label": "A", "text": "increment を2回呼ぶので increment(5) + increment(5) → 6 + 6 → 12" },
+      { "label": "B", "text": "increment(5) → 6、increment(increment(5)) → increment(6) → 7、6 + 7 → 13" },
+      { "label": "C", "text": "x を 5+5=10 と誤解して increment(10) + increment(10) → 11 + 11 → 22" },
+      { "label": "D", "text": "x が 1 ずつ増えると誤解して increment(6) + increment(increment(6)) → 7 + 8 → 15" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["複数の関数呼び出し", "引数は値渡し"]
+  },
+  {
+    "id": "func-decl-exam-01",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、最終的に result に代入される値はいくつか。\n\nfunction apply(fn, value) {\n  return fn(value);\n}\nfunction triple(n) {\n  return n * 3;\n}\nconst result = apply(triple, 7);",
+    "choices": [
+      { "label": "A", "text": "apply(triple, 7) → fn=triple, value=7 → triple(7) → 21" },
+      { "label": "B", "text": "apply(triple(), 7) → apply(undefined, 7) → エラー" },
+      { "label": "C", "text": "apply(triple, 7) → fn(value) → triple × 7 → エラー" },
+      { "label": "D", "text": "apply(triple, 7) → fn=triple の文字列, value=7 → 'triple7'" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["関数を引数として渡す", "高階関数の基本"]
+  },
+  {
+    "id": "func-decl-exam-02",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると何が出力されるか。\n\nfunction outer(x) {\n  function inner(y) {\n    return x + y;\n  }\n  return inner(10);\n}\nconsole.log(outer(5));",
+    "choices": [
+      { "label": "A", "text": "outer(5) → x=5、inner(10) → y=10、x+y → 15 なので 15" },
+      { "label": "B", "text": "inner が外部から参照できないためエラーになる" },
+      { "label": "C", "text": "outer(5) → x=5、inner(10) → y=10、x+y だが x はスコープ外で undefined → NaN" },
+      { "label": "D", "text": "inner の引数 y = 10 だけが使われるため 10" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["関数内で関数を定義", "内側の関数は外側の変数を参照できる"]
+  },
+  {
+    "id": "func-decl-exam-03",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードで result の値はいくつになるか。\n\nfunction makeAdder(x) {\n  return function(y) {\n    return x + y;\n  };\n}\nconst add5 = makeAdder(5);\nconst result = add5(3);",
+    "choices": [
+      { "label": "A", "text": "makeAdder(5) → x=5、add5 は「y を受け取り 5+y を返す関数」になる。add5(3) → 5+3 → 8" },
+      { "label": "B", "text": "makeAdder(5) → undefined、add5(3) → エラー" },
+      { "label": "C", "text": "makeAdder(5) → x=5、add5(3) → makeAdder(3) → 3+3 → 6" },
+      { "label": "D", "text": "makeAdder(5) → x=5、add5 は数値 5 になるため add5(3) → エラー" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["関数を返す関数", "クロージャの入口"]
+  },
+  {
+    "id": "func-decl-exam-04",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードを実行するとコンソールに出力される値は何か。\n\nfunction calc(a, b, op) {\n  return op(a, b);\n}\nconst result = calc(10, 4, function(x, y) { return x - y; });\nconsole.log(result);",
+    "choices": [
+      { "label": "A", "text": "calc(10, 4, op) → op(10, 4) → 10 - 4 → 6" },
+      { "label": "B", "text": "無名関数は引数に渡せないためエラーになる" },
+      { "label": "C", "text": "op が関数でなく undefined として扱われ NaN になる" },
+      { "label": "D", "text": "calc(10, 4, ...) → a=10, b=4 だが op の呼び出しは後で行われるため 14 になる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["無名関数を引数に渡す", "コールバックの基本"]
+  },
+  {
+    "id": "func-decl-exam-05",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードで、最終的に出力されるのはどれか。\n\nfunction modify(arr) {\n  arr.push(99);\n}\nconst nums = [1, 2, 3];\nmodify(nums);\nconsole.log(nums);",
+    "choices": [
+      { "label": "A", "text": "[1, 2, 3]" },
+      { "label": "B", "text": "[1, 2, 3, 99]" },
+      { "label": "C", "text": "エラーになる" },
+      { "label": "D", "text": "[99]" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["配列は参照渡し", "関数内での配列変更"]
+  },
+  {
+    "id": "func-decl-exam-06",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードで output に代入される値はいくつか。\n\nfunction compute(n) {\n  if (n <= 0) return 0;\n  return n + compute(n - 1);\n}\nconst output = compute(4);",
+    "choices": [
+      { "label": "A", "text": "compute(4) → 4 + compute(3) → 4+3+compute(2) → 4+3+2+compute(1) → 4+3+2+1+compute(0) → 4+3+2+1+0 → 10" },
+      { "label": "B", "text": "compute(4) → 4 + compute(3) → 4+3 → 7" },
+      { "label": "C", "text": "n <= 0 の条件により compute(4) → 0 になる" },
+      { "label": "D", "text": "無限ループになりスタックオーバーフローが発生する" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["再帰関数", "base caseで停止"]
+  },
+  {
+    "id": "func-decl-exam-07",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードで a と b の値はそれぞれいくつになるか。\n\nfunction swap(x, y) {\n  let temp = x;\n  x = y;\n  y = temp;\n}\nlet a = 10;\nlet b = 20;\nswap(a, b);\nconsole.log(a, b);",
+    "choices": [
+      { "label": "A", "text": "a=20, b=10" },
+      { "label": "B", "text": "a=10, b=20" },
+      { "label": "C", "text": "a=0, b=0" },
+      { "label": "D", "text": "エラーになる" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["数値は値渡し", "関数内の変更は呼び出し元に影響しない"]
+  },
+  {
+    "id": "func-decl-exam-08",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードで result の値はいくつになるか。\n\nfunction run(fn) {\n  return fn() + fn();\n}\nlet count = 0;\nconst result = run(function() {\n  count++;\n  return count;\n});",
+    "choices": [
+      { "label": "A", "text": "fn() を1回目に呼ぶと count=1 を返し、2回目に呼ぶと count=2 を返す。1+2 → 3" },
+      { "label": "B", "text": "fn() を2回呼ぶが count の初期値は 0 なので 0+0 → 0" },
+      { "label": "C", "text": "fn() を2回呼ぶが同じ count を参照するため 1+1 → 2" },
+      { "label": "D", "text": "無名関数は複数回呼び出せないためエラーになる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["副作用のある関数", "状態の変化の追跡"]
+  },
+  {
+    "id": "func-decl-exam-09",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードで最終的に log に格納される値はいくつか。\n\nfunction identity(x) {\n  return x;\n}\nfunction compose(f, g) {\n  return function(x) {\n    return f(g(x));\n  };\n}\nconst double = (n) => n * 2;\nconst inc = (n) => n + 1;\nconst transform = compose(double, inc);\nconst log = transform(4);",
+    "choices": [
+      { "label": "A", "text": "compose(double, inc) → x を受け取り double(inc(x)) を返す関数。transform(4) → double(inc(4)) → double(5) → 10" },
+      { "label": "B", "text": "compose(double, inc) → x を受け取り inc(double(x)) を返す関数。transform(4) → inc(double(4)) → inc(8) → 9" },
+      { "label": "C", "text": "compose は2つの関数を足し合わせるため double+inc → 4*2+4+1 → 13" },
+      { "label": "D", "text": "transform(4) → double(4) + inc(4) → 8+5 → 13" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["関数合成", "compose パターン"]
+  },
+  {
+    "id": "func-decl-exam-10",
+    "subject": "programming",
+    "unit": "関数の定義と呼び出し",
+    "difficulty": "exam",
+    "question": "次のコードで出力される値はどれか。\n\nfunction makeCounter() {\n  let count = 0;\n  return function() {\n    count++;\n    return count;\n  };\n}\nconst counter1 = makeCounter();\nconst counter2 = makeCounter();\nconsole.log(counter1());\nconsole.log(counter1());\nconsole.log(counter2());",
+    "choices": [
+      { "label": "A", "text": "counter1 と counter2 は同じ count を共有するため 1, 2, 3 と出力される" },
+      { "label": "B", "text": "makeCounter を2回呼ぶと count がリセットされ counter1() は 2 回目なのに 1 に戻るため 1, 1, 1 と出力される" },
+      { "label": "C", "text": "counter1 と counter2 はそれぞれ独立した count を持つため 1, 2, 1 と出力される" },
+      { "label": "D", "text": "count は makeCounter 内で定義されるため外から参照できず undefined, undefined, undefined と出力される" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["クロージャ", "独立したスコープ"]
+  }
+]

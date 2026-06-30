@@ -187,5 +187,54 @@
     "checked_at": "2026-06-29",
     "question_count": 30,
     "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/vocabulary-g2",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/functions/function-declaration",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/english-junior/reading/vocabulary-grammar/vocabulary-g3",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/functions/arrow-functions",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-and-measure/extended-trigonometric-ratios",
+    "status": "passed",
+    "checked_at": "2026-06-29",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/functions/scope",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/arrays/array-basics",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
   }
 ]

@@ -1,0 +1,142 @@
+{
+  "unit_id": "vocabulary-g2",
+  "unit_name_jp": "中2単語テスト",
+  "grade": "中学2年生",
+  "patterns": [
+    {
+      "pattern_id": "basic-en-to-jp-verb-conjugation",
+      "description": "中2必修動詞（過去形・進行形に使う動詞を含む）の英語→日本語意味選択（動作動詞・状態動詞・不規則活用動詞カテゴリ）",
+      "thinking_process": [
+        "英単語を見て動詞かどうか判断する",
+        "不規則活用動詞の場合は原形・過去形・過去分詞を思い出す",
+        "最も正確な日本語の意味を4択から選ぶ"
+      ],
+      "common_mistakes": [
+        "go/come/come back など方向が逆の動詞を混同する",
+        "know/learn/study の「知る」と「学ぶ」を取り違える",
+        "過去形と原形を別の単語と勘違いする（went→go, ate→eat）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "basic-en-to-jp-adjective-emotion",
+      "description": "感情・状態を表す形容詞（中2頻出）の英語→日本語意味選択（happy/sad/excited/bored/tired など）",
+      "thinking_process": [
+        "英語の形容詞を見てどの感情・状態を表すか考える",
+        "各選択肢の日本語の感情表現を確認する",
+        "最も正確な意味を持つ日本語を選ぶ"
+      ],
+      "common_mistakes": [
+        "excited（わくわくした）と interesting（おもしろい）を混同する",
+        "bored（退屈した）と boring（退屈な）の品詞の違いを無視する",
+        "scared/surprised/shocked の微妙な違いを区別できない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "basic-en-to-jp-adverb-preposition",
+      "description": "頻出副詞・前置詞（already/still/yet/since/for/during など）の英語→日本語意味選択",
+      "thinking_process": [
+        "単語が副詞か前置詞かを判断する",
+        "文法的な役割（時間・場所・様態）を意識する",
+        "最も適切な日本語の意味を選ぶ"
+      ],
+      "common_mistakes": [
+        "already（もう・すでに）と yet（まだ〔否定〕/もう〔疑問〕）を混同する",
+        "since（〜から/〜なので）とfor（〜の間）の使い分けができない",
+        "during（〜の間ずっと）とwhile（〜する間に）を取り違える"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "standard-jp-to-en-verb-tense",
+      "description": "日本語の動詞の意味→正しい英単語（過去形・不規則動詞含む）を4択から選ぶ",
+      "thinking_process": [
+        "日本語の動詞の意味を英語でどう表現するか考える",
+        "不規則動詞の場合は原形・過去形・過去分詞の形を確認する",
+        "4つの英単語からスペルと意味が一致するものを選ぶ"
+      ],
+      "common_mistakes": [
+        "go の過去形を goed と間違える（正: went）",
+        "come の過去形を comed と間違える（正: came）",
+        "意味が近い動詞（bring/take、lend/borrow）を取り違える"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "standard-jp-to-en-conjunction",
+      "description": "日本語の接続詞の意味（「〜なので」「もし〜ならば」「〜の時」「〜ということ」）→正しい英語接続詞を選ぶ",
+      "thinking_process": [
+        "日本語の接続詞がどの関係（因果・条件・時・補語）を表すか判断する",
+        "英語の接続詞の意味・用法を思い出す",
+        "4択から正しい接続詞を選ぶ"
+      ],
+      "common_mistakes": [
+        "because（〜なので）とso（だから）の使う位置の違いを混同する",
+        "when（〜の時）とwhile（〜している間に）を取り違える",
+        "that（〜ということ）を省略できる場面でも選択問題で混乱する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "standard-jp-to-en-social-nature",
+      "description": "意見・社会・自然・旅行に関する語彙（中2頻出）の日本語→英語選択",
+      "thinking_process": [
+        "日本語の語句が属するカテゴリ（社会・自然・旅行など）を確認する",
+        "各英単語の意味とスペルを思い出す",
+        "日本語の意味に最も合う英単語を選ぶ"
+      ],
+      "common_mistakes": [
+        "travel（旅をする）とtrip（旅行）の品詞の違いを混同する",
+        "nature（自然）とculture（文化）を取り違える",
+        "opinion（意見）とidea（考え）の微妙な違いに気づかない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "exam-context-verb-form",
+      "description": "短文の空欄に入る動詞を文脈・時制・文法（不定詞・動名詞・進行形）から推測して選ぶ",
+      "thinking_process": [
+        "短文の時制（現在・過去・未来・進行形）を確認する",
+        "空欄前後の文法ヒント（be動詞・to・-ing・助動詞）を確認する",
+        "文脈と文法の両方を満たす動詞形を選ぶ"
+      ],
+      "common_mistakes": [
+        "be going to と will の使い分けで混乱する",
+        "want to do と enjoy doing の違いを無視して動詞を選ぶ",
+        "進行形（is/are -ing）と現在形を混同する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "exam-synonym-antonym",
+      "description": "下線部の語句と同じ意味（同義語）または反対の意味（反意語）を持つ英単語を文脈から選ぶ",
+      "thinking_process": [
+        "下線部の単語の意味を文脈から確認する",
+        "問いが同義語か反意語かを判断する",
+        "4択の中から意味が一致・対応する単語を選ぶ"
+      ],
+      "common_mistakes": [
+        "文脈を無視して単語の一般的な意味だけで判断する",
+        "同義語を選ぶとき意味が近いが微妙に違う語を選ぶ",
+        "反意語の問いで同義語を選んでしまう（問いを読み飛ばす）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "exam-collocation",
+      "description": "動詞と名詞のコロケーション（make a decision / take a trip / have fun など）の正しい動詞を選ぶ",
+      "thinking_process": [
+        "空欄の後の名詞（目的語）を確認する",
+        "どの動詞がその名詞と自然に組み合わさるか（コロケーション）を考える",
+        "文脈的に最も自然な動詞を選ぶ"
+      ],
+      "common_mistakes": [
+        "do homework と make homework を取り違える",
+        "have fun と make fun を混同する",
+        "take a photo と make a photo を間違える"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}
