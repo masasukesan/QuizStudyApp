@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数列（等差・等比・漸化式）の完全マスター法 — MATHACA コラム</title>
+    <meta name="description" content="共通テスト数学IIBで必出の数列。等差数列・等比数列の基本から漸化式まで、確実に得点するための考え方を解説します。" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root{--profile-bg:#2a1e12;--profile-card:#3a2a1a;--profile-text:#c8b48a;--profile-border:rgba(201,168,106,0.25);--profile-gold:#d4a84b;--font-cinzel:"Cinzel",serif;--font-cinzel-deco:"Cinzel Decorative",serif;--font-serif-jp:"Noto Serif JP",serif}
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      html{scroll-behavior:smooth}
+      body{font-family:var(--font-serif-jp);background-color:var(--profile-bg);background-image:radial-gradient(ellipse at 50% 0%,rgba(120,80,20,0.15) 0%,transparent 60%);color:var(--profile-text);line-height:1.9;-webkit-font-smoothing:antialiased}
+      header{position:sticky;top:0;z-index:100;background:var(--profile-card);border-bottom:1px solid var(--profile-border);box-shadow:0 2px 16px rgba(0,0,0,0.5);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+      .logo{font-family:var(--font-cinzel-deco);font-size:22px;font-weight:700;color:var(--profile-gold);text-decoration:none;letter-spacing:0.05em;text-shadow:0 0 20px rgba(201,168,106,0.3)}
+      .header-cta{font-family:var(--font-serif-jp);font-size:0.8rem;color:rgba(201,168,106,0.85);background:rgba(201,168,106,0.08);border:1px solid rgba(201,168,106,0.35);padding:7px 20px;text-decoration:none;letter-spacing:0.06em;transition:background 0.15s,border-color 0.15s}
+      .header-cta:hover{background:rgba(201,168,106,0.15);border-color:rgba(201,168,106,0.55);color:#c9a86a}
+      main{max-width:760px;margin:0 auto;padding:64px 24px 80px}
+      .breadcrumb{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.35);letter-spacing:0.1em;margin-bottom:32px}
+      .breadcrumb a{color:rgba(201,168,106,0.5);text-decoration:none}
+      .article-label{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.45);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:12px;display:block}
+      h1{font-family:var(--font-cinzel);font-size:clamp(1.4rem,4vw,2rem);color:var(--profile-gold);letter-spacing:0.06em;line-height:1.4;margin-bottom:16px}
+      .article-meta{font-size:0.78rem;color:rgba(201,168,106,0.3);font-family:var(--font-cinzel);letter-spacing:0.1em;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid var(--profile-border)}
+      h2{font-family:var(--font-cinzel);font-size:1.05rem;color:var(--profile-gold);letter-spacing:0.08em;margin:48px 0 16px;padding-left:16px;border-left:3px solid rgba(201,168,106,0.5)}
+      h3{font-family:var(--font-serif-jp);font-size:0.95rem;color:rgba(201,168,106,0.9);font-weight:600;margin:28px 0 10px}
+      p{font-size:0.9rem;color:rgba(200,180,138,0.8);margin-bottom:20px;line-height:1.95}
+      .point-box{background:rgba(201,168,106,0.06);border:1px solid rgba(201,168,106,0.2);padding:24px 28px;margin:32px 0}
+      .point-box .point-num{font-family:var(--font-cinzel);font-size:0.7rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:8px;display:block}
+      .point-box .point-title{font-family:var(--font-serif-jp);font-size:1rem;color:var(--profile-gold);font-weight:600;margin-bottom:12px}
+      .point-box p{margin-bottom:0}
+      .summary-box{background:rgba(201,168,106,0.04);border:1px solid rgba(201,168,106,0.15);padding:20px 24px;margin:40px 0}
+      .summary-box p{font-size:0.85rem;color:rgba(200,180,138,0.65);margin-bottom:8px}
+      .summary-box p:last-child{margin-bottom:0}
+      .cta-inline{text-align:center;margin:56px 0 32px;padding-top:40px;border-top:1px solid var(--profile-border)}
+      .cta-inline p{font-size:0.88rem;color:rgba(200,180,138,0.6);margin-bottom:20px}
+      .btn-cta{display:inline-block;background:linear-gradient(135deg,#c9a86a 0%,#d4a84b 100%);color:#1a1008;font-family:var(--font-cinzel);font-size:0.85rem;font-weight:700;letter-spacing:0.12em;padding:14px 40px;text-decoration:none;transition:opacity 0.15s,transform 0.1s}
+      .btn-cta:hover{opacity:0.9;transform:translateY(-1px)}
+      .related{margin-top:48px;padding-top:32px;border-top:1px solid var(--profile-border)}
+      .related-title{font-family:var(--font-cinzel);font-size:0.75rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:20px}
+      .related-links{display:flex;flex-direction:column;gap:12px}
+      .related-links a{font-size:0.88rem;color:rgba(201,168,106,0.7);text-decoration:none;padding:12px 16px;border:1px solid rgba(201,168,106,0.15);transition:border-color 0.15s,color 0.15s}
+      .related-links a:hover{border-color:rgba(201,168,106,0.4);color:var(--profile-gold)}
+      footer{background:#1a1008;border-top:1px solid rgba(201,168,106,0.1);text-align:center;padding:32px 20px}
+      .footer-logo{font-family:var(--font-cinzel-deco);font-size:16px;color:rgba(201,168,106,0.5);margin-bottom:10px}
+      footer p{font-family:var(--font-cinzel);font-size:10px;font-style:italic;color:rgba(201,168,106,0.25);letter-spacing:0.1em;margin-top:4px}
+      .footer-links{display:flex;justify-content:center;gap:24px;margin-top:12px;flex-wrap:wrap}
+      .footer-links a{font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em}
+      .footer-links a:hover{color:rgba(201,168,106,0.65)}
+    </style>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">MATHACA</a>
+      <a href="https://quiz-study-app-omega.vercel.app/login" class="header-cta">入学する（無料）</a>
+    </header>
+    <main>
+      <p class="breadcrumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="/column.html">Column</a> &nbsp;/&nbsp; 数列の完全マスター法</p>
+      <span class="article-label">Study Column — Vol.06</span>
+      <h1>数列（等差・等比・漸化式）の<br />完全マスター法</h1>
+      <p class="article-meta">2026.06 &nbsp;|&nbsp; Math Strategy &nbsp;|&nbsp; 読了時間：約7分</p>
+
+      <p>共通テスト数学IIBで高い配点を持つ「数列」は、等差数列・等比数列の基本から始まり、漸化式・数学的帰納法まで範囲が広い単元です。「公式は覚えているのに問題が解けない」という生徒が多いのも数列の特徴です。この記事では、つまずきやすいポイントを整理し、数列を確実に得点源にするための考え方を解説します。</p>
+
+      <h2>等差数列：「一定の差」だけを意識する</h2>
+      <p>等差数列とは、隣り合う項の差が常に一定（公差 d）の数列です。一般項は an＝a₁＋(n－1)d で求まります。「最初の項に (n－1) 個分の公差を足す」というイメージを持つと、公式を暗記しなくても導き出せます。</p>
+      <p>等差数列の和の公式 Sn＝n(a₁＋an)÷2 は「最初と最後を足して項数で掛けて半分」という意味です。この意味を理解していれば、公式を忘れても作り直せます。「初項と末項の平均 × 項数」と言い換えると直感的にわかりやすいです。</p>
+
+      <div class="point-box">
+        <span class="point-num">FORMULA</span>
+        <p class="point-title">等差数列の基本2式：一般項と和</p>
+        <p>一般項：an＝a₁＋(n－1)d　（a₁：初項、d：公差）<br />和：Sn＝n(a₁＋an)÷2＝n{2a₁＋(n－1)d}÷2<br />「末項がわかるときは前者、わからないときは後者」と使い分ける。</p>
+      </div>
+
+      <h2>等比数列：「一定の比」だけを意識する</h2>
+      <p>等比数列とは、隣り合う項の比が常に一定（公比 r）の数列です。一般項は an＝a₁×rⁿ⁻¹ です。等差数列との違いは「足す」か「かける」かだけです。公比 r が 1 のときは全項が同じ値になり、特別なケースとして扱います。</p>
+      <p>等比数列の和の公式 Sn＝a₁(rⁿ－1)÷(r－1) は r≠1 の場合のみ使えます。r＝1 のときは Sn＝na₁ です。この場合分けを忘れると減点されるので、答えを書く前に「r は 1 か？」と確認する習慣をつけましょう。</p>
+
+      <div class="point-box">
+        <span class="point-num">CAUTION</span>
+        <p class="point-title">等比数列の和は「r＝1」と「r≠1」で場合分けを忘れずに</p>
+        <p>r≠1 のとき：Sn＝a₁(1－rⁿ)÷(1－r)　または　a₁(rⁿ－1)÷(r－1)<br />r＝1 のとき：Sn＝na₁<br />答案で場合分けを省略すると減点対象になる。</p>
+      </div>
+
+      <h2>漸化式：「型」を認識して解く</h2>
+      <p>漸化式とは「an+1 を an で表す式」のことです。共通テストでよく出る型は主に3つあります。①等差型（an+1＝an＋d）、②等比型（an+1＝r×an）、③1次漸化式（an+1＝pan＋q）。この3つを見た瞬間に判断できるようになることが目標です。</p>
+      <h3>①等差型の漸化式</h3>
+      <p>an+1＝an＋d の形。これは公差 d の等差数列を意味します。an＝a₁＋(n－1)d の公式に代入すれば一般項が求まります。</p>
+      <h3>②等比型の漸化式</h3>
+      <p>an+1＝r×an の形。公比 r の等比数列です。an＝a₁×rⁿ⁻¹ で一般項が求まります。</p>
+      <h3>③1次漸化式（an+1＝pan＋q）</h3>
+      <p>an+1＝pan＋q の形は、両辺に α を引いて等比型に変形します。an+1－α＝p(an－α) となる α を求める（α＝q÷(1－p)）と、bn＝an－α とおくことで bn+1＝p×bn という等比数列に帰着できます。</p>
+
+      <div class="point-box">
+        <span class="point-num">KEY SKILL</span>
+        <p class="point-title">漸化式は「型を認識→適切な変換→等比数列に帰着」の流れ</p>
+        <p>an+1＝pan＋q の場合：特性方程式 α＝pα＋q を解いて α を求め、bn＝an－α とおく。この変換を練習で身体に覚えさせることが重要。</p>
+      </div>
+
+      <h2>Σ（シグマ）記号をマスターする</h2>
+      <p>数列の和を簡潔に表す Σ（シグマ）記号は、数学IIBの問題で頻繁に登場します。Σk＝n(n＋1)÷2、Σk²＝n(n＋1)(2n＋1)÷6、Σk³＝{n(n＋1)÷2}² の3つの公式は丸暗記が必要です。</p>
+      <p>Σの計算では「定数はΣの外に出せる」「Σの線形性（足し算・引き算で分離できる）」を活用します。複雑な式もこれらの性質を使えば、基本3公式に分解して計算できます。模試などで Σ が入った問題が出たら、まず基本公式に分解できないかを考えましょう。</p>
+
+      <h2>まとめ</h2>
+      <div class="summary-box">
+        <p>✦ &nbsp;等差数列は「足す」、等比数列は「かける」の違いを体で覚える</p>
+        <p>✦ &nbsp;等比数列の和は r＝1 の場合分けを絶対に忘れない</p>
+        <p>✦ &nbsp;漸化式は「①等差型 ②等比型 ③1次型」の3パターンで型認識する</p>
+        <p>✦ &nbsp;Σの基本3公式（k、k²、k³）は丸暗記する</p>
+      </div>
+
+      <div class="cta-inline">
+        <p>MATHACAでは数列の問題を豊富に用意。等差・等比から漸化式まで段階的に練習できます。</p>
+        <a href="https://quiz-study-app-omega.vercel.app/login" class="btn-cta">無料で始める</a>
+      </div>
+
+      <div class="related">
+        <p class="related-title">Related Articles</p>
+        <div class="related-links">
+          <a href="/column7.html">→ 微分・積分で共通テストの得点を確実に取る方法</a>
+          <a href="/column5.html">→ 2次関数を完全攻略する方法</a>
+          <a href="/column1.html">→ 共通テスト数学で点を取るための3つのコツ</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">MATHACA</div>
+      <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
+      <p style="margin-top:8px">© 2026 MATHACA. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/column.html">コラム</a>
+        <a href="/privacy.html">プライバシーポリシー</a>
+        <a href="/contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>「場合の数と確率」を得意にする5つのステップ — MATHACA コラム</title>
+    <meta name="description" content="共通テスト数学で毎年必ず出る「場合の数と確率」。苦手な人が多いこの分野を得意にするための具体的な5つのステップを解説します。" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --profile-bg:#2a1e12;--profile-card:#3a2a1a;--profile-text:#c8b48a;--profile-border:rgba(201,168,106,0.25);--profile-gold:#d4a84b;--font-cinzel:"Cinzel",serif;--font-cinzel-deco:"Cinzel Decorative",serif;--font-serif-jp:"Noto Serif JP",serif; }
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      html{scroll-behavior:smooth}
+      body{font-family:var(--font-serif-jp);background-color:var(--profile-bg);background-image:radial-gradient(ellipse at 50% 0%,rgba(120,80,20,0.15) 0%,transparent 60%);color:var(--profile-text);line-height:1.9;-webkit-font-smoothing:antialiased}
+      header{position:sticky;top:0;z-index:100;background:var(--profile-card);border-bottom:1px solid var(--profile-border);box-shadow:0 2px 16px rgba(0,0,0,0.5);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+      .logo{font-family:var(--font-cinzel-deco);font-size:22px;font-weight:700;color:var(--profile-gold);text-decoration:none;letter-spacing:0.05em;text-shadow:0 0 20px rgba(201,168,106,0.3)}
+      .header-cta{font-family:var(--font-serif-jp);font-size:0.8rem;color:rgba(201,168,106,0.85);background:rgba(201,168,106,0.08);border:1px solid rgba(201,168,106,0.35);padding:7px 20px;text-decoration:none;letter-spacing:0.06em;transition:background 0.15s,border-color 0.15s}
+      .header-cta:hover{background:rgba(201,168,106,0.15);border-color:rgba(201,168,106,0.55);color:#c9a86a}
+      main{max-width:760px;margin:0 auto;padding:64px 24px 80px}
+      .breadcrumb{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.35);letter-spacing:0.1em;margin-bottom:32px}
+      .breadcrumb a{color:rgba(201,168,106,0.5);text-decoration:none}
+      .breadcrumb a:hover{color:var(--profile-gold)}
+      .article-label{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.45);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:12px;display:block}
+      h1{font-family:var(--font-cinzel);font-size:clamp(1.4rem,4vw,2rem);color:var(--profile-gold);letter-spacing:0.06em;line-height:1.4;margin-bottom:16px}
+      .article-meta{font-size:0.78rem;color:rgba(201,168,106,0.3);font-family:var(--font-cinzel);letter-spacing:0.1em;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid var(--profile-border)}
+      h2{font-family:var(--font-cinzel);font-size:1.05rem;color:var(--profile-gold);letter-spacing:0.08em;margin:48px 0 16px;padding-left:16px;border-left:3px solid rgba(201,168,106,0.5)}
+      h3{font-family:var(--font-serif-jp);font-size:0.95rem;color:rgba(201,168,106,0.9);font-weight:600;margin:28px 0 10px}
+      p{font-size:0.9rem;color:rgba(200,180,138,0.8);margin-bottom:20px;line-height:1.95}
+      .point-box{background:rgba(201,168,106,0.06);border:1px solid rgba(201,168,106,0.2);padding:24px 28px;margin:32px 0}
+      .point-box .point-num{font-family:var(--font-cinzel);font-size:0.7rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:8px;display:block}
+      .point-box .point-title{font-family:var(--font-serif-jp);font-size:1rem;color:var(--profile-gold);font-weight:600;margin-bottom:12px}
+      .point-box p{margin-bottom:0}
+      .summary-box{background:rgba(201,168,106,0.04);border:1px solid rgba(201,168,106,0.15);padding:20px 24px;margin:40px 0}
+      .summary-box p{font-size:0.85rem;color:rgba(200,180,138,0.65);margin-bottom:8px}
+      .summary-box p:last-child{margin-bottom:0}
+      .cta-inline{text-align:center;margin:56px 0 32px;padding-top:40px;border-top:1px solid var(--profile-border)}
+      .cta-inline p{font-size:0.88rem;color:rgba(200,180,138,0.6);margin-bottom:20px}
+      .btn-cta{display:inline-block;background:linear-gradient(135deg,#c9a86a 0%,#d4a84b 100%);color:#1a1008;font-family:var(--font-cinzel);font-size:0.85rem;font-weight:700;letter-spacing:0.12em;padding:14px 40px;text-decoration:none;transition:opacity 0.15s,transform 0.1s}
+      .btn-cta:hover{opacity:0.9;transform:translateY(-1px)}
+      .related{margin-top:48px;padding-top:32px;border-top:1px solid var(--profile-border)}
+      .related-title{font-family:var(--font-cinzel);font-size:0.75rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:20px}
+      .related-links{display:flex;flex-direction:column;gap:12px}
+      .related-links a{font-size:0.88rem;color:rgba(201,168,106,0.7);text-decoration:none;padding:12px 16px;border:1px solid rgba(201,168,106,0.15);transition:border-color 0.15s,color 0.15s}
+      .related-links a:hover{border-color:rgba(201,168,106,0.4);color:var(--profile-gold)}
+      footer{background:#1a1008;border-top:1px solid rgba(201,168,106,0.1);text-align:center;padding:32px 20px}
+      .footer-logo{font-family:var(--font-cinzel-deco);font-size:16px;color:rgba(201,168,106,0.5);margin-bottom:10px}
+      footer p{font-family:var(--font-cinzel);font-size:10px;font-style:italic;color:rgba(201,168,106,0.25);letter-spacing:0.1em;margin-top:4px}
+      .footer-links{display:flex;justify-content:center;gap:24px;margin-top:12px;flex-wrap:wrap}
+      .footer-links a{font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em}
+      .footer-links a:hover{color:rgba(201,168,106,0.65)}
+    </style>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">MATHACA</a>
+      <a href="https://quiz-study-app-omega.vercel.app/login" class="header-cta">入学する（無料）</a>
+    </header>
+    <main>
+      <p class="breadcrumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="/column.html">Column</a> &nbsp;/&nbsp; 場合の数と確率の攻略</p>
+      <span class="article-label">Study Column — Vol.04</span>
+      <h1>「場合の数と確率」を<br />得意にする5つのステップ</h1>
+      <p class="article-meta">2026.06 &nbsp;|&nbsp; Math Strategy &nbsp;|&nbsp; 読了時間：約6分</p>
+
+      <p>「確率は計算はできるけど、問題を見た瞬間に何をすればいいかわからなくなる」——そんな声をよく耳にします。共通テスト数学IAで毎年必ず出題される「場合の数と確率」は、パターンを正しく理解すれば確実に点が取れる単元です。この記事では、苦手な人がつまずくポイントを整理し、得点に直結する5つのステップを解説します。</p>
+
+      <h2>Step 1：「数える」前に「分ける」を意識する</h2>
+      <p>確率問題で最初にやるべきことは、計算ではなく「何を数えるか」を明確にすることです。確率の定義は「起こりやすさ＝（求める事象の場合の数）÷（全体の場合の数）」ですが、多くの生徒がこの「全体と求めるものを正確に分ける」ステップを省略してしまいます。</p>
+      <p>問題文を読んだら、まず「全体は何通りか？」と「求めたい事象は何通りか？」の2つを書き出すことを習慣にしましょう。この2行を書くだけで、次に何をすべきかが自然と見えてきます。「書く前に計算しない」が確率攻略の第一原則です。</p>
+
+      <div class="point-box">
+        <span class="point-num">STEP 01</span>
+        <p class="point-title">問題文を読んだらまず「全体」と「求める事象」を書き出す</p>
+        <p>計算より先に言葉で整理する。「コインを3回投げる。全体は2³＝8通り。表が2回以上出るのは何通り？」のように具体化してから数え始める。</p>
+      </div>
+
+      <h2>Step 2：「順列」と「組み合わせ」の使い分けを完璧にする</h2>
+      <p>確率の問題でもっとも多い間違いは、順列（P）と組み合わせ（C）を混同することです。簡単に言えば、「並べ方」を問われるときは順列（順番が関係する）、「選び方」を問われるときは組み合わせ（順番は関係しない）を使います。</p>
+      <p>「A・B・C3人から2人を選ぶ」のは組み合わせ（ABとBAは同じ）、「A・B・C3人を1位・2位に並べる」のは順列（ABとBAは違う）です。問題文の「選ぶ」「選ぶ方法」という言葉はC、「並べる」「順に」という言葉はPのサインだと覚えておきましょう。</p>
+      <h3>公式の整理</h3>
+      <p>組み合わせの公式：nCr＝n! ÷ （r! × (n-r)!）。たとえば5人から3人選ぶ場合、5C3＝5×4×3 ÷ (3×2×1)＝10通りです。計算が複雑に見えても、分子と分母を約分しながら進めると迷わずに計算できます。</p>
+
+      <div class="point-box">
+        <span class="point-num">STEP 02</span>
+        <p class="point-title">「順番あり→P、順番なし→C」を問題文の言葉で判断する</p>
+        <p>問題文に「並べ方」「順に」「左から右へ」があればP。「選び方」「グループ」「組み合わせ」があればC。この判断を間違えると全て間違いになるため最重要。</p>
+      </div>
+
+      <h2>Step 3：「余事象」を使うタイミングを身につける</h2>
+      <p>「少なくとも1つ」「1つ以上」という表現が出てきたら、余事象（1から引く方法）を使うことを考えましょう。直接数えると非常に複雑になるケースでも、「全体 − 求めない部分」で求めると驚くほど簡単になります。</p>
+      <p>例えば「コインを4回投げて、少なくとも1回表が出る確率」を直接数えると「1回だけ表」「2回表」「3回表」「4回表」の4パターンを足す必要があります。しかし余事象「1回も表が出ない確率」は(1/2)⁴＝1/16のみ。よって答えは1－1/16＝15/16と一発で求まります。</p>
+
+      <div class="point-box">
+        <span class="point-num">STEP 03</span>
+        <p class="point-title">「少なくとも1つ」を見たら反射的に「1 − 余事象」を考える</p>
+        <p>直接数えるより余事象の方が場合が少ないとき（＝「全く〜しない」が単純なとき）は余事象を優先する。直接数えることに固執しないことが重要。</p>
+      </div>
+
+      <h2>Step 4：「条件付き確率」は状況を書き直す</h2>
+      <p>「〜のとき、〜の確率は？」という条件付き確率の問題は、多くの生徒が公式（P(A|B)＝P(A∩B)÷P(B)）に頼りすぎて混乱します。実は条件付き確率を解くコツはとてもシンプルで、「条件の部分だけに全体を絞り込む」ことです。</p>
+      <p>「赤球3個・白球2個の袋から2個取り出したとき、1個目が赤なら2個目も赤の確率は？」という問題なら、「1個目が赤と決まった」状態から考えます。袋の中は残り赤2個・白2個の合計4個。そこから赤を引く確率は2/4＝1/2です。公式を使わなくても状況を更新するだけで解けます。</p>
+
+      <div class="point-box">
+        <span class="point-num">STEP 04</span>
+        <p class="point-title">条件付き確率は「条件が成立した後の状況」を最初から描き直す</p>
+        <p>公式より先に「条件後の全体」と「条件後の求める事象」を書き出す。図や樹形図を使って視覚化すると間違いが大幅に減る。</p>
+      </div>
+
+      <h2>Step 5：樹形図と表を使い分ける</h2>
+      <p>場合の数を数えるとき、「樹形図」と「表」を使いこなすことで計算ミスが劇的に減ります。樹形図はサイコロや硬貨など「繰り返し起こる試行」に向いており、表は「2つのものを組み合わせる」問題に向いています。</p>
+      <p>共通テストでは計算スピードが求められますが、確率分野では手を動かして書く時間が最終的に節約になることがほとんどです。「書く30秒が後の5分を救う」と覚えておきましょう。樹形図を書いて全パターンを書き出すことで、計算ミスや数え漏れを防げます。</p>
+
+      <h2>まとめ</h2>
+      <div class="summary-box">
+        <p>✦ &nbsp;「全体と求める事象」を先に言葉で書いてから計算する</p>
+        <p>✦ &nbsp;「並べ方→P、選び方→C」を問題文の言葉で判断する</p>
+        <p>✦ &nbsp;「少なくとも1つ」は余事象（1－〜）を反射的に使う</p>
+        <p>✦ &nbsp;条件付き確率は「条件後の状況」を書き直してから考える</p>
+        <p>✦ &nbsp;樹形図・表を積極的に書いて数え漏れを防ぐ</p>
+      </div>
+      <p>「場合の数と確率」は毎年共通テストに必出です。5つのステップを繰り返し練習することで、問題を見た瞬間にどの方法を使うか判断できるようになります。パターン認識の練習こそが、確率を得意にする最短ルートです。</p>
+
+      <div class="cta-inline">
+        <p>MATHACAでは「場合の数と確率」の問題をBasic〜Examまで30問用意しています。今すぐ練習を始めましょう。</p>
+        <a href="https://quiz-study-app-omega.vercel.app/login" class="btn-cta">無料で始める</a>
+      </div>
+
+      <div class="related">
+        <p class="related-title">Related Articles</p>
+        <div class="related-links">
+          <a href="/column1.html">→ 共通テスト数学で点を取るための3つのコツ</a>
+          <a href="/column5.html">→ 2次関数を完全攻略する方法</a>
+          <a href="/column6.html">→ 数列（等差・等比・漸化式）のマスター法</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">MATHACA</div>
+      <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
+      <p style="margin-top:8px">© 2026 MATHACA. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/column.html">コラム</a>
+        <a href="/privacy.html">プライバシーポリシー</a>
+        <a href="/contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+  </body>
+</html>

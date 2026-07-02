@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2次関数を完全攻略する方法 — MATHACA コラム</title>
+    <meta name="description" content="共通テスト数学で最頻出の「2次関数」を完全に攻略するための考え方と解法パターンを解説。頂点・軸・最大最小を確実にマスターする。" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root{--profile-bg:#2a1e12;--profile-card:#3a2a1a;--profile-text:#c8b48a;--profile-border:rgba(201,168,106,0.25);--profile-gold:#d4a84b;--font-cinzel:"Cinzel",serif;--font-cinzel-deco:"Cinzel Decorative",serif;--font-serif-jp:"Noto Serif JP",serif}
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      html{scroll-behavior:smooth}
+      body{font-family:var(--font-serif-jp);background-color:var(--profile-bg);background-image:radial-gradient(ellipse at 50% 0%,rgba(120,80,20,0.15) 0%,transparent 60%);color:var(--profile-text);line-height:1.9;-webkit-font-smoothing:antialiased}
+      header{position:sticky;top:0;z-index:100;background:var(--profile-card);border-bottom:1px solid var(--profile-border);box-shadow:0 2px 16px rgba(0,0,0,0.5);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+      .logo{font-family:var(--font-cinzel-deco);font-size:22px;font-weight:700;color:var(--profile-gold);text-decoration:none;letter-spacing:0.05em;text-shadow:0 0 20px rgba(201,168,106,0.3)}
+      .header-cta{font-family:var(--font-serif-jp);font-size:0.8rem;color:rgba(201,168,106,0.85);background:rgba(201,168,106,0.08);border:1px solid rgba(201,168,106,0.35);padding:7px 20px;text-decoration:none;letter-spacing:0.06em;transition:background 0.15s,border-color 0.15s}
+      .header-cta:hover{background:rgba(201,168,106,0.15);border-color:rgba(201,168,106,0.55);color:#c9a86a}
+      main{max-width:760px;margin:0 auto;padding:64px 24px 80px}
+      .breadcrumb{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.35);letter-spacing:0.1em;margin-bottom:32px}
+      .breadcrumb a{color:rgba(201,168,106,0.5);text-decoration:none}
+      .article-label{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.45);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:12px;display:block}
+      h1{font-family:var(--font-cinzel);font-size:clamp(1.4rem,4vw,2rem);color:var(--profile-gold);letter-spacing:0.06em;line-height:1.4;margin-bottom:16px}
+      .article-meta{font-size:0.78rem;color:rgba(201,168,106,0.3);font-family:var(--font-cinzel);letter-spacing:0.1em;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid var(--profile-border)}
+      h2{font-family:var(--font-cinzel);font-size:1.05rem;color:var(--profile-gold);letter-spacing:0.08em;margin:48px 0 16px;padding-left:16px;border-left:3px solid rgba(201,168,106,0.5)}
+      h3{font-family:var(--font-serif-jp);font-size:0.95rem;color:rgba(201,168,106,0.9);font-weight:600;margin:28px 0 10px}
+      p{font-size:0.9rem;color:rgba(200,180,138,0.8);margin-bottom:20px;line-height:1.95}
+      .point-box{background:rgba(201,168,106,0.06);border:1px solid rgba(201,168,106,0.2);padding:24px 28px;margin:32px 0}
+      .point-box .point-num{font-family:var(--font-cinzel);font-size:0.7rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:8px;display:block}
+      .point-box .point-title{font-family:var(--font-serif-jp);font-size:1rem;color:var(--profile-gold);font-weight:600;margin-bottom:12px}
+      .point-box p{margin-bottom:0}
+      .summary-box{background:rgba(201,168,106,0.04);border:1px solid rgba(201,168,106,0.15);padding:20px 24px;margin:40px 0}
+      .summary-box p{font-size:0.85rem;color:rgba(200,180,138,0.65);margin-bottom:8px}
+      .summary-box p:last-child{margin-bottom:0}
+      .cta-inline{text-align:center;margin:56px 0 32px;padding-top:40px;border-top:1px solid var(--profile-border)}
+      .cta-inline p{font-size:0.88rem;color:rgba(200,180,138,0.6);margin-bottom:20px}
+      .btn-cta{display:inline-block;background:linear-gradient(135deg,#c9a86a 0%,#d4a84b 100%);color:#1a1008;font-family:var(--font-cinzel);font-size:0.85rem;font-weight:700;letter-spacing:0.12em;padding:14px 40px;text-decoration:none;transition:opacity 0.15s,transform 0.1s}
+      .btn-cta:hover{opacity:0.9;transform:translateY(-1px)}
+      .related{margin-top:48px;padding-top:32px;border-top:1px solid var(--profile-border)}
+      .related-title{font-family:var(--font-cinzel);font-size:0.75rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:20px}
+      .related-links{display:flex;flex-direction:column;gap:12px}
+      .related-links a{font-size:0.88rem;color:rgba(201,168,106,0.7);text-decoration:none;padding:12px 16px;border:1px solid rgba(201,168,106,0.15);transition:border-color 0.15s,color 0.15s}
+      .related-links a:hover{border-color:rgba(201,168,106,0.4);color:var(--profile-gold)}
+      footer{background:#1a1008;border-top:1px solid rgba(201,168,106,0.1);text-align:center;padding:32px 20px}
+      .footer-logo{font-family:var(--font-cinzel-deco);font-size:16px;color:rgba(201,168,106,0.5);margin-bottom:10px}
+      footer p{font-family:var(--font-cinzel);font-size:10px;font-style:italic;color:rgba(201,168,106,0.25);letter-spacing:0.1em;margin-top:4px}
+      .footer-links{display:flex;justify-content:center;gap:24px;margin-top:12px;flex-wrap:wrap}
+      .footer-links a{font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em}
+      .footer-links a:hover{color:rgba(201,168,106,0.65)}
+    </style>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">MATHACA</a>
+      <a href="https://quiz-study-app-omega.vercel.app/login" class="header-cta">入学する（無料）</a>
+    </header>
+    <main>
+      <p class="breadcrumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="/column.html">Column</a> &nbsp;/&nbsp; 2次関数の完全攻略</p>
+      <span class="article-label">Study Column — Vol.05</span>
+      <h1>2次関数を完全攻略する方法<br />— 頂点・軸・最大最小 —</h1>
+      <p class="article-meta">2026.06 &nbsp;|&nbsp; Math Strategy &nbsp;|&nbsp; 読了時間：約6分</p>
+
+      <p>「2次関数はわかるけど、最大・最小の問題になると急に自信がなくなる」——これは高校数学で最もよく聞く悩みのひとつです。2次関数は共通テスト数学IAの第1問にほぼ毎年登場する超頻出単元です。この記事では、2次関数の根本的な理解から始め、定義域がある場合の最大・最小まで、つまずきやすいポイントを段階的に解説します。</p>
+
+      <h2>まず「グラフの形」を頭に刻む</h2>
+      <p>2次関数 y＝ax²＋bx＋c のグラフは「放物線」です。aが正なら下に凸（U字型）、aが負なら上に凸（山型）。これだけは反射的に出てくるようにしておきましょう。グラフの形がわかれば、最大・最小がどこにあるか（頂点か端点か）を直感的に判断できるようになります。</p>
+      <p>グラフを描く習慣が2次関数攻略の核心です。問題を見たら、まず頭の中（または紙の上）に放物線を描く。この「描いてから考える」クセをつけるだけで、正答率が大きく変わります。</p>
+
+      <h2>「平方完成」を素早く正確に行う</h2>
+      <p>2次関数の頂点と軸を求めるために欠かせないのが「平方完成」です。y＝ax²＋bx＋c を y＝a(x－p)²＋q の形に変形すると、頂点が (p, q)、軸が x＝p であることが一目でわかります。</p>
+      <h3>平方完成の手順</h3>
+      <p>例：y＝x²－4x＋7 を平方完成する。まず x² の係数でくくる（この場合1なのでそのまま）。次に x の係数の半分を求める（－4÷2＝－2）。その2乗を足して引く：y＝(x²－4x＋4)－4＋7＝(x－2)²＋3。これで頂点 (2, 3)、軸 x＝2 が確定します。</p>
+
+      <div class="point-box">
+        <span class="point-num">KEY SKILL</span>
+        <p class="point-title">平方完成は「xの係数の半分を2乗して足し引き」で機械的に行う</p>
+        <p>y＝ax²＋bx＋c → y＝a(x＋b/2a)²－b²/4a＋c。計算ミスが多い場合は「足した分をすぐ引く」ことを意識する。確認として展開して元に戻るかチェックする。</p>
+      </div>
+
+      <h2>「定義域なし」の最大・最小は頂点を見る</h2>
+      <p>定義域の指定がない（xが全実数の）場合、最大・最小は頂点で決まります。下に凸（a＞0）なら頂点で最小値をとり、最大値は存在しません。上に凸（a＜0）なら頂点で最大値をとり、最小値は存在しません。</p>
+      <p>「最大値・最小値が存在しない」と答えることを恥ずかしがらないことも大切です。共通テストでは「最大値はない」「最小値はない」という選択肢も正解になります。グラフの形から判断できれば迷うことはありません。</p>
+
+      <h2>「定義域あり」の最大・最小が最難関</h2>
+      <p>共通テストで点差が生まれるのが「a≦x≦b」のように定義域が指定されている場合の最大・最小です。このとき、頂点が定義域の中にあるかどうかで解法が変わります。</p>
+      <p>【頂点が定義域内にある場合】下に凸なら頂点が最小、両端点のうち頂点から遠い方が最大。【頂点が定義域外にある場合】グラフの形と定義域の位置関係から両端点を比較して判断します。</p>
+      <h3>場合分けの考え方</h3>
+      <p>「軸が定義域の左側にある」「軸が定義域内にある」「軸が定義域の右側にある」の3パターンで場合分けします。この場合分けを自動的に行えるようになることが、2次関数攻略の最終目標です。問題を解くときは必ずグラフを描き、「今どのパターンか」を確認してから進みましょう。</p>
+
+      <div class="point-box">
+        <span class="point-num">IMPORTANT</span>
+        <p class="point-title">定義域あり問題は「軸が定義域の左・中・右」で3パターン場合分け</p>
+        <p>必ずグラフを描いて軸の位置を確認する。頂点が定義域内ならそこが最大or最小の候補。定義域外なら端点だけを比較すればよい。</p>
+      </div>
+
+      <h2>文字が含まれる場合の注意点</h2>
+      <p>「a を定数として、y＝x²－2ax＋a＋6 の最小値を求めよ」のように文字（パラメータ）が含まれる問題も頻出です。このとき軸の位置が a の値によって変わるため、場合分けが必要になります。軸は x＝a であることを平方完成で確認し、「a の範囲によって最小値の式が変わる」ことを丁寧に追っていきましょう。</p>
+      <p>文字パラメータ問題は「最終的に a の関数として最大・最小を表す」ことが目標です。苦手な人は、まず数値を代入して具体的に確認してから、一般化する順序で考えると理解が深まります。</p>
+
+      <h2>まとめ</h2>
+      <div class="summary-box">
+        <p>✦ &nbsp;グラフの形（上に凸・下に凸）を a の符号から即答できるようにする</p>
+        <p>✦ &nbsp;平方完成を速く正確に行い、頂点・軸を一発で出す</p>
+        <p>✦ &nbsp;定義域なしは頂点、定義域ありは軸の位置で3パターン場合分け</p>
+        <p>✦ &nbsp;必ずグラフを描いてから最大・最小を判断する</p>
+      </div>
+
+      <div class="cta-inline">
+        <p>MATHACAでは2次関数の問題をBasicからExamまで段階的に練習できます。</p>
+        <a href="https://quiz-study-app-omega.vercel.app/login" class="btn-cta">無料で始める</a>
+      </div>
+
+      <div class="related">
+        <p class="related-title">Related Articles</p>
+        <div class="related-links">
+          <a href="/column4.html">→ 「場合の数と確率」を得意にする5つのステップ</a>
+          <a href="/column7.html">→ 微分・積分で共通テストの得点を確実に取る方法</a>
+          <a href="/column1.html">→ 共通テスト数学で点を取るための3つのコツ</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">MATHACA</div>
+      <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
+      <p style="margin-top:8px">© 2026 MATHACA. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/column.html">コラム</a>
+        <a href="/privacy.html">プライバシーポリシー</a>
+        <a href="/contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+  </body>
+</html>

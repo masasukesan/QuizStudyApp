@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>三角関数の最大・最小問題を完全攻略する方法 — MATHACA コラム</title>
+    <meta name="description" content="共通テスト数学IIで毎年出題される三角関数。sinθ・cosθの最大最小、合成公式の使い方、グラフの読み取りを具体例で解説します。" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7849333970287362" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root{--profile-bg:#2a1e12;--profile-card:#3a2a1a;--profile-text:#c8b48a;--profile-border:rgba(201,168,106,0.25);--profile-gold:#d4a84b;--font-cinzel:"Cinzel",serif;--font-cinzel-deco:"Cinzel Decorative",serif;--font-serif-jp:"Noto Serif JP",serif}
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      html{scroll-behavior:smooth}
+      body{font-family:var(--font-serif-jp);background-color:var(--profile-bg);background-image:radial-gradient(ellipse at 50% 0%,rgba(120,80,20,0.15) 0%,transparent 60%);color:var(--profile-text);line-height:1.9;-webkit-font-smoothing:antialiased}
+      header{position:sticky;top:0;z-index:100;background:var(--profile-card);border-bottom:1px solid var(--profile-border);box-shadow:0 2px 16px rgba(0,0,0,0.5);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+      .logo{font-family:var(--font-cinzel-deco);font-size:22px;font-weight:700;color:var(--profile-gold);text-decoration:none;letter-spacing:0.05em;text-shadow:0 0 20px rgba(201,168,106,0.3)}
+      .header-cta{font-family:var(--font-serif-jp);font-size:0.8rem;color:rgba(201,168,106,0.85);background:rgba(201,168,106,0.08);border:1px solid rgba(201,168,106,0.35);padding:7px 20px;text-decoration:none;letter-spacing:0.06em;transition:background 0.15s,border-color 0.15s}
+      .header-cta:hover{background:rgba(201,168,106,0.15);border-color:rgba(201,168,106,0.55);color:#c9a86a}
+      main{max-width:760px;margin:0 auto;padding:64px 24px 80px}
+      .breadcrumb{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.35);letter-spacing:0.1em;margin-bottom:32px}
+      .breadcrumb a{color:rgba(201,168,106,0.5);text-decoration:none}
+      .article-label{font-family:var(--font-cinzel);font-size:0.72rem;color:rgba(201,168,106,0.45);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:12px;display:block}
+      h1{font-family:var(--font-cinzel);font-size:clamp(1.4rem,4vw,2rem);color:var(--profile-gold);letter-spacing:0.06em;line-height:1.4;margin-bottom:16px}
+      .article-meta{font-size:0.78rem;color:rgba(201,168,106,0.3);font-family:var(--font-cinzel);letter-spacing:0.1em;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid var(--profile-border)}
+      h2{font-family:var(--font-cinzel);font-size:1.05rem;color:var(--profile-gold);letter-spacing:0.08em;margin:48px 0 16px;padding-left:16px;border-left:3px solid rgba(201,168,106,0.5)}
+      h3{font-family:var(--font-serif-jp);font-size:0.95rem;color:rgba(201,168,106,0.9);font-weight:600;margin:28px 0 10px}
+      p{font-size:0.9rem;color:rgba(200,180,138,0.8);margin-bottom:20px;line-height:1.95}
+      .point-box{background:rgba(201,168,106,0.06);border:1px solid rgba(201,168,106,0.2);padding:24px 28px;margin:32px 0}
+      .point-box .point-num{font-family:var(--font-cinzel);font-size:0.7rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:8px;display:block}
+      .point-box .point-title{font-family:var(--font-serif-jp);font-size:1rem;color:var(--profile-gold);font-weight:600;margin-bottom:12px}
+      .point-box p{margin-bottom:0}
+      .summary-box{background:rgba(201,168,106,0.04);border:1px solid rgba(201,168,106,0.15);padding:20px 24px;margin:40px 0}
+      .summary-box p{font-size:0.85rem;color:rgba(200,180,138,0.65);margin-bottom:8px}
+      .summary-box p:last-child{margin-bottom:0}
+      .cta-inline{text-align:center;margin:56px 0 32px;padding-top:40px;border-top:1px solid var(--profile-border)}
+      .cta-inline p{font-size:0.88rem;color:rgba(200,180,138,0.6);margin-bottom:20px}
+      .btn-cta{display:inline-block;background:linear-gradient(135deg,#c9a86a 0%,#d4a84b 100%);color:#1a1008;font-family:var(--font-cinzel);font-size:0.85rem;font-weight:700;letter-spacing:0.12em;padding:14px 40px;text-decoration:none;transition:opacity 0.15s,transform 0.1s}
+      .btn-cta:hover{opacity:0.9;transform:translateY(-1px)}
+      .related{margin-top:48px;padding-top:32px;border-top:1px solid var(--profile-border)}
+      .related-title{font-family:var(--font-cinzel);font-size:0.75rem;color:rgba(201,168,106,0.4);letter-spacing:0.15em;margin-bottom:20px}
+      .related-links{display:flex;flex-direction:column;gap:12px}
+      .related-links a{font-size:0.88rem;color:rgba(201,168,106,0.7);text-decoration:none;padding:12px 16px;border:1px solid rgba(201,168,106,0.15);transition:border-color 0.15s,color 0.15s}
+      .related-links a:hover{border-color:rgba(201,168,106,0.4);color:var(--profile-gold)}
+      footer{background:#1a1008;border-top:1px solid rgba(201,168,106,0.1);text-align:center;padding:32px 20px}
+      .footer-logo{font-family:var(--font-cinzel-deco);font-size:16px;color:rgba(201,168,106,0.5);margin-bottom:10px}
+      footer p{font-family:var(--font-cinzel);font-size:10px;font-style:italic;color:rgba(201,168,106,0.25);letter-spacing:0.1em;margin-top:4px}
+      .footer-links{display:flex;justify-content:center;gap:24px;margin-top:12px;flex-wrap:wrap}
+      .footer-links a{font-family:var(--font-cinzel);font-size:10px;color:rgba(201,168,106,0.35);text-decoration:none;letter-spacing:0.08em}
+      .footer-links a:hover{color:rgba(201,168,106,0.65)}
+    </style>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">MATHACA</a>
+      <a href="https://quiz-study-app-omega.vercel.app/login" class="header-cta">入学する（無料）</a>
+    </header>
+    <main>
+      <p class="breadcrumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="/column.html">Column</a> &nbsp;/&nbsp; 三角関数の最大・最小攻略</p>
+      <span class="article-label">Study Column — Vol.10</span>
+      <h1>三角関数の最大・最小問題を<br />完全攻略する方法</h1>
+      <p class="article-meta">2026.07 &nbsp;|&nbsp; Math Strategy &nbsp;|&nbsp; 読了時間：約6分</p>
+
+      <p>「三角関数は公式が多くて覚えきれない」と感じる高校生は多いです。しかし共通テスト数学IIで出題される三角関数の問題には明確なパターンがあります。sinθ と cosθ の基本的な性質を正確に理解し、最大・最小を求めるための3つのアプローチを身につけることで、三角関数の問題を得点源にできます。</p>
+
+      <h2>まず「単位円」でsinとcosを視覚化する</h2>
+      <p>三角関数の理解は単位円から始まります。半径1の円（単位円）上の点 P(cosθ, sinθ) において、θ は原点から点 P への線分が x 軸の正方向となす角度です。このイメージを持つことで、sinθ と cosθ の値域（とりうる値の範囲）が直感的にわかります。</p>
+      <p>sinθ の値域は－1≦sinθ≦1、cosθ の値域も－1≦cosθ≦1 です。θ が変化すると sinθ と cosθ はこの範囲を周期的に変動します。「単位円上の点の y 座標が sinθ、x 座標が cosθ」と覚えると、角度に対応する値を視覚的に判断できるようになります。</p>
+
+      <div class="point-box">
+        <span class="point-num">FOUNDATION</span>
+        <p class="point-title">sinθ・cosθ の値域は必ず－1以上1以下</p>
+        <p>単位円を頭に描き、θ の変化に応じて点がどう動くかをイメージする。sinθ は y 座標（上下）、cosθ は x 座標（左右）。この視覚イメージが三角関数理解の核心。</p>
+      </div>
+
+      <h2>「sinθ＝t と置き換える」変換テクニック</h2>
+      <p>三角関数の最大・最小問題でよく使うテクニックが「sinθ＝t と置いて2次関数に帰着させる」方法です。たとえば y＝2sin²θ＋sinθ－1 の最大値を求める問題では、t＝sinθ（－1≦t≦1）と置くと y＝2t²＋t－1 という2次関数の問題になります。</p>
+      <p>2次関数になったら、平方完成して頂点を求め、定義域（－1≦t≦1）内での最大・最小を求めます。この「三角関数→2次関数」の変換は共通テストで頻繁に使われます。「sinθ が出てきたら t に置き換えることを考える」という発想が大切です。</p>
+
+      <div class="point-box">
+        <span class="point-num">KEY TECHNIQUE</span>
+        <p class="point-title">sinθ＝t（－1≦t≦1）と置いて2次関数に変換する</p>
+        <p>手順：① sin²θ＋sinθ などの式が出たら t＝sinθ と置く。② t の定義域 －1≦t≦1 を忘れずに設定する。③ t の2次関数として最大・最小を求める。定義域付きの2次関数問題として解く。</p>
+      </div>
+
+      <h2>「三角関数の合成」で一本化する</h2>
+      <p>a sinθ＋b cosθ という形は、三角関数の合成公式を使って r sin(θ＋φ) の形（1つの三角関数）に変換できます。ここで r＝√(a²＋b²)、φ は cosφ＝a/r かつ sinφ＝b/r を満たす角度です。</p>
+      <p>合成後は r sin(θ＋φ) の最大値が r、最小値が－r になります。a sinθ＋b cosθ の最大・最小は「√(a²＋b²) と－√(a²＋b²)」で求まります。この公式は共通テストで必ず使えるタイミングがあります。「sinとcosが混在していたら合成を疑う」という判断基準を持ちましょう。</p>
+
+      <h3>合成の手順</h3>
+      <p>3sinθ＋4cosθ を合成する例：r＝√(3²＋4²)＝√25＝5。cosφ＝3/5、sinφ＝4/5 を満たす φ を求めると（φ＝約53°）、3sinθ＋4cosθ＝5sin(θ＋φ) となります。最大値は5、最小値は－5です。</p>
+
+      <h2>グラフの形を正確に描く力をつける</h2>
+      <p>y＝A sin(Bθ＋C)＋D のグラフを素早く描けることも三角関数攻略の重要な力です。振幅は|A|（最大値と最小値の差の半分）、周期は 2π/B（B が大きいほど速く振動）、C は位相のずれ（グラフの横移動）、D は縦移動です。</p>
+      <p>問題でグラフの特徴（最大値・最小値・周期・x 軸との交点）を問われた場合は、A・B・C・D の役割を把握していれば即座に答えられます。「A は振れ幅、B は周期、C は横ずれ、D は縦ずれ」と覚えておきましょう。</p>
+
+      <div class="point-box">
+        <span class="point-num">GRAPH</span>
+        <p class="point-title">y＝A sin(Bθ＋C)＋D のグラフ4要素</p>
+        <p>振幅：|A|（最大値と最小値は D±A）<br />周期：2π/B<br />横移動：－C/B（C/B だけ左右にずれる）<br />縦移動：D（グラフ全体が上下にずれる）</p>
+      </div>
+
+      <h2>まとめ</h2>
+      <div class="summary-box">
+        <p>✦ &nbsp;単位円のイメージで sinθ・cosθ の値域（－1〜1）を体で覚える</p>
+        <p>✦ &nbsp;sin²θ＋sinθ 型は t＝sinθ と置いて2次関数問題に帰着させる</p>
+        <p>✦ &nbsp;a sinθ＋b cosθ は合成して r sin(θ＋φ) の形にする</p>
+        <p>✦ &nbsp;グラフの4要素（振幅・周期・横移動・縦移動）を読み取れるようにする</p>
+      </div>
+
+      <div class="cta-inline">
+        <p>MATHACAでは三角関数の問題を Basic から Exam まで段階的に用意しています。繰り返し解いて完璧にしましょう。</p>
+        <a href="https://quiz-study-app-omega.vercel.app/login" class="btn-cta">無料で始める</a>
+      </div>
+
+      <div class="related">
+        <p class="related-title">Related Articles</p>
+        <div class="related-links">
+          <a href="/column7.html">→ 微分・積分で共通テストの得点を確実に取る方法</a>
+          <a href="/column5.html">→ 2次関数を完全攻略する方法</a>
+          <a href="/column4.html">→ 「場合の数と確率」を得意にする5つのステップ</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">MATHACA</div>
+      <p>Medieval Math Academy — 勉強が苦手な子を、共通テスト高得点へ。</p>
+      <p style="margin-top:8px">© 2026 MATHACA. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/column.html">コラム</a>
+        <a href="/privacy.html">プライバシーポリシー</a>
+        <a href="/contact.html">お問い合わせ</a>
+      </div>
+    </footer>
+  </body>
+</html>
