@@ -540,7 +540,7 @@
       "unit": "trigonometric-functions",
       "subunit": "trigonometric-graphs",
       "difficulty": "standard",
-      "question": "0 ≦ x ≦ 2π で sin x = cos x を tan x = 1 に帰着させる。この変形が有効な前提条件として正しいのはどれか。",
+      "question": "0 ≤ x ≤ 2π で sin x = cos x を tan x = 1 に帰着させる。この変形が有効な前提条件として正しいのはどれか。",
       "choices": [
         {
           "label": "A",
@@ -575,19 +575,19 @@
       "choices": [
         {
           "label": "A",
-          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -1 ≦ 2sin x+1 ≦ 3"
+          "text": "-1 ≤ sin x ≤ 1 → -2 ≤ 2sin x ≤ 2 → -1 ≤ 2sin x+1 ≤ 3"
         },
         {
           "label": "B",
-          "text": "0 ≦ sin x ≦ 1 → 0 ≦ 2sin x ≦ 2 → 1 ≦ 2sin x+1 ≦ 3"
+          "text": "0 ≤ sin x ≤ 1 → 0 ≤ 2sin x ≤ 2 → 1 ≤ 2sin x+1 ≤ 3"
         },
         {
           "label": "C",
-          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x+1 ≦ 3 (途中 +1 を先に加算する誤り)"
+          "text": "-1 ≤ sin x ≤ 1 → -2 ≤ 2sin x+1 ≤ 3 (途中 +1 を先に加算する誤り)"
         },
         {
           "label": "D",
-          "text": "-1 ≦ sin x ≦ 1 → -1 ≦ 2sin x ≦ 1 → 0 ≦ 2sin x+1 ≦ 2"
+          "text": "-1 ≤ sin x ≤ 1 → -1 ≤ 2sin x ≤ 1 → 0 ≤ 2sin x+1 ≤ 2"
         }
       ],
       "correct": "A",
@@ -606,19 +606,19 @@
       "choices": [
         {
           "label": "A",
-          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -3 ≦ 2sin x-1 ≦ 1"
+          "text": "-1 ≤ sin x ≤ 1 → -2 ≤ 2sin x ≤ 2 → -3 ≤ 2sin x-1 ≤ 1"
         },
         {
           "label": "B",
-          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -1 ≦ 2sin x-1 ≦ 3"
+          "text": "-1 ≤ sin x ≤ 1 → -2 ≤ 2sin x ≤ 2 → -1 ≤ 2sin x-1 ≤ 3"
         },
         {
           "label": "C",
-          "text": "-1 ≦ sin x ≦ 1 → -2 ≦ 2sin x ≦ 2 → -1 ≦ 2sin x - 1 ≦ 1 (1引くのを忘れた)"
+          "text": "-1 ≤ sin x ≤ 1 → -2 ≤ 2sin x ≤ 2 → -1 ≤ 2sin x - 1 ≤ 1 (1引くのを忘れた)"
         },
         {
           "label": "D",
-          "text": "0 ≦ sin x ≦ 1 → -1 ≦ 2sin x-1 ≦ 1"
+          "text": "0 ≤ sin x ≤ 1 → -1 ≤ 2sin x-1 ≤ 1"
         }
       ],
       "correct": "A",

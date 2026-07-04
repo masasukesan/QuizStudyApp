@@ -370,7 +370,7 @@
     },
     {
       "pattern_id": "compound-trigonometric-inequality",
-      "description": "0 以上 2π 未満で複数の不等式（sin θ ≧ k かつ cos θ ≦ m など）を同時に満たすθの範囲を求める",
+      "description": "0 以上 2π 未満で複数の不等式（sin θ ≥ k かつ cos θ ≤ m など）を同時に満たすθの範囲を求める",
       "thinking_process": [
         "単位円上で各不等式が表す領域（弧）を描く",
         "複数の不等式の共通部分（AND）を求める",
@@ -378,7 +378,7 @@
       ],
       "common_mistakes": [
         "単位円上の領域を AND でなく OR で求めてしまう",
-        "不等号の向き（≧ か ≦ か）で弧の方向を誤る"
+        "不等号の向き（≥ か ≤ か）で弧の方向を誤る"
       ],
       "difficulty": "exam"
     },

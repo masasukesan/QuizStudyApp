@@ -518,7 +518,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "3a - b ≧ 10"
+        "text": "3a - b ≥ 10"
       },
       {
         "label": "B",
@@ -526,11 +526,11 @@
       },
       {
         "label": "C",
-        "text": "3a - b ≦ 10"
+        "text": "3a - b ≤ 10"
       },
       {
         "label": "D",
-        "text": "b - 3a ≧ 10"
+        "text": "b - 3a ≥ 10"
       }
     ],
     "correct": "A",

@@ -475,7 +475,7 @@
       "subject": "数学C",
       "unit": "位置ベクトルと図形",
       "difficulty": "standard",
-      "question": "OA = a、OB = b のとき、線分 AB 上の点 P は OP = (1-t)a + tb(0≦t≦1)と表される。t の幾何的意味として正しいのはどれか。",
+      "question": "OA = a、OB = b のとき、線分 AB 上の点 P は OP = (1-t)a + tb(0≤t≤1)と表される。t の幾何的意味として正しいのはどれか。",
       "choices": [
         {
           "label": "A",

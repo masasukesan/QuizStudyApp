@@ -7,7 +7,7 @@
       "subject": "数学C",
       "unit": "複素数平面と図形",
       "difficulty": "basic",
-      "question": "z = 1+i の偏角 arg(z) として正しいのはどれか。(-π < arg(z) ≦ π)",
+      "question": "z = 1+i の偏角 arg(z) として正しいのはどれか。(-π < arg(z) ≤ π)",
       "choices": [
         {
           "label": "A",

@@ -74,9 +74,9 @@
     },
     {
       "pattern_id": "cpb-proof-tri",
-      "description": "複素数の三角不等式 |z₁ + z₂| ≦ |z₁| + |z₂| の証明",
+      "description": "複素数の三角不等式 |z₁ + z₂| ≤ |z₁| + |z₂| の証明",
       "thinking_process": [
-        "|z₁ + z₂|² を展開し Re(z₁z̄₂) ≦ |z₁z₂| を利用"
+        "|z₁ + z₂|² を展開し Re(z₁z̄₂) ≤ |z₁z₂| を利用"
       ],
       "common_mistakes": [
         "等号成立条件（z₁/z₂ が正の実数）を忘れる"

@@ -454,19 +454,19 @@
     "subject": "math",
     "unit": "比例と反比例",
     "difficulty": "standard",
-    "question": "x の範囲が 1 ≦ x ≦ 3 のとき、y = 4x の y の変域として正しいのはどれか。",
+    "question": "x の範囲が 1 ≤ x ≤ 3 のとき、y = 4x の y の変域として正しいのはどれか。",
     "choices": [
       {
         "label": "A",
-        "text": "4 ≦ y ≦ 12"
+        "text": "4 ≤ y ≤ 12"
       },
       {
         "label": "B",
-        "text": "1 ≦ y ≦ 3"
+        "text": "1 ≤ y ≤ 3"
       },
       {
         "label": "C",
-        "text": "4 ≦ y ≦ 3"
+        "text": "4 ≤ y ≤ 3"
       },
       {
         "label": "D",
@@ -484,23 +484,23 @@
     "subject": "math",
     "unit": "比例と反比例",
     "difficulty": "standard",
-    "question": "x の範囲が -2 ≦ x ≦ -1 のとき、y = 6/x の y の変域として正しいのはどれか。",
+    "question": "x の範囲が -2 ≤ x ≤ -1 のとき、y = 6/x の y の変域として正しいのはどれか。",
     "choices": [
       {
         "label": "A",
-        "text": "-6 ≦ y ≦ -3"
+        "text": "-6 ≤ y ≤ -3"
       },
       {
         "label": "B",
-        "text": "-3 ≦ y ≦ -6"
+        "text": "-3 ≤ y ≤ -6"
       },
       {
         "label": "C",
-        "text": "3 ≦ y ≦ 6"
+        "text": "3 ≤ y ≤ 6"
       },
       {
         "label": "D",
-        "text": "-6 ≦ y ≦ 6"
+        "text": "-6 ≤ y ≤ 6"
       }
     ],
     "correct": "A",

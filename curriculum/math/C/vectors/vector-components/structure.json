@@ -75,7 +75,7 @@
     },
     {
       "pattern_id": "vc-proof-tri",
-      "description": "三角不等式 |a + b| ≦ |a| + |b| の証明",
+      "description": "三角不等式 |a + b| ≤ |a| + |b| の証明",
       "thinking_process": [
         "|a + b|² = a·a + 2a·b + b·b を展開",
         "コーシー・シュワルツの不等式を適用"

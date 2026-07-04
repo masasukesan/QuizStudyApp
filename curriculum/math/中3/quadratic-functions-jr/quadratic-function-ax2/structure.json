@@ -6,7 +6,7 @@
     {"id":"basic-properties","title":"y=ax²の基本性質","difficulty":"basic","description":"aの符号によるグラフの開き方、対称軸(y軸)、頂点(原点)、x増加でyの変化","typical_mistakes":["a>0で下に開く(逆)","頂点が原点でないと思う"],"steps":["aの符号確認","開き方・頂点・軸の確認","xが正負でのyの変化"]},
     {"id":"value-calculation","title":"関数の値の計算","difficulty":"basic","description":"x値を代入してy値を求める。y=ax²でx=-3などを代入","typical_mistakes":["(-3)²=−9と符号ミス","a×x² の計算順序ミス"],"steps":["xを代入","x²を計算","aをかける"]},
     {"id":"rate-of-change","title":"変化の割合","difficulty":"standard","description":"x=p→q のときの変化の割合 = (y変化量)/(x変化量)。一次関数と違い一定でない","typical_mistakes":["一次関数のようにaが変化の割合と思う","x増加量とy増加量を逆にする"],"steps":["各x値でy計算","y変化量/x変化量","一定にならないことを確認"]},
-    {"id":"domain-range","title":"定義域と値域","difficulty":"standard","description":"定義域が p≦x≦q のときの値域。a>0/a<0で最大最小が変わる","typical_mistakes":["端点のyだけ見て頂点のyを忘れる","a<0のとき最大最小が逆"],"steps":["各端点でy計算","頂点(x=0)でのy確認","a>0なら最小が頂点値"]},
+    {"id":"domain-range","title":"定義域と値域","difficulty":"standard","description":"定義域が p≤x≤q のときの値域。a>0/a<0で最大最小が変わる","typical_mistakes":["端点のyだけ見て頂点のyを忘れる","a<0のとき最大最小が逆"],"steps":["各端点でy計算","頂点(x=0)でのy確認","a>0なら最小が頂点値"]},
     {"id":"graph-comparison","title":"グラフの比較・aの値決定","difficulty":"standard","description":"グラフが通る点からaを求める。|a|が大きいほど細いグラフ","typical_mistakes":["|a|大=広いと思う(逆)","点の座標を逆に代入する"],"steps":["y=ax²にx,y座標を代入","aを解く","グラフの形状を判断"]},
     {"id":"applied-problems","title":"y=ax²の応用","difficulty":"exam","description":"2点間の変化の割合・面積・座標を求める複合問題","typical_mistakes":["変化の割合を一次関数と同様に計算","座標計算のミス"],"steps":["問題の条件をy=ax²に代入","必要な値を計算","条件から答えを導く"]}
   ]

@@ -127,7 +127,7 @@
         },
         {
           "label": "D",
-          "text": "e ≧ 0"
+          "text": "e ≥ 0"
         }
       ],
       "correct": "A"

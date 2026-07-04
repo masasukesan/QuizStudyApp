@@ -63,11 +63,11 @@
       "choices": [
         {
           "label": "A",
-          "text": "-2 ≤ x ≦ 2"
+          "text": "-2 ≤ x ≤ 2"
         },
         {
           "label": "B",
-          "text": "x ≦ -2 または x ≥ 4"
+          "text": "x ≤ -2 または x ≥ 4"
         },
         {
           "label": "C",
@@ -205,7 +205,7 @@
         },
         {
           "label": "D",
-          "text": "0 ≤ x ≦ 5"
+          "text": "0 ≤ x ≤ 5"
         }
       ],
       "correct": "A"
@@ -319,7 +319,7 @@
       "subject": "数学1A",
       "unit": "2次不等式",
       "difficulty": "standard",
-      "question": "x² + 4x + 4 ≧ 0 の解はどれか。",
+      "question": "x² + 4x + 4 ≥ 0 の解はどれか。",
       "choices": [
         {
           "label": "A",
@@ -335,7 +335,7 @@
         },
         {
           "label": "D",
-          "text": "x ≧ -2"
+          "text": "x ≥ -2"
         }
       ],
       "correct": "A"
@@ -361,7 +361,7 @@
         },
         {
           "label": "D",
-          "text": "k ≧ 2"
+          "text": "k ≥ 2"
         }
       ],
       "correct": "A"
@@ -427,11 +427,11 @@
       "choices": [
         {
           "label": "A",
-          "text": "2 < x ≦ 3"
+          "text": "2 < x ≤ 3"
         },
         {
           "label": "B",
-          "text": "1 ≤ x ≦ 2"
+          "text": "1 ≤ x ≤ 2"
         },
         {
           "label": "C",
@@ -657,7 +657,7 @@
       "subject": "数学1A",
       "unit": "2次不等式",
       "difficulty": "exam",
-      "question": "x² - 4x + 3 < 0 かつ x² + x - 6 ≧ 0 の解はどれか。",
+      "question": "x² - 4x + 3 < 0 かつ x² + x - 6 ≥ 0 の解はどれか。",
       "choices": [
         {
           "label": "A",
@@ -699,7 +699,7 @@
         },
         {
           "label": "D",
-          "text": "-a ≤ x ≦ a"
+          "text": "-a ≤ x ≤ a"
         }
       ],
       "correct": "A"

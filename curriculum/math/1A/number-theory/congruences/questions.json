@@ -430,7 +430,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "成り立たない。m | a-b かつ m | n は n | a-b を意味しない。例：6≡0(mod3)だが 6≢0(mod6)"
+          "text": "成り立たない。m | a-b かつ m | n は n | a-b を意味しない。例：9≡0(mod3)だが 9≢0(mod6)"
         },
         {
           "label": "B",

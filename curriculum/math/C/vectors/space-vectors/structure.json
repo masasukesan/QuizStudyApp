@@ -31,7 +31,7 @@
       "description": "空間ベクトルのなす角の計算",
       "thinking_process": [
         "cosθ = (a·b)/(|a||b|) を計算",
-        "0° ≦ θ ≦ 180°"
+        "0° ≤ θ ≤ 180°"
       ],
       "common_mistakes": [
         "3成分を扱う際に計算ミスが増える"

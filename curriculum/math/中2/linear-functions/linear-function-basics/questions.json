@@ -393,23 +393,23 @@
     "subject": "math",
     "unit": "linear-function-basics",
     "difficulty": "standard",
-    "question": "x の変域が -1 ≦ x ≦ 3 のとき、y = 2x - 1 の y の変域はどれか。",
+    "question": "x の変域が -1 ≤ x ≤ 3 のとき、y = 2x - 1 の y の変域はどれか。",
     "choices": [
       {
         "label": "A",
-        "text": "-3 ≦ y ≦ 5"
+        "text": "-3 ≤ y ≤ 5"
       },
       {
         "label": "B",
-        "text": "-1 ≦ y ≦ 5"
+        "text": "-1 ≤ y ≤ 5"
       },
       {
         "label": "C",
-        "text": "-3 ≦ y ≦ 3"
+        "text": "-3 ≤ y ≤ 3"
       },
       {
         "label": "D",
-        "text": "1 ≦ y ≦ 5"
+        "text": "1 ≤ y ≤ 5"
       }
     ],
     "correct": "A",
@@ -573,7 +573,7 @@
     "subject": "math",
     "unit": "linear-function-basics",
     "difficulty": "standard",
-    "question": "x の変域が 0 ≦ x ≦ 4 のとき y = -x + 5 の y の最小値はいくつか。",
+    "question": "x の変域が 0 ≤ x ≤ 4 のとき y = -x + 5 の y の最小値はいくつか。",
     "choices": [
       {
         "label": "A",
@@ -637,7 +637,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "y = 4x(0 ≦ x ≦ 3)"
+        "text": "y = 4x(0 ≤ x ≤ 3)"
       },
       {
         "label": "B",
@@ -645,7 +645,7 @@
       },
       {
         "label": "C",
-        "text": "y = 12x(0 ≦ x ≦ 4)"
+        "text": "y = 12x(0 ≤ x ≤ 4)"
       },
       {
         "label": "D",

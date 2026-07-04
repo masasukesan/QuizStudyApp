@@ -364,23 +364,23 @@
     "subject": "math",
     "unit": "quadratic-function-ax2",
     "difficulty": "standard",
-    "question": "y=x² で -2≦x≦3 のときの値域はどれか。",
+    "question": "y=x² で -2≤x≤3 のときの値域はどれか。",
     "choices": [
       {
         "label": "A",
-        "text": "0≦y≦9"
+        "text": "0≤y≤9"
       },
       {
         "label": "B",
-        "text": "4≦y≦9"
+        "text": "4≤y≤9"
       },
       {
         "label": "C",
-        "text": "-4≦y≦9"
+        "text": "-4≤y≤9"
       },
       {
         "label": "D",
-        "text": "0≦y≦4"
+        "text": "0≤y≤4"
       }
     ],
     "correct": "A",
@@ -394,7 +394,7 @@
     "subject": "math",
     "unit": "quadratic-function-ax2",
     "difficulty": "standard",
-    "question": "y=-x² で -2≦x≦3 のときの y の最大値はいくつか。",
+    "question": "y=-x² で -2≤x≤3 のときの y の最大値はいくつか。",
     "choices": [
       {
         "label": "A",
@@ -424,7 +424,7 @@
     "subject": "math",
     "unit": "quadratic-function-ax2",
     "difficulty": "standard",
-    "question": "y=2x² で 1≦x≦3 のときの y の最小値はいくつか。",
+    "question": "y=2x² で 1≤x≤3 のときの y の最小値はいくつか。",
     "choices": [
       {
         "label": "A",
@@ -514,7 +514,7 @@
     "subject": "math",
     "unit": "quadratic-function-ax2",
     "difficulty": "standard",
-    "question": "y=-2x² で -3≦x≦2 のときの y の最小値はいくつか。",
+    "question": "y=-2x² で -3≤x≤2 のときの y の最小値はいくつか。",
     "choices": [
       {
         "label": "A",
@@ -754,23 +754,23 @@
     "subject": "math",
     "unit": "quadratic-function-ax2",
     "difficulty": "exam",
-    "question": "y=-x² で 1≦x≦4 のときの値域はどれか。",
+    "question": "y=-x² で 1≤x≤4 のときの値域はどれか。",
     "choices": [
       {
         "label": "A",
-        "text": "-16≦y≦-1"
+        "text": "-16≤y≤-1"
       },
       {
         "label": "B",
-        "text": "-1≦y≦-16"
+        "text": "-1≤y≤-16"
       },
       {
         "label": "C",
-        "text": "-4≦y≦-1"
+        "text": "-4≤y≤-1"
       },
       {
         "label": "D",
-        "text": "-16≦y≦0"
+        "text": "-16≤y≤0"
       }
     ],
     "correct": "A",

@@ -33,23 +33,23 @@
       "subject": "数学1A",
       "unit": "1次不等式",
       "difficulty": "basic",
-      "question": "-3x + 6 ≦ 0 を解いた結果はどれか。",
+      "question": "-3x + 6 ≤ 0 を解いた結果はどれか。",
       "choices": [
         {
           "label": "A",
-          "text": "x ≧ 2"
+          "text": "x ≥ 2"
         },
         {
           "label": "B",
-          "text": "x ≧ 4"
+          "text": "x ≥ 4"
         },
         {
           "label": "C",
-          "text": "x ≧ -2"
+          "text": "x ≥ -2"
         },
         {
           "label": "D",
-          "text": "x ≦ -2"
+          "text": "x ≤ -2"
         }
       ],
       "correct": "A"
@@ -85,23 +85,23 @@
       "subject": "数学1A",
       "unit": "1次不等式",
       "difficulty": "basic",
-      "question": "4x - 3 ≧ x + 6 を解いた結果はどれか。",
+      "question": "4x - 3 ≥ x + 6 を解いた結果はどれか。",
       "choices": [
         {
           "label": "A",
-          "text": "x ≧ 1"
+          "text": "x ≥ 1"
         },
         {
           "label": "B",
-          "text": "x ≧ 3"
+          "text": "x ≥ 3"
         },
         {
           "label": "C",
-          "text": "x ≦ 1"
+          "text": "x ≤ 1"
         },
         {
           "label": "D",
-          "text": "x ≧ 9"
+          "text": "x ≥ 9"
         }
       ],
       "correct": "B"
@@ -215,15 +215,15 @@
       "subject": "数学1A",
       "unit": "1次不等式",
       "difficulty": "basic",
-      "question": "1 ≦ 2x - 3 ≦ 7 を解いた結果はどれか。",
+      "question": "1 ≤ 2x - 3 ≤ 7 を解いた結果はどれか。",
       "choices": [
         {
           "label": "A",
-          "text": "2 ≦ x ≦ 5"
+          "text": "2 ≤ x ≤ 5"
         },
         {
           "label": "B",
-          "text": "-1 ≦ x ≦ 2"
+          "text": "-1 ≤ x ≤ 2"
         },
         {
           "label": "C",
@@ -231,7 +231,7 @@
         },
         {
           "label": "D",
-          "text": "1 ≦ x ≦ 7"
+          "text": "1 ≤ x ≤ 7"
         }
       ],
       "correct": "A"
@@ -245,11 +245,11 @@
       "choices": [
         {
           "label": "A",
-          "text": "3 ≦ x < 8"
+          "text": "3 ≤ x < 8"
         },
         {
           "label": "B",
-          "text": "3 < x ≦ 8"
+          "text": "3 < x ≤ 8"
         },
         {
           "label": "C",
@@ -257,7 +257,7 @@
         },
         {
           "label": "D",
-          "text": "3 ≦ x < 9"
+          "text": "3 ≤ x < 9"
         }
       ],
       "correct": "B"
@@ -401,7 +401,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "80x + 120(10 - x) ≦ 1000"
+          "text": "80x + 120(10 - x) ≤ 1000"
         },
         {
           "label": "B",
@@ -409,11 +409,11 @@
         },
         {
           "label": "C",
-          "text": "80x + 120x ≦ 1000"
+          "text": "80x + 120x ≤ 1000"
         },
         {
           "label": "D",
-          "text": "120x + 80(10 - x) ≦ 1000"
+          "text": "120x + 80(10 - x) ≤ 1000"
         }
       ],
       "correct": "A"
@@ -449,23 +449,23 @@
       "subject": "数学1A",
       "unit": "1次不等式",
       "difficulty": "standard",
-      "question": "連立不等式 2x + 1 ≧ 5 かつ 3x - 2 < 7 を解く。2x + 1 ≧ 5 を移項・整理したとき、正しい途中式はどれか。",
+      "question": "連立不等式 2x + 1 ≥ 5 かつ 3x - 2 < 7 を解く。2x + 1 ≥ 5 を移項・整理したとき、正しい途中式はどれか。",
       "choices": [
         {
           "label": "A",
-          "text": "2x ≧ 4"
+          "text": "2x ≥ 4"
         },
         {
           "label": "B",
-          "text": "2x ≦ 4"
+          "text": "2x ≤ 4"
         },
         {
           "label": "C",
-          "text": "2x ≧ 6"
+          "text": "2x ≥ 6"
         },
         {
           "label": "D",
-          "text": "2x ≧ -4"
+          "text": "2x ≥ -4"
         }
       ],
       "correct": "A"
@@ -475,23 +475,23 @@
       "subject": "数学1A",
       "unit": "1次不等式",
       "difficulty": "standard",
-      "question": "x/2 + 1 ≦ x/3 + 2 を解く。両辺に最小公倍数 6 を掛けたときの途中式として正しいのはどれか。",
+      "question": "x/2 + 1 ≤ x/3 + 2 を解く。両辺に最小公倍数 6 を掛けたときの途中式として正しいのはどれか。",
       "choices": [
         {
           "label": "A",
-          "text": "3x + 6 ≦ 2x + 12"
+          "text": "3x + 6 ≤ 2x + 12"
         },
         {
           "label": "B",
-          "text": "3x + 1 ≦ 2x + 2"
+          "text": "3x + 1 ≤ 2x + 2"
         },
         {
           "label": "C",
-          "text": "2x + 6 ≦ 3x + 12"
+          "text": "2x + 6 ≤ 3x + 12"
         },
         {
           "label": "D",
-          "text": "3x + 6 ≧ 2x + 12"
+          "text": "3x + 6 ≥ 2x + 12"
         }
       ],
       "correct": "A"
@@ -635,11 +635,11 @@
       "choices": [
         {
           "label": "A",
-          "text": "0 < a ≦ 2"
+          "text": "0 < a ≤ 2"
         },
         {
           "label": "B",
-          "text": "a ≧ 3"
+          "text": "a ≥ 3"
         },
         {
           "label": "C",
@@ -647,7 +647,7 @@
         },
         {
           "label": "D",
-          "text": "a ≦ 1"
+          "text": "a ≤ 1"
         }
       ],
       "correct": "B"
@@ -735,11 +735,11 @@
       "subject": "数学1A",
       "unit": "1次不等式",
       "difficulty": "exam",
-      "question": "連立不等式 3x - 1 ≧ 2 かつ 2x + 5 > 11 - x の解はどれか。",
+      "question": "連立不等式 3x - 1 ≥ 2 かつ 2x + 5 > 11 - x の解はどれか。",
       "choices": [
         {
           "label": "A",
-          "text": "x ≧ 2"
+          "text": "x ≥ 2"
         },
         {
           "label": "B",
@@ -747,11 +747,11 @@
         },
         {
           "label": "C",
-          "text": "x ≧ 1"
+          "text": "x ≥ 1"
         },
         {
           "label": "D",
-          "text": "1 ≦ x < 2"
+          "text": "1 ≤ x < 2"
         }
       ],
       "correct": "B"

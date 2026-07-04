@@ -701,7 +701,7 @@
     {
       "id": "btr-025",
       "difficulty": "exam",
-      "question": "sin θ + cos θ = 1(0° ≦ θ ≦ 360°)を解く手順として正しいものはどれか。",
+      "question": "sin θ + cos θ = 1(0° ≤ θ ≤ 360°)を解く手順として正しいものはどれか。",
       "choices": [
         {
           "label": "A",
@@ -788,7 +788,7 @@
     {
       "id": "btr-028",
       "difficulty": "exam",
-      "question": "sin θ = cos 2θ(0° ≦ θ ≦ 180°)を解く手順として正しいものはどれか。",
+      "question": "sin θ = cos 2θ(0° ≤ θ ≤ 180°)を解く手順として正しいものはどれか。",
       "choices": [
         {
           "label": "A",
