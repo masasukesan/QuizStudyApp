@@ -1,0 +1,422 @@
+[
+  {
+    "id": "spread-rest-b01",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "スプレッド構文（...）を使うと配列に対して何ができるか。正しい説明を選べ。",
+    "choices": [
+      { "label": "A", "text": "配列の要素を1つずつバラバラに展開できる" },
+      { "label": "B", "text": "配列の要素を逆順に並び替えられる" },
+      { "label": "C", "text": "配列の長さを2倍にできる" },
+      { "label": "D", "text": "配列の全要素を合計した数値を返せる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-b02",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、変数 result の値として正しいものを選べ。\n\nconst a = [1, 2];\nconst b = [3, 4];\nconst result = [...a, ...b];",
+    "choices": [
+      { "label": "A", "text": "[1, 2, 3, 4]" },
+      { "label": "B", "text": "[[1, 2], [3, 4]]" },
+      { "label": "C", "text": "[1, 2][3, 4]" },
+      { "label": "D", "text": "[3, 4, 1, 2]" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-b03",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、変数 result の値として正しいものを選べ。\n\nconst nums = [1, 2, 3];\nconst result = [0, ...nums, 4];",
+    "choices": [
+      { "label": "A", "text": "[0, [1, 2, 3], 4]" },
+      { "label": "B", "text": "[0, 1, 2, 3, 4]" },
+      { "label": "C", "text": "[[0, 1, 2, 3, 4]]" },
+      { "label": "D", "text": "[0, 1, 2, 3]" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-b04",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "レスト引数（...args）を使った関数定義の説明として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "引数を1つも受け取れなくなる" },
+      { "label": "B", "text": "渡された引数のうち最初の1つだけを受け取る" },
+      { "label": "C", "text": "渡されたすべての引数を配列としてまとめて受け取る" },
+      { "label": "D", "text": "渡された引数の合計値を自動計算して返す" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "spread-rest-b05",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "次の関数定義の動作として正しいものを選べ。\n\nfunction sum(...nums) {\n  return nums.reduce((acc, n) => acc + n, 0);\n}\nconsole.log(sum(1, 2, 3, 4));",
+    "choices": [
+      { "label": "A", "text": "構文エラーになり実行できない" },
+      { "label": "B", "text": "10 が出力される" },
+      { "label": "C", "text": "[1, 2, 3, 4] が出力される" },
+      { "label": "D", "text": "1 が出力される" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-b06",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "レスト引数は関数定義の中でどこに置かなければならないか。正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "最初の引数として置く" },
+      { "label": "B", "text": "どこでも好きな位置に置ける" },
+      { "label": "C", "text": "引数リストの中央に置く" },
+      { "label": "D", "text": "最後の引数として置く" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "spread-rest-b07",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "オブジェクトのスプレッド構文を使った次のコードで、変数 merged の値として正しいものを選べ。\n\nconst obj1 = { a: 1, b: 2 };\nconst obj2 = { c: 3 };\nconst merged = { ...obj1, ...obj2 };",
+    "choices": [
+      { "label": "A", "text": "{ a: 1, b: 2 }" },
+      { "label": "B", "text": "{ c: 3 }" },
+      { "label": "C", "text": "{ a: 1, b: 2, c: 3 }" },
+      { "label": "D", "text": "[{ a: 1, b: 2 }, { c: 3 }]" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "spread-rest-b08",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "2つのオブジェクトをスプレッドでマージするとき、同じキーが重複している場合に result.size はどうなるか。\n\nconst x = { color: 'red', size: 'S' };\nconst y = { size: 'L', price: 100 };\nconst result = { ...x, ...y };",
+    "choices": [
+      { "label": "A", "text": "'S' になる" },
+      { "label": "B", "text": "'L' になる" },
+      { "label": "C", "text": "実行時エラーになる" },
+      { "label": "D", "text": "['S', 'L'] になる" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-b09",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "配列をスプレッドして関数に渡す方法として正しいものを選べ。\n\nconst nums = [3, 1, 4, 1, 5];\n// nums の最大値を Math.max で求めたい",
+    "choices": [
+      { "label": "A", "text": "Math.max(nums)" },
+      { "label": "B", "text": "Math.max([...nums])" },
+      { "label": "C", "text": "Math.max(...nums)" },
+      { "label": "D", "text": "Math.max(nums[0], nums[1], nums[2], nums[3], nums[4])" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "spread-rest-b10",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "basic",
+    "question": "スプレッド構文で配列をコピーしたとき、元の配列との関係として正しいものを選べ。\n\nconst original = [1, 2, 3];\nconst copy = [...original];",
+    "choices": [
+      { "label": "A", "text": "copy と original は同じオブジェクトを指すため、copy を変更すると original も変わる" },
+      { "label": "B", "text": "copy は original とは別の新しい配列で、copy に要素を追加しても original は変わらない" },
+      { "label": "C", "text": "copy は undefined になる" },
+      { "label": "D", "text": "copy は original の逆順になる" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-s01",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、出力として正しいものを選べ。\n\nfunction greet(first, ...rest) {\n  console.log(first);\n  console.log(rest);\n}\ngreet('こんにちは', 'Alice', 'Bob');",
+    "choices": [
+      { "label": "A", "text": "'こんにちは' の後に ['Alice', 'Bob'] が出力される" },
+      { "label": "B", "text": "['こんにちは', 'Alice', 'Bob'] の後に [] が出力される" },
+      { "label": "C", "text": "'こんにちは' の後に 'Alice' が出力される" },
+      { "label": "D", "text": "引数の数が不一致なのでエラーになる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-s02",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "配列の分割代入でレスト構文を使った次のコードの結果として正しいものを選べ。\n\nconst [head, ...tail] = [10, 20, 30, 40];",
+    "choices": [
+      { "label": "A", "text": "head = 10, tail = [20, 30, 40]" },
+      { "label": "B", "text": "head = 10, tail = 20" },
+      { "label": "C", "text": "head = 40, tail = [10, 20, 30]" },
+      { "label": "D", "text": "head = [10, 20, 30, 40], tail = []" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-s03",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "オブジェクトの分割代入でレスト構文を使った次のコードの動作として正しいものを選べ。\n\nconst { name, ...rest } = { name: 'Alice', age: 20, city: 'Tokyo' };",
+    "choices": [
+      { "label": "A", "text": "name = 'Alice', rest = { age: 20, city: 'Tokyo' }" },
+      { "label": "B", "text": "name = 'Alice', rest = ['age', 'city']" },
+      { "label": "C", "text": "name = 'Alice', rest = undefined" },
+      { "label": "D", "text": "構文エラーになりオブジェクトに ...rest は使えない" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-s04",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "スプレッドを使って既存のオブジェクトの age だけを 21 に変えた新しいオブジェクトを作りたい。正しい書き方を選べ。\n\nconst user = { name: 'Bob', age: 20, city: 'Osaka' };",
+    "choices": [
+      { "label": "A", "text": "user.age = 21 と直接書いてから const updated = user とする" },
+      { "label": "B", "text": "const updated = { ...user, age: 21 };" },
+      { "label": "C", "text": "Object.freeze(user) を使って age を 21 に固定する" },
+      { "label": "D", "text": "user.merge({ age: 21 }) を実行する" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-s05",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "次のコードと同じ結果になるコードを選べ。\n\nconst arr1 = [1, 2];\nconst arr2 = [3, 4];\nconst result = [...arr1, ...arr2];",
+    "choices": [
+      { "label": "A", "text": "const result = arr1 + arr2;" },
+      { "label": "B", "text": "const result = [arr1, arr2];" },
+      { "label": "C", "text": "const result = arr1.concat(arr2);" },
+      { "label": "D", "text": "const result = arr1.push(...arr2);" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "spread-rest-s06",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "レスト引数で受け取った値（...args）の性質として正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "args は配列なので、map や filter などの配列メソッドが使える" },
+      { "label": "B", "text": "args は arguments オブジェクトと同一のものである" },
+      { "label": "C", "text": "args は配列ではないのでインデックスでアクセスできない" },
+      { "label": "D", "text": "args は文字列として連結された値を持つ" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-s07",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、config.lang の値として正しいものを選べ。\n\nconst defaults = { theme: 'light', lang: 'ja', fontSize: 14 };\nconst custom = { lang: 'en', fontSize: 16 };\nconst config = { ...defaults, ...custom };",
+    "choices": [
+      { "label": "A", "text": "'ja'" },
+      { "label": "B", "text": "'en'" },
+      { "label": "C", "text": "['ja', 'en']" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-s08",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "次のオブジェクトから password を除いた新しいオブジェクトを作る方法として、正しいものを選べ。\n\nconst user = { name: 'Alice', age: 20, password: 'secret' };",
+    "choices": [
+      { "label": "A", "text": "const { password, ...safe } = user; を実行して safe を使う" },
+      { "label": "B", "text": "user.filter(key => key !== 'password') を実行する" },
+      { "label": "C", "text": "const safe = [...user]; を実行して safe を使う" },
+      { "label": "D", "text": "Object.keys(user) でキー一覧を取得して password を省いて再構成する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-s09",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、変数 a と b の値として正しいものを選べ。\n\nconst [a, , b, ...rest] = [10, 20, 30, 40, 50];",
+    "choices": [
+      { "label": "A", "text": "a = 10, b = 30" },
+      { "label": "B", "text": "a = 10, b = 20" },
+      { "label": "C", "text": "a = 10, b = [30, 40, 50]" },
+      { "label": "D", "text": "a = [10, 20, 30], b = 40" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "spread-rest-s10",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "standard",
+    "question": "arguments オブジェクトとレスト引数（...args）の違いとして正しいものを選べ。",
+    "choices": [
+      { "label": "A", "text": "arguments は配列、...args は配列ではないオブジェクト" },
+      { "label": "B", "text": "arguments は普通の配列ではないが、...args は配列であるため配列メソッドが使える" },
+      { "label": "C", "text": "arguments と ...args は完全に同一の機能を持つ" },
+      { "label": "D", "text": "arguments はアロー関数で使えるが、...args は通常の関数でしか使えない" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-e01",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行した後の console.log の出力として正しいものを選べ。\n\nconst original = { a: 1, nested: { b: 2 } };\nconst copy = { ...original };\ncopy.nested.b = 99;\nconsole.log(original.nested.b);",
+    "choices": [
+      { "label": "A", "text": "2 が出力される" },
+      { "label": "B", "text": "99 が出力される" },
+      { "label": "C", "text": "undefined が出力される" },
+      { "label": "D", "text": "実行時エラーになる" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-e02",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次の関数定義の中でレスト引数の位置が正しく、構文エラーにならないものを選べ。",
+    "choices": [
+      { "label": "A", "text": "function f(...a, b) { }" },
+      { "label": "B", "text": "function f(a, ...b, c) { }" },
+      { "label": "C", "text": "function f(a, b, ...c) { }" },
+      { "label": "D", "text": "function f(...a, ...b) { }" }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": "spread-rest-e03",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log の出力として正しいものを選べ。\n\nconst a = [1, 2, 3];\nconst b = [4, 5, 6];\nconst c = [a, b];\nconst d = [...a, ...b];\nconsole.log(c.length, d.length);",
+    "choices": [
+      { "label": "A", "text": "6 6" },
+      { "label": "B", "text": "2 6" },
+      { "label": "C", "text": "6 2" },
+      { "label": "D", "text": "2 2" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-e04",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、result.y の値として正しいものを選べ。\n\nconst base = { x: 1, y: 2, z: 3 };\nconst overrides = { y: 10, w: 4 };\nconst result = { ...overrides, ...base };",
+    "choices": [
+      { "label": "A", "text": "10" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "実行時エラーになる" },
+      { "label": "D", "text": "2" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "spread-rest-e05",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log の出力として正しいものを選べ。\n\nfunction test(a, b, ...rest) {\n  console.log(rest.length);\n}\ntest(1, 2);",
+    "choices": [
+      { "label": "A", "text": "2" },
+      { "label": "B", "text": "undefined" },
+      { "label": "C", "text": "実行時エラーになる" },
+      { "label": "D", "text": "0" }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": "spread-rest-e06",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "文字列をスプレッドした場合の動作として正しいものを選べ。\n\nconst result = [... 'hello'];",
+    "choices": [
+      { "label": "A", "text": "result = ['hello']" },
+      { "label": "B", "text": "result = ['h', 'e', 'l', 'l', 'o']" },
+      { "label": "C", "text": "構文エラーになる" },
+      { "label": "D", "text": "result = [104, 101, 108, 108, 111]" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-e07",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log の出力として正しいものを選べ。\n\nconst arr = [1, 2, 3];\nconst copy = [...arr];\ncopy.push(4);\nconsole.log(arr);",
+    "choices": [
+      { "label": "A", "text": "[1, 2, 3, 4]" },
+      { "label": "B", "text": "[1, 2, 3]" },
+      { "label": "C", "text": "[]" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-e08",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log の出力として正しいものを選べ。\n\nconst arr = [5, 3, 8, 1, 9, 2];\nconst sorted = [...arr].sort((a, b) => a - b);\nconsole.log(arr[0]);",
+    "choices": [
+      { "label": "A", "text": "1" },
+      { "label": "B", "text": "5" },
+      { "label": "C", "text": "9" },
+      { "label": "D", "text": "実行時エラーになる" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-e09",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log の出力として正しいものを選べ。\n\nconst { a, b, ...rest } = { a: 1, b: 2, c: 3, d: 4 };\nconsole.log(Object.keys(rest).length);",
+    "choices": [
+      { "label": "A", "text": "0" },
+      { "label": "B", "text": "2" },
+      { "label": "C", "text": "4" },
+      { "label": "D", "text": "undefined" }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": "spread-rest-e10",
+    "subject": "programming",
+    "unit": "スプレッド構文とレスト引数",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log の出力として正しいものを選べ。\n\nconst arr1 = [1, 2, 3];\nconst arr2 = arr1;\nconst arr3 = [...arr1];\narr1.push(4);\nconsole.log(arr2.length, arr3.length);",
+    "choices": [
+      { "label": "A", "text": "4 4" },
+      { "label": "B", "text": "3 3" },
+      { "label": "C", "text": "3 4" },
+      { "label": "D", "text": "4 3" }
+    ],
+    "correct": "D"
+  }
+]

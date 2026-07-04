@@ -1,0 +1,155 @@
+{
+  "unit_id": "array-methods",
+  "unit_name_jp": "配列メソッド（push / pop / map / filter）",
+  "grade": "JS基礎コース",
+  "patterns": [
+    {
+      "pattern_id": "push-pop-basic",
+      "description": "push・pop メソッドの動作と戻り値を問う。push は末尾に要素を追加して新しい長さを返し、pop は末尾を取り出して取り出した値を返すことを理解する。",
+      "thinking_process": [
+        "push/pop がどちらの端を操作するかを確認する",
+        "push の戻り値（新しい length）と pop の戻り値（取り出した要素）の違いを区別する",
+        "元の配列が変化（破壊的操作）することを確認する"
+      ],
+      "common_mistakes": [
+        "push の戻り値を追加した要素そのものだと思い込む",
+        "pop で取り出した後も配列の長さが変わらないと思い込む",
+        "push に複数の引数を渡せることを知らない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "shift-unshift-basic",
+      "description": "shift・unshift メソッドの動作を問う。shift は先頭要素を取り出し、unshift は先頭に要素を追加することを理解する。",
+      "thinking_process": [
+        "push/pop（末尾）と shift/unshift（先頭）の対応関係を整理する",
+        "shift の戻り値（取り出した要素）を確認する",
+        "unshift の戻り値（新しい length）を確認する"
+      ],
+      "common_mistakes": [
+        "shift と pop を逆に覚えている",
+        "unshift の戻り値を追加した要素だと思い込む"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "map-transform",
+      "description": "map メソッドを使って配列の各要素を変換する。コールバック関数の引数（要素・インデックス）と戻り値の仕組みを理解する。",
+      "thinking_process": [
+        "map が元の配列と同じ長さの新しい配列を返すことを確認する",
+        "コールバック関数が各要素に対して呼ばれ、return した値が新配列の要素になることを理解する",
+        "元の配列が変化しない（非破壊的）ことを確認する"
+      ],
+      "common_mistakes": [
+        "map が元の配列を直接変更すると思い込む",
+        "コールバックで return を書き忘れて undefined が並ぶ",
+        "forEach と map の戻り値の違いを区別できない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "filter-condition",
+      "description": "filter メソッドを使って条件を満たす要素だけを抽出する。コールバックが truthy を返した要素だけが新配列に含まれる仕組みを理解する。",
+      "thinking_process": [
+        "filter が元の配列より短い（または同じ長さの）新しい配列を返すことを確認する",
+        "コールバックが truthy を返した要素だけが残ることを理解する",
+        "元の配列が変化しないことを確認する"
+      ],
+      "common_mistakes": [
+        "filter が要素を変換すると思い込む（map との混同）",
+        "条件を逆に書いてしまい除外したい要素が残る",
+        "filter の戻り値が boolean の配列だと思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "map-filter-chain",
+      "description": "map と filter をチェーンして組み合わせる。処理の順序と各ステップの配列の変化を追う。",
+      "thinking_process": [
+        "左から右へメソッドチェーンが実行されることを確認する",
+        "各ステップの中間配列を頭の中で追う",
+        "filter→map と map→filter で結果が変わりうることを認識する"
+      ],
+      "common_mistakes": [
+        "チェーンの実行順序を逆に考える",
+        "filter の後の map で配列の長さが変わると思い込む（filter で既に変わっている）",
+        "途中の配列を変数に保存していないのに元配列が変わると思い込む"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "forEach-vs-map",
+      "description": "forEach と map の違いを問う。forEach は戻り値 undefined で副作用目的、map は新配列を返す変換目的であることを区別する。",
+      "thinking_process": [
+        "forEach の戻り値が常に undefined であることを確認する",
+        "map の戻り値が新しい配列であることを確認する",
+        "どちらの用途が適しているかを判断する"
+      ],
+      "common_mistakes": [
+        "forEach の戻り値を map と同じように新配列だと思い込む",
+        "forEach でも return を書けば新配列が得られると思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "splice-slice-distinction",
+      "description": "splice（破壊的・要素の追加・削除）と slice（非破壊的・部分コピー）の違いを問う。",
+      "thinking_process": [
+        "splice は元の配列を変更し、slice は変更しないことを確認する",
+        "splice の引数（開始インデックス・削除件数・挿入要素）を正確に理解する",
+        "slice の引数（開始・終了インデックス）と取得範囲（終了は含まない）を確認する"
+      ],
+      "common_mistakes": [
+        "slice を破壊的メソッドだと思い込む",
+        "splice の第2引数を終了インデックスだと思い込む（実際は削除件数）",
+        "slice の終了インデックスが含まれると思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "indexOf-includes",
+      "description": "indexOf・includes メソッドで要素を検索する。indexOf は最初に見つかったインデックスまたは -1 を返し、includes は真偽値を返すことを理解する。",
+      "thinking_process": [
+        "indexOf の戻り値（インデックスまたは -1）を確認する",
+        "includes の戻り値（true/false）を確認する",
+        "どちらも厳密等価（===）で比較されることを確認する"
+      ],
+      "common_mistakes": [
+        "indexOf が見つからないとき 0 を返すと思い込む",
+        "includes の戻り値をインデックスだと思い込む",
+        "型変換なしに '1' と 1 を同じと扱う"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "destructive-nondestructive",
+      "description": "配列の破壊的メソッド（push/pop/shift/unshift/splice）と非破壊的メソッド（map/filter/slice/concat）を分類し、元の配列が変化するかどうかを判断する。",
+      "thinking_process": [
+        "操作後に元の配列を参照して変化を確認する視点を持つ",
+        "非破壊的メソッドは必ず新しい配列を返すことを確認する",
+        "コードを読んでどちらのタイプかを素早く判断する"
+      ],
+      "common_mistakes": [
+        "map が元の配列を変更すると思い込む",
+        "concat が元の配列に追加すると思い込む",
+        "splice と slice を混同する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "callback-index-param",
+      "description": "map・filter・forEach のコールバック引数（要素, インデックス, 配列）を正確に使いこなす。第2引数にインデックスが渡されることを理解する。",
+      "thinking_process": [
+        "コールバック関数の第1引数が現在の要素、第2引数がインデックスであることを確認する",
+        "インデックスを使った条件分岐・変換の仕組みを理解する",
+        "第3引数に配列全体が渡されることも確認する"
+      ],
+      "common_mistakes": [
+        "インデックスが0から始まるのに1から始まると思い込む",
+        "コールバックの引数の順番を逆に書く（インデックスを先に書く）",
+        "インデックスが文字列として渡されると思い込む"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

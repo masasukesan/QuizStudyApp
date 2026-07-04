@@ -1,0 +1,159 @@
+{
+  "unit_id": "array-advanced",
+  "unit_name_jp": "配列メソッド応用（reduce / find / sort）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "reduce-sum",
+      "description": "reduce を使った配列の合計・積などの累積計算",
+      "thinking_process": [
+        "reduce の引数（コールバック、初期値）を確認する",
+        "コールバックの第1引数（accumulator）と第2引数（currentValue）の役割を理解する",
+        "初期値が何になるかを考える（合計なら0、積なら1）",
+        "各ステップで accumulator がどう変化するか追う"
+      ],
+      "common_mistakes": [
+        "初期値を指定しないと空配列でエラーになることを忘れる",
+        "accumulator と currentValue の順番を逆に覚える",
+        "reduce が新しい配列ではなく単一の値を返すことを混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "reduce-object",
+      "description": "reduce を使って配列をオブジェクトや別の形に変換する",
+      "thinking_process": [
+        "初期値をオブジェクト {} にする",
+        "各要素でオブジェクトのプロパティを追加・更新する",
+        "最終的な accumulator の形を逆算する"
+      ],
+      "common_mistakes": [
+        "初期値に {} を渡すのを忘れて undefined エラーを出す",
+        "accumulator を変更したあと return し忘れる",
+        "配列操作メソッド（map/filter）と混同して配列を返そうとする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "find-basic",
+      "description": "find を使って条件に一致する最初の要素を取得する",
+      "thinking_process": [
+        "find はコールバックが true を返す最初の要素を返すことを確認する",
+        "条件式（コールバック）を正しく記述する",
+        "見つからない場合は undefined が返ることを理解する"
+      ],
+      "common_mistakes": [
+        "filter と混同して配列が返ると思う（find は単一要素を返す）",
+        "見つからないときに null ではなく undefined が返ることを知らない",
+        "findIndex と混同してインデックスが返ると思う"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "findIndex-basic",
+      "description": "findIndex を使って条件に一致する最初の要素のインデックスを取得する",
+      "thinking_process": [
+        "findIndex はコールバックが true を返す最初の要素のインデックスを返す",
+        "見つからない場合は -1 を返すことを確認する",
+        "find との違い（値 vs インデックス）を意識する"
+      ],
+      "common_mistakes": [
+        "見つからない場合に null ではなく -1 が返ることを知らない",
+        "find と混同して要素そのものが返ると思う",
+        "indexOf と混同して（indexOf は厳密等価のみ、findIndex は条件関数を使える）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sort-number",
+      "description": "sort に比較関数を渡して数値を正しく並べる",
+      "thinking_process": [
+        "比較関数なしの sort は文字列順になることを確認する",
+        "数値昇順には (a, b) => a - b を渡す",
+        "a - b が負なら a が前、正なら b が前になることを理解する",
+        "元の配列を破壊的に変更することを確認する"
+      ],
+      "common_mistakes": [
+        "比較関数なしで数値ソートすると '10' が '2' より前になる文字列順になる",
+        "降順と昇順の比較関数を混同する（降順は b - a）",
+        "sort が新しい配列ではなく元の配列を変更することを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sort-string",
+      "description": "文字列配列の sort と localeCompare を使った日本語ソート",
+      "thinking_process": [
+        "デフォルト sort は文字列を Unicode コード順で並べる",
+        "日本語などを正しく並べるには localeCompare を使う",
+        "localeCompare の戻り値（負・0・正）と sort の比較関数の対応を理解する"
+      ],
+      "common_mistakes": [
+        "英数字以外はデフォルト sort だと期待通りに並ばないことを知らない",
+        "localeCompare の引数に locale オプションを付け忘れる",
+        "sort が破壊的であることを忘れて元配列が変わることに気付かない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "sort-objects",
+      "description": "オブジェクト配列を特定プロパティでソートする",
+      "thinking_process": [
+        "比較関数で a.property と b.property を比較する",
+        "数値プロパティなら a.age - b.age、文字列プロパティなら a.name.localeCompare(b.name)",
+        "複数キーでの並べ替え（第1キーが同値なら第2キーで比較）"
+      ],
+      "common_mistakes": [
+        "比較関数の中でプロパティ名を参照するのを忘れて a - b とだけ書く",
+        "文字列プロパティに a - b を使って NaN が返ることに気付かない",
+        "sort の破壊的変更を避けるために [...arr].sort() とコピーするのを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "reduce-advanced",
+      "description": "reduce で集計・グルーピングなど複雑な変換を行う",
+      "thinking_process": [
+        "初期値の形（オブジェクト・配列・数値）を目的から逆算する",
+        "各ステップで何を追加・更新するか考える",
+        "accumulator を必ず return することを確認する"
+      ],
+      "common_mistakes": [
+        "グルーピングで acc[key] が存在しないときの初期化を忘れる",
+        "accumulator の参照を変えずに return acc するのを忘れる",
+        "reduce より map+filter の方が読みやすい場合に無理に reduce を使う"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "chaining",
+      "description": "filter・map・reduce などを連鎖して使う",
+      "thinking_process": [
+        "各メソッドが返す値の型を確認する（配列 vs 単一値）",
+        "処理の順序（filter してから map、など）を設計する",
+        "最終的に欲しい値の型から逆算して連鎖を設計する"
+      ],
+      "common_mistakes": [
+        "reduce を中間に挟んで配列ではなく単一値を返してしまいチェーンが切れる",
+        "filter の条件と map の変換の順番を逆にして意図と異なる結果になる",
+        "不要な中間配列を作りパフォーマンスを意識しない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "find-vs-filter",
+      "description": "find と filter の使い分けを判断する",
+      "thinking_process": [
+        "最初の1件だけ欲しいか、全件欲しいかを確認する",
+        "find は見つからないと undefined を返すので存在チェックが必要",
+        "filter は常に配列を返すので length === 0 で「なし」を判断できる"
+      ],
+      "common_mistakes": [
+        "複数件ありうるのに find を使って最初の1件しか取得しない",
+        "1件だけでいいのに filter を使って不要な配列を作る",
+        "find の戻り値が undefined かを確認せずプロパティアクセスしてエラーを出す"
+      ],
+      "difficulty": "standard"
+    }
+  ]
+}

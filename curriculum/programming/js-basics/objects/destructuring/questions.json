@@ -1,0 +1,931 @@
+[
+  {
+    "id": "dest-b-001",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "「分割代入（destructuring assignment）」の説明として正しいものはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "オブジェクトのプロパティをすべて別のオブジェクトに複製する操作"
+      },
+      {
+        "label": "B",
+        "text": "オブジェクトや配列から値を取り出して個別の変数に代入する構文"
+      },
+      {
+        "label": "C",
+        "text": "変数を分割して複数の小さな変数を作る演算子"
+      },
+      {
+        "label": "D",
+        "text": "配列の要素を分解して1つずつ画面に出力する方法"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "定義理解",
+      "分割代入の目的"
+    ]
+  },
+  {
+    "id": "dest-b-002",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(name) の出力はどれか？\n\nconst { name, age } = { name: \"Taro\", age: 20 };\nconsole.log(name);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined"
+      },
+      {
+        "label": "B",
+        "text": "{ name: \"Taro\" }"
+      },
+      {
+        "label": "C",
+        "text": "\"Taro\""
+      },
+      {
+        "label": "D",
+        "text": "\"Taro\", 20"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "基本構文",
+      "オブジェクト分割代入",
+      "プロパティ名一致"
+    ]
+  },
+  {
+    "id": "dest-b-003",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(age) の出力はどれか？\n\nconst { age, name } = { name: \"Taro\", age: 20 };\nconsole.log(age);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"Taro\""
+      },
+      {
+        "label": "B",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "順序独立性",
+      "プロパティ名照合",
+      "オブジェクト分割代入"
+    ]
+  },
+  {
+    "id": "dest-b-004",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(userName) の出力はどれか？\n\nconst { name: userName } = { name: \"Hanako\" };\nconsole.log(userName);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"Hanako\""
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "\"name\""
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "エイリアス構文",
+      "変数名変更",
+      "コロンの意味"
+    ]
+  },
+  {
+    "id": "dest-b-005",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(score) の出力はどれか？\n\nconst { score = 100 } = {};\nconsole.log(score);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "null"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "デフォルト値",
+      "undefinedのとき",
+      "= 構文"
+    ]
+  },
+  {
+    "id": "dest-b-006",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(score) の出力はどれか？\n\nconst { score = 100 } = { score: null };\nconsole.log(score);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "null"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "null vs undefined",
+      "デフォルト値の条件",
+      "落とし穴"
+    ]
+  },
+  {
+    "id": "dest-b-007",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(a) の出力はどれか？\n\nconst [a, b] = [10, 20, 30];\nconsole.log(a);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[10, 20, 30]"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "配列分割代入",
+      "インデックス順",
+      "基本構文"
+    ]
+  },
+  {
+    "id": "dest-b-008",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(second) の出力はどれか？\n\nconst [, second] = [10, 20, 30];\nconsole.log(second);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "配列スキップ",
+      "カンマ省略",
+      "インデックス対応"
+    ]
+  },
+  {
+    "id": "dest-b-009",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、console.log(x) の出力はどれか？\n\nconst [x = 5] = [];\nconsole.log(x);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined"
+      },
+      {
+        "label": "B",
+        "text": "[]"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "配列デフォルト値",
+      "空配列",
+      "undefinedのとき"
+    ]
+  },
+  {
+    "id": "dest-b-010",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "basic",
+    "question": "分割代入に関する説明として正しいものはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "配列の分割代入では { } を使い、オブジェクトの分割代入では [ ] を使う"
+      },
+      {
+        "label": "B",
+        "text": "分割代入を使うと、元のオブジェクトや配列の中身が削除される"
+      },
+      {
+        "label": "C",
+        "text": "オブジェクトの分割代入では、取り出す変数の順番はプロパティの定義順に合わせる必要がない"
+      },
+      {
+        "label": "D",
+        "text": "分割代入は const でのみ使用でき、let や var には使えない"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "構文選択",
+      "オブジェクト vs 配列",
+      "順序独立性"
+    ]
+  },
+  {
+    "id": "dest-s-001",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(city) の出力はどれか？\n\nconst { address: { city } } = { address: { city: \"Tokyo\", zip: \"100\" } };\nconsole.log(city);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ city: \"Tokyo\", zip: \"100\" }"
+      },
+      {
+        "label": "B",
+        "text": "\"Tokyo\""
+      },
+      {
+        "label": "C",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "ネスト分割代入",
+      "内側プロパティ",
+      "構造の追い方"
+    ]
+  },
+  {
+    "id": "dest-s-002",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(...) の出力はどれか？\n\nfunction greet({ name, greeting = \"Hello\" }) {\n  return `${greeting}, ${name}!`;\n}\nconsole.log(greet({ name: \"Taro\" }));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"Hello, Taro!\""
+      },
+      {
+        "label": "B",
+        "text": "\"undefined, Taro!\""
+      },
+      {
+        "label": "C",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "D",
+        "text": "\"Hello, undefined!\""
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "関数引数分割代入",
+      "デフォルト値",
+      "テンプレートリテラル"
+    ]
+  },
+  {
+    "id": "dest-s-003",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(JSON.stringify(rest)) の出力はどれか？\n\nconst { a, ...rest } = { a: 1, b: 2, c: 3 };\nconsole.log(JSON.stringify(rest));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'{\"a\":1,\"b\":2,\"c\":3}'"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "'[2,3]'"
+      },
+      {
+        "label": "D",
+        "text": "'{\"b\":2,\"c\":3}'"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "オブジェクトレスト",
+      "残余プロパティ",
+      "スプレッド構文"
+    ]
+  },
+  {
+    "id": "dest-s-004",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(JSON.stringify(others)) の出力はどれか？\n\nconst [first, ...others] = [1, 2, 3, 4];\nconsole.log(JSON.stringify(others));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'[2,3,4]'"
+      },
+      {
+        "label": "B",
+        "text": "'[1,2,3,4]'"
+      },
+      {
+        "label": "C",
+        "text": "'2'"
+      },
+      {
+        "label": "D",
+        "text": "'[]'"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "配列レスト",
+      "残余要素",
+      "先頭を除いた配列"
+    ]
+  },
+  {
+    "id": "dest-s-005",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(x, y) の出力はどれか？\n\nlet x = 1, y = 2;\n[x, y] = [y, x];\nconsole.log(x, y);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1 2"
+      },
+      {
+        "label": "B",
+        "text": "2 2"
+      },
+      {
+        "label": "C",
+        "text": "2 1"
+      },
+      {
+        "label": "D",
+        "text": "1 1"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "変数スワップ",
+      "右辺先評価",
+      "一時変数なし"
+    ]
+  },
+  {
+    "id": "dest-s-006",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードについて正しい説明はどれか？\n\nconst { ...rest, a } = { a: 1, b: 2 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "rest に { b: 2 } が入り、a に 1 が入る。問題なく動作する。"
+      },
+      {
+        "label": "B",
+        "text": "このコードは SyntaxError になる。レスト要素は必ず最後に置かなければならない。"
+      },
+      {
+        "label": "C",
+        "text": "a に 1 が入り、rest に { a: 1, b: 2 } が入る。"
+      },
+      {
+        "label": "D",
+        "text": "実行はできるが rest は undefined になる。"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "レスト配置制約",
+      "SyntaxError",
+      "最後に置く"
+    ]
+  },
+  {
+    "id": "dest-s-007",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(...) の出力はどれか？\n\nfunction display({ name: fullName, age: years }) {\n  return `${fullName} is ${years} years old`;\n}\nconsole.log(display({ name: \"Hanako\", age: 25 }));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"Hanako is 25 years old\""
+      },
+      {
+        "label": "B",
+        "text": "\"undefined is undefined years old\""
+      },
+      {
+        "label": "C",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "D",
+        "text": "\"name is age years old\""
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "引数エイリアス",
+      "変数名変更",
+      "コロンの左右"
+    ]
+  },
+  {
+    "id": "dest-s-008",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(third) の出力はどれか？\n\nconst [,, third] = [10, 20, 30, 40];\nconsole.log(third);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "undefined"
+      },
+      {
+        "label": "D",
+        "text": "30"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "複数スキップ",
+      "カンマ数とインデックス",
+      "3番目の要素"
+    ]
+  },
+  {
+    "id": "dest-s-009",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(x) の出力はどれか？\n\nconst { x } = { a: 1 };\nconsole.log(x);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "null"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "存在しないプロパティ",
+      "undefined",
+      "エラーにならない"
+    ]
+  },
+  {
+    "id": "dest-s-010",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "standard",
+    "question": "次のコードを実行したとき、console.log(name) の出力はどれか？\n\nconst [{ name }] = [{ name: \"Taro\", age: 20 }];\nconsole.log(name);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "B",
+        "text": "{ name: \"Taro\", age: 20 }"
+      },
+      {
+        "label": "C",
+        "text": "\"Taro\""
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "配列+オブジェクト組み合わせ",
+      "ネスト分割代入",
+      "先頭要素"
+    ]
+  },
+  {
+    "id": "dest-e-001",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(c) の出力はどれか？\n\nconst { a: { b: [c] } } = { a: { b: [1, 2, 3] } };\nconsole.log(c);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[1, 2, 3]"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "{ b: [1, 2, 3] }"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "深いネスト",
+      "オブジェクト+配列混合",
+      "外から内へ追う"
+    ]
+  },
+  {
+    "id": "dest-e-002",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、出力はどれか？\n\nconst users = [\n  { id: 1, name: \"Taro\" },\n  { id: 2, name: \"Hanako\" }\n];\nfor (const { name } of users) {\n  console.log(name);\n}",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"Taro\" と \"Hanako\" が順番に出力される"
+      },
+      {
+        "label": "B",
+        "text": "{ id: 1, name: \"Taro\" } と { id: 2, name: \"Hanako\" } が順番に出力される"
+      },
+      {
+        "label": "C",
+        "text": "\"Taro\" だけが出力される"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "for...of ループ",
+      "ループ内分割代入",
+      "各要素のプロパティ"
+    ]
+  },
+  {
+    "id": "dest-e-003",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(num) の出力はどれか？\n\nconst { x: num = 10 } = {};\nconsole.log(num);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined"
+      },
+      {
+        "label": "B",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "エイリアス+デフォルト値",
+      "複合構文",
+      "undefinedのとき"
+    ]
+  },
+  {
+    "id": "dest-e-004",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(value) の出力はどれか？\n\nconst key = \"name\";\nconst { [key]: value } = { name: \"Taro\" };\nconsole.log(value);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"Taro\""
+      },
+      {
+        "label": "B",
+        "text": "\"name\""
+      },
+      {
+        "label": "C",
+        "text": "undefined"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "動的プロパティキー",
+      "計算プロパティ",
+      "エイリアス必須"
+    ]
+  },
+  {
+    "id": "dest-e-005",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "動的プロパティキーを使った分割代入 const { [key]: value } = obj; において、コロン以降の変数名（エイリアス）が必ず必要な理由として正しいものはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[ ] を使う場合は配列として解釈されるため、別名が必要なため"
+      },
+      {
+        "label": "B",
+        "text": "JavaScript の構文規則でコロンの後ろには必ず何かを書かなければならないため"
+      },
+      {
+        "label": "C",
+        "text": "デフォルト値を指定できなくなるため、エイリアスで代用する必要があるため"
+      },
+      {
+        "label": "D",
+        "text": "key は変数であり、その変数名そのものを新しい変数名として宣言することができないため"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "動的キー",
+      "エイリアス必須の理由",
+      "変数名の制約"
+    ]
+  },
+  {
+    "id": "dest-e-006",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(x + y) の出力はどれか？\n\nfunction getPoint() {\n  return { x: 3, y: 4 };\n}\nconst { x, y } = getPoint();\nconsole.log(x + y);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "\"34\""
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "戻り値への分割代入",
+      "関数の返すオブジェクト",
+      "数値の加算"
+    ]
+  },
+  {
+    "id": "dest-e-007",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(b) の出力はどれか？\n\nconst { a: { b = 5 } = {} } = {};\nconsole.log(b);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "D",
+        "text": "{}"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "ネストしたデフォルト値",
+      "親がundefinedのとき",
+      "二段階のデフォルト"
+    ]
+  },
+  {
+    "id": "dest-e-008",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(first) の出力はどれか？\n\nconst [first, second] = \"hello world\".split(\" \");\nconsole.log(first);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"h\""
+      },
+      {
+        "label": "B",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "C",
+        "text": "\"hello\""
+      },
+      {
+        "label": "D",
+        "text": "\"hello world\""
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "split()と分割代入",
+      "文字列の配列化",
+      "メソッドチェーン"
+    ]
+  },
+  {
+    "id": "dest-e-009",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、console.log(...) の出力はどれか？\n\nfunction process({ items: [first, ...rest], meta: { total } }) {\n  return `${first} of ${total}`;\n}\nconsole.log(process({ items: [10, 20, 30], meta: { total: 3 } }));",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"10 of 3\""
+      },
+      {
+        "label": "B",
+        "text": "\"[10,20,30] of 3\""
+      },
+      {
+        "label": "C",
+        "text": "エラーが発生する"
+      },
+      {
+        "label": "D",
+        "text": "\"10 of [10,20,30]\""
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "複雑な引数分割代入",
+      "配列レスト+ネスト",
+      "実践的な組み合わせ"
+    ]
+  },
+  {
+    "id": "dest-e-010",
+    "subject": "programming",
+    "unit": "分割代入（オブジェクト・配列）",
+    "difficulty": "exam",
+    "question": "分割代入におけるレスト構文（...変数名）の使い方として、構文エラーにならないものはどれか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const [...tail, head] = [4, 5, 6];"
+      },
+      {
+        "label": "B",
+        "text": "const { ...others, b } = { x: 10, y: 20 };"
+      },
+      {
+        "label": "C",
+        "text": "const { p, ...mid, r } = { p: 'P', q: 'Q', r: 'R' };"
+      },
+      {
+        "label": "D",
+        "text": "const [first, ...remainder] = [1, 2, 3];"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "レスト配置",
+      "最後に置く制約",
+      "SyntaxError判別"
+    ]
+  }
+]

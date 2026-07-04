@@ -1,0 +1,452 @@
+[
+  {
+    "id": "paa-b-001",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "JavaScript の Promise とは何か？次の説明のうち最も正確なものを選べ。",
+    "choices": [
+      { "label": "A", "text": "指定した時間(ミリ秒)が経過した後にコールバック関数を実行するための仕組みで、setTimeout の代替として使われる" },
+      { "label": "B", "text": "非同期処理の「将来の結果」を表すオブジェクトで、処理が完了するまで pending(保留)状態を保ち、成功時に fulfilled、失敗時に rejected へと状態が変わる" },
+      { "label": "C", "text": "コールバック関数を変数に格納し、後で任意のタイミングで呼び出すための特殊な関数オブジェクト" },
+      { "label": "D", "text": "複数の変数を1つにまとめて非同期に読み書きするためのデータ構造" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["Promiseの定義", "状態遷移", "非同期処理"]
+  },
+  {
+    "id": "paa-b-002",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "Promise が持つ3つの状態の正しい組み合わせはどれか？",
+    "choices": [
+      { "label": "A", "text": "pending(保留) / fulfilled(成功) / rejected(失敗)" },
+      { "label": "B", "text": "waiting(待機) / resolved(解決) / rejected(失敗)" },
+      { "label": "C", "text": "idle(アイドル) / completed(完了) / failed(失敗)" },
+      { "label": "D", "text": "pending(保留) / running(実行中) / settled(完了)" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["Promise状態", "pending", "fulfilled", "rejected"]
+  },
+  {
+    "id": "paa-b-003",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "次のコードを実行した直後、p の Promise の状態はどれか？\nconst p = new Promise((resolve, reject) => {\n  // resolve も reject も呼ばない\n});",
+    "choices": [
+      { "label": "A", "text": "fulfilled(成功)—new Promise の実行が成功したので fulfilled になる" },
+      { "label": "B", "text": "settled(完了)—new Promise を実行した時点で自動的に完了する" },
+      { "label": "C", "text": "rejected(失敗)—コールバック内で何もしないとエラーとみなされる" },
+      { "label": "D", "text": "pending(保留)—resolve() も reject() も呼ばれていないため、保留状態のまま" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["pending状態", "resolve/reject", "初期状態"]
+  },
+  {
+    "id": "paa-b-004",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "次のコードで asyncFn() を呼び出したとき、result に入る値はどれか？\nasync function asyncFn() {\n  return \"hello\";\n}\nconst result = asyncFn();",
+    "choices": [
+      { "label": "A", "text": "\"hello\" で fulfilled された Promise オブジェクト" },
+      { "label": "B", "text": "文字列 \"hello\" がそのまま入る" },
+      { "label": "C", "text": "undefined(async 関数の return 値は呼び出し元には渡らない)" },
+      { "label": "D", "text": "pending のまま永遠に解決しない Promise オブジェクト" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["async戻り値", "Promise wrap", "fulfilled"]
+  },
+  {
+    "id": "paa-b-005",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "await キーワードを書ける場所として正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "関数の内部であれば async がなくても使える" },
+      { "label": "B", "text": "try ブロックの内部にしか書けない" },
+      { "label": "C", "text": "async 宣言のついた関数(async function またはアロー関数で const fn = async () => {} の形)の内部" },
+      { "label": "D", "text": "スクリプトの最上位(トップレベル)にしか書けない" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["awaitの制約", "async関数", "SyntaxError"]
+  },
+  {
+    "id": "paa-b-006",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "then() メソッドの第1引数(コールバック関数)が呼び出されるのはいつか？",
+    "choices": [
+      { "label": "A", "text": "Promise が settled(決定済み)状態に変わったとき(fulfilled・rejected どちらでも)" },
+      { "label": "B", "text": "then() を呼び出した直後、同期的に実行される" },
+      { "label": "C", "text": "Promise が fulfilled(成功)になったとき" },
+      { "label": "D", "text": "Promise が rejected(失敗)になったとき" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["then", "fulfilled", "コールバック"]
+  },
+  {
+    "id": "paa-b-007",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "次のコードを実行したとき、catch() のコールバックが受け取る err の値はどれか？\nasync function asyncFn() {\n  throw new Error(\"失敗\");\n}\nasyncFn().catch(err => console.log(err));",
+    "choices": [
+      { "label": "A", "text": "catch は呼び出されず、プログラムがクラッシュする" },
+      { "label": "B", "text": "Error オブジェクト(message プロパティが \"失敗\" の Error インスタンス)" },
+      { "label": "C", "text": "undefined(async 関数内の throw は catch では捕捉できない)" },
+      { "label": "D", "text": "文字列 \"失敗\"(throw のメッセージ部分だけが渡される)" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["async throw", "reject", "catch"]
+  },
+  {
+    "id": "paa-b-008",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "Promise が普及する以前のコールバックスタイルで起きる「コールバック地獄」の主な問題はどれか？",
+    "choices": [
+      { "label": "A", "text": "コールバック関数は必ず1回しか呼び出せないため、繰り返し処理ができない" },
+      { "label": "B", "text": "コールバック関数はアロー関数で書けないため、this バインディングが常に失われる" },
+      { "label": "C", "text": "setTimeout の精度が低く、指定した時間どおりにコールバックが実行されない" },
+      { "label": "D", "text": "非同期処理を何重にもネストして書くとコードが深くなり、エラーハンドリングの記述が各ネスト層に分散して読みにくくなる" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["コールバック地獄", "ネスト", "Promise登場背景"]
+  },
+  {
+    "id": "paa-b-009",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "await の役割として正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "Promise の状態を強制的に fulfilled にして、その場で値を確定させる" },
+      { "label": "B", "text": "Promise オブジェクトを受け取り、その Promise が settled になるまで async 関数の実行を一時停止し、fulfilled 時の値を取り出す" },
+      { "label": "C", "text": "非同期処理を別スレッドで並列実行させ、メインスレッドをブロックせずに完了を待つ" },
+      { "label": "D", "text": "Promise を削除してコールバック形式に変換し、同期的なコードとして実行させる" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["await", "一時停止", "値の取り出し"]
+  },
+  {
+    "id": "paa-b-010",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "basic",
+    "question": "次のコードで最終的にコンソールに出力される値はどれか？\nPromise.resolve(5)\n  .then(v => v * 2)\n  .then(v => console.log(v));",
+    "choices": [
+      { "label": "A", "text": "25(then が2つあるので 5 を2回乗算して 5*5=25 になる)" },
+      { "label": "B", "text": "5(最初の値がそのまま最後の then まで渡される)" },
+      { "label": "C", "text": "undefined(then のコールバック内で return していないので undefined になる)" },
+      { "label": "D", "text": "10(5 → 5*2=10 と各 then の戻り値が次の then に渡される)" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["thenチェーン", "値の引き渡し", "return"]
+  },
+  {
+    "id": "paa-s-001",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "次のコードで最終的に console.log に渡される値はどれか？\nPromise.resolve(3)\n  .then(v => { v + 1; })\n  .then(v => v * 2)\n  .then(v => console.log(v));",
+    "choices": [
+      { "label": "A", "text": "NaN(return を書き忘れたため最初の then が undefined を返し、undefined * 2 = NaN が渡る)" },
+      { "label": "B", "text": "8(3 → 3+1=4 → 4*2=8 が渡り、8 が出力される)" },
+      { "label": "C", "text": "return がなくても then は元の値を引き継ぐので (3+1)*2=8 が渡る" },
+      { "label": "D", "text": "return がないと Promise が reject され catch がなければ undefined が出力される" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["then", "return忘れ", "undefined"]
+  },
+  {
+    "id": "paa-s-002",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": ".then(onFulfilled, onRejected) の第2引数を使う方法と .catch(onRejected) を使う方法の重要な違いとして正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "catch は非同期エラーしか捕捉できないが、then の第2引数は同期エラーも捕捉できる" },
+      { "label": "B", "text": "どちらも完全に同等で、どちらを使っても挙動に差はない" },
+      { "label": "C", "text": "then の第2引数は直前の Promise の reject を捕捉するが、同じ then の onFulfilled 内で throw されたエラーは捕捉できない。catch はその直前の then 内の throw も捕捉できる" },
+      { "label": "D", "text": "then の第2引数は fulfilled 後のエラーを捕捉し、catch は rejected を直接捕捉する" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["then第2引数", "catch", "エラーハンドリングの違い"]
+  },
+  {
+    "id": "paa-s-003",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "次のコードが実行されたとき、コンソールに出力されるのはどれか？\nasync function fetchData() {\n  throw new Error(\"接続エラー\");\n}\nasync function main() {\n  try {\n    await fetchData();\n    console.log(\"成功\");\n  } catch (e) {\n    console.log(e.message);\n  }\n}\nmain();",
+    "choices": [
+      { "label": "A", "text": "何も出力されない(async 関数内の throw は呼び出し元の catch には届かない)" },
+      { "label": "B", "text": "「成功」が出力される(try ブロック内なのでエラーは無視される)" },
+      { "label": "C", "text": "「接続エラー」が出力される(fetchData の throw が await を通じて catch に届く)" },
+      { "label": "D", "text": "「成功」と「接続エラー」の両方が出力される" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["try/catch", "await", "エラー伝播"]
+  },
+  {
+    "id": "paa-s-004",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "Promise.all([p1, p2, p3]) で p1・p2・p3 がすべて fulfilled になったとき、結果として正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "完了した順序で並んだ配列(最初に完了した値、2番目、3番目)で fulfilled になる" },
+      { "label": "B", "text": "最後に fulfilled になった Promise の値だけが返る" },
+      { "label": "C", "text": "3つのうち最初に fulfilled になった Promise の値だけが返る" },
+      { "label": "D", "text": "[p1の値, p2の値, p3の値] という、入力と同じ順序で並んだ配列で fulfilled になる" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["Promise.all", "成功時", "結果の順序"]
+  },
+  {
+    "id": "paa-s-005",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "Promise.all([p1, p2, p3]) を実行中に p2 だけが reject されたとき、Promise.all の挙動として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "p2 の reject 理由で Promise.all 全体が即座に reject される(fail-fast)" },
+      { "label": "B", "text": "p1 と p3 が完了するまで待ち、最終的に成功した2件の結果と p2 のエラーをまとめて返す" },
+      { "label": "C", "text": "p2 が reject されたとき p1 と p3 もキャンセルされて全体が停止する" },
+      { "label": "D", "text": "p1 と p3 の結果も含めた配列が返り、p2 の箇所だけ undefined になる" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["Promise.all", "reject", "fail-fast"]
+  },
+  {
+    "id": "paa-s-006",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "Promise.allSettled() と Promise.all() の最大の違いとして正しいものはどれか？",
+    "choices": [
+      { "label": "A", "text": "Promise.allSettled() は成功した Promise の値のみを配列で返す(失敗したものは除外される)" },
+      { "label": "B", "text": "Promise.allSettled() は途中で reject があっても全 Promise が settled になるまで待ち、全件の結果をまとめて返す" },
+      { "label": "C", "text": "Promise.allSettled() は並列実行できるが、Promise.all() は直列実行になる" },
+      { "label": "D", "text": "Promise.allSettled() は入力の順序を保証しないが、Promise.all() は順序を保証する" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["Promise.allSettled", "allとの違い", "fail-fast"]
+  },
+  {
+    "id": "paa-s-007",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "次の2つのコードのうち、getUser() と getProfile() を「並列」に実行するのはどちらか？(それぞれ1秒かかるとする)\nコードX: const u = await getUser(); const p = await getProfile();\nコードY: const [u, p] = await Promise.all([getUser(), getProfile()]);",
+    "choices": [
+      { "label": "A", "text": "コードX—await を2回書くと2つの処理が並列で実行され、合計約1秒で終わる" },
+      { "label": "B", "text": "どちらも同じ—async/await は自動的に並列化するため差はない" },
+      { "label": "C", "text": "コードX—await を先に書くほうが並列化される。Promise.all は直列になる" },
+      { "label": "D", "text": "コードY—Promise.all に渡した時点で2つの処理が同時に開始され、合計約1秒で終わる" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["直列", "並列", "Promise.all", "await"]
+  },
+  {
+    "id": "paa-s-008",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "Promise.allSettled([p1, p2]) で p1 が fulfilled(値: 42)、p2 が rejected(理由: Error(\"失敗\"))になったとき、結果の配列の各要素の正しい形式はどれか？",
+    "choices": [
+      { "label": "A", "text": "[42, undefined](失敗したものは undefined になる)" },
+      { "label": "B", "text": "[{result: 42, error: null}, {result: null, error: Error(\"失敗\")}]" },
+      { "label": "C", "text": "[42](失敗したものは配列から除外される)" },
+      { "label": "D", "text": "[{status: 'fulfilled', value: 42}, {status: 'rejected', reason: Error(\"失敗\")}]" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["Promise.allSettled", "結果形式", "status/value/reason"]
+  },
+  {
+    "id": "paa-s-009",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "次のコードで最終的に then() のコールバックが受け取る値はどれか？\nPromise.resolve(10)\n  .then(v => Promise.resolve(v * 2))\n  .then(v => console.log(v));",
+    "choices": [
+      { "label": "A", "text": "20(then コールバックが Promise を返すと、その Promise の値が自動的に取り出されて次の then に渡される)" },
+      { "label": "B", "text": "Promise オブジェクト(then が Promise を返したので、そのままネストされる)" },
+      { "label": "C", "text": "NaN(then コールバック内で Promise.resolve() を使うと数値として計算できなくなる)" },
+      { "label": "D", "text": "10(then が Promise を返すと元の値がリセットされ、最初の値が引き継がれる)" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["thenからPromiseを返す", "自動アンラップ", "チェーン"]
+  },
+  {
+    "id": "paa-s-010",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "standard",
+    "question": "Promiseチェーンで catch() の後に then() を書いたとき、then() はいつ実行されるか？\nPromise.reject(new Error(\"エラー\"))\n  .catch(e => \"エラーを回復\")\n  .then(v => console.log(v));",
+    "choices": [
+      { "label": "A", "text": "reject されているので then() は実行されず、何も出力されない" },
+      { "label": "B", "text": "catch の後に then は書けないため SyntaxError になる" },
+      { "label": "C", "text": "\"エラーを回復\" と元のエラーメッセージの両方が出力される" },
+      { "label": "D", "text": "「エラーを回復」が出力される(catch がエラーを処理して fulfilled な Promise を返すため、後続の then が実行される)" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["catch後のthen", "エラー回復", "Promise状態"]
+  },
+  {
+    "id": "paa-e-001",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "次のコードを実行したとき、コンソールへの出力順序として正しいものはどれか？\nconsole.log(\"1\");\nPromise.resolve().then(() => console.log(\"2\"));\nsetTimeout(() => console.log(\"3\"), 0);\nconsole.log(\"4\");",
+    "choices": [
+      { "label": "A", "text": "1 → 2 → 3 → 4(Promise の then は同期的に実行されるため、setTimeout より先に 2 が出る)" },
+      { "label": "B", "text": "1 → 4 → 2 → 3(同期コード実行後、マイクロタスクである then が先に動き、その後マクロタスクである setTimeout が実行される)" },
+      { "label": "C", "text": "1 → 4 → 3 → 2(setTimeout の 0ms はマイクロタスクより優先される)" },
+      { "label": "D", "text": "1 → 3 → 4 → 2(setTimeout が 0ms なら同期コードの直後に割り込んで実行される)" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["イベントループ", "マイクロタスク", "マクロタスク", "setTimeout"]
+  },
+  {
+    "id": "paa-e-002",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "Promise.race([p1, p2, p3]) で p2 が最初に reject された場合、Promise.race の挙動として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "p2 の reject 後も p1 と p3 が完了するまで待ち、最終的に成功した結果があればそれを返す" },
+      { "label": "B", "text": "Promise.race は最初に fulfilled したものを待つので、p2 の reject は無視され p1 か p3 の結果を待つ" },
+      { "label": "C", "text": "p2 が reject されたとき p1 と p3 はキャンセルされ、undefined で fulfilled される" },
+      { "label": "D", "text": "p2 の reject が最初にsettledになったため、Promise.race 全体が p2 の reject 理由で reject される" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["Promise.race", "reject", "最初にsettled"]
+  },
+  {
+    "id": "paa-e-003",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "Promise.any([p1, p2, p3]) で p1 が reject、p2 が fulfilled(値: \"OK\")、p3 がまだ pending のとき、Promise.any の結果として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "p1 が reject されているので Promise.any 全体が即座に reject になる" },
+      { "label": "B", "text": "\"OK\" で fulfilled になる(p2 が最初に fulfilled なので、p3 が pending でも即座に結果が確定する)" },
+      { "label": "C", "text": "p3 がまだ pending なので、p3 が settled になるまで結果は確定しない" },
+      { "label": "D", "text": "p1 の reject と p2 の fulfilled を合算して配列で返す" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["Promise.any", "最初のfulfilled", "rejectは無視"]
+  },
+  {
+    "id": "paa-e-004",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "次のコードの出力順序として正しいものはどれか？\nasync function main() {\n  console.log(\"1\");\n  await Promise.resolve();\n  console.log(\"2\");\n}\nmain();\nconsole.log(\"3\");",
+    "choices": [
+      { "label": "A", "text": "3 → 1 → 2(main() の呼び出し自体が非同期なので、3 が先に出る)" },
+      { "label": "B", "text": "1 → 2 → 3(await が Promise.resolve() を待つが即時解決なので同期的に 2 まで続く)" },
+      { "label": "C", "text": "1 → 3 → 2(await で main が一時停止し、3 が同期実行された後、マイクロタスクとして 2 が再開)" },
+      { "label": "D", "text": "1 → 2 → 3(async 関数はすべての処理を非同期で実行するので、3 より先に 2 が出ることはない)" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["async/await実行順序", "awaitで一時停止", "同期コード優先"]
+  },
+  {
+    "id": "paa-e-005",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "次のコードを実行すると何が出力されるか？\nconst p = new Promise((resolve, reject) => {\n  resolve(\"成功\");\n  reject(\"失敗\");\n});\np.then(v => console.log(v)).catch(e => console.log(e));",
+    "choices": [
+      { "label": "A", "text": "エラーが発生してプログラムがクラッシュする(resolve と reject を両方呼ぶのは禁止)" },
+      { "label": "B", "text": "「成功」だけが出力される(一度 fulfilled になった Promise は状態が変わらないため、後の reject は無視される)" },
+      { "label": "C", "text": "「失敗」だけが出力される(reject が後から呼ばれると上書きされる)" },
+      { "label": "D", "text": "「成功」と「失敗」の両方が順番に出力される" }
+    ],
+    "correct": "B",
+    "reasoning_tags": ["Promise不変性", "状態遷移一方向", "settled後のreject"]
+  },
+  {
+    "id": "paa-e-006",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "次のコードで result の値はどうなるか？\nasync function getData() {\n  return 42;\n}\nasync function main() {\n  const result = getData(); // await を付け忘れた\n  console.log(typeof result);\n}\nmain();",
+    "choices": [
+      { "label": "A", "text": "\"number\" と出力される(async 関数は return した値を自動でアンラップして返すので await なしでも数値が得られる)" },
+      { "label": "B", "text": "\"undefined\" と出力される(await を忘れると undefined が返る)" },
+      { "label": "C", "text": "SyntaxError(async 関数の戻り値は必ず await で受け取らなければならない)" },
+      { "label": "D", "text": "\"object\" と出力される(await を付けないと Promise オブジェクトのまま代入されるため)" }
+    ],
+    "correct": "D",
+    "reasoning_tags": ["await忘れ", "Promiseオブジェクト", "自動アンラップなし"]
+  },
+  {
+    "id": "paa-e-007",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "3つの非同期処理 taskA(2秒)・taskB(3秒)・taskC(1秒)を await で直列に実行した場合と Promise.all で並列に実行した場合の合計待ち時間を比べたとき、正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "直列: 2+3+1=6秒、並列: max(2,3,1)=3秒 → 差は3秒(並列のほうが速い)" },
+      { "label": "B", "text": "直列: max(2,3,1)=3秒、並列: 2+3+1=6秒 → 差は3秒(直列のほうが速い)" },
+      { "label": "C", "text": "直列: 2+3+1=6秒、並列: min(2,3,1)=1秒 → 差は5秒(並列のほうが速い)" },
+      { "label": "D", "text": "直列: 2+3+1=6秒、並列: (2+3+1)/3=2秒 → 差は4秒(並列のほうが速い)" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["直列vs並列", "合計待ち時間", "Promise.all"]
+  },
+  {
+    "id": "paa-e-008",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "Promise.any([p1, p2, p3]) で p1・p2・p3 がすべて reject された場合の挙動として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "最初に reject された p1 の理由だけで Promise.any 全体が reject される" },
+      { "label": "B", "text": "全 Promise が reject されたため、Promise.any は pending のまま永遠に解決しない" },
+      { "label": "C", "text": "全ての reject 理由をまとめた AggregateError で Promise.any 全体が reject される" },
+      { "label": "D", "text": "最後に reject された p3 の理由だけで Promise.any 全体が reject される" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["Promise.any", "全てreject", "AggregateError"]
+  },
+  {
+    "id": "paa-e-009",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "次のコードの出力順序として正しいものはどれか？\nasync function a() {\n  console.log(\"a1\");\n  await b();\n  console.log(\"a2\");\n}\nasync function b() {\n  console.log(\"b1\");\n}\na();\nconsole.log(\"c\");",
+    "choices": [
+      { "label": "A", "text": "c → a1 → b1 → a2(a() 自体が async なので呼び出しは非同期になり、c が先に実行される)" },
+      { "label": "B", "text": "a1 → b1 → a2 → c(async 関数は呼び出し元のコードより優先されるため c は最後)" },
+      { "label": "C", "text": "a1 → b1 → c → a2(b() はawait されているが b() 自体は同期的に終わるため、await 後の a2 はマイクロタスクとして c の後に再開される)" },
+      { "label": "D", "text": "a1 → c → b1 → a2(await b() を実行した時点で b の中身も非同期になる)" }
+    ],
+    "correct": "C",
+    "reasoning_tags": ["async実行順序", "await後の再開", "マイクロタスク"]
+  },
+  {
+    "id": "paa-e-010",
+    "subject": "programming",
+    "unit": "Promise と async / await",
+    "difficulty": "exam",
+    "question": "次のコードで catch() のコールバックが受け取る値はどれか？\nPromise.resolve()\n  .then(() => { throw new Error(\"エラー1\"); })\n  .then(() => { throw new Error(\"エラー2\"); })\n  .catch(e => console.log(e.message));",
+    "choices": [
+      { "label": "A", "text": "「エラー1」が出力される(最初の then で throw されると次の then はスキップされ、そのまま catch に届く)" },
+      { "label": "B", "text": "「エラー2」が出力される(後から throw された方が優先される)" },
+      { "label": "C", "text": "何も出力されない(then の中の throw は catch では捕捉できない)" },
+      { "label": "D", "text": "「エラー1」と「エラー2」の両方が出力される" }
+    ],
+    "correct": "A",
+    "reasoning_tags": ["then内のthrow", "catch伝播", "スキップ"]
+  }
+]

@@ -134,7 +134,7 @@
       "subunit": "array-methods",
       "name": "配列メソッド（push / pop / map / filter）",
       "en": "Array Methods",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/arrays/array-advanced",
@@ -143,7 +143,7 @@
       "subunit": "array-advanced",
       "name": "配列メソッド応用（reduce / find / sort）",
       "en": "Advanced Array Methods",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/objects/object-basics",
@@ -152,7 +152,7 @@
       "subunit": "object-basics",
       "name": "オブジェクトの基本（プロパティ・メソッド）",
       "en": "Object Basics",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/objects/destructuring",
@@ -161,7 +161,7 @@
       "subunit": "destructuring",
       "name": "分割代入（オブジェクト・配列）",
       "en": "Destructuring",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/objects/spread-rest",
@@ -170,7 +170,7 @@
       "subunit": "spread-rest",
       "name": "スプレッド構文とレスト引数",
       "en": "Spread and Rest",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/async-basics/callbacks",
@@ -179,7 +179,7 @@
       "subunit": "callbacks",
       "name": "コールバック関数と非同期の概念",
       "en": "Callbacks",
-      "questionCount": 0
+      "questionCount": 30
     },
     {
       "path": "js-basics/async-basics/promises-async-await",
@@ -188,7 +188,7 @@
       "subunit": "promises-async-await",
       "name": "Promise と async / await",
       "en": "Promises and Async/Await",
-      "questionCount": 0
+      "questionCount": 30
     }
   ],
   "tree": [
@@ -356,7 +356,7 @@
               "subunit": "array-methods",
               "name": "配列メソッド（push / pop / map / filter）",
               "en": "Array Methods",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/arrays/array-advanced",
@@ -365,7 +365,7 @@
               "subunit": "array-advanced",
               "name": "配列メソッド応用（reduce / find / sort）",
               "en": "Advanced Array Methods",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         },
@@ -379,7 +379,7 @@
               "subunit": "object-basics",
               "name": "オブジェクトの基本（プロパティ・メソッド）",
               "en": "Object Basics",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/objects/destructuring",
@@ -388,7 +388,7 @@
               "subunit": "destructuring",
               "name": "分割代入（オブジェクト・配列）",
               "en": "Destructuring",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/objects/spread-rest",
@@ -397,7 +397,7 @@
               "subunit": "spread-rest",
               "name": "スプレッド構文とレスト引数",
               "en": "Spread and Rest",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         },
@@ -411,7 +411,7 @@
               "subunit": "callbacks",
               "name": "コールバック関数と非同期の概念",
               "en": "Callbacks",
-              "questionCount": 0
+              "questionCount": 30
             },
             {
               "path": "js-basics/async-basics/promises-async-await",
@@ -420,7 +420,7 @@
               "subunit": "promises-async-await",
               "name": "Promise と async / await",
               "en": "Promises and Async/Await",
-              "questionCount": 0
+              "questionCount": 30
             }
           ]
         }

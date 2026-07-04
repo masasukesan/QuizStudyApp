@@ -1,0 +1,106 @@
+{
+  "unit_id": "object-basics",
+  "unit_name_jp": "オブジェクトの基本（プロパティ・メソッド）",
+  "grade": "JS基礎",
+  "patterns": [
+    {
+      "pattern_id": "object-literal-creation",
+      "description": "オブジェクトリテラル（{}）でオブジェクトを作成し、プロパティを定義する",
+      "thinking_process": [
+        "{}を使ってオブジェクトを作ることを理解する",
+        "キー: 値のペアでプロパティを定義する",
+        "文字列・数値・真偽値など異なる型の値を持てることを確認する"
+      ],
+      "common_mistakes": [
+        "プロパティ間の区切りをセミコロンにしてしまう（正しくはカンマ）",
+        "キー名にスペースを含める場合は引用符が必要なことを忘れる"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "dot-notation-access",
+      "description": "ドット記法（obj.key）でプロパティにアクセス・設定する",
+      "thinking_process": [
+        "obj.key の形式でプロパティにアクセスできることを理解する",
+        "存在しないプロパティへのアクセスはundefinedを返すことを把握する",
+        "代入（obj.key = 値）で新しいプロパティを追加・既存プロパティを更新できることを理解する"
+      ],
+      "common_mistakes": [
+        "プロパティ名が変数に入っている場合にドット記法を使ってしまう",
+        "存在しないプロパティへのアクセスはエラーではなくundefinedになることを知らない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "bracket-notation-access",
+      "description": "ブラケット記法（obj[key]）でプロパティにアクセスする（変数・動的なキー）",
+      "thinking_process": [
+        "obj['key'] と obj[変数] の使い分けを理解する",
+        "プロパティ名が動的に決まる場合はブラケット記法が必須であることを把握する",
+        "ブラケット記法では式が評価されてからキーとして使われることを理解する"
+      ],
+      "common_mistakes": [
+        "obj[key]のkeyが文字列変数なのか、文字列リテラルなのかを混同する",
+        "数値をキーとして使う場合のアクセス方法を誤る"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "object-methods",
+      "description": "オブジェクトのメソッド（プロパティに関数を設定）とthisキーワードの使い方",
+      "thinking_process": [
+        "メソッドはプロパティの値が関数であることを理解する",
+        "thisがそのメソッドを持つオブジェクト自身を指すことを理解する",
+        "アロー関数ではthisの意味が異なることを把握する"
+      ],
+      "common_mistakes": [
+        "thisの参照先を誤解する（アロー関数と通常関数で異なる）",
+        "メソッド内でthisを使わずにオブジェクト名を直接書いてしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "property-existence-deletion",
+      "description": "inオペレータ・hasOwnProperty・deleteを使ったプロパティ操作",
+      "thinking_process": [
+        "'key' in objでプロパティの存在確認ができることを理解する",
+        "delete obj.keyでプロパティを削除できることを把握する",
+        "undefined チェックとinオペレータの違いを理解する"
+      ],
+      "common_mistakes": [
+        "プロパティの値がundefinedの場合にundefinedチェックで「存在しない」と誤判定する",
+        "deleteは変数の削除ではなくプロパティの削除に使うことを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "object-methods-keys-values",
+      "description": "Object.keys() / Object.values() / Object.entries()でオブジェクトを反復処理する",
+      "thinking_process": [
+        "Object.keys(obj)はキーの配列を返すことを理解する",
+        "Object.values(obj)は値の配列を返すことを理解する",
+        "Object.entries(obj)は[キー, 値]の配列の配列を返すことを理解する",
+        "forEachやfor...ofと組み合わせて使う方法を把握する"
+      ],
+      "common_mistakes": [
+        "for...inとObject.keys()の使い分けを誤る",
+        "Object.entries()の各要素が[key, value]の配列であることを忘れる"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "shorthand-computed-properties",
+      "description": "省略記法・算出プロパティ名・スプレッドを使ったオブジェクト記法",
+      "thinking_process": [
+        "変数名と同名のプロパティは{name}のように省略できることを理解する",
+        "[式]をキーとして使う算出プロパティ名の構文を把握する",
+        "オブジェクトのコピーや結合にスプレッド構文が使えることを理解する"
+      ],
+      "common_mistakes": [
+        "省略記法を使えるのはプロパティ名と変数名が同じ場合のみであることを忘れる",
+        "算出プロパティ名の[]の中に書いた式が評価されることを理解していない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

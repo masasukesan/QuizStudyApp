@@ -1,0 +1,932 @@
+[
+  {
+    "id": "aa-basic-001",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "Array.prototype.reduce() のコールバック関数の引数は何か。正しい説明を選べ。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "第1引数が累積値 (accumulator)、第2引数が現在の要素 (currentValue)"
+      },
+      {
+        "label": "B",
+        "text": "第1引数が現在の要素 (currentValue)、第2引数が累積値 (accumulator)"
+      },
+      {
+        "label": "C",
+        "text": "第1引数がインデックス、第2引数が現在の要素 (currentValue)"
+      },
+      {
+        "label": "D",
+        "text": "第1引数が配列全体、第2引数が現在の要素 (currentValue)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "引数の順番"
+    ]
+  },
+  {
+    "id": "aa-basic-002",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると何が出力されるか。\n```\nconst nums = [1, 2, 3, 4];\nconst result = nums.reduce((acc, cur) => acc + cur, 0);\nconsole.log(result);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "[1, 2, 3, 4]"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "合計計算",
+      "初期値"
+    ]
+  },
+  {
+    "id": "aa-basic-003",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "reduce() に初期値を指定しないとき、accumulator の最初の値は何になるか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "配列の最初の要素"
+      },
+      {
+        "label": "D",
+        "text": "null"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "reduce",
+      "初期値なし"
+    ]
+  },
+  {
+    "id": "aa-basic-004",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "Array.prototype.find() の戻り値について正しく説明しているのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "条件に一致した全要素を含む新しい配列"
+      },
+      {
+        "label": "B",
+        "text": "条件に一致した最初の要素そのもの (見つからなければ undefined)"
+      },
+      {
+        "label": "C",
+        "text": "条件に一致した最初の要素のインデックス (見つからなければ -1)"
+      },
+      {
+        "label": "D",
+        "text": "true または false"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "find",
+      "戻り値"
+    ]
+  },
+  {
+    "id": "aa-basic-005",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると何が出力されるか。\n```\nconst arr = [10, 20, 30];\nconst found = arr.find(x => x > 100);\nconsole.log(found);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "null"
+      },
+      {
+        "label": "B",
+        "text": "false"
+      },
+      {
+        "label": "C",
+        "text": "undefined"
+      },
+      {
+        "label": "D",
+        "text": "-1"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "find",
+      "見つからない場合"
+    ]
+  },
+  {
+    "id": "aa-basic-006",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "Array.prototype.findIndex() が条件に一致する要素を見つけられなかったとき、何を返すか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "null"
+      },
+      {
+        "label": "B",
+        "text": "undefined"
+      },
+      {
+        "label": "C",
+        "text": "false"
+      },
+      {
+        "label": "D",
+        "text": "-1"
+      }
+    ],
+    "correct": "D",
+    "reasoning_tags": [
+      "findIndex",
+      "見つからない場合"
+    ]
+  },
+  {
+    "id": "aa-basic-007",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "次のコードの出力結果はどれか。\n```\nconst arr = [10, 9, 2, 21, 3];\narr.sort();\nconsole.log(arr[0]);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "sort",
+      "デフォルト動作",
+      "文字列順"
+    ]
+  },
+  {
+    "id": "aa-basic-008",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "sort() の比較関数として「a から b を引いた値」を返す `(a, b) => a - b` を渡したとき、数値配列はどのように並ぶか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "昇順(小さい順)に並ぶ"
+      },
+      {
+        "label": "B",
+        "text": "降順(大きい順)に並ぶ"
+      },
+      {
+        "label": "C",
+        "text": "元の並び順のまま変わらない"
+      },
+      {
+        "label": "D",
+        "text": "ランダムな順序になる"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "sort",
+      "比較関数",
+      "昇順"
+    ]
+  },
+  {
+    "id": "aa-basic-009",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "Array.prototype.sort() は元の配列をどのように扱うか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "元の配列をそのままにして、並び替えた新しい配列を返す"
+      },
+      {
+        "label": "B",
+        "text": "元の配列自体を並び替え (破壊的変更) し、その配列を返す"
+      },
+      {
+        "label": "C",
+        "text": "元の配列をそのままにして、並び替えた配列のコピーを返す"
+      },
+      {
+        "label": "D",
+        "text": "新しい配列を返し、元の配列は空になる"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "sort",
+      "破壊的変更"
+    ]
+  },
+  {
+    "id": "aa-basic-010",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "basic",
+    "question": "find() と filter() の最も重要な違いはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "find() はコールバックを使えるが filter() は使えない"
+      },
+      {
+        "label": "B",
+        "text": "find() は条件に一致した最初の要素 (または undefined) を返し、filter() は条件に一致した全要素の配列を返す"
+      },
+      {
+        "label": "C",
+        "text": "find() は配列を破壊的に変更するが filter() は変更しない"
+      },
+      {
+        "label": "D",
+        "text": "find() は数値配列にしか使えないが filter() はどんな配列にも使える"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "find",
+      "filter",
+      "使い分け"
+    ]
+  },
+  {
+    "id": "aa-std-001",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "数値配列 [10, 2, 20, 1] を降順(大きい順)に並べる方法として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "比較関数なしで sort() を呼ぶ(文字列順になるため [1, 10, 2, 20] になる)"
+      },
+      {
+        "label": "B",
+        "text": "a から b を引いた値を返す比較関数を渡す(昇順になるため [1, 2, 10, 20] になる)"
+      },
+      {
+        "label": "C",
+        "text": "b から a を引いた値を返す比較関数を渡す(降順になるため [20, 10, 2, 1] になる)"
+      },
+      {
+        "label": "D",
+        "text": "a と b の和を返す比較関数を渡す(常に正の値になるため意図した降順にはならない)"
+      }
+    ],
+    "correct": "C",
+    "reasoning_tags": [
+      "sort",
+      "降順",
+      "比較関数"
+    ]
+  },
+  {
+    "id": "aa-std-002",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "次のコードで出力される result の値はどれか。\n```\nconst words = ['banana', 'apple', 'cherry'];\nconst result = words.reduce((acc, cur) => {\n  acc[cur] = cur.length;\n  return acc;\n}, {});\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ banana: 6, apple: 5, cherry: 6 }"
+      },
+      {
+        "label": "B",
+        "text": "['banana', 'apple', 'cherry']"
+      },
+      {
+        "label": "C",
+        "text": "17"
+      },
+      {
+        "label": "D",
+        "text": "{ 6: 'cherry', 5: 'apple' }"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "オブジェクト変換",
+      "初期値オブジェクト"
+    ]
+  },
+  {
+    "id": "aa-std-003",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "次のコードで result に入る値はどれか。\n```\nconst users = [\n  { name: 'Alice', age: 25 },\n  { name: 'Bob', age: 30 },\n  { name: 'Carol', age: 22 }\n];\nconst result = users.find(u => u.age > 24);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ name: 'Alice', age: 25 }"
+      },
+      {
+        "label": "B",
+        "text": "[{ name: 'Alice', age: 25 }, { name: 'Bob', age: 30 }]"
+      },
+      {
+        "label": "C",
+        "text": "{ name: 'Bob', age: 30 }"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "find",
+      "オブジェクト配列",
+      "最初の一致"
+    ]
+  },
+  {
+    "id": "aa-std-004",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "次のコードで idx に入る値はどれか。\n```\nconst scores = [70, 85, 60, 90, 75];\nconst idx = scores.findIndex(s => s >= 90);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "90"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "findIndex",
+      "インデックス取得"
+    ]
+  },
+  {
+    "id": "aa-std-005",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "オブジェクト配列 users を age プロパティで昇順(若い順)に並べる sort() の比較関数として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2つの要素をそのまま引き算する(オブジェクトなので NaN になり正しく動かない)"
+      },
+      {
+        "label": "B",
+        "text": "2つの要素の age プロパティ同士を引き算する(a.age から b.age を引く)"
+      },
+      {
+        "label": "C",
+        "text": "2つの要素の age プロパティを逆に引き算する(b.age から a.age を引く)"
+      },
+      {
+        "label": "D",
+        "text": "2つの要素の age プロパティを足し算する(a.age に b.age を足す)"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "sort",
+      "オブジェクト配列",
+      "プロパティ昇順"
+    ]
+  },
+  {
+    "id": "aa-std-006",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "次のコードの result はどれか。\n```\nconst nums = [1, 2, 3, 4, 5];\nconst result = nums\n  .filter(n => n % 2 === 0)\n  .map(n => n * 10);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[20, 40]"
+      },
+      {
+        "label": "B",
+        "text": "[10, 20, 30, 40, 50]"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "[2, 4]"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "filter",
+      "map",
+      "メソッドチェーン"
+    ]
+  },
+  {
+    "id": "aa-std-007",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "reduce を使って配列 [3, 1, 4, 1, 5, 9] の最大値を求める処理として正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "acc と cur を比較して大きい方を次の acc として返す(初期値 0)"
+      },
+      {
+        "label": "B",
+        "text": "acc に cur を足した値を次の acc として返す(初期値 0)"
+      },
+      {
+        "label": "C",
+        "text": "acc と cur を比較して小さい方を次の acc として返す(初期値 0)"
+      },
+      {
+        "label": "D",
+        "text": "cur をそのまま次の acc として返す(初期値 0)"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "最大値",
+      "比較"
+    ]
+  },
+  {
+    "id": "aa-std-008",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "「ユーザーリストの中から特定の ID を持つユーザーを探し、いなければ 'ゲスト' と表示したい」という要件に最も適したコードの組み合わせはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "find でユーザーを取得し、結果が undefined かどうかを三項演算子でチェックして name を表示する"
+      },
+      {
+        "label": "B",
+        "text": "filter でユーザー配列を取得し、その配列の .name プロパティに直接アクセスして表示する"
+      },
+      {
+        "label": "C",
+        "text": "findIndex でインデックスを取得し、そのインデックスの .name プロパティに直接アクセスして表示する"
+      },
+      {
+        "label": "D",
+        "text": "reduce の初期値を [] にしてユーザーを探し、その結果の .name プロパティに直接アクセスして表示する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "find",
+      "undefined チェック",
+      "find vs filter"
+    ]
+  },
+  {
+    "id": "aa-std-009",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "sort() の比較関数 `(a, b) => a - b` において、戻り値が「負の数」のとき、sort はどう処理するか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "a と b の順番を入れ替えて b を a の前に置く"
+      },
+      {
+        "label": "B",
+        "text": "a をそのまま b の前に置く (順番を変えない)"
+      },
+      {
+        "label": "C",
+        "text": "両要素を配列から削除する"
+      },
+      {
+        "label": "D",
+        "text": "戻り値 0 のときと同じ扱いになる"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "sort",
+      "比較関数",
+      "戻り値の意味"
+    ]
+  },
+  {
+    "id": "aa-std-010",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "standard",
+    "question": "数値配列 nums の元の順番を保ちつつ、昇順ソート済みのコピーを sorted に代入したい。正しい方法はどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "nums に直接 sort をかけて sorted に代入する(nums 自体も並び替えられてしまう)"
+      },
+      {
+        "label": "B",
+        "text": "スプレッド構文 [...nums] でコピーを作り、そのコピーに昇順の比較関数を渡して sort をかける"
+      },
+      {
+        "label": "C",
+        "text": "nums.slice() でコピーを作り、比較関数なしで sort をかける(数値が文字列順になる)"
+      },
+      {
+        "label": "D",
+        "text": "nums を sorted に代入してから sort をかける(nums と sorted は同じ配列を参照するため nums も変わる)"
+      }
+    ],
+    "correct": "B",
+    "reasoning_tags": [
+      "sort",
+      "スプレッド構文",
+      "破壊的変更を避ける"
+    ]
+  },
+  {
+    "id": "aa-exam-001",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードの result はどれか。\n```\nconst items = ['a', 'b', 'a', 'c', 'b', 'a'];\nconst result = items.reduce((acc, cur) => {\n  acc[cur] = (acc[cur] || 0) + 1;\n  return acc;\n}, {});\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ a: 3, b: 2, c: 1 }"
+      },
+      {
+        "label": "B",
+        "text": "{ a: 1, b: 1, c: 1 }"
+      },
+      {
+        "label": "C",
+        "text": "['a', 'b', 'c']"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "グルーピング",
+      "出現回数"
+    ]
+  },
+  {
+    "id": "aa-exam-002",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードで result に入る値はどれか。\n```\nconst students = [\n  { name: 'Alice', score: 85 },\n  { name: 'Bob', score: 72 },\n  { name: 'Carol', score: 91 },\n  { name: 'Dave', score: 68 }\n];\nconst result = students\n  .filter(s => s.score >= 70)\n  .reduce((acc, s) => acc + s.score, 0);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "248"
+      },
+      {
+        "label": "B",
+        "text": "176"
+      },
+      {
+        "label": "C",
+        "text": "316"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "filter",
+      "reduce",
+      "メソッドチェーン",
+      "合計計算"
+    ]
+  },
+  {
+    "id": "aa-exam-003",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "オブジェクト配列 products を「category 昇順、同じ category なら price 昇順」にソートする比較関数のロジックとして正しいのはどれか。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "category の localeCompare が 0(等しい)のときだけ price の差で比較し、そうでなければ localeCompare の結果で比較する"
+      },
+      {
+        "label": "B",
+        "text": "category を数値として引き算し、等しければ price の差で比較する"
+      },
+      {
+        "label": "C",
+        "text": "category の localeCompare の結果と price の差を AND (&&) で組み合わせる"
+      },
+      {
+        "label": "D",
+        "text": "price の差を先に計算し、等しければ category の localeCompare で比較する"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "sort",
+      "複数キー",
+      "localeCompare",
+      "短絡評価"
+    ]
+  },
+  {
+    "id": "aa-exam-004",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードの result はどれか。\n```\nconst data = [[1, 2], [3, 4], [5]];\nconst result = data.reduce((acc, cur) => acc.concat(cur), []);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[1, 2, 3, 4, 5]"
+      },
+      {
+        "label": "B",
+        "text": "[[1,2],[3,4],[5]]"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "[[1,2,3,4,5]]"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "concat",
+      "フラット化"
+    ]
+  },
+  {
+    "id": "aa-exam-005",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードで result はどれか。\n```\nconst nums = [1, 2, 3, 4, 5, 6];\nconst result = nums.reduce((acc, cur) => {\n  if (!acc.includes(cur % 3)) acc.push(cur % 3);\n  return acc;\n}, []);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[1, 2, 0]"
+      },
+      {
+        "label": "B",
+        "text": "[1, 2, 0, 1, 2, 0]"
+      },
+      {
+        "label": "C",
+        "text": "[0, 2, 4, 6]"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "ユニーク",
+      "includes",
+      "余り"
+    ]
+  },
+  {
+    "id": "aa-exam-006",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードで result の値はどれか。\n```\nconst orders = [\n  { id: 1, amount: 300 },\n  { id: 2, amount: 150 },\n  { id: 3, amount: 450 }\n];\nconst result = orders\n  .sort((a, b) => b.amount - a.amount)\n  .map(o => o.id);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[3, 1, 2]"
+      },
+      {
+        "label": "B",
+        "text": "[1, 2, 3]"
+      },
+      {
+        "label": "C",
+        "text": "[2, 1, 3]"
+      },
+      {
+        "label": "D",
+        "text": "900"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "sort",
+      "map",
+      "メソッドチェーン",
+      "降順"
+    ]
+  },
+  {
+    "id": "aa-exam-007",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードで reduce の返す result の型と内容はどれか。\n```\nconst tags = ['js', 'css', 'js', 'html', 'css', 'js'];\nconst result = tags.reduce((acc, tag) => {\n  if (!acc.includes(tag)) acc.push(tag);\n  return acc;\n}, []);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "配列 ['js', 'css', 'html']"
+      },
+      {
+        "label": "B",
+        "text": "オブジェクト { js: 3, css: 2, html: 1 }"
+      },
+      {
+        "label": "C",
+        "text": "数値 3"
+      },
+      {
+        "label": "D",
+        "text": "配列 ['js', 'css', 'js', 'html', 'css', 'js']"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "reduce",
+      "重複除去",
+      "includes"
+    ]
+  },
+  {
+    "id": "aa-exam-008",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードの出力として正しいのはどれか。\n```\nconst arr = [3, 1, 4, 1, 5];\nconst copy = [...arr];\ncopy.sort((a, b) => a - b);\nconsole.log(arr[0], copy[0]);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3 1"
+      },
+      {
+        "label": "B",
+        "text": "1 1"
+      },
+      {
+        "label": "C",
+        "text": "3 3"
+      },
+      {
+        "label": "D",
+        "text": "1 3"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "sort",
+      "スプレッド構文",
+      "シャローコピー",
+      "破壊的変更"
+    ]
+  },
+  {
+    "id": "aa-exam-009",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードで result はどれか。\n```\nconst inventory = [\n  { item: 'pen', qty: 5 },\n  { item: 'notebook', qty: 0 },\n  { item: 'eraser', qty: 3 }\n];\nconst result = inventory\n  .filter(i => i.qty > 0)\n  .find(i => i.item.length > 4);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ item: 'eraser', qty: 3 }"
+      },
+      {
+        "label": "B",
+        "text": "{ item: 'notebook', qty: 0 }"
+      },
+      {
+        "label": "C",
+        "text": "[{ item: 'eraser', qty: 3 }]"
+      },
+      {
+        "label": "D",
+        "text": "undefined"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "filter",
+      "find",
+      "メソッドチェーン",
+      "文字列長"
+    ]
+  },
+  {
+    "id": "aa-exam-010",
+    "subject": "プログラミング",
+    "unit": "配列メソッド応用(reduce / find / sort)",
+    "difficulty": "exam",
+    "question": "次のコードで result はどれか。\n```\nconst scores = [72, 88, 55, 91, 64];\nconst result = scores\n  .map((s, i) => ({ index: i, score: s }))\n  .sort((a, b) => b.score - a.score)\n  .map(o => o.index);\n```",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[3, 1, 0, 4, 2]"
+      },
+      {
+        "label": "B",
+        "text": "[91, 88, 72, 64, 55]"
+      },
+      {
+        "label": "C",
+        "text": "[2, 4, 0, 1, 3]"
+      },
+      {
+        "label": "D",
+        "text": "[0, 1, 2, 3, 4]"
+      }
+    ],
+    "correct": "A",
+    "reasoning_tags": [
+      "map",
+      "sort",
+      "インデックス保持",
+      "メソッドチェーン"
+    ]
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "unit_id": "destructuring",
+  "unit_name_jp": "分割代入（オブジェクト・配列）",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "obj-destructure-basic",
+      "description": "オブジェクトのプロパティを変数に分割代入する基本構文を理解する",
+      "thinking_process": [
+        "オブジェクトのプロパティ名と変数名の対応を確認する",
+        "{ プロパティ名 } の構文でオブジェクトから取り出す",
+        "取り出した変数に正しい値が入るかを追う"
+      ],
+      "common_mistakes": [
+        "配列の分割代入と混同して [ ] を使ってしまう",
+        "プロパティ名が異なる変数名に自動マッピングされると誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "obj-destructure-rename",
+      "description": "オブジェクト分割代入で変数名を変更する（エイリアス）構文を理解する",
+      "thinking_process": [
+        "{ プロパティ名: 新しい変数名 } の形式を確認する",
+        "元のプロパティ名は新しいスコープには存在しないことを理解する",
+        "エイリアス後の変数名でアクセスする"
+      ],
+      "common_mistakes": [
+        "コロンの左右の意味を逆に覚えてしまう",
+        "エイリアス後も元のプロパティ名で使えると思ってしまう"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "obj-destructure-default",
+      "description": "分割代入でデフォルト値を設定する構文を理解する",
+      "thinking_process": [
+        "プロパティが undefined のときのみデフォルト値が使われることを確認する",
+        "null の場合はデフォルト値にならないことを押さえる",
+        "= でデフォルト値を指定する"
+      ],
+      "common_mistakes": [
+        "null でもデフォルト値が使われると勘違いする",
+        "プロパティが存在しない場合と null の場合を区別しない"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "arr-destructure-basic",
+      "description": "配列の要素を順番に変数に分割代入する基本構文を理解する",
+      "thinking_process": [
+        "[ 変数名 ] の構文で配列の各インデックスから取り出す",
+        "左辺の順番と配列のインデックスが対応することを確認する",
+        "余分な要素はスキップされることを理解する"
+      ],
+      "common_mistakes": [
+        "オブジェクトの分割代入と混同して { } を使ってしまう",
+        "インデックスの順番を無視できると誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "arr-destructure-skip",
+      "description": "配列の分割代入で特定要素をスキップする構文を理解する",
+      "thinking_process": [
+        "カンマで区切ることで対応する位置をスキップできることを理解する",
+        "スキップした位置の値は取り出されないことを確認する",
+        "何番目の要素が取り出されるかをカンマの数から追う"
+      ],
+      "common_mistakes": [
+        "カンマの数と取り出し位置のズレを計算し間違える",
+        "スキップした変数が undefined になると誤解する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "nested-destructure",
+      "description": "ネストしたオブジェクト・配列の分割代入を理解する",
+      "thinking_process": [
+        "内側のオブジェクト・配列をさらに { } や [ ] で囲んで分割する",
+        "プロパティ名の後に : を置き、内側の構造を展開する",
+        "変数に何の値が入るかを外から内へ追う"
+      ],
+      "common_mistakes": [
+        "ネストの深さに合わせた { } の対応関係を見誤る",
+        "内側のプロパティに直接アクセスできると誤解する"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "function-param-destructure",
+      "description": "関数の引数でオブジェクト分割代入を使う構文を理解する",
+      "thinking_process": [
+        "関数パラメータに { } を使ってオブジェクトのプロパティを直接受け取る",
+        "呼び出し時に渡すオブジェクトのプロパティ名が一致していることを確認する",
+        "デフォルト値も組み合わせることができることを理解する"
+      ],
+      "common_mistakes": [
+        "引数名を自由に変えると値が取れなくなると混乱する",
+        "関数内でオブジェクト全体ではなくプロパティが展開されていることを忘れる"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "rest-in-destructure",
+      "description": "分割代入の残余要素（レスト構文）を理解する",
+      "thinking_process": [
+        "...変数名 で取り出されなかった残りの要素を一括で受け取る",
+        "オブジェクトではレストは残りのプロパティをまとめた新オブジェクトになる",
+        "配列ではレストは残りの要素をまとめた新配列になる"
+      ],
+      "common_mistakes": [
+        "レスト変数が単一の値になると誤解する",
+        "レスト構文を分割代入の先頭に置いてしまう"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "swap-with-destructure",
+      "description": "配列の分割代入を使って2つの変数の値を入れ替える慣用句を理解する",
+      "thinking_process": [
+        "一時変数なしで [a, b] = [b, a] のように入れ替えられることを確認する",
+        "右辺の配列が先に評価され、その後左辺に代入されることを理解する",
+        "元の a・b の値がどう変化するかを追う"
+      ],
+      "common_mistakes": [
+        "右辺が左辺に代入されるタイミングを誤解し「aが書き変わってからbに入る」と思う",
+        "一時変数が必要だと思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "complex-obj-destructure",
+      "description": "実践的なオブジェクト分割代入（エイリアス+デフォルト値+ネスト）を組み合わせる",
+      "thinking_process": [
+        "{ プロパティ名: 変数名 = デフォルト値 } の複合構文を解析する",
+        "プロパティが存在する場合とない場合の挙動を分けて考える",
+        "ネストと組み合わさった場合も外から内へ順番に解析する"
+      ],
+      "common_mistakes": [
+        "エイリアスとデフォルト値の記号（: と =）の役割を取り違える",
+        "ネストしたデフォルト値が親のプロパティが undefined の場合も動くと誤解する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "destructure-in-loop",
+      "description": "for...of ループの中で分割代入を使い、配列の要素を効率的に取り出す",
+      "thinking_process": [
+        "for (const { key } of array) の構文を確認する",
+        "ループ変数で直接プロパティを取り出せることを理解する",
+        "各イテレーションで変数に入る値を追う"
+      ],
+      "common_mistakes": [
+        "ループ変数にオブジェクト全体が入ると思い、別途プロパティアクセスが必要だと誤解する",
+        "for...in と for...of を混同する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "dynamic-key-destructure",
+      "description": "動的なプロパティ名を使った分割代入（計算プロパティキー）を理解する",
+      "thinking_process": [
+        "{ [変数]: alias } の形で実行時に決まるキー名を使って分割代入できることを確認する",
+        "必ずエイリアス（コロン以降の変数名）が必要なことを理解する",
+        "キー名が動的に決まる場面でどう使うかを考える"
+      ],
+      "common_mistakes": [
+        "通常の分割代入と構文が似ているため [ ] の意味を取り違える",
+        "エイリアスなしで動的キーが使えると誤解する"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

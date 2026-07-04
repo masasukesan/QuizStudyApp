@@ -1,0 +1,782 @@
+[
+  {
+    "id": "obj-basic-001",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "JavaScriptでオブジェクトとは何ですか？最も正確な説明を選んでください。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「名前(キー)」と「値」のペアをまとめてデータを管理する仕組み"
+      },
+      {
+        "label": "B",
+        "text": "数値だけを順番に並べて管理する仕組み"
+      },
+      {
+        "label": "C",
+        "text": "関数だけを格納するための特別なデータ構造"
+      },
+      {
+        "label": "D",
+        "text": "文字列を一文字ずつ格納する配列の別名"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-002",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "次のコードでオブジェクトを正しく作成しているのはどれですか？\n（名前が「太郎」、年齢が16のオブジェクトを作りたい）",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const person = { name: '太郎', age: 16 };"
+      },
+      {
+        "label": "B",
+        "text": "const person = ( name: '太郎'; age: 16 );"
+      },
+      {
+        "label": "C",
+        "text": "const person = [ name: '太郎', age: 16 ];"
+      },
+      {
+        "label": "D",
+        "text": "const person = { name = '太郎', age = 16 };"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-003",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "次のコードを実行すると、コンソールに何が出力されますか？\n\nconst cat = { name: 'ミケ', color: '白' };\nconsole.log(cat.name);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ミケ"
+      },
+      {
+        "label": "B",
+        "text": "cat.name"
+      },
+      {
+        "label": "C",
+        "text": "undefined"
+      },
+      {
+        "label": "D",
+        "text": "{ name: 'ミケ', color: '白' }"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-004",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "存在しないプロパティにアクセスしたとき、JavaScriptはどのように動作しますか？\n\nconst book = { title: 'JS入門' };\nconsole.log(book.price);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "undefined が出力される"
+      },
+      {
+        "label": "B",
+        "text": "エラーが発生してプログラムが止まる"
+      },
+      {
+        "label": "C",
+        "text": "null が出力される"
+      },
+      {
+        "label": "D",
+        "text": "0 が出力される"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-005",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "オブジェクトに新しいプロパティを追加する正しい方法はどれですか？\n（既存のオブジェクト dog に 'breed' プロパティを追加したい）",
+    "choices": [
+      {
+        "label": "A",
+        "text": "dog.breed = '柴犬';"
+      },
+      {
+        "label": "B",
+        "text": "dog.add('breed', '柴犬');"
+      },
+      {
+        "label": "C",
+        "text": "dog.push({ breed: '柴犬' });"
+      },
+      {
+        "label": "D",
+        "text": "dog = dog + { breed: '柴犬' };"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-006",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "オブジェクトのプロパティを更新するとき、正しいコードはどれですか？\n（score を 80 から 95 に変更したい）\n\nconst student = { name: '花子', score: 80 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "student.score = 95;"
+      },
+      {
+        "label": "B",
+        "text": "student.update(score, 95);"
+      },
+      {
+        "label": "C",
+        "text": "student = { ...student, score: 95 }; // constなのでエラー"
+      },
+      {
+        "label": "D",
+        "text": "student.score += 95; // 加算になるため 80 + 95 = 175 になる"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-007",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "オブジェクトのプロパティの値として使えないものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "オブジェクトのプロパティの値には何でも使える (数値・文字列・配列・オブジェクト・関数など)"
+      },
+      {
+        "label": "B",
+        "text": "文字列のみ使える"
+      },
+      {
+        "label": "C",
+        "text": "数値と文字列のみ使える"
+      },
+      {
+        "label": "D",
+        "text": "プリミティブ型 (文字列・数値・真偽値) のみ使える"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-008",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "次のオブジェクトのプロパティ間の区切り文字として正しいのはどれですか？\n\nconst obj = { a: 1 ___ b: 2 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "カンマ (,)"
+      },
+      {
+        "label": "B",
+        "text": "セミコロン (;)"
+      },
+      {
+        "label": "C",
+        "text": "コロン (:)"
+      },
+      {
+        "label": "D",
+        "text": "スラッシュ (/)"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-009",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "オブジェクトのプロパティにアクセスするドット記法 (.) が使えないのはどのような場合ですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "プロパティ名にスペースや特殊文字が含まれる場合 (例: 'first name')"
+      },
+      {
+        "label": "B",
+        "text": "プロパティの値が文字列の場合"
+      },
+      {
+        "label": "C",
+        "text": "オブジェクトがconstで宣言されている場合"
+      },
+      {
+        "label": "D",
+        "text": "プロパティの値が数値の場合"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-basic-010",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "basic",
+    "question": "次のコードの実行結果として正しいものはどれですか？\n\nconst car = { brand: 'トヨタ', year: 2020 };\nconsole.log(typeof car);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'object'"
+      },
+      {
+        "label": "B",
+        "text": "'array'"
+      },
+      {
+        "label": "C",
+        "text": "'dict'"
+      },
+      {
+        "label": "D",
+        "text": "'undefined'"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-001",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "ブラケット記法 (obj[key]) を必ず使わなければならない場面はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アクセスしたいプロパティ名が変数に入っている場合 (例: const key = 'name'; obj[key])"
+      },
+      {
+        "label": "B",
+        "text": "プロパティの値が文字列の場合"
+      },
+      {
+        "label": "C",
+        "text": "オブジェクトがletで宣言されている場合"
+      },
+      {
+        "label": "D",
+        "text": "オブジェクトのプロパティが3個以上ある場合"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-002",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると何が出力されますか？\n\nconst user = { name: '次郎', age: 20 };\nconst key = 'age';\nconsole.log(user[key]);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "'age'"
+      },
+      {
+        "label": "C",
+        "text": "undefined"
+      },
+      {
+        "label": "D",
+        "text": "key"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-003",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "オブジェクトにメソッド（関数をプロパティとして持つ）を定義する正しいコードはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "{ greet: function() { return 'こんにちは'; } }"
+      },
+      {
+        "label": "B",
+        "text": "{ greet() => { return 'こんにちは'; } }"
+      },
+      {
+        "label": "C",
+        "text": "{ function greet() { return 'こんにちは'; } }"
+      },
+      {
+        "label": "D",
+        "text": "{ greet: 'こんにちは'() }"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-004",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "メソッド内でthisを使う目的として正しいものはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "そのメソッドを持つオブジェクト自身のプロパティにアクセスするため"
+      },
+      {
+        "label": "B",
+        "text": "グローバル変数にアクセスするため"
+      },
+      {
+        "label": "C",
+        "text": "親クラスのメソッドを呼び出すため"
+      },
+      {
+        "label": "D",
+        "text": "引数を省略するため"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-005",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると何が出力されますか？\n\nconst player = {\n  name: '勇者',\n  hp: 100,\n  greet: function() {\n    return this.name + 'のHPは' + this.hp;\n  }\n};\nconsole.log(player.greet());",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'勇者のHPは100'"
+      },
+      {
+        "label": "B",
+        "text": "'this.nameのHPはthis.hp'"
+      },
+      {
+        "label": "C",
+        "text": "undefined のHPは undefined"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-006",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "オブジェクトのプロパティが存在するかどうかを確認する正しい方法はどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "'name' in obj"
+      },
+      {
+        "label": "B",
+        "text": "obj.has('name')"
+      },
+      {
+        "label": "C",
+        "text": "obj.includes('name')"
+      },
+      {
+        "label": "D",
+        "text": "obj.exist('name')"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-007",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "次のコードで、score プロパティを削除する正しいコードはどれですか？\n\nconst result = { name: '太一', score: 88 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "delete result.score;"
+      },
+      {
+        "label": "B",
+        "text": "result.score = null;"
+      },
+      {
+        "label": "C",
+        "text": "result.remove('score');"
+      },
+      {
+        "label": "D",
+        "text": "result.score = undefined;"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-008",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "ネストされたオブジェクトのプロパティに正しくアクセスしているのはどれですか？\n\nconst school = { name: '桜高校', address: { city: '東京', zip: '100-0001' } };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "school.address.city"
+      },
+      {
+        "label": "B",
+        "text": "school[address][city]"
+      },
+      {
+        "label": "C",
+        "text": "school.address[0]"
+      },
+      {
+        "label": "D",
+        "text": "school['address.city']"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-009",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "アロー関数をメソッドとして使ったとき、thisが期待どおりに動かない理由として正しいのはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アロー関数は自分自身のthisを持たず、外側のスコープのthisを引き継ぐため"
+      },
+      {
+        "label": "B",
+        "text": "アロー関数はオブジェクトのプロパティとして使えないため"
+      },
+      {
+        "label": "C",
+        "text": "アロー関数ではreturnが使えないため"
+      },
+      {
+        "label": "D",
+        "text": "アロー関数は非同期処理にしか使えないため"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-standard-010",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "standard",
+    "question": "次のコードを実行すると何が出力されますか？\n\nconst config = { debug: false };\nconsole.log('debug' in config);\nconsole.log(config.debug);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "true と false"
+      },
+      {
+        "label": "B",
+        "text": "false と false"
+      },
+      {
+        "label": "C",
+        "text": "true と undefined"
+      },
+      {
+        "label": "D",
+        "text": "false と undefined"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-001",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "Object.keys() を使ったとき、正しく動作するコードはどれですか？\n\nconst scores = { math: 80, english: 90, science: 75 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Object.keys(scores) // → ['math', 'english', 'science']"
+      },
+      {
+        "label": "B",
+        "text": "scores.keys() // このメソッドは通常オブジェクトには存在しない"
+      },
+      {
+        "label": "C",
+        "text": "Object.keys(scores) // → [80, 90, 75]"
+      },
+      {
+        "label": "D",
+        "text": "Object.keys(scores) // → [['math', 80], ['english', 90], ['science', 75]]"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-002",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "Object.entries() の戻り値として正しいのはどれですか？\n\nconst item = { name: 'りんご', price: 150 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "[['name', 'りんご'], ['price', 150]]"
+      },
+      {
+        "label": "B",
+        "text": "['name', 'price']"
+      },
+      {
+        "label": "C",
+        "text": "['りんご', 150]"
+      },
+      {
+        "label": "D",
+        "text": "{ name: 'りんご', price: 150 }"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-003",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "Object.values() を使ったとき、戻り値と合計の説明として正しいのはどれですか？\n\nconst sales = { jan: 100, feb: 200, mar: 150 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Object.values(sales) は [100, 200, 150] を返すので、reduceで合計すると 450 になる"
+      },
+      {
+        "label": "B",
+        "text": "Object.values(sales) は ['jan', 'feb', 'mar'] を返すので、文字列の連結になる"
+      },
+      {
+        "label": "C",
+        "text": "Object.values(sales) はオブジェクトをそのまま返すので、reduce はできない"
+      },
+      {
+        "label": "D",
+        "text": "Object.keys(sales) と同じ戻り値のため、数値の合計ではなく文字列の結合になる"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-004",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "省略記法（ショートハンドプロパティ）を使ったオブジェクト作成として正しいのはどれですか？\n\nconst name = '春子';\nconst age = 17;\n// この2つの変数からオブジェクトを作りたい",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const person = { name, age }; // { name: '春子', age: 17 } と同じ"
+      },
+      {
+        "label": "B",
+        "text": "name() と age() のようにメソッド記法になってしまい、プロパティの値にはならない"
+      },
+      {
+        "label": "C",
+        "text": "プロパティ名と変数名が同じ場合でも省略記法は使えず { name: name } と書く必要がある"
+      },
+      {
+        "label": "D",
+        "text": "省略記法は変数が定義されていない場合のみ使えるので、このケースでは使えない"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-005",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "算出プロパティ名（computed property name）を使った正しいコードはどれですか？\n（変数 field の値をプロパティ名として使いたい）\n\nconst field = 'score';\nconst value = 95;",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const obj = { [field]: value }; // { score: 95 }"
+      },
+      {
+        "label": "B",
+        "text": "{ field: value } と書くと field の値ではなく文字列 'field' がキーになる"
+      },
+      {
+        "label": "C",
+        "text": "{ $field: value } と書くと $ 記号付きのプロパティ名になる"
+      },
+      {
+        "label": "D",
+        "text": "const obj = {}; obj.field = value;"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-006",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "オブジェクトを浅くコピーする正しい方法はどれですか？\n\nconst original = { x: 1, y: 2 };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const copy = { ...original };"
+      },
+      {
+        "label": "B",
+        "text": "const copy = original;"
+      },
+      {
+        "label": "C",
+        "text": "const copy = Object.copy(original);"
+      },
+      {
+        "label": "D",
+        "text": "const copy = original.clone();"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-007",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "2つのオブジェクトをスプレッド構文でマージするとき、正しい動作の説明はどれですか？\n\nconst a = { x: 1, y: 2 };\nconst b = { y: 99, z: 3 };\nconst merged = { ...a, ...b };",
+    "choices": [
+      {
+        "label": "A",
+        "text": "後から展開した b のプロパティが優先されるため y は 99 になり、merged は { x: 1, y: 99, z: 3 } になる"
+      },
+      {
+        "label": "B",
+        "text": "先に展開した a のプロパティが優先されるため y は 2 のまま残り、merged は { x: 1, y: 2, z: 3 } になる"
+      },
+      {
+        "label": "C",
+        "text": "const merged = a + b;"
+      },
+      {
+        "label": "D",
+        "text": "const merged = Object.merge(a, b);"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-008",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "メソッドの省略記法として正しいコードはどれですか？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "const obj = { greet() { return 'hello'; } };"
+      },
+      {
+        "label": "B",
+        "text": "const obj = { greet: => { return 'hello'; } };"
+      },
+      {
+        "label": "C",
+        "text": "{ function greet() { return 'hello'; } } // オブジェクト内にfunctionキーワードは使えない"
+      },
+      {
+        "label": "D",
+        "text": "greet: function greet() {} の形式のみが省略記法として正しく、{ greet() {} } は使えない"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-009",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "for...in ループでオブジェクトのプロパティを反復処理するとき、ループ変数に入るのは何ですか？\n\nconst obj = { a: 1, b: 2, c: 3 };\nfor (const key in obj) { console.log(key); }",
+    "choices": [
+      {
+        "label": "A",
+        "text": "プロパティのキー ('a', 'b', 'c') が順に入る"
+      },
+      {
+        "label": "B",
+        "text": "プロパティの値 (1, 2, 3) が順に入る"
+      },
+      {
+        "label": "C",
+        "text": "['a', 1] のようなキーと値のペアが入る"
+      },
+      {
+        "label": "D",
+        "text": "インデックス番号 (0, 1, 2) が入る"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "obj-exam-010",
+    "subject": "プログラミング",
+    "unit": "オブジェクトの基本",
+    "difficulty": "exam",
+    "question": "次のコードの実行結果として正しいものはどれですか？\n\nconst base = { level: 1, hp: 100 };\nconst hero = { ...base, name: '勇者', hp: 150 };\nconsole.log(hero.hp);\nconsole.log(hero.level);",
+    "choices": [
+      {
+        "label": "A",
+        "text": "150 と 1 // ...base のhpが後のhp:150で上書きされる"
+      },
+      {
+        "label": "B",
+        "text": "100 と 1 // ...base のhpが優先される"
+      },
+      {
+        "label": "C",
+        "text": "250 と 1 // hpが合算される"
+      },
+      {
+        "label": "D",
+        "text": "エラーが発生する // hpが重複しているため"
+      }
+    ],
+    "correct": "A"
+  }
+]

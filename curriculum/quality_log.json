@@ -236,5 +236,103 @@
     "checked_at": "2026-06-30",
     "question_count": 30,
     "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/arrays/array-methods",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/sequences/arithmetic-sequences",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/sequences/difference-sequences",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/arrays/array-advanced",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-and-measure/sine-and-cosine-laws",
+    "status": "passed",
+    "checked_at": "2026-06-30",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/objects/object-basics",
+    "status": "passed",
+    "checked_at": "2026-07-01",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/objects/destructuring",
+    "status": "passed",
+    "checked_at": "2026-07-01",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/objects/spread-rest",
+    "status": "passed",
+    "checked_at": "2026-07-01",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/async-basics/callbacks",
+    "status": "passed",
+    "checked_at": "2026-07-01",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-and-measure/trigonometry-and-geometry-measurement",
+    "status": "passed",
+    "checked_at": "2026-07-01",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/programming/js-basics/async-basics/promises-async-await",
+    "status": "passed",
+    "checked_at": "2026-07-02",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-properties/basic-plane-figures",
+    "status": "passed",
+    "checked_at": "2026-07-02",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/sequences/recurrence-relations",
+    "status": "passed",
+    "checked_at": "2026-07-04",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-properties/ceva-and-menelaus-theorems",
+    "status": "passed",
+    "checked_at": "2026-07-04",
+    "question_count": 30,
+    "notes": ""
   }
 ]

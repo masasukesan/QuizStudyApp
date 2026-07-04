@@ -1,0 +1,147 @@
+{
+  "unit_id": "callbacks",
+  "unit_name_jp": "コールバック関数と非同期の概念",
+  "grade": "プログラミング / JS基礎",
+  "patterns": [
+    {
+      "pattern_id": "callback-definition",
+      "description": "コールバック関数の定義：関数を引数として別の関数に渡し、特定のタイミングで呼び出される仕組み",
+      "thinking_process": [
+        "コールバックとは何かを理解する（関数を値として渡す）",
+        "fn と fn() の違いを理解する（参照 vs 呼び出し）",
+        "コールバックが呼ばれるタイミングを把握する"
+      ],
+      "common_mistakes": [
+        "コールバック関数を渡すときに fn() と書いて呼び出した戻り値を渡してしまう",
+        "コールバックの概念と通常の関数呼び出しを混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "sync-vs-async",
+      "description": "同期処理と非同期処理の違い：同期は上から順番に実行、非同期は完了を待たずに次の処理へ進む",
+      "thinking_process": [
+        "同期処理では1行ずつ順番に実行され、前の処理が終わるまで待つ",
+        "非同期処理では時間のかかる処理を開始した後、完了を待たずに次のコードへ進む",
+        "非同期処理のコールバックは、その処理が完了したときに呼ばれる"
+      ],
+      "common_mistakes": [
+        "非同期処理の直後にその結果を変数から読もうとする",
+        "setTimeoutの後に書いたコードはsetTimeout完了後に実行されると思う"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "setTimeout-pattern",
+      "description": "setTimeoutを使った遅延実行：指定したミリ秒後にコールバック関数を実行する",
+      "thinking_process": [
+        "setTimeoutの第1引数に関数参照、第2引数に遅延ミリ秒を渡す",
+        "setTimeoutは非同期なので呼び出した直後に次の行が実行される",
+        "コールバックが呼ばれるのは遅延時間後"
+      ],
+      "common_mistakes": [
+        "setTimeout(fn(), 1000) のようにコールバックを呼び出した戻り値を渡す",
+        "遅延時間の単位を秒だと思い込む（実際はミリ秒）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "event-listener-callback",
+      "description": "イベントリスナーにコールバックを渡す：addEventListener でイベント発生時に実行する関数を登録する",
+      "thinking_process": [
+        "addEventListener の第2引数にコールバック関数（参照）を渡す",
+        "イベントが発生したときに自動的にコールバックが実行される",
+        "コールバックにはイベントオブジェクトが自動的に渡される"
+      ],
+      "common_mistakes": [
+        "addEventListener の第2引数で fn() と書いて関数を呼び出してしまう",
+        "イベントオブジェクトが第1引数に自動で渡されることを知らない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "callback-execution-order",
+      "description": "非同期処理の実行順序：同期コードがすべて実行された後にコールバックキューの処理が実行される",
+      "thinking_process": [
+        "同期コードをすべて先に実行する",
+        "setTimeout(fn, 0) でも非同期なので同期コードより後に実行される",
+        "遅延時間が短いものほど先に実行される（同期コード完了後）"
+      ],
+      "common_mistakes": [
+        "setTimeout(fn, 0) は即座に実行されると思う（実は同期コード完了後）",
+        "遅延時間だけで実行順序を判断しようとする"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "error-first-callback",
+      "description": "エラーファーストコールバック：コールバックの第1引数にエラー、第2引数に成功データを渡す Node.js スタイルの規約",
+      "thinking_process": [
+        "コールバックの第1引数が null/undefined かどうかでエラー判定する",
+        "エラーがあれば早期リターンして以降の処理をスキップする",
+        "正常時は第2引数にデータが入っている"
+      ],
+      "common_mistakes": [
+        "エラーチェックをせずに第2引数のデータを使おうとする",
+        "第1引数と第2引数の順序を逆に覚えている"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "higher-order-function",
+      "description": "高階関数としてのコールバック：配列の map・filter・forEach などは関数を引数に取る高階関数",
+      "thinking_process": [
+        "高階関数とは関数を引数または戻り値として扱う関数のこと",
+        "コールバックは各要素に対して呼ばれる（value, index, array の3引数）",
+        "forEach は戻り値がなく、map はコールバックの戻り値を集めた新配列を返す"
+      ],
+      "common_mistakes": [
+        "forEach と map の違いを混同する（forEachは戻り値なし）",
+        "コールバック内の return が forEach では意味を持たないことを知らない"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "callback-hell",
+      "description": "コールバック地獄：非同期処理を順番に実行するためにコールバックを入れ子にすると読みづらくなる問題",
+      "thinking_process": [
+        "前の非同期処理の結果を使って次を呼ぶにはコールバック内で呼び出す必要がある",
+        "依存関係が続くほどネストが深くなる",
+        "各ネスト層でエラーハンドリングが必要になり複雑化する"
+      ],
+      "common_mistakes": [
+        "コールバック地獄を単なるインデントの問題だと思う",
+        "Promiseやasync/awaitが解決策であることを知らない"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "async-data-dependency",
+      "description": "非同期処理の依存関係：ある非同期処理の結果を次の非同期処理で使う場合、コールバック内でネストする必要がある",
+      "thinking_process": [
+        "非同期処理Aの完了を待ってからBを開始するにはAのコールバック内でBを呼ぶ",
+        "依存関係のない処理は並列に呼び出せる",
+        "非同期処理の外では結果の変数はまだ未設定のままである"
+      ],
+      "common_mistakes": [
+        "非同期処理の外（コールバックの外）で結果変数を読もうとする",
+        "依存関係のない処理もわざわざ直列にネストしてしまう"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "this-in-callback",
+      "description": "コールバック内の this：function()式はthisが変わる。アロー関数は定義された場所のthisを引き継ぐ",
+      "thinking_process": [
+        "function()式のthisは呼び出された文脈で決まる（コールバックとして渡すと変わる）",
+        "アロー関数のthisはレキシカルスコープ（定義された場所のthis）を引き継ぐ",
+        "thisがボタン要素を指す場合はfunction()、外側のオブジェクトを指す場合はアロー関数を選ぶ"
+      ],
+      "common_mistakes": [
+        "function()をコールバックとして渡すとthisがオブジェクトを指し続けると思う",
+        "アロー関数とfunction()のthisの違いを理解していない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

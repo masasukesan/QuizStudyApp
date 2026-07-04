@@ -1,0 +1,422 @@
+[
+  {
+    "id": "callbacks-b01",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "「コールバック関数」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "他の関数の引数として渡され、特定のタイミングで呼び出される関数" },
+      { "label": "B", "text": "戻り値として別の関数を返す関数" },
+      { "label": "C", "text": "再帰的に自分自身を呼び出す関数" },
+      { "label": "D", "text": "グローバルスコープで定義された関数" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b02",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "setTimeout に greet 関数を1秒後に実行するコールバックとして渡したい。正しい書き方はどれか？",
+    "choices": [
+      { "label": "A", "text": "setTimeout(greet, 1000)" },
+      { "label": "B", "text": "setTimeout(greet(), 1000)" },
+      { "label": "C", "text": "setTimeout(\"greet\", 1000)" },
+      { "label": "D", "text": "setTimeout(call greet, 1000)" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b03",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "次のコードの出力順として正しいのはどれか？\n\nconsole.log(\"A\");\nsetTimeout(function() { console.log(\"B\"); }, 1000);\nconsole.log(\"C\");",
+    "choices": [
+      { "label": "A", "text": "A → C → (約1秒後)B" },
+      { "label": "B", "text": "A → B → C" },
+      { "label": "C", "text": "A → (約1秒後)B → C" },
+      { "label": "D", "text": "B → A → C" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b04",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "「同期処理」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "コードを上から順番に1行ずつ実行し、1つの処理が完了してから次へ進む" },
+      { "label": "B", "text": "複数の処理を同時に実行する" },
+      { "label": "C", "text": "処理の完了を待たずに次のコードを実行し続ける" },
+      { "label": "D", "text": "一定時間後にまとめて処理を実行する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b05",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "「非同期処理」の特徴として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "時間のかかる処理の完了を待たずに、次のコードを実行し続ける" },
+      { "label": "B", "text": "処理を必ず1つずつ完了させてから次へ進む" },
+      { "label": "C", "text": "すべての処理を同時に開始して同時に終了させる" },
+      { "label": "D", "text": "エラーが発生した場合に処理を自動的に繰り返す" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b06",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "setTimeout(callback, 2000) の第2引数「2000」は何を意味するか？",
+    "choices": [
+      { "label": "A", "text": "コールバックを実行するまでの待機時間(ミリ秒)" },
+      { "label": "B", "text": "コールバックを実行するまでの待機時間(秒)" },
+      { "label": "C", "text": "コールバックを繰り返す回数" },
+      { "label": "D", "text": "コールバックに渡す引数の数" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b07",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "次のコードで「Hello!」が出力されるのはいつか？\n\nsetTimeout(function() {\n  console.log(\"Hello!\");\n}, 500);\nconsole.log(\"Start\");",
+    "choices": [
+      { "label": "A", "text": "「Start」が出力された後、約500ミリ秒後" },
+      { "label": "B", "text": "「Start」が出力される前" },
+      { "label": "C", "text": "「Start」と全く同時に" },
+      { "label": "D", "text": "setTimeout を呼んだ瞬間すぐに" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b08",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "次のコードの実行結果として正しいのはどれか？\n\nfunction greet(name) {\n  console.log(\"こんにちは、\" + name + \"！\");\n}\nfunction execute(fn, value) {\n  fn(value);\n}\nexecute(greet, \"田中\");",
+    "choices": [
+      { "label": "A", "text": "こんにちは、田中！" },
+      { "label": "B", "text": "こんにちは、undefined！" },
+      { "label": "C", "text": "こんにちは、fn！" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b09",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "setTimeout が返す値（タイマーID）は何のために使われるか？",
+    "choices": [
+      { "label": "A", "text": "clearTimeout() に渡してタイマーをキャンセルするため" },
+      { "label": "B", "text": "コールバックが実行された回数を確認するため" },
+      { "label": "C", "text": "コールバックの戻り値を受け取るため" },
+      { "label": "D", "text": "遅延時間を後から変更するため" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-b10",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "basic",
+    "question": "setTimeout と setInterval の違いとして正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "setTimeout はコールバックを1回だけ実行し、setInterval は指定した間隔で繰り返し実行する" },
+      { "label": "B", "text": "setTimeout は繰り返し実行し、setInterval は1回だけ実行する" },
+      { "label": "C", "text": "setTimeout は同期処理で、setInterval は非同期処理である" },
+      { "label": "D", "text": "どちらも全く同じで、使い分けは不要である" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s01",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "次のコードでボタンをクリックしたとき、コールバック関数はどのタイミングで実行されるか？\n\nbutton.addEventListener(\"click\", function() {\n  console.log(\"クリックされた！\");\n});",
+    "choices": [
+      { "label": "A", "text": "ユーザーがボタンをクリックしたとき(clickイベント発生時)" },
+      { "label": "B", "text": "addEventListener を呼び出した瞬間" },
+      { "label": "C", "text": "ページが読み込まれた直後に自動的に" },
+      { "label": "D", "text": "setTimeout で設定した時間後" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s02",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "次のコードの出力順として正しいのはどれか？\n\nconsole.log(\"1\");\nsetTimeout(function() {\n  console.log(\"2\");\n}, 0);\nconsole.log(\"3\");",
+    "choices": [
+      { "label": "A", "text": "1 → 3 → 2" },
+      { "label": "B", "text": "1 → 2 → 3" },
+      { "label": "C", "text": "2 → 1 → 3" },
+      { "label": "D", "text": "1 → 2と3が同時に出力" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s03",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "エラーファーストコールバックパターンで、コールバック内の正しい処理の流れはどれか？\n\nreadFile(\"data.txt\", function(err, data) {\n  // ここに書く\n});",
+    "choices": [
+      { "label": "A", "text": "if (err) { return; } と先にエラーを確認し、問題なければ data を使う" },
+      { "label": "B", "text": "data を先に使ってから、後で err を確認する" },
+      { "label": "C", "text": "err と data を気にせず、常に data を使えばよい" },
+      { "label": "D", "text": "err と data を同じ変数にまとめて取り出す" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s04",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "次のコードの実行結果として正しいのはどれか？\n\n[10, 20, 30].forEach(function(value, index) {\n  console.log(index + \": \" + value);\n});",
+    "choices": [
+      { "label": "A", "text": "0: 10 → 1: 20 → 2: 30" },
+      { "label": "B", "text": "1: 10 → 2: 20 → 3: 30" },
+      { "label": "C", "text": "10: 0 → 20: 1 → 30: 2" },
+      { "label": "D", "text": "0: 30 → 1: 20 → 2: 10" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s05",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "forEach と map の違いとして正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "forEach はコールバックの戻り値を無視するが、map はコールバックの戻り値を集めた新しい配列を返す" },
+      { "label": "B", "text": "forEach は新しい配列を返し、map は戻り値がない" },
+      { "label": "C", "text": "どちらも新しい配列を返すが、map は元の配列も変更する" },
+      { "label": "D", "text": "forEach は非同期で実行し、map は同期で実行する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s06",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "次のコードの実行結果として正しいのはどれか？\n\nlet result = null;\nsetTimeout(function() {\n  result = \"完了\";\n}, 1000);\nconsole.log(result);",
+    "choices": [
+      { "label": "A", "text": "null(setTimeout の完了前に console.log が実行されるため)" },
+      { "label": "B", "text": "完了(setTimeout が完了してから console.log が実行されるため)" },
+      { "label": "C", "text": "undefined(result 変数の型が不正なため)" },
+      { "label": "D", "text": "エラーが発生する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s07",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "次のコードの実行結果として正しいのはどれか？\n\nconst nums = [1, 2, 3, 4, 5];\nconst result = nums.filter(function(n) {\n  return n % 2 === 0;\n});\nconsole.log(result);",
+    "choices": [
+      { "label": "A", "text": "[2, 4]" },
+      { "label": "B", "text": "[1, 3, 5]" },
+      { "label": "C", "text": "[true, false, true, false, true]" },
+      { "label": "D", "text": "[false, true, false, true, false]" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s08",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "「高階関数（higher-order function）」の説明として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "関数を引数として受け取る、または関数を戻り値として返す関数" },
+      { "label": "B", "text": "処理速度が特に高速な関数" },
+      { "label": "C", "text": "グローバルスコープで定義されどこからでも使える関数" },
+      { "label": "D", "text": "再帰呼び出しを行う関数" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s09",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "handleClick という関数をクリックイベントのコールバックとして登録するとき、正しい書き方はどれか？",
+    "choices": [
+      { "label": "A", "text": "button.addEventListener(\"click\", handleClick)" },
+      { "label": "B", "text": "button.addEventListener(\"click\", handleClick())" },
+      { "label": "C", "text": "button.addEventListener(\"click\", \"handleClick\")" },
+      { "label": "D", "text": "button.addEventListener(\"click\", { fn: handleClick })" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-s10",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "standard",
+    "question": "次のコードで、コールバック関数の引数 e（イベントオブジェクト）はどこから渡されるか？\n\ndocument.addEventListener(\"keydown\", function(e) {\n  console.log(e.key);\n});",
+    "choices": [
+      { "label": "A", "text": "addEventListener がキーダウンイベント発生時にコールバックへ自動的に渡す" },
+      { "label": "B", "text": "開発者が手動でイベントオブジェクトを作成して渡す必要がある" },
+      { "label": "C", "text": "グローバル変数として自動定義されるため引数は不要" },
+      { "label": "D", "text": "setTimeout を使って後から取得する" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e01",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "「コールバック地獄（callback hell）」が発生する根本的な原因はどれか？",
+    "choices": [
+      { "label": "A", "text": "前の非同期処理の結果を次の非同期処理で使う必要があるため、コールバック内にコールバックをネストする構造になるから" },
+      { "label": "B", "text": "JavaScript がシングルスレッドで動作するため、コールバックを多用するとメモリが不足するから" },
+      { "label": "C", "text": "コールバック関数を変数に格納できないため、インライン定義を続けるしかないから" },
+      { "label": "D", "text": "setTimeout を複数使うと処理順序が保証されないため、入れ子にして順序を制御するから" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e02",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "コールバック地獄の問題点として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "コードのネストが深くなり可読性が下がるうえ、各ネスト層でエラーハンドリングを個別に実装する必要があり複雑化する" },
+      { "label": "B", "text": "ネストが深くなるとプログラムの実行速度が低下し、パフォーマンスに深刻な影響を与える" },
+      { "label": "C", "text": "JavaScript の仕様上、3段階以上のネストはシンタックスエラーになる" },
+      { "label": "D", "text": "コールバック内ではグローバル変数にアクセスできなくなり、データの受け渡しが不可能になる" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e03",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "次のコードで setTimeout 内のコールバックから this.name が「田中」を正しく出力するために適切な修正はどれか？\n\nconst person = {\n  name: \"田中\",\n  greet: function() {\n    setTimeout(function() {\n      console.log(this.name); // ここが undefined になる\n    }, 1000);\n  }\n};\nperson.greet();",
+    "choices": [
+      { "label": "A", "text": "setTimeout のコールバックを () => { console.log(this.name); } に変えることで、greet 内の this(= person)を引き継ぐ" },
+      { "label": "B", "text": "setTimeout の遅延時間を 0 に変えることで this が正しく参照される" },
+      { "label": "C", "text": "greet メソッド自体をアロー関数 greet: () => { ... } に変えることで this が person を指すようになる" },
+      { "label": "D", "text": "setTimeout をネストせずに直接呼ぶことで this が正しく設定される" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e04",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "非同期処理Aの結果を使って非同期処理Bを実行したい。コールバックパターンで正しい書き方はどれか？",
+    "choices": [
+      { "label": "A", "text": "asyncA(function(resultA) { asyncB(resultA, function(resultB) { console.log(resultB); }); })" },
+      { "label": "B", "text": "let r = asyncA(); asyncB(r);" },
+      { "label": "C", "text": "asyncA(); asyncB();" },
+      { "label": "D", "text": "setTimeout(() => asyncB(), 1000);" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e05",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "コールバックパターンから Promise に移行する主な理由はどれか？",
+    "choices": [
+      { "label": "A", "text": "コールバック地獄によるネストの深さと分散したエラーハンドリングを解消し、.then() で処理の連鎖を平坦に書けるようにするため" },
+      { "label": "B", "text": "コールバックでは非同期処理を実行できないため、Promise を使う必要があるから" },
+      { "label": "C", "text": "Promise はコールバックより処理速度が大幅に速く、パフォーマンスが向上するから" },
+      { "label": "D", "text": "コールバックはブラウザでのみ動作し、Node.js では使用できないから" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e06",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "互いに依存関係のない2つの非同期処理X・Yをコールバックパターンで「両方同時に開始する」正しい方法はどれか？",
+    "choices": [
+      { "label": "A", "text": "asyncX(callbackX); asyncY(callbackY);(依存関係がないため、順番に呼び出すだけで両方同時に始まる)" },
+      { "label": "B", "text": "asyncX(function() { asyncY(callbackY); });(X が完了してから Y を開始するので安全)" },
+      { "label": "C", "text": "setTimeout(asyncX, 0); setTimeout(asyncY, 500);(時間をずらして呼び出す)" },
+      { "label": "D", "text": "コールバックパターンでは非同期処理を1つしか同時に実行できない" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e07",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "次のコードの出力順として正しいのはどれか？\n\nsetTimeout(function() { console.log(\"A\"); }, 100);\nsetTimeout(function() { console.log(\"B\"); }, 0);\nconsole.log(\"C\");",
+    "choices": [
+      { "label": "A", "text": "C → B → A" },
+      { "label": "B", "text": "A → B → C" },
+      { "label": "C", "text": "C → A → B" },
+      { "label": "D", "text": "B が最初、次に C、最後に A" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e08",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "Node.js スタイルのエラーファーストコールバックの設計として正しいのはどれか？",
+    "choices": [
+      { "label": "A", "text": "第1引数にエラーオブジェクト(エラーなし時は null)、第2引数に成功データを渡す" },
+      { "label": "B", "text": "第1引数に成功データ、第2引数にエラーオブジェクトを渡す" },
+      { "label": "C", "text": "成功コールバックと失敗コールバックを別引数として2つ受け取る" },
+      { "label": "D", "text": "エラーが起きたら throw を使い、コールバック引数ではエラーを渡さない" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e09",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "次のコードで、setTimeout 内で発生したエラーを外側の try-catch で捕捉できるか？\n\ntry {\n  setTimeout(function() {\n    throw new Error(\"非同期エラー\");\n  }, 1000);\n} catch (e) {\n  console.log(\"キャッチ:\", e.message);\n}",
+    "choices": [
+      { "label": "A", "text": "捕捉できない。setTimeout のコールバックは後から別のタイミングで実行されるため、try-catch の範囲外でエラーが発生する" },
+      { "label": "B", "text": "捕捉できる。try-catch は非同期処理内のエラーも含めてすべてキャッチする" },
+      { "label": "C", "text": "捕捉できる。setTimeout を呼んだ行が try ブロック内にあるため" },
+      { "label": "D", "text": "throw は非同期コールバック内では無視されるため、エラー自体が発生しない" }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": "callbacks-e10",
+    "subject": "programming",
+    "unit": "コールバック関数と非同期の概念",
+    "difficulty": "exam",
+    "question": "addEventListener のコールバック内で this がクリックされたボタン要素を指すのはどちらの書き方か？\n\nbutton.addEventListener(\"click\", /* ここ */);",
+    "choices": [
+      { "label": "A", "text": "function() { console.log(this); }(function 式では this が呼び出した要素を指す)" },
+      { "label": "B", "text": "() => { console.log(this); }(アロー関数では this が呼び出した要素を指す)" },
+      { "label": "C", "text": "どちらも同じで、this は常にボタン要素を指す" },
+      { "label": "D", "text": "どちらも同じで、this は常に window(グローバル)を指す" }
+    ],
+    "correct": "A"
+  }
+]

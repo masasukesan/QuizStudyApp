@@ -1,0 +1,232 @@
+{
+  "unit_id": "promises-async-await",
+  "unit_name_jp": "Promise と async / await",
+  "grade": "JavaScript基礎",
+  "patterns": [
+    {
+      "pattern_id": "promise-concept",
+      "description": "Promiseとは何かという概念を問う。「将来の値のコンテナ」「3つの状態（pending/fulfilled/rejected）」「コールバック地獄を解消する仕組み」などを理解しているか確認する。",
+      "thinking_process": [
+        "Promiseが非同期処理の結果を表すオブジェクトであることを理解する",
+        "3つの状態（pending・fulfilled・rejected）を把握する",
+        "コールバックとの違いを整理する"
+      ],
+      "common_mistakes": [
+        "PromiseをPromise.resolve()の結果と混同する",
+        "pendingとrejectedを混同する",
+        "Promiseが同期的に実行されると思い込む"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "promise-states",
+      "description": "Promise の3状態（pending/fulfilled/rejected）の遷移ルールを問う。一度settled（fulfilled または rejected）になったPromiseは再度状態が変わらないという不変性を確認する。",
+      "thinking_process": [
+        "初期状態はpendingであることを確認する",
+        "resolve()でfulfilled、reject()でrejectedになることを理解する",
+        "状態遷移は一方通行で不可逆であることを把握する"
+      ],
+      "common_mistakes": [
+        "fulfillしたあとにrejectできると思い込む",
+        "pendingが「失敗待ち」だと勘違いする",
+        "thenコールバック内でrejectが呼べると混同する"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "promise-then-catch",
+      "description": "then()とcatch()の使い方を問う。thenの第1引数（成功時）・第2引数（失敗時）の使い分け、catchとthenの第2引数の違い、チェーン時の挙動を確認する。",
+      "thinking_process": [
+        "then(onFulfilled, onRejected)の2引数の意味を把握する",
+        "catchがthen(null, onRejected)と同等であることを理解する",
+        "then/catchチェーンで次のthenに値が渡される仕組みを追う"
+      ],
+      "common_mistakes": [
+        "catchをthenの前に書けると思い込む",
+        "then()の第2引数とcatch()が同時に実行されると誤解する",
+        "thenコールバック内でthrowした際にcatchに届かないと思い込む"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "async-function-return",
+      "description": "async関数の戻り値がPromiseになることを問う。return値がPromise.resolve()にラップされること、async関数内でthrowするとrejectになることを確認する。",
+      "thinking_process": [
+        "async宣言をつけた関数は常にPromiseを返すことを理解する",
+        "return 値 がPromise.resolve(値)と同等であることを把握する",
+        "throw がPromise.reject()と同等であることを把握する"
+      ],
+      "common_mistakes": [
+        "asyncをつけなければPromiseを返さないと思い込む（then()が使えないはずという誤解）",
+        "async関数がreturnで同期的な値を返せると誤解し、awaitが不要と思う",
+        "throwしてもcatchで捕捉できないと思い込む"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "await-usage",
+      "description": "awaitの使い方を問う。awaitはasync関数の中でしか使えないこと、Promiseが解決するまで後続コードの実行を一時停止することを確認する。",
+      "thinking_process": [
+        "awaitはasync関数内でのみ有効であることを確認する",
+        "awaitがPromiseの解決を待ち、fulfilledな値を取り出すことを理解する",
+        "awaitを使うと後続処理はPromise解決後に実行されることを把握する"
+      ],
+      "common_mistakes": [
+        "async宣言なしの通常関数でawaitを使えると思い込む",
+        "awaitをつけなくてもPromiseは自動的に解決すると思い込む",
+        "awaitはスレッドをブロックするのと同じと誤解する（実際はノンブロッキング）"
+      ],
+      "difficulty": "basic"
+    },
+    {
+      "pattern_id": "promise-chain",
+      "description": "Promiseチェーンにおける値の引き渡しを問う。then()のコールバックが返す値が次のthen()に渡されること、thenがPromiseを返したら次のthenはそれを待つことを確認する。",
+      "thinking_process": [
+        "thenコールバックの戻り値が次のthenに渡ることを追う",
+        "戻り値がPromiseのとき、そのPromiseが解決されるまで次のthenは実行されないことを理解する",
+        "チェーン全体のデータの流れを図で追う"
+      ],
+      "common_mistakes": [
+        "thenコールバック内でreturnを忘れてundefinedが渡る",
+        "thenがPromiseを返したとき、次のthenはすぐ実行されると誤解する",
+        "チェーンの途中でcatchするとその後のthenが実行されないと思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "error-handling-async",
+      "description": "async/awaitのエラーハンドリングを問う。try/catchでawaitのrejectionを捕捉できること、catchブロック内のerrorオブジェクトの中身を確認する。",
+      "thinking_process": [
+        "try { await } catch(e) {} でrejectionを捕捉できることを理解する",
+        "catchの引数eがreject()に渡した値であることを把握する",
+        "try/catchがなければunhandled rejection になることを理解する"
+      ],
+      "common_mistakes": [
+        "awaitのrejectionはcatchメソッドでしか捕捉できないと思い込む",
+        "try/catchの外でawaitした場合エラーが無視されると思い込む",
+        "catchブロックのeはErrorオブジェクトとは限らないことを見落とす"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "promise-all",
+      "description": "Promise.all()の挙動を問う。すべてのPromiseが成功したとき配列で値が返ること、1つでも失敗したらrejectになること（fail-fast）を確認する。",
+      "thinking_process": [
+        "Promise.all([p1, p2, p3])が全て完了するまで待つことを理解する",
+        "全て成功したとき、結果が入力と同じ順序の配列で返ることを把握する",
+        "1つでもrejectされたらPromise.all全体がrejectになることを理解する（fail-fast）"
+      ],
+      "common_mistakes": [
+        "Promise.allが失敗しても残りのPromiseの結果を返してくれると思い込む",
+        "結果配列の順序が完了した順になると思い込む（実際は入力順）",
+        "全てrejectになるまでwaitし続けると思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "promise-allsettled",
+      "description": "Promise.allSettled()とPromise.all()の違いを問う。allSettledはrejectがあっても全てのPromiseを待ち切り、{status, value/reason}オブジェクトの配列で返すことを確認する。",
+      "thinking_process": [
+        "allSettledはすべてのPromiseが settled になるまで待つことを理解する",
+        "各要素が{status: 'fulfilled', value}または{status: 'rejected', reason}の形であることを把握する",
+        "fail-fastのall()との使い分けを判断する"
+      ],
+      "common_mistakes": [
+        "allSettledがall()と同じくfail-fastだと思い込む",
+        "allSettledの結果配列の各要素が直接値だと思い込む（{status, value}形式を知らない）",
+        "allSettledを使うとエラーが握りつぶされると思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "async-sequential-vs-parallel",
+      "description": "async/awaitで複数の非同期処理を直列（sequential）と並列（parallel）で実行する違いを問う。await を連続させると直列、Promise.all() に渡すと並列になることを確認する。",
+      "thinking_process": [
+        "awaitを順番に書くと1つ終わったら次が始まる直列実行になることを理解する",
+        "Promise.allで複数Promiseを束ねると並列実行になることを理解する",
+        "直列と並列の合計待ち時間の違いを計算できるか確認する"
+      ],
+      "common_mistakes": [
+        "awaitを2行書いても並列で実行されると思い込む",
+        "Promise.allにawaitしなければ並列にならないと思い込む",
+        "並列実行したときの順序が常に保証されると思い込む"
+      ],
+      "difficulty": "standard"
+    },
+    {
+      "pattern_id": "microtask-queue",
+      "description": "Promiseのコールバック（.thenなど）はマイクロタスクキューで処理されるため、setTimeoutより先に実行されることを問う。イベントループの優先順位を確認する。",
+      "thinking_process": [
+        "JavaScriptのイベントループがコールスタック→マイクロタスク→マクロタスクの順で処理することを理解する",
+        "Promiseのthenはマイクロタスクであることを把握する",
+        "setTimeoutはマクロタスクであるためthenより後に実行されることを理解する"
+      ],
+      "common_mistakes": [
+        "setTimeoutの時間が0msならPromiseのthenより先に実行されると思い込む",
+        "thenとsetTimeoutが同等の優先度で実行されると思い込む",
+        "awaitの後の処理がそのまま同期実行されると思い込む"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "promise-race",
+      "description": "Promise.race()の挙動を問う。最初にsettledになったPromiseの結果（成功・失敗どちらでも）が返ることを確認する。",
+      "thinking_process": [
+        "Promise.raceは最初にsettledになったPromiseの結果を採用することを理解する",
+        "失敗（reject）が最初に来た場合もraceがrejectになることを把握する",
+        "残りのPromiseは引き続き処理が進むがraceの結果には影響しないことを理解する"
+      ],
+      "common_mistakes": [
+        "Promise.raceは最初に成功したものを返すと思い込む（失敗でも最初ならそれが返る）",
+        "race後に負けたPromiseがキャンセルされると思い込む",
+        "Promise.anyと混同する"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "async-error-propagation",
+      "description": "async関数でエラーが発生したとき、呼び出し元のPromiseチェーンにrejectとして伝播することを問う。catchを忘れたときの動作も確認する。",
+      "thinking_process": [
+        "async関数内のthrowがrejectされたPromiseを返すことを理解する",
+        "呼び出し元がawaitしている場合、try/catchでrejectを捕捉できることを把握する",
+        "catchがなければunhandledPromiseRejectionが発生することを理解する"
+      ],
+      "common_mistakes": [
+        "async関数内でthrowしてもエラーが無視されると思い込む",
+        "呼び出し元のtry/catchでasync関数のthrowを捕捉できないと思い込む",
+        "catchを書かなければエラーが自動的に握りつぶされると思い込む"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "promise-any",
+      "description": "Promise.any()の挙動を問う。1つでも成功したらfulfilled、すべて失敗したらAggregateErrorでrejectになることを確認する。Promise.race()との違いも問う。",
+      "thinking_process": [
+        "Promise.anyは最初にfulfilledになった値を返すことを理解する",
+        "全て失敗したときはAggregateErrorでrejectになることを把握する",
+        "Promise.race（最初にsettled）との違いを整理する"
+      ],
+      "common_mistakes": [
+        "Promise.raceとPromise.anyが同じだと思い込む（anyはrejectを無視して最初のfulfilledを待つ）",
+        "全て失敗したとき最後のreject理由だけが返ると思い込む",
+        "Promise.anyが存在しないと思い込む（ES2021で追加）"
+      ],
+      "difficulty": "exam"
+    },
+    {
+      "pattern_id": "execution-order-complex",
+      "description": "async関数とPromiseチェーンが混在するコードの実行順序を問う。awaitの前後の同期コードと非同期コードの実行順序をトレースできるか確認する。",
+      "thinking_process": [
+        "async関数はawaitに到達するまで同期的に実行されることを理解する",
+        "awaitに到達した時点で関数の実行が一時停止し、Promiseが解決されたらマイクロタスクとして再開することを理解する",
+        "コードを上から追い、同期→マイクロタスク→マクロタスクの順で実行順序をトレースする"
+      ],
+      "common_mistakes": [
+        "async関数全体が非同期で実行されると思い込む（awaitより前は同期）",
+        "awaitが複数あるとき全ての処理が同時に止まると思い込む",
+        "コールスタックが空になった後にマイクロタスクが実行されることを理解していない"
+      ],
+      "difficulty": "exam"
+    }
+  ]
+}

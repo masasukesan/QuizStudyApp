@@ -1,0 +1,468 @@
+{
+  "paa-b-001": {
+    "lead": "Promise(プロミス)とは「非同期処理の将来の結果を表すオブジェクト」です。非同期処理とは「今すぐ終わらない処理（通信・ファイル読み込みなど）」のことで、Promise はその処理が終わったら結果を届けてくれる「引換券」のようなものです。Promise は作られた直後は pending(保留)という状態で、処理が成功すると fulfilled(成功)、失敗すると rejected(失敗)に変わります。",
+    "steps": [
+      "Promise は「今はまだ結果がないが、将来必ず成功か失敗かを教えてくれるオブジェクト」と覚える",
+      "setTimeout は「〇秒後に実行」という時間指定ツール。Promise とは別物",
+      "コールバック関数を変数に入れるのは単なる関数の代入であり、Promise とは異なる"
+    ],
+    "common_mistakes": [
+      "Promise.resolve() の結果と Promise の定義を混同しがち",
+      "「setTimeout の代替」と誤解するケースがあるが、setTimeout は時間指定ツールであり Promise は結果の器"
+    ],
+    "tips": [
+      "Promise = 非同期処理の結果を入れておく「箱」。箱は最初は空(pending)で、成功したら結果が入り(fulfilled)、失敗したらエラーが入る(rejected)"
+    ]
+  },
+  "paa-b-002": {
+    "lead": "Promise の3つの状態は「pending(保留) / fulfilled(成功) / rejected(失敗)」です。pending は「まだ結果が出ていない待ち中」の状態、fulfilled は「処理が成功して値が確定した」状態、rejected は「処理が失敗してエラーが確定した」状態です。fulfilled と rejected をまとめて settled(決定済み)と呼びます。",
+    "steps": [
+      "pending: new Promise(...)で作った直後の初期状態。resolve も reject もまだ呼ばれていない",
+      "fulfilled: resolve(値) が呼ばれた後の状態。then の第1引数が呼ばれる",
+      "rejected: reject(理由) または throw が発生した後の状態。catch または then の第2引数が呼ばれる"
+    ],
+    "common_mistakes": [
+      "「resolved」という名前は公式には状態名ではない。正式には「fulfilled」",
+      "「settled」は fulfilled と rejected をまとめた呼び名。独立した第4の状態ではない",
+      "「running(実行中)」という状態は存在しない"
+    ],
+    "tips": [
+      "pending → fulfilled または pending → rejected の一方向のみ。fulfilled から rejected に戻ることはできない"
+    ]
+  },
+  "paa-b-003": {
+    "lead": "new Promise((resolve, reject) => { }) を実行した直後、Promise の状態は pending(保留)です。なぜなら、Promise の状態が変わるのは resolve() または reject() が呼ばれたときだからです。コールバック内で何もしなければ、どちらも呼ばれないため、Promise は pending のまま変わりません。",
+    "steps": [
+      "new Promise を実行すると、コールバック (resolve, reject) => { ... } が即座に実行される",
+      "コールバック内で resolve() か reject() が呼ばれた時点で状態が変わる",
+      "この問題では「何もしない」のでどちらも呼ばれず、pending のまま"
+    ],
+    "common_mistakes": [
+      "「new Promise を実行したから fulfilled になる」という誤解がよくある。実行 = 成功ではない",
+      "「何もしないと失敗(rejected)になる」と思い込むケースも多いが、何もしなければ pending のまま"
+    ],
+    "tips": [
+      "Promise の状態を変えるには必ず resolve() か reject() を呼ぶ必要がある。呼ばないと永遠に pending"
+    ]
+  },
+  "paa-b-004": {
+    "lead": "async 宣言をつけた関数は、return した値が自動的に Promise.resolve(値) でラップ（包まれ）て返されます。つまり return \"hello\" と書いても、呼び出し元が受け取るのは文字列ではなく、\"hello\" で fulfilled された Promise オブジェクトです。値を取り出すには await または .then() が必要です。",
+    "steps": [
+      "async function asyncFn() { return \"hello\"; } は内部的に Promise.resolve(\"hello\") を返す",
+      "呼び出し元で const result = asyncFn(); とすると、result には Promise オブジェクトが入る",
+      "result の中の \"hello\" を取り出すには const value = await asyncFn(); または asyncFn().then(v => ...)"
+    ],
+    "common_mistakes": [
+      "「return したのだから文字列が返るはず」と思い込む。async があると必ず Promise でラップされる",
+      "「async の return は無視される」と誤解するケースも。正しくは Promise の値として届く"
+    ],
+    "tips": [
+      "async 関数は「必ずPromiseを返す関数」と覚える。return した値は Promise の中に入って届く"
+    ]
+  },
+  "paa-b-005": {
+    "lead": "await は async 宣言のついた関数の内部でのみ使えます。通常の function や通常のアロー関数の中では使えず、SyntaxError(構文エラー)になります。なぜなら await は「async 関数の実行を一時停止する」仕組みであり、async でない関数には一時停止の仕組みが備わっていないからです。",
+    "steps": [
+      "async function main() { ... } または const main = async () => { ... } の中でのみ await が使える",
+      "通常の function main() { ... } の中で await を書くと SyntaxError になる",
+      "ただし最近の環境ではスクリプトのトップレベルでも await が使える(トップレベル await)が、基本は async 関数内が原則"
+    ],
+    "common_mistakes": [
+      "「関数の中ならどこでも使える」という誤解が多い。async がないと使えない",
+      "「try ブロックの中のみ」という制限はない。try の有無とは無関係"
+    ],
+    "tips": [
+      "await を使いたいときは必ずその関数を async にする。セットで覚える"
+    ]
+  },
+  "paa-b-006": {
+    "lead": "then() メソッドの第1引数（成功時のコールバック）は、Promise が fulfilled(成功)になったときだけ呼び出されます。なぜなら then の第1引数は「成功したときの処理」を定義するためのものだからです。rejected(失敗)のときは呼ばれません。",
+    "steps": [
+      "Promise が fulfilled になると、then(onFulfilled, onRejected) の onFulfilled が呼ばれる",
+      "Promise が rejected になると、onFulfilled はスキップされ onRejected(第2引数)や catch が呼ばれる",
+      "then() を呼び出した瞬間に同期的に実行されるわけではない。非同期に Promise が解決された後に呼ばれる"
+    ],
+    "common_mistakes": [
+      "「settled(決定済み)なら fulfilled でも rejected でも then の第1引数が呼ばれる」は誤り",
+      "「then() を書いた瞬間に同期的に実行される」は誤り。必ず非同期に呼ばれる"
+    ],
+    "tips": [
+      "then(成功時の処理, 失敗時の処理) と覚える。第1引数は成功専用"
+    ]
+  },
+  "paa-b-007": {
+    "lead": "async 関数の中で throw すると、その async 関数が返す Promise は rejected になります。reject の理由は throw したオブジェクト（この場合は new Error(\"失敗\")）になります。catch のコールバックの引数にはその Error オブジェクト（インスタンス）がそのまま渡されます。文字列の \"失敗\" だけが渡されるわけではありません。",
+    "steps": [
+      "async function asyncFn() { throw new Error(\"失敗\"); } → reject 理由は Error オブジェクト",
+      "asyncFn().catch(err => ...) の err には Error インスタンスが渡される",
+      "err.message で \"失敗\" という文字列を取り出せる"
+    ],
+    "common_mistakes": [
+      "「async 関数内の throw は catch に届かない」は誤り。await または .catch() で必ず捕捉できる",
+      "「文字列の '失敗' が渡される」は誤り。throw したオブジェクト（Error インスタンス）がそのまま渡される"
+    ],
+    "tips": [
+      "async 関数内の throw = その関数の Promise が reject される、と覚える"
+    ]
+  },
+  "paa-b-008": {
+    "lead": "コールバック地獄とは、非同期処理を入れ子（ネスト）にして書き続けるとコードが右に深く広がり、読みにくくなる問題です。さらにエラーハンドリング（エラーが起きたときの処理）を各ネスト層に個別に書く必要があり、管理が大変になります。Promise を使うとチェーン（鎖のようにつながった）形式でフラット（平ら）に書けるため、この問題が解消されます。",
+    "steps": [
+      "コールバックで3段階の非同期処理を書くと func1(data, () => { func2(data, () => { func3(data, () => { ... }) }) }) のように右に深くなる",
+      "エラーは各ネスト内で個別に処理する必要がありコードが複雑になる",
+      "Promise を使うと func1().then(func2).then(func3).catch(handleError) のようにフラットに書ける"
+    ],
+    "common_mistakes": [
+      "「setTimeout の精度の問題」はコールバック地獄とは無関係",
+      "「コールバックが1回しか呼べない」という制限はない。コールバック地獄は「深いネスト」の問題"
+    ],
+    "tips": [
+      "Promise を使うとエラーハンドリングを1つの catch にまとめられる点も重要なメリット"
+    ]
+  },
+  "paa-b-009": {
+    "lead": "await は「非同期処理を同期的なコードのように書けるようにする」キーワードです。具体的には「await Promise式」と書くと、その Promise が settled(fulfilled または rejected)になるまで async 関数の実行を一時停止し、fulfilled のときはその値を取り出して返します。これにより .then() の入れ子を使わずにスッキリ書けます。",
+    "steps": [
+      "await の右には Promise を置く（例: await fetch('/api')）",
+      "Promise が fulfilled になるまで async 関数の実行がここで止まる",
+      "fulfilled の値が await 式の結果として返り、その値を変数に代入できる（例: const data = await fetch('/api')）"
+    ],
+    "common_mistakes": [
+      "「別スレッドで並列実行する」は誤り。JavaScriptはシングルスレッドで、await は他の処理に制御を譲りながら待つ",
+      "「Promise の状態を強制的に fulfilled にする」は誤り。Promise の解決はあくまで内部のロジックによる"
+    ],
+    "tips": [
+      "await は「Promise から値を取り出す魔法の言葉」と覚える。必ず async 関数の中で使う"
+    ]
+  },
+  "paa-b-010": {
+    "lead": "Promiseチェーンでは、各 then() のコールバックが return した値が次の then() の引数に渡されます。この問題では Promise.resolve(5) → then(v => v * 2) で 5 * 2 = 10 → then(v => console.log(v)) で 10 が渡され、10 が出力されます。",
+    "steps": [
+      "Promise.resolve(5) → fulfilled な Promise（値: 5）を作る",
+      ".then(v => v * 2) → v に 5 が渡り、5 * 2 = 10 を return する → 次の then に 10 が渡る",
+      ".then(v => console.log(v)) → v に 10 が渡り、10 が出力される"
+    ],
+    "common_mistakes": [
+      "「25(5を2回かけた)」は誤り。各 then は「前の then の戻り値」を受け取る",
+      "「then のコールバックが return しないので undefined」は誤り。この例では v * 2 が return されている（return が省略されたアロー関数）"
+    ],
+    "tips": [
+      "アロー関数 v => v * 2 は自動的に v * 2 を return する。{ } で囲んだ場合のみ return を明示する必要がある"
+    ]
+  },
+  "paa-s-001": {
+    "lead": "アロー関数で { } を使ってブロック形式にした場合、明示的に return を書かないと undefined が返ります。この問題では .then(v => { v + 1; }) の { } の中で return を忘れているため、この then は undefined を返します。次の then では undefined * 2 = NaN となり、NaN が console.log に渡されます。",
+    "steps": [
+      "Promise.resolve(3) → 値 3 で fulfilled",
+      ".then(v => { v + 1; }) → { } あり・return なし → undefined を返す",
+      ".then(v => v * 2) → v が undefined なので undefined * 2 = NaN → NaN を return",
+      ".then(v => console.log(v)) → NaN が出力される"
+    ],
+    "common_mistakes": [
+      "「then は元の値を引き継ぐ」は誤り。return しなければ undefined になる",
+      "v => v + 1（中括弧なし）と v => { v + 1; }（中括弧あり）は全く別物。中括弧なしなら return が省略できる"
+    ],
+    "tips": [
+      "then コールバックで { } を使ったら必ず return を書く。忘れると次の then に undefined が渡るバグになる"
+    ]
+  },
+  "paa-s-002": {
+    "lead": ".then(onFulfilled, onRejected) の第2引数と .catch(onRejected) は似ていますが重要な違いがあります。then の第2引数は「直前の Promise の reject」は捕捉できますが、同じ then の onFulfilled(第1引数)内で throw されたエラーは捕捉できません。一方 .catch() は直前の then のコールバック内でthrowされたエラーも捕捉できます。",
+    "steps": [
+      "promise.then(fn1, fn2) の fn2 は「promise が reject されたとき」に呼ばれる",
+      "ただし fn1 の中で throw が起きても fn2 には届かない（同じ then の中で完結するため）",
+      "promise.then(fn1).catch(fn2) の fn2 は「promise が reject されたとき」も「fn1 が throw したとき」も捕捉できる"
+    ],
+    "common_mistakes": [
+      "「どちらも完全に同等」は誤り。then の第2引数と catch では、onFulfilled 内のエラーを捕捉できるかどうかが異なる",
+      "「非同期エラーか同期エラーかで使い分ける」は誤り。そのような区別はない"
+    ],
+    "tips": [
+      "安全のため、エラーハンドリングは then の第2引数より .catch() で書くのが一般的"
+    ]
+  },
+  "paa-s-003": {
+    "lead": "async 関数内での throw は、await しながら呼び出している場合、呼び出し元の try/catch で捕捉できます。fetchData() が throw すると、その Promise が reject になります。await fetchData() は reject を受け取り、catch(e) に処理が移ります。e.message は \"接続エラー\" なので、「接続エラー」が出力されます。",
+    "steps": [
+      "fetchData() は async 関数で throw → reject された Promise を返す",
+      "main() の中で await fetchData() が reject を受け取る",
+      "try ブロック内で reject が起きると、catch(e) に処理が移る",
+      "e は Error オブジェクト、e.message は \"接続エラー\" → console.log(e.message) で「接続エラー」が出力"
+    ],
+    "common_mistakes": [
+      "「async 関数内の throw は呼び出し元に届かない」は誤り。await を通じて try/catch で捕捉できる",
+      "「try ブロックなのでエラーが無視される」は誤り。try はエラーを捕捉する場所（catch に届ける）"
+    ],
+    "tips": [
+      "async/await では try/catch が Promise の then/catch と同じ役割を果たす"
+    ]
+  },
+  "paa-s-004": {
+    "lead": "Promise.all([p1, p2, p3]) は全ての Promise が fulfilled になるまで待ち、全て成功したとき「入力と同じ順序の配列」で fulfilled になります。重要なのは「完了した順序ではなく、入力した順序（p1, p2, p3 の順）」で並ぶ点です。これにより結果を予測可能な形で受け取れます。",
+    "steps": [
+      "Promise.all に渡した全 Promise が fulfilled になるのを待つ",
+      "全て成功したら [p1の値, p2の値, p3の値] という配列で fulfilled になる",
+      "p3 が最初に完了しても、結果配列での順番は必ず [p1, p2, p3] の順"
+    ],
+    "common_mistakes": [
+      "「最初に完了した Promise の値だけ返る」は Promise.race の挙動",
+      "「完了した順序で並ぶ」は誤り。入力の順序が保証される"
+    ],
+    "tips": [
+      "Promise.all の結果の順序は「入力した順」。並列実行しても順序が保証されるのが便利なポイント"
+    ]
+  },
+  "paa-s-005": {
+    "lead": "Promise.all は「fail-fast（失敗したら即座に中断）」の動作をします。3つの Promise のうち1つでも reject されると、他の Promise の結果を待たずに Promise.all 全体が即座に reject されます。reject の理由は最初に reject された Promise の理由になります。",
+    "steps": [
+      "p1・p2・p3 が並列に実行される",
+      "p2 が reject された瞬間、Promise.all は他の Promise を待たずに reject になる",
+      "p1・p3 はバックグラウンドで処理が続くが、その結果は Promise.all の結果には影響しない"
+    ],
+    "common_mistakes": [
+      "「p2 が undefined になった配列が返る」は誤り。1つでも reject されると配列は返らない",
+      "「p2 が reject されると p1・p3 もキャンセルされる」は誤り。Promise 自体はキャンセルできないが、結果は無視される"
+    ],
+    "tips": [
+      "1つでも失敗したら全体が失敗扱いにしたいとき → Promise.all。全件の結果を知りたいとき → Promise.allSettled"
+    ]
+  },
+  "paa-s-006": {
+    "lead": "Promise.allSettled() は、途中で reject が発生しても全ての Promise が settled(fulfilled または rejected)になるまで待ち続けます。これが Promise.all() との最大の違いです。Promise.all は fail-fast（1つ失敗で即中断）ですが、Promise.allSettled はどんなに失敗しても最後まで待って全件の結果を返します。",
+    "steps": [
+      "Promise.allSettled にすべての Promise が settled になるまで待つ",
+      "全件完了後、各 Promise の結果を {status, value/reason} 形式の配列で返す",
+      "reject があっても止まらない点が Promise.all との最大の違い"
+    ],
+    "common_mistakes": [
+      "「成功したものだけを配列で返す」は誤り。全件の結果（成功・失敗どちらも）を返す",
+      "「並列・直列の違い」は Promise.all と allSettled の違いではない。どちらも並列に実行する"
+    ],
+    "tips": [
+      "「全件のログを残したい」「失敗してもスキップしたい」という場面で Promise.allSettled が活躍する"
+    ]
+  },
+  "paa-s-007": {
+    "lead": "await を2つ並べて書くと「直列実行」になります。最初の await が終わってから次の await が始まるからです。一方 Promise.all([getUser(), getProfile()]) に await すると「並列実行」になります。Promise.all に渡した時点で2つの処理が同時に開始され、両方が終わるのを待つからです。1秒ずつかかる場合、直列は2秒、並列は約1秒で完了します。",
+    "steps": [
+      "コードX: await getUser() が終わってから await getProfile() が始まる → 合計 1+1=2秒",
+      "コードY: getUser() と getProfile() を Promise.all に渡した時点で両方が同時に開始 → 合計 max(1,1)=約1秒",
+      "並列化したいなら Promise.all を使う"
+    ],
+    "common_mistakes": [
+      "「await を2回書くと自動的に並列になる」は誤り。await を並べると直列になる",
+      "「Promise.all は直列になる」は誤り。Promise.all こそが並列実行のための API"
+    ],
+    "tips": [
+      "独立した複数の非同期処理は Promise.all でまとめて並列実行すると効率的"
+    ]
+  },
+  "paa-s-008": {
+    "lead": "Promise.allSettled() の結果は各 Promise の状態と値を表す「オブジェクト」の配列です。fulfilled の場合は {status: 'fulfilled', value: 値}、rejected の場合は {status: 'rejected', reason: エラー理由} という形式になります。値がそのまま配列に入るのではなく、必ずこの形式のオブジェクトで返ります。",
+    "steps": [
+      "p1 が fulfilled(値: 42) → {status: 'fulfilled', value: 42}",
+      "p2 が rejected(理由: Error) → {status: 'rejected', reason: Error('失敗')}",
+      "結果は [{status: 'fulfilled', value: 42}, {status: 'rejected', reason: Error}]"
+    ],
+    "common_mistakes": [
+      "「値がそのまま配列に入る [42, undefined]」は誤り。必ず {status, value/reason} 形式のオブジェクトになる",
+      "「失敗したものは除外される」は誤り。allSettled は全件を返す"
+    ],
+    "tips": [
+      "status を見て 'fulfilled' なら value を、'rejected' なら reason を使う"
+    ]
+  },
+  "paa-s-009": {
+    "lead": "then() のコールバックが Promise を return した場合、次の then() はその Promise が解決されるのを待ち、解決された値を受け取ります（自動アンラップと呼ばれます）。この問題では then(v => Promise.resolve(v * 2)) が Promise.resolve(20) を返しますが、次の then には Promise オブジェクトではなく 20 が渡されます。",
+    "steps": [
+      "Promise.resolve(10) → 値 10 で fulfilled",
+      ".then(v => Promise.resolve(v * 2)) → Promise.resolve(20) を return",
+      "次の then は Promise.resolve(20) の解決を待ち、20 を受け取る",
+      ".then(v => console.log(v)) → v に 20 が渡り、20 が出力"
+    ],
+    "common_mistakes": [
+      "「Promise オブジェクトがそのまま次の then に渡る」は誤り。Promise チェーンは返された Promise を自動的に解決する",
+      "「元の値 10 にリセットされる」は誤り。新しい Promise の値が優先される"
+    ],
+    "tips": [
+      "then の return 値が Promise のとき、その Promise が解決されるまで次の then は実行されない"
+    ]
+  },
+  "paa-s-010": {
+    "lead": "catch() のコールバックがエラーを処理して値を return すると、その後の then() は通常通り実行されます。なぜなら catch() もチェーンの一部であり、エラーを処理して return した値は fulfilled な Promise として次に渡されるからです。この問題では catch(e => \"エラーを回復\") が \"エラーを回復\" を返し、then(v => console.log(v)) に渡されます。",
+    "steps": [
+      "Promise.reject(new Error('エラー')) → rejected な Promise",
+      ".catch(e => 'エラーを回復') → rejected を受け取り 'エラーを回復' を return → fulfilled な Promise に変わる",
+      ".then(v => console.log(v)) → v に 'エラーを回復' が渡り、「エラーを回復」が出力"
+    ],
+    "common_mistakes": [
+      "「reject されているので then() は実行されない」は誤り。catch でエラーを処理した後は通常の fulfilled な状態に戻る",
+      "「catch の後に then は書けない」は誤り。catch もチェーンの一部で then を続けて書ける"
+    ],
+    "tips": [
+      "catch でエラーを処理して値を return すると、Promise は fulfilled に回復する。その後の then は通常どおり動く"
+    ]
+  },
+  "paa-e-001": {
+    "lead": "JavaScript のイベントループ（event loop）には処理の優先順位があります。①コールスタック（同期コード）→ ②マイクロタスクキュー（Promise の then など）→ ③マクロタスクキュー（setTimeout など）の順で実行されます。この問題では「1」「4」が同期コード、「2」が Promise の then（マイクロタスク）、「3」が setTimeout（マクロタスク）なので、1 → 4 → 2 → 3 の順に実行されます。",
+    "steps": [
+      "console.log('1') → 同期実行 → 1 を出力",
+      "Promise.resolve().then(...) → then のコールバックをマイクロタスクキューに登録",
+      "setTimeout(..., 0) → コールバックをマクロタスクキューに登録",
+      "console.log('4') → 同期実行 → 4 を出力",
+      "コールスタックが空 → マイクロタスクキューを処理 → 2 を出力",
+      "マイクロタスク完了 → マクロタスクキューを処理 → 3 を出力"
+    ],
+    "common_mistakes": [
+      "「setTimeout の 0ms はマイクロタスクより速い」は誤り。0ms でもマクロタスクはマイクロタスクの後",
+      "「Promise の then は同期的に実行される」は誤り。then のコールバックは必ず非同期（マイクロタスク）として実行される"
+    ],
+    "tips": [
+      "処理順: 同期コード → Promise/then(マイクロタスク) → setTimeout/setInterval(マクロタスク)"
+    ]
+  },
+  "paa-e-002": {
+    "lead": "Promise.race() は「最初に settled(fulfilled または rejected どちらでも)になった Promise の結果を採用」します。fulfilled だけを待つのではなく、rejected でも最初であればそれが結果になります。この問題では p2 が最初に reject されているため、Promise.race 全体が p2 の reject 理由で reject されます。",
+    "steps": [
+      "p1・p2・p3 が並列に実行される",
+      "p2 が最初に reject → settled になった最初の Promise",
+      "Promise.race は p2 の reject 理由で全体が reject される",
+      "p1・p3 は処理が続くが Promise.race の結果には影響しない"
+    ],
+    "common_mistakes": [
+      "「race は最初に fulfilled したものを返す」は誤り。最初に settled になったもの（reject でも可）を返す",
+      "「Promise.any との混同」に注意。Promise.any は最初に fulfilled になったものを返す（reject は無視）"
+    ],
+    "tips": [
+      "Promise.race = 最初に settled（成功でも失敗でも）を採用\nPromise.any = 最初に fulfilled を採用（失敗は無視）"
+    ]
+  },
+  "paa-e-003": {
+    "lead": "Promise.any() は「最初に fulfilled になった Promise の値を返す」APIです。reject は無視し、1つでも fulfilled になった時点で結果が確定します。この問題では p2 が fulfilled(値: \"OK\")になっているため、p3 がまだ pending でも、p1 が reject されていても、Promise.any は即座に \"OK\" で fulfilled になります。",
+    "steps": [
+      "p1: rejected → Promise.any はこれを無視",
+      "p2: fulfilled(\"OK\") → 最初の fulfilled",
+      "Promise.any は \"OK\" で fulfilled になる → p3 が pending でも結果が確定"
+    ],
+    "common_mistakes": [
+      "「p3 が pending だから結果が確定しない」は誤り。1つでも fulfilled になれば即確定",
+      "「p1 が reject なので全体が reject」は誤り。Promise.any は全員が reject されるまで諦めない"
+    ],
+    "tips": [
+      "Promise.any = 「誰か1人でも成功すれば OK」。全員失敗のときだけ AggregateError で reject される"
+    ]
+  },
+  "paa-e-004": {
+    "lead": "async 関数は await に到達するまで同期的に実行されます。await に到達した時点で async 関数の実行が一時停止し、呼び出し元に制御が戻ります。この問題では main() を呼ぶと「1」が出力された後、await で停止し、呼び出し元の console.log('3') が実行されます。その後 Promise が解決されると「2」がマイクロタスクとして再開されます。順序は 1 → 3 → 2。",
+    "steps": [
+      "main() 呼び出し → async 関数内が同期実行開始",
+      "console.log('1') → 「1」を出力",
+      "await Promise.resolve() → ここで main() が一時停止。制御が呼び出し元に戻る",
+      "console.log('3') → 「3」を出力（main() の外のコード）",
+      "Promise.resolve() が即座に解決 → main() の続き（console.log('2')）がマイクロタスクとして実行",
+      "「2」を出力"
+    ],
+    "common_mistakes": [
+      "「async 関数はすべて非同期なので main() の中は後回し」は誤り。await の前は同期的に実行される",
+      "「await が即時解決の Promise でも後続は遅延する」ことを見落とす。Promise.resolve() でも await は必ずマイクロタスクキューを経由する"
+    ],
+    "tips": [
+      "「async 関数は await までは同期実行、await から後は非同期（マイクロタスク）として再開」と覚える"
+    ]
+  },
+  "paa-e-005": {
+    "lead": "Promise の状態は一度 settled(fulfilled または rejected)になると、二度と変わりません。この問題では resolve('成功') が先に呼ばれるため、Promise は fulfilled になります。その後 reject('失敗') を呼んでも、既に settled になっているため無視されます。then が呼ばれて「成功」が出力されます。",
+    "steps": [
+      "resolve('成功') が呼ばれ、Promise は fulfilled(値: '成功')になる",
+      "reject('失敗') が呼ばれるが、Promise は既に fulfilled で settled 済み → 無視される",
+      "p.then(v => console.log(v)) → v に '成功' が渡り「成功」が出力",
+      "catch は呼ばれない"
+    ],
+    "common_mistakes": [
+      "「後から呼んだ reject が上書きする」は誤り。settled になった後は状態が変わらない",
+      "「両方が出力される」は誤り。Promise の状態は不可逆（一方向のみ）"
+    ],
+    "tips": [
+      "Promise の状態遷移はロールバックできない。先勝ち（最初に呼んだ resolve/reject が有効）"
+    ]
+  },
+  "paa-e-006": {
+    "lead": "async 関数を await なしで呼び出すと、戻り値の Promise オブジェクトがそのまま変数に代入されます。Promise は自動的にアンラップ（解決）されません。typeof Promise オブジェクト は \"object\" です。getData() が 42 を返す async 関数でも、await なしでは Promise { <fulfilled>: 42 } というオブジェクトが result に入ります。",
+    "steps": [
+      "getData() を呼ぶと、async 関数なので Promise オブジェクトが返る",
+      "await を付けていないため、Promise は解決されずそのまま result に代入される",
+      "typeof result → \"object\"（Promise はオブジェクトなので）",
+      "42 という数値を取り出すには await getData() または getData().then(v => ...) が必要"
+    ],
+    "common_mistakes": [
+      "「42 が返る」は誤り。await なしでは Promise オブジェクトが返る",
+      "「SyntaxError になる」は誤り。await をつけないことはエラーではない（ただしバグになりやすい）"
+    ],
+    "tips": [
+      "await の付け忘れは非常によくあるバグ。console.log で [object Promise] と表示されたら await 忘れを疑う"
+    ]
+  },
+  "paa-e-007": {
+    "lead": "直列実行（await を順番に書く）の場合、1つ終わったら次が始まるので合計時間は各処理時間の「合計（足し算）」になります。並列実行（Promise.all）の場合、全処理が同時に始まるので合計時間は「最も長い処理の時間（最大値）」になります。taskA(2秒)・taskB(3秒)・taskC(1秒)なら直列は 2+3+1=6秒、並列は max(2,3,1)=3秒 → 差は3秒です。",
+    "steps": [
+      "直列: taskA終了(2秒後)→ taskB開始・終了(2+3=5秒後)→ taskC開始・終了(5+1=6秒後)",
+      "並列: taskA・B・C が同時に開始 → 最も遅い taskB が終わる 3秒後に全て完了",
+      "差: 6秒 - 3秒 = 3秒。並列のほうが3秒速い"
+    ],
+    "common_mistakes": [
+      "「並列は合計を処理数で割った時間になる」は誤り。並列は最も遅い処理に合わせる",
+      "「並列は最も速い処理の時間になる」も誤り。全員が終わるまで待つので最大値"
+    ],
+    "tips": [
+      "独立した非同期処理を Promise.all で並列化すると最大でも最長の1処理分の時間で完了できる"
+    ]
+  },
+  "paa-e-008": {
+    "lead": "Promise.any() は全ての Promise が reject された場合のみ、AggregateError（集約エラー）で reject されます。AggregateError は複数のエラーをまとめて1つのエラーとして持つ特殊なエラーオブジェクトで、errors プロパティに各 Promise の reject 理由が配列として入っています。",
+    "steps": [
+      "p1・p2・p3 がすべて reject",
+      "Promise.any は fulfilled になる Promise がないと判断",
+      "AggregateError([p1のエラー, p2のエラー, p3のエラー]) で全体が reject される"
+    ],
+    "common_mistakes": [
+      "「最初に reject したものだけが理由になる」は誤り。AggregateError に全エラーが含まれる",
+      "「pending のまま」は誤り。全員が settle されたことを確認した後に AggregateError で reject"
+    ],
+    "tips": [
+      "AggregateError は ES2021 で追加。err.errors[0], err.errors[1]... で個別のエラーを参照できる"
+    ]
+  },
+  "paa-e-009": {
+    "lead": "async 関数 a() を呼ぶと a1 と b1 が同期的に出力されます。await b() に達したとき b() はすでに（同期的に）終わっていますが、await は常にマイクロタスクキューを経由するため a() は一時停止します。制御が呼び出し元に戻り、console.log('c') が実行されます。その後マイクロタスクとして a2 が再開されます。順序: a1 → b1 → c → a2。",
+    "steps": [
+      "a() 呼び出し → console.log('a1') → 「a1」出力",
+      "await b() → b() が呼ばれる → console.log('b1') → 「b1」出力 → b() は async なので Promise を返して即終了",
+      "await でその Promise を待つ → a() が一時停止、制御が呼び出し元に戻る",
+      "console.log('c') → 「c」出力",
+      "b() の Promise が解決されたのでマイクロタスクとして a() 再開 → console.log('a2') → 「a2」出力"
+    ],
+    "common_mistakes": [
+      "「a() 自体が async なので最初から非同期になる」は誤り。await に到達するまでは同期実行",
+      "「await b() で b の中身も非同期になる」は誤り。b() 内は通常通り同期的に実行される"
+    ],
+    "tips": [
+      "「await の前は同期、await の後はマイクロタスク」を意識してコードをトレースする"
+    ]
+  },
+  "paa-e-010": {
+    "lead": "then() のコールバック内で throw すると、その then が返す Promise が reject されます。次の then() は reject されているためスキップされ、catch() に処理が移ります。この問題では最初の then で throw new Error('エラー1') が実行され、Promise が reject になります。次の then はスキップされ catch がエラー1 を受け取ります。",
+    "steps": [
+      "Promise.resolve() → fulfilled",
+      ".then(() => { throw new Error('エラー1'); }) → throw が発生 → この then の Promise が reject される",
+      ".then(() => { throw new Error('エラー2'); }) → 前の Promise が reject なのでスキップ",
+      ".catch(e => console.log(e.message)) → e.message は 'エラー1' → 「エラー1」が出力"
+    ],
+    "common_mistakes": [
+      "「エラー2 が出力される」は誤り。2番目の then は reject をスキップして実行されない",
+      "「then 内の throw は catch に届かない」は誤り。then 内の throw は必ず次の catch が受け取る"
+    ],
+    "tips": [
+      "エラーが発生すると、そのエラーは最初に現れる catch に到達するまで then をスキップして流れ続ける"
+    ]
+  }
+}
