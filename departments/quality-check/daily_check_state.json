@@ -1,6 +1,6 @@
 {
-  "unit_index": 38,
-  "question_index": 10,
+  "unit_index": 57,
+  "question_index": 0,
   "batch_size": 10,
   "total_units": 93,
   "units": [
@@ -470,6 +470,7 @@
       "count": 30
     }
   ],
-  "last_run": "2026-07-04",
+  "last_run": "2026-07-08",
+  "_note": "This run processed atp-021~atp-030 (exam difficulty, 10/10), completing 1A/geometry-and-measure/advanced-trigonometric-problems (30/30). Advanced unit_index to 57 (next unit: 1A/geometry-properties/basic-plane-figures), question_index reset to 0. Confirmed via full-file Read (not bash) that all 4 fixes from the PREVIOUS run (atp-012, atp-013, atp-015, atp-016) are correctly persisted in questions.json/explanations.json. Found and fixed 4 more real issues this run: (1) atp-021 choice C had a giveaway meta-hint in trailing parens '(一般の三角形でも成り立つ)' that directly told the student the stated claim was false — removed the parenthetical, left the false belief unlabeled. (2) atp-022 choice C was non-computational ('r/Rの計算で除算を誤る' with no actual wrong value shown, unlike every sibling choice in this unit which gives a concrete wrong number) — rewrote to show a genuine wrong calculation (multiplying instead of taking the reciprocal: r/R = abc/(4s)). (3) atp-025 choice C ended mid-sentence with no verb ('中心を原点 (0,0)') — completed it into a full sentence with a concrete (wrong) final circle equation. (4) atp-030 choice B was a real duplicate-correct-answer bug: it carried out a mathematically VALID alternate derivation (a cosB=b cosA + law of sines → tanA=tanB, which is equivalent to a=b) and even had an explicit giveaway label '(正しい別解)' confirming it was meant to be correct too, while only 'A' was marked as the answer — rewrote B to contain a genuine algebra error (illegally canceling a and b before their equality is established) reaching a distinct wrong conclusion (equilateral triangle). Updated explanations.json wrong_answers for all 4 to match. FLAGGED, NOT FIXED — atp-027 (1A/geometry-and-measure/advanced-trigonometric-problems, correct='D'): the question's own premises (B=2C AND b=2c simultaneously) are mathematically contradictory — combining them via law of sines forces cosC=1 (C=0°, degenerate), which choices A/B/C all correctly derive and reject. The 'correct' choice D does not actually derive A=60° from valid steps; it hand-waves ('正弦定理条件と合わせて A = 60° を導く') and the explanations.json lead/steps for atp-027 admit the same gap ('A = 60° が成立するか確認' — never actually shown). This means NO choice is a valid, fully-derived answer as written; the question needs its given numeric conditions redesigned (a problem-generation-level task, not a text edit) rather than a quick choice-text fix, so it was left unchanged and is reported here for a future session to redesign with fresh, self-consistent given values. SANDBOX CAVEAT (same as previous run): tools/final_check.py and bash-mounted python json.load both failed/returned stale content again this session (bash mount of curriculum/ appears to be a session-start snapshot that doesn't see edits made via the file-editing tool). Verified JSON validity manually via the Read tool instead (full file re-read after each edit, brace/comma/quote balance checked by eye); all edits were narrow text-only string replacements that did not touch structural characters. Recommend investigating why the bash sandbox mount for this project never reflects same-session file edits — this has now blocked automated validation for two runs in a row.",
   "completed": false
 }

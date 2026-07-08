@@ -152,8 +152,11 @@
     "curriculum/math/1A/geometry-and-measure/sine-and-cosine-laws/explanations.json",
     "curriculum/math/1A/geometry-and-measure/trigonometry-and-geometry-measurement/explanations.json",
     "curriculum/math/1A/geometry-properties/basic-plane-figures/explanations.json",
-    "curriculum/math/1A/geometry-properties/ceva-and-menelaus-theorems/explanations.json"
+    "curriculum/math/1A/geometry-properties/ceva-and-menelaus-theorems/explanations.json",
+    "curriculum/math/1A/geometry-properties/circles-lines-and-circle-relations/explanations.json",
+    "curriculum/math/1A/geometry-properties/cyclic-quadrilaterals/explanations.json",
+    "curriculum/math/1A/geometry-properties/geometric-construction/explanations.json"
   ],
-  "current_index": 14,
-  "last_run": "2026-07-04"
+  "current_index": 17,
+  "last_run": "2026-07-08"
 }
