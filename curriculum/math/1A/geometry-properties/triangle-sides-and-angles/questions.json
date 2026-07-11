@@ -788,23 +788,23 @@
     {
       "id": "tsa-029",
       "difficulty": "exam",
-      "question": "三角形の3辺 a=p²+pq, b=pq+q², c=p²-q²+pq の場合(p>q>0)、最大角を求めよ。",
+      "question": "三角形の3辺 a=p²+pq+q², b=2pq+q², c=p²-q² の場合(p>q>0)、最大角を求めよ。",
       "choices": [
         {
           "label": "A",
-          "text": "a+b = p²+2pq+q²=(p+q)²"
+          "text": "a-b=p(p-q)>0、a-c=q(p+2q)>0(p>q>0のため)よりaが最大辺。余弦定理cosA=(b²+c²-a²)/(2bc)を計算すると-1/2 → ∠A=120°"
         },
         {
           "label": "B",
-          "text": "最大辺の対角が最大角。各辺の大小比較が先決"
+          "text": "cosA=(b²+c²+a²)/(2bc)のように符号を間違えて計算する"
         },
         {
           "label": "C",
-          "text": "c = p²-q²+pq < a,b のとき ∠C が最小角"
+          "text": "最大辺をbと誤認し、cosBを計算してしまう"
         },
         {
           "label": "D",
-          "text": "最大角 = 120°(パターンで予測)"
+          "text": "最大角 = 120°(計算せず値のパターンで予測する)"
         }
       ],
       "correct": "A",

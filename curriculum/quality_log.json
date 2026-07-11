@@ -26,5 +26,19 @@
     "checked_at": "2026-07-08",
     "question_count": 30,
     "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-properties/solid-geometry",
+    "status": "passed",
+    "checked_at": "2026-07-09",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/geometry-properties/triangle-ratios-and-centers",
+    "status": "passed",
+    "checked_at": "2026-07-10",
+    "question_count": 30,
+    "notes": ""
   }
 ]
