@@ -3,6 +3,7 @@ import { useAuth } from './hooks/useAuth'
 import { useState, useCallback, useEffect } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
 import LoginPage from './pages/LoginPage'
+import PreviewPage from './pages/PreviewPage'
 import SubjectPage from './pages/SubjectPage'
 import CoursePage from './pages/CoursePage'
 import QuizPage from './pages/QuizPage'
@@ -85,13 +86,17 @@ export default function App() {
       <MagicCircle />
       <SchoolTypeGuard>
         <Routes>
+          {/* "/" と "/preview" はログイン不要の公開ページ（AdSense審査・SEO対策上、
+              未ログイン訪問者を必ずログイン壁の外側の実コンテンツに着地させる） */}
+          <Route path="/" element={user ? <Navigate to="/subject" replace /> : <PreviewPage />} />
+          <Route path="/preview" element={<PreviewPage />} />
           <Route path="/login" element={user ? <Navigate to="/subject" replace /> : <LoginPage />} />
           <Route path="/subject" element={<ProtectedRoute><SubjectPage /></ProtectedRoute>} />
           <Route path="/course/:subject" element={<ProtectedRoute><CoursePage /></ProtectedRoute>} />
           <Route path="/quiz/:subject" element={<ProtectedRoute><QuizPage /></ProtectedRoute>} />
           <Route path="/profile" element={<ProtectedRoute><ProfilePage /></ProtectedRoute>} />
           <Route path="/ranking" element={<ProtectedRoute><RankingPage /></ProtectedRoute>} />
-          <Route path="*" element={<Navigate to={user ? '/subject' : '/login'} replace />} />
+          <Route path="*" element={<Navigate to={user ? '/subject' : '/preview'} replace />} />
         </Routes>
       </SchoolTypeGuard>
       {user && <BottomNav />}
