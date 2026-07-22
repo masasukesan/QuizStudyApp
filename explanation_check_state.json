@@ -158,8 +158,19 @@
     "curriculum/math/1A/geometry-properties/geometric-construction/explanations.json",
     "curriculum/math/1A/geometry-properties/solid-geometry/explanations.json",
     "curriculum/math/1A/geometry-properties/triangle-ratios-and-centers/explanations.json",
-    "curriculum/math/1A/geometry-properties/triangle-sides-and-angles/explanations.json"
+    "curriculum/math/1A/geometry-properties/triangle-sides-and-angles/explanations.json",
+    "curriculum/math/1A/logic-and-sets/propositions-and-conditions/explanations.json",
+    "curriculum/math/1A/logic-and-sets/propositions-and-proofs/explanations.json",
+    "curriculum/math/1A/logic-and-sets/set-theory-basics/explanations.json",
+    "curriculum/math/1A/number-theory/congruences/explanations.json",
+    "curriculum/math/1A/number-theory/divisors-and-multiples/explanations.json",
+    "curriculum/math/1A/number-theory/euclidean-algorithm-and-diophantine/explanations.json",
+    "curriculum/math/1A/number-theory/fractions-decimals-and-bases/explanations.json",
+    "curriculum/math/1A/number-theory/integer-division-and-remainder/explanations.json",
+    "curriculum/math/1A/number-theory/integer-solution-problems/explanations.json",
+    "curriculum/math/1A/numbers-and-expressions/factorization/explanations.json",
+    "curriculum/math/1A/numbers-and-expressions/linear-inequalities/explanations.json"
   ],
-  "current_index": 20,
-  "last_run": "2026-07-11"
+  "current_index": 31,
+  "last_run": "2026-07-22"
 }

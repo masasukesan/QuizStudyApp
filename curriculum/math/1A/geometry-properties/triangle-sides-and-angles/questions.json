@@ -149,7 +149,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "最大辺はc=5。最大角は∠C(辺cの対角)。また5²=3²+4²=25なので∠C=90°"
+          "text": "最大辺はc=5。最大角は∠C(辺cの対角)"
         },
         {
           "label": "B",
@@ -205,7 +205,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "S = (1/2)ah。また S = (1/2)ab sinC(2辺とその間の角を使う公式)"
+          "text": "S = (1/2)ah。また S = (1/2)ab sinC"
         },
         {
           "label": "B",
@@ -345,11 +345,11 @@
       "choices": [
         {
           "label": "A",
-          "text": "S = (1/2)ab sinC = (1/2)×5×6×(√3/2) = 15√3/2"
+          "text": "S = (1/2)ab sinC = (1/2)×5×6×(√3/2) = 15√3/2。c = √31"
         },
         {
           "label": "B",
-          "text": "S = (1/2)×5×6 = 15。c = √31"
+          "text": "S = (1/2)×5×6 = 15。c² = 5²+6² = 61 → c = √61"
         },
         {
           "label": "C",
@@ -513,7 +513,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "∠A+∠B+∠C=180°より各角: 30°:45°:105°"
+          "text": "各角30°:45°:105°。a:b:c=sin30°:sin45°:sin105°"
         },
         {
           "label": "B",
@@ -569,7 +569,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "①s=12"
+          "text": "①ヘロン:S=12√5 ②余弦定理:cosC=2/7→S=12√5(一致)"
         },
         {
           "label": "B",
@@ -596,7 +596,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "正弦定理: a=2RsinA"
+          "text": "sinA=a/(2R)を面積公式に代入:S=(1/2)bc×a/(2R)=abc/(4R)"
         },
         {
           "label": "B",
@@ -624,7 +624,7 @@
       "choices": [
         {
           "label": "A",
-          "text": "∠A、a、b既知のとき: a < b sinA のとき解なし"
+          "text": "a<bsinA:0個、a=bsinAか a≥b:1個、bsinA<a<b:2個"
         },
         {
           "label": "B",
@@ -796,11 +796,11 @@
         },
         {
           "label": "B",
-          "text": "cosA=(b²+c²+a²)/(2bc)のように符号を間違えて計算する"
+          "text": "cosA=(b²+c²+a²)/(2bc)"
         },
         {
           "label": "C",
-          "text": "最大辺をbと誤認し、cosBを計算してしまう"
+          "text": "最大辺はbとして、cosB=(a²+c²-b²)/(2ac)を計算する"
         },
         {
           "label": "D",

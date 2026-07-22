@@ -21,23 +21,114 @@
     "notes": ""
   },
   {
+    "path": "curriculum/math/1A/geometry-properties/triangle-ratios-and-centers",
+    "status": "passed",
+    "checked_at": "2026-07-10",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
     "path": "curriculum/math/1A/geometry-properties/geometric-construction",
     "status": "passed",
-    "checked_at": "2026-07-08",
+    "checked_at": "2026-07-12",
     "question_count": 30,
     "notes": ""
   },
   {
     "path": "curriculum/math/1A/geometry-properties/solid-geometry",
     "status": "passed",
-    "checked_at": "2026-07-09",
+    "checked_at": "2026-07-13",
     "question_count": 30,
     "notes": ""
   },
   {
-    "path": "curriculum/math/1A/geometry-properties/triangle-ratios-and-centers",
+    "path": "curriculum/math/1A/logic-and-sets/set-theory-basics",
     "status": "passed",
-    "checked_at": "2026-07-10",
+    "checked_at": "2026-07-14",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/number-theory/congruences",
+    "status": "passed",
+    "checked_at": "2026-07-15",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/number-theory/divisors-and-multiples",
+    "status": "passed",
+    "checked_at": "2026-07-16",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/logic-and-sets/propositions-and-proofs",
+    "status": "passed",
+    "checked_at": "2026-07-16",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/number-theory/euclidean-algorithm-and-diophantine",
+    "status": "passed",
+    "checked_at": "2026-07-17",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/2B/calculus-basics/area-by-integration",
+    "status": "passed",
+    "checked_at": "2026-07-17",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/number-theory/fractions-decimals-and-bases",
+    "status": "passed",
+    "checked_at": "2026-07-18",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/number-theory/integer-division-and-remainder",
+    "status": "passed",
+    "checked_at": "2026-07-19",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/number-theory/integer-solution-problems",
+    "status": "passed",
+    "checked_at": "2026-07-20",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/numbers-and-expressions/factorization",
+    "status": "passed",
+    "checked_at": "2026-07-21",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/numbers-and-expressions/polynomial-operations",
+    "status": "passed",
+    "checked_at": "2026-07-22",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/numbers-and-expressions/linear-inequalities",
+    "status": "passed",
+    "checked_at": "2026-07-22",
+    "question_count": 30,
+    "notes": ""
+  },
+  {
+    "path": "curriculum/math/1A/numbers-and-expressions/real-numbers",
+    "status": "passed",
+    "checked_at": "2026-07-22",
     "question_count": 30,
     "notes": ""
   }
